@@ -1,5 +1,5 @@
 import { reduce } from '../lib/review-deck';
-import { nextDue, reviewChangedEvent, reviewCounts, todayQueue, type Grade, type ReviewChangeSource, type ReviewState, type StoredCard } from '../lib/review-state';
+import { effectiveDailyNewLimit, isDailyNewLimit, nextDue, reviewChangedEvent, reviewCounts, todayQueue, type Grade, type ReviewChangeSource, type ReviewState, type StoredCard } from '../lib/review-state';
 import { loadReviewState, saveReviewState } from '../lib/review-storage';
 
 const saveFailureMessage = '這次的紀錄沒有存進瀏覽器（可能是私密瀏覽或儲存空間已滿），離開本頁後會遺失。';
@@ -36,6 +36,8 @@ function initializeReview(root: HTMLElement) {
   const audioError = $('audio-error');
   const sources = $('sources');
   const result = $('result');
+  const settings = $('settings');
+  const limitInput = $<HTMLInputElement>('limit');
 
   let state: ReviewState | null = null;
   let current: StoredCard | null = null;
@@ -82,6 +84,8 @@ function initializeReview(root: HTMLElement) {
 
   function render() {
     window.clearTimeout(timer);
+    settings.hidden = !state;
+    if (state && document.activeElement !== limitInput) limitInput.value = String(effectiveDailyNewLimit(state));
     if (!state) {
       summary.textContent = '';
       for (const element of [empty, done, card]) element.hidden = true;
@@ -137,7 +141,26 @@ function initializeReview(root: HTMLElement) {
     if (!card.hidden) flipButton.focus({ preventScroll: true });
   }
 
+  function changeLimit() {
+    const limit = limitInput.value.trim() === '' ? NaN : Number(limitInput.value);
+    const latest = reload();
+    if (!latest) return render();
+    if (!isDailyNewLimit(limit) || limit === null) {
+      // 不合法的輸入（空白、小數、超出 1–50）不寫入，輸入框退回目前的設定。
+      limitInput.value = String(effectiveDailyNewLimit(latest));
+      return;
+    }
+    state = reduce(latest, { type: 'SET_DAILY_NEW_LIMIT', limit });
+    const saved = saveReviewState(state);
+    if (!saved.ok) console.error('Failed to save review state', saved.error);
+    warning.textContent = saved.ok ? '' : saveFailureMessage;
+    warning.hidden = saved.ok;
+    render();
+    document.dispatchEvent(new CustomEvent<ReviewChangeSource>(reviewChangedEvent, { detail: 'review-page' }));
+  }
+
   flipButton.addEventListener('click', flip);
+  limitInput.addEventListener('change', changeLimit);
   for (const kind of ['again', 'good'] as const) {
     root.querySelector<HTMLButtonElement>(`[data-review-grade="${kind}"]`)!.addEventListener('click', () => grade(kind));
   }

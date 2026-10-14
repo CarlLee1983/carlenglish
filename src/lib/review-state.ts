@@ -14,13 +14,15 @@ export interface StoredCard {
   content: CardContent;
   sources: CardSource[];
   schedule: StoredSchedule;
+  /** 第一次被評分的時間（ISO）；null 表示從未評分，仍是新卡。每日新卡額度以它計算。 */
+  firstReviewedAt: string | null;
 }
 
 export interface ReviewState {
   version: 1;
   cards: StoredCard[];
   lastExportedAt: string | null;
-  /** 每日新卡上限；null 表示使用預設值（工單 06 才會使用）。 */
+  /** 每日新卡上限；null 表示使用預設值（defaultDailyNewLimit）。 */
   dailyNewLimit: number | null;
   /** 詞表訂閱；目前一律為空陣列，元素形狀留給工單 07。 */
   subscriptions: never[];
@@ -42,39 +44,73 @@ export function cardKey(content: Pick<CardContent, 'english' | 'meaning'>): stri
 
 export const sameSource = (a: CardSource, b: CardSource) => a.kind === b.kind && a.id === b.id;
 
+export const defaultDailyNewLimit = 10;
+export const minDailyNewLimit = 1;
+export const maxDailyNewLimit = 50;
+
+/** 每日新卡上限的唯一驗證：null（預設）或 1–50 的整數。 */
+export const isDailyNewLimit = (value: unknown): value is number | null => value === null
+  || (Number.isInteger(value) && (value as number) >= minDailyNewLimit && (value as number) <= maxDailyNewLimit);
+
+export const effectiveDailyNewLimit = (state: ReviewState): number => state.dailyNewLimit ?? defaultDailyNewLimit;
+
+const isNewCard = (card: StoredCard) => card.firstReviewedAt === null;
+
+const startOfLocalDay = (date: Date, offsetDays = 0) => new Date(date.getFullYear(), date.getMonth(), date.getDate() + offsetDays);
+
+/** 今天（本地時間日界）還能發出的新卡張數：上限減去今天第一次被評分的卡數。 */
+function newCardAllowance(state: ReviewState, now: Date): number {
+  const start = startOfLocalDay(now).getTime();
+  const end = startOfLocalDay(now, 1).getTime();
+  const startedToday = state.cards.filter((card) => {
+    if (card.firstReviewedAt === null) return false;
+    const time = new Date(card.firstReviewedAt).getTime();
+    return time >= start && time < end;
+  }).length;
+  return Math.max(0, effectiveDailyNewLimit(state) - startedToday);
+}
+
+/** 到期的舊卡全部出現，不受上限；新卡依加入先後，只取今天剩餘額度。 */
 export function todayQueue(state: ReviewState, now: Date): StoredCard[] {
-  return state.cards.filter((card) => new Date(card.schedule.due).getTime() <= now.getTime());
+  const due = state.cards.filter((card) => new Date(card.schedule.due).getTime() <= now.getTime());
+  const newCards = due.filter(isNewCard).slice(0, newCardAllowance(state, now));
+  return [...due.filter((card) => !isNewCard(card)), ...newCards];
 }
 
 export interface ReviewCounts {
-  /** 到今天（本地時間）結束前會到期的卡，含新卡與稍後才到期的學習步驟。 */
+  /** 到今天（本地時間）結束前會到期的卡，含新卡（只算到今天額度為止）與稍後才到期的學習步驟。 */
   due: number;
-  /** due 之中從未複習過的新卡。 */
+  /** due 之中從未複習過的新卡，已受每日上限限制。 */
   newCards: number;
   /** due 之中現在還沒到期、今天稍後才到期的張數。 */
   laterToday: number;
   /** laterToday 之中最早到期的時間，沒有則為 null。 */
   nextLaterToday: Date | null;
-  /** 明天（本地時間）到期。 */
+  /** 明天（本地時間）預計到期：明天到期的舊卡，加上順延、明天可發出的新卡。 */
   tomorrow: number;
 }
 
 export function reviewCounts(state: ReviewState, now: Date): ReviewCounts {
-  const startOfTomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
-  const startOfDayAfter = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 2);
-  const dueToday = state.cards.filter((card) => new Date(card.schedule.due).getTime() < startOfTomorrow.getTime());
-  const later = dueToday.map((card) => new Date(card.schedule.due))
+  const startOfTomorrow = startOfLocalDay(now, 1);
+  const startOfDayAfter = startOfLocalDay(now, 2);
+  const dueTodayOld = state.cards.filter((card) => !isNewCard(card) && new Date(card.schedule.due).getTime() < startOfTomorrow.getTime());
+  const dueNew = state.cards.filter((card) => isNewCard(card) && new Date(card.schedule.due).getTime() < startOfTomorrow.getTime());
+  const newToday = Math.min(dueNew.length, newCardAllowance(state, now));
+  const later = dueTodayOld.map((card) => new Date(card.schedule.due))
     .filter((date) => date.getTime() > now.getTime())
     .sort((a, b) => a.getTime() - b.getTime());
+  const dueTomorrow = state.cards.filter((card) => {
+    const time = new Date(card.schedule.due).getTime();
+    return time >= startOfTomorrow.getTime() && time < startOfDayAfter.getTime();
+  }).length;
+  // 假設今天發出的新卡都學完，被順延的新卡明天最多再發一個上限。
+  const carriedOver = Math.min(effectiveDailyNewLimit(state), dueNew.length - newToday);
   return {
-    due: dueToday.length,
-    newCards: dueToday.filter((card) => !card.schedule.last_review).length,
+    due: dueTodayOld.length + newToday,
+    newCards: newToday,
     laterToday: later.length,
     nextLaterToday: later[0] ?? null,
-    tomorrow: state.cards.filter((card) => {
-      const time = new Date(card.schedule.due).getTime();
-      return time >= startOfTomorrow.getTime() && time < startOfDayAfter.getTime();
-    }).length,
+    tomorrow: dueTomorrow + carriedOver,
   };
 }
 
@@ -125,10 +161,8 @@ function isStoredCard(value: unknown): boolean {
   const { content } = value;
   return isText(content.english) && isText(content.meaning) && isTextOrNull(content.example) && isInternalPathOrNull(content.audioSrc)
     && value.key === cardKey({ english: content.english, meaning: content.meaning })
-    && value.sources.every(isSource) && isSchedule(value.schedule);
+    && value.sources.every(isSource) && isSchedule(value.schedule) && (value.firstReviewedAt === null || isDate(value.firstReviewedAt));
 }
-
-const isDailyNewLimit = (value: unknown) => value === null || (Number.isInteger(value) && (value as number) >= 1 && (value as number) <= 50);
 
 /** 狀態形狀的唯一驗證：本機儲存讀回與備份匯入共用。 */
 export function parseReviewState(value: unknown): { ok: true; state: ReviewState } | { ok: false } {

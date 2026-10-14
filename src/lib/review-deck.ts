@@ -1,12 +1,13 @@
 import { Rating, createEmptyCard, fsrs, type Card } from 'ts-fsrs';
-import { cardKey, sameSource, type CardContent, type CardSource, type Grade, type ReviewState, type StoredCard, type StoredSchedule } from './review-state.ts';
+import { cardKey, isDailyNewLimit, sameSource, type CardContent, type CardSource, type Grade, type ReviewState, type StoredCard, type StoredSchedule } from './review-state.ts';
 
 // 這個模組是唯一需要 ts-fsrs 的地方；不需要排程演算法的純函式都在 review-state.ts，讓每頁載入的腳本不必帶進 ts-fsrs。
 
 export type Action =
   | { type: 'ADD_CARD'; card: CardContent; source: CardSource; now: Date }
   | { type: 'REMOVE_CARD'; cardKey: string; source: CardSource }
-  | { type: 'GRADE'; cardKey: string; grade: Grade; now: Date };
+  | { type: 'GRADE'; cardKey: string; grade: Grade; now: Date }
+  | { type: 'SET_DAILY_NEW_LIMIT'; limit: number | null };
 
 const scheduler = fsrs();
 
@@ -27,7 +28,7 @@ export function reduce(state: ReviewState, action: Action): ReviewState {
         const merged = { ...existing, sources: [...existing.sources, { ...action.source }] };
         return { ...state, cards: state.cards.map((candidate) => (candidate === existing ? merged : candidate)) };
       }
-      const card: StoredCard = { key, content: { ...action.card }, sources: [{ ...action.source }], schedule: newSchedule(action.now) };
+      const card: StoredCard = { key, content: { ...action.card }, sources: [{ ...action.source }], schedule: newSchedule(action.now), firstReviewedAt: null };
       return { ...state, cards: [...state.cards, card] };
     }
     case 'REMOVE_CARD': {
@@ -35,7 +36,7 @@ export function reduce(state: ReviewState, action: Action): ReviewState {
       if (!target) return state;
       const sources = target.sources.filter((source) => !sameSource(source, action.source));
       if (sources.length === target.sources.length) return state;
-      if (sources.length === 0 && !target.schedule.last_review) return { ...state, cards: state.cards.filter((candidate) => candidate !== target) };
+      if (sources.length === 0 && target.firstReviewedAt === null) return { ...state, cards: state.cards.filter((candidate) => candidate !== target) };
       return { ...state, cards: state.cards.map((candidate) => (candidate === target ? { ...target, sources } : candidate)) };
     }
     case 'GRADE': {
@@ -43,9 +44,11 @@ export function reduce(state: ReviewState, action: Action): ReviewState {
       if (!target) return state;
       const rating = action.grade === 'again' ? Rating.Again : Rating.Good;
       const { card } = scheduler.next(target.schedule, action.now, rating);
-      const graded: StoredCard = { ...target, schedule: serializeSchedule(card) };
+      const graded: StoredCard = { ...target, schedule: serializeSchedule(card), firstReviewedAt: target.firstReviewedAt ?? action.now.toISOString() };
       return { ...state, cards: state.cards.map((candidate) => (candidate === target ? graded : candidate)) };
     }
+    case 'SET_DAILY_NEW_LIMIT':
+      return isDailyNewLimit(action.limit) && action.limit !== state.dailyNewLimit ? { ...state, dailyNewLimit: action.limit } : state;
     default:
       return state;
   }

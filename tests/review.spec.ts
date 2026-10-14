@@ -173,6 +173,8 @@ test.describe('navigation entry', () => {
         for (let index = 0; index < count; index++) {
           state = reduce(state, { type: 'ADD_CARD', card: { english: `word${index}`, meaning: `意思${index}`, example: null, audioSrc: null }, source: { kind: 'scene', id: scene.id, title: scene.title, href: scenePath }, now });
         }
+        // 新卡受每日上限限制；這裡要測的是徽章寬度，所以把卡片標成已學過的到期舊卡。
+        state = { ...state, cards: state.cards.map((card) => ({ ...card, firstReviewedAt: now.toISOString() })) };
         await page.evaluate((raw) => localStorage.setItem('carlenglish.review', raw), JSON.stringify(state));
         await page.reload();
         await expect(badge(page)).toHaveText(shown);
@@ -649,5 +651,63 @@ test.describe('review page', () => {
       const box = await page.getByRole('button', { name, exact: true }).boundingBox();
       expect(box!.height, name).toBeGreaterThanOrEqual(44);
     }
+  });
+});
+
+test.describe('daily new-card limit', () => {
+  const limitInput = (page: Page) => page.getByLabel('每天新卡上限');
+  const front = (page: Page) => page.locator('[data-review-front]');
+
+  test('defaults to 10 and rejects values outside 1 to 50', async ({ page }) => {
+    await page.clock.install({ time: startTime });
+    await addFromScene(page, first);
+    await page.goto('/review/');
+    await expect(limitInput(page)).toHaveValue('10');
+    await limitInput(page).fill('51');
+    await limitInput(page).blur();
+    await expect(limitInput(page)).toHaveValue('10');
+    await limitInput(page).fill('25');
+    await limitInput(page).blur();
+    await page.reload();
+    await expect(limitInput(page)).toHaveValue('25');
+  });
+
+  test('cards beyond the limit wait until the next day, without more being handed out on reload', async ({ page }) => {
+    await page.clock.install({ time: startTime });
+    await addFromScene(page, first, second);
+    await page.goto('/review/');
+    await expect(page.getByText('今天到期 2 張，其中新卡 2 張')).toBeVisible();
+    await limitInput(page).fill('1');
+    await limitInput(page).blur();
+    await expect(page.getByText('今天到期 1 張，其中新卡 1 張')).toBeVisible();
+    await expect(page.locator('[data-review-badge]')).toHaveText('1');
+    await expect(front(page)).toHaveText(first.english);
+
+    await flip(page);
+    await page.getByRole('button', { name: '想起來了' }).click();
+    await page.clock.fastForward(minutes(11));
+    await flip(page);
+    await page.getByRole('button', { name: '想起來了' }).click();
+    await expect(page.getByText('今天的複習完成了')).toBeVisible();
+    await page.reload();
+    await expect(page.getByText('今天的複習完成了')).toBeVisible();
+    await expect(page.getByText('明天預計有 1 張到期')).toBeVisible();
+
+    await page.clock.setFixedTime(new Date(startTime.getTime() + day));
+    await page.reload();
+    await expect(front(page)).toHaveText(second.english);
+    await expect(page.getByText('今天到期 1 張，其中新卡 1 張')).toBeVisible();
+  });
+
+  test('the limit is kept in the backup file', async ({ page }) => {
+    await page.clock.install({ time: startTime });
+    await addFromScene(page, first);
+    await page.goto('/review/');
+    await limitInput(page).fill('7');
+    await limitInput(page).blur();
+    const downloading = page.waitForEvent('download');
+    await page.getByRole('button', { name: '匯出備份', exact: true }).click();
+    const file = JSON.parse(readFileSync(await (await downloading).path(), 'utf8'));
+    expect(file.state.dailyNewLimit).toBe(7);
   });
 });

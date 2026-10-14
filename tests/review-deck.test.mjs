@@ -215,3 +215,84 @@ test('adding the same word and meaning from another source merges into one card 
   assert.deepEqual(queue[0].content, coffee);
   assert.deepEqual(queue[0].sources, [sceneSource, articleSource]);
 });
+
+const wordsOf = (count) => Array.from({ length: count }, (_, index) => ({ english: `word${index}`, meaning: `字${index}`, example: null, audioSrc: null }));
+const addAll = (state, words, at) => words.reduce((acc, card) => reduce(acc, { type: 'ADD_CARD', card, source: sceneSource, now: at }), state);
+const englishOf = (queue) => queue.map((card) => card.content.english);
+const nextMorning = new Date(2026, 9, 15, 8, 0, 0);
+
+test('only the default 10 new cards are offered per day, oldest first', () => {
+  const state = addAll(emptyState(), wordsOf(13), now);
+  assert.deepEqual(englishOf(todayQueue(state, now)), wordsOf(10).map((card) => card.english));
+  const counts = reviewCounts(state, now);
+  assert.equal(counts.due, 10);
+  assert.equal(counts.newCards, 10);
+});
+
+test('a custom limit applies, and the daily limit setting is validated by the reducer', () => {
+  let state = addAll(emptyState(), wordsOf(5), now);
+  state = reduce(state, { type: 'SET_DAILY_NEW_LIMIT', limit: 2 });
+  assert.equal(state.dailyNewLimit, 2);
+  assert.equal(todayQueue(state, now).length, 2);
+  assert.equal(reviewCounts(state, now).due, 2);
+  for (const bad of [0, 51, 1.5, NaN, '5']) assert.equal(reduce(state, { type: 'SET_DAILY_NEW_LIMIT', limit: bad }), state, String(bad));
+  assert.equal(reduce(state, { type: 'SET_DAILY_NEW_LIMIT', limit: null }).dailyNewLimit, null);
+});
+
+test('cards graded today use up the day\'s new-card allowance, so refreshing does not hand out more', () => {
+  const words = wordsOf(5);
+  let state = reduce(addAll(emptyState(), words, now), { type: 'SET_DAILY_NEW_LIMIT', limit: 2 });
+  state = reduce(state, { type: 'GRADE', cardKey: cardKey(words[0]), grade: 'again', now });
+  state = reduce(state, { type: 'GRADE', cardKey: cardKey(words[1]), grade: 'again', now });
+  const later = new Date(now.getTime() + minutes(11));
+  assert.deepEqual(englishOf(todayQueue(state, later)), ['word0', 'word1']);
+  assert.equal(reviewCounts(state, later).newCards, 0);
+});
+
+test('overflow cards are carried over and come in order on following days', () => {
+  const words = wordsOf(5);
+  let state = reduce(addAll(emptyState(), words, now), { type: 'SET_DAILY_NEW_LIMIT', limit: 2 });
+  for (const card of words.slice(0, 2)) state = reduce(state, { type: 'GRADE', cardKey: cardKey(card), grade: 'good', now });
+  // 當天晚上：word0／word1 的學習步驟早已到期，但新卡額度用完，word2 起不發。
+  assert.deepEqual(englishOf(todayQueue(state, new Date(2026, 9, 14, 23, 0, 0))), ['word0', 'word1']);
+  assert.deepEqual(englishOf(todayQueue(state, nextMorning)), ['word0', 'word1', 'word2', 'word3']);
+  assert.equal(reviewCounts(state, nextMorning).newCards, 2);
+});
+
+test('due old cards are never held back by the limit', () => {
+  const words = wordsOf(4);
+  let state = reduce(addAll(emptyState(), words, now), { type: 'SET_DAILY_NEW_LIMIT', limit: 1 });
+  state = addAll(state, wordsOf(6).slice(4), now);
+  for (const card of words) state = reduce(state, { type: 'GRADE', cardKey: cardKey(card), grade: 'again', now });
+  const later = new Date(now.getTime() + minutes(11));
+  // 額度（1）已被今天學過的 4 張用完：4 張舊卡全部出現，新卡一張都不發。
+  assert.deepEqual(englishOf(todayQueue(state, later)), words.map((card) => card.english));
+  assert.equal(reviewCounts(state, later).due, 4);
+});
+
+test('the first grade stamps firstReviewedAt once and later grades keep it', () => {
+  const state = reduce(emptyState(), { type: 'ADD_CARD', card: coffee, source: sceneSource, now });
+  assert.equal(state.cards[0].firstReviewedAt, null);
+  const first = reduce(state, { type: 'GRADE', cardKey: key, grade: 'again', now });
+  assert.equal(first.cards[0].firstReviewedAt, now.toISOString());
+  const second = reduce(first, { type: 'GRADE', cardKey: key, grade: 'good', now: new Date(now.getTime() + minutes(11)) });
+  assert.equal(second.cards[0].firstReviewedAt, now.toISOString());
+});
+
+test('tomorrow\'s count includes the carried-over new cards up to the limit', () => {
+  const state = reduce(addAll(emptyState(), wordsOf(5), now), { type: 'SET_DAILY_NEW_LIMIT', limit: 2 });
+  assert.equal(reviewCounts(state, now).tomorrow, 2);
+});
+
+test('firstReviewedAt is validated in stored state and survives a backup round trip', () => {
+  const graded = reduce(reduce(emptyState(), { type: 'ADD_CARD', card: coffee, source: sceneSource, now }), { type: 'GRADE', cardKey: key, grade: 'good', now });
+  const parsed = parseBackup(serializeBackup(graded, exportTime));
+  assert.equal(parsed.ok, true);
+  assert.equal(parsed.state.cards[0].firstReviewedAt, now.toISOString());
+  const file = JSON.parse(serializeBackup(graded, exportTime));
+  for (const value of ['yesterday', 5, undefined]) {
+    const card = { ...file.state.cards[0] };
+    if (value === undefined) delete card.firstReviewedAt; else card.firstReviewedAt = value;
+    assert.equal(parseBackup(JSON.stringify({ ...file, state: { ...file.state, cards: [card] } })).ok, false, String(value));
+  }
+});

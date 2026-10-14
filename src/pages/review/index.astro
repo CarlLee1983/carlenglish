@@ -54,6 +54,14 @@ import Layout from '../../layouts/Layout.astro';
         </div>
       </div>
     </article>
+    <section class="review-settings" data-review-settings aria-labelledby="settings-title" hidden>
+      <h2 id="settings-title">設定</h2>
+      <div class="review-backup-row">
+        <label for="daily-new-limit">每天新卡上限</label>
+        <input id="daily-new-limit" class="review-number-input" type="number" inputmode="numeric" min="1" max="50" step="1" data-review-limit />
+        <span class="review-backup-hint">1–50 張；超過的字卡會順延到之後幾天。</span>
+      </div>
+    </section>
     <p class="review-result" data-review-result role="status" aria-live="polite"></p>
     <section class="review-backup" data-review-backup aria-labelledby="backup-title" hidden>
       <h2 id="backup-title">備份</h2>
