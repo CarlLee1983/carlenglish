@@ -59,6 +59,20 @@ test('counts report today\'s due and new cards, cards due later today, and tomor
   assert.equal(counts.nextLaterToday.getTime(), nextDue(state, at(words[2])).getTime());
 });
 
+test('the same word with a different meaning becomes a separate card with its own sources', () => {
+  const issueTopic = { english: 'issue', meaning: '議題', example: null, audioSrc: null };
+  const issueRelease = { english: 'Issue', meaning: '發行', example: null, audioSrc: null };
+  let state = reduce(emptyState(), { type: 'ADD_CARD', card: issueTopic, source: sceneSource, now });
+  state = reduce(state, { type: 'ADD_CARD', card: issueRelease, source: articleSource, now });
+  state = reduce(state, { type: 'ADD_CARD', card: issueTopic, source: articleSource, now });
+  const queue = todayQueue(state, now);
+  assert.equal(queue.length, 2);
+  const topic = queue.find((card) => card.content.meaning === '議題');
+  const release = queue.find((card) => card.content.meaning === '發行');
+  assert.deepEqual(topic.sources, [sceneSource, articleSource]);
+  assert.deepEqual(release.sources, [articleSource]);
+});
+
 test('only site-internal paths and known kinds are accepted as sources', () => {
   assert.equal(isInternalHref('/scenes/cafe-breakfast/'), true);
   for (const href of ['//evil.example', 'javascript:alert(1)', 'https://evil.example/', '', 'scenes/x/']) assert.equal(isInternalHref(href), false, href);

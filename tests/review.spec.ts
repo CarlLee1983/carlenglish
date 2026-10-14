@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { expect, test, type Page } from '@playwright/test';
+import { emptyState, reduce } from '../src/lib/review-deck';
 
 type Word = { english: string; translation: string; example: string; audio: { src: string } };
 type Scene = { id: string; title: string; words: Word[] };
@@ -94,6 +95,94 @@ test.describe('add to review from a scene', () => {
     await addButton(page, first).click();
     await expect(page.getByRole('status').filter({ hasText: '無法' })).toBeVisible();
     await expect(addButton(page, first)).toHaveAttribute('aria-pressed', 'false');
+  });
+});
+
+test.describe('cards from article keywords', () => {
+  const article = JSON.parse(readFileSync(join(process.cwd(), 'content/articles/riverside-library-late-hours.json'), 'utf8')) as {
+    id: string; title: string; glossary: { english: string; translation: string }[];
+  };
+  const articlePath = `/articles/${article.id}/`;
+  const keyword = article.glossary.find((item) => item.english === 'residents')!;
+  // 例句的期望值取自文章內容的字面值：第一個含有 residents 的句子。
+  const keywordSentence = "Some residents worry that the building's parking lot is not safe at night.";
+  const keywordButton = (page: Page) => page.getByRole('button', { name: `加入複習：${keyword.english}` });
+
+  test('toggles, keeps its state after reloading, and can be cancelled', async ({ page }) => {
+    await page.goto(articlePath);
+    await expect(keywordButton(page)).toHaveText('加入複習');
+    await keywordButton(page).click();
+    await expect(keywordButton(page)).toHaveText('已加入');
+    await expect(keywordButton(page)).toHaveAttribute('aria-pressed', 'true');
+    await page.reload();
+    await expect(keywordButton(page)).toHaveText('已加入');
+    await keywordButton(page).click();
+    await expect(keywordButton(page)).toHaveText('加入複習');
+    await expect(keywordButton(page)).toHaveAttribute('aria-pressed', 'false');
+    await page.reload();
+    await expect(keywordButton(page)).toHaveText('加入複習');
+  });
+
+  test('shows no add buttons without JavaScript while the keyword list stays readable', async ({ browser }) => {
+    const context = await browser.newContext({ javaScriptEnabled: false, baseURL: test.info().project.use.baseURL });
+    try {
+      const page = await context.newPage();
+      await page.goto(articlePath);
+      await expect(page.getByRole('region', { name: '關鍵詞' }).getByText(keyword.english, { exact: true })).toBeVisible();
+      await expect(page.getByRole('button', { name: /加入複習/ })).toHaveCount(0);
+    } finally {
+      await context.close();
+    }
+  });
+
+  test('the review card shows the article sentence and a link back, with no audio', async ({ page }) => {
+    await page.goto(articlePath);
+    await keywordButton(page).click();
+    await expect(keywordButton(page)).toHaveAttribute('aria-pressed', 'true');
+    await page.goto('/review/');
+    await expect(page.locator('[data-review-front]')).toHaveText(keyword.english);
+    await flip(page);
+    await expect(page.getByText(keyword.translation, { exact: true })).toBeVisible();
+    await expect(page.locator('[data-review-example]')).toHaveText(keywordSentence);
+    await expect(page.getByRole('link', { name: new RegExp(article.title) })).toHaveAttribute('href', articlePath);
+    await expect(page.getByRole('button', { name: '播放單字發音' })).toBeHidden();
+    await page.getByRole('button', { name: '想起來了' }).click();
+    await expect(page.locator('[data-review-result]')).toContainText('下次：');
+  });
+
+  test('a card added from both a scene and an article shows both source links', async ({ page }) => {
+    const content = { english: keyword.english, meaning: keyword.translation, example: keywordSentence, audioSrc: null };
+    const now = new Date();
+    let state = reduce(emptyState(), { type: 'ADD_CARD', card: content, source: { kind: 'scene', id: scene.id, title: scene.title, href: scenePath }, now });
+    state = reduce(state, { type: 'ADD_CARD', card: content, source: { kind: 'article', id: article.id, title: article.title, href: articlePath }, now });
+    expect(state.cards).toHaveLength(1);
+    await page.addInitScript((raw) => {
+      if (localStorage.getItem('carlenglish.review') === null) localStorage.setItem('carlenglish.review', raw);
+    }, JSON.stringify(state));
+    await page.goto('/review/');
+    await flip(page);
+    const links = page.locator('.review-sources a');
+    await expect(links).toHaveCount(2);
+    await expect(links.nth(0)).toHaveAttribute('href', scenePath);
+    await expect(links.nth(1)).toHaveAttribute('href', articlePath);
+    await expect(links.nth(0)).toContainText(scene.title);
+    await expect(links.nth(1)).toContainText(article.title);
+  });
+
+  test('cards from a scene and from an article each link back to their own source', async ({ page }) => {
+    await addFromScene(page, first);
+    await page.goto(articlePath);
+    await keywordButton(page).click();
+    await expect(keywordButton(page)).toHaveAttribute('aria-pressed', 'true');
+    await page.goto('/review/');
+    await expect(page.getByText('今天到期 2 張，其中新卡 2 張')).toBeVisible();
+    const hrefs: string[] = [];
+    for (let count = 0; count < 2; count++) {
+      await flip(page);
+      hrefs.push((await page.locator('.review-sources a').getAttribute('href'))!);
+      await page.getByRole('button', { name: '想起來了' }).click();
+    }
+    expect(hrefs.sort()).toEqual([articlePath, scenePath].sort());
   });
 });
 

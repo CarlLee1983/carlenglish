@@ -3,7 +3,7 @@ import { mkdtempSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
-import { ArticleContentError, articleMetrics, getArticle, loadArticles, stageGuidelines, stageWarnings, validateArticles } from '../src/lib/articles.ts';
+import { ArticleContentError, articleMetrics, getArticle, glossaryExample, loadArticles, stageGuidelines, stageWarnings, validateArticles } from '../src/lib/articles.ts';
 import { crossTypeDuplicateIds } from '../src/lib/validation.ts';
 
 const questions = () => [
@@ -159,6 +159,42 @@ test('glossary terms match from a word start, so "art" does not match "start"', 
   expectIssue(startOnly, 'glossary[0].english: ');
   const plural = mutate(news(), (a) => { a.paragraphs[0].english = 'Her eyes were tired.'; a.glossary = [{ english: 'eye', translation: '眼睛' }]; });
   assert.deepEqual(issuesOf([entry(plural)]), []);
+});
+
+test('glossaryExample returns the first sentence containing the term, across paragraphs', () => {
+  const article = {
+    paragraphs: [
+      { english: 'The mayor spoke first. Then the director arrived late.', translation: '甲' },
+      { english: 'The director left early. Everyone clapped.', translation: '乙' },
+    ],
+  };
+  assert.equal(glossaryExample(article, 'director'), 'Then the director arrived late.');
+  assert.equal(glossaryExample(article, 'Everyone'), 'Everyone clapped.');
+});
+
+test('glossaryExample ignores case, keeps the word-start boundary, and reads posts', () => {
+  const article = { paragraphs: [{ english: 'We start at nine. Her eyes were tired.', translation: '甲' }] };
+  assert.equal(glossaryExample(article, 'ART'), null);
+  assert.equal(glossaryExample(article, 'EYE'), 'Her eyes were tired.');
+  const thread = { posts: [
+    { author: '@maya', english: 'ngl the app is great', translation: '甲' },
+    { author: '@news', english: 'Big news! ICYMI: app update. Read more.', translation: '乙' },
+  ] };
+  assert.equal(glossaryExample(thread, 'ngl'), 'ngl the app is great');
+  assert.equal(glossaryExample(thread, 'icymi'), 'ICYMI: app update.');
+  assert.equal(glossaryExample(thread, 'telescope'), null);
+});
+
+test('a glossary term must be found inside one sentence, so a term spanning an abbreviation break is rejected', () => {
+  const lee = (term) => mutate(news(), (a) => {
+    a.paragraphs[0].english = 'Yesterday Mr. Lee arrived late. Dr. Kim waited.';
+    a.glossary = [{ english: term, translation: '李先生' }];
+  });
+  // Intl.Segmenter 切成 "Yesterday Mr. "、"Lee arrived late. "、"Dr. "、"Kim waited."
+  expectIssue(lee('Mr. Lee'), 'glossary[0].english: no sentence contains "Mr. Lee"');
+  assert.deepEqual(issuesOf([entry(lee('Lee'))]), []);
+  assert.equal(glossaryExample(lee('Lee'), 'Lee'), 'Lee arrived late.');
+  assert.equal(glossaryExample(lee('Lee'), 'Mr.'), 'Yesterday Mr.');
 });
 
 test('IDs shared between a scene and an article are reported with both sources', () => {

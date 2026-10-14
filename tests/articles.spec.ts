@@ -100,9 +100,9 @@ for (const article of articles) {
     await expectNoHorizontalScroll(page);
   });
 
-  test(`${article.id}: has no audio or buttons and marks English text with lang="en"`, async ({ page }) => {
+  test(`${article.id}: has no audio or pronunciation buttons (only add-to-review buttons) and marks English text with lang="en"`, async ({ page }) => {
     await page.goto(articlePath(article));
-    await expect(page.locator('audio, button')).toHaveCount(0);
+    await expect(page.locator('audio, button:not([data-review-add])')).toHaveCount(0);
     await expect(page.getByRole('heading', { level: 1, name: article.titleEn })).toHaveAttribute('lang', 'en');
     const region = body(page);
     if (article.paragraphs) await expect(region.locator('div[lang="en"]')).toHaveCount(1);

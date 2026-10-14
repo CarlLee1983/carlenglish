@@ -145,15 +145,39 @@ function posts(value: unknown, path: string, issues: string[]): Post[] {
   });
 }
 
-function glossary(value: unknown, path: string, bodyText: string, issues: string[]): GlossaryItem[] {
+/** 詞首需為單字邊界，詞尾不限，讓 eye 仍能對上 eyes，但 art 對不上 start；驗證與例句擷取共用。 */
+function glossaryPattern(english: string): RegExp {
+  return new RegExp(`(?<![\\p{L}\\p{N}])${english.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`, 'iu');
+}
+
+const sentenceSegmenter = new Intl.Segmenter('en', { granularity: 'sentence' });
+
+/** 建置時為關鍵詞決定例句：段落與貼文依序切句後，第一個含有該詞的句子；找不到為 null。 */
+export function glossaryExample(article: Pick<Article, 'paragraphs' | 'posts'>, english: string): string | null {
+  return firstSentenceContaining([...(article.paragraphs ?? []), ...(article.posts ?? [])], english);
+}
+
+function firstSentenceContaining(items: { english: string }[], english: string): string | null {
+  const pattern = glossaryPattern(english);
+  for (const item of items) {
+    for (const { segment } of sentenceSegmenter.segment(item.english)) {
+      if (pattern.test(segment)) return segment.trim();
+    }
+  }
+  return null;
+}
+
+function glossary(value: unknown, path: string, body: { english: string }[], issues: string[]): GlossaryItem[] {
   if (value === undefined) return [];
   return array(value, path, issues, 0, 8).map((raw, index) => {
     const data = record(raw, `${path}[${index}]`, issues);
     onlyFields(data, paragraphFields, `${path}[${index}]`, issues);
     const english = nonblank(data.english, `${path}[${index}].english`, issues);
-    // 詞首需為單字邊界，詞尾不限，讓 eye 仍能對上 eyes，但 art 對不上 start
-    if (english && !new RegExp(`(?<![\\p{L}\\p{N}])${english.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`, 'iu').test(bodyText)) {
+    if (english && !glossaryPattern(english).test(body.map((item) => item.english).join('\n'))) {
       issues.push(`${path}[${index}].english: "${english}" does not appear in the article text`);
+    } else if (english && firstSentenceContaining(body, english) === null) {
+      // 句子切分會在 "Mr. " 這類縮寫後斷開；例句擷取找不到時，字卡背面會缺例句，所以在內容階段就擋下。
+      issues.push(`${path}[${index}].english: no sentence contains "${english}" (a term must sit inside a single sentence)`);
     }
     return { english, translation: nonblank(data.translation, `${path}[${index}].translation`, issues) };
   });
@@ -212,7 +236,7 @@ export function validateArticles(entries: { source: string; data: unknown }[]): 
     let background: string | undefined;
     if (data.background !== undefined) background = nonblank(data.background, `${file}.background`, issues);
 
-    const bodyText = [...(body ?? []), ...(articlePosts ?? [])].map((item) => item.english).join('\n');
+    const bodyItems = [...(body ?? []), ...(articlePosts ?? [])];
     const article: Article = {
       id,
       title: nonblank(data.title, `${file}.title`, issues),
@@ -220,7 +244,7 @@ export function validateArticles(entries: { source: string; data: unknown }[]): 
       track: track as Track,
       stage,
       origin: origin as Origin,
-      glossary: glossary(data.glossary, `${file}.glossary`, bodyText, issues),
+      glossary: glossary(data.glossary, `${file}.glossary`, bodyItems, issues),
       questions: questions(data.questions, `${file}.questions`, issues),
     };
     if (articleSource) article.source = articleSource;

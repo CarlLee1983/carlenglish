@@ -1,5 +1,5 @@
 ---
-import { originLabels, trackLabels, type Article } from '../lib/articles';
+import { glossaryExample, originLabels, trackLabels, type Article } from '../lib/articles';
 interface Props { article: Article; articles: Article[] }
 const { article, articles } = Astro.props;
 const otherArticles = articles.filter((other) => other.id !== article.id);
@@ -63,11 +63,16 @@ const source = article.source;
     {article.glossary.length > 0 && (
       <section class="article-section" aria-labelledby="glossary-title">
         <h2 id="glossary-title">關鍵詞</h2>
-        <ul class="glossary-list">
+        <ul class="glossary-list" data-review-source-kind="article" data-review-source-id={article.id} data-review-source-title={article.title} data-review-source-href={`/articles/${article.id}/`}>
           {article.glossary.map((item) => (
-            <li><span class="glossary-term" lang="en">{item.english}</span><span class="learning-translation">{item.translation}</span></li>
+            <li>
+              <span class="glossary-term" lang="en">{item.english}</span>
+              <button type="button" class="review-add-button" data-review-add data-english={item.english} data-meaning={item.translation} data-example={glossaryExample(article, item.english) ?? ''} aria-label={`加入複習：${item.english}`} aria-pressed="false" hidden>加入複習</button>
+              <span class="learning-translation">{item.translation}</span>
+            </li>
           ))}
         </ul>
+        <p class="review-add-status" data-review-add-status role="status" aria-live="polite" hidden></p>
       </section>
     )}
     <section class="article-section" aria-labelledby="questions-title">
@@ -91,3 +96,4 @@ const source = article.source;
     </nav>
   </div>
 </article>
+<script>import '../scripts/review-add';</script>
