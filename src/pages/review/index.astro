@@ -1,0 +1,41 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+<Layout title="複習" description="複習你從場景加入的重點單字。" noindex>
+  <section class="page-shell review-page" data-review-root>
+    <header class="review-heading">
+      <p class="eyebrow">字卡複習</p>
+      <h1>複習</h1>
+      <p class="review-summary" data-review-summary role="status" aria-live="polite" aria-atomic="true"></p>
+    </header>
+    <noscript><p class="review-message">複習功能需要啟用 JavaScript；場景與文章仍可正常閱讀。</p></noscript>
+    <p class="review-message review-error" data-review-error role="alert" hidden></p>
+    <p class="review-message review-warning" data-review-warning role="status" hidden></p>
+    <div class="review-message" data-review-empty hidden>
+      <h2>還沒有字卡</h2>
+      <p>到任一篇<a href="/">場景</a>的「重點單字」，按單字旁的「加入複習」，那個字就會出現在這裡。</p>
+    </div>
+    <div class="review-message" data-review-done hidden>
+      <h2 data-review-done-title></h2>
+      <p data-review-done-detail></p>
+      <p data-review-later></p>
+    </div>
+    <article class="review-card" data-review-card hidden>
+      <p class="review-front" lang="en" data-review-front></p>
+      <button type="button" class="review-button review-flip" data-review-flip aria-label="翻面">翻面 <span class="key-hint" aria-hidden="true">空白鍵</span></button>
+      <div class="review-back" data-review-back tabindex="-1" hidden>
+        <p class="review-meaning" data-review-meaning></p>
+        <p class="review-example" lang="en" data-review-example></p>
+        <button type="button" class="review-button review-audio" data-review-audio aria-label="播放單字發音" hidden>播放發音</button>
+        <p class="review-audio-error" data-review-audio-error role="status" hidden>這個瀏覽器無法播放音檔。</p>
+        <ul class="review-sources" data-review-sources></ul>
+        <div class="review-grades">
+          <button type="button" class="review-button review-again" data-review-grade="again" aria-label="忘記了">忘記了 <span class="key-hint" aria-hidden="true">1</span></button>
+          <button type="button" class="review-button review-good" data-review-grade="good" aria-label="想起來了">想起來了 <span class="key-hint" aria-hidden="true">2</span></button>
+        </div>
+      </div>
+    </article>
+    <p class="review-result" data-review-result role="status" aria-live="polite"></p>
+  </section>
+  <script>import '../../scripts/review';</script>
+</Layout>

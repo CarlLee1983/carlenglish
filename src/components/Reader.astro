@@ -68,18 +68,20 @@ const levelPath = `/levels/${level.id}/`;
     </section>
     <section id="words" class="words-section" aria-labelledby="words-title">
       <h2 id="words-title">重點單字</h2>
-      <ul class="word-list">
+      <ul class="word-list" data-review-source-kind="scene" data-review-source-id={scene.id} data-review-source-title={scene.title} data-review-source-href={`/scenes/${scene.id}/`}>
         {scene.words.map((word) => (
           <li>
             <div class="word-heading">
               <h3 lang="en">{word.english}</h3>
               <button type="button" class="pronounce-button" data-pronounce data-audio-kind="word" data-word={word.english} data-word-id={word.id} data-audio-src={word.audio.src} data-label={word.english} aria-label={`聽 ${word.english} 的發音`} disabled>聽發音</button>
+              <button type="button" class="review-add-button" data-review-add data-english={word.english} data-meaning={word.translation} data-example={word.example} data-audio-src={word.audio.src} aria-label={`加入複習：${word.english}`} aria-pressed="false" hidden>加入複習</button>
               <span class="learning-translation">{word.translation}</span>
             </div>
             <p class="word-example" lang="en">{word.example}</p>
           </li>
         ))}
       </ul>
+      <p class="review-add-status" data-review-add-status role="status" aria-live="polite" hidden></p>
     </section>
     <nav class="reader-navigation" aria-label="場景導覽">
       {otherScenes.length > 0 && <><h2>繼續讀{level.name}生活英文</h2><ul>{otherScenes.map((other) => <li><a href={`/scenes/${other.id}/`} data-catalog-context>{other.title} <span aria-hidden="true">→</span></a></li>)}</ul></>}
@@ -89,3 +91,4 @@ const levelPath = `/levels/${level.id}/`;
 </article>
 <script>import '../scripts/pronunciation';</script>
 <script>import '../scripts/reader-navigation';</script>
+<script>import '../scripts/review-add';</script>
