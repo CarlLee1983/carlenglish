@@ -96,6 +96,18 @@
 | 在車站詢問月台 | `train-station-help` | 向站務人員確認搭車位置 | train, platform | Which platform should we go to? | 4 |
 | 把遺失物交給服務台 | `returning-found-item` | 說明在哪裡找到物品 | wallet, found | I found this wallet near the door. | 4 |
 
+### 職場與工程實務的 4 個場景 (Workplace & Engineering Track)
+
+2026-10-14 新增規劃：回應全方位工作場景需求，鎖定 CEFR B1–B2 中級實用溝通，聚焦軟體開發、敏捷流程與團隊非同步溝通。
+
+| 場景 | 候選 ID | 實務溝通任務 | 候選單字 | 候選短句 | 批次 |
+| --- | --- | --- | --- | --- | --- |
+| 敏捷晨會進度同步 | `daily-standup` | 回報昨日進度、今日焦點與卡點 | blocker, progress, update, ticket | I'm currently blocked by... | 5 |
+| 代碼審查回饋交流 | `code-review-feedback` | 說明變更動機並提出委婉重構建議 | review, suggest, refactor, logic | Could we extract this into a helper? | 5 |
+| 線上問題診斷排查 | `bug-troubleshooting` | 描述重現步驟、定位根因與應急處置 | reproduce, root cause, workaround, logs | I was able to reproduce the bug. | 5 |
+| 需求範疇與優先級對齊 | `sprint-planning-scope` | 評估工作量、討論邊界並做權衡 | estimate, scope, priority, trade-off | This is out of scope for MVP. | 5 |
+
+
 採買清單聚焦出門前的家庭討論，車站場景聚焦站內月台確認，與既有超市購物及街上問路分開。
 
 ## 場景製作與品質準則
