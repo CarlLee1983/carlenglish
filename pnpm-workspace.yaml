@@ -1,0 +1,5 @@
+# Native build tools validate their platform binaries during installation.
+allowBuilds:
+  esbuild@0.28.2: true
+  workerd@1.20261006.1: true
+  fsevents@2.3.3: false

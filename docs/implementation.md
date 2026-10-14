@@ -1,5 +1,19 @@
 # 實作與驗收紀錄
 
+## 2026-10-14 遷移至 pnpm 12
+
+`package.json` 固定 `packageManager: pnpm@12.0.0`，Node.js 維持 24。以 `pnpm import` 從原 npm 鎖檔建立 `pnpm-lock.yaml`，移除 `package-lock.json`。匯入保留原有 394 組套件名稱與版本，另外解析可選的 `@napi-rs/wasm-runtime@1.2.5`；直接依賴與其版本範圍未變。pnpm 12 的鎖檔包含套件管理器與應用依賴兩份 YAML 文件。
+
+`pnpm-workspace.yaml` 明確允許 `esbuild@0.28.2` 與 `workerd@1.20261006.1` 的平台執行檔檢查腳本，停用可選的 `fsevents@2.3.3` 建置。所有專案執行指令、Playwright 預覽、README、內容維護說明、規格與擴充企劃改用 pnpm；第四場景隔離測試也改為複製與核對新的鎖檔及建置政策。較早的 npm 執行紀錄保留原樣。
+
+CI 與 Deploy 改用固定 commit 的 `pnpm/setup` v1，從 manifest 取得 pnpm 版本、安裝 Node.js 24、快取 pnpm store，再執行 `pnpm install --frozen-lockfile`、Playwright 安裝與 `pnpm run verify`；部署命令為 `pnpm exec wrangler deploy`。本節記錄的是推送前的本機遷移驗收；推送後的 CI 與自動部署結果以 GitHub Actions 紀錄為準。
+
+本機 Node.js v24.21.0、pnpm 12.0.0：`pnpm install --frozen-lockfile` 與 `pnpm exec playwright install chromium webkit` 成功，`pnpm run verify` exit code 0。Astro 檢查 17 個檔案無診斷、正式三場景內容有效、內容測試 13/13、建置 5 頁、瀏覽器 122 passed / 3 刻意 skipped、第四場景隔離擴充 1/1。獨立審閱 clean，`git diff --check` 通過。
+
+另在只含 manifest、pnpm 鎖檔與建置政策的乾淨暫存目錄執行 `pnpm install --frozen-lockfile --offline`，成功建立全新的 `node_modules`，鎖檔雜湊不變。確認 Astro 7.3.8、Wrangler 4.150.0、TypeScript 6.0.3、esbuild 0.28.2 及 workerd 平台執行檔版本；macOS 的 fsevents 內附 addon 可載入。兩份 workflow 與鎖檔的 YAML 解析檢查也通過，暫存目錄已清理。
+
+若需回復套件管理器，需一併回復 manifest、鎖檔、建置政策、workflow、測試啟動指令與現行文件，並重新安裝原 npm 依賴；場景內容、圖片與音檔沒有改動。
+
 ## 2026-10-14 發布驗證
 
 首筆發布提交為 `eacac86b102fad38d2f15fe1f2e1993c908893dd`，已推送到公開 [GitHub repository](https://github.com/CarlLee1983/carlenglish) 的 `main`。網站以 Cloudflare Workers Static Assets 發布於 [carlenglish.gravito.dev](https://carlenglish.gravito.dev)，首次部署版本 `e2d9169d-3984-4887-9561-5e1f7147103a`。Wrangler 更新至 4.150.0 後，`npm` 稽核為 0 vulnerabilities。

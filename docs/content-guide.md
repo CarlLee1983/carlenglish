@@ -61,8 +61,8 @@ node scripts/generate-audio.mjs .scratch/illustrated-english/unified-voice/.venv
 ## 驗證與建置
 
 ```sh
-npm run validate:content
-npm run verify
+pnpm run validate:content
+pnpm run verify
 ```
 
 錯誤會指出檔案與欄位，例如 `cafe-breakfast.json.sentences[0].translation`，表示第一句缺少翻譯；陣列索引從 0 開始。`unknown word ID` 表示片段引用不存在的單字，`unreferenced phrase` 表示清單短句沒有文中對應，`duplicate scene ID` 表示兩份資料使用相同場景 ID。
@@ -71,4 +71,4 @@ npm run verify
 
 只有內容及相關圖片/音檔新增屬於這個流程；新的學習活動或資料來源需要另外評估。測試用擴充場景應放在隔離的測試目錄，不能混入正式 `content/scenes/`。
 
-`npm run test:extension` 會在暫存專案加入第四個測試場景、圖片及所需音訊欄位，重用相同英文的現有短文、短句與單字音檔，再以正常建置和瀏覽器驗證自動列表入口、獨立網址、重新整理及共用閱讀版型。它保留正式三場景，並核對來源程式、設定、內容、圖片與正式 `dist/` 在測試前後的雜湊一致。
+`pnpm run test:extension` 會在暫存專案加入第四個測試場景、圖片及所需音訊欄位，重用相同英文的現有短文、短句與單字音檔，再以正常建置和瀏覽器驗證自動列表入口、獨立網址、重新整理及共用閱讀版型。它保留正式三場景，並核對來源程式、設定、內容、圖片與正式 `dist/` 在測試前後的雜湊一致。

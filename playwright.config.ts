@@ -12,7 +12,7 @@ export default defineConfig({
     { name: 'mobile-webkit', use: { ...devices['iPhone 13'], viewport: { width: 390, height: 844 } } },
   ],
   webServer: {
-    command: 'npm run preview -- --port 4391 --ignore-lock',
+    command: 'pnpm run preview --port 4391 --ignore-lock',
     url: 'http://127.0.0.1:4391',
     reuseExistingServer: false,
     timeout: 30_000,

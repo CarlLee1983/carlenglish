@@ -60,7 +60,7 @@ async function stopChild(child) {
 }
 
 test('a fourth content file and image create a complete route without changing the main project', { timeout: 60_000 }, async () => {
-  const scope = ['src', 'content', 'public', 'dist', 'astro.config.mjs', 'tsconfig.json', 'package.json', 'package-lock.json'];
+  const scope = ['src', 'content', 'public', 'dist', 'astro.config.mjs', 'tsconfig.json', 'package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml'];
   const before = fileHashes(projectRoot, scope);
   const originalFiles = readdirSync(join(projectRoot, 'content/scenes')).filter((name) => name.endsWith('.json')).sort();
   assert.equal(originalFiles.length, 3, 'production content must contain the three official scenes');
@@ -70,7 +70,7 @@ test('a fourth content file and image create a complete route without changing t
   let browser;
   try {
     for (const path of ['src', 'content', 'public']) cpSync(join(projectRoot, path), join(tempRoot, path), { recursive: true });
-    for (const name of ['astro.config.mjs', 'tsconfig.json', 'package.json', 'package-lock.json']) {
+    for (const name of ['astro.config.mjs', 'tsconfig.json', 'package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml']) {
       if (existsSync(join(projectRoot, name))) cpSync(join(projectRoot, name), join(tempRoot, name));
     }
     symlinkSync(join(projectRoot, 'node_modules'), join(tempRoot, 'node_modules'), 'dir');
