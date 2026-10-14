@@ -1,0 +1,308 @@
+{
+  "id": "returning-found-item",
+  "title": "把遺失物交給服務台",
+  "titleEn": "Returning a Found Item to Information Desk",
+  "category": "公共生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/returning-found-item.webp",
+    "alt": "在明亮寬敞的公共場館大廳裡，一位年輕男生站在服務台前，將拾獲的深色皮夾遞給櫃檯裡的女性服務人員，服務人員微笑著接過皮夾並表達感謝。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "While walking inside the community center, Kevin notices a lost leather "
+        },
+        {
+          "text": "wallet",
+          "wordIds": [
+            "wallet"
+          ]
+        },
+        {
+          "text": " on the floor near the "
+        },
+        {
+          "text": "entrance",
+          "wordIds": [
+            "entrance"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "當凱文走進活動中心時，他注意到大門入口附近的地板上有一個遺失的皮夾。"
+    },
+    {
+      "segments": [
+        {
+          "text": "He picks up the lost item and decides to "
+        },
+        {
+          "text": "return",
+          "wordIds": [
+            "return"
+          ]
+        },
+        {
+          "text": " it right away."
+        }
+      ],
+      "translation": "他把遺失的物品撿起來，並決定立刻將它歸還。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Kevin walks across the lobby to the information "
+        },
+        {
+          "text": "desk",
+          "wordIds": [
+            "desk"
+          ]
+        },
+        {
+          "text": " to report what he discovered."
+        }
+      ],
+      "translation": "凱文穿過大廳走向服務台，通報他所發現的物品。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Approaching the counter, he tells the attendant, “"
+        },
+        {
+          "text": "I ",
+          "phraseIds": [
+            "i-found-this-wallet-near-the-door"
+          ]
+        },
+        {
+          "text": "found",
+          "phraseIds": [
+            "i-found-this-wallet-near-the-door"
+          ],
+          "wordIds": [
+            "found"
+          ]
+        },
+        {
+          "text": " this ",
+          "phraseIds": [
+            "i-found-this-wallet-near-the-door"
+          ]
+        },
+        {
+          "text": "wallet",
+          "phraseIds": [
+            "i-found-this-wallet-near-the-door"
+          ],
+          "wordIds": [
+            "wallet"
+          ]
+        },
+        {
+          "text": " near the door.",
+          "phraseIds": [
+            "i-found-this-wallet-near-the-door"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "走近櫃檯時，他向服務人員說道：「我在門附近撿到了這個皮夾。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "staff",
+          "wordIds": [
+            "staff"
+          ]
+        },
+        {
+          "text": " member smiles warmly and asks, “"
+        },
+        {
+          "text": "Where did you find it?",
+          "phraseIds": [
+            "where-did-you-find-it"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "工作人員親切地微笑並問道：「你在哪裡找到的？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "After Kevin explains what happened, the officer says, “"
+        },
+        {
+          "text": "Thank you for bringing it here.",
+          "phraseIds": [
+            "thank-you-for-bringing-it-here"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "在凱文說明事情原委後，服務人員說道：「謝謝你把它拿過來。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "She safely stores the item in a drawer and adds, “"
+        },
+        {
+          "text": "Someone will be very relieved.",
+          "phraseIds": [
+            "someone-will-be-very-relieved"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "她將物品妥善收進抽屜裡，並補充說：「失主一定會非常安心。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "i-found-this-wallet-near-the-door",
+      "english": "I found this wallet near the door.",
+      "translation": "我在門附近撿到了這個皮夾。",
+      "audio": {
+        "src": "/audio/phrases/returning-found-item-i-found-this-wallet-near-the-door.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ac78b05e507fcde430ec9ecf371ecaac53545df10f1075a5703af09c7243ee8d",
+        "sha256": "3cb48426b28443f2414d9c566511d73ab470e5c5bae7c34870da25310e0b0477"
+      }
+    },
+    {
+      "id": "where-did-you-find-it",
+      "english": "Where did you find it?",
+      "translation": "你在哪裡找到的？",
+      "audio": {
+        "src": "/audio/phrases/returning-found-item-where-did-you-find-it.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9df9c32da542b8784dda0b2c41d6677f8ff37f39b1afafe208b63bf5b000c38e",
+        "sha256": "7b30b95d37d6344f3092be229f869ffbe694f22f6ca97b786f8f8c0afdeb7616"
+      }
+    },
+    {
+      "id": "thank-you-for-bringing-it-here",
+      "english": "Thank you for bringing it here.",
+      "translation": "謝謝你把它拿過來。",
+      "audio": {
+        "src": "/audio/phrases/returning-found-item-thank-you-for-bringing-it-here.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "645e6095617121c2690011e7343829d0862bfb5df91b862b2a02ab43888e3b74",
+        "sha256": "1b08fa396f93dc6190c77dfaa7efdc31203d39b7ebb77a6eb5bb19caa3525e3a"
+      }
+    },
+    {
+      "id": "someone-will-be-very-relieved",
+      "english": "Someone will be very relieved.",
+      "translation": "失主一定會非常安心。",
+      "audio": {
+        "src": "/audio/phrases/returning-found-item-someone-will-be-very-relieved.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c836e236f1b6ed677d1bbb55943bd6cb2008011c88b9161b89c360814410350d",
+        "sha256": "3eefbbc39c09625822b8a6b9f69cb211a6823a739082ead5e6e649359647be45"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "wallet",
+      "english": "wallet",
+      "translation": "皮夾；錢包",
+      "example": "He keeps his bus card and cash in his wallet.",
+      "audio": {
+        "src": "/audio/words/returning-found-item-wallet.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e8d44050873dba865aa7c170ab4cce64d90839a34dcfd6cf71d14e0205443b1b",
+        "sha256": "6e1f074d0835fb55eed255588c6c1fef635fa736c362e23906ba4149906d8afc"
+      }
+    },
+    {
+      "id": "found",
+      "english": "found",
+      "translation": "撿到；找到（find 的過去式）",
+      "example": "She found a set of house keys on the playground.",
+      "audio": {
+        "src": "/audio/words/returning-found-item-found.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bcc649cfdb8cc557053da67df7e7fcb740dcf7f721cebe1f2082597ad0d5e7d8",
+        "sha256": "b523a8bf0d3096b16a8ff86b579469a2df0676b95e7dfcdef8f9e718670a1114"
+      }
+    },
+    {
+      "id": "desk",
+      "english": "desk",
+      "translation": "櫃檯；服務台",
+      "example": "Please report lost items at the information desk.",
+      "audio": {
+        "src": "/audio/words/returning-found-item-desk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "49be417ad74080a0031b636b44cfc26fdd0065492d6cd3b033960c4414955cf7",
+        "sha256": "fa5f21969a524a680da7fd1217b6163f18040c5c306b38b35912f167d3a19c7b"
+      }
+    },
+    {
+      "id": "entrance",
+      "english": "entrance",
+      "translation": "入口；大門處",
+      "example": "We met our friends near the main entrance.",
+      "audio": {
+        "src": "/audio/words/returning-found-item-entrance.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3902eb874fcc6c8a1dbfeecd3d5997e8dae7f1fb861ada76094c61396fbaeba6",
+        "sha256": "49d36561251fbd54dd15b6cd019dffa89dc4e78407dce24e573669d7bcc3d184"
+      }
+    },
+    {
+      "id": "staff",
+      "english": "staff",
+      "translation": "工作人員；員工",
+      "example": "The helpful library staff showed us where to sit.",
+      "audio": {
+        "src": "/audio/words/returning-found-item-staff.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1562206543da764123c21bd524674f0a8aaf49c8a89744c97352fe677f7e4006",
+        "sha256": "74f19ee870ccd3ed73168cb41468a5c89815155d32bea8bbce4ac2adedd81658"
+      }
+    },
+    {
+      "id": "return",
+      "english": "return",
+      "translation": "歸還；送回",
+      "example": "Remember to return borrowed books before Friday.",
+      "audio": {
+        "src": "/audio/words/returning-found-item-return.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7187f0675eb3827939741acf7342ba78836ecec21a31ecf3f34a55309d3bee8a",
+        "sha256": "28a2f19e5112dbe610850f967c529a0257607f98fe521e442afbe02da8f27e79"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/returning-found-item.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "927e93089357d34f860d6be7e7bd7643c05327a9bcbb81a4cc68eeee7b203ee5",
+    "sha256": "a039f18b87ca366fc75f9f8eee7d7d7a7fc164fead43f7710ff047ee2dd32c7c"
+  }
+}

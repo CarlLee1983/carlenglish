@@ -1,0 +1,342 @@
+{
+  "id": "pet-care",
+  "title": "照顧寵物",
+  "titleEn": "Caring for a Pet",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/pet-care.webp",
+    "alt": "在灑滿陽光的綠色草坪院子裡，小男孩 Leo 開心地端著水碗和飼料照顧可愛的寵物狗 Toby，一旁放著紅色的玩具球，準備一起玩丟接遊戲。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Leo goes outside to play with his "
+        },
+        {
+          "text": "pet",
+          "wordIds": [
+            "pet"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dog",
+          "wordIds": [
+            "dog"
+          ]
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "yard",
+          "wordIds": [
+            "yard"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Leo 走到戶外，在院子裡和他養的寵物狗一起玩。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom pours fresh "
+        },
+        {
+          "text": "water",
+          "wordIds": [
+            "water"
+          ]
+        },
+        {
+          "text": " into a clean "
+        },
+        {
+          "text": "bowl",
+          "wordIds": [
+            "bowl"
+          ]
+        },
+        {
+          "text": " and says, “"
+        },
+        {
+          "text": "Let's give the ",
+          "phraseIds": [
+            "lets-give-the-dog-some-water"
+          ]
+        },
+        {
+          "text": "dog",
+          "phraseIds": [
+            "lets-give-the-dog-some-water"
+          ],
+          "wordIds": [
+            "dog"
+          ]
+        },
+        {
+          "text": " some ",
+          "phraseIds": [
+            "lets-give-the-dog-some-water"
+          ]
+        },
+        {
+          "text": "water",
+          "phraseIds": [
+            "lets-give-the-dog-some-water"
+          ],
+          "wordIds": [
+            "water"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "lets-give-the-dog-some-water"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "媽媽把乾淨的水倒進碗裡，說：「我們給狗狗倒點水吧。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Next, Leo fills the food "
+        },
+        {
+          "text": "bowl",
+          "wordIds": [
+            "bowl"
+          ]
+        },
+        {
+          "text": " and calls, “"
+        },
+        {
+          "text": "Time to eat!",
+          "phraseIds": [
+            "time-to-eat"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "接著，Leo 裝滿飼料碗並大聲喊：「吃飯時間到了！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "After eating, Leo gently brushes Toby's fur and smiles, “"
+        },
+        {
+          "text": "Good boy!",
+          "phraseIds": [
+            "good-boy"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "吃完後，Leo 溫柔地幫 Toby 梳毛並笑著說：「好乖！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Then, Leo throws a red "
+        },
+        {
+          "text": "ball",
+          "wordIds": [
+            "ball"
+          ]
+        },
+        {
+          "text": " across the grass and shouts, “"
+        },
+        {
+          "text": "Fetch the ",
+          "phraseIds": [
+            "fetch-the-ball"
+          ]
+        },
+        {
+          "text": "ball",
+          "phraseIds": [
+            "fetch-the-ball"
+          ],
+          "wordIds": [
+            "ball"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "fetch-the-ball"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "然後，Leo 把一顆紅色的球丟過草地，大聲喊：「去把球撿回來。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Toby happily brings the "
+        },
+        {
+          "text": "ball",
+          "wordIds": [
+            "ball"
+          ]
+        },
+        {
+          "text": " back to Leo's hands."
+        }
+      ],
+      "translation": "Toby 開心地把球叼回 Leo 的手上。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "lets-give-the-dog-some-water",
+      "english": "Let's give the dog some water.",
+      "translation": "我們給狗狗倒點水吧。",
+      "audio": {
+        "src": "/audio/phrases/pet-care-lets-give-the-dog-some-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3fc1904d80dc422a6d2923f9f8c7f1f76bdeea8d3a70ab703ca7096b582f70b8",
+        "sha256": "9ef7824d66f463cba3f6b01d9b55f5109da50950215fac733b42fd2fa1b17fea"
+      }
+    },
+    {
+      "id": "time-to-eat",
+      "english": "Time to eat!",
+      "translation": "吃飯時間到了！",
+      "audio": {
+        "src": "/audio/phrases/pet-care-time-to-eat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "eacd0e6209f18861610cd2d482dabb7db10acbc72fe8a2050a70936c72b747c2",
+        "sha256": "454cace0e65fdcad205f829b192b26d230a7fb1a5cc5ea991f23cfe096c7d6f8"
+      }
+    },
+    {
+      "id": "good-boy",
+      "english": "Good boy!",
+      "translation": "好乖！",
+      "audio": {
+        "src": "/audio/phrases/pet-care-good-boy.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7b268e914e0b43f36a4287f28d03d2bc29f5193dea5daa1728f5fda59d256510",
+        "sha256": "6a82452ee7a8a375742df3f61fe21395b28ff6cb3ff8a52168e9af1923a1e595"
+      }
+    },
+    {
+      "id": "fetch-the-ball",
+      "english": "Fetch the ball.",
+      "translation": "去把球撿回來。",
+      "audio": {
+        "src": "/audio/phrases/pet-care-fetch-the-ball.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "447f4c008c1e50441a1d21f517a837a059949642862bdffd398c9c9c8a385a69",
+        "sha256": "a718ef34ac0561114f9f1b888198377200b7aaf1d11707a00b014e9713527820"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "pet",
+      "english": "pet",
+      "translation": "寵物",
+      "example": "A dog is a friendly pet.",
+      "audio": {
+        "src": "/audio/words/pet-care-pet.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bbba57318f71911354fdaab5d67ea8c352bfe113231e968a9ac1f4cf5b38e546",
+        "sha256": "a884bfc423b875832377ccda76b7f4bb9a92efa99c2e84f78cd36cfd9281d780"
+      }
+    },
+    {
+      "id": "dog",
+      "english": "dog",
+      "translation": "狗",
+      "example": "The dog wags its tail happily.",
+      "audio": {
+        "src": "/audio/words/pet-care-dog.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cd6357efdd966de8c0cb2f876cc89ec74ce35f0968e11743987084bd42fb8944",
+        "sha256": "04cf3b1358d70f0427a03aab25ab8d4885156e7cbdc3e1ec3472f347c3134a35"
+      }
+    },
+    {
+      "id": "water",
+      "english": "water",
+      "translation": "水",
+      "example": "Please drink some cold water.",
+      "audio": {
+        "src": "/audio/words/pet-care-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501",
+        "sha256": "b8f9b08fd4c322b08dcc3d51626a69e4eafbddc5d18577c58fb02a636748f8c1"
+      }
+    },
+    {
+      "id": "bowl",
+      "english": "bowl",
+      "translation": "碗",
+      "example": "Fill the bowl with fresh water.",
+      "audio": {
+        "src": "/audio/words/pet-care-bowl.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d9f2babb167353d055843c7d537e6a663023561f921f831369ea1d657aa3051a",
+        "sha256": "918e3c7bf4ed6ba6399ae4f36913b2843323eb671a4c3708f5ab055d9896fc5b"
+      }
+    },
+    {
+      "id": "ball",
+      "english": "ball",
+      "translation": "球",
+      "example": "We toss the red ball in the park.",
+      "audio": {
+        "src": "/audio/words/pet-care-ball.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e9de08263f4ad49131d3dd1dc28694d26baa1e9c3033f39a4885d7690b06d5b3",
+        "sha256": "90f99de1547ca630e097b13bef53950fe8c0f255df0a64efca166e7491436b6e"
+      }
+    },
+    {
+      "id": "yard",
+      "english": "yard",
+      "translation": "院子",
+      "example": "The children play in the green yard.",
+      "audio": {
+        "src": "/audio/words/pet-care-yard.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7ae4b7c7678e3e292739a846d935aeaece6c47f3ffcadd88936f1d75f6d6b764",
+        "sha256": "d5f343ed9f1dca01f2099870c01ecfc1c81ab8550f6a9615f2a933aa1d0caca8"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/pet-care.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "ef399be85c3891de3c0fc0905e11fd3baadbe4d5d15ce9b60c83e08c9f1881e2",
+    "sha256": "58e6e7d3e0ebb1056a6f73fa73b4d28b91c8b466fd1a0c2c6315d48940c46478"
+  }
+}

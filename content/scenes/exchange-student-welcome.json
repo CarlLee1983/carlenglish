@@ -1,0 +1,287 @@
+{
+  "id": "exchange-student-welcome",
+  "title": "接待交換學生",
+  "titleEn": "Welcoming an Exchange Student",
+  "category": "國際交流",
+  "level": "進階",
+  "image": {
+    "src": "/images/scenes/exchange-student-welcome.webp",
+    "alt": "在熱鬧的高中校門前，一位親切的台灣高中生微笑著迎接初來乍到的外國交換學生，並熱心引導對方認識校園環境與教學設施。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "At the front gate, Emily greets Mark, a "
+        },
+        {
+          "text": "foreign",
+          "wordIds": [
+            "foreign"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "exchange",
+          "wordIds": [
+            "exchange"
+          ]
+        },
+        {
+          "text": " student from Seattle."
+        }
+      ],
+      "translation": "在學校大門前，Emily 親切迎接來自西雅圖的外國交換學生 Mark。"
+    },
+    {
+      "segments": [
+        {
+          "text": "With a bright smile, she waves her hand and says, “"
+        },
+        {
+          "text": "Welcome",
+          "phraseIds": [
+            "welcome-to-our-school"
+          ],
+          "wordIds": [
+            "welcome"
+          ]
+        },
+        {
+          "text": " to our school!",
+          "phraseIds": [
+            "welcome-to-our-school"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "她帶著燦爛的微笑揮手致意，並說道：「歡迎來到我們學校！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Emily enthusiastically offers, “"
+        },
+        {
+          "text": "Let me show you around.",
+          "phraseIds": [
+            "let-me-show-you-around"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Emily 熱情地提議：「讓我帶你參觀一下周遭環境。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "She will "
+        },
+        {
+          "text": "guide",
+          "wordIds": [
+            "guide"
+          ]
+        },
+        {
+          "text": " him to explore each modern "
+        },
+        {
+          "text": "campus",
+          "wordIds": [
+            "campus"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "facility",
+          "wordIds": [
+            "facility"
+          ]
+        },
+        {
+          "text": ", starting with the main academic building."
+        }
+      ],
+      "translation": "她將引導他探索每一處現代化的校園設施，首先從主教學大樓開始。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Pointing toward a spacious hall, she says, “"
+        },
+        {
+          "text": "Here is the library.",
+          "phraseIds": [
+            "here-is-the-library"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "指著一座寬敞的大樓，她說道：「這裡是圖書館。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Next, she highlights the cafeteria nearby, where students gather for lunch and relax between classes."
+        }
+      ],
+      "translation": "接著，她介紹了附近的學生餐廳，學生們午餐時間會在那裡聚餐並在課間放鬆。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Offering her full support, Emily smiles and adds, “"
+        },
+        {
+          "text": "Feel free to ask me anything.",
+          "phraseIds": [
+            "feel-free-to-ask-me-anything"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Emily 熱心提供全力協助，微笑著補充道：「隨時都可以問我任何問題。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "welcome-to-our-school",
+      "english": "Welcome to our school!",
+      "translation": "歡迎來到我們學校！",
+      "audio": {
+        "src": "/audio/phrases/exchange-student-welcome-welcome-to-our-school.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e5f43abf6b5334617457c4db237b6ee4068a509888811132950c14c38187255d",
+        "sha256": "58620970da22eb4a100d63e30603b898d2c906c7966cc2af05585b48220c949c"
+      }
+    },
+    {
+      "id": "let-me-show-you-around",
+      "english": "Let me show you around.",
+      "translation": "讓我帶你參觀一下周遭環境。",
+      "audio": {
+        "src": "/audio/phrases/exchange-student-welcome-let-me-show-you-around.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c542be28bad764e64eb20428559caccf372867717280873d6fea183b2aaffd1a",
+        "sha256": "e264a5ec2e7e86a81dd3773d507b56bca09275c3d2ced4aaa55156a76e840675"
+      }
+    },
+    {
+      "id": "here-is-the-library",
+      "english": "Here is the library.",
+      "translation": "這裡是圖書館。",
+      "audio": {
+        "src": "/audio/phrases/exchange-student-welcome-here-is-the-library.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d0be81371060ba869a72699b0d93029e1b8ddd2d2f89fef568901eaa42d7141c",
+        "sha256": "7534463f1a8dda9b44131f11ac58da9eba344a6afa05b5183f5c6b1dc972df78"
+      }
+    },
+    {
+      "id": "feel-free-to-ask-me-anything",
+      "english": "Feel free to ask me anything.",
+      "translation": "隨時都可以問我任何問題。",
+      "audio": {
+        "src": "/audio/phrases/exchange-student-welcome-feel-free-to-ask-me-anything.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a2777e31635a814b31707efc3cdbd39def63a1d8bff513265d307a13d530e011",
+        "sha256": "e69702d2c06ee1b4c37e01afce47e6460fa989560b570f1cfa464866a2c9f312"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "exchange",
+      "english": "exchange",
+      "translation": "交換；交流",
+      "example": "Our school welcomes exchange students from around the world.",
+      "audio": {
+        "src": "/audio/words/exchange-student-welcome-exchange.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ab27b729d9cc4cb1c00960700446924159e9298d0f952aee3d55408b8e0b1b71",
+        "sha256": "aa8d8b094dcdc9138b9d3c7701b2ad8cca01327e4b748b948f11b8a37d3b5ccd"
+      }
+    },
+    {
+      "id": "campus",
+      "english": "campus",
+      "translation": "校園；校區",
+      "example": "The sprawling campus has plenty of green spaces and modern classrooms.",
+      "audio": {
+        "src": "/audio/words/exchange-student-welcome-campus.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "42c97db3df4b1373d9484116af081d539c72309ff2adf6f20cd55c7951a355d3",
+        "sha256": "c69cbc7874e04eee1b458842ca52d1b9318507c45d7ac99890427636ad1ef5d9"
+      }
+    },
+    {
+      "id": "welcome",
+      "english": "welcome",
+      "translation": "歡迎",
+      "example": "The principal gave a warm speech to welcome all new students.",
+      "audio": {
+        "src": "/audio/words/exchange-student-welcome-welcome.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "280d44ab1e9f79b5cce2dd4f58f5fe91f0fbacdac9f7447dffc318ceb79f2d02",
+        "sha256": "b338a6fcb226e4b99972d109ec60c2edc162b13b6a2626a77d31c8d1728f260e"
+      }
+    },
+    {
+      "id": "facility",
+      "english": "facility",
+      "translation": "設施；設備",
+      "example": "The science facility is equipped with advanced laboratory tools.",
+      "audio": {
+        "src": "/audio/words/exchange-student-welcome-facility.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "87c597285cce41492615ad2e2daa932eb38daab5733ea380a38d27b36824da8b",
+        "sha256": "516f8729645f589de43d0a5c0c52bdd83ccf3d659d9519fa7885bcaffa14c307"
+      }
+    },
+    {
+      "id": "guide",
+      "english": "guide",
+      "translation": "引導；導覽",
+      "example": "A senior student will guide the freshmen during orientation week.",
+      "audio": {
+        "src": "/audio/words/exchange-student-welcome-guide.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "83ca68be6227af2feb15f227485ed18aff8ecae99416a4bd6df3be1b5e8059b4",
+        "sha256": "1411a39e48e14707d3dc56aeb275b8cb7526fb130623f510d6c6f1b52af801c0"
+      }
+    },
+    {
+      "id": "foreign",
+      "english": "foreign",
+      "translation": "外國的；異國的",
+      "example": "Learning a foreign language opens up doors to new cultures.",
+      "audio": {
+        "src": "/audio/words/exchange-student-welcome-foreign.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "656771905e1ef731f65cd0a0d9fb061238380a1a012e6abdf846ecc7d2ea36fd",
+        "sha256": "1d685554a5e45233d3a633f200f4449d5e4058aa8d15d81287b60def60e005f7"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/exchange-student-welcome.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "50db2f365c3b88bff7f969c52c312625c11b173859d872960b099d2145d371e7",
+    "sha256": "d3b80c5c2cb32937c9dc7b5d94dc1b2b429577720bd186da9d1c2705da1f17de"
+  }
+}

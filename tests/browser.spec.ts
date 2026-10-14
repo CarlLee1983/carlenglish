@@ -141,6 +141,7 @@ for (const scene of scenes) {
 }
 
 test('switching after opening translation shows only the next scene', async ({ page }) => {
+  test.setTimeout(120_000);
   for (let i = 0; i < scenes.length; i++) {
     const current = scenes[i];
     const next = scenes[(i + 1) % scenes.length];

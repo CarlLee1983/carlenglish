@@ -1,0 +1,323 @@
+{
+  "id": "playground-turns",
+  "title": "操場輪流玩",
+  "titleEn": "Taking Turns on the Playground",
+  "category": "校園活動",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/playground-turns.webp",
+    "alt": "下課時的校園操場上，小學生們在紅色溜滑梯旁乖乖排隊輪流玩耍，旁邊有盪鞦韆與草地，大家都笑得很開心。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "The children have fun together on the "
+        },
+        {
+          "text": "playground",
+          "wordIds": [
+            "playground"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "孩子們在學校操場上一起開心地玩耍。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Amy swings high on the "
+        },
+        {
+          "text": "swing",
+          "wordIds": [
+            "swing"
+          ]
+        },
+        {
+          "text": ", and Leo walks to the big "
+        },
+        {
+          "text": "slide",
+          "wordIds": [
+            "slide"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Amy 在鞦韆上盪得很高，Leo 則走向大溜滑梯。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo smiles at Mia and asks, “"
+        },
+        {
+          "text": "Can I play too?",
+          "phraseIds": [
+            "can-i-play-too"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 對著 Mia 微笑並問：「我也可以一起玩嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia nods and says, “Yes! "
+        },
+        {
+          "text": "Let's wait in ",
+          "phraseIds": [
+            "lets-wait-in-line"
+          ]
+        },
+        {
+          "text": "line",
+          "phraseIds": [
+            "lets-wait-in-line"
+          ],
+          "wordIds": [
+            "line"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "lets-wait-in-line"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Mia 點點頭說：「好啊！我們一起排隊吧。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo waits patiently and asks, “"
+        },
+        {
+          "text": "Is it my ",
+          "phraseIds": [
+            "is-it-my-turn"
+          ]
+        },
+        {
+          "text": "turn",
+          "phraseIds": [
+            "is-it-my-turn"
+          ],
+          "wordIds": [
+            "turn"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "is-it-my-turn"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 耐心地排隊等待，並問：「輪到我了嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia smiles and says, “"
+        },
+        {
+          "text": "It's your ",
+          "phraseIds": [
+            "its-your-turn-now"
+          ]
+        },
+        {
+          "text": "turn",
+          "phraseIds": [
+            "its-your-turn-now"
+          ],
+          "wordIds": [
+            "turn"
+          ]
+        },
+        {
+          "text": " now.",
+          "phraseIds": [
+            "its-your-turn-now"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Mia 微笑著說：「現在輪到你了。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo slides down the "
+        },
+        {
+          "text": "slide",
+          "wordIds": [
+            "slide"
+          ]
+        },
+        {
+          "text": ", and the children are "
+        },
+        {
+          "text": "happy",
+          "wordIds": [
+            "happy"
+          ]
+        },
+        {
+          "text": " to play together."
+        }
+      ],
+      "translation": "Leo 從溜滑梯滑下來，孩子們很開心能一起玩耍。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "can-i-play-too",
+      "english": "Can I play too?",
+      "translation": "我也可以一起玩嗎？",
+      "audio": {
+        "src": "/audio/phrases/playground-turns-can-i-play-too.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6b57d1e65e9335d9db0d0f8371a4241f2437a31260b7facac6a3083e3fd65269",
+        "sha256": "905d47bfabc981a2e6211f2df171084511045629158aaef5d6ef85657834a68f"
+      }
+    },
+    {
+      "id": "lets-wait-in-line",
+      "english": "Let's wait in line.",
+      "translation": "我們一起排隊吧。",
+      "audio": {
+        "src": "/audio/phrases/playground-turns-lets-wait-in-line.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b96c6e99a8ac102b60a7b2f36c89a7ce693f1d27cfb5355e17865e72a828f02f",
+        "sha256": "a0ee8f3a541004d993fa4afc584aecdbbd0ef1ca40e2efe77d595e5366864301"
+      }
+    },
+    {
+      "id": "is-it-my-turn",
+      "english": "Is it my turn?",
+      "translation": "輪到我了嗎？",
+      "audio": {
+        "src": "/audio/phrases/playground-turns-is-it-my-turn.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b795a8b0c18cbe76d8b9f2f545d1a048778ee9370053c6b373ea25f1c5897af1",
+        "sha256": "45f865e2baa2c7afdcc4b76e709501b34f3013ac94291bc42e71a88174da7c23"
+      }
+    },
+    {
+      "id": "its-your-turn-now",
+      "english": "It's your turn now.",
+      "translation": "現在輪到你了。",
+      "audio": {
+        "src": "/audio/phrases/playground-turns-its-your-turn-now.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fdcb6931b0dc28003914d71a4a0463b376a1cb96b4f241cd7efd00ae0df5415b",
+        "sha256": "5a9099105cdf22ddb34a18b1034029a3696df64fd12b09c8b9841e43ba201e00"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "playground",
+      "english": "playground",
+      "translation": "操場；遊戲場",
+      "example": "We play games on the playground.",
+      "audio": {
+        "src": "/audio/words/playground-turns-playground.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f3cc87f78b21d53dcccd34b6dd0c2e8679cb5e6ea3ad600e2689015ce100825a",
+        "sha256": "9d17e288c51dc57af8e5e0586acf631eae612eebf33c794d098fa3c3c596a826"
+      }
+    },
+    {
+      "id": "slide",
+      "english": "slide",
+      "translation": "溜滑梯",
+      "example": "The red slide is very fast.",
+      "audio": {
+        "src": "/audio/words/playground-turns-slide.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b8a7e24e95497806eafbe1b4a897b70ecf6e57f4bfca8c770091e1f075304006",
+        "sha256": "923b9a35e408d8960a711c0fa2739da79090a3ac5b5ba07ddd08d3668fd0722a"
+      }
+    },
+    {
+      "id": "swing",
+      "english": "swing",
+      "translation": "鞦韆",
+      "example": "She likes to fly high on the swing.",
+      "audio": {
+        "src": "/audio/words/playground-turns-swing.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2da977e917bcbc5ef3b51217c7882607dd49d8afdc04a2f90790f562ef287393",
+        "sha256": "427fa32128e83f88635018af8fe7c35ea3a594cac8ac1373b957918ab5c3733c"
+      }
+    },
+    {
+      "id": "turn",
+      "english": "turn",
+      "translation": "輪流；順序",
+      "example": "Please wait for your turn.",
+      "audio": {
+        "src": "/audio/words/playground-turns-turn.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9b473845f684444f80a26586ae298d2ba491752cc70b893cc653d943b6fa2ac2",
+        "sha256": "830de75a5176246cb5cee63fcb9da7793e593ae4ef5c9de31d1fb9e5fa164375"
+      }
+    },
+    {
+      "id": "line",
+      "english": "line",
+      "translation": "隊伍",
+      "example": "The children stand in a straight line.",
+      "audio": {
+        "src": "/audio/words/playground-turns-line.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "38a9c1e721584da284b90ceea4ed7eb8db15ac4ea86c2c75ec925d5f8799fcf0",
+        "sha256": "be2c3d194b0264df6f547365dd94d007870506040d937be403c141ded8ac52fa"
+      }
+    },
+    {
+      "id": "happy",
+      "english": "happy",
+      "translation": "開心的",
+      "example": "We feel happy when we play together.",
+      "audio": {
+        "src": "/audio/words/playground-turns-happy.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "489f719cadf919094ddb38e7654de153ac33c02febb5de91e5345cbe372cf4a0",
+        "sha256": "21bd38de1ffd3a36f4d48c2af62151609e4a43a92fd2c37d1d0358709cefa8c0"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/playground-turns.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "a65409ef2707154112f304f46a5f95f58b5ec7cf00a8721a8cca8cfd24410143",
+    "sha256": "b147d41816d0dc4f9d7d45e2fe309e10b2aec594f44c213ed9790b241ea0c5c5"
+  }
+}

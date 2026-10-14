@@ -1,0 +1,314 @@
+{
+  "id": "team-project",
+  "title": "小組作業分工",
+  "titleEn": "Dividing Group Project Tasks",
+  "category": "學習與合作",
+  "level": "中級",
+  "image": {
+    "src": "/images/scenes/team-project.webp",
+    "alt": "在明亮的學校圖書館裡，三位國中生圍坐在木桌旁討論英語小組作業，桌上放著筆記型電腦、筆記本與彩色麥克筆，大家專注地分工合作。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "After class, our "
+        },
+        {
+          "text": "group",
+          "wordIds": [
+            "group"
+          ]
+        },
+        {
+          "text": " gathers around a library table to work on an English "
+        },
+        {
+          "text": "project",
+          "wordIds": [
+            "project"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "下課後，我們小組圍坐在圖書館的桌子旁，一起進行英語專案作業。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Kevin opens his notebook and asks, “"
+        },
+        {
+          "text": "What should we do first?",
+          "phraseIds": [
+            "what-should-we-do-first"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Kevin 打開筆記本問道：「我們應該先做什麼？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia shares a creative "
+        },
+        {
+          "text": "idea",
+          "wordIds": [
+            "idea"
+          ]
+        },
+        {
+          "text": " about world festivals."
+        }
+      ],
+      "translation": "Mia 分享了一個關於世界節慶的創意點子。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo agrees and says, “"
+        },
+        {
+          "text": "That's a great ",
+          "phraseIds": [
+            "thats-a-great-idea"
+          ]
+        },
+        {
+          "text": "idea",
+          "phraseIds": [
+            "thats-a-great-idea"
+          ],
+          "wordIds": [
+            "idea"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "thats-a-great-idea"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 表示贊同並說：「那是個好主意。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Next, we divide each "
+        },
+        {
+          "text": "task",
+          "wordIds": [
+            "task"
+          ]
+        },
+        {
+          "text": ", and Mia offers to do the research."
+        }
+      ],
+      "translation": "接著，我們分配各項任務，Mia 主動負責資料搜尋。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo smiles and says, “"
+        },
+        {
+          "text": "I can make the ",
+          "phraseIds": [
+            "i-can-make-the-poster"
+          ]
+        },
+        {
+          "text": "poster",
+          "phraseIds": [
+            "i-can-make-the-poster"
+          ],
+          "wordIds": [
+            "poster"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "i-can-make-the-poster"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 微笑著說：「我可以做海報。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Before packing up, Kevin says, “"
+        },
+        {
+          "text": "Let's meet on ",
+          "phraseIds": [
+            "lets-meet-on-friday"
+          ]
+        },
+        {
+          "text": "Friday",
+          "phraseIds": [
+            "lets-meet-on-friday"
+          ],
+          "wordIds": [
+            "friday"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "lets-meet-on-friday"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "在收拾書包前，Kevin 說：「我們星期五見面吧。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "what-should-we-do-first",
+      "english": "What should we do first?",
+      "translation": "我們應該先做什麼？",
+      "audio": {
+        "src": "/audio/phrases/team-project-what-should-we-do-first.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ac248e598eb79b9f4b616d1d35085d41fe8f4c9882ba34317bf0b15e231746c1",
+        "sha256": "7a7be6a9f00caea36733e9eb810a3d7c540d248b2e334c36a9d3a16025dbdffb"
+      }
+    },
+    {
+      "id": "thats-a-great-idea",
+      "english": "That's a great idea.",
+      "translation": "那是個好主意。",
+      "audio": {
+        "src": "/audio/phrases/team-project-thats-a-great-idea.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "34f4962a24f92b89aaf09224a071bd24765211d682e6808c4ee21a8537714421",
+        "sha256": "78b682ead6b698ddc5a8b5b07eb7da9cbcf9ede0c4eb666f8e3ef2ab9149c8a8"
+      }
+    },
+    {
+      "id": "i-can-make-the-poster",
+      "english": "I can make the poster.",
+      "translation": "我可以做海報。",
+      "audio": {
+        "src": "/audio/phrases/team-project-i-can-make-the-poster.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9d96e0279e3f762f1ad25d21d81e42ec1e81e64cb5b537af174eb0252f17624a",
+        "sha256": "d9033507cfc1f8b40e35f90d658067713acd5f74c270fa70a33483ddecc457f4"
+      }
+    },
+    {
+      "id": "lets-meet-on-friday",
+      "english": "Let's meet on Friday.",
+      "translation": "我們星期五見面吧。",
+      "audio": {
+        "src": "/audio/phrases/team-project-lets-meet-on-friday.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0c116c8318103a93d7f3a26d2fbcdbc2b75ca0203e401396b754831bc100af43",
+        "sha256": "aa30e886903ea23c324f9e1bf738396c8d0a753edf0947a21d7923129a316dba"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "project",
+      "english": "project",
+      "translation": "專案；作業",
+      "example": "Our English project is due next week.",
+      "audio": {
+        "src": "/audio/words/team-project-project.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "244210e48437b6556980a70249a99369934a352429034cef9d7bd253b3bf2c01",
+        "sha256": "0c4de69c75804c10db607bded612f09456b0fb7b329a7fa60a6c3dd4baf4f72f"
+      }
+    },
+    {
+      "id": "group",
+      "english": "group",
+      "translation": "小組；團隊",
+      "example": "We worked in a small group to finish the work.",
+      "audio": {
+        "src": "/audio/words/team-project-group.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ad936fcbed631fa67e05c3ea03953905221c9d46af0616b70badf105a966fb11",
+        "sha256": "e4f7b97fc7aec86a244b71547fabb7d0e564e8023f6e84116d6168398fb0f709"
+      }
+    },
+    {
+      "id": "poster",
+      "english": "poster",
+      "translation": "海報",
+      "example": "She drew colorful pictures on the poster.",
+      "audio": {
+        "src": "/audio/words/team-project-poster.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "293b9207228b7854bc3ccb2959ebea1583e066d41983124a5b381d6fdf6575f8",
+        "sha256": "6d0cc73e8af3132306937abc1f7ded8674abd5c1f0eb7288b364572fa87f5fec"
+      }
+    },
+    {
+      "id": "idea",
+      "english": "idea",
+      "translation": "想法；點子",
+      "example": "That sounds like a helpful idea.",
+      "audio": {
+        "src": "/audio/words/team-project-idea.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ae0a9ad3227c5420c07dd79abe119876db3d234a066344bd4c90b8f189cd2606",
+        "sha256": "106d57fc9228a0bf0b5cf53ab2474a630e0c7b3ec17a078cefc5ef6968bb3529"
+      }
+    },
+    {
+      "id": "task",
+      "english": "task",
+      "translation": "任務；分工工作",
+      "example": "Each student received a different task.",
+      "audio": {
+        "src": "/audio/words/team-project-task.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0ebb429fa86d481c2630fac53db1c91cffed5d4d41d1021c179444eb67e7ee0b",
+        "sha256": "566e372beed046f7a52c230c1fe7bc48cec7be52039edc2f3974a5204e49f926"
+      }
+    },
+    {
+      "id": "friday",
+      "english": "Friday",
+      "translation": "星期五；週五",
+      "example": "We will meet again this Friday.",
+      "audio": {
+        "src": "/audio/words/team-project-friday.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e21f3f372a46d4be7b49f6809fc91baefeadae004af06485518e124a142c0271",
+        "sha256": "83fc784d504b5f14a692b696cda94b17b3f98151c1abcd09927306cd6bfce92d"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/team-project.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "28062cf20874b7b6583dcad376bf5c67bc89e73b54b709d1d8bb03b90f72761b",
+    "sha256": "cd0fa9912feefe7889fb2aa3f8d8c2c5d2c7adedef178ed253439c55eb2cac3c"
+  }
+}

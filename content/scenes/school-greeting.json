@@ -195,7 +195,7 @@
         "src": "/audio/phrases/school-greeting-hello.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "334d016f755cd6dc58c53a86e183882f8ec14f52fb05345887c8a5edd42c87b7",
-        "sha256": "656679526af17fb9e7ecc46a887d17a621234f79c3a98891a474f9048221f42f"
+        "sha256": "88f39209e757825a611e4b2c5740eefd958ef4ad65b1f6498033c376711d192d"
       }
     },
     {
@@ -206,7 +206,7 @@
         "src": "/audio/phrases/school-greeting-my-name-is.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "deb83494817def510d32bbe2498b88af969d3e4325b65102eab7daab94399f5f",
-        "sha256": "2bc3cc19d61afaf95993de3eab7589b517c25141de287abac4f392a6946990cd"
+        "sha256": "db119a98be22b26eee004cc9b886ee1bf068e3042fd70e66269dea3d7b1a77f3"
       }
     },
     {
@@ -217,7 +217,7 @@
         "src": "/audio/phrases/school-greeting-what-is-your-name.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "b7bc3f438183072baf3ebb11d3d63d781661d4ed7f1f4d79916f89f51f5617f7",
-        "sha256": "ca1241674e8f2b4752642e674f0292eddbebd9b1ba2173ac8cc879898849473a"
+        "sha256": "83875c00047bda14cfa230c35102c65eda90f4108800cc8462bf7d87a83a8ad4"
       }
     },
     {
@@ -228,7 +228,7 @@
         "src": "/audio/phrases/school-greeting-nice-to-meet-you.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "1160a5ae1cde058c44e56e7c2f49bfb0197bf04c41e13314741bb014d1582047",
-        "sha256": "1b3bdae6ac8366efdfbb5dfaba570609cb7125745e9cf86829de592dde27e3d0"
+        "sha256": "b3a89aeb7f34c183d84e713871c3115ade5ff70a72b8d83dfcbdf81aeef30dcf"
       }
     },
     {
@@ -239,7 +239,7 @@
         "src": "/audio/phrases/school-greeting-lets-be-friends.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "2e95f3788dfc36228d2ddbc5364bf98b7e8790caf13a95af73d6abeb317441f1",
-        "sha256": "6badb99ae94ceb25c9f541810b453f866329aa0ce81d7339c6c9882c1d3ec955"
+        "sha256": "bef6756a350d503b772f444717d2ee4b45c10d1d094004773c16c22bd97167f6"
       }
     }
   ],
@@ -253,7 +253,7 @@
         "src": "/audio/words/school-greeting-school.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "d64debd942d7dc26a851231583b1721f43ea936fa41932b6dad7556e5f8cd24a",
-        "sha256": "cb1d5430b547693c27b60addb86a120a3395dcdab3ab8d84985d867b239fe06f"
+        "sha256": "a28ef9a5fc26a436c8c02483b2f2d5110bd58cde622d7ec7cb32b562082815a4"
       }
     },
     {
@@ -265,7 +265,7 @@
         "src": "/audio/words/school-greeting-classroom.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "83d82a74a67aebdecd3846a42bc5235254fb77f8da9a189bf49c321f450dcccd",
-        "sha256": "b2f58028bd55d61c11689079b4108b5ecf8c707e8c356a9706cca6064570ef20"
+        "sha256": "5034efd9d45e31879c76a392c8972264244709a3390b62d718138f307f47260a"
       }
     },
     {
@@ -277,7 +277,7 @@
         "src": "/audio/words/school-greeting-friendly.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "4c448a406dcdf064f72628200461936808f1d5c6956078106bfef933c2ae0967",
-        "sha256": "d2306806430738a4d6fd70d015a8a0e1b95c4b2e134632d87fc50ff0a8600b2e"
+        "sha256": "95f4233e3654a4b1e81e2e54f80a60ef080de15e9a31cb867433408e55ce9714"
       }
     },
     {
@@ -289,7 +289,7 @@
         "src": "/audio/words/school-greeting-smile.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "fa1eadc4c6995667412681c69ce33adfc9302a2965f521c40908549e670e2e4e",
-        "sha256": "fa92a306d8d2147c74611a07dca288e5c001806910476169fa9feaedd84b3e4a"
+        "sha256": "10f15649e73302874d92fc245088510a22e1a16d7008639986deced95e20d4cc"
       }
     },
     {
@@ -301,7 +301,7 @@
         "src": "/audio/words/school-greeting-name.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "82a3537ff0dbce7eec35d69edc3a189ee6f17d82f353a553f9aa96cb0be3ce89",
-        "sha256": "a411092c5e4bd231d04d5928a91760978e641bb1bae74d8a1a635e4a27955868"
+        "sha256": "03b8957d9e579791a6a91294b15b8e78f74e65e1947ad89943a12e79c95d78d4"
       }
     },
     {
@@ -313,7 +313,7 @@
         "src": "/audio/words/school-greeting-friend.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "cde48537ca2c28084ff560826d0e6388b7c57a51497a6cb56f397289e52ff41b",
-        "sha256": "5578113ce1f85b50acd4d22997a0fb99fa32b8520d8adccadc5ccc4ee8e3277c"
+        "sha256": "91efdff589f11e0898595382c99072fe88e07ac5663cf85e79e7c462e6978857"
       }
     }
   ],
@@ -321,6 +321,6 @@
     "src": "/audio/stories/school-greeting.mp3",
     "voiceId": "kokoro-af-heart-v1",
     "textSha256": "c8d766091b1f4d3c6cb1d6df38ac81ce3fa4a6aaa4fee619223e71d551325199",
-    "sha256": "955730ee3b0852e81212c26c7aa29d58e039f949d0bd0106a22dc4524c24d8d3"
+    "sha256": "eddd00fab82ee20b523144a1d7c4c4ce426ec342ee0509b65395e7e68c98a94d"
   }
 }

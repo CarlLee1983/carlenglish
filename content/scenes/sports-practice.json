@@ -1,0 +1,332 @@
+{
+  "id": "sports-practice",
+  "title": "球隊練習",
+  "titleEn": "After-School Sports Practice",
+  "category": "體育與休閒",
+  "level": "中級",
+  "image": {
+    "src": "/images/scenes/sports-practice.webp",
+    "alt": "放學後的學校操場草地上，一群穿著運動服的國中男女學生正在進行足球隊練習，教練在一旁指導傳球動作，陽光灑在球場上。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "As classes end, Kevin packs his bag and asks Mia, “"
+        },
+        {
+          "text": "What time does ",
+          "phraseIds": [
+            "what-time-does-practice-start"
+          ]
+        },
+        {
+          "text": "practice",
+          "phraseIds": [
+            "what-time-does-practice-start"
+          ],
+          "wordIds": [
+            "practice"
+          ]
+        },
+        {
+          "text": " start?",
+          "phraseIds": [
+            "what-time-does-practice-start"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "放學鐘聲響起，Kevin 收拾背包並問 Mia：「練習什麼時候開始？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia ties her sneakers and says, “It starts at four o'clock. "
+        },
+        {
+          "text": "See you on the ",
+          "phraseIds": [
+            "see-you-on-the-field"
+          ]
+        },
+        {
+          "text": "field",
+          "phraseIds": [
+            "see-you-on-the-field"
+          ],
+          "wordIds": [
+            "field"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "see-you-on-the-field"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Mia 繫好球鞋鞋帶並說：「四點開始。球場上見。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Soon, the whole soccer "
+        },
+        {
+          "text": "team",
+          "wordIds": [
+            "team"
+          ]
+        },
+        {
+          "text": " gathers on the sports "
+        },
+        {
+          "text": "field",
+          "wordIds": [
+            "field"
+          ]
+        },
+        {
+          "text": " around their "
+        },
+        {
+          "text": "coach",
+          "wordIds": [
+            "coach"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "不久後，整個足球隊聚集在球場上，圍繞在教練身邊。"
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "coach",
+          "wordIds": [
+            "coach"
+          ]
+        },
+        {
+          "text": " blows his whistle and explains the drill for Friday's big "
+        },
+        {
+          "text": "game",
+          "wordIds": [
+            "game"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "教練吹響哨子，為週五的重要比賽講解訓練動作。"
+    },
+    {
+      "segments": [
+        {
+          "text": "During drills, Kevin receives the ball and makes a crisp "
+        },
+        {
+          "text": "pass",
+          "wordIds": [
+            "pass"
+          ]
+        },
+        {
+          "text": " to his teammate."
+        }
+      ],
+      "translation": "在訓練過程中，Kevin 接住球並俐落地傳球給隊友。"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Nice ",
+          "phraseIds": [
+            "nice-pass"
+          ]
+        },
+        {
+          "text": "pass",
+          "phraseIds": [
+            "nice-pass"
+          ],
+          "wordIds": [
+            "pass"
+          ]
+        },
+        {
+          "text": "!",
+          "phraseIds": [
+            "nice-pass"
+          ]
+        },
+        {
+          "text": "” shouts Mia as she kicks the soccer ball into the net."
+        }
+      ],
+      "translation": "「傳得好！」Mia 將足球踢入球門時大喊著。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Before heading home, the players gather in a circle and say, “"
+        },
+        {
+          "text": "Let's do our best.",
+          "phraseIds": [
+            "lets-do-our-best"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "在回家之前，球員們圍成一圈說：「我們全力以赴吧。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "what-time-does-practice-start",
+      "english": "What time does practice start?",
+      "translation": "練習什麼時候開始？",
+      "audio": {
+        "src": "/audio/phrases/sports-practice-what-time-does-practice-start.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "78d030d5b178f64f0a55b32eff2b77c1a5357d08bd58615b8cef4a5b355966d5",
+        "sha256": "2d3c6fb7d985ff1486202402833d4f35d4720fd79ec68fd889504c15fe0ff569"
+      }
+    },
+    {
+      "id": "nice-pass",
+      "english": "Nice pass!",
+      "translation": "傳得好！",
+      "audio": {
+        "src": "/audio/phrases/sports-practice-nice-pass.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f16bdea54911682ab3ae352889ada874d4994366671ee3193e6902561a9aa0c8",
+        "sha256": "c018bc4d7d3d703389b5c0fda4ef9abd241081216777caa5a8276a46cbf1701a"
+      }
+    },
+    {
+      "id": "lets-do-our-best",
+      "english": "Let's do our best.",
+      "translation": "我們全力以赴吧。",
+      "audio": {
+        "src": "/audio/phrases/sports-practice-lets-do-our-best.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8cb730c4039c46dc2e725b16e2c53758b85bc7af726d44ff46209fd36bf1027e",
+        "sha256": "4cbf1215acec55b612e4b8330f076739b41e65262d4fefc92fde9efd12971a08"
+      }
+    },
+    {
+      "id": "see-you-on-the-field",
+      "english": "See you on the field.",
+      "translation": "球場上見。",
+      "audio": {
+        "src": "/audio/phrases/sports-practice-see-you-on-the-field.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "861f62c24914c2c6f0065e96c5885b0f9c2010baa77da7e9f808fa416445dd9c",
+        "sha256": "8e4dd496d4ad5803426a7bef7cd11fd90869342ef42d54f6b3425b61ec45881b"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "practice",
+      "english": "practice",
+      "translation": "練習",
+      "example": "We have soccer practice after school.",
+      "audio": {
+        "src": "/audio/words/sports-practice-practice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ada750e3f8464e9e1fd6a882b1a3b46cad39a1876c3fb7b85abe47a887c977fb",
+        "sha256": "1d20dee4dfc9773ba9233c85a71b9ca79ca25928cb092861b425003fc22bbd38"
+      }
+    },
+    {
+      "id": "team",
+      "english": "team",
+      "translation": "球隊；隊伍",
+      "example": "Our team works hard together to win.",
+      "audio": {
+        "src": "/audio/words/sports-practice-team.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432",
+        "sha256": "7faffafa7dbd75f3b544a58f2ab4de6fbf1512699f36f2a9d6ec9b105bb84721"
+      }
+    },
+    {
+      "id": "coach",
+      "english": "coach",
+      "translation": "教練",
+      "example": "The coach blew the whistle to call everyone over.",
+      "audio": {
+        "src": "/audio/words/sports-practice-coach.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e0f167bc84b881bc06f6884fb48e02f41dfc5579e25489db6c6bde238e4aed15",
+        "sha256": "fe50433a21e212b5ec6fd8908a4f216390ba56084c8691b6a693df2bf7f5d865"
+      }
+    },
+    {
+      "id": "field",
+      "english": "field",
+      "translation": "球場；操場",
+      "example": "The grass on the sports field was freshly cut.",
+      "audio": {
+        "src": "/audio/words/sports-practice-field.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c0d2856b74d0df05b9d4456b177950351bd88e98b77f12574dfb7a911acee0d0",
+        "sha256": "f8aeb498f8aef9034dfd44cccb7df3ee9be20147eb2a9ef5bd7ff2584292e1de"
+      }
+    },
+    {
+      "id": "game",
+      "english": "game",
+      "translation": "比賽",
+      "example": "Everyone is excited about tomorrow's game.",
+      "audio": {
+        "src": "/audio/words/sports-practice-game.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6ca5cab77e702c787b4c14b3d3bf26bad43da606be6eed04ab0b9720120ae081",
+        "sha256": "cffd3ff3010a499b2cb0cec13139221b3b16df1c5ae61f5dd3513d3d8cc44963"
+      }
+    },
+    {
+      "id": "pass",
+      "english": "pass",
+      "translation": "傳球",
+      "example": "Make sure you pass the ball quickly.",
+      "audio": {
+        "src": "/audio/words/sports-practice-pass.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1",
+        "sha256": "a70ecb43aa0d6212d5cabef34b2d24eb40470e882531391e62d67ae2ea0091b2"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/sports-practice.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "e08b907b59d27196d812a8fbc2ea3074d0f2edae8552e6fb42555939dc63a532",
+    "sha256": "45dd0ad7acd13e4ca036c832314b2f88ebc7fcacb9b30200da9f0b13374d75d7"
+  }
+}

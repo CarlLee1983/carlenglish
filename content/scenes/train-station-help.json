@@ -1,0 +1,377 @@
+{
+  "id": "train-station-help",
+  "title": "在車站詢問月台",
+  "titleEn": "Asking for the Platform at the Train Station",
+  "category": "交通與旅行",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/train-station-help.webp",
+    "alt": "在熱鬧的火車站大廳裡，一位旅客帶著行李箱站在出發看板旁，向親切的車站站務員詢問前往台北的乘車月台；站務員面帶微笑為旅客指引方向。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Leo and his mother enter the busy "
+        },
+        {
+          "text": "train",
+          "wordIds": [
+            "train"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "station",
+          "wordIds": [
+            "station"
+          ]
+        },
+        {
+          "text": " with their luggage."
+        }
+      ],
+      "translation": "Leo 和媽媽帶著行李走進繁忙的火車站。"
+    },
+    {
+      "segments": [
+        {
+          "text": "They look up at the large "
+        },
+        {
+          "text": "departure",
+          "wordIds": [
+            "departure"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "board",
+          "wordIds": [
+            "board"
+          ]
+        },
+        {
+          "text": " to check the "
+        },
+        {
+          "text": "train",
+          "wordIds": [
+            "train"
+          ]
+        },
+        {
+          "text": " schedule."
+        }
+      ],
+      "translation": "他們抬頭看著大型出發看板確認列車時刻。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo shows their "
+        },
+        {
+          "text": "ticket",
+          "wordIds": [
+            "ticket"
+          ]
+        },
+        {
+          "text": " to a "
+        },
+        {
+          "text": "station",
+          "wordIds": [
+            "station"
+          ]
+        },
+        {
+          "text": " employee and asks, “"
+        },
+        {
+          "text": "Which ",
+          "phraseIds": [
+            "which-platform-should-we-go-to"
+          ]
+        },
+        {
+          "text": "platform",
+          "phraseIds": [
+            "which-platform-should-we-go-to"
+          ],
+          "wordIds": [
+            "platform"
+          ]
+        },
+        {
+          "text": " should we go to?",
+          "phraseIds": [
+            "which-platform-should-we-go-to"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 向車站站務員出示車票並問：「我們該去哪一個月台？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The employee checks the "
+        },
+        {
+          "text": "ticket",
+          "wordIds": [
+            "ticket"
+          ]
+        },
+        {
+          "text": " and says, “Your "
+        },
+        {
+          "text": "train",
+          "wordIds": [
+            "train"
+          ]
+        },
+        {
+          "text": " to Taipei is at "
+        },
+        {
+          "text": "platform",
+          "wordIds": [
+            "platform"
+          ]
+        },
+        {
+          "text": " two.”"
+        }
+      ],
+      "translation": "站務員確認車票後說：「你們前往台北的火車在第二月台。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo looks around the busy "
+        },
+        {
+          "text": "station",
+          "wordIds": [
+            "station"
+          ]
+        },
+        {
+          "text": " and asks, “"
+        },
+        {
+          "text": "Where is ",
+          "phraseIds": [
+            "where-is-platform-two"
+          ]
+        },
+        {
+          "text": "platform",
+          "phraseIds": [
+            "where-is-platform-two"
+          ],
+          "wordIds": [
+            "platform"
+          ]
+        },
+        {
+          "text": " two?",
+          "phraseIds": [
+            "where-is-platform-two"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 環顧繁忙的車站並問：「請問第二月台在哪裡？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The employee points toward the stairs and says, “"
+        },
+        {
+          "text": "Here is your ",
+          "phraseIds": [
+            "here-is-your-train"
+          ]
+        },
+        {
+          "text": "train",
+          "phraseIds": [
+            "here-is-your-train"
+          ],
+          "wordIds": [
+            "train"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "here-is-your-train"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "站務員指向樓梯並說：「你們的火車就在這裡。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo smiles warmly and says, “"
+        },
+        {
+          "text": "Thank you for your help.",
+          "phraseIds": [
+            "thank-you-for-your-help"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 親切地微笑著說：「謝謝您的幫忙。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "which-platform-should-we-go-to",
+      "english": "Which platform should we go to?",
+      "translation": "我們該去哪一個月台？",
+      "audio": {
+        "src": "/audio/phrases/train-station-help-which-platform-should-we-go-to.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a17962e8abee2489d8182704f31286581e7fcf40cdc86560e33defd6c3e75203",
+        "sha256": "508e3f8a6c701d1abfb56cada9c82c663c2ec749deff9627c445a4003b355e71"
+      }
+    },
+    {
+      "id": "where-is-platform-two",
+      "english": "Where is platform two?",
+      "translation": "第二月台在哪裡？",
+      "audio": {
+        "src": "/audio/phrases/train-station-help-where-is-platform-two.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5cacf4e17b0abbe1037a01665e419dac5b972f9abc01b1ba2a75f3878834d0ef",
+        "sha256": "484924b2bf0310c352e16efae6bc484c072af7d2448da739171f6a0308766aa7"
+      }
+    },
+    {
+      "id": "here-is-your-train",
+      "english": "Here is your train.",
+      "translation": "你們的火車就在這裡。",
+      "audio": {
+        "src": "/audio/phrases/train-station-help-here-is-your-train.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0c2ad2c3d33a47430a6c56701b9e55a06516872f5516e4c3ccb9c6a8b2282523",
+        "sha256": "2383821eb6632fc117921acb4447ce01868f4649d535c5c26b95d3b4e0bf3daf"
+      }
+    },
+    {
+      "id": "thank-you-for-your-help",
+      "english": "Thank you for your help.",
+      "translation": "謝謝您的幫忙。",
+      "audio": {
+        "src": "/audio/phrases/train-station-help-thank-you-for-your-help.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a5b98d0c736b7fa8ebf438d4a8f0dca53a065231c6fe648f9b288601132848d6",
+        "sha256": "4a84f270e3be3cd33fc69f8aed7f7f4b99476e52137b62bd511be2abdd7b04a2"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "train",
+      "english": "train",
+      "translation": "火車；列車",
+      "example": "We take the train to Taipei every weekend.",
+      "audio": {
+        "src": "/audio/words/train-station-help-train.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "116f54c41d0405dbb10e7b04ebc31e262a5b8c85c1233fcf36eaee344d91ae58",
+        "sha256": "f3d72ea6374afeda94eb0c1a782f4ba010bce7e07d40e0fd1a94d3c8e1958312"
+      }
+    },
+    {
+      "id": "platform",
+      "english": "platform",
+      "translation": "月台",
+      "example": "The passengers are waiting on the platform.",
+      "audio": {
+        "src": "/audio/words/train-station-help-platform.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d294fcce0cc88587843099d85dd805aeef1b09a63b0db1dd3e4dc62a343c1db5",
+        "sha256": "5c5a6e951d77081fae8f23a87c5f545735dfd341803ba7428be6f55f06708f53"
+      }
+    },
+    {
+      "id": "station",
+      "english": "station",
+      "translation": "車站",
+      "example": "The train station is crowded in the morning.",
+      "audio": {
+        "src": "/audio/words/train-station-help-station.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9b4ef3e5b7b4d1759cb8f880e34dbd5ea8c3fcd79ce33b89d7357bf64fcbfc91",
+        "sha256": "7f9081fc9178e3fff0f093a53e350785fdeadb7164270d30b55f62da02efc408"
+      }
+    },
+    {
+      "id": "ticket",
+      "english": "ticket",
+      "translation": "車票",
+      "example": "Please show your train ticket at the gate.",
+      "audio": {
+        "src": "/audio/words/train-station-help-ticket.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "14069429150abcbf244c4c2fb2c4c46a49c93ca9457263ecd9ebb176de3a58bb",
+        "sha256": "f8cf76ab6295228b179f27e056664938341274f0265b95b7e6288d94c31dc144"
+      }
+    },
+    {
+      "id": "departure",
+      "english": "departure",
+      "translation": "出發；班次",
+      "example": "Check the departure time before leaving.",
+      "audio": {
+        "src": "/audio/words/train-station-help-departure.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a70712f49d7d1d9cc551fcf45ff89adb1906d511957a67932f591ba273266695",
+        "sha256": "3d8846870a4fac9075e60aa6adac050c393e89c69a71208449705a6693d5990e"
+      }
+    },
+    {
+      "id": "board",
+      "english": "board",
+      "translation": "看板；告示牌",
+      "example": "The departure board shows the train times.",
+      "audio": {
+        "src": "/audio/words/train-station-help-board.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "859169b38185780daa5497983ff20d2994390058d8a71f2847ac7846f970971e",
+        "sha256": "25d243a0689e478d7325350a7770791db260d2fcf511a2d17314da457e153260"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/train-station-help.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "5f3303ebfdafaaf8db7058d32d0e78b243013c9d09585aa124c3cb28008105c0",
+    "sha256": "272c5bd49278a642361c0d2fe1fa2cca67599ae345ce588343267052b8ccd9fb"
+  }
+}

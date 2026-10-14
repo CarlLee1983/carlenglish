@@ -1,0 +1,293 @@
+{
+  "id": "after-school-homework",
+  "title": "放學後寫功課",
+  "titleEn": "Doing Homework After School",
+  "category": "學習與生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/after-school-homework.webp",
+    "alt": "放學後，小男孩坐在書桌前的椅子上認真看著數學作業簿，爸爸面帶微笑坐在旁邊親切指點，桌上整齊擺放著鉛筆與檯燈。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "After school, Ben sits on a "
+        },
+        {
+          "text": "chair",
+          "wordIds": [
+            "chair"
+          ]
+        },
+        {
+          "text": " at his "
+        },
+        {
+          "text": "desk",
+          "wordIds": [
+            "desk"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "放學後，Ben 坐在書桌前的椅子上。"
+    },
+    {
+      "segments": [
+        {
+          "text": "He opens his workbook to do his "
+        },
+        {
+          "text": "homework",
+          "wordIds": [
+            "homework"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他打開練習本開始寫功課。"
+    },
+    {
+      "segments": [
+        {
+          "text": "One "
+        },
+        {
+          "text": "math",
+          "wordIds": [
+            "math"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "question",
+          "wordIds": [
+            "question"
+          ]
+        },
+        {
+          "text": " is hard, so Ben thinks carefully."
+        }
+      ],
+      "translation": "有一題數學題目很難，所以 Ben 認真思考。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Ben looks at his dad and asks, “"
+        },
+        {
+          "text": "Can you help me?",
+          "phraseIds": [
+            "can-you-help-me"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Ben 看著爸爸問：「你可以幫我嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Dad smiles warmly and says, “"
+        },
+        {
+          "text": "Let me see.",
+          "phraseIds": [
+            "let-me-see"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "爸爸親切地微笑著說：「讓我看看。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Dad helps him step by step, and Ben happily says, “"
+        },
+        {
+          "text": "I am ",
+          "phraseIds": [
+            "i-am-finished"
+          ]
+        },
+        {
+          "text": "finished",
+          "phraseIds": [
+            "i-am-finished"
+          ],
+          "wordIds": [
+            "finished"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "i-am-finished"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "爸爸一步步引導他，Ben 開心地說：「我做完了。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Dad gives him a high five and says, “"
+        },
+        {
+          "text": "Good job!",
+          "phraseIds": [
+            "good-job"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "爸爸和他擊掌並說：「做得好！」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "can-you-help-me",
+      "english": "Can you help me?",
+      "translation": "你可以幫我嗎？",
+      "audio": {
+        "src": "/audio/phrases/after-school-homework-can-you-help-me.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f34917cdc9849d93dc744deab27c36c67262119cb968b2279360af78ff9adf5d",
+        "sha256": "694447d27163229902d9f12688b1dda99d67bb02c38385d5c0d2a1f306efab3c"
+      }
+    },
+    {
+      "id": "let-me-see",
+      "english": "Let me see.",
+      "translation": "讓我看看。",
+      "audio": {
+        "src": "/audio/phrases/after-school-homework-let-me-see.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1e59f968e4cf921181be104348303357db3637f2c1a80cf6b1bc6e84bb958941",
+        "sha256": "d98aea44ce54e8bd1a8858586c8d3235ac3b40c42061ca3bafe8d8556c8e2e67"
+      }
+    },
+    {
+      "id": "good-job",
+      "english": "Good job!",
+      "translation": "做得好！",
+      "audio": {
+        "src": "/audio/phrases/after-school-homework-good-job.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "50bc133e05434024d244f91dc3ff09a510232dec0c06f22b73d599cace2e28b0",
+        "sha256": "a3398cbe45e9b52b6afbf1c2ab9ac693b8fdb952701a11b7f63edb061f83433c"
+      }
+    },
+    {
+      "id": "i-am-finished",
+      "english": "I am finished.",
+      "translation": "我做完了。",
+      "audio": {
+        "src": "/audio/phrases/after-school-homework-i-am-finished.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d0135ee8c52ca28a50eb879cca402067ac52845cc35b661d11c04c4cdb1c8852",
+        "sha256": "03a132792419f806d29e6d8a3eba703accf3b6b8e223727cd070f2859fc14584"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "homework",
+      "english": "homework",
+      "translation": "功課",
+      "example": "I do my homework every afternoon.",
+      "audio": {
+        "src": "/audio/words/after-school-homework-homework.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "404355522396b92953086038cf05a41b27a9f1368be92c0e6b71a1e8c93f420a",
+        "sha256": "f62f4086f3677ce66600ef0a2ed30cab4defedb37b470dbf6557e4a4bcc1eab3"
+      }
+    },
+    {
+      "id": "desk",
+      "english": "desk",
+      "translation": "書桌",
+      "example": "My books are on the desk.",
+      "audio": {
+        "src": "/audio/words/after-school-homework-desk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "49be417ad74080a0031b636b44cfc26fdd0065492d6cd3b033960c4414955cf7",
+        "sha256": "6b63d867171db6e7cd4051f3b694dd03fb4539ee28b879f826ab5a0b27c0e281"
+      }
+    },
+    {
+      "id": "question",
+      "english": "question",
+      "translation": "題目",
+      "example": "This math question is easy.",
+      "audio": {
+        "src": "/audio/words/after-school-homework-question.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1f5087db919ced5c123c7f507d3fcce818cb0cf6e77c2f95a8a35e951e03fdb9",
+        "sha256": "4cced7e15cf2601c02a938f4dddf0df9336cdbddc33b821b03b7777d046e2714"
+      }
+    },
+    {
+      "id": "chair",
+      "english": "chair",
+      "translation": "椅子",
+      "example": "Please sit on the chair.",
+      "audio": {
+        "src": "/audio/words/after-school-homework-chair.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3d7eb3d3dab17ee509a6911e0feb928eb46e956adcada792493614bfb97a7a9c",
+        "sha256": "fc09b0c896ab76d90f53d4f66c9e7c8c7dd611507c704e9cd0ad8f9ea5ed9bc7"
+      }
+    },
+    {
+      "id": "math",
+      "english": "math",
+      "translation": "數學",
+      "example": "We learn math at school.",
+      "audio": {
+        "src": "/audio/words/after-school-homework-math.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "58a6d6801ae771e632351013ffe8e53628287bf5310e469c8c48573669011ef0",
+        "sha256": "3e6cd4f21355499a95885722e4fce6604118f651eafcbf06d8522c263cfc60e8"
+      }
+    },
+    {
+      "id": "finished",
+      "english": "finished",
+      "translation": "完成的",
+      "example": "My drawing is finished.",
+      "audio": {
+        "src": "/audio/words/after-school-homework-finished.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "05343e9845302eb730fa9d18ac7b28d5e509893daf1eb76ede8d6e82d47b2da9",
+        "sha256": "ea5bde5e8db8cce4fefee5f2b331cda0bdb30f885aba3ad0802b8edc0562d0ae"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/after-school-homework.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "ebd73e872020cad2779fe3fb5a28d728c038b569ee6f4ed2c39b50b523136222",
+    "sha256": "21411269566cad90db2a6168b90d100ad46888aa547ea0a006b4f11be738ab47"
+  }
+}

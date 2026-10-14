@@ -1,0 +1,318 @@
+{
+  "id": "zoo-visit",
+  "title": "和家人逛動物園",
+  "titleEn": "Visiting the Zoo with Family",
+  "category": "休閒生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/zoo-visit.webp",
+    "alt": "在陽光明媚的週末，一家四口走在綠意盎然的動物園步道上，孩子們興奮地指著圍欄裡吃樹葉的高大長頸鹿與龐大的大象，媽媽拿著相機面帶微笑準備為大家拍照。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "On Sunday, my family walks happily into the "
+        },
+        {
+          "text": "zoo",
+          "wordIds": [
+            "zoo"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "星期天，我和家人開心地走進動物園。"
+    },
+    {
+      "segments": [
+        {
+          "text": "We are excited to visit every friendly "
+        },
+        {
+          "text": "animal",
+          "wordIds": [
+            "animal"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我們很興奮能拜訪每一隻友善的動物。"
+    },
+    {
+      "segments": [
+        {
+          "text": "We watch giraffes eat green leaves, and I say, “"
+        },
+        {
+          "text": "The ",
+          "phraseIds": [
+            "the-giraffe-is-so-tall"
+          ]
+        },
+        {
+          "text": "giraffe",
+          "phraseIds": [
+            "the-giraffe-is-so-tall"
+          ],
+          "wordIds": [
+            "giraffe"
+          ]
+        },
+        {
+          "text": " is so ",
+          "phraseIds": [
+            "the-giraffe-is-so-tall"
+          ]
+        },
+        {
+          "text": "tall",
+          "phraseIds": [
+            "the-giraffe-is-so-tall"
+          ],
+          "wordIds": [
+            "tall"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "the-giraffe-is-so-tall"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "我們看著長頸鹿吃綠葉，我說：「長頸鹿好高喔。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Then my little brother points and shouts, “"
+        },
+        {
+          "text": "Look at the ",
+          "phraseIds": [
+            "look-at-the-elephant"
+          ]
+        },
+        {
+          "text": "elephant",
+          "phraseIds": [
+            "look-at-the-elephant"
+          ],
+          "wordIds": [
+            "elephant"
+          ]
+        },
+        {
+          "text": "!",
+          "phraseIds": [
+            "look-at-the-elephant"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "接著我弟弟指著並喊道：「看那隻大象！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom holds up her camera and asks, “"
+        },
+        {
+          "text": "Can we take a ",
+          "phraseIds": [
+            "can-we-take-a-picture"
+          ]
+        },
+        {
+          "text": "picture",
+          "phraseIds": [
+            "can-we-take-a-picture"
+          ],
+          "wordIds": [
+            "picture"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "can-we-take-a-picture"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "媽媽舉起相機問：「我們可以拍張照嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "We all smile together for the camera, and I say, “"
+        },
+        {
+          "text": "I love the ",
+          "phraseIds": [
+            "i-love-the-zoo"
+          ]
+        },
+        {
+          "text": "zoo",
+          "phraseIds": [
+            "i-love-the-zoo"
+          ],
+          "wordIds": [
+            "zoo"
+          ]
+        },
+        {
+          "text": "!",
+          "phraseIds": [
+            "i-love-the-zoo"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "我們大家一起對著鏡頭微笑，我說：「我好喜歡動物園！」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "look-at-the-elephant",
+      "english": "Look at the elephant!",
+      "translation": "看那隻大象！",
+      "audio": {
+        "src": "/audio/phrases/zoo-visit-look-at-the-elephant.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2423b63645f3b2c5b5044a2376166e6d88f7a4608c91effed15886128b67d97e",
+        "sha256": "022d159b7cd7b1e6d40c7f172868942ece1551fef3f2156812d2ce139ee3ade9"
+      }
+    },
+    {
+      "id": "the-giraffe-is-so-tall",
+      "english": "The giraffe is so tall.",
+      "translation": "長頸鹿好高喔。",
+      "audio": {
+        "src": "/audio/phrases/zoo-visit-the-giraffe-is-so-tall.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b098a44defd676ef408a12e9ef60ab16480368190c86578e83a5d773b8eb4302",
+        "sha256": "eafc626609aa4eeea5e7fb449bc2e8e029eac7f3d568c3c6fc84b70937b80e50"
+      }
+    },
+    {
+      "id": "can-we-take-a-picture",
+      "english": "Can we take a picture?",
+      "translation": "我們可以拍張照嗎？",
+      "audio": {
+        "src": "/audio/phrases/zoo-visit-can-we-take-a-picture.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5750929692f553d2654fda281f7b24095f0765f670f2cdee4822ce869bd994bb",
+        "sha256": "cf90c6bb2b7025eef5acfd1e7c8d01a2896447f2edb7ce968bb1be26dd5b9748"
+      }
+    },
+    {
+      "id": "i-love-the-zoo",
+      "english": "I love the zoo!",
+      "translation": "我好喜歡動物園！",
+      "audio": {
+        "src": "/audio/phrases/zoo-visit-i-love-the-zoo.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c8eb98fcc4f82b024d4f19efe124b1863714b74a12d96489cbba6723b551b449",
+        "sha256": "856a0c9ad7f542c497f82d1cf6932873d2db10b6ed347a39e4ec97d23f119309"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "zoo",
+      "english": "zoo",
+      "translation": "動物園",
+      "example": "We see many animals at the zoo.",
+      "audio": {
+        "src": "/audio/words/zoo-visit-zoo.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "24fe93c9e17cb80452e5d86f1c186fc2fda2482cd5f81d7d305c2295bdab0aec",
+        "sha256": "c9d6b03e436c89823444deaf192198854a923e797d06c53691b2b6fec3d28280"
+      }
+    },
+    {
+      "id": "animal",
+      "english": "animal",
+      "translation": "動物",
+      "example": "The elephant is a big animal.",
+      "audio": {
+        "src": "/audio/words/zoo-visit-animal.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ab91a82d14cfc6125c1a40e6920a4cd3fcc3e2f9940347175b06367845a9bcbc",
+        "sha256": "2e6bdc8f6210aa4b184f0b5ecd309b480f4f70dadedbf1fc95c7a5d3216ab803"
+      }
+    },
+    {
+      "id": "elephant",
+      "english": "elephant",
+      "translation": "大象",
+      "example": "The elephant has large ears.",
+      "audio": {
+        "src": "/audio/words/zoo-visit-elephant.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cd08c4c4316df20d9c30450fe776dcde4810029e641cde526c5bbffec1f770a3",
+        "sha256": "22309b67cbdebdfb313ead59db60e6cf6e875eafd4734f0b62bfc8784edcbcb6"
+      }
+    },
+    {
+      "id": "tall",
+      "english": "tall",
+      "translation": "高的",
+      "example": "The giraffe is very tall.",
+      "audio": {
+        "src": "/audio/words/zoo-visit-tall.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "241daf2e753a6a2f37a1b147ee6d4af459515d4e3da723f0b1e226cddb214cfe",
+        "sha256": "bd00060ffbe6ba45703c93fde2dc9c74e6e3a2017995d54ea90a9358bf171d22"
+      }
+    },
+    {
+      "id": "giraffe",
+      "english": "giraffe",
+      "translation": "長頸鹿",
+      "example": "A giraffe has a long neck.",
+      "audio": {
+        "src": "/audio/words/zoo-visit-giraffe.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6bb7e067447139b18f6094d2d15bcc264affde89a8b9f5227fe5b38abd8b19d7",
+        "sha256": "a56df9ac055f60546ba5963487ff28f9a837c179323db9f2e23df673a83aa2ca"
+      }
+    },
+    {
+      "id": "picture",
+      "english": "picture",
+      "translation": "照片",
+      "example": "Can you take a picture of us?",
+      "audio": {
+        "src": "/audio/words/zoo-visit-picture.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2cea274d0bedc39ec4ab6ba9e59ec889e3ed6fb56a1cf088a64d9b383378dc97",
+        "sha256": "a9a489e07eab02feef6c89077ed426d74d909839abb6de0105a796072483e092"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/zoo-visit.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "b4494f8016f0278303520514c0a92e86b997968d6b1d29ebe523843f3eaf8b13",
+    "sha256": "ebc086b4052da15d0b6730ee069b7a0e8238b4c55c18d1c86448c21ab8cca3d1"
+  }
+}

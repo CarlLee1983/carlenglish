@@ -1,0 +1,293 @@
+{
+  "id": "lost-water-bottle",
+  "title": "尋找遺失的水壺",
+  "titleEn": "Finding the Lost Water Bottle",
+  "category": "校園生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/lost-water-bottle.webp",
+    "alt": "體育課結束後，小男孩在教室與操場尋找自己的水壺，老師和同學幫忙協尋，最後在操場邊的木長椅上順利找到藍色小水壺。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Leo walks into the "
+        },
+        {
+          "text": "classroom",
+          "wordIds": [
+            "classroom"
+          ]
+        },
+        {
+          "text": " after PE class."
+        }
+      ],
+      "translation": "體育課結束後，Leo 走進教室。"
+    },
+    {
+      "segments": [
+        {
+          "text": "He checks his desk, but he cannot "
+        },
+        {
+          "text": "find",
+          "wordIds": [
+            "find"
+          ]
+        },
+        {
+          "text": " his "
+        },
+        {
+          "text": "water",
+          "wordIds": [
+            "water"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "bottle",
+          "wordIds": [
+            "bottle"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他檢查了自己的書桌，但找不到他的水壺。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo asks his teacher and friends, “"
+        },
+        {
+          "text": "Have you seen my water bottle?",
+          "phraseIds": [
+            "have-you-seen-my-water-bottle"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 問老師和朋友們：「你有看見我的水壺嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "His teacher smiles and asks, “"
+        },
+        {
+          "text": "Where did you leave it?",
+          "phraseIds": [
+            "where-did-you-leave-it"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "老師微笑著問：「你把它留在哪裡了？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo thinks for a moment and says, “"
+        },
+        {
+          "text": "It is ",
+          "phraseIds": [
+            "it-is-blue-and-small"
+          ]
+        },
+        {
+          "text": "blue",
+          "phraseIds": [
+            "it-is-blue-and-small"
+          ],
+          "wordIds": [
+            "blue"
+          ]
+        },
+        {
+          "text": " and small.",
+          "phraseIds": [
+            "it-is-blue-and-small"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 想了一下說：「它是藍色而且小小的。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "They go back to the playground, and his friend points to a "
+        },
+        {
+          "text": "bench",
+          "wordIds": [
+            "bench"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們走回操場，他的朋友指著一張長椅。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo runs over and cheers, “"
+        },
+        {
+          "text": "Here it is!",
+          "phraseIds": [
+            "here-it-is"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 跑過去歡呼：「它在這裡！」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "have-you-seen-my-water-bottle",
+      "english": "Have you seen my water bottle?",
+      "translation": "你有看見我的水壺嗎？",
+      "audio": {
+        "src": "/audio/phrases/lost-water-bottle-have-you-seen-my-water-bottle.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "64d8c144893e6ccb7717e4a90826dd6391c394792b2a15feac7b0708ebb0532b",
+        "sha256": "bd4ef559a3ac37cdab3cfb9c7e19f859ef4ddb72fb650661e181887bcee46b3a"
+      }
+    },
+    {
+      "id": "it-is-blue-and-small",
+      "english": "It is blue and small.",
+      "translation": "它是藍色而且小小的。",
+      "audio": {
+        "src": "/audio/phrases/lost-water-bottle-it-is-blue-and-small.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3c0f8901288d3680cd736f0f2228d73c4d41d311d28e4f780ef11a0ea874a785",
+        "sha256": "ce981a4c1e18652e8277e3662b0131b6202071dc23c4d9a24e01648077617ac1"
+      }
+    },
+    {
+      "id": "where-did-you-leave-it",
+      "english": "Where did you leave it?",
+      "translation": "你把它留在哪裡了？",
+      "audio": {
+        "src": "/audio/phrases/lost-water-bottle-where-did-you-leave-it.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e9aac5f34ad1d1557850d0e94fe1074ab650704fcbdc46cec6f8792cd8d1e80e",
+        "sha256": "e6ac9ea3e40f0d828765db0fec783f8763ebd0166e9eacaf9faf85849dd04658"
+      }
+    },
+    {
+      "id": "here-it-is",
+      "english": "Here it is!",
+      "translation": "它在這裡！",
+      "audio": {
+        "src": "/audio/phrases/lost-water-bottle-here-it-is.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f17924be06a611b77a2cc5a73269d849f70ad226720dec2e86cf79de95151549",
+        "sha256": "98ecbc5f56157b06413bb4f044e6515b3118c004779c36f82c3a2b9f4d105b43"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "bottle",
+      "english": "bottle",
+      "translation": "水壺",
+      "example": "I carry a water bottle to school every day.",
+      "audio": {
+        "src": "/audio/words/lost-water-bottle-bottle.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7def9c79e5be6d7a70022168b8b099ce1e707a2fd809a60fab73de6de578884b",
+        "sha256": "f19f8855693c3e900e5132119950be89460bcc7a233bbd94286bf751b51b41d6"
+      }
+    },
+    {
+      "id": "blue",
+      "english": "blue",
+      "translation": "藍色的",
+      "example": "She has a pretty blue pencil case.",
+      "audio": {
+        "src": "/audio/words/lost-water-bottle-blue.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "16477688c0e00699c6cfa4497a3612d7e83c532062b64b250fed8908128ed548",
+        "sha256": "14b9fe08b42fe0f073ba8a1bb6b0538003d8d5c270f4d907a5722356c9bafb59"
+      }
+    },
+    {
+      "id": "water",
+      "english": "water",
+      "translation": "水",
+      "example": "Please drink more water after running.",
+      "audio": {
+        "src": "/audio/words/lost-water-bottle-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501",
+        "sha256": "657abae93b4b94ec4a060097050143159a11812802661e493d1e8fd917031b43"
+      }
+    },
+    {
+      "id": "bench",
+      "english": "bench",
+      "translation": "長椅",
+      "example": "We sit on the bench under the big tree.",
+      "audio": {
+        "src": "/audio/words/lost-water-bottle-bench.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1b32c28cb38c05480eccc1bd60ff97029b57a05c96718b96dad7e9d84894f549",
+        "sha256": "3d01d09ee18ef44fa730938d8677cd1acf91a450c4a4023097c5dc80ba8a73e0"
+      }
+    },
+    {
+      "id": "classroom",
+      "english": "classroom",
+      "translation": "教室",
+      "example": "Our classroom is bright and clean.",
+      "audio": {
+        "src": "/audio/words/lost-water-bottle-classroom.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "83d82a74a67aebdecd3846a42bc5235254fb77f8da9a189bf49c321f450dcccd",
+        "sha256": "bc182a0d85dd56f26dd797d05c90bfc1925130bd741ff40c8865c06e703a0dab"
+      }
+    },
+    {
+      "id": "find",
+      "english": "find",
+      "translation": "找到",
+      "example": "I can find my shoes near the door.",
+      "audio": {
+        "src": "/audio/words/lost-water-bottle-find.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e6640de835ad09fb0a7367ee2e0ba99d0142c139db0272146e35538bd07479fc",
+        "sha256": "705cb3e401b1c04f17dbc42a7190f4e8484160ceebc35ba88233a8f697ceb47b"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/lost-water-bottle.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "355fe368ac9589c95ca13ca9e8625fc4e2b243c8919c04d7077100e78c9b9f7f",
+    "sha256": "0dce6755b4c918003b3514a1096c35e0bccde260dafc2bb3ad4ada6e0bc1a1c7"
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "id": "tidying-bedroom",
+  "title": "整理房間",
+  "titleEn": "Tidying Up the Bedroom",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/tidying-bedroom.webp",
+    "alt": "在溫馨明亮的臥室裡，小男孩和媽媽一起彎腰把木質地板上的積木與玩具車收進玩具箱，床鋪也整理得整整齊齊。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Leo looks around his "
+        },
+        {
+          "text": "bedroom",
+          "wordIds": [
+            "bedroom"
+          ]
+        },
+        {
+          "text": " and says, “"
+        },
+        {
+          "text": "Look at this mess.",
+          "phraseIds": [
+            "look-at-this-mess"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 看著自己的臥室並說：「看這團亂七八糟。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Many blocks and "
+        },
+        {
+          "text": "toy",
+          "wordIds": [
+            "toy"
+          ]
+        },
+        {
+          "text": " cars are all over the "
+        },
+        {
+          "text": "floor",
+          "wordIds": [
+            "floor"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "好多積木和玩具車散落得整座地板都是。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom smiles and says, “"
+        },
+        {
+          "text": "Let's put the toys away.",
+          "phraseIds": [
+            "lets-put-the-toys-away"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "媽媽微笑著說：「我們把玩具收好吧。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo picks up a "
+        },
+        {
+          "text": "toy",
+          "wordIds": [
+            "toy"
+          ]
+        },
+        {
+          "text": " car, and Mom says, “"
+        },
+        {
+          "text": "Put it in the ",
+          "phraseIds": [
+            "put-it-in-the-box"
+          ]
+        },
+        {
+          "text": "box",
+          "phraseIds": [
+            "put-it-in-the-box"
+          ],
+          "wordIds": [
+            "box"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "put-it-in-the-box"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 撿起一輛玩具車，媽媽說：「把它放進箱子裡。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "They put every "
+        },
+        {
+          "text": "toy",
+          "wordIds": [
+            "toy"
+          ]
+        },
+        {
+          "text": " into the "
+        },
+        {
+          "text": "box",
+          "wordIds": [
+            "box"
+          ]
+        },
+        {
+          "text": " and make the "
+        },
+        {
+          "text": "bed",
+          "wordIds": [
+            "bed"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們把每個玩具都放進箱子裡，並把床鋪整理好。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo looks at his tidy room and smiles, “"
+        },
+        {
+          "text": "Now it is ",
+          "phraseIds": [
+            "now-it-is-clean"
+          ]
+        },
+        {
+          "text": "clean",
+          "phraseIds": [
+            "now-it-is-clean"
+          ],
+          "wordIds": [
+            "clean"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "now-it-is-clean"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 看著整齊的房間微笑著說：「現在變乾淨了。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "look-at-this-mess",
+      "english": "Look at this mess.",
+      "translation": "看這團亂七八糟。",
+      "audio": {
+        "src": "/audio/phrases/tidying-bedroom-look-at-this-mess.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ea234fdcc7b51d0e5f2fb7848e9b0bdcd1f0e3dd0cec50d09bb4d486fd9d00b3",
+        "sha256": "bb07b21440499f9fc0e07b53b0fd2875bbc6878a00415846779cd2b17c96060a"
+      }
+    },
+    {
+      "id": "lets-put-the-toys-away",
+      "english": "Let's put the toys away.",
+      "translation": "我們把玩具收好吧。",
+      "audio": {
+        "src": "/audio/phrases/tidying-bedroom-lets-put-the-toys-away.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9e4ee2be8b6725e125c8647cc7cf7c4374ae094766339f57211502150fed2543",
+        "sha256": "24ca7a01c033e8ad4c97e1ea19f0197f1c380580144bd2cb982fab8309d9afa7"
+      }
+    },
+    {
+      "id": "put-it-in-the-box",
+      "english": "Put it in the box.",
+      "translation": "把它放進箱子裡。",
+      "audio": {
+        "src": "/audio/phrases/tidying-bedroom-put-it-in-the-box.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "46f24c7e778fb8482387262785acd701361a4eee591f9da0386a98a816572363",
+        "sha256": "7b520330312a9eef54ec0bef4ada28bc54fb72d02ac149599d47de5fc3837523"
+      }
+    },
+    {
+      "id": "now-it-is-clean",
+      "english": "Now it is clean.",
+      "translation": "現在變乾淨了。",
+      "audio": {
+        "src": "/audio/phrases/tidying-bedroom-now-it-is-clean.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "83573a74a4853654c9ed00dc7d3a47c2809741134c81d17a579fea81d656f299",
+        "sha256": "22e35a9676a4670be9eaeaafdab2ef0b12601ae470f93ddb4a69063bf00f817a"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "bedroom",
+      "english": "bedroom",
+      "translation": "臥室；房間",
+      "example": "My bedroom is tidy and bright.",
+      "audio": {
+        "src": "/audio/words/tidying-bedroom-bedroom.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a05e6feb79c854166f6c73783754dc0111ee87edd58bca22a77c3a8721fa729c",
+        "sha256": "ae1bfa918a945bd477d9bb48ad53fcab67ef776701d709d65e421b03c4311cd9"
+      }
+    },
+    {
+      "id": "floor",
+      "english": "floor",
+      "translation": "地板",
+      "example": "Please pick up the blocks from the floor.",
+      "audio": {
+        "src": "/audio/words/tidying-bedroom-floor.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a3e1f4935b0919b346c2caf4da18078a1ebaf6451eb7f7b5dc79c11629b6368c",
+        "sha256": "76f62dd3f23ffc9ef38fd453b5c78d413dbeb7559afaf46b9c5dbbecf28fca2f"
+      }
+    },
+    {
+      "id": "toy",
+      "english": "toy",
+      "translation": "玩具",
+      "example": "The blue car is my favorite toy.",
+      "audio": {
+        "src": "/audio/words/tidying-bedroom-toy.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f53133ce57ca8e8937bb4b1c15a33ef9594704e1c11abd58e598bb8362f7385",
+        "sha256": "eb89656031991e08f78fdfc4d2412751847e25b05f3dd89115815bb28e8acace"
+      }
+    },
+    {
+      "id": "box",
+      "english": "box",
+      "translation": "箱子；盒子",
+      "example": "Put the toys inside the big box.",
+      "audio": {
+        "src": "/audio/words/tidying-bedroom-box.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "26f8567f2569182294c3fa5b9f9cb2270b554eef628b4c149cf82a42888ff4ae",
+        "sha256": "67f19560f563a40b9dfea168b1117504107a09b45b5ee1343a57ae44d656408e"
+      }
+    },
+    {
+      "id": "bed",
+      "english": "bed",
+      "translation": "床",
+      "example": "I make my bed every morning.",
+      "audio": {
+        "src": "/audio/words/tidying-bedroom-bed.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c5052532c2206140dfdc3b0d756cce0831ac00fd978f2bfd150858e7ee217a8c",
+        "sha256": "f541570ad4d0bc573b1eff6fb0e5365ed30ba3bb23df3abfcf7972180f78e575"
+      }
+    },
+    {
+      "id": "clean",
+      "english": "clean",
+      "translation": "乾淨的；打掃",
+      "example": "The room is neat and clean now.",
+      "audio": {
+        "src": "/audio/words/tidying-bedroom-clean.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3b066804f6d1d077173cfe4d06002e6a61e6f21c2b2e648417962115f1afcd8e",
+        "sha256": "83e21a204d39206ea6b152c41413a56744bfc31dbf126efa4a7a1d4e0cb1b691"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/tidying-bedroom.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "9c8fcce28db387650726484808bcbc3d605c960e124c0b00b734fc2294f8e022",
+    "sha256": "68b07ea546482ed97fbe21726a35e8428495ffd4a693b9cbcf9b1f19af46f760"
+  }
+}

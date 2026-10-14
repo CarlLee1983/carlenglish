@@ -1,0 +1,308 @@
+{
+  "id": "school-festival",
+  "title": "園遊會擺攤",
+  "titleEn": "Running a Booth at the School Festival",
+  "category": "校園活動",
+  "level": "中級",
+  "image": {
+    "src": "/images/scenes/school-festival.webp",
+    "alt": "在熱鬧的學校園遊會操場上，幾位國中生在班級攤位前分工合作，熱情地招呼客人並遞上自製點心與遊戲票券。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Today, every "
+        },
+        {
+          "text": "student",
+          "wordIds": [
+            "student"
+          ]
+        },
+        {
+          "text": " is excited because our school is holding its annual "
+        },
+        {
+          "text": "festival",
+          "wordIds": [
+            "festival"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "今天每位學生都很興奮，因為學校正在舉辦一年一度的園遊會。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Our class sets up a colorful "
+        },
+        {
+          "text": "booth",
+          "wordIds": [
+            "booth"
+          ]
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "sell",
+          "wordIds": [
+            "sell"
+          ]
+        },
+        {
+          "text": " handmade cookies and fun games."
+        }
+      ],
+      "translation": "我們班設立了一個色彩繽紛的攤位，販售手工餅乾和好玩的遊戲。"
+    },
+    {
+      "segments": [
+        {
+          "text": "When visitors walk by, Mia waves happily and calls out, “"
+        },
+        {
+          "text": "Welcome to our ",
+          "phraseIds": [
+            "welcome-to-our-booth"
+          ]
+        },
+        {
+          "text": "booth",
+          "phraseIds": [
+            "welcome-to-our-booth"
+          ],
+          "wordIds": [
+            "booth"
+          ]
+        },
+        {
+          "text": "!",
+          "phraseIds": [
+            "welcome-to-our-booth"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "當訪客走過時，Mia 開心地揮手並喊道：「歡迎來到我們的攤位！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "A friendly "
+        },
+        {
+          "text": "customer",
+          "wordIds": [
+            "customer"
+          ]
+        },
+        {
+          "text": " stops at our table to look around."
+        }
+      ],
+      "translation": "一位親切的客人停在我們的桌子前東張西望。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo points to our fresh treats and asks, “"
+        },
+        {
+          "text": "Would you like to try one?",
+          "phraseIds": [
+            "would-you-like-to-try-one"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 指著我們新鮮的點心問道：「你想嚐嚐看嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The customer smiles and says, “"
+        },
+        {
+          "text": "One ",
+          "phraseIds": [
+            "one-ticket-please"
+          ]
+        },
+        {
+          "text": "ticket",
+          "phraseIds": [
+            "one-ticket-please"
+          ],
+          "wordIds": [
+            "ticket"
+          ]
+        },
+        {
+          "text": ", please.",
+          "phraseIds": [
+            "one-ticket-please"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "客人微笑著說：「請給我一張票。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "After handing over the snack, the students wave and say, “"
+        },
+        {
+          "text": "Thanks for coming!",
+          "phraseIds": [
+            "thanks-for-coming"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "遞上點心後，學生們揮手說道：「謝謝光臨！」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "welcome-to-our-booth",
+      "english": "Welcome to our booth!",
+      "translation": "歡迎來到我們的攤位！",
+      "audio": {
+        "src": "/audio/phrases/school-festival-welcome-to-our-booth.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27d30b3457ea9014a86dc2a614ce09e0213a51070ace85b01d07f53115c22ffc",
+        "sha256": "0879f16b47d7ef8621acd5150463c61da5ab6bf97e74426cdbc5390692eeb3f7"
+      }
+    },
+    {
+      "id": "would-you-like-to-try-one",
+      "english": "Would you like to try one?",
+      "translation": "你想嚐嚐看嗎？",
+      "audio": {
+        "src": "/audio/phrases/school-festival-would-you-like-to-try-one.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "562141714010c44aff18302520e904e92f6267c27083013d5fa055141ded8c96",
+        "sha256": "c3636f7b85fca3eff15a337bdaaf7488109738054f3c944039d07b388ab6030f"
+      }
+    },
+    {
+      "id": "one-ticket-please",
+      "english": "One ticket, please.",
+      "translation": "請給我一張票。",
+      "audio": {
+        "src": "/audio/phrases/school-festival-one-ticket-please.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5ddd9f1d56aa7fe156135db0b7c1ef7075ab5d545ca444718e7b790017021e7a",
+        "sha256": "eb140abbe374c7080019df551ef2f9b9a8ce337de5184882603cc02795b2544d"
+      }
+    },
+    {
+      "id": "thanks-for-coming",
+      "english": "Thanks for coming!",
+      "translation": "謝謝光臨！",
+      "audio": {
+        "src": "/audio/phrases/school-festival-thanks-for-coming.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1ce29a8437f9bf90d493c0fb3ecf70cb21acf11418467d5395b2cf2698b79fba",
+        "sha256": "49babc395fee4f47761418eb3120fbf9863562e641869cdda225af89ec390500"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "booth",
+      "english": "booth",
+      "translation": "攤位",
+      "example": "We decorated our booth with colorful balloons.",
+      "audio": {
+        "src": "/audio/words/school-festival-booth.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "046b34e558dbffcc05c015502fd1e50c7816d305b2680e2a986b025400387cbd",
+        "sha256": "0a6e0bd4035dce947479a34afff48bb378255142f77a059a0360dda4e513eb2e"
+      }
+    },
+    {
+      "id": "festival",
+      "english": "festival",
+      "translation": "節慶；園遊會",
+      "example": "The school festival is the most exciting event of the year.",
+      "audio": {
+        "src": "/audio/words/school-festival-festival.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8ffaaf97add883ad7d0225541ef2250def2abe58e0c419083a60afc1c15ae39c",
+        "sha256": "9441592c71532d2a76f6b8bd155ecd3c6248699d62c8f6cc4bef1639cec1746a"
+      }
+    },
+    {
+      "id": "sell",
+      "english": "sell",
+      "translation": "販售；賣",
+      "example": "The students sell drinks and snacks to raise money.",
+      "audio": {
+        "src": "/audio/words/school-festival-sell.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c0f21d451463ec3e3254bf2d631b70a46e870f72eca69b2a869625407c22a8b0",
+        "sha256": "0ceb83c7f89b75a5fbbc2fcd77e0d09085bc1295db5674ddf9b46d65f1c0b7a1"
+      }
+    },
+    {
+      "id": "customer",
+      "english": "customer",
+      "translation": "顧客；客人",
+      "example": "A customer came to ask about the price.",
+      "audio": {
+        "src": "/audio/words/school-festival-customer.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b6c45863875e34487ca3c155ed145efe12a74581e27befec5aa661b8ee8ca6dd",
+        "sha256": "7ede6cf66a8e2e6f356c09287b1ceb46a275db80c45e3624643948fc086f88e2"
+      }
+    },
+    {
+      "id": "ticket",
+      "english": "ticket",
+      "translation": "票；入場券",
+      "example": "You need a ticket to play the carnival games.",
+      "audio": {
+        "src": "/audio/words/school-festival-ticket.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "14069429150abcbf244c4c2fb2c4c46a49c93ca9457263ecd9ebb176de3a58bb",
+        "sha256": "150d5b6235be6f0032b4787395c8cc60d59b203081a507dfdfec773e0e2cf404"
+      }
+    },
+    {
+      "id": "student",
+      "english": "student",
+      "translation": "學生",
+      "example": "Every student in our class helped prepare for the event.",
+      "audio": {
+        "src": "/audio/words/school-festival-student.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "264c8c381bf16c982a4e59b0dd4c6f7808c51a05f64c35db42cc78a2a72875bb",
+        "sha256": "15342db06cf429402836e4303011cb69fcf911f4b9b2f035507bbb658aba06fb"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/school-festival.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "33112aaff146a37fdfaf3027640a4a19bfe8948e4d4a8c97eab21aa30d7c20c6",
+    "sha256": "5830dbce6cd58ae4528420e30f82592b393f807c2b9ca75bc6b76aab72554cca"
+  }
+}

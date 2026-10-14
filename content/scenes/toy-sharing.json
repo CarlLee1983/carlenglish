@@ -1,0 +1,311 @@
+{
+  "id": "toy-sharing",
+  "title": "分享玩具",
+  "titleEn": "Sharing Toys",
+  "category": "遊戲與友誼",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/toy-sharing.webp",
+    "alt": "在溫馨明亮的客廳裡，兩個好朋友坐在地毯上開心玩耍，身邊擺放著積木與玩具火車，兩人笑著互相分享車廂並一起拼出長長的鐵軌。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Leo and his "
+        },
+        {
+          "text": "friend",
+          "wordIds": [
+            "friend"
+          ]
+        },
+        {
+          "text": " Mia sit on the carpet in the living room."
+        }
+      ],
+      "translation": "Leo 和他的朋友 Mia 坐在客廳的地毯上。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo smiles and says, “"
+        },
+        {
+          "text": "Let's play together.",
+          "phraseIds": [
+            "lets-play-together"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 微笑著說：「我們一起玩吧。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia looks at the colorful box and asks, “"
+        },
+        {
+          "text": "Can I ",
+          "phraseIds": [
+            "can-i-share-your-toy"
+          ]
+        },
+        {
+          "text": "share",
+          "phraseIds": [
+            "can-i-share-your-toy"
+          ],
+          "wordIds": [
+            "share"
+          ]
+        },
+        {
+          "text": " your ",
+          "phraseIds": [
+            "can-i-share-your-toy"
+          ]
+        },
+        {
+          "text": "toy",
+          "phraseIds": [
+            "can-i-share-your-toy"
+          ],
+          "wordIds": [
+            "toy"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "can-i-share-your-toy"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Mia 看著彩色的盒子問：「我可以分享你的玩具嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo hands her a red engine and says, “"
+        },
+        {
+          "text": "Here is a ",
+          "phraseIds": [
+            "here-is-a-train"
+          ]
+        },
+        {
+          "text": "train",
+          "phraseIds": [
+            "here-is-a-train"
+          ],
+          "wordIds": [
+            "train"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "here-is-a-train"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 遞給她一個紅色車頭並說：「這裡有一列火車。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia places a wooden "
+        },
+        {
+          "text": "block",
+          "wordIds": [
+            "block"
+          ]
+        },
+        {
+          "text": " on the rug to build a bridge."
+        }
+      ],
+      "translation": "Mia 在地毯上放了一塊木頭積木來蓋一座小橋。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Together, they connect the pieces and cheer, “"
+        },
+        {
+          "text": "We built a ",
+          "phraseIds": [
+            "we-built-a-track"
+          ]
+        },
+        {
+          "text": "track",
+          "phraseIds": [
+            "we-built-a-track"
+          ],
+          "wordIds": [
+            "track"
+          ]
+        },
+        {
+          "text": "!",
+          "phraseIds": [
+            "we-built-a-track"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他們一起把零件連接起來並歡呼：「我們做了一條軌道！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The two friends watch the little cars roll and have fun all afternoon."
+        }
+      ],
+      "translation": "兩位好朋友看著小車子前進，整個下午都玩得非常開心。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "lets-play-together",
+      "english": "Let's play together.",
+      "translation": "我們一起玩吧。",
+      "audio": {
+        "src": "/audio/phrases/toy-sharing-lets-play-together.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d54aeb46c27a330396775c6401662d0b4f677b53bf13fbd6565210e4c96a51a7",
+        "sha256": "0102c5568859b792792b303fd35d7a7b5fc3b92700a29abc29a58c9ba353c24c"
+      }
+    },
+    {
+      "id": "can-i-share-your-toy",
+      "english": "Can I share your toy?",
+      "translation": "我可以分享你的玩具嗎？",
+      "audio": {
+        "src": "/audio/phrases/toy-sharing-can-i-share-your-toy.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "499ec1878bf574b9d9d1b3d03ba1e3e8e280c55415bb8d7f7ec06cc18feab0d1",
+        "sha256": "d3b12b7f79b636a2c73c3234eaf6c8801a82992e66e9b24b0a19dbbdc65b1c7a"
+      }
+    },
+    {
+      "id": "here-is-a-train",
+      "english": "Here is a train.",
+      "translation": "這裡有一列火車。",
+      "audio": {
+        "src": "/audio/phrases/toy-sharing-here-is-a-train.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4f82973711549fe6dec92ceb34a92d1234f5f2d12112fbea832ea90930feab59",
+        "sha256": "fc83dfa20f1b587022cefa545d7eb05dff21a0940dc382ea5e0b3c537d96f560"
+      }
+    },
+    {
+      "id": "we-built-a-track",
+      "english": "We built a track!",
+      "translation": "我們做了一條軌道！",
+      "audio": {
+        "src": "/audio/phrases/toy-sharing-we-built-a-track.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e5a82b105dc722ada898ca1663933710920d8a15c80cadbed5c820edd31af3d0",
+        "sha256": "6ba69e07268bd509cc944e953edf8aa8571a3f4445a9fe3d47b068058fee7b8f"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "toy",
+      "english": "toy",
+      "translation": "玩具",
+      "example": "I put my favorite toy in the box.",
+      "audio": {
+        "src": "/audio/words/toy-sharing-toy.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f53133ce57ca8e8937bb4b1c15a33ef9594704e1c11abd58e598bb8362f7385",
+        "sha256": "b1d7814ccbbb084be99fdcffc2f9e19b42517c61302ef8ef97e0d482fa2dea13"
+      }
+    },
+    {
+      "id": "share",
+      "english": "share",
+      "translation": "分享",
+      "example": "Good friends share their toys.",
+      "audio": {
+        "src": "/audio/words/toy-sharing-share.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c3bc45ac352fe43ff8f0a1cc26d6cc29f71f536dc417906f8513ea44ed4bb161",
+        "sha256": "7ba10b4609d15f349b930dae2413d74f586961661d701fb7d474ff70464f3c1c"
+      }
+    },
+    {
+      "id": "train",
+      "english": "train",
+      "translation": "火車",
+      "example": "The toy train runs very fast.",
+      "audio": {
+        "src": "/audio/words/toy-sharing-train.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "116f54c41d0405dbb10e7b04ebc31e262a5b8c85c1233fcf36eaee344d91ae58",
+        "sha256": "f36f7a1b9fea993db69b6c743fde042d9e4ec47ae53a817a820dfec6bfb906e9"
+      }
+    },
+    {
+      "id": "track",
+      "english": "track",
+      "translation": "軌道",
+      "example": "We put the train on the track.",
+      "audio": {
+        "src": "/audio/words/toy-sharing-track.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2bb8bf7259c4ea0edaef5b8552247e06dde993959d3d33e4a2b32f32e1144c0a",
+        "sha256": "1042e9096073a109450bca5e03d596479ffbadb4c47972b2bb2338648ee63cde"
+      }
+    },
+    {
+      "id": "block",
+      "english": "block",
+      "translation": "積木",
+      "example": "She builds a tall tower with a block.",
+      "audio": {
+        "src": "/audio/words/toy-sharing-block.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "496aca80e4d8f29fb8e8cd816c3afb48d3f103970b3a2ee1600c08ca67326dee",
+        "sha256": "a330726192108df15b74153d2bfb223bbda93b57754064521d1dca8173f936b9"
+      }
+    },
+    {
+      "id": "friend",
+      "english": "friend",
+      "translation": "朋友",
+      "example": "He plays a fun game with his friend.",
+      "audio": {
+        "src": "/audio/words/toy-sharing-friend.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cde48537ca2c28084ff560826d0e6388b7c57a51497a6cb56f397289e52ff41b",
+        "sha256": "c01a2962eae90522d7471f881e46eeabbb8133c8b73d1434f15ae05590b3ac09"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/toy-sharing.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "7b3757367ca5800a71b2f43ef1d9bd208cc88a1d0f565b449aa86e1e09512eea",
+    "sha256": "efb577264d0605ed8a85f6845ec8e5ece2e5a084bd50c0c991014810d15903da"
+  }
+}

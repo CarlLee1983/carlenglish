@@ -1,0 +1,299 @@
+{
+  "id": "weekend-plans",
+  "title": "規劃週末活動",
+  "titleEn": "Planning Weekend Activities",
+  "category": "休閒生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/weekend-plans.webp",
+    "alt": "週五放學後的走廊旁，三位國中生正開心地聚在一起聊天規劃週末，男孩笑著指著河濱公園路線，女孩背著書包熱情回應，另一位同學則看著手錶確認時間，陽光灑滿整個畫面。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "After class on Friday, Kevin asks Amy, “"
+        },
+        {
+          "text": "What are you doing this ",
+          "phraseIds": [
+            "what-are-you-doing-this-weekend"
+          ]
+        },
+        {
+          "text": "weekend",
+          "phraseIds": [
+            "what-are-you-doing-this-weekend"
+          ],
+          "wordIds": [
+            "weekend"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "what-are-you-doing-this-weekend"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "週五下課後，Kevin 問 Amy：「這個週末妳打算做什麼？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Amy smiles and says that she has no special plans."
+        }
+      ],
+      "translation": "Amy 笑著說她沒有什麼特別的計畫。"
+    },
+    {
+      "segments": [
+        {
+          "text": "“Ethan and I want to ride a "
+        },
+        {
+          "text": "bicycle",
+          "wordIds": [
+            "bicycle"
+          ]
+        },
+        {
+          "text": " at the riverside "
+        },
+        {
+          "text": "park",
+          "wordIds": [
+            "park"
+          ]
+        },
+        {
+          "text": ",” Kevin says."
+        }
+      ],
+      "translation": "「Ethan 和我想在河濱公園騎腳踏車，」Kevin 說。"
+    },
+    {
+      "segments": [
+        {
+          "text": "He looks at Amy excitedly and asks, “"
+        },
+        {
+          "text": "Do you want to go with us?",
+          "phraseIds": [
+            "do-you-want-to-go-with-us"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他興奮地看著 Amy 問道：「妳想和我們一起去嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Sounds like fun!",
+          "phraseIds": [
+            "sounds-like-fun"
+          ]
+        },
+        {
+          "text": "” Amy replies with a big smile."
+        }
+      ],
+      "translation": "「聽起來很好玩！」Amy 帶著大大的笑容回答。"
+    },
+    {
+      "segments": [
+        {
+          "text": "They agree to "
+        },
+        {
+          "text": "meet",
+          "wordIds": [
+            "meet"
+          ]
+        },
+        {
+          "text": " near the entrance, and Ethan checks the "
+        },
+        {
+          "text": "time",
+          "wordIds": [
+            "time"
+          ]
+        },
+        {
+          "text": " on his phone."
+        }
+      ],
+      "translation": "他們約好在入口附近碰面，Ethan 則用手機確認了時間。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Kevin waves happily to Amy and says, “"
+        },
+        {
+          "text": "See you on ",
+          "phraseIds": [
+            "see-you-on-saturday"
+          ]
+        },
+        {
+          "text": "Saturday",
+          "phraseIds": [
+            "see-you-on-saturday"
+          ],
+          "wordIds": [
+            "saturday"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "see-you-on-saturday"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Kevin 開心地向 Amy 揮手說：「週六見。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "what-are-you-doing-this-weekend",
+      "english": "What are you doing this weekend?",
+      "translation": "這個週末妳打算做什麼？",
+      "audio": {
+        "src": "/audio/phrases/weekend-plans-what-are-you-doing-this-weekend.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5e4ee8343e08afaeddb8d962b7e561f2dbaca2d06552c838adc31c6dee54b3b2",
+        "sha256": "6a94757724a2ce67f29653793e1196d0142b0e22334dae66015b899314878104"
+      }
+    },
+    {
+      "id": "do-you-want-to-go-with-us",
+      "english": "Do you want to go with us?",
+      "translation": "妳想和我們一起去嗎？",
+      "audio": {
+        "src": "/audio/phrases/weekend-plans-do-you-want-to-go-with-us.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d4e896cbe7d6d549053b79279a4d9ff44d70cd5a5444ff8e6bd9912ac5f76e55",
+        "sha256": "f20cae634ada05d6fcc980339be16fad660e7db52abc532cd924edc58926b5e5"
+      }
+    },
+    {
+      "id": "sounds-like-fun",
+      "english": "Sounds like fun!",
+      "translation": "聽起來很好玩！",
+      "audio": {
+        "src": "/audio/phrases/weekend-plans-sounds-like-fun.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cf2e9f83aacc9ae13b1d6e73c5859aaab4802ae0594dc9c1f272bbf6fca9eeef",
+        "sha256": "2ca92f13f0da50c6f59e58f0bab3ba8ff1d5d622a94a73735e297c5e579a8b3b"
+      }
+    },
+    {
+      "id": "see-you-on-saturday",
+      "english": "See you on Saturday.",
+      "translation": "週六見。",
+      "audio": {
+        "src": "/audio/phrases/weekend-plans-see-you-on-saturday.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4ab029fc43338c3a393a770ca587ff1fc55177c7774903847928f12794fccd0e",
+        "sha256": "839bdccb2d8d8c9f8a30f6047fd3690a5049843c23afe07dcd260b38b0c74be5"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "weekend",
+      "english": "weekend",
+      "translation": "週末",
+      "example": "We are going on a trip this weekend.",
+      "audio": {
+        "src": "/audio/words/weekend-plans-weekend.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1197a20df1b4c87b10c868648eba70eac619e18ab6a6772e32bc9c701c315e41",
+        "sha256": "91404c3fa958ce22ee4175c76663320183d5b5aba4b9621cc9dd1e207139560e"
+      }
+    },
+    {
+      "id": "park",
+      "english": "park",
+      "translation": "公園",
+      "example": "Children love to run and play in the park.",
+      "audio": {
+        "src": "/audio/words/weekend-plans-park.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4d3971de62245c94cd3dd8d4d3a72b8ff527d902832eedc8529a9717a969f1d1",
+        "sha256": "4d29cc914f5d30f5eada0100a82962a29154a0d7cb032eeb3e47b788120daf8c"
+      }
+    },
+    {
+      "id": "bicycle",
+      "english": "bicycle",
+      "translation": "腳踏車",
+      "example": "He rides his bicycle to school every morning.",
+      "audio": {
+        "src": "/audio/words/weekend-plans-bicycle.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d29af8a2e160dd867fe45a75f70bf805b1b6c1cf92017cf53cdf1d5cf390c916",
+        "sha256": "e519310c56f567cd6778f183aea1d3e090e89d842d48b66caa14d6dda9bc4dbc"
+      }
+    },
+    {
+      "id": "saturday",
+      "english": "Saturday",
+      "translation": "星期六",
+      "example": "We have soccer practice on Saturday morning.",
+      "audio": {
+        "src": "/audio/words/weekend-plans-saturday.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dbe35c7363c2f7ec747b902fb240907fc58ae00b98f107be2d4c7b9cd7f6226e",
+        "sha256": "c11f7862c2baf1124b72b6abe081c53d7055b1c87a78742c1c54520c908a7383"
+      }
+    },
+    {
+      "id": "meet",
+      "english": "meet",
+      "translation": "碰面、集合",
+      "example": "Let's meet in front of the library at noon.",
+      "audio": {
+        "src": "/audio/words/weekend-plans-meet.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8ccb033c0e48b27ff91e1ab948367e3bbc6921487c97624ed7ad064025e3dc99",
+        "sha256": "7df90d12cb4ed5506476bfb4e6bbee7875b3f44000674482e287b83712f5f4f9"
+      }
+    },
+    {
+      "id": "time",
+      "english": "time",
+      "translation": "時間",
+      "example": "Do you know what time the movie starts?",
+      "audio": {
+        "src": "/audio/words/weekend-plans-time.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "336074805fc853987abe6f7fe3ad97a6a6f3077a16391fec744f671a015fbd7e",
+        "sha256": "933d39e5fa1bcd5d108809dd04873106bdafa005e692f9fd318b389bfbd2a0a4"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/weekend-plans.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "698ff37cba8003434cdad5c209dba0efa406fe901b090c6151294116e3097cb1",
+    "sha256": "1bac56ede3cfd97923771aebc4db942d805d986d5582d4a2651b632f98525219"
+  }
+}

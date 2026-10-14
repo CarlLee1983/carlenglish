@@ -241,7 +241,7 @@
         "src": "/audio/phrases/street-directions-how-to-get-to-station.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "e5169d2c3a88c516025c2b9516936baa13a77cede3800f139e29fe8fe7ab500c",
-        "sha256": "d40c7540b03fa5a1764b287b802b54b60df96ba95c7d3ea6dae3d0c03a8445ae"
+        "sha256": "71c54827f7c632945d46b89cdd20c22ce1fe5fb69e40ea35ff9971d685a755d0"
       }
     },
     {
@@ -252,7 +252,7 @@
         "src": "/audio/phrases/street-directions-go-straight.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "fb0a7d9a01d2dc60f17da572ca704d38a8682150ca8c21b39fe8dca1979fde75",
-        "sha256": "07da34b0afc5ad7750880464314891d71fb97693ffbec219cdd41d974bf07d9c"
+        "sha256": "26d128820fb628e75a2986f793e4bb1db9b37353df04abf5be9d927a765b0361"
       }
     },
     {
@@ -263,7 +263,7 @@
         "src": "/audio/phrases/street-directions-turn-left-at-light.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "eb34fd1550903e90a4e4eebe42e875f539e5540f6b3903b8569d7db476ba5b63",
-        "sha256": "12480f386aa94c45267294d821e8bc93844757651685f5d7633d8974520ea1e6"
+        "sha256": "9bc3123a8ee486653c8674a4afe8eebdcf0f799d1ad788b58c868f55dda2f136"
       }
     },
     {
@@ -274,7 +274,7 @@
         "src": "/audio/phrases/street-directions-next-to-bank.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "392778e0fe6d597f6e8f4b569e5f92ca6a5482a0621cf72531a1ca8fd25e3861",
-        "sha256": "08d8049840dc4503772954778dbbbb5efe0e8aab20e265c9bd6e0102c35bf0c7"
+        "sha256": "dc88f9f6fea564e5dfbfba4823ca81a7fff62886c0458755c337a0e8d5bb43b9"
       }
     },
     {
@@ -285,7 +285,7 @@
         "src": "/audio/phrases/street-directions-five-minute-walk.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "2f029348a8c9b3c0ca3173dbce364f576978e656c344221ad2d3ba14d78cae72",
-        "sha256": "112e5bd3a59b9cfbe9511acf1c7fa12cd314c8502a96c8ef4544af3ae60d1367"
+        "sha256": "7a6f13e3e385c2b39f47b0d39c01ec00024f6d43cf838264d023558773932887"
       }
     }
   ],
@@ -299,7 +299,7 @@
         "src": "/audio/words/street-directions-street.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "6008c26f4452392acb19374bc12a5ec0c360ae17356bce8b786fb128c8720951",
-        "sha256": "b5da0508e982b3f507bd6c1e9bf282081e904ad6fccab04bde0c9715c5538c18"
+        "sha256": "2138f2c6bbc17697f0ec9a06622cf189b91974853dc2de89fe927a57a7a64039"
       }
     },
     {
@@ -311,7 +311,7 @@
         "src": "/audio/words/street-directions-phone.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "45569da57f4b7bf472d7a864ef4781451cae6383fee9fb0ae40c59aa1ce475b7",
-        "sha256": "2d2ff0daf401a7af4e388406c9dea5ab56013cb15b122d1a0d0423c396a3d476"
+        "sha256": "ec7a3dda8fe28df69b8d12c84caa068d5163e6a4049e09a4c376cc7c7d612c26"
       }
     },
     {
@@ -323,7 +323,7 @@
         "src": "/audio/words/street-directions-woman.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "cf2e5bff1ef03dcd20d1a0b18ef7d89fc80a3554434165753672f6f40fde1d25",
-        "sha256": "99aee8f32d7b228cc2f0a37cc502f377d3d553032b7311148ba2d8ec9672105b"
+        "sha256": "de60f9372b4e52d9ad84e2a60cff1c1e274430e58b3ed320ba0c1dade3da1480"
       }
     },
     {
@@ -335,7 +335,7 @@
         "src": "/audio/words/street-directions-station.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "9b4ef3e5b7b4d1759cb8f880e34dbd5ea8c3fcd79ce33b89d7357bf64fcbfc91",
-        "sha256": "ad7200a62703ba3c30e4e0a686db6df99d3c056cd58eaf9d44b186a30ee695e7"
+        "sha256": "c8d2987f7c6fe71f6f4fd74b57bfd028e7f73911726a4a8ee485c1fa6cf42277"
       }
     },
     {
@@ -347,7 +347,7 @@
         "src": "/audio/words/street-directions-straight.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "2a424875a8475a99175f543fa6fc65964e53e87efc161f7b1f9e370efe6ddd16",
-        "sha256": "0aff529a1ffdf33e273988ee5df5ec31e6cf1f698112e39c370e7f79a35b56fa"
+        "sha256": "3246adbf08c229e00c153bce3d8b4519972d107d532d616fe3a322db5e77d796"
       }
     },
     {
@@ -359,7 +359,7 @@
         "src": "/audio/words/street-directions-left.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "360f84035942243c6a36537ae2f8673485e6c04455a0a85a0db19690f2541480",
-        "sha256": "efb1e0b65ea85ec927cd36c7f22e389c906fac3d3560652b65acabbdab2fccac"
+        "sha256": "e1186d0f026da025cbaa15998db307d482e3212ff3c7709c27b0021a6bfb34bd"
       }
     },
     {
@@ -371,7 +371,7 @@
         "src": "/audio/words/street-directions-bank.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "4381dc2ab14285160c808659aee005d51255add7264b318d07c7417292c7442c",
-        "sha256": "67105cebb1fef84dbd42cf2c821830f86f508f31bc66efa4454cd92ed07e5ec4"
+        "sha256": "54063fc0af91793274b5b9cc898ed5024bae9e33a70a12058114bdf9448d6059"
       }
     },
     {
@@ -383,7 +383,7 @@
         "src": "/audio/words/street-directions-walk.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "7a6c4fac6c5cd7209ee2eecd9d6ad3673c55315117de1d8daa5aeb3f71bbd7c7",
-        "sha256": "b9ba519de8b4bd0d66a2ef6426f26c90f1ce3b35006bf84f6f183e03abb21617"
+        "sha256": "a76359cc0685fd82e38b2ee2882c0a5b20fad1a0cdc8b0f43f857b2a89d6e15a"
       }
     }
   ],
@@ -391,6 +391,6 @@
     "src": "/audio/stories/street-directions.mp3",
     "voiceId": "kokoro-af-heart-v1",
     "textSha256": "76b41ccfaef9004952bbfba769283c6a317a8803143e44428de6c097e3c64ed6",
-    "sha256": "e3b25cdc6b6bcf90a4f6fe0b0667d422a150011de376c03604238a91013f3012"
+    "sha256": "c7733057d153c7a55beacc4fda7572f2d3b54c60849df96458363cd095c7622c"
   }
 }

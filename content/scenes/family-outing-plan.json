@@ -1,0 +1,305 @@
+{
+  "id": "family-outing-plan",
+  "title": "一起規劃出遊",
+  "titleEn": "Planning a Family Outing",
+  "category": "家庭生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/family-outing-plan.webp",
+    "alt": "在溫馨明亮的客廳裡，一家人圍坐在茶几旁開心地討論出遊計畫，桌上放著筆記本、水壺與遮陽帽，大家滿懷期待地規劃登山健行行程。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "On Friday evening, Dad sits down with the family and smiles, “"
+        },
+        {
+          "text": "Let's plan our ",
+          "phraseIds": [
+            "lets-plan-our-trip"
+          ]
+        },
+        {
+          "text": "trip",
+          "phraseIds": [
+            "lets-plan-our-trip"
+          ],
+          "wordIds": [
+            "trip"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "lets-plan-our-trip"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "週五晚上，爸爸和家人一起坐下來微笑著說：「我們來規劃我們的旅行吧。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom opens a notebook and suggests visiting a scenic "
+        },
+        {
+          "text": "mountain",
+          "wordIds": [
+            "mountain"
+          ]
+        },
+        {
+          "text": " park this weekend."
+        }
+      ],
+      "translation": "媽媽打開筆記本，建議這個週末去一座風景優美的山區公園。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Dad checks his phone and says the "
+        },
+        {
+          "text": "weather",
+          "wordIds": [
+            "weather"
+          ]
+        },
+        {
+          "text": " will be sunny and clear."
+        }
+      ],
+      "translation": "爸爸查看手機並表示天氣將會晴朗無雲。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Emily raises her hand excitedly and asks, “"
+        },
+        {
+          "text": "What should we ",
+          "phraseIds": [
+            "what-should-we-bring"
+          ]
+        },
+        {
+          "text": "bring",
+          "phraseIds": [
+            "what-should-we-bring"
+          ],
+          "wordIds": [
+            "bring"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "what-should-we-bring"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Emily 興奮地舉手問道：「我們應該帶什麼？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom smiles and reminds everyone, “"
+        },
+        {
+          "text": "Don't forget your ",
+          "phraseIds": [
+            "dont-forget-your-hat"
+          ]
+        },
+        {
+          "text": "hat",
+          "phraseIds": [
+            "dont-forget-your-hat"
+          ],
+          "wordIds": [
+            "hat"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "dont-forget-your-hat"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "媽媽微笑著提醒大家：「別忘了你的帽子。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "They also decide to pack sandwiches and water for a pleasant "
+        },
+        {
+          "text": "picnic",
+          "wordIds": [
+            "picnic"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們還決定準備三明治和水，來一場愉快的外出野餐。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Looking forward to the hike, everyone cheers, “"
+        },
+        {
+          "text": "It will be so much fun!",
+          "phraseIds": [
+            "it-will-be-so-much-fun"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "期待著即將到來的健行，大家一起歡呼：「一定會非常好玩！」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "lets-plan-our-trip",
+      "english": "Let's plan our trip.",
+      "translation": "我們來規劃我們的旅行吧。",
+      "audio": {
+        "src": "/audio/phrases/family-outing-plan-lets-plan-our-trip.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b2809498f239e5f90398d299d4032722e1ce7c3f37364b5379def508f88ffc2e",
+        "sha256": "4718f87a09ac27e483b9b95a52baf2bbd63e07038e81314ac607ccd9e0aad1da"
+      }
+    },
+    {
+      "id": "what-should-we-bring",
+      "english": "What should we bring?",
+      "translation": "我們應該帶什麼？",
+      "audio": {
+        "src": "/audio/phrases/family-outing-plan-what-should-we-bring.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e13ad027f7889863471e8b480ebfbd56a09bcaa2e8a8f64b7494efe52ab4a7a2",
+        "sha256": "3313c1478ad5551b49d486203fe01a61dbe1b820e20e014dec7389ecb8242efc"
+      }
+    },
+    {
+      "id": "dont-forget-your-hat",
+      "english": "Don't forget your hat.",
+      "translation": "別忘了你的帽子。",
+      "audio": {
+        "src": "/audio/phrases/family-outing-plan-dont-forget-your-hat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "22eee5c4b9dd0b655e443fbaf52f6f89bf4a35d769974469acc25cd0d15df7b6",
+        "sha256": "c3488caf125c51e41d768b0492e6cead8a7f26b13364a6dd9062b487324f5c59"
+      }
+    },
+    {
+      "id": "it-will-be-so-much-fun",
+      "english": "It will be so much fun!",
+      "translation": "一定會非常好玩！",
+      "audio": {
+        "src": "/audio/phrases/family-outing-plan-it-will-be-so-much-fun.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f036c426c64514b849cb85e2f22f7b39d6f3ab68bb4df13ac73c1373574f875f",
+        "sha256": "67e7d8f51ad7af32e54a827fdadae9c5c206eb4e4a92929b801c9a8b564cee7a"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "trip",
+      "english": "trip",
+      "translation": "旅行；出遊",
+      "example": "Our family is planning a weekend trip to the park.",
+      "audio": {
+        "src": "/audio/words/family-outing-plan-trip.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "34a389d790fc2bdd8458e5f1cde6933c97d11eeda65cf328b64460f0d68f04b5",
+        "sha256": "076f90daab09347037f3062bf9856b2654c22d587af1c5d6c4a0fac31d1f3183"
+      }
+    },
+    {
+      "id": "bring",
+      "english": "bring",
+      "translation": "攜帶；帶來",
+      "example": "Please bring a water bottle for the walk.",
+      "audio": {
+        "src": "/audio/words/family-outing-plan-bring.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4311902217ad5aa4d9664f8dbacaa8bf6fe6b78ff9b5b512599f0b62da19d8d6",
+        "sha256": "076e6effe303061070c3e300c06341e1f98eb779b88eb4168f7e111b05c89cce"
+      }
+    },
+    {
+      "id": "mountain",
+      "english": "mountain",
+      "translation": "高山；山",
+      "example": "We climbed up the steep mountain path.",
+      "audio": {
+        "src": "/audio/words/family-outing-plan-mountain.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3b80d38f7686a8b5f8e61ad562ec069ac172732fb4dab946401f21a438669a4b",
+        "sha256": "6dd7fee264642e8db81f1a7c6d84168ce827291cbd86295632d0714d899f0aab"
+      }
+    },
+    {
+      "id": "hat",
+      "english": "hat",
+      "translation": "帽子",
+      "example": "He wears a wide hat on sunny days.",
+      "audio": {
+        "src": "/audio/words/family-outing-plan-hat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "18e1dd392168f601d0e568612a2bf40e6555c033e033b580ae6627d8aeee1150",
+        "sha256": "fb3d255a5aa257285d8911fef7377194087e70fc3e206369832029e078175712"
+      }
+    },
+    {
+      "id": "picnic",
+      "english": "picnic",
+      "translation": "野餐",
+      "example": "We enjoyed a delicious picnic under the tree.",
+      "audio": {
+        "src": "/audio/words/family-outing-plan-picnic.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e878b5219508b0e1c9fe35b958585514a93d41bbcf2fc597fef356d7a65b254a",
+        "sha256": "b0054da9c33c6d503b510c6044e87ed0545c42d3af434d75e996db476d5cf5e3"
+      }
+    },
+    {
+      "id": "weather",
+      "english": "weather",
+      "translation": "天氣",
+      "example": "The weather is nice and warm this morning.",
+      "audio": {
+        "src": "/audio/words/family-outing-plan-weather.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e5e72beb4e3c6926d3dc9e3e2ef7833ba50cd919c2460a782b244fd071e920de",
+        "sha256": "2fe07bab058d2c4112bd9a2bab6ed5a766e83c55aa666dbae69875e2be841304"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/family-outing-plan.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "8c8b853a64886dd8dc3989695cc8b5f1c7e74eb47ddd0aaeb1497b98cec2dc7e",
+    "sha256": "8d9ab50225953c8340d70b147be6ff82bd999769f349f3a31aa09dd92f0b4322"
+  }
+}

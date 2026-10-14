@@ -1,0 +1,294 @@
+{
+  "id": "future-study-options",
+  "title": "討論未來學習方向",
+  "titleEn": "Discussing Future Study Options",
+  "category": "生涯與學習",
+  "level": "進階",
+  "image": {
+    "src": "/images/scenes/future-study-options.webp",
+    "alt": "高中生涯輔導室裡，一名高三學生坐在桌前與輔導老師討論大學升學方向，桌上攤開著各大學科系簡章與筆記本，師生神情親切而專注。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Alex visits the guidance counselor's office to discuss which university "
+        },
+        {
+          "text": "subject",
+          "wordIds": [
+            "subject"
+          ]
+        },
+        {
+          "text": " best matches his strengths."
+        }
+      ],
+      "translation": "Alex 來到生涯輔導室，討論哪一個大學學科最符合他的優勢。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Ms. Lin smiles warmly, points to an exploratory chart, and asks, “"
+        },
+        {
+          "text": "What are your interests?",
+          "phraseIds": [
+            "what-are-your-interests"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "林老師親切地微笑著，指著探索圖表問道：「你的興趣是什麼？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Alex explains his deep "
+        },
+        {
+          "text": "interest",
+          "wordIds": [
+            "interest"
+          ]
+        },
+        {
+          "text": " in technology and design, adding, “"
+        },
+        {
+          "text": "I'd like to learn more about",
+          "phraseIds": [
+            "id-like-to-learn-more-about"
+          ]
+        },
+        {
+          "text": " interactive media.”"
+        }
+      ],
+      "translation": "Alex 說明了他對科技與設計的濃厚興趣，並補充說：「我想多了解互動媒體。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Ms. Lin suggests combining both fields into an interdisciplinary college "
+        },
+        {
+          "text": "major",
+          "wordIds": [
+            "major"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "林老師建議將這兩個領域結合，作為大學的跨領域主修。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Looking over the degree pathways together, she encourages him, “"
+        },
+        {
+          "text": "Consider your ",
+          "phraseIds": [
+            "consider-your-future-career"
+          ]
+        },
+        {
+          "text": "future",
+          "phraseIds": [
+            "consider-your-future-career"
+          ],
+          "wordIds": [
+            "future"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "career",
+          "phraseIds": [
+            "consider-your-future-career"
+          ],
+          "wordIds": [
+            "career"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "consider-your-future-career"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "一起檢視學位發展路徑時，她鼓勵他：「考慮你未來的職業發展。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Alex organizes his ideas into a clear study plan and smiles, “"
+        },
+        {
+          "text": "Thank you for the ",
+          "phraseIds": [
+            "thank-you-for-the-advice"
+          ]
+        },
+        {
+          "text": "advice",
+          "phraseIds": [
+            "thank-you-for-the-advice"
+          ],
+          "wordIds": [
+            "advice"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "thank-you-for-the-advice"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Alex 將自己的想法整理成一份清晰的學習計畫，微笑著說：「謝謝您的建議。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "id-like-to-learn-more-about",
+      "english": "I'd like to learn more about…",
+      "translation": "我想多了解……",
+      "audio": {
+        "src": "/audio/phrases/future-study-options-id-like-to-learn-more-about.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "42a83e62d764a9165a2ad71a2f2bfcb1b4ab2f352d580921754bc510e458e72d",
+        "sha256": "29040e8ed3fcacb2ce393ee69fad09df472d2e4a1c2cbc8a1a053590e35da9d9"
+      }
+    },
+    {
+      "id": "what-are-your-interests",
+      "english": "What are your interests?",
+      "translation": "你的興趣是什麼？",
+      "audio": {
+        "src": "/audio/phrases/future-study-options-what-are-your-interests.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f051e2e9418bf5bf6966ed41e81dca687f22d4208e8f582394d2d258dc7803b9",
+        "sha256": "87ce43370199a560d35f35b43d2bc17d1b8ef9d565074e36967bda252b4585b2"
+      }
+    },
+    {
+      "id": "consider-your-future-career",
+      "english": "Consider your future career.",
+      "translation": "考慮你未來的職業發展。",
+      "audio": {
+        "src": "/audio/phrases/future-study-options-consider-your-future-career.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f574598dcd3a1813e26f8b3a9c0afeccaddf452877b9d9e47cbe1c35aa04c22a",
+        "sha256": "b2b1ef79ed5daa198acf6f62a2eb2e89244b388d9fda1c73261de500b2b29544"
+      }
+    },
+    {
+      "id": "thank-you-for-the-advice",
+      "english": "Thank you for the advice.",
+      "translation": "謝謝您的建議。",
+      "audio": {
+        "src": "/audio/phrases/future-study-options-thank-you-for-the-advice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "688d4829da19c921bab9d201e618bbcdfe6b92ba14426354a4d0b6e51a350693",
+        "sha256": "aa53e0777e5fac85c8f04ca29882f65f6309f1390e7c00ca887ed88d25002732"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "interest",
+      "english": "interest",
+      "translation": "興趣",
+      "example": "She developed a strong interest in graphic design.",
+      "audio": {
+        "src": "/audio/words/future-study-options-interest.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "828408e40d4fe651488b14696b60b613c9683ab9862e03f4e72aec7c1fda7635",
+        "sha256": "33044412bed2953eec9a71c0d4bc838bd5106d14d69a5a5306acdc8cc695953f"
+      }
+    },
+    {
+      "id": "subject",
+      "english": "subject",
+      "translation": "學科；科目",
+      "example": "Physics is his favorite subject in high school.",
+      "audio": {
+        "src": "/audio/words/future-study-options-subject.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a9491f4c1bf7b0cffbadcba2db8f028e4b3f2867cb59e1f3a0bc1968f3c51242",
+        "sha256": "0d3d4eaec3059bc42933de36db90b6a644921f86964674ba0cb29562138706d7"
+      }
+    },
+    {
+      "id": "future",
+      "english": "future",
+      "translation": "未來；前途",
+      "example": "She often thinks about her future after graduation.",
+      "audio": {
+        "src": "/audio/words/future-study-options-future.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ebb3de8a3d9a40366132eb5deb5af44e4c96c11696f8fc34ea2c1d8bd8399171",
+        "sha256": "fd6543f802c154b92afdc148fd5ad54b6529ff8910fd61445e4e0b5e3f392642"
+      }
+    },
+    {
+      "id": "major",
+      "english": "major",
+      "translation": "主修；專業",
+      "example": "He plans to choose computer science as his major.",
+      "audio": {
+        "src": "/audio/words/future-study-options-major.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6558a6a3379db4f310398d1ddd7c8bb400a9e9a2e7aa22339247855fe400aff1",
+        "sha256": "128623f2873483d9ca65b7ced89ae3211ee2668379566486077bda0233990df0"
+      }
+    },
+    {
+      "id": "career",
+      "english": "career",
+      "translation": "職業；生涯",
+      "example": "A good internship prepares you for your future career.",
+      "audio": {
+        "src": "/audio/words/future-study-options-career.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "89b7505ad79ad4892d6f2f110320da7b79e4110e0117b8249de318688c3ad83b",
+        "sha256": "5647b9e6a47b1abf39bbbbdff8300110f275e5eb59a38c0a440ce4e87166e194"
+      }
+    },
+    {
+      "id": "advice",
+      "english": "advice",
+      "translation": "建議；忠告",
+      "example": "The counselor gave practical advice on college applications.",
+      "audio": {
+        "src": "/audio/words/future-study-options-advice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "02c97447687b4871b00afe98075a37426dda6be15030c7222033c471491e69f5",
+        "sha256": "aa75eeba05a0783de6b7518804afbd9ec44606b2b991b943ade826d0b856201e"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/future-study-options.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "34f64bbad4ec743b7c941658ddb3a6d274f2824e996a2ad762122046fdcf518f",
+    "sha256": "d173c3d51ddbc129328880f22a6528d3ce3a8f7b904c1ef12264e9cd84cf4177"
+  }
+}

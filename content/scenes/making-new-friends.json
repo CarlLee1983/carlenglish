@@ -1,0 +1,285 @@
+{
+  "id": "making-new-friends",
+  "title": "認識新朋友",
+  "titleEn": "Making New Friends",
+  "category": "同儕與社團",
+  "level": "中級",
+  "image": {
+    "src": "/images/scenes/making-new-friends.webp",
+    "alt": "在陽光灑落的學校中庭走廊旁，兩名國中生倚著木質長椅交談，一位揹著黑色吉他袋，兩人拿著手機互換聯絡方式，氣氛輕鬆融洽。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "During lunch break, Leo sits on a courtyard bench and starts a "
+        },
+        {
+          "text": "conversation",
+          "wordIds": [
+            "conversation"
+          ]
+        },
+        {
+          "text": " with a new "
+        },
+        {
+          "text": "friend",
+          "wordIds": [
+            "friend"
+          ]
+        },
+        {
+          "text": " named Sam."
+        }
+      ],
+      "translation": "午休時，Leo 坐在中庭的長椅上，與一位名叫 Sam 的新朋友開啟了交談。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Curious about Sam's interests, Leo turns to him and asks, “"
+        },
+        {
+          "text": "What do you like to do?",
+          "phraseIds": [
+            "what-do-you-like-to-do"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 對 Sam 的興趣感到好奇，轉向他問道：「你平時喜歡做什麼？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Sam points to his instrument case and replies, “"
+        },
+        {
+          "text": "I love playing ",
+          "phraseIds": [
+            "i-love-playing-guitar"
+          ]
+        },
+        {
+          "text": "guitar",
+          "phraseIds": [
+            "i-love-playing-guitar"
+          ],
+          "wordIds": [
+            "guitar"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "i-love-playing-guitar"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Sam 指著自己的樂器盒回答：「我非常喜歡彈吉他。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo's eyes light up with excitement as he replies, “"
+        },
+        {
+          "text": "Me too!",
+          "phraseIds": [
+            "me-too"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 興奮地眼睛一亮，回答道：「我也是！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "They quickly realize that "
+        },
+        {
+          "text": "music",
+          "wordIds": [
+            "music"
+          ]
+        },
+        {
+          "text": " is their shared "
+        },
+        {
+          "text": "hobby",
+          "wordIds": [
+            "hobby"
+          ]
+        },
+        {
+          "text": " and discuss the songs they "
+        },
+        {
+          "text": "listen",
+          "wordIds": [
+            "listen"
+          ]
+        },
+        {
+          "text": " to after school."
+        }
+      ],
+      "translation": "他們很快發現音樂是彼此共同的嗜好，並聊起放學後經常聆聽的歌曲。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Before the bell rings, they gladly exchange contact information, and Sam says, “"
+        },
+        {
+          "text": "Let's hang out sometime.",
+          "phraseIds": [
+            "lets-hang-out-sometime"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "在鐘聲響起之前，他們開心地交換了聯絡方式，Sam 說：「我們有空一起出去玩吧。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "what-do-you-like-to-do",
+      "english": "What do you like to do?",
+      "translation": "你平時喜歡做什麼？",
+      "audio": {
+        "src": "/audio/phrases/making-new-friends-what-do-you-like-to-do.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "02285687108ed42c446bd2f1e14dc51a216d7de169356666545b184ffcff1780",
+        "sha256": "c93ccb98a7c3859ab9bfbc728d01d088c09f6e794ef7016c8b5f24dedc74d20e"
+      }
+    },
+    {
+      "id": "i-love-playing-guitar",
+      "english": "I love playing guitar.",
+      "translation": "我非常喜歡彈吉他。",
+      "audio": {
+        "src": "/audio/phrases/making-new-friends-i-love-playing-guitar.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f756ed5adc0880d336158f0bc1243582ac5ed24114da4d9034f10bde504085b9",
+        "sha256": "a230224a5a5998c567b98e0ddec1ec576857ce7e1ca58d4a69e63c5eaa12f4b1"
+      }
+    },
+    {
+      "id": "me-too",
+      "english": "Me too!",
+      "translation": "我也是！",
+      "audio": {
+        "src": "/audio/phrases/making-new-friends-me-too.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c4955bb7d8453786aeb66317de1e8009058be7c86bdb92bfc2e98c38b3435ada",
+        "sha256": "de1e10163380fd06da9da1f2599cf3de2eeff496a4f885684d6e2e662bef6977"
+      }
+    },
+    {
+      "id": "lets-hang-out-sometime",
+      "english": "Let's hang out sometime.",
+      "translation": "我們有空一起出去玩吧。",
+      "audio": {
+        "src": "/audio/phrases/making-new-friends-lets-hang-out-sometime.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "887be77ac87ae27590bff79325f8afe7d72ed7c6926fee1d164787dc834e50dd",
+        "sha256": "33fe4d29b199f832e58db7cb46a03b68a94bcc4b9ffd76dbc1a2a6146ee3b3f7"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "friend",
+      "english": "friend",
+      "translation": "朋友",
+      "example": "It is exciting to make a new friend on the first day of school.",
+      "audio": {
+        "src": "/audio/words/making-new-friends-friend.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cde48537ca2c28084ff560826d0e6388b7c57a51497a6cb56f397289e52ff41b",
+        "sha256": "b454c0a0931dc8678bdb2dfc624c0e9e7748e9730dfa086e76f230b474ec7844"
+      }
+    },
+    {
+      "id": "hobby",
+      "english": "hobby",
+      "translation": "嗜好；興趣",
+      "example": "Drawing comic strips is my favorite hobby.",
+      "audio": {
+        "src": "/audio/words/making-new-friends-hobby.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0834a044f52ddbed8d4904d94dd5fc4bd98bae9e6c0937735ca4b30d2650a3b8",
+        "sha256": "d88954cef40bb7881571631b8e8dd46d357d3853fcab1e27fbacfa707099aa97"
+      }
+    },
+    {
+      "id": "music",
+      "english": "music",
+      "translation": "音樂",
+      "example": "We like listening to upbeat music when we exercise.",
+      "audio": {
+        "src": "/audio/words/making-new-friends-music.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "80f189984e5ca70287d13342f6daa0db45cba3c131c4e46dc81360f3a4c4f690",
+        "sha256": "fede02d6e8d78fff768c2af41cd420accfc4a10056ec37f477c37c002310a0d3"
+      }
+    },
+    {
+      "id": "guitar",
+      "english": "guitar",
+      "translation": "吉他",
+      "example": "He practices playing the acoustic guitar every evening.",
+      "audio": {
+        "src": "/audio/words/making-new-friends-guitar.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d081f5e402980b267f1f87cb6b74fc3eb249de26e670a9db55dec67da7864de4",
+        "sha256": "7a6d588b2eeafa5de8f7e9613ff1dfade03c822a0a7ecf58c618889e6339621a"
+      }
+    },
+    {
+      "id": "listen",
+      "english": "listen",
+      "translation": "聆聽；聽",
+      "example": "I often listen to English songs to improve my listening skills.",
+      "audio": {
+        "src": "/audio/words/making-new-friends-listen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6f8860eb5103a16b917146f9cbf21aa00fe7d2291b1aad7f4fe83a6db71688cf",
+        "sha256": "c5b1e826efbb48208933a3dee662c61369459ef2491ccb75e93049755abd7280"
+      }
+    },
+    {
+      "id": "conversation",
+      "english": "conversation",
+      "translation": "對話；交談",
+      "example": "They had a long conversation about their summer vacation plans.",
+      "audio": {
+        "src": "/audio/words/making-new-friends-conversation.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8b34dbc2c05eb4d7e25d48efeace82456b16cee760bcae80c157f52a3c2e787b",
+        "sha256": "6416aac0d1f779622670541abe57a1eb9cea78ee8a746f664f93f06fa5820258"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/making-new-friends.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "9cbe8a1c7782580df229cbe9b1ef47574aa1bd87dfc683273a83257fe77185e9",
+    "sha256": "008b7edccc68fdf6443f7339ba8011d7682b6efc319ff346dc22e62ae0c42b38"
+  }
+}
