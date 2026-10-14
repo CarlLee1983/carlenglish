@@ -1,7 +1,16 @@
 ---
 import '../styles/global.css';
-interface Props { title: string; description?: string }
-const { title, description = '透過生活場景插畫、英文短文、常用短句與單字，練習日常英文。' } = Astro.props;
+import { learningLevels, type LearningLevel } from '../lib/catalog';
+import { canonicalUrl, defaultSocialImage, serializeJsonLd, siteDescription, type SocialImage } from '../lib/seo';
+interface Props {
+  title: string; description?: string; currentLevel?: LearningLevel['id']; isReader?: boolean;
+  noindex?: boolean; isNotFound?: boolean; shareImage?: SocialImage; structuredData?: Record<string, unknown>[];
+}
+const { title, description = siteDescription, currentLevel, isReader = false, noindex = false,
+  isNotFound = false, shareImage = defaultSocialImage, structuredData = [] } = Astro.props;
+const pageTitle = `${title} | CarlEnglish`;
+const canonical = isNotFound ? undefined : canonicalUrl(Astro.url.pathname, Astro.site);
+const imageUrl = new URL(shareImage.src, Astro.site).href;
 ---
 <!doctype html>
 <html lang="zh-Hant">
@@ -9,21 +18,46 @@ const { title, description = '透過生活場景插畫、英文短文、常用�
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="description" content={description} />
+    <meta name="robots" content={noindex || isNotFound ? 'noindex, follow' : 'index, follow, max-image-preview:large'} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 96x96" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <meta property="og:site_name" content="CarlEnglish" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    {canonical && <meta property="og:url" content={canonical} />}
+    <meta property="og:image" content={imageUrl} />
+    <meta property="og:image:type" content={shareImage.type} />
+    <meta property="og:image:width" content={String(shareImage.width)} />
+    <meta property="og:image:height" content={String(shareImage.height)} />
+    <meta property="og:image:alt" content={shareImage.alt} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={imageUrl} />
+    <meta name="twitter:image:alt" content={shareImage.alt} />
     <meta name="theme-color" content="#f8faf7" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#18221d" media="(prefers-color-scheme: dark)" />
     <meta name="color-scheme" content="light dark" />
-    <title>{title} | CarlEnglish</title>
+    <title>{pageTitle}</title>
+    {structuredData.length > 0 && <script type="application/ld+json" set:html={serializeJsonLd({ '@context': 'https://schema.org', '@graph': structuredData })} />}
   </head>
   <body>
     <a class="skip-link" href="#main">跳到主要內容</a>
     <header class="site-header">
-      <a class="brand" href="/" aria-label="CarlEnglish 場景列表">Carl<span>English</span></a>
-      <nav class="header-links" aria-label="站內導覽">
-        <a class="header-link" href="/">生活場景</a>
-        <a class="header-link" href="/#articles">新聞與貼文</a>
-      </nav>
+      <a class="brand" href="/" aria-label="CarlEnglish 選擇程度">Carl<span>English</span><span class="brand-dot" aria-hidden="true">.</span></a>
+      <div class="header-links">
+        <nav class="level-navigation" aria-label="英文程度">
+          {learningLevels.map((level) => <a href={`/levels/${level.id}/`} aria-current={currentLevel === level.id ? (isReader ? 'location' : 'page') : undefined}>{level.name}</a>)}
+        </nav>
+        <a class="header-link" href="/#articles" aria-current={Astro.url.pathname.startsWith('/articles/') ? 'location' : undefined}>新聞與貼文</a>
+      </div>
     </header>
     <main id="main"><slot /></main>
-    <footer class="site-footer">看懂情境，練習日常英文。</footer>
+    <footer class="site-footer"><span>CarlEnglish</span><p>看懂情境，練習日常英文。</p><a href="/">選擇學習程度 <span aria-hidden="true">↗</span></a></footer>
   </body>
 </html>
