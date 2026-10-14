@@ -1,6 +1,6 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { loadArticles } from '../src/lib/articles.ts';
+import { articleMetrics, loadArticles, stageWarnings } from '../src/lib/articles.ts';
 import { loadScenes } from '../src/lib/scenes.ts';
 import { crossTypeDuplicateIds } from '../src/lib/validation.ts';
 
@@ -17,6 +17,14 @@ try {
   if (duplicates.length) throw new Error(`Invalid content:\n${duplicates.map((issue) => `- ${issue}`).join('\n')}`);
   console.log(`Validated ${scenes.length} scene(s): ${scenes.map((scene) => scene.id).join(', ')}`);
   console.log(`Validated ${articles.length} article(s): ${articles.map((article) => article.id).join(', ')}`);
+  for (const article of articles) {
+    const { words, averageSentenceLength } = articleMetrics(article);
+    console.log(`${article.stage} ${article.id}: ${words} words, ${averageSentenceLength.toFixed(1)} words/sentence`);
+  }
+  // 長度參考只警告，不影響結束碼
+  for (const article of articles) {
+    for (const warning of stageWarnings(article)) console.error(`warning: ${warning}`);
+  }
 } catch (error) {
   console.error(error.message);
   process.exitCode = 1;
