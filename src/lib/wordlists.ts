@@ -17,12 +17,21 @@ export interface WordListEntry {
   audio: AudioClip;
 }
 
+/** 原詞表收錄、但不是真正常用字而不發出的詞（例如逐字稿標記）；排名保留，讓詞頻序號出現可解釋的跳號。 */
+export interface ExcludedWord {
+  rank: number;
+  english: string;
+  reason: string;
+}
+
 export interface WordList {
   id: string;
   name: string;
   description: string;
   source: WordListSource;
   license: WordListLicense;
+  /** 排除清單；可以包含還沒收錄的排名，讓後續擴充時一併排除。 */
+  excluded: ExcludedWord[];
   entries: WordListEntry[];
 }
 
@@ -36,7 +45,8 @@ export class WordListError extends Error {
   }
 }
 
-const listFields = ['id', 'name', 'description', 'source', 'license', 'entries'];
+const listFields = ['id', 'name', 'description', 'source', 'license', 'excluded', 'entries'];
+const excludedFields = ['rank', 'english', 'reason'];
 const sourceFields = ['name', 'authors', 'url', 'adaptation'];
 const licenseFields = ['name', 'url'];
 const entryFields = ['id', 'rank', 'english', 'meaning', 'example', 'audio'];
@@ -58,11 +68,28 @@ function license(value: unknown, path: string, issues: string[]): WordListLicens
   return { name: nonblank(data.name, `${path}.name`, issues), url: httpsUrl(data.url, `${path}.url`, issues) };
 }
 
-function entries(value: unknown, path: string, publicDir: string, profile: ReturnType<typeof voiceProfile>, issues: string[]): WordListEntry[] {
+function excluded(value: unknown, path: string, issues: string[]): ExcludedWord[] {
+  if (value === undefined) return [];
+  const seen = new Set<number>();
+  return array(value, path, issues).map((item, index) => {
+    const itemPath = `${path}[${index}]`;
+    const data = record(item, itemPath, issues);
+    onlyFields(data, excludedFields, itemPath, issues);
+    if (!Number.isSafeInteger(data.rank) || (data.rank as number) < 1) issues.push(`${itemPath}.rank: expected a positive integer`);
+    else if (seen.has(data.rank as number)) issues.push(`${itemPath}.rank: duplicate rank ${data.rank}`);
+    seen.add(data.rank as number);
+    return { rank: data.rank as number, english: nonblank(data.english, `${itemPath}.english`, issues), reason: nonblank(data.reason, `${itemPath}.reason`, issues) };
+  });
+}
+
+function entries(value: unknown, path: string, skipped: ExcludedWord[], excludedPath: string, publicDir: string, profile: ReturnType<typeof voiceProfile>, issues: string[]): WordListEntry[] {
   const raw = array(value, path, issues);
   if (Array.isArray(value) && raw.length === 0) issues.push(`${path}: expected at least one entry`);
   const seenIds = new Set<string>();
   const seenCards = new Set<string>();
+  const skippedRanks = new Set(skipped.map((item) => item.rank));
+  const skippedWords = new Map(skipped.map((item, index) => [item.english.trim().toLowerCase(), index]));
+  let expectedRank = 0;
   return raw.map((item, index) => {
     const entryPath = `${path}[${index}]`;
     const data = record(item, entryPath, issues);
@@ -70,9 +97,13 @@ function entries(value: unknown, path: string, publicDir: string, profile: Retur
     const id = identifier(data.id, `${entryPath}.id`, issues);
     if (id && seenIds.has(id)) issues.push(`${entryPath}.id: duplicate ID "${id}"`);
     seenIds.add(id);
-    // 詞頻序號必須恰好是 1..n：缺號、重複、亂序與非整數都會讓這個比對失敗。
-    if (data.rank !== index + 1) issues.push(`${entryPath}.rank: expected ${index + 1} (ranks run 1..n in order)`);
+    // 詞頻序號依序遞增，只能跳過排除清單裡的排名：缺號、重複、亂序與非整數都會讓這個比對失敗。
+    do expectedRank += 1; while (skippedRanks.has(expectedRank));
+    if (data.rank !== expectedRank) issues.push(`${entryPath}.rank: expected ${expectedRank} (ranks run in order; only excluded ranks may be skipped)`);
+    else expectedRank = data.rank;
     const english = nonblank(data.english, `${entryPath}.english`, issues);
+    const excludedIndex = skippedWords.get(english.trim().toLowerCase());
+    if (excludedIndex !== undefined) issues.push(`${excludedPath}[${excludedIndex}]: excluded word "${skipped[excludedIndex].english}" is also an entry`);
     const meaning = nonblank(data.meaning, `${entryPath}.meaning`, issues);
     if (english && meaning) {
       const key = cardKey({ english, meaning });
@@ -100,13 +131,15 @@ function validateWordListsAt(items: { source: string; data: unknown }[], publicD
     const id = identifier(data.id, `${file}.id`, issues);
     if (id && ids.has(id)) issues.push(`${file}.id: duplicate word list ID "${id}" (also in ${ids.get(id)})`);
     if (id) ids.set(id, file);
+    const skipped = excluded(data.excluded, `${file}.excluded`, issues);
     return {
       id,
       name: nonblank(data.name, `${file}.name`, issues),
       description: nonblank(data.description, `${file}.description`, issues),
       source: source(data.source, `${file}.source`, issues),
       license: license(data.license, `${file}.license`, issues),
-      entries: entries(data.entries, `${file}.entries`, publicDir, profile, issues),
+      excluded: skipped,
+      entries: entries(data.entries, `${file}.entries`, skipped, `${file}.excluded`, publicDir, profile, issues),
     };
   });
   if (issues.length) throw new WordListError(issues);

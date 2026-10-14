@@ -80,6 +80,17 @@ test.describe('word list subscription', () => {
     expect(state?.subscriptions).toMatchObject([{ wordListId: 'ngsl-spoken', issuedThrough: 10, issuedCount: 10 }]);
   });
 
+  test('progress counts the words left, not the rank, because excluded ranks leave gaps', async ({ page }) => {
+    await page.goto('/review/');
+    await limitInput(page).fill('50');
+    await limitInput(page).blur();
+    await subscribeButton(page).click();
+    await expect(page.getByText('今天到期 50 張，其中新卡 50 張')).toBeVisible();
+    // 第 50 個詞的詞頻序號是 52（24、26 被排除），剩餘仍是 100 - 50。
+    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 50 張，剩餘 50 張');
+    expect((await stored(page))?.subscriptions).toMatchObject([{ issuedThrough: 52, issuedCount: 50 }]);
+  });
+
   test('plays the word audio from a word list card', async ({ page, request }) => {
     await page.addInitScript(() => {
       const played: string[] = [];

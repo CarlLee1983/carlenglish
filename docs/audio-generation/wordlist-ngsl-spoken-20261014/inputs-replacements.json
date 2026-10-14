@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "tell",
+      "src": "/audio/wordlists/ngsl-spoken/tell.mp3",
+      "text": "tell",
+      "textSha256": "879915cfdc2cb4852ed05241911d8de5ca6e2cc4085746c14f13ad304157e264"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "only",
+      "src": "/audio/wordlists/ngsl-spoken/only.mp3",
+      "text": "only",
+      "textSha256": "f905b19542ed08c9a9c26543cca32e5711d207dcffb81b4cdb44ce0b989431c9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "should",
+      "src": "/audio/wordlists/ngsl-spoken/should.mp3",
+      "text": "should",
+      "textSha256": "f86b1f62a8554232b940f4fd9c8d6601aae4767456df3d6cdff55a51f17b5075"
+    }
+  ]
+}

@@ -16,4 +16,4 @@
 
 ## 詞表音檔
 
-NGSL-Spoken 詞表前 100 字的英文詞各有一段 MP3（100 段，約 831 KB），聲線、模型與生成流程與場景相同，只念英文詞、不念例句；批次紀錄在 [`audio-generation/wordlist-ngsl-spoken-20261014/`](audio-generation/wordlist-ngsl-spoken-20261014/)。這批音檔尚未經使用者實聽驗收。
+NGSL-Spoken 詞表前 100 字的英文詞各有一段 MP3（100 段，約 830 KB；排除三個逐字稿標記後遞補三個詞，批次紀錄含 `*-replacements.json`），聲線、模型與生成流程與場景相同，只念英文詞、不念例句；批次紀錄在 [`audio-generation/wordlist-ngsl-spoken-20261014/`](audio-generation/wordlist-ngsl-spoken-20261014/)。這批音檔尚未經使用者實聽驗收。

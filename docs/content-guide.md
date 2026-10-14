@@ -52,9 +52,10 @@ node scripts/generate-audio.mjs .scratch/illustrated-english/unified-voice/.venv
 | `name`、`description` | 複習頁顯示的名稱與說明 |
 | `source` | `name`、`authors`、`url`（HTTPS）與 `adaptation`（本站做了哪些改作）；缺任何一項都會驗證失敗 |
 | `license` | `name` 與 `url`（HTTPS） |
+| `excluded` | 選填。原詞表收錄、但不是真正常用字而不發出的詞（例如逐字稿標記 `[pause]`），每項有 `rank`、`english`、`reason`；可以先列出還沒收錄的排名，擴充詞表時自動適用 |
 | `entries` | 依詞頻排序的詞條，至少一筆 |
 
-每個詞條恰好有 `id`、`rank`、`english`、`meaning`、`example`、`audio`。`id` 同時是音檔檔名，所以必須是小寫連字號 ID；`rank` 是官方詞頻序號，必須從 1 起連續，不能缺號、重複或亂序；同一份詞表內「英文詞＋中文意思」（比對前正規化大小寫與前後空白）不可重複，同一個英文詞的不同意思可以各有一筆。`audio` 的四個欄位與場景相同，音檔放在 `/audio/wordlists/<詞表 ID>/<詞條 ID>.mp3`，只念 `english`，例句不配音；驗證邏輯與場景共用（`src/lib/audio-validation.ts`）。
+每個詞條恰好有 `id`、`rank`、`english`、`meaning`、`example`、`audio`。`id` 同時是音檔檔名，所以必須是小寫連字號 ID；`rank` 是官方詞頻序號（保留原排名），必須從 1 起遞增，只能跳過 `excluded` 列出的排名，其他缺號、重複或亂序都會被擋下；排除清單裡的詞也不可以以別的排名收錄回來；同一份詞表內「英文詞＋中文意思」（比對前正規化大小寫與前後空白）不可重複，同一個英文詞的不同意思可以各有一筆。`audio` 的四個欄位與場景相同，音檔放在 `/audio/wordlists/<詞表 ID>/<詞條 ID>.mp3`，只念 `english`，例句不配音；驗證邏輯與場景共用（`src/lib/audio-validation.ts`）。
 
 中文意思依常用義撰寫，不直譯官方的英文釋義。若同一個詞已經是場景單字或文章關鍵詞，且意思相同，要沿用完全相同的中文字串，字卡才會自然合併成一張。內容須經人工校對才算驗收。
 

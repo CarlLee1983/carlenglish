@@ -1,17 +1,44 @@
 {
   "id": "ngsl-spoken",
   "name": "NGSL-Spoken 口語常用字",
-  "description": "英文口語最常用的字，由最常用的開始依序發出新字卡。目前收錄詞頻最高的前 100 字。",
+  "description": "英文口語最常用的字，由最常用的開始依序發出新字卡。目前收錄詞頻最高的 100 字（不含逐字稿標記）。",
   "source": {
     "name": "NGSL-Spoken 1.2（New General Service List - Spoken）",
     "authors": "Browne, C. & Culligan, B.",
     "url": "https://www.newgeneralservicelist.com/ngsl-spoken",
-    "adaptation": "本站改作：取官方詞頻序號前 100 字，加入中文意思、例句與合成發音；改作內容以相同的 CC BY-SA 4.0 授權釋出。"
+    "adaptation": "本站改作：取官方詞頻序號最前面的 100 字並保留原排名，排除逐字稿標記（pause、unclear、laugh、laughter、cough）；加入中文意思、例句與合成發音；改作內容以相同的 CC BY-SA 4.0 授權釋出。"
   },
   "license": {
     "name": "CC BY-SA 4.0",
     "url": "https://creativecommons.org/licenses/by-sa/4.0/"
   },
+  "excluded": [
+    {
+      "rank": 24,
+      "english": "pause",
+      "reason": "官方語料的逐字稿標記（[pause]、[unclear]、[laugh]、[laughter]、[cough]），不是常用字"
+    },
+    {
+      "rank": 26,
+      "english": "unclear",
+      "reason": "官方語料的逐字稿標記（[pause]、[unclear]、[laugh]、[laughter]、[cough]），不是常用字"
+    },
+    {
+      "rank": 80,
+      "english": "laugh",
+      "reason": "官方語料的逐字稿標記（[pause]、[unclear]、[laugh]、[laughter]、[cough]），不是常用字"
+    },
+    {
+      "rank": 131,
+      "english": "laughter",
+      "reason": "官方語料的逐字稿標記（[pause]、[unclear]、[laugh]、[laughter]、[cough]），不是常用字"
+    },
+    {
+      "rank": 438,
+      "english": "cough",
+      "reason": "官方語料的逐字稿標記（[pause]、[unclear]、[laugh]、[laughter]、[cough]），不是常用字"
+    }
+  ],
   "entries": [
     {
       "id": "be",
@@ -313,19 +340,6 @@
       }
     },
     {
-      "id": "pause",
-      "rank": 24,
-      "english": "pause",
-      "meaning": "暫停、停頓",
-      "example": "Let's pause for a moment.",
-      "audio": {
-        "src": "/audio/wordlists/ngsl-spoken/pause.mp3",
-        "voiceId": "kokoro-af-heart-v1",
-        "textSha256": "6210c0bf05396716df932f0729df69de0533933e5ad9871fd07b61811c4c28df",
-        "sha256": "0159c053d2a5820a6e3907dd69fe64627e4c0f16a62a5628f9f6987bdda1970f"
-      }
-    },
-    {
       "id": "i",
       "rank": 25,
       "english": "I",
@@ -336,19 +350,6 @@
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "a83dd0ccbffe39d071cc317ddf6e97f5c6b1c87af91919271f9fa140b0508c6c",
         "sha256": "e747435a139449ee22b32c1a68c0a14c44fe38d83dd24ed5b8d81c9685397db6"
-      }
-    },
-    {
-      "id": "unclear",
-      "rank": 26,
-      "english": "unclear",
-      "meaning": "不清楚的、不明確的",
-      "example": "The instructions are unclear.",
-      "audio": {
-        "src": "/audio/wordlists/ngsl-spoken/unclear.mp3",
-        "voiceId": "kokoro-af-heart-v1",
-        "textSha256": "66625d4dc242e87b0b974dcb194c75143097a454bec74ca469f77d26d06bff77",
-        "sha256": "226c732b1ee4b014c669c2d225bdbb33aeda05975d7b8ed2a7eb5d148ca5bcf8"
       }
     },
     {
@@ -472,8 +473,8 @@
       "id": "well",
       "rank": 36,
       "english": "well",
-      "meaning": "好、很好地",
-      "example": "She sings very well.",
+      "meaning": "嗯、這個嘛",
+      "example": "Well, I'm not sure.",
       "audio": {
         "src": "/audio/wordlists/ngsl-spoken/well.mp3",
         "voiceId": "kokoro-af-heart-v1",
@@ -1041,19 +1042,6 @@
       }
     },
     {
-      "id": "laugh",
-      "rank": 80,
-      "english": "laugh",
-      "meaning": "笑、大笑",
-      "example": "The joke made everyone laugh.",
-      "audio": {
-        "src": "/audio/wordlists/ngsl-spoken/laugh.mp3",
-        "voiceId": "kokoro-af-heart-v1",
-        "textSha256": "31e289f536683cb9ce6c237111891704a554adbe414fc060042bebf1d770a957",
-        "sha256": "c912af58782819398ad900b0ba85a9ac950b6f772155f73e8cd690abf958e6bb"
-      }
-    },
-    {
       "id": "where",
       "rank": 81,
       "english": "where",
@@ -1135,8 +1123,8 @@
       "id": "by",
       "rank": 87,
       "english": "by",
-      "meaning": "在……旁邊",
-      "example": "Sit by the window if you like.",
+      "meaning": "被、藉由",
+      "example": "The book was written by my aunt.",
       "audio": {
         "src": "/audio/wordlists/ngsl-spoken/by.mp3",
         "voiceId": "kokoro-af-heart-v1",
@@ -1304,13 +1292,52 @@
       "id": "kind",
       "rank": 100,
       "english": "kind",
-      "meaning": "友善的、親切的",
-      "example": "She is very kind to everyone.",
+      "meaning": "種類",
+      "example": "What kind of food do you like?",
       "audio": {
         "src": "/audio/wordlists/ngsl-spoken/kind.mp3",
         "voiceId": "kokoro-af-heart-v1",
         "textSha256": "0b27c158feb36ab18a10ff687909ec730ece6280581dd407e2672359be7725dd",
         "sha256": "4adb46e207e67f1c2578b6c21f8499c96ab02f8dc6107089250080adfba13264"
+      }
+    },
+    {
+      "id": "tell",
+      "rank": 101,
+      "english": "tell",
+      "meaning": "告訴、跟……說",
+      "example": "Tell me what happened.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/tell.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "879915cfdc2cb4852ed05241911d8de5ca6e2cc4085746c14f13ad304157e264",
+        "sha256": "e4f3b96be5ce8a95c21710a2c61256998e9027c339ad8037d183f785d2ed3a1a"
+      }
+    },
+    {
+      "id": "only",
+      "rank": 102,
+      "english": "only",
+      "meaning": "只、僅僅",
+      "example": "I only need a minute.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/only.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f905b19542ed08c9a9c26543cca32e5711d207dcffb81b4cdb44ce0b989431c9",
+        "sha256": "ae9adf3a81911f6159b904f308a0430b008814a618286b79e461c42e92562bd1"
+      }
+    },
+    {
+      "id": "should",
+      "rank": 103,
+      "english": "should",
+      "meaning": "應該",
+      "example": "You should get some rest.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/should.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f86b1f62a8554232b940f4fd9c8d6601aae4767456df3d6cdff55a51f17b5075",
+        "sha256": "41f4a6c5aac9a3f655305dd9ea23212cda0df468d25702c10fbac29b2cd49e63"
       }
     }
   ]

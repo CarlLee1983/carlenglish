@@ -121,6 +121,35 @@ test('frequency ranks must run 1..n without gaps, repeats or reordering', () => 
   expectIssue((data) => { data.entries[1].rank = 2.5; }, `${at}.entries[1].rank`);
 });
 
+const exclusion = (rank, english) => ({ rank, english, reason: '逐字稿標記，不是常用字' });
+
+test('ranks may skip only the ranks the list declares as excluded', () => {
+  withFixture(({ publicDir }) => {
+    const data = list();
+    data.excluded = [exclusion(2, 'um'), exclusion(9, 'cough')];
+    data.entries[1].rank = 3;
+    data.entries[2].rank = 4;
+    assert.deepEqual(issuesOf(publicDir, data), []);
+  });
+  expectIssue((data) => { data.entries[1].rank = 3; data.entries[2].rank = 4; }, `${at}.entries[1].rank`);
+  expectIssue((data) => { data.excluded = [exclusion(2, 'um')]; data.entries[1].rank = 4; data.entries[2].rank = 5; }, `${at}.entries[1].rank`);
+});
+
+test('an excluded rank cannot also be an entry, and an excluded word cannot come back under another rank', () => {
+  expectIssue((data) => { data.excluded = [exclusion(2, 'um')]; }, `${at}.entries[1].rank`);
+  expectIssue((data) => { data.excluded = [exclusion(9, 'THE')]; }, `${at}.excluded[0]: excluded word "THE" is also an entry`);
+});
+
+test('excluded words are declared with a rank, the word and a reason', () => {
+  for (const field of ['rank', 'english', 'reason']) {
+    expectIssue((data) => { data.excluded = [exclusion(9, 'cough')]; delete data.excluded[0][field]; }, `${at}.excluded[0].${field}`);
+  }
+  expectIssue((data) => { data.excluded = [exclusion(9, 'cough'), exclusion(9, 'er')]; }, `${at}.excluded[1].rank: duplicate`);
+  expectIssue((data) => { data.excluded = [exclusion(0, 'cough')]; }, `${at}.excluded[0].rank`);
+  expectIssue((data) => { data.excluded = [{ ...exclusion(9, 'cough'), extra: 1 }]; }, `${at}.excluded[0].extra: unexpected field`);
+  expectIssue((data) => { data.excluded = 'cough'; }, `${at}.excluded`);
+});
+
 test('the same English word and meaning cannot appear twice in one list, after normalizing case and spaces', () => {
   expectIssue((data) => { data.entries[1] = { ...data.entries[1], id: 'be-again', english: ' BE ', meaning: ' 是、成為 ', audio: clip('sample-list', 'be', ' BE ') }; }, `${at}.entries[1]: duplicate card`);
 });
@@ -226,6 +255,30 @@ test('the official NGSL-Spoken list is complete, ordered, attributed and ships i
   const notice = readFileSync(join(process.cwd(), 'content/wordlists/ngsl-spoken/NOTICE.md'), 'utf8');
   assert.match(notice, /Browne/);
   assert.match(notice, /newgeneralservicelist\.com/);
+});
+
+test('the official list leaves out transcript markers and keeps their original ranks, so the 100 entries have gaps', () => {
+  const ngsl = loadWordLists().find((entry) => entry.id === 'ngsl-spoken');
+  const markers = ['pause', 'unclear', 'laugh', 'laughter', 'cough'];
+  const englishWords = ngsl.entries.map((entry) => entry.english.toLowerCase());
+  for (const marker of markers) assert.equal(englishWords.includes(marker), false, marker);
+  assert.deepEqual(ngsl.excluded.map((item) => [item.rank, item.english]), [[24, 'pause'], [26, 'unclear'], [80, 'laugh'], [131, 'laughter'], [438, 'cough']]);
+  const skipped = ngsl.entries.flatMap((entry, index) => (index === 0 ? [] : Array.from({ length: entry.rank - ngsl.entries[index - 1].rank - 1 }, (_, offset) => ngsl.entries[index - 1].rank + offset + 1)));
+  assert.deepEqual(skipped, [24, 26, 80]);
+  assert.deepEqual(ngsl.entries.slice(-3).map((entry) => [entry.rank, entry.english]), [[101, 'tell'], [102, 'only'], [103, 'should']]);
+  assert.match(ngsl.source.adaptation, /逐字稿/);
+  assert.match(readFileSync(join(process.cwd(), 'content/wordlists/ngsl-spoken/NOTICE.md'), 'utf8'), /pause.*unclear.*laugh/s);
+});
+
+test('corrected meanings: kind is the noun, well is the discourse marker, by marks the agent', () => {
+  const ngsl = loadWordLists().find((entry) => entry.id === 'ngsl-spoken');
+  const entry = (english) => ngsl.entries.find((candidate) => candidate.english === english);
+  assert.equal(entry('kind').meaning, '種類');
+  assert.match(entry('kind').example, /kind of/);
+  assert.equal(entry('well').meaning, '嗯、這個嘛');
+  assert.match(entry('well').example, /^Well,/);
+  assert.equal(entry('by').meaning, '被、藉由');
+  assert.match(entry('by').example, /written by/);
 });
 
 test('official list entries that are also scene words reuse the identical Chinese meaning so their cards merge', () => {

@@ -476,8 +476,10 @@ test.describe('review page', () => {
   });
 
   test('a failed save keeps the graded card out of the queue and the warning on screen', async ({ page }) => {
+    // 固定時鐘在白天：評分後的學習步驟（約 10 分鐘）要落在「今天稍後」；用真實時間會在午夜前十分鐘內失敗。
+    await page.clock.install({ time: startTime });
     const content = { english: first.english, meaning: first.translation, example: first.example, audioSrc: first.audio.src };
-    const state = reduce(emptyState(), { type: 'ADD_CARD', card: content, source: { kind: 'scene', id: scene.id, title: scene.title, href: scenePath }, now: new Date() });
+    const state = reduce(emptyState(), { type: 'ADD_CARD', card: content, source: { kind: 'scene', id: scene.id, title: scene.title, href: scenePath }, now: startTime });
     await page.addInitScript((raw) => {
       if (localStorage.getItem('carlenglish.review') === null) localStorage.setItem('carlenglish.review', raw);
       Storage.prototype.setItem = () => { throw new DOMException('full', 'QuotaExceededError'); };
@@ -652,6 +654,33 @@ test.describe('review page', () => {
       expect(box!.height, name).toBeGreaterThanOrEqual(44);
     }
   });
+});
+
+test.describe('day boundary', () => {
+  const cardState = (now: Date) => reduce(emptyState(), {
+    type: 'ADD_CARD',
+    card: { english: first.english, meaning: first.translation, example: first.example, audioSrc: first.audio.src },
+    source: { kind: 'scene', id: scene.id, title: scene.title, href: scenePath },
+    now,
+  });
+
+  // 「今天稍後才到期」以本地日界計算：忘記或剛學的卡約 10 分鐘後再出現，若那已經是明天，就算今天複習完成。
+  for (const [label, time, finished] of [
+    ['at noon the card comes back later today', new Date(2026, 9, 14, 12, 0, 0), false],
+    ['five minutes before midnight the card is due tomorrow, so today is finished', new Date(2026, 9, 14, 23, 55, 0), true],
+    ['ten minutes before midnight the card is still due today', new Date(2026, 9, 14, 23, 49, 0), false],
+  ] as const) {
+    test(label, async ({ page }) => {
+      await page.clock.install({ time });
+      await page.addInitScript((raw) => { if (localStorage.getItem('carlenglish.review') === null) localStorage.setItem('carlenglish.review', raw); }, JSON.stringify(cardState(time)));
+      await page.goto('/review/');
+      await flip(page);
+      await page.getByRole('button', { name: '想起來了' }).click();
+      await expect(page.getByText(finished ? '今天的複習完成了' : '現在沒有到期的字卡')).toBeVisible();
+      await expect(page.getByText(finished ? '現在沒有到期的字卡' : '今天的複習完成了')).toBeHidden();
+      if (finished) await expect(page.getByText('明天預計有 1 張到期')).toBeVisible();
+    });
+  }
 });
 
 test.describe('daily new-card limit', () => {

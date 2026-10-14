@@ -150,13 +150,13 @@ function initializeReview(root: HTMLElement) {
     void loadMissingLists();
   }
 
-  /** 每份訂閱還沒處理到的詞數（用頁面上的靜態字數，不必先載入詞表）。 */
-  function unissuedFromLists(current: ReviewState): number {
-    return current.subscriptions.reduce((total, subscription) => {
-      const count = Number(wordListItem(subscription.wordListId)?.dataset.wordlistCount ?? 0);
-      return total + Math.max(0, count - subscription.issuedThrough);
-    }, 0);
+  /** 這份訂閱還沒處理到的詞數；詞頻序號可能因排除清單而跳號，所以數頁面上的靜態排名，不必先載入詞表。 */
+  function unissuedIn(subscription: ReviewState['subscriptions'][number]): number {
+    const ranks = wordListItem(subscription.wordListId)?.dataset.wordlistRanks ?? '';
+    return ranks.split(',').filter((rank) => rank !== '' && Number(rank) > subscription.issuedThrough).length;
   }
+
+  const unissuedFromLists = (current: ReviewState): number => current.subscriptions.reduce((total, subscription) => total + unissuedIn(subscription), 0);
 
   function renderWordLists() {
     wordListSection.hidden = !state;
@@ -168,7 +168,7 @@ function initializeReview(root: HTMLElement) {
       toggle.textContent = subscription ? '取消訂閱' : '訂閱';
       toggle.setAttribute('aria-label', `${subscription ? '取消訂閱' : '訂閱'} ${name}`);
       const progress = item.querySelector<HTMLElement>('[data-wordlist-progress]')!;
-      const remaining = subscription ? Math.max(0, Number(item.dataset.wordlistCount) - subscription.issuedThrough) : 0;
+      const remaining = subscription ? unissuedIn(subscription) : 0;
       progress.hidden = !subscription;
       progress.textContent = subscription ? `已發出 ${subscription.issuedCount} 張，剩餘 ${remaining} 張` : '';
     }
