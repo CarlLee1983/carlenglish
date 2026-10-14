@@ -1,0 +1,357 @@
+{
+  "id": "checking-online-information",
+  "title": "查證網路消息",
+  "titleEn": "Checking online information",
+  "category": "校園與合作",
+  "level": "中級至中高級",
+  "image": {
+    "src": "/images/scenes/checking-online-information.webp",
+    "alt": "Maya 和 Ben 在圖書館比較筆電上的兩份網路資訊；Maya 指著日期區域，Ben 查看筆記，後方可見獨立的玻璃隔間會議室。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Before choosing a place for the book swap, Ben shows Maya a "
+        },
+        {
+          "text": "screenshot",
+          "wordIds": [
+            "screenshot"
+          ]
+        },
+        {
+          "text": " saying the library is closed."
+        }
+      ],
+      "translation": "在決定換書活動的場地之前，Ben 給 Maya 看一張寫著圖書館關閉的截圖。"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Let's check the ",
+          "phraseIds": [
+            "lets-check-the-source-first"
+          ]
+        },
+        {
+          "text": "source",
+          "phraseIds": [
+            "lets-check-the-source-first"
+          ],
+          "wordIds": [
+            "source"
+          ]
+        },
+        {
+          "text": " first",
+          "phraseIds": [
+            "lets-check-the-source-first"
+          ]
+        },
+        {
+          "text": ",” Maya says, rather than forwarding the warning."
+        }
+      ],
+      "translation": "Maya 沒有轉傳這則提醒，而是說：「我們先查一下來源吧。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "They open the "
+        },
+        {
+          "text": "original",
+          "wordIds": [
+            "original"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "notice",
+          "wordIds": [
+            "notice"
+          ]
+        },
+        {
+          "text": " on the school website, and Maya asks, “"
+        },
+        {
+          "text": "Is it still up to date?",
+          "phraseIds": [
+            "is-it-still-up-to-date"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他們在學校網站上打開原始公告，Maya 問：「這個資訊現在還適用嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "It was posted last year",
+          "phraseIds": [
+            "it-was-posted-last-year"
+          ]
+        },
+        {
+          "text": ", during the repairs,” Ben says."
+        }
+      ],
+      "translation": "Ben 說：「這是去年維修期間發布的。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "That doesn't necessarily mean",
+          "phraseIds": [
+            "that-doesnt-necessarily-mean"
+          ]
+        },
+        {
+          "text": " it's closed now,” Maya replies."
+        }
+      ],
+      "translation": "Maya 回答：「那不一定代表圖書館現在也關著。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "A "
+        },
+        {
+          "text": "current",
+          "wordIds": [
+            "current"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "notice",
+          "wordIds": [
+            "notice"
+          ]
+        },
+        {
+          "text": " says the library meeting room is available on Friday, although the reading area must stay quiet."
+        }
+      ],
+      "translation": "目前的公告寫著圖書館會議室週五可使用，不過閱覽區必須保持安靜。"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "We should ",
+          "phraseIds": [
+            "we-should-confirm-the-details"
+          ]
+        },
+        {
+          "text": "confirm",
+          "phraseIds": [
+            "we-should-confirm-the-details"
+          ],
+          "wordIds": [
+            "confirm"
+          ]
+        },
+        {
+          "text": " the ",
+          "phraseIds": [
+            "we-should-confirm-the-details"
+          ]
+        },
+        {
+          "text": "details",
+          "phraseIds": [
+            "we-should-confirm-the-details"
+          ],
+          "wordIds": [
+            "details"
+          ]
+        },
+        {
+          "text": ",” Ben says, and the librarian tells them the room can hold twenty people."
+        }
+      ],
+      "translation": "Ben 說：「我們應該確認細節。」接著，圖書館員告訴他們，那個房間可以容納二十人。"
+    },
+    {
+      "segments": [
+        {
+          "text": "They save the link and date so everyone in their group can check the information for themselves."
+        }
+      ],
+      "translation": "他們存下連結和日期，讓小組成員也能自行查核這個資訊。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "lets-check-the-source-first",
+      "english": "Let's check the source first",
+      "translation": "我們先查一下來源吧",
+      "audio": {
+        "src": "/audio/phrases/checking-online-information-lets-check-the-source-first.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b0f494c761ae4aa7ad9d4095de5639d45f0b557358523866ffb362573af61ebb",
+        "sha256": "069624f3f9a1142c270ba4cf4c19b48ede96251da3069b3f945e252517a06601"
+      }
+    },
+    {
+      "id": "is-it-still-up-to-date",
+      "english": "Is it still up to date?",
+      "translation": "這個資訊現在還適用嗎？",
+      "audio": {
+        "src": "/audio/phrases/checking-online-information-is-it-still-up-to-date.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d399c6cc72bc780ca856d3aff108c78198d72a8b2e24fe488ffb66d600073df1",
+        "sha256": "67cf9e8eaac9a5d24ec75f9a49e302d619288303cfe4ba0949d5ffef808ac3ad"
+      }
+    },
+    {
+      "id": "it-was-posted-last-year",
+      "english": "It was posted last year",
+      "translation": "這是去年發布的",
+      "audio": {
+        "src": "/audio/phrases/checking-online-information-it-was-posted-last-year.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5a90c185b383f38cf8df773ae472b7d06cfcbcf81b795bd92a442f24788a370a",
+        "sha256": "b4afa00cd4d86d811c781d1c98d2f7512c4f55af1caa87226d77760bdb13f5e6"
+      }
+    },
+    {
+      "id": "that-doesnt-necessarily-mean",
+      "english": "That doesn't necessarily mean",
+      "translation": "那不一定代表",
+      "audio": {
+        "src": "/audio/phrases/checking-online-information-that-doesnt-necessarily-mean.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ad78162d67669cffe5b8319ee9f88e1b5c23f72ae056ecb56036ba11c517259a",
+        "sha256": "27e355947d9a0fbe044190aac8a2b5eb43d6aa045dbc0c567f9f7f85d6f2ca0c"
+      }
+    },
+    {
+      "id": "we-should-confirm-the-details",
+      "english": "We should confirm the details",
+      "translation": "我們應該確認細節",
+      "audio": {
+        "src": "/audio/phrases/checking-online-information-we-should-confirm-the-details.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "841581aa5409b5e1de421f6d410eba4aaeacdada1499e8c3ae9ec76dede6eac0",
+        "sha256": "38285a20351f0db4ac1f76d78c08a25e755056797017404cf591d520f03a5399"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "screenshot",
+      "english": "screenshot",
+      "translation": "螢幕截圖",
+      "example": "Please send me a screenshot of the notice.",
+      "audio": {
+        "src": "/audio/words/checking-online-information-screenshot.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4441146b0fe1d5c6845af126ba5ce6003ea77d6b4cb04d14114f86a925c5dbca",
+        "sha256": "18f5a133eb4108222b2fc2dab68612dfb2b0e902662961b53a76821a75ba527f"
+      }
+    },
+    {
+      "id": "source",
+      "english": "source",
+      "translation": "資訊來源",
+      "example": "What is the source of this message?",
+      "audio": {
+        "src": "/audio/words/checking-online-information-source.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "41cf6794ba4200b839c53531555f0f3998df4cbb01a4d5cb0b94e3ca5e23947d",
+        "sha256": "5fd5ed0368278e7f366c81df4b535db39351eb8319985ff8db4eb271b10ac3f6"
+      }
+    },
+    {
+      "id": "original",
+      "english": "original",
+      "translation": "原始的",
+      "example": "Can we read the original notice?",
+      "audio": {
+        "src": "/audio/words/checking-online-information-original.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0682c5f2076f099c34cfdd15a9e063849ed437a49677e6fcc5b4198c76575be5",
+        "sha256": "c14db22f68584097bb3214dc07e64619644eb7fe2eea8aca4f18a5b33585df94"
+      }
+    },
+    {
+      "id": "notice",
+      "english": "notice",
+      "translation": "公告",
+      "example": "The notice gives the opening hours.",
+      "audio": {
+        "src": "/audio/words/checking-online-information-notice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9368a7d21e018f64ae3327d2f25cd4d7693b2d85328e4bb680bcfcbd4c26b90e",
+        "sha256": "b6fbd1976e402762501b808e661fb40e532915eb7c7df19f852ccda3eb5e5ef6"
+      }
+    },
+    {
+      "id": "current",
+      "english": "current",
+      "translation": "目前的；現行的",
+      "example": "Check the current opening hours.",
+      "audio": {
+        "src": "/audio/words/checking-online-information-current.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+        "sha256": "1ecc947ab41e523db6a03e0323495e169264c3fd96d9da60a733c4f729e73c42"
+      }
+    },
+    {
+      "id": "confirm",
+      "english": "confirm",
+      "translation": "確認",
+      "example": "Please confirm the time with the librarian.",
+      "audio": {
+        "src": "/audio/words/checking-online-information-confirm.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3f267c2ab422e502bad8e60ff9e55666ec59b725e561bf1629c48a1578a08c79",
+        "sha256": "65fb7c855053ee1b7744c007c2fcf473e13cb7b6269f502df29939c7dea2d1b2"
+      }
+    },
+    {
+      "id": "details",
+      "english": "details",
+      "translation": "細節",
+      "example": "We should check the details before we decide.",
+      "audio": {
+        "src": "/audio/words/checking-online-information-details.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "41ffd8b76afc92a65758fd9a080ae80421c196f251263b87cbfb6e567dda0879",
+        "sha256": "427aef6f20461bbc7946a166bcffe990db2369782f7ace44b4f3f2d36c33b97d"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/checking-online-information.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "38f0acc8f8ef3c055f072ae288c0e1938865a7149845887e5114286cbcfa7e38",
+    "sha256": "913e7317a664a35e85595075eb6aa6360ec4f1b6c563a0c284450087534727d1"
+  }
+}

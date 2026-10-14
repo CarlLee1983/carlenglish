@@ -7,7 +7,7 @@ import type { Scene } from '../src/lib/scenes';
 const contentDir = join(process.cwd(), 'content/scenes');
 const scenes = readdirSync(contentDir).filter((name) => name.endsWith('.json')).sort()
   .map((name) => JSON.parse(readFileSync(join(contentDir, name), 'utf8')) as Scene);
-const expectedIds = ['cafe-breakfast', 'school-greeting', 'supermarket-shopping', 'street-directions'];
+const originalIds = ['cafe-breakfast', 'school-greeting', 'supermarket-shopping', 'street-directions'];
 const scenePath = (scene: Scene) => `/scenes/${scene.id}/`;
 const storyParagraphs = (page: Page) => page.getByRole('region', { name: '英文短文' }).locator('[lang="en"] p');
 const translationDisclosure = (page: Page) => page.getByRole('region', { name: '英文短文' }).locator('.translation');
@@ -15,6 +15,7 @@ const translationDisclosure = (page: Page) => page.getByRole('region', { name: '
 async function expectImageLoaded(page: Page, scene: Scene) {
   const image = page.getByRole('img', { name: scene.image.alt });
   await expect(image).toBeVisible();
+  await expect(image).toHaveAttribute('src', scene.image.src);
   const dimensions = await image.evaluate((element: HTMLImageElement) => ({
     complete: element.complete,
     naturalWidth: element.naturalWidth,
@@ -33,6 +34,8 @@ async function expectImageLoaded(page: Page, scene: Scene) {
 async function expectSceneContent(page: Page, scene: Scene) {
   await expect(page.getByRole('heading', { level: 1, name: scene.titleEn })).toBeVisible();
   await expect(page.getByText(scene.title, { exact: true })).toBeVisible();
+  await expect(page.getByRole('article')).toContainText(scene.category);
+  await expect(page.getByRole('article')).toContainText(scene.level);
   await expectImageLoaded(page, scene);
   const paragraphs = storyParagraphs(page);
   await expect(paragraphs).toHaveCount(scene.sentences.length);
@@ -53,6 +56,10 @@ async function expectSceneContent(page: Page, scene: Scene) {
     await expect(wordItems.nth(i)).toContainText(scene.words[i].translation);
     await expect(wordItems.nth(i)).toContainText(scene.words[i].example);
   }
+  const sceneLinks = page.getByRole('navigation', { name: '場景導覽' }).locator('a[href^="/scenes/"]');
+  await expect(sceneLinks).toHaveCount(scenes.length - 1);
+  assert.deepEqual(await sceneLinks.evaluateAll((links) => links.map((link) => link.getAttribute('href'))),
+    scenes.filter((other) => other.id !== scene.id).map(scenePath));
 }
 
 async function expectNoHorizontalClipping(page: Page) {
@@ -70,13 +77,22 @@ async function expectNoHorizontalClipping(page: Page) {
 }
 
 test('all official scenes are discovered on the list', async ({ page }) => {
-  assert.deepEqual(scenes.map((scene) => scene.id).sort(), expectedIds.slice().sort());
+  const ids = scenes.map((scene) => scene.id);
+  assert.equal(new Set(ids).size, ids.length, 'every discovered scene must have a unique route');
+  for (const id of originalIds) assert.ok(ids.includes(id), `original scene ${id} must remain available`);
   await page.goto('/');
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+  await expect(page.getByText(`${scenes.length} 篇讀本`, { exact: true })).toBeVisible();
+  const links = page.getByRole('link', { name: /^閱讀/ });
+  await expect(links).toHaveCount(scenes.length);
+  assert.deepEqual(await links.evaluateAll((elements) => elements.map((element) => element.getAttribute('href'))), scenes.map(scenePath));
   for (const scene of scenes) {
     const link = page.getByRole('link', { name: `閱讀${scene.title}` });
     await expect(link).toHaveAttribute('href', scenePath(scene));
     await expect(link).toContainText(scene.titleEn);
+    await expect(link).toContainText(scene.category);
+    await expect(link).toContainText(scene.level);
+    await expect(link).toContainText(`${scene.sentences.length} 句短文 / ${scene.phrases.length} 個短句 / ${scene.words.length} 個單字`);
     await expectImageLoaded(page, scene);
   }
 });

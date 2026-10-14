@@ -1,0 +1,354 @@
+{
+  "id": "giving-short-presentation",
+  "title": "提出有根據的活動方案",
+  "titleEn": "Presenting a reasoned proposal",
+  "category": "校園與合作",
+  "level": "中高級",
+  "image": {
+    "src": "/images/scenes/giving-short-presentation.webp",
+    "alt": "Maya 向同學簡報換書活動提案，展示板用圖像說明圖書館空間、防雨和分成兩組；Ben 站在放有書本與筆記的桌旁。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "At a planning meeting, Maya presents a "
+        },
+        {
+          "text": "proposal",
+          "wordIds": [
+            "proposal"
+          ]
+        },
+        {
+          "text": " for a book swap that thirty students will attend."
+        }
+      ],
+      "translation": "在規劃會議上，Maya 提出一份方案，要為三十位學生舉辦換書活動。"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "We ",
+          "phraseIds": [
+            "we-recommend-using"
+          ]
+        },
+        {
+          "text": "recommend",
+          "phraseIds": [
+            "we-recommend-using"
+          ],
+          "wordIds": [
+            "recommend"
+          ]
+        },
+        {
+          "text": " using",
+          "phraseIds": [
+            "we-recommend-using"
+          ]
+        },
+        {
+          "text": " the library meeting room because it will keep the books dry.”"
+        }
+      ],
+      "translation": "「我們建議使用圖書館會議室，因為這樣可以讓書本保持乾燥。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "According to the current notice",
+          "phraseIds": [
+            "according-to-the-current-notice"
+          ]
+        },
+        {
+          "text": ", the room is available on Friday.”"
+        }
+      ],
+      "translation": "「根據目前的公告，這個房間週五可使用。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "The main ",
+          "phraseIds": [
+            "the-main-advantage-is-that"
+          ]
+        },
+        {
+          "text": "advantage",
+          "phraseIds": [
+            "the-main-advantage-is-that"
+          ],
+          "wordIds": [
+            "advantage"
+          ]
+        },
+        {
+          "text": " is that",
+          "phraseIds": [
+            "the-main-advantage-is-that"
+          ]
+        },
+        {
+          "text": " we won't need to "
+        },
+        {
+          "text": "cancel",
+          "wordIds": [
+            "cancel"
+          ]
+        },
+        {
+          "text": " if it rains.”"
+        }
+      ],
+      "translation": "「主要的好處是，即使下雨，我們也不必取消活動。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Ben adds, “However, there's a "
+        },
+        {
+          "text": "limit",
+          "wordIds": [
+            "limit"
+          ]
+        },
+        {
+          "text": " of twenty people, so "
+        },
+        {
+          "text": "we suggest two ",
+          "phraseIds": [
+            "we-suggest-two-sessions"
+          ]
+        },
+        {
+          "text": "sessions",
+          "phraseIds": [
+            "we-suggest-two-sessions"
+          ],
+          "wordIds": [
+            "sessions"
+          ]
+        },
+        {
+          "text": " of fifteen",
+          "phraseIds": [
+            "we-suggest-two-sessions"
+          ]
+        },
+        {
+          "text": ".”"
+        }
+      ],
+      "translation": "Ben 補充：「不過，人數上限是二十人，所以我們建議分成兩場，每場十五人。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "A classmate asks how they will keep the reading area quiet."
+        }
+      ],
+      "translation": "一位同學問，他們要怎麼讓閱覽區保持安靜。"
+    },
+    {
+      "segments": [
+        {
+          "text": "“We could close the meeting-room door and ask everyone to keep their voices down,” Maya replies."
+        }
+      ],
+      "translation": "Maya 回答：「我們可以關上會議室的門，並請大家放低音量。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Our next step is to",
+          "phraseIds": [
+            "our-next-step-is-to"
+          ]
+        },
+        {
+          "text": " ask the librarian to "
+        },
+        {
+          "text": "reserve",
+          "wordIds": [
+            "reserve"
+          ]
+        },
+        {
+          "text": " the room,” Maya says, and the group agrees."
+        }
+      ],
+      "translation": "Maya 說：「我們下一步要請圖書館員協助預約這個房間。」小組成員都表示同意。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "we-recommend-using",
+      "english": "We recommend using",
+      "translation": "我們建議使用",
+      "audio": {
+        "src": "/audio/phrases/giving-short-presentation-we-recommend-using.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5e508d41758942f7d39001e6ed55f9cc12d76db6337b9bd7bbb6d05f09123b88",
+        "sha256": "8cc614e7ed65f16a1df88cf48b378f21e42fc7b4b272f9b807cb2db5554c12be"
+      }
+    },
+    {
+      "id": "according-to-the-current-notice",
+      "english": "According to the current notice",
+      "translation": "根據目前的公告",
+      "audio": {
+        "src": "/audio/phrases/giving-short-presentation-according-to-the-current-notice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "534eaa57e971f782ff38be6d04a38b20b8be0e97c8ab0816069d6accfa8c0960",
+        "sha256": "77a293c6e753f6da40a82e2ffc13dd6b7becc49a6c3dd411fb0f5ad5d6a616af"
+      }
+    },
+    {
+      "id": "the-main-advantage-is-that",
+      "english": "The main advantage is that",
+      "translation": "主要的好處是",
+      "audio": {
+        "src": "/audio/phrases/giving-short-presentation-the-main-advantage-is-that.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0b122dc789ec8f30976b7698b8369784c2ac3eab01d656584dfa03201d6802fa",
+        "sha256": "9934cf9f5f1bd139a909593f0e1444d939a9424536320273ecf8d28124fc7260"
+      }
+    },
+    {
+      "id": "we-suggest-two-sessions",
+      "english": "we suggest two sessions of fifteen",
+      "translation": "我們建議分成兩場，每場十五人",
+      "audio": {
+        "src": "/audio/phrases/giving-short-presentation-we-suggest-two-sessions.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c518e0fc1e031051fe5f16ae15644bf610e2cc2a7c472dc2bac3afeeca4723df",
+        "sha256": "4b057b2478c4d59637e03c264ec03c39c63e28ec591a94fc1c8ac11f1a9e93f6"
+      }
+    },
+    {
+      "id": "our-next-step-is-to",
+      "english": "Our next step is to",
+      "translation": "我們下一步要",
+      "audio": {
+        "src": "/audio/phrases/giving-short-presentation-our-next-step-is-to.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "29d53072c9d51174c2934f8fb640fe814b56badbdcf6baf44d795b606a353a20",
+        "sha256": "bdce0265ab717e623b24a9e800612f88cddee376597999499db011ecc1d3c826"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "proposal",
+      "english": "proposal",
+      "translation": "提案",
+      "example": "Our proposal is to hold the event indoors.",
+      "audio": {
+        "src": "/audio/words/giving-short-presentation-proposal.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ecd1378bc9dc130008f00d58db5d26f60db55934a49b949af7e6f6a8da2a2beb",
+        "sha256": "f2eb679142be1381a97364714efe9abe874a5f4f2c2bcef860ff1c024e449342"
+      }
+    },
+    {
+      "id": "recommend",
+      "english": "recommend",
+      "translation": "建議",
+      "example": "I recommend checking the weather first.",
+      "audio": {
+        "src": "/audio/words/giving-short-presentation-recommend.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0eb15ad185af2b351ef4be172745e9dcdfca32f2b0b4e96ffc45af98e813b74d",
+        "sha256": "9d9e2a8820f6e3810f7767f3084a08cdfcd7d49ea4781203bcfc7383de15c821"
+      }
+    },
+    {
+      "id": "advantage",
+      "english": "advantage",
+      "translation": "優點；好處",
+      "example": "This room has one advantage: it stays dry.",
+      "audio": {
+        "src": "/audio/words/giving-short-presentation-advantage.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7db0558a5cdaa5ff8773356736e4c3689c49a97b9b2c8cfee94a739b78419ea7",
+        "sha256": "ee3fa8798f3c740106e00413501a9af9d7add1c99f328ce4306998dac9c1a13b"
+      }
+    },
+    {
+      "id": "cancel",
+      "english": "cancel",
+      "translation": "取消",
+      "example": "We may cancel the picnic if it rains.",
+      "audio": {
+        "src": "/audio/words/giving-short-presentation-cancel.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2374d91794b79f4fb4ec9587d2cf00aecc4f9953fab3ed1dd12ab147a0b721f9",
+        "sha256": "35394dc464561e6db05e648688f47cde9a24520cdbdf42f2fd691b95799c107d"
+      }
+    },
+    {
+      "id": "limit",
+      "english": "limit",
+      "translation": "上限",
+      "example": "The room has a limit of twenty people.",
+      "audio": {
+        "src": "/audio/words/giving-short-presentation-limit.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "55ea09e5715d0a8d9d94018d473bf23b2d7e630c2adb1f1acad3bada74c6fd05",
+        "sha256": "91cb5f381c6f3c4c0a926970c61af69758d2df614e1b4c8975a99c0f23391c55"
+      }
+    },
+    {
+      "id": "sessions",
+      "english": "sessions",
+      "translation": "場次",
+      "example": "We can have two sessions on Friday.",
+      "audio": {
+        "src": "/audio/words/giving-short-presentation-sessions.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1225ae6c1ae69dcb4ee4781b703e12206f3b549cd3ca151070a8d8d8f371dd71",
+        "sha256": "11283f875b36013055edaf5c70b1abf60efa509b0e8d6d085848156f88d2e10b"
+      }
+    },
+    {
+      "id": "reserve",
+      "english": "reserve",
+      "translation": "預約；預留",
+      "example": "Can we reserve the room for Friday?",
+      "audio": {
+        "src": "/audio/words/giving-short-presentation-reserve.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6df24c372c044a0fd8d05774ee70449d7a035d99b3bc3b570a0bf5b22556a904",
+        "sha256": "bcb9a741900b7d3806b22b49bb9a870fc4afccf03bd14ba3b211928e14797ac8"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/giving-short-presentation.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "6cedd0c7eddb910eb4baa3a1a61ee2a9e685f54bc2ee2b5cfa7c2bcf4f14e408",
+    "sha256": "0332462972a8358e11502d4a4ea364cb7099a9846a2e147df9c9a44cfc53cea1"
+  }
+}

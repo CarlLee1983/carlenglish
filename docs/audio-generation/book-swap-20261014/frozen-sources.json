@@ -1,0 +1,17 @@
+[
+  {
+    "id": "respectful-disagreement",
+    "filename": "respectful-disagreement.json",
+    "sha256": "486d8db78df02f0535cbab2ef626c02bbf170dfc336e8553556ad65241aa8792"
+  },
+  {
+    "id": "checking-online-information",
+    "filename": "checking-online-information.json",
+    "sha256": "ec292de3931e53f082ddcbb42341b14f52c7106858747501270db6dd2a61e74c"
+  },
+  {
+    "id": "giving-short-presentation",
+    "filename": "giving-short-presentation.json",
+    "sha256": "4b3a0640bfe9e11fe44e57392a023a8e2309136a38924e62260f82cb3e1085af"
+  }
+]

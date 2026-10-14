@@ -1,0 +1,342 @@
+{
+  "id": "respectful-disagreement",
+  "title": "禮貌表達不同意見",
+  "titleEn": "Disagreeing respectfully",
+  "category": "校園與合作",
+  "level": "中級",
+  "image": {
+    "src": "/images/scenes/respectful-disagreement.webp",
+    "alt": "Maya 和 Ben 在學校桌邊討論換書活動的地點；Ben 指向窗外庭院，Maya 指著手機上的雨雲圖示，桌上放著書本和兩種場地的草圖。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Maya and Ben are choosing a "
+        },
+        {
+          "text": "location",
+          "wordIds": [
+            "location"
+          ]
+        },
+        {
+          "text": " for a Friday book swap with thirty students."
+        }
+      ],
+      "translation": "Maya 和 Ben 正在為三十位學生參加的週五換書活動挑選場地。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Ben points to the school "
+        },
+        {
+          "text": "courtyard",
+          "wordIds": [
+            "courtyard"
+          ]
+        },
+        {
+          "text": " and says, “"
+        },
+        {
+          "text": "We could hold it here",
+          "phraseIds": [
+            "we-could-hold-it-here"
+          ]
+        },
+        {
+          "text": " because there's plenty of space.”"
+        }
+      ],
+      "translation": "Ben 指著學校中庭說：「我們可以在這裡辦，因為空間很充足。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "I see your point, but",
+          "phraseIds": [
+            "i-see-your-point-but"
+          ]
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "forecast",
+          "wordIds": [
+            "forecast"
+          ]
+        },
+        {
+          "text": " says it might rain,” Maya replies."
+        }
+      ],
+      "translation": "Maya 回答：「我懂你的想法，不過天氣預報說可能會下雨。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "My main ",
+          "phraseIds": [
+            "my-main-concern-is"
+          ]
+        },
+        {
+          "text": "concern",
+          "phraseIds": [
+            "my-main-concern-is"
+          ],
+          "wordIds": [
+            "concern"
+          ]
+        },
+        {
+          "text": " is",
+          "phraseIds": [
+            "my-main-concern-is"
+          ]
+        },
+        {
+          "text": " keeping the books dry.”"
+        }
+      ],
+      "translation": "「我最在意的是讓書本保持乾燥。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Ben suggests the library instead, although he is not sure whether it is "
+        },
+        {
+          "text": "available",
+          "wordIds": [
+            "available"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Ben 改提議用圖書館，不過他不確定那裡能不能使用。"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Let's compare the ",
+          "phraseIds": [
+            "lets-compare-the-options"
+          ]
+        },
+        {
+          "text": "options",
+          "phraseIds": [
+            "lets-compare-the-options"
+          ],
+          "wordIds": [
+            "options"
+          ]
+        },
+        {
+          "text": " before we decide,” Maya says."
+        }
+      ],
+      "translation": "Maya 說：「我們先比較各個選項，再做決定吧。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Ben agrees: “"
+        },
+        {
+          "text": "That sounds reasonable",
+          "phraseIds": [
+            "that-sounds-reasonable"
+          ]
+        },
+        {
+          "text": ", as long as we check how much space we can use.”"
+        }
+      ],
+      "translation": "Ben 表示同意：「聽起來很合理，只要我們確認一下有多少空間可以用就好。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "They write down their shared goal: a place with enough room and "
+        },
+        {
+          "text": "protection",
+          "wordIds": [
+            "protection"
+          ]
+        },
+        {
+          "text": " from the rain."
+        }
+      ],
+      "translation": "他們寫下共同目標：找一個空間足夠、又能遮雨的地方。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "we-could-hold-it-here",
+      "english": "We could hold it here",
+      "translation": "我們可以在這裡辦",
+      "audio": {
+        "src": "/audio/phrases/respectful-disagreement-we-could-hold-it-here.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "541228e5a26116da0eb018e55236c150bc2d964c82ddfe0315ab17a8570e1739",
+        "sha256": "a80e0214cd29458c125622275d4926b064631e4c3f1c435e94f2462aaa85f018"
+      }
+    },
+    {
+      "id": "i-see-your-point-but",
+      "english": "I see your point, but",
+      "translation": "我懂你的想法，不過",
+      "audio": {
+        "src": "/audio/phrases/respectful-disagreement-i-see-your-point-but.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c31e5c5799ad20689a49b6d61b0c93670e597e90866ef5fd4d24adc58a64f4f2",
+        "sha256": "5280290f992745ea5cf45a971b92b8fe93e43ce90c12fab1f0689b9b2325c6a1"
+      }
+    },
+    {
+      "id": "my-main-concern-is",
+      "english": "My main concern is",
+      "translation": "我最在意的是",
+      "audio": {
+        "src": "/audio/phrases/respectful-disagreement-my-main-concern-is.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "40457fe4378cf3360c6fa0687e478af20e3562a1a8a9d8e8a553570a809a122f",
+        "sha256": "5ee8f819a1b39a0fecef2520a103fad86a8e4e7deead988aa3a18c1dc53ce548"
+      }
+    },
+    {
+      "id": "lets-compare-the-options",
+      "english": "Let's compare the options",
+      "translation": "我們來比較各個選項吧",
+      "audio": {
+        "src": "/audio/phrases/respectful-disagreement-lets-compare-the-options.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3aad83bd005bf59627193fbcf446c9415262f896c8ac350c8ef2a0a1679c78e1",
+        "sha256": "d076070fde0953d3cf3cec46c08b912c00c5a0d61131810efb8035217c10aa8c"
+      }
+    },
+    {
+      "id": "that-sounds-reasonable",
+      "english": "That sounds reasonable",
+      "translation": "聽起來很合理",
+      "audio": {
+        "src": "/audio/phrases/respectful-disagreement-that-sounds-reasonable.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7425467bdb7cd7aa1f773403bed0538dba844a5b020e8ceded38c07daf2c75c9",
+        "sha256": "834831f262eb8989da6ddb93aae88613610db26d44259d4c1321c1762aaefc21"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "location",
+      "english": "location",
+      "translation": "地點；場地",
+      "example": "We need a location for the book swap.",
+      "audio": {
+        "src": "/audio/words/respectful-disagreement-location.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e6eaea18e885e1078829b56df34896be5ab51439e8f0ba00cb1624b2c572c10e",
+        "sha256": "0ab67d21eb0c669aef600265e74b5d0272482c1fc182e31f1cf5a05ffb8755aa"
+      }
+    },
+    {
+      "id": "courtyard",
+      "english": "courtyard",
+      "translation": "中庭",
+      "example": "We can meet in the courtyard.",
+      "audio": {
+        "src": "/audio/words/respectful-disagreement-courtyard.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "953ff581e859b90bbcf5773d64136e3ae7a7a367606c0a5725b7ab6b3cd012d2",
+        "sha256": "bf5d8a52ee501f2b52f5598474ecff1b2c7d6de120a9420cc3f145adb3de356b"
+      }
+    },
+    {
+      "id": "forecast",
+      "english": "forecast",
+      "translation": "天氣預報",
+      "example": "The forecast says it might rain.",
+      "audio": {
+        "src": "/audio/words/respectful-disagreement-forecast.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "59f0db478528b4c446cfaf3d5b8a358dc500a6d97b29a215ee8c216a2f7174e2",
+        "sha256": "74c4807351d4e573ebc27b307d42586b36e1d033d88002934baeb4b74580385d"
+      }
+    },
+    {
+      "id": "concern",
+      "english": "concern",
+      "translation": "在意或擔心的事",
+      "example": "My main concern is the rain.",
+      "audio": {
+        "src": "/audio/words/respectful-disagreement-concern.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2f1b86bf5531b8e8545eb85875f3d4283bbc83663b60efa9e2faef34e03ab174",
+        "sha256": "3ed2c538586a8279e7982f821d419b34a7ce578f08f3bfa0f1c8e156dcf53d6c"
+      }
+    },
+    {
+      "id": "available",
+      "english": "available",
+      "translation": "可使用的",
+      "example": "Is the library available on Friday?",
+      "audio": {
+        "src": "/audio/words/respectful-disagreement-available.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ddd9818abacfde7afed60c93129175401439367a77e69ea93e0ddb3bb38e0bd9",
+        "sha256": "c01bbdbf4738e319f3c31e48f0649ae1c8a48e4c534f8e0e00dd977dd53c6cb5"
+      }
+    },
+    {
+      "id": "options",
+      "english": "options",
+      "translation": "可選擇的方案",
+      "example": "We have two options for the meeting.",
+      "audio": {
+        "src": "/audio/words/respectful-disagreement-options.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a793ab8fcc2afce5e42b3044090719ddaff19741697d93b3b7f36838dd5e825c",
+        "sha256": "67d1a607131659d8dfc93b24ce99186a420e1e7d7c6f1d7dd90053f9597d2c4d"
+      }
+    },
+    {
+      "id": "protection",
+      "english": "protection",
+      "translation": "保護；遮蔽",
+      "example": "The roof gives us protection from the rain.",
+      "audio": {
+        "src": "/audio/words/respectful-disagreement-protection.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "433c3507c372d907a357bb02e4632eebc85431812c03aa44ac31b6a66dc26e91",
+        "sha256": "8cf01ebb884cba3b1ff351b0239c00445a2fbfaa5e256243ed07dc1df77306fe"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/respectful-disagreement.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "9f8c693f345498e7f6ce24c02477b016c71a5c748201562cd60c2dfadab7295d",
+    "sha256": "40458e154e5c0a587ba7adccbf6811e9bf2e2a83e36cc8cd4e4d344e0eda3b03"
+  }
+}

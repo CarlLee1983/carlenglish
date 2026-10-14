@@ -1,0 +1,690 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "stories",
+      "itemId": "respectful-disagreement",
+      "src": "/audio/stories/respectful-disagreement.mp3",
+      "text": "Maya and Ben are choosing a location for a Friday book swap with thirty students. Ben points to the school courtyard and says, “We could hold it here because there's plenty of space.” “I see your point, but the forecast says it might rain,” Maya replies. “My main concern is keeping the books dry.” Ben suggests the library instead, although he is not sure whether it is available. “Let's compare the options before we decide,” Maya says. Ben agrees: “That sounds reasonable, as long as we check how much space we can use.” They write down their shared goal: a place with enough room and protection from the rain.",
+      "textSha256": "9f8c693f345498e7f6ce24c02477b016c71a5c748201562cd60c2dfadab7295d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "40458e154e5c0a587ba7adccbf6811e9bf2e2a83e36cc8cd4e4d344e0eda3b03",
+      "duration": 36.075,
+      "graphemes": [
+        "Maya and Ben are choosing a location for a Friday book swap with thirty students. Ben points to the school courtyard and says, “We could hold it here because there's plenty of space.” “I see your point, but the forecast says it might rain,” Maya replies. “My main concern is keeping the books dry.” Ben suggests the library instead, although he is not sure whether it is available. “Let's compare the options before we decide,” Maya says.",
+        "Ben agrees: “That sounds reasonable, as long as we check how much space we can use.” They write down their shared goal: a place with enough room and protection from the rain."
+      ],
+      "phonemes": [
+        "mˈIə ænd bˈɛn ɑɹ ʧˈuzɪŋ ɐ lOkˈAʃən fɔɹ ɐ fɹˈIdˌA bˈʊk swˈɑp wɪð θˈɜɹTi stˈudᵊnts. bˈɛn pˈYnts tə ðə skˈul kˈɔɹtjˌɑɹd ænd sˈɛz, “wˌi kʊd hˈOld ɪt hˈɪɹ bəkˈʌz ðɛɹz plˈɛnti ʌv spˈAs.” “ˌI sˈi jʊɹ pˈYnt, bˌʌt ðə fˈɔɹkˌæst sˈɛz ɪt mˌIt ɹˈAn,” mˈIə ɹᵻplˈIz. “mˌI mˈAn kənsˈɜɹn ɪz kˈipɪŋ ðə bˈʊks dɹˈI.” bˈɛn səɡʤˈɛsts ðə lˈIbɹˌɛɹi ɪnstˈɛd, ɔlðˈO hi ɪz nˌɑt ʃˈʊɹ wˈɛðəɹ ɪt ɪz əvˈAləbᵊl. “lˈɛts kəmpˈɛɹ ði ˈɑpʃənz bəfˈɔɹ wi dəsˈId,” mˈIə sˈɛz.",
+        "bˈɛn əɡɹˈiz: “ðˈæt sˈWndz ɹˈizənəbᵊl, æz lˈɔŋ æz wi ʧˈɛk hˌW mˈʌʧ spˈAs wi kæn jˈuz.” ðˌA ɹˈIt dˌWn ðɛɹ ʃˈɛɹd ɡˈOl: ɐ plˈAs wɪð ɪnˈʌf ɹˈum ænd pɹətˈɛkʃən fɹʌm ðə ɹˈAn."
+      ]
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "phrases",
+      "itemId": "we-could-hold-it-here",
+      "src": "/audio/phrases/respectful-disagreement-we-could-hold-it-here.mp3",
+      "text": "We could hold it here",
+      "textSha256": "541228e5a26116da0eb018e55236c150bc2d964c82ddfe0315ab17a8570e1739",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a80e0214cd29458c125622275d4926b064631e4c3f1c435e94f2462aaa85f018",
+      "duration": 1.625,
+      "graphemes": [
+        "We could hold it here"
+      ],
+      "phonemes": [
+        "wˌi kʊd hˈOld ɪt hˈɪɹ"
+      ]
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "phrases",
+      "itemId": "i-see-your-point-but",
+      "src": "/audio/phrases/respectful-disagreement-i-see-your-point-but.mp3",
+      "text": "I see your point, but",
+      "textSha256": "c31e5c5799ad20689a49b6d61b0c93670e597e90866ef5fd4d24adc58a64f4f2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5280290f992745ea5cf45a971b92b8fe93e43ce90c12fab1f0689b9b2325c6a1",
+      "duration": 1.65,
+      "graphemes": [
+        "I see your point, but"
+      ],
+      "phonemes": [
+        "ˌI sˈi jʊɹ pˈYnt, bˌʌt"
+      ]
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "phrases",
+      "itemId": "my-main-concern-is",
+      "src": "/audio/phrases/respectful-disagreement-my-main-concern-is.mp3",
+      "text": "My main concern is",
+      "textSha256": "40457fe4378cf3360c6fa0687e478af20e3562a1a8a9d8e8a553570a809a122f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5ee8f819a1b39a0fecef2520a103fad86a8e4e7deead988aa3a18c1dc53ce548",
+      "duration": 1.925,
+      "graphemes": [
+        "My main concern is"
+      ],
+      "phonemes": [
+        "mˌI mˈAn kənsˈɜɹn ɪz"
+      ]
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "phrases",
+      "itemId": "lets-compare-the-options",
+      "src": "/audio/phrases/respectful-disagreement-lets-compare-the-options.mp3",
+      "text": "Let's compare the options",
+      "textSha256": "3aad83bd005bf59627193fbcf446c9415262f896c8ac350c8ef2a0a1679c78e1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d076070fde0953d3cf3cec46c08b912c00c5a0d61131810efb8035217c10aa8c",
+      "duration": 2.0,
+      "graphemes": [
+        "Let's compare the options"
+      ],
+      "phonemes": [
+        "lˈɛts kəmpˈɛɹ ði ˈɑpʃənz"
+      ]
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "phrases",
+      "itemId": "that-sounds-reasonable",
+      "src": "/audio/phrases/respectful-disagreement-that-sounds-reasonable.mp3",
+      "text": "That sounds reasonable",
+      "textSha256": "7425467bdb7cd7aa1f773403bed0538dba844a5b020e8ceded38c07daf2c75c9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "834831f262eb8989da6ddb93aae88613610db26d44259d4c1321c1762aaefc21",
+      "duration": 1.875,
+      "graphemes": [
+        "That sounds reasonable"
+      ],
+      "phonemes": [
+        "ðˈæt sˈWndz ɹˈizənəbᵊl"
+      ]
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "location",
+      "src": "/audio/words/respectful-disagreement-location.mp3",
+      "text": "location",
+      "textSha256": "e6eaea18e885e1078829b56df34896be5ab51439e8f0ba00cb1624b2c572c10e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0ab67d21eb0c669aef600265e74b5d0272482c1fc182e31f1cf5a05ffb8755aa",
+      "duration": 1.525,
+      "graphemes": [
+        "location"
+      ],
+      "phonemes": [
+        "lOkˈAʃən"
+      ]
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "courtyard",
+      "src": "/audio/words/respectful-disagreement-courtyard.mp3",
+      "text": "courtyard",
+      "textSha256": "953ff581e859b90bbcf5773d64136e3ae7a7a367606c0a5725b7ab6b3cd012d2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bf5d8a52ee501f2b52f5598474ecff1b2c7d6de120a9420cc3f145adb3de356b",
+      "duration": 1.45,
+      "graphemes": [
+        "courtyard"
+      ],
+      "phonemes": [
+        "kˈɔɹtjˌɑɹd"
+      ]
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "forecast",
+      "src": "/audio/words/respectful-disagreement-forecast.mp3",
+      "text": "forecast",
+      "textSha256": "59f0db478528b4c446cfaf3d5b8a358dc500a6d97b29a215ee8c216a2f7174e2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "74c4807351d4e573ebc27b307d42586b36e1d033d88002934baeb4b74580385d",
+      "duration": 1.525,
+      "graphemes": [
+        "forecast"
+      ],
+      "phonemes": [
+        "fˈɔɹkˌæst"
+      ]
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "concern",
+      "src": "/audio/words/respectful-disagreement-concern.mp3",
+      "text": "concern",
+      "textSha256": "2f1b86bf5531b8e8545eb85875f3d4283bbc83663b60efa9e2faef34e03ab174",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3ed2c538586a8279e7982f821d419b34a7ce578f08f3bfa0f1c8e156dcf53d6c",
+      "duration": 1.475,
+      "graphemes": [
+        "concern"
+      ],
+      "phonemes": [
+        "kənsˈɜɹn"
+      ]
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "available",
+      "src": "/audio/words/respectful-disagreement-available.mp3",
+      "text": "available",
+      "textSha256": "ddd9818abacfde7afed60c93129175401439367a77e69ea93e0ddb3bb38e0bd9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c01bbdbf4738e319f3c31e48f0649ae1c8a48e4c534f8e0e00dd977dd53c6cb5",
+      "duration": 1.45,
+      "graphemes": [
+        "available"
+      ],
+      "phonemes": [
+        "əvˈAləbᵊl"
+      ]
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "options",
+      "src": "/audio/words/respectful-disagreement-options.mp3",
+      "text": "options",
+      "textSha256": "a793ab8fcc2afce5e42b3044090719ddaff19741697d93b3b7f36838dd5e825c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "67d1a607131659d8dfc93b24ce99186a420e1e7d7c6f1d7dd90053f9597d2c4d",
+      "duration": 1.55,
+      "graphemes": [
+        "options"
+      ],
+      "phonemes": [
+        "ˈɑpʃənz"
+      ]
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "protection",
+      "src": "/audio/words/respectful-disagreement-protection.mp3",
+      "text": "protection",
+      "textSha256": "433c3507c372d907a357bb02e4632eebc85431812c03aa44ac31b6a66dc26e91",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8cf01ebb884cba3b1ff351b0239c00445a2fbfaa5e256243ed07dc1df77306fe",
+      "duration": 1.5,
+      "graphemes": [
+        "protection"
+      ],
+      "phonemes": [
+        "pɹətˈɛkʃən"
+      ]
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "stories",
+      "itemId": "checking-online-information",
+      "src": "/audio/stories/checking-online-information.mp3",
+      "text": "Before choosing a place for the book swap, Ben shows Maya a screenshot saying the library is closed. “Let's check the source first,” Maya says, rather than forwarding the warning. They open the original notice on the school website, and Maya asks, “Is it still up to date?” “It was posted last year, during the repairs,” Ben says. “That doesn't necessarily mean it's closed now,” Maya replies. A current notice says the library meeting room is available on Friday, although the reading area must stay quiet. “We should confirm the details,” Ben says, and the librarian tells them the room can hold twenty people. They save the link and date so everyone in their group can check the information for themselves.",
+      "textSha256": "38f0acc8f8ef3c055f072ae288c0e1938865a7149845887e5114286cbcfa7e38",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "913e7317a664a35e85595075eb6aa6360ec4f1b6c563a0c284450087534727d1",
+      "duration": 39.9,
+      "graphemes": [
+        "Before choosing a place for the book swap, Ben shows Maya a screenshot saying the library is closed. “Let's check the source first,” Maya says, rather than forwarding the warning. They open the original notice on the school website, and Maya asks, “Is it still up to date?” “It was posted last year, during the repairs,” Ben says. “That doesn't necessarily mean it's closed now,” Maya replies. A current notice says the library meeting room is available on Friday, although the reading area must stay quiet.",
+        "“We should confirm the details,” Ben says, and the librarian tells them the room can hold twenty people. They save the link and date so everyone in their group can check the information for themselves."
+      ],
+      "phonemes": [
+        "bəfˈɔɹ ʧˈuzɪŋ ɐ plˈAs fɔɹ ðə bˈʊk swˈɑp, bˈɛn ʃˈOz mˈIə ɐ skɹˈinʃˌɑt sˈAɪŋ ðə lˈIbɹˌɛɹi ɪz klˈOzd. “lˈɛts ʧˈɛk ðə sˈɔɹs fˈɜɹst,” mˈIə sˈɛz, ɹˈæðəɹ ðən fˈɔɹwəɹdɪŋ ðə wˈɔɹnɪŋ. ðˌA ˈOpᵊn ði əɹˈɪʤənᵊl nˈOTəs ˌɔn ðə skˈul wˈɛbsˌIt, ænd mˈIə ˈæsks, “ˌɪz ɪt stˈɪl ˌʌp tə dˈAt?” “ˌɪt wʌz pˈOstᵻd lˈæst jˈɪɹ, dˈʊɹɪŋ ðə ɹəpˈɛɹz,” bˈɛn sˈɛz. “ðˈæt dˈʌzᵊnt nˌɛsəsˈɛɹəli mˈin ɪts klˈOzd nˈW,” mˈIə ɹᵻplˈIz. ɐ kˈɜɹənt nˈOTəs sˈɛz ðə lˈIbɹˌɛɹi mˈiTɪŋ ɹˈum ɪz əvˈAləbᵊl ˌɔn fɹˈIdˌA, ɔlðˈO ðə ɹˈidɪŋ ˈɛɹiə mˈʌst stˈA kwˈIət.",
+        "“wˌi ʃˌʊd kənfˈɜɹm ðə dətˈAlz,” bˈɛn sˈɛz, ænd ðə lIbɹˈɛɹiən tˈɛlz ðˌɛm ðə ɹˈum kæn hˈOld twˈɛnti pˈipᵊl. ðˌA sˈAv ðə lˈɪŋk ænd dˈAt sˌO ˈɛvɹiwən ɪn ðɛɹ ɡɹˈup kæn ʧˈɛk ði ˌɪnfəɹmˈAʃən fɔɹ ðəmsˈɛlvz."
+      ]
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "phrases",
+      "itemId": "lets-check-the-source-first",
+      "src": "/audio/phrases/checking-online-information-lets-check-the-source-first.mp3",
+      "text": "Let's check the source first",
+      "textSha256": "b0f494c761ae4aa7ad9d4095de5639d45f0b557358523866ffb362573af61ebb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "069624f3f9a1142c270ba4cf4c19b48ede96251da3069b3f945e252517a06601",
+      "duration": 1.975,
+      "graphemes": [
+        "Let's check the source first"
+      ],
+      "phonemes": [
+        "lˈɛts ʧˈɛk ðə sˈɔɹs fˈɜɹst"
+      ]
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "phrases",
+      "itemId": "is-it-still-up-to-date",
+      "src": "/audio/phrases/checking-online-information-is-it-still-up-to-date.mp3",
+      "text": "Is it still up to date?",
+      "textSha256": "d399c6cc72bc780ca856d3aff108c78198d72a8b2e24fe488ffb66d600073df1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "67cf9e8eaac9a5d24ec75f9a49e302d619288303cfe4ba0949d5ffef808ac3ad",
+      "duration": 1.85,
+      "graphemes": [
+        "Is it still up to date?"
+      ],
+      "phonemes": [
+        "ˌɪz ɪt stˈɪl ˌʌp tə dˈAt?"
+      ]
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "phrases",
+      "itemId": "it-was-posted-last-year",
+      "src": "/audio/phrases/checking-online-information-it-was-posted-last-year.mp3",
+      "text": "It was posted last year",
+      "textSha256": "5a90c185b383f38cf8df773ae472b7d06cfcbcf81b795bd92a442f24788a370a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b4afa00cd4d86d811c781d1c98d2f7512c4f55af1caa87226d77760bdb13f5e6",
+      "duration": 2.0,
+      "graphemes": [
+        "It was posted last year"
+      ],
+      "phonemes": [
+        "ˌɪt wʌz pˈOstᵻd lˈæst jˈɪɹ"
+      ]
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "phrases",
+      "itemId": "that-doesnt-necessarily-mean",
+      "src": "/audio/phrases/checking-online-information-that-doesnt-necessarily-mean.mp3",
+      "text": "That doesn't necessarily mean",
+      "textSha256": "ad78162d67669cffe5b8319ee9f88e1b5c23f72ae056ecb56036ba11c517259a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "27e355947d9a0fbe044190aac8a2b5eb43d6aa045dbc0c567f9f7f85d6f2ca0c",
+      "duration": 2.25,
+      "graphemes": [
+        "That doesn't necessarily mean"
+      ],
+      "phonemes": [
+        "ðˈæt dˈʌzᵊnt nˌɛsəsˈɛɹəli mˈin"
+      ]
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "phrases",
+      "itemId": "we-should-confirm-the-details",
+      "src": "/audio/phrases/checking-online-information-we-should-confirm-the-details.mp3",
+      "text": "We should confirm the details",
+      "textSha256": "841581aa5409b5e1de421f6d410eba4aaeacdada1499e8c3ae9ec76dede6eac0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "38285a20351f0db4ac1f76d78c08a25e755056797017404cf591d520f03a5399",
+      "duration": 2.1,
+      "graphemes": [
+        "We should confirm the details"
+      ],
+      "phonemes": [
+        "wˌi ʃˌʊd kənfˈɜɹm ðə dətˈAlz"
+      ]
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "screenshot",
+      "src": "/audio/words/checking-online-information-screenshot.mp3",
+      "text": "screenshot",
+      "textSha256": "4441146b0fe1d5c6845af126ba5ce6003ea77d6b4cb04d14114f86a925c5dbca",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "18f5a133eb4108222b2fc2dab68612dfb2b0e902662961b53a76821a75ba527f",
+      "duration": 1.55,
+      "graphemes": [
+        "screenshot"
+      ],
+      "phonemes": [
+        "skɹˈinʃˌɑt"
+      ]
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "source",
+      "src": "/audio/words/checking-online-information-source.mp3",
+      "text": "source",
+      "textSha256": "41cf6794ba4200b839c53531555f0f3998df4cbb01a4d5cb0b94e3ca5e23947d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5fd5ed0368278e7f366c81df4b535db39351eb8319985ff8db4eb271b10ac3f6",
+      "duration": 1.375,
+      "graphemes": [
+        "source"
+      ],
+      "phonemes": [
+        "sˈɔɹs"
+      ]
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "original",
+      "src": "/audio/words/checking-online-information-original.mp3",
+      "text": "original",
+      "textSha256": "0682c5f2076f099c34cfdd15a9e063849ed437a49677e6fcc5b4198c76575be5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c14db22f68584097bb3214dc07e64619644eb7fe2eea8aca4f18a5b33585df94",
+      "duration": 1.575,
+      "graphemes": [
+        "original"
+      ],
+      "phonemes": [
+        "əɹˈɪʤənᵊl"
+      ]
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "notice",
+      "src": "/audio/words/checking-online-information-notice.mp3",
+      "text": "notice",
+      "textSha256": "9368a7d21e018f64ae3327d2f25cd4d7693b2d85328e4bb680bcfcbd4c26b90e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b6fbd1976e402762501b808e661fb40e532915eb7c7df19f852ccda3eb5e5ef6",
+      "duration": 1.45,
+      "graphemes": [
+        "notice"
+      ],
+      "phonemes": [
+        "nˈOTəs"
+      ]
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "current",
+      "src": "/audio/words/checking-online-information-current.mp3",
+      "text": "current",
+      "textSha256": "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1ecc947ab41e523db6a03e0323495e169264c3fd96d9da60a733c4f729e73c42",
+      "duration": 1.3,
+      "graphemes": [
+        "current"
+      ],
+      "phonemes": [
+        "kˈɜɹənt"
+      ]
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "confirm",
+      "src": "/audio/words/checking-online-information-confirm.mp3",
+      "text": "confirm",
+      "textSha256": "3f267c2ab422e502bad8e60ff9e55666ec59b725e561bf1629c48a1578a08c79",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "65fb7c855053ee1b7744c007c2fcf473e13cb7b6269f502df29939c7dea2d1b2",
+      "duration": 1.525,
+      "graphemes": [
+        "confirm"
+      ],
+      "phonemes": [
+        "kənfˈɜɹm"
+      ]
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "details",
+      "src": "/audio/words/checking-online-information-details.mp3",
+      "text": "details",
+      "textSha256": "41ffd8b76afc92a65758fd9a080ae80421c196f251263b87cbfb6e567dda0879",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "427aef6f20461bbc7946a166bcffe990db2369782f7ace44b4f3f2d36c33b97d",
+      "duration": 1.525,
+      "graphemes": [
+        "details"
+      ],
+      "phonemes": [
+        "dətˈAlz"
+      ]
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "stories",
+      "itemId": "giving-short-presentation",
+      "src": "/audio/stories/giving-short-presentation.mp3",
+      "text": "At a planning meeting, Maya presents a proposal for a book swap that thirty students will attend. “We recommend using the library meeting room because it will keep the books dry.” “According to the current notice, the room is available on Friday.” “The main advantage is that we won't need to cancel if it rains.” Ben adds, “However, there's a limit of twenty people, so we suggest two sessions of fifteen.” A classmate asks how they will keep the reading area quiet. “We could close the meeting-room door and ask everyone to keep their voices down,” Maya replies. “Our next step is to ask the librarian to reserve the room,” Maya says, and the group agrees.",
+      "textSha256": "6cedd0c7eddb910eb4baa3a1a61ee2a9e685f54bc2ee2b5cfa7c2bcf4f14e408",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0332462972a8358e11502d4a4ea364cb7099a9846a2e147df9c9a44cfc53cea1",
+      "duration": 37.7,
+      "graphemes": [
+        "At a planning meeting, Maya presents a proposal for a book swap that thirty students will attend. “We recommend using the library meeting room because it will keep the books dry.” “According to the current notice, the room is available on Friday.” “The main advantage is that we won't need to cancel if it rains.” Ben adds, “However, there's a limit of twenty people, so we suggest two sessions of fifteen.” A classmate asks how they will keep the reading area quiet.",
+        "“We could close the meeting-room door and ask everyone to keep their voices down,” Maya replies. “Our next step is to ask the librarian to reserve the room,” Maya says, and the group agrees."
+      ],
+      "phonemes": [
+        "ˌæt ɐ plˈænɪŋ mˈiTɪŋ, mˈIə pɹizˈɛnts ɐ pɹəpˈOzᵊl fɔɹ ɐ bˈʊk swˈɑp ðæt θˈɜɹTi stˈudᵊnts wɪl ətˈɛnd. “wˌi ɹˌɛkəmˈɛnd jˈuzɪŋ ðə lˈIbɹˌɛɹi mˈiTɪŋ ɹˈum bəkˈʌz ɪt wɪl kˈip ðə bˈʊks dɹˈI.” “əkˈɔɹdɪŋ tə ðə kˈɜɹənt nˈOTəs, ðə ɹˈum ɪz əvˈAləbᵊl ˌɔn fɹˈIdˌA.” “ðə mˈAn ədvˈæntɪʤ ɪz ðæt wi wOnt nˈid tə kˈænsᵊl ɪf ɪt ɹˈAnz.” bˈɛn ˈædz, “hWˈɛvəɹ, ðɛɹz ɐ lˈɪmət ʌv twˈɛnti pˈipᵊl, sˌO wi səɡʤˈɛst tˈu sˈɛʃənz ʌv fˌɪftˈin.” ɐ klˈæsmˌAt ˈæsks hˌW ðA wɪl kˈip ðə ɹˈidɪŋ ˈɛɹiə kwˈIət.",
+        "“wˌi kʊd klˈOz ðə mˈiTɪŋɹˌum dˈɔɹ ænd ˈæsk ˈɛvɹiwən tə kˈip ðɛɹ vˈYsᵻz dˌWn,” mˈIə ɹᵻplˈIz. “ˌWəɹ nˈɛkst stˈɛp ɪz tʊ ˈæsk ðə lIbɹˈɛɹiən tə ɹəzˈɜɹv ðə ɹˈum,” mˈIə sˈɛz, ænd ðə ɡɹˈup əɡɹˈiz."
+      ]
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "phrases",
+      "itemId": "we-recommend-using",
+      "src": "/audio/phrases/giving-short-presentation-we-recommend-using.mp3",
+      "text": "We recommend using",
+      "textSha256": "5e508d41758942f7d39001e6ed55f9cc12d76db6337b9bd7bbb6d05f09123b88",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8cc614e7ed65f16a1df88cf48b378f21e42fc7b4b272f9b807cb2db5554c12be",
+      "duration": 1.825,
+      "graphemes": [
+        "We recommend using"
+      ],
+      "phonemes": [
+        "wˌi ɹˌɛkəmˈɛnd jˈuzɪŋ"
+      ]
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "phrases",
+      "itemId": "according-to-the-current-notice",
+      "src": "/audio/phrases/giving-short-presentation-according-to-the-current-notice.mp3",
+      "text": "According to the current notice",
+      "textSha256": "534eaa57e971f782ff38be6d04a38b20b8be0e97c8ab0816069d6accfa8c0960",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "77a293c6e753f6da40a82e2ffc13dd6b7becc49a6c3dd411fb0f5ad5d6a616af",
+      "duration": 2.1,
+      "graphemes": [
+        "According to the current notice"
+      ],
+      "phonemes": [
+        "əkˈɔɹdɪŋ tə ðə kˈɜɹənt nˈOTəs"
+      ]
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "phrases",
+      "itemId": "the-main-advantage-is-that",
+      "src": "/audio/phrases/giving-short-presentation-the-main-advantage-is-that.mp3",
+      "text": "The main advantage is that",
+      "textSha256": "0b122dc789ec8f30976b7698b8369784c2ac3eab01d656584dfa03201d6802fa",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9934cf9f5f1bd139a909593f0e1444d939a9424536320273ecf8d28124fc7260",
+      "duration": 2.075,
+      "graphemes": [
+        "The main advantage is that"
+      ],
+      "phonemes": [
+        "ðə mˈAn ədvˈæntɪʤ ɪz ðæt"
+      ]
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "phrases",
+      "itemId": "we-suggest-two-sessions",
+      "src": "/audio/phrases/giving-short-presentation-we-suggest-two-sessions.mp3",
+      "text": "we suggest two sessions of fifteen",
+      "textSha256": "c518e0fc1e031051fe5f16ae15644bf610e2cc2a7c472dc2bac3afeeca4723df",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4b057b2478c4d59637e03c264ec03c39c63e28ec591a94fc1c8ac11f1a9e93f6",
+      "duration": 2.475,
+      "graphemes": [
+        "we suggest two sessions of fifteen"
+      ],
+      "phonemes": [
+        "wi səɡʤˈɛst tˈu sˈɛʃənz ʌv fˌɪftˈin"
+      ]
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "phrases",
+      "itemId": "our-next-step-is-to",
+      "src": "/audio/phrases/giving-short-presentation-our-next-step-is-to.mp3",
+      "text": "Our next step is to",
+      "textSha256": "29d53072c9d51174c2934f8fb640fe814b56badbdcf6baf44d795b606a353a20",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bdce0265ab717e623b24a9e800612f88cddee376597999499db011ecc1d3c826",
+      "duration": 1.95,
+      "graphemes": [
+        "Our next step is to"
+      ],
+      "phonemes": [
+        "ˌWəɹ nˈɛkst stˈɛp ɪz tu"
+      ]
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "proposal",
+      "src": "/audio/words/giving-short-presentation-proposal.mp3",
+      "text": "proposal",
+      "textSha256": "ecd1378bc9dc130008f00d58db5d26f60db55934a49b949af7e6f6a8da2a2beb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f2eb679142be1381a97364714efe9abe874a5f4f2c2bcef860ff1c024e449342",
+      "duration": 1.475,
+      "graphemes": [
+        "proposal"
+      ],
+      "phonemes": [
+        "pɹəpˈOzᵊl"
+      ]
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "recommend",
+      "src": "/audio/words/giving-short-presentation-recommend.mp3",
+      "text": "recommend",
+      "textSha256": "0eb15ad185af2b351ef4be172745e9dcdfca32f2b0b4e96ffc45af98e813b74d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9d9e2a8820f6e3810f7767f3084a08cdfcd7d49ea4781203bcfc7383de15c821",
+      "duration": 1.475,
+      "graphemes": [
+        "recommend"
+      ],
+      "phonemes": [
+        "ɹˌɛkəmˈɛnd"
+      ]
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "advantage",
+      "src": "/audio/words/giving-short-presentation-advantage.mp3",
+      "text": "advantage",
+      "textSha256": "7db0558a5cdaa5ff8773356736e4c3689c49a97b9b2c8cfee94a739b78419ea7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ee3fa8798f3c740106e00413501a9af9d7add1c99f328ce4306998dac9c1a13b",
+      "duration": 1.7,
+      "graphemes": [
+        "advantage"
+      ],
+      "phonemes": [
+        "ədvˈæntɪʤ"
+      ]
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "cancel",
+      "src": "/audio/words/giving-short-presentation-cancel.mp3",
+      "text": "cancel",
+      "textSha256": "2374d91794b79f4fb4ec9587d2cf00aecc4f9953fab3ed1dd12ab147a0b721f9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "35394dc464561e6db05e648688f47cde9a24520cdbdf42f2fd691b95799c107d",
+      "duration": 1.425,
+      "graphemes": [
+        "cancel"
+      ],
+      "phonemes": [
+        "kˈænsᵊl"
+      ]
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "limit",
+      "src": "/audio/words/giving-short-presentation-limit.mp3",
+      "text": "limit",
+      "textSha256": "55ea09e5715d0a8d9d94018d473bf23b2d7e630c2adb1f1acad3bada74c6fd05",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "91cb5f381c6f3c4c0a926970c61af69758d2df614e1b4c8975a99c0f23391c55",
+      "duration": 1.325,
+      "graphemes": [
+        "limit"
+      ],
+      "phonemes": [
+        "lˈɪmət"
+      ]
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "sessions",
+      "src": "/audio/words/giving-short-presentation-sessions.mp3",
+      "text": "sessions",
+      "textSha256": "1225ae6c1ae69dcb4ee4781b703e12206f3b549cd3ca151070a8d8d8f371dd71",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "11283f875b36013055edaf5c70b1abf60efa509b0e8d6d085848156f88d2e10b",
+      "duration": 1.55,
+      "graphemes": [
+        "sessions"
+      ],
+      "phonemes": [
+        "sˈɛʃənz"
+      ]
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "reserve",
+      "src": "/audio/words/giving-short-presentation-reserve.mp3",
+      "text": "reserve",
+      "textSha256": "6df24c372c044a0fd8d05774ee70449d7a035d99b3bc3b570a0bf5b22556a904",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bcb9a741900b7d3806b22b49bb9a870fc4afccf03bd14ba3b211928e14797ac8",
+      "duration": 1.475,
+      "graphemes": [
+        "reserve"
+      ],
+      "phonemes": [
+        "ɹəzˈɜɹv"
+      ]
+    }
+  ]
+}

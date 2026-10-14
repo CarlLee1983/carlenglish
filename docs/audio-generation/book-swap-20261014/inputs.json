@@ -1,0 +1,333 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "stories",
+      "itemId": "respectful-disagreement",
+      "src": "/audio/stories/respectful-disagreement.mp3",
+      "text": "Maya and Ben are choosing a location for a Friday book swap with thirty students. Ben points to the school courtyard and says, “We could hold it here because there's plenty of space.” “I see your point, but the forecast says it might rain,” Maya replies. “My main concern is keeping the books dry.” Ben suggests the library instead, although he is not sure whether it is available. “Let's compare the options before we decide,” Maya says. Ben agrees: “That sounds reasonable, as long as we check how much space we can use.” They write down their shared goal: a place with enough room and protection from the rain.",
+      "textSha256": "9f8c693f345498e7f6ce24c02477b016c71a5c748201562cd60c2dfadab7295d"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "phrases",
+      "itemId": "we-could-hold-it-here",
+      "src": "/audio/phrases/respectful-disagreement-we-could-hold-it-here.mp3",
+      "text": "We could hold it here",
+      "textSha256": "541228e5a26116da0eb018e55236c150bc2d964c82ddfe0315ab17a8570e1739"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "phrases",
+      "itemId": "i-see-your-point-but",
+      "src": "/audio/phrases/respectful-disagreement-i-see-your-point-but.mp3",
+      "text": "I see your point, but",
+      "textSha256": "c31e5c5799ad20689a49b6d61b0c93670e597e90866ef5fd4d24adc58a64f4f2"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "phrases",
+      "itemId": "my-main-concern-is",
+      "src": "/audio/phrases/respectful-disagreement-my-main-concern-is.mp3",
+      "text": "My main concern is",
+      "textSha256": "40457fe4378cf3360c6fa0687e478af20e3562a1a8a9d8e8a553570a809a122f"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "phrases",
+      "itemId": "lets-compare-the-options",
+      "src": "/audio/phrases/respectful-disagreement-lets-compare-the-options.mp3",
+      "text": "Let's compare the options",
+      "textSha256": "3aad83bd005bf59627193fbcf446c9415262f896c8ac350c8ef2a0a1679c78e1"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "phrases",
+      "itemId": "that-sounds-reasonable",
+      "src": "/audio/phrases/respectful-disagreement-that-sounds-reasonable.mp3",
+      "text": "That sounds reasonable",
+      "textSha256": "7425467bdb7cd7aa1f773403bed0538dba844a5b020e8ceded38c07daf2c75c9"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "location",
+      "src": "/audio/words/respectful-disagreement-location.mp3",
+      "text": "location",
+      "textSha256": "e6eaea18e885e1078829b56df34896be5ab51439e8f0ba00cb1624b2c572c10e"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "courtyard",
+      "src": "/audio/words/respectful-disagreement-courtyard.mp3",
+      "text": "courtyard",
+      "textSha256": "953ff581e859b90bbcf5773d64136e3ae7a7a367606c0a5725b7ab6b3cd012d2"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "forecast",
+      "src": "/audio/words/respectful-disagreement-forecast.mp3",
+      "text": "forecast",
+      "textSha256": "59f0db478528b4c446cfaf3d5b8a358dc500a6d97b29a215ee8c216a2f7174e2"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "concern",
+      "src": "/audio/words/respectful-disagreement-concern.mp3",
+      "text": "concern",
+      "textSha256": "2f1b86bf5531b8e8545eb85875f3d4283bbc83663b60efa9e2faef34e03ab174"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "available",
+      "src": "/audio/words/respectful-disagreement-available.mp3",
+      "text": "available",
+      "textSha256": "ddd9818abacfde7afed60c93129175401439367a77e69ea93e0ddb3bb38e0bd9"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "options",
+      "src": "/audio/words/respectful-disagreement-options.mp3",
+      "text": "options",
+      "textSha256": "a793ab8fcc2afce5e42b3044090719ddaff19741697d93b3b7f36838dd5e825c"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "kind": "words",
+      "itemId": "protection",
+      "src": "/audio/words/respectful-disagreement-protection.mp3",
+      "text": "protection",
+      "textSha256": "433c3507c372d907a357bb02e4632eebc85431812c03aa44ac31b6a66dc26e91"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "stories",
+      "itemId": "checking-online-information",
+      "src": "/audio/stories/checking-online-information.mp3",
+      "text": "Before choosing a place for the book swap, Ben shows Maya a screenshot saying the library is closed. “Let's check the source first,” Maya says, rather than forwarding the warning. They open the original notice on the school website, and Maya asks, “Is it still up to date?” “It was posted last year, during the repairs,” Ben says. “That doesn't necessarily mean it's closed now,” Maya replies. A current notice says the library meeting room is available on Friday, although the reading area must stay quiet. “We should confirm the details,” Ben says, and the librarian tells them the room can hold twenty people. They save the link and date so everyone in their group can check the information for themselves.",
+      "textSha256": "38f0acc8f8ef3c055f072ae288c0e1938865a7149845887e5114286cbcfa7e38"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "phrases",
+      "itemId": "lets-check-the-source-first",
+      "src": "/audio/phrases/checking-online-information-lets-check-the-source-first.mp3",
+      "text": "Let's check the source first",
+      "textSha256": "b0f494c761ae4aa7ad9d4095de5639d45f0b557358523866ffb362573af61ebb"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "phrases",
+      "itemId": "is-it-still-up-to-date",
+      "src": "/audio/phrases/checking-online-information-is-it-still-up-to-date.mp3",
+      "text": "Is it still up to date?",
+      "textSha256": "d399c6cc72bc780ca856d3aff108c78198d72a8b2e24fe488ffb66d600073df1"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "phrases",
+      "itemId": "it-was-posted-last-year",
+      "src": "/audio/phrases/checking-online-information-it-was-posted-last-year.mp3",
+      "text": "It was posted last year",
+      "textSha256": "5a90c185b383f38cf8df773ae472b7d06cfcbcf81b795bd92a442f24788a370a"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "phrases",
+      "itemId": "that-doesnt-necessarily-mean",
+      "src": "/audio/phrases/checking-online-information-that-doesnt-necessarily-mean.mp3",
+      "text": "That doesn't necessarily mean",
+      "textSha256": "ad78162d67669cffe5b8319ee9f88e1b5c23f72ae056ecb56036ba11c517259a"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "phrases",
+      "itemId": "we-should-confirm-the-details",
+      "src": "/audio/phrases/checking-online-information-we-should-confirm-the-details.mp3",
+      "text": "We should confirm the details",
+      "textSha256": "841581aa5409b5e1de421f6d410eba4aaeacdada1499e8c3ae9ec76dede6eac0"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "screenshot",
+      "src": "/audio/words/checking-online-information-screenshot.mp3",
+      "text": "screenshot",
+      "textSha256": "4441146b0fe1d5c6845af126ba5ce6003ea77d6b4cb04d14114f86a925c5dbca"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "source",
+      "src": "/audio/words/checking-online-information-source.mp3",
+      "text": "source",
+      "textSha256": "41cf6794ba4200b839c53531555f0f3998df4cbb01a4d5cb0b94e3ca5e23947d"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "original",
+      "src": "/audio/words/checking-online-information-original.mp3",
+      "text": "original",
+      "textSha256": "0682c5f2076f099c34cfdd15a9e063849ed437a49677e6fcc5b4198c76575be5"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "notice",
+      "src": "/audio/words/checking-online-information-notice.mp3",
+      "text": "notice",
+      "textSha256": "9368a7d21e018f64ae3327d2f25cd4d7693b2d85328e4bb680bcfcbd4c26b90e"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "current",
+      "src": "/audio/words/checking-online-information-current.mp3",
+      "text": "current",
+      "textSha256": "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "confirm",
+      "src": "/audio/words/checking-online-information-confirm.mp3",
+      "text": "confirm",
+      "textSha256": "3f267c2ab422e502bad8e60ff9e55666ec59b725e561bf1629c48a1578a08c79"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "kind": "words",
+      "itemId": "details",
+      "src": "/audio/words/checking-online-information-details.mp3",
+      "text": "details",
+      "textSha256": "41ffd8b76afc92a65758fd9a080ae80421c196f251263b87cbfb6e567dda0879"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "stories",
+      "itemId": "giving-short-presentation",
+      "src": "/audio/stories/giving-short-presentation.mp3",
+      "text": "At a planning meeting, Maya presents a proposal for a book swap that thirty students will attend. “We recommend using the library meeting room because it will keep the books dry.” “According to the current notice, the room is available on Friday.” “The main advantage is that we won't need to cancel if it rains.” Ben adds, “However, there's a limit of twenty people, so we suggest two sessions of fifteen.” A classmate asks how they will keep the reading area quiet. “We could close the meeting-room door and ask everyone to keep their voices down,” Maya replies. “Our next step is to ask the librarian to reserve the room,” Maya says, and the group agrees.",
+      "textSha256": "6cedd0c7eddb910eb4baa3a1a61ee2a9e685f54bc2ee2b5cfa7c2bcf4f14e408"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "phrases",
+      "itemId": "we-recommend-using",
+      "src": "/audio/phrases/giving-short-presentation-we-recommend-using.mp3",
+      "text": "We recommend using",
+      "textSha256": "5e508d41758942f7d39001e6ed55f9cc12d76db6337b9bd7bbb6d05f09123b88"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "phrases",
+      "itemId": "according-to-the-current-notice",
+      "src": "/audio/phrases/giving-short-presentation-according-to-the-current-notice.mp3",
+      "text": "According to the current notice",
+      "textSha256": "534eaa57e971f782ff38be6d04a38b20b8be0e97c8ab0816069d6accfa8c0960"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "phrases",
+      "itemId": "the-main-advantage-is-that",
+      "src": "/audio/phrases/giving-short-presentation-the-main-advantage-is-that.mp3",
+      "text": "The main advantage is that",
+      "textSha256": "0b122dc789ec8f30976b7698b8369784c2ac3eab01d656584dfa03201d6802fa"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "phrases",
+      "itemId": "we-suggest-two-sessions",
+      "src": "/audio/phrases/giving-short-presentation-we-suggest-two-sessions.mp3",
+      "text": "we suggest two sessions of fifteen",
+      "textSha256": "c518e0fc1e031051fe5f16ae15644bf610e2cc2a7c472dc2bac3afeeca4723df"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "phrases",
+      "itemId": "our-next-step-is-to",
+      "src": "/audio/phrases/giving-short-presentation-our-next-step-is-to.mp3",
+      "text": "Our next step is to",
+      "textSha256": "29d53072c9d51174c2934f8fb640fe814b56badbdcf6baf44d795b606a353a20"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "proposal",
+      "src": "/audio/words/giving-short-presentation-proposal.mp3",
+      "text": "proposal",
+      "textSha256": "ecd1378bc9dc130008f00d58db5d26f60db55934a49b949af7e6f6a8da2a2beb"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "recommend",
+      "src": "/audio/words/giving-short-presentation-recommend.mp3",
+      "text": "recommend",
+      "textSha256": "0eb15ad185af2b351ef4be172745e9dcdfca32f2b0b4e96ffc45af98e813b74d"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "advantage",
+      "src": "/audio/words/giving-short-presentation-advantage.mp3",
+      "text": "advantage",
+      "textSha256": "7db0558a5cdaa5ff8773356736e4c3689c49a97b9b2c8cfee94a739b78419ea7"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "cancel",
+      "src": "/audio/words/giving-short-presentation-cancel.mp3",
+      "text": "cancel",
+      "textSha256": "2374d91794b79f4fb4ec9587d2cf00aecc4f9953fab3ed1dd12ab147a0b721f9"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "limit",
+      "src": "/audio/words/giving-short-presentation-limit.mp3",
+      "text": "limit",
+      "textSha256": "55ea09e5715d0a8d9d94018d473bf23b2d7e630c2adb1f1acad3bada74c6fd05"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "sessions",
+      "src": "/audio/words/giving-short-presentation-sessions.mp3",
+      "text": "sessions",
+      "textSha256": "1225ae6c1ae69dcb4ee4781b703e12206f3b549cd3ca151070a8d8d8f371dd71"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "kind": "words",
+      "itemId": "reserve",
+      "src": "/audio/words/giving-short-presentation-reserve.mp3",
+      "text": "reserve",
+      "textSha256": "6df24c372c044a0fd8d05774ee70449d7a035d99b3bc3b570a0bf5b22556a904"
+    }
+  ]
+}
