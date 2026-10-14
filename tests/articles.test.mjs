@@ -3,7 +3,7 @@ import { mkdtempSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
-import { ArticleContentError, getArticle, loadArticles, validateArticles } from '../src/lib/articles.ts';
+import { ArticleContentError, articleMetrics, getArticle, loadArticles, stageGuidelines, stageWarnings, validateArticles } from '../src/lib/articles.ts';
 import { crossTypeDuplicateIds } from '../src/lib/validation.ts';
 
 const questions = () => [
@@ -210,3 +210,64 @@ test('loader reports malformed JSON and unreadable directories with locations', 
 test('an empty article directory is an error', () => withDir(({ contentDir }) => {
   assert.throws(() => loadArticles({ contentDir }), (error) => error instanceof ArticleContentError && error.issues[0].includes('no article JSON files found'));
 }));
+
+const withBody = (stage, texts, id = 'metric-news') => ({
+  id, stage, track: 'news', paragraphs: texts.map((english) => ({ english, translation: '譯' })),
+});
+const sentenceOf = (count) => Array.from({ length: count }, (_, i) => `w${i}`).join(' ') + '.';
+
+test('articleMetrics counts words that contain a letter or digit', () => {
+  const metrics = articleMetrics(withBody('N1', ['Hello — world 🔥 42 today.']));
+  assert.equal(metrics.words, 4);
+  assert.equal(metrics.sentences, 1);
+  assert.equal(metrics.averageSentenceLength, 4);
+});
+
+test('articleMetrics does not split on abbreviations, dates, or decimals', () => {
+  assert.equal(articleMetrics(withBody('N1', ['It closes at 9 p.m. on Friday.'])).sentences, 1);
+  assert.equal(articleMetrics(withBody('N1', ['It opened on Oct. 12 for visitors.'])).sentences, 1);
+  assert.equal(articleMetrics(withBody('N1', ['The fee is $1.2 million this year.'])).sentences, 1);
+});
+
+test('articleMetrics splits on terminators followed by a capital or opening quote, including quote-ended sentences', () => {
+  assert.equal(articleMetrics(withBody('N1', ['It works. Really! Does it? "Yes," she said.'])).sentences, 4);
+  assert.equal(articleMetrics(withBody('N1', ['He said "Go." Then he left.'])).sentences, 2);
+  assert.equal(articleMetrics(withBody('N1', ['She said, “Stop.” “Why?” he asked.'])).sentences, 2);
+});
+
+test('articleMetrics counts per paragraph or post and gives each nonempty text at least one sentence', () => {
+  const metrics = articleMetrics(withBody('N1', ['No final punctuation here', 'Two. Sentences.']));
+  assert.equal(metrics.sentences, 3);
+  assert.equal(metrics.words, 6);
+  const postMetrics = articleMetrics({ id: 'p', stage: 'S1', track: 'posts', posts: [{ author: '@a', english: 'ngl 🔥', translation: '譯' }] });
+  assert.deepEqual(postMetrics, { words: 1, sentences: 1, averageSentenceLength: 1 });
+});
+
+test('stageGuidelines lists the N1 to N3 ranges only', () => {
+  assert.deepEqual(Object.keys(stageGuidelines), ['N1', 'N2', 'N3']);
+  assert.deepEqual(stageGuidelines.N2, { minWords: 120, maxWords: 250, maxAverageSentenceLength: 18 });
+});
+
+test('stageWarnings is empty for an in-range article', () => {
+  const texts = Array.from({ length: 10 }, () => sentenceOf(12));
+  assert.deepEqual(stageWarnings(withBody('N1', texts)), []);
+});
+
+test('stageWarnings reports too long, too short, and long-sentence articles', () => {
+  const tooLong = Array.from({ length: 14 }, () => sentenceOf(12));
+  assert.deepEqual(stageWarnings(withBody('N1', tooLong)), ['metric-news: N1 expects 80–150 words, found 168']);
+  assert.deepEqual(stageWarnings(withBody('N2', [sentenceOf(10)])), ['metric-news: N2 expects 120–250 words, found 10']);
+  const longSentences = Array.from({ length: 8 }, () => sentenceOf(20));
+  assert.deepEqual(stageWarnings(withBody('N2', longSentences)), ['metric-news: N2 expects average sentence length ≤ 18 words, found 20.0']);
+});
+
+test('stageWarnings has no opinion about posts, N4, or N5', () => {
+  assert.deepEqual(stageWarnings(withBody('N4', [sentenceOf(500)])), []);
+  assert.deepEqual(stageWarnings(withBody('N5', ['short.'])), []);
+  assert.deepEqual(stageWarnings({ id: 'p', stage: 'S1', track: 'posts', posts: [{ author: '@a', english: sentenceOf(400), translation: '譯' }] }), []);
+});
+
+test('warnings never turn valid content into a ContentError', () => {
+  const articles = validateArticles([entry(news('tiny'), 'tiny.json')]);
+  assert.equal(stageWarnings(articles[0]).length, 1);
+});

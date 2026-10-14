@@ -266,3 +266,42 @@ export function loadArticles({ contentDir = join(process.cwd(), 'content', 'arti
 export function getArticle(id: string, articles: Article[] = loadArticles()): Article | undefined {
   return articles.find((article) => article.id === id);
 }
+
+export interface ArticleMetrics {
+  words: number;
+  sentences: number;
+  averageSentenceLength: number;
+}
+
+type MeasuredArticle = Pick<Article, 'paragraphs' | 'posts'>;
+
+// 句尾標點（可接右引號），且後面是文末，或空白加大寫字母／開引號；縮寫、日期與小數因此不會被切開
+const sentenceEnd = /[.!?]+["'”’]?(?=$|\s+["'“‘]?\p{Lu})/gu;
+
+export function articleMetrics(article: MeasuredArticle): ArticleMetrics {
+  const texts = [...(article.paragraphs ?? []), ...(article.posts ?? [])].map((item) => item.english.trim()).filter(Boolean);
+  const words = texts.reduce((sum, text) => sum + text.split(/\s+/).filter((token) => /[\p{L}\p{N}]/u.test(token)).length, 0);
+  const sentences = texts.reduce((sum, text) => sum + Math.max(1, text.match(sentenceEnd)?.length ?? 0), 0);
+  return { words, sentences, averageSentenceLength: sentences ? words / sentences : 0 };
+}
+
+// 只有 N1–N3 有長度參考，N4、N5 與貼文軌沒有範圍
+export const stageGuidelines: Record<string, { minWords: number; maxWords: number; maxAverageSentenceLength: number }> = {
+  N1: { minWords: 80, maxWords: 150, maxAverageSentenceLength: 15 },
+  N2: { minWords: 120, maxWords: 250, maxAverageSentenceLength: 18 },
+  N3: { minWords: 300, maxWords: 500, maxAverageSentenceLength: 22 },
+};
+
+export function stageWarnings(article: MeasuredArticle & Pick<Article, 'id' | 'stage'>): string[] {
+  const guideline = stageGuidelines[article.stage];
+  if (!guideline) return [];
+  const { words, averageSentenceLength } = articleMetrics(article);
+  const warnings: string[] = [];
+  if (words < guideline.minWords || words > guideline.maxWords) {
+    warnings.push(`${article.id}: ${article.stage} expects ${guideline.minWords}–${guideline.maxWords} words, found ${words}`);
+  }
+  if (averageSentenceLength > guideline.maxAverageSentenceLength) {
+    warnings.push(`${article.id}: ${article.stage} expects average sentence length ≤ ${guideline.maxAverageSentenceLength} words, found ${averageSentenceLength.toFixed(1)}`);
+  }
+  return warnings;
+}
