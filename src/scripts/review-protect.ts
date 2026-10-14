@@ -1,5 +1,5 @@
 import { shouldShowHomeScreenHint } from '../lib/home-screen';
-import { reviewChangedEvent } from '../lib/review-deck';
+import { reviewChangedEvent } from '../lib/review-state';
 import { dismissHomeScreenHint, isHomeScreenHintDismissed, loadReviewState } from '../lib/review-storage';
 
 /** 申請持久儲存；不支援或被拒絕都不打擾學習者，也不阻擋複習。 */

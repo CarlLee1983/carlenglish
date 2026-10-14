@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { cardKey, emptyState, isCardSourceKind, isInternalHref, needsBackupReminder, nextDue, reduce, parseBackup, reviewCounts, serializeBackup, todayQueue } from '../src/lib/review-deck.ts';
+import { parseBackup, serializeBackup } from '../src/lib/review-backup-format.ts';
+import { reduce } from '../src/lib/review-deck.ts';
+import { cardKey, emptyState, isCardSourceKind, isInternalHref, needsBackupReminder, nextDue, reviewCounts, todayQueue } from '../src/lib/review-state.ts';
 
 const coffee = { english: 'coffee', meaning: '咖啡', example: 'I like coffee.', audioSrc: '/audio/words/coffee.wav' };
 const sceneSource = { kind: 'scene', id: 'cafe-breakfast', title: '咖啡店早餐', href: '/scenes/cafe-breakfast/' };

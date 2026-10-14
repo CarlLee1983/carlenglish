@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { emptyState, reduce } from '../src/lib/review-deck.ts';
+import { reduce } from '../src/lib/review-deck.ts';
+import { emptyState } from '../src/lib/review-state.ts';
 import { dismissHomeScreenHint, isHomeScreenHintDismissed, loadReviewState, reviewStorageKey, saveReviewState } from '../src/lib/review-storage.ts';
 
 const coffee = { english: 'coffee', meaning: '咖啡', example: 'I like coffee.', audioSrc: '/audio/words/coffee.mp3' };

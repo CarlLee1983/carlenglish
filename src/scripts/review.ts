@@ -1,4 +1,5 @@
-import { nextDue, reduce, reviewChangedEvent, reviewCounts, todayQueue, type Grade, type ReviewState, type StoredCard } from '../lib/review-deck';
+import { reduce } from '../lib/review-deck';
+import { nextDue, reviewChangedEvent, reviewCounts, todayQueue, type Grade, type ReviewChangeSource, type ReviewState, type StoredCard } from '../lib/review-state';
 import { loadReviewState, saveReviewState } from '../lib/review-storage';
 
 const saveFailureMessage = '這次的紀錄沒有存進瀏覽器（可能是私密瀏覽或儲存空間已滿），離開本頁後會遺失。';
@@ -131,6 +132,8 @@ function initializeReview(root: HTMLElement) {
     warning.hidden = saved.ok;
     current = null;
     render();
+    // 通知導覽列徽章重算；本頁自己發出的事件由下方監聽器忽略，不從儲存重讀。
+    document.dispatchEvent(new CustomEvent<ReviewChangeSource>(reviewChangedEvent, { detail: 'review-page' }));
     if (!card.hidden) flipButton.focus({ preventScroll: true });
   }
 
@@ -165,7 +168,10 @@ function initializeReview(root: HTMLElement) {
   const refresh = () => { reload(); render(); };
   document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
   window.addEventListener('storage', refresh);
-  document.addEventListener(reviewChangedEvent, refresh);
+  document.addEventListener(reviewChangedEvent, (event) => {
+    // 儲存失敗時，剛評的記憶體狀態比儲存裡的舊資料新；重讀會把它蓋掉。
+    if ((event as CustomEvent<ReviewChangeSource>).detail !== 'review-page') refresh();
+  });
   refresh();
 }
 

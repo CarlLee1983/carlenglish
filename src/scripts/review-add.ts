@@ -1,4 +1,5 @@
-import { cardKey, hasSource, isCardSourceKind, isInternalHref, reduce, type CardContent, type CardSource } from '../lib/review-deck';
+import { reduce } from '../lib/review-deck';
+import { cardKey, hasSource, isCardSourceKind, isInternalHref, reviewChangedEvent, type CardContent, type CardSource, type ReviewChangeSource } from '../lib/review-state';
 import { loadReviewState, saveReviewState } from '../lib/review-storage';
 
 const saveFailureMessage = '無法在這個瀏覽器儲存複習紀錄（可能是私密瀏覽或空間已滿），這次的變更沒有保存。';
@@ -52,6 +53,7 @@ function initializeReviewAdd(list: HTMLElement) {
       if (!saved.ok) return showFailure(saveFailureMessage, saved.error);
       status!.hidden = true;
       render(button, !added);
+      document.dispatchEvent(new CustomEvent<ReviewChangeSource>(reviewChangedEvent, { detail: 'review-add' }));
     });
   }
   refresh();

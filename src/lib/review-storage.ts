@@ -1,4 +1,4 @@
-import { emptyState, parseReviewState, type ReviewState } from './review-deck.ts';
+import { emptyState, parseReviewState, type ReviewState } from './review-state.ts';
 
 /** 複習紀錄唯一的本機儲存位置（ADR 0002）；換成後端儲存時替換這個模組。 */
 export const reviewStorageKey = 'carlenglish.review';

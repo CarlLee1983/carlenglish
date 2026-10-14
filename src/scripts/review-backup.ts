@@ -1,4 +1,5 @@
-import { backupReminderDays, maxBackupBytes, needsBackupReminder, parseBackup, reviewChangedEvent, serializeBackup, type ReviewState } from '../lib/review-deck';
+import { maxBackupBytes, parseBackup, serializeBackup } from '../lib/review-backup-format';
+import { backupReminderDays, needsBackupReminder, reviewChangedEvent, type ReviewChangeSource, type ReviewState } from '../lib/review-state';
 import { loadReviewState, saveReviewState } from '../lib/review-storage';
 
 const pad = (value: number) => String(value).padStart(2, '0');
@@ -116,7 +117,7 @@ function initializeBackup(root: HTMLElement) {
     clearPending();
     say(`已匯入 ${cardCount} 張字卡`);
     refreshExportAvailability();
-    document.dispatchEvent(new Event(reviewChangedEvent));
+    document.dispatchEvent(new CustomEvent<ReviewChangeSource>(reviewChangedEvent, { detail: 'review-backup' }));
   });
 
   cancelButton.addEventListener('click', () => {

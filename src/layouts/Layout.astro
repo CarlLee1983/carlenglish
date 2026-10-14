@@ -56,9 +56,11 @@ const imageUrl = new URL(shareImage.src, Astro.site).href;
           {learningLevels.map((level) => <a href={`/levels/${level.id}/`} aria-current={currentLevel === level.id ? (isReader ? 'location' : 'page') : undefined}>{level.name}</a>)}
         </nav>
         <a class="header-link" href="/#articles" aria-current={Astro.url.pathname.startsWith('/articles/') ? 'location' : undefined}>新聞與貼文</a>
+        <a class="header-link review-link" href="/review/" aria-current={Astro.url.pathname.startsWith('/review/') ? 'page' : undefined} data-review-nav>複習<span class="review-badge" data-review-badge aria-hidden="true" hidden></span></a>
       </div>
     </header>
     <main id="main"><slot /></main>
+    <script>import '../scripts/review-nav';</script>
     <footer class="site-footer"><span>CarlEnglish</span><p>看懂情境，練習日常英文。</p><a href="/">選擇學習程度 <span aria-hidden="true">↗</span></a></footer>
   </body>
 </html>

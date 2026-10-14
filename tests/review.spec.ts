@@ -1,7 +1,8 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { expect, test, type Page } from '@playwright/test';
-import { emptyState, reduce } from '../src/lib/review-deck';
+import { reduce } from '../src/lib/review-deck';
+import { emptyState } from '../src/lib/review-state';
 
 type Word = { english: string; translation: string; example: string; audio: { src: string } };
 type Scene = { id: string; title: string; words: Word[] };
@@ -95,6 +96,102 @@ test.describe('add to review from a scene', () => {
     await addButton(page, first).click();
     await expect(page.getByRole('status').filter({ hasText: '無法' })).toBeVisible();
     await expect(addButton(page, first)).toHaveAttribute('aria-pressed', 'false');
+  });
+});
+
+test.describe('navigation entry', () => {
+  const entry = (page: Page) => page.locator('.site-header').getByRole('link', { name: /^複習/ });
+  const badge = (page: Page) => page.locator('.site-header [data-review-badge]');
+
+  test('shows only the word when there are no cards, and links to the review page', async ({ page }) => {
+    await page.goto('/');
+    await expect(entry(page)).toHaveAttribute('href', '/review/');
+    await expect(entry(page)).toHaveAccessibleName('複習');
+    await expect(badge(page)).toBeHidden();
+  });
+
+  test('shows only the entry without JavaScript', async ({ browser }) => {
+    const context = await browser.newContext({ javaScriptEnabled: false, baseURL: test.info().project.use.baseURL });
+    try {
+      const page = await context.newPage();
+      await page.goto('/');
+      await expect(entry(page)).toBeVisible();
+      await expect(badge(page)).toBeHidden();
+    } finally {
+      await context.close();
+    }
+  });
+
+  test('updates at once on the same page when a card is added or removed, and persists across pages', async ({ page }) => {
+    await page.goto(scenePath);
+    await addButton(page, first).click();
+    await expect(badge(page)).toHaveText('1');
+    await expect(entry(page)).toHaveAccessibleName('複習，今天 1 張待複習');
+    await addButton(page, second).click();
+    await expect(badge(page)).toHaveText('2');
+    await addButton(page, second).click();
+    await expect(badge(page)).toHaveText('1');
+    await page.goto('/');
+    await expect(badge(page)).toHaveText('1');
+    await expect(entry(page)).toHaveAccessibleName('複習，今天 1 張待複習');
+  });
+
+  test('marks the current page on the review page only', async ({ page }) => {
+    await page.goto('/review/');
+    await expect(entry(page)).toHaveAttribute('aria-current', 'page');
+    await page.goto('/');
+    await expect(entry(page)).not.toHaveAttribute('aria-current', /.*/);
+  });
+
+  test('counts down to nothing once the cards are scheduled beyond today', async ({ page }) => {
+    await page.clock.install({ time: startTime });
+    await addFromScene(page, first);
+    await expect(badge(page)).toHaveText('1');
+    await page.goto('/review/');
+    await expect(badge(page)).toHaveText('1');
+    await flip(page);
+    await page.getByRole('button', { name: '想起來了' }).click();
+    // 第一次答對只進入學習步驟（約 10 分鐘後），仍算今天。
+    await expect(badge(page)).toHaveText('1');
+    await page.clock.fastForward(minutes(11));
+    await flip(page);
+    await page.getByRole('button', { name: '想起來了' }).click();
+    await expect(page.getByText('今天的複習完成了')).toBeVisible();
+    await expect(badge(page)).toBeHidden();
+    await expect(entry(page)).toHaveAccessibleName('複習');
+  });
+
+  for (const width of [320, 390]) {
+    test(`does not add a header row at ${width}px for 2, 12 or 120 cards (capped at 99+)`, async ({ page }) => {
+      await page.setViewportSize({ width, height: 800 });
+      await page.goto('/');
+      const headerHeight = async () => (await page.locator('.site-header').boundingBox())!.height;
+      const without = await headerHeight();
+      for (const [count, shown] of [[2, '2'], [12, '12'], [120, '99+']] as const) {
+        let state = emptyState();
+        const now = new Date();
+        for (let index = 0; index < count; index++) {
+          state = reduce(state, { type: 'ADD_CARD', card: { english: `word${index}`, meaning: `意思${index}`, example: null, audioSrc: null }, source: { kind: 'scene', id: scene.id, title: scene.title, href: scenePath }, now });
+        }
+        await page.evaluate((raw) => localStorage.setItem('carlenglish.review', raw), JSON.stringify(state));
+        await page.reload();
+        await expect(badge(page)).toHaveText(shown);
+        await expect(entry(page)).toHaveAccessibleName(`複習，今天 ${count} 張待複習`);
+        expect(await headerHeight(), `${count} cards`).toBe(without);
+        expect(await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)).toBeLessThanOrEqual(0);
+      }
+    });
+  }
+
+  test('stays inside the viewport with a comfortable touch target', async ({ page }) => {
+    await addFromScene(page, first, second);
+    for (const path of ['/', scenePath, '/review/']) {
+      await page.goto(path);
+      await expect(badge(page)).toHaveText('2');
+      expect(await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)).toBeLessThanOrEqual(0);
+      const box = await entry(page).boundingBox();
+      expect(box!.height).toBeGreaterThanOrEqual(44);
+    }
   });
 });
 
@@ -374,6 +471,22 @@ test.describe('review page', () => {
     await page.goto('/review/');
     await expect(page.getByText('今天到期 2 張，其中新卡 1 張')).toBeVisible();
     await expect(page.locator('[data-review-front]')).not.toHaveText(answered);
+  });
+
+  test('a failed save keeps the graded card out of the queue and the warning on screen', async ({ page }) => {
+    const content = { english: first.english, meaning: first.translation, example: first.example, audioSrc: first.audio.src };
+    const state = reduce(emptyState(), { type: 'ADD_CARD', card: content, source: { kind: 'scene', id: scene.id, title: scene.title, href: scenePath }, now: new Date() });
+    await page.addInitScript((raw) => {
+      if (localStorage.getItem('carlenglish.review') === null) localStorage.setItem('carlenglish.review', raw);
+      Storage.prototype.setItem = () => { throw new DOMException('full', 'QuotaExceededError'); };
+    }, JSON.stringify(state));
+    await page.goto('/review/');
+    await expect(page.locator('[data-review-front]')).toHaveText(first.english);
+    await flip(page);
+    await page.getByRole('button', { name: '想起來了' }).click();
+    await expect(page.getByText('離開本頁後會遺失')).toBeVisible();
+    await expect(page.getByText('現在沒有到期的字卡')).toBeVisible();
+    await expect(page.locator('[data-review-front]')).toBeHidden();
   });
 
   test('keyboard: space flips, 1 and 2 grade, and the shortcuts are visible', async ({ page }) => {
