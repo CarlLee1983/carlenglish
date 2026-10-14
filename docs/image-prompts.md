@@ -149,3 +149,70 @@ Create one finished horizontal social-sharing cover image for CarlEnglish, a Tra
 ```
 
 Favicon 是原生 SVG 書本圖示，來源 `public/favicon.svg`；以 Playwright 渲染來源再匯出 ICO、96px PNG 與 180px Apple 圖示。讀本分享圖從原插畫以 Sharp 自動產生 PNG，不重新生成或修改教材原圖。
+
+---
+
+## 職場與工程實務情境插圖規格（供 Codex 生成）
+
+依使用者規範：「若要生成插圖請使用 codex」。以下為職場批次（Batch 5）的 4 個標準情境繪圖提示詞，維持本站一致的 3:2 水粉鉛筆插畫風格、無文字無浮水印約束：
+
+### 1. 敏捷晨會進度同步 (daily-standup)
+- 預期成品：`public/images/scenes/daily-standup.webp` (1536 × 1024)
+- 建議替代文字：工程團隊圍繞在白板與螢幕前進行晨會，一位工程師拿著筆記發言，其餘團隊成員專注聆聽。
+- 繪圖提示詞：
+```text
+Use case: illustration-story
+Asset type: one finished local scene illustration for a Traditional Chinese intermediate English reader, not a website screenshot.
+Style/medium: refined editorial picture-book illustration appealing to adults and professionals, hand-painted gouache texture and delicate pencil edges, rich handmade surface texture, clear readable shapes, natural human proportions and understated expressive faces.
+Composition/framing: horizontal landscape 3:2, 1536 by 1024 framing, medium-wide eye-level view, edge-to-edge scene, clear primary gestures readable at small mobile width, comfortable breathing room.
+Lighting/mood: bright natural morning office light through large windows, calm, focused, and collaborative software team environment.
+Color palette: subdued peach and terracotta, muted sage green, ivory, charcoal details, warm light wood desk.
+Constraints: no legible text anywhere, no readable letters, numbers, dates, code, logos, or watermarks. No decorative borders, speech balloons, 3D render look, extra limbs, or distorted hands. Agile task board and laptop screens display only soft geometric color blocks, cards, or wireframe silhouettes without any alphanumeric characters.
+Primary request: In a bright, modern open office, a small software engineering team of four colleagues (two women, two men, casual smart tech attire) stands in a relaxed half-circle for a daily standup meeting. One engineer holds a small physical notebook and gestures calmly with one hand as she gives her project update. A colleague listens attentively with a warm coffee mug in hand. In the background, a wall-mounted glass board displays simple blank geometric post-it note shapes indicating sprint status, and a neat wooden work table with a closed laptop is visible. Balanced composition with natural poses.
+```
+
+### 2. 代碼審查回饋交流 (code-review-feedback)
+- 預期成品：`public/images/scenes/code-review-feedback.webp` (1536 × 1024)
+- 建議替代文字：兩位工程師並肩坐在工作桌前討論螢幕上的架構設計，一人指著螢幕討論，另一人微笑思考。
+- 繪圖提示詞：
+```text
+Use case: illustration-story
+Asset type: one finished local scene illustration for a Traditional Chinese intermediate English reader, not a website screenshot.
+Style/medium: refined editorial picture-book illustration appealing to adults, hand-painted gouache texture and delicate pencil edges, rich handmade surface texture, clear readable shapes, natural human proportions and understated expressive faces.
+Composition/framing: horizontal landscape 3:2, 1536 by 1024 framing, medium-wide eye-level view, edge-to-edge scene, clear primary gestures readable at small mobile width.
+Lighting/mood: gentle afternoon workspace lighting, thoughtful, supportive peer-review atmosphere.
+Color palette: subdued peach and terracotta, muted sage green, ivory, charcoal details, warm light oak table.
+Constraints: no legible text, code snippets, numbers, logos, watermarks, 3D render style, extra limbs, or distorted fingers. The computer monitor shows abstract syntax-highlighted colored bars or simplified block diagrams without any real letters or symbols.
+Primary request: Two software developers, a senior engineer and a colleague, sit side by side at a wooden desk collaborating on a pull request review. The developer points gently toward a section of abstract colored blocks on a large monitor, explaining a refactoring suggestion, while the other developer leans in comfortably, smiling and nodding in agreement. A clean desk with a keyboard, notebook, and ceramic tea cup.
+```
+
+### 3. 線上問題診斷排查 (bug-troubleshooting)
+- 預期成品：`public/images/scenes/bug-troubleshooting.webp` (1536 × 1024)
+- 建議替代文字：工程師正在專注排查線上日誌與監控圖表，同事在一旁共同分析問題根因。
+- 繪圖提示詞：
+```text
+Use case: illustration-story
+Asset type: one finished local scene illustration for a Traditional Chinese intermediate English reader, not a website screenshot.
+Style/medium: refined editorial picture-book illustration appealing to adults, hand-painted gouache texture and delicate pencil edges, clear readable shapes, natural human proportions.
+Composition/framing: horizontal landscape 3:2, 1536 by 1024 framing, medium-wide eye-level view.
+Lighting/mood: focused, calm problem-solving ambiance with soft ambient office lighting.
+Color palette: subdued peach, terracotta, muted slate blue, sage, ivory, charcoal.
+Constraints: no legible text, log lines, numbers, error traces, logos, watermarks, or 3D render look.
+Primary request: Two tech professionals investigate an issue together at a workstation. One sits examining a dual-monitor setup displaying abstract charts and metric wave blocks, while the other stands slightly behind with folded arms, thoughtfully observing the dashboard. The atmosphere conveys focused investigation and teamwork rather than panic.
+```
+
+### 4. 需求範疇與優先級對齊 (sprint-planning-scope)
+- 預期成品：`public/images/scenes/sprint-planning-scope.webp` (1536 × 1024)
+- 建議替代文字：產品負責人與工程師在小會議室討論功能範疇與優先順序，白板上畫著二維象限與簡化卡片。
+- 繪圖提示詞：
+```text
+Use case: illustration-story
+Asset type: one finished local scene illustration for a Traditional Chinese intermediate English reader, not a website screenshot.
+Style/medium: refined editorial picture-book illustration appealing to adults, hand-painted gouache texture and delicate pencil edges, clear readable shapes.
+Composition/framing: horizontal landscape 3:2, 1536 by 1024 framing, medium-wide view.
+Lighting/mood: bright natural daylight in a meeting room, constructive and organized discussion.
+Color palette: subdued peach and terracotta, muted sage green, ivory, charcoal details.
+Constraints: no legible text, writing, numbers, matrix labels, logos, watermarks.
+Primary request: A product manager and a software engineer sit at a round wooden meeting table discussing feature priorities. A small white board behind them displays a simple 2x2 quadrant diagram drawn with blank colored square sticky notes. The product manager points to an essential sticky card, indicating high priority, while the engineer notes down points in a notebook.
+```
+

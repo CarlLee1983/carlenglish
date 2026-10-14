@@ -1,0 +1,57 @@
+{
+  "id": "daily-standup-sync",
+  "track": "posts",
+  "stage": "S1",
+  "origin": "original",
+  "title": "遠端團隊的晨會與卡點討論",
+  "titleEn": "Daily standup: blockers and workaround",
+  "posts": [
+    {
+      "author": "@carl_dev",
+      "english": "Quick standup update: finished refactoring the auth middleware yesterday. today I'm focusing on the billing webhook. currently blocked by missing API credentials from the partner team. @sarah_pm any ETA on that?",
+      "translation": "簡短晨會進度：昨天完成了驗證中介層的重構。今天專注在帳單 webhook。目前被合作團隊缺少的 API 金鑰卡住。@sarah_pm 那個預計何時能拿到？"
+    },
+    {
+      "author": "@sarah_pm",
+      "replyTo": "@carl_dev",
+      "english": "Looping in @david_ops to grant access. In the meantime, could you mock the payload so we don't introduce regressions before Friday's release?",
+      "translation": "已把 @david_ops 加進來授權。在此同時，你能不能先 mock 資料酬載，這樣週五發布前我們才不會引入回歸缺陷？"
+    },
+    {
+      "author": "@carl_dev",
+      "replyTo": "@sarah_pm",
+      "english": "Good call. Created a temporary workaround with local fixtures. Do we have the bandwidth to tackle the database bottleneck this sprint, or should we push it to the backlog?",
+      "translation": "好提議。已用本機測試資料建立暫時的應急方案。我們這個 Sprint 有餘裕處理資料庫效能瓶頸嗎，還是應該先移到待辦清單？"
+    },
+    {
+      "author": "@sarah_pm",
+      "replyTo": "@carl_dev",
+      "english": "Definitely backlog. Let's stick to the MVP scope and avoid scope creep. We can discuss the trade-offs in tomorrow's retro.",
+      "translation": "絕對先放待辦。我們先維持 MVP 範疇，避免需求膨脹。我們可以在明天的回顧會討論權衡代價。"
+    }
+  ],
+  "glossary": [
+    { "english": "refactoring", "translation": "重構：在不改變外部行為下改善代碼結構" },
+    { "english": "blocked", "translation": "被卡住、遇到阻礙" },
+    { "english": "ETA", "translation": "estimated time of arrival：預估完成時間" },
+    { "english": "regressions", "translation": "回歸缺陷：新改動導致原本正常的功能損壞" },
+    { "english": "workaround", "translation": "暫時應急方案、融通作法" },
+    { "english": "bandwidth", "translation": "人力餘裕、心力時間" },
+    { "english": "bottleneck", "translation": "效能瓶頸" },
+    { "english": "trade-offs", "translation": "權衡、取捨" }
+  ],
+  "questions": [
+    {
+      "question": "Carl 在晨會中回報了哪一個 blocker？",
+      "answer": "他目前被合作團隊缺少的 API 金鑰（credentials）卡住，無法順利串接帳單 webhook。"
+    },
+    {
+      "question": "Sarah 建議用什麼方式避免發布前出現 regression？Carl 如何因應？",
+      "answer": "Sarah 建議先 mock 資料酬載（payload）；Carl 接受建議並使用本機測試資料建立暫時應急方案（workaround）。"
+    },
+    {
+      "question": "團隊對於資料庫效能瓶頸的決定是什麼？原因為何？",
+      "answer": "決定移到待辦清單（backlog），因為要維持 MVP 範疇、避免需求膨脹（scope creep），並留到回顧會（retro）再討論權衡（trade-offs）。"
+    }
+  ]
+}
