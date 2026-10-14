@@ -1,0 +1,66 @@
+{
+  "id": "nobel-medicine-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "三位科學家以腦細胞研究獲諾貝爾醫學獎",
+  "titleEn": "Three scientists win Nobel medicine prize for work on brain cells",
+  "source": {
+    "outlet": "The Associated Press（刊於 NPR）",
+    "title": "Nobel medicine prize goes to 3 scientists for research into brain activity",
+    "url": "https://www.npr.org/2026/10/05/g-s1-146400/nobel-medicine-prize",
+    "publishedAt": "2026-10-05",
+    "accessedAt": "2026-10-14",
+    "eventDate": "2026-10-05",
+    "rewrittenAt": "2026-10-14"
+  },
+  "background": "諾貝爾獎每年 10 月陸續公布，醫學獎通常最先揭曉，在瑞典斯德哥爾摩的卡羅林斯卡學院宣布。本文提到的光遺傳學（optogenetics），是用光來開關特定神經細胞的研究方法。",
+  "paragraphs": [
+    {
+      "english": "STOCKHOLM — Three scientists won the Nobel Prize in medicine on Monday for research into how the activity of single nerve cells can be switched on or off.",
+      "translation": "斯德哥爾摩——三位科學家週一獲得諾貝爾醫學獎，獲獎的研究是關於如何開啟或關閉單一神經細胞的活動。"
+    },
+    {
+      "english": "The winners are Karl Deisseroth of Stanford University in California, Peter Hegemann of Humboldt University in Berlin, and Georg Nagel of the University of Würzburg in Germany.",
+      "translation": "得主是加州史丹佛大學的 Karl Deisseroth、柏林洪堡大學的 Peter Hegemann，以及德國維爾茨堡大學的 Georg Nagel。"
+    },
+    {
+      "english": "Their work on light-gated ion channels helped create a method called optogenetics.",
+      "translation": "他們對光閘控離子通道的研究，促成了一種名為「光遺傳學」的方法。"
+    },
+    {
+      "english": "Writing on X, the Nobel committee said the method \"is now being used in laboratories around the world to reveal the brain's mysteries.\"",
+      "translation": "諾貝爾委員會在 X 上表示，這個方法「現在被世界各地的實驗室用來揭開大腦的奧祕」。"
+    },
+    {
+      "english": "The prize was announced at the Karolinska Institute in Stockholm. Thomas Perlmann, the secretary of the medicine committee, said he reached all three winners by phone.",
+      "translation": "獎項在斯德哥爾摩的卡羅林斯卡學院宣布。醫學獎委員會秘書 Thomas Perlmann 說，他已經用電話聯絡上三位得主。"
+    },
+    {
+      "english": "This year's prize is worth 12 million Swedish kronor, or about $1.2 million. The medicine prize is the first of this year's Nobel announcements, which end with the economics prize on Oct. 12.",
+      "translation": "今年的獎金為 1,200 萬瑞典克朗，約合 120 萬美元。醫學獎是今年第一個公布的諾貝爾獎，最後公布的是 10 月 12 日的經濟學獎。"
+    }
+  ],
+  "glossary": [
+    { "english": "nerve cells", "translation": "神經細胞" },
+    { "english": "light-gated ion channels", "translation": "光閘控離子通道（受光線控制開關的細胞通道）" },
+    { "english": "optogenetics", "translation": "光遺傳學" },
+    { "english": "secretary", "translation": "（委員會的）秘書" },
+    { "english": "announcements", "translation": "公布、宣布" },
+    { "english": "kronor", "translation": "克朗（瑞典貨幣）" }
+  ],
+  "questions": [
+    {
+      "question": "用一句中文說出這則新聞的主旨。",
+      "answer": "三位研究如何開關神經細胞活動（光遺傳學）的科學家，獲得今年的諾貝爾醫學獎。"
+    },
+    {
+      "question": "三位得主分別在哪裡（哪所大學或哪個國家）？",
+      "answer": "Deisseroth 在美國加州的史丹佛大學，Hegemann 在德國柏林的洪堡大學，Nagel 在德國的維爾茨堡大學。"
+    },
+    {
+      "question": "引號裡那句話是誰說的？是在哪裡說的？",
+      "answer": "是諾貝爾委員會說的，發表在 X 上（Writing on X）。引號加上 said，表示這是委員會的說法，不是記者自己的敘述。"
+    }
+  ]
+}

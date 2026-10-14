@@ -11,6 +11,7 @@ import { chromium } from '@playwright/test';
 
 const projectRoot = process.cwd();
 const fixtureId = 'another-cafe-breakfast';
+const articleFixtureId = 'another-library-news';
 const originalIds = ['cafe-breakfast', 'school-greeting', 'supermarket-shopping', 'street-directions'];
 const astroBin = join(projectRoot, 'node_modules/astro/bin/astro.mjs');
 
@@ -150,11 +151,16 @@ test('one isolated extension preserves every official route and its complete con
     cpSync(join(tempRoot, 'public', original.image.src.slice(1)), join(tempRoot, 'public', extension.image.src.slice(1)));
     writeFileSync(join(tempRoot, 'content/scenes', `${fixtureId}.json`), JSON.stringify(extension));
 
+    const originalArticle = JSON.parse(readFileSync(join(tempRoot, 'content/articles/riverside-library-late-hours.json'), 'utf8'));
+    const extraArticle = { ...originalArticle, id: articleFixtureId, title: '另一則圖書館消息', titleEn: 'Another library announcement' };
+    writeFileSync(join(tempRoot, 'content/articles', `${articleFixtureId}.json`), JSON.stringify(extraArticle));
+
     execFileSync(process.execPath, [astroBin, 'build'], { cwd: tempRoot, stdio: 'pipe', timeout: 30_000 });
     const routeRoot = join(tempRoot, 'dist/scenes');
     assert.deepEqual(readdirSync(routeRoot).filter((name) => lstatSync(join(routeRoot, name)).isDirectory()).sort(), expectedIds,
       'the isolated build must add exactly one route to the current official collection');
     for (const id of expectedIds) assert.ok(existsSync(join(routeRoot, id, 'index.html')));
+    assert.ok(existsSync(join(tempRoot, 'dist/articles', articleFixtureId, 'index.html')));
     const port = await freePort();
     const origin = `http://127.0.0.1:${port}`;
     child = spawn(process.execPath, [astroBin, 'preview', '--host', '127.0.0.1', '--port', String(port), '--ignore-lock'], {
@@ -177,6 +183,10 @@ test('one isolated extension preserves every official route and its complete con
       assert.equal(await link.count(), 1);
       assert.equal(await link.getAttribute('href'), `/scenes/${scene.id}/`);
     }
+    assert.equal(await page.getByRole('link', { name: extraArticle.titleEn }).getAttribute('href'), `/articles/${articleFixtureId}/`);
+    const articleResponse = await page.goto(`${origin}/articles/${articleFixtureId}/`);
+    assert.equal(articleResponse.status(), 200);
+    assert.equal(await page.getByRole('heading', { level: 1, name: extraArticle.titleEn }).count(), 1);
     const profile = JSON.parse(readFileSync(join(tempRoot, 'content/audio/voice-profile.json'), 'utf8'));
     for (const scene of [...originals, extension]) {
       const route = `${origin}/scenes/${scene.id}/`;
@@ -195,5 +205,6 @@ test('one isolated extension preserves every official route and its complete con
     assert.deepEqual(readdirSync(join(projectRoot, 'content/scenes')).filter((name) => name.endsWith('.json')).sort(), originalFiles);
     assert.ok(!existsSync(join(projectRoot, 'public/images/scenes', `${fixtureId}.webp`)));
     assert.ok(!existsSync(join(projectRoot, 'dist/scenes', fixtureId)));
+    assert.ok(!existsSync(join(projectRoot, 'dist/articles', articleFixtureId)));
   }
 });

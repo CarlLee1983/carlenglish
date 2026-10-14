@@ -166,8 +166,8 @@ test('switching after opening translation shows only the next scene', async ({ p
 test('unknown scene shows custom 404 and return link', async ({ page }) => {
   const response = await page.goto('/scenes/not-a-scene/');
   expect(response?.status()).toBe(404);
-  await expect(page.getByRole('heading', { level: 1, name: '找不到這個場景' })).toBeVisible();
+  await expect(page.getByRole('heading', { level: 1, name: '找不到這個頁面' })).toBeVisible();
   for (const scene of scenes) await expect(page.getByRole('heading', { level: 1, name: scene.titleEn })).toHaveCount(0);
-  await page.getByRole('link', { name: /回到場景列表/ }).click();
+  await page.getByRole('link', { name: /回到首頁/ }).click();
   await expect(page).toHaveURL(/\/$/);
 });

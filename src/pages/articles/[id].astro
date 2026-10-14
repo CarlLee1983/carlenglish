@@ -1,0 +1,14 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import ArticleReader from '../../components/ArticleReader.astro';
+import { loadArticles, type Article } from '../../lib/articles';
+export function getStaticPaths() {
+  const articles = loadArticles();
+  return articles.map((article) => ({ params: { id: article.id }, props: { article, articles } }));
+}
+interface Props { article: Article; articles: Article[] }
+const { article, articles } = Astro.props;
+---
+<Layout title={article.title}>
+  <ArticleReader article={article} articles={articles} />
+</Layout>

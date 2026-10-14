@@ -1,0 +1,93 @@
+---
+import { originLabels, trackLabels, type Article } from '../lib/articles';
+interface Props { article: Article; articles: Article[] }
+const { article, articles } = Astro.props;
+const otherArticles = articles.filter((other) => other.id !== article.id);
+const source = article.source;
+---
+<article class="page-shell reader">
+  <a class="back-link" href="/"><span aria-hidden="true">←</span> 回到首頁</a>
+  <header class="reader-heading">
+    <p class="scene-meta">{trackLabels[article.track]}<span>{article.stage}</span><span>{originLabels[article.origin]}</span></p>
+    <h1 lang="en">{article.titleEn}</h1>
+    <p class="reader-title-zh">{article.title}</p>
+  </header>
+  <div class="reading-body">
+    {source && (
+      <section class="article-section" aria-labelledby="source-title">
+        <h2 id="source-title">來源</h2>
+        <dl class="source-list">
+          <div><dt>媒體</dt><dd>{source.outlet}</dd></div>
+          <div><dt>原文標題</dt><dd><a href={source.url} lang="en">{source.title}</a></dd></div>
+          <div><dt>發布日期</dt><dd>{source.publishedAt}</dd></div>
+          <div><dt>事件日期</dt><dd>{source.eventDate}</dd></div>
+          <div><dt>改寫日期</dt><dd>{source.rewrittenAt}</dd></div>
+          <div><dt>取用日期</dt><dd>{source.accessedAt}</dd></div>
+        </dl>
+      </section>
+    )}
+    {article.background && (
+      <section class="article-section" aria-labelledby="background-title">
+        <h2 id="background-title">背景</h2>
+        <p class="background-text">{article.background}</p>
+      </section>
+    )}
+    <section class="story-section" aria-labelledby="body-title">
+      <h2 id="body-title">英文本文</h2>
+      <p class="section-hint">先試著讀英文，需要時再查看翻譯。</p>
+      {article.paragraphs && (
+        <div class="english-story" lang="en">
+          {article.paragraphs.map((paragraph) => <p>{paragraph.english}</p>)}
+        </div>
+      )}
+      {article.posts && (
+        <ul class="post-list">
+          {article.posts.map((post) => (
+            <li class="post-card">
+              <p class="post-author" lang="en">{post.author}</p>
+              {post.replyTo && <p class="post-relation">回覆 <span lang="en">{post.replyTo}</span></p>}
+              {post.quoting && <p class="post-relation">引用 <span lang="en">{post.quoting}</span></p>}
+              <p class="post-text" lang="en">{post.english}</p>
+            </li>
+          ))}
+        </ul>
+      )}
+      <details class="translation">
+        <summary><span class="when-closed">查看繁體中文翻譯</span><span class="when-open">收合繁體中文翻譯</span><span class="disclosure-symbol" aria-hidden="true">+</span></summary>
+        <div class="translated-story">
+          {article.paragraphs?.map((paragraph) => <p>{paragraph.translation}</p>)}
+          {article.posts?.map((post) => <p><span lang="en">{post.author}</span>：{post.translation}</p>)}
+        </div>
+      </details>
+    </section>
+    {article.glossary.length > 0 && (
+      <section class="article-section" aria-labelledby="glossary-title">
+        <h2 id="glossary-title">關鍵詞</h2>
+        <ul class="glossary-list">
+          {article.glossary.map((item) => (
+            <li><span class="glossary-term" lang="en">{item.english}</span><span class="learning-translation">{item.translation}</span></li>
+          ))}
+        </ul>
+      </section>
+    )}
+    <section class="article-section" aria-labelledby="questions-title">
+      <h2 id="questions-title">讀後提問</h2>
+      <p class="section-hint">先用中文回答，再打開參考答案對照。</p>
+      <ol class="question-list">
+        {article.questions.map((item) => (
+          <li>
+            <p class="question-text">{item.question}</p>
+            <details class="answer">
+              <summary>查看參考答案<span class="disclosure-symbol" aria-hidden="true">+</span></summary>
+              <p class="answer-text">{item.answer}</p>
+            </details>
+          </li>
+        ))}
+      </ol>
+    </section>
+    <nav class="reader-navigation" aria-label="文章導覽">
+      {otherArticles.length > 0 && <><h2>接著讀另一篇</h2><ul>{otherArticles.map((other) => <li><a href={`/articles/${other.id}/`}><span lang="en">{other.titleEn}</span> <span aria-hidden="true">→</span></a></li>)}</ul></>}
+      <a class="back-link" href="/">回到首頁 <span aria-hidden="true">→</span></a>
+    </nav>
+  </div>
+</article>
