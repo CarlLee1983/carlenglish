@@ -7,7 +7,7 @@ import type { Scene } from '../src/lib/scenes';
 const contentDir = join(process.cwd(), 'content/scenes');
 const scenes = readdirSync(contentDir).filter((name) => name.endsWith('.json')).sort()
   .map((name) => JSON.parse(readFileSync(join(contentDir, name), 'utf8')) as Scene);
-const expectedIds = ['cafe-breakfast', 'supermarket-shopping', 'street-directions'];
+const expectedIds = ['cafe-breakfast', 'school-greeting', 'supermarket-shopping', 'street-directions'];
 const scenePath = (scene: Scene) => `/scenes/${scene.id}/`;
 const storyParagraphs = (page: Page) => page.getByRole('region', { name: '英文短文' }).locator('[lang="en"] p');
 const translationDisclosure = (page: Page) => page.getByRole('region', { name: '英文短文' }).locator('.translation');
@@ -69,7 +69,7 @@ async function expectNoHorizontalClipping(page: Page) {
   expect(result.clipped).toEqual([]);
 }
 
-test('all three scenes are discovered on the list', async ({ page }) => {
+test('all official scenes are discovered on the list', async ({ page }) => {
   assert.deepEqual(scenes.map((scene) => scene.id).sort(), expectedIds.slice().sort());
   await page.goto('/');
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();

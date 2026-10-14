@@ -2,6 +2,20 @@
 
 使用內建 image_gen 工具生成，再將成品轉為 WebP 納入本地資產。讀者開啟網站不呼叫生成服務。保留完整構圖，沒有裁切。
 
+## 和新同學打招呼（2026-10-14）
+
+成品：`public/images/scenes/school-greeting.webp`，1536 × 1024。
+
+```text
+Use case: illustration-story
+Asset type: finished local scene illustration for beginner English reading.
+Primary request: In a bright, welcoming elementary school classroom on the first day of school, a young boy named Leo with a backpack smiles and greets a friendly girl named Emma. Emma smiles back and waves gently. Show exactly two main children, Leo and Emma, standing near their wooden classroom desks with backpacks. A bright window in the background brings in gentle morning sunlight. Keep the scene calm, warm, and inviting, conveying a friendly first-day greeting.
+Style/medium: refined editorial picture-book illustration for children and young learners, hand-painted gouache textures and delicate pencil edges, clear readable shapes, natural human proportions and understated expressive faces.
+Composition: landscape 3:2, 1536 by 1024 framing, medium-wide eye level, edge-to-edge scene readable on mobile.
+Palette: subdued peach and terracotta, muted sage green, ivory, charcoal details. Gentle natural morning daylight.
+Constraints: exactly two main children, Leo and Emma, no extra limbs, natural fingers, no legible text, no typography, no letters or numbers on blackboards or walls, no logos, no watermarks, no website elements, no decorative borders, no 3D render style, not overly cartoonish.
+```
+
 ## 超市購物（2026-10-14）
 
 成品：`public/images/scenes/supermarket-shopping.webp`，1536 × 1024。

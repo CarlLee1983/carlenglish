@@ -5,7 +5,7 @@ import { expect, test, type Page } from '@playwright/test';
 type Clip = { src: string; voiceId: string; textSha256: string; sha256: string };
 type Item = { id: string; english: string; audio: Clip };
 type Scene = { id: string; audio: Clip; phrases: Item[]; words: Item[]; voiceProfile?: { label: string } };
-const scenes = ['cafe-breakfast', 'street-directions', 'supermarket-shopping'].map((id) =>
+const scenes = ['cafe-breakfast', 'school-greeting', 'street-directions', 'supermarket-shopping'].map((id) =>
   JSON.parse(readFileSync(join(process.cwd(), `content/scenes/${id}.json`), 'utf8')) as Scene,
 );
 const profile = JSON.parse(readFileSync(join(process.cwd(), 'content/audio/voice-profile.json'), 'utf8')) as {
@@ -121,9 +121,10 @@ for (const scene of scenes) {
     await expect(page.locator('.pronunciation-voice')).toContainText(profile.label);
     await expect(page.locator('.pronunciation-voice')).toContainText('AI 合成語音');
     const expected = entries(scene);
-    expect(expected).toHaveLength(14);
+    expect(expected.length).toBeGreaterThanOrEqual(11);
+    expect(expected.length).toBeLessThanOrEqual(15);
     const buttons = page.locator('[data-pronounce]');
-    await expect(buttons).toHaveCount(14);
+    await expect(buttons).toHaveCount(expected.length);
     for (const [index, item] of expected.entries()) {
       const button = buttons.nth(index);
       await expect(button).toBeEnabled();
@@ -367,7 +368,7 @@ test('pagehide and hidden visibility stop all levels', async ({ page }) => {
   await expect(status(page)).toHaveText('已停止播放。');
 });
 
-test('all 42 MP3s decode and real word plus long story playback works', async ({ page }, testInfo) => {
+test('all 54 MP3s decode and real word plus long story playback works', async ({ page }, testInfo) => {
   test.skip(!['desktop-chromium', 'mobile-webkit'].includes(testInfo.project.name), 'Chromium and WebKit verify shared audio assets.');
   testInfo.setTimeout(90_000);
   await page.addInitScript(() => {
@@ -393,7 +394,7 @@ test('all 42 MP3s decode and real word plus long story playback works', async ({
   await resume(page).click();
   await expect(status(page)).toHaveText('已完成整篇朗讀。', { timeout: 60_000 });
   const sources = scenes.flatMap((scene) => entries(scene).map((entry) => entry.audio.src));
-  expect(sources).toHaveLength(42);
+  expect(sources).toHaveLength(54);
   const outcomes = await page.evaluate(async (sources) => Promise.all(sources.map(async (src) => {
     const response = await fetch(src);
     if (!response.ok || !response.headers.get('content-type')?.includes('audio/')) {

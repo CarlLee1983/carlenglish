@@ -1,0 +1,326 @@
+{
+  "id": "school-greeting",
+  "title": "和新同學打招呼",
+  "titleEn": "Saying Hello to a New Classmate",
+  "category": "校園生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/school-greeting.webp",
+    "alt": "在陽光灑落的教室裡，背著書包的男孩 Leo 與女孩 Emma 親切地微笑揮手打招呼。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "It is the first day of "
+        },
+        {
+          "text": "school",
+          "wordIds": [
+            "school"
+          ]
+        },
+        {
+          "text": ", and Leo walks into the "
+        },
+        {
+          "text": "classroom",
+          "wordIds": [
+            "classroom"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "開學第一天，Leo 走進教室。"
+    },
+    {
+      "segments": [
+        {
+          "text": "A "
+        },
+        {
+          "text": "friendly",
+          "wordIds": [
+            "friendly"
+          ]
+        },
+        {
+          "text": " girl "
+        },
+        {
+          "text": "smiles",
+          "wordIds": [
+            "smile"
+          ]
+        },
+        {
+          "text": " and says, “"
+        },
+        {
+          "text": "Hello!",
+          "phraseIds": [
+            "hello"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "一位友善的女孩微笑著說：「你好！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo smiles back and says, “Hi, "
+        },
+        {
+          "text": "my ",
+          "phraseIds": [
+            "my-name-is"
+          ]
+        },
+        {
+          "text": "name",
+          "phraseIds": [
+            "my-name-is"
+          ],
+          "wordIds": [
+            "name"
+          ]
+        },
+        {
+          "text": " is",
+          "phraseIds": [
+            "my-name-is"
+          ]
+        },
+        {
+          "text": " Leo.”"
+        }
+      ],
+      "translation": "Leo 也微笑回應說：「嗨，我的名字是 Leo。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Then he asks, “"
+        },
+        {
+          "text": "What is your ",
+          "phraseIds": [
+            "what-is-your-name"
+          ]
+        },
+        {
+          "text": "name",
+          "phraseIds": [
+            "what-is-your-name"
+          ],
+          "wordIds": [
+            "name"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "what-is-your-name"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "接著他問：「你叫什麼名字？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The girl says, “"
+        },
+        {
+          "text": "Nice to meet you!",
+          "phraseIds": [
+            "nice-to-meet-you"
+          ]
+        },
+        {
+          "text": " I am Emma.”"
+        }
+      ],
+      "translation": "女孩說：「很高興認識你！我是 Emma。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo says, “Nice to meet you, too. "
+        },
+        {
+          "text": "Let's be ",
+          "phraseIds": [
+            "lets-be-friends"
+          ]
+        },
+        {
+          "text": "friends",
+          "phraseIds": [
+            "lets-be-friends"
+          ],
+          "wordIds": [
+            "friend"
+          ]
+        },
+        {
+          "text": "!",
+          "phraseIds": [
+            "lets-be-friends"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 說：「我也很高興認識你。我們當朋友吧！」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "hello",
+      "english": "Hello!",
+      "translation": "你好！",
+      "audio": {
+        "src": "/audio/phrases/school-greeting-hello.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "334d016f755cd6dc58c53a86e183882f8ec14f52fb05345887c8a5edd42c87b7",
+        "sha256": "656679526af17fb9e7ecc46a887d17a621234f79c3a98891a474f9048221f42f"
+      }
+    },
+    {
+      "id": "my-name-is",
+      "english": "My name is",
+      "translation": "我的名字是……",
+      "audio": {
+        "src": "/audio/phrases/school-greeting-my-name-is.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "deb83494817def510d32bbe2498b88af969d3e4325b65102eab7daab94399f5f",
+        "sha256": "2bc3cc19d61afaf95993de3eab7589b517c25141de287abac4f392a6946990cd"
+      }
+    },
+    {
+      "id": "what-is-your-name",
+      "english": "What is your name?",
+      "translation": "你叫什麼名字？",
+      "audio": {
+        "src": "/audio/phrases/school-greeting-what-is-your-name.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b7bc3f438183072baf3ebb11d3d63d781661d4ed7f1f4d79916f89f51f5617f7",
+        "sha256": "ca1241674e8f2b4752642e674f0292eddbebd9b1ba2173ac8cc879898849473a"
+      }
+    },
+    {
+      "id": "nice-to-meet-you",
+      "english": "Nice to meet you!",
+      "translation": "很高興認識你！",
+      "audio": {
+        "src": "/audio/phrases/school-greeting-nice-to-meet-you.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1160a5ae1cde058c44e56e7c2f49bfb0197bf04c41e13314741bb014d1582047",
+        "sha256": "1b3bdae6ac8366efdfbb5dfaba570609cb7125745e9cf86829de592dde27e3d0"
+      }
+    },
+    {
+      "id": "lets-be-friends",
+      "english": "Let's be friends!",
+      "translation": "我們當朋友吧！",
+      "audio": {
+        "src": "/audio/phrases/school-greeting-lets-be-friends.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2e95f3788dfc36228d2ddbc5364bf98b7e8790caf13a95af73d6abeb317441f1",
+        "sha256": "6badb99ae94ceb25c9f541810b453f866329aa0ce81d7339c6c9882c1d3ec955"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "school",
+      "english": "school",
+      "translation": "學校",
+      "example": "I like my new school.",
+      "audio": {
+        "src": "/audio/words/school-greeting-school.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d64debd942d7dc26a851231583b1721f43ea936fa41932b6dad7556e5f8cd24a",
+        "sha256": "cb1d5430b547693c27b60addb86a120a3395dcdab3ab8d84985d867b239fe06f"
+      }
+    },
+    {
+      "id": "classroom",
+      "english": "classroom",
+      "translation": "教室",
+      "example": "The classroom is big and bright.",
+      "audio": {
+        "src": "/audio/words/school-greeting-classroom.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "83d82a74a67aebdecd3846a42bc5235254fb77f8da9a189bf49c321f450dcccd",
+        "sha256": "b2f58028bd55d61c11689079b4108b5ecf8c707e8c356a9706cca6064570ef20"
+      }
+    },
+    {
+      "id": "friendly",
+      "english": "friendly",
+      "translation": "友善的",
+      "example": "Our teacher is very friendly.",
+      "audio": {
+        "src": "/audio/words/school-greeting-friendly.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4c448a406dcdf064f72628200461936808f1d5c6956078106bfef933c2ae0967",
+        "sha256": "d2306806430738a4d6fd70d015a8a0e1b95c4b2e134632d87fc50ff0a8600b2e"
+      }
+    },
+    {
+      "id": "smile",
+      "english": "smile",
+      "translation": "微笑",
+      "example": "She has a warm smile.",
+      "audio": {
+        "src": "/audio/words/school-greeting-smile.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fa1eadc4c6995667412681c69ce33adfc9302a2965f521c40908549e670e2e4e",
+        "sha256": "fa92a306d8d2147c74611a07dca288e5c001806910476169fa9feaedd84b3e4a"
+      }
+    },
+    {
+      "id": "name",
+      "english": "name",
+      "translation": "名字",
+      "example": "Can you write your name?",
+      "audio": {
+        "src": "/audio/words/school-greeting-name.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "82a3537ff0dbce7eec35d69edc3a189ee6f17d82f353a553f9aa96cb0be3ce89",
+        "sha256": "a411092c5e4bd231d04d5928a91760978e641bb1bae74d8a1a635e4a27955868"
+      }
+    },
+    {
+      "id": "friend",
+      "english": "friend",
+      "translation": "朋友",
+      "example": "Emma is my new friend.",
+      "audio": {
+        "src": "/audio/words/school-greeting-friend.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cde48537ca2c28084ff560826d0e6388b7c57a51497a6cb56f397289e52ff41b",
+        "sha256": "5578113ce1f85b50acd4d22997a0fb99fa32b8520d8adccadc5ccc4ee8e3277c"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/school-greeting.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "c8d766091b1f4d3c6cb1d6df38ac81ce3fa4a6aaa4fee619223e71d551325199",
+    "sha256": "955730ee3b0852e81212c26c7aa29d58e039f949d0bd0106a22dc4524c24d8d3"
+  }
+}

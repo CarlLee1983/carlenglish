@@ -59,11 +59,11 @@ async function stopChild(child) {
   }
 }
 
-test('a fourth content file and image create a complete route without changing the main project', { timeout: 60_000 }, async () => {
+test('an extension content file and image create a complete route without changing the main project', { timeout: 60_000 }, async () => {
   const scope = ['src', 'content', 'public', 'dist', 'astro.config.mjs', 'tsconfig.json', 'package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml'];
   const before = fileHashes(projectRoot, scope);
   const originalFiles = readdirSync(join(projectRoot, 'content/scenes')).filter((name) => name.endsWith('.json')).sort();
-  assert.equal(originalFiles.length, 3, 'production content must contain the three official scenes');
+  assert.equal(originalFiles.length, 4, 'production content must contain the four official scenes');
   assert.ok(!originalFiles.includes(`${fixtureId}.json`));
   const tempRoot = mkdtempSync(join(tmpdir(), 'carlenglish extension '));
   let child;
@@ -100,7 +100,7 @@ test('a fourth content file and image create a complete route without changing t
     const page = await browser.newPage();
     await page.goto(origin);
     assert.equal(await page.getByRole('link', { name: `閱讀${fourth.title}` }).count(), 1);
-    assert.equal(await page.getByRole('link', { name: /^閱讀/ }).count(), 4);
+    assert.equal(await page.getByRole('link', { name: /^閱讀/ }).count(), 5);
     const route = `${origin}/scenes/${fixtureId}/`;
     let response = await page.goto(route);
     assert.equal(response.status(), 200);
