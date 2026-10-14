@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
-import { mkdtempSync, mkdirSync, rmSync, symlinkSync, unlinkSync, writeFileSync } from 'node:fs';
+import { mkdtempSync, mkdirSync, readFileSync, readdirSync, rmSync, symlinkSync, unlinkSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
@@ -74,6 +74,21 @@ function expectIssue(data, publicDir, path, extra = [], voice = profile()) {
     `Expected a content error at ${path}`,
   );
 }
+
+test('every discovered official scene passes full validation and retains the original stable routes', () => {
+  const contentDir = join(process.cwd(), 'content/scenes');
+  const files = readdirSync(contentDir).filter((name) => name.endsWith('.json')).sort();
+  const expectedIds = files.map((name) => JSON.parse(readFileSync(join(contentDir, name), 'utf8')).id);
+  const scenes = loadScenes();
+  assert.deepEqual(scenes.map(({ id }) => id), expectedIds);
+  for (const id of ['cafe-breakfast', 'school-greeting', 'supermarket-shopping', 'street-directions']) {
+    assert.ok(getScene(id, scenes), `original scene ${id} must remain available`);
+  }
+  for (const scene of scenes) {
+    assert.strictEqual(getScene(scene.id, scenes), scene);
+    assert.strictEqual(scene.voiceProfile, scenes[0].voiceProfile);
+  }
+});
 
 test('valid overlapping and repeated annotations preserve segment text and resolve both item types', () => withFixture(({ publicDir }) => {
   const data = scene();
@@ -242,6 +257,35 @@ test('checks image existence, supported path, dimensions, and item counts', () =
   counts.phrases.pop();
   counts.words.pop();
   for (const path of ['sentences', 'phrases', 'words']) expectIssue(counts, publicDir, path);
+}));
+
+test('accepts maximum-length scenes while rejecting any larger story or learning list', () => withFixture(({ publicDir }) => {
+  const data = scene();
+  while (data.phrases.length < 6) {
+    const n = data.phrases.length + 1;
+    data.phrases.push({ id: `phrase-${n}`, english: `Phrase ${n}`, translation: `短句 ${n}`, audio: clip('phrases', `Phrase ${n}`) });
+  }
+  while (data.words.length < 8) {
+    const n = data.words.length + 1;
+    data.words.push({ id: `word-${n}`, english: `Word ${n}`, translation: `單字 ${n}`, example: `A word ${n}.`, audio: clip('words', `Word ${n}`) });
+  }
+  data.sentences = data.words.map((word, i) => {
+    const phrase = data.phrases[i % data.phrases.length];
+    return {
+      segments: [{ text: `${phrase.english} includes ${word.english}.`, phraseIds: [phrase.id], wordIds: [word.id] }],
+      translation: `第 ${i + 1} 句翻譯。`,
+    };
+  });
+  data.audio.textSha256 = textSha256(canonicalStoryText(data.sentences));
+  const [result] = validateScenes([{ source: 'sample.json', data }], publicDir, profile());
+  assert.deepEqual([result.sentences.length, result.phrases.length, result.words.length], [8, 6, 8]);
+  for (const [field, range] of [['sentences', '5–8'], ['phrases', '4–6'], ['words', '6–8']]) {
+    const invalid = structuredClone(data);
+    invalid[field].push(structuredClone(invalid[field][0]));
+    invalid.audio.textSha256 = textSha256(canonicalStoryText(invalid.sentences));
+    assert.throws(() => validateScenes([{ source: 'sample.json', data: invalid }], publicDir, profile()),
+      (error) => error instanceof ContentError && error.issues.includes(`sample.json.${field}: expected ${range} items, found ${invalid[field].length}`));
+  }
 }));
 
 test('rejects duplicate IDs, dangling references, and unreferenced items with precise paths', () => withFixture(({ publicDir }) => {
