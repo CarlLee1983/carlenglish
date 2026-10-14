@@ -8,12 +8,31 @@ import Layout from '../../layouts/Layout.astro';
       <h1>複習</h1>
       <p class="review-summary" data-review-summary role="status" aria-live="polite" aria-atomic="true"></p>
     </header>
+    <section class="review-message review-reminder" data-review-reminder aria-label="備份提醒" hidden>
+      <p data-reminder-text role="status"></p>
+      <button type="button" class="review-button" data-reminder-export>立即匯出</button>
+    </section>
+    <section class="review-message review-hint" data-review-hint aria-label="加到主畫面" hidden>
+      <h2>加到主畫面，紀錄更安全</h2>
+      <p>iPhone 的瀏覽器若一段時間沒開過本站，可能會清除複習紀錄；加到主畫面的 App 不受這個限制。但主畫面 App 和瀏覽器的紀錄是分開的，加入時不會自動帶過去，請照下面的順序搬家：</p>
+      <ol class="review-hint-steps">
+        <li>
+          先匯出備份。
+          <button type="button" class="review-button" data-hint-export hidden>先匯出備份</button>
+        </li>
+        <li>用瀏覽器的分享選單選「加入主畫面」（Safari 要先點「⋯」再點「分享」）。</li>
+        <li>從主畫面打開本站，到複習頁匯入備份。</li>
+      </ol>
+      <p>搬完之後，請在主畫面 App 裡閱讀和加入字卡。</p>
+      <button type="button" class="review-button" data-hint-dismiss aria-label="關閉說明">關閉</button>
+    </section>
     <noscript><p class="review-message">複習功能需要啟用 JavaScript；場景與文章仍可正常閱讀。</p></noscript>
     <p class="review-message review-error" data-review-error role="alert" hidden></p>
     <p class="review-message review-warning" data-review-warning role="status" hidden></p>
     <div class="review-message" data-review-empty hidden>
       <h2>還沒有字卡</h2>
       <p>到任一篇<a href="/">場景</a>的「重點單字」，按單字旁的「加入複習」，那個字就會出現在這裡。</p>
+      <p data-review-standalone-hint hidden>從瀏覽器搬過來？在這裡匯入備份。</p>
     </div>
     <div class="review-message" data-review-done hidden>
       <h2 data-review-done-title></h2>
@@ -59,4 +78,5 @@ import Layout from '../../layouts/Layout.astro';
   </section>
   <script>import '../../scripts/review';</script>
   <script>import '../../scripts/review-backup';</script>
+  <script>import '../../scripts/review-protect';</script>
 </Layout>

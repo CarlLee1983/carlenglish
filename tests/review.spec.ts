@@ -26,6 +26,28 @@ const storedCards = (page: Page) => page.evaluate(() => {
   return raw === null ? null : (JSON.parse(raw) as { cards: unknown[] }).cards;
 });
 
+type StorageCalls = { persisted: number; persist: number };
+const storageCalls = (page: Page) => page.evaluate(() => (window as unknown as { __storageCalls: StorageCalls }).__storageCalls);
+
+/** 讓 navigator.storage 回報指定的 persisted 狀態，並記錄 persisted()／persist() 的呼叫次數。 */
+async function stubPersistentStorage(page: Page, persisted: boolean, persistRejects: boolean) {
+  await page.addInitScript(({ persisted, persistRejects }) => {
+    const calls = { persisted: 0, persist: 0 };
+    (window as unknown as { __storageCalls: typeof calls }).__storageCalls = calls;
+    Object.defineProperty(navigator, 'storage', {
+      configurable: true,
+      value: {
+        persisted: () => { calls.persisted++; return Promise.resolve(persisted); },
+        persist: () => { calls.persist++; return persistRejects ? Promise.reject(new Error('denied')) : Promise.resolve(true); },
+      },
+    });
+  }, { persisted, persistRejects });
+}
+
+const standaloneStub = (page: Page) => page.addInitScript(() => {
+  Object.defineProperty(navigator, 'standalone', { configurable: true, value: true });
+});
+
 async function flip(page: Page) {
   await page.getByRole('button', { name: '翻面' }).click();
 }
@@ -72,6 +94,132 @@ test.describe('add to review from a scene', () => {
     await addButton(page, first).click();
     await expect(page.getByRole('status').filter({ hasText: '無法' })).toBeVisible();
     await expect(addButton(page, first)).toHaveAttribute('aria-pressed', 'false');
+  });
+});
+
+test.describe('protecting progress', () => {
+  const reminder = (page: Page) => page.getByRole('region', { name: '備份提醒' });
+
+  test('the backup reminder appears, disappears after exporting, and returns after eight days', async ({ page }) => {
+    await page.clock.install({ time: startTime });
+    await page.goto('/review/');
+    await expect(reminder(page)).toBeHidden();
+    await addFromScene(page, first);
+    await page.goto('/review/');
+    await expect(reminder(page)).toContainText('還沒有備份過');
+
+    const downloading = page.waitForEvent('download');
+    await reminder(page).getByRole('button', { name: '立即匯出' }).click();
+    await downloading;
+    await expect(reminder(page)).toBeHidden();
+    await page.reload();
+    await expect(reminder(page)).toBeHidden();
+
+    await page.clock.setFixedTime(new Date(startTime.getTime() + 8 * day));
+    await page.reload();
+    await expect(reminder(page)).toContainText('已超過 7 天沒有備份');
+  });
+
+  test('importing a backup recomputes the reminder from the imported export time', async ({ page }, testInfo) => {
+    await page.clock.install({ time: startTime });
+    await addFromScene(page, first);
+    await page.goto('/review/');
+    const downloading = page.waitForEvent('download');
+    await page.getByRole('button', { name: '匯出備份', exact: true }).click();
+    const file = testInfo.outputPath('backup.json');
+    await (await downloading).saveAs(file);
+
+    const backup = JSON.parse(readFileSync(file, 'utf8'));
+    const staleFile = testInfo.outputPath('stale-backup.json');
+    backup.state.lastExportedAt = new Date(startTime.getTime() - 8 * day).toISOString();
+    writeFileSync(staleFile, JSON.stringify(backup));
+    await page.evaluate(() => localStorage.clear());
+    await page.reload();
+    await expect(reminder(page)).toBeHidden();
+    await page.getByLabel('匯入備份').setInputFiles(staleFile);
+    await page.getByRole('button', { name: '取代' }).click();
+    await expect(page.getByText('已匯入 1 張字卡')).toBeVisible();
+    await expect(reminder(page)).toContainText('已超過 7 天沒有備份');
+  });
+
+  test('asks the browser for persistent storage, and a refusal does not block reviewing', async ({ page }) => {
+    await stubPersistentStorage(page, false, true);
+    await addFromScene(page, first);
+    await page.goto('/review/');
+    await expect.poll(async () => (await storageCalls(page)).persist).toBe(1);
+    await expect(page.locator('[data-review-front]')).toHaveText(first.english);
+    await flip(page);
+    await page.getByRole('button', { name: '想起來了' }).click();
+    await expect(page.locator('[data-review-result]')).toContainText('下次：');
+  });
+
+  test('does not ask again when storage is already persistent', async ({ page }) => {
+    await stubPersistentStorage(page, true, false);
+    await page.goto('/review/');
+    await expect.poll(async () => (await storageCalls(page)).persisted).toBeGreaterThan(0);
+    expect((await storageCalls(page)).persist).toBe(0);
+  });
+
+  test('hides the home-screen hint outside iOS', async ({ page }) => {
+    test.skip(test.info().project.name === 'mobile-webkit', 'covered by the iOS-like project below');
+    await page.goto('/review/');
+    await expect(page.getByRole('heading', { name: '複習', level: 1 })).toBeVisible();
+    await expect(page.getByRole('region', { name: '加到主畫面' })).toBeHidden();
+  });
+
+  test('explains the move to the home screen on iOS, offers an export, and dismissal sticks', async ({ page }) => {
+    test.skip(test.info().project.name !== 'mobile-webkit', 'only meaningful on the iOS-like project');
+    await page.goto('/review/');
+    const hint = page.getByRole('region', { name: '加到主畫面' });
+    await expect(hint).toBeVisible();
+    await expect(hint).toContainText('加入主畫面');
+    await expect(hint).toContainText('匯入備份');
+    await expect(hint.getByRole('button', { name: '先匯出備份' })).toBeHidden();
+
+    await addFromScene(page, first);
+    await page.goto('/review/');
+    const downloading = page.waitForEvent('download');
+    await hint.getByRole('button', { name: '先匯出備份' }).click();
+    await downloading;
+    await expect(page.getByText('已匯出 1 張字卡')).toBeVisible();
+
+    await hint.getByRole('button', { name: '關閉說明' }).click();
+    await expect(hint).toBeHidden();
+    await page.reload();
+    await expect(page.getByRole('heading', { name: '複習', level: 1 })).toBeVisible();
+    await expect(hint).toBeHidden();
+  });
+
+  test('hides the home-screen hint when opened as a home-screen app', async ({ page }) => {
+    test.skip(test.info().project.name !== 'mobile-webkit', 'only meaningful on the iOS-like project');
+    await standaloneStub(page);
+    await page.goto('/review/');
+    await expect(page.getByRole('heading', { name: '複習', level: 1 })).toBeVisible();
+    await expect(page.getByRole('region', { name: '加到主畫面' })).toBeHidden();
+  });
+
+  test('an empty home-screen app invites importing a backup from the browser and focuses the import control', async ({ page }) => {
+    await standaloneStub(page);
+    await page.goto('/review/');
+    await expect(page.getByText('從瀏覽器搬過來？在這裡匯入備份')).toBeVisible();
+    await expect(page.getByLabel('匯入備份')).toBeFocused();
+  });
+
+  test('a regular browser tab with no cards shows no move-over invitation', async ({ page }) => {
+    await page.goto('/review/');
+    await expect(page.getByText('還沒有字卡')).toBeVisible();
+    await expect(page.getByText('從瀏覽器搬過來？在這裡匯入備份')).toBeHidden();
+  });
+
+  test('serves a minimal web app manifest linked from the page', async ({ page, request }) => {
+    await page.goto('/review/');
+    await expect(page.locator('head link[rel="manifest"]')).toHaveAttribute('href', '/manifest.webmanifest');
+    const response = await request.get('/manifest.webmanifest');
+    expect(response.ok()).toBe(true);
+    const manifest = await response.json();
+    expect(manifest).toMatchObject({ name: 'CarlEnglish', lang: 'zh-Hant', start_url: '/review/', scope: '/', display: 'standalone' });
+    expect(manifest.icons.map((icon: { src: string }) => icon.src)).toContain('/apple-touch-icon.png');
+    expect((await request.get('/apple-touch-icon.png')).ok()).toBe(true);
   });
 });
 
@@ -173,7 +321,7 @@ test.describe('review page', () => {
     await addFromScene(page, first, second);
     await page.goto('/review/');
     const downloading = page.waitForEvent('download');
-    await page.getByRole('button', { name: '匯出備份' }).click();
+    await page.getByRole('button', { name: '匯出備份', exact: true }).click();
     const download = await downloading;
     expect(download.suggestedFilename()).toBe('carlenglish-review-2026-10-14.json');
     const file = testInfo.outputPath('backup.json');
@@ -192,14 +340,14 @@ test.describe('review page', () => {
     await page.getByRole('button', { name: '想起來了' }).click();
     const cardsBefore = await storedCards(page);
     const downloading = page.waitForEvent('download');
-    await page.getByRole('button', { name: '匯出備份' }).click();
+    await page.getByRole('button', { name: '匯出備份', exact: true }).click();
     const file = testInfo.outputPath('backup.json');
     await (await downloading).saveAs(file);
 
     await page.evaluate(() => localStorage.clear());
     await page.reload();
     await expect(page.getByText('還沒有字卡')).toBeVisible();
-    await expect(page.getByRole('button', { name: '匯出備份' })).toBeDisabled();
+    await expect(page.getByRole('button', { name: '匯出備份', exact: true })).toBeDisabled();
 
     await page.getByLabel('匯入備份').setInputFiles(file);
     await expect(page.getByText('檔案內有 2 張字卡，將取代目前的 0 張')).toBeVisible();
@@ -245,7 +393,7 @@ test.describe('review page', () => {
     await addFromScene(page, first);
     await page.goto('/review/');
     const downloading = page.waitForEvent('download');
-    await page.getByRole('button', { name: '匯出備份' }).click();
+    await page.getByRole('button', { name: '匯出備份', exact: true }).click();
     const file = testInfo.outputPath('backup.json');
     await (await downloading).saveAs(file);
     await addFromScene(page, second);
@@ -295,8 +443,8 @@ test.describe('review page', () => {
     expect(await overflow()).toBeLessThanOrEqual(0);
     await flip(page);
     expect(await overflow()).toBeLessThanOrEqual(0);
-    for (const name of ['忘記了', '想起來了', '播放單字發音']) {
-      const box = await page.getByRole('button', { name }).boundingBox();
+    for (const name of ['忘記了', '想起來了', '播放單字發音', '立即匯出', '匯出備份']) {
+      const box = await page.getByRole('button', { name, exact: true }).boundingBox();
       expect(box!.height, name).toBeGreaterThanOrEqual(44);
     }
   });

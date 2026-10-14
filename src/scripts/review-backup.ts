@@ -1,13 +1,22 @@
-import { maxBackupBytes, parseBackup, reviewChangedEvent, serializeBackup, type ReviewState } from '../lib/review-deck';
+import { backupReminderDays, maxBackupBytes, needsBackupReminder, parseBackup, reviewChangedEvent, serializeBackup, type ReviewState } from '../lib/review-deck';
 import { loadReviewState, saveReviewState } from '../lib/review-storage';
 
 const pad = (value: number) => String(value).padStart(2, '0');
 const localDate = (date: Date) => `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
 
+const reminderMessages = {
+  never: '還沒有備份過。瀏覽器清除網站資料時，沒有備份的字卡會消失。',
+  stale: `已超過 ${backupReminderDays} 天沒有備份。建議現在匯出一份。`,
+};
+
 function initializeBackup(root: HTMLElement) {
   const $ = <T extends HTMLElement>(name: string) => root.querySelector<T>(`[data-backup-${name}]`)!;
   const exportButton = $<HTMLButtonElement>('export');
   const exportHint = $('export-hint');
+  const reminder = document.querySelector<HTMLElement>('[data-review-reminder]')!;
+  const reminderText = reminder.querySelector<HTMLElement>('[data-reminder-text]')!;
+  const hintExport = document.querySelector<HTMLButtonElement>('[data-hint-export]')!;
+  const reminderExport = reminder.querySelector<HTMLButtonElement>('[data-reminder-export]')!;
   const fileInput = $<HTMLInputElement>('file');
   const status = $('status');
   const confirmBox = $('confirm');
@@ -31,12 +40,17 @@ function initializeBackup(root: HTMLElement) {
   function refreshExportAvailability() {
     const loaded = loadReviewState();
     const count = loaded.ok ? loaded.state.cards.length : 0;
+    const now = new Date();
+    const kind = loaded.ok ? needsBackupReminder(loaded.state, now) : null;
+    reminder.hidden = kind === null;
+    if (kind) reminderText.textContent = reminderMessages[kind];
+    hintExport.hidden = count === 0;
     exportButton.disabled = count === 0;
     exportHint.hidden = count > 0;
     exportHint.textContent = loaded.ok ? '目前沒有字卡可以匯出。' : '目前的紀錄無法讀取，無法匯出。';
   }
 
-  exportButton.addEventListener('click', () => {
+  function exportBackup() {
     const loaded = loadReviewState();
     if (!loaded.ok) return say('無法讀取複習紀錄，所以無法匯出。', loaded.error);
     const now = new Date();
@@ -55,7 +69,12 @@ function initializeBackup(root: HTMLElement) {
     const saved = saveReviewState({ ...latest.state, lastExportedAt: now.toISOString() });
     if (!saved.ok) return say(`已匯出 ${cardCount} 張字卡，但無法記錄匯出時間（瀏覽器無法儲存）。`, saved.error);
     say(`已匯出 ${cardCount} 張字卡`);
-  });
+    refreshExportAvailability();
+  }
+
+  exportButton.addEventListener('click', exportBackup);
+  reminderExport.addEventListener('click', exportBackup);
+  hintExport.addEventListener('click', exportBackup);
 
   fileInput.addEventListener('change', async () => {
     const file = fileInput.files?.[0];

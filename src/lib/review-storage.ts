@@ -25,6 +25,27 @@ export function loadReviewState(storage?: Pick<Storage, 'getItem'>): LoadResult 
   }
 }
 
+/** 主畫面說明的關閉狀態是介面偏好，不屬於複習狀態，也不進備份，所以用獨立的 key。 */
+export const homeScreenHintKey = 'carlenglish.home-screen-hint-dismissed';
+
+export function isHomeScreenHintDismissed(storage?: Pick<Storage, 'getItem'>): boolean {
+  try {
+    return (storage ?? window.localStorage).getItem(homeScreenHintKey) === '1';
+  } catch (error) {
+    console.error('Failed to read the home-screen hint preference', error);
+    return false;
+  }
+}
+
+export function dismissHomeScreenHint(storage?: Pick<Storage, 'setItem'>): SaveResult {
+  try {
+    (storage ?? window.localStorage).setItem(homeScreenHintKey, '1');
+    return { ok: true };
+  } catch (error) {
+    return { ok: false, reason: 'unavailable', error };
+  }
+}
+
 export function saveReviewState(state: ReviewState, storage?: Pick<Storage, 'setItem'>): SaveResult {
   try {
     (storage ?? window.localStorage).setItem(reviewStorageKey, JSON.stringify(state));

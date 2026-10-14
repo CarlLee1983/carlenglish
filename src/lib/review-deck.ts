@@ -131,6 +131,16 @@ export const isCardSourceKind = (value: unknown): value is CardSourceKind => car
 /** 來源連結只接受站內路徑：以單一 `/` 開頭，排除 `//host` 與 `javascript:` 等。 */
 export const isInternalHref = (value: unknown): value is string => typeof value === 'string' && /^\/(?![/\\])/.test(value);
 
+export const backupReminderDays = 7;
+
+/** 'never'：有字卡但從未匯出；'stale'：距上次匯出超過 backupReminderDays 天；null：不需要提醒。 */
+export function needsBackupReminder(state: ReviewState, now: Date): 'never' | 'stale' | null {
+  if (state.cards.length === 0) return null;
+  if (state.lastExportedAt === null) return 'never';
+  const elapsed = now.getTime() - new Date(state.lastExportedAt).getTime();
+  return elapsed > backupReminderDays * 24 * 60 * 60 * 1000 ? 'stale' : null;
+}
+
 export function hasSource(state: ReviewState, key: string, source: CardSource): boolean {
   return state.cards.some((card) => card.key === key && card.sources.some((candidate) => sameSource(candidate, source)));
 }

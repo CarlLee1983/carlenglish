@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { cardKey, emptyState, isCardSourceKind, isInternalHref, nextDue, reduce, parseBackup, reviewCounts, serializeBackup, todayQueue } from '../src/lib/review-deck.ts';
+import { cardKey, emptyState, isCardSourceKind, isInternalHref, needsBackupReminder, nextDue, reduce, parseBackup, reviewCounts, serializeBackup, todayQueue } from '../src/lib/review-deck.ts';
 
 const coffee = { english: 'coffee', meaning: '咖啡', example: 'I like coffee.', audioSrc: '/audio/words/coffee.wav' };
 const sceneSource = { kind: 'scene', id: 'cafe-breakfast', title: '咖啡店早餐', href: '/scenes/cafe-breakfast/' };
@@ -144,6 +144,18 @@ test('backup validation covers reserved fields, unsafe paths, key integrity and 
   }
   assert.equal(parseBackup(JSON.stringify(withState({ dailyNewLimit: 25 }))).ok, true);
   assert.equal(parseBackup(JSON.stringify(withSchedule({ last_review: '2026-10-14T09:00:00+08:00' }))).ok, true);
+});
+
+test('the backup reminder needs cards and a missing or stale export', () => {
+  const week = 7 * 24 * 60 * minutes(1);
+  const withCards = reduce(emptyState(), { type: 'ADD_CARD', card: coffee, source: sceneSource, now });
+  const exportedAt = (date) => ({ ...withCards, lastExportedAt: date.toISOString() });
+  assert.equal(needsBackupReminder(emptyState(), now), null);
+  assert.equal(needsBackupReminder(withCards, now), 'never');
+  assert.equal(needsBackupReminder(exportedAt(new Date(now.getTime() - week)), now), null);
+  assert.equal(needsBackupReminder(exportedAt(new Date(now.getTime() - week - minutes(1))), now), 'stale');
+  assert.equal(needsBackupReminder(exportedAt(now), now), null);
+  assert.equal(needsBackupReminder({ ...emptyState(), lastExportedAt: new Date(2020, 0, 1).toISOString() }, now), null);
 });
 
 test('state survives a JSON round trip with the same queue', () => {

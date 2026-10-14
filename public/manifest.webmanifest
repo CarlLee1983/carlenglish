@@ -1,0 +1,13 @@
+{
+  "name": "CarlEnglish",
+  "short_name": "CarlEnglish",
+  "lang": "zh-Hant",
+  "start_url": "/review/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#f8faf7",
+  "background_color": "#f8faf7",
+  "icons": [
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}

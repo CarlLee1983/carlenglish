@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { emptyState, reduce } from '../src/lib/review-deck.ts';
-import { loadReviewState, reviewStorageKey, saveReviewState } from '../src/lib/review-storage.ts';
+import { dismissHomeScreenHint, isHomeScreenHintDismissed, loadReviewState, reviewStorageKey, saveReviewState } from '../src/lib/review-storage.ts';
 
 const coffee = { english: 'coffee', meaning: '咖啡', example: 'I like coffee.', audioSrc: '/audio/words/coffee.mp3' };
 const source = { kind: 'scene', id: 'cafe-breakfast', title: '咖啡店早餐', href: '/scenes/cafe-breakfast/' };
@@ -68,6 +68,24 @@ test('data with the wrong shape is reported as corrupt', () => {
     assert.equal(result.ok, false, name);
     assert.equal(result.reason, 'corrupt', name);
   }
+});
+
+test('the home-screen hint dismissal is stored under its own key, apart from the review state', () => {
+  const storage = fakeStorage();
+  assert.equal(isHomeScreenHintDismissed(storage), false);
+  assert.deepEqual(dismissHomeScreenHint(storage), { ok: true });
+  assert.equal(isHomeScreenHintDismissed(storage), true);
+  assert.equal(storage.data.has(reviewStorageKey), false);
+  assert.deepEqual(loadReviewState(storage).state, emptyState());
+});
+
+test('an unreadable or unwritable storage reads as not dismissed and reports the write failure', () => {
+  const error = new Error('blocked');
+  const throwing = { getItem: () => { throw error; }, setItem: () => { throw error; } };
+  assert.equal(isHomeScreenHintDismissed(throwing), false);
+  const saved = dismissHomeScreenHint(throwing);
+  assert.equal(saved.ok, false);
+  assert.equal(saved.error, error);
 });
 
 test('a graded card with a last review date still loads', () => {
