@@ -8,7 +8,9 @@
 
 線上共檢查 54 個 HTTP 回應：首頁與三個場景、42 個 MP3、3 張 WebP 均為 200，資產位元組與本地一致；未知場景回傳自訂 404，缺少的 MP3 與私人 `.scratch/` 模型、學習紀錄路徑均回傳 404；場景未加尾斜線時回傳 307 並導向正確目錄網址。證據保留於本機 `.scratch/illustrated-english/qa/production-http-checks.json`、`cloudflare-deploy.log`、`publication-verify.log` 及 `production-home-mobile.png`。
 
-首次上線使用本機既有 Cloudflare 授權。GitHub [部署工作流程](https://github.com/CarlLee1983/carlenglish/actions/runs/38504543479) 因 `CLOUDFLARE_DEPLOY_ENABLED` 未設定而依設計略過；repository 也尚未設定 `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN` secrets。後續推送目前不會自動更新網站，須先完成專用憑證與變數設定。
+首次上線使用本機既有 Cloudflare 授權。GitHub [部署工作流程](https://github.com/CarlLee1983/carlenglish/actions/runs/38504543479) 因 `CLOUDFLARE_DEPLOY_ENABLED` 未設定而依設計略過。後續透過 `cf` CLI 確認帳號與 `gravito.dev` 範圍，並已用 `gh` 設定 repository 的 `CLOUDFLARE_ACCOUNT_ID` secret；但帳號 token 介面及個人 token metadata 清單均回傳 403（9109）。個人 token 建立前的檢查因此停止，未嘗試建立 token，未讀取或搬用本機登入憑證。
+
+目前仍缺 `CLOUDFLARE_API_TOKEN`，部署啟用變數保持未設定，後續推送不會自動更新網站。須由使用者在 Cloudflare 建立專用 token，再透過 `gh secret set` 的隱藏提示寫入 GitHub；具體權限與指令見 [README](../README.md)。接著才啟用 workflow 並驗證一次正式部署。此次 CLI 失敗與 secret 名稱的非機密證據保留於 `.scratch/illustrated-english/ci-setup/result.json`；沒有 token 值或原始 CLI 憑證輸出。
 
 公開工單見 [issues/](issues/README.md)。`.scratch/`、本機模型與 Python 環境、憑證，以及 `docs/learning-progress.md` 不進入 repository；網站只需要已封裝的圖片及 MP3。此次發布只涵蓋現有三篇短文。每日產製、長文與新聞來源呈現仍未實作，也不將產品驗收記為閱讀能力進階。
 

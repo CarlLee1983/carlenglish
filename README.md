@@ -47,6 +47,14 @@ npm run test:extension
 
 網站已發布於 [carlenglish.gravito.dev](https://carlenglish.gravito.dev)，原始碼位於公開的 [GitHub repository](https://github.com/CarlLee1983/carlenglish)。使用 Cloudflare Workers Static Assets，`wrangler.jsonc` 將 `dist/` 提供為靜態網站。首頁、三個場景的直接網址、圖片與音檔已在線上驗證；未知場景回傳自訂 404 頁。已有 Cloudflare 發布權限的環境可執行 `npm run deploy`，依序完成驗證與部署。
 
-GitHub Actions 在 pull request 及 `main` 推送執行驗證；首筆提交的 [CI 已通過](https://github.com/CarlLee1983/carlenglish/actions/runs/38504543453)。首次上線使用本機既有的 Cloudflare 授權完成。GitHub 自動部署目前未啟用：repository 尚未設定 `CLOUDFLARE_DEPLOY_ENABLED=true` 及 `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN` secrets，因此 `main` 推送和手動啟動都會略過部署。不要將金鑰或本機 `.scratch/`、`docs/learning-progress.md` 加入 repository。`docs/learning-progress.md` 是個人閱讀紀錄，網站驗收與發布不會改變其學習進度。
+GitHub Actions 在 pull request 及 `main` 推送執行驗證；首筆提交的 [CI 已通過](https://github.com/CarlLee1983/carlenglish/actions/runs/38504543453)。首次上線使用本機既有的 Cloudflare 授權完成。GitHub 自動部署目前未啟用：`CLOUDFLARE_ACCOUNT_ID` secret 已設定，但尚缺專用的 `CLOUDFLARE_API_TOKEN` secret，`CLOUDFLARE_DEPLOY_ENABLED` 也未啟用，因此 `main` 推送和手動啟動都會略過部署。
+
+目前 `cf` CLI 的登入可操作網站，但 token 管理介面回傳 403（9109），無法透過這個登入建立部署 token。須先在 [Cloudflare API Tokens](https://dash.cloudflare.com/profile/api-tokens) 建立專用 custom user token：Account 的 Workers Scripts Edit、Account Settings Read，以及 Zone 的 Workers Routes Edit、Zone Read。Account Resources 限定網站所屬帳號，Zone Resources 限定 `gravito.dev`；Workers Scripts 權限涵蓋該帳號的 Workers。建立流程見 [Cloudflare 官方說明](https://developers.cloudflare.com/fundamentals/api/get-started/create-token/)。在自己的終端執行以下指令，於隱藏提示輸入新 token：
+
+```sh
+gh secret set CLOUDFLARE_API_TOKEN --repo CarlLee1983/carlenglish
+```
+
+確認兩個 secrets 存在後，才設定 `CLOUDFLARE_DEPLOY_ENABLED=true` 並手動啟動 `Deploy`，驗證 GitHub Actions 能完成正式部署。不要將 token 貼入對話或寫入 repository。不要將本機 `.scratch/`、`docs/learning-progress.md` 加入 repository。`docs/learning-progress.md` 是個人閱讀紀錄，網站驗收與發布不會改變其學習進度。
 
 目前正式內容為三篇 5–8 句短文。未來交辦 dot 每日製作教材是後續工作；長文格式、新聞來源呈現與每日發布流程尚未實作。
