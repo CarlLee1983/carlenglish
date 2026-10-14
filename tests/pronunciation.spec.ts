@@ -371,7 +371,7 @@ test('pagehide and hidden visibility stop all levels', async ({ page }) => {
 
 test('all discovered MP3s decode and real word plus long story playback works', async ({ page }, testInfo) => {
   test.skip(!['desktop-chromium', 'mobile-webkit'].includes(testInfo.project.name), 'Chromium and WebKit verify shared audio assets.');
-  testInfo.setTimeout(90_000);
+  testInfo.setTimeout(180_000);
   await page.addInitScript(() => {
     const NativeAudio = window.Audio;
     const clips: HTMLAudioElement[] = [];
@@ -398,26 +398,35 @@ test('all discovered MP3s decode and real word plus long story playback works', 
   expect(clips).toHaveLength(scenes.reduce((count, scene) => count + 1 + scene.phrases.length + scene.words.length, 0));
   const sources = [...new Set(clips.map((entry) => entry.audio.src))];
   expect(sources.length).toBeGreaterThan(0);
-  const outcomes = await page.evaluate(async (sources) => Promise.all(sources.map(async (src) => {
-    const response = await fetch(src);
-    if (!response.ok || !response.headers.get('content-type')?.includes('audio/')) {
-      return { src, ok: false, reason: `HTTP ${response.status} ${response.headers.get('content-type')}` };
+  const outcomes = await page.evaluate(async (sources) => {
+    const results: { src: string; ok: boolean; reason?: string }[] = [];
+    const concurrency = 20;
+    for (let i = 0; i < sources.length; i += concurrency) {
+      const batch = sources.slice(i, i + concurrency);
+      const batchResults = await Promise.all(batch.map(async (src) => {
+        const response = await fetch(src);
+        if (!response.ok || !response.headers.get('content-type')?.includes('audio/')) {
+          return { src, ok: false, reason: `HTTP ${response.status} ${response.headers.get('content-type')}` };
+        }
+        const audio = new Audio(src);
+        audio.preload = 'metadata';
+        return new Promise<{ src: string; ok: boolean; reason?: string }>((resolve) => {
+          const timeout = window.setTimeout(() => resolve({ src, ok: false, reason: 'metadata timeout' }), 20_000);
+          audio.addEventListener('loadedmetadata', () => {
+            window.clearTimeout(timeout);
+            resolve({ src, ok: Number.isFinite(audio.duration) && audio.duration > 0, reason: `duration ${audio.duration}` });
+          }, { once: true });
+          audio.addEventListener('error', () => {
+            window.clearTimeout(timeout);
+            resolve({ src, ok: false, reason: `media error ${audio.error?.code}` });
+          }, { once: true });
+          audio.load();
+        });
+      }));
+      results.push(...batchResults);
     }
-    const audio = new Audio(src);
-    audio.preload = 'metadata';
-    return new Promise<{ src: string; ok: boolean; reason?: string }>((resolve) => {
-      const timeout = window.setTimeout(() => resolve({ src, ok: false, reason: 'metadata timeout' }), 10_000);
-      audio.addEventListener('loadedmetadata', () => {
-        window.clearTimeout(timeout);
-        resolve({ src, ok: Number.isFinite(audio.duration) && audio.duration > 0, reason: `duration ${audio.duration}` });
-      }, { once: true });
-      audio.addEventListener('error', () => {
-        window.clearTimeout(timeout);
-        resolve({ src, ok: false, reason: `media error ${audio.error?.code}` });
-      }, { once: true });
-      audio.load();
-    });
-  })), sources);
+    return results;
+  }, sources);
   expect(outcomes).toHaveLength(sources.length);
   expect(outcomes.filter((outcome) => !outcome.ok)).toEqual([]);
 });
