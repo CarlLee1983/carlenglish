@@ -309,6 +309,13 @@ ul { padding: 0; margin: 0; list-style: none; }
 .key-hint { display: inline-block; margin-left: 6px; padding: 0 6px; border: 1px solid currentColor; border-radius: 4px; font-size: 12px; opacity: .8; }
 .review-result { margin-top: 16px; color: var(--muted); font-size: 15px; text-align: center; min-height: 1.65em; }
 .review-backup { margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--line); }
+.review-wordlists { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--line); }
+.review-wordlists h2 { font-size: 20px; }
+.review-wordlist-items { display: grid; gap: 16px; margin-top: 14px; list-style: none; padding: 0; }
+.review-wordlist { display: grid; gap: 6px; justify-items: start; padding: 16px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); overflow-wrap: anywhere; }
+.review-wordlist h3 { font-size: 17px; }
+.review-wordlist a { color: var(--accent); }
+.review-wordlist .review-button { margin-top: 6px; }
 .review-settings { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--line); }
 .review-settings h2, .review-backup h2 { font-size: 20px; }
 .review-number-input { width: 5em; min-height: 44px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: transparent; color: var(--text); font: inherit; font-size: 16px; }

@@ -2,6 +2,7 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { articleMetrics, loadArticles, stageWarnings } from '../src/lib/articles.ts';
 import { loadScenes } from '../src/lib/scenes.ts';
+import { loadWordLists } from '../src/lib/wordlists.ts';
 import { createCatalog } from '../src/lib/catalog.ts';
 import { crossTypeDuplicateIds } from '../src/lib/validation.ts';
 
@@ -19,6 +20,8 @@ try {
   if (duplicates.length) throw new Error(`Invalid content:\n${duplicates.map((issue) => `- ${issue}`).join('\n')}`);
   console.log(`Validated ${scenes.length} scene(s): ${scenes.map((scene) => scene.id).join(', ')}`);
   console.log(`Validated ${articles.length} article(s): ${articles.map((article) => article.id).join(', ')}`);
+  const wordLists = loadWordLists();
+  console.log(`Validated ${wordLists.length} word list(s): ${wordLists.map((list) => `${list.id} (${list.entries.length} entries)`).join(', ')}`);
   for (const article of articles) {
     const { words, averageSentenceLength } = articleMetrics(article);
     console.log(`${article.stage} ${article.id}: ${words} words, ${averageSentenceLength.toFixed(1)} words/sentence`);

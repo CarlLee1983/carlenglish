@@ -143,7 +143,7 @@ test('backup validation covers reserved fields, unsafe paths, key integrity and 
     'limit too high': withState({ dailyNewLimit: 51 }),
     'limit fractional': withState({ dailyNewLimit: 1.5 }),
     'limit as text': withState({ dailyNewLimit: '10' }),
-    'subscriptions not empty': withState({ subscriptions: [{ id: 'ngsl' }] }),
+    'malformed subscription': withState({ subscriptions: [{ id: 'ngsl' }] }),
     'subscriptions not an array': withState({ subscriptions: {} }),
     'external audio': withCard({ content: { ...coffee, audioSrc: 'https://evil.example/a.mp3' } }),
     'protocol-relative audio': withCard({ content: { ...coffee, audioSrc: '//evil.example/a.mp3' } }),

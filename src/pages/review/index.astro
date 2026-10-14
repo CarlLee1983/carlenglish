@@ -1,5 +1,9 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import { attributionText, wordListUrl } from '../../lib/wordlist-data';
+import { loadWordLists } from '../../lib/wordlists';
+
+const wordLists = loadWordLists();
 ---
 <Layout title="複習" description="複習你從場景加入的重點單字。" noindex>
   <section class="page-shell review-page" data-review-root>
@@ -31,7 +35,7 @@ import Layout from '../../layouts/Layout.astro';
     <p class="review-message review-warning" data-review-warning role="status" hidden></p>
     <div class="review-message" data-review-empty hidden>
       <h2>還沒有字卡</h2>
-      <p>到任一篇<a href="/">場景</a>的「重點單字」，按單字旁的「加入複習」，那個字就會出現在這裡。</p>
+      <p>到任一篇<a href="/">場景</a>的「重點單字」，按單字旁的「加入複習」，那個字就會出現在這裡；也可以在下方訂閱一份詞表，讓它每天發出新字卡。</p>
       <p data-review-standalone-hint hidden>從瀏覽器搬過來？在這裡匯入備份。</p>
     </div>
     <div class="review-message" data-review-done hidden>
@@ -61,6 +65,25 @@ import Layout from '../../layouts/Layout.astro';
         <input id="daily-new-limit" class="review-number-input" type="number" inputmode="numeric" min="1" max="50" step="1" data-review-limit />
         <span class="review-backup-hint">1–50 張；超過的字卡會順延到之後幾天。</span>
       </div>
+    </section>
+    <section class="review-wordlists" data-review-wordlists aria-labelledby="wordlists-title" hidden>
+      <h2 id="wordlists-title">詞表</h2>
+      <p class="section-hint">訂閱後，詞表每天依詞頻從最常用的字開始發出新字卡，和手動加入的字卡共用每天新卡上限（手動加入的優先）。取消訂閱不會刪除已經發出的字卡。</p>
+      <p class="review-message review-error" data-review-wordlist-error role="alert" hidden></p>
+      <ul class="review-wordlist-items">
+        {wordLists.map((list) => (
+          <li class="review-wordlist" data-wordlist data-wordlist-id={list.id} data-wordlist-name={list.name} data-wordlist-url={wordListUrl(list.id)} data-wordlist-count={list.entries.length} data-wordlist-attribution={attributionText(list)}>
+            <h3>{list.name}</h3>
+            <p>{list.description}</p>
+            <p class="review-backup-hint">共 {list.entries.length} 字</p>
+            <p class="review-backup-hint" data-wordlist-progress role="status" hidden></p>
+            <p class="review-backup-hint">
+              出處：<a href={list.source.url} rel="noopener noreferrer">{list.source.name}</a>（{list.source.authors}），依 <a href={list.license.url} rel="noopener noreferrer">{list.license.name}</a> 授權。{list.source.adaptation}
+            </p>
+            <button type="button" class="review-button" data-wordlist-toggle aria-label={`訂閱 ${list.name}`}>訂閱</button>
+          </li>
+        ))}
+      </ul>
     </section>
     <p class="review-result" data-review-result role="status" aria-live="polite"></p>
     <section class="review-backup" data-review-backup aria-labelledby="backup-title" hidden>

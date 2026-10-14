@@ -13,3 +13,7 @@
 ## 換書活動單元的新音檔
 
 三篇新增讀本使用相同版本、revision、模型及聲線 SHA-256，沒有更換聲線或使用裝置語音。新音檔的來源、生成與驗證證據另記於 [本次內容驗收](book-swap-verification.md)。前述使用者接受樣本及舊工單結案是既有內容的歷史；不代表本批 39 段已由使用者實聽驗收。
+
+## 詞表音檔
+
+NGSL-Spoken 詞表前 100 字的英文詞各有一段 MP3（100 段，約 831 KB），聲線、模型與生成流程與場景相同，只念英文詞、不念例句；批次紀錄在 [`audio-generation/wordlist-ngsl-spoken-20261014/`](audio-generation/wordlist-ngsl-spoken-20261014/)。這批音檔尚未經使用者實聽驗收。

@@ -1,0 +1,1621 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "be",
+      "src": "/audio/wordlists/ngsl-spoken/be.mp3",
+      "text": "be",
+      "textSha256": "46599c5bb5c33101f80cea8438e2228085513dbbb19b2f5ce97bd68494d3344d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "48e985a9bcbe0c0f20eb7c2b4dfc11ff8b1bdb53ba9a3c20e508e37e2f888d0e",
+      "duration": 1.25,
+      "graphemes": [
+        "be"
+      ],
+      "phonemes": [
+        "bˈi"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "the",
+      "src": "/audio/wordlists/ngsl-spoken/the.mp3",
+      "text": "the",
+      "textSha256": "b9776d7ddf459c9ad5b0e1d6ac61e27befb5e99fd62446677600d7cacef544d0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "631b026be411fb843eee9a552cd140a2a85e6c4fac04c31f2bfdbdf86cef3fa7",
+      "duration": 1.025,
+      "graphemes": [
+        "the"
+      ],
+      "phonemes": [
+        "ðə"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "you",
+      "src": "/audio/wordlists/ngsl-spoken/you.mp3",
+      "text": "you",
+      "textSha256": "bb0347a468d97e98a9c00e37cebec1ab930f6f1221cae0f1fbb92b07e1900ba2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "39b740aac9510256172ba697a158179bc6b9f891614a5fe4d4c9667a701786f3",
+      "duration": 1.25,
+      "graphemes": [
+        "you"
+      ],
+      "phonemes": [
+        "ju"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "and",
+      "src": "/audio/wordlists/ngsl-spoken/and.mp3",
+      "text": "and",
+      "textSha256": "6201111b83a0cb5b0922cb37cc442b9a40e24e3b1ce100a4bb204f4c63fd2ac0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "55e55b2c65a731d5cd5d1139bb71ce63537bbb3800a764ce31b94e80803080b8",
+      "duration": 1.175,
+      "graphemes": [
+        "and"
+      ],
+      "phonemes": [
+        "ænd"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "it",
+      "src": "/audio/wordlists/ngsl-spoken/it.mp3",
+      "text": "it",
+      "textSha256": "2ad8a7049d7c5511ac254f5f51fe70a046ebd884729056f0fe57f5160d467153",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f1c4001f0ca6fb611b183083965c2677d29c7a342bbd562dbc34136f0569208c",
+      "duration": 0.95,
+      "graphemes": [
+        "it"
+      ],
+      "phonemes": [
+        "ɪt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "to",
+      "src": "/audio/wordlists/ngsl-spoken/to.mp3",
+      "text": "to",
+      "textSha256": "663ea1bfffe5038f3f0cf667f14c4257eff52d77ce7f2a218f72e9286616ea39",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c557ad35ae8fda9c4d942214d6c82e931e34747f0e01cf680858ac8faf33f496",
+      "duration": 1.225,
+      "graphemes": [
+        "to"
+      ],
+      "phonemes": [
+        "tu"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "a",
+      "src": "/audio/wordlists/ngsl-spoken/a.mp3",
+      "text": "a",
+      "textSha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "29dcfb45c1e3fcc5c8c23aa0d3373936582f03d37f2c0b5760d4d95810d12242",
+      "duration": 0.75,
+      "graphemes": [
+        "a"
+      ],
+      "phonemes": [
+        "ɐ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "have",
+      "src": "/audio/wordlists/ngsl-spoken/have.mp3",
+      "text": "have",
+      "textSha256": "193c45b5281908d2d9c814ba73be696dd3f252052c230f925d797f373f318d03",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "164ecba160612c45fb0426670abac17bd73e4ebf6d75965e72e10ba0c39afb96",
+      "duration": 1.275,
+      "graphemes": [
+        "have"
+      ],
+      "phonemes": [
+        "hˈæv"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "of",
+      "src": "/audio/wordlists/ngsl-spoken/of.mp3",
+      "text": "of",
+      "textSha256": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0389c8ba9c77d1209acef86a43a2bcf426820bc5ef0877e0025322f795cfe889",
+      "duration": 1.1,
+      "graphemes": [
+        "of"
+      ],
+      "phonemes": [
+        "ʌv"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "do",
+      "src": "/audio/wordlists/ngsl-spoken/do.mp3",
+      "text": "do",
+      "textSha256": "ac0b52a2ae6ef99999bc08fb31e19188bf0085a4614204068e677e140e1458be",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "09811ad900751532193800568bf70be72eebb91b3726505e686cb28aa7d5809a",
+      "duration": 1.3,
+      "graphemes": [
+        "do"
+      ],
+      "phonemes": [
+        "dˈu"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "not",
+      "src": "/audio/wordlists/ngsl-spoken/not.mp3",
+      "text": "not",
+      "textSha256": "254bb97b57f12e1608fefc4517de768427b2fd6d2cffbbfcbc09f3c818198d5f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4263da857e38489b1d3e14b2f5a944cd6324528cefa8a107250c04fa59da307d",
+      "duration": 1.25,
+      "graphemes": [
+        "not"
+      ],
+      "phonemes": [
+        "nˌɑt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "that",
+      "src": "/audio/wordlists/ngsl-spoken/that.mp3",
+      "text": "that",
+      "textSha256": "8e7fc0236af43df9340685fc16f1efe36543cc1707051220a103ad99cf69a2df",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7ac75ed309a02d8e4a1013286ab475614e8bd3944b7e1a66cf8dda478fa22e40",
+      "duration": 1.15,
+      "graphemes": [
+        "that"
+      ],
+      "phonemes": [
+        "ðæt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "they",
+      "src": "/audio/wordlists/ngsl-spoken/they.mp3",
+      "text": "they",
+      "textSha256": "151e58a831306903b282edb477bb6c4b713887cdd2b0353c84aff6f43da8e95d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "964c92a598a2b521967f9a3b19da10e07df481530f320b487982ce6904d6bc56",
+      "duration": 0.6,
+      "graphemes": [
+        "they"
+      ],
+      "phonemes": [
+        "ðA"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "we",
+      "src": "/audio/wordlists/ngsl-spoken/we.mp3",
+      "text": "we",
+      "textSha256": "dc7c811b9561739d9b75bb3e9e1715970a868834e62251b0b9ca02e74d0f42c9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "df338fd0f3850786d373f656ff4fd0b7dcd6ae1959c4585edd6861f080691798",
+      "duration": 1.175,
+      "graphemes": [
+        "we"
+      ],
+      "phonemes": [
+        "wi"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "in",
+      "src": "/audio/wordlists/ngsl-spoken/in.mp3",
+      "text": "in",
+      "textSha256": "582967534d0f909d196b97f9e6921342777aea87b46fa52df165389db1fb8ccf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "987cb2d45da7ab9dfeee959fbbc43b37856d25304eb9d961adaa2839804f6bca",
+      "duration": 1.275,
+      "graphemes": [
+        "in"
+      ],
+      "phonemes": [
+        "ˈɪn"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "he",
+      "src": "/audio/wordlists/ngsl-spoken/he.mp3",
+      "text": "he",
+      "textSha256": "372f7e2fd2d01ce2a1d71dc072acbba4c6fd25a1087cd7f153f4ec0ce37e1ede",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b9ef06600e091cd12b5742c6b7470760f8321e080fba91a902bd4a045028b80f",
+      "duration": 1.25,
+      "graphemes": [
+        "he"
+      ],
+      "phonemes": [
+        "hi"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "know",
+      "src": "/audio/wordlists/ngsl-spoken/know.mp3",
+      "text": "know",
+      "textSha256": "cd1bb3012bcfaa0c50e954d03634f33c883c2478584e96f03d0d4b984bc6eadc",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bc1b07eef2250a4bb692c2784f2d591dbb9304cfd6fab0afc8a1797b9dd84aa6",
+      "duration": 1.225,
+      "graphemes": [
+        "know"
+      ],
+      "phonemes": [
+        "nˈO"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "get",
+      "src": "/audio/wordlists/ngsl-spoken/get.mp3",
+      "text": "get",
+      "textSha256": "2998b3232d29e8dc5a78d97a32ce83f556f3ed31b057077503df05641dd79158",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8f43389ee55909fcc71c4c9050eea28fef5ca14a48d9e71044ebb34f25516dfe",
+      "duration": 1.225,
+      "graphemes": [
+        "get"
+      ],
+      "phonemes": [
+        "ɡˈɛt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "go",
+      "src": "/audio/wordlists/ngsl-spoken/go.mp3",
+      "text": "go",
+      "textSha256": "4cd0e21a9a0795a14ec9aa5f0e7d1abff0492565770e43eafdf1e3e8afed1f33",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "18f62bc115888ec6e824ba5b7be502d003bbb295911e2c0afbc9e35f80a84862",
+      "duration": 1.2,
+      "graphemes": [
+        "go"
+      ],
+      "phonemes": [
+        "ɡˌO"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "so",
+      "src": "/audio/wordlists/ngsl-spoken/so.mp3",
+      "text": "so",
+      "textSha256": "a1d9890884c1b4b960c279cfe7554a900d169422d6cec980beef67761487d3b9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a221ce6255cff50c2d0e00e30335687fc0892b5f9986f034c1ea16edb46f6287",
+      "duration": 1.25,
+      "graphemes": [
+        "so"
+      ],
+      "phonemes": [
+        "sˌO"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "this",
+      "src": "/audio/wordlists/ngsl-spoken/this.mp3",
+      "text": "this",
+      "textSha256": "1eb79602411ef02cf6fe117897015fff89f80face4eccd50425c45149b148408",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9ae214a15cb893c808f84d6b9439ce7c4d67c3ba092b6ae4b8bc2045421781a3",
+      "duration": 1.225,
+      "graphemes": [
+        "this"
+      ],
+      "phonemes": [
+        "ðˈɪs"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "but",
+      "src": "/audio/wordlists/ngsl-spoken/but.mp3",
+      "text": "but",
+      "textSha256": "cdc29937887188ad3702d1831d5b7ec66333a2a909e1f242432eb168d4c7b08b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fdba07b070d55ca2f640ff064c611506d84138986784966928480b3e09cf31ee",
+      "duration": 1.15,
+      "graphemes": [
+        "but"
+      ],
+      "phonemes": [
+        "bˌʌt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "on",
+      "src": "/audio/wordlists/ngsl-spoken/on.mp3",
+      "text": "on",
+      "textSha256": "b8d31e852725afb1e26d53bab6095b2bff1749c9275be13ed1c05a56ed31ec09",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f758792c7fe319a2714f0ec43ebd4e95b2e7c07c85c75e16b5c849c92afa2279",
+      "duration": 1.325,
+      "graphemes": [
+        "on"
+      ],
+      "phonemes": [
+        "ˌɔn"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "pause",
+      "src": "/audio/wordlists/ngsl-spoken/pause.mp3",
+      "text": "pause",
+      "textSha256": "6210c0bf05396716df932f0729df69de0533933e5ad9871fd07b61811c4c28df",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0159c053d2a5820a6e3907dd69fe64627e4c0f16a62a5628f9f6987bdda1970f",
+      "duration": 1.4,
+      "graphemes": [
+        "pause"
+      ],
+      "phonemes": [
+        "pˈɔz"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "i",
+      "src": "/audio/wordlists/ngsl-spoken/i.mp3",
+      "text": "I",
+      "textSha256": "a83dd0ccbffe39d071cc317ddf6e97f5c6b1c87af91919271f9fa140b0508c6c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e747435a139449ee22b32c1a68c0a14c44fe38d83dd24ed5b8d81c9685397db6",
+      "duration": 0.775,
+      "graphemes": [
+        "I"
+      ],
+      "phonemes": [
+        "ˌI"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "unclear",
+      "src": "/audio/wordlists/ngsl-spoken/unclear.mp3",
+      "text": "unclear",
+      "textSha256": "66625d4dc242e87b0b974dcb194c75143097a454bec74ca469f77d26d06bff77",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "226c732b1ee4b014c669c2d225bdbb33aeda05975d7b8ed2a7eb5d148ca5bcf8",
+      "duration": 1.475,
+      "graphemes": [
+        "unclear"
+      ],
+      "phonemes": [
+        "ˌʌnklˈɪɹ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "for",
+      "src": "/audio/wordlists/ngsl-spoken/for.mp3",
+      "text": "for",
+      "textSha256": "10c22bcf4c768b515be4e94bcafc71bf3e8fb5f70b2584bcc8c7533217f2e7f9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "826ff371d5f317823730b27d58f7446da063e15203eaa5dc5a01350281415989",
+      "duration": 1.2,
+      "graphemes": [
+        "for"
+      ],
+      "phonemes": [
+        "fɔɹ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "think",
+      "src": "/audio/wordlists/ngsl-spoken/think.mp3",
+      "text": "think",
+      "textSha256": "dc2fc19d8fce376c47641cf15f823a03ad10f2dc7da3f43230551f50706914f5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "371f7b266e26409a83fa3175865dd7799e916c34d04173ecfd9c680a1e64a9c3",
+      "duration": 1.275,
+      "graphemes": [
+        "think"
+      ],
+      "phonemes": [
+        "θˈɪŋk"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "like",
+      "src": "/audio/wordlists/ngsl-spoken/like.mp3",
+      "text": "like",
+      "textSha256": "cab2644828bcc1f220612fde559864da2c5bf0c6eebdcadbb4a4c88c9fcf3927",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2548305f1df24b8138d95f228b88b1cc1368e4fa094363c13903228428bdd062",
+      "duration": 1.275,
+      "graphemes": [
+        "like"
+      ],
+      "phonemes": [
+        "lˈIk"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "there",
+      "src": "/audio/wordlists/ngsl-spoken/there.mp3",
+      "text": "there",
+      "textSha256": "e244f187f696561d5fd7e00f618e7ba641dc52e3c137380f6fa23a854b773aac",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "05cde8bd577bcc34bb902c66604e3165c6aafcd22aa8f1b63a2628dc8a2aa2c4",
+      "duration": 1.2,
+      "graphemes": [
+        "there"
+      ],
+      "phonemes": [
+        "ðˈɛɹ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "will",
+      "src": "/audio/wordlists/ngsl-spoken/will.mp3",
+      "text": "will",
+      "textSha256": "bc16f5825a9dafc8c245dc7cd93f4e671a9885035a73e6ef29c04f2d3863bfab",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bab36aef30fc5d50876af033351ea041764e93deb8e74f48b23b0b61630ce8fb",
+      "duration": 1.3,
+      "graphemes": [
+        "will"
+      ],
+      "phonemes": [
+        "wˈɪl"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "say",
+      "src": "/audio/wordlists/ngsl-spoken/say.mp3",
+      "text": "say",
+      "textSha256": "a0b967fc60136d2ef96fa2a4feaf41ea3e0f266e510b4a5e188b6f781ae12a30",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ccc514f8eeaf017b9d7cd5130dd0209a5b373000137b8c08cc3b4da6da403004",
+      "duration": 1.325,
+      "graphemes": [
+        "say"
+      ],
+      "phonemes": [
+        "sˈA"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "she",
+      "src": "/audio/wordlists/ngsl-spoken/she.mp3",
+      "text": "she",
+      "textSha256": "2cda85e504e155f30a40f1f1cc4e83f3f8ec178033f6b6170cc9381f5e4f9d3d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2d70a06aa05d8f33ac73bf3ce1f63bce81b425635293a067d3362ad7a52af940",
+      "duration": 1.175,
+      "graphemes": [
+        "she"
+      ],
+      "phonemes": [
+        "ʃi"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "what",
+      "src": "/audio/wordlists/ngsl-spoken/what.mp3",
+      "text": "what",
+      "textSha256": "749ab2c0d06c42ae3b841b79e79875f02b3a042e43c92378cd28bd444c04d284",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a78b3de53c35bffea4f022e1f694ade474cf0b4023554cbf74871d100debff1b",
+      "duration": 1.15,
+      "graphemes": [
+        "what"
+      ],
+      "phonemes": [
+        "wˌʌt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "just",
+      "src": "/audio/wordlists/ngsl-spoken/just.mp3",
+      "text": "just",
+      "textSha256": "b2c66dfd45dd07f58d2246b695660b220ee429c6a8ba95f27e4c57f02e9d6ac8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7efc53b3d6b194a0283996926c1e7d0078f5ac1d908a2f6a849af45c63618d8d",
+      "duration": 1.25,
+      "graphemes": [
+        "just"
+      ],
+      "phonemes": [
+        "ʤˈʌst"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "well",
+      "src": "/audio/wordlists/ngsl-spoken/well.mp3",
+      "text": "well",
+      "textSha256": "a7722b765d15608d5d24a319140e6665cb361a0758285125722a2d5aece38808",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8e9ee2057ab1df48654f6497491a5cdb92b9f33090991629f356054f99d5603e",
+      "duration": 1.275,
+      "graphemes": [
+        "well"
+      ],
+      "phonemes": [
+        "wˈɛl"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "one",
+      "src": "/audio/wordlists/ngsl-spoken/one.mp3",
+      "text": "one",
+      "textSha256": "7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "02198dbd7c6d2a07b87a04ebbdaf232d8f370c9173856bd9bd7753785426cc9b",
+      "duration": 1.275,
+      "graphemes": [
+        "one"
+      ],
+      "phonemes": [
+        "wˈʌn"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "with",
+      "src": "/audio/wordlists/ngsl-spoken/with.mp3",
+      "text": "with",
+      "textSha256": "0695b563acde461fc2f8d9aebccf35c7596ac458b8d8e067c602fb7b4e5f1578",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6b3e94b9760322687ca0aa44cc2b92f014fe3ccd71c4f0f38e99002420e2148a",
+      "duration": 1.275,
+      "graphemes": [
+        "with"
+      ],
+      "phonemes": [
+        "wɪð"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "if",
+      "src": "/audio/wordlists/ngsl-spoken/if.mp3",
+      "text": "if",
+      "textSha256": "935f68319d4f227e02bfd54a0ddf85b8a242e42a4277aa5ef5eaab691710924e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "07028dedab1cdd967cb27b9dcb69e6a5051460182848d5946bdc30bdcc6b3a98",
+      "duration": 0.8,
+      "graphemes": [
+        "if"
+      ],
+      "phonemes": [
+        "ɪf"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "at",
+      "src": "/audio/wordlists/ngsl-spoken/at.mp3",
+      "text": "at",
+      "textSha256": "b1d6b91b67c2afa5e322988d9462638d354ddf8a1ef79dba987f815c22b4baee",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b7516794429c415b0895a2f1ecf0a96606b1ef2e8777372b49c8ca9aff1965b4",
+      "duration": 0.95,
+      "graphemes": [
+        "at"
+      ],
+      "phonemes": [
+        "æt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "all",
+      "src": "/audio/wordlists/ngsl-spoken/all.mp3",
+      "text": "all",
+      "textSha256": "5ef5ef0364b6939c4ca61f34b393f7b368d1be8619647aaf83d5b395919ab629",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "16656b3f4660c6bf46f03afe177d672b08c591015b774594b44916cd50a084a3",
+      "duration": 1.275,
+      "graphemes": [
+        "all"
+      ],
+      "phonemes": [
+        "ˈɔl"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "about",
+      "src": "/audio/wordlists/ngsl-spoken/about.mp3",
+      "text": "about",
+      "textSha256": "a4262e1c9bcbc1721eb3fe13558154460a2b2a2d307daa32532478526ce6ccb1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9e64f751e53496553b119d3a11201f73b1f189211564a461cf84fe5d76095a05",
+      "duration": 1.325,
+      "graphemes": [
+        "about"
+      ],
+      "phonemes": [
+        "əbˈWt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "or",
+      "src": "/audio/wordlists/ngsl-spoken/or.mp3",
+      "text": "or",
+      "textSha256": "7175517a370b5cd2e664e3fd29c4ea9db5ce17058eb9772fe090a5485e49dad6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "99dcb59a0cea2f5403600502bad693950e0585f2d41c59a11472184d872b9cbd",
+      "duration": 1.125,
+      "graphemes": [
+        "or"
+      ],
+      "phonemes": [
+        "ɔɹ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "as",
+      "src": "/audio/wordlists/ngsl-spoken/as.mp3",
+      "text": "as",
+      "textSha256": "f4bf9f7fcbedaba0392f108c59d8f4a38b3838efb64877380171b54475c2ade8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "78d22c686dee9da4a8d9c3e052763bf717a1e3800ae02fd7f7bc8e435258b938",
+      "duration": 0.65,
+      "graphemes": [
+        "as"
+      ],
+      "phonemes": [
+        "æz"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "would",
+      "src": "/audio/wordlists/ngsl-spoken/would.mp3",
+      "text": "would",
+      "textSha256": "c6323a2117013ed6844d6411a3d0fb37e8ed54eda75bb3833959b02fd71514e0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8728a1e4773632785e5ff076fed90c20932e5f3779ff871b9236b948310304e5",
+      "duration": 1.3,
+      "graphemes": [
+        "would"
+      ],
+      "phonemes": [
+        "wˈʊd"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "then",
+      "src": "/audio/wordlists/ngsl-spoken/then.mp3",
+      "text": "then",
+      "textSha256": "21af6f1260f927f5b9b3ff5ca4a5d19493a1a47a5977240d8dca31bc47a63527",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d603fdaad316d76693ce3aec0de9af8c522a5b2b3a95df721b951ab29b9caf21",
+      "duration": 1.35,
+      "graphemes": [
+        "then"
+      ],
+      "phonemes": [
+        "ðˈɛn"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "because",
+      "src": "/audio/wordlists/ngsl-spoken/because.mp3",
+      "text": "because",
+      "textSha256": "a511aeeeb8a119931a67038a63b7974faee48712de1c79391ebe2c9b929678e9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "13fb2d1d60e1e90e100f25465bc430141785a05c94900db71cca84a914e05cb7",
+      "duration": 1.5,
+      "graphemes": [
+        "because"
+      ],
+      "phonemes": [
+        "bəkˈʌz"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "right",
+      "src": "/audio/wordlists/ngsl-spoken/right.mp3",
+      "text": "right",
+      "textSha256": "27042f4e6eca7d0b2a7ee4026df2ecfa51d3339e6d122aa099118ecd8563bad9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fbecef3a00b2fc28ad8260f811aa8b33591d28204e8427a299610d59c2052fe2",
+      "duration": 1.225,
+      "graphemes": [
+        "right"
+      ],
+      "phonemes": [
+        "ɹˈIt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "can",
+      "src": "/audio/wordlists/ngsl-spoken/can.mp3",
+      "text": "can",
+      "textSha256": "9f584196e7fe6de85d3898bc0b11c78b1d0a1d49530ee5eaf7c26c3939cf043d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "eab86f80571a690d1c8a77f3aa154ae459a605fb278c3ec94c287cafa8a3217a",
+      "duration": 1.325,
+      "graphemes": [
+        "can"
+      ],
+      "phonemes": [
+        "kˈæn"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "no",
+      "src": "/audio/wordlists/ngsl-spoken/no.mp3",
+      "text": "no",
+      "textSha256": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d697eb6b96dd2a149d70993bf9dff26d2972cad925728891ca14fbcd0dae9bb1",
+      "duration": 1.225,
+      "graphemes": [
+        "no"
+      ],
+      "phonemes": [
+        "nˈO"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "up",
+      "src": "/audio/wordlists/ngsl-spoken/up.mp3",
+      "text": "up",
+      "textSha256": "75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5161939a8f5c92ec3c5533d6a398e6f859e777f2e567ce5fbdcc529fc5eef9c9",
+      "duration": 1.15,
+      "graphemes": [
+        "up"
+      ],
+      "phonemes": [
+        "ˌʌp"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "mean",
+      "src": "/audio/wordlists/ngsl-spoken/mean.mp3",
+      "text": "mean",
+      "textSha256": "82523faea1b0f2da676a0561d597000bb6918036c6e541dc1145966141864332",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "978e4968a53e130e8d2edb10a5cf9b75888bc05b99a36f021d44a69187f459a8",
+      "duration": 1.35,
+      "graphemes": [
+        "mean"
+      ],
+      "phonemes": [
+        "mˈin"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "out",
+      "src": "/audio/wordlists/ngsl-spoken/out.mp3",
+      "text": "out",
+      "textSha256": "762069bc07a6e1b5df123a5ae7bd91c10daa04694fbaa17fba0cd6a8dcce8f22",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "44f4df7d2ca168c5eaf7bc43cc9313b2d8066adb53e6a479cc1497cb20975728",
+      "duration": 1.225,
+      "graphemes": [
+        "out"
+      ],
+      "phonemes": [
+        "ˈWt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "see",
+      "src": "/audio/wordlists/ngsl-spoken/see.mp3",
+      "text": "see",
+      "textSha256": "aa9e9b5c907d50feb410f2a84e81ab72c5ae6724d57ccc53650f9361d33dc734",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0044fd6d12811b79fd2855c8997099a6c113e421f59fd808842510170c38f3ff",
+      "duration": 1.275,
+      "graphemes": [
+        "see"
+      ],
+      "phonemes": [
+        "sˈi"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "thing",
+      "src": "/audio/wordlists/ngsl-spoken/thing.mp3",
+      "text": "thing",
+      "textSha256": "5de94d691ae3039a3f5d362fea9a35964fe0cc4ae44a6a84266d3614755c69b2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d0a947a6e273c4e32b28fdbf1ae5480c38ff62a30e2305d42232fe51db021af5",
+      "duration": 1.325,
+      "graphemes": [
+        "thing"
+      ],
+      "phonemes": [
+        "θˈɪŋ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "yes",
+      "src": "/audio/wordlists/ngsl-spoken/yes.mp3",
+      "text": "yes",
+      "textSha256": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d4dfaba84c808ea163ec28e95b81b6006318bcd3a8856db294f74397bf1c7ca0",
+      "duration": 1.325,
+      "graphemes": [
+        "yes"
+      ],
+      "phonemes": [
+        "jˈɛs"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "when",
+      "src": "/audio/wordlists/ngsl-spoken/when.mp3",
+      "text": "when",
+      "textSha256": "15eaa75240aed625be3e142205df3adbbb7051802b32f450e40276be8582b6d8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7005d0f036251c5ff535b1d27413b187d6906241625b278c61c3902b7e3169e0",
+      "duration": 1.25,
+      "graphemes": [
+        "when"
+      ],
+      "phonemes": [
+        "wˌɛn"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "really",
+      "src": "/audio/wordlists/ngsl-spoken/really.mp3",
+      "text": "really",
+      "textSha256": "db8ffbe1cd19708b8ffbec1ddabb56f3c996c7710e7352455faeafeb7e161101",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "66727a1e54c6c2d1efb07164c8fb0e4b8686487b16cecdebfa484db885ea8306",
+      "duration": 1.375,
+      "graphemes": [
+        "really"
+      ],
+      "phonemes": [
+        "ɹˈiᵊli"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "want",
+      "src": "/audio/wordlists/ngsl-spoken/want.mp3",
+      "text": "want",
+      "textSha256": "8656aa55d393b032b7f05fd40daac127c4862315017072b231d726ccf0d686e6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "01ba2830e972e6dbef9c15ae61e213bf6f5c9fb11837586f58d7013a6882694a",
+      "duration": 1.3,
+      "graphemes": [
+        "want"
+      ],
+      "phonemes": [
+        "wˈɑnt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "come",
+      "src": "/audio/wordlists/ngsl-spoken/come.mp3",
+      "text": "come",
+      "textSha256": "9c19636ddea25f0a13357d01c0aef27a4eb4c7f8cbaf2be35f272273572ce2e5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0ad92daa85208a24de31b0edbaa72f8e69ead3ea7c62dceed82cbe03a5679212",
+      "duration": 1.35,
+      "graphemes": [
+        "come"
+      ],
+      "phonemes": [
+        "kˈʌm"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "now",
+      "src": "/audio/wordlists/ngsl-spoken/now.mp3",
+      "text": "now",
+      "textSha256": "ed5eb9a37e2d8231af3388319b941995f6dc8755c56043d0cc52b5fe405a87de",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5a7697776dae101e1c033e23ff46a4e5fa497c9086eb0afae22863da74e138d0",
+      "duration": 1.2,
+      "graphemes": [
+        "now"
+      ],
+      "phonemes": [
+        "nˈW"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "some",
+      "src": "/audio/wordlists/ngsl-spoken/some.mp3",
+      "text": "some",
+      "textSha256": "a6b46dd0d1ae5e86cbc8f37e75ceeb6760230c1ca4ffbcb0c97b96dd7d9c464b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8f42f65014fccb5466c0d5b3aded8c02557b7b5a3011d91115d3f3afaede3346",
+      "duration": 1.225,
+      "graphemes": [
+        "some"
+      ],
+      "phonemes": [
+        "sˌʌm"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "good",
+      "src": "/audio/wordlists/ngsl-spoken/good.mp3",
+      "text": "good",
+      "textSha256": "770e607624d689265ca6c44884d0807d9b054d23c473c106c72be9de08b7376c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6afd4dd07ff34b07c17ad8b6c3260b6f9205ada801abaffaf5cfa8ca8995087c",
+      "duration": 1.25,
+      "graphemes": [
+        "good"
+      ],
+      "phonemes": [
+        "ɡˈʊd"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "from",
+      "src": "/audio/wordlists/ngsl-spoken/from.mp3",
+      "text": "from",
+      "textSha256": "75857a45899985be4c4d941e90b6b396d6c92a4c7437aaf0bf102089fe21379d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b7fb7067fdce6a0782e9e6ab423c5c83ef186898617e437212e914af5c0714fd",
+      "duration": 1.3,
+      "graphemes": [
+        "from"
+      ],
+      "phonemes": [
+        "fɹʌm"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "time",
+      "src": "/audio/wordlists/ngsl-spoken/time.mp3",
+      "text": "time",
+      "textSha256": "336074805fc853987abe6f7fe3ad97a6a6f3077a16391fec744f671a015fbd7e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fd2317502617b2f612d344c5ac9e914b963d09fb1cbc9536d8f9302219c052e1",
+      "duration": 1.4,
+      "graphemes": [
+        "time"
+      ],
+      "phonemes": [
+        "tˈIm"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "people",
+      "src": "/audio/wordlists/ngsl-spoken/people.mp3",
+      "text": "people",
+      "textSha256": "c9022680f888674e2b2274758755bfa07dea729b68d71cde5c521ed70ef261bf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "285b631703de7a4bf498c5da003283e70ce2eee3c3a2025e6888fe14ea60524f",
+      "duration": 1.375,
+      "graphemes": [
+        "people"
+      ],
+      "phonemes": [
+        "pˈipᵊl"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "very",
+      "src": "/audio/wordlists/ngsl-spoken/very.mp3",
+      "text": "very",
+      "textSha256": "4c6a4839f83d20d276e7ba94bde38eed7e8495fcefcea6222fb5d2ff5b60fc4b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fc186519e921c2551f4f47aba2bd8dc690f0f9797b83c2e84fda294db8fa38b3",
+      "duration": 1.4,
+      "graphemes": [
+        "very"
+      ],
+      "phonemes": [
+        "vˈɛɹi"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "yeah",
+      "src": "/audio/wordlists/ngsl-spoken/yeah.mp3",
+      "text": "yeah",
+      "textSha256": "a495a4b86c1eac64327d8cad2598044314d9176f0ac069fbea0cf0baf08b6c9b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "35b2b32cace5bc68433f42a7a6a9694100b6b93268a2b3c2edf14da8dfe2b80f",
+      "duration": 1.325,
+      "graphemes": [
+        "yeah"
+      ],
+      "phonemes": [
+        "jˈɛə"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "make",
+      "src": "/audio/wordlists/ngsl-spoken/make.mp3",
+      "text": "make",
+      "textSha256": "d05aa2a15fb3c40efeeb03bec445393f00074484cf01c8fb2da90ca6695a5531",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dd28679a509d390f496baf5c4904f2bdd19e628636bab819f8d7b4dac5ced591",
+      "duration": 1.225,
+      "graphemes": [
+        "make"
+      ],
+      "phonemes": [
+        "mˌAk"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "look",
+      "src": "/audio/wordlists/ngsl-spoken/look.mp3",
+      "text": "look",
+      "textSha256": "3c01eba119e00d79c82b6f65d70bc5f1044d568618bf41377e6d1432023fc2b8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2692f252221bc9da38c562b5e19ab7727e58036d42f43308d84ff84a1c3faa77",
+      "duration": 1.175,
+      "graphemes": [
+        "look"
+      ],
+      "phonemes": [
+        "lˈʊk"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "two",
+      "src": "/audio/wordlists/ngsl-spoken/two.mp3",
+      "text": "two",
+      "textSha256": "3fc4ccfe745870e2c0d99f71f30ff0656c8dedd41cc1d7d3d376b0dbe685e2f3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6a78bdb264b479439f7b3a0ebb72497a587affe4b14aae5351c5fde59ce17a1a",
+      "duration": 1.3,
+      "graphemes": [
+        "two"
+      ],
+      "phonemes": [
+        "tˈu"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "take",
+      "src": "/audio/wordlists/ngsl-spoken/take.mp3",
+      "text": "take",
+      "textSha256": "d1905cf90af29a5ac3f99e105830eecc5b3b415b24e2d166a7ce4cf72b2f32e6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "af1157aaf9cec6cf67c134944f070f3aade864b1e11b7dc8138325d925fc7cbb",
+      "duration": 1.25,
+      "graphemes": [
+        "take"
+      ],
+      "phonemes": [
+        "tˈAk"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "here",
+      "src": "/audio/wordlists/ngsl-spoken/here.mp3",
+      "text": "here",
+      "textSha256": "fcec91509759ad995c2cd14bcb26b2720993faf61c29d379b270d442d92290eb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2a669b5ac8d0aa46ac9cec8f339d88e4a56aa7be1eed0d3e4dcc1359fc4bd96c",
+      "duration": 1.3,
+      "graphemes": [
+        "here"
+      ],
+      "phonemes": [
+        "hˈɪɹ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "which",
+      "src": "/audio/wordlists/ngsl-spoken/which.mp3",
+      "text": "which",
+      "textSha256": "77bc06c55d29ee3cfa295b4592e4b2a85a16bb06a8974726b7bfa3d4ca36d5ae",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b220610108916489e399df4b0fa30f50339ebcda96cc4221f26ef61bf9db1d4f",
+      "duration": 1.225,
+      "graphemes": [
+        "which"
+      ],
+      "phonemes": [
+        "wˌɪʧ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "could",
+      "src": "/audio/wordlists/ngsl-spoken/could.mp3",
+      "text": "could",
+      "textSha256": "0e031e954a432055ace97e08d1a097013f562c021a1c3aa3ab4948dd56793b86",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e0204a52bab40f362f88871a69b766401635a0b203d1021f26a47ca6dd5163be",
+      "duration": 1.3,
+      "graphemes": [
+        "could"
+      ],
+      "phonemes": [
+        "kˈʊd"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "work",
+      "src": "/audio/wordlists/ngsl-spoken/work.mp3",
+      "text": "work",
+      "textSha256": "00e13ed7af55b27622f1d6eab5bec0147e68efe28dc2b12461117afa1a5ed40e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3e11b794e77fc2ec279f33adb2d6d222f12404b4b79b2aa38696773c28a5573a",
+      "duration": 1.275,
+      "graphemes": [
+        "work"
+      ],
+      "phonemes": [
+        "wˈɜɹk"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "more",
+      "src": "/audio/wordlists/ngsl-spoken/more.mp3",
+      "text": "more",
+      "textSha256": "187897ce0afcf20b50ba2b37dca84a951b7046f29ed5ab94f010619f69d6e189",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "62d0b7a25a6dc6a1d4901c39a147311cd4f8faa07837d7a599e075ab5afe1c3a",
+      "duration": 1.25,
+      "graphemes": [
+        "more"
+      ],
+      "phonemes": [
+        "mˈɔɹ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "who",
+      "src": "/audio/wordlists/ngsl-spoken/who.mp3",
+      "text": "who",
+      "textSha256": "6ed0337140bd32b4adc5000f76333bd8ca6b2b2c9e0bc354335cf341456290e8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "148fdafeaa356ffc97a3c00d6614b86ed3be795c85ea80c4e11227bb9c2b0319",
+      "duration": 1.275,
+      "graphemes": [
+        "who"
+      ],
+      "phonemes": [
+        "hˌu"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "other",
+      "src": "/audio/wordlists/ngsl-spoken/other.mp3",
+      "text": "other",
+      "textSha256": "d9298a10d1b0735837dc4bd85dac641b0f3cef27a47e5d53a54f2f3f5b2fcffa",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f012c1df10f1d35d7f6f3d27dcb9a0dd7560ca6764a59c872cd76d83b97aa047",
+      "duration": 0.875,
+      "graphemes": [
+        "other"
+      ],
+      "phonemes": [
+        "ˈʌðəɹ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "laugh",
+      "src": "/audio/wordlists/ngsl-spoken/laugh.mp3",
+      "text": "laugh",
+      "textSha256": "31e289f536683cb9ce6c237111891704a554adbe414fc060042bebf1d770a957",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c912af58782819398ad900b0ba85a9ac950b6f772155f73e8cd690abf958e6bb",
+      "duration": 1.225,
+      "graphemes": [
+        "laugh"
+      ],
+      "phonemes": [
+        "lˈæf"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "where",
+      "src": "/audio/wordlists/ngsl-spoken/where.mp3",
+      "text": "where",
+      "textSha256": "b48111c10c65fc119368edafb19f97451759ee90b3f44647368135ca47aa4753",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4885cc5dec940a5b13dafe60ed2380f9397bc5b764d98bd8bc1b1fa78e4975ee",
+      "duration": 1.175,
+      "graphemes": [
+        "where"
+      ],
+      "phonemes": [
+        "wˌɛɹ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "use",
+      "src": "/audio/wordlists/ngsl-spoken/use.mp3",
+      "text": "use",
+      "textSha256": "a3b142af6e97cfc3bb23e409ab83467af7d16ded7dc0632be6a6a9023e49ce8b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ee5423eaf4c6ec9f391549bfa5e53ce56cccdd30765683b479257aeb36d01a80",
+      "duration": 1.35,
+      "graphemes": [
+        "use"
+      ],
+      "phonemes": [
+        "jˈus"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "something",
+      "src": "/audio/wordlists/ngsl-spoken/something.mp3",
+      "text": "something",
+      "textSha256": "3fc9b689459d738f8c88a3a48aa9e33542016b7a4052e001aaa536fca74813cb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8d7ca2acc114505096ad8c09365c96b975f4d4b48a596106f23cb9a4e3fa0fa1",
+      "duration": 1.45,
+      "graphemes": [
+        "something"
+      ],
+      "phonemes": [
+        "sˈʌmθˌɪŋ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "how",
+      "src": "/audio/wordlists/ngsl-spoken/how.mp3",
+      "text": "how",
+      "textSha256": "8044aae1f86875d993f20d7fe3815306b640d6e039c4512cd7a2f8453207b4cd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e614c0ad17714284fda1d1132cacb4791c9f311b26c165321f85b3377c71f9ca",
+      "duration": 1.2,
+      "graphemes": [
+        "how"
+      ],
+      "phonemes": [
+        "hˌW"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "back",
+      "src": "/audio/wordlists/ngsl-spoken/back.mp3",
+      "text": "back",
+      "textSha256": "3c482346f375027677fa8a0d6830a32714d4f13f9e94c2d9e215e0ac205ad4e5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ff4833305c73fd9b1d606e94e4c795f6c7a026a52cce7091665db4b6c39ebac7",
+      "duration": 1.225,
+      "graphemes": [
+        "back"
+      ],
+      "phonemes": [
+        "bˈæk"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "year",
+      "src": "/audio/wordlists/ngsl-spoken/year.mp3",
+      "text": "year",
+      "textSha256": "4cb4ea25583c25647247ae96fc90225d99ad7a6fabc3e2c2fd13c502e323cd9e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f71adc2672e63814a8234c9a3556430bbc2063bd4aa20b6df3cc75e9eced3368",
+      "duration": 1.3,
+      "graphemes": [
+        "year"
+      ],
+      "phonemes": [
+        "jˈɪɹ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "by",
+      "src": "/audio/wordlists/ngsl-spoken/by.mp3",
+      "text": "by",
+      "textSha256": "a7e2d26e8d15814dd9c6a1bdc90585c8d0a3170dfffeb21fc42986683113041b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "69a147b6f155e4f160dc109791d7e9028e6cda796495f829a3d5488d8f016929",
+      "duration": 1.3,
+      "graphemes": [
+        "by"
+      ],
+      "phonemes": [
+        "bˈI"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "any",
+      "src": "/audio/wordlists/ngsl-spoken/any.mp3",
+      "text": "any",
+      "textSha256": "d6a7cd2a7371b1a15d543196979ff74fdb027023ebf187d5d329be11055c77fd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "513200d95dcbb309d1138bab15e5004b57e3b20e2eef1495a47d872aa54d2625",
+      "duration": 1.375,
+      "graphemes": [
+        "any"
+      ],
+      "phonemes": [
+        "ˈɛni"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "lot",
+      "src": "/audio/wordlists/ngsl-spoken/lot.mp3",
+      "text": "lot",
+      "textSha256": "b7b30d6e4f8c864714bf46cb6df3e5cc89c91af4ac4f31edac07cdf1f9090d4d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c1dbfef786401cf0e88606f278a30af9333ec6c7fea0c62c360156087acdaeb6",
+      "duration": 1.25,
+      "graphemes": [
+        "lot"
+      ],
+      "phonemes": [
+        "lˈɑt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "way",
+      "src": "/audio/wordlists/ngsl-spoken/way.mp3",
+      "text": "way",
+      "textSha256": "44c5e7071f3a75a22457bc5f06d3e2ba564b4d6ee8165fb0e9087bacf953bcc3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d17444b54c71f28670175c50f0b24cad4a23db216ae7d6d97697e52ffbd025b2",
+      "duration": 1.25,
+      "graphemes": [
+        "way"
+      ],
+      "phonemes": [
+        "wˈA"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "put",
+      "src": "/audio/wordlists/ngsl-spoken/put.mp3",
+      "text": "put",
+      "textSha256": "373cb2c6d4fe2778441d4f0266505b699fa518d002e5793b87f9b48836de3f62",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5bbefb227acd125ff221e6e946b2993c8b6956b36e772585681311bb6d855df5",
+      "duration": 1.2,
+      "graphemes": [
+        "put"
+      ],
+      "phonemes": [
+        "pˌʊt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "down",
+      "src": "/audio/wordlists/ngsl-spoken/down.mp3",
+      "text": "down",
+      "textSha256": "908aec4512d80ff4fefb1970899091e9de8e734b36b8fdb7678e77dc092f6959",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2154024a78648f225f95b9ef24e6bc1d24c6002d6996f441a31d546b519796ea",
+      "duration": 1.325,
+      "graphemes": [
+        "down"
+      ],
+      "phonemes": [
+        "dˌWn"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "give",
+      "src": "/audio/wordlists/ngsl-spoken/give.mp3",
+      "text": "give",
+      "textSha256": "0895a532e404a5c9ea96eac7982d268f22de22c9705dcda0e1eb445ea379b005",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f358d2aef849a48671ce25c3fa563007e002030b5fdc936e1ade739602881578",
+      "duration": 0.8,
+      "graphemes": [
+        "give"
+      ],
+      "phonemes": [
+        "ɡˈɪv"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sort",
+      "src": "/audio/wordlists/ngsl-spoken/sort.mp3",
+      "text": "sort",
+      "textSha256": "646964943fd2271187dbe29287f57e0238491c029cc6d8ce76f25ae240474294",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "33f7e231ec2d6e9f12378ed7337c3a4a042f8b6f542d13e96eaeb223b93601a6",
+      "duration": 1.25,
+      "graphemes": [
+        "sort"
+      ],
+      "phonemes": [
+        "sˈɔɹt"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "three",
+      "src": "/audio/wordlists/ngsl-spoken/three.mp3",
+      "text": "three",
+      "textSha256": "8b5b9db0c13db24256c829aa364aa90c6d2eba318b9232a4ab9313b954d3555f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e033ac906be3652b6b92e21ec2b0cf18b09d09b2015e4198a988398e66c94b3e",
+      "duration": 1.35,
+      "graphemes": [
+        "three"
+      ],
+      "phonemes": [
+        "θɹˈi"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "much",
+      "src": "/audio/wordlists/ngsl-spoken/much.mp3",
+      "text": "much",
+      "textSha256": "543b1c4bd4f6b184ca2aef09ca8e5aeadb04907efa0ac7b81b00f8b9ea8133cd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dd64c975118f99a32feb57ad96a5b48aec007c107a3cffa2603e631c43e87f79",
+      "duration": 1.25,
+      "graphemes": [
+        "much"
+      ],
+      "phonemes": [
+        "mˈʌʧ"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "actually",
+      "src": "/audio/wordlists/ngsl-spoken/actually.mp3",
+      "text": "actually",
+      "textSha256": "e4c05c565b8cac5ea25494e0abca7751fae5d5e17457de07f03f247b65666b0e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5041750749e8595ec0c1a213a8d8088bf6668f2440715b070bb1bd5a6c763cd9",
+      "duration": 1.5,
+      "graphemes": [
+        "actually"
+      ],
+      "phonemes": [
+        "ˈækʧəwəli"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "need",
+      "src": "/audio/wordlists/ngsl-spoken/need.mp3",
+      "text": "need",
+      "textSha256": "be8dff00b0d468b29d804886729be5b430163ad625b1b621d943c2f80005281a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f9598c9f8ddd68bb903bfe52fb34afd0e64bc4590e9793c3f05e073197daad66",
+      "duration": 1.275,
+      "graphemes": [
+        "need"
+      ],
+      "phonemes": [
+        "nˈid"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "talk",
+      "src": "/audio/wordlists/ngsl-spoken/talk.mp3",
+      "text": "talk",
+      "textSha256": "ce7611e7481e75f085f6902050b40918b0e8374634eeb803ad3e340e90267d6a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f7531611074d1a8dc15a2bb3ee20967ec6f3ddb5f3b34a8d7478bd6d8b25f7a7",
+      "duration": 1.25,
+      "graphemes": [
+        "talk"
+      ],
+      "phonemes": [
+        "tˈɔk"
+      ]
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "kind",
+      "src": "/audio/wordlists/ngsl-spoken/kind.mp3",
+      "text": "kind",
+      "textSha256": "0b27c158feb36ab18a10ff687909ec730ece6280581dd407e2672359be7725dd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4adb46e207e67f1c2578b6c21f8499c96ab02f8dc6107089250080adfba13264",
+      "duration": 1.35,
+      "graphemes": [
+        "kind"
+      ],
+      "phonemes": [
+        "kˈInd"
+      ]
+    }
+  ]
+}

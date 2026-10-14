@@ -1,5 +1,6 @@
 import { Rating, createEmptyCard, fsrs, type Card } from 'ts-fsrs';
-import { cardKey, isDailyNewLimit, sameSource, type CardContent, type CardSource, type Grade, type ReviewState, type StoredCard, type StoredSchedule } from './review-state.ts';
+import { cardKey, isDailyNewLimit, isNewCard, newCardAllowance, sameSource, type CardContent, type CardSource, type Grade, type ReviewState, type StoredCard, type StoredSchedule, type Subscription } from './review-state.ts';
+import type { WordListData } from './wordlist-data.ts';
 
 // 這個模組是唯一需要 ts-fsrs 的地方；不需要排程演算法的純函式都在 review-state.ts，讓每頁載入的腳本不必帶進 ts-fsrs。
 
@@ -7,7 +8,10 @@ export type Action =
   | { type: 'ADD_CARD'; card: CardContent; source: CardSource; now: Date }
   | { type: 'REMOVE_CARD'; cardKey: string; source: CardSource }
   | { type: 'GRADE'; cardKey: string; grade: Grade; now: Date }
-  | { type: 'SET_DAILY_NEW_LIMIT'; limit: number | null };
+  | { type: 'SET_DAILY_NEW_LIMIT'; limit: number | null }
+  | { type: 'SUBSCRIBE'; wordListId: string; now: Date }
+  | { type: 'UNSUBSCRIBE'; wordListId: string }
+  | { type: 'ISSUE_NEW_CARDS'; wordLists: WordListData[]; now: Date };
 
 const scheduler = fsrs();
 
@@ -17,6 +21,44 @@ function serializeSchedule(card: Card): StoredSchedule {
 }
 
 const newSchedule = (now: Date): StoredSchedule => serializeSchedule(createEmptyCard(now));
+
+/**
+ * 依詞頻把訂閱詞表的詞發成新卡。今天的新卡額度先給已在等的新卡（手動加入的、前幾天發了還沒學的），
+ * 剩下的才由各訂閱詞表輪流補上；詞表裡已經是字卡的詞跳過，不占額度。額度用完或詞表發完就原樣回傳。
+ */
+function issueNewCards(state: ReviewState, wordLists: WordListData[], now: Date): ReviewState {
+  let slots = newCardAllowance(state, now) - state.cards.filter(isNewCard).length;
+  if (slots <= 0 || state.subscriptions.length === 0) return state;
+  const lists = new Map(wordLists.map((list) => [list.id, list]));
+  const subscriptions = state.subscriptions.map((subscription) => ({ ...subscription }));
+  const cards = [...state.cards];
+  const keys = new Set(cards.map((card) => card.key));
+  let changed = false;
+
+  /** 讓一份訂閱前進到下一個尚未是字卡的詞並發出；回傳這份詞表之後是否還有詞。 */
+  const issueNext = (subscription: Subscription, list: WordListData): boolean => {
+    for (const entry of list.entries) {
+      if (entry.rank <= subscription.issuedThrough) continue;
+      subscription.issuedThrough = entry.rank;
+      changed = true;
+      const content: CardContent = { english: entry.english, meaning: entry.meaning, example: entry.example, audioSrc: entry.audioSrc };
+      const key = cardKey(content);
+      if (keys.has(key)) continue;
+      keys.add(key);
+      cards.push({ key, content, sources: [{ kind: 'wordlist', id: list.id, title: list.name, href: '/review/' }], schedule: newSchedule(now), firstReviewedAt: null });
+      subscription.issuedCount += 1;
+      slots -= 1;
+      break;
+    }
+    return list.entries.some((entry) => entry.rank > subscription.issuedThrough);
+  };
+
+  let active = subscriptions.filter((subscription) => lists.has(subscription.wordListId));
+  while (slots > 0 && active.length > 0) {
+    active = active.filter((subscription) => slots <= 0 || issueNext(subscription, lists.get(subscription.wordListId)!));
+  }
+  return changed ? { ...state, cards, subscriptions } : state;
+}
 
 export function reduce(state: ReviewState, action: Action): ReviewState {
   switch (action.type) {
@@ -49,6 +91,15 @@ export function reduce(state: ReviewState, action: Action): ReviewState {
     }
     case 'SET_DAILY_NEW_LIMIT':
       return isDailyNewLimit(action.limit) && action.limit !== state.dailyNewLimit ? { ...state, dailyNewLimit: action.limit } : state;
+    case 'SUBSCRIBE':
+      if (state.subscriptions.some((subscription) => subscription.wordListId === action.wordListId)) return state;
+      return { ...state, subscriptions: [...state.subscriptions, { wordListId: action.wordListId, subscribedAt: action.now.toISOString(), issuedThrough: 0, issuedCount: 0 }] };
+    case 'UNSUBSCRIBE':
+      return state.subscriptions.some((subscription) => subscription.wordListId === action.wordListId)
+        ? { ...state, subscriptions: state.subscriptions.filter((subscription) => subscription.wordListId !== action.wordListId) }
+        : state;
+    case 'ISSUE_NEW_CARDS':
+      return issueNewCards(state, action.wordLists, action.now);
     default:
       return state;
   }

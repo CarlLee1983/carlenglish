@@ -18,14 +18,22 @@ export interface StoredCard {
   firstReviewedAt: string | null;
 }
 
+/** 詞表訂閱：issuedThrough 是已處理到的詞頻序號（含因已是字卡而跳過的），issuedCount 是實際發出的張數。 */
+export interface Subscription {
+  wordListId: string;
+  subscribedAt: string;
+  issuedThrough: number;
+  issuedCount: number;
+}
+
 export interface ReviewState {
   version: 1;
   cards: StoredCard[];
   lastExportedAt: string | null;
   /** 每日新卡上限；null 表示使用預設值（defaultDailyNewLimit）。 */
   dailyNewLimit: number | null;
-  /** 詞表訂閱；目前一律為空陣列，元素形狀留給工單 07。 */
-  subscriptions: never[];
+  /** 詞表訂閱，依訂閱先後排列。 */
+  subscriptions: Subscription[];
 }
 
 /** 儲存被改動後的通知事件；detail 是發出者，發出者自己的監聽器要忽略，免得用舊資料蓋掉剛改的記憶體狀態。 */
@@ -54,12 +62,15 @@ export const isDailyNewLimit = (value: unknown): value is number | null => value
 
 export const effectiveDailyNewLimit = (state: ReviewState): number => state.dailyNewLimit ?? defaultDailyNewLimit;
 
-const isNewCard = (card: StoredCard) => card.firstReviewedAt === null;
+export const isNewCard = (card: StoredCard) => card.firstReviewedAt === null;
+
+/** 手動加入（場景或文章）的卡優先於只由詞表發出的卡。 */
+const hasManualSource = (card: StoredCard) => card.sources.some((source) => source.kind !== 'wordlist');
 
 const startOfLocalDay = (date: Date, offsetDays = 0) => new Date(date.getFullYear(), date.getMonth(), date.getDate() + offsetDays);
 
 /** 今天（本地時間日界）還能發出的新卡張數：上限減去今天第一次被評分的卡數。 */
-function newCardAllowance(state: ReviewState, now: Date): number {
+export function newCardAllowance(state: ReviewState, now: Date): number {
   const start = startOfLocalDay(now).getTime();
   const end = startOfLocalDay(now, 1).getTime();
   const startedToday = state.cards.filter((card) => {
@@ -70,10 +81,11 @@ function newCardAllowance(state: ReviewState, now: Date): number {
   return Math.max(0, effectiveDailyNewLimit(state) - startedToday);
 }
 
-/** 到期的舊卡全部出現，不受上限；新卡依加入先後，只取今天剩餘額度。 */
+/** 到期的舊卡全部出現，不受上限；新卡手動加入的在前、詞表發出的在後，各依加入先後，只取今天剩餘額度。 */
 export function todayQueue(state: ReviewState, now: Date): StoredCard[] {
   const due = state.cards.filter((card) => new Date(card.schedule.due).getTime() <= now.getTime());
-  const newCards = due.filter(isNewCard).slice(0, newCardAllowance(state, now));
+  const dueNew = due.filter(isNewCard);
+  const newCards = [...dueNew.filter(hasManualSource), ...dueNew.filter((card) => !hasManualSource(card))].slice(0, newCardAllowance(state, now));
   return [...due.filter((card) => !isNewCard(card)), ...newCards];
 }
 
@@ -90,7 +102,8 @@ export interface ReviewCounts {
   tomorrow: number;
 }
 
-export function reviewCounts(state: ReviewState, now: Date): ReviewCounts {
+/** unissuedFromLists：訂閱的詞表裡還沒發出的張數；明天最多再發出上限扣掉順延之後剩下的額度。 */
+export function reviewCounts(state: ReviewState, now: Date, unissuedFromLists = 0): ReviewCounts {
   const startOfTomorrow = startOfLocalDay(now, 1);
   const startOfDayAfter = startOfLocalDay(now, 2);
   const dueTodayOld = state.cards.filter((card) => !isNewCard(card) && new Date(card.schedule.due).getTime() < startOfTomorrow.getTime());
@@ -110,7 +123,7 @@ export function reviewCounts(state: ReviewState, now: Date): ReviewCounts {
     newCards: newToday,
     laterToday: later.length,
     nextLaterToday: later[0] ?? null,
-    tomorrow: dueTomorrow + carriedOver,
+    tomorrow: dueTomorrow + carriedOver + Math.min(effectiveDailyNewLimit(state) - carriedOver, unissuedFromLists),
   };
 }
 
@@ -156,6 +169,15 @@ function isSchedule(value: unknown): boolean {
     && [0, 1, 2, 3].includes(value.state as number);
 }
 
+const isCount = (value: unknown): value is number => Number.isInteger(value) && (value as number) >= 0;
+const subscriptionFields = ['wordListId', 'subscribedAt', 'issuedThrough', 'issuedCount'];
+
+function isSubscription(value: unknown): boolean {
+  return isRecord(value) && Object.keys(value).every((field) => subscriptionFields.includes(field))
+    && isText(value.wordListId) && value.wordListId !== '' && isDate(value.subscribedAt)
+    && isCount(value.issuedThrough) && isCount(value.issuedCount) && value.issuedCount <= value.issuedThrough;
+}
+
 function isStoredCard(value: unknown): boolean {
   if (!isRecord(value) || !isText(value.key) || !isRecord(value.content) || !Array.isArray(value.sources)) return false;
   const { content } = value;
@@ -169,6 +191,7 @@ export function parseReviewState(value: unknown): { ok: true; state: ReviewState
   const valid = isRecord(value) && value.version === 1 && Array.isArray(value.cards) && value.cards.every(isStoredCard)
     && new Set(value.cards.map((card: { key: string }) => card.key)).size === value.cards.length
     && (value.lastExportedAt === null || isDate(value.lastExportedAt))
-    && isDailyNewLimit(value.dailyNewLimit) && Array.isArray(value.subscriptions) && value.subscriptions.length === 0;
+    && isDailyNewLimit(value.dailyNewLimit) && Array.isArray(value.subscriptions) && value.subscriptions.every(isSubscription)
+    && new Set(value.subscriptions.map((subscription: { wordListId: string }) => subscription.wordListId)).size === value.subscriptions.length;
   return valid ? { ok: true, state: value as unknown as ReviewState } : { ok: false };
 }

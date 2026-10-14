@@ -1,0 +1,1317 @@
+{
+  "id": "ngsl-spoken",
+  "name": "NGSL-Spoken 口語常用字",
+  "description": "英文口語最常用的字，由最常用的開始依序發出新字卡。目前收錄詞頻最高的前 100 字。",
+  "source": {
+    "name": "NGSL-Spoken 1.2（New General Service List - Spoken）",
+    "authors": "Browne, C. & Culligan, B.",
+    "url": "https://www.newgeneralservicelist.com/ngsl-spoken",
+    "adaptation": "本站改作：取官方詞頻序號前 100 字，加入中文意思、例句與合成發音；改作內容以相同的 CC BY-SA 4.0 授權釋出。"
+  },
+  "license": {
+    "name": "CC BY-SA 4.0",
+    "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+  },
+  "entries": [
+    {
+      "id": "be",
+      "rank": 1,
+      "english": "be",
+      "meaning": "是、成為（be 動詞）",
+      "example": "Don't be late for dinner.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/be.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "46599c5bb5c33101f80cea8438e2228085513dbbb19b2f5ce97bd68494d3344d",
+        "sha256": "48e985a9bcbe0c0f20eb7c2b4dfc11ff8b1bdb53ba9a3c20e508e37e2f888d0e"
+      }
+    },
+    {
+      "id": "the",
+      "rank": 2,
+      "english": "the",
+      "meaning": "這個、那個（特指的定冠詞）",
+      "example": "Please close the door.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/the.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b9776d7ddf459c9ad5b0e1d6ac61e27befb5e99fd62446677600d7cacef544d0",
+        "sha256": "631b026be411fb843eee9a552cd140a2a85e6c4fac04c31f2bfdbdf86cef3fa7"
+      }
+    },
+    {
+      "id": "you",
+      "rank": 3,
+      "english": "you",
+      "meaning": "你、你們",
+      "example": "Can you help me?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/you.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bb0347a468d97e98a9c00e37cebec1ab930f6f1221cae0f1fbb92b07e1900ba2",
+        "sha256": "39b740aac9510256172ba697a158179bc6b9f891614a5fe4d4c9667a701786f3"
+      }
+    },
+    {
+      "id": "and",
+      "rank": 4,
+      "english": "and",
+      "meaning": "和、而且",
+      "example": "I bought milk and eggs.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/and.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6201111b83a0cb5b0922cb37cc442b9a40e24e3b1ce100a4bb204f4c63fd2ac0",
+        "sha256": "55e55b2c65a731d5cd5d1139bb71ce63537bbb3800a764ce31b94e80803080b8"
+      }
+    },
+    {
+      "id": "it",
+      "rank": 5,
+      "english": "it",
+      "meaning": "它、這件事",
+      "example": "I like it a lot.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/it.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2ad8a7049d7c5511ac254f5f51fe70a046ebd884729056f0fe57f5160d467153",
+        "sha256": "f1c4001f0ca6fb611b183083965c2677d29c7a342bbd562dbc34136f0569208c"
+      }
+    },
+    {
+      "id": "to",
+      "rank": 6,
+      "english": "to",
+      "meaning": "到、往；為了",
+      "example": "We walked to the station.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/to.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "663ea1bfffe5038f3f0cf667f14c4257eff52d77ce7f2a218f72e9286616ea39",
+        "sha256": "c557ad35ae8fda9c4d942214d6c82e931e34747f0e01cf680858ac8faf33f496"
+      }
+    },
+    {
+      "id": "a",
+      "rank": 7,
+      "english": "a",
+      "meaning": "一個（不定冠詞）",
+      "example": "She has a dog.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/a.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ca978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb",
+        "sha256": "29dcfb45c1e3fcc5c8c23aa0d3373936582f03d37f2c0b5760d4d95810d12242"
+      }
+    },
+    {
+      "id": "have",
+      "rank": 8,
+      "english": "have",
+      "meaning": "有、擁有",
+      "example": "I have two sisters.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/have.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "193c45b5281908d2d9c814ba73be696dd3f252052c230f925d797f373f318d03",
+        "sha256": "164ecba160612c45fb0426670abac17bd73e4ebf6d75965e72e10ba0c39afb96"
+      }
+    },
+    {
+      "id": "of",
+      "rank": 9,
+      "english": "of",
+      "meaning": "……的、屬於……",
+      "example": "This is a picture of my family.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/of.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "28391d3bc64ec15cbb090426b04aa6b7649c3cc85f11230bb0105e02d15e3624",
+        "sha256": "0389c8ba9c77d1209acef86a43a2bcf426820bc5ef0877e0025322f795cfe889"
+      }
+    },
+    {
+      "id": "do",
+      "rank": 10,
+      "english": "do",
+      "meaning": "做、進行",
+      "example": "What do you do on weekends?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/do.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ac0b52a2ae6ef99999bc08fb31e19188bf0085a4614204068e677e140e1458be",
+        "sha256": "09811ad900751532193800568bf70be72eebb91b3726505e686cb28aa7d5809a"
+      }
+    },
+    {
+      "id": "not",
+      "rank": 11,
+      "english": "not",
+      "meaning": "不、沒有",
+      "example": "I am not tired.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/not.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "254bb97b57f12e1608fefc4517de768427b2fd6d2cffbbfcbc09f3c818198d5f",
+        "sha256": "4263da857e38489b1d3e14b2f5a944cd6324528cefa8a107250c04fa59da307d"
+      }
+    },
+    {
+      "id": "that",
+      "rank": 12,
+      "english": "that",
+      "meaning": "那個、那",
+      "example": "I don't like that.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/that.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8e7fc0236af43df9340685fc16f1efe36543cc1707051220a103ad99cf69a2df",
+        "sha256": "7ac75ed309a02d8e4a1013286ab475614e8bd3944b7e1a66cf8dda478fa22e40"
+      }
+    },
+    {
+      "id": "they",
+      "rank": 13,
+      "english": "they",
+      "meaning": "他們、她們、它們",
+      "example": "They are late again.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/they.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "151e58a831306903b282edb477bb6c4b713887cdd2b0353c84aff6f43da8e95d",
+        "sha256": "964c92a598a2b521967f9a3b19da10e07df481530f320b487982ce6904d6bc56"
+      }
+    },
+    {
+      "id": "we",
+      "rank": 14,
+      "english": "we",
+      "meaning": "我們",
+      "example": "We can walk there.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/we.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dc7c811b9561739d9b75bb3e9e1715970a868834e62251b0b9ca02e74d0f42c9",
+        "sha256": "df338fd0f3850786d373f656ff4fd0b7dcd6ae1959c4585edd6861f080691798"
+      }
+    },
+    {
+      "id": "in",
+      "rank": 15,
+      "english": "in",
+      "meaning": "在……裡面",
+      "example": "The keys are in my bag.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/in.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "582967534d0f909d196b97f9e6921342777aea87b46fa52df165389db1fb8ccf",
+        "sha256": "987cb2d45da7ab9dfeee959fbbc43b37856d25304eb9d961adaa2839804f6bca"
+      }
+    },
+    {
+      "id": "he",
+      "rank": 16,
+      "english": "he",
+      "meaning": "他",
+      "example": "He is my brother.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/he.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "372f7e2fd2d01ce2a1d71dc072acbba4c6fd25a1087cd7f153f4ec0ce37e1ede",
+        "sha256": "b9ef06600e091cd12b5742c6b7470760f8321e080fba91a902bd4a045028b80f"
+      }
+    },
+    {
+      "id": "know",
+      "rank": 17,
+      "english": "know",
+      "meaning": "知道、認識",
+      "example": "I know her name.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/know.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cd1bb3012bcfaa0c50e954d03634f33c883c2478584e96f03d0d4b984bc6eadc",
+        "sha256": "bc1b07eef2250a4bb692c2784f2d591dbb9304cfd6fab0afc8a1797b9dd84aa6"
+      }
+    },
+    {
+      "id": "get",
+      "rank": 18,
+      "english": "get",
+      "meaning": "得到、取得",
+      "example": "I need to get some sleep.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/get.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2998b3232d29e8dc5a78d97a32ce83f556f3ed31b057077503df05641dd79158",
+        "sha256": "8f43389ee55909fcc71c4c9050eea28fef5ca14a48d9e71044ebb34f25516dfe"
+      }
+    },
+    {
+      "id": "go",
+      "rank": 19,
+      "english": "go",
+      "meaning": "去",
+      "example": "Let's go home.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/go.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4cd0e21a9a0795a14ec9aa5f0e7d1abff0492565770e43eafdf1e3e8afed1f33",
+        "sha256": "18f62bc115888ec6e824ba5b7be502d003bbb295911e2c0afbc9e35f80a84862"
+      }
+    },
+    {
+      "id": "so",
+      "rank": 20,
+      "english": "so",
+      "meaning": "所以、因此",
+      "example": "It's raining, so I'll take an umbrella.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/so.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a1d9890884c1b4b960c279cfe7554a900d169422d6cec980beef67761487d3b9",
+        "sha256": "a221ce6255cff50c2d0e00e30335687fc0892b5f9986f034c1ea16edb46f6287"
+      }
+    },
+    {
+      "id": "this",
+      "rank": 21,
+      "english": "this",
+      "meaning": "這個",
+      "example": "What is this?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/this.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1eb79602411ef02cf6fe117897015fff89f80face4eccd50425c45149b148408",
+        "sha256": "9ae214a15cb893c808f84d6b9439ce7c4d67c3ba092b6ae4b8bc2045421781a3"
+      }
+    },
+    {
+      "id": "but",
+      "rank": 22,
+      "english": "but",
+      "meaning": "但是",
+      "example": "I like tea, but I prefer coffee.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/but.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cdc29937887188ad3702d1831d5b7ec66333a2a909e1f242432eb168d4c7b08b",
+        "sha256": "fdba07b070d55ca2f640ff064c611506d84138986784966928480b3e09cf31ee"
+      }
+    },
+    {
+      "id": "on",
+      "rank": 23,
+      "english": "on",
+      "meaning": "在……上面",
+      "example": "Your phone is on the table.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/on.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b8d31e852725afb1e26d53bab6095b2bff1749c9275be13ed1c05a56ed31ec09",
+        "sha256": "f758792c7fe319a2714f0ec43ebd4e95b2e7c07c85c75e16b5c849c92afa2279"
+      }
+    },
+    {
+      "id": "pause",
+      "rank": 24,
+      "english": "pause",
+      "meaning": "暫停、停頓",
+      "example": "Let's pause for a moment.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/pause.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6210c0bf05396716df932f0729df69de0533933e5ad9871fd07b61811c4c28df",
+        "sha256": "0159c053d2a5820a6e3907dd69fe64627e4c0f16a62a5628f9f6987bdda1970f"
+      }
+    },
+    {
+      "id": "i",
+      "rank": 25,
+      "english": "I",
+      "meaning": "我",
+      "example": "I am hungry.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/i.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a83dd0ccbffe39d071cc317ddf6e97f5c6b1c87af91919271f9fa140b0508c6c",
+        "sha256": "e747435a139449ee22b32c1a68c0a14c44fe38d83dd24ed5b8d81c9685397db6"
+      }
+    },
+    {
+      "id": "unclear",
+      "rank": 26,
+      "english": "unclear",
+      "meaning": "不清楚的、不明確的",
+      "example": "The instructions are unclear.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/unclear.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "66625d4dc242e87b0b974dcb194c75143097a454bec74ca469f77d26d06bff77",
+        "sha256": "226c732b1ee4b014c669c2d225bdbb33aeda05975d7b8ed2a7eb5d148ca5bcf8"
+      }
+    },
+    {
+      "id": "for",
+      "rank": 27,
+      "english": "for",
+      "meaning": "為了、給",
+      "example": "This gift is for you.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/for.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "10c22bcf4c768b515be4e94bcafc71bf3e8fb5f70b2584bcc8c7533217f2e7f9",
+        "sha256": "826ff371d5f317823730b27d58f7446da063e15203eaa5dc5a01350281415989"
+      }
+    },
+    {
+      "id": "think",
+      "rank": 28,
+      "english": "think",
+      "meaning": "認為、想",
+      "example": "I think it's a good idea.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/think.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dc2fc19d8fce376c47641cf15f823a03ad10f2dc7da3f43230551f50706914f5",
+        "sha256": "371f7b266e26409a83fa3175865dd7799e916c34d04173ecfd9c680a1e64a9c3"
+      }
+    },
+    {
+      "id": "like",
+      "rank": 29,
+      "english": "like",
+      "meaning": "喜歡",
+      "example": "I like pizza.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/like.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cab2644828bcc1f220612fde559864da2c5bf0c6eebdcadbb4a4c88c9fcf3927",
+        "sha256": "2548305f1df24b8138d95f228b88b1cc1368e4fa094363c13903228428bdd062"
+      }
+    },
+    {
+      "id": "there",
+      "rank": 30,
+      "english": "there",
+      "meaning": "那裡",
+      "example": "The bus stop is over there.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/there.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e244f187f696561d5fd7e00f618e7ba641dc52e3c137380f6fa23a854b773aac",
+        "sha256": "05cde8bd577bcc34bb902c66604e3165c6aafcd22aa8f1b63a2628dc8a2aa2c4"
+      }
+    },
+    {
+      "id": "will",
+      "rank": 31,
+      "english": "will",
+      "meaning": "將會、會",
+      "example": "I will call you tonight.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/will.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bc16f5825a9dafc8c245dc7cd93f4e671a9885035a73e6ef29c04f2d3863bfab",
+        "sha256": "bab36aef30fc5d50876af033351ea041764e93deb8e74f48b23b0b61630ce8fb"
+      }
+    },
+    {
+      "id": "say",
+      "rank": 32,
+      "english": "say",
+      "meaning": "說",
+      "example": "What did you say?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/say.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a0b967fc60136d2ef96fa2a4feaf41ea3e0f266e510b4a5e188b6f781ae12a30",
+        "sha256": "ccc514f8eeaf017b9d7cd5130dd0209a5b373000137b8c08cc3b4da6da403004"
+      }
+    },
+    {
+      "id": "she",
+      "rank": 33,
+      "english": "she",
+      "meaning": "她",
+      "example": "She is my teacher.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/she.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2cda85e504e155f30a40f1f1cc4e83f3f8ec178033f6b6170cc9381f5e4f9d3d",
+        "sha256": "2d70a06aa05d8f33ac73bf3ce1f63bce81b425635293a067d3362ad7a52af940"
+      }
+    },
+    {
+      "id": "what",
+      "rank": 34,
+      "english": "what",
+      "meaning": "什麼",
+      "example": "What is your name?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/what.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "749ab2c0d06c42ae3b841b79e79875f02b3a042e43c92378cd28bd444c04d284",
+        "sha256": "a78b3de53c35bffea4f022e1f694ade474cf0b4023554cbf74871d100debff1b"
+      }
+    },
+    {
+      "id": "just",
+      "rank": 35,
+      "english": "just",
+      "meaning": "剛剛、只是",
+      "example": "I just got home.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/just.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b2c66dfd45dd07f58d2246b695660b220ee429c6a8ba95f27e4c57f02e9d6ac8",
+        "sha256": "7efc53b3d6b194a0283996926c1e7d0078f5ac1d908a2f6a849af45c63618d8d"
+      }
+    },
+    {
+      "id": "well",
+      "rank": 36,
+      "english": "well",
+      "meaning": "好、很好地",
+      "example": "She sings very well.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/well.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a7722b765d15608d5d24a319140e6665cb361a0758285125722a2d5aece38808",
+        "sha256": "8e9ee2057ab1df48654f6497491a5cdb92b9f33090991629f356054f99d5603e"
+      }
+    },
+    {
+      "id": "one",
+      "rank": 37,
+      "english": "one",
+      "meaning": "一、一個",
+      "example": "I have one brother.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/one.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7692c3ad3540bb803c020b3aee66cd8887123234ea0c6e7143c0add73ff431ed",
+        "sha256": "02198dbd7c6d2a07b87a04ebbdaf232d8f370c9173856bd9bd7753785426cc9b"
+      }
+    },
+    {
+      "id": "with",
+      "rank": 38,
+      "english": "with",
+      "meaning": "和……一起、用",
+      "example": "I went to the park with my friend.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/with.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0695b563acde461fc2f8d9aebccf35c7596ac458b8d8e067c602fb7b4e5f1578",
+        "sha256": "6b3e94b9760322687ca0aa44cc2b92f014fe3ccd71c4f0f38e99002420e2148a"
+      }
+    },
+    {
+      "id": "if",
+      "rank": 39,
+      "english": "if",
+      "meaning": "如果",
+      "example": "Call me if you need help.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/if.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "935f68319d4f227e02bfd54a0ddf85b8a242e42a4277aa5ef5eaab691710924e",
+        "sha256": "07028dedab1cdd967cb27b9dcb69e6a5051460182848d5946bdc30bdcc6b3a98"
+      }
+    },
+    {
+      "id": "at",
+      "rank": 40,
+      "english": "at",
+      "meaning": "在（某地或某時間）",
+      "example": "Let's meet at the station at noon.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/at.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b1d6b91b67c2afa5e322988d9462638d354ddf8a1ef79dba987f815c22b4baee",
+        "sha256": "b7516794429c415b0895a2f1ecf0a96606b1ef2e8777372b49c8ca9aff1965b4"
+      }
+    },
+    {
+      "id": "all",
+      "rank": 41,
+      "english": "all",
+      "meaning": "全部、所有的",
+      "example": "All the seats are taken.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/all.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5ef5ef0364b6939c4ca61f34b393f7b368d1be8619647aaf83d5b395919ab629",
+        "sha256": "16656b3f4660c6bf46f03afe177d672b08c591015b774594b44916cd50a084a3"
+      }
+    },
+    {
+      "id": "about",
+      "rank": 42,
+      "english": "about",
+      "meaning": "關於、大約",
+      "example": "Tell me about your trip.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/about.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a4262e1c9bcbc1721eb3fe13558154460a2b2a2d307daa32532478526ce6ccb1",
+        "sha256": "9e64f751e53496553b119d3a11201f73b1f189211564a461cf84fe5d76095a05"
+      }
+    },
+    {
+      "id": "or",
+      "rank": 43,
+      "english": "or",
+      "meaning": "或者、還是",
+      "example": "Do you want tea or coffee?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/or.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7175517a370b5cd2e664e3fd29c4ea9db5ce17058eb9772fe090a5485e49dad6",
+        "sha256": "99dcb59a0cea2f5403600502bad693950e0585f2d41c59a11472184d872b9cbd"
+      }
+    },
+    {
+      "id": "as",
+      "rank": 44,
+      "english": "as",
+      "meaning": "像……一樣",
+      "example": "My brother is as tall as my dad.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/as.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f4bf9f7fcbedaba0392f108c59d8f4a38b3838efb64877380171b54475c2ade8",
+        "sha256": "78d22c686dee9da4a8d9c3e052763bf717a1e3800ae02fd7f7bc8e435258b938"
+      }
+    },
+    {
+      "id": "would",
+      "rank": 45,
+      "english": "would",
+      "meaning": "會、願意（較客氣的說法）",
+      "example": "Would you like some tea?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/would.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c6323a2117013ed6844d6411a3d0fb37e8ed54eda75bb3833959b02fd71514e0",
+        "sha256": "8728a1e4773632785e5ff076fed90c20932e5f3779ff871b9236b948310304e5"
+      }
+    },
+    {
+      "id": "then",
+      "rank": 46,
+      "english": "then",
+      "meaning": "然後、那麼",
+      "example": "Finish your homework, then you can play.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/then.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "21af6f1260f927f5b9b3ff5ca4a5d19493a1a47a5977240d8dca31bc47a63527",
+        "sha256": "d603fdaad316d76693ce3aec0de9af8c522a5b2b3a95df721b951ab29b9caf21"
+      }
+    },
+    {
+      "id": "because",
+      "rank": 47,
+      "english": "because",
+      "meaning": "因為",
+      "example": "I stayed home because it was raining.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/because.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a511aeeeb8a119931a67038a63b7974faee48712de1c79391ebe2c9b929678e9",
+        "sha256": "13fb2d1d60e1e90e100f25465bc430141785a05c94900db71cca84a914e05cb7"
+      }
+    },
+    {
+      "id": "right",
+      "rank": 48,
+      "english": "right",
+      "meaning": "對的、正確的",
+      "example": "You are right.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/right.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27042f4e6eca7d0b2a7ee4026df2ecfa51d3339e6d122aa099118ecd8563bad9",
+        "sha256": "fbecef3a00b2fc28ad8260f811aa8b33591d28204e8427a299610d59c2052fe2"
+      }
+    },
+    {
+      "id": "can",
+      "rank": 49,
+      "english": "can",
+      "meaning": "能夠、可以",
+      "example": "I can swim.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/can.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9f584196e7fe6de85d3898bc0b11c78b1d0a1d49530ee5eaf7c26c3939cf043d",
+        "sha256": "eab86f80571a690d1c8a77f3aa154ae459a605fb278c3ec94c287cafa8a3217a"
+      }
+    },
+    {
+      "id": "no",
+      "rank": 50,
+      "english": "no",
+      "meaning": "不、不是",
+      "example": "No, thank you.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/no.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9390298f3fb0c5b160498935d79cb139aef28e1c47358b4bbba61862b9c26e59",
+        "sha256": "d697eb6b96dd2a149d70993bf9dff26d2972cad925728891ca14fbcd0dae9bb1"
+      }
+    },
+    {
+      "id": "up",
+      "rank": 51,
+      "english": "up",
+      "meaning": "向上、上面",
+      "example": "Please stand up.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/up.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9",
+        "sha256": "5161939a8f5c92ec3c5533d6a398e6f859e777f2e567ce5fbdcc529fc5eef9c9"
+      }
+    },
+    {
+      "id": "mean",
+      "rank": 52,
+      "english": "mean",
+      "meaning": "意思是、意指",
+      "example": "What does this word mean?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/mean.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "82523faea1b0f2da676a0561d597000bb6918036c6e541dc1145966141864332",
+        "sha256": "978e4968a53e130e8d2edb10a5cf9b75888bc05b99a36f021d44a69187f459a8"
+      }
+    },
+    {
+      "id": "out",
+      "rank": 53,
+      "english": "out",
+      "meaning": "向外、外面",
+      "example": "She went out for lunch.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/out.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "762069bc07a6e1b5df123a5ae7bd91c10daa04694fbaa17fba0cd6a8dcce8f22",
+        "sha256": "44f4df7d2ca168c5eaf7bc43cc9313b2d8066adb53e6a479cc1497cb20975728"
+      }
+    },
+    {
+      "id": "see",
+      "rank": 54,
+      "english": "see",
+      "meaning": "看見、看到",
+      "example": "I can see the mountains from here.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/see.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "aa9e9b5c907d50feb410f2a84e81ab72c5ae6724d57ccc53650f9361d33dc734",
+        "sha256": "0044fd6d12811b79fd2855c8997099a6c113e421f59fd808842510170c38f3ff"
+      }
+    },
+    {
+      "id": "thing",
+      "rank": 55,
+      "english": "thing",
+      "meaning": "東西、事情",
+      "example": "What is that thing on the table?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/thing.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5de94d691ae3039a3f5d362fea9a35964fe0cc4ae44a6a84266d3614755c69b2",
+        "sha256": "d0a947a6e273c4e32b28fdbf1ae5480c38ff62a30e2305d42232fe51db021af5"
+      }
+    },
+    {
+      "id": "yes",
+      "rank": 56,
+      "english": "yes",
+      "meaning": "是、好",
+      "example": "Yes, I would love to.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/yes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8a798890fe93817163b10b5f7bd2ca4d25d84c52739a645a889c173eee7d9d3d",
+        "sha256": "d4dfaba84c808ea163ec28e95b81b6006318bcd3a8856db294f74397bf1c7ca0"
+      }
+    },
+    {
+      "id": "when",
+      "rank": 57,
+      "english": "when",
+      "meaning": "什麼時候、當……的時候",
+      "example": "When does the movie start?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/when.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "15eaa75240aed625be3e142205df3adbbb7051802b32f450e40276be8582b6d8",
+        "sha256": "7005d0f036251c5ff535b1d27413b187d6906241625b278c61c3902b7e3169e0"
+      }
+    },
+    {
+      "id": "really",
+      "rank": 58,
+      "english": "really",
+      "meaning": "真的、確實",
+      "example": "I really like this song.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/really.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "db8ffbe1cd19708b8ffbec1ddabb56f3c996c7710e7352455faeafeb7e161101",
+        "sha256": "66727a1e54c6c2d1efb07164c8fb0e4b8686487b16cecdebfa484db885ea8306"
+      }
+    },
+    {
+      "id": "want",
+      "rank": 59,
+      "english": "want",
+      "meaning": "想要",
+      "example": "I want some water.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/want.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8656aa55d393b032b7f05fd40daac127c4862315017072b231d726ccf0d686e6",
+        "sha256": "01ba2830e972e6dbef9c15ae61e213bf6f5c9fb11837586f58d7013a6882694a"
+      }
+    },
+    {
+      "id": "come",
+      "rank": 60,
+      "english": "come",
+      "meaning": "來、過來",
+      "example": "Please come in.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/come.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9c19636ddea25f0a13357d01c0aef27a4eb4c7f8cbaf2be35f272273572ce2e5",
+        "sha256": "0ad92daa85208a24de31b0edbaa72f8e69ead3ea7c62dceed82cbe03a5679212"
+      }
+    },
+    {
+      "id": "now",
+      "rank": 61,
+      "english": "now",
+      "meaning": "現在",
+      "example": "I'm busy right now.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/now.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ed5eb9a37e2d8231af3388319b941995f6dc8755c56043d0cc52b5fe405a87de",
+        "sha256": "5a7697776dae101e1c033e23ff46a4e5fa497c9086eb0afae22863da74e138d0"
+      }
+    },
+    {
+      "id": "some",
+      "rank": 62,
+      "english": "some",
+      "meaning": "一些",
+      "example": "Would you like some juice?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/some.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a6b46dd0d1ae5e86cbc8f37e75ceeb6760230c1ca4ffbcb0c97b96dd7d9c464b",
+        "sha256": "8f42f65014fccb5466c0d5b3aded8c02557b7b5a3011d91115d3f3afaede3346"
+      }
+    },
+    {
+      "id": "good",
+      "rank": 63,
+      "english": "good",
+      "meaning": "好的",
+      "example": "This soup is good.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/good.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "770e607624d689265ca6c44884d0807d9b054d23c473c106c72be9de08b7376c",
+        "sha256": "6afd4dd07ff34b07c17ad8b6c3260b6f9205ada801abaffaf5cfa8ca8995087c"
+      }
+    },
+    {
+      "id": "from",
+      "rank": 64,
+      "english": "from",
+      "meaning": "從、來自",
+      "example": "I'm from a small town.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/from.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "75857a45899985be4c4d941e90b6b396d6c92a4c7437aaf0bf102089fe21379d",
+        "sha256": "b7fb7067fdce6a0782e9e6ab423c5c83ef186898617e437212e914af5c0714fd"
+      }
+    },
+    {
+      "id": "time",
+      "rank": 65,
+      "english": "time",
+      "meaning": "時間",
+      "example": "I don't have time today.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/time.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "336074805fc853987abe6f7fe3ad97a6a6f3077a16391fec744f671a015fbd7e",
+        "sha256": "fd2317502617b2f612d344c5ac9e914b963d09fb1cbc9536d8f9302219c052e1"
+      }
+    },
+    {
+      "id": "people",
+      "rank": 66,
+      "english": "people",
+      "meaning": "人們",
+      "example": "Many people ride bikes here.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/people.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c9022680f888674e2b2274758755bfa07dea729b68d71cde5c521ed70ef261bf",
+        "sha256": "285b631703de7a4bf498c5da003283e70ce2eee3c3a2025e6888fe14ea60524f"
+      }
+    },
+    {
+      "id": "very",
+      "rank": 67,
+      "english": "very",
+      "meaning": "很、非常",
+      "example": "The soup is very hot.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/very.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4c6a4839f83d20d276e7ba94bde38eed7e8495fcefcea6222fb5d2ff5b60fc4b",
+        "sha256": "fc186519e921c2551f4f47aba2bd8dc690f0f9797b83c2e84fda294db8fa38b3"
+      }
+    },
+    {
+      "id": "yeah",
+      "rank": 68,
+      "english": "yeah",
+      "meaning": "對啊、嗯（口語的「是」）",
+      "example": "Yeah, I think so.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/yeah.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a495a4b86c1eac64327d8cad2598044314d9176f0ac069fbea0cf0baf08b6c9b",
+        "sha256": "35b2b32cace5bc68433f42a7a6a9694100b6b93268a2b3c2edf14da8dfe2b80f"
+      }
+    },
+    {
+      "id": "make",
+      "rank": 69,
+      "english": "make",
+      "meaning": "做、製作",
+      "example": "Let's make a cake.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/make.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d05aa2a15fb3c40efeeb03bec445393f00074484cf01c8fb2da90ca6695a5531",
+        "sha256": "dd28679a509d390f496baf5c4904f2bdd19e628636bab819f8d7b4dac5ced591"
+      }
+    },
+    {
+      "id": "look",
+      "rank": 70,
+      "english": "look",
+      "meaning": "看",
+      "example": "Look at that bird!",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/look.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3c01eba119e00d79c82b6f65d70bc5f1044d568618bf41377e6d1432023fc2b8",
+        "sha256": "2692f252221bc9da38c562b5e19ab7727e58036d42f43308d84ff84a1c3faa77"
+      }
+    },
+    {
+      "id": "two",
+      "rank": 71,
+      "english": "two",
+      "meaning": "二、兩個",
+      "example": "I have two cats.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/two.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3fc4ccfe745870e2c0d99f71f30ff0656c8dedd41cc1d7d3d376b0dbe685e2f3",
+        "sha256": "6a78bdb264b479439f7b3a0ebb72497a587affe4b14aae5351c5fde59ce17a1a"
+      }
+    },
+    {
+      "id": "take",
+      "rank": 72,
+      "english": "take",
+      "meaning": "拿、帶走",
+      "example": "Take an umbrella with you.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/take.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d1905cf90af29a5ac3f99e105830eecc5b3b415b24e2d166a7ce4cf72b2f32e6",
+        "sha256": "af1157aaf9cec6cf67c134944f070f3aade864b1e11b7dc8138325d925fc7cbb"
+      }
+    },
+    {
+      "id": "here",
+      "rank": 73,
+      "english": "here",
+      "meaning": "這裡",
+      "example": "Please sit here.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/here.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fcec91509759ad995c2cd14bcb26b2720993faf61c29d379b270d442d92290eb",
+        "sha256": "2a669b5ac8d0aa46ac9cec8f339d88e4a56aa7be1eed0d3e4dcc1359fc4bd96c"
+      }
+    },
+    {
+      "id": "which",
+      "rank": 74,
+      "english": "which",
+      "meaning": "哪一個",
+      "example": "Which bag is yours?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/which.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "77bc06c55d29ee3cfa295b4592e4b2a85a16bb06a8974726b7bfa3d4ca36d5ae",
+        "sha256": "b220610108916489e399df4b0fa30f50339ebcda96cc4221f26ef61bf9db1d4f"
+      }
+    },
+    {
+      "id": "could",
+      "rank": 75,
+      "english": "could",
+      "meaning": "能、可以（較客氣的說法）",
+      "example": "Could you open the window?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/could.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0e031e954a432055ace97e08d1a097013f562c021a1c3aa3ab4948dd56793b86",
+        "sha256": "e0204a52bab40f362f88871a69b766401635a0b203d1021f26a47ca6dd5163be"
+      }
+    },
+    {
+      "id": "work",
+      "rank": 76,
+      "english": "work",
+      "meaning": "工作",
+      "example": "I work at a hospital.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/work.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "00e13ed7af55b27622f1d6eab5bec0147e68efe28dc2b12461117afa1a5ed40e",
+        "sha256": "3e11b794e77fc2ec279f33adb2d6d222f12404b4b79b2aa38696773c28a5573a"
+      }
+    },
+    {
+      "id": "more",
+      "rank": 77,
+      "english": "more",
+      "meaning": "更多",
+      "example": "Can I have more rice?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/more.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "187897ce0afcf20b50ba2b37dca84a951b7046f29ed5ab94f010619f69d6e189",
+        "sha256": "62d0b7a25a6dc6a1d4901c39a147311cd4f8faa07837d7a599e075ab5afe1c3a"
+      }
+    },
+    {
+      "id": "who",
+      "rank": 78,
+      "english": "who",
+      "meaning": "誰",
+      "example": "Who is that girl?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/who.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6ed0337140bd32b4adc5000f76333bd8ca6b2b2c9e0bc354335cf341456290e8",
+        "sha256": "148fdafeaa356ffc97a3c00d6614b86ed3be795c85ea80c4e11227bb9c2b0319"
+      }
+    },
+    {
+      "id": "other",
+      "rank": 79,
+      "english": "other",
+      "meaning": "其他的",
+      "example": "Where are the other kids?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/other.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d9298a10d1b0735837dc4bd85dac641b0f3cef27a47e5d53a54f2f3f5b2fcffa",
+        "sha256": "f012c1df10f1d35d7f6f3d27dcb9a0dd7560ca6764a59c872cd76d83b97aa047"
+      }
+    },
+    {
+      "id": "laugh",
+      "rank": 80,
+      "english": "laugh",
+      "meaning": "笑、大笑",
+      "example": "The joke made everyone laugh.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/laugh.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "31e289f536683cb9ce6c237111891704a554adbe414fc060042bebf1d770a957",
+        "sha256": "c912af58782819398ad900b0ba85a9ac950b6f772155f73e8cd690abf958e6bb"
+      }
+    },
+    {
+      "id": "where",
+      "rank": 81,
+      "english": "where",
+      "meaning": "哪裡",
+      "example": "Where do you live?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/where.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b48111c10c65fc119368edafb19f97451759ee90b3f44647368135ca47aa4753",
+        "sha256": "4885cc5dec940a5b13dafe60ed2380f9397bc5b764d98bd8bc1b1fa78e4975ee"
+      }
+    },
+    {
+      "id": "use",
+      "rank": 82,
+      "english": "use",
+      "meaning": "使用",
+      "example": "May I use your pen?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/use.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a3b142af6e97cfc3bb23e409ab83467af7d16ded7dc0632be6a6a9023e49ce8b",
+        "sha256": "ee5423eaf4c6ec9f391549bfa5e53ce56cccdd30765683b479257aeb36d01a80"
+      }
+    },
+    {
+      "id": "something",
+      "rank": 83,
+      "english": "something",
+      "meaning": "某事、某物",
+      "example": "I need to tell you something.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/something.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3fc9b689459d738f8c88a3a48aa9e33542016b7a4052e001aaa536fca74813cb",
+        "sha256": "8d7ca2acc114505096ad8c09365c96b975f4d4b48a596106f23cb9a4e3fa0fa1"
+      }
+    },
+    {
+      "id": "how",
+      "rank": 84,
+      "english": "how",
+      "meaning": "如何、怎麼",
+      "example": "How do you spell your name?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/how.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8044aae1f86875d993f20d7fe3815306b640d6e039c4512cd7a2f8453207b4cd",
+        "sha256": "e614c0ad17714284fda1d1132cacb4791c9f311b26c165321f85b3377c71f9ca"
+      }
+    },
+    {
+      "id": "back",
+      "rank": 85,
+      "english": "back",
+      "meaning": "回來、返回",
+      "example": "I'll be back in ten minutes.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/back.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3c482346f375027677fa8a0d6830a32714d4f13f9e94c2d9e215e0ac205ad4e5",
+        "sha256": "ff4833305c73fd9b1d606e94e4c795f6c7a026a52cce7091665db4b6c39ebac7"
+      }
+    },
+    {
+      "id": "year",
+      "rank": 86,
+      "english": "year",
+      "meaning": "年",
+      "example": "We moved here last year.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/year.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4cb4ea25583c25647247ae96fc90225d99ad7a6fabc3e2c2fd13c502e323cd9e",
+        "sha256": "f71adc2672e63814a8234c9a3556430bbc2063bd4aa20b6df3cc75e9eced3368"
+      }
+    },
+    {
+      "id": "by",
+      "rank": 87,
+      "english": "by",
+      "meaning": "在……旁邊",
+      "example": "Sit by the window if you like.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/by.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a7e2d26e8d15814dd9c6a1bdc90585c8d0a3170dfffeb21fc42986683113041b",
+        "sha256": "69a147b6f155e4f160dc109791d7e9028e6cda796495f829a3d5488d8f016929"
+      }
+    },
+    {
+      "id": "any",
+      "rank": 88,
+      "english": "any",
+      "meaning": "任何的",
+      "example": "Do you have any questions?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/any.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d6a7cd2a7371b1a15d543196979ff74fdb027023ebf187d5d329be11055c77fd",
+        "sha256": "513200d95dcbb309d1138bab15e5004b57e3b20e2eef1495a47d872aa54d2625"
+      }
+    },
+    {
+      "id": "lot",
+      "rank": 89,
+      "english": "lot",
+      "meaning": "很多、大量（a lot）",
+      "example": "We have a lot of homework.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/lot.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b7b30d6e4f8c864714bf46cb6df3e5cc89c91af4ac4f31edac07cdf1f9090d4d",
+        "sha256": "c1dbfef786401cf0e88606f278a30af9333ec6c7fea0c62c360156087acdaeb6"
+      }
+    },
+    {
+      "id": "way",
+      "rank": 90,
+      "english": "way",
+      "meaning": "方法、方式",
+      "example": "There is a better way to do this.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/way.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "44c5e7071f3a75a22457bc5f06d3e2ba564b4d6ee8165fb0e9087bacf953bcc3",
+        "sha256": "d17444b54c71f28670175c50f0b24cad4a23db216ae7d6d97697e52ffbd025b2"
+      }
+    },
+    {
+      "id": "put",
+      "rank": 91,
+      "english": "put",
+      "meaning": "放、擺",
+      "example": "Put the book on the desk.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/put.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "373cb2c6d4fe2778441d4f0266505b699fa518d002e5793b87f9b48836de3f62",
+        "sha256": "5bbefb227acd125ff221e6e946b2993c8b6956b36e772585681311bb6d855df5"
+      }
+    },
+    {
+      "id": "down",
+      "rank": 92,
+      "english": "down",
+      "meaning": "向下、往下",
+      "example": "Please sit down.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/down.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "908aec4512d80ff4fefb1970899091e9de8e734b36b8fdb7678e77dc092f6959",
+        "sha256": "2154024a78648f225f95b9ef24e6bc1d24c6002d6996f441a31d546b519796ea"
+      }
+    },
+    {
+      "id": "give",
+      "rank": 93,
+      "english": "give",
+      "meaning": "給",
+      "example": "Can you give me a pen?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/give.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0895a532e404a5c9ea96eac7982d268f22de22c9705dcda0e1eb445ea379b005",
+        "sha256": "f358d2aef849a48671ce25c3fa563007e002030b5fdc936e1ade739602881578"
+      }
+    },
+    {
+      "id": "sort",
+      "rank": 94,
+      "english": "sort",
+      "meaning": "種類",
+      "example": "What sort of music do you like?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/sort.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "646964943fd2271187dbe29287f57e0238491c029cc6d8ce76f25ae240474294",
+        "sha256": "33f7e231ec2d6e9f12378ed7337c3a4a042f8b6f542d13e96eaeb223b93601a6"
+      }
+    },
+    {
+      "id": "three",
+      "rank": 95,
+      "english": "three",
+      "meaning": "三、三個",
+      "example": "There are three apples on the plate.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/three.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8b5b9db0c13db24256c829aa364aa90c6d2eba318b9232a4ab9313b954d3555f",
+        "sha256": "e033ac906be3652b6b92e21ec2b0cf18b09d09b2015e4198a988398e66c94b3e"
+      }
+    },
+    {
+      "id": "much",
+      "rank": 96,
+      "english": "much",
+      "meaning": "許多（用於不可數）",
+      "example": "There isn't much milk left.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/much.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "543b1c4bd4f6b184ca2aef09ca8e5aeadb04907efa0ac7b81b00f8b9ea8133cd",
+        "sha256": "dd64c975118f99a32feb57ad96a5b48aec007c107a3cffa2603e631c43e87f79"
+      }
+    },
+    {
+      "id": "actually",
+      "rank": 97,
+      "english": "actually",
+      "meaning": "其實、實際上",
+      "example": "Actually, I prefer tea.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/actually.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e4c05c565b8cac5ea25494e0abca7751fae5d5e17457de07f03f247b65666b0e",
+        "sha256": "5041750749e8595ec0c1a213a8d8088bf6668f2440715b070bb1bd5a6c763cd9"
+      }
+    },
+    {
+      "id": "need",
+      "rank": 98,
+      "english": "need",
+      "meaning": "需要",
+      "example": "I need a pen.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/need.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "be8dff00b0d468b29d804886729be5b430163ad625b1b621d943c2f80005281a",
+        "sha256": "f9598c9f8ddd68bb903bfe52fb34afd0e64bc4590e9793c3f05e073197daad66"
+      }
+    },
+    {
+      "id": "talk",
+      "rank": 99,
+      "english": "talk",
+      "meaning": "說話、談話",
+      "example": "Can we talk after class?",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/talk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ce7611e7481e75f085f6902050b40918b0e8374634eeb803ad3e340e90267d6a",
+        "sha256": "f7531611074d1a8dc15a2bb3ee20967ec6f3ddb5f3b34a8d7478bd6d8b25f7a7"
+      }
+    },
+    {
+      "id": "kind",
+      "rank": 100,
+      "english": "kind",
+      "meaning": "友善的、親切的",
+      "example": "She is very kind to everyone.",
+      "audio": {
+        "src": "/audio/wordlists/ngsl-spoken/kind.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0b27c158feb36ab18a10ff687909ec730ece6280581dd407e2672359be7725dd",
+        "sha256": "4adb46e207e67f1c2578b6c21f8499c96ab02f8dc6107089250080adfba13264"
+      }
+    }
+  ]
+}

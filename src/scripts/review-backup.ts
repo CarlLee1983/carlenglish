@@ -128,6 +128,8 @@ function initializeBackup(root: HTMLElement) {
   root.hidden = false;
   refreshExportAvailability();
   window.addEventListener('storage', refreshExportAvailability);
+  // 本頁的詞表訂閱會自己發出新卡，字卡張數在本分頁內也會變。
+  document.addEventListener(reviewChangedEvent, refreshExportAvailability);
   document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshExportAvailability(); });
 }
 

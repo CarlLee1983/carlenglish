@@ -42,6 +42,32 @@ node scripts/generate-audio.mjs .scratch/illustrated-english/unified-voice/.venv
 
 生成工具讀取場景與聲線設定，準備文字、呼叫固定的 Python 合成器，驗證後寫入資產及 JSON。模型版本、來源與授權見 [audio-sources.md](audio-sources.md)。
 
+## 詞表
+
+詞表是獨立於場景與文章的內容類型（ADR 0001 的做法），資料放在 `content/wordlists/<id>/`，每份一個目錄：`wordlist.json`、授權檔 `LICENSE`（CC BY-SA 4.0 全文）與出處說明 `NOTICE.md`。網站程式碼的授權不受影響。
+
+| 欄位 | 用途 |
+| --- | --- |
+| `id` | 全站唯一的詞表 ID，小寫英文、數字與連字號 |
+| `name`、`description` | 複習頁顯示的名稱與說明 |
+| `source` | `name`、`authors`、`url`（HTTPS）與 `adaptation`（本站做了哪些改作）；缺任何一項都會驗證失敗 |
+| `license` | `name` 與 `url`（HTTPS） |
+| `entries` | 依詞頻排序的詞條，至少一筆 |
+
+每個詞條恰好有 `id`、`rank`、`english`、`meaning`、`example`、`audio`。`id` 同時是音檔檔名，所以必須是小寫連字號 ID；`rank` 是官方詞頻序號，必須從 1 起連續，不能缺號、重複或亂序；同一份詞表內「英文詞＋中文意思」（比對前正規化大小寫與前後空白）不可重複，同一個英文詞的不同意思可以各有一筆。`audio` 的四個欄位與場景相同，音檔放在 `/audio/wordlists/<詞表 ID>/<詞條 ID>.mp3`，只念 `english`，例句不配音；驗證邏輯與場景共用（`src/lib/audio-validation.ts`）。
+
+中文意思依常用義撰寫，不直譯官方的英文釋義。若同一個詞已經是場景單字或文章關鍵詞，且意思相同，要沿用完全相同的中文字串，字卡才會自然合併成一張。內容須經人工校對才算驗收。
+
+只替還沒有音檔、或英文已改動的詞條合成音檔：
+
+```sh
+node scripts/generate-wordlist-audio.mjs <isolated-python> <local-model-directory> <word-list-id>
+```
+
+這支工具與場景用的 `generate-audio.mjs` 共用同一個合成器和聲線，但不會動到場景。中間檔（含 `.wav`）留在 `.scratch/wordlist-audio/<詞表 ID>/output/`，只有 MP3 會複製進 `public/audio/wordlists/`。每批的 `inputs.json` 與 `manifest.json` 存在 `docs/audio-generation/`。
+
+建置時每份詞表輸出成 `/wordlists/<id>.json`，複習頁只在學習者訂閱後才載入。
+
 ## 文中標註
 
 一句英文按原文順序拆成片段。保留全部空格、引號與標點，不會自動補上或搜尋替換。片段可以同時指向短句與單字：
