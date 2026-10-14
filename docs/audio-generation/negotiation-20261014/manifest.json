@@ -1,0 +1,690 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "stories",
+      "itemId": "returning-faulty-headphones",
+      "src": "/audio/stories/returning-faulty-headphones.mp3",
+      "text": "Noah brings a pair of faulty headphones and his receipt to the store. “The sound cuts out on the left side,” he explains to the assistant. “Could you clarify when it happens?” she asks before testing them. Noah replies, “It happens even when the battery is full.” The assistant finds the same problem and offers a replacement. “Would a refund be possible?” Noah asks, because he has already bought another pair. “I need approval from my manager,” she says, “so I cannot promise a refund yet.” “Just to confirm, you will check with your manager before I decide,” Noah says.",
+      "textSha256": "caa3fbf08a663e22a3a993403a409b22291aeca13f37a3eb17e9fc8bbdf88972",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5968fb219bc2742c43ea82f0954a5d96422d317afea476b0298fd66b82243f52",
+      "duration": 32.6,
+      "graphemes": [
+        "Noah brings a pair of faulty headphones and his receipt to the store. “The sound cuts out on the left side,” he explains to the assistant. “Could you clarify when it happens?” she asks before testing them. Noah replies, “It happens even when the battery is full.” The assistant finds the same problem and offers a replacement. “Would a refund be possible?” Noah asks, because he has already bought another pair. “I need approval from my manager,” she says, “so I cannot promise a refund yet.”",
+        "“Just to confirm, you will check with your manager before I decide,” Noah says."
+      ],
+      "phonemes": [
+        "nˈOə bɹˈɪŋz ɐ pˈɛɹ ʌv fˈɔlti hˈɛdfˌOnz ænd hɪz ɹəsˈit tə ðə stˈɔɹ. “ðə sˈWnd kˈʌts ˈWt ˌɔn ðə lˈɛft sˈId,” hi ɪksplˈAnz tə ði əsˈɪstᵊnt. “kˌʊd ju klˈɛɹəfˌI wˌɛn ɪt hˈæpənz?” ʃi ˈæsks bəfˈɔɹ tˈɛstɪŋ ðˌɛm. nˈOə ɹᵻplˈIz, “ˌɪt hˈæpənz ˈivən wˌɛn ðə bˈæTəɹi ɪz fˈʊl.” ði əsˈɪstᵊnt fˈIndz ðə sˈAm pɹˈɑbləm ænd ˈɔfəɹz ɐ ɹəplˈAsmᵊnt. “wˌʊd ɐ ɹˈifˌʌnd bi pˈɑsəbᵊl?” nˈOə ˈæsks, bəkˈʌz hi hæz ˌɔlɹˈɛdi bˈɔt ənˈʌðəɹ pˈɛɹ. “ˌI nˈid əpɹˈuvᵊl fɹʌm mI mˈænɪʤəɹ,” ʃi sˈɛz, “sˌO ˌI kənˈɑt pɹˈɑməs ɐ ɹˈifˌʌnd jˈɛt.”",
+        "“ʤˈʌst tə kənfˈɜɹm, ju wɪl ʧˈɛk wɪð jʊɹ mˈænɪʤəɹ bəfˈɔɹ ˌI dəsˈId,” nˈOə sˈɛz."
+      ]
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "phrases",
+      "itemId": "the-sound-cuts-out",
+      "src": "/audio/phrases/returning-faulty-headphones-the-sound-cuts-out.mp3",
+      "text": "The sound cuts out",
+      "textSha256": "15a93b88b21fa97c63617a729941a6fcb3c670bc3c19de3df943bfa34a16c0cf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a4c04ca61494b027cbe281400e71022e9274814b66f1ba90976d6d40c8f6ebcc",
+      "duration": 1.75,
+      "graphemes": [
+        "The sound cuts out"
+      ],
+      "phonemes": [
+        "ðə sˈWnd kˈʌts ˈWt"
+      ]
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "phrases",
+      "itemId": "could-you-clarify",
+      "src": "/audio/phrases/returning-faulty-headphones-could-you-clarify.mp3",
+      "text": "Could you clarify",
+      "textSha256": "39735d58970b9a032243658573c89a9b774272297dea021db40e2b644aa658c4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a47abdba4382f0747db7d022c5b9b2bf499c454a079438a4f6d13ba7997227e2",
+      "duration": 1.725,
+      "graphemes": [
+        "Could you clarify"
+      ],
+      "phonemes": [
+        "kˌʊd ju klˈɛɹəfˌI"
+      ]
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "phrases",
+      "itemId": "even-when",
+      "src": "/audio/phrases/returning-faulty-headphones-even-when.mp3",
+      "text": "even when",
+      "textSha256": "8a58e0abfa18374c1aa9e80029885123e94dd48840bebd900b04ad55ff5c03b4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e8c801ba813d734231361e38c70d65021e4738d9ccdc69fb68f81e9a623c627d",
+      "duration": 1.475,
+      "graphemes": [
+        "even when"
+      ],
+      "phonemes": [
+        "ˈivən wˌɛn"
+      ]
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "phrases",
+      "itemId": "would-a-refund-be-possible",
+      "src": "/audio/phrases/returning-faulty-headphones-would-a-refund-be-possible.mp3",
+      "text": "Would a refund be possible",
+      "textSha256": "1fe389b4be8a375090232278fd26c37e24f0be6bfc42a472ae740195418d461f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6353353e7ce90794c261b48a472f5be66b0fb1764a2f9ce80c80dda67b6f3b0a",
+      "duration": 2.05,
+      "graphemes": [
+        "Would a refund be possible"
+      ],
+      "phonemes": [
+        "wˌʊd ɐ ɹˈifˌʌnd bi pˈɑsəbᵊl"
+      ]
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "phrases",
+      "itemId": "just-to-confirm",
+      "src": "/audio/phrases/returning-faulty-headphones-just-to-confirm.mp3",
+      "text": "Just to confirm",
+      "textSha256": "322a122ac7c473cf180f6687bcfe493add297b5d238aaf9f71737ceddbdb0ef7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1b91e1c660a102095dd7d80d659ab108367c0011c27662b8144f6bacb001c75b",
+      "duration": 1.7,
+      "graphemes": [
+        "Just to confirm"
+      ],
+      "phonemes": [
+        "ʤˈʌst tə kənfˈɜɹm"
+      ]
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "faulty",
+      "src": "/audio/words/returning-faulty-headphones-faulty.mp3",
+      "text": "faulty",
+      "textSha256": "9ec1600e60d2aba399d84db8163ec37fc67cd60096cb32a66f0a52280797ee95",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8fb0c164aa6cdc0bb075fdd9c4095af946d77a6361f4dfdc4e2d7f3e0050e053",
+      "duration": 1.55,
+      "graphemes": [
+        "faulty"
+      ],
+      "phonemes": [
+        "fˈɔlti"
+      ]
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "receipt",
+      "src": "/audio/words/returning-faulty-headphones-receipt.mp3",
+      "text": "receipt",
+      "textSha256": "6f32860910ca0fb2a20c7fda143666b09dbf8db5238195c90a586fb542ff0cad",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "eb41db414f78aa2eaad69a86584f60f9ac27c3de3ecc4d639e2068af22cccb20",
+      "duration": 1.425,
+      "graphemes": [
+        "receipt"
+      ],
+      "phonemes": [
+        "ɹəsˈit"
+      ]
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "assistant",
+      "src": "/audio/words/returning-faulty-headphones-assistant.mp3",
+      "text": "assistant",
+      "textSha256": "a39a7ffad4a3013f29da97b84f264337f234c1cf9b3c40c7c30c677a8a18609a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7ec46e92accedceb97880865ab84b09ff7e77de6e88ca031907d45c822d32d0e",
+      "duration": 1.525,
+      "graphemes": [
+        "assistant"
+      ],
+      "phonemes": [
+        "əsˈɪstᵊnt"
+      ]
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "battery",
+      "src": "/audio/words/returning-faulty-headphones-battery.mp3",
+      "text": "battery",
+      "textSha256": "f3d1701e1d575e1294786989517866986bc97343e07af63e201f46ba0be5806a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ff635bd27116c962858655a13a3427baf479c908b1bda03c9beb7b013e2cdb06",
+      "duration": 1.425,
+      "graphemes": [
+        "battery"
+      ],
+      "phonemes": [
+        "bˈæTəɹi"
+      ]
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "replacement",
+      "src": "/audio/words/returning-faulty-headphones-replacement.mp3",
+      "text": "replacement",
+      "textSha256": "95713e9cbdd1dfcb2d4080c2537f418d43ca0da25f0d7d6631f4f7c97b89dc47",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d72e33504ef61991322cce62c4541fccbb381abfbc5b95be4404b8739e5e6eb6",
+      "duration": 1.575,
+      "graphemes": [
+        "replacement"
+      ],
+      "phonemes": [
+        "ɹəplˈAsmᵊnt"
+      ]
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "refund",
+      "src": "/audio/words/returning-faulty-headphones-refund.mp3",
+      "text": "refund",
+      "textSha256": "1d630127108f1feaf1f7beee59b66dd679daf712a441f3d0a39ee9ea0f2b7a95",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "33c4f6ed6918bd11e0cafe6d3efdcca2a22c8ab2e16b66115cae45d3283c5fbe",
+      "duration": 1.5,
+      "graphemes": [
+        "refund"
+      ],
+      "phonemes": [
+        "ɹˈifˌʌnd"
+      ]
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "approval",
+      "src": "/audio/words/returning-faulty-headphones-approval.mp3",
+      "text": "approval",
+      "textSha256": "9deb65b8788f41ff94a217842017db2f843954fc0eb46110835903908e5a265f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b4bc0d44ffb6f816306107b4fa7bfa9c7aff682b45b36f214bf41fd73ed2c572",
+      "duration": 1.475,
+      "graphemes": [
+        "approval"
+      ],
+      "phonemes": [
+        "əpɹˈuvᵊl"
+      ]
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "stories",
+      "itemId": "rearranging-a-booking",
+      "src": "/audio/stories/rearranging-a-booking.mp3",
+      "text": "Owen calls a pottery studio to move a booking for two people from Saturday to Sunday. “Could we move our session to the afternoon?” he asks. The receptionist says the afternoon is full, but two places are available at ten in the morning. “If there is no extra charge, we could take the morning session,” Owen replies. “The price stays the same, but any change depends on availability when you call back before five today,” she explains. “Could you keep the original booking until then?” he asks, because his friend has not agreed yet. She agrees to keep Saturday booked but warns that the Sunday places cannot be held without confirmation. Owen will check with his friend and call back before five, knowing that Sunday may no longer be available.",
+      "textSha256": "22cd8296859356329b33761dad88019eb981f58d1400cad32b297aada4e657d5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e8d239048119a2ce112b1c270e8e5679cbdb3c5745f9d5895e96cf07517018b6",
+      "duration": 44.025,
+      "graphemes": [
+        "Owen calls a pottery studio to move a booking for two people from Saturday to Sunday. “Could we move our session to the afternoon?” he asks. The receptionist says the afternoon is full, but two places are available at ten in the morning. “If there is no extra charge, we could take the morning session,” Owen replies. “The price stays the same, but any change depends on availability when you call back before five today,” she explains. “Could you keep the original booking until then?”",
+        "he asks, because his friend has not agreed yet. She agrees to keep Saturday booked but warns that the Sunday places cannot be held without confirmation. Owen will check with his friend and call back before five, knowing that Sunday may no longer be available."
+      ],
+      "phonemes": [
+        "ˈOɪn kˈɔlz ɐ pˈɑTəɹi stˈudiO tə mˈuv ɐ bˈʊkɪŋ fɔɹ tˈu pˈipᵊl fɹʌm sˈæTəɹdˌA tə sˈʌndˌA. “kˌʊd wi mˈuv ˌWəɹ sˈɛʃən tə ði ˌæftəɹnˈun?” hi ˈæsks. ðə ɹəsˈɛpʃənɪst sˈɛz ði ˌæftəɹnˈun ɪz fˈʊl, bˌʌt tˈu plˈAsᵻz ɑɹ əvˈAləbᵊl æt tˈɛn ɪn ðə mˈɔɹnɪŋ. “ˌɪf ðɛɹ ɪz nˈO ˈɛkstɹə ʧˈɑɹʤ, wi kʊd tˈAk ðə mˈɔɹnɪŋ sˈɛʃən,” ˈOɪn ɹᵻplˈIz. “ðə pɹˈIs stˈAz ðə sˈAm, bˌʌt ˈɛni ʧˈAnʤ dəpˈɛndz ˌɔn əvˌAləbˈɪləTi wˌɛn ju kˈɔl bˈæk bəfˈɔɹ fˈIv tədˈA,” ʃi ɪksplˈAnz. “kˌʊd ju kˈip ði əɹˈɪʤənᵊl bˈʊkɪŋ ˌʌntˈɪl ðˈɛn?”",
+        "hi ˈæsks, bəkˈʌz hɪz fɹˈɛnd hæz nˌɑt əɡɹˈid jˈɛt. ʃˌi əɡɹˈiz tə kˈip sˈæTəɹdˌA bˈʊkt bˌʌt wˈɔɹnz ðæt ðə sˈʌndˌA plˈAsᵻz kənˈɑt bi hˈɛld wɪðˈWt kˌɑnfəɹmˈAʃən. ˈOɪn wɪl ʧˈɛk wɪð hɪz fɹˈɛnd ænd kˈɔl bˈæk bəfˈɔɹ fˈIv, nˈOɪŋ ðæt sˈʌndˌA mˈA nˈO lˈɔŋɡəɹ bi əvˈAləbᵊl."
+      ]
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "phrases",
+      "itemId": "could-we-move",
+      "src": "/audio/phrases/rearranging-a-booking-could-we-move.mp3",
+      "text": "Could we move",
+      "textSha256": "ac5394f1531ca20df3434c464e11287ed3079c66a37bb2ad32777292da381f4b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "365eb91f4c774370513a8d5a21a34c5744924276c23b207642966841f95b3b00",
+      "duration": 1.5,
+      "graphemes": [
+        "Could we move"
+      ],
+      "phonemes": [
+        "kˌʊd wi mˈuv"
+      ]
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "phrases",
+      "itemId": "if-there-is-no-extra-charge",
+      "src": "/audio/phrases/rearranging-a-booking-if-there-is-no-extra-charge.mp3",
+      "text": "If there is no extra charge",
+      "textSha256": "be2cab7eca0d6d44d81d7676f987de23f72b43d28b1c39b581c6fbd1d9d10f05",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "089bd35672d7b565a2caf4fc0c3009040175a7e5a05e0d4e9885bec77827789b",
+      "duration": 2.2,
+      "graphemes": [
+        "If there is no extra charge"
+      ],
+      "phonemes": [
+        "ˌɪf ðɛɹ ɪz nˈO ˈɛkstɹə ʧˈɑɹʤ"
+      ]
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "phrases",
+      "itemId": "the-price-stays-the-same",
+      "src": "/audio/phrases/rearranging-a-booking-the-price-stays-the-same.mp3",
+      "text": "The price stays the same",
+      "textSha256": "74ae70b8caaf61e9a82820f9ed2bdfd0e820e7892e2df1f493fffc7fa152aaf0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "653d85253eaf25759bb6b5133be50acc1fa4b21c0a12073bf9a38646677683ae",
+      "duration": 1.875,
+      "graphemes": [
+        "The price stays the same"
+      ],
+      "phonemes": [
+        "ðə pɹˈIs stˈAz ðə sˈAm"
+      ]
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "phrases",
+      "itemId": "depends-on",
+      "src": "/audio/phrases/rearranging-a-booking-depends-on.mp3",
+      "text": "depends on",
+      "textSha256": "a768d802046ef647b76893940f449fa5fd3fdacb9525a35a539b3027226820f9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "adfe1df543655a0a916e1dd0595099a9aebd203e87efc09c1ea17ef31fb485a0",
+      "duration": 1.575,
+      "graphemes": [
+        "depends on"
+      ],
+      "phonemes": [
+        "dəpˈɛndz ˌɔn"
+      ]
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "phrases",
+      "itemId": "could-you-keep",
+      "src": "/audio/phrases/rearranging-a-booking-could-you-keep.mp3",
+      "text": "Could you keep",
+      "textSha256": "b55c2aadcf83a211eee988ab4fc7a5a47b0e18c08c995ec7916581d6f8e7f66c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e56db817de4a0ddf856ce5fda08bfe6d523a59db8530ad810b9e8c134ea35739",
+      "duration": 1.5,
+      "graphemes": [
+        "Could you keep"
+      ],
+      "phonemes": [
+        "kˌʊd ju kˈip"
+      ]
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "booking",
+      "src": "/audio/words/rearranging-a-booking-booking.mp3",
+      "text": "booking",
+      "textSha256": "001d057c49888db925f47ba4f0cbb75edf527893381dc5a27d7a965c766508c4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fdfb5a6c1d9d069dd15682853c4736ccc610772ba736bb41e1630db621edb4ac",
+      "duration": 1.45,
+      "graphemes": [
+        "booking"
+      ],
+      "phonemes": [
+        "bˈʊkɪŋ"
+      ]
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "session",
+      "src": "/audio/words/rearranging-a-booking-session.mp3",
+      "text": "session",
+      "textSha256": "3f3af1ecebbd1410ab417ec0d27bbfcb5d340e177ae159b59fc8626c2dfd9175",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "313b3f95b20efb7921ec3c046151ca524db90905afb490961594c8db5553d674",
+      "duration": 1.425,
+      "graphemes": [
+        "session"
+      ],
+      "phonemes": [
+        "sˈɛʃən"
+      ]
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "receptionist",
+      "src": "/audio/words/rearranging-a-booking-receptionist.mp3",
+      "text": "receptionist",
+      "textSha256": "c3bca14c650063bb88e5a82f757c11defaf4ea06c18368c9c9b70c5d77933dd3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7fe1f4e7543e33b3f9b7b7defa88ecadf3ef303de2d1c58afc6252abe6d01083",
+      "duration": 1.625,
+      "graphemes": [
+        "receptionist"
+      ],
+      "phonemes": [
+        "ɹəsˈɛpʃənɪst"
+      ]
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "charge",
+      "src": "/audio/words/rearranging-a-booking-charge.mp3",
+      "text": "charge",
+      "textSha256": "97488fbab3282166738a47c2f619037228568494475d4ac107c46c02678cb728",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "806082ae3d59b200accc8cb21e4eb22997b027652e63bf3f61380f2f1275ba14",
+      "duration": 1.325,
+      "graphemes": [
+        "charge"
+      ],
+      "phonemes": [
+        "ʧˈɑɹʤ"
+      ]
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "availability",
+      "src": "/audio/words/rearranging-a-booking-availability.mp3",
+      "text": "availability",
+      "textSha256": "f95dac581e9b439c58abf51a6c8c091f8e0aac8c0fb06f0cbca10fc8ac361330",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ff0fe7742d68e345c0f9952c021dbd4d61eb185f5381341bf70cfa431148939a",
+      "duration": 1.65,
+      "graphemes": [
+        "availability"
+      ],
+      "phonemes": [
+        "əvˌAləbˈɪləTi"
+      ]
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "original",
+      "src": "/audio/words/rearranging-a-booking-original.mp3",
+      "text": "original",
+      "textSha256": "0682c5f2076f099c34cfdd15a9e063849ed437a49677e6fcc5b4198c76575be5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c7a9e7abb0df9068cd170556702ba061de12042ae3c8aa01dad1ea412c0cbf92",
+      "duration": 1.575,
+      "graphemes": [
+        "original"
+      ],
+      "phonemes": [
+        "əɹˈɪʤənᵊl"
+      ]
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "confirmation",
+      "src": "/audio/words/rearranging-a-booking-confirmation.mp3",
+      "text": "confirmation",
+      "textSha256": "93cdccc66f8c7f8e670f513593663b243eb1e219766844ba75472272e01a2d6f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cb6cebe6d421bb1760b48836f5b5503c2e403fcfc3844ee842f657586a8aa21f",
+      "duration": 1.675,
+      "graphemes": [
+        "confirmation"
+      ],
+      "phonemes": [
+        "kˌɑnfəɹmˈAʃən"
+      ]
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "stories",
+      "itemId": "agreeing-on-a-shared-budget",
+      "src": "/audio/stories/agreeing-on-a-shared-budget.mp3",
+      "text": "Roommates Leah and Sam set a weekly budget of one hundred and twenty dollars for shared groceries and cleaning supplies. “I would rather buy less meat than cut back on fresh vegetables,” Leah says. Sam agrees, but asks, “Does that include a reserve for unexpected costs?” They allow eighty dollars for groceries and twenty-five for supplies, leaving fifteen as a buffer. “We can split the total equally, provided that personal snacks come from our own money,” Sam suggests. Leah agrees to contribute sixty dollars, but adds, “Any spending above the weekly limit needs both of us to agree first.” Sam agrees to contribute the same amount and says, “The trade-off is less variety, but we can keep our spending under control.” They will review the plan after two weeks and discuss any changes before raising the limit.",
+      "textSha256": "5975f9a61a7fba2d851c974c58ed3cb5739a90b0b035c0d4ced67fdd1e8c60a3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9b68ea665086d365a0e616190faa59703c54412397ae20a6fbb2bb418203557e",
+      "duration": 47.55,
+      "graphemes": [
+        "Roommates Leah and Sam set a weekly budget of one hundred and twenty dollars for shared groceries and cleaning supplies. “I would rather buy less meat than cut back on fresh vegetables,” Leah says. Sam agrees, but asks, “Does that include a reserve for unexpected costs?” They allow eighty dollars for groceries and twenty-five for supplies, leaving fifteen as a buffer. “We can split the total equally, provided that personal snacks come from our own money,” Sam suggests.",
+        "Leah agrees to contribute sixty dollars, but adds, “Any spending above the weekly limit needs both of us to agree first.” Sam agrees to contribute the same amount and says, “The trade-off is less variety, but we can keep our spending under control.” They will review the plan after two weeks and discuss any changes before raising the limit."
+      ],
+      "phonemes": [
+        "ɹˈummˌAts lˈi ænd sˈæm sˈɛt ɐ wˈikli bˈʌʤət ʌv wˈʌn hˈʌndɹəd ænd twˈɛnti dˈɑləɹz fɔɹ ʃˈɛɹd ɡɹˈOsəɹiz ænd klˈinɪŋ səplˈIz. “ˌI wʊd ɹˈæðəɹ bˈI lˈɛs mˈit ðən kˈʌt bˈæk ˌɔn fɹˈɛʃ vˈɛʤtəbəlz,” lˈi sˈɛz. sˈæm əɡɹˈiz, bˌʌt ˈæsks, “dˈʌz ðˈæt ɪnklˈud ɐ ɹəzˈɜɹv fɔɹ ˌʌnəkspˈɛktᵻd kˈɔsts?” ðˌA əlˈW ˈATi dˈɑləɹz fɔɹ ɡɹˈOsəɹiz ænd twˈɛntifˌIv fɔɹ səplˈIz, lˈivɪŋ fˌɪftˈin æz ɐ bˈʌfəɹ. “wˌi kæn splˈɪt ðə tˈOTᵊl ˈikwəli, pɹəvˈIdᵻd ðæt pˈɜɹsᵊnəl snˈæks kˈʌm fɹʌm ˌWəɹ ˈOn mˈʌni,” sˈæm səɡʤˈɛsts.",
+        "lˈi əɡɹˈiz tə kəntɹˈɪbjut sˈɪksti dˈɑləɹz, bˌʌt ˈædz, “ˈɛni spˈɛndɪŋ əbˈʌv ðə wˈikli lˈɪmət nˈidz bˈOθ ʌv ˌʌs tʊ əɡɹˈi fˈɜɹst.” sˈæm əɡɹˈiz tə kəntɹˈɪbjut ðə sˈAm əmˈWnt ænd sˈɛz, “ðə tɹˈAdˌɔf ɪz lˈɛs vəɹˈIəTi, bˌʌt wi kæn kˈip ˌWəɹ spˈɛndɪŋ ˈʌndəɹ kəntɹˈOl.” ðˌA wɪl ɹəvjˈu ðə plˈæn ˈæftəɹ tˈu wˈiks ænd dəskˈʌs ˈɛni ʧˈAnʤᵻz bəfˈɔɹ ɹˈAzɪŋ ðə lˈɪmət."
+      ]
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "phrases",
+      "itemId": "i-would-rather",
+      "src": "/audio/phrases/agreeing-on-a-shared-budget-i-would-rather.mp3",
+      "text": "I would rather",
+      "textSha256": "caf9cd71b44b061ab75e6fb5cf9a6675a3ac65f7a3eb5060e0b0870b01c08d99",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4391d1a70e8f44fcc59556e2b1e27724bf7c5216c2944363d911f9a5c2d162cd",
+      "duration": 1.525,
+      "graphemes": [
+        "I would rather"
+      ],
+      "phonemes": [
+        "ˌI wʊd ɹˈæðəɹ"
+      ]
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "phrases",
+      "itemId": "cut-back-on",
+      "src": "/audio/phrases/agreeing-on-a-shared-budget-cut-back-on.mp3",
+      "text": "cut back on",
+      "textSha256": "988cd2fb7e326bfe0bd15a078b66e5db1d726d292ad3051a0c111936c253e5eb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "07c20b4453a8f6cf3f5d977e93729c1e0b57a9605fcf998715bb847f5ae6a832",
+      "duration": 1.55,
+      "graphemes": [
+        "cut back on"
+      ],
+      "phonemes": [
+        "kˈʌt bˈæk ˌɔn"
+      ]
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "phrases",
+      "itemId": "does-that-include",
+      "src": "/audio/phrases/agreeing-on-a-shared-budget-does-that-include.mp3",
+      "text": "Does that include",
+      "textSha256": "7fb40f23fc36011a0bcdc3431d1b7a93e6b54e989ce858021d6b2a5eebc6d987",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c0e78593f14cb7de1924072d305a1a4a371011f402eb320bc1a5db9aca0a9082",
+      "duration": 1.775,
+      "graphemes": [
+        "Does that include"
+      ],
+      "phonemes": [
+        "dˈʌz ðˈæt ɪnklˈud"
+      ]
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "phrases",
+      "itemId": "provided-that",
+      "src": "/audio/phrases/agreeing-on-a-shared-budget-provided-that.mp3",
+      "text": "provided that",
+      "textSha256": "d5201236a8320664f0bdef3b6e559767277acb6de9a70dbe5ba14a4409776b1a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "37d443746d97dd5fdc4d2e0a07853e3102b74eddf3e0f0bad93f6db3121d9e72",
+      "duration": 1.6,
+      "graphemes": [
+        "provided that"
+      ],
+      "phonemes": [
+        "pɹəvˈIdᵻd ðˈæt"
+      ]
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "phrases",
+      "itemId": "the-trade-off-is",
+      "src": "/audio/phrases/agreeing-on-a-shared-budget-the-trade-off-is.mp3",
+      "text": "The trade-off is",
+      "textSha256": "56df95d7c8d7c40d229818f82c7da9cd1c819cf9c570dc5ea9c552d3842fd1a4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "662508fe121a009ae97b0bd5373f970485bd218a1e2cd7c47278aeacac132c83",
+      "duration": 1.7,
+      "graphemes": [
+        "The trade-off is"
+      ],
+      "phonemes": [
+        "ðə tɹˈAdˌɔf ɪz"
+      ]
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "budget",
+      "src": "/audio/words/agreeing-on-a-shared-budget-budget.mp3",
+      "text": "budget",
+      "textSha256": "0af96a8ed622a394e8b2a239284ee46e9a7a7b0ec38191bbd08571b171118dd6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "72e73f872b1069ded26d3d1bab52cd735421c09fea54f62636261db777226b24",
+      "duration": 1.325,
+      "graphemes": [
+        "budget"
+      ],
+      "phonemes": [
+        "bˈʌʤət"
+      ]
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "reserve",
+      "src": "/audio/words/agreeing-on-a-shared-budget-reserve.mp3",
+      "text": "reserve",
+      "textSha256": "6df24c372c044a0fd8d05774ee70449d7a035d99b3bc3b570a0bf5b22556a904",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "093f8bd2f8b46471b911a82491ac51c86b753ce52da7f8c6137d3bbc274dd5a1",
+      "duration": 1.475,
+      "graphemes": [
+        "reserve"
+      ],
+      "phonemes": [
+        "ɹəzˈɜɹv"
+      ]
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "buffer",
+      "src": "/audio/words/agreeing-on-a-shared-budget-buffer.mp3",
+      "text": "buffer",
+      "textSha256": "d0ca8c2ac0dab879bf27bfb58227b301db17f5ca716d065e7c884253d3ab99e4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cdb71ffc567d518c1db67b26031b1c9dd20e112abaff795f3dc7f4c3208a6ac1",
+      "duration": 1.375,
+      "graphemes": [
+        "buffer"
+      ],
+      "phonemes": [
+        "bˈʌfəɹ"
+      ]
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "equally",
+      "src": "/audio/words/agreeing-on-a-shared-budget-equally.mp3",
+      "text": "equally",
+      "textSha256": "e2f172a8006886a1c977f98012ab9fa4c77c2fd791e1edafb404477e4a342b90",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4bf929ae807104a74270e7f314fc6a1a59ca85b490ed2cd66ed5afc4f98d3734",
+      "duration": 1.4,
+      "graphemes": [
+        "equally"
+      ],
+      "phonemes": [
+        "ˈikwəli"
+      ]
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "contribute",
+      "src": "/audio/words/agreeing-on-a-shared-budget-contribute.mp3",
+      "text": "contribute",
+      "textSha256": "8aa73cb60552b99f7d6b15db6c5c6ef3b1bd1a2ec091dc1202673a3982d7367b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3cb972b619c974cb4d3b2faf44fc79bd55ef0822bc8810d9a8a6ba052ed884af",
+      "duration": 1.525,
+      "graphemes": [
+        "contribute"
+      ],
+      "phonemes": [
+        "kəntɹˈɪbjut"
+      ]
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "limit",
+      "src": "/audio/words/agreeing-on-a-shared-budget-limit.mp3",
+      "text": "limit",
+      "textSha256": "55ea09e5715d0a8d9d94018d473bf23b2d7e630c2adb1f1acad3bada74c6fd05",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e463fcc98af68aaabd22d43f8f476a763a6091832967f3071baf905636af7e6b",
+      "duration": 1.325,
+      "graphemes": [
+        "limit"
+      ],
+      "phonemes": [
+        "lˈɪmət"
+      ]
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "variety",
+      "src": "/audio/words/agreeing-on-a-shared-budget-variety.mp3",
+      "text": "variety",
+      "textSha256": "b530f329d65f246114bd293232aa31ec383289b020059c7628942ee9dcd55f9b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "83d77f63f58a7b31251bd3a4b8754fa94720ba4107acb4b7713e069f9889ffe9",
+      "duration": 1.6,
+      "graphemes": [
+        "variety"
+      ],
+      "phonemes": [
+        "vəɹˈIəTi"
+      ]
+    }
+  ]
+}

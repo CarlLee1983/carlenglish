@@ -1,0 +1,354 @@
+{
+  "id": "agreeing-on-a-shared-budget",
+  "title": "協調共同預算與支出界線",
+  "titleEn": "Agreeing on a Shared Budget",
+  "category": "生活與合作",
+  "level": "中高級",
+  "image": {
+    "src": "/images/scenes/agreeing-on-a-shared-budget.webp",
+    "alt": "兩位成年室友在餐桌前看著日用品、購物清單與預算筆記，討論共同分攤的費用和備用金。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "i-would-rather",
+      "english": "I would rather",
+      "translation": "我寧可",
+      "audio": {
+        "src": "/audio/phrases/agreeing-on-a-shared-budget-i-would-rather.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "caf9cd71b44b061ab75e6fb5cf9a6675a3ac65f7a3eb5060e0b0870b01c08d99",
+        "sha256": "4391d1a70e8f44fcc59556e2b1e27724bf7c5216c2944363d911f9a5c2d162cd"
+      }
+    },
+    {
+      "id": "cut-back-on",
+      "english": "cut back on",
+      "translation": "減少",
+      "audio": {
+        "src": "/audio/phrases/agreeing-on-a-shared-budget-cut-back-on.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "988cd2fb7e326bfe0bd15a078b66e5db1d726d292ad3051a0c111936c253e5eb",
+        "sha256": "07c20b4453a8f6cf3f5d977e93729c1e0b57a9605fcf998715bb847f5ae6a832"
+      }
+    },
+    {
+      "id": "does-that-include",
+      "english": "Does that include",
+      "translation": "那包含……嗎",
+      "audio": {
+        "src": "/audio/phrases/agreeing-on-a-shared-budget-does-that-include.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7fb40f23fc36011a0bcdc3431d1b7a93e6b54e989ce858021d6b2a5eebc6d987",
+        "sha256": "c0e78593f14cb7de1924072d305a1a4a371011f402eb320bc1a5db9aca0a9082"
+      }
+    },
+    {
+      "id": "provided-that",
+      "english": "provided that",
+      "translation": "條件是；只要",
+      "audio": {
+        "src": "/audio/phrases/agreeing-on-a-shared-budget-provided-that.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d5201236a8320664f0bdef3b6e559767277acb6de9a70dbe5ba14a4409776b1a",
+        "sha256": "37d443746d97dd5fdc4d2e0a07853e3102b74eddf3e0f0bad93f6db3121d9e72"
+      }
+    },
+    {
+      "id": "the-trade-off-is",
+      "english": "The trade-off is",
+      "translation": "需要付出的代價是",
+      "audio": {
+        "src": "/audio/phrases/agreeing-on-a-shared-budget-the-trade-off-is.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "56df95d7c8d7c40d229818f82c7da9cd1c819cf9c570dc5ea9c552d3842fd1a4",
+        "sha256": "662508fe121a009ae97b0bd5373f970485bd218a1e2cd7c47278aeacac132c83"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "budget",
+      "english": "budget",
+      "translation": "預算",
+      "example": "We set a budget before shopping.",
+      "audio": {
+        "src": "/audio/words/agreeing-on-a-shared-budget-budget.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0af96a8ed622a394e8b2a239284ee46e9a7a7b0ec38191bbd08571b171118dd6",
+        "sha256": "72e73f872b1069ded26d3d1bab52cd735421c09fea54f62636261db777226b24"
+      }
+    },
+    {
+      "id": "reserve",
+      "english": "reserve",
+      "translation": "備用金；儲備",
+      "example": "We keep a small reserve for unexpected costs.",
+      "audio": {
+        "src": "/audio/words/agreeing-on-a-shared-budget-reserve.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6df24c372c044a0fd8d05774ee70449d7a035d99b3bc3b570a0bf5b22556a904",
+        "sha256": "093f8bd2f8b46471b911a82491ac51c86b753ce52da7f8c6137d3bbc274dd5a1"
+      }
+    },
+    {
+      "id": "buffer",
+      "english": "buffer",
+      "translation": "緩衝金；緩衝空間",
+      "example": "The buffer covers small changes in prices.",
+      "audio": {
+        "src": "/audio/words/agreeing-on-a-shared-budget-buffer.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d0ca8c2ac0dab879bf27bfb58227b301db17f5ca716d065e7c884253d3ab99e4",
+        "sha256": "cdb71ffc567d518c1db67b26031b1c9dd20e112abaff795f3dc7f4c3208a6ac1"
+      }
+    },
+    {
+      "id": "equally",
+      "english": "equally",
+      "translation": "平均地；同等地",
+      "example": "We divide the cost equally.",
+      "audio": {
+        "src": "/audio/words/agreeing-on-a-shared-budget-equally.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e2f172a8006886a1c977f98012ab9fa4c77c2fd791e1edafb404477e4a342b90",
+        "sha256": "4bf929ae807104a74270e7f314fc6a1a59ca85b490ed2cd66ed5afc4f98d3734"
+      }
+    },
+    {
+      "id": "contribute",
+      "english": "contribute",
+      "translation": "出資；貢獻",
+      "example": "Each person will contribute sixty dollars.",
+      "audio": {
+        "src": "/audio/words/agreeing-on-a-shared-budget-contribute.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8aa73cb60552b99f7d6b15db6c5c6ef3b1bd1a2ec091dc1202673a3982d7367b",
+        "sha256": "3cb972b619c974cb4d3b2faf44fc79bd55ef0822bc8810d9a8a6ba052ed884af"
+      }
+    },
+    {
+      "id": "limit",
+      "english": "limit",
+      "translation": "上限；限額",
+      "example": "We agreed on a weekly spending limit.",
+      "audio": {
+        "src": "/audio/words/agreeing-on-a-shared-budget-limit.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "55ea09e5715d0a8d9d94018d473bf23b2d7e630c2adb1f1acad3bada74c6fd05",
+        "sha256": "e463fcc98af68aaabd22d43f8f476a763a6091832967f3071baf905636af7e6b"
+      }
+    },
+    {
+      "id": "variety",
+      "english": "variety",
+      "translation": "多樣性；選擇種類",
+      "example": "The smaller menu offers less variety.",
+      "audio": {
+        "src": "/audio/words/agreeing-on-a-shared-budget-variety.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b530f329d65f246114bd293232aa31ec383289b020059c7628942ee9dcd55f9b",
+        "sha256": "83d77f63f58a7b31251bd3a4b8754fa94720ba4107acb4b7713e069f9889ffe9"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Roommates Leah and Sam set a weekly "
+        },
+        {
+          "text": "budget",
+          "wordIds": [
+            "budget"
+          ]
+        },
+        {
+          "text": " of one hundred and twenty dollars for shared groceries and cleaning supplies."
+        }
+      ],
+      "translation": "室友 Leah 和 Sam 把每週共用的食品雜貨與清潔用品預算訂為一百二十元。"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "I would rather",
+          "phraseIds": [
+            "i-would-rather"
+          ]
+        },
+        {
+          "text": " buy less meat than "
+        },
+        {
+          "text": "cut back on",
+          "phraseIds": [
+            "cut-back-on"
+          ]
+        },
+        {
+          "text": " fresh vegetables,” Leah says."
+        }
+      ],
+      "translation": "Leah 說：「我寧可少買肉，也不想減少新鮮蔬菜。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Sam agrees, but asks, “"
+        },
+        {
+          "text": "Does that include",
+          "phraseIds": [
+            "does-that-include"
+          ]
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "reserve",
+          "wordIds": [
+            "reserve"
+          ]
+        },
+        {
+          "text": " for unexpected costs?”"
+        }
+      ],
+      "translation": "Sam 同意，不過他問：「這個金額包含應付意外支出的備用金嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "They allow eighty dollars for groceries and twenty-five for supplies, leaving fifteen as a "
+        },
+        {
+          "text": "buffer",
+          "wordIds": [
+            "buffer"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們安排八十元購買食品雜貨、二十五元購買清潔用品，留下十五元作為緩衝金。"
+    },
+    {
+      "segments": [
+        {
+          "text": "“We can split the total "
+        },
+        {
+          "text": "equally",
+          "wordIds": [
+            "equally"
+          ]
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "provided that",
+          "phraseIds": [
+            "provided-that"
+          ]
+        },
+        {
+          "text": " personal snacks come from our own money,” Sam suggests."
+        }
+      ],
+      "translation": "Sam 提議：「我們可以平均分攤總額，條件是個人的零食要用自己的錢買。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leah agrees to "
+        },
+        {
+          "text": "contribute",
+          "wordIds": [
+            "contribute"
+          ]
+        },
+        {
+          "text": " sixty dollars, but adds, “Any spending above the weekly "
+        },
+        {
+          "text": "limit",
+          "wordIds": [
+            "limit"
+          ]
+        },
+        {
+          "text": " needs both of us to agree first.”"
+        }
+      ],
+      "translation": "Leah 同意出六十元，不過她補充：「任何超出每週上限的支出，都要先經過我們兩個人同意。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Sam agrees to "
+        },
+        {
+          "text": "contribute",
+          "wordIds": [
+            "contribute"
+          ]
+        },
+        {
+          "text": " the same amount and says, “"
+        },
+        {
+          "text": "The trade-off is",
+          "phraseIds": [
+            "the-trade-off-is"
+          ]
+        },
+        {
+          "text": " less "
+        },
+        {
+          "text": "variety",
+          "wordIds": [
+            "variety"
+          ]
+        },
+        {
+          "text": ", but we can keep our spending under control.”"
+        }
+      ],
+      "translation": "Sam 同意出同樣的金額，並說：「代價是選擇少一些，不過我們可以控制支出。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "They will review the plan after two weeks and discuss any changes before raising the "
+        },
+        {
+          "text": "limit",
+          "wordIds": [
+            "limit"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們會在兩週後檢視這個計畫，並在提高上限之前先討論任何調整。"
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/agreeing-on-a-shared-budget.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "5975f9a61a7fba2d851c974c58ed3cb5739a90b0b035c0d4ced67fdd1e8c60a3",
+    "sha256": "9b68ea665086d365a0e616190faa59703c54412397ae20a6fbb2bb418203557e"
+  }
+}
