@@ -140,6 +140,13 @@ test('a large mixed-level catalog builds and serves complete routes without chan
     }
     symlinkSync(join(projectRoot, 'node_modules'), join(tempRoot, 'node_modules'), 'dir');
 
+    // A valid mixed-case extension must also enter the homepage image pipeline.
+    const cafe = originals.find((scene) => scene.id === 'cafe-breakfast');
+    const mixedCaseSrc = cafe.image.src.replace(/\.[^.]+$/, '-mixed-case.WeBp');
+    cpSync(join(tempRoot, 'public', cafe.image.src.slice(1)), join(tempRoot, 'public', mixedCaseSrc.slice(1)));
+    cafe.image = { ...cafe.image, src: mixedCaseSrc };
+    writeFileSync(join(tempRoot, 'content/scenes/cafe-breakfast.json'), JSON.stringify(cafe));
+
     const original = JSON.parse(readFileSync(join(tempRoot, 'content/scenes/cafe-breakfast.json'), 'utf8'));
     const added = [];
     for (const [levelId, levelName] of [['beginner', '初級'], ['intermediate', '中級'], ['advanced', '高級']]) {
@@ -206,6 +213,9 @@ test('a large mixed-level catalog builds and serves complete routes without chan
     browser = await chromium.launch();
     const page = await browser.newPage();
     await page.goto(origin);
+    const homeImage = page.getByRole('img', { name: cafe.image.alt });
+    assert.ok(await homeImage.evaluate((image) => image.complete && image.naturalWidth > 0));
+    assert.match(await homeImage.getAttribute('src'), /^\/_astro\//);
     assert.equal(await page.getByRole('link', { name: /^閱讀/ }).count(), 0);
     for (const [levelId, levelName] of [['beginner', '初級'], ['intermediate', '中級'], ['advanced', '高級']]) {
       await page.getByRole('link', { name: `進入${levelName}` }).click();

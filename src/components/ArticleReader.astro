@@ -14,22 +14,19 @@ const source = article.source;
   </header>
   <div class="reading-body">
     {source && (
-      <section class="article-section" aria-labelledby="source-title">
+      <section class="article-source" aria-labelledby="source-title">
         <h2 id="source-title">來源</h2>
-        <dl class="source-list">
-          <div><dt>媒體</dt><dd>{source.outlet}</dd></div>
-          <div><dt>原文標題</dt><dd><a href={source.url} lang="en">{source.title}</a></dd></div>
-          <div><dt>發布日期</dt><dd>{source.publishedAt}</dd></div>
-          <div><dt>事件日期</dt><dd>{source.eventDate}</dd></div>
-          <div><dt>改寫日期</dt><dd>{source.rewrittenAt}</dd></div>
-          <div><dt>取用日期</dt><dd>{source.accessedAt}</dd></div>
-        </dl>
-      </section>
-    )}
-    {article.background && (
-      <section class="article-section" aria-labelledby="background-title">
-        <h2 id="background-title">背景</h2>
-        <p class="background-text">{article.background}</p>
+        <p class="source-credit"><span>{source.outlet}</span><a href={source.url} aria-label={`閱讀原文：${source.title}`}>閱讀原文 <span aria-hidden="true">↗</span></a></p>
+        <details class="source-details">
+          <summary>查看日期與改寫資訊</summary>
+          <dl class="source-list">
+            <div><dt>原文標題</dt><dd lang="en">{source.title}</dd></div>
+            <div><dt>發布日期</dt><dd>{source.publishedAt}</dd></div>
+            <div><dt>事件日期</dt><dd>{source.eventDate}</dd></div>
+            <div><dt>改寫日期</dt><dd>{source.rewrittenAt}</dd></div>
+            <div><dt>取用日期</dt><dd>{source.accessedAt}</dd></div>
+          </dl>
+        </details>
       </section>
     )}
     <section class="story-section" aria-labelledby="body-title">
@@ -60,6 +57,12 @@ const source = article.source;
         </div>
       </details>
     </section>
+    {article.background && (
+      <section class="article-section" aria-labelledby="background-title">
+        <h2 id="background-title">背景</h2>
+        <p class="background-text">{article.background}</p>
+      </section>
+    )}
     {article.glossary.length > 0 && (
       <section class="article-section" aria-labelledby="glossary-title">
         <h2 id="glossary-title">關鍵詞</h2>

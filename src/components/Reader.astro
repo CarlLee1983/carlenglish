@@ -15,7 +15,7 @@ const levelPath = `/levels/${level.id}/`;
     <p class="reader-title-zh">{scene.title}</p>
   </header>
   <nav class="reader-sections" aria-label="本篇內容"><span>本篇內容</span><a href="#story">短文</a><a href="#phrases">短句</a><a href="#words">單字</a></nav>
-  <img class="scene-image" src={scene.image.src} alt={scene.image.alt} width={scene.image.width} height={scene.image.height} fetchpriority="high" />
+  <img class="scene-image" src={scene.image.src} alt={scene.image.alt} width={scene.image.width} height={scene.image.height} style={`--scene-width: ${360 * scene.image.width / scene.image.height}px; --scene-mobile-width: ${260 * scene.image.width / scene.image.height}px;`} fetchpriority="high" />
   <div class="reading-body">
     <section id="story" class="story-section" aria-labelledby="story-title">
       <h2 id="story-title">英文短文</h2>
@@ -26,16 +26,8 @@ const levelPath = `/levels/${level.id}/`;
         <button type="button" class="pronunciation-action" data-story-restart aria-label="從頭朗讀" disabled>從頭播放</button>
         <button type="button" class="pronunciation-stop" data-pronounce-stop disabled>停止播放</button>
       </div>
-      <p class="pronunciation-voice">{scene.voiceProfile.label} · AI 合成語音</p>
       <p class="pronunciation-status" data-pronounce-status role="status" aria-live="polite" aria-atomic="true">點選播放按鈕，即可聽固定美式女聲。</p>
       <noscript><p class="pronunciation-noscript">啟用 JavaScript 後即可播放語音；文章仍可正常閱讀。</p></noscript>
-      <details class="pronunciation-attribution">
-        <summary>音源與製作方式</summary>
-        <div class="pronunciation-attribution-body">
-          <p>本站語音由 {scene.voiceProfile.provider} 模型合成，固定使用 {scene.voiceProfile.voice} 聲線。引擎版本：{scene.voiceProfile.libraryVersion}。</p>
-          <p><a href={scene.voiceProfile.sourceUrl}>模型來源</a> · 模型授權：<a href={scene.voiceProfile.modelLicenseUrl}>{scene.voiceProfile.modelLicenseName}</a></p>
-        </div>
-      </details>
       <p class="annotation-key"><span class="phrase-highlight">常用短句</span><span class="word-highlight">重點單字</span></p>
       <div class="english-story" lang="en">
         {scene.sentences.map((sentence) => (
@@ -48,6 +40,14 @@ const levelPath = `/levels/${level.id}/`;
         <summary><span class="when-closed">查看繁體中文翻譯</span><span class="when-open">收合繁體中文翻譯</span><span class="disclosure-symbol" aria-hidden="true">+</span></summary>
         <div class="translated-story">
           {scene.sentences.map((sentence) => <p>{sentence.translation}</p>)}
+        </div>
+      </details>
+      <p class="pronunciation-voice">{scene.voiceProfile.label} · AI 合成語音</p>
+      <details class="pronunciation-attribution">
+        <summary>音源與製作方式</summary>
+        <div class="pronunciation-attribution-body">
+          <p>本站語音由 {scene.voiceProfile.provider} 模型合成，固定使用 {scene.voiceProfile.voice} 聲線。引擎版本：{scene.voiceProfile.libraryVersion}。</p>
+          <p><a href={scene.voiceProfile.sourceUrl}>模型來源</a> · 模型授權：<a href={scene.voiceProfile.modelLicenseUrl}>{scene.voiceProfile.modelLicenseName}</a></p>
         </div>
       </details>
     </section>
