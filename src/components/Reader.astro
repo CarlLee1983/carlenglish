@@ -1,19 +1,23 @@
 ---
 import type { Scene } from '../lib/scenes';
+import { getLearningLevel, getRelatedScenes } from '../lib/catalog';
 interface Props { scene: Scene; scenes: Scene[] }
 const { scene, scenes } = Astro.props;
-const otherScenes = scenes.filter((other) => other.id !== scene.id);
+const level = getLearningLevel(scene);
+const otherScenes = getRelatedScenes(scene, scenes);
+const levelPath = `/levels/${level.id}/`;
 ---
 <article class="page-shell reader" data-pronunciation-player>
-  <a class="back-link" href="/"><span aria-hidden="true">←</span> 回到場景列表</a>
+  <a class="back-link" href={levelPath} data-catalog-context><span aria-hidden="true">←</span> 回到{level.name}讀本</a>
   <header class="reader-heading">
     <p class="scene-meta">{scene.category}<span>{scene.level}</span></p>
     <h1 lang="en">{scene.titleEn}</h1>
     <p class="reader-title-zh">{scene.title}</p>
   </header>
+  <nav class="reader-sections" aria-label="本篇內容"><span>本篇內容</span><a href="#story">短文</a><a href="#phrases">短句</a><a href="#words">單字</a></nav>
   <img class="scene-image" src={scene.image.src} alt={scene.image.alt} width={scene.image.width} height={scene.image.height} fetchpriority="high" />
   <div class="reading-body">
-    <section class="story-section" aria-labelledby="story-title">
+    <section id="story" class="story-section" aria-labelledby="story-title">
       <h2 id="story-title">英文短文</h2>
       <p class="section-hint">先試著讀英文，需要時再查看翻譯。</p>
       <div class="pronunciation-controls">
@@ -47,7 +51,7 @@ const otherScenes = scenes.filter((other) => other.id !== scene.id);
         </div>
       </details>
     </section>
-    <section class="phrases-section" aria-labelledby="phrases-title">
+    <section id="phrases" class="phrases-section" aria-labelledby="phrases-title">
       <h2 id="phrases-title">常用短句</h2>
       <p class="section-hint">把這幾句，帶進下一次的生活情境。</p>
       <ul class="phrase-list">
@@ -62,7 +66,7 @@ const otherScenes = scenes.filter((other) => other.id !== scene.id);
         ))}
       </ul>
     </section>
-    <section class="words-section" aria-labelledby="words-title">
+    <section id="words" class="words-section" aria-labelledby="words-title">
       <h2 id="words-title">重點單字</h2>
       <ul class="word-list">
         {scene.words.map((word) => (
@@ -78,9 +82,10 @@ const otherScenes = scenes.filter((other) => other.id !== scene.id);
       </ul>
     </section>
     <nav class="reader-navigation" aria-label="場景導覽">
-      {otherScenes.length > 0 && <><h2>接著讀另一個場景</h2><ul>{otherScenes.map((other) => <li><a href={`/scenes/${other.id}/`}>{other.title} <span aria-hidden="true">→</span></a></li>)}</ul></>}
-      <a class="back-link" href="/">回到場景列表 <span aria-hidden="true">→</span></a>
+      {otherScenes.length > 0 && <><h2>繼續讀{level.name}生活英文</h2><ul>{otherScenes.map((other) => <li><a href={`/scenes/${other.id}/`} data-catalog-context>{other.title} <span aria-hidden="true">→</span></a></li>)}</ul></>}
+      <a class="back-link" href={levelPath} data-catalog-context>回到{level.name}讀本 <span aria-hidden="true">→</span></a>
     </nav>
   </div>
 </article>
 <script>import '../scripts/pronunciation';</script>
+<script>import '../scripts/reader-navigation';</script>

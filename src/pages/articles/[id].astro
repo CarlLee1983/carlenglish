@@ -1,14 +1,24 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import ArticleReader from '../../components/ArticleReader.astro';
-import { loadArticles, type Article } from '../../lib/articles';
+import { loadArticles, trackLabels, type Article } from '../../lib/articles';
+import { breadcrumbData, canonicalUrl } from '../../lib/seo';
 export function getStaticPaths() {
   const articles = loadArticles();
   return articles.map((article) => ({ params: { id: article.id }, props: { article, articles } }));
 }
 interface Props { article: Article; articles: Article[] }
 const { article, articles } = Astro.props;
+const pageUrl = canonicalUrl(`/articles/${article.id}/`, Astro.site);
+const homeUrl = canonicalUrl('/', Astro.site);
+const description = `${article.title}｜${trackLabels[article.track]}軌 ${article.stage}。提供英文${article.posts ? '貼文' : '段落'}與繁體中文翻譯、${article.glossary.length ? `${article.glossary.length} 個關鍵詞及` : ''}${article.questions.length} 個讀後提問與可展開的參考答案。`;
+const structuredData = [
+  { '@type': 'WebPage', '@id': `${pageUrl}#webpage`, name: article.title, alternateName: article.titleEn,
+    description, url: pageUrl, inLanguage: ['zh-Hant', 'en'], isPartOf: { '@id': `${homeUrl}#website` },
+    breadcrumb: { '@id': `${pageUrl}#breadcrumbs` }, ...(article.source ? { isBasedOn: article.source.url } : {}) },
+  breadcrumbData([{ name: 'CarlEnglish', path: '/' }, { name: article.title, path: `/articles/${article.id}/` }], Astro.site),
+];
 ---
-<Layout title={article.title}>
+<Layout title={`${article.title}｜${article.titleEn}`} description={description} structuredData={structuredData}>
   <ArticleReader article={article} articles={articles} />
 </Layout>

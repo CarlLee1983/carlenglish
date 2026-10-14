@@ -1,0 +1,64 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { loadScenes } from '../../lib/scenes';
+import { createCatalog } from '../../lib/catalog';
+import { breadcrumbData, canonicalUrl } from '../../lib/seo';
+
+export function getStaticPaths() {
+  return createCatalog(loadScenes()).map((group) => ({ params: { level: group.level.id }, props: { group } }));
+}
+interface Props { group: ReturnType<typeof createCatalog>[number] }
+const { group: { level, scenes, categories } } = Astro.props;
+const pageUrl = canonicalUrl(`/levels/${level.id}/`, Astro.site);
+const homeUrl = canonicalUrl('/', Astro.site);
+const description = scenes.length
+  ? `${level.summary}目前有 ${scenes.length} 篇${level.name}生活場景讀本，附繁體中文翻譯、常用短句、重點單字與本地朗讀音檔。`
+  : `${level.name}讀本正在準備中。可以先從初級生活場景開始，看圖讀短文，練習短句與單字發音。`;
+const structuredData = [
+  { '@type': 'CollectionPage', '@id': `${pageUrl}#webpage`, name: `${level.name}讀本`, url: pageUrl, description, inLanguage: ['zh-Hant', 'en'],
+    isPartOf: { '@id': `${homeUrl}#website` }, mainEntity: { '@id': `${pageUrl}#readings` }, breadcrumb: { '@id': `${pageUrl}#breadcrumbs` } },
+  { '@type': 'ItemList', '@id': `${pageUrl}#readings`, numberOfItems: scenes.length,
+    itemListElement: scenes.map((scene, index) => ({ '@type': 'ListItem', position: index + 1, name: scene.title, url: canonicalUrl(`/scenes/${scene.id}/`, Astro.site) })) },
+  breadcrumbData([{ name: 'CarlEnglish', path: '/' }, { name: `${level.name}讀本`, path: `/levels/${level.id}/` }], Astro.site),
+];
+---
+<Layout title={`${level.name}生活英文讀本`} currentLevel={level.id} description={description} structuredData={structuredData} noindex={scenes.length === 0}>
+  <div class="page-shell catalog-page">
+    <a class="back-link" href="/"><span aria-hidden="true">←</span> 選擇學習程度</a>
+    <header class="catalog-intro">
+      <div><p class="eyebrow" lang="en">{level.english}</p><h1>{level.name}讀本</h1><p>{level.summary}</p></div>
+      <p class="catalog-total"><strong>{scenes.length.toString().padStart(2, '0')}</strong> 篇讀本</p>
+    </header>
+    {scenes.length > 0 ? (
+      <section aria-labelledby="scenes-title" data-catalog>
+        <form class="catalog-filters" role="search" aria-label="搜尋與篩選讀本" data-catalog-form hidden>
+          <label class="search-field"><span>搜尋讀本</span><input type="search" name="q" placeholder="輸入主題、中文或英文" autocomplete="off" /></label>
+          <label class="category-field"><span>生活主題</span><select name="category"><option value="">全部主題</option>{categories.map((category) => <option value={category}>{category}</option>)}</select></label>
+          <button class="clear-filters" type="button" data-clear-filters hidden>清除篩選</button>
+        </form>
+        <noscript><p class="section-hint">以下列出全部{level.name}讀本。啟用 JavaScript 後可搜尋與篩選。</p></noscript>
+        <div class="collection-heading catalog-heading"><h2 id="scenes-title">選一個生活場景</h2><p data-result-count role="status" aria-live="polite" aria-atomic="true">共 {scenes.length} 篇讀本</p></div>
+        <ul class="scene-list">
+          {scenes.map((scene, index) => (
+            <li data-scene-card data-category={scene.category} data-search={`${scene.title} ${scene.titleEn} ${scene.category}`}>
+              <a class="scene-card" href={`/scenes/${scene.id}/`} aria-label={`閱讀${scene.title}`}>
+                <div class="scene-card-image"><img src={scene.image.src} alt={scene.image.alt} width={scene.image.width} height={scene.image.height} loading={index < 3 ? 'eager' : 'lazy'} /></div>
+                <div class="scene-card-copy">
+                  <p class="scene-meta">{scene.category}<span>{scene.level}</span></p>
+                  <h3>{scene.title}</h3>
+                  <p class="scene-card-title" lang="en">{scene.titleEn}</p>
+                  <p class="scene-counts">{scene.sentences.length} 句短文 · {scene.phrases.length} 個短句 · {scene.words.length} 個單字</p>
+                  <span class="read-label">開始閱讀 <span aria-hidden="true">↗</span></span>
+                </div>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <div class="catalog-empty" data-no-results hidden><h3>沒有找到符合的讀本</h3><p>換個關鍵字或生活主題，也可以清除篩選再選一篇。</p></div>
+      </section>
+    ) : (
+      <section class="catalog-empty empty-level" aria-labelledby="empty-title"><p class="eyebrow">慢慢增加，一起練習。</p><h2 id="empty-title">這個級別的讀本還在準備中</h2><p>目前可以先選一篇初級生活讀本，練習看圖閱讀與聽英文。</p><a class="button-link" href="/levels/beginner/">先讀初級讀本 <span aria-hidden="true">→</span></a></section>
+    )}
+  </div>
+</Layout>
+<script>import '../../scripts/catalog';</script>

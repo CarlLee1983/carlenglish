@@ -2,13 +2,29 @@
 import Layout from '../../layouts/Layout.astro';
 import Reader from '../../components/Reader.astro';
 import { loadScenes, type Scene } from '../../lib/scenes';
+import { getLearningLevel } from '../../lib/catalog';
+import { breadcrumbData, canonicalUrl, sceneSocialImage } from '../../lib/seo';
 export function getStaticPaths() {
   const scenes = loadScenes();
   return scenes.map((scene) => ({ params: { id: scene.id }, props: { scene, scenes } }));
 }
 interface Props { scene: Scene; scenes: Scene[] }
 const { scene, scenes } = Astro.props;
+const level = getLearningLevel(scene);
+const pageUrl = canonicalUrl(`/scenes/${scene.id}/`, Astro.site);
+const homeUrl = canonicalUrl('/', Astro.site);
+const description = `${scene.title}（${scene.level}）：練習${scene.category}生活英文。包含 ${scene.sentences.length} 句短文、${scene.phrases.length} 個常用短句與 ${scene.words.length} 個重點單字，附繁體中文翻譯與朗讀音檔。`;
+const shareImage = sceneSocialImage(scene);
+const structuredData = [
+  { '@type': ['WebPage', 'LearningResource'], '@id': `${pageUrl}#webpage`, name: scene.title, alternateName: scene.titleEn,
+    url: pageUrl, description, inLanguage: ['en', 'zh-Hant'], educationalLevel: scene.level, learningResourceType: '生活英文圖文讀本',
+    about: { '@type': 'Thing', name: scene.category }, teaches: scene.phrases.map((phrase) => phrase.english),
+    image: { '@type': 'ImageObject', url: new URL(scene.image.src, Astro.site).href, width: scene.image.width, height: scene.image.height, caption: scene.image.alt },
+    audio: { '@type': 'AudioObject', contentUrl: new URL(scene.audio.src, Astro.site).href, encodingFormat: 'audio/mpeg', inLanguage: 'en', name: `${scene.title}英文短文朗讀` },
+    isPartOf: { '@id': `${homeUrl}#website` }, breadcrumb: { '@id': `${pageUrl}#breadcrumbs` } },
+  breadcrumbData([{ name: 'CarlEnglish', path: '/' }, { name: `${level.name}讀本`, path: `/levels/${level.id}/` }, { name: scene.title, path: `/scenes/${scene.id}/` }], Astro.site),
+];
 ---
-<Layout title={scene.title}>
+<Layout title={`${scene.title}｜${scene.titleEn}`} description={description} shareImage={shareImage} structuredData={structuredData} currentLevel={level.id} isReader>
   <Reader scene={scene} scenes={scenes} />
 </Layout>
