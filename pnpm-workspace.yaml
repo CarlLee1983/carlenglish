@@ -3,3 +3,8 @@ allowBuilds:
   esbuild@0.28.2: true
   workerd@1.20261006.1: true
   fsevents@2.3.3: false
+
+# These exact versions were already locked and deployed before the pnpm migration.
+minimumReleaseAgeExclude:
+  - wrangler@4.150.0
+  - miniflare@5.20261006.2-beta

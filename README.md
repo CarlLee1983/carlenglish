@@ -30,7 +30,7 @@ pnpm run test:extension
 ## 內容與呈現
 
 - `pnpm-lock.yaml`：固定依賴與套件管理器版本，安裝使用 `--frozen-lockfile`。
-- `pnpm-workspace.yaml`：指定原生工具的建置腳本政策；目前允許固定版本的 esbuild、workerd，fsevents 使用套件內附的可選 macOS binary。升級相關依賴時需同步核對建置政策。
+- `pnpm-workspace.yaml`：指定原生工具的建置腳本政策；目前允許固定版本的 esbuild、workerd，fsevents 使用套件內附的可選 macOS binary。發布年齡例外只涵蓋遷移前已採用的 `wrangler@4.150.0` 與 `miniflare@5.20261006.2-beta`；其他套件及後續版本沿用 pnpm 的預設限制。升級相關依賴時需同步核對這些政策。
 - `content/scenes/*.json`：每個場景一份資料。
 - `public/images/scenes/`：網站直接使用的預先生成圖片。
 - `public/audio/{words,phrases,stories}/`：網站直接播放的本地合成 MP3。

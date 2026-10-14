@@ -12,6 +12,8 @@ CI 與 Deploy 改用固定 commit 的 `pnpm/setup` v1，從 manifest 取得 pnpm
 
 另在只含 manifest、pnpm 鎖檔與建置政策的乾淨暫存目錄執行 `pnpm install --frozen-lockfile --offline`，成功建立全新的 `node_modules`，鎖檔雜湊不變。確認 Astro 7.3.8、Wrangler 4.150.0、TypeScript 6.0.3、esbuild 0.28.2 及 workerd 平台執行檔版本；macOS 的 fsevents 內附 addon 可載入。兩份 workflow 與鎖檔的 YAML 解析檢查也通過，暫存目錄已清理。
 
+首次推送 `960ed49` 的 [CI](https://github.com/CarlLee1983/carlenglish/actions/runs/38511363060) 與 [Deploy](https://github.com/CarlLee1983/carlenglish/actions/runs/38511362968) 在安裝時遭 `ERR_PNPM_MINIMUM_RELEASE_AGE_VIOLATION` 攔截：既有 `wrangler@4.150.0` 與 `miniflare@5.20261006.2-beta` 發布未滿 pnpm 預設的 24 小時。本機與離線安裝重用的政策驗證快取未暴露此限制。使用隔離的快取、store 與 state 執行線上 frozen 鎖檔驗證，重現相同兩筆錯誤；在 `pnpm-workspace.yaml` 加入這兩個[精確版本的排除項](https://pnpm.io/settings/dependency-resolution#minimumreleaseageexclude)後，同一驗證通過且鎖檔未變。其他套件與後續版本保留預設限制，未設定 `trustLockfile` 或全域停用發布年齡檢查。修正後的完整 `pnpm run verify` 再次通過，結果仍為內容 13/13、瀏覽器 122 passed / 3 skipped、擴充 1/1；政策變更的獨立審閱 clean。
+
 若需回復套件管理器，需一併回復 manifest、鎖檔、建置政策、workflow、測試啟動指令與現行文件，並重新安裝原 npm 依賴；場景內容、圖片與音檔沒有改動。
 
 ## 2026-10-14 發布驗證
