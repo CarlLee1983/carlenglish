@@ -113,6 +113,143 @@ test('home offers the three learning levels and level pages discover official sc
   }
 });
 
+test('home preview loads and the first beginner entry fits the initial viewport', async ({ page }) => {
+  const preview = scenes.find((scene) => scene.id === 'cafe-breakfast') ?? scenes[0];
+  await page.goto('/');
+  const image = page.getByRole('img', { name: preview.image.alt });
+  await expect.poll(() => image.evaluate((element: HTMLImageElement) => element.complete && element.naturalWidth > 0)).toBe(true);
+  const rendered = await image.evaluate((element: HTMLImageElement) => ({
+    currentSrc: element.currentSrc,
+    origin: location.origin,
+    ratio: element.naturalWidth / element.naturalHeight,
+  }));
+  expect(new URL(rendered.currentSrc).origin).toBe(rendered.origin);
+  expect(new URL(rendered.currentSrc).pathname).toMatch(/^\/_astro\//);
+  expect(rendered.ratio).toBeCloseTo(preview.image.width / preview.image.height, 2);
+  const entry = page.getByRole('link', { name: '進入初級' });
+  const box = await entry.boundingBox();
+  expect(box).not.toBeNull();
+  expect(box!.y).toBeGreaterThanOrEqual(0);
+  expect(box!.y + box!.height).toBeLessThanOrEqual(page.viewportSize()!.height);
+});
+
+test('home preview reserves its space while the image loads', async ({ page }) => {
+  const preview = scenes.find((scene) => scene.id === 'cafe-breakfast') ?? scenes[0];
+  let releaseImage!: () => void;
+  const pendingImage = new Promise<void>((resolve) => { releaseImage = resolve; });
+  let intercepted = 0;
+  await page.route('**/_astro/*.webp', async (route) => {
+    intercepted++;
+    await pendingImage;
+    await route.continue();
+  });
+  try {
+    await page.goto('/', { waitUntil: 'domcontentloaded' });
+    await expect.poll(() => intercepted).toBeGreaterThan(0);
+    const image = page.getByRole('img', { name: preview.image.alt });
+    const entry = page.getByRole('link', { name: '進入初級' });
+    const beforeImage = await image.boundingBox();
+    const beforeEntry = await entry.boundingBox();
+    expect(beforeImage).not.toBeNull();
+    expect(beforeEntry).not.toBeNull();
+    expect(beforeImage!.height).toBeGreaterThan(0);
+    releaseImage();
+    await expect.poll(() => image.evaluate((element: HTMLImageElement) => element.complete && element.naturalWidth > 0)).toBe(true);
+    const afterImage = await image.boundingBox();
+    const afterEntry = await entry.boundingBox();
+    expect(afterImage).not.toBeNull();
+    expect(afterEntry).not.toBeNull();
+    expect(Math.abs(afterImage!.height - beforeImage!.height)).toBeLessThan(1);
+    expect(Math.abs(afterEntry!.y - beforeEntry!.y)).toBeLessThan(1);
+  } finally {
+    releaseImage();
+  }
+});
+
+test('cafe reader image reserves its space while loading', async ({ page }) => {
+  const scene = scenes.find((item) => item.id === 'cafe-breakfast')!;
+  let releaseImage!: () => void;
+  const pendingImage = new Promise<void>((resolve) => { releaseImage = resolve; });
+  let intercepted = 0;
+  await page.route(`**${scene.image.src}`, async (route) => {
+    intercepted++;
+    await pendingImage;
+    await route.continue();
+  });
+  try {
+    await page.goto(scenePath(scene), { waitUntil: 'domcontentloaded' });
+    await expect.poll(() => intercepted).toBeGreaterThan(0);
+    const image = page.getByRole('img', { name: scene.image.alt });
+    const firstSentence = storyParagraphs(page).first();
+    const beforeImage = await image.boundingBox();
+    const beforeSentence = await firstSentence.boundingBox();
+    expect(beforeImage).not.toBeNull();
+    expect(beforeSentence).not.toBeNull();
+    expect(beforeImage!.height).toBeGreaterThan(0);
+    releaseImage();
+    await expect.poll(() => image.evaluate((element: HTMLImageElement) => element.complete && element.naturalWidth > 0)).toBe(true);
+    const afterImage = await image.boundingBox();
+    const afterSentence = await firstSentence.boundingBox();
+    expect(afterImage).not.toBeNull();
+    expect(afterSentence).not.toBeNull();
+    expect(Math.abs(afterImage!.height - beforeImage!.height)).toBeLessThan(1);
+    expect(Math.abs(afterSentence!.y - beforeSentence!.y)).toBeLessThan(1);
+  } finally {
+    releaseImage();
+  }
+});
+
+test('catalog search and category boundaries contrast with their backgrounds', async ({ page }) => {
+  await page.goto('/levels/beginner/');
+  // Mobile WebKit reports its native select defaults until the first paint.
+  await page.screenshot();
+  for (const control of [page.getByRole('searchbox', { name: '搜尋讀本' }), page.getByRole('combobox', { name: '生活主題' })]) {
+    await expect(control).toBeVisible();
+    const contrasts = await control.evaluate((element) => {
+      const rgb = (color: string) => {
+        const channels = color.match(/[\d.]+/g)?.map(Number) ?? [];
+        if (channels.length < 3) throw new Error(`Unexpected color: ${color}`);
+        return channels.slice(0, 3).map((value) => {
+          const channel = value / 255;
+          return channel <= 0.04045 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4;
+        });
+      };
+      const luminance = (color: string) => {
+        const [red, green, blue] = rgb(color);
+        return red * 0.2126 + green * 0.7152 + blue * 0.0722;
+      };
+      const contrast = (first: string, second: string) => {
+        const [lighter, darker] = [luminance(first), luminance(second)].sort((a, b) => b - a);
+        return (lighter + 0.05) / (darker + 0.05);
+      };
+      const style = getComputedStyle(element);
+      let ancestor = element.parentElement;
+      while (ancestor && getComputedStyle(ancestor).backgroundColor === 'rgba(0, 0, 0, 0)') ancestor = ancestor.parentElement;
+      const surrounding = ancestor ? getComputedStyle(ancestor).backgroundColor : getComputedStyle(document.documentElement).backgroundColor;
+      return {
+        borderWidth: parseFloat(style.borderTopWidth),
+        own: contrast(style.borderTopColor, style.backgroundColor),
+        surrounding: contrast(style.borderTopColor, surrounding),
+        colors: [style.borderTopColor, style.backgroundColor, surrounding],
+      };
+    });
+    expect(contrasts.borderWidth).toBeGreaterThanOrEqual(1);
+    expect(contrasts.own, `${await control.getAttribute('name')}: ${JSON.stringify(contrasts.colors)}`).toBeGreaterThanOrEqual(3);
+    expect(contrasts.surrounding, `${await control.getAttribute('name')}: ${JSON.stringify(contrasts.colors)}`).toBeGreaterThanOrEqual(3);
+  }
+});
+
+test('cafe breakfast starts within 1.35 viewports', async ({ page }) => {
+  const scene = scenes.find((item) => item.id === 'cafe-breakfast')!;
+  await page.goto(scenePath(scene));
+  const firstSentence = storyParagraphs(page).first();
+  await expect(firstSentence).toBeAttached();
+  const box = await firstSentence.boundingBox();
+  expect(box).not.toBeNull();
+  expect(box!.y).toBeGreaterThanOrEqual(0);
+  expect(box!.y).toBeLessThan(1.35 * page.viewportSize()!.height);
+});
+
 test('level filters search, categories, clear, URL history, and reload', async ({ page }) => {
   const level = learningLevels.find(({ id }) => scenes.some((scene) => getLearningLevel(scene).id === id))!;
   const tierScenes = scenes.filter((scene) => getLearningLevel(scene).id === level.id);

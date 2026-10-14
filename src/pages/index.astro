@@ -1,10 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
 import { loadArticles, originLabels, trackLabels, type Track } from '../lib/articles';
 import { loadScenes } from '../lib/scenes';
 import { createCatalog } from '../lib/catalog';
 import { canonicalUrl, siteDescription } from '../lib/seo';
 const scenes = loadScenes();
+const previewScene = scenes.find((scene) => scene.id === 'cafe-breakfast') ?? scenes[0];
+// Content accepts case-insensitive image extensions, including mixed case.
+const previewImages = import.meta.glob<{ default: ImageMetadata }>('../../public/images/scenes/**/*.{[wW][eE][bB][pP],[pP][nN][gG],[jJ][pP][gG],[jJ][pP][eE][gG]}');
+const previewImage = previewScene ? (await previewImages[`../../public${previewScene.image.src}`]()).default : undefined;
+const previewRatio = previewImage ? previewImage.width / previewImage.height : 1;
 const catalog = createCatalog(scenes);
 const homeUrl = canonicalUrl('/', Astro.site);
 const structuredData = [
@@ -27,13 +34,10 @@ const articleGroups = tracks.map((track) => ({
         <h1 id="intro-title">今天，從哪個<br />程度開始？</h1>
         <p class="intro-description">選擇適合你的讀本。看圖、讀短文，<br class="desktop-break" />再聽聽日常會用到的單字與短句。</p>
       </div>
-      <div class="home-note">
-        <span class="library-number">{scenes.length.toString().padStart(2, '0')}</span>
-        <p>篇生活讀本<br /><span>照自己的步調，慢慢累積。</span></p>
-      </div>
+      {previewScene && previewImage && <Image class="home-preview" src={previewImage} alt={previewScene.image.alt} width={360} widths={[240, 360, 480, 720]} sizes={`(max-width: 767px) ${160 * previewRatio}px, (max-width: 1000px) 36vw, ${Math.min(360, 240 * previewRatio)}px`} style={`--preview-width: ${240 * previewRatio}px; --preview-mobile-width: ${160 * previewRatio}px;`} format="webp" loading="eager" fetchpriority="high" />}
     </section>
     <section class="level-selection" aria-labelledby="levels-title">
-      <div class="collection-heading"><h2 id="levels-title">選擇你的學習程度</h2><p>隨時可以切換</p></div>
+      <div class="collection-heading"><h2 id="levels-title">選擇你的學習程度</h2><p>{scenes.length} 篇生活讀本</p></div>
       <ol class="level-list">
         {catalog.map(({ level, scenes }, index) => (
           <li>
@@ -48,11 +52,11 @@ const articleGroups = tracks.map((track) => ({
         ))}
       </ol>
     </section>
-    <p class="level-help">剛開始讀英文？先從初級試讀，再依閱讀感受調整程度。</p>
+    <p class="level-help">剛開始讀英文？先從初級試讀，再依閱讀感受調整，隨時可以切換程度。</p>
     <section class="articles-section" id="articles" aria-labelledby="articles-title">
       <div class="collection-heading">
         <h2 id="articles-title">新聞與貼文</h2>
-        <span>{articles.length} 篇文章</span>
+        <p>{articles.length} 篇文章</p>
       </div>
       {articleGroups.map((group) => (
         <div class="article-group">
