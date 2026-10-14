@@ -47,7 +47,12 @@ test('broken JSON is reported as corrupt with the original cause', () => {
 
 test('data with the wrong shape is reported as corrupt', () => {
   const broken = {
-    'wrong version': JSON.stringify({ version: 2, cards: [] }),
+    'wrong version': JSON.stringify({ version: 2, cards: [], lastExportedAt: null }),
+    'missing export time': JSON.stringify({ version: 1, cards: [], dailyNewLimit: null, subscriptions: [] }),
+    'bad export time': JSON.stringify({ ...emptyState(), lastExportedAt: 'yesterday' }),
+    'missing daily limit': JSON.stringify({ version: 1, cards: [], lastExportedAt: null, subscriptions: [] }),
+    'missing subscriptions': JSON.stringify({ version: 1, cards: [], lastExportedAt: null, dailyNewLimit: null }),
+    'external audio': withCard((card) => { card.content.audioSrc = 'https://evil.example/a.mp3'; }),
     'missing content': withCard((card) => { delete card.content; }),
     'missing stability': withCard((card) => { delete card.schedule.stability; }),
     'missing reps': withCard((card) => { delete card.schedule.reps; }),

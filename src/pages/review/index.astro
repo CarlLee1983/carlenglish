@@ -36,6 +36,27 @@ import Layout from '../../layouts/Layout.astro';
       </div>
     </article>
     <p class="review-result" data-review-result role="status" aria-live="polite"></p>
+    <section class="review-backup" data-review-backup aria-labelledby="backup-title" hidden>
+      <h2 id="backup-title">備份</h2>
+      <p class="section-hint">複習紀錄只存在這個瀏覽器。匯出備份檔可以自己保存，也能在另一台裝置匯入繼續複習。</p>
+      <div class="review-backup-row">
+        <button type="button" class="review-button" data-backup-export>匯出備份</button>
+        <span class="review-backup-hint" data-backup-export-hint></span>
+      </div>
+      <div class="review-backup-row">
+        <label for="backup-file">匯入備份</label>
+        <input id="backup-file" class="review-file-input" type="file" accept="application/json,.json" data-backup-file />
+      </div>
+      <div class="review-message" data-backup-confirm hidden>
+        <p data-backup-confirm-text></p>
+        <div class="review-grades">
+          <button type="button" class="review-button review-good" data-backup-replace>取代</button>
+          <button type="button" class="review-button" data-backup-cancel>取消</button>
+        </div>
+      </div>
+      <p class="review-backup-status" data-backup-status role="status" aria-live="polite"></p>
+    </section>
   </section>
   <script>import '../../scripts/review';</script>
+  <script>import '../../scripts/review-backup';</script>
 </Layout>

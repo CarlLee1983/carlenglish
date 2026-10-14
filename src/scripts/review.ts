@@ -1,4 +1,4 @@
-import { nextDue, reduce, reviewCounts, todayQueue, type Grade, type ReviewState, type StoredCard } from '../lib/review-deck';
+import { nextDue, reduce, reviewChangedEvent, reviewCounts, todayQueue, type Grade, type ReviewState, type StoredCard } from '../lib/review-deck';
 import { loadReviewState, saveReviewState } from '../lib/review-storage';
 
 const saveFailureMessage = '這次的紀錄沒有存進瀏覽器（可能是私密瀏覽或儲存空間已滿），離開本頁後會遺失。';
@@ -165,6 +165,7 @@ function initializeReview(root: HTMLElement) {
   const refresh = () => { reload(); render(); };
   document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
   window.addEventListener('storage', refresh);
+  document.addEventListener(reviewChangedEvent, refresh);
   refresh();
 }
 

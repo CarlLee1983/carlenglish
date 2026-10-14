@@ -21,12 +21,25 @@ export interface StoredCard {
   schedule: StoredSchedule;
 }
 
-export interface ReviewState { version: 1; cards: StoredCard[] }
+export interface ReviewState {
+  version: 1;
+  cards: StoredCard[];
+  lastExportedAt: string | null;
+  /** 每日新卡上限；null 表示使用預設值（工單 06 才會使用）。 */
+  dailyNewLimit: number | null;
+  /** 詞表訂閱；目前一律為空陣列，元素形狀留給工單 07。 */
+  subscriptions: never[];
+}
+
+/** 匯入成功等外部改動儲存後，通知複習頁重新讀取。 */
+export const reviewChangedEvent = 'carlenglish:review-changed';
+/** 備份檔大小上限（位元組），超過就不讀內容。 */
+export const maxBackupBytes = 1_048_576;
 
 const scheduler = fsrs();
 
 export function emptyState(): ReviewState {
-  return { version: 1, cards: [] };
+  return { version: 1, cards: [], lastExportedAt: null, dailyNewLimit: null, subscriptions: [] };
 }
 
 export function cardKey(content: Pick<CardContent, 'english' | 'meaning'>): string {
@@ -125,4 +138,74 @@ export function hasSource(state: ReviewState, key: string, source: CardSource): 
 export function nextDue(state: ReviewState, key: string): Date | null {
   const card = state.cards.find((candidate) => candidate.key === key);
   return card ? new Date(card.schedule.due) : null;
+}
+
+const isRecord = (value: unknown): value is Record<string, unknown> => typeof value === 'object' && value !== null && !Array.isArray(value);
+const isText = (value: unknown): value is string => typeof value === 'string';
+const isTextOrNull = (value: unknown) => value === null || isText(value);
+const isNumber = (value: unknown) => typeof value === 'number' && Number.isFinite(value);
+const isoDatePattern = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(\.\d+)?(Z|[+-]\d{2}:\d{2})$/;
+const isDate = (value: unknown) => isText(value) && isoDatePattern.test(value) && !Number.isNaN(Date.parse(value));
+const isInternalPathOrNull = (value: unknown) => value === null || isInternalHref(value);
+
+function isSource(value: unknown): boolean {
+  return isRecord(value) && isCardSourceKind(value.kind) && isText(value.id) && isText(value.title) && isInternalHref(value.href);
+}
+
+function isSchedule(value: unknown): boolean {
+  return isRecord(value) && isDate(value.due) && (value.last_review === undefined || isDate(value.last_review))
+    && ['stability', 'difficulty', 'elapsed_days', 'scheduled_days', 'learning_steps', 'reps', 'lapses'].every((field) => isNumber(value[field]))
+    && [0, 1, 2, 3].includes(value.state as number);
+}
+
+function isStoredCard(value: unknown): boolean {
+  if (!isRecord(value) || !isText(value.key) || !isRecord(value.content) || !Array.isArray(value.sources)) return false;
+  const { content } = value;
+  return isText(content.english) && isText(content.meaning) && isTextOrNull(content.example) && isInternalPathOrNull(content.audioSrc)
+    && value.key === cardKey({ english: content.english, meaning: content.meaning })
+    && value.sources.every(isSource) && isSchedule(value.schedule);
+}
+
+const isDailyNewLimit = (value: unknown) => value === null || (Number.isInteger(value) && (value as number) >= 1 && (value as number) <= 50);
+
+/** 狀態形狀的唯一驗證：本機儲存讀回與備份匯入共用。 */
+export function parseReviewState(value: unknown): { ok: true; state: ReviewState } | { ok: false } {
+  const valid = isRecord(value) && value.version === 1 && Array.isArray(value.cards) && value.cards.every(isStoredCard)
+    && new Set(value.cards.map((card: { key: string }) => card.key)).size === value.cards.length
+    && (value.lastExportedAt === null || isDate(value.lastExportedAt))
+    && isDailyNewLimit(value.dailyNewLimit) && Array.isArray(value.subscriptions) && value.subscriptions.length === 0;
+  return valid ? { ok: true, state: value as unknown as ReviewState } : { ok: false };
+}
+
+export const backupFormat = 'carlenglish-review-backup';
+
+export type BackupFailure = 'not-json' | 'wrong-format' | 'unsupported-version' | 'corrupt';
+export type BackupParseResult =
+  | { ok: true; state: ReviewState; cardCount: number }
+  | { ok: false; reason: BackupFailure; message: string };
+
+const backupMessages: Record<BackupFailure, string> = {
+  'not-json': '這不是有效的備份檔：檔案內容不是 JSON。',
+  'wrong-format': '這不是 CarlEnglish 的複習備份檔。',
+  'unsupported-version': '這個備份檔的版本不支援，請用較新的網站版本開啟。',
+  corrupt: '備份檔的內容損壞或缺少欄位，無法匯入。',
+};
+
+export function serializeBackup(state: ReviewState, now: Date): string {
+  const exportedAt = now.toISOString();
+  return JSON.stringify({ format: backupFormat, version: 1, exportedAt, state: { ...state, lastExportedAt: exportedAt } });
+}
+
+export function parseBackup(text: string): BackupParseResult {
+  const fail = (reason: BackupFailure): BackupParseResult => ({ ok: false, reason, message: backupMessages[reason] });
+  let file: unknown;
+  try {
+    file = JSON.parse(text);
+  } catch {
+    return fail('not-json');
+  }
+  if (!isRecord(file) || file.format !== backupFormat) return fail('wrong-format');
+  if (file.version !== 1) return fail('unsupported-version');
+  const parsed = parseReviewState(file.state);
+  return parsed.ok ? { ok: true, state: parsed.state, cardCount: parsed.state.cards.length } : fail('corrupt');
 }

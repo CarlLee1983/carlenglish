@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { expect, test, type Page } from '@playwright/test';
 
@@ -20,6 +20,11 @@ async function addFromScene(page: Page, ...words: Word[]) {
     await expect(addButton(page, word)).toHaveAttribute('aria-pressed', 'true');
   }
 }
+
+const storedCards = (page: Page) => page.evaluate(() => {
+  const raw = localStorage.getItem('carlenglish.review');
+  return raw === null ? null : (JSON.parse(raw) as { cards: unknown[] }).cards;
+});
 
 async function flip(page: Page) {
   await page.getByRole('button', { name: '翻面' }).click();
@@ -161,6 +166,98 @@ test.describe('review page', () => {
     await expect(page.locator('[data-review-front]')).toHaveText(second.english);
     await page.goto(scenePath);
     await expect(addButton(page, second)).toHaveText('已加入');
+  });
+
+  test('exports a backup file named by local date and reports how many cards it holds', async ({ page }, testInfo) => {
+    await page.clock.install({ time: startTime });
+    await addFromScene(page, first, second);
+    await page.goto('/review/');
+    const downloading = page.waitForEvent('download');
+    await page.getByRole('button', { name: '匯出備份' }).click();
+    const download = await downloading;
+    expect(download.suggestedFilename()).toBe('carlenglish-review-2026-10-14.json');
+    const file = testInfo.outputPath('backup.json');
+    await download.saveAs(file);
+    const backup = JSON.parse(readFileSync(file, 'utf8'));
+    expect(backup.format).toBe('carlenglish-review-backup');
+    expect(backup.state.cards).toHaveLength(2);
+    await expect(page.getByText('已匯出 2 張字卡')).toBeVisible();
+  });
+
+  test('restores cards and due dates by importing an exported backup into emptied storage', async ({ page }, testInfo) => {
+    await page.clock.install({ time: startTime });
+    await addFromScene(page, first, second);
+    await page.goto('/review/');
+    await flip(page);
+    await page.getByRole('button', { name: '想起來了' }).click();
+    const cardsBefore = await storedCards(page);
+    const downloading = page.waitForEvent('download');
+    await page.getByRole('button', { name: '匯出備份' }).click();
+    const file = testInfo.outputPath('backup.json');
+    await (await downloading).saveAs(file);
+
+    await page.evaluate(() => localStorage.clear());
+    await page.reload();
+    await expect(page.getByText('還沒有字卡')).toBeVisible();
+    await expect(page.getByRole('button', { name: '匯出備份' })).toBeDisabled();
+
+    await page.getByLabel('匯入備份').setInputFiles(file);
+    await expect(page.getByText('檔案內有 2 張字卡，將取代目前的 0 張')).toBeVisible();
+    expect(await storedCards(page)).toBeNull();
+    await page.getByRole('button', { name: '取代' }).click();
+    await expect(page.getByText('已匯入 2 張字卡')).toBeVisible();
+    await expect(page.getByText('今天到期 2 張，其中新卡 1 張')).toBeVisible();
+    await expect(page.getByText('稍後還有 1 張')).toBeHidden();
+    expect(await storedCards(page)).toEqual(cardsBefore);
+  });
+
+  test('rejects broken backup files and leaves the existing data untouched', async ({ page }, testInfo) => {
+    await addFromScene(page, first);
+    await page.goto('/review/');
+    const before = await page.evaluate(() => localStorage.getItem('carlenglish.review'));
+    const cases: [string, string, string][] = [
+      ['not-json.json', '{oops', '不是有效的備份檔'],
+      ['wrong-format.json', JSON.stringify({ hello: 'world' }), '不是 CarlEnglish 的複習備份檔'],
+      ['future.json', JSON.stringify({ format: 'carlenglish-review-backup', version: 9, state: {} }), '版本不支援'],
+      ['missing-fields.json', JSON.stringify({ format: 'carlenglish-review-backup', version: 1, state: { version: 1, cards: [{}] } }), '內容損壞'],
+    ];
+    for (const [name, content, message] of cases) {
+      const path = testInfo.outputPath(name);
+      writeFileSync(path, content);
+      await page.getByLabel('匯入備份').setInputFiles(path);
+      await expect(page.getByRole('status').filter({ hasText: message })).toBeVisible();
+      await expect(page.getByRole('button', { name: '取代' })).toBeHidden();
+      expect(await page.evaluate(() => localStorage.getItem('carlenglish.review'))).toBe(before);
+    }
+  });
+
+  test('refuses an oversized backup file without reading it', async ({ page }) => {
+    await addFromScene(page, first);
+    await page.goto('/review/');
+    const before = await page.evaluate(() => localStorage.getItem('carlenglish.review'));
+    await page.getByLabel('匯入備份').setInputFiles({ name: 'huge.json', mimeType: 'application/json', buffer: Buffer.alloc(1_048_577, 32) });
+    await expect(page.getByRole('status').filter({ hasText: '檔案太大' })).toBeVisible();
+    await expect(page.getByRole('button', { name: '取代' })).toBeHidden();
+    expect(await page.evaluate(() => localStorage.getItem('carlenglish.review'))).toBe(before);
+  });
+
+  test('cancelling an import changes nothing', async ({ page }, testInfo) => {
+    await addFromScene(page, first);
+    await page.goto('/review/');
+    const downloading = page.waitForEvent('download');
+    await page.getByRole('button', { name: '匯出備份' }).click();
+    const file = testInfo.outputPath('backup.json');
+    await (await downloading).saveAs(file);
+    await addFromScene(page, second);
+    await page.goto('/review/');
+    const before = await page.evaluate(() => localStorage.getItem('carlenglish.review'));
+    await page.getByLabel('匯入備份').setInputFiles(file);
+    await expect(page.getByText('檔案內有 1 張字卡，將取代目前的 2 張')).toBeVisible();
+    await page.getByRole('button', { name: '取消' }).click();
+    await expect(page.getByRole('button', { name: '取代' })).toBeHidden();
+    await expect(page.getByText('已取消匯入')).toBeVisible();
+    expect(await page.evaluate(() => localStorage.getItem('carlenglish.review'))).toBe(before);
+    await expect(page.getByLabel('匯入備份')).toHaveValue('');
   });
 
   test('plays the word audio from the card back', async ({ page }) => {

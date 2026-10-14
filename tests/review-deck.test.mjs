@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { cardKey, emptyState, isCardSourceKind, isInternalHref, nextDue, reduce, reviewCounts, todayQueue } from '../src/lib/review-deck.ts';
+import { cardKey, emptyState, isCardSourceKind, isInternalHref, nextDue, reduce, parseBackup, reviewCounts, serializeBackup, todayQueue } from '../src/lib/review-deck.ts';
 
 const coffee = { english: 'coffee', meaning: '咖啡', example: 'I like coffee.', audioSrc: '/audio/words/coffee.wav' };
 const sceneSource = { kind: 'scene', id: 'cafe-breakfast', title: '咖啡店早餐', href: '/scenes/cafe-breakfast/' };
@@ -64,6 +64,86 @@ test('only site-internal paths and known kinds are accepted as sources', () => {
   for (const href of ['//evil.example', 'javascript:alert(1)', 'https://evil.example/', '', 'scenes/x/']) assert.equal(isInternalHref(href), false, href);
   assert.equal(isCardSourceKind('scene'), true);
   assert.equal(isCardSourceKind('video'), false);
+});
+
+const exportTime = new Date(2026, 9, 20, 18, 30, 0);
+
+test('a backup round-trips to an equivalent state and records the export time', () => {
+  let state = reduce(emptyState(), { type: 'ADD_CARD', card: coffee, source: sceneSource, now });
+  state = reduce(state, { type: 'ADD_CARD', card: coffee, source: articleSource, now });
+  state = reduce(state, { type: 'GRADE', cardKey: key, grade: 'good', now });
+  const parsed = parseBackup(serializeBackup(state, exportTime));
+  assert.equal(parsed.ok, true);
+  assert.equal(parsed.cardCount, 1);
+  assert.equal(parsed.state.lastExportedAt, exportTime.toISOString());
+  assert.deepEqual({ ...parsed.state, lastExportedAt: null }, state);
+  assert.equal(state.lastExportedAt, null);
+});
+
+test('the backup file is a versioned envelope', () => {
+  const file = JSON.parse(serializeBackup(emptyState(), exportTime));
+  assert.equal(file.format, 'carlenglish-review-backup');
+  assert.equal(file.version, 1);
+  assert.equal(file.exportedAt, exportTime.toISOString());
+  assert.equal(file.state.version, 1);
+});
+
+test('broken backup files are rejected with the matching reason', () => {
+  const good = JSON.parse(serializeBackup(reduce(emptyState(), { type: 'ADD_CARD', card: coffee, source: sceneSource, now }), exportTime));
+  const cases = [
+    ['not json', '{oops', 'not-json'],
+    ['array', [], 'wrong-format'],
+    ['other format', { ...good, format: 'anki' }, 'wrong-format'],
+    ['no format', { version: 1 }, 'wrong-format'],
+    ['future version', { ...good, version: 2 }, 'unsupported-version'],
+    ['missing state', { format: good.format, version: 1, exportedAt: good.exportedAt }, 'corrupt'],
+    ['bad card', { ...good, state: { ...good.state, cards: [{ key: 'x' }] } }, 'corrupt'],
+    ['bad export time', { ...good, state: { ...good.state, lastExportedAt: 'yesterday' } }, 'corrupt'],
+    ['evil href', { ...good, state: { ...good.state, cards: [{ ...good.state.cards[0], sources: [{ ...sceneSource, href: '//evil.example' }] }] } }, 'corrupt'],
+  ];
+  for (const [name, input, reason] of cases) {
+    const result = parseBackup(typeof input === 'string' ? input : JSON.stringify(input));
+    assert.equal(result.ok, false, name);
+    assert.equal(result.reason, reason, name);
+    assert.match(result.message, /[一-鿿]/, name);
+  }
+});
+
+test('an empty state carries the reserved settings fields', () => {
+  assert.equal(emptyState().dailyNewLimit, null);
+  assert.deepEqual(emptyState().subscriptions, []);
+});
+
+test('backup validation covers reserved fields, unsafe paths, key integrity and date format', () => {
+  const base = JSON.parse(serializeBackup(reduce(emptyState(), { type: 'ADD_CARD', card: coffee, source: sceneSource, now }), exportTime));
+  const withState = (change) => ({ ...base, state: { ...base.state, ...change } });
+  const withCard = (change) => withState({ cards: [{ ...base.state.cards[0], ...change }] });
+  const withSchedule = (change) => withCard({ schedule: { ...base.state.cards[0].schedule, ...change } });
+  const missing = (field) => { const state = { ...base.state }; delete state[field]; return { ...base, state }; };
+  const rejected = {
+    'missing dailyNewLimit': missing('dailyNewLimit'),
+    'missing subscriptions': missing('subscriptions'),
+    'limit zero': withState({ dailyNewLimit: 0 }),
+    'limit too high': withState({ dailyNewLimit: 51 }),
+    'limit fractional': withState({ dailyNewLimit: 1.5 }),
+    'limit as text': withState({ dailyNewLimit: '10' }),
+    'subscriptions not empty': withState({ subscriptions: [{ id: 'ngsl' }] }),
+    'subscriptions not an array': withState({ subscriptions: {} }),
+    'external audio': withCard({ content: { ...coffee, audioSrc: 'https://evil.example/a.mp3' } }),
+    'protocol-relative audio': withCard({ content: { ...coffee, audioSrc: '//evil.example/a.mp3' } }),
+    'duplicate keys': withState({ cards: [base.state.cards[0], base.state.cards[0]] }),
+    'key does not match content': withCard({ key: 'something-else' }),
+    'numeric due': withSchedule({ due: '1' }),
+    'date-only last review': withSchedule({ last_review: '2026-10-14' }),
+    'numeric export time': withState({ lastExportedAt: '1' }),
+  };
+  for (const [name, input] of Object.entries(rejected)) {
+    const result = parseBackup(JSON.stringify(input));
+    assert.equal(result.ok, false, name);
+    assert.equal(result.reason, 'corrupt', name);
+  }
+  assert.equal(parseBackup(JSON.stringify(withState({ dailyNewLimit: 25 }))).ok, true);
+  assert.equal(parseBackup(JSON.stringify(withSchedule({ last_review: '2026-10-14T09:00:00+08:00' }))).ok, true);
 });
 
 test('state survives a JSON round trip with the same queue', () => {
