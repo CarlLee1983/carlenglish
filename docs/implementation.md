@@ -1,8 +1,14 @@
 # 實作與驗收紀錄
 
-## 2026-10-14 發布準備
+## 2026-10-14 發布驗證
 
-使用者已授權提交、建立公開 GitHub repository 並發布網站。本地 Git 已初始化於 `main`；發布目標為 `carlenglish.gravito.dev`，採 Cloudflare Workers Static Assets，從 `dist/` 提供靜態頁面。設定要求目錄網址可直接開啟場景頁，未知網址使用自訂 404 頁。GitHub Actions 的驗證流程涵蓋 pull request 與 `main`；部署流程須有 `CLOUDFLARE_DEPLOY_ENABLED=true` 及 `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN` secrets 才會在 `main` 推送後執行，亦可手動啟動。建立 repository、設定憑證、部署與線上 HTTP 檢查的結果，應在完成後另記；下方既有 `npm run verify` 數字是先前產品版本的證據，不代表此次發布已成功。
+首筆發布提交為 `eacac86b102fad38d2f15fe1f2e1993c908893dd`，已推送到公開 [GitHub repository](https://github.com/CarlLee1983/carlenglish) 的 `main`。網站以 Cloudflare Workers Static Assets 發布於 [carlenglish.gravito.dev](https://carlenglish.gravito.dev)，首次部署版本 `e2d9169d-3984-4887-9561-5e1f7147103a`。Wrangler 更新至 4.150.0 後，`npm` 稽核為 0 vulnerabilities。
+
+此次發布的本地 `npm run verify` exit code 0：內容測試 13/13、瀏覽器 122 passed / 3 刻意 skipped、第四場景擴充 1/1、Astro 0 diagnostics 且建置 5 頁。獨立發布審閱 clean；Wrangler dry-run 與本機 workerd 驗證場景網址、補尾斜線導向及自訂 404。首次提交的 [GitHub CI](https://github.com/CarlLee1983/carlenglish/actions/runs/38504543453) 通過。
+
+線上共檢查 54 個 HTTP 回應：首頁與三個場景、42 個 MP3、3 張 WebP 均為 200，資產位元組與本地一致；未知場景回傳自訂 404，缺少的 MP3 與私人 `.scratch/` 模型、學習紀錄路徑均回傳 404；場景未加尾斜線時回傳 307 並導向正確目錄網址。證據保留於本機 `.scratch/illustrated-english/qa/production-http-checks.json`、`cloudflare-deploy.log`、`publication-verify.log` 及 `production-home-mobile.png`。
+
+首次上線使用本機既有 Cloudflare 授權。GitHub [部署工作流程](https://github.com/CarlLee1983/carlenglish/actions/runs/38504543479) 因 `CLOUDFLARE_DEPLOY_ENABLED` 未設定而依設計略過；repository 也尚未設定 `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN` secrets。後續推送目前不會自動更新網站，須先完成專用憑證與變數設定。
 
 公開工單見 [issues/](issues/README.md)。`.scratch/`、本機模型與 Python 環境、憑證，以及 `docs/learning-progress.md` 不進入 repository；網站只需要已封裝的圖片及 MP3。此次發布只涵蓋現有三篇短文。每日產製、長文與新聞來源呈現仍未實作，也不將產品驗收記為閱讀能力進階。
 
@@ -28,7 +34,7 @@
 
 設計定位為成人初級英文圖文讀本，採原生 CSS、清楚的 sans-serif 排版與低密度留白。DESIGN_VARIANCE 4、MOTION_INTENSITY 2、VISUAL_DENSITY 3；只保留操作回饋，不添加自動動畫。介面採一致的綠色重點與中性色、12px 圖片圓角及 8px 控制圓角，跟隨系統亮暗色。
 
-以下技術決策及驗收段落保留當時的實作紀錄；現行 Git 與發布準備狀態見文件開頭。
+以下技術決策及驗收段落保留當時的實作紀錄；現行 Git 與發布狀態見文件開頭。
 
 ## 驗收證據
 

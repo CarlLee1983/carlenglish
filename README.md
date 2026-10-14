@@ -45,8 +45,8 @@ npm run test:extension
 
 ## 發布
 
-網站使用 Cloudflare Workers Static Assets；`wrangler.jsonc` 將 `dist/` 發布至 `carlenglish.gravito.dev`，使用目錄網址及自訂 404 頁。已有 Cloudflare 發布權限的環境可執行 `npm run deploy`，依序完成驗證與部署。部署後再檢查首頁、三個場景的直接網址及未知網址的 404 狀態。網站是否已上線，以實際部署和網址檢查結果為準。
+網站已發布於 [carlenglish.gravito.dev](https://carlenglish.gravito.dev)，原始碼位於公開的 [GitHub repository](https://github.com/CarlLee1983/carlenglish)。使用 Cloudflare Workers Static Assets，`wrangler.jsonc` 將 `dist/` 提供為靜態網站。首頁、三個場景的直接網址、圖片與音檔已在線上驗證；未知場景回傳自訂 404 頁。已有 Cloudflare 發布權限的環境可執行 `npm run deploy`，依序完成驗證與部署。
 
-GitHub Actions 在 pull request 及 `main` 推送執行驗證。部署流程需先在 repository 設定 `CLOUDFLARE_DEPLOY_ENABLED=true`，並加入 `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN` secrets；變數未啟用時，`main` 推送和手動啟動都會略過部署。不要將金鑰或本機 `.scratch/`、`docs/learning-progress.md` 加入 repository。`docs/learning-progress.md` 是個人閱讀紀錄，網站驗收與發布不會改變其學習進度。
+GitHub Actions 在 pull request 及 `main` 推送執行驗證；首筆提交的 [CI 已通過](https://github.com/CarlLee1983/carlenglish/actions/runs/38504543453)。首次上線使用本機既有的 Cloudflare 授權完成。GitHub 自動部署目前未啟用：repository 尚未設定 `CLOUDFLARE_DEPLOY_ENABLED=true` 及 `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN` secrets，因此 `main` 推送和手動啟動都會略過部署。不要將金鑰或本機 `.scratch/`、`docs/learning-progress.md` 加入 repository。`docs/learning-progress.md` 是個人閱讀紀錄，網站驗收與發布不會改變其學習進度。
 
-目前正式內容為三篇 5–8 句短文。部署後由 dot 每日製作教材是後續工作；長文格式、新聞來源呈現與每日發布流程尚未實作。
+目前正式內容為三篇 5–8 句短文。未來交辦 dot 每日製作教材是後續工作；長文格式、新聞來源呈現與每日發布流程尚未實作。
