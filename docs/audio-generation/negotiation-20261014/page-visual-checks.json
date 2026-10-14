@@ -1,0 +1,158 @@
+[
+  {
+    "id": "returning-faulty-headphones",
+    "name": "desktop",
+    "width": 1280,
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1536
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "rearranging-a-booking",
+    "name": "desktop",
+    "width": 1280,
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1536
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "agreeing-on-a-shared-budget",
+    "name": "desktop",
+    "width": 1280,
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1536
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "returning-faulty-headphones",
+    "name": "mobile",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1536
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "rearranging-a-booking",
+    "name": "mobile",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1536
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "agreeing-on-a-shared-budget",
+    "name": "mobile",
+    "width": 390,
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1536
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "returning-faulty-headphones",
+    "name": "narrow",
+    "width": 320,
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1536
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "rearranging-a-booking",
+    "name": "narrow",
+    "width": 320,
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1536
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "agreeing-on-a-shared-budget",
+    "name": "narrow",
+    "width": 320,
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1536
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "returning-faulty-headphones",
+    "name": "dark",
+    "width": 1280,
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1536
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "rearranging-a-booking",
+    "name": "dark",
+    "width": 1280,
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1536
+      }
+    ],
+    "errors": []
+  },
+  {
+    "id": "agreeing-on-a-shared-budget",
+    "name": "dark",
+    "width": 1280,
+    "overflow": false,
+    "images": [
+      {
+        "loaded": true,
+        "width": 1536
+      }
+    ],
+    "errors": []
+  }
+]

@@ -1,0 +1,333 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "stories",
+      "itemId": "returning-faulty-headphones",
+      "src": "/audio/stories/returning-faulty-headphones.mp3",
+      "text": "Noah brings a pair of faulty headphones and his receipt to the store. “The sound cuts out on the left side,” he explains to the assistant. “Could you clarify when it happens?” she asks before testing them. Noah replies, “It happens even when the battery is full.” The assistant finds the same problem and offers a replacement. “Would a refund be possible?” Noah asks, because he has already bought another pair. “I need approval from my manager,” she says, “so I cannot promise a refund yet.” “Just to confirm, you will check with your manager before I decide,” Noah says.",
+      "textSha256": "caa3fbf08a663e22a3a993403a409b22291aeca13f37a3eb17e9fc8bbdf88972"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "phrases",
+      "itemId": "the-sound-cuts-out",
+      "src": "/audio/phrases/returning-faulty-headphones-the-sound-cuts-out.mp3",
+      "text": "The sound cuts out",
+      "textSha256": "15a93b88b21fa97c63617a729941a6fcb3c670bc3c19de3df943bfa34a16c0cf"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "phrases",
+      "itemId": "could-you-clarify",
+      "src": "/audio/phrases/returning-faulty-headphones-could-you-clarify.mp3",
+      "text": "Could you clarify",
+      "textSha256": "39735d58970b9a032243658573c89a9b774272297dea021db40e2b644aa658c4"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "phrases",
+      "itemId": "even-when",
+      "src": "/audio/phrases/returning-faulty-headphones-even-when.mp3",
+      "text": "even when",
+      "textSha256": "8a58e0abfa18374c1aa9e80029885123e94dd48840bebd900b04ad55ff5c03b4"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "phrases",
+      "itemId": "would-a-refund-be-possible",
+      "src": "/audio/phrases/returning-faulty-headphones-would-a-refund-be-possible.mp3",
+      "text": "Would a refund be possible",
+      "textSha256": "1fe389b4be8a375090232278fd26c37e24f0be6bfc42a472ae740195418d461f"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "phrases",
+      "itemId": "just-to-confirm",
+      "src": "/audio/phrases/returning-faulty-headphones-just-to-confirm.mp3",
+      "text": "Just to confirm",
+      "textSha256": "322a122ac7c473cf180f6687bcfe493add297b5d238aaf9f71737ceddbdb0ef7"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "faulty",
+      "src": "/audio/words/returning-faulty-headphones-faulty.mp3",
+      "text": "faulty",
+      "textSha256": "9ec1600e60d2aba399d84db8163ec37fc67cd60096cb32a66f0a52280797ee95"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "receipt",
+      "src": "/audio/words/returning-faulty-headphones-receipt.mp3",
+      "text": "receipt",
+      "textSha256": "6f32860910ca0fb2a20c7fda143666b09dbf8db5238195c90a586fb542ff0cad"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "assistant",
+      "src": "/audio/words/returning-faulty-headphones-assistant.mp3",
+      "text": "assistant",
+      "textSha256": "a39a7ffad4a3013f29da97b84f264337f234c1cf9b3c40c7c30c677a8a18609a"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "battery",
+      "src": "/audio/words/returning-faulty-headphones-battery.mp3",
+      "text": "battery",
+      "textSha256": "f3d1701e1d575e1294786989517866986bc97343e07af63e201f46ba0be5806a"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "replacement",
+      "src": "/audio/words/returning-faulty-headphones-replacement.mp3",
+      "text": "replacement",
+      "textSha256": "95713e9cbdd1dfcb2d4080c2537f418d43ca0da25f0d7d6631f4f7c97b89dc47"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "refund",
+      "src": "/audio/words/returning-faulty-headphones-refund.mp3",
+      "text": "refund",
+      "textSha256": "1d630127108f1feaf1f7beee59b66dd679daf712a441f3d0a39ee9ea0f2b7a95"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "kind": "words",
+      "itemId": "approval",
+      "src": "/audio/words/returning-faulty-headphones-approval.mp3",
+      "text": "approval",
+      "textSha256": "9deb65b8788f41ff94a217842017db2f843954fc0eb46110835903908e5a265f"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "stories",
+      "itemId": "rearranging-a-booking",
+      "src": "/audio/stories/rearranging-a-booking.mp3",
+      "text": "Owen calls a pottery studio to move a booking for two people from Saturday to Sunday. “Could we move our session to the afternoon?” he asks. The receptionist says the afternoon is full, but two places are available at ten in the morning. “If there is no extra charge, we could take the morning session,” Owen replies. “The price stays the same, but any change depends on availability when you call back before five today,” she explains. “Could you keep the original booking until then?” he asks, because his friend has not agreed yet. She agrees to keep Saturday booked but warns that the Sunday places cannot be held without confirmation. Owen will check with his friend and call back before five, knowing that Sunday may no longer be available.",
+      "textSha256": "22cd8296859356329b33761dad88019eb981f58d1400cad32b297aada4e657d5"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "phrases",
+      "itemId": "could-we-move",
+      "src": "/audio/phrases/rearranging-a-booking-could-we-move.mp3",
+      "text": "Could we move",
+      "textSha256": "ac5394f1531ca20df3434c464e11287ed3079c66a37bb2ad32777292da381f4b"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "phrases",
+      "itemId": "if-there-is-no-extra-charge",
+      "src": "/audio/phrases/rearranging-a-booking-if-there-is-no-extra-charge.mp3",
+      "text": "If there is no extra charge",
+      "textSha256": "be2cab7eca0d6d44d81d7676f987de23f72b43d28b1c39b581c6fbd1d9d10f05"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "phrases",
+      "itemId": "the-price-stays-the-same",
+      "src": "/audio/phrases/rearranging-a-booking-the-price-stays-the-same.mp3",
+      "text": "The price stays the same",
+      "textSha256": "74ae70b8caaf61e9a82820f9ed2bdfd0e820e7892e2df1f493fffc7fa152aaf0"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "phrases",
+      "itemId": "depends-on",
+      "src": "/audio/phrases/rearranging-a-booking-depends-on.mp3",
+      "text": "depends on",
+      "textSha256": "a768d802046ef647b76893940f449fa5fd3fdacb9525a35a539b3027226820f9"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "phrases",
+      "itemId": "could-you-keep",
+      "src": "/audio/phrases/rearranging-a-booking-could-you-keep.mp3",
+      "text": "Could you keep",
+      "textSha256": "b55c2aadcf83a211eee988ab4fc7a5a47b0e18c08c995ec7916581d6f8e7f66c"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "booking",
+      "src": "/audio/words/rearranging-a-booking-booking.mp3",
+      "text": "booking",
+      "textSha256": "001d057c49888db925f47ba4f0cbb75edf527893381dc5a27d7a965c766508c4"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "session",
+      "src": "/audio/words/rearranging-a-booking-session.mp3",
+      "text": "session",
+      "textSha256": "3f3af1ecebbd1410ab417ec0d27bbfcb5d340e177ae159b59fc8626c2dfd9175"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "receptionist",
+      "src": "/audio/words/rearranging-a-booking-receptionist.mp3",
+      "text": "receptionist",
+      "textSha256": "c3bca14c650063bb88e5a82f757c11defaf4ea06c18368c9c9b70c5d77933dd3"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "charge",
+      "src": "/audio/words/rearranging-a-booking-charge.mp3",
+      "text": "charge",
+      "textSha256": "97488fbab3282166738a47c2f619037228568494475d4ac107c46c02678cb728"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "availability",
+      "src": "/audio/words/rearranging-a-booking-availability.mp3",
+      "text": "availability",
+      "textSha256": "f95dac581e9b439c58abf51a6c8c091f8e0aac8c0fb06f0cbca10fc8ac361330"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "original",
+      "src": "/audio/words/rearranging-a-booking-original.mp3",
+      "text": "original",
+      "textSha256": "0682c5f2076f099c34cfdd15a9e063849ed437a49677e6fcc5b4198c76575be5"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "kind": "words",
+      "itemId": "confirmation",
+      "src": "/audio/words/rearranging-a-booking-confirmation.mp3",
+      "text": "confirmation",
+      "textSha256": "93cdccc66f8c7f8e670f513593663b243eb1e219766844ba75472272e01a2d6f"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "stories",
+      "itemId": "agreeing-on-a-shared-budget",
+      "src": "/audio/stories/agreeing-on-a-shared-budget.mp3",
+      "text": "Roommates Leah and Sam set a weekly budget of one hundred and twenty dollars for shared groceries and cleaning supplies. “I would rather buy less meat than cut back on fresh vegetables,” Leah says. Sam agrees, but asks, “Does that include a reserve for unexpected costs?” They allow eighty dollars for groceries and twenty-five for supplies, leaving fifteen as a buffer. “We can split the total equally, provided that personal snacks come from our own money,” Sam suggests. Leah agrees to contribute sixty dollars, but adds, “Any spending above the weekly limit needs both of us to agree first.” Sam agrees to contribute the same amount and says, “The trade-off is less variety, but we can keep our spending under control.” They will review the plan after two weeks and discuss any changes before raising the limit.",
+      "textSha256": "5975f9a61a7fba2d851c974c58ed3cb5739a90b0b035c0d4ced67fdd1e8c60a3"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "phrases",
+      "itemId": "i-would-rather",
+      "src": "/audio/phrases/agreeing-on-a-shared-budget-i-would-rather.mp3",
+      "text": "I would rather",
+      "textSha256": "caf9cd71b44b061ab75e6fb5cf9a6675a3ac65f7a3eb5060e0b0870b01c08d99"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "phrases",
+      "itemId": "cut-back-on",
+      "src": "/audio/phrases/agreeing-on-a-shared-budget-cut-back-on.mp3",
+      "text": "cut back on",
+      "textSha256": "988cd2fb7e326bfe0bd15a078b66e5db1d726d292ad3051a0c111936c253e5eb"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "phrases",
+      "itemId": "does-that-include",
+      "src": "/audio/phrases/agreeing-on-a-shared-budget-does-that-include.mp3",
+      "text": "Does that include",
+      "textSha256": "7fb40f23fc36011a0bcdc3431d1b7a93e6b54e989ce858021d6b2a5eebc6d987"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "phrases",
+      "itemId": "provided-that",
+      "src": "/audio/phrases/agreeing-on-a-shared-budget-provided-that.mp3",
+      "text": "provided that",
+      "textSha256": "d5201236a8320664f0bdef3b6e559767277acb6de9a70dbe5ba14a4409776b1a"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "phrases",
+      "itemId": "the-trade-off-is",
+      "src": "/audio/phrases/agreeing-on-a-shared-budget-the-trade-off-is.mp3",
+      "text": "The trade-off is",
+      "textSha256": "56df95d7c8d7c40d229818f82c7da9cd1c819cf9c570dc5ea9c552d3842fd1a4"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "budget",
+      "src": "/audio/words/agreeing-on-a-shared-budget-budget.mp3",
+      "text": "budget",
+      "textSha256": "0af96a8ed622a394e8b2a239284ee46e9a7a7b0ec38191bbd08571b171118dd6"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "reserve",
+      "src": "/audio/words/agreeing-on-a-shared-budget-reserve.mp3",
+      "text": "reserve",
+      "textSha256": "6df24c372c044a0fd8d05774ee70449d7a035d99b3bc3b570a0bf5b22556a904"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "buffer",
+      "src": "/audio/words/agreeing-on-a-shared-budget-buffer.mp3",
+      "text": "buffer",
+      "textSha256": "d0ca8c2ac0dab879bf27bfb58227b301db17f5ca716d065e7c884253d3ab99e4"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "equally",
+      "src": "/audio/words/agreeing-on-a-shared-budget-equally.mp3",
+      "text": "equally",
+      "textSha256": "e2f172a8006886a1c977f98012ab9fa4c77c2fd791e1edafb404477e4a342b90"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "contribute",
+      "src": "/audio/words/agreeing-on-a-shared-budget-contribute.mp3",
+      "text": "contribute",
+      "textSha256": "8aa73cb60552b99f7d6b15db6c5c6ef3b1bd1a2ec091dc1202673a3982d7367b"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "limit",
+      "src": "/audio/words/agreeing-on-a-shared-budget-limit.mp3",
+      "text": "limit",
+      "textSha256": "55ea09e5715d0a8d9d94018d473bf23b2d7e630c2adb1f1acad3bada74c6fd05"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "kind": "words",
+      "itemId": "variety",
+      "src": "/audio/words/agreeing-on-a-shared-budget-variety.mp3",
+      "text": "variety",
+      "textSha256": "b530f329d65f246114bd293232aa31ec383289b020059c7628942ee9dcd55f9b"
+    }
+  ]
+}

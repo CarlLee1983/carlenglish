@@ -1,0 +1,17 @@
+[
+  {
+    "id": "returning-faulty-headphones",
+    "filename": "returning-faulty-headphones.json",
+    "sha256": "820920cb1a3cb92addc291fc5f912f44fa6d39526d7f6e7b62a7a0e07d2ad23f"
+  },
+  {
+    "id": "rearranging-a-booking",
+    "filename": "rearranging-a-booking.json",
+    "sha256": "786dfab3514bb766ce884d6c16a6e84f04c4f0ce0b3466f99114c58cd953cf72"
+  },
+  {
+    "id": "agreeing-on-a-shared-budget",
+    "filename": "agreeing-on-a-shared-budget.json",
+    "sha256": "a2b5104aaf2c83cc9b06cbdb74f41b45f73bc40fc7a83248048f1bfc122f2861"
+  }
+]
