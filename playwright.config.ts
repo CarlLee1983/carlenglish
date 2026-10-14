@@ -1,9 +1,13 @@
 import { defineConfig, devices } from '@playwright/test';
 
+const port = Number(process.env.CARLENGLISH_TEST_PORT ?? 4391);
+if (!Number.isInteger(port) || port < 1024 || port > 65535) throw new Error('CARLENGLISH_TEST_PORT must be an integer from 1024 to 65535.');
+const baseURL = `http://127.0.0.1:${port}`;
+
 export default defineConfig({
   testDir: './tests',
-  testMatch: ['browser.spec.ts', 'pronunciation.spec.ts'],
-  use: { baseURL: 'http://127.0.0.1:4391', trace: 'retain-on-failure' },
+  testMatch: ['browser.spec.ts', 'pronunciation.spec.ts', 'seo.spec.ts'],
+  use: { baseURL, trace: 'retain-on-failure' },
   projects: [
     { name: 'desktop-chromium', use: { ...devices['Desktop Chrome'], viewport: { width: 1280, height: 800 } } },
     { name: 'desktop-dark', use: { ...devices['Desktop Chrome'], viewport: { width: 1280, height: 800 }, colorScheme: 'dark' } },
@@ -12,8 +16,8 @@ export default defineConfig({
     { name: 'mobile-webkit', use: { ...devices['iPhone 13'], viewport: { width: 390, height: 844 } } },
   ],
   webServer: {
-    command: 'pnpm run preview --port 4391 --ignore-lock',
-    url: 'http://127.0.0.1:4391',
+    command: `pnpm run preview --port ${port} --ignore-lock`,
+    url: baseURL,
     reuseExistingServer: false,
     timeout: 30_000,
   },

@@ -1,5 +1,41 @@
 # 實作與驗收紀錄
 
+## 2026-10-14 分級介面與 SEO 整合發布
+
+依使用者「佈署」授權，從 `ui/level-entry-catalog` worktree 直接部署至 [carlenglish.gravito.dev](https://carlenglish.gravito.dev)。部署版本 `701b6750-4874-47be-9895-340116532e5f`，Cloudflare 建立時間 2026-10-14 06:37:08 UTC（臺北 14:37）。發布當時未提交、推送或合併 GitHub；後續依使用者 PR 請求整理至 `ui/level-entry-catalog` 分支。合併前，`main` 自動部署仍會使用主分支原始碼。
+
+發布前發現主分支已新增教材，先保留完整 UI／SEO stash 與 binary diff，將 worktree fast-forward 至 `354d919a14ff034825e463a9a1771acc038a4bef`，再還原 UI 並整合文件與測試衝突。最新主分支 43 篇教材、插畫、489 段音檔、內容驗證與新版發音批次測試均保留，原 checkout 及其其他工作未修改。新增難度對照後，初級 27 篇、中級 10 篇、高級 6 篇，仍顯示原始難度文字。既有 [主分支部署](https://github.com/CarlLee1983/carlenglish/actions/runs/38521560075)成功結束且無待部署 run 後，才執行本次 Wrangler 發布。
+
+`CARLENGLISH_TEST_PORT=4393 pnpm run verify` exit code 0：Astro 28 個檔案無診斷、正式 43 篇有效、內容／分級／SEO 23/23、建置 48 個 HTML 頁面、瀏覽器 762 passed／3 刻意 skipped、隔離擴充 1/1。擴充副本保留 43 篇正式教材，再加入 42 篇測試教材，包含小圖回退與混合級別；正式檔案雜湊不變。Wrangler dry-run 與 `git diff --check HEAD` 通過。整合 delta 獨立審閱指出的難度對照文件已修正，最後審閱 clean。
+
+發布後 2026-10-14T06:38:05.019Z，657 個正式頁面與資產 HTTP 200，SHA-256 全部等於本次 `dist/`；包含所有讀本、原插畫、MP3、分享圖片、圖示與前端 JS／CSS。各頁 canonical／OG／JSON-LD 由相同建置輸出，47 個 sitemap 網址完整符合首頁、三個有教材的級別與 43 篇讀本；分享 PNG 格式與宣告尺寸符合。4 個未知場景、缺音檔、私人 scratch 及學習紀錄路徑均回傳 noindex 的 404 且沒有 canonical。Chrome 正式網站另確認新版入口、中級搜尋、新教材閱讀及返回條件；桌機與手機截圖在本機 `.scratch/deploy/`。實際手機觸控／實聽、社群快取與 Search Console 收錄尚未重新驗收。
+
+發布前版本為 `0373ac97-4098-4e14-931e-97e262f8ada6`；必要時可用 `pnpm exec wrangler rollback 0373ac97-4098-4e14-931e-97e262f8ada6` 恢復發布前網站。程式、部署輸出、前後版本、資產 manifest、驗證與可重現的 source overlay 均保存在 worktree 與 `.scratch/deploy/`，不得將私人 scratch／學習紀錄納入 repository。本次沒有內容資料遷移或新增讀者端服務。
+
+## 2026-10-14 favicon、社群分享與 SEO／AEO
+
+沿用 `ui/level-entry-catalog` 的獨立 worktree，保留前一輪 UI。新增書本 SVG／ICO／96px PNG／Apple 180px 圖示，內建 imagegen 製作並匯出 1200×630 品牌 JPEG，各讀本從原插畫自動建置 1200×630 PNG 分享圖。主題人物採靠上裁切；較小插畫使用品牌圖。新增各頁摘要、canonical、Open Graph／X 卡片、JSON-LD、內容產生的 sitemap 與 robots。空級別及 404 設 noindex，既有學習與返回篩選流程保留。細節、來源與回復見 [SEO／AEO 說明](seo.md)。
+
+讀本 PNG 使用獨立靜態端點及直接建置依賴 `sharp@0.35.5`；原版本已在鎖檔中。`pnpm add` 首次產生的 importer 沒有連到既有 optional-peer snapshot，已改為鎖檔中現有的 `0.35.5(@types/node@24.19.2)`。fresh 暫存目錄執行 `pnpm install --frozen-lockfile --offline` 成功，Sharp 可實際產生 PNG，鎖檔雜湊不變；沒有更新其他套件版本或放寬供應鏈／native-build 政策。
+
+原 checkout 的另一組測試正在使用 4391，因此本輪以 `CARLENGLISH_TEST_PORT=4393 pnpm run verify` 執行，未停止或重用該程序。exit code 0：Astro 28 個檔案無 errors／warnings／hints，正式四篇內容有效，內容／分級／SEO 測試 20/20，建置九個 HTML 頁面及四個 PNG／robots／sitemap 端點，瀏覽器 177 passed／3 刻意 skipped，隔離擴充 1/1。42 篇擴充 fixture 包含一張實際 320×180 插畫，PNG 與品牌 JPEG 回退、索引及 JSON-LD 均通過；正式檔案雜湊未變。`git diff --check` 通過。
+
+人工視覺檢查品牌中文字、四張讀本裁切、圖示與尺寸。獨立審閱指出的 public WebP 被誤宣告為 PNG、以及小圖回退測試假設，均已修正，delta review clean。本機證據在 `.scratch/seo/verify.log` 與圖片預覽；沒有提交、推送、部署或設定 Search Console／社群平台。AEO 已完成技術與內容結構，搜尋收錄及實際分享平台快取需發布後驗證，不宣稱排名或 AI 引用已生效。
+
+## 2026-10-14 分級入口與 UI／UX 調整
+
+在獨立 worktree `/Users/carl/.codex/worktrees/7879/CarlEnglish`、分支 `ui/level-entry-catalog`，以最新 `origin/main` 的 `a909bc9` 為基礎完成。原 checkout 的未提交教材、音檔及測試工作沒有搬入本分支；本次沒有修改正式內容或資產、提交、推送或部署。
+
+首頁先選初級、中級或高級，各級別有獨立靜態目錄、較精簡的圖文排列、關鍵字搜尋與生活主題篩選。`src/lib/catalog.ts` 以明確標籤對照統一分組，未知難度由內容驗證及建置攔截。閱讀頁新增段落入口、所屬級別返回與最多三篇同級推薦。搜尋條件透過 `q`／`category` 參數保留，包含進入讀本、重新整理、同級推薦及上／下返回連結；無 JavaScript 仍可閱讀完整靜態目錄與內容。沒有增加依賴套件、資料庫或遠端服務。
+
+Node.js v24.21.0、pnpm 12.0.0 的 `pnpm run verify` exit code 0：Astro 22 個檔案無 errors／warnings／hints，4 篇正式內容有效，內容與分級測試 16/16、建置 9 頁、瀏覽器 157 passed／3 刻意 skipped、隔離擴充 1/1。擴充副本新增 42 篇混合級別教材，正式內容與資產雜湊在測試前後一致。包含網址參數的直接斷言，以及搜尋與主題控制項至少 44px 的回歸檢查。`git diff --check` 通過。
+
+WebKit 原生選單外觀會覆蓋觸控高度，初次量測主題選單僅 27.7px；改為保留原生 `select` 互動、以 `appearance: none` 與 `height: 3rem` 控制外觀，補上不攔截點擊的箭頭及高度回歸檢查；修正後 Chromium 與 WebKit 的實際選單高度均為 48px。
+
+完成桌機、390px 與 320px 手機、亮暗色、手機 WebKit 的截圖檢查，包含預設目錄、空級別、搜尋無結果、主題選取、鍵盤焦點與閱讀頁。最終截圖在本機 `.scratch/ui-review/`，截圖中的頁面網址均回傳 200；完整驗證輸出在 `verify-final.log`。獨立審閱指出的返回篩選條件、讀本導覽的 current 狀態與 404 文案已修正，delta review 為 clean。
+
+本分支四篇教材均屬初級，中高級保留清楚的準備中頁面；原 checkout 的追加內容仍需在整合時加入。既有 `/scenes/<id>/` 網址與音訊控制繼續有效。實際手機觸控與實聽未重新驗收，瀏覽器模擬不代替實機確認。若回復本次功能，一併回復分級模組、目錄與導覽程式／測試即可，沒有資料遷移。現行行為與維護規則見 [UI 導覽說明](ui-navigation.md)。
+
 ## 2026-10-14 遷移至 pnpm 12
 
 `package.json` 固定 `packageManager: pnpm@12.0.0`，Node.js 維持 24。以 `pnpm import` 從原 npm 鎖檔建立 `pnpm-lock.yaml`，移除 `package-lock.json`。匯入保留原有 394 組套件名稱與版本，另外解析可選的 `@napi-rs/wasm-runtime@1.2.5`；直接依賴與其版本範圍未變。pnpm 12 的鎖檔包含套件管理器與應用依賴兩份 YAML 文件。

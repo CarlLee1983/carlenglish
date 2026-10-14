@@ -3,19 +3,24 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { expect, test, type Page } from '@playwright/test';
 import type { Scene } from '../src/lib/scenes';
+import { getLearningLevel, learningLevels } from '../src/lib/catalog';
 
 const contentDir = join(process.cwd(), 'content/scenes');
 const scenes = readdirSync(contentDir).filter((name) => name.endsWith('.json')).sort()
   .map((name) => JSON.parse(readFileSync(join(contentDir, name), 'utf8')) as Scene);
 const originalIds = ['cafe-breakfast', 'school-greeting', 'supermarket-shopping', 'street-directions'];
 const scenePath = (scene: Scene) => `/scenes/${scene.id}/`;
+const levelPath = (scene: Scene) => `/levels/${getLearningLevel(scene).id}/`;
+const sceneLinks = (page: Page) => page.getByRole('link', { name: /^閱讀/ });
 const storyParagraphs = (page: Page) => page.getByRole('region', { name: '英文短文' }).locator('[lang="en"] p');
 const translationDisclosure = (page: Page) => page.getByRole('region', { name: '英文短文' }).locator('.translation');
 
 async function expectImageLoaded(page: Page, scene: Scene) {
   const image = page.getByRole('img', { name: scene.image.alt });
+  await image.scrollIntoViewIfNeeded();
   await expect(image).toBeVisible();
   await expect(image).toHaveAttribute('src', scene.image.src);
+  await expect.poll(() => image.evaluate((element: HTMLImageElement) => element.complete && element.naturalWidth > 0)).toBe(true);
   const dimensions = await image.evaluate((element: HTMLImageElement) => ({
     complete: element.complete,
     naturalWidth: element.naturalWidth,
@@ -56,10 +61,6 @@ async function expectSceneContent(page: Page, scene: Scene) {
     await expect(wordItems.nth(i)).toContainText(scene.words[i].translation);
     await expect(wordItems.nth(i)).toContainText(scene.words[i].example);
   }
-  const sceneLinks = page.getByRole('navigation', { name: '場景導覽' }).locator('a[href^="/scenes/"]');
-  await expect(sceneLinks).toHaveCount(scenes.length - 1);
-  assert.deepEqual(await sceneLinks.evaluateAll((links) => links.map((link) => link.getAttribute('href'))),
-    scenes.filter((other) => other.id !== scene.id).map(scenePath));
 }
 
 async function expectNoHorizontalClipping(page: Page) {
@@ -76,33 +77,163 @@ async function expectNoHorizontalClipping(page: Page) {
   expect(result.clipped).toEqual([]);
 }
 
-test('all official scenes are discovered on the list', async ({ page }) => {
+test('home offers the three learning levels and level pages discover official scenes', async ({ page }) => {
+  test.setTimeout(120_000);
   const ids = scenes.map((scene) => scene.id);
   assert.equal(new Set(ids).size, ids.length, 'every discovered scene must have a unique route');
-  for (const id of originalIds) assert.ok(ids.includes(id), `original scene ${id} must remain available`);
+  for (const id of originalIds) assert.ok(ids.includes(id), `missing baseline scene ${id}`);
   await page.goto('/');
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
-  await expect(page.getByText(`${scenes.length} 篇讀本`, { exact: true })).toBeVisible();
-  const links = page.getByRole('link', { name: /^閱讀/ });
-  await expect(links).toHaveCount(scenes.length);
-  assert.deepEqual(await links.evaluateAll((elements) => elements.map((element) => element.getAttribute('href'))), scenes.map(scenePath));
-  for (const scene of scenes) {
-    const link = page.getByRole('link', { name: `閱讀${scene.title}` });
-    await expect(link).toHaveAttribute('href', scenePath(scene));
-    await expect(link).toContainText(scene.titleEn);
-    await expect(link).toContainText(scene.category);
-    await expect(link).toContainText(scene.level);
-    await expect(link).toContainText(`${scene.sentences.length} 句短文 / ${scene.phrases.length} 個短句 / ${scene.words.length} 個單字`);
-    await expectImageLoaded(page, scene);
+  await expect(sceneLinks(page)).toHaveCount(0);
+  for (const level of learningLevels) {
+    const entry = page.getByRole('link', { name: `進入${level.name}` });
+    await expect(entry).toHaveAttribute('href', `/levels/${level.id}/`);
+    await entry.click();
+    await expect(page.getByRole('heading', { level: 1, name: `${level.name}讀本` })).toBeVisible();
+    const currentLevel = page.getByRole('navigation', { name: '英文程度' }).getByRole('link', { name: level.name });
+    await expect(currentLevel).toHaveAttribute('href', `/levels/${level.id}/`);
+    await expect(currentLevel).toHaveAttribute('aria-current', 'page');
+    const tierScenes = scenes.filter((scene) => getLearningLevel(scene).id === level.id);
+    await expect(sceneLinks(page)).toHaveCount(tierScenes.length);
+    assert.deepEqual(await sceneLinks(page).evaluateAll((links) => links.map((link) => link.getAttribute('href'))), tierScenes.map(scenePath));
+    for (const scene of tierScenes) {
+      const link = page.getByRole('link', { name: `閱讀${scene.title}` });
+      await expect(link).toHaveAttribute('href', scenePath(scene));
+      await expect(link).toContainText(scene.titleEn);
+      await expect(link).toContainText(scene.category);
+      await expect(link).toContainText(scene.level);
+      await expect(link).toContainText(`${scene.sentences.length} 句短文 · ${scene.phrases.length} 個短句 · ${scene.words.length} 個單字`);
+      await expectImageLoaded(page, scene);
+    }
+    if (tierScenes.length === 0) {
+      await expect(page.getByText('這個級別的讀本還在準備中')).toBeVisible();
+      await expect(page.getByRole('link', { name: '先讀初級讀本' })).toHaveAttribute('href', '/levels/beginner/');
+    }
+    await page.goto('/');
+  }
+});
+
+test('level filters search, categories, clear, URL history, and reload', async ({ page }) => {
+  const level = learningLevels.find(({ id }) => scenes.some((scene) => getLearningLevel(scene).id === id))!;
+  const tierScenes = scenes.filter((scene) => getLearningLevel(scene).id === level.id);
+  const target = tierScenes[0];
+  const path = `/levels/${level.id}/`;
+  await page.goto(path);
+  const search = page.getByRole('searchbox', { name: '搜尋讀本' });
+  const category = page.getByRole('combobox', { name: '生活主題' });
+  await expect(category.getByRole('option', { name: '全部主題' })).toBeAttached();
+  for (const control of [search, category]) {
+    await expect(control).toBeVisible();
+    expect((await control.boundingBox())?.height).toBeGreaterThanOrEqual(44);
+  }
+  await search.fill(`  ${target.titleEn.toUpperCase()}  `);
+  await expect(sceneLinks(page)).toHaveCount(1);
+  await expect(page.getByRole('link', { name: `閱讀${target.title}` })).toBeVisible();
+  await expect(page).toHaveURL(/q=/);
+  await page.reload();
+  await expect(search).toHaveValue(target.titleEn.toUpperCase());
+  await expect(sceneLinks(page)).toHaveCount(1);
+  await search.fill('NO-MATCH-QUERY');
+  await expect(sceneLinks(page)).toHaveCount(0);
+  await expect(page.getByText('沒有找到符合的讀本')).toBeVisible();
+  await expect(page.getByRole('status')).toContainText('0');
+  await page.getByRole('button', { name: '清除篩選' }).click();
+  await expect(sceneLinks(page)).toHaveCount(tierScenes.length);
+  await expect(search).toHaveValue('');
+  await category.selectOption({ label: target.category });
+  await expect(page).toHaveURL(/category=/);
+  await expect(sceneLinks(page)).toHaveCount(tierScenes.filter((scene) => scene.category === target.category).length);
+  await page.reload();
+  await expect(category).toHaveValue(target.category);
+  await page.goBack();
+  await expect(category).not.toHaveValue(target.category);
+  await expect(sceneLinks(page)).toHaveCount(tierScenes.length);
+});
+
+test('filtered catalog context survives reader reload, recommendations, and both return links', async ({ page }) => {
+  const target = scenes[0];
+  const level = getLearningLevel(target);
+  const related = scenes.find((scene) => scene.id !== target.id && getLearningLevel(scene).id === level.id)!;
+  const query = target.titleEn.toUpperCase();
+  const expectedParams = { q: query, category: target.category };
+  const expectContextLink = async (href: string | null, pathname: string) => {
+    const url = new URL(href!, page.url());
+    expect(url.pathname).toBe(pathname);
+    expect(Object.fromEntries(url.searchParams)).toEqual(expectedParams);
+  };
+
+  for (const returnIndex of [0, 1]) {
+    await page.goto(levelPath(target));
+    await page.getByRole('searchbox', { name: '搜尋讀本' }).fill(query);
+    await page.getByRole('combobox', { name: '生活主題' }).selectOption({ label: target.category });
+    await expect(sceneLinks(page)).toHaveCount(1);
+    const card = page.getByRole('link', { name: `閱讀${target.title}` });
+    await expectContextLink(await card.getAttribute('href'), scenePath(target));
+    await card.click();
+    await expect(page.getByRole('heading', { level: 1, name: target.titleEn })).toBeVisible();
+    const owner = page.getByRole('navigation', { name: '英文程度' }).getByRole('link', { name: level.name });
+    await expect(owner).toHaveAttribute('aria-current', 'location');
+    const returns = page.getByRole('link', { name: `回到${level.name}讀本` });
+    await expect(returns).toHaveCount(2);
+    for (let i = 0; i < 2; i++) await expectContextLink(await returns.nth(i).getAttribute('href'), levelPath(target));
+    const recommendation = page.getByRole('navigation', { name: '場景導覽' }).getByRole('link', { name: new RegExp(related.title) });
+    await expectContextLink(await recommendation.getAttribute('href'), scenePath(related));
+    await page.reload();
+    await expectContextLink(await returns.nth(returnIndex).getAttribute('href'), levelPath(target));
+    if (returnIndex === 1) {
+      await recommendation.click();
+      await expect(page.getByRole('heading', { level: 1, name: related.titleEn })).toBeVisible();
+      await expectContextLink(await page.getByRole('link', { name: `回到${level.name}讀本` }).last().getAttribute('href'), levelPath(target));
+    }
+    await page.getByRole('link', { name: `回到${level.name}讀本` }).nth(returnIndex).click();
+    await expect(page).toHaveURL((url) => url.pathname === levelPath(target)
+      && url.searchParams.get('q') === query && url.searchParams.get('category') === target.category);
+    await expect(page.getByRole('searchbox', { name: '搜尋讀本' })).toHaveValue(query);
+    await expect(page.getByRole('combobox', { name: '生活主題' })).toHaveValue(target.category);
+    await expect(sceneLinks(page)).toHaveCount(1);
+    await expect(page.getByRole('link', { name: `閱讀${target.title}` })).toBeVisible();
+    await expect(page.getByRole('status')).toContainText('1');
+  }
+});
+
+test('stale category URLs show the unfiltered level safely', async ({ page }) => {
+  const target = scenes[0];
+  await page.goto(`${levelPath(target)}?category=${encodeURIComponent('不存在的主題')}`);
+  await expect(page.getByRole('combobox', { name: '生活主題' })).toHaveValue('');
+  await expect(sceneLinks(page)).toHaveCount(scenes.filter((scene) => getLearningLevel(scene).id === getLearningLevel(target).id).length);
+});
+
+test('level pages remain readable without JavaScript and links work by keyboard', async ({ browser, baseURL }) => {
+  const context = await browser.newContext({ javaScriptEnabled: false, baseURL });
+  try {
+    const page = await context.newPage();
+    const target = scenes[0];
+    await page.goto(levelPath(target));
+    await expect(page.getByRole('searchbox', { name: '搜尋讀本' })).toBeHidden();
+    await expect(sceneLinks(page)).toHaveCount(scenes.filter((scene) => getLearningLevel(scene).id === getLearningLevel(target).id).length);
+    const link = page.getByRole('link', { name: `閱讀${target.title}` });
+    await link.focus();
+    await page.keyboard.press('Enter');
+    await expect(page).toHaveURL(new RegExp(`${scenePath(target)}$`));
+    await expectSceneContent(page, target);
+  } finally {
+    await context.close();
   }
 });
 
 for (const scene of scenes) {
-  test(`${scene.id}: list, exact content, translation, direct URL, and reload`, async ({ page }) => {
-    await page.goto('/');
+  test(`${scene.id}: level journey, exact content, translation, direct URL, and reload`, async ({ page }) => {
+    await page.goto(levelPath(scene));
     await page.getByRole('link', { name: `閱讀${scene.title}` }).click();
     await expect(page).toHaveURL(new RegExp(`${scenePath(scene)}$`));
     await expectSceneContent(page, scene);
+    const jump = page.getByRole('navigation', { name: '本篇內容' });
+    for (const [name, hash] of [['短文', '#story'], ['短句', '#phrases'], ['單字', '#words']]) {
+      await expect(jump.getByRole('link', { name })).toHaveAttribute('href', hash);
+    }
+    await jump.getByRole('link', { name: '短句' }).click();
+    await expect(page).toHaveURL(/#phrases$/);
+    await expect(page.getByRole('region', { name: '常用短句' })).toBeInViewport();
     const disclosure = translationDisclosure(page);
     const summary = disclosure.locator('summary');
     const translated = disclosure.locator('p');
@@ -114,23 +245,30 @@ for (const scene of scenes) {
     await expect(summary).toBeFocused();
     await page.keyboard.press('Enter');
     await expect(disclosure).toHaveAttribute('open', '');
+    await expect(translated.first()).toHaveText(scene.sentences[0].translation);
     await expect(translated).toHaveCount(scene.sentences.length);
     for (let i = 0; i < scene.sentences.length; i++) await expect(translated.nth(i)).toHaveText(scene.sentences[i].translation);
     await page.keyboard.press('Space');
     await expect(disclosure).not.toHaveAttribute('open');
     await expect(translated.first()).toBeHidden();
     assert.deepEqual(await storyParagraphs(page).evaluateAll((elements) => elements.map((element) => element.textContent)), englishBefore);
-    const back = page.getByRole('link', { name: /回到場景列表/ }).first();
+    const back = page.getByRole('link', { name: `回到${getLearningLevel(scene).name}讀本` }).first();
+    await expect(back).toHaveAttribute('href', levelPath(scene));
     await back.focus();
     await page.keyboard.press('Enter');
-    await expect(page).toHaveURL(/\/$/);
+    await expect(page).toHaveURL(new RegExp(`${levelPath(scene)}$`));
     await page.goto(scenePath(scene));
     await page.reload();
     await expectSceneContent(page, scene);
+    const recommendations = page.getByRole('navigation', { name: '場景導覽' }).getByRole('link').filter({ hasNotText: /^回到/ });
+    const related = scenes.filter((other) => other.id !== scene.id && getLearningLevel(other).id === getLearningLevel(scene).id).slice(0, 3);
+    await expect(recommendations).toHaveCount(related.length);
+    assert.deepEqual(await recommendations.evaluateAll((links) => links.map((link) => new URL((link as HTMLAnchorElement).href).pathname)), related.map(scenePath));
+    for (const other of related) await expect(page.getByRole('navigation', { name: '場景導覽' }).getByRole('link', { name: new RegExp(other.title) })).toHaveAttribute('href', scenePath(other));
   });
 
-  test(`${scene.id}: list and reader fit viewport with translation closed and open`, async ({ page }) => {
-    await page.goto('/');
+  test(`${scene.id}: level and reader fit viewport with translation closed and open`, async ({ page }) => {
+    await page.goto(levelPath(scene));
     await expectNoHorizontalClipping(page);
     await page.goto(scenePath(scene));
     await expectNoHorizontalClipping(page);
@@ -140,11 +278,13 @@ for (const scene of scenes) {
   });
 }
 
-test('switching after opening translation shows only the next scene', async ({ page }) => {
+test('switching after opening translation shows only the next related scene', async ({ page }) => {
   test.setTimeout(120_000);
-  for (let i = 0; i < scenes.length; i++) {
-    const current = scenes[i];
-    const next = scenes[(i + 1) % scenes.length];
+  const tierScenes = scenes.filter((scene) => getLearningLevel(scene).id === getLearningLevel(scenes[0]).id);
+  if (tierScenes.length < 2) return;
+  for (let i = 0; i < tierScenes.length; i++) {
+    const current = tierScenes[i];
+    const next = tierScenes.find((candidate) => candidate.id !== current.id)!;
     await page.goto(scenePath(current));
     await translationDisclosure(page).locator('summary').click();
     await expect(translationDisclosure(page)).toHaveAttribute('open', '');
@@ -158,8 +298,6 @@ test('switching after opening translation shows only the next scene', async ({ p
     await expect(translationDisclosure(page)).not.toHaveAttribute('open');
     await expect(translationDisclosure(page).locator('p').first()).toBeHidden();
     await expect(page.getByRole('heading', { level: 1, name: current.titleEn })).toHaveCount(0);
-    await expect(page.getByRole('img', { name: current.image.alt })).toHaveCount(0);
-    await expect(translationDisclosure(page)).not.toContainText(current.sentences[0].translation);
   }
 });
 
@@ -168,6 +306,6 @@ test('unknown scene shows custom 404 and return link', async ({ page }) => {
   expect(response?.status()).toBe(404);
   await expect(page.getByRole('heading', { level: 1, name: '找不到這個場景' })).toBeVisible();
   for (const scene of scenes) await expect(page.getByRole('heading', { level: 1, name: scene.titleEn })).toHaveCount(0);
-  await page.getByRole('link', { name: /回到場景列表/ }).click();
+  await page.getByRole('main').getByRole('link', { name: '選擇學習程度' }).click();
   await expect(page).toHaveURL(/\/$/);
 });

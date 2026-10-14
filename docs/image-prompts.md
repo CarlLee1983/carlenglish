@@ -137,3 +137,15 @@ Preserve: exact two older-teen characters and their identity, Maya with dark chi
 Screen content: two simple generic source-page panels side by side, expressed only as quiet geometric blocks and a blank calendar grid. No legible text, numbers, claims or dates. The classroom/library room remains unreserved; no booking confirmation or sign.
 Composition: landscape 3:2, 1536 by 1024, full edge-to-edge scene, clear gestures at mobile size. Exactly two main people. Natural anatomy and hands. No logos, watermark, borders, speech bubbles, or extra limbs.
 ```
+
+## 社群品牌分享圖
+
+日期：2026-10-14。使用內建 `image_gen.imagegen`，非 CLI／API fallback。生成輸出為 1732×908 PNG；保留生成原檔，將選定成品匯出為 1200×630 JPEG：`public/images/social/carlenglish.jpg`（290,141 bytes）。生成原檔位於 `/Users/carl/.codex/generated_images/01a138cb-ff21-7291-9651-12e6f7d2ff90/exec-acf29789-c43c-4968-aa0d-086a8f76f764.png`，網站只使用 repo 內的成品。
+
+最終提示：
+
+```text
+Create one finished horizontal social-sharing cover image for CarlEnglish, a Traditional Chinese website for learning English through illustrated daily-life short readings. This is a branded Open Graph banner, not a website screenshot. Wide 1.91:1 composition, ideally 1200 by 630 pixels. Warm off-white #f8faf7 background, forest green #253a2e and #305a3c typography, restrained pale sage details, generous readable spacing. Editorial and friendly, suitable for children and adult beginners. On the left, precise large typography with exact text 'CarlEnglish' near top, then the main Traditional Chinese headline on two lines: '生活裡的英文，' and '一篇一篇讀。'. Small readable line below: '看圖 · 閱讀 · 聽英文'. On the right, a single beautifully composed watercolor / gouache storybook illustration of an open illustrated book whose page contains a warm neighborhood café scene, two people talking naturally with a takeaway coffee; a small second page hint of a classroom greeting. Soft natural textures matching educational storybook illustrations, no 3D, no glossy effects. One cohesive scene; illustration must not look like a grid of cards. All text and key illustration should stay within a generous 70-pixel safe margin and remain readable as a small shared-link thumbnail. Minimal, crafted, calm and distinctive. No extra logos, badges, fake UI, ratings, CEFR levels, certification claims, photos, watermark, purple/blue gradients, or additional text.
+```
+
+Favicon 是原生 SVG 書本圖示，來源 `public/favicon.svg`；以 Playwright 渲染來源再匯出 ICO、96px PNG 與 180px Apple 圖示。讀本分享圖從原插畫以 Sharp 自動產生 PNG，不重新生成或修改教材原圖。

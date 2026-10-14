@@ -1,6 +1,6 @@
 # CarlEnglish
 
-看圖學生活英文的本地靜態網站，提供涵蓋兒童、國中、高中及家庭生活的 43 個生活場景。
+看圖學生活英文的本地靜態網站。首頁先選初級、中級或高級，再從該級別的生活場景開始閱讀；目錄可搜尋中文、英文標題與主題，並依生活主題篩選。目前涵蓋兒童、國中、高中與家庭生活的 43 個場景，初級 27 篇、中級 10 篇、高級 6 篇。
 
 讀本可播放完整短文、常用短句與重點單字的本地 MP3。489 段音檔（43 篇短文、179 個短句、267 個單字）使用同一個 Kokoro `af_heart` 美式女聲合成。播放不會呼叫線上語音服務；一次只播放一段，點選另一段會停止原播放。短文可暫停、續播、從頭播放及停止；不會自動播放。播放失敗時會在頁面提示。需要 JavaScript，文章本身仍可在停用 JavaScript 時閱讀。
 
@@ -23,7 +23,7 @@ pnpm run test:browser
 pnpm run test:extension
 ```
 
-`pnpm run verify` 依序執行上述完整檢查。瀏覽器測試讀取正式 `dist/`，用獨立的 4391 埠啟動前景預覽並在結束時關閉；不要先手動佔用該埠。`test:extension` 在暫存副本只新增一個合法場景的 JSON 與圖片，再正常建置並以 Chromium 檢查列表、獨立網址、重新整理及完整閱讀內容；它也核對正式專案檔案雜湊沒有變動。測試結束會關閉自己的伺服器並移除副本，測試場景不會混入正式內容。正式建置後也能以 `pnpm run preview` 查看。
+`pnpm run verify` 依序執行上述完整檢查。瀏覽器測試讀取正式 `dist/`，預設用 4391 埠啟動前景預覽並在結束時關閉；不要先手動佔用該埠。同時執行其他 worktree 時，可用 `CARLENGLISH_TEST_PORT=4393 pnpm run verify` 指定另一個未使用的埠。`test:extension` 在暫存副本加入 42 篇合法測試教材，分布於三個級別並重用相同英文的圖片與音檔，再正常建置並以 Chromium 檢查分級、搜尋、主題、有限推薦與完整閱讀內容；它也核對正式專案檔案雜湊沒有變動。測試結束會關閉自己的伺服器並移除副本，測試教材不會混入正式內容。正式建置後也能以 `pnpm run preview` 查看。
 
 發音自動測試驗證播放切換、短文控制、舊事件與 Promise 隔離、失敗處理及本地音檔。既有內容曾由使用者接受代表性聲線樣本，再確認當時的內容、音檔與手機操作驗收完成。本批三篇與 39 段新音檔須另外驗收，不能沿用舊批次的結案結果。人工驗收依使用者確認，媒體事件不能代替實聽。網站尚未建立離線快取或 PWA。
 
@@ -36,12 +36,17 @@ pnpm run test:extension
 - `public/audio/{words,phrases,stories}/`：網站直接播放的本地合成 MP3。
 - `content/audio/voice-profile.json`：固定聲線與生成設定。
 - `src/lib/scenes.ts`：集中發現、驗證與取得場景。
+- `src/lib/catalog.ts`：統一初／中／高級分組、主題與最多三篇同級推薦。
+- `src/lib/seo.ts`：分享圖片資訊、canonical、索引清單與 JSON-LD 安全輸出；`src/layouts/Layout.astro` 統一呈現中繼資料。
+- `src/pages/{sitemap.xml,robots.txt}.ts`：依內容產生 crawler 檔案；分享圖靜態端點使用建置用的 `sharp@0.35.5`。
+- `src/pages/levels/[level].astro`：各級別的靜態目錄；`src/scripts/catalog.ts` 提供搜尋、篩選與網址狀態。
 - `src/components/Reader.astro`：所有場景共用的閱讀版型。
 - `src/scripts/pronunciation.ts`：頁內音訊控制與錯誤狀態。
+- `src/scripts/reader-navigation.ts`：保留進入讀本前的搜尋與主題條件。
 - `src/pages/scenes/[id].astro`：從場景 ID 產生路由。
 - `tests/`：內容入口與瀏覽器行為測試。
 
-新增場景只要加入 JSON、圖片及所需音檔，執行內容驗證，再重新建置；完全相同的英文可重用既有音檔。不需修改版型、頁面、路由或清單。欄位與生成命令見 [內容維護說明](docs/content-guide.md)，聲線與舊錄音來源見 [audio-sources.md](docs/audio-sources.md)。
+新增場景只要加入 JSON、圖片及所需音檔，執行內容驗證，再重新建置；完全相同的英文可重用既有音檔。不需修改版型、頁面、路由或清單。欄位與生成命令見 [內容維護說明](docs/content-guide.md)，分級與導覽行為見 [UI 導覽說明](docs/ui-navigation.md)，圖示、分享與搜尋資料見 [SEO／AEO 說明](docs/seo.md)，聲線與舊錄音來源見 [audio-sources.md](docs/audio-sources.md)。
 
 規格見 [docs/spec.md](docs/spec.md)，驗收與限制見 [docs/implementation.md](docs/implementation.md)，已完成工單見 [docs/issues/](docs/issues/README.md)。圖片生成工具、原始指令與成品路徑見 [docs/image-prompts.md](docs/image-prompts.md)。
 
@@ -55,7 +60,9 @@ pnpm run test:extension
 
 ## 發布
 
-網站已發布於 [carlenglish.gravito.dev](https://carlenglish.gravito.dev)，原始碼位於公開的 [GitHub repository](https://github.com/CarlLee1983/carlenglish)。使用 Cloudflare Workers Static Assets，`wrangler.jsonc` 將 `dist/` 提供為靜態網站。首頁、三個場景的直接網址、圖片與音檔已在線上驗證；未知場景回傳自訂 404 頁。已有 Cloudflare 發布權限的環境可執行 `pnpm run deploy`，依序完成驗證與部署。
+網站已發布於 [carlenglish.gravito.dev](https://carlenglish.gravito.dev)，原始碼位於公開的 [GitHub repository](https://github.com/CarlLee1983/carlenglish)。使用 Cloudflare Workers Static Assets，`wrangler.jsonc` 將 `dist/` 提供為靜態網站。首頁、三個分級目錄與 43 個場景的直接網址、圖片及音檔已在線上驗證；未知場景回傳自訂 404 頁。已有 Cloudflare 發布權限的環境可執行 `pnpm run deploy`，依序完成驗證與部署。
+
+2026-10-14 的 UI／favicon／SEO 版本 `701b6750-4874-47be-9895-340116532e5f` 從 `ui/level-entry-catalog` worktree 直接部署，整合的教材基底為 `354d919a`。程式已整理於 `ui/level-entry-catalog` 分支的 PR；合併前，`main` 自動部署會使用主分支版本。驗證與回復方式見 [發布紀錄](docs/implementation.md#2026-10-14-分級介面與-seo-整合發布)。
 
 GitHub Actions 在 pull request 及 `main` 推送執行驗證；首筆提交的 [CI 已通過](https://github.com/CarlLee1983/carlenglish/actions/runs/38504543453)。首次上線使用本機既有的 Cloudflare 授權完成。GitHub 自動部署已啟用：repository secrets `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN` 與 variable `CLOUDFLARE_DEPLOY_ENABLED=true` 均已設定，`main` 推送或手動啟動 `Deploy` 會先執行 `pnpm run verify` 再部署；[首次 Actions 部署](https://github.com/CarlLee1983/carlenglish/actions/runs/38509015094)已成功。
 

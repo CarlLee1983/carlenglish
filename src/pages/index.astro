@@ -1,35 +1,45 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { loadScenes } from '../lib/scenes';
+import { createCatalog } from '../lib/catalog';
+import { canonicalUrl, siteDescription } from '../lib/seo';
 const scenes = loadScenes();
+const catalog = createCatalog(scenes);
+const homeUrl = canonicalUrl('/', Astro.site);
+const structuredData = [
+  { '@type': 'WebSite', '@id': `${homeUrl}#website`, name: 'CarlEnglish', url: homeUrl, description: siteDescription, inLanguage: ['zh-Hant', 'en'] },
+  { '@type': 'WebPage', '@id': `${homeUrl}#webpage`, name: '選擇學習程度', url: homeUrl, description: siteDescription, inLanguage: 'zh-Hant', isPartOf: { '@id': `${homeUrl}#website` } },
+];
 ---
-<Layout title="生活場景">
-  <div class="page-shell">
-    <section class="list-intro" aria-labelledby="intro-title">
-      <h1 id="intro-title">從生活場景，<br />開始讀英文。</h1>
-      <p>先看圖，再讀一篇短文。<br />把日常會用到的英文，一點一點記起來。</p>
-    </section>
-    <section aria-labelledby="scenes-title">
-      <div class="collection-heading">
-        <h2 id="scenes-title">選一個場景</h2>
-        <span>{scenes.length} 篇讀本</span>
+<Layout title="生活英文圖文讀本：選擇初級、中級或高級" structuredData={structuredData}>
+  <div class="page-shell home-page">
+    <section class="home-intro" aria-labelledby="intro-title">
+      <div>
+        <p class="eyebrow">生活裡的英文，一篇一篇讀。</p>
+        <h1 id="intro-title">今天，從哪個<br />程度開始？</h1>
+        <p class="intro-description">選擇適合你的讀本。看圖、讀短文，<br class="desktop-break" />再聽聽日常會用到的單字與短句。</p>
       </div>
-      <ul class="scene-list">
-        {scenes.map((scene) => (
+      <div class="home-note">
+        <span class="library-number">{scenes.length.toString().padStart(2, '0')}</span>
+        <p>篇生活讀本<br /><span>照自己的步調，慢慢累積。</span></p>
+      </div>
+    </section>
+    <section class="level-selection" aria-labelledby="levels-title">
+      <div class="collection-heading"><h2 id="levels-title">選擇你的學習程度</h2><p>隨時可以切換</p></div>
+      <ol class="level-list">
+        {catalog.map(({ level, scenes }, index) => (
           <li>
-            <a class="scene-card" href={`/scenes/${scene.id}/`} aria-label={`閱讀${scene.title}`}>
-              <img src={scene.image.src} alt={scene.image.alt} width={scene.image.width} height={scene.image.height} fetchpriority="high" />
-              <div class="scene-card-copy">
-                <p class="scene-meta">{scene.category}<span>{scene.level}</span></p>
-                <h3 lang="en">{scene.titleEn}</h3>
-                <p class="scene-card-title">{scene.title}</p>
-                <p class="scene-counts">{scene.sentences.length} 句短文 / {scene.phrases.length} 個短句 / {scene.words.length} 個單字</p>
-                <span class="read-label">開始閱讀 <span aria-hidden="true">↗</span></span>
-              </div>
+            <a class="level-entry" href={`/levels/${level.id}/`} aria-label={`進入${level.name}`}>
+              <span class="level-number" aria-hidden="true">0{index + 1}</span>
+              <div class="level-entry-title"><h3>{level.name}</h3><p lang="en">{level.english}</p></div>
+              <p class="level-entry-description">{level.focus}</p>
+              <span class="level-entry-count">{scenes.length ? `${scenes.length} 篇讀本` : '教材準備中'}</span>
+              <span class="entry-arrow" aria-hidden="true">↗</span>
             </a>
           </li>
         ))}
-      </ul>
+      </ol>
     </section>
+    <p class="level-help">剛開始讀英文？先從初級試讀，再依閱讀感受調整程度。</p>
   </div>
 </Layout>
