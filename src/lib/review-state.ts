@@ -18,12 +18,11 @@ export interface StoredCard {
   firstReviewedAt: string | null;
 }
 
-/** 詞表訂閱：issuedThrough 是已處理到的詞頻序號（含因已是字卡而跳過的），issuedCount 是實際發出的張數。 */
+/** 詞表訂閱：issuedThrough 是已處理到的詞頻序號（含因已是字卡而跳過的）。已發出幾張由字卡的來源推得（issuedCardCount），不另存。 */
 export interface Subscription {
   wordListId: string;
   subscribedAt: string;
   issuedThrough: number;
-  issuedCount: number;
 }
 
 export interface ReviewState {
@@ -65,6 +64,10 @@ export const effectiveDailyNewLimit = (state: ReviewState): number => state.dail
 export const isNewCard = (card: StoredCard) => card.firstReviewedAt === null;
 
 /** 手動加入（場景或文章）的卡優先於只由詞表發出的卡。 */
+/** 這份詞表已發出的字卡數：來源包含這份詞表的字卡；取消訂閱後仍保留，重新訂閱也不會歸零。 */
+export const issuedCardCount = (state: ReviewState, wordListId: string): number => state.cards
+  .filter((card) => card.sources.some((source) => source.kind === 'wordlist' && source.id === wordListId)).length;
+
 const hasManualSource = (card: StoredCard) => card.sources.some((source) => source.kind !== 'wordlist');
 
 const startOfLocalDay = (date: Date, offsetDays = 0) => new Date(date.getFullYear(), date.getMonth(), date.getDate() + offsetDays);
@@ -102,13 +105,18 @@ export interface ReviewCounts {
   tomorrow: number;
 }
 
-/** unissuedFromLists：訂閱的詞表裡還沒發出的張數；明天最多再發出上限扣掉順延之後剩下的額度。 */
-export function reviewCounts(state: ReviewState, now: Date, unissuedFromLists = 0): ReviewCounts {
+/**
+ * unissuedFromLists：訂閱的詞表裡還沒處理到的詞數。今天剩下的額度（扣掉已在等的新卡）會由詞表補上，
+ * 所以這些詞算進今天的新卡；開複習頁才實際發卡，但數字不變。明天最多再發出上限扣掉順延之後剩下的額度。
+ */
+export function reviewCounts(state: ReviewState, now: Date, unissuedFromLists: number): ReviewCounts {
   const startOfTomorrow = startOfLocalDay(now, 1);
   const startOfDayAfter = startOfLocalDay(now, 2);
   const dueTodayOld = state.cards.filter((card) => !isNewCard(card) && new Date(card.schedule.due).getTime() < startOfTomorrow.getTime());
   const dueNew = state.cards.filter((card) => isNewCard(card) && new Date(card.schedule.due).getTime() < startOfTomorrow.getTime());
-  const newToday = Math.min(dueNew.length, newCardAllowance(state, now));
+  const allowance = newCardAllowance(state, now);
+  const incoming = Math.max(0, Math.min(allowance - state.cards.filter(isNewCard).length, unissuedFromLists));
+  const newToday = Math.min(dueNew.length + incoming, allowance);
   const later = dueTodayOld.map((card) => new Date(card.schedule.due))
     .filter((date) => date.getTime() > now.getTime())
     .sort((a, b) => a.getTime() - b.getTime());
@@ -117,13 +125,13 @@ export function reviewCounts(state: ReviewState, now: Date, unissuedFromLists = 
     return time >= startOfTomorrow.getTime() && time < startOfDayAfter.getTime();
   }).length;
   // 假設今天發出的新卡都學完，被順延的新卡明天最多再發一個上限。
-  const carriedOver = Math.min(effectiveDailyNewLimit(state), dueNew.length - newToday);
+  const carriedOver = Math.min(effectiveDailyNewLimit(state), dueNew.length + incoming - newToday);
   return {
     due: dueTodayOld.length + newToday,
     newCards: newToday,
     laterToday: later.length,
     nextLaterToday: later[0] ?? null,
-    tomorrow: dueTomorrow + carriedOver + Math.min(effectiveDailyNewLimit(state) - carriedOver, unissuedFromLists),
+    tomorrow: dueTomorrow + carriedOver + Math.min(effectiveDailyNewLimit(state) - carriedOver, unissuedFromLists - incoming),
   };
 }
 
@@ -170,12 +178,12 @@ function isSchedule(value: unknown): boolean {
 }
 
 const isCount = (value: unknown): value is number => Number.isInteger(value) && (value as number) >= 0;
-const subscriptionFields = ['wordListId', 'subscribedAt', 'issuedThrough', 'issuedCount'];
+const subscriptionFields = ['wordListId', 'subscribedAt', 'issuedThrough'];
 
 function isSubscription(value: unknown): boolean {
   return isRecord(value) && Object.keys(value).every((field) => subscriptionFields.includes(field))
     && isText(value.wordListId) && value.wordListId !== '' && isDate(value.subscribedAt)
-    && isCount(value.issuedThrough) && isCount(value.issuedCount) && value.issuedCount <= value.issuedThrough;
+    && isCount(value.issuedThrough);
 }
 
 function isStoredCard(value: unknown): boolean {

@@ -1,8 +1,8 @@
-import { readFileSync, readdirSync } from 'node:fs';
+import { readFileSync, readdirSync, statSync } from 'node:fs';
 import { dirname, join } from 'node:path';
-import { audio, voiceProfile, type AudioClip } from './audio-validation.ts';
+import { audio, voiceProfile, type AudioClip, type VoiceProfile } from './audio-validation.ts';
 import { cardKey } from './review-state.ts';
-import type { WordListData, WordListLicense, WordListSource } from './wordlist-data.ts';
+import { summarizeWordList, type WordListData, type WordListLicense, type WordListSource, type WordListSummary } from './wordlist-data.ts';
 import { array, httpsUrl, identifier, nonblank, onlyFields, record } from './validation.ts';
 
 // 詞表是獨立於場景與文章的內容類型（同 ADR 0001 的做法）：自己的資料目錄、型別與驗證。
@@ -82,7 +82,15 @@ function excluded(value: unknown, path: string, issues: string[]): ExcludedWord[
   });
 }
 
-function entries(value: unknown, path: string, skipped: ExcludedWord[], excludedPath: string, publicDir: string, profile: ReturnType<typeof voiceProfile>, issues: string[]): WordListEntry[] {
+interface EntryContext {
+  skipped: ExcludedWord[];
+  excludedPath: string;
+  publicDir: string;
+  profile: VoiceProfile;
+  issues: string[];
+}
+
+function entries(value: unknown, path: string, { skipped, excludedPath, publicDir, profile, issues }: EntryContext): WordListEntry[] {
   const raw = array(value, path, issues);
   if (Array.isArray(value) && raw.length === 0) issues.push(`${path}: expected at least one entry`);
   const seenIds = new Set<string>();
@@ -100,7 +108,6 @@ function entries(value: unknown, path: string, skipped: ExcludedWord[], excluded
     // 詞頻序號依序遞增，只能跳過排除清單裡的排名：缺號、重複、亂序與非整數都會讓這個比對失敗。
     do expectedRank += 1; while (skippedRanks.has(expectedRank));
     if (data.rank !== expectedRank) issues.push(`${entryPath}.rank: expected ${expectedRank} (ranks run in order; only excluded ranks may be skipped)`);
-    else expectedRank = data.rank;
     const english = nonblank(data.english, `${entryPath}.english`, issues);
     const excludedIndex = skippedWords.get(english.trim().toLowerCase());
     if (excludedIndex !== undefined) issues.push(`${excludedPath}[${excludedIndex}]: excluded word "${skipped[excludedIndex].english}" is also an entry`);
@@ -121,6 +128,17 @@ function entries(value: unknown, path: string, skipped: ExcludedWord[], excluded
   });
 }
 
+/** 詞表目錄必須附 LICENSE（CC BY-SA 要求隨內容提供授權）；詞表檔所在的目錄就是詞表目錄。 */
+function requireLicenseFile(wordListFile: string, issues: string[]) {
+  const licensePath = join(dirname(wordListFile), 'LICENSE');
+  try {
+    if (statSync(licensePath).isFile() && statSync(licensePath).size > 0) return;
+  } catch {
+    // 讀不到就和空檔案一樣處理，下面統一回報。
+  }
+  issues.push(`${licensePath}: word list directory must contain a nonempty LICENSE file`);
+}
+
 function validateWordListsAt(items: { source: string; data: unknown }[], publicDir: string, rawProfile: unknown, profileSource: string): WordList[] {
   const issues: string[] = [];
   const profile = voiceProfile(rawProfile, profileSource, issues);
@@ -131,6 +149,7 @@ function validateWordListsAt(items: { source: string; data: unknown }[], publicD
     const id = identifier(data.id, `${file}.id`, issues);
     if (id && ids.has(id)) issues.push(`${file}.id: duplicate word list ID "${id}" (also in ${ids.get(id)})`);
     if (id) ids.set(id, file);
+    requireLicenseFile(file, issues);
     const skipped = excluded(data.excluded, `${file}.excluded`, issues);
     return {
       id,
@@ -139,7 +158,7 @@ function validateWordListsAt(items: { source: string; data: unknown }[], publicD
       source: source(data.source, `${file}.source`, issues),
       license: license(data.license, `${file}.license`, issues),
       excluded: skipped,
-      entries: entries(data.entries, `${file}.entries`, skipped, `${file}.excluded`, publicDir, profile, issues),
+      entries: entries(data.entries, `${file}.entries`, { skipped, excludedPath: `${file}.excluded`, publicDir, profile, issues }),
     };
   });
   if (issues.length) throw new WordListError(issues);
@@ -191,4 +210,12 @@ export function toWordListData(list: WordList): WordListData {
     license: list.license,
     entries: list.entries.map(({ id, rank, english, meaning, example, audio: clip }) => ({ id, rank, english, meaning, example, audioSrc: clip.src })),
   };
+}
+
+let summaries: WordListSummary[] | undefined;
+
+/** 每一頁的 Layout 都要帶摘要；建置程序內只載入驗證一次。 */
+export function loadWordListSummaries(): WordListSummary[] {
+  summaries ??= loadWordLists().map(summarizeWordList);
+  return summaries;
 }

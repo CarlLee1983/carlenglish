@@ -67,7 +67,7 @@ node scripts/generate-wordlist-audio.mjs <isolated-python> <local-model-director
 
 這支工具與場景用的 `generate-audio.mjs` 共用同一個合成器和聲線，但不會動到場景。中間檔（含 `.wav`）留在 `.scratch/wordlist-audio/<詞表 ID>/output/`，只有 MP3 會複製進 `public/audio/wordlists/`。每批的 `inputs.json` 與 `manifest.json` 存在 `docs/audio-generation/`。
 
-建置時每份詞表輸出成 `/wordlists/<id>.json`，複習頁只在學習者訂閱後才載入。
+建置時每份詞表輸出成 `/wordlists/<id>.json`，複習頁只在學習者訂閱後才載入。詞表目錄必須有非空的 `LICENSE`，否則驗證失敗。另外每一頁都帶一份極小的摘要（每份詞表的最後排名與被排除的排名，不含詞條），導覽列徽章靠它在不載入詞表的情況下，把訂閱今天會補上的新卡算進去。
 
 ## 文中標註
 

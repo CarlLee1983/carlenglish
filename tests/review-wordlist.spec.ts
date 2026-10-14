@@ -1,6 +1,8 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { expect, test, type Page } from '@playwright/test';
+import { reduce } from '../src/lib/review-deck';
+import { emptyState } from '../src/lib/review-state';
 
 type Word = { english: string; translation: string; example: string; audio: { src: string } };
 type Scene = { id: string; title: string; words: Word[] };
@@ -22,7 +24,7 @@ const limitInput = (page: Page) => page.getByLabel('每天新卡上限');
 
 const stored = (page: Page) => page.evaluate(() => {
   const raw = localStorage.getItem('carlenglish.review');
-  return raw === null ? null : (JSON.parse(raw) as { cards: { content: { english: string }; sources: { kind: string }[] }[]; subscriptions: { wordListId: string; issuedThrough: number; issuedCount: number }[] });
+  return raw === null ? null : (JSON.parse(raw) as { cards: { content: { english: string }; sources: { kind: string }[] }[]; subscriptions: { wordListId: string; issuedThrough: number }[] });
 });
 
 async function subscribe(page: Page) {
@@ -77,7 +79,7 @@ test.describe('word list subscription', () => {
     await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 10 張，剩餘 90 張');
     const state = await stored(page);
     expect(state?.cards.map((card) => card.content.english)).toEqual(list.entries.slice(0, 10).map((entry) => entry.english));
-    expect(state?.subscriptions).toMatchObject([{ wordListId: 'ngsl-spoken', issuedThrough: 10, issuedCount: 10 }]);
+    expect(state?.subscriptions).toMatchObject([{ wordListId: 'ngsl-spoken', issuedThrough: 10 }]);
   });
 
   test('progress counts the words left, not the rank, because excluded ranks leave gaps', async ({ page }) => {
@@ -88,7 +90,18 @@ test.describe('word list subscription', () => {
     await expect(page.getByText('今天到期 50 張，其中新卡 50 張')).toBeVisible();
     // 第 50 個詞的詞頻序號是 52（24、26 被排除），剩餘仍是 100 - 50。
     await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 50 張，剩餘 50 張');
-    expect((await stored(page))?.subscriptions).toMatchObject([{ issuedThrough: 52, issuedCount: 50 }]);
+    expect((await stored(page))?.subscriptions).toMatchObject([{ issuedThrough: 52 }]);
+  });
+
+  test('subscribing again keeps showing the cards already handed out instead of starting from zero', async ({ page }) => {
+    await subscribe(page);
+    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 10 張，剩餘 90 張');
+    await unsubscribeButton(page).click();
+    await subscribeButton(page).click();
+    await expect(unsubscribeButton(page)).toBeVisible();
+    await expect(listItem(page).locator('[data-wordlist-progress]')).toContainText('已發出 10 張');
+    await page.reload();
+    await expect(listItem(page).locator('[data-wordlist-progress]')).toContainText('已發出 10 張');
   });
 
   test('plays the word audio from a word list card', async ({ page, request }) => {
@@ -169,7 +182,7 @@ test.describe('word list subscription', () => {
     await expect(page.getByText(/其中新卡 2 張/)).toBeVisible();
     const state = await stored(page);
     expect(state?.cards.map((card) => card.content.english)).toEqual([be.english, the.english, you.english, list.entries[3].english]);
-    expect(state?.subscriptions).toMatchObject([{ issuedThrough: 4, issuedCount: 4 }]);
+    expect(state?.subscriptions).toMatchObject([{ issuedThrough: 4 }]);
   });
 
   test('explains the problem when the word list cannot be loaded, and recovers on the next visit', async ({ page }) => {
@@ -202,7 +215,7 @@ test.describe('word list subscription', () => {
     const file = testInfo.outputPath('backup.json');
     await (await downloading).saveAs(file);
     const backup = JSON.parse(readFileSync(file, 'utf8'));
-    expect(backup.state.subscriptions).toMatchObject([{ wordListId: 'ngsl-spoken', issuedThrough: 10, issuedCount: 10 }]);
+    expect(backup.state.subscriptions).toMatchObject([{ wordListId: 'ngsl-spoken', issuedThrough: 10 }]);
     expect(backup.state.cards).toHaveLength(10);
 
     await page.evaluate(() => localStorage.clear());
@@ -226,5 +239,49 @@ test.describe('word list subscription', () => {
     expect(await overflow()).toBeLessThanOrEqual(0);
     await flip(page);
     expect(await overflow()).toBeLessThanOrEqual(0);
+  });
+});
+
+test.describe('navigation badge for subscribers', () => {
+  const badge = (page: Page) => page.locator('[data-review-badge]');
+  const seed = (page: Page, change: (state: ReturnType<typeof emptyState>) => ReturnType<typeof emptyState>) => {
+    const raw = JSON.stringify(change(reduce(emptyState(), { type: 'SUBSCRIBE', wordListId: 'ngsl-spoken', now: startTime })));
+    return page.addInitScript((value) => { if (localStorage.getItem('carlenglish.review') === null) localStorage.setItem('carlenglish.review', value); }, raw);
+  };
+
+  test('shows the cards the review page will hand out before the review page has ever been opened, and the numbers agree', async ({ page }) => {
+    const requested: string[] = [];
+    page.on('request', (request) => { if (request.url().includes('/wordlists/')) requested.push(request.url()); });
+    await page.clock.install({ time: startTime });
+    await seed(page, (state) => state);
+    await page.goto('/');
+    await expect(badge(page)).toHaveText('10');
+    await expect(page.locator('[data-review-nav]')).toHaveAccessibleName('複習，今天 10 張待複習');
+    expect(requested).toEqual([]);
+    await page.goto('/review/');
+    await expect(page.getByText('今天到期 10 張，其中新卡 10 張')).toBeVisible();
+    await expect(badge(page)).toHaveText('10');
+    await page.goto('/');
+    await expect(badge(page)).toHaveText('10');
+  });
+
+  test('follows the daily limit and the manual cards, like the review page', async ({ page }) => {
+    await page.clock.install({ time: startTime });
+    await seed(page, (state) => {
+      const limited = reduce(state, { type: 'SET_DAILY_NEW_LIMIT', limit: 4 });
+      return reduce(limited, { type: 'ADD_CARD', card: { english: first.english, meaning: first.translation, example: first.example, audioSrc: null }, source: { kind: 'scene', id: scene.id, title: scene.title, href: `/scenes/${scene.id}/` }, now: startTime });
+    });
+    await page.goto('/');
+    await expect(badge(page)).toHaveText('4');
+    await page.goto('/review/');
+    await expect(page.getByText('今天到期 4 張，其中新卡 4 張')).toBeVisible();
+    await expect(badge(page)).toHaveText('4');
+  });
+
+  test('shows nothing for a finished list', async ({ page }) => {
+    await page.clock.install({ time: startTime });
+    await seed(page, (state) => ({ ...state, subscriptions: state.subscriptions.map((subscription) => ({ ...subscription, issuedThrough: 103 })) }));
+    await page.goto('/');
+    await expect(badge(page)).toBeHidden();
   });
 });

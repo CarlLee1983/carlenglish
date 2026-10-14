@@ -72,7 +72,7 @@ const wordLists = loadWordLists();
       <p class="review-message review-error" data-review-wordlist-error role="alert" hidden></p>
       <ul class="review-wordlist-items">
         {wordLists.map((list) => (
-          <li class="review-wordlist" data-wordlist data-wordlist-id={list.id} data-wordlist-name={list.name} data-wordlist-url={wordListUrl(list.id)} data-wordlist-count={list.entries.length} data-wordlist-ranks={list.entries.map((entry) => entry.rank).join(',')} data-wordlist-attribution={attributionText(list)}>
+          <li class="review-wordlist" data-wordlist data-wordlist-id={list.id} data-wordlist-name={list.name} data-wordlist-url={wordListUrl(list.id)} data-wordlist-attribution={attributionText(list)}>
             <h3>{list.name}</h3>
             <p>{list.description}</p>
             <p class="review-backup-hint">共 {list.entries.length} 字</p>

@@ -1,7 +1,8 @@
 import { reduce } from '../lib/review-deck';
-import { effectiveDailyNewLimit, isDailyNewLimit, nextDue, reviewChangedEvent, reviewCounts, todayQueue, type Grade, type ReviewChangeSource, type ReviewState, type StoredCard } from '../lib/review-state';
+import { effectiveDailyNewLimit, isDailyNewLimit, issuedCardCount, nextDue, reviewChangedEvent, reviewCounts, todayQueue, type Grade, type ReviewChangeSource, type ReviewState, type StoredCard } from '../lib/review-state';
 import { loadReviewState, saveReviewState } from '../lib/review-storage';
-import { parseWordListData, type WordListData } from '../lib/wordlist-data';
+import { parseWordListData, remainingWords, unissuedFromLists, type WordListData } from '../lib/wordlist-data';
+import { readWordListSummaries } from './wordlist-summaries';
 
 const saveFailureMessage = '這次的紀錄沒有存進瀏覽器（可能是私密瀏覽或儲存空間已滿），離開本頁後會遺失。';
 const loadFailureMessages = {
@@ -44,6 +45,7 @@ function initializeReview(root: HTMLElement) {
   const wordListSection = $('wordlists');
   const wordListError = $('wordlist-error');
   const wordListItems = [...wordListSection.querySelectorAll<HTMLElement>('[data-wordlist]')];
+  const summaries = readWordListSummaries();
   const wordListItem = (id: string) => wordListItems.find((item) => item.dataset.wordlistId === id);
 
   let state: ReviewState | null = null;
@@ -100,6 +102,11 @@ function initializeReview(root: HTMLElement) {
     return null;
   }
 
+  /** 通知導覽列徽章等其他監聽者重算；本頁自己的監聽器看到 'review-page' 會忽略，不從儲存重讀。 */
+  function announceChange() {
+    document.dispatchEvent(new CustomEvent<ReviewChangeSource>(reviewChangedEvent, { detail: 'review-page' }));
+  }
+
   function reportSaveResult(saved: ReturnType<typeof saveReviewState>) {
     if (!saved.ok) console.error('Failed to save review state', saved.error);
     warning.textContent = saved.ok ? '' : saveFailureMessage;
@@ -112,7 +119,7 @@ function initializeReview(root: HTMLElement) {
     const next = reduce(current, { type: 'ISSUE_NEW_CARDS', wordLists: [...wordLists.values()], now: new Date() });
     if (next === current) return current;
     reportSaveResult(saveReviewState(next));
-    document.dispatchEvent(new CustomEvent<ReviewChangeSource>(reviewChangedEvent, { detail: 'review-page' }));
+    announceChange();
     return next;
   }
 
@@ -150,13 +157,6 @@ function initializeReview(root: HTMLElement) {
     void loadMissingLists();
   }
 
-  /** 這份訂閱還沒處理到的詞數；詞頻序號可能因排除清單而跳號，所以數頁面上的靜態排名，不必先載入詞表。 */
-  function unissuedIn(subscription: ReviewState['subscriptions'][number]): number {
-    const ranks = wordListItem(subscription.wordListId)?.dataset.wordlistRanks ?? '';
-    return ranks.split(',').filter((rank) => rank !== '' && Number(rank) > subscription.issuedThrough).length;
-  }
-
-  const unissuedFromLists = (current: ReviewState): number => current.subscriptions.reduce((total, subscription) => total + unissuedIn(subscription), 0);
 
   function renderWordLists() {
     wordListSection.hidden = !state;
@@ -168,9 +168,10 @@ function initializeReview(root: HTMLElement) {
       toggle.textContent = subscription ? '取消訂閱' : '訂閱';
       toggle.setAttribute('aria-label', `${subscription ? '取消訂閱' : '訂閱'} ${name}`);
       const progress = item.querySelector<HTMLElement>('[data-wordlist-progress]')!;
-      const remaining = subscription ? unissuedIn(subscription) : 0;
+      const summary = summaries.find((candidate) => candidate.id === item.dataset.wordlistId);
+      const remaining = subscription && summary ? remainingWords(summary, subscription.issuedThrough) : 0;
       progress.hidden = !subscription;
-      progress.textContent = subscription ? `已發出 ${subscription.issuedCount} 張，剩餘 ${remaining} 張` : '';
+      progress.textContent = subscription ? `已發出 ${issuedCardCount(state, subscription.wordListId)} 張，剩餘 ${remaining} 張` : '';
     }
     const failed = state.subscriptions.filter((subscription) => failedLists.has(subscription.wordListId))
       .map((subscription) => wordListItem(subscription.wordListId)?.dataset.wordlistName ?? subscription.wordListId);
@@ -189,7 +190,7 @@ function initializeReview(root: HTMLElement) {
       return;
     }
     const now = new Date();
-    const counts = reviewCounts(state, now, unissuedFromLists(state));
+    const counts = reviewCounts(state, now, unissuedFromLists(state.subscriptions, summaries));
     summary.textContent = state.cards.length === 0 ? '' : `今天到期 ${counts.due} 張，其中新卡 ${counts.newCards} 張`;
     empty.hidden = state.cards.length > 0;
     const queue = todayQueue(state, now);
@@ -230,8 +231,7 @@ function initializeReview(root: HTMLElement) {
     reportSaveResult(saveReviewState(state));
     current = null;
     render();
-    // 通知導覽列徽章重算；本頁自己發出的事件由下方監聽器忽略，不從儲存重讀。
-    document.dispatchEvent(new CustomEvent<ReviewChangeSource>(reviewChangedEvent, { detail: 'review-page' }));
+    announceChange();
     if (!card.hidden) flipButton.focus({ preventScroll: true });
   }
 
@@ -247,7 +247,7 @@ function initializeReview(root: HTMLElement) {
     state = reduce(latest, { type: 'SET_DAILY_NEW_LIMIT', limit });
     reportSaveResult(saveReviewState(state));
     render();
-    document.dispatchEvent(new CustomEvent<ReviewChangeSource>(reviewChangedEvent, { detail: 'review-page' }));
+    announceChange();
   }
 
   function toggleSubscription(id: string) {
@@ -256,7 +256,7 @@ function initializeReview(root: HTMLElement) {
     const subscribed = latest.subscriptions.some((subscription) => subscription.wordListId === id);
     state = reduce(latest, subscribed ? { type: 'UNSUBSCRIBE', wordListId: id } : { type: 'SUBSCRIBE', wordListId: id, now: new Date() });
     reportSaveResult(saveReviewState(state));
-    document.dispatchEvent(new CustomEvent<ReviewChangeSource>(reviewChangedEvent, { detail: 'review-page' }));
+    announceChange();
     // 重新訂閱時給載入失敗過的詞表再一次機會。
     failedLists.delete(id);
     sync();

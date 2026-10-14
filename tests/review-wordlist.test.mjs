@@ -2,7 +2,8 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import { parseBackup, serializeBackup } from '../src/lib/review-backup-format.ts';
 import { reduce } from '../src/lib/review-deck.ts';
-import { cardKey, emptyState, reviewCounts, todayQueue } from '../src/lib/review-state.ts';
+import { cardKey, emptyState, issuedCardCount, reviewCounts, todayQueue } from '../src/lib/review-state.ts';
+import { remainingWords, summarizeWordList, unissuedFromLists } from '../src/lib/wordlist-data.ts';
 
 // 詞表訂閱：訂閱／取消、依詞頻發新卡、與手動字卡共用每日上限、與既有字卡去重。
 
@@ -31,7 +32,7 @@ const wordlistA = makeList('list-a', 25, 'a');
 
 test('subscribing records the list once, and unsubscribing removes it', () => {
   const state = subscribe(emptyState(), 'list-a');
-  assert.deepEqual(state.subscriptions, [{ wordListId: 'list-a', subscribedAt: now.toISOString(), issuedThrough: 0, issuedCount: 0 }]);
+  assert.deepEqual(state.subscriptions, [{ wordListId: 'list-a', subscribedAt: now.toISOString(), issuedThrough: 0 }]);
   assert.equal(subscribe(state, 'list-a', new Date(now.getTime() + minutes(5))), state);
   assert.equal(subscribe(state, 'list-b').subscriptions.length, 2);
   assert.deepEqual(reduce(state, { type: 'UNSUBSCRIBE', wordListId: 'list-a' }).subscriptions, []);
@@ -45,7 +46,8 @@ test('a subscription issues the list in frequency order, up to the daily limit, 
   assert.deepEqual(first.content, { english: 'a1', meaning: '意思a1', example: 'Example a1.', audioSrc: '/audio/wordlists/list-a/a1.mp3' });
   assert.deepEqual(first.sources, [listSource('list-a')]);
   assert.equal(first.firstReviewedAt, null);
-  assert.deepEqual(state.subscriptions[0], { wordListId: 'list-a', subscribedAt: now.toISOString(), issuedThrough: 10, issuedCount: 10 });
+  assert.deepEqual(state.subscriptions[0], { wordListId: 'list-a', subscribedAt: now.toISOString(), issuedThrough: 10 });
+  assert.equal(issuedCardCount(state, 'list-a'), 10);
 });
 
 test('issuing again the same day changes nothing, even after cards are reviewed', () => {
@@ -77,7 +79,7 @@ test('new cards the learner has not started pile up no further: nothing more is 
 test('manual cards take the day\'s new-card slots first, and the list fills the rest', () => {
   const state = issue(subscribe(addAll(emptyState(), wordsOf(3), now), 'list-a'), [wordlistA]);
   assert.deepEqual(englishOf(todayQueue(state, now)), ['word0', 'word1', 'word2', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7']);
-  assert.equal(state.subscriptions[0].issuedCount, 7);
+  assert.equal(issuedCardCount(state, 'list-a'), 7);
 });
 
 test('a manual card added after list cards were issued still comes before them', () => {
@@ -124,10 +126,12 @@ test('a list entry that is already a card is skipped without using a slot, whate
   state = issue(subscribe(state, 'list-a'), [list]);
   // 額度 3：a2 已學過（今天用掉 1 個），a3 在等（占 1 個），剩 1 個給 a1；a2、a3 被跳過。
   assert.deepEqual(state.cards.map((card) => card.content.english).sort(), ['A2', 'a1', 'a3']);
-  assert.deepEqual(state.subscriptions[0], { wordListId: 'list-a', subscribedAt: now.toISOString(), issuedThrough: 1, issuedCount: 1 });
+  assert.deepEqual(state.subscriptions[0], { wordListId: 'list-a', subscribedAt: now.toISOString(), issuedThrough: 1 });
+  assert.equal(issuedCardCount(state, 'list-a'), 1);
   // 隔天 a1 還沒學：額度 3、等待 2 張（a1、a3），只補 1 張；a2、a3 已是字卡，跳過不占額度。
   const nextDay = issue(state, [list], nextMorning);
-  assert.deepEqual(nextDay.subscriptions[0], { wordListId: 'list-a', subscribedAt: now.toISOString(), issuedThrough: 4, issuedCount: 2 });
+  assert.deepEqual(nextDay.subscriptions[0], { wordListId: 'list-a', subscribedAt: now.toISOString(), issuedThrough: 4 });
+  assert.equal(issuedCardCount(nextDay, 'list-a'), 2);
   assert.equal(nextDay.cards.filter((card) => card.sources.some((source) => source.kind === 'wordlist')).length, 2);
 });
 
@@ -168,13 +172,66 @@ test('issuing never mutates its inputs', () => {
   assert.equal(JSON.stringify(wordlistA), list);
 });
 
+test('counts include the list cards that opening the review page would hand out today, within the daily limit', () => {
+  const none = emptyState();
+  assert.equal(reviewCounts(none, now, 0).due, 0);
+  assert.deepEqual([reviewCounts(none, now, 4).due, reviewCounts(none, now, 4).newCards], [4, 4]);
+  assert.equal(reviewCounts(none, now, 40).due, 10);
+  const manual = addAll(emptyState(), wordsOf(3), now);
+  assert.equal(reviewCounts(manual, now, 40).due, 10);
+  assert.equal(reviewCounts(addAll(emptyState(), wordsOf(12), now), now, 40).due, 10);
+  // 今天已學 2 張新卡：額度剩 8。
+  let started = reduce(addAll(emptyState(), wordsOf(2), now), { type: 'GRADE', cardKey: cardKey(wordsOf(2)[0]), grade: 'good', now });
+  started = reduce(started, { type: 'GRADE', cardKey: cardKey(wordsOf(2)[1]), grade: 'good', now });
+  const later = new Date(now.getTime() + minutes(11));
+  assert.equal(reviewCounts(started, later, 40).newCards, 8);
+});
+
+test('the counts before and after the list cards are actually handed out agree', () => {
+  for (const [subscribed, limit] of [[0, 10], [3, 10], [8, 5], [12, 10]]) {
+    let state = reduce(addAll(emptyState(), wordsOf(subscribed), now), { type: 'SET_DAILY_NEW_LIMIT', limit });
+    state = subscribe(state, 'list-a');
+    const before = reviewCounts(state, now, unissuedFromLists(state.subscriptions, [summarizeWordList(wordlistA)]));
+    const issued = issue(state, [wordlistA]);
+    const after = reviewCounts(issued, now, unissuedFromLists(issued.subscriptions, [summarizeWordList(wordlistA)]));
+    assert.deepEqual([before.due, before.newCards, before.tomorrow], [after.due, after.newCards, after.tomorrow], `${subscribed} manual, limit ${limit}`);
+  }
+});
+
 test('tomorrow\'s count includes list cards that will be issued, up to the limit left after carried-over cards', () => {
   const state = addAll(emptyState(), wordsOf(13), now);
   assert.equal(reviewCounts(state, now, 0).tomorrow, 3);
   assert.equal(reviewCounts(state, now, 40).tomorrow, 10);
-  assert.equal(reviewCounts(emptyState(), now, 4).tomorrow, 4);
+  // 空的狀態：今天發 4 張，明天沒有剩的詞。
+  assert.equal(reviewCounts(emptyState(), now, 4).tomorrow, 0);
   assert.equal(reviewCounts(emptyState(), now, 40).tomorrow, 10);
-  assert.equal(reviewCounts(emptyState(), now).tomorrow, 0);
+  assert.equal(reviewCounts(emptyState(), now, 0).tomorrow, 0);
+});
+
+test('the issued count is derived from the cards that carry the list as a source, so it survives unsubscribing and subscribing again', () => {
+  let state = issue(subscribe(emptyState(), 'list-a'), [wordlistA]);
+  assert.equal(issuedCardCount(state, 'list-a'), 10);
+  assert.equal(issuedCardCount(state, 'list-b'), 0);
+  state = reduce(reduce(state, { type: 'UNSUBSCRIBE', wordListId: 'list-a' }), { type: 'SUBSCRIBE', wordListId: 'list-a', now });
+  assert.equal(issuedCardCount(state, 'list-a'), 10);
+  // 手動也加入同一張卡：仍然算詞表發出的。
+  const merged = reduce(state, { type: 'ADD_CARD', card: state.cards[0].content, source: sceneSource, now });
+  assert.equal(issuedCardCount(merged, 'list-a'), 10);
+});
+
+test('a list summary gives the last rank and the excluded ranks below it, which is enough to count the words left', () => {
+  const list = { ...makeList('list-a', 6), excluded: [{ rank: 2 }, { rank: 99 }] };
+  list.entries = list.entries.map((entry, index) => ({ ...entry, rank: [1, 3, 4, 5, 6, 7][index] }));
+  const summary = summarizeWordList(list);
+  assert.deepEqual(summary, { id: 'list-a', lastRank: 7, excludedRanks: [2] });
+  assert.equal(remainingWords(summary, 0), 6);
+  assert.equal(remainingWords(summary, 1), 5);
+  assert.equal(remainingWords(summary, 2), 5);
+  assert.equal(remainingWords(summary, 6), 1);
+  assert.equal(remainingWords(summary, 7), 0);
+  assert.equal(remainingWords(summary, 50), 0);
+  const subscriptions = [{ wordListId: 'list-a', issuedThrough: 3 }, { wordListId: 'unknown', issuedThrough: 0 }];
+  assert.equal(unissuedFromLists(subscriptions, [summary]), 4);
 });
 
 test('subscriptions and issued cards survive a backup round trip', () => {
@@ -196,10 +253,9 @@ test('a backup with a malformed subscription is rejected', () => {
     'blank id': { ...good, wordListId: '' },
     'bad date': { ...good, subscribedAt: 'yesterday' },
     'negative position': { ...good, issuedThrough: -1 },
-    'fractional position': { ...good, issuedThrough: 1.5, issuedCount: 1 },
+    'fractional position': { ...good, issuedThrough: 1.5 },
     'text position': { ...good, issuedThrough: '3' },
-    'count above position': { ...good, issuedThrough: 2, issuedCount: 3 },
-    'missing count': { ...good, issuedCount: undefined },
+    'stored issued count (it is derived from the cards)': { ...good, issuedCount: 0 },
     'extra field': { ...good, extra: 1 },
   };
   for (const [name, entry] of Object.entries(rejected)) assert.equal(parseBackup(withSubscriptions([entry])).ok, false, name);

@@ -4,8 +4,6 @@ import { audio, voiceProfile, type AudioClip, type VoiceProfile } from './audio-
 import { canonicalStoryText } from './audio-text.ts';
 import { array, identifier, nonblank, record } from './validation.ts';
 
-export type { AudioClip, VoiceProfile };
-
 export interface Segment {
   text: string;
   phraseIds?: string[];

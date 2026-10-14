@@ -53,7 +53,7 @@ test('counts report today\'s due and new cards, cards due later today, and tomor
   state = reduce(state, { type: 'GRADE', cardKey: at(words[2]), grade: 'again', now });
   const tomorrowNoon = new Date(2026, 9, 15, 12, 0, 0);
   state = { ...state, cards: state.cards.map((card) => (card.key === at(words[3]) ? { ...card, schedule: { ...card.schedule, due: tomorrowNoon.toISOString() } } : card)) };
-  const counts = reviewCounts(state, now);
+  const counts = reviewCounts(state, now, 0);
   assert.equal(counts.due, 4); // 到今天結束前會到期：coffee、tea、juice，加上稍後才到期的 milk
   assert.equal(counts.newCards, 2); // coffee、juice
   assert.equal(counts.tomorrow, 1);
@@ -224,7 +224,7 @@ const nextMorning = new Date(2026, 9, 15, 8, 0, 0);
 test('only the default 10 new cards are offered per day, oldest first', () => {
   const state = addAll(emptyState(), wordsOf(13), now);
   assert.deepEqual(englishOf(todayQueue(state, now)), wordsOf(10).map((card) => card.english));
-  const counts = reviewCounts(state, now);
+  const counts = reviewCounts(state, now, 0);
   assert.equal(counts.due, 10);
   assert.equal(counts.newCards, 10);
 });
@@ -234,7 +234,7 @@ test('a custom limit applies, and the daily limit setting is validated by the re
   state = reduce(state, { type: 'SET_DAILY_NEW_LIMIT', limit: 2 });
   assert.equal(state.dailyNewLimit, 2);
   assert.equal(todayQueue(state, now).length, 2);
-  assert.equal(reviewCounts(state, now).due, 2);
+  assert.equal(reviewCounts(state, now, 0).due, 2);
   for (const bad of [0, 51, 1.5, NaN, '5']) assert.equal(reduce(state, { type: 'SET_DAILY_NEW_LIMIT', limit: bad }), state, String(bad));
   assert.equal(reduce(state, { type: 'SET_DAILY_NEW_LIMIT', limit: null }).dailyNewLimit, null);
 });
@@ -246,7 +246,7 @@ test('cards graded today use up the day\'s new-card allowance, so refreshing doe
   state = reduce(state, { type: 'GRADE', cardKey: cardKey(words[1]), grade: 'again', now });
   const later = new Date(now.getTime() + minutes(11));
   assert.deepEqual(englishOf(todayQueue(state, later)), ['word0', 'word1']);
-  assert.equal(reviewCounts(state, later).newCards, 0);
+  assert.equal(reviewCounts(state, later, 0).newCards, 0);
 });
 
 test('overflow cards are carried over and come in order on following days', () => {
@@ -256,7 +256,7 @@ test('overflow cards are carried over and come in order on following days', () =
   // 當天晚上：word0／word1 的學習步驟早已到期，但新卡額度用完，word2 起不發。
   assert.deepEqual(englishOf(todayQueue(state, new Date(2026, 9, 14, 23, 0, 0))), ['word0', 'word1']);
   assert.deepEqual(englishOf(todayQueue(state, nextMorning)), ['word0', 'word1', 'word2', 'word3']);
-  assert.equal(reviewCounts(state, nextMorning).newCards, 2);
+  assert.equal(reviewCounts(state, nextMorning, 0).newCards, 2);
 });
 
 test('due old cards are never held back by the limit', () => {
@@ -267,7 +267,7 @@ test('due old cards are never held back by the limit', () => {
   const later = new Date(now.getTime() + minutes(11));
   // 額度（1）已被今天學過的 4 張用完：4 張舊卡全部出現，新卡一張都不發。
   assert.deepEqual(englishOf(todayQueue(state, later)), words.map((card) => card.english));
-  assert.equal(reviewCounts(state, later).due, 4);
+  assert.equal(reviewCounts(state, later, 0).due, 4);
 });
 
 test('the first grade stamps firstReviewedAt once and later grades keep it', () => {
@@ -281,7 +281,7 @@ test('the first grade stamps firstReviewedAt once and later grades keep it', () 
 
 test('tomorrow\'s count includes the carried-over new cards up to the limit', () => {
   const state = reduce(addAll(emptyState(), wordsOf(5), now), { type: 'SET_DAILY_NEW_LIMIT', limit: 2 });
-  assert.equal(reviewCounts(state, now).tomorrow, 2);
+  assert.equal(reviewCounts(state, now, 0).tomorrow, 2);
 });
 
 test('firstReviewedAt is validated in stored state and survives a backup round trip', () => {

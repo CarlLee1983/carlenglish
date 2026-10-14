@@ -46,7 +46,6 @@ function issueNewCards(state: ReviewState, wordLists: WordListData[], now: Date)
       if (keys.has(key)) continue;
       keys.add(key);
       cards.push({ key, content, sources: [{ kind: 'wordlist', id: list.id, title: list.name, href: '/review/' }], schedule: newSchedule(now), firstReviewedAt: null });
-      subscription.issuedCount += 1;
       slots -= 1;
       break;
     }
@@ -93,7 +92,7 @@ export function reduce(state: ReviewState, action: Action): ReviewState {
       return isDailyNewLimit(action.limit) && action.limit !== state.dailyNewLimit ? { ...state, dailyNewLimit: action.limit } : state;
     case 'SUBSCRIBE':
       if (state.subscriptions.some((subscription) => subscription.wordListId === action.wordListId)) return state;
-      return { ...state, subscriptions: [...state.subscriptions, { wordListId: action.wordListId, subscribedAt: action.now.toISOString(), issuedThrough: 0, issuedCount: 0 }] };
+      return { ...state, subscriptions: [...state.subscriptions, { wordListId: action.wordListId, subscribedAt: action.now.toISOString(), issuedThrough: 0 }] };
     case 'UNSUBSCRIBE':
       return state.subscriptions.some((subscription) => subscription.wordListId === action.wordListId)
         ? { ...state, subscriptions: state.subscriptions.filter((subscription) => subscription.wordListId !== action.wordListId) }

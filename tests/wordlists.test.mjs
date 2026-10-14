@@ -3,7 +3,7 @@ import { createHash } from 'node:crypto';
 import { mkdtempSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import test from 'node:test';
+import test, { after } from 'node:test';
 import { textSha256 } from '../src/lib/audio-text.ts';
 import { WordListError, loadWordLists, toWordListData, validateWordLists } from '../src/lib/wordlists.ts';
 import { attributionText, parseWordListData } from '../src/lib/wordlist-data.ts';
@@ -54,11 +54,26 @@ function withFixture(run) {
   try { run(dirs); } finally { rmSync(dirs.root, { recursive: true, force: true }); }
 }
 
-const at = 'content/wordlists/sample-list/wordlist.json';
+// 驗證會檢查詞表目錄裡的 LICENSE，所以「正常」的詞表檔放在一個真的有 LICENSE 的目錄。
+const licensedRoot = mkdtempSync(join(tmpdir(), 'licensed wordlist '));
+const at = join(licensedRoot, 'sample-list', 'wordlist.json');
+mkdirSync(join(licensedRoot, 'sample-list'));
+writeFileSync(join(licensedRoot, 'sample-list', 'LICENSE'), 'Attribution-ShareAlike 4.0 International');
+after(() => rmSync(licensedRoot, { recursive: true, force: true }));
 
 function issuesOf(publicDir, ...lists) {
   try {
     validateWordLists(lists.map((data, index) => ({ source: index === 0 ? at : `content/wordlists/${index}/wordlist.json`, data })), publicDir, profile());
+  } catch (error) {
+    assert.ok(error instanceof WordListError);
+    return error.issues;
+  }
+  return [];
+}
+
+function issuesOf2(publicDir, source) {
+  try {
+    validateWordLists([{ source, data: list() }], publicDir, profile());
   } catch (error) {
     assert.ok(error instanceof WordListError);
     return error.issues;
@@ -188,6 +203,20 @@ test('changing the English text makes the old audio invalid', () => {
   expectIssue((data) => { data.entries[0].english = 'was'; }, `${at}.entries[0].audio.textSha256: does not match canonical English text`);
 });
 
+test('a word list directory without a nonempty LICENSE file is rejected', () => {
+  withFixture(({ root, publicDir }) => {
+    const directory = join(root, 'content', 'wordlists', 'sample-list');
+    mkdirSync(directory, { recursive: true });
+    const source = join(directory, 'wordlist.json');
+    const check = () => issuesOf2(publicDir, source);
+    assert.ok(check().some((issue) => issue.includes(join(directory, 'LICENSE'))), 'missing');
+    writeFileSync(join(directory, 'LICENSE'), '');
+    assert.ok(check().some((issue) => issue.includes('LICENSE')), 'empty');
+    writeFileSync(join(directory, 'LICENSE'), 'Attribution-ShareAlike 4.0 International');
+    assert.deepEqual(check(), []);
+  });
+});
+
 test('a list must have at least one entry', () => {
   expectIssue((data) => { data.entries = []; }, `${at}.entries`);
 });
@@ -218,6 +247,19 @@ test('the client rejects fetched list data with a wrong shape, unsafe audio path
   });
 });
 
+test('the client also rejects duplicate entry IDs and a license link that is not HTTPS', () => {
+  withFixture(({ publicDir }) => {
+    const [result] = validateWordLists([{ source: at, data: list() }], publicDir, profile());
+    const good = toWordListData(result);
+    assert.notEqual(parseWordListData(good, 'sample-list'), null);
+    const duplicate = { ...good, entries: [good.entries[0], { ...good.entries[1], id: good.entries[0].id }, good.entries[2]] };
+    assert.equal(parseWordListData(duplicate, 'sample-list'), null);
+    for (const url of ['http://example.org/license', 'javascript:alert(1)', 'not a url', '//example.org/license']) {
+      assert.equal(parseWordListData({ ...good, license: { ...good.license, url } }, 'sample-list'), null, url);
+    }
+  });
+});
+
 test('attribution names the source, its authors and the license', () => {
   withFixture(({ publicDir }) => {
     const [result] = validateWordLists([{ source: at, data: list() }], publicDir, profile());
@@ -230,8 +272,13 @@ test('loadWordLists reads one wordlist.json per directory and reports unreadable
     for (const id of ['other-list', 'sample-list']) {
       mkdirSync(join(contentDir, id));
       writeFileSync(join(contentDir, id, 'wordlist.json'), JSON.stringify(list(id)));
+      writeFileSync(join(contentDir, id, 'LICENSE'), 'Attribution-ShareAlike 4.0 International');
     }
     assert.deepEqual(loadWordLists({ contentDir, publicDir }).map((entry) => entry.id), ['other-list', 'sample-list']);
+    mkdirSync(join(contentDir, 'unlicensed'));
+    writeFileSync(join(contentDir, 'unlicensed', 'wordlist.json'), JSON.stringify(list('unlicensed')));
+    assert.throws(() => loadWordLists({ contentDir, publicDir }), (error) => error instanceof WordListError && error.issues.some((issue) => issue.includes('unlicensed') && issue.includes('LICENSE')));
+    rmSync(join(contentDir, 'unlicensed'), { recursive: true });
     mkdirSync(join(contentDir, 'broken'));
     writeFileSync(join(contentDir, 'broken', 'wordlist.json'), '{oops');
     assert.throws(() => loadWordLists({ contentDir, publicDir }), (error) => error instanceof WordListError && error.issues.some((issue) => issue.includes('broken') && issue.includes('cannot parse JSON')));
