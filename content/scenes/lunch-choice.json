@@ -1,0 +1,306 @@
+{
+  "id": "lunch-choice",
+  "title": "午餐選餐",
+  "titleEn": "Choosing School Lunch",
+  "category": "飲食與校園",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/lunch-choice.webp",
+    "alt": "在明亮的學校餐廳裡，小男孩端著餐盤排隊挑選午餐，櫃檯後方的廚工微笑為他盛上熱騰騰的飯菜與蔬菜。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Leo walks into the cafeteria and asks, “"
+        },
+        {
+          "text": "What's for ",
+          "phraseIds": [
+            "whats-for-lunch"
+          ]
+        },
+        {
+          "text": "lunch",
+          "phraseIds": [
+            "whats-for-lunch"
+          ],
+          "wordIds": [
+            "lunch"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "whats-for-lunch"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 走進學校餐廳，問道：「今天午餐吃什麼？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "He sees hot "
+        },
+        {
+          "text": "chicken",
+          "wordIds": [
+            "chicken"
+          ]
+        },
+        {
+          "text": " and says, “"
+        },
+        {
+          "text": "It looks delicious.",
+          "phraseIds": [
+            "it-looks-delicious"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他看著熱騰騰的雞肉說：「看起來好好吃。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo says to the cook, “"
+        },
+        {
+          "text": "I'd like some ",
+          "phraseIds": [
+            "id-like-some-rice-please"
+          ]
+        },
+        {
+          "text": "rice",
+          "phraseIds": [
+            "id-like-some-rice-please"
+          ],
+          "wordIds": [
+            "rice"
+          ]
+        },
+        {
+          "text": ", please.",
+          "phraseIds": [
+            "id-like-some-rice-please"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 對廚工阿姨說：「我想要一些白飯，謝謝。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "He chooses a fresh "
+        },
+        {
+          "text": "vegetable",
+          "wordIds": [
+            "vegetable"
+          ]
+        },
+        {
+          "text": " and asks, “"
+        },
+        {
+          "text": "Can I have some ",
+          "phraseIds": [
+            "can-i-have-some-soup"
+          ]
+        },
+        {
+          "text": "soup",
+          "phraseIds": [
+            "can-i-have-some-soup"
+          ],
+          "wordIds": [
+            "soup"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "can-i-have-some-soup"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他選了一道新鮮蔬菜，並問：「我可以要一些湯嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The cook smiles and puts the warm food on his "
+        },
+        {
+          "text": "tray",
+          "wordIds": [
+            "tray"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "廚工阿姨微笑著，把熱騰騰的食物放到他的餐盤上。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo sits with his friends and happily enjoys his "
+        },
+        {
+          "text": "lunch",
+          "wordIds": [
+            "lunch"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Leo 和朋友們坐在一起，開心地享用他的午餐。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "whats-for-lunch",
+      "english": "What's for lunch?",
+      "translation": "今天午餐吃什麼？",
+      "audio": {
+        "src": "/audio/phrases/lunch-choice-whats-for-lunch.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "092a31b0333e27138bce2c050737dbfb0992a155052ddf02f4944845c47dfbd8",
+        "sha256": "5eb207321e6243857536789aa2a59eccd2491f0d26222460ef822d8247867c34"
+      }
+    },
+    {
+      "id": "it-looks-delicious",
+      "english": "It looks delicious.",
+      "translation": "看起來好好吃。",
+      "audio": {
+        "src": "/audio/phrases/lunch-choice-it-looks-delicious.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "848e56b459db2717e3c1ba75fb4e70b6d38f6ee8af7b1a8dd24b43d3e3f1a6ca",
+        "sha256": "7e1d85b8acc79ce52eab1f2e3264cac28e9df159f96b9ded93db38ae3fc217f9"
+      }
+    },
+    {
+      "id": "id-like-some-rice-please",
+      "english": "I'd like some rice, please.",
+      "translation": "我想要一些白飯，謝謝。",
+      "audio": {
+        "src": "/audio/phrases/lunch-choice-id-like-some-rice-please.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "91ed55048c00162a4777ed87872fef6237445a7eef3e652dba2142b6339a98f7",
+        "sha256": "5d5e82cdce7b3cbd2827bdb8174eedcbf3dc4f861f643b061232e88c21155b6f"
+      }
+    },
+    {
+      "id": "can-i-have-some-soup",
+      "english": "Can I have some soup?",
+      "translation": "我可以要一些湯嗎？",
+      "audio": {
+        "src": "/audio/phrases/lunch-choice-can-i-have-some-soup.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0b8c7663bf4f9fa993e0ac55064bc23b30b6cd93001d4116cde7134811d0856b",
+        "sha256": "120bc55f58af37c58ec41061a927ecb4814fb4aa063e6622af88e62d2f6cec38"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "lunch",
+      "english": "lunch",
+      "translation": "午餐",
+      "example": "We eat lunch together at noon.",
+      "audio": {
+        "src": "/audio/words/lunch-choice-lunch.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f3bb79e48a7a8af1d028f6acb7fa34b0c7f75da596fc205907d2a708fe28ebef",
+        "sha256": "99379fc2f29344f6dc3c8456706c8825011a39e4b13c21673a4a1efde9d52eef"
+      }
+    },
+    {
+      "id": "chicken",
+      "english": "chicken",
+      "translation": "雞肉",
+      "example": "We have grilled chicken for dinner.",
+      "audio": {
+        "src": "/audio/words/lunch-choice-chicken.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "811eb81b9d11d65a36c53c3ebdb738ee303403cb79d781ccf4b40764e0a9d12a",
+        "sha256": "96d7964bac03d55cb78485a7b6e64116590b37391548fb7de041097f841e6dc6"
+      }
+    },
+    {
+      "id": "rice",
+      "english": "rice",
+      "translation": "白飯",
+      "example": "I would like a bowl of rice.",
+      "audio": {
+        "src": "/audio/words/lunch-choice-rice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "209f76418ece7c936b65ff4777a578d860f762c37ad6c7f08f5826242199ef51",
+        "sha256": "4547125d8f8eff070c336601d616f55c1facac6b51fef55b350882981495d1d2"
+      }
+    },
+    {
+      "id": "vegetable",
+      "english": "vegetable",
+      "translation": "蔬菜",
+      "example": "Broccoli is my favorite vegetable.",
+      "audio": {
+        "src": "/audio/words/lunch-choice-vegetable.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4715b734085d8d9c9981d91c6d5cff398c75caf44074851baa94f2de24fba4d7",
+        "sha256": "dc5e1a1bac405f02f57fea96ed228d6ab0bd4daf0b793dd5cc3877dc703cead2"
+      }
+    },
+    {
+      "id": "soup",
+      "english": "soup",
+      "translation": "湯",
+      "example": "The vegetable soup is warm and good.",
+      "audio": {
+        "src": "/audio/words/lunch-choice-soup.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9014fac8184d7ba9e1dcd80b8c1e1aa2906af8a01fc1e6e9092e575eabf7b80d",
+        "sha256": "caae11df9ff7c52cf14270fe1ad7a6dda0a46941582369dee6c81f3ad7da0e5e"
+      }
+    },
+    {
+      "id": "tray",
+      "english": "tray",
+      "translation": "餐盤",
+      "example": "Please carry your tray with both hands.",
+      "audio": {
+        "src": "/audio/words/lunch-choice-tray.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ad9a0cab12eef90639233b67f4e8fec1a6b87333519f84eb42d912d3fe13e2fb",
+        "sha256": "7c84541365e375efd7924c392720005221b8292e806cd8b8997df59e94343295"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/lunch-choice.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "b97d5cd9016fc4fce4834aa920c4bb3a2d21f9aff3f2ec45b0baa2b243f4b6da",
+    "sha256": "3ff9a6263a102d3bd0dfda438edf1016852bb0b2b474940849e46b3f166afc72"
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "id": "birthday-party",
+  "title": "生日聚會",
+  "titleEn": "Birthday Party",
+  "category": "節慶與生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/birthday-party.webp",
+    "alt": "在布置著彩色氣球與彩帶的明亮客廳裡，一群小朋友開心地圍在桌前慶祝生日，壽星看著插著蠟燭的美味蛋糕準備許願，桌上放著包裝精美的禮物盒。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Today, Leo goes to Sam's home for a fun "
+        },
+        {
+          "text": "birthday",
+          "wordIds": [
+            "birthday"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "party",
+          "wordIds": [
+            "party"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "今天，Leo 到 Sam 家參加有趣的生日聚會。"
+    },
+    {
+      "segments": [
+        {
+          "text": "All the friends smile warmly and cheer, “"
+        },
+        {
+          "text": "Happy birthday!",
+          "phraseIds": [
+            "happy-birthday"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "所有的朋友溫暖地微笑並歡呼：「生日快樂！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo gives Sam a wrapped "
+        },
+        {
+          "text": "gift",
+          "wordIds": [
+            "gift"
+          ]
+        },
+        {
+          "text": " and says, “"
+        },
+        {
+          "text": "This gift is for you.",
+          "phraseIds": [
+            "this-gift-is-for-you"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 遞給 Sam 一份包裝好的禮物並說：「這份禮物是給你的。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "They gather around the table and sing a happy birthday "
+        },
+        {
+          "text": "song",
+          "wordIds": [
+            "song"
+          ]
+        },
+        {
+          "text": " together."
+        }
+      ],
+      "translation": "他們圍在桌子旁，一起唱著歡樂的生日歌。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom brings out a sweet "
+        },
+        {
+          "text": "cake",
+          "wordIds": [
+            "cake"
+          ]
+        },
+        {
+          "text": " with a glowing "
+        },
+        {
+          "text": "candle",
+          "wordIds": [
+            "candle"
+          ]
+        },
+        {
+          "text": " on top."
+        }
+      ],
+      "translation": "媽媽端出一個香甜的蛋糕，上面插著一根發光的蠟燭。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Everyone shouts, “"
+        },
+        {
+          "text": "Make a wish!",
+          "phraseIds": [
+            "make-a-wish"
+          ]
+        },
+        {
+          "text": "” and Sam blows out the candle."
+        }
+      ],
+      "translation": "大家喊著：「許個願吧！」Sam 接著吹熄了蠟燭。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Sam smiles at his friends and says, “"
+        },
+        {
+          "text": "Thank you for coming.",
+          "phraseIds": [
+            "thank-you-for-coming"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Sam 對著朋友們微笑說：「謝謝你們來參加。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "happy-birthday",
+      "english": "Happy birthday!",
+      "translation": "生日快樂！",
+      "audio": {
+        "src": "/audio/phrases/birthday-party-happy-birthday.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6468360c8d1a8c8da7e8530d6b26e21e5750a8b99b551ac86ea913aa00927131",
+        "sha256": "f767aca08e20b838f535445bbcfbcaa71df909f176e3ec7e62b011bd78a4ad4e"
+      }
+    },
+    {
+      "id": "this-gift-is-for-you",
+      "english": "This gift is for you.",
+      "translation": "這份禮物是給你的。",
+      "audio": {
+        "src": "/audio/phrases/birthday-party-this-gift-is-for-you.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "876a66572a678ac33e0337c68fc8c335ff510f3559d4c6dbd0536b16363272c6",
+        "sha256": "38bfe77a3025868a72fe0d0d55fcb147e8b0a432fd2647ed6c1342eeff8b7a14"
+      }
+    },
+    {
+      "id": "make-a-wish",
+      "english": "Make a wish!",
+      "translation": "許個願吧！",
+      "audio": {
+        "src": "/audio/phrases/birthday-party-make-a-wish.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "acad39c8d065ee8bf2cf4012bfc32c9a96cea8d208e4f84d94158ef2ee13cf0e",
+        "sha256": "b69f237accf707acbf683b264ffbb83e08b136d8fab62364198a67500c58df5d"
+      }
+    },
+    {
+      "id": "thank-you-for-coming",
+      "english": "Thank you for coming.",
+      "translation": "謝謝你們來參加。",
+      "audio": {
+        "src": "/audio/phrases/birthday-party-thank-you-for-coming.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "17395bbd5b971316be4170283edd4c0a1284e84f3eb1ca49d9e0534be9381154",
+        "sha256": "483050864f1e6c6283493aad16d64312a201afea0fcc92c6d5ff286fcd442d08"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "birthday",
+      "english": "birthday",
+      "translation": "生日",
+      "example": "We celebrate my sister's birthday today.",
+      "audio": {
+        "src": "/audio/words/birthday-party-birthday.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0422d42c689b7e8046dba2d7042e855f6d21e04464bab168fd263f5b10f893ed",
+        "sha256": "86550f6ef96747e463dcd530e582c53ad4c92aad32f6933a4d34a2232cc5c3f6"
+      }
+    },
+    {
+      "id": "gift",
+      "english": "gift",
+      "translation": "禮物",
+      "example": "I open the colorful gift box.",
+      "audio": {
+        "src": "/audio/words/birthday-party-gift.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a1954b15a7459a2f7f6c03d87b73963830616feef7c93853fe5c05be996276bc",
+        "sha256": "a27864f753d22ac78648697d9d103d48854afc2a3a49f88c7ca2943bf12bac6f"
+      }
+    },
+    {
+      "id": "cake",
+      "english": "cake",
+      "translation": "蛋糕",
+      "example": "The birthday cake tastes sweet.",
+      "audio": {
+        "src": "/audio/words/birthday-party-cake.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "32cdb619196200050ab0af581a10fb83cfc63b1a20f58d4bafb6313d55a3f0e9",
+        "sha256": "de39c52166125ad3971edb49acce15a82a7e2290e7e0f6aaa1e3117002afcc04"
+      }
+    },
+    {
+      "id": "candle",
+      "english": "candle",
+      "translation": "蠟燭",
+      "example": "He blows out the candle quickly.",
+      "audio": {
+        "src": "/audio/words/birthday-party-candle.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6fa599fe7b02fec029e98dfa0f64c6ec946cc0ebc57916355dcaaf27bcac5a16",
+        "sha256": "b1a5c70d31b5feba100b08cbcf598c87c342a08d77864664a892e3be96eca9de"
+      }
+    },
+    {
+      "id": "song",
+      "english": "song",
+      "translation": "歌曲",
+      "example": "We sing a fun song together.",
+      "audio": {
+        "src": "/audio/words/birthday-party-song.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "63f75c890b05405e6e1f047072642b40949dab5912aa9c0ae6f2e654dff943dd",
+        "sha256": "18a44ba164da95924bfde6edaaf851c4d4ca245dd6f88914b8cb4bbea51e0226"
+      }
+    },
+    {
+      "id": "party",
+      "english": "party",
+      "translation": "派對",
+      "example": "Our party has music and games.",
+      "audio": {
+        "src": "/audio/words/birthday-party-party.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1d0fea39ec33ff7543f345be85d1ccd34d6d864297d4151b737802cb294a338c",
+        "sha256": "a1e2ef8e410d32e4a3fa9f8378d13c1fed372dda6dd99e2b6c1e28468e59dab2"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/birthday-party.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "6edf7eba40907941beb0324579b02d055bfc73ac5489c7c7b0aac77b3268db27",
+    "sha256": "f10e19dc43bb34c101fdfefbadc53bbfcfa2a48bcf92f2ac9c5a2a05cb58c38c"
+  }
+}

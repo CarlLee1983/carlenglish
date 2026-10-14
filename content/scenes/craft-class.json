@@ -1,0 +1,312 @@
+{
+  "id": "craft-class",
+  "title": "手作課做作品",
+  "titleEn": "Making Crafts in Art Class",
+  "category": "校園學習",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/craft-class.webp",
+    "alt": "在明亮溫馨的美術教室裡，幾位小學生圍坐在木製大桌子旁開心地做美勞，桌上擺著色紙、安全剪刀與膠水，孩子們專注地剪貼並展示色彩豐富的手工作品。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Mia and Leo sit together at a big "
+        },
+        {
+          "text": "table",
+          "wordIds": [
+            "table"
+          ]
+        },
+        {
+          "text": " in art class."
+        }
+      ],
+      "translation": "Mia 和 Leo 一起坐在美勞課的大桌子旁。"
+    },
+    {
+      "segments": [
+        {
+          "text": "The teacher smiles and reminds everyone, “"
+        },
+        {
+          "text": "Be careful with ",
+          "phraseIds": [
+            "be-careful-with-scissors"
+          ]
+        },
+        {
+          "text": "scissors",
+          "phraseIds": [
+            "be-careful-with-scissors"
+          ],
+          "wordIds": [
+            "scissors"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "be-careful-with-scissors"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "老師微笑著提醒大家：「使用剪刀要小心。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia cuts a bright sheet of "
+        },
+        {
+          "text": "paper",
+          "wordIds": [
+            "paper"
+          ]
+        },
+        {
+          "text": " and says, “"
+        },
+        {
+          "text": "What a pretty ",
+          "phraseIds": [
+            "what-a-pretty-color"
+          ]
+        },
+        {
+          "text": "color",
+          "phraseIds": [
+            "what-a-pretty-color"
+          ],
+          "wordIds": [
+            "color"
+          ]
+        },
+        {
+          "text": "!",
+          "phraseIds": [
+            "what-a-pretty-color"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Mia 剪著一張鮮豔的紙並說：「多漂亮的顏色啊！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo wants to paste paper shapes and asks, “"
+        },
+        {
+          "text": "Pass me the ",
+          "phraseIds": [
+            "pass-me-the-glue-please"
+          ]
+        },
+        {
+          "text": "glue",
+          "phraseIds": [
+            "pass-me-the-glue-please"
+          ],
+          "wordIds": [
+            "glue"
+          ]
+        },
+        {
+          "text": ", please.",
+          "phraseIds": [
+            "pass-me-the-glue-please"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 想黏貼紙貼片，便問：「請把膠水拿給我好嗎。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia hands him the "
+        },
+        {
+          "text": "glue",
+          "wordIds": [
+            "glue"
+          ]
+        },
+        {
+          "text": " with a friendly smile."
+        }
+      ],
+      "translation": "Mia 帶著友善的微笑把膠水遞給他。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo holds up his paper lion and cheers, “"
+        },
+        {
+          "text": "Look at my ",
+          "phraseIds": [
+            "look-at-my-craft"
+          ]
+        },
+        {
+          "text": "craft",
+          "phraseIds": [
+            "look-at-my-craft"
+          ],
+          "wordIds": [
+            "craft"
+          ]
+        },
+        {
+          "text": "!",
+          "phraseIds": [
+            "look-at-my-craft"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 舉起他的紙獅子並歡呼：「看我的手工作品！」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "pass-me-the-glue-please",
+      "english": "Pass me the glue, please.",
+      "translation": "請把膠水拿給我。",
+      "audio": {
+        "src": "/audio/phrases/craft-class-pass-me-the-glue-please.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "96b84ca50760f102a56b6076dddf8575c5f9abb3360f30b7a469aa83c4354f61",
+        "sha256": "9bb345373026e4f854753f702443087b831bb00102ca014f39291010a9a52fc9"
+      }
+    },
+    {
+      "id": "look-at-my-craft",
+      "english": "Look at my craft!",
+      "translation": "看我的手工作品！",
+      "audio": {
+        "src": "/audio/phrases/craft-class-look-at-my-craft.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "da7035d0aa110dcdef8494b5b8bbbe0c0967df644af93ddb08f8e415e1a99a0f",
+        "sha256": "442ee003516cc9f8826251eed97ce6c42a32377f0617237ee3321dac076ae818"
+      }
+    },
+    {
+      "id": "be-careful-with-scissors",
+      "english": "Be careful with scissors.",
+      "translation": "使用剪刀要小心。",
+      "audio": {
+        "src": "/audio/phrases/craft-class-be-careful-with-scissors.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0e14167c37ce06a653ccc89e754c14e27d7844c028e89c39c1a735e3ad6153d6",
+        "sha256": "6a3b9862101d60e3e1ec48ad6e660ae232c64f534a6820fded784e18ed0b1036"
+      }
+    },
+    {
+      "id": "what-a-pretty-color",
+      "english": "What a pretty color!",
+      "translation": "多漂亮的顏色啊！",
+      "audio": {
+        "src": "/audio/phrases/craft-class-what-a-pretty-color.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0ca81346981e57e547f35d85124bef42e5a5b9aec4d56027736f1fb1beb91b23",
+        "sha256": "8161b2afae6f747616772489719a1307933bd3ff3e8a3d5b430fff0ac73a6e75"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "craft",
+      "english": "craft",
+      "translation": "手工作品",
+      "example": "We make a fun paper craft in class.",
+      "audio": {
+        "src": "/audio/words/craft-class-craft.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "355543f790a3b210ecf36c82a2738896d9574c17e963a63633febac1f2386737",
+        "sha256": "b9b43cf6aabb53cf9b49420b31166945b7c92381cb3627bea3b8c76e66b702c3"
+      }
+    },
+    {
+      "id": "paper",
+      "english": "paper",
+      "translation": "紙張",
+      "example": "She draws a star on the white paper.",
+      "audio": {
+        "src": "/audio/words/craft-class-paper.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "382635c9325bf3273d195ff1b8a44e5b11afd7d97addeb8863ea35feb98c1a07",
+        "sha256": "76bba04f0bc9ecd08fc61c8875249b6628a553dfb6a2b92afad3b243deb06e38"
+      }
+    },
+    {
+      "id": "glue",
+      "english": "glue",
+      "translation": "膠水",
+      "example": "Use some glue to stick the pieces together.",
+      "audio": {
+        "src": "/audio/words/craft-class-glue.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "99552de9998a2b8267df80b5984342437dda324689e2d7c6b6a0c8a7f392ffb5",
+        "sha256": "b0ad1438b6d70c133100f60f82be30a498156834b5b1f9730a7315655654f8fc"
+      }
+    },
+    {
+      "id": "scissors",
+      "english": "scissors",
+      "translation": "剪刀",
+      "example": "Cut along the line with safe scissors.",
+      "audio": {
+        "src": "/audio/words/craft-class-scissors.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "493a15e7bda88b07272071cbcfd3cb05920b999872b6f3cfa6e4d16712dbf434",
+        "sha256": "557f9a5b183bc7fa17022fbbd9762440e7ddbc58e4d862ac25909cf003a154ae"
+      }
+    },
+    {
+      "id": "table",
+      "english": "table",
+      "translation": "桌子",
+      "example": "We put all our books on the table.",
+      "audio": {
+        "src": "/audio/words/craft-class-table.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0d4fc4a78d3706edccafb665a8b2fdd9309e82c78625bb0f2b8e7bb9e1c4d21c",
+        "sha256": "57751e43f9da6abcc5e3e7bfc115b6a491482f3e9a31b29daa98dfe74ed657b8"
+      }
+    },
+    {
+      "id": "color",
+      "english": "color",
+      "translation": "顏色",
+      "example": "Blue is my favorite color.",
+      "audio": {
+        "src": "/audio/words/craft-class-color.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "74284d9dcbcc09928ca5d7d6187270a62ac1b58ccdc4a44b81e47257ffa53b9e",
+        "sha256": "d1dc1078737a72676e287e646549f51a89a9dd7555eb629b2cfb087e27a0e632"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/craft-class.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "a410cde893802c802d9f3a0184d963af8374110ef9a5c714dc965e13f02fed04",
+    "sha256": "2924b5af375d8189da3a518b2230483c8a63c82ff30050294828400553cc63f9"
+  }
+}

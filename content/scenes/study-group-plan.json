@@ -1,0 +1,297 @@
+{
+  "id": "study-group-plan",
+  "title": "讀書會安排",
+  "titleEn": "Study Group Plan",
+  "category": "學習與規劃",
+  "level": "進階",
+  "image": {
+    "src": "/images/scenes/study-group-plan.webp",
+    "alt": "放學後的圖書館討論室裡，三位高中生圍坐在木桌旁，桌上擺滿課本、筆記型電腦與行事曆，正熱烈討論讀書計畫與分工。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "After school, three high school classmates gather in the library to organize their weekly study "
+        },
+        {
+          "text": "group",
+          "wordIds": [
+            "group"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "放學後，三位高中同學聚集在圖書館，籌備他們的每週讀書會。"
+    },
+    {
+      "segments": [
+        {
+          "text": "As they open their biology textbooks, Emily suggests, “"
+        },
+        {
+          "text": "Let's ",
+          "phraseIds": [
+            "lets-review-this-chapter-first"
+          ]
+        },
+        {
+          "text": "review",
+          "phraseIds": [
+            "lets-review-this-chapter-first"
+          ],
+          "wordIds": [
+            "review"
+          ]
+        },
+        {
+          "text": " this ",
+          "phraseIds": [
+            "lets-review-this-chapter-first"
+          ]
+        },
+        {
+          "text": "chapter",
+          "phraseIds": [
+            "lets-review-this-chapter-first"
+          ],
+          "wordIds": [
+            "chapter"
+          ]
+        },
+        {
+          "text": " first.",
+          "phraseIds": [
+            "lets-review-this-chapter-first"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "當他們翻開生物教科書時，Emily 提議道：「我們先來複習這個章節吧。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Looking over the upcoming exam requirements, David turns to the team and asks, “"
+        },
+        {
+          "text": "What is your main ",
+          "phraseIds": [
+            "what-is-your-main-goal"
+          ]
+        },
+        {
+          "text": "goal",
+          "phraseIds": [
+            "what-is-your-main-goal"
+          ],
+          "wordIds": [
+            "goal"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "what-is-your-main-goal"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "檢視著即將到來的考試要求，David 轉向團隊問道：「你的主要目標是什麼？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Next, they discuss how to divide each presentation "
+        },
+        {
+          "text": "topic",
+          "wordIds": [
+            "topic"
+          ]
+        },
+        {
+          "text": " for their class report."
+        }
+      ],
+      "translation": "接著，他們討論如何為課堂報告分配各個簡報主題。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Pointing at the diagram on genetics, Hannah volunteers, “"
+        },
+        {
+          "text": "I can cover this section.",
+          "phraseIds": [
+            "i-can-cover-this-section"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "指著遺傳學圖表，Hannah 自告奮勇說：「我可以負責這個部分。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "After finalizing an efficient study "
+        },
+        {
+          "text": "schedule",
+          "wordIds": [
+            "schedule"
+          ]
+        },
+        {
+          "text": ", David smiles and says, “"
+        },
+        {
+          "text": "Let's take a short break.",
+          "phraseIds": [
+            "lets-take-a-short-break"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "在敲定了一份高效率的讀書進度表後，David 微笑著說：「我們稍微休息一下吧。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "lets-review-this-chapter-first",
+      "english": "Let's review this chapter first.",
+      "translation": "我們先來複習這個章節吧。",
+      "audio": {
+        "src": "/audio/phrases/study-group-plan-lets-review-this-chapter-first.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fd6f3c695d9d05f442df3f33fcb113fb2494eaaf5d848846191c2f54acc33457",
+        "sha256": "b6771ffb1989017fc08f1391a3ff8f6174f6a6c2efe6db38912081a1f58a5b4c"
+      }
+    },
+    {
+      "id": "what-is-your-main-goal",
+      "english": "What is your main goal?",
+      "translation": "你的主要目標是什麼？",
+      "audio": {
+        "src": "/audio/phrases/study-group-plan-what-is-your-main-goal.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9c080d690e4d0e883043b137800ae48454fc4b8fc4eaa0972fad9d88512eda3b",
+        "sha256": "3b7b77250cacbe3ede7c57d23d93eccb882b7b52f2f38f3237a39ccef7bd8027"
+      }
+    },
+    {
+      "id": "i-can-cover-this-section",
+      "english": "I can cover this section.",
+      "translation": "我可以負責這個部分。",
+      "audio": {
+        "src": "/audio/phrases/study-group-plan-i-can-cover-this-section.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0d028c8c391708eb0bb8e91286cad54267fd8ecf4e359e1eabac4f21cc100df2",
+        "sha256": "538080fadb62eef283e72d57500c9060b3687510705feb73e8f6ee568e67e9c9"
+      }
+    },
+    {
+      "id": "lets-take-a-short-break",
+      "english": "Let's take a short break.",
+      "translation": "我們稍微休息一下吧。",
+      "audio": {
+        "src": "/audio/phrases/study-group-plan-lets-take-a-short-break.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "50d11866be04323068d3d6e5e7b996b2e6fb5a0e34f1b0f9a304ac7abfb763bf",
+        "sha256": "f43004e56fe773e075e869fb7fb1a76289338eb9d8a064acc9bba0fa47c654a8"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "review",
+      "english": "review",
+      "translation": "複習；溫習",
+      "example": "We need to review all the notes before the final exam.",
+      "audio": {
+        "src": "/audio/words/study-group-plan-review.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84",
+        "sha256": "a21b8b9c795b1e861414e33671be3b228a7dc3af34e18fa0eb88537c59686f23"
+      }
+    },
+    {
+      "id": "chapter",
+      "english": "chapter",
+      "translation": "章節",
+      "example": "Please read the next chapter before our next class.",
+      "audio": {
+        "src": "/audio/words/study-group-plan-chapter.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "667b9327cc0b3ab64f0bea63ff617f1a7e3d085854965f76f502a02ebc62f075",
+        "sha256": "89151d05981a0cac3a133c4e336e90a10c17d963bbcbc6cdbaaa6adc101edbce"
+      }
+    },
+    {
+      "id": "group",
+      "english": "group",
+      "translation": "小組；團體",
+      "example": "Our study group meets every Tuesday afternoon.",
+      "audio": {
+        "src": "/audio/words/study-group-plan-group.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ad936fcbed631fa67e05c3ea03953905221c9d46af0616b70badf105a966fb11",
+        "sha256": "4bd334dfa5e7e7f32ef277c7fe77b2ea0b3c065c324a68fe4c210a282c99c429"
+      }
+    },
+    {
+      "id": "topic",
+      "english": "topic",
+      "translation": "主題；題目",
+      "example": "She chose an interesting topic for her research presentation.",
+      "audio": {
+        "src": "/audio/words/study-group-plan-topic.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "23d611a6f6f8e3ef8775959efd61eee094c1e6b147ab978e7bf7ca452e51110b",
+        "sha256": "cbacb5a14f163bf7bc42799e6846bbc3ec623c57c69311fe108cf749679d8e77"
+      }
+    },
+    {
+      "id": "goal",
+      "english": "goal",
+      "translation": "目標",
+      "example": "Setting a realistic goal helps you stay focused on your studies.",
+      "audio": {
+        "src": "/audio/words/study-group-plan-goal.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0304523efff53f243d76dc81b7c271f922292543cead846ee714f066c3331e5f",
+        "sha256": "c09a65e09fb8921939805e19e99e835d8bc842e37d3368ea177af5a2e5af771f"
+      }
+    },
+    {
+      "id": "schedule",
+      "english": "schedule",
+      "translation": "進度表；行程安排",
+      "example": "Creating a weekly study schedule helps manage your time well.",
+      "audio": {
+        "src": "/audio/words/study-group-plan-schedule.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5f72005e81c4ecbd5aa3588e80e3daf0df068ce0cf5638944508a0165fea609a",
+        "sha256": "e7e03486e8093bb4717c54c6f82a8b33991066735cf100a9ddf352f356e173ee"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/study-group-plan.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "f5ca6e97ad0904a972c9e8eda8c566609b41564335f846ccfdadc419b3bc948d",
+    "sha256": "96d58e3dc08605ee23d9102c36e0e29d8c5ea09262102049d5af230766efc786"
+  }
+}

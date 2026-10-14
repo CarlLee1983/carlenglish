@@ -1,0 +1,323 @@
+{
+  "id": "resolving-misunderstanding",
+  "title": "澄清朋友間的誤會",
+  "titleEn": "Resolving a Misunderstanding",
+  "category": "同儕關係",
+  "level": "中級",
+  "image": {
+    "src": "/images/scenes/resolving-misunderstanding.webp",
+    "alt": "放學後的校園林蔭步道旁，兩位國中生並肩坐在木質長椅上認真交談，一人拿著手機溫和解釋簡訊的真意，另一人專注傾聽並展現理解的笑容，氣氛溫馨釋懷。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "After school, Leo sits on a wooden bench to talk openly with his "
+        },
+        {
+          "text": "friend",
+          "wordIds": [
+            "friend"
+          ]
+        },
+        {
+          "text": " Ethan."
+        }
+      ],
+      "translation": "放學後，Leo 坐在木長椅上，與他的朋友 Ethan 坦誠地交談。"
+    },
+    {
+      "segments": [
+        {
+          "text": "They had an awkward "
+        },
+        {
+          "text": "misunderstanding",
+          "wordIds": [
+            "misunderstanding"
+          ]
+        },
+        {
+          "text": " because of a confusing text "
+        },
+        {
+          "text": "message",
+          "wordIds": [
+            "message"
+          ]
+        },
+        {
+          "text": " sent yesterday."
+        }
+      ],
+      "translation": "因為昨天發送的一則令人困惑的簡訊，他們之間產生了尷尬的誤會。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo shows his phone and explains that he did not "
+        },
+        {
+          "text": "mean",
+          "wordIds": [
+            "mean"
+          ]
+        },
+        {
+          "text": " to sound rude, saying, “"
+        },
+        {
+          "text": "That's not what I ",
+          "phraseIds": [
+            "thats-not-what-i-meant"
+          ]
+        },
+        {
+          "text": "meant",
+          "phraseIds": [
+            "thats-not-what-i-meant"
+          ],
+          "wordIds": [
+            "mean"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "thats-not-what-i-meant"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 拿出手機並解釋自己並沒有想要表現得很無禮，說道：「那不是我的意思。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "He looks at Ethan sincerely and adds, “"
+        },
+        {
+          "text": "I am ",
+          "phraseIds": [
+            "i-am-sorry-about-that"
+          ]
+        },
+        {
+          "text": "sorry",
+          "phraseIds": [
+            "i-am-sorry-about-that"
+          ],
+          "wordIds": [
+            "sorry"
+          ]
+        },
+        {
+          "text": " about that.",
+          "phraseIds": [
+            "i-am-sorry-about-that"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他真誠地看著 Ethan 並補充說：「我對那件事感到很抱歉。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Ethan takes a deep breath and is willing to "
+        },
+        {
+          "text": "listen",
+          "wordIds": [
+            "listen"
+          ]
+        },
+        {
+          "text": " carefully to his explanation."
+        }
+      ],
+      "translation": "Ethan 深吸了一口氣，願意仔細聆聽他的解釋。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Understanding the whole situation, Ethan smiles and says, “"
+        },
+        {
+          "text": "Thanks for explaining.",
+          "phraseIds": [
+            "thanks-for-explaining"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "理解了整個情況後，Ethan 微笑著說：「謝謝你的說明。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "They bump fists happily on the bench, and Leo says, “"
+        },
+        {
+          "text": "We are still ",
+          "phraseIds": [
+            "we-are-still-friends"
+          ]
+        },
+        {
+          "text": "friends",
+          "phraseIds": [
+            "we-are-still-friends"
+          ],
+          "wordIds": [
+            "friend"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "we-are-still-friends"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他們在長椅上開心地碰拳，Leo 說道：「我們依然是朋友。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "thats-not-what-i-meant",
+      "english": "That's not what I meant.",
+      "translation": "那不是我的意思。",
+      "audio": {
+        "src": "/audio/phrases/resolving-misunderstanding-thats-not-what-i-meant.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "28b0ad0958c67820261737ca16292788a0821e831dc5091867f566f102928dcf",
+        "sha256": "15e5ebde4606ed33ff921e7a88f4e825ed623c3265c66168e87263f3a9f716f8"
+      }
+    },
+    {
+      "id": "i-am-sorry-about-that",
+      "english": "I am sorry about that.",
+      "translation": "我對那件事感到很抱歉。",
+      "audio": {
+        "src": "/audio/phrases/resolving-misunderstanding-i-am-sorry-about-that.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "96d25b4a73c17dc3306c0865bcfc3fe2cb827865cb52f4480d420f39f1ba00d9",
+        "sha256": "9f9a28c6f03e48082fbdce07e3d499ed2abcb69fbd863670353c673be575994a"
+      }
+    },
+    {
+      "id": "thanks-for-explaining",
+      "english": "Thanks for explaining.",
+      "translation": "謝謝你的說明。",
+      "audio": {
+        "src": "/audio/phrases/resolving-misunderstanding-thanks-for-explaining.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "541c87d5d5982d6d5680a8f296c896665e18ea170662e2bc26ac2b0a2d35a0af",
+        "sha256": "c9c23a5bbc465b1fc1bde7f499974ec1fc84333b8caece6d1088889b6ad3bac5"
+      }
+    },
+    {
+      "id": "we-are-still-friends",
+      "english": "We are still friends.",
+      "translation": "我們依然是朋友。",
+      "audio": {
+        "src": "/audio/phrases/resolving-misunderstanding-we-are-still-friends.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "96bb9197fb0ea3b054b72c0580fa749592097e193b55d9bfe0516c306134364e",
+        "sha256": "2eabb57fcd779595525480130edf45518a587d46cbf580c14ad7160b1d21a804"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "misunderstanding",
+      "english": "misunderstanding",
+      "translation": "誤會",
+      "example": "Clear communication can prevent a misunderstanding.",
+      "audio": {
+        "src": "/audio/words/resolving-misunderstanding-misunderstanding.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e862b51d7419ba6f589572cd4032419c790b93c181a1334f46e1b9ab2f51169b",
+        "sha256": "1a86b6952f699756089553dee388bf53af382e4912c9034ce51099410aafe091"
+      }
+    },
+    {
+      "id": "mean",
+      "english": "mean",
+      "translation": "意思是、意指",
+      "example": "I didn't mean to hurt your feelings.",
+      "audio": {
+        "src": "/audio/words/resolving-misunderstanding-mean.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "82523faea1b0f2da676a0561d597000bb6918036c6e541dc1145966141864332",
+        "sha256": "cd2006a82953d0cd1fe776ea4724c5d7231b344f6241200ba0254d2eb997f5c9"
+      }
+    },
+    {
+      "id": "sorry",
+      "english": "sorry",
+      "translation": "感到抱歉的",
+      "example": "I am sorry for replying so late.",
+      "audio": {
+        "src": "/audio/words/resolving-misunderstanding-sorry.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "484aab2f2cd0f77b3c30f91521ba9a76c8c501112a53e100154a098c274f03d3",
+        "sha256": "74b433766d497ae8cd77d0a83bbfd463b87fb98818ee880906c286f4bd2bca61"
+      }
+    },
+    {
+      "id": "message",
+      "english": "message",
+      "translation": "訊息、簡訊",
+      "example": "Please send me a message after school.",
+      "audio": {
+        "src": "/audio/words/resolving-misunderstanding-message.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ab530a13e45914982b79f9b7e3fba994cfd1f3fb22f71cea1afbf02b460c6d1d",
+        "sha256": "b8bf6f6d709750553e49ba9b90651249335fe400ba83b6269b3e815a03753965"
+      }
+    },
+    {
+      "id": "listen",
+      "english": "listen",
+      "translation": "聆聽、傾聽",
+      "example": "It is important to listen carefully to others.",
+      "audio": {
+        "src": "/audio/words/resolving-misunderstanding-listen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6f8860eb5103a16b917146f9cbf21aa00fe7d2291b1aad7f4fe83a6db71688cf",
+        "sha256": "00eb93044a40f5161882f4f69a2bfb7b5e8691b7f34ba397a3854bc135f6fa38"
+      }
+    },
+    {
+      "id": "friend",
+      "english": "friend",
+      "translation": "朋友",
+      "example": "A good friend always supports you.",
+      "audio": {
+        "src": "/audio/words/resolving-misunderstanding-friend.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cde48537ca2c28084ff560826d0e6388b7c57a51497a6cb56f397289e52ff41b",
+        "sha256": "41795ebd2f97a8c441c1651c448933cc26ac8b4ea1fc6bdfdd07274e9eb74953"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/resolving-misunderstanding.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "af9126bbee12afbd1a75ea3a58706513d18f6246dbb9c0091c5e81e041ba0398",
+    "sha256": "d40c68f88e0d24d4d7e9efd6a41b5b6ff2609f291127c6a106f70a854165fda2"
+  }
+}

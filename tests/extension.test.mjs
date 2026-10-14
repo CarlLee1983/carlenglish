@@ -12,6 +12,7 @@ import { chromium } from '@playwright/test';
 const projectRoot = process.cwd();
 const fixtureId = 'another-cafe-breakfast';
 const articleFixtureId = 'another-library-news';
+const originalIds = ['cafe-breakfast', 'school-greeting', 'supermarket-shopping', 'street-directions'];
 const astroBin = join(projectRoot, 'node_modules/astro/bin/astro.mjs');
 
 function fileHashes(root, paths) {
@@ -60,11 +61,76 @@ async function stopChild(child) {
   }
 }
 
-test('an extension content file and image create a complete route without changing the main project', { timeout: 60_000 }, async () => {
+async function expectSceneContent(page, scene, profile, sceneIds) {
+  assert.equal(await page.getByRole('heading', { level: 1, name: scene.titleEn }).count(), 1);
+  assert.equal(await page.getByText(scene.title, { exact: true }).count(), 1);
+  const metadata = await page.getByRole('article').textContent();
+  assert.ok(metadata.includes(scene.category) && metadata.includes(scene.level));
+  const image = page.getByRole('img', { name: scene.image.alt });
+  assert.equal(await image.count(), 1);
+  assert.equal(await image.getAttribute('src'), scene.image.src);
+  assert.deepEqual(await image.evaluate((element) => [element.complete, element.naturalWidth, element.naturalHeight]),
+    [true, scene.image.width, scene.image.height]);
+  const text = await page.getByRole('region', { name: '英文短文' }).locator('[lang="en"] p')
+    .evaluateAll((elements) => elements.map((element) => element.textContent));
+  assert.deepEqual(text, scene.sentences.map((sentence) => sentence.segments.map((segment) => segment.text).join('')));
+  const details = page.locator('.translation');
+  assert.equal(await details.getAttribute('open'), null);
+  await details.locator('summary').click();
+  assert.equal(await details.getAttribute('open'), '');
+  assert.deepEqual(await details.locator('p').allTextContents(), scene.sentences.map((sentence) => sentence.translation));
+  const phrases = page.getByRole('region', { name: '常用短句' }).getByRole('listitem');
+  assert.equal(await phrases.count(), scene.phrases.length);
+  for (let i = 0; i < scene.phrases.length; i++) {
+    const item = await phrases.nth(i).textContent();
+    assert.ok(item.includes(scene.phrases[i].english) && item.includes(scene.phrases[i].translation));
+    const phrase = scene.phrases[i];
+    const button = phrases.nth(i).getByRole('button', { name: `聽短句 ${phrase.english} 的發音` });
+    assert.equal(await button.getAttribute('data-audio-kind'), 'phrase');
+    assert.equal(await button.getAttribute('data-audio-src'), phrase.audio.src);
+    assert.equal(await button.getAttribute('data-label'), phrase.english);
+  }
+  const words = page.getByRole('region', { name: '重點單字' }).getByRole('listitem');
+  assert.equal(await words.count(), scene.words.length);
+  for (let i = 0; i < scene.words.length; i++) {
+    const item = await words.nth(i).textContent();
+    assert.ok([scene.words[i].english, scene.words[i].translation, scene.words[i].example].every((part) => item.includes(part)));
+    const button = words.nth(i).getByRole('button', { name: `聽 ${scene.words[i].english} 的發音` });
+    assert.equal(await button.count(), 1);
+    assert.equal(await button.getAttribute('data-audio-kind'), 'word');
+    assert.equal(await button.getAttribute('data-audio-src'), scene.words[i].audio.src);
+    assert.equal(await button.getAttribute('data-label'), scene.words[i].english);
+  }
+  assert.equal(await page.locator('[data-pronounce]').count(), 1 + scene.phrases.length + scene.words.length);
+  const story = page.getByRole('button', { name: '朗讀整篇英文短文' });
+  assert.equal(await story.getAttribute('data-audio-kind'), 'story');
+  assert.equal(await story.getAttribute('data-audio-src'), scene.audio.src);
+  assert.equal(await story.getAttribute('data-label'), '整篇短文');
+  assert.equal(await page.getByRole('button', { name: '暫停朗讀' }).count(), 1);
+  assert.equal(await page.getByRole('button', { name: '從頭朗讀' }).count(), 1);
+  const attribution = page.locator('.pronunciation-attribution');
+  assert.equal(await attribution.getAttribute('open'), null);
+  await attribution.locator('summary').click();
+  assert.equal(await attribution.getAttribute('open'), '');
+  const creditText = await attribution.textContent();
+  assert.ok([profile.provider, profile.voice, profile.libraryVersion, profile.modelLicenseName].every((part) => creditText.includes(part)));
+  assert.equal(await attribution.getByRole('link', { name: '模型來源' }).getAttribute('href'), profile.sourceUrl);
+  assert.equal(await attribution.getByRole('link', { name: profile.modelLicenseName }).getAttribute('href'), profile.modelLicenseUrl);
+  const navigationRoutes = await page.getByRole('navigation', { name: '場景導覽' }).locator('a[href^="/scenes/"]')
+    .evaluateAll((links) => links.map((link) => link.getAttribute('href')).sort());
+  assert.deepEqual(navigationRoutes, sceneIds.filter((id) => id !== scene.id).map((id) => `/scenes/${id}/`).sort());
+}
+
+test('one isolated extension preserves every official route and its complete content without changing the main project', { timeout: 60_000 }, async () => {
   const scope = ['src', 'content', 'public', 'dist', 'astro.config.mjs', 'tsconfig.json', 'package.json', 'pnpm-lock.yaml', 'pnpm-workspace.yaml'];
   const before = fileHashes(projectRoot, scope);
   const originalFiles = readdirSync(join(projectRoot, 'content/scenes')).filter((name) => name.endsWith('.json')).sort();
-  assert.equal(originalFiles.length, 4, 'production content must contain the four official scenes');
+  const originals = originalFiles.map((name) => JSON.parse(readFileSync(join(projectRoot, 'content/scenes', name), 'utf8')));
+  const officialIds = originals.map((scene) => scene.id);
+  assert.equal(new Set(officialIds).size, officialIds.length, 'official scene IDs must be unique');
+  for (const id of originalIds) assert.ok(officialIds.includes(id), `original scene ${id} must remain available`);
+  assert.ok(!officialIds.includes(fixtureId));
+  const expectedIds = [...officialIds, fixtureId].sort();
   assert.ok(!originalFiles.includes(`${fixtureId}.json`));
   const tempRoot = mkdtempSync(join(tmpdir(), 'carlenglish extension '));
   let child;
@@ -77,20 +143,23 @@ test('an extension content file and image create a complete route without changi
     symlinkSync(join(projectRoot, 'node_modules'), join(tempRoot, 'node_modules'), 'dir');
 
     const original = JSON.parse(readFileSync(join(tempRoot, 'content/scenes/cafe-breakfast.json'), 'utf8'));
-    const fourth = structuredClone(original);
-    fourth.id = fixtureId;
-    fourth.title = '另一個咖啡店早餐';
-    fourth.titleEn = 'Another breakfast at the café';
-    fourth.image.src = `/images/scenes/${fixtureId}.webp`;
-    cpSync(join(tempRoot, 'public', original.image.src.slice(1)), join(tempRoot, 'public', fourth.image.src.slice(1)));
-    writeFileSync(join(tempRoot, 'content/scenes', `${fixtureId}.json`), JSON.stringify(fourth));
+    const extension = structuredClone(original);
+    extension.id = fixtureId;
+    extension.title = '另一個咖啡店早餐';
+    extension.titleEn = 'Another breakfast at the café';
+    extension.image.src = `/images/scenes/${fixtureId}.webp`;
+    cpSync(join(tempRoot, 'public', original.image.src.slice(1)), join(tempRoot, 'public', extension.image.src.slice(1)));
+    writeFileSync(join(tempRoot, 'content/scenes', `${fixtureId}.json`), JSON.stringify(extension));
 
     const originalArticle = JSON.parse(readFileSync(join(tempRoot, 'content/articles/riverside-library-late-hours.json'), 'utf8'));
     const extraArticle = { ...originalArticle, id: articleFixtureId, title: '另一則圖書館消息', titleEn: 'Another library announcement' };
     writeFileSync(join(tempRoot, 'content/articles', `${articleFixtureId}.json`), JSON.stringify(extraArticle));
 
     execFileSync(process.execPath, [astroBin, 'build'], { cwd: tempRoot, stdio: 'pipe', timeout: 30_000 });
-    assert.ok(existsSync(join(tempRoot, 'dist/scenes', fixtureId, 'index.html')));
+    const routeRoot = join(tempRoot, 'dist/scenes');
+    assert.deepEqual(readdirSync(routeRoot).filter((name) => lstatSync(join(routeRoot, name)).isDirectory()).sort(), expectedIds,
+      'the isolated build must add exactly one route to the current official collection');
+    for (const id of expectedIds) assert.ok(existsSync(join(routeRoot, id, 'index.html')));
     assert.ok(existsSync(join(tempRoot, 'dist/articles', articleFixtureId, 'index.html')));
     const port = await freePort();
     const origin = `http://127.0.0.1:${port}`;
@@ -104,69 +173,30 @@ test('an extension content file and image create a complete route without changi
 
     browser = await chromium.launch();
     const page = await browser.newPage();
-    let response = await page.goto(origin);
-    assert.equal(await page.getByRole('link', { name: `閱讀${fourth.title}` }).count(), 1);
-    assert.equal(await page.getByRole('link', { name: /^閱讀/ }).count(), 5);
-    assert.equal(await page.getByRole('link', { name: extraArticle.titleEn }).getAttribute('href'), `/articles/${articleFixtureId}/`);
-    response = await page.goto(`${origin}/articles/${articleFixtureId}/`);
-    assert.equal(response.status(), 200);
-    assert.equal(await page.getByRole('heading', { level: 1, name: extraArticle.titleEn }).count(), 1);
     await page.goto(origin);
-    const route = `${origin}/scenes/${fixtureId}/`;
-    response = await page.goto(route);
-    assert.equal(response.status(), 200);
-    await page.reload();
-    assert.equal(await page.getByRole('heading', { level: 1, name: fourth.titleEn }).count(), 1);
-    const image = page.getByRole('img', { name: fourth.image.alt });
-    assert.equal(await image.count(), 1);
-    assert.deepEqual(await image.evaluate((element) => [element.complete, element.naturalWidth, element.naturalHeight]),
-      [true, fourth.image.width, fourth.image.height]);
-    const text = await page.getByRole('region', { name: '英文短文' }).locator('[lang="en"] p')
-      .evaluateAll((elements) => elements.map((element) => element.textContent));
-    assert.deepEqual(text, fourth.sentences.map((sentence) => sentence.segments.map((segment) => segment.text).join('')));
-    const details = page.locator('.translation');
-    assert.equal(await details.getAttribute('open'), null);
-    await details.locator('summary').click();
-    assert.equal(await details.getAttribute('open'), '');
-    assert.deepEqual(await details.locator('p').allTextContents(), fourth.sentences.map((sentence) => sentence.translation));
-    const phrases = page.getByRole('region', { name: '常用短句' }).getByRole('listitem');
-    assert.equal(await phrases.count(), fourth.phrases.length);
-    for (let i = 0; i < fourth.phrases.length; i++) {
-      const item = await phrases.nth(i).textContent();
-      assert.ok(item.includes(fourth.phrases[i].english) && item.includes(fourth.phrases[i].translation));
-      const phrase = fourth.phrases[i];
-      const button = phrases.nth(i).getByRole('button', { name: `聽短句 ${phrase.english} 的發音` });
-      assert.equal(await button.getAttribute('data-audio-kind'), 'phrase');
-      assert.equal(await button.getAttribute('data-audio-src'), phrase.audio.src);
-      assert.equal(await button.getAttribute('data-label'), phrase.english);
+    const listedRoutes = await page.getByRole('link', { name: /^閱讀/ })
+      .evaluateAll((links) => links.map((link) => link.getAttribute('href')).sort());
+    assert.equal(listedRoutes.length, originals.length + 1);
+    assert.deepEqual(listedRoutes, expectedIds.map((id) => `/scenes/${id}/`));
+    for (const scene of [...originals, extension]) {
+      const link = page.getByRole('link', { name: `閱讀${scene.title}`, exact: true });
+      assert.equal(await link.count(), 1);
+      assert.equal(await link.getAttribute('href'), `/scenes/${scene.id}/`);
     }
-    const words = page.getByRole('region', { name: '重點單字' }).getByRole('listitem');
-    assert.equal(await words.count(), fourth.words.length);
-    for (let i = 0; i < fourth.words.length; i++) {
-      const item = await words.nth(i).textContent();
-      assert.ok([fourth.words[i].english, fourth.words[i].translation, fourth.words[i].example].every((part) => item.includes(part)));
-      const button = words.nth(i).getByRole('button', { name: `聽 ${fourth.words[i].english} 的發音` });
-      assert.equal(await button.count(), 1);
-      assert.equal(await button.getAttribute('data-audio-kind'), 'word');
-      assert.equal(await button.getAttribute('data-audio-src'), fourth.words[i].audio.src);
-      assert.equal(await button.getAttribute('data-label'), fourth.words[i].english);
-    }
-    assert.equal(await page.locator('[data-pronounce]').count(), 1 + fourth.phrases.length + fourth.words.length);
-    const story = page.getByRole('button', { name: '朗讀整篇英文短文' });
-    assert.equal(await story.getAttribute('data-audio-kind'), 'story');
-    assert.equal(await story.getAttribute('data-audio-src'), fourth.audio.src);
-    assert.equal(await story.getAttribute('data-label'), '整篇短文');
-    assert.equal(await page.getByRole('button', { name: '暫停朗讀' }).count(), 1);
-    assert.equal(await page.getByRole('button', { name: '從頭朗讀' }).count(), 1);
-    const attribution = page.locator('.pronunciation-attribution');
-    assert.equal(await attribution.getAttribute('open'), null);
-    await attribution.locator('summary').click();
-    assert.equal(await attribution.getAttribute('open'), '');
+    assert.equal(await page.getByRole('link', { name: extraArticle.titleEn }).getAttribute('href'), `/articles/${articleFixtureId}/`);
+    const articleResponse = await page.goto(`${origin}/articles/${articleFixtureId}/`);
+    assert.equal(articleResponse.status(), 200);
+    assert.equal(await page.getByRole('heading', { level: 1, name: extraArticle.titleEn }).count(), 1);
     const profile = JSON.parse(readFileSync(join(tempRoot, 'content/audio/voice-profile.json'), 'utf8'));
-    const creditText = await attribution.textContent();
-    assert.ok([profile.provider, profile.voice, profile.libraryVersion, profile.modelLicenseName].every((part) => creditText.includes(part)));
-    assert.equal(await attribution.getByRole('link', { name: '模型來源' }).getAttribute('href'), profile.sourceUrl);
-    assert.equal(await attribution.getByRole('link', { name: profile.modelLicenseName }).getAttribute('href'), profile.modelLicenseUrl);
+    for (const scene of [...originals, extension]) {
+      const route = `${origin}/scenes/${scene.id}/`;
+      const response = await page.goto(route);
+      assert.equal(response.status(), 200, `${scene.id} must retain its direct route`);
+      await expectSceneContent(page, scene, profile, expectedIds);
+      const reloaded = await page.reload();
+      assert.equal(reloaded.status(), 200, `${scene.id} must survive reload`);
+      await expectSceneContent(page, scene, profile, expectedIds);
+    }
   } finally {
     if (browser) await browser.close();
     if (child) await stopChild(child);

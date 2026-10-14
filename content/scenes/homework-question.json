@@ -1,0 +1,323 @@
+{
+  "id": "homework-question",
+  "title": "向同學問作業",
+  "titleEn": "Asking About Homework",
+  "category": "學習與合作",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/homework-question.webp",
+    "alt": "放學後的國中教室裡，兩位同學坐在書桌旁，一人指著打開的英文作業簿詢問，另一人熱心拿著筆指著題目向對方解說。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "After school, Leo has a "
+        },
+        {
+          "text": "question",
+          "wordIds": [
+            "question"
+          ]
+        },
+        {
+          "text": " about today's English "
+        },
+        {
+          "text": "assignment",
+          "wordIds": [
+            "assignment"
+          ]
+        },
+        {
+          "text": " and walks over to his "
+        },
+        {
+          "text": "classmate",
+          "wordIds": [
+            "classmate"
+          ]
+        },
+        {
+          "text": " Mia."
+        }
+      ],
+      "translation": "放學後，Leo 對今天的英文作業有疑問，便走向他的同學 Mia。"
+    },
+    {
+      "segments": [
+        {
+          "text": "He opens his pencil case and asks, “"
+        },
+        {
+          "text": "When is the homework ",
+          "phraseIds": [
+            "when-is-the-homework-due"
+          ]
+        },
+        {
+          "text": "due",
+          "phraseIds": [
+            "when-is-the-homework-due"
+          ],
+          "wordIds": [
+            "due"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "when-is-the-homework-due"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他打開鉛筆盒問道：「作業什麼時候要交？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia checks her study planner and says, “It is "
+        },
+        {
+          "text": "due",
+          "wordIds": [
+            "due"
+          ]
+        },
+        {
+          "text": " this Friday morning before the bell rings.”"
+        }
+      ],
+      "translation": "Mia 看了看她的學習計畫本說：「這週五早上鐘響前要交。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo flips open his workbook and asks, “"
+        },
+        {
+          "text": "Which ",
+          "phraseIds": [
+            "which-page-is-it"
+          ]
+        },
+        {
+          "text": "page",
+          "phraseIds": [
+            "which-page-is-it"
+          ],
+          "wordIds": [
+            "page"
+          ]
+        },
+        {
+          "text": " is it?",
+          "phraseIds": [
+            "which-page-is-it"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 翻開作業本問道：「是哪一頁？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia points to the reading section and answers, “We need to complete "
+        },
+        {
+          "text": "page",
+          "wordIds": [
+            "page"
+          ]
+        },
+        {
+          "text": " thirty-four.”"
+        }
+      ],
+      "translation": "Mia 指向閱讀部分回答：「我們要完成第三十四頁。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo writes down the notes with a smile and says, “"
+        },
+        {
+          "text": "Thanks for your help.",
+          "phraseIds": [
+            "thanks-for-your-help"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 面帶微笑記下筆記並說：「謝謝你的幫忙。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia packs her backpack and replies cheerfully, “"
+        },
+        {
+          "text": "No ",
+          "phraseIds": [
+            "no-problem-at-all"
+          ]
+        },
+        {
+          "text": "problem",
+          "phraseIds": [
+            "no-problem-at-all"
+          ],
+          "wordIds": [
+            "problem"
+          ]
+        },
+        {
+          "text": " at all.",
+          "phraseIds": [
+            "no-problem-at-all"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Mia 背起書包開朗地回答：「完全沒問題。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "when-is-the-homework-due",
+      "english": "When is the homework due?",
+      "translation": "作業什麼時候要交？",
+      "audio": {
+        "src": "/audio/phrases/homework-question-when-is-the-homework-due.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ffd55d7aaaf7b309d5e85203b339e20f7377946eff34a0168e4431f3790c8ed3",
+        "sha256": "434eeaa5063e8bfba463a0e54ee02b9a06358df6af9b00a8eb97c727bb0310e3"
+      }
+    },
+    {
+      "id": "which-page-is-it",
+      "english": "Which page is it?",
+      "translation": "是哪一頁？",
+      "audio": {
+        "src": "/audio/phrases/homework-question-which-page-is-it.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cfa5311fe1eb6b88cfc013f2608a777d5316f978000a81f2993f3290c4120c2e",
+        "sha256": "286bfddb082ac03298f2b7e5dc86a5f7df68466f0e9b8acfe01f1dd6295d2e9d"
+      }
+    },
+    {
+      "id": "thanks-for-your-help",
+      "english": "Thanks for your help.",
+      "translation": "謝謝你的幫忙。",
+      "audio": {
+        "src": "/audio/phrases/homework-question-thanks-for-your-help.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "59cf2536c10363e6e18c38a1118cbca95d73671aa7c0e70c2693736e6c6105bc",
+        "sha256": "7c49b765469764cff87189656756db6bcbf81dd2daa106b6a3d33b9b683fdf46"
+      }
+    },
+    {
+      "id": "no-problem-at-all",
+      "english": "No problem at all.",
+      "translation": "完全沒問題。",
+      "audio": {
+        "src": "/audio/phrases/homework-question-no-problem-at-all.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "459e541a55328a0da4a83891aa930b2d58c8fbf0fc240af02ca9e3600c283ea7",
+        "sha256": "c6f64d134ae4e76e6325bf8ae4288caa4e847dafc4fce4d6e368acac77905738"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "question",
+      "english": "question",
+      "translation": "問題",
+      "example": "I have a quick question about English class.",
+      "audio": {
+        "src": "/audio/words/homework-question-question.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1f5087db919ced5c123c7f507d3fcce818cb0cf6e77c2f95a8a35e951e03fdb9",
+        "sha256": "f35962df4195065bc8e1ced364b30548c61a13e26a21258f80402085550bf07d"
+      }
+    },
+    {
+      "id": "due",
+      "english": "due",
+      "translation": "到期的；應繳交的",
+      "example": "Our homework is due tomorrow morning.",
+      "audio": {
+        "src": "/audio/words/homework-question-due.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "458a4770df2b51b57769fc806cab05bdaf02acce2edd42b90b6dd55dee1ea038",
+        "sha256": "d015870afdb5af305f62d379d26d64d7fd25cdb688e7f2dcea2b09acc6c56d79"
+      }
+    },
+    {
+      "id": "assignment",
+      "english": "assignment",
+      "translation": "作業；任務",
+      "example": "Please finish the reading assignment tonight.",
+      "audio": {
+        "src": "/audio/words/homework-question-assignment.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ce7a7c10b0dfd96808cca64c88cf5c5e13b7775283bdc924767887bfa32c8fa1",
+        "sha256": "5a4fd413aee52ddeeb341c94b016712caddc9e9c824cbde614515aa996125eee"
+      }
+    },
+    {
+      "id": "page",
+      "english": "page",
+      "translation": "頁",
+      "example": "Open your workbook to page twenty.",
+      "audio": {
+        "src": "/audio/words/homework-question-page.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3660315a9af3df255d8f19ab077e4797822b41488a0e2a04bc6af71213c23274",
+        "sha256": "15acb4f3435d9a33c525e9c3f70de756874d6dbda515cf646887daac7c6aee43"
+      }
+    },
+    {
+      "id": "problem",
+      "english": "problem",
+      "translation": "問題；困難",
+      "example": "Can you help me solve this math problem?",
+      "audio": {
+        "src": "/audio/words/homework-question-problem.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "47a49356720831b66f38bbe12c06e6cf71a67277b1f5e6a28593e73afde6f226",
+        "sha256": "c832d8a898ddc321f0a540ed03a4886ee509a42ea971fd99947aeacee337c6b6"
+      }
+    },
+    {
+      "id": "classmate",
+      "english": "classmate",
+      "translation": "同學",
+      "example": "Mia is a friendly classmate in my class.",
+      "audio": {
+        "src": "/audio/words/homework-question-classmate.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "66f9b98dde76ccbacebabd344bf5244fd6bb4a6a5ac62ababfea82d3fcc650b1",
+        "sha256": "7c52c5aa3fa7b29a8d685145023a9d439081a05c9f4e48dcc2af3d6f59267c40"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/homework-question.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "7ed18904f9afe3b1d5a2278850f6a2ee92ddd23d290903147d988561275c9946",
+    "sha256": "9375951bfbdc9aec90d2022743a778ec1e0ccc0629c029594bc9ec4350b5c5a3"
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "id": "morning-routine",
+  "title": "起床與出門",
+  "titleEn": "Morning Routine",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/morning-routine.webp",
+    "alt": "在陽光明媚的溫馨家中，小男孩 Leo 開心地起床刷牙並吃早餐，媽媽在玄關微笑提醒他穿上鞋子，準備出門上學。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "morning",
+          "wordIds": [
+            "morning"
+          ]
+        },
+        {
+          "text": " sun shines brightly into the room."
+        }
+      ],
+      "translation": "早晨的陽光燦爛地照進房間。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom comes in with a warm smile and says, “"
+        },
+        {
+          "text": "Good morning!",
+          "phraseIds": [
+            "good-morning"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "媽媽帶著溫暖的微笑走進來，說：「早安！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "She gently taps Leo and says, “"
+        },
+        {
+          "text": "It's time to get up.",
+          "phraseIds": [
+            "its-time-to-get-up"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "她輕輕拍拍 Leo 說：「該起床了。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo "
+        },
+        {
+          "text": "wakes",
+          "wordIds": [
+            "wake"
+          ]
+        },
+        {
+          "text": " up happily and brushes his "
+        },
+        {
+          "text": "teeth",
+          "wordIds": [
+            "teeth"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Leo 開心地醒來，並去刷牙。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Next, he sits down at the table to eat "
+        },
+        {
+          "text": "breakfast",
+          "wordIds": [
+            "breakfast"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "接著，他坐在餐桌旁吃早餐。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom points to the hallway and says, “"
+        },
+        {
+          "text": "Put on your ",
+          "phraseIds": [
+            "put-on-your-shoes"
+          ]
+        },
+        {
+          "text": "shoes",
+          "phraseIds": [
+            "put-on-your-shoes"
+          ],
+          "wordIds": [
+            "shoes"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "put-on-your-shoes"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "媽媽指著玄關說：「穿上你的鞋子。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo opens the front "
+        },
+        {
+          "text": "door",
+          "wordIds": [
+            "door"
+          ]
+        },
+        {
+          "text": " to go to school and calls, “"
+        },
+        {
+          "text": "See you later!",
+          "phraseIds": [
+            "see-you-later"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 打開大門準備去上學，並大聲說：「待會見！」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "good-morning",
+      "english": "Good morning!",
+      "translation": "早安！",
+      "audio": {
+        "src": "/audio/phrases/morning-routine-good-morning.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c9ebfb6f4b8e880908a737b8d770aa3a518fb6053b327720e8dcc79609c32858",
+        "sha256": "6f2b917f4d891c1fdb8638883ea0a2ba3243610ebe2270b4034287d245bd9ed4"
+      }
+    },
+    {
+      "id": "its-time-to-get-up",
+      "english": "It's time to get up.",
+      "translation": "該起床了。",
+      "audio": {
+        "src": "/audio/phrases/morning-routine-its-time-to-get-up.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a6ffab21e495b820e696c7cbac6e0433d36eace3c20d8d641e105e162c793e36",
+        "sha256": "01f59a764883f80b0992a96d921726a925d660b62a40e1ee2e0fcbc9fe917c71"
+      }
+    },
+    {
+      "id": "put-on-your-shoes",
+      "english": "Put on your shoes.",
+      "translation": "穿上你的鞋子。",
+      "audio": {
+        "src": "/audio/phrases/morning-routine-put-on-your-shoes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "32ca7eb7c9123e05f7fecce1a7b1191ffbc5b6180452e3bbc9dc22af1944c5bb",
+        "sha256": "75ad55d5f23e4774abff7c1f324dba54580ac0516d77f2151f2921a82b5b0f04"
+      }
+    },
+    {
+      "id": "see-you-later",
+      "english": "See you later!",
+      "translation": "待會見！",
+      "audio": {
+        "src": "/audio/phrases/morning-routine-see-you-later.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "47c1d6734534aed4b1591793d4e21f3d3cd915a31dc1984fb7dbb232870120d6",
+        "sha256": "db3dfdab3fa8fc82f6a3bb9c00f820f6bb1539578edfa4d329639c60875218e2"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "morning",
+      "english": "morning",
+      "translation": "早晨",
+      "example": "I like to read in the morning.",
+      "audio": {
+        "src": "/audio/words/morning-routine-morning.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c23b31a0179b550f8a18fb06bc52a26e32333540369073d646da5c84a4dc341f",
+        "sha256": "61765bc58d40df9cacd3f8ba9daca81d136c03ccc84c5da42a01c415c8a1dd44"
+      }
+    },
+    {
+      "id": "wake",
+      "english": "wake",
+      "translation": "醒來",
+      "example": "I wake up at seven every day.",
+      "audio": {
+        "src": "/audio/words/morning-routine-wake.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "51391bf0ab33e8272bcfca0d61b5ab242391822f331fe51ac5930b58da8e5b25",
+        "sha256": "ac5ed12d955a2711fdb496124d56ae3df83b3cc2b9495621a1629eba338a0554"
+      }
+    },
+    {
+      "id": "teeth",
+      "english": "teeth",
+      "translation": "牙齒",
+      "example": "Remember to brush your teeth.",
+      "audio": {
+        "src": "/audio/words/morning-routine-teeth.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c9349dabb6a092747a12efa704308b390dd3584b3efae0ee9751d3365969cbbf",
+        "sha256": "91edd8c8a0184a5b692ab62127a7e7426ca152ac2179a0e1ccc4da6327dc8d5c"
+      }
+    },
+    {
+      "id": "breakfast",
+      "english": "breakfast",
+      "translation": "早餐",
+      "example": "We eat eggs and toast for breakfast.",
+      "audio": {
+        "src": "/audio/words/morning-routine-breakfast.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7c58ea253628feed6583e78db4fd9fab131e0016ade168b4c200eb41d6aa93b1",
+        "sha256": "2d5b6f84dbb7d8681ab933f29091a84ceb078b7972d70c4607fad167eb89c070"
+      }
+    },
+    {
+      "id": "shoes",
+      "english": "shoes",
+      "translation": "鞋子",
+      "example": "He puts on his shoes before leaving.",
+      "audio": {
+        "src": "/audio/words/morning-routine-shoes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "01ea5ddd3be5477ac3eae2366fa12064615c485a541682db3e62d283241055a6",
+        "sha256": "66fb6b893b1eafa4ac64733ef6dbb81dae2bdc03f8297a096282887ba564c06a"
+      }
+    },
+    {
+      "id": "door",
+      "english": "door",
+      "translation": "門",
+      "example": "Please close the door quietly.",
+      "audio": {
+        "src": "/audio/words/morning-routine-door.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2534e2de1dec24fedab4c00266b55ba9ba60dde03a349c5b5662189dd561ba9e",
+        "sha256": "eced439903870845ad1cb32f1ee22a9caa90fc83d3fd43a1f74ea135f91b559a"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/morning-routine.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "c02da09228f3a0c575c12531e79fc69bbd9c0d5813b29d5a54dd1df4abb6b196",
+    "sha256": "827524577ff1b1c8c3ba75734e4a4182c5005df043c10575ed543433c8e942c1"
+  }
+}

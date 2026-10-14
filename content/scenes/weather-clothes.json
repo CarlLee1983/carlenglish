@@ -1,0 +1,314 @@
+{
+  "id": "weather-clothes",
+  "title": "看天氣挑衣服",
+  "titleEn": "Choosing Clothes for the Weather",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/weather-clothes.webp",
+    "alt": "在下雨的早晨，小男孩站在窗邊看著窗外的雨滴，媽媽在玄關微笑提醒，小男孩穿上黃色外套與雨靴並拿著雨傘，準備出門上學。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Leo looks out the "
+        },
+        {
+          "text": "window",
+          "wordIds": [
+            "window"
+          ]
+        },
+        {
+          "text": " on a "
+        },
+        {
+          "text": "rainy",
+          "wordIds": [
+            "rainy"
+          ]
+        },
+        {
+          "text": " morning."
+        }
+      ],
+      "translation": "在下雨的早晨，Leo 看著窗外。"
+    },
+    {
+      "segments": [
+        {
+          "text": "He looks at the raindrops and says, “"
+        },
+        {
+          "text": "Look, it is raining!",
+          "phraseIds": [
+            "look-it-is-raining"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他看著雨滴說：「看，外面下雨了！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "weather",
+          "wordIds": [
+            "weather"
+          ]
+        },
+        {
+          "text": " is cold and wet today."
+        }
+      ],
+      "translation": "今天的天氣又冷又濕。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo runs to his room and says, “"
+        },
+        {
+          "text": "I need my ",
+          "phraseIds": [
+            "i-need-my-jacket"
+          ]
+        },
+        {
+          "text": "jacket",
+          "phraseIds": [
+            "i-need-my-jacket"
+          ],
+          "wordIds": [
+            "jacket"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "i-need-my-jacket"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 跑到房間說：「我需要我的外套。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom smiles and says, “"
+        },
+        {
+          "text": "Put on your ",
+          "phraseIds": [
+            "put-on-your-boots"
+          ]
+        },
+        {
+          "text": "boots",
+          "phraseIds": [
+            "put-on-your-boots"
+          ],
+          "wordIds": [
+            "boots"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "put-on-your-boots"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "媽媽微笑著說：「穿上你的靴子。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom points to the door and says, “"
+        },
+        {
+          "text": "Don't forget your ",
+          "phraseIds": [
+            "dont-forget-your-umbrella"
+          ]
+        },
+        {
+          "text": "umbrella",
+          "phraseIds": [
+            "dont-forget-your-umbrella"
+          ],
+          "wordIds": [
+            "umbrella"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "dont-forget-your-umbrella"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "媽媽指著門口說：「別忘了帶你的雨傘。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo takes his "
+        },
+        {
+          "text": "umbrella",
+          "wordIds": [
+            "umbrella"
+          ]
+        },
+        {
+          "text": " and smiles, ready to go outside."
+        }
+      ],
+      "translation": "Leo 拿著雨傘微微笑，準備好走出家門。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "look-it-is-raining",
+      "english": "Look, it is raining!",
+      "translation": "看，外面下雨了！",
+      "audio": {
+        "src": "/audio/phrases/weather-clothes-look-it-is-raining.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "57a20fa488491d99312084727eb324bd4639bb1fd8fea33e69e5ee6a13f96a84",
+        "sha256": "73136e4f6265b96af22a77c240c488df8bc4de71a813e416e2ca4eb6278c116c"
+      }
+    },
+    {
+      "id": "i-need-my-jacket",
+      "english": "I need my jacket.",
+      "translation": "我需要我的外套。",
+      "audio": {
+        "src": "/audio/phrases/weather-clothes-i-need-my-jacket.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "80a2948c5012f164eb3e92d3af9b08f8ab204781c1e3d8c6f1780d740c18c5b5",
+        "sha256": "572d214647de583849641b4d3b34c14c22cd1f45e111b8c559b3397530e39614"
+      }
+    },
+    {
+      "id": "put-on-your-boots",
+      "english": "Put on your boots.",
+      "translation": "穿上你的靴子。",
+      "audio": {
+        "src": "/audio/phrases/weather-clothes-put-on-your-boots.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "70ad8289ef58f25055a7fc623bad7660e93862af0eb76bc33b8a03887c7e4d1e",
+        "sha256": "45ddb89f9b5c5c50a829536f6483f221117a06335fab4884fda078271aa057a9"
+      }
+    },
+    {
+      "id": "dont-forget-your-umbrella",
+      "english": "Don't forget your umbrella.",
+      "translation": "別忘了帶你的雨傘。",
+      "audio": {
+        "src": "/audio/phrases/weather-clothes-dont-forget-your-umbrella.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "372ad9470af889ed131beb40d9c0294d8c14511e78ab415a06e7b9babf7f6b76",
+        "sha256": "4eb133802dff72f0ad96138fb556b0a82df68c811addc1e094e7ee393033983a"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "window",
+      "english": "window",
+      "translation": "窗戶",
+      "example": "He looks out the window at the rain.",
+      "audio": {
+        "src": "/audio/words/weather-clothes-window.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "44ff7b02c80d38b26dd6aa31d9470aed81b32e10331a3c994fb1a9945fd847ba",
+        "sha256": "81364454644cccb19f95e70556de82e09466d09876da337ccab2990765e1f19b"
+      }
+    },
+    {
+      "id": "rainy",
+      "english": "rainy",
+      "translation": "下雨的",
+      "example": "I like to stay home on a rainy day.",
+      "audio": {
+        "src": "/audio/words/weather-clothes-rainy.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7b9e10dfed0288d691f7de746a218238c7c9a2d614745c366dea971cae091753",
+        "sha256": "6b90c02e5938e9828aac05f9780daeba7b6408ab18179f781b002b9b08f38299"
+      }
+    },
+    {
+      "id": "weather",
+      "english": "weather",
+      "translation": "天氣",
+      "example": "The weather is cold and wet today.",
+      "audio": {
+        "src": "/audio/words/weather-clothes-weather.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e5e72beb4e3c6926d3dc9e3e2ef7833ba50cd919c2460a782b244fd071e920de",
+        "sha256": "18541152783005f721ff32badaa3d6da8907fa1bbb9eee12d98555a1c471103f"
+      }
+    },
+    {
+      "id": "jacket",
+      "english": "jacket",
+      "translation": "外套",
+      "example": "Put on your jacket before going out.",
+      "audio": {
+        "src": "/audio/words/weather-clothes-jacket.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "554f4d3dafc80844871aa1654e0a7af8c15ff07f5b6a53b5a7de79324747c6dc",
+        "sha256": "603b3d2ec1edd8a35ac0f3e7d9d847faa315e7f92cc3d787de98a644bac0a057"
+      }
+    },
+    {
+      "id": "boots",
+      "english": "boots",
+      "translation": "靴子",
+      "example": "She wears red boots in the rain.",
+      "audio": {
+        "src": "/audio/words/weather-clothes-boots.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "40cafc18e93464f86d5d304e726df74311237955bcf7d99909bcef3f0bcb90bb",
+        "sha256": "80cc2debe57468cf040343fa7037f1278ed17b12d09824652bf7d49fdb4525b2"
+      }
+    },
+    {
+      "id": "umbrella",
+      "english": "umbrella",
+      "translation": "雨傘",
+      "example": "I take an umbrella on rainy days.",
+      "audio": {
+        "src": "/audio/words/weather-clothes-umbrella.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2974744982f08b2077515f1e0dd62fd94b70d805831c994ad0a55b187ecdd1f9",
+        "sha256": "a2f041c4620c097057052c21a1c91d28ebf09551543c43147d11c8866701eab5"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/weather-clothes.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "fdd8bf9af69dec481d22cbf053b7212d7d2fe3b4718ac88f9b6de19d266d9214",
+    "sha256": "73cab843b774e3005c17bbfc1910d0020251f826edd88d40af8e1a8171192c2b"
+  }
+}

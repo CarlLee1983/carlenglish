@@ -1,0 +1,341 @@
+{
+  "id": "library-borrowing",
+  "title": "圖書館借書",
+  "titleEn": "Borrowing a Book at the Library",
+  "category": "學習與探索",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/library-borrowing.webp",
+    "alt": "在溫馨明亮的社區圖書館裡，小男孩站在整齊的木質書架前挑選繪本，櫃臺後的圖書館員面帶微笑為他辦理借書手續。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Toby walks into the neighborhood "
+        },
+        {
+          "text": "library",
+          "wordIds": [
+            "library"
+          ]
+        },
+        {
+          "text": " with his mother."
+        }
+      ],
+      "translation": "Toby 和媽媽一起走進社區圖書館。"
+    },
+    {
+      "segments": [
+        {
+          "text": "A sign on the wall says, “"
+        },
+        {
+          "text": "Please be quiet in the ",
+          "phraseIds": [
+            "please-be-quiet-in-the-library"
+          ]
+        },
+        {
+          "text": "library",
+          "phraseIds": [
+            "please-be-quiet-in-the-library"
+          ],
+          "wordIds": [
+            "library"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "please-be-quiet-in-the-library"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "牆上的標語寫著：「在圖書館裡請保持安靜。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "He looks at the tall "
+        },
+        {
+          "text": "shelf",
+          "wordIds": [
+            "shelf"
+          ]
+        },
+        {
+          "text": " to find a fun story."
+        }
+      ],
+      "translation": "他看著高高的書架，想找一本有趣的故事書。"
+    },
+    {
+      "segments": [
+        {
+          "text": "He finds a picture "
+        },
+        {
+          "text": "book",
+          "wordIds": [
+            "book"
+          ]
+        },
+        {
+          "text": " about animals that he wants to "
+        },
+        {
+          "text": "read",
+          "wordIds": [
+            "read"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他找到一本想讀的動物繪本。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Toby walks to the "
+        },
+        {
+          "text": "librarian",
+          "wordIds": [
+            "librarian"
+          ]
+        },
+        {
+          "text": " and asks, “"
+        },
+        {
+          "text": "Can I borrow this ",
+          "phraseIds": [
+            "can-i-borrow-this-book"
+          ]
+        },
+        {
+          "text": "book",
+          "phraseIds": [
+            "can-i-borrow-this-book"
+          ],
+          "wordIds": [
+            "book"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "can-i-borrow-this-book"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Toby 走向圖書館員並問：「我可以借這本書嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "He smiles and says, “"
+        },
+        {
+          "text": "Here is my library ",
+          "phraseIds": [
+            "here-is-my-library-card"
+          ]
+        },
+        {
+          "text": "card",
+          "phraseIds": [
+            "here-is-my-library-card"
+          ],
+          "wordIds": [
+            "card"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "here-is-my-library-card"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他微笑著說：「這是我的借書證。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "librarian",
+          "wordIds": [
+            "librarian"
+          ]
+        },
+        {
+          "text": " stamps the "
+        },
+        {
+          "text": "book",
+          "wordIds": [
+            "book"
+          ]
+        },
+        {
+          "text": " and says, “"
+        },
+        {
+          "text": "Enjoy your reading!",
+          "phraseIds": [
+            "enjoy-your-reading"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "圖書館員在書上蓋章並說：「祝你閱讀愉快！」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "can-i-borrow-this-book",
+      "english": "Can I borrow this book?",
+      "translation": "我可以借這本書嗎？",
+      "audio": {
+        "src": "/audio/phrases/library-borrowing-can-i-borrow-this-book.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2191058d4e47ca752c354c280a1dc3aabe2baed82822916606c3bc150eb89f97",
+        "sha256": "596efdd8ebb70ca56ad46f1baab834bc95f8172eb1e0cce5660609e9578b8e72"
+      }
+    },
+    {
+      "id": "please-be-quiet-in-the-library",
+      "english": "Please be quiet in the library.",
+      "translation": "在圖書館裡請保持安靜。",
+      "audio": {
+        "src": "/audio/phrases/library-borrowing-please-be-quiet-in-the-library.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "75eedb544b79c01e95e91f8fa69b270dbd93fed46ac1f8fb62a7c341d4fdf317",
+        "sha256": "892ed92ad1d36e6915100d2bc1de9331a9a59050e4e051128241bd70168d4385"
+      }
+    },
+    {
+      "id": "here-is-my-library-card",
+      "english": "Here is my library card.",
+      "translation": "這是我的借書證。",
+      "audio": {
+        "src": "/audio/phrases/library-borrowing-here-is-my-library-card.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "593a9844f6b9ebad650fd84982655d50b80d488cf39be740f4887b3ac5b8966a",
+        "sha256": "68f4a32295c0b7448451b4f41f75906114b481062a9c45adce64d78e93e0bcf2"
+      }
+    },
+    {
+      "id": "enjoy-your-reading",
+      "english": "Enjoy your reading!",
+      "translation": "祝你閱讀愉快！",
+      "audio": {
+        "src": "/audio/phrases/library-borrowing-enjoy-your-reading.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3d8dbfae8f48eafda356c9df520f861c92323edcbbb3302966974de1300c4360",
+        "sha256": "1e0b43ba7ae342a828a4184ed15a4688561b31eab3ddf8cb4bb5ba1fe9ea6117"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "book",
+      "english": "book",
+      "translation": "書本",
+      "example": "This is a fun picture book.",
+      "audio": {
+        "src": "/audio/words/library-borrowing-book.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "92719fe0cf8cd51592af31ee8a5736d79f7273777fa3f7b70bfe993a4cd32180",
+        "sha256": "38204a4c0624b0488dca636ffb5bdad9363d3c795c8989ce4178addd1c160157"
+      }
+    },
+    {
+      "id": "library",
+      "english": "library",
+      "translation": "圖書館",
+      "example": "We read stories at the library.",
+      "audio": {
+        "src": "/audio/words/library-borrowing-library.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b718f1354f7247312eca086d9a024afe5fa717ddea5adeddd6f12bcf945b2e8c",
+        "sha256": "5b3760e48fd02fad97fc90721948e5093665a6ab734f8e2fbacd900d6bf8163e"
+      }
+    },
+    {
+      "id": "shelf",
+      "english": "shelf",
+      "translation": "書架",
+      "example": "The books are on the shelf.",
+      "audio": {
+        "src": "/audio/words/library-borrowing-shelf.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3eefa42d52064c480030a45d5813c250a9d15aeb1e6296eae68ca401e6bb1e6f",
+        "sha256": "1cdfd0d00d6d2abffee0ee6df6156892a34959f1e1cc3fb15c83499188d4124e"
+      }
+    },
+    {
+      "id": "card",
+      "english": "card",
+      "translation": "卡片；證件",
+      "example": "Keep your library card safe.",
+      "audio": {
+        "src": "/audio/words/library-borrowing-card.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8367cd66fdd136bba8ba23f8805bb050dd6289401c8ec3b0be44a3c233eef90d",
+        "sha256": "1db92de81d5d7d1f3370674b53f2888ad3b221d4964e3d5ec08a653cd8699cfe"
+      }
+    },
+    {
+      "id": "librarian",
+      "english": "librarian",
+      "translation": "圖書館員",
+      "example": "The librarian helps us find books.",
+      "audio": {
+        "src": "/audio/words/library-borrowing-librarian.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2c445e1c04df4e247c2089245b68fc811f728f7d30ff14a6d64a4faac58e6270",
+        "sha256": "5b4a8e04d2a60a7dd51b4c7fc5cb927b94510a2e51b5c4dde66e691b9e703501"
+      }
+    },
+    {
+      "id": "read",
+      "english": "read",
+      "translation": "閱讀",
+      "example": "I like to read with my mom.",
+      "audio": {
+        "src": "/audio/words/library-borrowing-read.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3316348dbadfb7b11c7c2ea235949419e23f9fa898ad2c198f999617912a9925",
+        "sha256": "da9c3c15f19f2523fd68eba50413cec100e51b7b81d32d792ec1f8ce8e0f7a17"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/library-borrowing.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "5b5893fcc1d9fbfe9dbba1b2262e9d646cadeafe42e3c760d27a92d358041717",
+    "sha256": "e62d5cbaa469a0eaecdd3c37d855864ff131f37ae5be33379a6b3277b9f11c4f"
+  }
+}

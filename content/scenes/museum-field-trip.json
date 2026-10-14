@@ -1,0 +1,299 @@
+{
+  "id": "museum-field-trip",
+  "title": "校外參訪博物館",
+  "titleEn": "Museum Field Trip",
+  "category": "校外學習",
+  "level": "中級",
+  "image": {
+    "src": "/images/scenes/museum-field-trip.webp",
+    "alt": "一群國中生在挑高的歷史博物館大廳集合，學生們拿著筆記本記錄展品解說，周圍陳列著古文明陶器與石雕展櫃，氣氛熱絡專注。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Today, our class arrives at the "
+        },
+        {
+          "text": "history",
+          "wordIds": [
+            "history"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "museum",
+          "wordIds": [
+            "museum"
+          ]
+        },
+        {
+          "text": " for an exciting field trip."
+        }
+      ],
+      "translation": "今天，我們班來到歷史博物館進行令人興奮的校外教學。"
+    },
+    {
+      "segments": [
+        {
+          "text": "A friendly museum "
+        },
+        {
+          "text": "guide",
+          "wordIds": [
+            "guide"
+          ]
+        },
+        {
+          "text": " welcomes our "
+        },
+        {
+          "text": "group",
+          "wordIds": [
+            "group"
+          ]
+        },
+        {
+          "text": " at the entrance and gives us maps."
+        }
+      ],
+      "translation": "一位親切的博物館導覽員在門口迎接我們這組，並發給大家地圖。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Before we explore the galleries, Mr. Chen reminds us, “"
+        },
+        {
+          "text": "Take some ",
+          "phraseIds": [
+            "take-some-notes"
+          ]
+        },
+        {
+          "text": "notes",
+          "phraseIds": [
+            "take-some-notes"
+          ],
+          "wordIds": [
+            "note"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "take-some-notes"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "在我們探索展廳之前，陳老師提醒大家：「做些筆記。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Inside the ancient hall, Leo points to a glass case and whispers, “"
+        },
+        {
+          "text": "Look at this ",
+          "phraseIds": [
+            "look-at-this-exhibit"
+          ]
+        },
+        {
+          "text": "exhibit",
+          "phraseIds": [
+            "look-at-this-exhibit"
+          ],
+          "wordIds": [
+            "exhibit"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "look-at-this-exhibit"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "在古代展廳裡，Leo 指著玻璃櫃悄悄說：「看這個展覽品。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "We admire a rare gold bowl from thousands of years ago and write down facts about it."
+        }
+      ],
+      "translation": "我們欣賞著一件數千年前的珍貴黃金碗，並記錄下關於它的歷史資訊。"
+    },
+    {
+      "segments": [
+        {
+          "text": "As lunchtime approaches, Emily raises her hand and asks, “"
+        },
+        {
+          "text": "Where should we meet?",
+          "phraseIds": [
+            "where-should-we-meet"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "午餐時間快到了，Emily 舉手問道：「我們應該在哪裡集合？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mr. Chen smiles and announces, “By the main gate at noon. "
+        },
+        {
+          "text": "Don't be late.",
+          "phraseIds": [
+            "dont-be-late"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "陳老師微笑著宣布：「中午在正門口集合。別遲到。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "where-should-we-meet",
+      "english": "Where should we meet?",
+      "translation": "我們應該在哪裡集合？",
+      "audio": {
+        "src": "/audio/phrases/museum-field-trip-where-should-we-meet.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bc0cb40bf0b72095d77b76c4883edbbf250526655e80c62cbdf4f7ae2e886a63",
+        "sha256": "5063a46a02a2a19f34889c1c7770bfb51ed702e102441e2e160378fd8b9b7a90"
+      }
+    },
+    {
+      "id": "look-at-this-exhibit",
+      "english": "Look at this exhibit.",
+      "translation": "看這個展覽品。",
+      "audio": {
+        "src": "/audio/phrases/museum-field-trip-look-at-this-exhibit.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "39473f5dd9a0c2319b8df7ebd9b6bf4d987f5c4ff783760b28b7ab936a37380d",
+        "sha256": "d4f29d36aec95b4839515f78138709afa2dc1c51392232b18cda35a217939d79"
+      }
+    },
+    {
+      "id": "take-some-notes",
+      "english": "Take some notes.",
+      "translation": "做些筆記。",
+      "audio": {
+        "src": "/audio/phrases/museum-field-trip-take-some-notes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "197978a80f02f7fc65cf5a1b7439baa6e79dcad596ecd749bba466e8f2c04ec7",
+        "sha256": "40348792673d0232412d79192114951928fd84a850bea46d08a2976fd9a6aa34"
+      }
+    },
+    {
+      "id": "dont-be-late",
+      "english": "Don't be late.",
+      "translation": "別遲到。",
+      "audio": {
+        "src": "/audio/phrases/museum-field-trip-dont-be-late.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "71e186ede45032aafa986b41b971ba1c087938f15c53a9a0f84dbab18f407372",
+        "sha256": "373f7e1c4edf87da53a2411a1b8846852ac68f15f79e29338442d30f8502fe34"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "museum",
+      "english": "museum",
+      "translation": "博物館",
+      "example": "We visited the history museum with our class.",
+      "audio": {
+        "src": "/audio/words/museum-field-trip-museum.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4919063719e8c3888b72036e074572cd6669e872a47cfb7f987a173a2e6f27b5",
+        "sha256": "2208240e9afd6a2d4b7a907308ffe141478acf04f03d07a7b2cb99e464e9b796"
+      }
+    },
+    {
+      "id": "exhibit",
+      "english": "exhibit",
+      "translation": "展覽品；展出物",
+      "example": "This ancient exhibit is more than two thousand years old.",
+      "audio": {
+        "src": "/audio/words/museum-field-trip-exhibit.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2cc7e7e9e251522b627ad31967ed5823d3a235fbd8f7020c65dec7a62699c00b",
+        "sha256": "5d89cf7ba3cda8e02293d022db1db4f420685bc6881c2f187bfcf4f18546652b"
+      }
+    },
+    {
+      "id": "guide",
+      "english": "guide",
+      "translation": "導覽員；導遊",
+      "example": "The museum guide told us interesting stories about the artifacts.",
+      "audio": {
+        "src": "/audio/words/museum-field-trip-guide.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "83ca68be6227af2feb15f227485ed18aff8ecae99416a4bd6df3be1b5e8059b4",
+        "sha256": "6ec3a4d2c7ea5fe16aed6ca7e48d3bad9e53972f1a6fd50086048a1ae5e98d49"
+      }
+    },
+    {
+      "id": "group",
+      "english": "group",
+      "translation": "小組；團隊",
+      "example": "Please stay with your group during the tour.",
+      "audio": {
+        "src": "/audio/words/museum-field-trip-group.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ad936fcbed631fa67e05c3ea03953905221c9d46af0616b70badf105a966fb11",
+        "sha256": "5fc0bcebb691287a268eb0e52bc30bfeac331b8530c00d5c6041eaaa850f679f"
+      }
+    },
+    {
+      "id": "history",
+      "english": "history",
+      "translation": "歷史",
+      "example": "Learning history helps us understand the world today.",
+      "audio": {
+        "src": "/audio/words/museum-field-trip-history.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "259aa8ef98a8b91de574cd904138ef643240c23080cf24da4793a6f10a43fa9d",
+        "sha256": "6bcf04632d00dac1ff927b2bc17556ae7619e93861971d75573c9c39d363863b"
+      }
+    },
+    {
+      "id": "note",
+      "english": "note",
+      "translation": "筆記；記錄",
+      "example": "She wrote an important note in her workbook.",
+      "audio": {
+        "src": "/audio/words/museum-field-trip-note.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "edb465624291e4053c6c5ea4b7eb320dec773e10a57d26b95dcf0564f8e310f8",
+        "sha256": "3e6ba46332703800b7fca7bea4d03ed08729ea03fc84a270eb6b60517ac7c0e5"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/museum-field-trip.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "728baa21568827e67e687fd3f2db86e813274f52f5bf84521145be64b1d31e3c",
+    "sha256": "e7e8c675889ffa132261e3cfd4b295b9f3f615b631c66a36186f3568eea306ff"
+  }
+}

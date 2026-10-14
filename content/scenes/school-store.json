@@ -1,0 +1,323 @@
+{
+  "id": "school-store",
+  "title": "在福利社買點心",
+  "titleEn": "Buying Snacks at the School Store",
+  "category": "校園生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/school-store.webp",
+    "alt": "下課時間熱鬧的校園福利社裡，男學生在櫃檯前拿著點心與果汁準備結帳，店員在收銀機旁親切微笑服務。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "During the break, Kevin walks into the school "
+        },
+        {
+          "text": "store",
+          "wordIds": [
+            "store"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "下課時間，Kevin 走進學校福利社。"
+    },
+    {
+      "segments": [
+        {
+          "text": "He is hungry and asks the clerk, “"
+        },
+        {
+          "text": "Can I get a ",
+          "phraseIds": [
+            "can-i-get-a-snack"
+          ]
+        },
+        {
+          "text": "snack",
+          "phraseIds": [
+            "can-i-get-a-snack"
+          ],
+          "wordIds": [
+            "snack"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "can-i-get-a-snack"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他肚子餓了，便問店員：「我可以買個點心嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "After choosing a bun, Kevin asks, “"
+        },
+        {
+          "text": "Where are the drinks?",
+          "phraseIds": [
+            "where-are-the-drinks"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "挑好一個麵包後，Kevin 問道：「飲料在哪裡？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "He finds a cold "
+        },
+        {
+          "text": "bottle",
+          "wordIds": [
+            "bottle"
+          ]
+        },
+        {
+          "text": " in the fridge and asks, “"
+        },
+        {
+          "text": "How much is this ",
+          "phraseIds": [
+            "how-much-is-this-juice"
+          ]
+        },
+        {
+          "text": "juice",
+          "phraseIds": [
+            "how-much-is-this-juice"
+          ],
+          "wordIds": [
+            "juice"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "how-much-is-this-juice"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他在冰箱裡拿了一瓶冰涼的飲料，並問：「這瓶果汁多少錢？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“The "
+        },
+        {
+          "text": "price",
+          "wordIds": [
+            "price"
+          ]
+        },
+        {
+          "text": " is thirty dollars,” the clerk answers with a smile."
+        }
+      ],
+      "translation": "店員微笑著回答：「價格是三十元。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Kevin hands her a fifty-dollar coin and says, “"
+        },
+        {
+          "text": "Keep the ",
+          "phraseIds": [
+            "keep-the-change"
+          ]
+        },
+        {
+          "text": "change",
+          "phraseIds": [
+            "keep-the-change"
+          ],
+          "wordIds": [
+            "change"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "keep-the-change"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Kevin 遞給她一枚五十元硬幣並說：「不用找零了。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The clerk laughs, gives him twenty dollars, and says, “Take your "
+        },
+        {
+          "text": "change",
+          "wordIds": [
+            "change"
+          ]
+        },
+        {
+          "text": " and enjoy your "
+        },
+        {
+          "text": "snack",
+          "wordIds": [
+            "snack"
+          ]
+        },
+        {
+          "text": "!”"
+        }
+      ],
+      "translation": "店員笑著找給他二十元，並說：「收下你的零錢，好好享用點心吧！」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "how-much-is-this-juice",
+      "english": "How much is this juice?",
+      "translation": "這瓶果汁多少錢？",
+      "audio": {
+        "src": "/audio/phrases/school-store-how-much-is-this-juice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1d3350f1a61892d346526233cec015a90d22eadf0a58f93213a56181ab2bb0b4",
+        "sha256": "080d8071061155cbe8092dda323c82040c5b4fd9e550a3edf1d2f0a4c18bcfc6"
+      }
+    },
+    {
+      "id": "can-i-get-a-snack",
+      "english": "Can I get a snack?",
+      "translation": "我可以買個點心嗎？",
+      "audio": {
+        "src": "/audio/phrases/school-store-can-i-get-a-snack.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6677017d745f8a7fcf9719dbf939d342667d0e78badfc771a2080889287a565d",
+        "sha256": "b82ffac63fff449093715fa2814ef466607266afb389eb78f9298355c52d7274"
+      }
+    },
+    {
+      "id": "keep-the-change",
+      "english": "Keep the change.",
+      "translation": "不用找零了。",
+      "audio": {
+        "src": "/audio/phrases/school-store-keep-the-change.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dcf90a5edab64f5b886ab9a7a0149fec399bf2f09560a8b6f33cc965fa27e3b6",
+        "sha256": "1e8025ff635f754becebd38ff98f0f1eebb27f8c7ec206b99164b06a79149c6f"
+      }
+    },
+    {
+      "id": "where-are-the-drinks",
+      "english": "Where are the drinks?",
+      "translation": "飲料在哪裡？",
+      "audio": {
+        "src": "/audio/phrases/school-store-where-are-the-drinks.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4fe5ffed532212d22f3401a19c452f965e7a4633435e3b78cb2ebca69920d5d2",
+        "sha256": "adb09870ccf260c235d4f40249c5abf8836319b33181679068ecd334841baf7c"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "store",
+      "english": "store",
+      "translation": "福利社；商店",
+      "example": "The school store is crowded during the break.",
+      "audio": {
+        "src": "/audio/words/school-store-store.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "824d80d71985f082a26997a8db88b5d1dd45b777d73585d03d236303e21bde97",
+        "sha256": "173a8faed9ffb22385c59b786a586d27b39a4631087dff4e6a65c1c434d7649c"
+      }
+    },
+    {
+      "id": "snack",
+      "english": "snack",
+      "translation": "點心；零食",
+      "example": "He likes to eat a snack after school.",
+      "audio": {
+        "src": "/audio/words/school-store-snack.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ff488ab8733e4c47df71b83349a8479186fbc6bbc7074355b16583f016ee16f0",
+        "sha256": "be25da83af3d35bef2b27e65bc6104a42cbd47b7619ff516dc36585bb4a81d29"
+      }
+    },
+    {
+      "id": "juice",
+      "english": "juice",
+      "translation": "果汁",
+      "example": "Fresh orange juice is sweet and delicious.",
+      "audio": {
+        "src": "/audio/words/school-store-juice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a5ad895656074bb12930374348bf903460016bcf430bf7039d7e34f0c505a7b1",
+        "sha256": "4d833aa06dcf1e7c708a9cdf8503bc9f73b00927fe924aa6b559188e7e1a8394"
+      }
+    },
+    {
+      "id": "price",
+      "english": "price",
+      "translation": "價格",
+      "example": "What is the price of this notebook?",
+      "audio": {
+        "src": "/audio/words/school-store-price.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "683b531f41ec88a2f345b727afe59757b73162a340a65c86bba62866f8fe556c",
+        "sha256": "3392ab07cfb3444445ef26ae0b5546c1ac563b2204e148eeede8b90943efca02"
+      }
+    },
+    {
+      "id": "change",
+      "english": "change",
+      "translation": "零錢；找零",
+      "example": "Don't forget to take your change from the counter.",
+      "audio": {
+        "src": "/audio/words/school-store-change.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51",
+        "sha256": "b0a4a233c7049d52830fcb14101bab418889537c7280a094e6243a5949aa6d0d"
+      }
+    },
+    {
+      "id": "bottle",
+      "english": "bottle",
+      "translation": "瓶子；一瓶",
+      "example": "She drank a cold bottle of water.",
+      "audio": {
+        "src": "/audio/words/school-store-bottle.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7def9c79e5be6d7a70022168b8b099ce1e707a2fd809a60fab73de6de578884b",
+        "sha256": "ab70d0e9359e26ac5225062379f3b8a47b193a63ddafa4c4afac65927442d3d1"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/school-store.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "fc06cd3bbac397f5d563368c7bc72d7ef00b82d2ddb76c0c00815b696f23d560",
+    "sha256": "144d868fcf5bb16cb508f4e4afabbf8c32e10d06acc0dfc0b39819378dbd4d85"
+  }
+}

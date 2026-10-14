@@ -1,0 +1,293 @@
+{
+  "id": "volunteer-day",
+  "title": "參加志工活動",
+  "titleEn": "Volunteer Day in the Community",
+  "category": "社會參與",
+  "level": "進階",
+  "image": {
+    "src": "/images/scenes/volunteer-day.webp",
+    "alt": "週六早晨的陽光灑在社區步道上，幾位高中生志工戴著手套、拿著夾子與回收袋，並肩協作清理垃圾並分類寶特瓶，展現充滿活力的團隊合作精神。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "On Saturday morning, high school students gather in the park to "
+        },
+        {
+          "text": "volunteer",
+          "wordIds": [
+            "volunteer"
+          ]
+        },
+        {
+          "text": " for their local "
+        },
+        {
+          "text": "community",
+          "wordIds": [
+            "community"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "週六早晨，高中生們在公園集合，為當地的社區擔任志工。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Meeting the organizer, Leo waves with a warm smile and says, “"
+        },
+        {
+          "text": "We are glad to be here.",
+          "phraseIds": [
+            "we-are-glad-to-be-here"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "見到主辦人時，Leo 帶著溫暖的微笑揮手並說：「我們很高興能來到這裡。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "He puts on sturdy work gloves and asks, “"
+        },
+        {
+          "text": "How can I help?",
+          "phraseIds": [
+            "how-can-i-help"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他戴上結實的工作手套並詢問：「我該如何幫忙？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo teams up with a "
+        },
+        {
+          "text": "partner",
+          "wordIds": [
+            "partner"
+          ]
+        },
+        {
+          "text": " and says, “"
+        },
+        {
+          "text": "Let's ",
+          "phraseIds": [
+            "lets-collect-the-bottles"
+          ]
+        },
+        {
+          "text": "collect",
+          "phraseIds": [
+            "lets-collect-the-bottles"
+          ],
+          "wordIds": [
+            "collect"
+          ]
+        },
+        {
+          "text": " the bottles.",
+          "phraseIds": [
+            "lets-collect-the-bottles"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 與一位夥伴組隊，並說：「我們來收集瓶子吧。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "They pick up discarded trash along the paths to "
+        },
+        {
+          "text": "recycle",
+          "wordIds": [
+            "recycle"
+          ]
+        },
+        {
+          "text": " plastic containers properly."
+        }
+      ],
+      "translation": "他們沿著步道撿起被丟棄的垃圾，妥善回收塑膠容器。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Looking at the tidy walkways, the coordinator shouts, “"
+        },
+        {
+          "text": "Great teamwork everyone!",
+          "phraseIds": [
+            "great-teamwork-everyone"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "看著整潔的步道，協調員高喊：「大家團隊合作太棒了！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Walking home with new friends, Leo feels "
+        },
+        {
+          "text": "proud",
+          "wordIds": [
+            "proud"
+          ]
+        },
+        {
+          "text": " of making his neighborhood a better place."
+        }
+      ],
+      "translation": "與新朋友們一起走回家時，Leo 為讓自己的社區變得更美好而感到驕傲。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "how-can-i-help",
+      "english": "How can I help?",
+      "translation": "我該如何幫忙？",
+      "audio": {
+        "src": "/audio/phrases/volunteer-day-how-can-i-help.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4d35ea21b30d114140bb2b6bbefc7d60c9d1f7be18e78b05201c79ecfc5f84f1",
+        "sha256": "c7dafd84f9c337e930bbfd8eeb5a5ce98dc4ac426f1054f6452d8d5ddccea4c4"
+      }
+    },
+    {
+      "id": "we-are-glad-to-be-here",
+      "english": "We are glad to be here.",
+      "translation": "我們很高興能來到這裡。",
+      "audio": {
+        "src": "/audio/phrases/volunteer-day-we-are-glad-to-be-here.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a55ae568527ff968b82f5b8426a8d5797231d3360f210390e5b84d729ad2d8da",
+        "sha256": "f2d9100cbf99ecd60a0d252a4cc2475fae8213df9cf8bdd522624bf4068d6f8f"
+      }
+    },
+    {
+      "id": "lets-collect-the-bottles",
+      "english": "Let's collect the bottles.",
+      "translation": "我們來收集瓶子吧。",
+      "audio": {
+        "src": "/audio/phrases/volunteer-day-lets-collect-the-bottles.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cae8057d5e6f191345d42074d1ac9b2e8b16883b72580f407d890515ff8abc9d",
+        "sha256": "d195098dd9b74df2fad1fd3d55082324b0b9c8219921e2894e4f59f55102e168"
+      }
+    },
+    {
+      "id": "great-teamwork-everyone",
+      "english": "Great teamwork everyone!",
+      "translation": "大家團隊合作太棒了！",
+      "audio": {
+        "src": "/audio/phrases/volunteer-day-great-teamwork-everyone.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d4a38dead4e933c47ec83e4e89e98699fa2fa9327edb4e37965a98aad8659e01",
+        "sha256": "d97bd586ea6118b20ee0e91abb530bb5236b49d34c19072e5e106f64d646abcd"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "volunteer",
+      "english": "volunteer",
+      "translation": "當志工、志願者",
+      "example": "Many students volunteer at the animal shelter on weekends.",
+      "audio": {
+        "src": "/audio/words/volunteer-day-volunteer.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dcbb0f3cafb30402d5ed4cb826e000bcae930c7ce60763e0458665150dffa879",
+        "sha256": "e23c8ffe0b30c2f25f43a4247a41e6acf80cc1fa237ccc25c3fb1913dd74d0c3"
+      }
+    },
+    {
+      "id": "community",
+      "english": "community",
+      "translation": "社區、群體",
+      "example": "Our community organized an event to clean the local river.",
+      "audio": {
+        "src": "/audio/words/volunteer-day-community.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f354ee99e2bc863ce19d80b843353476394ebc3530a51c9290d629065bacc3b3",
+        "sha256": "1118418d744476ee861baa5a80837e094dffbd0794a82a05d5e5706b04ab7ade"
+      }
+    },
+    {
+      "id": "collect",
+      "english": "collect",
+      "translation": "收集、聚集",
+      "example": "We collect reusable items to reduce waste.",
+      "audio": {
+        "src": "/audio/words/volunteer-day-collect.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "81824c90f8a5276bc87ecd88f9a5903277a636589a38f6bbc34a2b991fb2a095",
+        "sha256": "afcfa06737988f0b2945c38e5bf87aab316859ee00ac05fb268f67cfbfcefd51"
+      }
+    },
+    {
+      "id": "recycle",
+      "english": "recycle",
+      "translation": "回收利用",
+      "example": "Remember to recycle clean plastic bottles after lunch.",
+      "audio": {
+        "src": "/audio/words/volunteer-day-recycle.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ef5988103d7b93b73646abbb5aed1a42975d3c3885c264826fff7ca9b7fee6f6",
+        "sha256": "150eba30c112cae8ab49e2ab2394ff235dd1b0759bf901ab1092cfa1484df51c"
+      }
+    },
+    {
+      "id": "partner",
+      "english": "partner",
+      "translation": "搭檔、夥伴",
+      "example": "Work with a partner to finish the science project.",
+      "audio": {
+        "src": "/audio/words/volunteer-day-partner.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7f3fa48ca885678134842fa7456f3ece53a97f843b610185d900ac4e467c7490",
+        "sha256": "2889ca861cd4581afe2b4d6379e057cb69c1a88447bcd57e92bfcbdc737e80ec"
+      }
+    },
+    {
+      "id": "proud",
+      "english": "proud",
+      "translation": "感到自豪的、驕傲的",
+      "example": "She felt proud after finishing her first marathon.",
+      "audio": {
+        "src": "/audio/words/volunteer-day-proud.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d069c85283b98c2c0ca831cb4fd19356e98813b5d0ee31e7b7a4a894e8aca23c",
+        "sha256": "0cd325aaa8a0c696f2c807f1086d9eb2fa6cf82779e370add7d5687f9cf88f0a"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/volunteer-day.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "7e26003ccf1ebd5117f5b52e087f2c8ff7284a897275a671df1491f4fb113967",
+    "sha256": "22ddd12d89736b701cf53184b5bab11310b28566786aff01002612ad7a5391e4"
+  }
+}

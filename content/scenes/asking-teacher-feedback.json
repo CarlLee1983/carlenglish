@@ -1,0 +1,332 @@
+{
+  "id": "asking-teacher-feedback",
+  "title": "向老師請教",
+  "titleEn": "Asking the Teacher for Feedback",
+  "category": "學習與合作",
+  "level": "中級",
+  "image": {
+    "src": "/images/scenes/asking-teacher-feedback.webp",
+    "alt": "放學後的教室裡，一名國中學生站在講桌前向老師請教作文批改意見，老師面帶微笑拿著作文紙親切地指著段落給予建議。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "After class, Kevin stays in the classroom to talk to his English "
+        },
+        {
+          "text": "teacher",
+          "wordIds": [
+            "teacher"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "下課後，Kevin 留在教室裡找他的英文老師談談。"
+    },
+    {
+      "segments": [
+        {
+          "text": "He looks at the helpful "
+        },
+        {
+          "text": "feedback",
+          "wordIds": [
+            "feedback"
+          ]
+        },
+        {
+          "text": " written on his "
+        },
+        {
+          "text": "essay",
+          "wordIds": [
+            "essay"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他看著寫在他作文上很有幫助的批改意見。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Kevin points to a note and asks, “"
+        },
+        {
+          "text": "Could you ",
+          "phraseIds": [
+            "could-you-explain-this-part"
+          ]
+        },
+        {
+          "text": "explain",
+          "phraseIds": [
+            "could-you-explain-this-part"
+          ],
+          "wordIds": [
+            "explain"
+          ]
+        },
+        {
+          "text": " this part?",
+          "phraseIds": [
+            "could-you-explain-this-part"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Kevin 指著一段評語問道：「您可以解釋這部分嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "He wants to do better and asks, “"
+        },
+        {
+          "text": "How can I ",
+          "phraseIds": [
+            "how-can-i-improve-my-writing"
+          ]
+        },
+        {
+          "text": "improve",
+          "phraseIds": [
+            "how-can-i-improve-my-writing"
+          ],
+          "wordIds": [
+            "improve"
+          ]
+        },
+        {
+          "text": " my writing?",
+          "phraseIds": [
+            "how-can-i-improve-my-writing"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他想寫得更好，便問道：「我該如何改進我的寫作呢？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "teacher",
+          "wordIds": [
+            "teacher"
+          ]
+        },
+        {
+          "text": " gives him clear "
+        },
+        {
+          "text": "advice",
+          "wordIds": [
+            "advice"
+          ]
+        },
+        {
+          "text": " on organizing his main ideas."
+        }
+      ],
+      "translation": "老師就如何組織主要論點給了他明確的建議。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Kevin smiles and says, “"
+        },
+        {
+          "text": "Thank you for the ",
+          "phraseIds": [
+            "thank-you-for-the-advice"
+          ]
+        },
+        {
+          "text": "advice",
+          "phraseIds": [
+            "thank-you-for-the-advice"
+          ],
+          "wordIds": [
+            "advice"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "thank-you-for-the-advice"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Kevin 微笑著說：「謝謝您的建議。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "teacher",
+          "wordIds": [
+            "teacher"
+          ]
+        },
+        {
+          "text": " smiles back and encourages him, “"
+        },
+        {
+          "text": "Keep up the good work.",
+          "phraseIds": [
+            "keep-up-the-good-work"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "老師也對他微笑並鼓勵道：「繼續保持優異的表現。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "could-you-explain-this-part",
+      "english": "Could you explain this part?",
+      "translation": "您可以解釋這部分嗎？",
+      "audio": {
+        "src": "/audio/phrases/asking-teacher-feedback-could-you-explain-this-part.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c2927939075c85bb91b921e243869da5fb0602f44481789d0d65d0dcc54c2443",
+        "sha256": "72b88ec56a24be6b2c194315e6ff1c0f6649392ea7dd2e13423253dd0cdce205"
+      }
+    },
+    {
+      "id": "how-can-i-improve-my-writing",
+      "english": "How can I improve my writing?",
+      "translation": "我該如何改進我的寫作？",
+      "audio": {
+        "src": "/audio/phrases/asking-teacher-feedback-how-can-i-improve-my-writing.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5961086caa6e2ff1a568e1e25b97770a9f41c2c842d00582bca9643cd7d48392",
+        "sha256": "43926b21a8218d6e9a81f58abc46ea71e1f595f58d340048b26ca5ee2eb426e2"
+      }
+    },
+    {
+      "id": "thank-you-for-the-advice",
+      "english": "Thank you for the advice.",
+      "translation": "謝謝您的建議。",
+      "audio": {
+        "src": "/audio/phrases/asking-teacher-feedback-thank-you-for-the-advice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "688d4829da19c921bab9d201e618bbcdfe6b92ba14426354a4d0b6e51a350693",
+        "sha256": "daaec75a71c66bb5a05d383ef830d83cfe77d2adc16cfdaa9bf2c870feeb3085"
+      }
+    },
+    {
+      "id": "keep-up-the-good-work",
+      "english": "Keep up the good work.",
+      "translation": "繼續保持優異的表現。",
+      "audio": {
+        "src": "/audio/phrases/asking-teacher-feedback-keep-up-the-good-work.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cfd817f972dd21db43b00e94ba8a63bc34408760edc0fedceff292781dd49535",
+        "sha256": "814d9c057a1f2a19bfdf13690e594c8476d51b8b3a17f7d47fa2790ee340450d"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "teacher",
+      "english": "teacher",
+      "translation": "老師",
+      "example": "Our English teacher answers our questions patiently.",
+      "audio": {
+        "src": "/audio/words/asking-teacher-feedback-teacher.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1057a9604e04b274da5a4de0c8f4b4868d9b230989f8c8c6a28221143cc5a755",
+        "sha256": "359fe8283a2f944e31e127b517cdb1a3e16529862f30ea97656236682ab26370"
+      }
+    },
+    {
+      "id": "explain",
+      "english": "explain",
+      "translation": "解釋；說明",
+      "example": "The teacher will explain the grammar rule again.",
+      "audio": {
+        "src": "/audio/words/asking-teacher-feedback-explain.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0818ab2593f5cb6c2daa8ffdd20578aae920bb1ed1f3feecf0cdf09a8b1e1213",
+        "sha256": "26a38191a6beefe32ac57b8a613ee71191a03fb5c1a986edd8b9f0418ec2842f"
+      }
+    },
+    {
+      "id": "improve",
+      "english": "improve",
+      "translation": "改善；進步",
+      "example": "Reading books helps you improve your vocabulary.",
+      "audio": {
+        "src": "/audio/words/asking-teacher-feedback-improve.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2b35ed6944dd2e8f7462b14096e8969711280dffe1457a680c885a95127e426c",
+        "sha256": "8bf00d5683be9cc4711172ff3d81b7ca344c48afbe66f2bf7f3b7567f0581117"
+      }
+    },
+    {
+      "id": "feedback",
+      "english": "feedback",
+      "translation": "回饋；意見",
+      "example": "The teacher gave me helpful feedback on my draft.",
+      "audio": {
+        "src": "/audio/words/asking-teacher-feedback-feedback.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "59bda3f8ee98128d543572e0d29f27ad5343f0c88c36e7bf4672c4c3ab6245b4",
+        "sha256": "4dd57c330e1342a83fc8e2da691582dd97740fdbd6d2aea2ba1d24fb399878da"
+      }
+    },
+    {
+      "id": "essay",
+      "english": "essay",
+      "translation": "文章；作文",
+      "example": "She wrote an interesting essay about climate change.",
+      "audio": {
+        "src": "/audio/words/asking-teacher-feedback-essay.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4231a97ecfd74fdbdde4d4306d6624330dadf659b3cd1e9b5ae35b0be2f46206",
+        "sha256": "6ba1db28d4a3e3ebd9e3510e93e5784ad64fdaeeebab57c1106ae015e7c75dd9"
+      }
+    },
+    {
+      "id": "advice",
+      "english": "advice",
+      "translation": "建議；忠告",
+      "example": "I followed my teacher's advice and scored higher.",
+      "audio": {
+        "src": "/audio/words/asking-teacher-feedback-advice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "02c97447687b4871b00afe98075a37426dda6be15030c7222033c471491e69f5",
+        "sha256": "d771b482680346954262f5e0ad12eb48e8a3e3ae771f772805052b58b3ad4acd"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/asking-teacher-feedback.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "ebdfbc5e5bff2197320cba400d699b4ca7bd06fe9af0afc1007f8be679ff226b",
+    "sha256": "2a5b659f78b173bc646e971c94a31ba595089993cc83c13513a83f26db13c9ec"
+  }
+}

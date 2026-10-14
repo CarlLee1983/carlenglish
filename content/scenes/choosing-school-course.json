@@ -1,0 +1,323 @@
+{
+  "id": "choosing-school-course",
+  "title": "選課與學習規劃",
+  "titleEn": "Choosing School Courses",
+  "category": "學習與規劃",
+  "level": "進階",
+  "image": {
+    "src": "/images/scenes/choosing-school-course.webp",
+    "alt": "高中教室裡，兩名高中生圍在書桌前看著選課手冊與筆記型電腦螢幕，神情專注地討論下學期的選修科目與課表規劃。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Emily and Brian review every "
+        },
+        {
+          "text": "elective",
+          "wordIds": [
+            "elective"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "course",
+          "wordIds": [
+            "course"
+          ]
+        },
+        {
+          "text": " offered for next "
+        },
+        {
+          "text": "semester",
+          "wordIds": [
+            "semester"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Emily 和 Brian 一起檢視下學期開設的每一門選修課。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Unsure about his academic plan, Brian sighs and asks, “"
+        },
+        {
+          "text": "Which ",
+          "phraseIds": [
+            "which-course-should-i-choose"
+          ]
+        },
+        {
+          "text": "course",
+          "phraseIds": [
+            "which-course-should-i-choose"
+          ],
+          "wordIds": [
+            "course"
+          ]
+        },
+        {
+          "text": " should I ",
+          "phraseIds": [
+            "which-course-should-i-choose"
+          ]
+        },
+        {
+          "text": "choose",
+          "phraseIds": [
+            "which-course-should-i-choose"
+          ],
+          "wordIds": [
+            "choose"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "which-course-should-i-choose"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Brian 對自己的學業規劃拿不定主意，嘆了口氣問道：「我該選哪門課呢？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Emily compares an advanced physics class with a world literature seminar to check how much academic "
+        },
+        {
+          "text": "credit",
+          "wordIds": [
+            "credit"
+          ]
+        },
+        {
+          "text": " each offers."
+        }
+      ],
+      "translation": "Emily 將進階物理課與世界文學專題進行比較，確認各能獲得多少學術學分。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Brian points to the artificial intelligence syllabus, explaining his deep "
+        },
+        {
+          "text": "interest",
+          "wordIds": [
+            "interest"
+          ]
+        },
+        {
+          "text": " in data science: “"
+        },
+        {
+          "text": "I'm interested in this ",
+          "phraseIds": [
+            "im-interested-in-this-course"
+          ]
+        },
+        {
+          "text": "course",
+          "phraseIds": [
+            "im-interested-in-this-course"
+          ],
+          "wordIds": [
+            "course"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "im-interested-in-this-course"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Brian 指著人工智慧的課程大綱，說明自己對資料科學的濃厚興趣：「我對這門課很感興趣。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Emily smiles and cautions him about the heavy lab workload, adding, “"
+        },
+        {
+          "text": "That sounds challenging.",
+          "phraseIds": [
+            "that-sounds-challenging"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Emily 微笑著提醒他實驗室的繁重負擔，並補充說：「聽起來很有挑戰性。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "After checking his weekly timetable to avoid time conflicts, Brian says happily, “"
+        },
+        {
+          "text": "It fits my schedule.",
+          "phraseIds": [
+            "it-fits-my-schedule"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "在檢查每週課表確認沒有衝堂之後，Brian 開心地說：「這符合我的時間安排。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "He clicks the registration button with confidence, eager to learn new skills."
+        }
+      ],
+      "translation": "他滿懷信心地按下選課登記按鈕，熱切期盼著學習新技能。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "im-interested-in-this-course",
+      "english": "I'm interested in this course.",
+      "translation": "我對這門課很感興趣。",
+      "audio": {
+        "src": "/audio/phrases/choosing-school-course-im-interested-in-this-course.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "02423c54189e1ef7a0327ee553a6325b17b4fb8f1a2b718553dcfdea1e3c4c47",
+        "sha256": "599478c57f17e549d7ad55f51d0f11d6f1853ccaabf5b05851c36d61320625ee"
+      }
+    },
+    {
+      "id": "which-course-should-i-choose",
+      "english": "Which course should I choose?",
+      "translation": "我該選哪門課呢？",
+      "audio": {
+        "src": "/audio/phrases/choosing-school-course-which-course-should-i-choose.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a8e238dbfa469ce1034ed9c4ac87691761920b3293dcbe085fa89fe19a5b6d9b",
+        "sha256": "4946d071464ebe72acd5127ada156e8b7cd301639782ce33ecf2526314242c84"
+      }
+    },
+    {
+      "id": "it-fits-my-schedule",
+      "english": "It fits my schedule.",
+      "translation": "這符合我的時間安排。",
+      "audio": {
+        "src": "/audio/phrases/choosing-school-course-it-fits-my-schedule.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "052795efc83f9ef2c3555cd0cf1b23493bf5258f7902bd4613b9ff02c0347d88",
+        "sha256": "a7ca3bea0d716e0d5a654c0a67cf54414f571c79eead466bd53d28a20688c5f7"
+      }
+    },
+    {
+      "id": "that-sounds-challenging",
+      "english": "That sounds challenging.",
+      "translation": "聽起來很有挑戰性。",
+      "audio": {
+        "src": "/audio/phrases/choosing-school-course-that-sounds-challenging.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e9b95100be3ae664054eacb78154cbb068c7096e681f0243b687f79553022cfa",
+        "sha256": "4ef3ff58104ab4b5ef5cf9c918dc5b89f0564ad168aa4f8c42fa28db6db845cc"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "course",
+      "english": "course",
+      "translation": "課程",
+      "example": "She enrolled in an advanced science course this year.",
+      "audio": {
+        "src": "/audio/words/choosing-school-course-course.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a908043ed469f361cd516f3bdd781341912b731a6ea3a5385af8514ec9ec02cc",
+        "sha256": "78bb5eb28f1411fd9193802aa0b772f7e1f7464d87c2bf346546e8b1673a15f1"
+      }
+    },
+    {
+      "id": "choose",
+      "english": "choose",
+      "translation": "選擇",
+      "example": "Students can choose between art and music.",
+      "audio": {
+        "src": "/audio/words/choosing-school-course-choose.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "725fed9d1ae909982052ec4fe91a5a140158b4349498c7ef020ed32d6f8a370d",
+        "sha256": "9691e2dcd893a1dbde64db2ea4f94ec72ffc62a0164b61913ba026a668926dd6"
+      }
+    },
+    {
+      "id": "elective",
+      "english": "elective",
+      "translation": "選修的；選修課",
+      "example": "He decided to take an elective in computer science.",
+      "audio": {
+        "src": "/audio/words/choosing-school-course-elective.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d2dcdc15bc41a6092501288a47f7f5466a9675f857f6688171819e95143297b0",
+        "sha256": "595ffdd9059f8c870cdd9ecad45025a7143e072af7adae0c6ad703c7c3b47806"
+      }
+    },
+    {
+      "id": "semester",
+      "english": "semester",
+      "translation": "學期",
+      "example": "The spring semester begins in late February.",
+      "audio": {
+        "src": "/audio/words/choosing-school-course-semester.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b4e58cd7cb1cbf25bcf039b13aa2fdec1cf11cf9d423bfbff838366682fcbb4d",
+        "sha256": "211b0142d63d6adfc9e96cfb49b0db4f6a66c8b27d9b572c2f3c09ee4c40cff1"
+      }
+    },
+    {
+      "id": "interest",
+      "english": "interest",
+      "translation": "興趣；嗜好",
+      "example": "Her strong interest in literature guided her career path.",
+      "audio": {
+        "src": "/audio/words/choosing-school-course-interest.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "828408e40d4fe651488b14696b60b613c9683ab9862e03f4e72aec7c1fda7635",
+        "sha256": "b1286511123895afd2f1530e19e33dcffecac5017dcd7f7936dcce412faf2d53"
+      }
+    },
+    {
+      "id": "credit",
+      "english": "credit",
+      "translation": "學分",
+      "example": "You need three more credits to graduate.",
+      "audio": {
+        "src": "/audio/words/choosing-school-course-credit.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ecc4873a1694eb0de0b33d68f0df091d6816127c1422266399700d02599a8628",
+        "sha256": "d9031c7b6aaa410ab8e46033e62d2edb489046986665296de2f075589b4df62b"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/choosing-school-course.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "af542898e30b4920d4e5083467b3e758902af6f782cd724743c88dcc64e237fa",
+    "sha256": "657ae5eb458d3a308d8209ff431fb4ad561abf353568141edb228d5d8e1d9990"
+  }
+}

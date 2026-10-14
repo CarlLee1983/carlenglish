@@ -1,0 +1,335 @@
+{
+  "id": "packing-schoolbag",
+  "title": "整理書包",
+  "titleEn": "Packing the Schoolbag",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/packing-schoolbag.webp",
+    "alt": "在溫馨明亮的兒童臥室裡，小男孩坐在書桌前整理書包，媽媽在一旁溫柔微笑陪伴，書桌上擺放著打開的書包、課本、筆記本、鉛筆與直尺。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Leo gets "
+        },
+        {
+          "text": "ready",
+          "wordIds": [
+            "ready"
+          ]
+        },
+        {
+          "text": " for school the next day."
+        }
+      ],
+      "translation": "Leo 正在為隔天上學做準備。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom comes into the room and asks, “"
+        },
+        {
+          "text": "Are you ",
+          "phraseIds": [
+            "are-you-ready"
+          ]
+        },
+        {
+          "text": "ready",
+          "phraseIds": [
+            "are-you-ready"
+          ],
+          "wordIds": [
+            "ready"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "are-you-ready"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "媽媽走進房間並問道：「你準備好了嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo checks his items and asks, “"
+        },
+        {
+          "text": "Where is my ",
+          "phraseIds": [
+            "where-is-my-notebook"
+          ]
+        },
+        {
+          "text": "notebook",
+          "phraseIds": [
+            "where-is-my-notebook"
+          ],
+          "wordIds": [
+            "notebook"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "where-is-my-notebook"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 檢查要帶的物品並問道：「我的筆記本在哪裡？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom finds it beside an English "
+        },
+        {
+          "text": "book",
+          "wordIds": [
+            "book"
+          ]
+        },
+        {
+          "text": " and says, “"
+        },
+        {
+          "text": "Here it is!",
+          "phraseIds": [
+            "here-it-is"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "媽媽在英文課本旁邊找到它，並說道：「在這裡！」"
+    },
+    {
+      "segments": [
+        {
+          "text": "She hands it to Leo with a smile and says, “"
+        },
+        {
+          "text": "Put it in the bag.",
+          "phraseIds": [
+            "put-it-in-the-bag"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "她微笑著遞給 Leo 並說道：「把它放進書包裡。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo finds his "
+        },
+        {
+          "text": "ruler",
+          "wordIds": [
+            "ruler"
+          ]
+        },
+        {
+          "text": ", then puts his "
+        },
+        {
+          "text": "pencil",
+          "wordIds": [
+            "pencil"
+          ]
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "notebook",
+          "wordIds": [
+            "notebook"
+          ]
+        },
+        {
+          "text": " inside the "
+        },
+        {
+          "text": "schoolbag",
+          "wordIds": [
+            "schoolbag"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Leo 找到了他的尺，接著把鉛筆和筆記本放進書包裡。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Everything is "
+        },
+        {
+          "text": "ready",
+          "wordIds": [
+            "ready"
+          ]
+        },
+        {
+          "text": ", so he zips up the "
+        },
+        {
+          "text": "schoolbag",
+          "wordIds": [
+            "schoolbag"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "每樣東西都準備好了，於是他拉上書包的拉鍊。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "where-is-my-notebook",
+      "english": "Where is my notebook?",
+      "translation": "我的筆記本在哪裡？",
+      "audio": {
+        "src": "/audio/phrases/packing-schoolbag-where-is-my-notebook.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8ff02a4cf45f887c6f0a5bfab32f4dd91bcd6f18292129da954065ff4bcd024d",
+        "sha256": "d09e2b4eb7fda1a4d2efe125d569ea0edc68216e06d188b0b6d49e292bd9f579"
+      }
+    },
+    {
+      "id": "put-it-in-the-bag",
+      "english": "Put it in the bag.",
+      "translation": "把它放進書包裡。",
+      "audio": {
+        "src": "/audio/phrases/packing-schoolbag-put-it-in-the-bag.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "792a1b5d47ce5919dce8d8f8df2e1b210ec45ce8c8a31cf5fb1f3d6f66654d60",
+        "sha256": "f56492225e60e210df7be8002b25d77fd614d9bc431e8f59ec48d2c33f7f3bfe"
+      }
+    },
+    {
+      "id": "are-you-ready",
+      "english": "Are you ready?",
+      "translation": "你準備好了嗎？",
+      "audio": {
+        "src": "/audio/phrases/packing-schoolbag-are-you-ready.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ec5d2ded6e26b4183830878e32df209e0cb2e4b23073690eb2cb67988f3dd124",
+        "sha256": "687ac9c81e271d318862d5d97e0aa48f64e1f6fd5df9e9a6ba4c07fb8faaec1b"
+      }
+    },
+    {
+      "id": "here-it-is",
+      "english": "Here it is!",
+      "translation": "在這裡！",
+      "audio": {
+        "src": "/audio/phrases/packing-schoolbag-here-it-is.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f17924be06a611b77a2cc5a73269d849f70ad226720dec2e86cf79de95151549",
+        "sha256": "5c295fab3f6a14183f32ceb4496342bfac412593749ef1f9fc7019d8bc44afba"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "schoolbag",
+      "english": "schoolbag",
+      "translation": "書包",
+      "example": "I carry my schoolbag to school.",
+      "audio": {
+        "src": "/audio/words/packing-schoolbag-schoolbag.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ce213852297e17198f0a9c3b13dcdf1d70910060c806f0ab199ff2268173e882",
+        "sha256": "2f2dcdee85b159003ef1064b37ba7bf02d380c6f88696b73e1125ce734701865"
+      }
+    },
+    {
+      "id": "notebook",
+      "english": "notebook",
+      "translation": "筆記本",
+      "example": "I write my homework in the notebook.",
+      "audio": {
+        "src": "/audio/words/packing-schoolbag-notebook.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b53bcf919f24746d72094b8b86c0325cf40723d3d63240705db51a27b261bc96",
+        "sha256": "f8858a87051c2ab1cb54e123e95c1db0d1184e9b50806dcb328ce431594ca919"
+      }
+    },
+    {
+      "id": "pencil",
+      "english": "pencil",
+      "translation": "鉛筆",
+      "example": "She draws with a yellow pencil.",
+      "audio": {
+        "src": "/audio/words/packing-schoolbag-pencil.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "13809668fb436386706f67dcb052ed584a04ba16a8c02a17d66d34c30fceda21",
+        "sha256": "574175aad07419ee2c950e87ab6df6e446cf1417a9bc4f3c92f6afa6669ca48b"
+      }
+    },
+    {
+      "id": "book",
+      "english": "book",
+      "translation": "書本",
+      "example": "He reads a book before bed.",
+      "audio": {
+        "src": "/audio/words/packing-schoolbag-book.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "92719fe0cf8cd51592af31ee8a5736d79f7273777fa3f7b70bfe993a4cd32180",
+        "sha256": "d613c9baf2f20b0800bf329afbba5b9c402bc7295fe4f23419fd9aad1fe77f07"
+      }
+    },
+    {
+      "id": "ruler",
+      "english": "ruler",
+      "translation": "尺",
+      "example": "Draw a straight line with a ruler.",
+      "audio": {
+        "src": "/audio/words/packing-schoolbag-ruler.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5972814068a183e232d67415ad8f2919f7633187a22f3f5dcf3d066515dbe556",
+        "sha256": "dd31f1253e8e5dadea79d8db0214850f89bf28c2f57f2ba3a77d61a66ddfbc77"
+      }
+    },
+    {
+      "id": "ready",
+      "english": "ready",
+      "translation": "準備好的",
+      "example": "We are ready for school.",
+      "audio": {
+        "src": "/audio/words/packing-schoolbag-ready.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b24d6d33736ecd5604a4b17bc9c6481039fac362bb7df044ef1c10a2bfd21db6",
+        "sha256": "424e77a61077e35a823ebaeec35409b14e8cb2e653eeaff235faf63fa54616de"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/packing-schoolbag.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "c06173b230cb8c2a1493f8abd61200f190f9d62f7fc6842434eaa6c00ddf123c",
+    "sha256": "312792c3596c66c80871118686ca139103de424f3c3d10b92f4a4c2203806797"
+  }
+}

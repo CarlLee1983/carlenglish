@@ -1,0 +1,323 @@
+{
+  "id": "club-signup",
+  "title": "社團報名",
+  "titleEn": "Signing Up for a School Club",
+  "category": "同儕與社團",
+  "level": "中級",
+  "image": {
+    "src": "/images/scenes/club-signup.webp",
+    "alt": "在熱鬧的學校社團博覽會上，男孩 Kevin 來到科學社攤位前，桌上擺著實驗模型與報名表，社員熱情地向他介紹社團活動。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "During the school club fair, Kevin walks over to the "
+        },
+        {
+          "text": "science",
+          "wordIds": [
+            "science"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "club",
+          "wordIds": [
+            "club"
+          ]
+        },
+        {
+          "text": " booth."
+        }
+      ],
+      "translation": "在學校社團博覽會上，Kevin 走到科學社的攤位前。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Curious about their projects, he smiles and asks, “"
+        },
+        {
+          "text": "What do you do here?",
+          "phraseIds": [
+            "what-do-you-do-here"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他對他們的成果感到好奇，微笑著問道：「你們在這裡做些什麼？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "A friendly "
+        },
+        {
+          "text": "member",
+          "wordIds": [
+            "member"
+          ]
+        },
+        {
+          "text": " replies, “We build models and plan a fun "
+        },
+        {
+          "text": "activity",
+          "wordIds": [
+            "activity"
+          ]
+        },
+        {
+          "text": " every week.”"
+        }
+      ],
+      "translation": "一位友善的社員回答：「我們每週都會製作模型，並規劃有趣的活動。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Kevin is interested in the schedule and asks, “"
+        },
+        {
+          "text": "When do you meet?",
+          "phraseIds": [
+            "when-do-you-meet"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Kevin 對社團時間很感興趣，問道：「你們什麼時候聚會？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“We meet every Thursday after class in the lab,” the student explains."
+        }
+      ],
+      "translation": "「我們每週四放學後在實驗室聚會，」那位同學說明道。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Kevin is very excited and says, “"
+        },
+        {
+          "text": "I'd like to ",
+          "phraseIds": [
+            "id-like-to-join-the-club"
+          ]
+        },
+        {
+          "text": "join",
+          "phraseIds": [
+            "id-like-to-join-the-club"
+          ],
+          "wordIds": [
+            "join"
+          ]
+        },
+        {
+          "text": " the ",
+          "phraseIds": [
+            "id-like-to-join-the-club"
+          ]
+        },
+        {
+          "text": "club",
+          "phraseIds": [
+            "id-like-to-join-the-club"
+          ],
+          "wordIds": [
+            "club"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "id-like-to-join-the-club"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Kevin 非常興奮並說道：「我想加入這個社團。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Then he asks, “"
+        },
+        {
+          "text": "Where can I ",
+          "phraseIds": [
+            "where-can-i-sign-up"
+          ]
+        },
+        {
+          "text": "sign",
+          "phraseIds": [
+            "where-can-i-sign-up"
+          ],
+          "wordIds": [
+            "sign"
+          ]
+        },
+        {
+          "text": " up?",
+          "phraseIds": [
+            "where-can-i-sign-up"
+          ]
+        },
+        {
+          "text": "” and takes a pen to "
+        },
+        {
+          "text": "sign",
+          "wordIds": [
+            "sign"
+          ]
+        },
+        {
+          "text": " his name."
+        }
+      ],
+      "translation": "接著他問道：「我可以在哪裡報名？」並拿起筆簽下自己的名字。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "id-like-to-join-the-club",
+      "english": "I'd like to join the club.",
+      "translation": "我想加入這個社團。",
+      "audio": {
+        "src": "/audio/phrases/club-signup-id-like-to-join-the-club.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9a3816cc2b5f57256d8ee0414d34604de0ae90a9ec5867fe6aa11a925e19fb09",
+        "sha256": "502e24a4d95b8aafdb1ec59f730c4a4c59ceeb0cb27db6c0d810fdb7505a90b4"
+      }
+    },
+    {
+      "id": "what-do-you-do-here",
+      "english": "What do you do here?",
+      "translation": "你們在這裡做些什麼？",
+      "audio": {
+        "src": "/audio/phrases/club-signup-what-do-you-do-here.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7f154f6e33f0c85160deb23d3aa46a0219e5711dffbb417ac4734d48fbbd31d0",
+        "sha256": "1430fabd40963aaa8e021550b5673a52faa4c9a20d6e3c68315c86e0a0669d2b"
+      }
+    },
+    {
+      "id": "when-do-you-meet",
+      "english": "When do you meet?",
+      "translation": "你們什麼時候聚會？",
+      "audio": {
+        "src": "/audio/phrases/club-signup-when-do-you-meet.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "45eefc564e4063998c22f0c197282779d62502be3c604bbee5e3a37c206c6766",
+        "sha256": "327f5f8350b55130bf3a27104b00096979f2c040cfe870a27901d8cace209533"
+      }
+    },
+    {
+      "id": "where-can-i-sign-up",
+      "english": "Where can I sign up?",
+      "translation": "我可以在哪裡報名？",
+      "audio": {
+        "src": "/audio/phrases/club-signup-where-can-i-sign-up.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cf49c9e00520aca50f3cb57d4161c9fded60ea4513ff47614d1391781f929f22",
+        "sha256": "4c006953f0a1dc814019ecbafc58053232d771eb72eb283a38df9b7955ab1fe5"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "club",
+      "english": "club",
+      "translation": "社團",
+      "example": "I want to join the science club this year.",
+      "audio": {
+        "src": "/audio/words/club-signup-club.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cc2585df74ecdb8b43e3d9f1f793ee9ccd21d617a49e8e5698cb5e052c453dac",
+        "sha256": "ff289007a83eff9c94be2ce643d6b01af5df67725d23543b7b788c0fe1b5b706"
+      }
+    },
+    {
+      "id": "join",
+      "english": "join",
+      "translation": "加入",
+      "example": "Many new students join after-school clubs.",
+      "audio": {
+        "src": "/audio/words/club-signup-join.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "58393216032be6257784ac0c6a73efb2a084e27b4cfff1e6acee7b7e6ab93b10",
+        "sha256": "5758b87eda6129f5bd3cb1e780056b654c25481ddc9b66d2867f14e6526195b0"
+      }
+    },
+    {
+      "id": "activity",
+      "english": "activity",
+      "translation": "活動",
+      "example": "Our club plans a fun activity every week.",
+      "audio": {
+        "src": "/audio/words/club-signup-activity.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0651863bf5d902262b17c4621ec340544ff016752543d99a92d7d22872d8a455",
+        "sha256": "d609b3aaaf32d53dbf15b3244f928547dcacc6e9f54c1199a236d3f218c70402"
+      }
+    },
+    {
+      "id": "sign",
+      "english": "sign",
+      "translation": "簽名",
+      "example": "Please sign your name on the sign-up sheet.",
+      "audio": {
+        "src": "/audio/words/club-signup-sign.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0b6f395ca14ac202374d5cff678b71157d0bef7e00c3045e9b80aab4ffb85276",
+        "sha256": "ae5642836df9902b89b754e3a5895a948cc683033084d17a85bdc655a327c4c1"
+      }
+    },
+    {
+      "id": "science",
+      "english": "science",
+      "translation": "科學",
+      "example": "Science helps us understand how things work.",
+      "audio": {
+        "src": "/audio/words/club-signup-science.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "790fad4744a9da8d301e23c83b386f1baabd229611dbe5265df62a97b5357393",
+        "sha256": "e59ed2509e09238bc76d4371819538998df8bf16c5a1c4ab4298d43fa3876829"
+      }
+    },
+    {
+      "id": "member",
+      "english": "member",
+      "translation": "社員；成員",
+      "example": "Every member helps prepare for the club fair.",
+      "audio": {
+        "src": "/audio/words/club-signup-member.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e31ab643c44f7a0ec824b59d1194d60dac334200d845e61d2d289daa0f087ea4",
+        "sha256": "4f10a4872da0296ad4a29e875400b4ae426a77912e60e468f41ff5635523a8ff"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/club-signup.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "3987c77a843384da494607f31b3d843c2d3fd3b2a4d699f9ec66e11a039d7763",
+    "sha256": "8e56f5e9b795aec39fac9b931ac78c5ef26c45775e627919394cecb7b3e8d90e"
+  }
+}

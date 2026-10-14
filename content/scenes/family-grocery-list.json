@@ -1,0 +1,297 @@
+{
+  "id": "family-grocery-list",
+  "title": "和家人列採買清單",
+  "titleEn": "Making a Family Grocery List",
+  "category": "家庭生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/family-grocery-list.webp",
+    "alt": "在溫馨明朗的廚房裡，媽媽和小男孩圍坐在木質餐桌前，媽媽手拿鉛筆在筆記本上寫下採買項目，小男孩專注地看著打開的冰箱確認食材。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "On Saturday morning, Ben and his mom sit at the "
+        },
+        {
+          "text": "kitchen",
+          "wordIds": [
+            "kitchen"
+          ]
+        },
+        {
+          "text": " table."
+        }
+      ],
+      "translation": "星期六早晨，Ben 和媽媽坐在廚房的餐桌旁。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom looks up from the table and says, “"
+        },
+        {
+          "text": "Let's check the ",
+          "phraseIds": [
+            "lets-check-the-fridge"
+          ]
+        },
+        {
+          "text": "fridge",
+          "phraseIds": [
+            "lets-check-the-fridge"
+          ],
+          "wordIds": [
+            "fridge"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "lets-check-the-fridge"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "媽媽從餐桌抬起頭說：「我們來檢查一下冰箱吧。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Ben opens the door, looks inside, and asks, “"
+        },
+        {
+          "text": "Do we need any ",
+          "phraseIds": [
+            "do-we-need-any-eggs"
+          ]
+        },
+        {
+          "text": "eggs",
+          "phraseIds": [
+            "do-we-need-any-eggs"
+          ],
+          "wordIds": [
+            "eggs"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "do-we-need-any-eggs"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Ben 打開冰箱門看著裡面，問道：「我們需要雞蛋嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom looks at the empty egg carton and says, “Yes, and we also need fresh "
+        },
+        {
+          "text": "milk",
+          "wordIds": [
+            "milk"
+          ]
+        },
+        {
+          "text": ".”"
+        }
+      ],
+      "translation": "媽媽看著空蛋盒並說：「對，而且我們也需要新鮮的牛奶。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Ben holds the pencil ready, and Mom says, “"
+        },
+        {
+          "text": "Write it on the ",
+          "phraseIds": [
+            "write-it-on-the-list"
+          ]
+        },
+        {
+          "text": "list",
+          "phraseIds": [
+            "write-it-on-the-list"
+          ],
+          "wordIds": [
+            "list"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "write-it-on-the-list"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Ben 拿好鉛筆準備記錄，媽媽說：「把它寫在清單上吧。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "With their shopping items written down for the "
+        },
+        {
+          "text": "market",
+          "wordIds": [
+            "market"
+          ]
+        },
+        {
+          "text": ", Mom smiles and says, “"
+        },
+        {
+          "text": "We are ready to go.",
+          "phraseIds": [
+            "we-are-ready-to-go"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "把去市場要買的東西都寫好後，媽媽微笑著說：「我們準備好出發了。」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "do-we-need-any-eggs",
+      "english": "Do we need any eggs?",
+      "translation": "我們需要雞蛋嗎？",
+      "audio": {
+        "src": "/audio/phrases/family-grocery-list-do-we-need-any-eggs.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5d2b2e71d43fbe51bf1d908f93a4454b6598fc5fa07c594649fb2d5de235ff9c",
+        "sha256": "aa19f9136a5ad722ac935c3a70c89beb762e530d161dffe06c60af726948de2f"
+      }
+    },
+    {
+      "id": "lets-check-the-fridge",
+      "english": "Let's check the fridge.",
+      "translation": "我們來檢查一下冰箱吧。",
+      "audio": {
+        "src": "/audio/phrases/family-grocery-list-lets-check-the-fridge.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dc0df023fce0f332a1166636fca2c90b911f3e02a4bae9ac5fd57066162f3e67",
+        "sha256": "936ae2d77c5fe291a5219bca198c76beb0e00206584fc1c31dba69e91026edca"
+      }
+    },
+    {
+      "id": "write-it-on-the-list",
+      "english": "Write it on the list.",
+      "translation": "把它寫在清單上吧。",
+      "audio": {
+        "src": "/audio/phrases/family-grocery-list-write-it-on-the-list.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ba5d00ad20afa7b4ca6605dbe21ab194133816ebff8cf5dd843374121f52ea5a",
+        "sha256": "12d88409b27e5e5d47292f8f85e1a14b1de9c2706bfa5428f83e0ddd77f6494d"
+      }
+    },
+    {
+      "id": "we-are-ready-to-go",
+      "english": "We are ready to go.",
+      "translation": "我們準備好出發了。",
+      "audio": {
+        "src": "/audio/phrases/family-grocery-list-we-are-ready-to-go.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a3f35056e7ea1e3b878e0ddfcb7903cc0ba497720e38737899bf06164a8e4d1b",
+        "sha256": "bd959f09d89adb2fdb501cd4c5934fd3da08aba1cf4203501e99f769b8b4a774"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "list",
+      "english": "list",
+      "translation": "清單",
+      "example": "I wrote a shopping list before going to the supermarket.",
+      "audio": {
+        "src": "/audio/words/family-grocery-list-list.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a330395cc0a53ad1207736546afff4735940937564bbf75ce1edad40780d9139",
+        "sha256": "09ebf3989398dc72ef6dd4214d7a0645d03a04cec80e08c6fcdf85b4bc36a68a"
+      }
+    },
+    {
+      "id": "eggs",
+      "english": "eggs",
+      "translation": "雞蛋",
+      "example": "We bought a carton of fresh eggs for breakfast.",
+      "audio": {
+        "src": "/audio/words/family-grocery-list-eggs.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "46da674b5b0987431bdb496e4982fadcd400abac99e7a977b43f216a98127721",
+        "sha256": "238b984204e867ac2db9d6a24eea7c7985cfe379b6e86cc2941fc0c4a68e9874"
+      }
+    },
+    {
+      "id": "milk",
+      "english": "milk",
+      "translation": "牛奶",
+      "example": "I drink a glass of warm milk every morning.",
+      "audio": {
+        "src": "/audio/words/family-grocery-list-milk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8825e76530f87ff5c737b3254c6936bc0a90bba3a10a91bbba739268208d378a",
+        "sha256": "acf0e611b09a8abb89f284554744db6d1b978be66707164eaa763f8efd438a63"
+      }
+    },
+    {
+      "id": "kitchen",
+      "english": "kitchen",
+      "translation": "廚房",
+      "example": "Mom is preparing delicious food in the kitchen.",
+      "audio": {
+        "src": "/audio/words/family-grocery-list-kitchen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3171d89ad00530ffa19a244f040e9401a657903cbbbca724996b90a56df2c189",
+        "sha256": "e47ded2a422a8b9108c1177f48c3ac2c938bc6eb54175b42160dd4a173fe61fe"
+      }
+    },
+    {
+      "id": "fridge",
+      "english": "fridge",
+      "translation": "冰箱",
+      "example": "Please put the remaining juice back in the fridge.",
+      "audio": {
+        "src": "/audio/words/family-grocery-list-fridge.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "997bc249599b74191aa0ee6851d0945e291fd2c543898427d59c279438edd40c",
+        "sha256": "0687c31e61d0c9ccb8bc27ec98b07ddb4c22b33318805b5e9c69395f7de91521"
+      }
+    },
+    {
+      "id": "market",
+      "english": "market",
+      "translation": "市場",
+      "example": "We buy fresh vegetables at the morning market.",
+      "audio": {
+        "src": "/audio/words/family-grocery-list-market.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e4d693d24e646cb7878426225d90d2607fd40e2e7c82f4cf8246b2cc3e0decb8",
+        "sha256": "07a11765376449969bd34e9b636eac7b8f045cec8174c5c49224914f656c9696"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/family-grocery-list.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "8774d0fc07ed10d539d01f39d6dd6e08bdb180ae93d34d458bbe55efa9fa1ceb",
+    "sha256": "7c4e16f4ff047c2d941474bf30bf84a5dea65db99d33a79405cc66522de16456"
+  }
+}

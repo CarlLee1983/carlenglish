@@ -1,0 +1,371 @@
+{
+  "id": "bus-to-school",
+  "title": "搭公車上學",
+  "titleEn": "Taking the Bus to School",
+  "category": "交通與生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/bus-to-school.webp",
+    "alt": "清晨陽光下，背著書包的國中生站在公車站牌旁等車；公車停靠時，學生拿出乘車卡準備感應上車，車內已有乘客坐在座位上。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "On a sunny "
+        },
+        {
+          "text": "morning",
+          "wordIds": [
+            "morning"
+          ]
+        },
+        {
+          "text": ", Ethan waits by the "
+        },
+        {
+          "text": "bus",
+          "wordIds": [
+            "bus"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "stop",
+          "wordIds": [
+            "stop"
+          ]
+        },
+        {
+          "text": " with his backpack."
+        }
+      ],
+      "translation": "在一個陽光明媚的早晨，Ethan 背著書包在公車站牌旁等車。"
+    },
+    {
+      "segments": [
+        {
+          "text": "He checks the "
+        },
+        {
+          "text": "bus",
+          "wordIds": [
+            "bus"
+          ]
+        },
+        {
+          "text": " number and says happily, “"
+        },
+        {
+          "text": "Here comes the ",
+          "phraseIds": [
+            "here-comes-the-bus"
+          ]
+        },
+        {
+          "text": "bus",
+          "phraseIds": [
+            "here-comes-the-bus"
+          ],
+          "wordIds": [
+            "bus"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "here-comes-the-bus"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他確認了公車號碼，開心地說：「公車來了。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "To be sure, he asks a student next to him, “"
+        },
+        {
+          "text": "Does this ",
+          "phraseIds": [
+            "does-this-bus-go-to-our-school"
+          ]
+        },
+        {
+          "text": "bus",
+          "phraseIds": [
+            "does-this-bus-go-to-our-school"
+          ],
+          "wordIds": [
+            "bus"
+          ]
+        },
+        {
+          "text": " go to our ",
+          "phraseIds": [
+            "does-this-bus-go-to-our-school"
+          ]
+        },
+        {
+          "text": "school",
+          "phraseIds": [
+            "does-this-bus-go-to-our-school"
+          ],
+          "wordIds": [
+            "school"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "does-this-bus-go-to-our-school"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "為了確定，他問身旁的同學：「這班公車會到我們學校嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The student smiles and answers, “Yes, it does! "
+        },
+        {
+          "text": "Tap your ",
+          "phraseIds": [
+            "tap-your-card"
+          ]
+        },
+        {
+          "text": "card",
+          "phraseIds": [
+            "tap-your-card"
+          ],
+          "wordIds": [
+            "card"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "tap-your-card"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "那位同學微笑著回答：「會的！感應你的卡片吧。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Ethan steps onto the "
+        },
+        {
+          "text": "bus",
+          "wordIds": [
+            "bus"
+          ]
+        },
+        {
+          "text": " and taps his "
+        },
+        {
+          "text": "card",
+          "wordIds": [
+            "card"
+          ]
+        },
+        {
+          "text": " against the reader."
+        }
+      ],
+      "translation": "Ethan 踏上公車，將卡片靠在感應機上刷卡。"
+    },
+    {
+      "segments": [
+        {
+          "text": "He walks down the aisle, and a friendly passenger says, “"
+        },
+        {
+          "text": "Have a ",
+          "phraseIds": [
+            "have-a-seat"
+          ]
+        },
+        {
+          "text": "seat",
+          "phraseIds": [
+            "have-a-seat"
+          ],
+          "wordIds": [
+            "seat"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "have-a-seat"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他走下走道，一位親切的乘客說：「請坐。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Ethan sits down with a smile and enjoys the ride to "
+        },
+        {
+          "text": "school",
+          "wordIds": [
+            "school"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Ethan 微笑著坐下，享受前往學校的乘車時光。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "does-this-bus-go-to-our-school",
+      "english": "Does this bus go to our school?",
+      "translation": "這班公車會到我們學校嗎？",
+      "audio": {
+        "src": "/audio/phrases/bus-to-school-does-this-bus-go-to-our-school.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bbece69002070ecaaa0c5cde952e6073bf1a4b05171b785af61a07ee6565f60c",
+        "sha256": "9b233a5e004f00924695154babdc5ff84a9c413a7be8f5f97d5ddc5ef90fb2f5"
+      }
+    },
+    {
+      "id": "here-comes-the-bus",
+      "english": "Here comes the bus.",
+      "translation": "公車來了。",
+      "audio": {
+        "src": "/audio/phrases/bus-to-school-here-comes-the-bus.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "03b8cbd670da34afef6d98ec1b9fabac547e62a3405058c0727b9cd1046dfdd3",
+        "sha256": "f8c840e34393b24f8b469f2650fec0312dc969528c1cf157a3b01c4c6c76e4ec"
+      }
+    },
+    {
+      "id": "tap-your-card",
+      "english": "Tap your card.",
+      "translation": "感應你的卡片。",
+      "audio": {
+        "src": "/audio/phrases/bus-to-school-tap-your-card.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8caa38457c87882185e61a4bde1178e6518ec9be6dcd6514e492495e9d05de41",
+        "sha256": "6b99136b3f66af7ad9d7404ca2037c78d7254c276956e5432c72f7ac70c2fcc2"
+      }
+    },
+    {
+      "id": "have-a-seat",
+      "english": "Have a seat.",
+      "translation": "請坐。",
+      "audio": {
+        "src": "/audio/phrases/bus-to-school-have-a-seat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a4ea2f77870dca01c1f2ff177e1083425fbb78b12a07c0a4c1f463de13d34c63",
+        "sha256": "dbb99eb8dde2027d4b055da546ac0230be29a2cb41774cf2ba2d2238d655031f"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "bus",
+      "english": "bus",
+      "translation": "公車",
+      "example": "I take the bus to school every morning.",
+      "audio": {
+        "src": "/audio/words/bus-to-school-bus.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "04e027e4990a203f4899f7e87c2d5ff6b9019e9565795619a59ce06c099560d4",
+        "sha256": "fe69b86c42b104ca9e5f3eb8006d908c1996fd80693290be8a37d23b44a0851b"
+      }
+    },
+    {
+      "id": "stop",
+      "english": "stop",
+      "translation": "站牌；車站",
+      "example": "Let's meet at the bus stop after class.",
+      "audio": {
+        "src": "/audio/words/bus-to-school-stop.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+        "sha256": "1bc633069172ebe3411680ae8526c01a2f8f86dcfbc7eb5fa912280ce973a342"
+      }
+    },
+    {
+      "id": "card",
+      "english": "card",
+      "translation": "卡片；乘車卡",
+      "example": "Tap your card to pay the fare.",
+      "audio": {
+        "src": "/audio/words/bus-to-school-card.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8367cd66fdd136bba8ba23f8805bb050dd6289401c8ec3b0be44a3c233eef90d",
+        "sha256": "e8a79afae3b44344ca8a77839528cc17a5002980b74e5c373a42b7635e88d477"
+      }
+    },
+    {
+      "id": "school",
+      "english": "school",
+      "translation": "學校",
+      "example": "Our school is only three bus stops away.",
+      "audio": {
+        "src": "/audio/words/bus-to-school-school.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d64debd942d7dc26a851231583b1721f43ea936fa41932b6dad7556e5f8cd24a",
+        "sha256": "ee544b99e3baa7f8804b4e0729a83d9f213f09ad56ea6df46465ba8945da4442"
+      }
+    },
+    {
+      "id": "morning",
+      "english": "morning",
+      "translation": "早晨；上午",
+      "example": "The morning sun shines through the window.",
+      "audio": {
+        "src": "/audio/words/bus-to-school-morning.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c23b31a0179b550f8a18fb06bc52a26e32333540369073d646da5c84a4dc341f",
+        "sha256": "ac0800249e4cde5a73ad7e62db2f565700704c0c4600871bcbc610a5c77d7797"
+      }
+    },
+    {
+      "id": "seat",
+      "english": "seat",
+      "translation": "座位",
+      "example": "She found an empty seat near the door.",
+      "audio": {
+        "src": "/audio/words/bus-to-school-seat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5d2c13d6f9fa421125a9f55e56fd0e4df9319ef30087f8f4675cd6f05135f397",
+        "sha256": "f4a32f167fbd02a86b6a987781e2229377c41e8440268a78a0959c8de1957080"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/bus-to-school.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "358836ec76ab7313424c23a95fb6a00fafa05679cc659cf3315616dc269b5e7f",
+    "sha256": "f97eb50cc23984eaaff93e89bdabfbc3abacec41179a4054f033e5d2a210583a"
+  }
+}

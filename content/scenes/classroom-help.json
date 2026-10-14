@@ -1,0 +1,311 @@
+{
+  "id": "classroom-help",
+  "title": "課堂借物與求助",
+  "titleEn": "Borrowing a Pencil in Class",
+  "category": "校園生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/classroom-help.webp",
+    "alt": "在陽光明亮的教室裡，小男孩坐在書桌前向鄰座的女同學借鉛筆，女同學面帶微笑親切地遞給他鉛筆，講臺前的老師溫柔地微笑注視著他們。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Leo looks at his "
+        },
+        {
+          "text": "desk",
+          "wordIds": [
+            "desk"
+          ]
+        },
+        {
+          "text": ", but he only has an "
+        },
+        {
+          "text": "eraser",
+          "wordIds": [
+            "eraser"
+          ]
+        },
+        {
+          "text": " and a "
+        },
+        {
+          "text": "ruler",
+          "wordIds": [
+            "ruler"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Leo 看著書桌，但他只有一個橡皮擦和一把尺。"
+    },
+    {
+      "segments": [
+        {
+          "text": "He forgot his "
+        },
+        {
+          "text": "pencil",
+          "wordIds": [
+            "pencil"
+          ]
+        },
+        {
+          "text": " and turns to his "
+        },
+        {
+          "text": "classmate",
+          "wordIds": [
+            "classmate"
+          ]
+        },
+        {
+          "text": " Mia for help."
+        }
+      ],
+      "translation": "他忘了帶鉛筆，便轉向同學 Mia 求助。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo asks politely, “"
+        },
+        {
+          "text": "Can I borrow a ",
+          "phraseIds": [
+            "can-i-borrow-a-pencil"
+          ]
+        },
+        {
+          "text": "pencil",
+          "phraseIds": [
+            "can-i-borrow-a-pencil"
+          ],
+          "wordIds": [
+            "pencil"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "can-i-borrow-a-pencil"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 有禮貌地問：「我可以借一枝鉛筆嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia smiles warmly and says, “"
+        },
+        {
+          "text": "Here you are.",
+          "phraseIds": [
+            "here-you-are"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Mia 親切地微笑著說：「這給你。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Leo takes the "
+        },
+        {
+          "text": "pencil",
+          "wordIds": [
+            "pencil"
+          ]
+        },
+        {
+          "text": " and says, “"
+        },
+        {
+          "text": "Thank you very much.",
+          "phraseIds": [
+            "thank-you-very-much"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Leo 接過鉛筆並說：「非常謝謝你。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia answers with a friendly smile, “"
+        },
+        {
+          "text": "You're welcome.",
+          "phraseIds": [
+            "youre-welcome"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Mia 帶著友善的微笑回答：「不客氣。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Their "
+        },
+        {
+          "text": "teacher",
+          "wordIds": [
+            "teacher"
+          ]
+        },
+        {
+          "text": " smiles at them and starts the lesson."
+        }
+      ],
+      "translation": "他們的老師對著他們微笑，並開始上課。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "can-i-borrow-a-pencil",
+      "english": "Can I borrow a pencil?",
+      "translation": "我可以借一枝鉛筆嗎？",
+      "audio": {
+        "src": "/audio/phrases/classroom-help-can-i-borrow-a-pencil.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a2ec25ede36a7ee8414d5da5aadde2161411b0d34bcd191d1e745c66bae4a0f9",
+        "sha256": "e02449945ab90e5b949b81cfeafce8a0661f0dd3b5658479ac2fa0553f3422ae"
+      }
+    },
+    {
+      "id": "here-you-are",
+      "english": "Here you are.",
+      "translation": "這給你。",
+      "audio": {
+        "src": "/audio/phrases/classroom-help-here-you-are.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3f3d9f370444b48214a7eddc525b0847455ca7707a1cb058691cf343411a1134",
+        "sha256": "eae1f1b550c9154d6eff47faf12894e7c8bf3875b157aac72fc855a6edf7f8fd"
+      }
+    },
+    {
+      "id": "thank-you-very-much",
+      "english": "Thank you very much.",
+      "translation": "非常謝謝你。",
+      "audio": {
+        "src": "/audio/phrases/classroom-help-thank-you-very-much.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9e41164cb68b90cf8133a32422dceef505ce83d054281d47edff7b018531e88c",
+        "sha256": "05784f22e6a2a6b4e714500f626b90219d4c1189134cc4c370f6db50942e947d"
+      }
+    },
+    {
+      "id": "youre-welcome",
+      "english": "You're welcome.",
+      "translation": "不客氣。",
+      "audio": {
+        "src": "/audio/phrases/classroom-help-youre-welcome.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "124eb273f9a0a470e3d6930f97e1402f311a753dc9d656b1ef17ef12367caffa",
+        "sha256": "06ea9fa871324ffed9fd7a96b0a5689022117611ada7438dbe8454bee03ae775"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "pencil",
+      "english": "pencil",
+      "translation": "鉛筆",
+      "example": "I write with a yellow pencil.",
+      "audio": {
+        "src": "/audio/words/classroom-help-pencil.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "13809668fb436386706f67dcb052ed584a04ba16a8c02a17d66d34c30fceda21",
+        "sha256": "8b5f3b15284c75cb78ddfaf4ce9e911cba7abec8faf7eb10e0b5fcc811142bfa"
+      }
+    },
+    {
+      "id": "eraser",
+      "english": "eraser",
+      "translation": "橡皮擦",
+      "example": "She uses an eraser to fix mistakes.",
+      "audio": {
+        "src": "/audio/words/classroom-help-eraser.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9010072f85ea546925888515cbacd8cf44204c2a640bc4d60ac61ff65ecb73e7",
+        "sha256": "c9934cfb2367526653bad3d05b1364583af19e86fc35906228c1436f6895f34d"
+      }
+    },
+    {
+      "id": "ruler",
+      "english": "ruler",
+      "translation": "尺",
+      "example": "Draw a line with your ruler.",
+      "audio": {
+        "src": "/audio/words/classroom-help-ruler.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5972814068a183e232d67415ad8f2919f7633187a22f3f5dcf3d066515dbe556",
+        "sha256": "47503a80eb0c9ddf011037cc33b45a5273255df2c80da3cd0da137a2b208e035"
+      }
+    },
+    {
+      "id": "desk",
+      "english": "desk",
+      "translation": "書桌",
+      "example": "Put your books on the desk.",
+      "audio": {
+        "src": "/audio/words/classroom-help-desk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "49be417ad74080a0031b636b44cfc26fdd0065492d6cd3b033960c4414955cf7",
+        "sha256": "9888da12665f5a375703cf4c7e96f172c8a78b97842ba63ed302391cd1ac1085"
+      }
+    },
+    {
+      "id": "classmate",
+      "english": "classmate",
+      "translation": "同學",
+      "example": "Mia is my helpful classmate.",
+      "audio": {
+        "src": "/audio/words/classroom-help-classmate.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "66f9b98dde76ccbacebabd344bf5244fd6bb4a6a5ac62ababfea82d3fcc650b1",
+        "sha256": "8b7dae7837af72797267c71b525c5947279fb9a27388755e6a61f3ae12539bfb"
+      }
+    },
+    {
+      "id": "teacher",
+      "english": "teacher",
+      "translation": "老師",
+      "example": "The teacher smiles at the students.",
+      "audio": {
+        "src": "/audio/words/classroom-help-teacher.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1057a9604e04b274da5a4de0c8f4b4868d9b230989f8c8c6a28221143cc5a755",
+        "sha256": "9730f9baecb75e2960f57e2ef53e9f307a974e0896c87b34bc4fb0f4385f31e8"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/classroom-help.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "00bbf32b40e17a28a3f0ab3cf2007c14962a7709f82630d1c9bf1b2299b4ded8",
+    "sha256": "e20f42308a0d10ced5189d8daba915240f437bff73e137810a69e3ff777a0d7c"
+  }
+}
