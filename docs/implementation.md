@@ -1,5 +1,15 @@
 # 實作與驗收紀錄
 
+## 2026-10-14 PR #3 文章整合與衝突修正
+
+依使用者回報 PR #3 衝突，將最新 `origin/main`（`330bb61ad1bc16ef450e7a2bf89748662deba335`，已合併新聞與貼文的 PR #2）整合至 `ui/level-entry-catalog`。八個衝突位於 package／Playwright 設定、內容驗證、Layout、首頁、404 及瀏覽器／擴充測試；以 merge 保留兩邊歷史，沒有重寫分支。此次只更新 PR 分支，未合併 `main` 或再次部署。
+
+保留 43 篇生活讀本的初／中／高級入口、搜尋、篩選與同級推薦，並保留三篇文章的獨立首頁區塊、新聞軌／貼文軌與原閱讀版型。文章取得依可見內容產生的摘要、canonical、品牌分享圖、一般 WebPage 及麵包屑；來源日期不當作本站頁面發布日期，貼文發文者不當作整篇作者。sitemap 包含 50 個網址。內容验证同時保留場景難度對照、文章契約與跨類型重複 ID 檢查；兩套測試全部納入現行命令。
+
+`CARLENGLISH_TEST_PORT=4393 pnpm run verify` exit code 0：Astro 34 個檔案無 errors／warnings／hints，43 篇場景與 3 篇文章有效，內容／分級／文章／SEO 41/41，建置 51 個 HTML 頁面，瀏覽器 892 passed／3 刻意 skipped，隔離擴充 1/1。隔離副本加入 42 篇混合級別場景與一篇文章，驗證自動入口、文章 SEO／索引、小圖分享回退及全部原正式場景；正式來源與 dist 雜湊不變。完整輸出在本機 `.scratch/pr/merge-verify.log`。
+
+獨立整合審閱 clean，`git diff --check HEAD` 通過。桌機及 320px／390px 手機的合併版首頁、文章入口、貼文頁均無水平溢出；前後截圖更新為同樣 43 篇場景、3 篇文章的主分支與合併介面，見 `docs/review/ui-entry-before.png` 及 `ui-entry-after.png`。場景 JSON、原插畫與音檔沒有變更。下方的 Cloudflare 版本與 657 個檔案遠端驗證屬於前次 43 篇場景的發布，本次文章整合尚未發布。
+
 ## 2026-10-14 分級介面與 SEO 整合發布
 
 依使用者「佈署」授權，從 `ui/level-entry-catalog` worktree 直接部署至 [carlenglish.gravito.dev](https://carlenglish.gravito.dev)。部署版本 `701b6750-4874-47be-9895-340116532e5f`，Cloudflare 建立時間 2026-10-14 06:37:08 UTC（臺北 14:37）。發布當時未提交、推送或合併 GitHub；後續依使用者 PR 請求整理至 `ui/level-entry-catalog` 分支。合併前，`main` 自動部署仍會使用主分支原始碼。

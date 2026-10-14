@@ -1,7 +1,8 @@
 import { createCatalog } from './catalog.ts';
+import type { Article } from './articles.ts';
 import type { Scene } from './scenes.ts';
 
-export const siteDescription = '透過生活場景插畫練習英文。先選學習程度，再讀短文、查看繁體中文翻譯，聽常用短句與單字發音。';
+export const siteDescription = '透過生活場景、新聞與社群貼文練習英文閱讀。先選生活讀本的程度，讀短文、查看繁體中文翻譯與聽發音；也能閱讀文章，練習關鍵詞與讀後提問。';
 
 export interface SocialImage {
   src: string;
@@ -31,11 +32,12 @@ export function canonicalUrl(pathname: string, site: URL | undefined): string {
   return url.href;
 }
 
-export function indexedPaths(scenes: Scene[]): string[] {
+export function indexedPaths(scenes: Scene[], articles: Pick<Article, 'id'>[] = []): string[] {
   return [
     '/',
     ...createCatalog(scenes).filter((group) => group.scenes.length > 0).map((group) => `/levels/${group.level.id}/`),
     ...scenes.map((scene) => `/scenes/${scene.id}/`),
+    ...articles.map((article) => `/articles/${article.id}/`),
   ];
 }
 

@@ -3,15 +3,19 @@ import { join } from 'node:path';
 import { expect, test, type Page } from '@playwright/test';
 import type { Scene } from '../src/lib/scenes';
 import { getLearningLevel, learningLevels } from '../src/lib/catalog';
+import { trackLabels, type Article } from '../src/lib/articles';
 import { sceneSocialImage } from '../src/lib/seo';
 
 const site = 'https://carlenglish.gravito.dev';
 const scenes = readdirSync(join(process.cwd(), 'content/scenes')).filter((name) => name.endsWith('.json')).sort()
   .map((name) => JSON.parse(readFileSync(join(process.cwd(), 'content/scenes', name), 'utf8')) as Scene);
+const articles = readdirSync(join(process.cwd(), 'content/articles')).filter((name) => name.endsWith('.json')).sort()
+  .map((name) => JSON.parse(readFileSync(join(process.cwd(), 'content/articles', name), 'utf8')) as Article);
 const pathFor = (scene: Scene) => `/scenes/${scene.id}/`;
-const paths = ['/', ...learningLevels.map((level) => `/levels/${level.id}/`), ...scenes.map(pathFor)];
+const articlePathFor = (article: Article) => `/articles/${article.id}/`;
+const paths = ['/', ...learningLevels.map((level) => `/levels/${level.id}/`), ...scenes.map(pathFor), ...articles.map(articlePathFor)];
 const populated = learningLevels.filter((level) => scenes.some((scene) => getLearningLevel(scene).id === level.id));
-const indexed = ['/', ...populated.map((level) => `/levels/${level.id}/`), ...scenes.map(pathFor)];
+const indexed = ['/', ...populated.map((level) => `/levels/${level.id}/`), ...scenes.map(pathFor), ...articles.map(articlePathFor)];
 const meta = (page: Page, key: string, value: string) => page.locator(`head meta[${key}="${value}"]`);
 const jsonLd = async (page: Page) => (await page.locator('head script[type="application/ld+json"]').allTextContents())
   .flatMap((text) => {
@@ -70,6 +74,7 @@ test('home and level pages publish matching metadata and data grounded in the vi
 });
 
 test('every reader has its own canonical, share image, and content-grounded LearningResource', async ({ page, request }) => {
+  test.setTimeout(120_000);
   const descriptions = new Set<string>();
   for (const scene of scenes) {
     await page.goto(pathFor(scene));
@@ -118,6 +123,29 @@ test('every reader has its own canonical, share image, and content-grounded Lear
   }
 });
 
+test('each article has grounded WebPage metadata and a canonical brand share card', async ({ page }) => {
+  for (const article of articles) {
+    const path = articlePathFor(article);
+    await page.goto(path);
+    const image = await expectMetadata(page, path, true, 'image/jpeg');
+    expect(image).toBe(`${site}/images/social/carlenglish.jpg`);
+    const description = (await meta(page, 'name', 'description').getAttribute('content'))!;
+    for (const part of [article.title, trackLabels[article.track], article.stage, String(article.glossary.length), String(article.questions.length)]) {
+      expect(description).toContain(part);
+    }
+    const nodes = await jsonLd(page);
+    const webpage = nodes.find((node) => hasType(node, 'WebPage'));
+    expect(webpage).toBeTruthy();
+    expect(webpage?.name).toBe(article.title);
+    expect(webpage?.description).toBe(description);
+    expect(hasType(webpage!, 'LearningResource')).toBe(false);
+    expect(nodes.some((node) => hasType(node, 'BreadcrumbList'))).toBe(true);
+    if (article.origin === 'rewrite') expect(webpage?.isBasedOn).toBe(article.source?.url);
+    else expect(webpage).not.toHaveProperty('isBasedOn');
+    for (const invented of ['author', 'datePublished', 'review', 'aggregateRating']) expect(webpage).not.toHaveProperty(invented);
+  }
+});
+
 test('metadata and structured data are server-rendered; filters and fragments do not change canonical', async ({ browser }) => {
   const context = await browser.newContext({ javaScriptEnabled: false, baseURL: test.info().project.use.baseURL });
   try {
@@ -129,6 +157,10 @@ test('metadata and structured data are server-rendered; filters and fragments do
     await page.goto('/levels/beginner/?q=coffee&category=飲食#scenes');
     await expect(page.locator('head link[rel="canonical"]')).toHaveAttribute('href', `${site}/levels/beginner/`);
     expect((await jsonLd(page)).some((node) => hasType(node, 'CollectionPage'))).toBe(true);
+    const article = articles[0];
+    await page.goto(`${articlePathFor(article)}?q=coffee#story`);
+    await expect(page.locator('head link[rel="canonical"]')).toHaveAttribute('href', `${site}${articlePathFor(article)}`);
+    expect((await jsonLd(page)).some((node) => hasType(node, 'WebPage'))).toBe(true);
     await page.goto('/scenes/not-a-scene/');
     await expect(page.locator('head link[rel="canonical"]')).toHaveCount(0);
     await expect(meta(page, 'name', 'robots')).toHaveAttribute('content', /\bnoindex\b.*\bfollow\b/);

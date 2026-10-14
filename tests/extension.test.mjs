@@ -13,6 +13,7 @@ import { getLearningLevel, getRelatedScenes } from '../src/lib/catalog.ts';
 
 const projectRoot = process.cwd();
 const fixtureId = 'catalog-beginner-00';
+const articleFixtureId = 'another-library-news';
 const originalIds = ['cafe-breakfast', 'school-greeting', 'supermarket-shopping', 'street-directions'];
 const astroBin = join(projectRoot, 'node_modules/astro/bin/astro.mjs');
 
@@ -165,6 +166,10 @@ test('a large mixed-level catalog builds and serves complete routes without chan
       .map((name) => JSON.parse(readFileSync(join(tempRoot, 'content/scenes', name), 'utf8')));
     const tierScenes = (id) => allScenes.filter((scene) => getLearningLevel(scene).id === id);
 
+    const originalArticle = JSON.parse(readFileSync(join(tempRoot, 'content/articles/riverside-library-late-hours.json'), 'utf8'));
+    const extraArticle = { ...originalArticle, id: articleFixtureId, title: '另一則圖書館消息', titleEn: 'Another library announcement' };
+    writeFileSync(join(tempRoot, 'content/articles', `${articleFixtureId}.json`), JSON.stringify(extraArticle));
+
     execFileSync(process.execPath, [astroBin, 'build'], { cwd: tempRoot, stdio: 'pipe', timeout: 90_000 });
     const routeRoot = join(tempRoot, 'dist/scenes');
     const expectedIds = allScenes.map((scene) => scene.id).sort();
@@ -172,6 +177,7 @@ test('a large mixed-level catalog builds and serves complete routes without chan
       'isolated build must preserve every official route and add exactly 42 fixtures');
     for (const id of expectedIds) assert.ok(existsSync(join(routeRoot, id, 'index.html')));
     for (const id of ['beginner', 'intermediate', 'advanced']) assert.ok(existsSync(join(tempRoot, 'dist/levels', id, 'index.html')));
+    assert.ok(existsSync(join(tempRoot, 'dist/articles', articleFixtureId, 'index.html')));
     const port = await freePort();
     const origin = `http://127.0.0.1:${port}`;
     child = spawn(process.execPath, [astroBin, 'preview', '--host', '127.0.0.1', '--port', String(port), '--ignore-lock'], {
@@ -190,6 +196,8 @@ test('a large mixed-level catalog builds and serves complete routes without chan
     const expectedUrls = [
       `${site}/`, ...['beginner', 'intermediate', 'advanced'].map((id) => `${site}/levels/${id}/`),
       ...allScenes.map((scene) => `${site}/scenes/${scene.id}/`),
+      ...readdirSync(join(tempRoot, 'content/articles')).filter((name) => name.endsWith('.json')).sort()
+        .map((name) => `${site}/articles/${JSON.parse(readFileSync(join(tempRoot, 'content/articles', name), 'utf8')).id}/`),
     ];
     assert.deepEqual(new Set(locs), new Set(expectedUrls));
     assert.equal(locs.length, expectedUrls.length);
@@ -334,6 +342,12 @@ test('a large mixed-level catalog builds and serves complete routes without chan
     assert.ok([profile.provider, profile.voice, profile.libraryVersion, profile.modelLicenseName].every((part) => creditText.includes(part)));
     assert.equal(await attribution.getByRole('link', { name: '模型來源' }).getAttribute('href'), profile.sourceUrl);
     assert.equal(await attribution.getByRole('link', { name: profile.modelLicenseName }).getAttribute('href'), profile.modelLicenseUrl);
+    await page.goto(origin);
+    assert.equal(await page.getByRole('link', { name: extraArticle.titleEn }).getAttribute('href'), `/articles/${articleFixtureId}/`);
+    const articleResponse = await page.goto(`${origin}/articles/${articleFixtureId}/`);
+    assert.equal(articleResponse.status(), 200);
+    assert.equal(await page.getByRole('heading', { level: 1, name: extraArticle.titleEn }).count(), 1);
+    assert.equal(await page.locator('head link[rel="canonical"]').getAttribute('href'), `${site}/articles/${articleFixtureId}/`);
     for (const scene of originals) {
       const route = `${origin}/scenes/${scene.id}/`;
       const direct = await page.goto(route);
@@ -352,5 +366,6 @@ test('a large mixed-level catalog builds and serves complete routes without chan
     assert.deepEqual(readdirSync(join(projectRoot, 'content/scenes')).filter((name) => name.endsWith('.json')).sort(), originalFiles);
     assert.ok(!existsSync(join(projectRoot, 'content/scenes', `${fixtureId}.json`)));
     assert.ok(!existsSync(join(projectRoot, 'dist/scenes', fixtureId)));
+    assert.ok(!existsSync(join(projectRoot, 'dist/articles', articleFixtureId)));
   }
 });

@@ -6,7 +6,7 @@ const baseURL = `http://127.0.0.1:${port}`;
 
 export default defineConfig({
   testDir: './tests',
-  testMatch: ['browser.spec.ts', 'pronunciation.spec.ts', 'seo.spec.ts'],
+  testMatch: ['browser.spec.ts', 'pronunciation.spec.ts', 'seo.spec.ts', 'articles.spec.ts'],
   use: { baseURL, trace: 'retain-on-failure' },
   projects: [
     { name: 'desktop-chromium', use: { ...devices['Desktop Chrome'], viewport: { width: 1280, height: 800 } } },

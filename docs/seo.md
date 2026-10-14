@@ -12,11 +12,14 @@
 | 有教材的級別 | CollectionPage、ItemList、BreadcrumbList | 可索引 |
 | 空級別 | 相同目錄結構，項目數為 0 | noindex, follow |
 | 讀本 | WebPage、LearningResource、BreadcrumbList | 可索引 |
+| 新聞／貼文文章 | WebPage、BreadcrumbList | 可索引 |
 | 404 | 不輸出內容結構化資料或 canonical | noindex, follow |
 
-canonical 與 `og:url` 使用沒有搜尋參數或片段的正式頁面網址；`q`／`category` 的閱讀返回功能繼續運作。JSON-LD 由原始內容產生，使用真實難度、短句、插畫與本地朗讀資訊。序列化會跳脫 `<`，避免內容中的 `</script>` 結束 JSON-LD 元素。網站沒有可供聲明的作者、出版日期、評價或 CEFR 對照，因此沒有加入這些欄位。
+canonical 與 `og:url` 使用沒有搜尋參數或片段的正式頁面網址；`q`／`category` 的閱讀返回功能繼續運作。JSON-LD 由原始內容產生，使用真實難度、短句、插畫與本地朗讀資訊。序列化會跳脫 `<`，避免內容中的 `</script>` 結束 JSON-LD 元素。網站未提供頁面的作者、出版日期、評價或 CEFR 對照，因此沒有加入這些欄位。文章的來源發布日期屬於原始媒體，不當作網站頁面的 `datePublished`；貼文發文者也不當作整篇文章的作者。
 
-`src/pages/sitemap.xml.ts` 從實際資料列出首頁、有教材的級別及所有讀本，沒有日期來源時不產生 `lastmod`。空級別新增第一篇教材後，重新建置會自動變成可索引並加入 sitemap。`src/pages/robots.txt.ts` 允許爬取並提供正式 sitemap 網址，讓爬蟲能讀取頁面的 noindex。
+新聞／貼文文章使用獨立標題、依可見的軌道／級別／關鍵詞與提問數量產生摘要、品牌分享圖，以及一般 WebPage 與麵包屑結構化資料。有教學改寫來源時，`isBasedOn` 連到實際來源網址。沒有新增文章 JSON 欄位或虛構文章圖片。
+
+`src/pages/sitemap.xml.ts` 從實際資料列出首頁、有教材的級別、所有讀本及文章，沒有日期來源時不產生 `lastmod`。空級別新增第一篇教材後，重新建置會自動變成可索引並加入 sitemap。`src/pages/robots.txt.ts` 允許爬取並提供正式 sitemap 網址，讓爬蟲能讀取頁面的 noindex。
 
 AEO 採伺服器輸出的可閱讀圖文、清楚的標題與內部導覽，以及與實際頁面一致的結構化資料。依 [Google 的 AI 搜尋指南](https://developers.google.com/search/docs/appearance/ai-features)，AI 搜尋沿用 SEO 基礎原則，沒有額外的專用結構化資料要求；技術完成不保證搜尋收錄、排名、AI 引用或社群預覽結果。
 

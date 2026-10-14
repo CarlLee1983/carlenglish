@@ -50,9 +50,12 @@ const imageUrl = new URL(shareImage.src, Astro.site).href;
     <a class="skip-link" href="#main">跳到主要內容</a>
     <header class="site-header">
       <a class="brand" href="/" aria-label="CarlEnglish 選擇程度">Carl<span>English</span><span class="brand-dot" aria-hidden="true">.</span></a>
-      <nav class="level-navigation" aria-label="英文程度">
-        {learningLevels.map((level) => <a href={`/levels/${level.id}/`} aria-current={currentLevel === level.id ? (isReader ? 'location' : 'page') : undefined}>{level.name}</a>)}
-      </nav>
+      <div class="header-links">
+        <nav class="level-navigation" aria-label="英文程度">
+          {learningLevels.map((level) => <a href={`/levels/${level.id}/`} aria-current={currentLevel === level.id ? (isReader ? 'location' : 'page') : undefined}>{level.name}</a>)}
+        </nav>
+        <a class="header-link" href="/#articles" aria-current={Astro.url.pathname.startsWith('/articles/') ? 'location' : undefined}>新聞與貼文</a>
+      </div>
     </header>
     <main id="main"><slot /></main>
     <footer class="site-footer"><span>CarlEnglish</span><p>看懂情境，練習日常英文。</p><a href="/">選擇學習程度 <span aria-hidden="true">↗</span></a></footer>

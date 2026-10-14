@@ -26,6 +26,11 @@ test('indexed paths include the home, populated levels, and every current scene 
     '/', '/levels/beginner/', '/levels/intermediate/', '/levels/advanced/',
     '/scenes/a/', '/scenes/b/', '/scenes/c/', '/scenes/d/',
   ]);
+  assert.deepEqual(indexedPaths([], [{ id: 'news-a' }, { id: 'posts-b' }]), ['/', '/articles/news-a/', '/articles/posts-b/']);
+  assert.deepEqual(indexedPaths(scenes, [{ id: 'news-a' }]), [
+    '/', '/levels/beginner/', '/levels/intermediate/', '/levels/advanced/',
+    '/scenes/a/', '/scenes/b/', '/scenes/c/', '/scenes/d/', '/articles/news-a/',
+  ]);
 });
 
 test('small illustrations use the full-size brand card; suitable art gets a scene share image', () => {

@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { loadArticles, originLabels, trackLabels, type Track } from '../lib/articles';
 import { loadScenes } from '../lib/scenes';
 import { createCatalog } from '../lib/catalog';
 import { canonicalUrl, siteDescription } from '../lib/seo';
@@ -8,10 +9,17 @@ const catalog = createCatalog(scenes);
 const homeUrl = canonicalUrl('/', Astro.site);
 const structuredData = [
   { '@type': 'WebSite', '@id': `${homeUrl}#website`, name: 'CarlEnglish', url: homeUrl, description: siteDescription, inLanguage: ['zh-Hant', 'en'] },
-  { '@type': 'WebPage', '@id': `${homeUrl}#webpage`, name: '選擇學習程度', url: homeUrl, description: siteDescription, inLanguage: 'zh-Hant', isPartOf: { '@id': `${homeUrl}#website` } },
+  { '@type': 'WebPage', '@id': `${homeUrl}#webpage`, name: '生活讀本與新聞貼文閱讀', url: homeUrl, description: siteDescription, inLanguage: 'zh-Hant', isPartOf: { '@id': `${homeUrl}#website` } },
 ];
+const articles = loadArticles();
+const tracks: Track[] = ['news', 'posts'];
+const articleGroups = tracks.map((track) => ({
+  track,
+  items: articles.filter((article) => article.track === track)
+    .sort((a, b) => a.stage.localeCompare(b.stage) || a.id.localeCompare(b.id)),
+})).filter((group) => group.items.length > 0);
 ---
-<Layout title="生活英文圖文讀本：選擇初級、中級或高級" structuredData={structuredData}>
+<Layout title="生活英文閱讀：初中高級讀本與新聞貼文" structuredData={structuredData}>
   <div class="page-shell home-page">
     <section class="home-intro" aria-labelledby="intro-title">
       <div>
@@ -41,5 +49,27 @@ const structuredData = [
       </ol>
     </section>
     <p class="level-help">剛開始讀英文？先從初級試讀，再依閱讀感受調整程度。</p>
+    <section class="articles-section" id="articles" aria-labelledby="articles-title">
+      <div class="collection-heading">
+        <h2 id="articles-title">新聞與貼文</h2>
+        <span>{articles.length} 篇文章</span>
+      </div>
+      {articleGroups.map((group) => (
+        <div class="article-group">
+          <h3>{trackLabels[group.track]}</h3>
+          <ul class="article-list">
+            {group.items.map((article) => (
+              <li>
+                <a class="article-card" href={`/articles/${article.id}/`}>
+                  <p class="scene-meta">{article.stage}<span>{originLabels[article.origin]}</span></p>
+                  <h4 lang="en">{article.titleEn}</h4>
+                  <p class="article-card-title">{article.title}</p>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </section>
   </div>
 </Layout>

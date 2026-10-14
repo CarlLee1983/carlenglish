@@ -1,0 +1,57 @@
+{
+  "id": "subway-app-update-posts",
+  "track": "posts",
+  "stage": "S1",
+  "origin": "original",
+  "title": "地鐵 App 更新的網路討論",
+  "titleEn": "Is the new subway app actually fixed?",
+  "posts": [
+    {
+      "author": "@maya_codes",
+      "english": "ngl the new subway app update is kinda fire 🔥 trains show up live on the map now. tbh didn't expect them to fix it this fast",
+      "translation": "老實說，地鐵 App 這次更新滿讚的 🔥 現在地圖上可以即時看到列車位置。說真的，沒想到他們這麼快就修好了。"
+    },
+    {
+      "author": "@dan_k",
+      "replyTo": "@maya_codes",
+      "english": "lol enjoy it while it lasts. last time they \"fixed\" it the app crashed for a week 💀",
+      "translation": "哈，趁還能用的時候好好享受吧。上次他們「修好」之後，App 當了整整一個禮拜 💀"
+    },
+    {
+      "author": "@maya_codes",
+      "replyTo": "@dan_k",
+      "english": "fair. but imo this one actually works. checked it like 3 times this morning",
+      "translation": "也是。不過我覺得這次真的有用，我今天早上大概查了 3 次。"
+    },
+    {
+      "author": "@transitwatch",
+      "quoting": "@maya_codes",
+      "english": "ICYMI: the city's subway app now shows live train locations. Officials say the feature is still in beta. 🧵 1/3",
+      "translation": "錯過的人看這裡：市府的地鐵 App 現在會顯示列車即時位置。官方表示這項功能仍在測試階段。🧵 1/3"
+    }
+  ],
+  "glossary": [
+    { "english": "ngl", "translation": "not gonna lie：老實說、不騙你" },
+    { "english": "fire", "translation": "（俚語）很讚、很厲害" },
+    { "english": "tbh", "translation": "to be honest：說真的" },
+    { "english": "lol", "translation": "laughing out loud：哈哈，常帶調侃語氣" },
+    { "english": "fair", "translation": "（回應時）有道理、說得也是" },
+    { "english": "imo", "translation": "in my opinion：我覺得" },
+    { "english": "ICYMI", "translation": "in case you missed it：錯過的人看這裡" },
+    { "english": "beta", "translation": "測試版、仍在測試階段" }
+  ],
+  "questions": [
+    {
+      "question": "Maya 對這次更新的看法是什麼？",
+      "answer": "她覺得這次更新很好（kinda fire），地圖上能即時看到列車，而且修得比她預期的快。"
+    },
+    {
+      "question": "Dan 的回覆是什麼語氣？他在擔心什麼？",
+      "answer": "帶著調侃和懷疑：lol、給 \"fixed\" 加引號、💀 都在暗示他不太相信。他擔心這次會像上次一樣，「修好」之後 App 反而當掉。"
+    },
+    {
+      "question": "@transitwatch 的貼文和前面兩人有什麼不同？裡面哪個資訊還不確定？",
+      "answer": "前兩人在分享個人意見和經驗；@transitwatch 引用 Maya 的貼文，用快訊的口吻轉述消息（ICYMI，🧵 1/3 表示這是一串貼文的第一則）。不確定的地方是：官方說這項功能還在 beta 測試，可能不穩定，之後也可能改變。"
+    }
+  ]
+}

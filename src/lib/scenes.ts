@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto';
 import { existsSync, readFileSync, readdirSync, realpathSync, statSync } from 'node:fs';
 import { dirname, isAbsolute, join, relative, resolve } from 'node:path';
 import { canonicalStoryText, textSha256 } from './audio-text.ts';
+import { array, httpsUrl, identifier, nonblank, record } from './validation.ts';
 
 export interface AudioClip {
   src: string;
@@ -74,61 +75,13 @@ export class ContentError extends Error {
   }
 }
 
-type RecordValue = Record<string, unknown>;
-const idPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const imagePattern = /^\/images\/scenes\/(?:[a-zA-Z0-9_-]+\/)*[a-zA-Z0-9_-]+\.(?:png|jpe?g|webp)$/i;
 const hashPattern = /^[a-f0-9]{64}$/;
 const revisionPattern = /^[a-f0-9]{40}$/;
 
-function record(value: unknown, path: string, issues: string[]): RecordValue {
-  if (value !== null && typeof value === 'object' && !Array.isArray(value)) {
-    return value as RecordValue;
-  }
-  issues.push(`${path}: expected an object`);
-  return {};
-}
-
-function nonblank(value: unknown, path: string, issues: string[]): string {
-  if (typeof value === 'string' && value.trim()) return value;
-  issues.push(`${path}: expected nonempty text`);
-  return '';
-}
-
-function identifier(value: unknown, path: string, issues: string[]): string {
-  const id = nonblank(value, path, issues);
-  if (id && !idPattern.test(id)) issues.push(`${path}: expected a lowercase hyphenated ID`);
-  return id;
-}
-
-function array(value: unknown, path: string, issues: string[], min?: number, max?: number): unknown[] {
-  if (!Array.isArray(value)) {
-    issues.push(`${path}: expected an array`);
-    return [];
-  }
-  if (min !== undefined && (value.length < min || value.length > max!)) {
-    issues.push(`${path}: expected ${min}–${max} items, found ${value.length}`);
-  }
-  return value;
-}
-
 function references(value: unknown, path: string, issues: string[]): string[] {
   if (value === undefined) return [];
   return array(value, path, issues).map((item, index) => identifier(item, `${path}[${index}]`, issues));
-}
-
-function httpsUrl(value: unknown, path: string, issues: string[]): string {
-  const text = nonblank(value, path, issues);
-  if (text) {
-    try {
-      const url = new URL(text);
-      if (text !== text.trim() || url.protocol !== 'https:' || !url.hostname || url.username || url.password) {
-        issues.push(`${path}: expected an HTTPS URL with a hostname and no credentials`);
-      }
-    } catch {
-      issues.push(`${path}: expected an HTTPS URL with a hostname and no credentials`);
-    }
-  }
-  return text;
 }
 
 function voiceProfile(value: unknown, path: string, issues: string[]): VoiceProfile {
