@@ -11,6 +11,7 @@ import { chromium } from '@playwright/test';
 
 const projectRoot = process.cwd();
 const fixtureId = 'another-cafe-breakfast';
+const articleFixtureId = 'another-library-news';
 const astroBin = join(projectRoot, 'node_modules/astro/bin/astro.mjs');
 
 function fileHashes(root, paths) {
@@ -84,8 +85,13 @@ test('an extension content file and image create a complete route without changi
     cpSync(join(tempRoot, 'public', original.image.src.slice(1)), join(tempRoot, 'public', fourth.image.src.slice(1)));
     writeFileSync(join(tempRoot, 'content/scenes', `${fixtureId}.json`), JSON.stringify(fourth));
 
+    const originalArticle = JSON.parse(readFileSync(join(tempRoot, 'content/articles/riverside-library-late-hours.json'), 'utf8'));
+    const extraArticle = { ...originalArticle, id: articleFixtureId, title: '另一則圖書館消息', titleEn: 'Another library announcement' };
+    writeFileSync(join(tempRoot, 'content/articles', `${articleFixtureId}.json`), JSON.stringify(extraArticle));
+
     execFileSync(process.execPath, [astroBin, 'build'], { cwd: tempRoot, stdio: 'pipe', timeout: 30_000 });
     assert.ok(existsSync(join(tempRoot, 'dist/scenes', fixtureId, 'index.html')));
+    assert.ok(existsSync(join(tempRoot, 'dist/articles', articleFixtureId, 'index.html')));
     const port = await freePort();
     const origin = `http://127.0.0.1:${port}`;
     child = spawn(process.execPath, [astroBin, 'preview', '--host', '127.0.0.1', '--port', String(port), '--ignore-lock'], {
@@ -98,11 +104,16 @@ test('an extension content file and image create a complete route without changi
 
     browser = await chromium.launch();
     const page = await browser.newPage();
-    await page.goto(origin);
+    let response = await page.goto(origin);
     assert.equal(await page.getByRole('link', { name: `閱讀${fourth.title}` }).count(), 1);
     assert.equal(await page.getByRole('link', { name: /^閱讀/ }).count(), 5);
+    assert.equal(await page.getByRole('link', { name: extraArticle.titleEn }).getAttribute('href'), `/articles/${articleFixtureId}/`);
+    response = await page.goto(`${origin}/articles/${articleFixtureId}/`);
+    assert.equal(response.status(), 200);
+    assert.equal(await page.getByRole('heading', { level: 1, name: extraArticle.titleEn }).count(), 1);
+    await page.goto(origin);
     const route = `${origin}/scenes/${fixtureId}/`;
-    let response = await page.goto(route);
+    response = await page.goto(route);
     assert.equal(response.status(), 200);
     await page.reload();
     assert.equal(await page.getByRole('heading', { level: 1, name: fourth.titleEn }).count(), 1);
@@ -164,5 +175,6 @@ test('an extension content file and image create a complete route without changi
     assert.deepEqual(readdirSync(join(projectRoot, 'content/scenes')).filter((name) => name.endsWith('.json')).sort(), originalFiles);
     assert.ok(!existsSync(join(projectRoot, 'public/images/scenes', `${fixtureId}.webp`)));
     assert.ok(!existsSync(join(projectRoot, 'dist/scenes', fixtureId)));
+    assert.ok(!existsSync(join(projectRoot, 'dist/articles', articleFixtureId)));
   }
 });

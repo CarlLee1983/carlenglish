@@ -1,0 +1,55 @@
+{
+  "id": "riverside-library-late-hours",
+  "track": "news",
+  "stage": "N1",
+  "origin": "original",
+  "title": "河濱圖書館平日延長開放",
+  "titleEn": "Riverside library to stay open late on weeknights",
+  "paragraphs": [
+    {
+      "english": "RIVERSIDE — The Riverside Public Library will stay open until 10 p.m. on weeknights starting next month, city officials said Tuesday.",
+      "translation": "河濱市訊——市府官員週二表示，河濱公共圖書館從下個月起，平日將開放到晚上 10 點。"
+    },
+    {
+      "english": "The library now closes at 6 p.m., which many students and workers say is too early.",
+      "translation": "圖書館目前晚上 6 點閉館，許多學生和上班族認為太早。"
+    },
+    {
+      "english": "\"People told us they wanted a quiet place to study after work,\" said Maria Lopez, the library's director.",
+      "translation": "館長 Maria Lopez 說：「民眾告訴我們，他們希望下班後有個安靜的地方讀書。」"
+    },
+    {
+      "english": "The change will cost about $80,000 a year, according to the city. Most of the money will pay for two new staff members.",
+      "translation": "根據市府的說法，這項調整每年約需 8 萬美元，大部分用來增聘兩名工作人員。"
+    },
+    {
+      "english": "Some residents worry that the building's parking lot is not safe at night. The city said it plans to add more lights before the new hours begin.",
+      "translation": "部分居民擔心圖書館的停車場晚上不安全。市府表示，計畫在新時段開始前增設照明。"
+    },
+    {
+      "english": "The longer hours will be tested for six months, and officials will decide in the spring whether to keep them.",
+      "translation": "延長的開放時間將試行六個月，官員會在春季決定是否保留。"
+    }
+  ],
+  "glossary": [
+    { "english": "weeknights", "translation": "平日晚上（週一到週五的晚上）" },
+    { "english": "director", "translation": "館長、主管" },
+    { "english": "according to", "translation": "根據（某人或機構的說法）" },
+    { "english": "residents", "translation": "居民" },
+    { "english": "tested", "translation": "試行、測試" }
+  ],
+  "questions": [
+    {
+      "question": "標題說什麼事要發生？從什麼時候開始？",
+      "answer": "河濱公共圖書館平日將延長開放到晚上 10 點，從下個月開始。標題用「to stay」表示未來會發生的事，這是新聞標題常見的寫法。"
+    },
+    {
+      "question": "哪些是市府或館方的說法，哪些是居民的意見？",
+      "answer": "市府與館方的說法：開放到 10 點、每年約 8 萬美元、大部分用於兩名新員工、會增設照明、試行六個月，文中用 said 和 according to 標出來源；館長的引述則是館方轉述民眾的需求。居民的意見：學生和上班族認為 6 點閉館太早，部分居民擔心停車場晚上不安全。"
+    },
+    {
+      "question": "新的開館時間一定會永久保留嗎？哪一句告訴你？",
+      "answer": "不一定。最後一句說延長時段會先試行六個月，官員到春季才決定是否保留。"
+    }
+  ]
+}
