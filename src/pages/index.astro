@@ -1,0 +1,35 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { loadScenes } from '../lib/scenes';
+const scenes = loadScenes();
+---
+<Layout title="生活場景">
+  <div class="page-shell">
+    <section class="list-intro" aria-labelledby="intro-title">
+      <h1 id="intro-title">從生活場景，<br />開始讀英文。</h1>
+      <p>先看圖，再讀一篇短文。<br />把日常會用到的英文，一點一點記起來。</p>
+    </section>
+    <section aria-labelledby="scenes-title">
+      <div class="collection-heading">
+        <h2 id="scenes-title">選一個場景</h2>
+        <span>{scenes.length} 篇讀本</span>
+      </div>
+      <ul class="scene-list">
+        {scenes.map((scene) => (
+          <li>
+            <a class="scene-card" href={`/scenes/${scene.id}/`} aria-label={`閱讀${scene.title}`}>
+              <img src={scene.image.src} alt={scene.image.alt} width={scene.image.width} height={scene.image.height} fetchpriority="high" />
+              <div class="scene-card-copy">
+                <p class="scene-meta">{scene.category}<span>{scene.level}</span></p>
+                <h3 lang="en">{scene.titleEn}</h3>
+                <p class="scene-card-title">{scene.title}</p>
+                <p class="scene-counts">{scene.sentences.length} 句短文 / {scene.phrases.length} 個短句 / {scene.words.length} 個單字</p>
+                <span class="read-label">開始閱讀 <span aria-hidden="true">↗</span></span>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </div>
+</Layout>

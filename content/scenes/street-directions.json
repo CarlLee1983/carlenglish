@@ -1,0 +1,396 @@
+{
+  "id": "street-directions",
+  "title": "街上問路",
+  "titleEn": "Asking for Directions",
+  "category": "交通與問路",
+  "level": "初級至初中級",
+  "image": {
+    "src": "/images/scenes/street-directions.webp",
+    "alt": "Leo 拿著手機在街道人行道上向一名女子問路；女子指向前方，遠處可見紅綠燈、銀行與車站。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Leo stops on a neighborhood "
+        },
+        {
+          "text": "street",
+          "wordIds": [
+            "street"
+          ]
+        },
+        {
+          "text": " and checks his "
+        },
+        {
+          "text": "phone",
+          "wordIds": [
+            "phone"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Leo 在一條街區道路上停下來，查看手機。"
+    },
+    {
+      "segments": [
+        {
+          "text": "He asks a "
+        },
+        {
+          "text": "woman",
+          "wordIds": [
+            "woman"
+          ]
+        },
+        {
+          "text": ", “"
+        },
+        {
+          "text": "How do I get to the ",
+          "phraseIds": [
+            "how-to-get-to-station"
+          ]
+        },
+        {
+          "text": "station",
+          "phraseIds": [
+            "how-to-get-to-station"
+          ],
+          "wordIds": [
+            "station"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "how-to-get-to-station"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他問一位女子：「請問車站怎麼走？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Go ",
+          "phraseIds": [
+            "go-straight"
+          ]
+        },
+        {
+          "text": "straight",
+          "phraseIds": [
+            "go-straight"
+          ],
+          "wordIds": [
+            "straight"
+          ]
+        },
+        {
+          "text": " along this "
+        },
+        {
+          "text": "street",
+          "wordIds": [
+            "street"
+          ]
+        },
+        {
+          "text": ",” she says, pointing ahead."
+        }
+      ],
+      "translation": "她指向前方說：「沿著這條街直走。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“Then "
+        },
+        {
+          "text": "turn ",
+          "phraseIds": [
+            "turn-left-at-light"
+          ]
+        },
+        {
+          "text": "left",
+          "phraseIds": [
+            "turn-left-at-light"
+          ],
+          "wordIds": [
+            "left"
+          ]
+        },
+        {
+          "text": " at the traffic light",
+          "phraseIds": [
+            "turn-left-at-light"
+          ]
+        },
+        {
+          "text": ".”"
+        }
+      ],
+      "translation": "「然後在紅綠燈左轉。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“The "
+        },
+        {
+          "text": "station",
+          "wordIds": [
+            "station"
+          ]
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "next to the ",
+          "phraseIds": [
+            "next-to-bank"
+          ]
+        },
+        {
+          "text": "bank",
+          "phraseIds": [
+            "next-to-bank"
+          ],
+          "wordIds": [
+            "bank"
+          ]
+        },
+        {
+          "text": ".”"
+        }
+      ],
+      "translation": "「車站就在銀行旁邊。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“It's about "
+        },
+        {
+          "text": "a five-minute ",
+          "phraseIds": [
+            "five-minute-walk"
+          ]
+        },
+        {
+          "text": "walk",
+          "phraseIds": [
+            "five-minute-walk"
+          ],
+          "wordIds": [
+            "walk"
+          ]
+        },
+        {
+          "text": " from here.”"
+        }
+      ],
+      "translation": "「從這裡走過去大約五分鐘。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“Thank you for your help,” Leo says."
+        }
+      ],
+      "translation": "Leo 說：「謝謝妳幫忙。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "He puts away his "
+        },
+        {
+          "text": "phone",
+          "wordIds": [
+            "phone"
+          ]
+        },
+        {
+          "text": " and starts walking."
+        }
+      ],
+      "translation": "他收起手機，開始往車站走。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "how-to-get-to-station",
+      "english": "How do I get to the station?",
+      "translation": "請問車站怎麼走？",
+      "audio": {
+        "src": "/audio/phrases/street-directions-how-to-get-to-station.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e5169d2c3a88c516025c2b9516936baa13a77cede3800f139e29fe8fe7ab500c",
+        "sha256": "d40c7540b03fa5a1764b287b802b54b60df96ba95c7d3ea6dae3d0c03a8445ae"
+      }
+    },
+    {
+      "id": "go-straight",
+      "english": "Go straight",
+      "translation": "直走",
+      "audio": {
+        "src": "/audio/phrases/street-directions-go-straight.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fb0a7d9a01d2dc60f17da572ca704d38a8682150ca8c21b39fe8dca1979fde75",
+        "sha256": "07da34b0afc5ad7750880464314891d71fb97693ffbec219cdd41d974bf07d9c"
+      }
+    },
+    {
+      "id": "turn-left-at-light",
+      "english": "turn left at the traffic light",
+      "translation": "在紅綠燈左轉",
+      "audio": {
+        "src": "/audio/phrases/street-directions-turn-left-at-light.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "eb34fd1550903e90a4e4eebe42e875f539e5540f6b3903b8569d7db476ba5b63",
+        "sha256": "12480f386aa94c45267294d821e8bc93844757651685f5d7633d8974520ea1e6"
+      }
+    },
+    {
+      "id": "next-to-bank",
+      "english": "next to the bank",
+      "translation": "在銀行旁邊",
+      "audio": {
+        "src": "/audio/phrases/street-directions-next-to-bank.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "392778e0fe6d597f6e8f4b569e5f92ca6a5482a0621cf72531a1ca8fd25e3861",
+        "sha256": "08d8049840dc4503772954778dbbbb5efe0e8aab20e265c9bd6e0102c35bf0c7"
+      }
+    },
+    {
+      "id": "five-minute-walk",
+      "english": "a five-minute walk",
+      "translation": "步行五分鐘的路程",
+      "audio": {
+        "src": "/audio/phrases/street-directions-five-minute-walk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2f029348a8c9b3c0ca3173dbce364f576978e656c344221ad2d3ba14d78cae72",
+        "sha256": "112e5bd3a59b9cfbe9511acf1c7fa12cd314c8502a96c8ef4544af3ae60d1367"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "street",
+      "english": "street",
+      "translation": "街道",
+      "example": "The library is on this street.",
+      "audio": {
+        "src": "/audio/words/street-directions-street.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6008c26f4452392acb19374bc12a5ec0c360ae17356bce8b786fb128c8720951",
+        "sha256": "b5da0508e982b3f507bd6c1e9bf282081e904ad6fccab04bde0c9715c5538c18"
+      }
+    },
+    {
+      "id": "phone",
+      "english": "phone",
+      "translation": "手機",
+      "example": "I use my phone to check the map.",
+      "audio": {
+        "src": "/audio/words/street-directions-phone.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "45569da57f4b7bf472d7a864ef4781451cae6383fee9fb0ae40c59aa1ce475b7",
+        "sha256": "2d2ff0daf401a7af4e388406c9dea5ab56013cb15b122d1a0d0423c396a3d476"
+      }
+    },
+    {
+      "id": "woman",
+      "english": "woman",
+      "translation": "女子",
+      "example": "The woman gives Leo directions.",
+      "audio": {
+        "src": "/audio/words/street-directions-woman.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cf2e5bff1ef03dcd20d1a0b18ef7d89fc80a3554434165753672f6f40fde1d25",
+        "sha256": "99aee8f32d7b228cc2f0a37cc502f377d3d553032b7311148ba2d8ec9672105b"
+      }
+    },
+    {
+      "id": "station",
+      "english": "station",
+      "translation": "車站",
+      "example": "The station is near the bank.",
+      "audio": {
+        "src": "/audio/words/street-directions-station.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9b4ef3e5b7b4d1759cb8f880e34dbd5ea8c3fcd79ce33b89d7357bf64fcbfc91",
+        "sha256": "ad7200a62703ba3c30e4e0a686db6df99d3c056cd58eaf9d44b186a30ee695e7"
+      }
+    },
+    {
+      "id": "straight",
+      "english": "straight",
+      "translation": "直直地；筆直地",
+      "example": "Walk straight for two blocks.",
+      "audio": {
+        "src": "/audio/words/street-directions-straight.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2a424875a8475a99175f543fa6fc65964e53e87efc161f7b1f9e370efe6ddd16",
+        "sha256": "0aff529a1ffdf33e273988ee5df5ec31e6cf1f698112e39c370e7f79a35b56fa"
+      }
+    },
+    {
+      "id": "left",
+      "english": "left",
+      "translation": "左邊；向左",
+      "example": "Turn left after the park.",
+      "audio": {
+        "src": "/audio/words/street-directions-left.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "360f84035942243c6a36537ae2f8673485e6c04455a0a85a0db19690f2541480",
+        "sha256": "efb1e0b65ea85ec927cd36c7f22e389c906fac3d3560652b65acabbdab2fccac"
+      }
+    },
+    {
+      "id": "bank",
+      "english": "bank",
+      "translation": "銀行",
+      "example": "The bank is next to the station.",
+      "audio": {
+        "src": "/audio/words/street-directions-bank.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4381dc2ab14285160c808659aee005d51255add7264b318d07c7417292c7442c",
+        "sha256": "67105cebb1fef84dbd42cf2c821830f86f508f31bc66efa4454cd92ed07e5ec4"
+      }
+    },
+    {
+      "id": "walk",
+      "english": "walk",
+      "translation": "步行路程",
+      "example": "It's a short walk to the station.",
+      "audio": {
+        "src": "/audio/words/street-directions-walk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7a6c4fac6c5cd7209ee2eecd9d6ad3673c55315117de1d8daa5aeb3f71bbd7c7",
+        "sha256": "b9ba519de8b4bd0d66a2ef6426f26c90f1ce3b35006bf84f6f183e03abb21617"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/street-directions.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "76b41ccfaef9004952bbfba769283c6a317a8803143e44428de6c097e3c64ed6",
+    "sha256": "e3b25cdc6b6bcf90a4f6fe0b0667d422a150011de376c03604238a91013f3012"
+  }
+}

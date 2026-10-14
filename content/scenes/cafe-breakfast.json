@@ -1,0 +1,384 @@
+{
+  "id": "cafe-breakfast",
+  "title": "咖啡店買早餐",
+  "titleEn": "Breakfast at the café",
+  "category": "飲食",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/cafe-breakfast.webp",
+    "alt": "早晨的咖啡店裡，Mia 在櫃檯向店員點外帶早餐，檯面上有咖啡紙杯與裝著吐司的紙袋。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "On a sunny morning, Mia stops at a small "
+        },
+        {
+          "text": "café",
+          "wordIds": [
+            "cafe"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "晴朗的早晨，Mia 來到一間小咖啡店。"
+    },
+    {
+      "segments": [
+        {
+          "text": "She looks at the "
+        },
+        {
+          "text": "menu",
+          "wordIds": [
+            "menu"
+          ]
+        },
+        {
+          "text": " and says, “"
+        },
+        {
+          "text": "I'd like a ",
+          "phraseIds": [
+            "id-like"
+          ]
+        },
+        {
+          "text": "coffee",
+          "phraseIds": [
+            "id-like"
+          ],
+          "wordIds": [
+            "coffee"
+          ]
+        },
+        {
+          "text": " and some "
+        },
+        {
+          "text": "toast",
+          "wordIds": [
+            "toast"
+          ]
+        },
+        {
+          "text": ", please.”"
+        }
+      ],
+      "translation": "她看著菜單說：「我想要一杯咖啡和一些吐司，謝謝。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "barista",
+          "wordIds": [
+            "barista"
+          ]
+        },
+        {
+          "text": " asks, “"
+        },
+        {
+          "text": "For here or to go?",
+          "phraseIds": [
+            "for-here-or-to-go"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "咖啡師問：「內用還是外帶？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "To go, please",
+          "phraseIds": [
+            "to-go"
+          ]
+        },
+        {
+          "text": ",” Mia says."
+        }
+      ],
+      "translation": "Mia 說：「外帶，謝謝。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "barista",
+          "wordIds": [
+            "barista"
+          ]
+        },
+        {
+          "text": " puts her "
+        },
+        {
+          "text": "toast",
+          "wordIds": [
+            "toast"
+          ]
+        },
+        {
+          "text": " in a paper "
+        },
+        {
+          "text": "bag",
+          "wordIds": [
+            "bag"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "咖啡師把她的吐司放進紙袋裡。"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "How much is it?",
+          "phraseIds": [
+            "how-much"
+          ]
+        },
+        {
+          "text": "” Mia asks at the "
+        },
+        {
+          "text": "counter",
+          "wordIds": [
+            "counter"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Mia 在櫃檯問：「多少錢？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“Five dollars,” the "
+        },
+        {
+          "text": "barista",
+          "wordIds": [
+            "barista"
+          ]
+        },
+        {
+          "text": " says."
+        }
+      ],
+      "translation": "咖啡師說：「五元。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia pays, takes her "
+        },
+        {
+          "text": "breakfast",
+          "wordIds": [
+            "breakfast"
+          ]
+        },
+        {
+          "text": ", and says, “"
+        },
+        {
+          "text": "Thank you!",
+          "phraseIds": [
+            "thank-you"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "Mia 付了錢，拿起早餐，並說：「謝謝你！」"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "id-like",
+      "english": "I'd like a coffee",
+      "translation": "我想要一杯咖啡",
+      "audio": {
+        "src": "/audio/phrases/cafe-breakfast-id-like.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e8c2cb3d69517e343efba1c21393dcc0937bd3fd16c2165aa13d9b6f15d75176",
+        "sha256": "c092a8cc4af2fdb2fde0d93cfaa7fe8e8a26d3dc0aeb4bfa9eca3a84e828af9f"
+      }
+    },
+    {
+      "id": "for-here-or-to-go",
+      "english": "For here or to go?",
+      "translation": "內用還是外帶？",
+      "audio": {
+        "src": "/audio/phrases/cafe-breakfast-for-here-or-to-go.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "119cec8e35fbc131e16f348de1c67f5a32c3b3dd36101053fb685f7483973ed4",
+        "sha256": "0aaf272ca49c665c72fa2c1e57087747216b2fda46eb15d79f57703942a72ff8"
+      }
+    },
+    {
+      "id": "to-go",
+      "english": "To go, please",
+      "translation": "外帶，謝謝",
+      "audio": {
+        "src": "/audio/phrases/cafe-breakfast-to-go.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c5d8668585b6ae29f45452de4d611374107a5c56db9105dd2dcde13c3ef63ced",
+        "sha256": "4a2715cf90ed84cc6ecfb95abd032d37d14f55677b84aec51f899a0e7ba2880b"
+      }
+    },
+    {
+      "id": "how-much",
+      "english": "How much is it?",
+      "translation": "多少錢？",
+      "audio": {
+        "src": "/audio/phrases/cafe-breakfast-how-much.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "abdfbb3951b780a174166d38d10acc3920b5e8f4712cc6014104161424c3b2f8",
+        "sha256": "7ffe16e409ad93a47fe8009155920a8c6e9dba165ccc4638e912dfe8804e1575"
+      }
+    },
+    {
+      "id": "thank-you",
+      "english": "Thank you!",
+      "translation": "謝謝你！",
+      "audio": {
+        "src": "/audio/phrases/cafe-breakfast-thank-you.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3afdda2c098fc8346a9f2e0ba06ec9c6188411cf78cc7934cfd8b666ce632f55",
+        "sha256": "95f67b7f2be5bc62a6c8e4ca0b6632cc6d731c4ed5e90a90b4063e2fe0642894"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "cafe",
+      "english": "café",
+      "translation": "咖啡店",
+      "example": "There is a café near my home.",
+      "audio": {
+        "src": "/audio/words/cafe-breakfast-cafe.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "850f7dc43910ff890f8879c0ed26fe697c93a067ad93a7d50f466a7028a9bf4e",
+        "sha256": "513614e731bfa313e6445c2f47799fd20d45b3a5aa4f8d7dacfa9c232069ca4b"
+      }
+    },
+    {
+      "id": "menu",
+      "english": "menu",
+      "translation": "菜單",
+      "example": "Can I see the menu, please?",
+      "audio": {
+        "src": "/audio/words/cafe-breakfast-menu.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "398991009da1d251792eb353a0b7b185bc83e71e12e489e73228b554fc6cebc5",
+        "sha256": "125932a41be5276a956da7adbf4f6077d02fbe56fc70fa1d2c908c4353ba04dd"
+      }
+    },
+    {
+      "id": "coffee",
+      "english": "coffee",
+      "translation": "咖啡",
+      "example": "I'd like a hot coffee.",
+      "audio": {
+        "src": "/audio/words/cafe-breakfast-coffee.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "37290d74ac4d186e3a8e5785d259d2ec04fac91ae28092e7620ec8bc99e830aa",
+        "sha256": "fd3aceda982d887f9457fc9e3a8ccc488c43437e6e07e5554677e492a39032ba"
+      }
+    },
+    {
+      "id": "toast",
+      "english": "toast",
+      "translation": "吐司",
+      "example": "I have toast for breakfast.",
+      "audio": {
+        "src": "/audio/words/cafe-breakfast-toast.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a60ec1cf58f49cd2fab6d9e760ff1365f6a25dca50c09e9cfc553ce737a2af60",
+        "sha256": "17b4a4d1588ee885bf7ea1fe5c914d7e187a44493c919e410836f455952d3665"
+      }
+    },
+    {
+      "id": "barista",
+      "english": "barista",
+      "translation": "咖啡師",
+      "example": "The barista makes my coffee.",
+      "audio": {
+        "src": "/audio/words/cafe-breakfast-barista.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ca03b861723f3bc73bc8a14f649bba1697d2340e282b1362cab61ee6945b2d1d",
+        "sha256": "e0e3b3e674bb3fcdfddd29f841afb23c8afd4846dfa47f12391d282be2560c77"
+      }
+    },
+    {
+      "id": "bag",
+      "english": "bag",
+      "translation": "袋子",
+      "example": "Please put it in a paper bag.",
+      "audio": {
+        "src": "/audio/words/cafe-breakfast-bag.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c018019b6a8b01ab5868cf4be8db327a7549ae03202548b9ffcd2671c4c2b624",
+        "sha256": "2bf73c897169e7d390c008df50460be5778e161b901d29c64f51774eb4ef67cc"
+      }
+    },
+    {
+      "id": "counter",
+      "english": "counter",
+      "translation": "櫃檯",
+      "example": "I pay at the counter.",
+      "audio": {
+        "src": "/audio/words/cafe-breakfast-counter.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "efe899c74558f20b08bbc19bf0228c0c25bddb7871d80bd34ac8b33c030b3698",
+        "sha256": "5d69e9795c3d20c491919c7649bf32ace3cdfda5e4e3a2806cd91a1bd4ba9990"
+      }
+    },
+    {
+      "id": "breakfast",
+      "english": "breakfast",
+      "translation": "早餐",
+      "example": "I eat breakfast at seven.",
+      "audio": {
+        "src": "/audio/words/cafe-breakfast-breakfast.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7c58ea253628feed6583e78db4fd9fab131e0016ade168b4c200eb41d6aa93b1",
+        "sha256": "35769d98c6220e8c6f93f6e84ae76c36549b80426fe6b2b36190a16f8b5ecec4"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/cafe-breakfast.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "16e23830a1df8ba939804c3f6b0a9d9cb7efd2961bab66667186fa2652df8577",
+    "sha256": "4f9fe7a871843ef7b11d61f959f673e0f8e70c1f19f03cf9159289068adbd653"
+  }
+}

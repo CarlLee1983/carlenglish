@@ -1,0 +1,26 @@
+---
+import '../styles/global.css';
+interface Props { title: string; description?: string }
+const { title, description = '透過生活場景插畫、英文短文、常用短句與單字，練習日常英文。' } = Astro.props;
+---
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f8faf7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#18221d" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <title>{title} | CarlEnglish</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要內容</a>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="CarlEnglish 場景列表">Carl<span>English</span></a>
+      <a class="header-link" href="/">生活場景</a>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer">看懂情境，練習日常英文。</footer>
+  </body>
+</html>

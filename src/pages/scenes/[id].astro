@@ -1,0 +1,14 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Reader from '../../components/Reader.astro';
+import { loadScenes, type Scene } from '../../lib/scenes';
+export function getStaticPaths() {
+  const scenes = loadScenes();
+  return scenes.map((scene) => ({ params: { id: scene.id }, props: { scene, scenes } }));
+}
+interface Props { scene: Scene; scenes: Scene[] }
+const { scene, scenes } = Astro.props;
+---
+<Layout title={scene.title}>
+  <Reader scene={scene} scenes={scenes} />
+</Layout>

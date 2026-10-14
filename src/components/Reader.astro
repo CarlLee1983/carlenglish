@@ -1,0 +1,86 @@
+---
+import type { Scene } from '../lib/scenes';
+interface Props { scene: Scene; scenes: Scene[] }
+const { scene, scenes } = Astro.props;
+const otherScenes = scenes.filter((other) => other.id !== scene.id);
+---
+<article class="page-shell reader" data-pronunciation-player>
+  <a class="back-link" href="/"><span aria-hidden="true">←</span> 回到場景列表</a>
+  <header class="reader-heading">
+    <p class="scene-meta">{scene.category}<span>{scene.level}</span></p>
+    <h1 lang="en">{scene.titleEn}</h1>
+    <p class="reader-title-zh">{scene.title}</p>
+  </header>
+  <img class="scene-image" src={scene.image.src} alt={scene.image.alt} width={scene.image.width} height={scene.image.height} fetchpriority="high" />
+  <div class="reading-body">
+    <section class="story-section" aria-labelledby="story-title">
+      <h2 id="story-title">英文短文</h2>
+      <p class="section-hint">先試著讀英文，需要時再查看翻譯。</p>
+      <div class="pronunciation-controls">
+        <button type="button" class="pronounce-button" data-pronounce data-audio-kind="story" data-audio-src={scene.audio.src} data-label="整篇短文" aria-label="朗讀整篇英文短文" disabled>朗讀整篇</button>
+        <button type="button" class="pronunciation-action" data-story-pause aria-label="暫停朗讀" disabled>暫停</button>
+        <button type="button" class="pronunciation-action" data-story-restart aria-label="從頭朗讀" disabled>從頭播放</button>
+        <button type="button" class="pronunciation-stop" data-pronounce-stop disabled>停止播放</button>
+      </div>
+      <p class="pronunciation-voice">{scene.voiceProfile.label} · AI 合成語音</p>
+      <p class="pronunciation-status" data-pronounce-status role="status" aria-live="polite" aria-atomic="true">點選播放按鈕，即可聽固定美式女聲。</p>
+      <noscript><p class="pronunciation-noscript">啟用 JavaScript 後即可播放語音；文章仍可正常閱讀。</p></noscript>
+      <details class="pronunciation-attribution">
+        <summary>音源與製作方式</summary>
+        <div class="pronunciation-attribution-body">
+          <p>本站語音由 {scene.voiceProfile.provider} 模型合成，固定使用 {scene.voiceProfile.voice} 聲線。引擎版本：{scene.voiceProfile.libraryVersion}。</p>
+          <p><a href={scene.voiceProfile.sourceUrl}>模型來源</a> · 模型授權：<a href={scene.voiceProfile.modelLicenseUrl}>{scene.voiceProfile.modelLicenseName}</a></p>
+        </div>
+      </details>
+      <p class="annotation-key"><span class="phrase-highlight">常用短句</span><span class="word-highlight">重點單字</span></p>
+      <div class="english-story" lang="en">
+        {scene.sentences.map((sentence) => (
+          <p>{sentence.segments.map((segment) => (
+            <span class:list={{ 'phrase-highlight': Boolean(segment.phraseIds?.length), 'word-highlight': Boolean(segment.wordIds?.length) }}>{segment.text}</span>
+          ))}</p>
+        ))}
+      </div>
+      <details class="translation">
+        <summary><span class="when-closed">查看繁體中文翻譯</span><span class="when-open">收合繁體中文翻譯</span><span class="disclosure-symbol" aria-hidden="true">+</span></summary>
+        <div class="translated-story">
+          {scene.sentences.map((sentence) => <p>{sentence.translation}</p>)}
+        </div>
+      </details>
+    </section>
+    <section class="phrases-section" aria-labelledby="phrases-title">
+      <h2 id="phrases-title">常用短句</h2>
+      <p class="section-hint">把這幾句，帶進下一次的生活情境。</p>
+      <ul class="phrase-list">
+        {scene.phrases.map((phrase) => (
+          <li>
+            <div class="phrase-heading">
+              <p class="phrase-english" lang="en">{phrase.english}</p>
+              <button type="button" class="pronounce-button" data-pronounce data-audio-kind="phrase" data-audio-src={phrase.audio.src} data-label={phrase.english} aria-label={`聽短句 ${phrase.english} 的發音`} disabled>聽短句</button>
+            </div>
+            <p class="learning-translation">{phrase.translation}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+    <section class="words-section" aria-labelledby="words-title">
+      <h2 id="words-title">重點單字</h2>
+      <ul class="word-list">
+        {scene.words.map((word) => (
+          <li>
+            <div class="word-heading">
+              <h3 lang="en">{word.english}</h3>
+              <button type="button" class="pronounce-button" data-pronounce data-audio-kind="word" data-word={word.english} data-word-id={word.id} data-audio-src={word.audio.src} data-label={word.english} aria-label={`聽 ${word.english} 的發音`} disabled>聽發音</button>
+              <span class="learning-translation">{word.translation}</span>
+            </div>
+            <p class="word-example" lang="en">{word.example}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+    <nav class="reader-navigation" aria-label="場景導覽">
+      {otherScenes.length > 0 && <><h2>接著讀另一個場景</h2><ul>{otherScenes.map((other) => <li><a href={`/scenes/${other.id}/`}>{other.title} <span aria-hidden="true">→</span></a></li>)}</ul></>}
+      <a class="back-link" href="/">回到場景列表 <span aria-hidden="true">→</span></a>
+    </nav>
+  </div>
+</article>
+<script>import '../scripts/pronunciation';</script>

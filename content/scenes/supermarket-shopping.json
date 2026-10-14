@@ -1,0 +1,422 @@
+{
+  "id": "supermarket-shopping",
+  "title": "超市購物",
+  "titleEn": "Shopping at the Supermarket",
+  "category": "購物",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/supermarket-shopping.webp",
+    "alt": "Nora 拿著裝有麵包和蘋果的購物籃，在超市貨架旁向一位女店員詢問牛奶的位置；店員指向冷藏架上的牛奶。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Nora takes a "
+        },
+        {
+          "text": "basket",
+          "wordIds": [
+            "basket"
+          ]
+        },
+        {
+          "text": " at the "
+        },
+        {
+          "text": "supermarket",
+          "wordIds": [
+            "supermarket"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Nora 在超市拿了一個購物籃。"
+    },
+    {
+      "segments": [
+        {
+          "text": "She asks a staff member, “"
+        },
+        {
+          "text": "Where can I find the ",
+          "phraseIds": [
+            "where-can-i-find"
+          ]
+        },
+        {
+          "text": "milk",
+          "phraseIds": [
+            "where-can-i-find"
+          ],
+          "wordIds": [
+            "milk"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "where-can-i-find"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "她問店員：「請問牛奶在哪裡？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "It's in ",
+          "phraseIds": [
+            "in-aisle-three"
+          ]
+        },
+        {
+          "text": "aisle",
+          "phraseIds": [
+            "in-aisle-three"
+          ],
+          "wordIds": [
+            "aisle"
+          ]
+        },
+        {
+          "text": " three",
+          "phraseIds": [
+            "in-aisle-three"
+          ]
+        },
+        {
+          "text": ",” the staff member says."
+        }
+      ],
+      "translation": "店員說：「在第三走道。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "She walks with Nora to "
+        },
+        {
+          "text": "aisle",
+          "wordIds": [
+            "aisle"
+          ]
+        },
+        {
+          "text": " three and points to the "
+        },
+        {
+          "text": "milk",
+          "wordIds": [
+            "milk"
+          ]
+        },
+        {
+          "text": " on a "
+        },
+        {
+          "text": "shelf",
+          "wordIds": [
+            "shelf"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "她陪 Nora 走到第三走道，指給她看架上的牛奶。"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "I'll take a carton of ",
+          "phraseIds": [
+            "take-a-carton"
+          ]
+        },
+        {
+          "text": "milk",
+          "phraseIds": [
+            "take-a-carton"
+          ],
+          "wordIds": [
+            "milk"
+          ]
+        },
+        {
+          "text": ",” Nora says, putting it in her "
+        },
+        {
+          "text": "basket",
+          "wordIds": [
+            "basket"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Nora 說：「我要拿一盒牛奶。」說完便把牛奶放進購物籃。"
+    },
+    {
+      "segments": [
+        {
+          "text": "She picks up some "
+        },
+        {
+          "text": "bread",
+          "wordIds": [
+            "bread"
+          ]
+        },
+        {
+          "text": " and apples, too."
+        }
+      ],
+      "translation": "她也拿了一些麵包和蘋果。"
+    },
+    {
+      "segments": [
+        {
+          "text": "At "
+        },
+        {
+          "text": "checkout",
+          "wordIds": [
+            "checkout"
+          ]
+        },
+        {
+          "text": ", she asks, “"
+        },
+        {
+          "text": "Can I ",
+          "phraseIds": [
+            "pay-by-card-question"
+          ]
+        },
+        {
+          "text": "pay by ",
+          "phraseIds": [
+            "pay-by-card-question",
+            "pay-by-card"
+          ]
+        },
+        {
+          "text": "card",
+          "phraseIds": [
+            "pay-by-card-question",
+            "pay-by-card"
+          ],
+          "wordIds": [
+            "card"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "pay-by-card-question"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "結帳時，她問：「可以刷卡嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "She "
+        },
+        {
+          "text": "pays by "
+        },
+        {
+          "text": "card",
+          "wordIds": [
+            "card"
+          ]
+        },
+        {
+          "text": " and puts everything in a bag."
+        }
+      ],
+      "translation": "她刷卡付了錢，並把買的東西都放進袋子裡。"
+    }
+  ],
+  "phrases": [
+    {
+      "id": "where-can-i-find",
+      "english": "Where can I find the milk?",
+      "translation": "請問牛奶在哪裡？",
+      "audio": {
+        "src": "/audio/phrases/supermarket-shopping-where-can-i-find.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "eda588b54a3ddc8ed3c230893d161502bbc21f377d292f41c819bf3cc8218760",
+        "sha256": "a3339594753012a6f798a70aa0198b5c6bf3f5f385c7382575d010b007b20edb"
+      }
+    },
+    {
+      "id": "in-aisle-three",
+      "english": "It's in aisle three",
+      "translation": "在第三走道",
+      "audio": {
+        "src": "/audio/phrases/supermarket-shopping-in-aisle-three.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f73c1adf0f1b3b14e50be37a1c5023e335766fa45ce1ee08bf0171aee9386201",
+        "sha256": "ff8202427abc5ca3a1b914216c2e30e8d58caef9697be8d26e915c55e0d3fe10"
+      }
+    },
+    {
+      "id": "take-a-carton",
+      "english": "I'll take a carton of milk",
+      "translation": "我要拿一盒牛奶",
+      "audio": {
+        "src": "/audio/phrases/supermarket-shopping-take-a-carton.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "91a3fbff1c6b38ab2738bb844cdbd12da5f32365420d535296c7a8acc5968b94",
+        "sha256": "ba48c8c31c15bbb2aad2b7b701ace3146843bb83cdeae4efb357757f1dbd30e3"
+      }
+    },
+    {
+      "id": "pay-by-card-question",
+      "english": "Can I pay by card?",
+      "translation": "可以刷卡嗎？",
+      "audio": {
+        "src": "/audio/phrases/supermarket-shopping-pay-by-card-question.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "73a8c75d9fc0608c53771e6cf95bcfa7417cb0b43508712afa269eae37561cb4",
+        "sha256": "126fe76f829ab79b1571be02f1de2845c739331fec6f1fb613eba0f94193b538"
+      }
+    },
+    {
+      "id": "pay-by-card",
+      "english": "pay by card",
+      "translation": "刷卡付款",
+      "audio": {
+        "src": "/audio/phrases/supermarket-shopping-pay-by-card.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "de57a9580c77324de4defd72d491c44db794eade3e49f469640f189818bba28e",
+        "sha256": "c441972fb16fe714e0cb80d1932f04b52ada01e86efa1bab00b44ab60c4b00da"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "basket",
+      "english": "basket",
+      "translation": "購物籃",
+      "example": "Put the apples in the basket.",
+      "audio": {
+        "src": "/audio/words/supermarket-shopping-basket.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fa76d99ad957d952fb3738ae1ed7282a18d3bca1531c7efc273d52e16b774bd6",
+        "sha256": "f76ebf2ff6c36c4104b6316feab4ee6797e4ee3360c014caed705a9f4ec53e3f"
+      }
+    },
+    {
+      "id": "supermarket",
+      "english": "supermarket",
+      "translation": "超市",
+      "example": "The supermarket closes at nine.",
+      "audio": {
+        "src": "/audio/words/supermarket-shopping-supermarket.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "16d1c76df24f2f303ad1fd4f71966ed8ba5eb31d72ce5b1832b6ae79b1f6f337",
+        "sha256": "b77c33612045a9f285729e70b1479f60db9b5b1f6afba94d68691aa75d5474ec"
+      }
+    },
+    {
+      "id": "milk",
+      "english": "milk",
+      "translation": "牛奶",
+      "example": "We need some milk for breakfast.",
+      "audio": {
+        "src": "/audio/words/supermarket-shopping-milk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8825e76530f87ff5c737b3254c6936bc0a90bba3a10a91bbba739268208d378a",
+        "sha256": "1d8b0911002b0d862e093e1a3d6cc87d7dcba2ac46f1f2a9db54873cf528d3ae"
+      }
+    },
+    {
+      "id": "aisle",
+      "english": "aisle",
+      "translation": "走道",
+      "example": "The rice is in the next aisle.",
+      "audio": {
+        "src": "/audio/words/supermarket-shopping-aisle.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0145be012aa0a4428a20b444e690b1ec82267db40d5c460762fd99fd0585a04b",
+        "sha256": "e91c0ff2f38273457d94aea98c71e0d6ad2baa29fb55a2d5fc1c43362c46b906"
+      }
+    },
+    {
+      "id": "shelf",
+      "english": "shelf",
+      "translation": "貨架",
+      "example": "The milk is on the top shelf.",
+      "audio": {
+        "src": "/audio/words/supermarket-shopping-shelf.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3eefa42d52064c480030a45d5813c250a9d15aeb1e6296eae68ca401e6bb1e6f",
+        "sha256": "91ed2d15c262fd6dcd09a8405d1c724151bb8b9603c35683048740a6afe65a04"
+      }
+    },
+    {
+      "id": "bread",
+      "english": "bread",
+      "translation": "麵包",
+      "example": "I buy fresh bread every morning.",
+      "audio": {
+        "src": "/audio/words/supermarket-shopping-bread.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "985604c2b60243122c24d4e18363e6434c535923be05f760204a1aef023aae9b",
+        "sha256": "46596ad53291fb8b07ab573f756f261b9d516d5dd998d26be552338290aa5472"
+      }
+    },
+    {
+      "id": "checkout",
+      "english": "checkout",
+      "translation": "結帳處",
+      "example": "There is a line at the checkout.",
+      "audio": {
+        "src": "/audio/words/supermarket-shopping-checkout.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c7761e58969f7edd498186641b2021e8477e1bcd230de4cf3435242da4a40d14",
+        "sha256": "20d800524f8cfa26e5737f4d57c5dfb726ae43a54e2a6098128b7f1ecfb91d3a"
+      }
+    },
+    {
+      "id": "card",
+      "english": "card",
+      "translation": "付款用的卡片",
+      "example": "I pay for lunch with my card.",
+      "audio": {
+        "src": "/audio/words/supermarket-shopping-card.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8367cd66fdd136bba8ba23f8805bb050dd6289401c8ec3b0be44a3c233eef90d",
+        "sha256": "da23730a2e51ba56ca30dbc4fb8d9ad6bfe2b9a9efe52e5f47f079140cbc2749"
+      }
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/supermarket-shopping.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "6e27906f0c6f17dabcf1e5897adc4d7d1123a8a080104cf4626a5939239a79ef",
+    "sha256": "df1b5ed88569da172e85f6d8fdeede23e50567aec546912b6eafdd314f6fb003"
+  }
+}

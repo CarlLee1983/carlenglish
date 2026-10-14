@@ -1,0 +1,17 @@
+{
+  "id": "kokoro-af-heart-v1",
+  "label": "固定美式女聲",
+  "kind": "synthetic",
+  "accent": "美式英文",
+  "provider": "Kokoro",
+  "voice": "af_heart",
+  "libraryVersion": "0.9.4",
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+  "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+  "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+  "modelLicenseName": "Apache-2.0",
+  "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+  "sampleRate": 24000,
+  "speed": 1
+}
