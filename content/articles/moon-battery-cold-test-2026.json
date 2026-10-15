@@ -1,0 +1,76 @@
+{
+  "id": "moon-battery-cold-test-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "耐得住低溫，不等於低溫下仍能供電",
+  "titleEn": "NASA tests batteries for the Moon’s cold nights",
+  "source": {
+    "outlet": "NASA",
+    "title": "NASA Develops Batteries to Power Humanity’s Return to Moon",
+    "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-develops-batteries-to-power-humanitys-return-to-moon/",
+    "publishedAt": "2026-10-14",
+    "accessedAt": "2026-10-15",
+    "eventDate": "2026-10-14",
+    "rewrittenAt": "2026-10-15"
+  },
+  "background": "閱讀目標：辨認「問題→測試結果→限制」的段落關係，區分 survive 與 operate。這是 NASA 自行發布的研究進度，並非獨立媒體驗證。事件日期採公告日 2026 年 10 月 14 日；原文只說 recent testing，沒有提供確切測試日期。SPEARS 是電池研究計畫；本文不表示已在月球驗證或已商用。",
+  "paragraphs": [
+    {
+      "english": "NASA researchers are developing batteries for future work on the Moon. Ordinary batteries can struggle with extreme cold. The SPEARS project uses a solid material instead of a liquid inside the battery. NASA hopes this design will help equipment survive difficult conditions and work safely.",
+      "translation": "NASA 研究人員正開發用於未來月球工作的電池。一般電池可能難以應付極端低溫。SPEARS 計畫以固體材料取代電池內的液體。NASA 希望這項設計能協助設備撐過嚴苛環境並安全運作。"
+    },
+    {
+      "english": "In an October 14 report, NASA described tests of small prototype battery cells at its Langley research center. The cells worked at minus 80 degrees Celsius, although their performance was slightly lower. They also survived exposure to minus 170 degrees without damage. However, surviving that temperature did not mean supplying power at that temperature.",
+      "translation": "NASA 在 10 月 14 日的報導中，說明蘭利研究中心對小型電池芯原型的測試。電池芯在攝氏零下 80 度仍可運作，但效能稍低。它們暴露於零下 170 度後也沒有損壞。然而，耐受這個溫度並不代表能在這個溫度供電。"
+    },
+    {
+      "english": "After such severe cold, the batteries would need heaters before they could operate again. This difference matters when we read the results. NASA says the design could reduce the need to keep batteries warm all the time. That might make future equipment lighter. These are possible benefits of work still in development, rather than proof that the batteries are ready for every lunar mission.",
+      "translation": "經歷如此嚴寒後，電池需要先用加熱器回溫，才能再次運作。閱讀結果時，這個差異很重要。NASA 表示，這項設計可能減少電池持續保溫的需求，或許能讓未來設備更輕。這些是仍在開發中的技術可能帶來的好處，並不能證明電池已能用於所有月球任務。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "solid",
+      "translation": "固體的"
+    },
+    {
+      "english": "survived",
+      "translation": "撐過、存活"
+    },
+    {
+      "english": "exposure",
+      "translation": "暴露"
+    },
+    {
+      "english": "However",
+      "translation": "然而"
+    },
+    {
+      "english": "operate",
+      "translation": "運作"
+    },
+    {
+      "english": "could",
+      "translation": "可能、能夠（依語境判斷）"
+    }
+  ],
+  "questions": [
+    {
+      "question": "用一句中文概括主旨，保留研究的限制。",
+      "answer": "NASA 測試月球用固態電池，報告部分低溫運作與耐受結果，但耐受更低溫不代表能在該溫度供電，技術仍在開發。"
+    },
+    {
+      "question": "三段依序扮演什麼角色？",
+      "answer": "第一段提出低溫問題與設計方向；第二段交代測試觀察並指出差異；第三段解釋回溫需求及尚未確定的好處。"
+    },
+    {
+      "question": "只看第二、三段，如何從上下文分辨 survived 與 operate？",
+      "answer": "survived 與 without damage 相連，表示沒有損壞；operate 與 supplying power、回溫後再次使用相連，表示能運作供電。"
+    },
+    {
+      "question": "「電池在零下 170 度仍能供電」和「新設計一定讓設備更輕」是否都有證據？",
+      "answer": "都沒有。原文區分耐受與供電，回溫後才可再運作；could 和 might 表示可能好處，不是已保證的結果。"
+    }
+  ]
+}

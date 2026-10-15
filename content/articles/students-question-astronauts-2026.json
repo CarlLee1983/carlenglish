@@ -1,0 +1,72 @@
+{
+  "id": "students-question-astronauts-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "學生的問題即將送上太空",
+  "titleEn": "Florida students to hear answers from space",
+  "source": {
+    "outlet": "NASA",
+    "title": "NASA Astronauts to Answer Questions from Florida Students",
+    "url": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students/",
+    "publishedAt": "2026-10-14",
+    "accessedAt": "2026-10-15",
+    "eventDate": "2026-10-16",
+    "rewrittenAt": "2026-10-15"
+  },
+  "background": "建議先讀這篇，再讀低溫電池。閱讀目標：從導言找出人物、時間與事件，辨認預告與已發生的事。NASA 於 2026 年 10 月 14 日發布活動預告；本文保留 10 月 15 日改寫時的未來語氣，不表示活動已完成。EDT 是美東夏令時間；活動換算臺灣時間為 10 月 17 日凌晨零時。",
+  "paragraphs": [
+    {
+      "english": "A Florida school is preparing for a conversation with astronauts in space. NASA announced the event on October 14. According to the agency, Jessica Watkins and Luke Delaney will answer questions from the International Space Station. The program is scheduled for October 16 at noon, Eastern Daylight Time.",
+      "translation": "佛羅里達州的一所學校正為與太空人對話做準備。NASA 在 10 月 14 日公布這項活動。根據該機構的說明，Jessica Watkins 與 Luke Delaney 將從國際太空站回答問題。節目預定於美東夏令時間 10 月 16 日中午開始。"
+    },
+    {
+      "english": "The program will use questions recorded before the event. The questions will focus on science, technology, engineering and mathematics. Sally Ride Elementary School in Orlando is hosting the program. It is open to school students and the local community. People can also watch the broadcast on the Learn With NASA YouTube channel.",
+      "translation": "節目將使用活動前預先錄製的問題。問題將聚焦科學、科技、工程與數學。節目由奧蘭多的 Sally Ride 小學主辦，對學校學生與當地社區開放。民眾也能在 Learn With NASA 的 YouTube 頻道觀看直播。"
+    },
+    {
+      "english": "NASA says the event aims to help young people learn about space exploration and related careers. The announcement describes a plan, not a completed conversation. It does not yet tell us what answers the astronauts will give.",
+      "translation": "NASA 表示，活動旨在協助年輕人了解太空探索及相關職涯。這份公告描述的是計畫，而非已完成的對話。公告尚未告訴我們太空人會提供哪些答案。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "According to",
+      "translation": "根據"
+    },
+    {
+      "english": "scheduled",
+      "translation": "預定的"
+    },
+    {
+      "english": "recorded",
+      "translation": "已錄製的"
+    },
+    {
+      "english": "broadcast",
+      "translation": "播送、直播"
+    },
+    {
+      "english": "aims",
+      "translation": "旨在"
+    }
+  ],
+  "questions": [
+    {
+      "question": "不看翻譯，用一句中文說明誰將在哪裡做什麼。",
+      "answer": "兩位 NASA 太空人將從國際太空站回答佛州學生事先錄製的問題。"
+    },
+    {
+      "question": "第二段如何補充第一段？請找出兩個具體資訊。",
+      "answer": "第一段交代活動及時間；第二段補充問題會事先錄製、由哪所學校主辦、誰能參與及哪裡可觀看。任選兩項即可。"
+    },
+    {
+      "question": "recorded 在這裡與聲音準備有什麼關係？哪個線索有幫助？",
+      "answer": "表示問題預先錄製。questions recorded before the event 說明是在活動前準備的問題；不能因此判定錄製在公告日當時是否已完成。"
+    },
+    {
+      "question": "從本文能否推論太空人已回答學生的問題？指出依據。",
+      "answer": "不能。will、is scheduled 和最後一段都表明這是活動預告；公布日期不等於活動完成日期。"
+    }
+  ]
+}
