@@ -491,6 +491,12 @@ test.describe('review page', () => {
     await expect(page.getByText('離開本頁後會遺失')).toBeVisible();
     await expect(page.getByText('現在沒有到期的字卡')).toBeVisible();
     await expect(page.locator('[data-review-front]')).toBeHidden();
+    await page.clock.fastForward(minutes(11));
+    await expect(page.getByText('今天到期 1 張，其中新卡 0 張')).toBeVisible();
+    await expect(page.getByText('離開本頁後會遺失')).toBeVisible();
+    await page.clock.fastForward(16 * 60 * minutes(1));
+    await expect(page.getByText('今天到期 1 張，其中新卡 0 張')).toBeVisible();
+    await expect(page.getByText('離開本頁後會遺失')).toBeVisible();
   });
 
   test('keyboard: space flips, 1 and 2 grade, and the shortcuts are visible', async ({ page }) => {
@@ -505,6 +511,62 @@ test.describe('review page', () => {
     await page.keyboard.press('Enter');
     await page.keyboard.press('1');
     await expect(page.getByText('稍後還有 2 張')).toBeVisible();
+  });
+
+  test.describe('local-day rollover', () => {
+    test.use({ timezoneId: 'Asia/Taipei' });
+  test('local midnight releases capped manual cards and refreshes the badge without subscriptions', async ({ page }) => {
+    const evening = new Date('2026-10-14T23:40:00+08:00');
+    await page.clock.install({ time: evening });
+    await addFromScene(page, first, second);
+    await page.goto('/review/');
+    await page.getByLabel('每天新卡上限').fill('1');
+    await page.getByLabel('每天新卡上限').blur();
+    for (const round of [0, 1]) {
+      await flip(page);
+      await page.getByRole('button', { name: '想起來了' }).click();
+      if (round === 0) await page.clock.fastForward(minutes(11));
+    }
+    await expect(page.getByText('今天的複習完成了')).toBeVisible();
+    await expect(page.locator('[data-review-badge]')).toBeHidden();
+    await page.clock.fastForward(minutes(10));
+    await expect(page.locator('[data-review-front]')).toHaveText(second.english);
+    await expect(page.getByText('今天到期 1 張，其中新卡 1 張')).toBeVisible();
+    await expect(page.locator('[data-review-badge]')).toHaveText('1');
+  });
+
+  });
+
+  test('typing grade digits in controls or editable text does not change the card schedule', async ({ page }) => {
+    await page.clock.install({ time: startTime });
+    await addFromScene(page, first);
+    await page.goto('/review/');
+    await flip(page);
+    const before = await storedCards(page);
+    const limit = page.getByLabel('每天新卡上限');
+    await limit.fill('');
+    await limit.pressSequentially('12');
+    await expect(limit).toHaveValue('12');
+    expect(await storedCards(page)).toEqual(before);
+    await page.getByRole('button', { name: '播放單字發音' }).focus();
+    await page.keyboard.press('1');
+    await page.keyboard.press('2');
+    expect(await storedCards(page)).toEqual(before);
+    await page.evaluate(() => {
+      const editor = document.createElement('div');
+      editor.contentEditable = 'true';
+      editor.id = 'test-editor';
+      editor.innerHTML = '<span>editable</span>';
+      document.body.append(editor);
+      editor.focus();
+    });
+    await page.keyboard.type('12');
+    expect(await storedCards(page)).toEqual(before);
+    await expect(page.locator('[data-review-back]')).toBeVisible();
+    // The same shortcut still grades when focus returns to the review card.
+    await page.locator('[data-review-back]').focus();
+    await page.keyboard.press('2');
+    expect(await storedCards(page)).not.toEqual(before);
   });
 
   test('grading keeps cards added from another tab in the meantime', async ({ page, context }) => {

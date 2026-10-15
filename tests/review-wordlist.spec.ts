@@ -185,6 +185,43 @@ test.describe('word list subscription', () => {
     expect(state?.subscriptions).toMatchObject([{ issuedThrough: 4 }]);
   });
 
+  test.describe('local-day transitions', () => {
+    test.use({ timezoneId: 'Asia/Taipei' });
+  for (const transition of ['raise limit', 'local midnight'] as const) {
+    test(`completed subscriptions issue cards after ${transition} without a reload`, async ({ page }) => {
+      const evening = new Date('2026-10-14T23:40:00+08:00');
+      await page.clock.install({ time: evening });
+      await page.goto('/review/');
+      await limitInput(page).fill('1');
+      await limitInput(page).blur();
+      await subscribeButton(page).click();
+      await expect(front(page)).toHaveText(be.english);
+      await flip(page);
+      await page.getByRole('button', { name: '想起來了' }).click();
+      await page.clock.fastForward(minutes(11));
+      await flip(page);
+      await page.getByRole('button', { name: '想起來了' }).click();
+      await expect(page.getByText('今天的複習完成了')).toBeVisible();
+      if (transition === 'raise limit') {
+        await limitInput(page).fill('2');
+        await limitInput(page).blur();
+      } else {
+        await page.clock.fastForward(minutes(10));
+      }
+      await expect(front(page)).toHaveText(the.english);
+      await expect(page.locator('[data-review-card]')).toBeVisible();
+      await expect(page.getByText('今天到期 1 張，其中新卡 1 張')).toBeVisible();
+      await expect(page.locator('[data-review-badge]')).toHaveText('1');
+      expect((await stored(page))?.cards).toHaveLength(2);
+      expect((await stored(page))?.subscriptions).toMatchObject([{ issuedThrough: 2 }]);
+      // Another render/reload must not hand out the same quota a second time.
+      await page.reload();
+      expect((await stored(page))?.cards).toHaveLength(2);
+    });
+  }
+
+  });
+
   test('explains the problem when the word list cannot be loaded, and recovers on the next visit', async ({ page }) => {
     await page.route('**/wordlists/ngsl-spoken.json', (route) => route.abort());
     await page.goto('/review/');

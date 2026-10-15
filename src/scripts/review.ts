@@ -136,6 +136,14 @@ function initializeReview(root: HTMLElement) {
       return;
     }
     const now = new Date();
+    // 即使沒有稍後到期的卡片，跨日也要重新發卡並更新每日額度。
+    const tomorrow = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
+    timer = window.setTimeout(() => {
+      // 保留儲存失敗後仍有效的記憶體狀態；跨分頁更新另由 change 事件同步。
+      if (state) state = issueFromLists(state);
+      render();
+      announceChange();
+    }, tomorrow.getTime() - now.getTime() + 50);
     const counts = reviewCounts(state, now, unissuedFromLists(state.subscriptions, summaries));
     summary.textContent = state.cards.length === 0 ? '' : `今天到期 ${counts.due} 張，其中新卡 ${counts.newCards} 張`;
     empty.hidden = state.cards.length > 0;
@@ -154,6 +162,7 @@ function initializeReview(root: HTMLElement) {
     laterNote.hidden = counts.laterToday === 0 || !counts.nextLaterToday;
     if (counts.nextLaterToday) {
       laterNote.textContent = `稍後還有 ${counts.laterToday} 張，約 ${describeWait(counts.nextLaterToday, now)}到期，到期後會自動出現在這裡。`;
+      window.clearTimeout(timer);
       timer = window.setTimeout(render, Math.max(0, counts.nextLaterToday.getTime() - now.getTime()) + 50);
     }
   }
@@ -190,7 +199,7 @@ function initializeReview(root: HTMLElement) {
       limitInput.value = String(effectiveDailyNewLimit(latest));
       return;
     }
-    state = reduce(latest, { type: 'SET_DAILY_NEW_LIMIT', limit });
+    state = issueFromLists(reduce(latest, { type: 'SET_DAILY_NEW_LIMIT', limit }));
     reportSaveResult(saveReviewState(state));
     render();
     announceChange();
@@ -227,8 +236,9 @@ function initializeReview(root: HTMLElement) {
   document.addEventListener('keydown', (event) => {
     if (event.altKey || event.ctrlKey || event.metaKey || event.isComposing || card.hidden) return;
     const target = event.target as HTMLElement | null;
-    const onControl = !!target?.closest('a, button, input, select, textarea, summary');
-    if ((event.key === ' ' || event.key === 'Enter') && !onControl && !flipped) {
+    const onControl = !!target?.closest('a, button, input, select, textarea, summary') || !!target?.isContentEditable;
+    if (onControl) return;
+    if ((event.key === ' ' || event.key === 'Enter') && !flipped) {
       event.preventDefault();
       flip();
     } else if (event.key === '1' && flipped) {
