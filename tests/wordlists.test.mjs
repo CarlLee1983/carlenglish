@@ -293,7 +293,7 @@ test('the official NGSL-Spoken list is complete, ordered, attributed and ships i
   const lists = loadWordLists();
   const ngsl = lists.find((entry) => entry.id === 'ngsl-spoken');
   assert.ok(ngsl, 'ngsl-spoken must be present');
-  assert.equal(ngsl.entries.length, 100);
+  assert.equal(ngsl.entries.length, 716);
   assert.deepEqual(ngsl.entries.slice(0, 3).map((entry) => entry.english), ['be', 'the', 'you']);
   assert.equal(ngsl.license.name, 'CC BY-SA 4.0');
   assert.match(ngsl.source.url, /^https:\/\/www\.newgeneralservicelist\.com\//);
@@ -304,15 +304,16 @@ test('the official NGSL-Spoken list is complete, ordered, attributed and ships i
   assert.match(notice, /newgeneralservicelist\.com/);
 });
 
-test('the official list leaves out transcript markers and keeps their original ranks, so the 100 entries have gaps', () => {
+test('the official list leaves out transcript markers and keeps their original ranks, so the 716 entries have gaps', () => {
   const ngsl = loadWordLists().find((entry) => entry.id === 'ngsl-spoken');
   const markers = ['pause', 'unclear', 'laugh', 'laughter', 'cough'];
   const englishWords = ngsl.entries.map((entry) => entry.english.toLowerCase());
   for (const marker of markers) assert.equal(englishWords.includes(marker), false, marker);
   assert.deepEqual(ngsl.excluded.map((item) => [item.rank, item.english]), [[24, 'pause'], [26, 'unclear'], [80, 'laugh'], [131, 'laughter'], [438, 'cough']]);
   const skipped = ngsl.entries.flatMap((entry, index) => (index === 0 ? [] : Array.from({ length: entry.rank - ngsl.entries[index - 1].rank - 1 }, (_, offset) => ngsl.entries[index - 1].rank + offset + 1)));
-  assert.deepEqual(skipped, [24, 26, 80]);
-  assert.deepEqual(ngsl.entries.slice(-3).map((entry) => [entry.rank, entry.english]), [[101, 'tell'], [102, 'only'], [103, 'should']]);
+  assert.deepEqual(skipped, [24, 26, 80, 131, 438]);
+  assert.deepEqual(ngsl.entries.slice(-3).map((entry) => [entry.rank, entry.english]), [[719, 'purpose'], [720, 'bus'], [721, 'create']]);
+  assert.deepEqual(ngsl.entries.slice(97, 100).map((entry) => [entry.rank, entry.english]), [[101, 'tell'], [102, 'only'], [103, 'should']]);
   assert.match(ngsl.source.adaptation, /逐字稿/);
   assert.match(readFileSync(join(process.cwd(), 'content/wordlists/ngsl-spoken/NOTICE.md'), 'utf8'), /pause.*unclear.*laugh/s);
 });

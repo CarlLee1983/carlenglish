@@ -1,0 +1,4333 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "over",
+      "src": "/audio/wordlists/ngsl-spoken/over.mp3",
+      "text": "over",
+      "textSha256": "5fb6a47e368e12e5d8b19280796e6a3d146fe391ed2e967d5f95c55bfb0f9c2f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "little",
+      "src": "/audio/wordlists/ngsl-spoken/little.mp3",
+      "text": "little",
+      "textSha256": "180ca01b95f0dfdd36fbb600e51cf6e46c8ef468de56b017847886fefaf7b6f9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "day",
+      "src": "/audio/wordlists/ngsl-spoken/day.mp3",
+      "text": "day",
+      "textSha256": "944c27e5b97ab7793e4b6e9ff29384890ece0c7c04d2e2bf81c5f763469cc66b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "into",
+      "src": "/audio/wordlists/ngsl-spoken/into.mp3",
+      "text": "into",
+      "textSha256": "6b847a0ed0b2c484c73f2749e29b4db576dd6b06cf7110180dd43b8871dc14b3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "bit",
+      "src": "/audio/wordlists/ngsl-spoken/bit.mp3",
+      "text": "bit",
+      "textSha256": "d0013c2e0a387e4c6e6962c5f4b0c9481d60fbb9eb425ae5cda2f8ceb2c0064f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "try",
+      "src": "/audio/wordlists/ngsl-spoken/try.mp3",
+      "text": "try",
+      "textSha256": "1e262cd7d110812f5726055a6e672b92cde43648b76adff51a12441fbdf7e667"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "why",
+      "src": "/audio/wordlists/ngsl-spoken/why.mp3",
+      "text": "why",
+      "textSha256": "2be23c585f15e5fd3279d0663036dd9f6e634f4225ef326fc83fb874dbb81a0f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "okay",
+      "src": "/audio/wordlists/ngsl-spoken/okay.mp3",
+      "text": "okay",
+      "textSha256": "6a581ee901185606598bbd5369794c46dcf21ebf95955a46fb4a6244bb89e79f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "off",
+      "src": "/audio/wordlists/ngsl-spoken/off.mp3",
+      "text": "off",
+      "textSha256": "b4dc66dde806261bdda8607d8707aa727d308cd80272381a5583f63899918467"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "first",
+      "src": "/audio/wordlists/ngsl-spoken/first.mp3",
+      "text": "first",
+      "textSha256": "a7937b64b8caa58f03721bb6bacf5c78cb235febe0e70b1b84cd99541461a08e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "than",
+      "src": "/audio/wordlists/ngsl-spoken/than.mp3",
+      "text": "than",
+      "textSha256": "7383711c1b05e72a1eddda46d34365edf3736a7c23806ab39b9e6f403c9dd625"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "too",
+      "src": "/audio/wordlists/ngsl-spoken/too.mp3",
+      "text": "too",
+      "textSha256": "94c05f1c45a1d1a913e041748ad9444083e9e398fc5719e02a4fc4874169a038"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "five",
+      "src": "/audio/wordlists/ngsl-spoken/five.mp3",
+      "text": "five",
+      "textSha256": "222b0bd51fcef7e65c2e62db2ed65457013bab56be6fafeb19ee11d453153c80"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "let",
+      "src": "/audio/wordlists/ngsl-spoken/let.mp3",
+      "text": "let",
+      "textSha256": "5654d4106d7025c2578858f4fc5ad235c25096b85c3b8d2fb8a064ae3546bb1d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "call",
+      "src": "/audio/wordlists/ngsl-spoken/call.mp3",
+      "text": "call",
+      "textSha256": "7edb360f06acaef2cc80dba16cf563f199d347db4443da04da0c8173e3f9e4ed"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "four",
+      "src": "/audio/wordlists/ngsl-spoken/four.mp3",
+      "text": "four",
+      "textSha256": "04efaf080f5a3e74e1c29d1ca6a48569382cbbcd324e8d59d2b83ef21c039f00"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "last",
+      "src": "/audio/wordlists/ngsl-spoken/last.mp3",
+      "text": "last",
+      "textSha256": "3547cb112ac4489af2310c0626cdba6f3097a2ad5a3b42ddd3b59c76c7a079a3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "start",
+      "src": "/audio/wordlists/ngsl-spoken/start.mp3",
+      "text": "start",
+      "textSha256": "cced28c6dc3f99c2396a5eaad732bf6b28142335892b1cd0e6af6cdb53f5ccfa"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "quite",
+      "src": "/audio/wordlists/ngsl-spoken/quite.mp3",
+      "text": "quite",
+      "textSha256": "9a3058157de8b004fc5ddeea90813a3bba456c76dfa4b9c6dc0dcc64476d8f8d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "still",
+      "src": "/audio/wordlists/ngsl-spoken/still.mp3",
+      "text": "still",
+      "textSha256": "94e8566ddfc123edf115fcbb35a16973409d95e05e3deb7dc4a15a7af325a885"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "find",
+      "src": "/audio/wordlists/ngsl-spoken/find.mp3",
+      "text": "find",
+      "textSha256": "e6640de835ad09fb0a7367ee2e0ba99d0142c139db0272146e35538bd07479fc"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "probably",
+      "src": "/audio/wordlists/ngsl-spoken/probably.mp3",
+      "text": "probably",
+      "textSha256": "a8ef01283d653e4638daca3fae06abf52711122b2701dddb349310a574c263b9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "even",
+      "src": "/audio/wordlists/ngsl-spoken/even.mp3",
+      "text": "even",
+      "textSha256": "ec38063c881f0a5edfef6a5233925fe7e555746ebdc0865af3eb13c4e1805f46"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "might",
+      "src": "/audio/wordlists/ngsl-spoken/might.mp3",
+      "text": "might",
+      "textSha256": "f23be8eed45492f4b5315117a6ed033788fa26715014cd26c4a059c02ea16cad"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "through",
+      "src": "/audio/wordlists/ngsl-spoken/through.mp3",
+      "text": "through",
+      "textSha256": "9c6725dc269a48ce4b5bc78b580ccab2efbe6f3ccae64b1d44839f0cebd92fbe"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "point",
+      "src": "/audio/wordlists/ngsl-spoken/point.mp3",
+      "text": "point",
+      "textSha256": "251fecd592e56e6c4a95121752f4a73bb802dffc1cc4bce6100206ee2b7cb650"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "anything",
+      "src": "/audio/wordlists/ngsl-spoken/anything.mp3",
+      "text": "anything",
+      "textSha256": "ee0874170b7f6f32b8c2ac9573c428d35b575270a66b757c2c0185d2bd09718d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "week",
+      "src": "/audio/wordlists/ngsl-spoken/week.mp3",
+      "text": "week",
+      "textSha256": "6df37daaa46ce714fa410768b63f415dfad094df33eb34ac1af332074fd15a1c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "before",
+      "src": "/audio/wordlists/ngsl-spoken/before.mp3",
+      "text": "before",
+      "textSha256": "6db7d803e74f1ffa7d8f5adc0bf95b3e15bf4c8373fffadf546227cc6c6742cb"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "again",
+      "src": "/audio/wordlists/ngsl-spoken/again.mp3",
+      "text": "again",
+      "textSha256": "b4c9e14061c2fd453b36700e3b0da008db2189c711ac629f0f583089164e267d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "problem",
+      "src": "/audio/wordlists/ngsl-spoken/problem.mp3",
+      "text": "problem",
+      "textSha256": "47a49356720831b66f38bbe12c06e6cf71a67277b1f5e6a28593e73afde6f226"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "never",
+      "src": "/audio/wordlists/ngsl-spoken/never.mp3",
+      "text": "never",
+      "textSha256": "6497e4b3d7bed16979a343a7db4efa6d57725529f5ac3cec45c1f08fabcbdafc"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "same",
+      "src": "/audio/wordlists/ngsl-spoken/same.mp3",
+      "text": "same",
+      "textSha256": "0967115f2813a3541eaef77de9d9d5773f1c0c04314b0bbfe4ff3b3b1c55b5d5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "big",
+      "src": "/audio/wordlists/ngsl-spoken/big.mp3",
+      "text": "big",
+      "textSha256": "2a21fe6d592a19b7de898b50eb53c429608de1a66f3e9f62da19714a770553d1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "feel",
+      "src": "/audio/wordlists/ngsl-spoken/feel.mp3",
+      "text": "feel",
+      "textSha256": "116c49130f14f514b8109bfb2dd262a2640dbd07041eeeb4ced71a569d16e8c3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "ask",
+      "src": "/audio/wordlists/ngsl-spoken/ask.mp3",
+      "text": "ask",
+      "textSha256": "2f2fc7f2e9ce13b09b84f63d54d0b4a59f4dbd46aea41da67023817e2d0c5e59"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "question",
+      "src": "/audio/wordlists/ngsl-spoken/question.mp3",
+      "text": "question",
+      "textSha256": "1f5087db919ced5c123c7f507d3fcce818cb0cf6e77c2f95a8a35e951e03fdb9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "also",
+      "src": "/audio/wordlists/ngsl-spoken/also.mp3",
+      "text": "also",
+      "textSha256": "bb8c8605c55dcc2d650e87ecb9fb01b1c2a95e0fd8e03e2c87c2cf5ebeaf3b0b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "different",
+      "src": "/audio/wordlists/ngsl-spoken/different.mp3",
+      "text": "different",
+      "textSha256": "9d6f965ac832e40a5df6c06afe983e3b449c07b843ff51ce76204de05c690d11"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sure",
+      "src": "/audio/wordlists/ngsl-spoken/sure.mp3",
+      "text": "sure",
+      "textSha256": "c0cafcf0e2d6a236aca78b03f4c33b25ca970788fd6adde4ccc7db6acecb3ee1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "long",
+      "src": "/audio/wordlists/ngsl-spoken/long.mp3",
+      "text": "long",
+      "textSha256": "fc66f021c67d064c1490a12b5a4d4d2f5167ca692a16ca12f1f3a4cda29a6fa9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "always",
+      "src": "/audio/wordlists/ngsl-spoken/always.mp3",
+      "text": "always",
+      "textSha256": "9cdc6c47aa193ae7fdab6c57a88f118e0adbe254c82095d39531f5e5c1314bdd"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "school",
+      "src": "/audio/wordlists/ngsl-spoken/school.mp3",
+      "text": "school",
+      "textSha256": "d64debd942d7dc26a851231583b1721f43ea936fa41932b6dad7556e5f8cd24a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "happen",
+      "src": "/audio/wordlists/ngsl-spoken/happen.mp3",
+      "text": "happen",
+      "textSha256": "9ecfb3a042a271f4389ef89922337bc9488f865d394eafa445d55db0be4e828d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "course",
+      "src": "/audio/wordlists/ngsl-spoken/course.mp3",
+      "text": "course",
+      "textSha256": "a908043ed469f361cd516f3bdd781341912b731a6ea3a5385af8514ec9ec02cc"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "keep",
+      "src": "/audio/wordlists/ngsl-spoken/keep.mp3",
+      "text": "keep",
+      "textSha256": "6ca7ea2feefc88ecb5ed6356ed963f47dc9137f82526fdd25d618ea626d0803f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "another",
+      "src": "/audio/wordlists/ngsl-spoken/another.mp3",
+      "text": "another",
+      "textSha256": "ae448ac86c4e8e4dec645729708ef41873ae79c6dff84eff73360989487f08e5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "nice",
+      "src": "/audio/wordlists/ngsl-spoken/nice.mp3",
+      "text": "nice",
+      "textSha256": "e186022d0931afe9fe0690857e32f85e50165e7fbe0966d49609ef1981f920c6"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "read",
+      "src": "/audio/wordlists/ngsl-spoken/read.mp3",
+      "text": "read",
+      "textSha256": "3316348dbadfb7b11c7c2ea235949419e23f9fa898ad2c198f999617912a9925"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "hundred",
+      "src": "/audio/wordlists/ngsl-spoken/hundred.mp3",
+      "text": "hundred",
+      "textSha256": "97fe8a374906993133a2a9f4c9667ce253c107760d79c049cdf95788b0b7a83a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "leave",
+      "src": "/audio/wordlists/ngsl-spoken/leave.mp3",
+      "text": "leave",
+      "textSha256": "af193190b8d3cd14103e20e900378a2b76414ff6428065f3f8539b3577b22fdf"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "many",
+      "src": "/audio/wordlists/ngsl-spoken/many.mp3",
+      "text": "many",
+      "textSha256": "1137b15c7797aa84ec24e8dca5cb966dd016624374a09cb2ecaa9ac3229f5ccc"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "after",
+      "src": "/audio/wordlists/ngsl-spoken/after.mp3",
+      "text": "after",
+      "textSha256": "f39592393ef0859cb196a52693d2cea00fb2df784b3c04ae54aa7cadb8e562f8"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "thank",
+      "src": "/audio/wordlists/ngsl-spoken/thank.mp3",
+      "text": "thank",
+      "textSha256": "e67fd73a84918e64c84f082cdc04e34435eb98acc712c8e8384268a7e7c5e208"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "meet",
+      "src": "/audio/wordlists/ngsl-spoken/meet.mp3",
+      "text": "meet",
+      "textSha256": "8ccb033c0e48b27ff91e1ab948367e3bbc6921487c97624ed7ad064025e3dc99"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "stuff",
+      "src": "/audio/wordlists/ngsl-spoken/stuff.mp3",
+      "text": "stuff",
+      "textSha256": "35bafb1ce99aef3ab068afbaabae8f21fd9b9f02d3a9442e364fa92c0b3eeef0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "end",
+      "src": "/audio/wordlists/ngsl-spoken/end.mp3",
+      "text": "end",
+      "textSha256": "361e48d0308f20e32dba5fb56328baf18d72ef0ccb43b84f5c262d2a6a1fc6c8"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "number",
+      "src": "/audio/wordlists/ngsl-spoken/number.mp3",
+      "text": "number",
+      "textSha256": "12886f9d00055adf24c40579e22d31b2b45f2023f892954ffd5567beb60825f8"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "hear",
+      "src": "/audio/wordlists/ngsl-spoken/hear.mp3",
+      "text": "hear",
+      "textSha256": "49000c4444d51233fa10ad2015daccdef4ca48f3e5d1c99b98b295ea22071532"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "next",
+      "src": "/audio/wordlists/ngsl-spoken/next.mp3",
+      "text": "next",
+      "textSha256": "c6c1c9a9c8543f1e4cd980064cf1625eeb61a90703b2464fff039f21682508b3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "six",
+      "src": "/audio/wordlists/ngsl-spoken/six.mp3",
+      "text": "six",
+      "textSha256": "44778d82365e4af681c40d5f0eef5cf6f5899d3f0ac335050a7ed6779cf3f674"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "pay",
+      "src": "/audio/wordlists/ngsl-spoken/pay.mp3",
+      "text": "pay",
+      "textSha256": "9350872d712a127c494d7dc35e46b0bc9e62e288239708e581dfc3a1400154a4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "money",
+      "src": "/audio/wordlists/ngsl-spoken/money.mp3",
+      "text": "money",
+      "textSha256": "8d2ac8b58ead9744d77286de9b0bcb7a894f238c3149fc9f3b1e3caff36330fe"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "place",
+      "src": "/audio/wordlists/ngsl-spoken/place.mp3",
+      "text": "place",
+      "textSha256": "81df63580cc9ff1550c90d918ec234f1834013b800b5321201e88d96e785277c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "remember",
+      "src": "/audio/wordlists/ngsl-spoken/remember.mp3",
+      "text": "remember",
+      "textSha256": "35379d9c009e290d702b72abf3f5f9bdbaa7e00a63fc37b5174fc3825c8095e3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "maybe",
+      "src": "/audio/wordlists/ngsl-spoken/maybe.mp3",
+      "text": "maybe",
+      "textSha256": "dcfff5eb40423f055a4cd0a8d7ed39ff6cb9816868f5766b4088b9e9906961b9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "old",
+      "src": "/audio/wordlists/ngsl-spoken/old.mp3",
+      "text": "old",
+      "textSha256": "cba06b5736faf67e54b07b561eae94395e774c517a7d910a54369e1263ccfbd4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "test",
+      "src": "/audio/wordlists/ngsl-spoken/test.mp3",
+      "text": "test",
+      "textSha256": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "home",
+      "src": "/audio/wordlists/ngsl-spoken/home.mp3",
+      "text": "home",
+      "textSha256": "4ea140588150773ce3aace786aeef7f4049ce100fa649c94fbbddb960f1da942"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "change",
+      "src": "/audio/wordlists/ngsl-spoken/change.mp3",
+      "text": "change",
+      "textSha256": "12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "though",
+      "src": "/audio/wordlists/ngsl-spoken/though.mp3",
+      "text": "though",
+      "textSha256": "a9bbc0222075becade1088ce1e976ae12e2411c4e7e9ebb2a0e82a0d1d73178f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "house",
+      "src": "/audio/wordlists/ngsl-spoken/house.mp3",
+      "text": "house",
+      "textSha256": "d6e21286621a8586f7e54720ab5a39c93acc2f4b8fba7a16ec1c24d69a08c613"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "new",
+      "src": "/audio/wordlists/ngsl-spoken/new.mp3",
+      "text": "new",
+      "textSha256": "11507a0e2f5e69d5dfa40a62a1bd7b6ee57e6bcd85c67c9b8431b36fff21c437"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "live",
+      "src": "/audio/wordlists/ngsl-spoken/live.mp3",
+      "text": "live",
+      "textSha256": "247610f4dedd4ab7247d07dbda19c81ca9817f85820742cad49d407ffae9e4ed"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "part",
+      "src": "/audio/wordlists/ngsl-spoken/part.mp3",
+      "text": "part",
+      "textSha256": "37a680133bd09342f934afb8dd2c7d9e1b624da5f35e3a38adb103e37c055ed1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "kid",
+      "src": "/audio/wordlists/ngsl-spoken/kid.mp3",
+      "text": "kid",
+      "textSha256": "5c77d7fd8f51ed0c2a913e46326ff6d2ea2e95c8ecf1667c72eb72ccc3fc2b46"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "interest",
+      "src": "/audio/wordlists/ngsl-spoken/interest.mp3",
+      "text": "interest",
+      "textSha256": "828408e40d4fe651488b14696b60b613c9683ab9862e03f4e72aec7c1fda7635"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "around",
+      "src": "/audio/wordlists/ngsl-spoken/around.mp3",
+      "text": "around",
+      "textSha256": "a4a00c840fc355991927407e89fe73159d81f97fa7bfff1b5e40256348ca9690"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "write",
+      "src": "/audio/wordlists/ngsl-spoken/write.mp3",
+      "text": "write",
+      "textSha256": "10fd874b68dad080ed706762c8e163dabb20514bddae38fb159c56f714a3b143"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "most",
+      "src": "/audio/wordlists/ngsl-spoken/most.mp3",
+      "text": "most",
+      "textSha256": "24ea913efda289dc1b17d80ab567c21e0f051b26f7a4bb65b1e70817febb6b4f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "move",
+      "src": "/audio/wordlists/ngsl-spoken/move.mp3",
+      "text": "move",
+      "textSha256": "683a62ce15fbabb1ac867022e56e6e4f4f581762d77c3abb2f8dc8b165b3b1b9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "every",
+      "src": "/audio/wordlists/ngsl-spoken/every.mp3",
+      "text": "every",
+      "textSha256": "66a424a9a958b152c1c3ba65a2ac6c33ad03333e2e41e7d770b5758d46dd3ef5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "today",
+      "src": "/audio/wordlists/ngsl-spoken/today.mp3",
+      "text": "today",
+      "textSha256": "e0f4f767ac88a9303e7317843ac20be980665a36f52397e5b26d4cc2bf54011d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "twenty",
+      "src": "/audio/wordlists/ngsl-spoken/twenty.mp3",
+      "text": "twenty",
+      "textSha256": "7c2c4df740f720b0c861920dc27692c4d4b5daa65d6330a593c931d35f8ac737"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "else",
+      "src": "/audio/wordlists/ngsl-spoken/else.mp3",
+      "text": "else",
+      "textSha256": "7dd530c4d36da47cd33396718ef1fa1e8c0f7d91ee551d7fdc1c73aa65edb454"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "anyway",
+      "src": "/audio/wordlists/ngsl-spoken/anyway.mp3",
+      "text": "anyway",
+      "textSha256": "97519f7c288b3602aae0de2f493075e752b858d984eba1febbd5bd3845311bf3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "child",
+      "src": "/audio/wordlists/ngsl-spoken/child.mp3",
+      "text": "child",
+      "textSha256": "ddc9e669194254cef019a29d3619a2c16592e5d52e1a81e98b01bd52319149a3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "buy",
+      "src": "/audio/wordlists/ngsl-spoken/buy.mp3",
+      "text": "buy",
+      "textSha256": "e8197b20f8e71e429645f83cc6f07d9d43ee7a30ef5dc6c02dd16692a7bc9aac"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "fact",
+      "src": "/audio/wordlists/ngsl-spoken/fact.mp3",
+      "text": "fact",
+      "textSha256": "1e7dc6d6c16565406afd121a89164b990879f5f47695e03b9c3fd0f07395a4ca"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "play",
+      "src": "/audio/wordlists/ngsl-spoken/play.mp3",
+      "text": "play",
+      "textSha256": "aba4cc9b8af82df5d4efaade764d6a77466453f3e4156bb0b4e489710516b1c3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "great",
+      "src": "/audio/wordlists/ngsl-spoken/great.mp3",
+      "text": "great",
+      "textSha256": "87765da6ccf0668238c1d27c35692e11b4cee9c0e5cd5713a3f6e462d48e9730"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "job",
+      "src": "/audio/wordlists/ngsl-spoken/job.mp3",
+      "text": "job",
+      "textSha256": "5e8c9902207afaeb7120430c585a445f21e92932081d64bc99f80e4925bcb002"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "seem",
+      "src": "/audio/wordlists/ngsl-spoken/seem.mp3",
+      "text": "seem",
+      "textSha256": "d26b980930289c5944632503be7bf9c1745435b31a4e0a1de1b7ca7a2913a0d5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "man",
+      "src": "/audio/wordlists/ngsl-spoken/man.mp3",
+      "text": "man",
+      "textSha256": "48b676e2b107da679512b793d5fd4cc4329f0c7c17a97cf6e0e3d1005b600b03"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "night",
+      "src": "/audio/wordlists/ngsl-spoken/night.mp3",
+      "text": "night",
+      "textSha256": "176473d7313395b6e209bc6b1d57aa160b628706860aa0554d7af60a1d40ab87"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "away",
+      "src": "/audio/wordlists/ngsl-spoken/away.mp3",
+      "text": "away",
+      "textSha256": "378ce56a9d146d5174c89d1c0353d7f8e2244e89bb83935a5b1bdcf5e74b4e7f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "pound",
+      "src": "/audio/wordlists/ngsl-spoken/pound.mp3",
+      "text": "pound",
+      "textSha256": "39d77c4bd9a79b5db22c128a0a8fa9ef1ca5a4f2dada7b99db1fd9d587ffe6e2"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "issue",
+      "src": "/audio/wordlists/ngsl-spoken/issue.mp3",
+      "text": "issue",
+      "textSha256": "4a502846d070e2088b7025abe80629830bf03d7ab5624d5e91f332bc9d049d3f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "own",
+      "src": "/audio/wordlists/ngsl-spoken/own.mp3",
+      "text": "own",
+      "textSha256": "5b3975651c3cab92d044c096dc30a1c2d9525497457472de48c51ecb363d1f4a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "area",
+      "src": "/audio/wordlists/ngsl-spoken/area.mp3",
+      "text": "area",
+      "textSha256": "4a91ee5f0106c2b35c11c168352f0abfbf4fc86165c62d6fb51b5232dfc692e6"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "half",
+      "src": "/audio/wordlists/ngsl-spoken/half.mp3",
+      "text": "half",
+      "textSha256": "a11ae06469c63740d7b0ecf802f282a0d46e94f31a654dfcd3c0dc6dc277f904"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "bad",
+      "src": "/audio/wordlists/ngsl-spoken/bad.mp3",
+      "text": "bad",
+      "textSha256": "2f05d4b689d270cafb02285f35f44866f7dc8a2d368a3f9d1124373eeab31fb1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "round",
+      "src": "/audio/wordlists/ngsl-spoken/round.mp3",
+      "text": "round",
+      "textSha256": "a97b0931730e83fbf9284ff00a4c5f7a4eef2189dddb89319a6dfa5871e28923"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "eight",
+      "src": "/audio/wordlists/ngsl-spoken/eight.mp3",
+      "text": "eight",
+      "textSha256": "c195d2d8756234367242ba7616c5c60369bc25ced2dcb5b92808d31b58ef217a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "help",
+      "src": "/audio/wordlists/ngsl-spoken/help.mp3",
+      "text": "help",
+      "textSha256": "106a5842fc5fce6f663176285ed1516dbb1e3d15c05abab12fdca46d60b539b7"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "ten",
+      "src": "/audio/wordlists/ngsl-spoken/ten.mp3",
+      "text": "ten",
+      "textSha256": "e4432baa90819aaef51d2a7f8e148bf7e679610f3173752fabb4dcb2d0f418d3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "whole",
+      "src": "/audio/wordlists/ngsl-spoken/whole.mp3",
+      "text": "whole",
+      "textSha256": "5d5766cf2d78701614200418ee1450690d9af12c84d52545e4802f001ad53099"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "everything",
+      "src": "/audio/wordlists/ngsl-spoken/everything.mp3",
+      "text": "everything",
+      "textSha256": "a0a44ed8cfc32b7e61befeb99bbff7706808c3fe4dcdf4750a8addb3ffcd4008"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "minute",
+      "src": "/audio/wordlists/ngsl-spoken/minute.mp3",
+      "text": "minute",
+      "textSha256": "28cdd20eaf134a05f18369414cb2df5e36c6a4e4f551b8c9cff8548029c41d6c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "may",
+      "src": "/audio/wordlists/ngsl-spoken/may.mp3",
+      "text": "may",
+      "textSha256": "ee4d988c65de860fabbfbcd27f73d50bbebe3fba37fe419284f4811389c30bdc"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "whether",
+      "src": "/audio/wordlists/ngsl-spoken/whether.mp3",
+      "text": "whether",
+      "textSha256": "3509fd899235fb8b76046da8694049fd16b0e5539a64dce3ae64691cdcf33f4c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "student",
+      "src": "/audio/wordlists/ngsl-spoken/student.mp3",
+      "text": "student",
+      "textSha256": "264c8c381bf16c982a4e59b0dd4c6f7808c51a05f64c35db42cc78a2a72875bb"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "guess",
+      "src": "/audio/wordlists/ngsl-spoken/guess.mp3",
+      "text": "guess",
+      "textSha256": "f1abe1b083d12d181ae136cfc75b8d18a8ecb43ac4e9d1a36d6a9c75b6016b61"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "whatever",
+      "src": "/audio/wordlists/ngsl-spoken/whatever.mp3",
+      "text": "whatever",
+      "textSha256": "85738f8f9a7f1b04b5329c590ebcb9e425925c6d0984089c43a022de4f19c281"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "car",
+      "src": "/audio/wordlists/ngsl-spoken/car.mp3",
+      "text": "car",
+      "textSha256": "2b2961a431b23c9007efe270c1d7eb79c19d4192d7cd2d924176eb0b19e7d2a1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sit",
+      "src": "/audio/wordlists/ngsl-spoken/sit.mp3",
+      "text": "sit",
+      "textSha256": "584178e5e3517ddcebc66340917adc3a27ce4be359a29aa827563d481ff5d67a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "bring",
+      "src": "/audio/wordlists/ngsl-spoken/bring.mp3",
+      "text": "bring",
+      "textSha256": "4311902217ad5aa4d9664f8dbacaa8bf6fe6b78ff9b5b512599f0b62da19d8d6"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "book",
+      "src": "/audio/wordlists/ngsl-spoken/book.mp3",
+      "text": "book",
+      "textSha256": "92719fe0cf8cd51592af31ee8a5736d79f7273777fa3f7b70bfe993a4cd32180"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "name",
+      "src": "/audio/wordlists/ngsl-spoken/name.mp3",
+      "text": "name",
+      "textSha256": "82a3537ff0dbce7eec35d69edc3a189ee6f17d82f353a553f9aa96cb0be3ce89"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "run",
+      "src": "/audio/wordlists/ngsl-spoken/run.mp3",
+      "text": "run",
+      "textSha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "show",
+      "src": "/audio/wordlists/ngsl-spoken/show.mp3",
+      "text": "show",
+      "textSha256": "1c6333509debf060200eb6bbe28db307508da67c0e3c58088393e4cf09de596d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "word",
+      "src": "/audio/wordlists/ngsl-spoken/word.mp3",
+      "text": "word",
+      "textSha256": "98c1eb4ee93476743763878fcb96a25fbc9a175074d64004779ecb5242f645e6"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "suppose",
+      "src": "/audio/wordlists/ngsl-spoken/suppose.mp3",
+      "text": "suppose",
+      "textSha256": "190ab894c1cba9552ecc15d3c685552222f61514d15784c1744505fd2d033346"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "morning",
+      "src": "/audio/wordlists/ngsl-spoken/morning.mp3",
+      "text": "morning",
+      "textSha256": "c23b31a0179b550f8a18fb06bc52a26e32333540369073d646da5c84a4dc341f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "must",
+      "src": "/audio/wordlists/ngsl-spoken/must.mp3",
+      "text": "must",
+      "textSha256": "4137b01e139589b7a1d3b3fc4da031d8ce5bb415808734e970c3a58ea0e98f0f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "understand",
+      "src": "/audio/wordlists/ngsl-spoken/understand.mp3",
+      "text": "understand",
+      "textSha256": "f9dc689e6d50ad6f35cc97059375b37b8149225f4fb7a192f4ea40051da5416a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "month",
+      "src": "/audio/wordlists/ngsl-spoken/month.mp3",
+      "text": "month",
+      "textSha256": "a5c7d1719e284f2c9485405d44f62d152cde9e6ede83e1a79a2442b65f6a8735"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "both",
+      "src": "/audio/wordlists/ngsl-spoken/both.mp3",
+      "text": "both",
+      "textSha256": "ff7772053abf7d817d6eec229a09e14f0d1552f1cb0aeedb2ac73784ac2d2e39"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "idea",
+      "src": "/audio/wordlists/ngsl-spoken/idea.mp3",
+      "text": "idea",
+      "textSha256": "ae0a9ad3227c5420c07dd79abe119876db3d234a066344bd4c90b8f189cd2606"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "seven",
+      "src": "/audio/wordlists/ngsl-spoken/seven.mp3",
+      "text": "seven",
+      "textSha256": "3ba8d02b16fd2a01c1a8ba1a1f036d7ce386ed953696fa57331c2ac48a80b255"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "pretty",
+      "src": "/audio/wordlists/ngsl-spoken/pretty.mp3",
+      "text": "pretty",
+      "textSha256": "77049f6f8893dd97f1fcdb996b970035ea456b4d63e107edf383809a1e26e884"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "somebody",
+      "src": "/audio/wordlists/ngsl-spoken/somebody.mp3",
+      "text": "somebody",
+      "textSha256": "729d7d638cef1b476c9ad1d5d275dc91fc253a026e0924d45b8995bcf828b01b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "able",
+      "src": "/audio/wordlists/ngsl-spoken/able.mp3",
+      "text": "able",
+      "textSha256": "b0ad6bc1931197750fa85336ba8eb6ced10ca7b57eff09ecacf9f915a3b11365"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "item",
+      "src": "/audio/wordlists/ngsl-spoken/item.mp3",
+      "text": "item",
+      "textSha256": "4a33eacd5fa65f2b2e2871cd131286b53c415b131666d71173bb6e3fe59361b3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "hour",
+      "src": "/audio/wordlists/ngsl-spoken/hour.mp3",
+      "text": "hour",
+      "textSha256": "9ac0add475dd38e6ab3a3fb5ab4579c886eb654f57764210a352fd62e9dd9706"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "side",
+      "src": "/audio/wordlists/ngsl-spoken/side.mp3",
+      "text": "side",
+      "textSha256": "ea7bf4bb723041e7d63fe6c74dc46c048c617eb49a454a1cd6edbf34d05a418e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "enough",
+      "src": "/audio/wordlists/ngsl-spoken/enough.mp3",
+      "text": "enough",
+      "textSha256": "6f6465f9dd0685853e76cabda89c082c86afa789ed2a72ca17537e83038d7376"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "ever",
+      "src": "/audio/wordlists/ngsl-spoken/ever.mp3",
+      "text": "ever",
+      "textSha256": "63212655f2e25a8f89eeb6653853cece8901e24c4a4c1dee70e53b68bad3e19c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "important",
+      "src": "/audio/wordlists/ngsl-spoken/important.mp3",
+      "text": "important",
+      "textSha256": "34a989eb3e220e6b0b19fcb3c08c06f3a5eb237313b66b5766fa6e629783a7d5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "late",
+      "src": "/audio/wordlists/ngsl-spoken/late.mp3",
+      "text": "late",
+      "textSha256": "089001a35679a33ef3db0ca350db9b9a2f0136e0e327577b04b3b98127470961"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "turn",
+      "src": "/audio/wordlists/ngsl-spoken/turn.mp3",
+      "text": "turn",
+      "textSha256": "9b473845f684444f80a26586ae298d2ba491752cc70b893cc653d943b6fa2ac2"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "between",
+      "src": "/audio/wordlists/ngsl-spoken/between.mp3",
+      "text": "between",
+      "textSha256": "fbb27fbdc4f4dd04e21693a3b56c311cd37f743174c1bad4fc27467605426c28"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "thousand",
+      "src": "/audio/wordlists/ngsl-spoken/thousand.mp3",
+      "text": "thousand",
+      "textSha256": "a0af3a48cfad1fc07404057448c003c6ee6b7b0bba6f39d6775752486baf35de"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "few",
+      "src": "/audio/wordlists/ngsl-spoken/few.mp3",
+      "text": "few",
+      "textSha256": "fa95e5080882f52bd40ccab2dee9c88c4d1fad7ad1093f93a0edcd8fb42d2bee"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "term",
+      "src": "/audio/wordlists/ngsl-spoken/term.mp3",
+      "text": "term",
+      "textSha256": "599f7703547e9c8e980f44d7d192d978b9e70386af1812b2042beeaf4ba03dfb"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "life",
+      "src": "/audio/wordlists/ngsl-spoken/life.mp3",
+      "text": "life",
+      "textSha256": "63bd7065ef1e165a04255d4048836ce126dfe2b6a0777722ad3a5c6013129d19"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "nine",
+      "src": "/audio/wordlists/ngsl-spoken/nine.mp3",
+      "text": "nine",
+      "textSha256": "edcd8e701a2df0cd66a39bae6aa156cf16fe2b9653ef65f7d31742e2352421e4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "believe",
+      "src": "/audio/wordlists/ngsl-spoken/believe.mp3",
+      "text": "believe",
+      "textSha256": "f078209dfece953500ee03333012e3c8ada6c36df35a053f00031becab3cf620"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "far",
+      "src": "/audio/wordlists/ngsl-spoken/far.mp3",
+      "text": "far",
+      "textSha256": "512eea46ceb3921dff4363c7069d89d4964d1d9fccaa0f411851a7aa60a5c868"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sorry",
+      "src": "/audio/wordlists/ngsl-spoken/sorry.mp3",
+      "text": "sorry",
+      "textSha256": "484aab2f2cd0f77b3c30f91521ba9a76c8c501112a53e100154a098c274f03d3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "set",
+      "src": "/audio/wordlists/ngsl-spoken/set.mp3",
+      "text": "set",
+      "textSha256": "6ee0eb490ff832101cf82a3d387c35f29e4230be786978f7acf9e811febf6723"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "thirty",
+      "src": "/audio/wordlists/ngsl-spoken/thirty.mp3",
+      "text": "thirty",
+      "textSha256": "aca5fb59db69e5dffeda36ff0bd65205f16720b7fa1893c4557e9216dfc276d5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "nothing",
+      "src": "/audio/wordlists/ngsl-spoken/nothing.mp3",
+      "text": "nothing",
+      "textSha256": "1785cfc3bc6ac7738e8b38cdccd1af12563c2b9070e07af336a1bf8c0f772b6a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "case",
+      "src": "/audio/wordlists/ngsl-spoken/case.mp3",
+      "text": "case",
+      "textSha256": "bbfcd4160a1e8674dac62292ae48be4785262ad7078f9ec11b74a254ce70fa06"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "real",
+      "src": "/audio/wordlists/ngsl-spoken/real.mp3",
+      "text": "real",
+      "textSha256": "aa33996d60e89311b4d1a920dae03c6d7fa3ae1956c52662e273aad4683e577f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "second",
+      "src": "/audio/wordlists/ngsl-spoken/second.mp3",
+      "text": "second",
+      "textSha256": "16367aacb67a4a017c8da8ab95682ccb390863780f7114dda0a0e0c55644c7c4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "mind",
+      "src": "/audio/wordlists/ngsl-spoken/mind.mp3",
+      "text": "mind",
+      "textSha256": "1c48f6310f1c849b4ac338d340ee667bf3b6d59b589348eaa2b8a0698ff73481"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "woman",
+      "src": "/audio/wordlists/ngsl-spoken/woman.mp3",
+      "text": "woman",
+      "textSha256": "cf2e5bff1ef03dcd20d1a0b18ef7d89fc80a3554434165753672f6f40fde1d25"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "guy",
+      "src": "/audio/wordlists/ngsl-spoken/guy.mp3",
+      "text": "guy",
+      "textSha256": "3379feb6ae9fed3b989470c591c5aa7ec00269580b84f1737c9e63202645e4b2"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "each",
+      "src": "/audio/wordlists/ngsl-spoken/each.mp3",
+      "text": "each",
+      "textSha256": "bec1687971e36be51a298f172aa898ab48a465012ae40e6292825c432d7d82b8"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "hard",
+      "src": "/audio/wordlists/ngsl-spoken/hard.mp3",
+      "text": "hard",
+      "textSha256": "ed5465b9220df9ce176d0bf30d6a317729bd9d37e4ae1cc015cb24c99af1df49"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "couple",
+      "src": "/audio/wordlists/ngsl-spoken/couple.mp3",
+      "text": "couple",
+      "textSha256": "6cf382fca2a10c63b223fd6c338f55e67b5616a94ae4bf115b1bf13220b1a23a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "love",
+      "src": "/audio/wordlists/ngsl-spoken/love.mp3",
+      "text": "love",
+      "textSha256": "686f746a95b6f836d7d70567c302c3f9ebb5ee0def3d1220ee9d4e9f34f5e131"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "speak",
+      "src": "/audio/wordlists/ngsl-spoken/speak.mp3",
+      "text": "speak",
+      "textSha256": "21e5205f73d9edbf72bc29b5ffcb4631cfc95e8f287c4d68e73d17ad72eb5eb3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "group",
+      "src": "/audio/wordlists/ngsl-spoken/group.mp3",
+      "text": "group",
+      "textSha256": "ad936fcbed631fa67e05c3ea03953905221c9d46af0616b70badf105a966fb11"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "together",
+      "src": "/audio/wordlists/ngsl-spoken/together.mp3",
+      "text": "together",
+      "textSha256": "0c24734d7bf5954f08e5bfe4820b0b2f63da8d658df37c9d50080485e034b721"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "high",
+      "src": "/audio/wordlists/ngsl-spoken/high.mp3",
+      "text": "high",
+      "textSha256": "6ef7c9b15ecdd69083724b84cfdc2100351963488b51b4ea2fcbddf493fbec94"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "friend",
+      "src": "/audio/wordlists/ngsl-spoken/friend.mp3",
+      "text": "friend",
+      "textSha256": "cde48537ca2c28084ff560826d0e6388b7c57a51497a6cb56f397289e52ff41b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "build",
+      "src": "/audio/wordlists/ngsl-spoken/build.mp3",
+      "text": "build",
+      "textSha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "family",
+      "src": "/audio/wordlists/ngsl-spoken/family.mp3",
+      "text": "family",
+      "textSha256": "d34a569ab7aaa54dacd715ae64953455d86b768846cd0085ef4e9e7471489b7b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "watch",
+      "src": "/audio/wordlists/ngsl-spoken/watch.mp3",
+      "text": "watch",
+      "textSha256": "baed831623943be39ebf0ef44ae1e9c8fc3eeab51b5f89c113ca410d76a34c1d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "country",
+      "src": "/audio/wordlists/ngsl-spoken/country.mp3",
+      "text": "country",
+      "textSha256": "aff64e4fd520bd185cb01adab98d2d20060f621c62d5cad5204712cfa2294ef7"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "plan",
+      "src": "/audio/wordlists/ngsl-spoken/plan.mp3",
+      "text": "plan",
+      "textSha256": "64879f7d6b960a01909762d911a32d4582c20010c5641ee90278b644a9e3b525"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "fifty",
+      "src": "/audio/wordlists/ngsl-spoken/fifty.mp3",
+      "text": "fifty",
+      "textSha256": "f8d807ee15e983f8d185132ffb0e55d3075b220891aff58845e55a158c842798"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "send",
+      "src": "/audio/wordlists/ngsl-spoken/send.mp3",
+      "text": "send",
+      "textSha256": "27ce1d1bf4270020e1799f12e647f5cbabda2b9eafd7202c43012a539986916b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "obviously",
+      "src": "/audio/wordlists/ngsl-spoken/obviously.mp3",
+      "text": "obviously",
+      "textSha256": "1e1c48dbdb5c1b6998ed1c6714d9a0a7a112661c4dd4a75eb0ba24631a52bf9c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "reason",
+      "src": "/audio/wordlists/ngsl-spoken/reason.mp3",
+      "text": "reason",
+      "textSha256": "8fcfccf675b1f0bfd39dcbb13015052fe82bc51c003c165a410945c913dbb2be"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "yet",
+      "src": "/audio/wordlists/ngsl-spoken/yet.mp3",
+      "text": "yet",
+      "textSha256": "cfd96dd92f7e0025b1461aafc2bf0aeaea4f79b27b193f49c6132c4c63a300cb"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "walk",
+      "src": "/audio/wordlists/ngsl-spoken/walk.mp3",
+      "text": "walk",
+      "textSha256": "7a6c4fac6c5cd7209ee2eecd9d6ad3673c55315117de1d8daa5aeb3f71bbd7c7"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "either",
+      "src": "/audio/wordlists/ngsl-spoken/either.mp3",
+      "text": "either",
+      "textSha256": "94f106e0117354cedb9eae80c96cf31c9caf37000ff1fa294c3d04d898a2c0d6"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "wait",
+      "src": "/audio/wordlists/ngsl-spoken/wait.mp3",
+      "text": "wait",
+      "textSha256": "716ecabb45ac6a88a049398fde2d3d5225c6dd3121ae9bbc5af457eb4baf056a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "already",
+      "src": "/audio/wordlists/ngsl-spoken/already.mp3",
+      "text": "already",
+      "textSha256": "ea53396caebc40d702a99967c8b6cea050267d7b7b229aa68a6929f9c5659878"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "person",
+      "src": "/audio/wordlists/ngsl-spoken/person.mp3",
+      "text": "person",
+      "textSha256": "38a81e87e79631e602bf5fbd307ce2fcd382b1670c585ea09032aac778a80531"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "open",
+      "src": "/audio/wordlists/ngsl-spoken/open.mp3",
+      "text": "open",
+      "textSha256": "2348f998744212575d85959674f9607ab26f67708a917157472832386337c904"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "once",
+      "src": "/audio/wordlists/ngsl-spoken/once.mp3",
+      "text": "once",
+      "textSha256": "200651a8b2d5912f692db89468a7d47d86a3ed6844f48f1b15f2be1d9c9a7e5e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "deal",
+      "src": "/audio/wordlists/ngsl-spoken/deal.mp3",
+      "text": "deal",
+      "textSha256": "f96c94f287038f69433b5a9a759654085e09564156ec90b1c8c754c8c001dc18"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "report",
+      "src": "/audio/wordlists/ngsl-spoken/report.mp3",
+      "text": "report",
+      "textSha256": "845e91831319e89c4d656bdb80c278ac09a7230d61e5dfd2e1b1fbb436ac8917"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "stop",
+      "src": "/audio/wordlists/ngsl-spoken/stop.mp3",
+      "text": "stop",
+      "textSha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "hand",
+      "src": "/audio/wordlists/ngsl-spoken/hand.mp3",
+      "text": "hand",
+      "textSha256": "1b001706a418bdfca35361355c643b7918572b8f9b7503f3043a6e23b45dce52"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "alright",
+      "src": "/audio/wordlists/ngsl-spoken/alright.mp3",
+      "text": "alright",
+      "textSha256": "b8a9dc73f1e1af5b1c0871e2b8695f56b83861190ed1c2dc90c32c65318dfa05"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "example",
+      "src": "/audio/wordlists/ngsl-spoken/example.mp3",
+      "text": "example",
+      "textSha256": "50d858e0985ecc7f60418aaf0cc5ab587f42c2570a884095a9e8ccacd0f6545c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "cause",
+      "src": "/audio/wordlists/ngsl-spoken/cause.mp3",
+      "text": "cause",
+      "textSha256": "6a7ef1ed9f15c2f59ab7bfaf50f5b51f695d736a7f2e5ada6470e695190b8f83"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "information",
+      "src": "/audio/wordlists/ngsl-spoken/information.mp3",
+      "text": "information",
+      "textSha256": "dea7111a8406e27cfc8bf5f49c5d40898402b0b584b3285f069170a36f9eec31"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "please",
+      "src": "/audio/wordlists/ngsl-spoken/please.mp3",
+      "text": "please",
+      "textSha256": "56ccc4dcfc96534b06fc0c08a301be24f13b491484d5d984953cc0dba9bbb89a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "exactly",
+      "src": "/audio/wordlists/ngsl-spoken/exactly.mp3",
+      "text": "exactly",
+      "textSha256": "24065231df1b28929df88139f986d509bc2aed39f17c7566cea5d0f25e7f299f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "ago",
+      "src": "/audio/wordlists/ngsl-spoken/ago.mp3",
+      "text": "ago",
+      "textSha256": "1d8e08fd632682840b4159dd52d36b0d1c55cf6cac21097076474e5b43608cb4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "room",
+      "src": "/audio/wordlists/ngsl-spoken/room.mp3",
+      "text": "room",
+      "textSha256": "1f1c5b2fad778434024f1537986346927917f4755a6e7d3fd91f22653b7c3132"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "answer",
+      "src": "/audio/wordlists/ngsl-spoken/answer.mp3",
+      "text": "answer",
+      "textSha256": "0db52f4076c082518412afd3dd3576e2cb0c63703fd7fed5e23ade60efef31d9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "spend",
+      "src": "/audio/wordlists/ngsl-spoken/spend.mp3",
+      "text": "spend",
+      "textSha256": "f64a33ff88c38111769d86b2679168f7cdabcaa7c9c20cbb51aa0a3a506a8717"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "stay",
+      "src": "/audio/wordlists/ngsl-spoken/stay.mp3",
+      "text": "stay",
+      "textSha256": "39be15289c7942a8e7765d75584b0bce0a4a39c29a356fbaee44f63848ba6cb0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "rather",
+      "src": "/audio/wordlists/ngsl-spoken/rather.mp3",
+      "text": "rather",
+      "textSha256": "d1ffaf0265bbf7e10a65fae67307ad446f9afa562a851428d004e5b682c448d7"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "certainly",
+      "src": "/audio/wordlists/ngsl-spoken/certainly.mp3",
+      "text": "certainly",
+      "textSha256": "00fd2615de994cb3841b4d152633ac4d25f7a5bbb5412c031661b0ec3f4ddc61"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "breath",
+      "src": "/audio/wordlists/ngsl-spoken/breath.mp3",
+      "text": "breath",
+      "textSha256": "367a1c592458c1b0ab948e37f993feeda943b0a03b70ee6633c51beb78de8ed8"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "while",
+      "src": "/audio/wordlists/ngsl-spoken/while.mp3",
+      "text": "while",
+      "textSha256": "07a8750738828ffd36a9bbfc198cf5d3bfd93e9f86b0e16e5aedeef8426804cf"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "everybody",
+      "src": "/audio/wordlists/ngsl-spoken/everybody.mp3",
+      "text": "everybody",
+      "textSha256": "10eb99d2d879b4e3f5c9342a7bcb040b90153d5c9ebfa125f47d4467c5947530"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "clear",
+      "src": "/audio/wordlists/ngsl-spoken/clear.mp3",
+      "text": "clear",
+      "textSha256": "913a4cb91be20332f3559f8070255d7ac3e6228bb423f4441551d3f783e7d4f4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "eat",
+      "src": "/audio/wordlists/ngsl-spoken/eat.mp3",
+      "text": "eat",
+      "textSha256": "e57bd924047ef39d2a206c8bc5c06a0ed38baa918c5054859f5e8ffd23037371"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "perhaps",
+      "src": "/audio/wordlists/ngsl-spoken/perhaps.mp3",
+      "text": "perhaps",
+      "textSha256": "1ba2ebb275e86668d38ccdfbb7a6e009e90b89b97a90a06ed257f2b19ce49b66"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "early",
+      "src": "/audio/wordlists/ngsl-spoken/early.mp3",
+      "text": "early",
+      "textSha256": "f408830bcc7fab370819172244aa32e3ba66a848835911c02629d9a4dff77992"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "care",
+      "src": "/audio/wordlists/ngsl-spoken/care.mp3",
+      "text": "care",
+      "textSha256": "f9ed2b54fd72ac1652579d3726fe310b3984465599a6051909ac4259de8f7aac"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "pick",
+      "src": "/audio/wordlists/ngsl-spoken/pick.mp3",
+      "text": "pick",
+      "textSha256": "8ce33c6c86e991f7b4993479d63cd73039fc874227fd64a5e1f2b4fdcd31d7a9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "type",
+      "src": "/audio/wordlists/ngsl-spoken/type.mp3",
+      "text": "type",
+      "textSha256": "1303c06b0b014d0ce7b988ab173a13f31227d417058ff4bbe6f8c222b4ad913c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "matter",
+      "src": "/audio/wordlists/ngsl-spoken/matter.mp3",
+      "text": "matter",
+      "textSha256": "57523f642f63eabb2a4f6804ad9efe4131c56c0784de25ef63ed7e6ee2ba10a3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "such",
+      "src": "/audio/wordlists/ngsl-spoken/such.mp3",
+      "text": "such",
+      "textSha256": "a5c935d142e9fa6eeb75c3424cad28ec117de0d1f6f818f7a8ec41247862d13a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "until",
+      "src": "/audio/wordlists/ngsl-spoken/until.mp3",
+      "text": "until",
+      "textSha256": "2e3200de84b9cada83900111ef25b8bfa9cbf45e145c9ceb3b87330b32eff188"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "hope",
+      "src": "/audio/wordlists/ngsl-spoken/hope.mp3",
+      "text": "hope",
+      "textSha256": "c29277f55fb31aeb8d4026132e53513a1fb755e5d9c13bf21405b72b9570373f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "level",
+      "src": "/audio/wordlists/ngsl-spoken/level.mp3",
+      "text": "level",
+      "textSha256": "0081779c287d567d9ca622f4c0cc2ede819b0cc7f286a5f01d8c3c0178191ad6"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "small",
+      "src": "/audio/wordlists/ngsl-spoken/small.mp3",
+      "text": "small",
+      "textSha256": "81db8ebbbbc69c6c6ad4a6aa92b76e0c08af547da236b9e2c9dbe1d8285a8130"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "line",
+      "src": "/audio/wordlists/ngsl-spoken/line.mp3",
+      "text": "line",
+      "textSha256": "38a9c1e721584da284b90ceea4ed7eb8db15ac4ea86c2c75ec925d5f8799fcf0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "close",
+      "src": "/audio/wordlists/ngsl-spoken/close.mp3",
+      "text": "close",
+      "textSha256": "310ff200149b44a32f124023d7caba19a1a890763a980606813d3a3d4a085d36"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "phone",
+      "src": "/audio/wordlists/ngsl-spoken/phone.mp3",
+      "text": "phone",
+      "textSha256": "45569da57f4b7bf472d7a864ef4781451cae6383fee9fb0ae40c59aa1ce475b7"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "least",
+      "src": "/audio/wordlists/ngsl-spoken/least.mp3",
+      "text": "least",
+      "textSha256": "6bab65a2bddec8af5dbc7f8b24ef22fc58acc385abcde4a6c4e34387d3b29261"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "under",
+      "src": "/audio/wordlists/ngsl-spoken/under.mp3",
+      "text": "under",
+      "textSha256": "d767748a603799c85319dba02a583b3fdbe28ae5f82b2e872d6bb66cf104e62c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "someone",
+      "src": "/audio/wordlists/ngsl-spoken/someone.mp3",
+      "text": "someone",
+      "textSha256": "2a59d59e3809f827ce709d3815e3950eef4a6a93af5557a93a7fdfba71460843"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "system",
+      "src": "/audio/wordlists/ngsl-spoken/system.mp3",
+      "text": "system",
+      "textSha256": "bbc5e661e106c6dcd8dc6dd186454c2fcba3c710fb4d8e71a60c93eaf077f073"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "cost",
+      "src": "/audio/wordlists/ngsl-spoken/cost.mp3",
+      "text": "cost",
+      "textSha256": "9f82f7b375f4aa1bd7d50abe0f760c4ca5a8f0208aa68555489c39dd7c7aeeaa"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "state",
+      "src": "/audio/wordlists/ngsl-spoken/state.mp3",
+      "text": "state",
+      "textSha256": "4ba69735ca53765ed6a709edb56c6ea236b7193a3b29a6b390c346f0f4340e4e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sometimes",
+      "src": "/audio/wordlists/ngsl-spoken/sometimes.mp3",
+      "text": "sometimes",
+      "textSha256": "28e5c066055aeb3de147cec656fc48d59f43fc63d65da6bb4a1cc43d5feccdd4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "paper",
+      "src": "/audio/wordlists/ngsl-spoken/paper.mp3",
+      "text": "paper",
+      "textSha256": "382635c9325bf3273d195ff1b8a44e5b11afd7d97addeb8863ea35feb98c1a07"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "top",
+      "src": "/audio/wordlists/ngsl-spoken/top.mp3",
+      "text": "top",
+      "textSha256": "28720365c5e7476a011e4f43ac003ee5f16247a263b9d623aa85ed311d73bf39"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "concern",
+      "src": "/audio/wordlists/ngsl-spoken/concern.mp3",
+      "text": "concern",
+      "textSha256": "2f1b86bf5531b8e8545eb85875f3d4283bbc83663b60efa9e2faef34e03ab174"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "since",
+      "src": "/audio/wordlists/ngsl-spoken/since.mp3",
+      "text": "since",
+      "textSha256": "6b5a3ded016ab78269898c6e38d09f71e71e9311d53569f668e76378de0a798a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "true",
+      "src": "/audio/wordlists/ngsl-spoken/true.mp3",
+      "text": "true",
+      "textSha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "order",
+      "src": "/audio/wordlists/ngsl-spoken/order.mp3",
+      "text": "order",
+      "textSha256": "3eeb7e96e59ce40f9cb1a089daba079fd699f6867a30f6634af8570967b2375a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "government",
+      "src": "/audio/wordlists/ngsl-spoken/government.mp3",
+      "text": "government",
+      "textSha256": "ab5e9e376f9539179e465f248595caac9789aed486e8da331495e2cf8f4c5634"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sound",
+      "src": "/audio/wordlists/ngsl-spoken/sound.mp3",
+      "text": "sound",
+      "textSha256": "dd29442deca69f52c50006b831cb216edf78a7da33748f0a80ff19f2ebe57ecd"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "tomorrow",
+      "src": "/audio/wordlists/ngsl-spoken/tomorrow.mp3",
+      "text": "tomorrow",
+      "textSha256": "bafd151a86f9a573b153e76e3a8a0053b3340ce304a301a5354288fb18bce848"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "service",
+      "src": "/audio/wordlists/ngsl-spoken/service.mp3",
+      "text": "service",
+      "textSha256": "9df6b026a8c6c26e3c3acd2370a16e93fffdc0015ff5bd879218788025db0280"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "wrong",
+      "src": "/audio/wordlists/ngsl-spoken/wrong.mp3",
+      "text": "wrong",
+      "textSha256": "8810ad581e59f2bc3928b261707a71308f7e139eb04820366dc4d5c18d980225"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "lose",
+      "src": "/audio/wordlists/ngsl-spoken/lose.mp3",
+      "text": "lose",
+      "textSha256": "a57cf9eaf908c5ce5ca03f54e0afc1180adf2f417c60221eb588de917c06f3ea"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "easy",
+      "src": "/audio/wordlists/ngsl-spoken/easy.mp3",
+      "text": "easy",
+      "textSha256": "97c10efe01d5c9c88704a12d361d8429b3a6aa2412290a0773109d5d2d603d5e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "water",
+      "src": "/audio/wordlists/ngsl-spoken/water.mp3",
+      "text": "water",
+      "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "program",
+      "src": "/audio/wordlists/ngsl-spoken/program.mp3",
+      "text": "program",
+      "textSha256": "1310ca2c8932dbd118668bd97442558a3e1f546b5e15c69699dfbd6024f548d8"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "parent",
+      "src": "/audio/wordlists/ngsl-spoken/parent.mp3",
+      "text": "parent",
+      "textSha256": "e47125968b3b71049fbc4802d1e40a71ea1359decfabacf70b34588037d4ff0c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "break",
+      "src": "/audio/wordlists/ngsl-spoken/break.mp3",
+      "text": "break",
+      "textSha256": "14ebe56a5008e7c251101e9e1fdbe281ab0a82bd6fa00a5cef746b9ee0dd31d1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "agree",
+      "src": "/audio/wordlists/ngsl-spoken/agree.mp3",
+      "text": "agree",
+      "textSha256": "94d5c9d96025716090f176f76e07c45b1296250fe9bfe1823f77f53881548690"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "business",
+      "src": "/audio/wordlists/ngsl-spoken/business.mp3",
+      "text": "business",
+      "textSha256": "11d40417959631d3d2420e8cd8709893c11cd7a4db737af63e8d56cfa7866f85"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "within",
+      "src": "/audio/wordlists/ngsl-spoken/within.mp3",
+      "text": "within",
+      "textSha256": "f106376011688eda079ceb77accc1e24b0761bc383f6d209d1065e709aa056f2"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "door",
+      "src": "/audio/wordlists/ngsl-spoken/door.mp3",
+      "text": "door",
+      "textSha256": "2534e2de1dec24fedab4c00266b55ba9ba60dde03a349c5b5662189dd561ba9e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "drive",
+      "src": "/audio/wordlists/ngsl-spoken/drive.mp3",
+      "text": "drive",
+      "textSha256": "7062520c5a0ea9deac825278c9f4f0cbad48864b2c7d0c7f1ebccdb752afb058"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sense",
+      "src": "/audio/wordlists/ngsl-spoken/sense.mp3",
+      "text": "sense",
+      "textSha256": "5146f25dc5079599b09b7f5aa3e2db994c828774d3dd18b9c6aeb3a99fb2dc40"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "stand",
+      "src": "/audio/wordlists/ngsl-spoken/stand.mp3",
+      "text": "stand",
+      "textSha256": "d37a24b801c6e2e338243b7361c5985e1d8e26bcf5555dd08cd8c969e01e1670"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "basically",
+      "src": "/audio/wordlists/ngsl-spoken/basically.mp3",
+      "text": "basically",
+      "textSha256": "47dcafe0828cdcd3703225d42b65a1a6562b89cb8169e23f2ee848cea8907410"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "process",
+      "src": "/audio/wordlists/ngsl-spoken/process.mp3",
+      "text": "process",
+      "textSha256": "19ed40bf62c399b8492efda5b9a9184b68cf4d9d4a165b38557b9d14201d0c03"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "hold",
+      "src": "/audio/wordlists/ngsl-spoken/hold.mp3",
+      "text": "hold",
+      "textSha256": "e8b22d83b417e85ba4f24101a49a49cc3246a5e5e4ce6574623063e4e32801e0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "cut",
+      "src": "/audio/wordlists/ngsl-spoken/cut.mp3",
+      "text": "cut",
+      "textSha256": "378bfce5cda2599a6cda399f1cacef861e4e575ec794744dcf0e55e9c4780633"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "moment",
+      "src": "/audio/wordlists/ngsl-spoken/moment.mp3",
+      "text": "moment",
+      "textSha256": "72110207b6499adb0ff6cdd294688fbead12ad866c34159f23e0b3e81d369b94"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "girl",
+      "src": "/audio/wordlists/ngsl-spoken/girl.mp3",
+      "text": "girl",
+      "textSha256": "431ba1c6936744f659289a8ff5292f004a51ba6a96dcecc65ef8f0783018dd5f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "past",
+      "src": "/audio/wordlists/ngsl-spoken/past.mp3",
+      "text": "past",
+      "textSha256": "84ccdf8a849ffbc98d3a8a4bfb0999eda9254015f75a1c6cc7f68338d61c00b0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "without",
+      "src": "/audio/wordlists/ngsl-spoken/without.mp3",
+      "text": "without",
+      "textSha256": "1216b2a88975f9d3c0ba5e043bae1803d4f0f1cfab98eeccb800fdd82fff9aca"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "learn",
+      "src": "/audio/wordlists/ngsl-spoken/learn.mp3",
+      "text": "learn",
+      "textSha256": "6a8da52e920664ef15b3c36c0edb24e27e6604bb2dc2f6c7c1f1f5076ff28ee9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "young",
+      "src": "/audio/wordlists/ngsl-spoken/young.mp3",
+      "text": "young",
+      "textSha256": "dbba921ce20510210ee7db98e000ee32d0e17f5e93105707acc498d6f8ef5a7e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "anybody",
+      "src": "/audio/wordlists/ngsl-spoken/anybody.mp3",
+      "text": "anybody",
+      "textSha256": "bcb9333252569ce8820bb24d218b92f95d9253918f4b0b07aeb592d6971c8a10"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "teacher",
+      "src": "/audio/wordlists/ngsl-spoken/teacher.mp3",
+      "text": "teacher",
+      "textSha256": "1057a9604e04b274da5a4de0c8f4b4868d9b230989f8c8c6a28221143cc5a755"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "become",
+      "src": "/audio/wordlists/ngsl-spoken/become.mp3",
+      "text": "become",
+      "textSha256": "9ebb1e6f5b2adf424b662ab2b7b0189dfe8d4b69fd9e96c50b5a5936c1c0bcb2"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "member",
+      "src": "/audio/wordlists/ngsl-spoken/member.mp3",
+      "text": "member",
+      "textSha256": "e31ab643c44f7a0ec824b59d1194d60dac334200d845e61d2d289daa0f087ea4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "train",
+      "src": "/audio/wordlists/ngsl-spoken/train.mp3",
+      "text": "train",
+      "textSha256": "116f54c41d0405dbb10e7b04ebc31e262a5b8c85c1233fcf36eaee344d91ae58"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "class",
+      "src": "/audio/wordlists/ngsl-spoken/class.mp3",
+      "text": "class",
+      "textSha256": "0889113e04d3203f0c401c17c0fd8b352b740dc607433779d3edcaa13320b001"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "forty",
+      "src": "/audio/wordlists/ngsl-spoken/forty.mp3",
+      "text": "forty",
+      "textSha256": "9cee2304bd633d42c35db17c1427a273668bd3166487f924216d807a566a8e73"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "company",
+      "src": "/audio/wordlists/ngsl-spoken/company.mp3",
+      "text": "company",
+      "textSha256": "f168ccdd91548c5a8c871bd4b9b757c5e889a1672e774bddef4a2714759a7a8f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "begin",
+      "src": "/audio/wordlists/ngsl-spoken/begin.mp3",
+      "text": "begin",
+      "textSha256": "e6f07d43b5c21db0fbb9a31feac2dc599787763393dd5acbfad80e247eb02ad5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "fine",
+      "src": "/audio/wordlists/ngsl-spoken/fine.mp3",
+      "text": "fine",
+      "textSha256": "d14a58bae804a2b80b5b76a010239c88ffca1fc7951a90f8e9131beda1e23c1b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "support",
+      "src": "/audio/wordlists/ngsl-spoken/support.mp3",
+      "text": "support",
+      "textSha256": "a18603086e5bdf9df88ccc9f5a083fed093e819976e87456b74dafcbd7011114"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "head",
+      "src": "/audio/wordlists/ngsl-spoken/head.mp3",
+      "text": "head",
+      "textSha256": "9f2e6d33a3717ee826353a404ba4618d1aeeb6879ad7936bce8ed5f46814924d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "world",
+      "src": "/audio/wordlists/ngsl-spoken/world.mp3",
+      "text": "world",
+      "textSha256": "486ea46224d1bb4fb680f34f7c9ad96a8f24ec88be73ea8e5a6c65260e9cb8a7"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "nineteen",
+      "src": "/audio/wordlists/ngsl-spoken/nineteen.mp3",
+      "text": "nineteen",
+      "textSha256": "cde4e100efd26f5b02fb484e30db927732ca192f1cd9975186510adec82b5c61"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "dad",
+      "src": "/audio/wordlists/ngsl-spoken/dad.mp3",
+      "text": "dad",
+      "textSha256": "6fe8ecbc1deafa51c2ecf088cf364eba1ceba9032ffbe2621e771b90ea93153d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "view",
+      "src": "/audio/wordlists/ngsl-spoken/view.mp3",
+      "text": "view",
+      "textSha256": "2bcb43cbc8f6b7ef66331532881143fcbae60a879db3a8fb853f645bb24c2b3c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "decide",
+      "src": "/audio/wordlists/ngsl-spoken/decide.mp3",
+      "text": "decide",
+      "textSha256": "5589aa5863c2d85622d06d651add002416e5513afdbb455666cdde01bb3e257d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "finish",
+      "src": "/audio/wordlists/ngsl-spoken/finish.mp3",
+      "text": "finish",
+      "textSha256": "42af43e3616eba4a133a755540a88e6c61085dfe66c6e49e6ab8eaf9daf0c0da"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "expect",
+      "src": "/audio/wordlists/ngsl-spoken/expect.mp3",
+      "text": "expect",
+      "textSha256": "77f2f036726eaa17f75c9a6bdd9f613862b1a17951469921026e482e66ea046a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "particular",
+      "src": "/audio/wordlists/ngsl-spoken/particular.mp3",
+      "text": "particular",
+      "textSha256": "32182951b85a244a9bf6d9080d8cbe9d0bd94f229d6a6135b78f70b8b14cf9cc"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "percent",
+      "src": "/audio/wordlists/ngsl-spoken/percent.mp3",
+      "text": "percent",
+      "textSha256": "fd86717aca41c558c78c19ab2b50691179a57ba5200bc7e3317be70efd4043ad"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "shop",
+      "src": "/audio/wordlists/ngsl-spoken/shop.mp3",
+      "text": "shop",
+      "textSha256": "8d9001d32c6a703d95921a77115050f33dd823d3f1730bd35215dcbecad6dc20"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "situation",
+      "src": "/audio/wordlists/ngsl-spoken/situation.mp3",
+      "text": "situation",
+      "textSha256": "fc097e65503cb3ad9eb8e10f5a6176119628e5e875f12e9a26e3b9fe49219377"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "involve",
+      "src": "/audio/wordlists/ngsl-spoken/involve.mp3",
+      "text": "involve",
+      "textSha256": "873f8161e2c69fa3f015a23b52d713046c4a8fd65db58c6f254094c14ee8e534"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "check",
+      "src": "/audio/wordlists/ngsl-spoken/check.mp3",
+      "text": "check",
+      "textSha256": "20f65c28671b40937c5bf23acc7c6f37e5a5ec0622e347b57685725df5ba9e50"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "along",
+      "src": "/audio/wordlists/ngsl-spoken/along.mp3",
+      "text": "along",
+      "textSha256": "768c49c9383c77ac0a2ad3dc13b9e18d8ec05d6832cda413da884a98d48d43d2"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "full",
+      "src": "/audio/wordlists/ngsl-spoken/full.mp3",
+      "text": "full",
+      "textSha256": "a18b869b2e81c0c529552a3c4fa5c92ed08b98a4e146aed778d71d27517f83ac"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "form",
+      "src": "/audio/wordlists/ngsl-spoken/form.mp3",
+      "text": "form",
+      "textSha256": "07397d633f25a7101990a75864ae03d5a3b9ac07c4ed6accbc52cbfd7d7c13b4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sell",
+      "src": "/audio/wordlists/ngsl-spoken/sell.mp3",
+      "text": "sell",
+      "textSha256": "c0f21d451463ec3e3254bf2d631b70a46e870f72eca69b2a869625407c22a8b0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "story",
+      "src": "/audio/wordlists/ngsl-spoken/story.mp3",
+      "text": "story",
+      "textSha256": "c478361e6869af25970682a2c53967adbc8a46e9429efdc64b96351cfd52e13f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "certain",
+      "src": "/audio/wordlists/ngsl-spoken/certain.mp3",
+      "text": "certain",
+      "textSha256": "70d16cbbf8e41719a0915a8b7390c4bfc08e903bae00a7646055015ca0161103"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "local",
+      "src": "/audio/wordlists/ngsl-spoken/local.mp3",
+      "text": "local",
+      "textSha256": "25bf8e1a2393f1108d37029b3df5593236c755742ec93465bbafa9b290bddcf6"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "ring",
+      "src": "/audio/wordlists/ngsl-spoken/ring.mp3",
+      "text": "ring",
+      "textSha256": "16b974583155fdcb11fb6832a37be09c18c7acecbfb352c25a35512bfd755a33"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "figure",
+      "src": "/audio/wordlists/ngsl-spoken/figure.mp3",
+      "text": "figure",
+      "textSha256": "889393fb69a5b305188405f66dd58ca1fefad6cef46cfbf85236146e633f2a66"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "twelve",
+      "src": "/audio/wordlists/ngsl-spoken/twelve.mp3",
+      "text": "twelve",
+      "textSha256": "d1a749ad879b6c07e1f356b260ba81f9cb5b4376072280c9994a5c125165b701"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "wonder",
+      "src": "/audio/wordlists/ngsl-spoken/wonder.mp3",
+      "text": "wonder",
+      "textSha256": "36296059cca8b7c7c7a52ff12abe53eb374d509d480f69bb673ac2566ea0b53f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "boy",
+      "src": "/audio/wordlists/ngsl-spoken/boy.mp3",
+      "text": "boy",
+      "textSha256": "cc6a778404ea557da5543d7cba14f75030dd069f56c80af62b0d7e1840a1ff67"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "usually",
+      "src": "/audio/wordlists/ngsl-spoken/usually.mp3",
+      "text": "usually",
+      "textSha256": "ceb1e2514a1f1b4530979dc2beede29a4a1d424e09437d9f2d5dcb0983f5a78d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "public",
+      "src": "/audio/wordlists/ngsl-spoken/public.mp3",
+      "text": "public",
+      "textSha256": "efa1f375d76194fa51a3556a97e641e61685f914d446979da50a551a4333ffd7"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "less",
+      "src": "/audio/wordlists/ngsl-spoken/less.mp3",
+      "text": "less",
+      "textSha256": "4fdd3b6201a22c7814d6e67dbb7a17790224ea0fd32ef0a0ccb0a5485eae4c9d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "worry",
+      "src": "/audio/wordlists/ngsl-spoken/worry.mp3",
+      "text": "worry",
+      "textSha256": "6de2f53e03e93dffb34ac0c77302d66128184fc2a8478ef82ca404fe054308a3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "funny",
+      "src": "/audio/wordlists/ngsl-spoken/funny.mp3",
+      "text": "funny",
+      "textSha256": "b22d1d8fe5752533954028172c9bf3ac01b57f40c82946a3e7b1eaff389e2b87"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "yesterday",
+      "src": "/audio/wordlists/ngsl-spoken/yesterday.mp3",
+      "text": "yesterday",
+      "textSha256": "9523d9fbe79bcf3ee5f9f664a8041fa3cdba4b6b8bb902cb5ec335a5bf1ca769"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "road",
+      "src": "/audio/wordlists/ngsl-spoken/road.mp3",
+      "text": "road",
+      "textSha256": "362a284952d3a7250e4bdd72a659ea78e8ec79804e0e6a2053dfe4c10e7d79f1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "discussion",
+      "src": "/audio/wordlists/ngsl-spoken/discussion.mp3",
+      "text": "discussion",
+      "textSha256": "3cc610240ec72ccfbf16c22bcd5d1d298a09f0e2bb1dd8feef426911542492c4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "front",
+      "src": "/audio/wordlists/ngsl-spoken/front.mp3",
+      "text": "front",
+      "textSha256": "2d8d693177ac44895fc02c009ec3f6af32e51eb00783c17000d7051d1662b93a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "record",
+      "src": "/audio/wordlists/ngsl-spoken/record.mp3",
+      "text": "record",
+      "textSha256": "70ce871f8a3d3fb449bc3c3ace6547cef02dfc74ffe48d912532a724bfdbe5b9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "across",
+      "src": "/audio/wordlists/ngsl-spoken/across.mp3",
+      "text": "across",
+      "textSha256": "deb538b50cb6318b008ce659351305f566d3d7453de0332d5be20fa1e69b8c47"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "absolutely",
+      "src": "/audio/wordlists/ngsl-spoken/absolutely.mp3",
+      "text": "absolutely",
+      "textSha256": "af6ee99106758696406520ca2ac7d9e9925a302e17ec7fbde1141495b5256fc9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "short",
+      "src": "/audio/wordlists/ngsl-spoken/short.mp3",
+      "text": "short",
+      "textSha256": "f9b0078b5df596d2ea19010c001bbd009e651de2c57e8fb7e355f31eb9d3f739"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "policy",
+      "src": "/audio/wordlists/ngsl-spoken/policy.mp3",
+      "text": "policy",
+      "textSha256": "823412d1eacb67956220e532959f0104603057c88704863ca38e7cd188fda812"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "difficult",
+      "src": "/audio/wordlists/ngsl-spoken/difficult.mp3",
+      "text": "difficult",
+      "textSha256": "1e4453a98c9d741737a0e881a5da3dc9cc29a5a9b2fc8b3096669f23eb2b31c1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "teach",
+      "src": "/audio/wordlists/ngsl-spoken/teach.mp3",
+      "text": "teach",
+      "textSha256": "eb0b4270edb36c1ea88cc99ee34e45b591da06b486f6b3e7fde5ba7a9c283349"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "mine",
+      "src": "/audio/wordlists/ngsl-spoken/mine.mp3",
+      "text": "mine",
+      "textSha256": "3fd30542fe3f61b14bd4a4b2dc0b6fb30fa6f63ebce52dd1778aaa8c4dc02cff"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "piece",
+      "src": "/audio/wordlists/ngsl-spoken/piece.mp3",
+      "text": "piece",
+      "textSha256": "34235a2c502e3919d3f00af5dabb87cb58aef4566b10631f2a5db94950ebffbd"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "provide",
+      "src": "/audio/wordlists/ngsl-spoken/provide.mp3",
+      "text": "provide",
+      "textSha256": "405abc33f5f3b06b881c7330aab9bf808b29801e9d5f6d0848336867d6e6edcb"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "comment",
+      "src": "/audio/wordlists/ngsl-spoken/comment.mp3",
+      "text": "comment",
+      "textSha256": "c44bb2fd516909dab78ae0bfedcd5672b131b996c4b7a4328ee55fba170da776"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "cover",
+      "src": "/audio/wordlists/ngsl-spoken/cover.mp3",
+      "text": "cover",
+      "textSha256": "3fa405a8301ace34d11cf44a816080b8f0e49a48fbd048b8aef1543a8c58bdb6"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "mother",
+      "src": "/audio/wordlists/ngsl-spoken/mother.mp3",
+      "text": "mother",
+      "textSha256": "cf0622ef2a661cd2f11b0b644e40e4e00eb962918424a8c8ba53842fdf290235"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "almost",
+      "src": "/audio/wordlists/ngsl-spoken/almost.mp3",
+      "text": "almost",
+      "textSha256": "9602eec8ca1a03bb0860336713cade669d4ed654145fe3fc9e494e888b1a0909"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "list",
+      "src": "/audio/wordlists/ngsl-spoken/list.mp3",
+      "text": "list",
+      "textSha256": "a330395cc0a53ad1207736546afff4735940937564bbf75ce1edad40780d9139"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "difference",
+      "src": "/audio/wordlists/ngsl-spoken/difference.mp3",
+      "text": "difference",
+      "textSha256": "69ea741e98fdc758a78132df33dc6a80889ccc247c145027f97e199945b74c5c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "ninety",
+      "src": "/audio/wordlists/ngsl-spoken/ninety.mp3",
+      "text": "ninety",
+      "textSha256": "521c74a4d5824aba60ce4abaf48f951b11836b548de2f7f72af3bac37e70fc47"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "against",
+      "src": "/audio/wordlists/ngsl-spoken/against.mp3",
+      "text": "against",
+      "textSha256": "a718e3e9aefa308ac31b8968410a1b4eded28547042f642cd8da73aadfd46bd3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "forget",
+      "src": "/audio/wordlists/ngsl-spoken/forget.mp3",
+      "text": "forget",
+      "textSha256": "babc1bd8ec812c742b4598d05a104f582c7d9b824022f4972aa0c2d4a3b0c85e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "page",
+      "src": "/audio/wordlists/ngsl-spoken/page.mp3",
+      "text": "page",
+      "textSha256": "3660315a9af3df255d8f19ab077e4797822b41488a0e2a04bc6af71213c23274"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "light",
+      "src": "/audio/wordlists/ngsl-spoken/light.mp3",
+      "text": "light",
+      "textSha256": "99a7026172d42714d0293e5598ec1c8e8260d7d0c4b8582ad002c1883494e216"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "happy",
+      "src": "/audio/wordlists/ngsl-spoken/happy.mp3",
+      "text": "happy",
+      "textSha256": "489f719cadf919094ddb38e7654de153ac33c02febb5de91e5345cbe372cf4a0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "yourself",
+      "src": "/audio/wordlists/ngsl-spoken/yourself.mp3",
+      "text": "yourself",
+      "textSha256": "d00d825bba6ba94de153ffc5fa1e9bbd5b9e1afcc1e6aa161c9e8e954f378fdf"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "myself",
+      "src": "/audio/wordlists/ngsl-spoken/myself.mp3",
+      "text": "myself",
+      "textSha256": "e06e309b66b35433fd311e9bab12a9843671de60cb122636d43ebd87754ded62"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "dollar",
+      "src": "/audio/wordlists/ngsl-spoken/dollar.mp3",
+      "text": "dollar",
+      "textSha256": "588d2c1d1f23963e1647ea4fb720eec44b113b82d057156b970e96df9a1be810"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "tape",
+      "src": "/audio/wordlists/ngsl-spoken/tape.mp3",
+      "text": "tape",
+      "textSha256": "8ba4ec7d634f794ec260675876415c279bcd46e3705d5ffda147a65db9e15a12"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "allow",
+      "src": "/audio/wordlists/ngsl-spoken/allow.mp3",
+      "text": "allow",
+      "textSha256": "410083735735a10e658a19edd1704e606c9dd112e225825b63fafeded766c8b9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "wear",
+      "src": "/audio/wordlists/ngsl-spoken/wear.mp3",
+      "text": "wear",
+      "textSha256": "c47fbc5d87a1298121ddf52ba9ad2b27986f8738b19a6df23973064863848904"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "forward",
+      "src": "/audio/wordlists/ngsl-spoken/forward.mp3",
+      "text": "forward",
+      "textSha256": "9dc08e4033827c93f48cabc2f61e3f9817b51a7f1bcfa513a7537dcbc5d162e7"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "follow",
+      "src": "/audio/wordlists/ngsl-spoken/follow.mp3",
+      "text": "follow",
+      "textSha256": "a3ce0b6106cdb3982d7b2bd5c7be5e1e74d973c4a3018b03beb01fc5dc3ec6f5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "experience",
+      "src": "/audio/wordlists/ngsl-spoken/experience.mp3",
+      "text": "experience",
+      "textSha256": "53e5e7c5a884893739c4cf64528572aeb846f8e4ca1986188287475c65900fab"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "clock",
+      "src": "/audio/wordlists/ngsl-spoken/clock.mp3",
+      "text": "clock",
+      "textSha256": "d8198efa3604d164853468608c55efa148bc56e3564d5a30232bf98b8ab43aeb"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "listen",
+      "src": "/audio/wordlists/ngsl-spoken/listen.mp3",
+      "text": "listen",
+      "textSha256": "6f8860eb5103a16b917146f9cbf21aa00fe7d2291b1aad7f4fe83a6db71688cf"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "decision",
+      "src": "/audio/wordlists/ngsl-spoken/decision.mp3",
+      "text": "decision",
+      "textSha256": "86ae35d58a6aa3b5742df94ef9d7162219f0106a911ae1954c1f0604aaec805d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "mention",
+      "src": "/audio/wordlists/ngsl-spoken/mention.mp3",
+      "text": "mention",
+      "textSha256": "68b9c231ac85c9597c7fc9170905fcda11d2ae9deddd403931a87a7f8f9237b6"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "somewhere",
+      "src": "/audio/wordlists/ngsl-spoken/somewhere.mp3",
+      "text": "somewhere",
+      "textSha256": "92b6359c721fcf6f815f21bc434bff939a36add34a64108e711e7a78af95d964"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "eighty",
+      "src": "/audio/wordlists/ngsl-spoken/eighty.mp3",
+      "text": "eighty",
+      "textSha256": "0dbc3407a7080e3d39871b66208636c038ed9ffbd082421b6ad6b80b22f447f1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "bloody",
+      "src": "/audio/wordlists/ngsl-spoken/bloody.mp3",
+      "text": "bloody",
+      "textSha256": "1de83442dea1fe1bfbdce37aed114912d7e34a240bf4228cfaaf245dd4e62537"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "age",
+      "src": "/audio/wordlists/ngsl-spoken/age.mp3",
+      "text": "age",
+      "textSha256": "013f54400c82da08037759ada907a8b864e97de81c088a182062c4b5622fd2ab"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "outside",
+      "src": "/audio/wordlists/ngsl-spoken/outside.mp3",
+      "text": "outside",
+      "textSha256": "31207a2065f46a5b948fce6fe5c13e85abaf5631e2f894b47dcd4fce14f6c57b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "letter",
+      "src": "/audio/wordlists/ngsl-spoken/letter.mp3",
+      "text": "letter",
+      "textSha256": "f80105efab6d863fd8fc243d269094469e2277e8f12e5a0a9f401e88494f7b4b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "during",
+      "src": "/audio/wordlists/ngsl-spoken/during.mp3",
+      "text": "during",
+      "textSha256": "76678e40cf8bdb8a83501170b65ec33d03cb2af5be9250610e7aa596c7e77d8f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "language",
+      "src": "/audio/wordlists/ngsl-spoken/language.mp3",
+      "text": "language",
+      "textSha256": "a4ef304ba42a200bafd78b046e0869af9183f6eee5524aead5dcb3a5ab5f8f3f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "card",
+      "src": "/audio/wordlists/ngsl-spoken/card.mp3",
+      "text": "card",
+      "textSha256": "8367cd66fdd136bba8ba23f8805bb050dd6289401c8ec3b0be44a3c233eef90d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "large",
+      "src": "/audio/wordlists/ngsl-spoken/large.mp3",
+      "text": "large",
+      "textSha256": "d35c416a85b807e9b5384915d6ebb4a9f7352713efd89857b45a242f473728a9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "stick",
+      "src": "/audio/wordlists/ngsl-spoken/stick.mp3",
+      "text": "stick",
+      "textSha256": "8f53dd914ced58d84b4d816958f1442f59387ce7eadb03fa6aed193a512b2e5f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "base",
+      "src": "/audio/wordlists/ngsl-spoken/base.mp3",
+      "text": "base",
+      "textSha256": "cae662172fd450bb0cd710a769079c05bfc5d8e35efa6576edc7d0377afdd4a2"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "picture",
+      "src": "/audio/wordlists/ngsl-spoken/picture.mp3",
+      "text": "picture",
+      "textSha256": "2cea274d0bedc39ec4ab6ba9e59ec889e3ed6fb56a1cf088a64d9b383378dc97"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "table",
+      "src": "/audio/wordlists/ngsl-spoken/table.mp3",
+      "text": "table",
+      "textSha256": "0d4fc4a78d3706edccafb665a8b2fdd9309e82c78625bb0f2b8e7bb9e1c4d21c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "enjoy",
+      "src": "/audio/wordlists/ngsl-spoken/enjoy.mp3",
+      "text": "enjoy",
+      "textSha256": "75fba329cb6ee8907a1f009b69353d8c0e9a8228b25a1095c7976efc1eaa259d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "party",
+      "src": "/audio/wordlists/ngsl-spoken/party.mp3",
+      "text": "party",
+      "textSha256": "1d0fea39ec33ff7543f345be85d1ccd34d6d864297d4151b737802cb294a338c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "continue",
+      "src": "/audio/wordlists/ngsl-spoken/continue.mp3",
+      "text": "continue",
+      "textSha256": "e256ee8e7aff6957a781d8328f0f68e26996564c81fa458da59fbca2305138ad"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "pass",
+      "src": "/audio/wordlists/ngsl-spoken/pass.mp3",
+      "text": "pass",
+      "textSha256": "d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "add",
+      "src": "/audio/wordlists/ngsl-spoken/add.mp3",
+      "text": "add",
+      "textSha256": "7e9e5ac30f2216fd0fd6f5faed316f2d5983361a4203c3330cfa46ef65bb4767"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sixty",
+      "src": "/audio/wordlists/ngsl-spoken/sixty.mp3",
+      "text": "sixty",
+      "textSha256": "df41164e151227b31ca29bb188c936923a0afb26d9bd0a8e4ec6d05d4815c991"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "often",
+      "src": "/audio/wordlists/ngsl-spoken/often.mp3",
+      "text": "often",
+      "textSha256": "93c68148f4acfe0d728451ad16f9ecc126da864b61f2012c31e344d2b7b7aa4b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "fall",
+      "src": "/audio/wordlists/ngsl-spoken/fall.mp3",
+      "text": "fall",
+      "textSha256": "2dc46af1b78c32dfe99dedfbdff6ca7f33e0f652716482f55b03622b67c06dea"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "grow",
+      "src": "/audio/wordlists/ngsl-spoken/grow.mp3",
+      "text": "grow",
+      "textSha256": "adca5146416ee41992ac79a52887351cafeced9ea917ca94532bea22e70c38ef"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "general",
+      "src": "/audio/wordlists/ngsl-spoken/general.mp3",
+      "text": "general",
+      "textSha256": "0feae16d55365acf07fe9f909834361ba6ee606854746539230bdc84a6a24cee"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "drink",
+      "src": "/audio/wordlists/ngsl-spoken/drink.mp3",
+      "text": "drink",
+      "textSha256": "218ae6b44966c8a9913e78ef950ea5d047ac7c3d73341f9867d760cc38c3fc1f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "carry",
+      "src": "/audio/wordlists/ngsl-spoken/carry.mp3",
+      "text": "carry",
+      "textSha256": "6ef49cacb4c39f8fe29c3573df5bf9b82e8bc61270396824a830717c038583ec"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "response",
+      "src": "/audio/wordlists/ngsl-spoken/response.mp3",
+      "text": "response",
+      "textSha256": "a9f4b3d22a523fdada41c85c175425bcd15b32b4cd0f54d9433accd52d7195a1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "price",
+      "src": "/audio/wordlists/ngsl-spoken/price.mp3",
+      "text": "price",
+      "textSha256": "683b531f41ec88a2f345b727afe59757b73162a340a65c86bba62866f8fe556c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "include",
+      "src": "/audio/wordlists/ngsl-spoken/include.mp3",
+      "text": "include",
+      "textSha256": "c0cbff04cc90f5b4cd53a53533285f7d741f24a5279f746b8370ad0f2c982f3e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "bed",
+      "src": "/audio/wordlists/ngsl-spoken/bed.mp3",
+      "text": "bed",
+      "textSha256": "c5052532c2206140dfdc3b0d756cce0831ac00fd978f2bfd150858e7ee217a8c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "position",
+      "src": "/audio/wordlists/ngsl-spoken/position.mp3",
+      "text": "position",
+      "textSha256": "5a452459503be70d2ed2fca46dd91e05e820a957f175686a77d03fff80f664fe"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "soon",
+      "src": "/audio/wordlists/ngsl-spoken/soon.mp3",
+      "text": "soon",
+      "textSha256": "4a754148b88a68e18df1a02489950666d187e904cd88d2dc0aa16c103b94045f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "suggest",
+      "src": "/audio/wordlists/ngsl-spoken/suggest.mp3",
+      "text": "suggest",
+      "textSha256": "dc726d0a525fdaf759e44c8737b085e22735c7cce9b389282ed2eb54cfe6ed5f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "office",
+      "src": "/audio/wordlists/ngsl-spoken/office.mp3",
+      "text": "office",
+      "textSha256": "5cc3f82838ba7260203e4590ce03d00e1663d41f6a5167144f5c95d6be2166a0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "possible",
+      "src": "/audio/wordlists/ngsl-spoken/possible.mp3",
+      "text": "possible",
+      "textSha256": "c4773daf2e6a2e27ea8eda78dd9e3ab3793cbb122698d941f50dc6f74b91b72c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "fifteen",
+      "src": "/audio/wordlists/ngsl-spoken/fifteen.mp3",
+      "text": "fifteen",
+      "textSha256": "c463967e5708cab7f980855e14042ddbcfd1c3556d520ad4dacdfb4a115c67a5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sign",
+      "src": "/audio/wordlists/ngsl-spoken/sign.mp3",
+      "text": "sign",
+      "textSha256": "0b6f395ca14ac202374d5cff678b71157d0bef7e00c3045e9b80aab4ffb85276"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "face",
+      "src": "/audio/wordlists/ngsl-spoken/face.mp3",
+      "text": "face",
+      "textSha256": "0282d9b79f42c74c1550b20ff2dd16aafc3fe5d8ae9a00b2f66996d0ae882775"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "draw",
+      "src": "/audio/wordlists/ngsl-spoken/draw.mp3",
+      "text": "draw",
+      "textSha256": "50f7becde477bb509c7704de62c349247fb3499c03a95e4bce20151cd552dea5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "low",
+      "src": "/audio/wordlists/ngsl-spoken/low.mp3",
+      "text": "low",
+      "textSha256": "6c1ff09db3a73dc4a854f695d20d174a848d55f2d743bab2ee1f8fc75be454f3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "although",
+      "src": "/audio/wordlists/ngsl-spoken/although.mp3",
+      "text": "although",
+      "textSha256": "2e1d76579d44d7cfe5f3f61feef2a9a5b2f67c235ce04466ec70a548b10fd530"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "dog",
+      "src": "/audio/wordlists/ngsl-spoken/dog.mp3",
+      "text": "dog",
+      "textSha256": "cd6357efdd966de8c0cb2f876cc89ec74ce35f0968e11743987084bd42fb8944"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "present",
+      "src": "/audio/wordlists/ngsl-spoken/present.mp3",
+      "text": "present",
+      "textSha256": "4d4c7eee2e28d03cb2dbf3df639c3290ade66e18755e83caade2d8f37bd8c044"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "amount",
+      "src": "/audio/wordlists/ngsl-spoken/amount.mp3",
+      "text": "amount",
+      "textSha256": "cf38d95c9c6b1d9d5125c04d41a54df57727ef4cfb3f5116a602fe2b25115c13"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "market",
+      "src": "/audio/wordlists/ngsl-spoken/market.mp3",
+      "text": "market",
+      "textSha256": "e4d693d24e646cb7878426225d90d2607fd40e2e7c82f4cf8246b2cc3e0decb8"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sing",
+      "src": "/audio/wordlists/ngsl-spoken/sing.mp3",
+      "text": "sing",
+      "textSha256": "6342d0648a74645722ea17901df180d13ab12ce64c01f16e846e39a01eae8419"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "save",
+      "src": "/audio/wordlists/ngsl-spoken/save.mp3",
+      "text": "save",
+      "textSha256": "157dca92e4250458339d4b835250d44c238f3355e1b7986195188ee434e9baff"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "game",
+      "src": "/audio/wordlists/ngsl-spoken/game.mp3",
+      "text": "game",
+      "textSha256": "6ca5cab77e702c787b4c14b3d3bf26bad43da606be6eed04ab0b9720120ae081"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "lovely",
+      "src": "/audio/wordlists/ngsl-spoken/lovely.mp3",
+      "text": "lovely",
+      "textSha256": "f85b43067a280d4cc40f89cb78d8efff6e908727bc3cb43a9ae72b400d2eecc5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "choice",
+      "src": "/audio/wordlists/ngsl-spoken/choice.mp3",
+      "text": "choice",
+      "textSha256": "cf83f0f9828551b6247bfc9288d0740dd5b3ccb8501f8caed37c19b912ae4438"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "ready",
+      "src": "/audio/wordlists/ngsl-spoken/ready.mp3",
+      "text": "ready",
+      "textSha256": "b24d6d33736ecd5604a4b17bc9c6481039fac362bb7df044ef1c10a2bfd21db6"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "food",
+      "src": "/audio/wordlists/ngsl-spoken/food.mp3",
+      "text": "food",
+      "textSha256": "c1f026582fe6e8cb620d0c85a72fe421ddded756662a8ec00ed4c297ad10676b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "die",
+      "src": "/audio/wordlists/ngsl-spoken/die.mp3",
+      "text": "die",
+      "textSha256": "a8d79f40ddb79de569d778f1c0b832f9cc266b32274b702cff4ba2b8a0dd1549"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "health",
+      "src": "/audio/wordlists/ngsl-spoken/health.mp3",
+      "text": "health",
+      "textSha256": "62484e22a6a5ade1ba25cb1b7c55c4b8861de24caddab73c9409742734008b26"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "color",
+      "src": "/audio/wordlists/ngsl-spoken/color.mp3",
+      "text": "color",
+      "textSha256": "74284d9dcbcc09928ca5d7d6187270a62ac1b58ccdc4a44b81e47257ffa53b9e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "community",
+      "src": "/audio/wordlists/ngsl-spoken/community.mp3",
+      "text": "community",
+      "textSha256": "f354ee99e2bc863ce19d80b843353476394ebc3530a51c9290d629065bacc3b3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "mathematics",
+      "src": "/audio/wordlists/ngsl-spoken/mathematics.mp3",
+      "text": "mathematics",
+      "textSha256": "c90e097e46db1931c2fb3c0f5fb5f1df2f2aa01e3f6d94350f662f6db17c4bcb"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "miss",
+      "src": "/audio/wordlists/ngsl-spoken/miss.mp3",
+      "text": "miss",
+      "textSha256": "80688fc3d5f88a06909e3ff7575018a520bfdb239cc0f95aee985007254423da"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "address",
+      "src": "/audio/wordlists/ngsl-spoken/address.mp3",
+      "text": "address",
+      "textSha256": "d80c9bf910f144738ef983724bc04bd6bd3f17c5c83ed57bedee1b1b9278e811"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "town",
+      "src": "/audio/wordlists/ngsl-spoken/town.mp3",
+      "text": "town",
+      "textSha256": "50ac81f970325a3e011f2437818adde426e1278dee5670dd359edfca43a72d79"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "win",
+      "src": "/audio/wordlists/ngsl-spoken/win.mp3",
+      "text": "win",
+      "textSha256": "823a3180dad3c9c3c4dea43ab2baf9f04bac9c3a7711745ff5f702551496d735"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "foot",
+      "src": "/audio/wordlists/ngsl-spoken/foot.mp3",
+      "text": "foot",
+      "textSha256": "22e4f6912a6980d6fd59e0c5409247407491282cc8dbd009734066b8393a5761"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "raise",
+      "src": "/audio/wordlists/ngsl-spoken/raise.mp3",
+      "text": "raise",
+      "textSha256": "e49b5c7a9e738d485bc77b54d9906a928859295bcd805a4600efcb51f1588e9e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "discuss",
+      "src": "/audio/wordlists/ngsl-spoken/discuss.mp3",
+      "text": "discuss",
+      "textSha256": "d6a919ef536282bf60c0662731e3e0327ba6465f535f0b35ebd0db4c91600527"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "committee",
+      "src": "/audio/wordlists/ngsl-spoken/committee.mp3",
+      "text": "committee",
+      "textSha256": "c1bb3894443fd9088c9cad4a3bc91dd0547f81f8a9cafb1ac80eb3943ed57827"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "pull",
+      "src": "/audio/wordlists/ngsl-spoken/pull.mp3",
+      "text": "pull",
+      "textSha256": "c5f5571c2c9c437485d5c572a3ad9efe51db8839cae2414732f051eaca6293fb"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "box",
+      "src": "/audio/wordlists/ngsl-spoken/box.mp3",
+      "text": "box",
+      "textSha256": "26f8567f2569182294c3fa5b9f9cb2270b554eef628b4c149cf82a42888ff4ae"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "dear",
+      "src": "/audio/wordlists/ngsl-spoken/dear.mp3",
+      "text": "dear",
+      "textSha256": "5f4d44dfaa1b1ed72a8a3e963500a05d0f55829ac42af044e33f39c9f6f71a3a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "consider",
+      "src": "/audio/wordlists/ngsl-spoken/consider.mp3",
+      "text": "consider",
+      "textSha256": "2181584795ff551160936a34822f9a736e62c5643bbf3955e768f1941e9d318e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "rest",
+      "src": "/audio/wordlists/ngsl-spoken/rest.mp3",
+      "text": "rest",
+      "textSha256": "2e09d5210db8417757b0f875c276d0cb877b22514e9a3583d2d8d7445368a027"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "increase",
+      "src": "/audio/wordlists/ngsl-spoken/increase.mp3",
+      "text": "increase",
+      "textSha256": "e20a548f23fa36bc8d5ba48237ec3ee4d4f00087841d3614f81749e3c6c1b47e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "nobody",
+      "src": "/audio/wordlists/ngsl-spoken/nobody.mp3",
+      "text": "nobody",
+      "textSha256": "6382b3cc881412b77bfcaeed026001c00d9e3025e66c20f6e7e92f079851462a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "computer",
+      "src": "/audio/wordlists/ngsl-spoken/computer.mp3",
+      "text": "computer",
+      "textSha256": "aa97302150fce811425cd84537028a5afbe37e3f1362ad45a51d467e17afdc9c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "budget",
+      "src": "/audio/wordlists/ngsl-spoken/budget.mp3",
+      "text": "budget",
+      "textSha256": "0af96a8ed622a394e8b2a239284ee46e9a7a7b0ec38191bbd08571b171118dd6"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "fun",
+      "src": "/audio/wordlists/ngsl-spoken/fun.mp3",
+      "text": "fun",
+      "textSha256": "00c4285274fcc5d6fba2ee58daf0d8c2b9b825b68d35d65d0e90a9bb333a51b5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "depend",
+      "src": "/audio/wordlists/ngsl-spoken/depend.mp3",
+      "text": "depend",
+      "textSha256": "d05c4354368a975e2d9ae05e59ecb91e20d3fd2de9378e8b06a59aab53570930"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "particularly",
+      "src": "/audio/wordlists/ngsl-spoken/particularly.mp3",
+      "text": "particularly",
+      "textSha256": "5c9473495c88cc1d825a98cf6aa82149e73b694c262c3a303dce9431a28cb56e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "study",
+      "src": "/audio/wordlists/ngsl-spoken/study.mp3",
+      "text": "study",
+      "textSha256": "0c87ed818fb90f3f88faa6b362cf1e99025f3c1248f8fe513cdb38d03d9dce65"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "tonight",
+      "src": "/audio/wordlists/ngsl-spoken/tonight.mp3",
+      "text": "tonight",
+      "textSha256": "2769fc20451b51737baa457ef96532b84370d3664150af08b3f310f30448921f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "everyone",
+      "src": "/audio/wordlists/ngsl-spoken/everyone.mp3",
+      "text": "everyone",
+      "textSha256": "5d67991ae967994c94b2e21a4d639c659d357a6fbd3fa743e4f6638a440d35c7"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "afternoon",
+      "src": "/audio/wordlists/ngsl-spoken/afternoon.mp3",
+      "text": "afternoon",
+      "textSha256": "c8e07c1ac268eae0661eb98fed3e0ea7516b43805af7c6473a83222c78209cad"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "notice",
+      "src": "/audio/wordlists/ngsl-spoken/notice.mp3",
+      "text": "notice",
+      "textSha256": "9368a7d21e018f64ae3327d2f25cd4d7693b2d85328e4bb680bcfcbd4c26b90e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "baby",
+      "src": "/audio/wordlists/ngsl-spoken/baby.mp3",
+      "text": "baby",
+      "textSha256": "a3ca38ef0e8554b39ce6fd34b011f9aa197cda1f17e2b08b1816142c4bc67199"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "chance",
+      "src": "/audio/wordlists/ngsl-spoken/chance.mp3",
+      "text": "chance",
+      "textSha256": "6cb09fe72a3471a776f9dbb8509fa5befe73e878f23dd71be79d24ec90c1b9db"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "standard",
+      "src": "/audio/wordlists/ngsl-spoken/standard.mp3",
+      "text": "standard",
+      "textSha256": "fe6d3468cf5c74d8ec2a95b40f2e05338c37a4202f8fad692d2b64a9cf9b468a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "especially",
+      "src": "/audio/wordlists/ngsl-spoken/especially.mp3",
+      "text": "especially",
+      "textSha256": "b109a53288ba6ef3ffa8f204d28c80e49e7253c3d3e2e99a789005a228fcf5c8"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "middle",
+      "src": "/audio/wordlists/ngsl-spoken/middle.mp3",
+      "text": "middle",
+      "textSha256": "a4888af4e46c129c695ee32775a8c233f113c82e7cd4e6fd3cbb1fda5659f36a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "press",
+      "src": "/audio/wordlists/ngsl-spoken/press.mp3",
+      "text": "press",
+      "textSha256": "842fcb5e60989a03d08ee07f9bea0a0a4a824d991fe8cc055f3a89e05c5c392e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "till",
+      "src": "/audio/wordlists/ngsl-spoken/till.mp3",
+      "text": "till",
+      "textSha256": "a64e98ff18a83009e15ef5bf714722bffd0a669d9c2700cf7ccd9ee625dc5733"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "million",
+      "src": "/audio/wordlists/ngsl-spoken/million.mp3",
+      "text": "million",
+      "textSha256": "c8ce96a5ba0d15da2f247baa360670438c5f6cb2115514d8992c2e8c7c8ea7c0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "seventy",
+      "src": "/audio/wordlists/ngsl-spoken/seventy.mp3",
+      "text": "seventy",
+      "textSha256": "ab0e4b1a7839571e0278fdb4c49d6ea632bc9df91968af197d539b2df976d4f9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "city",
+      "src": "/audio/wordlists/ngsl-spoken/city.mp3",
+      "text": "city",
+      "textSha256": "11a62c23412b77477a71481aa2dc7323bcc61d076c8449076c4c58a8356c1bb1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "realize",
+      "src": "/audio/wordlists/ngsl-spoken/realize.mp3",
+      "text": "realize",
+      "textSha256": "9f6eec7d586f63c4644e1512293d038bd57d66c8a3bdfcfc0a9c3c3a71d12515"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "score",
+      "src": "/audio/wordlists/ngsl-spoken/score.mp3",
+      "text": "score",
+      "textSha256": "a575b79868a2336db378ac89cb6c7d93272b4bb8e74d1096e8630765cf480ef5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "weekend",
+      "src": "/audio/wordlists/ngsl-spoken/weekend.mp3",
+      "text": "weekend",
+      "textSha256": "1197a20df1b4c87b10c868648eba70eac619e18ab6a6772e32bc9c701c315e41"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "black",
+      "src": "/audio/wordlists/ngsl-spoken/black.mp3",
+      "text": "black",
+      "textSha256": "c006c7e3ab14d686f63524136f1ec7c5e553d839bc01c851e4dc9de2bdbfc589"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "lead",
+      "src": "/audio/wordlists/ngsl-spoken/lead.mp3",
+      "text": "lead",
+      "textSha256": "e3456bc1f4d270f4a97933758645fdc21e39642b31ca343c1818f7972ac27906"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "result",
+      "src": "/audio/wordlists/ngsl-spoken/result.mp3",
+      "text": "result",
+      "textSha256": "f6a214f7a5fcda0c2cee9660b7fc29f5649e3c68aad48e20e950137c98913a68"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "fit",
+      "src": "/audio/wordlists/ngsl-spoken/fit.mp3",
+      "text": "fit",
+      "textSha256": "da4270e3735a3418c9d462af2e17d045132dede43df058e85b1f0399fcf96f1b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "staff",
+      "src": "/audio/wordlists/ngsl-spoken/staff.mp3",
+      "text": "staff",
+      "textSha256": "1562206543da764123c21bd524674f0a8aaf49c8a89744c97352fe677f7e4006"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "control",
+      "src": "/audio/wordlists/ngsl-spoken/control.mp3",
+      "text": "control",
+      "textSha256": "0fcd568a5cb9bdb4677b69354b11ee415af8f784519cff3da49a26f84eaee7f2"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "definitely",
+      "src": "/audio/wordlists/ngsl-spoken/definitely.mp3",
+      "text": "definitely",
+      "textSha256": "51da96a3fae43afc99f3de75bb287bb8a73f7c85a0c480dfb86ee5dc4b00f74c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "conversation",
+      "src": "/audio/wordlists/ngsl-spoken/conversation.mp3",
+      "text": "conversation",
+      "textSha256": "8b34dbc2c05eb4d7e25d48efeace82456b16cee760bcae80c157f52a3c2e787b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "further",
+      "src": "/audio/wordlists/ngsl-spoken/further.mp3",
+      "text": "further",
+      "textSha256": "a20d00f82196c319bac9a39efe2bb21ad3954f6e0d929ed97d23365ab9a78992"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "straight",
+      "src": "/audio/wordlists/ngsl-spoken/straight.mp3",
+      "text": "straight",
+      "textSha256": "2a424875a8475a99175f543fa6fc65964e53e87efc161f7b1f9e370efe6ddd16"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "free",
+      "src": "/audio/wordlists/ngsl-spoken/free.mp3",
+      "text": "free",
+      "textSha256": "ad95d5fa651ba86d8923fe1238d24a4f1988a752acfe426ac72ac7c04471bc17"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "shall",
+      "src": "/audio/wordlists/ngsl-spoken/shall.mp3",
+      "text": "shall",
+      "textSha256": "56ee5b508706bf2de91712d85d6d1e11ddbff01949142ed6e8c22e3b1bed1c71"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "develop",
+      "src": "/audio/wordlists/ngsl-spoken/develop.mp3",
+      "text": "develop",
+      "textSha256": "947726dd6318753268f3bfbe5e87ae2afe220db399c26e119c181a59227b0c60"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "college",
+      "src": "/audio/wordlists/ngsl-spoken/college.mp3",
+      "text": "college",
+      "textSha256": "776af9401679287d8d332e26e99062919d58a135f4ef5ba85d4ec981b50f58ae"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "opportunity",
+      "src": "/audio/wordlists/ngsl-spoken/opportunity.mp3",
+      "text": "opportunity",
+      "textSha256": "04b447783afe5bfd4b48e8db067137319526a98e029c37b2559154ceccc1067e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "near",
+      "src": "/audio/wordlists/ngsl-spoken/near.mp3",
+      "text": "near",
+      "textSha256": "46ba34770bccfde756708d47d83fb7c8257fe8a4b3a35f25d385a8284021f476"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "ought",
+      "src": "/audio/wordlists/ngsl-spoken/ought.mp3",
+      "text": "ought",
+      "textSha256": "15bd52797d7d181ee7f58e92b9a3b5be24a208f3a98918f9fe7591aff7b2781b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "per",
+      "src": "/audio/wordlists/ngsl-spoken/per.mp3",
+      "text": "per",
+      "textSha256": "b427c3dec9045990213ccc3dbffbdf189e75c7ce18e1a86ed7c4fe9a2db5d627"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "bear",
+      "src": "/audio/wordlists/ngsl-spoken/bear.mp3",
+      "text": "bear",
+      "textSha256": "bc98bb50e8094b2ac3ceb90ba2512587c0513cd294a07efcfdcf467198da6266"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "date",
+      "src": "/audio/wordlists/ngsl-spoken/date.mp3",
+      "text": "date",
+      "textSha256": "0e87632cd46bd4907c516317eb6d81fe0f921a23c7643018f21292894b470681"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "offer",
+      "src": "/audio/wordlists/ngsl-spoken/offer.mp3",
+      "text": "offer",
+      "textSha256": "988180bf0c9328c9e8bd082755c647048ae82481fd06799bad05f2e1a4e1339c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "grade",
+      "src": "/audio/wordlists/ngsl-spoken/grade.mp3",
+      "text": "grade",
+      "textSha256": "ffe97bba510b9f5cf1bb187bebb59cefa42a3f1654d2c993654382cd10468c2e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "toward",
+      "src": "/audio/wordlists/ngsl-spoken/toward.mp3",
+      "text": "toward",
+      "textSha256": "cc58a5f8986c71d49b82a90dbe15278e761bd0fb6a19854ce32e8fba83efa08c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "war",
+      "src": "/audio/wordlists/ngsl-spoken/war.mp3",
+      "text": "war",
+      "textSha256": "a2d8daa4281b886508f0abfe6e8f736e34f4dcaae4374e390ebf699f83d2b44f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "throw",
+      "src": "/audio/wordlists/ngsl-spoken/throw.mp3",
+      "text": "throw",
+      "textSha256": "7b0456581bef4cb1f0e2c9c52ab9a3d80989f8aabe74e609d3cc183c365363de"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "major",
+      "src": "/audio/wordlists/ngsl-spoken/major.mp3",
+      "text": "major",
+      "textSha256": "6558a6a3379db4f310398d1ddd7c8bb400a9e9a2e7aa22339247855fe400aff1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "charge",
+      "src": "/audio/wordlists/ngsl-spoken/charge.mp3",
+      "text": "charge",
+      "textSha256": "97488fbab3282166738a47c2f619037228568494475d4ac107c46c02678cb728"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "rate",
+      "src": "/audio/wordlists/ngsl-spoken/rate.mp3",
+      "text": "rate",
+      "textSha256": "c549779d79e5c8e9c9a6b6da5f1c5e21075eb9319852f858acb227ee855e4ef5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "individual",
+      "src": "/audio/wordlists/ngsl-spoken/individual.mp3",
+      "text": "individual",
+      "textSha256": "da15caaee9de1b0dc60aade31644ba5fa2faa3ebba81c9ec122c7d5e25de9d9a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "music",
+      "src": "/audio/wordlists/ngsl-spoken/music.mp3",
+      "text": "music",
+      "textSha256": "80f189984e5ca70287d13342f6daa0db45cba3c131c4e46dc81360f3a4c4f690"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "doctor",
+      "src": "/audio/wordlists/ngsl-spoken/doctor.mp3",
+      "text": "doctor",
+      "textSha256": "72f4be89d6ebab1496e21e38bcd7c8ca0a68928af3081ad7dff87e772eb350c2"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "husband",
+      "src": "/audio/wordlists/ngsl-spoken/husband.mp3",
+      "text": "husband",
+      "textSha256": "9fee8f88b93ae8b399f50073fe60d9c137216b0cd1176defafd6580328fa5ec9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "force",
+      "src": "/audio/wordlists/ngsl-spoken/force.mp3",
+      "text": "force",
+      "textSha256": "32500d7500ce0755c1a0f96ef86b10c3100f70f9ca6d8f4d3673d2925afc2151"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "load",
+      "src": "/audio/wordlists/ngsl-spoken/load.mp3",
+      "text": "load",
+      "textSha256": "0cf67fc72b3c86c7a454f6d86b43ed245a8e491d0e5288d4da8c7ff43a7bcdb0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "effect",
+      "src": "/audio/wordlists/ngsl-spoken/effect.mp3",
+      "text": "effect",
+      "textSha256": "dcb576426a17b7df13907007cb02a1f1dfc12fc6c69f603717abca59d03b888e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "wish",
+      "src": "/audio/wordlists/ngsl-spoken/wish.mp3",
+      "text": "wish",
+      "textSha256": "091e606752615c91da70540d9951464cd898f7c2a420fc7181b4f6793772e723"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "team",
+      "src": "/audio/wordlists/ngsl-spoken/team.mp3",
+      "text": "team",
+      "textSha256": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "eleven",
+      "src": "/audio/wordlists/ngsl-spoken/eleven.mp3",
+      "text": "eleven",
+      "textSha256": "e979074ebd5633a7263aa48c4b7dea055a769115fbc0a7de459f8a74cd2efd2b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "worth",
+      "src": "/audio/wordlists/ngsl-spoken/worth.mp3",
+      "text": "worth",
+      "textSha256": "c0a6eb55b12b7dfe01d9e55f4563eeefe13bd7ef7d7d576fdd8a9977d7a09f5d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "brief",
+      "src": "/audio/wordlists/ngsl-spoken/brief.mp3",
+      "text": "brief",
+      "textSha256": "29a8825bd242f14386ee528d76e0e8f1e38f3c8c4047d7b2d6df7493368a17d0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "law",
+      "src": "/audio/wordlists/ngsl-spoken/law.mp3",
+      "text": "law",
+      "textSha256": "8f1f74adf65864c86d3d471ea8ca9e329d4282489edc156c99604264090774bf"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "unless",
+      "src": "/audio/wordlists/ngsl-spoken/unless.mp3",
+      "text": "unless",
+      "textSha256": "c8a69f69754487458ba1b8ff473d119702d7e43925fae45475156780939bc606"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "future",
+      "src": "/audio/wordlists/ngsl-spoken/future.mp3",
+      "text": "future",
+      "textSha256": "ebb3de8a3d9a40366132eb5deb5af44e4c96c11696f8fc34ea2c1d8bd8399171"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "behind",
+      "src": "/audio/wordlists/ngsl-spoken/behind.mp3",
+      "text": "behind",
+      "textSha256": "b1b886ce5f5750a00ae3dd003702a16e4916e6830987e03094cbbf699cb0fae1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "site",
+      "src": "/audio/wordlists/ngsl-spoken/site.mp3",
+      "text": "site",
+      "textSha256": "fbae041b02c41ed0fd8a4efb039bc780dd6af4a1f0c420f42561ae705dda43fe"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "white",
+      "src": "/audio/wordlists/ngsl-spoken/white.mp3",
+      "text": "white",
+      "textSha256": "018fa96a44715c90bf93be148069cb28dd45d398f2cc75aa1565311f6e55d174"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "special",
+      "src": "/audio/wordlists/ngsl-spoken/special.mp3",
+      "text": "special",
+      "textSha256": "7d4c5c8894e016e772e9b7acab04d2b775ad4e7861d162ca5a48de7a7151a6a2"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "main",
+      "src": "/audio/wordlists/ngsl-spoken/main.mp3",
+      "text": "main",
+      "textSha256": "0d6e4079e36703ebd37c00722f5891d28b0e2811dc114b129215123adcce3605"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "trouble",
+      "src": "/audio/wordlists/ngsl-spoken/trouble.mp3",
+      "text": "trouble",
+      "textSha256": "7130df43355ec25b38bac55351d4bdf2c965da2847b8824b5e7760adb7ef7cd1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "project",
+      "src": "/audio/wordlists/ngsl-spoken/project.mp3",
+      "text": "project",
+      "textSha256": "244210e48437b6556980a70249a99369934a352429034cef9d7bd253b3bf2c01"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "father",
+      "src": "/audio/wordlists/ngsl-spoken/father.mp3",
+      "text": "father",
+      "textSha256": "88a1881f0025cf7117501d07aefc5d4be6696656790d765678df8bc48ca52687"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "quality",
+      "src": "/audio/wordlists/ngsl-spoken/quality.mp3",
+      "text": "quality",
+      "textSha256": "acef2c15bcd349db900dffece73e1256e881c4416fc1f2d3a494640183490d9a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "themselves",
+      "src": "/audio/wordlists/ngsl-spoken/themselves.mp3",
+      "text": "themselves",
+      "textSha256": "42ea40f608ce244fb08c838a14db4dc48bf0c1bf14fec7e2603ceb8a003f4bb8"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sleep",
+      "src": "/audio/wordlists/ngsl-spoken/sleep.mp3",
+      "text": "sleep",
+      "textSha256": "0afa5bb5d5f1787945e555e91474675beb6f34dd9a490423c4d0460e4d454885"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "share",
+      "src": "/audio/wordlists/ngsl-spoken/share.mp3",
+      "text": "share",
+      "textSha256": "c3bc45ac352fe43ff8f0a1cc26d6cc29f71f536dc417906f8513ea44ed4bb161"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "available",
+      "src": "/audio/wordlists/ngsl-spoken/available.mp3",
+      "text": "available",
+      "textSha256": "ddd9818abacfde7afed60c93129175401439367a77e69ea93e0ddb3bb38e0bd9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "hit",
+      "src": "/audio/wordlists/ngsl-spoken/hit.mp3",
+      "text": "hit",
+      "textSha256": "63d04dee7c50f6fb120287649c32b5e32d4e8e4fc90a9083adc98f9baac63691"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "fair",
+      "src": "/audio/wordlists/ngsl-spoken/fair.mp3",
+      "text": "fair",
+      "textSha256": "1869c9d2a11e8ecde889aa06a811403308c819ea0a4289c50b90eb1d812c1338"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "news",
+      "src": "/audio/wordlists/ngsl-spoken/news.mp3",
+      "text": "news",
+      "textSha256": "19fba0e995b9794fc2c26217bf3b725c2f0d9eeda16719fe75e3ba23ca73bfc4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "bottom",
+      "src": "/audio/wordlists/ngsl-spoken/bottom.mp3",
+      "text": "bottom",
+      "textSha256": "be9b7607e070383c083b082c9c32d5509931bf9b297caf90bfdb7a692424c158"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "strong",
+      "src": "/audio/wordlists/ngsl-spoken/strong.mp3",
+      "text": "strong",
+      "textSha256": "eda15ce4834ac303532bc6973df5ff8a5deb75d7dfceb9fc2cdf1bb450a01cf5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "note",
+      "src": "/audio/wordlists/ngsl-spoken/note.mp3",
+      "text": "note",
+      "textSha256": "edb465624291e4053c6c5ea4b7eb320dec773e10a57d26b95dcf0564f8e310f8"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "step",
+      "src": "/audio/wordlists/ngsl-spoken/step.mp3",
+      "text": "step",
+      "textSha256": "3e64cc41cf8e07b43936d7bc4eaf8bdb8e2abcec1f44c7b915ac0a0c27ebc41a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "subject",
+      "src": "/audio/wordlists/ngsl-spoken/subject.mp3",
+      "text": "subject",
+      "textSha256": "a9491f4c1bf7b0cffbadcba2db8f028e4b3f2867cb59e1f3a0bc1968f3c51242"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "clean",
+      "src": "/audio/wordlists/ngsl-spoken/clean.mp3",
+      "text": "clean",
+      "textSha256": "3b066804f6d1d077173cfe4d06002e6a61e6f21c2b2e648417962115f1afcd8e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "wife",
+      "src": "/audio/wordlists/ngsl-spoken/wife.mp3",
+      "text": "wife",
+      "textSha256": "9d52a3c8e4d6e27de4ad74ec621583de1630551e875f6cb6abfd8157517e7b72"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "machine",
+      "src": "/audio/wordlists/ngsl-spoken/machine.mp3",
+      "text": "machine",
+      "textSha256": "bc020a35b7f9cb1382e7b534c68e3c531d849b119bf14f75ddead6cc45c3ccc1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "cool",
+      "src": "/audio/wordlists/ngsl-spoken/cool.mp3",
+      "text": "cool",
+      "textSha256": "c34045c1a1db8d1b3fca8a692198466952daae07eaf6104b4c87ed3b55b6af1b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "drop",
+      "src": "/audio/wordlists/ngsl-spoken/drop.mp3",
+      "text": "drop",
+      "textSha256": "d90ee9ccf6bea1d2942a7b21319338198dec2a746f8a0d0771621f00da2e0864"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "land",
+      "src": "/audio/wordlists/ngsl-spoken/land.mp3",
+      "text": "land",
+      "textSha256": "90eae63487cae2df5b793b07c622680d2df6c9a024891c8a9bd98d08d5bc3d92"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "period",
+      "src": "/audio/wordlists/ngsl-spoken/period.mp3",
+      "text": "period",
+      "textSha256": "514cb13f603464f97849ba88d2d4f9698003a9323de9b7a3d162ef76f6998122"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "bother",
+      "src": "/audio/wordlists/ngsl-spoken/bother.mp3",
+      "text": "bother",
+      "textSha256": "56568d25931009bd526de599fa8be63eb2f3b9df624ac7f3c48ccf1d57f9e0b2"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "development",
+      "src": "/audio/wordlists/ngsl-spoken/development.mp3",
+      "text": "development",
+      "textSha256": "875b9380866e9d56e7110b0ee310962c16d9d4ae103f829d62bdffd2cbe7c61d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "detail",
+      "src": "/audio/wordlists/ngsl-spoken/detail.mp3",
+      "text": "detail",
+      "textSha256": "9c0211c51d04574fdaee6d51f53f41952570b0bf68a7219aaae01ce00fa6b8dd"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "marry",
+      "src": "/audio/wordlists/ngsl-spoken/marry.mp3",
+      "text": "marry",
+      "textSha256": "4d84f13234092bdc60e2e87f889336302ba66920f6364523803f2fb0b63de205"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "power",
+      "src": "/audio/wordlists/ngsl-spoken/power.mp3",
+      "text": "power",
+      "textSha256": "07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "tax",
+      "src": "/audio/wordlists/ngsl-spoken/tax.mp3",
+      "text": "tax",
+      "textSha256": "1ffc0406b9891fcd265a225e83a668fa045f1282588f80c8d11c029bad156d85"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "benefit",
+      "src": "/audio/wordlists/ngsl-spoken/benefit.mp3",
+      "text": "benefit",
+      "textSha256": "e97469619c0d7aa7bf4747aafb43756214b46900f77fb96c86ea161a590743f0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "cold",
+      "src": "/audio/wordlists/ngsl-spoken/cold.mp3",
+      "text": "cold",
+      "textSha256": "e272deecde720ffc773d7a6a81adabbc366ccbb64da5abdb6b26f52cd3f952cb"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "imagine",
+      "src": "/audio/wordlists/ngsl-spoken/imagine.mp3",
+      "text": "imagine",
+      "textSha256": "7fdd65bbaaa687d48dc85a26a6dd7ef17fa379994fd8f3b26e19fe36976aeadf"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "vote",
+      "src": "/audio/wordlists/ngsl-spoken/vote.mp3",
+      "text": "vote",
+      "textSha256": "ab274474a6aa82c100dddca63977facb556f66f489fb558c044a456f9ba919ce"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "hang",
+      "src": "/audio/wordlists/ngsl-spoken/hang.mp3",
+      "text": "hang",
+      "textSha256": "e3ccbe1f95156325c612c031c18c66e0acae229edafa3e27aabb202486614043"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "education",
+      "src": "/audio/wordlists/ngsl-spoken/education.mp3",
+      "text": "education",
+      "textSha256": "68bf0109c6f8a87bfa96d1ecd9503326ba35cf4a6086988a1d2c8a20fbef00d1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "anyone",
+      "src": "/audio/wordlists/ngsl-spoken/anyone.mp3",
+      "text": "anyone",
+      "textSha256": "12ed8d14a55fdb4701ee8219f10fcf2785914f1865b27ff495a31b9f41ced203"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "national",
+      "src": "/audio/wordlists/ngsl-spoken/national.mp3",
+      "text": "national",
+      "textSha256": "400464e9e99bb03f0cd9732892d2547ac65073c5d32667c1d5e6639895b6bd6a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "fire",
+      "src": "/audio/wordlists/ngsl-spoken/fire.mp3",
+      "text": "fire",
+      "textSha256": "dc9f28b12dd1818ee42ffc92ecb940386214598837348d30d3c6c0b7b57e34c9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "council",
+      "src": "/audio/wordlists/ngsl-spoken/council.mp3",
+      "text": "council",
+      "textSha256": "a0c7ec73f6d7f2b4f3e6de3769d290d4f877ff97bad08b675f9abd0c8ee97dff"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "instead",
+      "src": "/audio/wordlists/ngsl-spoken/instead.mp3",
+      "text": "instead",
+      "textSha256": "99262a0284ae7670f20fbfe4f87e8d7befdb5bc3431c5ea08dbd84d7206cf395"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "bill",
+      "src": "/audio/wordlists/ngsl-spoken/bill.mp3",
+      "text": "bill",
+      "textSha256": "623210167553939c87ed8c5f2bfe0b3e0684e12c3a3dd2513613c4e67263b5a1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "catch",
+      "src": "/audio/wordlists/ngsl-spoken/catch.mp3",
+      "text": "catch",
+      "textSha256": "9f925cdc4feedda4d9ae06f2e1b476680f4781ac2e0fb95fcc819be70328453d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "tend",
+      "src": "/audio/wordlists/ngsl-spoken/tend.mp3",
+      "text": "tend",
+      "textSha256": "4f0a1f5aef53e953cc28e5086b98eca5d40c8820325fce6a33f34b22c84bbefd"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "account",
+      "src": "/audio/wordlists/ngsl-spoken/account.mp3",
+      "text": "account",
+      "textSha256": "9af211329b2fc82e5efe906062c730082819b23fe8394bc435e0b1bf0458eb54"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "statement",
+      "src": "/audio/wordlists/ngsl-spoken/statement.mp3",
+      "text": "statement",
+      "textSha256": "b111c6e1d318f203063e5c16bab43c108326af0aa2f7b65760c95547a43dbe52"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "board",
+      "src": "/audio/wordlists/ngsl-spoken/board.mp3",
+      "text": "board",
+      "textSha256": "859169b38185780daa5497983ff20d2994390058d8a71f2847ac7846f970971e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "summer",
+      "src": "/audio/wordlists/ngsl-spoken/summer.mp3",
+      "text": "summer",
+      "textSha256": "e83664255c6963e962bb20f9fcfaad1b570ddf5da69f5444ed37e5260f3ef689"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "text",
+      "src": "/audio/wordlists/ngsl-spoken/text.mp3",
+      "text": "text",
+      "textSha256": "982d9e3eb996f559e633f4d194def3761d909f5a3b647d1a851fead67c32c9d1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "brother",
+      "src": "/audio/wordlists/ngsl-spoken/brother.mp3",
+      "text": "brother",
+      "textSha256": "0b4bd77cec705cf5df016344c0fc673fb3c2240078e6af572b2c5c6fa76114af"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "fairly",
+      "src": "/audio/wordlists/ngsl-spoken/fairly.mp3",
+      "text": "fairly",
+      "textSha256": "cdbb10488cec6e73211393e711e04d81aafc60fdd3abf43929192c568bf0c405"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "holiday",
+      "src": "/audio/wordlists/ngsl-spoken/holiday.mp3",
+      "text": "holiday",
+      "textSha256": "81c16d337a1b73144ebf20b45661f2b02aa0b22e886a978d6b2ec929cdaaee9e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "dinner",
+      "src": "/audio/wordlists/ngsl-spoken/dinner.mp3",
+      "text": "dinner",
+      "textSha256": "dda209044ad44962b012ececcc2cb2f7efd35c72d22465586e294b6493bc21c1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "fund",
+      "src": "/audio/wordlists/ngsl-spoken/fund.mp3",
+      "text": "fund",
+      "textSha256": "639f78fb7729d09dc6066a6dd81997572d2413c50b703edd5b378166b5466b2d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sister",
+      "src": "/audio/wordlists/ngsl-spoken/sister.mp3",
+      "text": "sister",
+      "textSha256": "1980d3927f07fec9c8d727f187ddde727da7e45247dbb71c7555e5ae0eca66d5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "noise",
+      "src": "/audio/wordlists/ngsl-spoken/noise.mp3",
+      "text": "noise",
+      "textSha256": "efe2a5c09e6d49d7eb735c9875f77404be5b887bb3f56378038968d4e3ff8198"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "push",
+      "src": "/audio/wordlists/ngsl-spoken/push.mp3",
+      "text": "push",
+      "textSha256": "d107ea3629c326718876f07356a48dea26f123742f8bf44ce75f8f805cf9a37d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "accept",
+      "src": "/audio/wordlists/ngsl-spoken/accept.mp3",
+      "text": "accept",
+      "textSha256": "c125d0397b605657bc89340953f5f2897a7e00a9b7d3474fa53720c8ccbbb3e3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "police",
+      "src": "/audio/wordlists/ngsl-spoken/police.mp3",
+      "text": "police",
+      "textSha256": "1366fac71146793a85e98a88ad9bb15adb9aac31da8ac6d73e67059bd5a467a9"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "kill",
+      "src": "/audio/wordlists/ngsl-spoken/kill.mp3",
+      "text": "kill",
+      "textSha256": "2bda9b4dfbabfdb17cd74d827768da5198ae2b8155002a494524bbeaf6f5cdba"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "travel",
+      "src": "/audio/wordlists/ngsl-spoken/travel.mp3",
+      "text": "travel",
+      "textSha256": "0209442e115ad7bc79fd281d91423a86b619e3c711fe574b7cc198d2e3c461c4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "explain",
+      "src": "/audio/wordlists/ngsl-spoken/explain.mp3",
+      "text": "explain",
+      "textSha256": "0818ab2593f5cb6c2daa8ffdd20578aae920bb1ed1f3feecf0cdf09a8b1e1213"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "movie",
+      "src": "/audio/wordlists/ngsl-spoken/movie.mp3",
+      "text": "movie",
+      "textSha256": "8a6ba32c9bed6ce703f999f9af6ec23686d44e144e4da572d94c8daca4a9cbab"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "hair",
+      "src": "/audio/wordlists/ngsl-spoken/hair.mp3",
+      "text": "hair",
+      "textSha256": "4dc2159bba05da394c3b94c6f54354db1f1f43b321ac4bbdfc2f658237858c70"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "specific",
+      "src": "/audio/wordlists/ngsl-spoken/specific.mp3",
+      "text": "specific",
+      "textSha256": "54b759dba2ded0937372b57006091a1ed2f0de474dd6ad7904a411daa715844b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "tea",
+      "src": "/audio/wordlists/ngsl-spoken/tea.mp3",
+      "text": "tea",
+      "textSha256": "a9f74d1ec36ebdeb2da3f6e5868090cd2a2d20b3dcca7b62f60304b1d3d9ef42"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "hate",
+      "src": "/audio/wordlists/ngsl-spoken/hate.mp3",
+      "text": "hate",
+      "textSha256": "f2e9a23ac36c4b227b16387b4e0d37793e9459f3912942069981886d5bffe90e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "center",
+      "src": "/audio/wordlists/ngsl-spoken/center.mp3",
+      "text": "center",
+      "textSha256": "f179a509d32bd92c923f236324daef85551c03a761bf0188be286a585281b4ac"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "degree",
+      "src": "/audio/wordlists/ngsl-spoken/degree.mp3",
+      "text": "degree",
+      "textSha256": "b308a7f43bba8e7a366b727432ab89f76b3608937163b6b4e517ac9d3a5f0b3e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "choose",
+      "src": "/audio/wordlists/ngsl-spoken/choose.mp3",
+      "text": "choose",
+      "textSha256": "725fed9d1ae909982052ec4fe91a5a140158b4349498c7ef020ed32d6f8a370d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "research",
+      "src": "/audio/wordlists/ngsl-spoken/research.mp3",
+      "text": "research",
+      "textSha256": "66f62d1807d3821a3865f2573b69c74be033f1341240ac861fefc6d430bff5e0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "body",
+      "src": "/audio/wordlists/ngsl-spoken/body.mp3",
+      "text": "body",
+      "textSha256": "230d8358dc8e8890b4c58deeb62912ee2f20357ae92a5cc861b98e68fe31acb5"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "rule",
+      "src": "/audio/wordlists/ngsl-spoken/rule.mp3",
+      "text": "rule",
+      "textSha256": "7369949b47ef2c6ba26fbbee659cedc76123a75c17d321a52d8d1ef35e948042"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "produce",
+      "src": "/audio/wordlists/ngsl-spoken/produce.mp3",
+      "text": "produce",
+      "textSha256": "1198780b3af7203cac87d6f443ab13bcfdb9635ea6393e7ee30193f671df5093"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "size",
+      "src": "/audio/wordlists/ngsl-spoken/size.mp3",
+      "text": "size",
+      "textSha256": "ccdcbe846f3da4eb044fbdf64bf6b57902388ab72fb0c852ba72280f8d478b40"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "ahead",
+      "src": "/audio/wordlists/ngsl-spoken/ahead.mp3",
+      "text": "ahead",
+      "textSha256": "d0b4034c6ca7ee87f65ccb76f6c7a8ca0c5559db19314e525b3b906b57f301aa"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "fill",
+      "src": "/audio/wordlists/ngsl-spoken/fill.mp3",
+      "text": "fill",
+      "textSha256": "dcd32479a72e55b29a03a586d8a483a05be0ce87cc5c25c7bad23079fc0356b3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "extra",
+      "src": "/audio/wordlists/ngsl-spoken/extra.mp3",
+      "text": "extra",
+      "textSha256": "c8dee78f8c7b466c881847accc196998bad00e2b96c5ef913dfbe454d3807c96"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "value",
+      "src": "/audio/wordlists/ngsl-spoken/value.mp3",
+      "text": "value",
+      "textSha256": "cd42404d52ad55ccfa9aca4adc828aa5800ad9d385a0671fbcbf724118320619"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "bag",
+      "src": "/audio/wordlists/ngsl-spoken/bag.mp3",
+      "text": "bag",
+      "textSha256": "c018019b6a8b01ab5868cf4be8db327a7549ae03202548b9ffcd2671c4c2b624"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "stage",
+      "src": "/audio/wordlists/ngsl-spoken/stage.mp3",
+      "text": "stage",
+      "textSha256": "c7ff6dcd94d7161eff5da0585684a8d16fb00090c0f38336d31950819e2f2003"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "eye",
+      "src": "/audio/wordlists/ngsl-spoken/eye.mp3",
+      "text": "eye",
+      "textSha256": "47c215b5f70eb9c9b4bcb2c027007d6cf38a899f40d1d1da6922e49308b15b69"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "window",
+      "src": "/audio/wordlists/ngsl-spoken/window.mp3",
+      "text": "window",
+      "textSha256": "44ff7b02c80d38b26dd6aa31d9470aed81b32e10331a3c994fb1a9945fd847ba"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "park",
+      "src": "/audio/wordlists/ngsl-spoken/park.mp3",
+      "text": "park",
+      "textSha256": "4d3971de62245c94cd3dd8d4d3a72b8ff527d902832eedc8529a9717a969f1d1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "hot",
+      "src": "/audio/wordlists/ngsl-spoken/hot.mp3",
+      "text": "hot",
+      "textSha256": "7f5d1618e7d28cc7bf32788672be04c24877d9a8911f65fef8e3e013c9cbc373"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "document",
+      "src": "/audio/wordlists/ngsl-spoken/document.mp3",
+      "text": "document",
+      "textSha256": "43cc23fa52b87b4cc1d02b5b114154151d6adddb17c9fddc06b027fa99e24008"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "relate",
+      "src": "/audio/wordlists/ngsl-spoken/relate.mp3",
+      "text": "relate",
+      "textSha256": "e78618f499c47e470b9d02977f1cb2f2c38927f88a788d5d1b27ad59795b6836"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "evening",
+      "src": "/audio/wordlists/ngsl-spoken/evening.mp3",
+      "text": "evening",
+      "textSha256": "e5bd0801d10e5965354604c20443ddf47fdfc375115151277a525467ad4816a3"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "itself",
+      "src": "/audio/wordlists/ngsl-spoken/itself.mp3",
+      "text": "itself",
+      "textSha256": "5a41ac42ee7e1b07e44b0166fac711fa507652ec7eb631ce1f45d7ea20a4bab4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "several",
+      "src": "/audio/wordlists/ngsl-spoken/several.mp3",
+      "text": "several",
+      "textSha256": "2740e59ffb8c5eff0e0f8f3f4f5e6522fda77d9882c878346a751b9b60129cfd"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "product",
+      "src": "/audio/wordlists/ngsl-spoken/product.mp3",
+      "text": "product",
+      "textSha256": "a8792157cb4f27fb949c035f45518c61e884bb86e6f420204379c2baa8beb66e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "wonderful",
+      "src": "/audio/wordlists/ngsl-spoken/wonderful.mp3",
+      "text": "wonderful",
+      "textSha256": "ee04228c5c6d8b083f6ce93fb7d7dbe487e04a96b29d13f627b01f9ad53dd3a4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "relationship",
+      "src": "/audio/wordlists/ngsl-spoken/relationship.mp3",
+      "text": "relationship",
+      "textSha256": "28d9e7bbbf81137ec80d8e02241329c02d7f629960e3afd7379d4e3855d7d662"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "floor",
+      "src": "/audio/wordlists/ngsl-spoken/floor.mp3",
+      "text": "floor",
+      "textSha256": "a3e1f4935b0919b346c2caf4da18078a1ebaf6451eb7f7b5dc79c11629b6368c"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "hospital",
+      "src": "/audio/wordlists/ngsl-spoken/hospital.mp3",
+      "text": "hospital",
+      "textSha256": "8afe3c83decffdf6dc48597a3f1a52be7c6e2b97b4bdf3b15e20a87a1f657f01"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "plus",
+      "src": "/audio/wordlists/ngsl-spoken/plus.mp3",
+      "text": "plus",
+      "textSha256": "383ef36928344f56ffe8fe23ceed2ad8c0db8ec222c5f56c47163747dc738a0e"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "quick",
+      "src": "/audio/wordlists/ngsl-spoken/quick.mp3",
+      "text": "quick",
+      "textSha256": "22c72aa82ce77c82e2ca65a711c79eaa4b51c57f85f91489ceeacc7b385943ba"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "lady",
+      "src": "/audio/wordlists/ngsl-spoken/lady.mp3",
+      "text": "lady",
+      "textSha256": "49547872a664dd8e63283cdd747e9682229880a9111aaaa9a397c0458bbb0ae6"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "mile",
+      "src": "/audio/wordlists/ngsl-spoken/mile.mp3",
+      "text": "mile",
+      "textSha256": "9fede2030631728fc75fbfdad738ac45acc4af0f2a3e86ef6da556b8b8185d86"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "aware",
+      "src": "/audio/wordlists/ngsl-spoken/aware.mp3",
+      "text": "aware",
+      "textSha256": "8bf9fd4be091a1baa7d3947484c1b90a1ce69f0df2facb671c8658ea9f4704d8"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "contact",
+      "src": "/audio/wordlists/ngsl-spoken/contact.mp3",
+      "text": "contact",
+      "textSha256": "093e7d5fdbaacfa92448861b11075b3fba532a07d945b49a44919252f5e830ad"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "single",
+      "src": "/audio/wordlists/ngsl-spoken/single.mp3",
+      "text": "single",
+      "textSha256": "947f187506f7629c81c81879a2cb2256455038e4ac770091d897fa0a8b945e3b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "copy",
+      "src": "/audio/wordlists/ngsl-spoken/copy.mp3",
+      "text": "copy",
+      "textSha256": "6f5a6034e770acbfb3f797e6a7eb7948d470d45f9928f92b7d72dc7c45e6d0cd"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "effort",
+      "src": "/audio/wordlists/ngsl-spoken/effort.mp3",
+      "text": "effort",
+      "textSha256": "a4f12c3895258d0b6e32d9a4d692057c8cfcd5f8efc97dbdf7cefe1c46382b89"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "review",
+      "src": "/audio/wordlists/ngsl-spoken/review.mp3",
+      "text": "review",
+      "textSha256": "c97ace4c8fef2cee8fa0f3c9f52aab18dbd4f42438afe362ffb8f75ce4c04b84"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "trade",
+      "src": "/audio/wordlists/ngsl-spoken/trade.mp3",
+      "text": "trade",
+      "textSha256": "276446ba01e3aa387c83b06f54fccc5ac65bdc6099157a2a828716eac9c6fd4d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "sale",
+      "src": "/audio/wordlists/ngsl-spoken/sale.mp3",
+      "text": "sale",
+      "textSha256": "1f7101fe71011ba0872a2e069e8f26c98d6af9ebf8e67bb0c1a559fa9569aa6b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "totally",
+      "src": "/audio/wordlists/ngsl-spoken/totally.mp3",
+      "text": "totally",
+      "textSha256": "4d013e1cdcf526b9d750c871dd65c5b78175196faff88c0b2ad262a2a30f364f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "therefore",
+      "src": "/audio/wordlists/ngsl-spoken/therefore.mp3",
+      "text": "therefore",
+      "textSha256": "bae0db182974fd4655951483355ed85f4ea949b601bbb33524485915c124a5d1"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "air",
+      "src": "/audio/wordlists/ngsl-spoken/air.mp3",
+      "text": "air",
+      "textSha256": "9fe430e5274621be518924ed90d2355f39eeb1d4d98fb00ea0022f3a26ba5595"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "church",
+      "src": "/audio/wordlists/ngsl-spoken/church.mp3",
+      "text": "church",
+      "textSha256": "badb8f127e03a5f5c6357214c2f7d5ed81dac20bb0db6a72da03a88cb0a6ad4d"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "visit",
+      "src": "/audio/wordlists/ngsl-spoken/visit.mp3",
+      "text": "visit",
+      "textSha256": "f0e68ac26df2184062ae2a945cd0b5e58466d75d6858359b7127776e9710a364"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "awful",
+      "src": "/audio/wordlists/ngsl-spoken/awful.mp3",
+      "text": "awful",
+      "textSha256": "87e1315329cf22c9ce1432d1626cbbb1f8e2798faf0494040d7c4616ba9ea854"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "action",
+      "src": "/audio/wordlists/ngsl-spoken/action.mp3",
+      "text": "action",
+      "textSha256": "bd938c688f49b77c7fc537c6b9222e2c97ebddd63076b87f2feaec66fb9c05d0"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "completely",
+      "src": "/audio/wordlists/ngsl-spoken/completely.mp3",
+      "text": "completely",
+      "textSha256": "cb8980f55d85f5297d34ea645051332ac00feac333fbc371334f894670330823"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "affect",
+      "src": "/audio/wordlists/ngsl-spoken/affect.mp3",
+      "text": "affect",
+      "textSha256": "8528058461899c6b3e793385cf6afea68d9a9dfded030e4cb842a8bdee979c28"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "cheap",
+      "src": "/audio/wordlists/ngsl-spoken/cheap.mp3",
+      "text": "cheap",
+      "textSha256": "c6f556046e0c00469fe2824aa5fb9fd02c66d154aafc80fdc0f365841c271e12"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "receive",
+      "src": "/audio/wordlists/ngsl-spoken/receive.mp3",
+      "text": "receive",
+      "textSha256": "95100519be0342216c9c23348de6ab31630e6bd1c5c0b5b95e03f15c6b52a00b"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "require",
+      "src": "/audio/wordlists/ngsl-spoken/require.mp3",
+      "text": "require",
+      "textSha256": "c4d0cf241a1bfa1c8bf4cf24e8f89d2ab786a284a39adb2fc8df7ea14e73c154"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "street",
+      "src": "/audio/wordlists/ngsl-spoken/street.mp3",
+      "text": "street",
+      "textSha256": "6008c26f4452392acb19374bc12a5ec0c360ae17356bce8b786fb128c8720951"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "red",
+      "src": "/audio/wordlists/ngsl-spoken/red.mp3",
+      "text": "red",
+      "textSha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "focus",
+      "src": "/audio/wordlists/ngsl-spoken/focus.mp3",
+      "text": "focus",
+      "textSha256": "c51faa148557a08cbf790156578b7a82b41f22dd01227f7dde057e34c18a365f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "surprise",
+      "src": "/audio/wordlists/ngsl-spoken/surprise.mp3",
+      "text": "surprise",
+      "textSha256": "0832c0adf05418144b7b5f01e14600782ba7a302a606b49e3bf26214b765c176"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "apply",
+      "src": "/audio/wordlists/ngsl-spoken/apply.mp3",
+      "text": "apply",
+      "textSha256": "97a5e41b45ddd2b2381046e77ccfa5c45d3553b81b66aeba7ed5c460c660f93f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "correct",
+      "src": "/audio/wordlists/ngsl-spoken/correct.mp3",
+      "text": "correct",
+      "textSha256": "15a596e3c98c407e043751ff3b21ff0358a1bdfdf3fe948b1523893a8e5de2e8"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "various",
+      "src": "/audio/wordlists/ngsl-spoken/various.mp3",
+      "text": "various",
+      "textSha256": "1d35a94841cbfca1795472e9050f2270c882844226ae842f267e2edc7a114899"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "bet",
+      "src": "/audio/wordlists/ngsl-spoken/bet.mp3",
+      "text": "bet",
+      "textSha256": "0ae467cc10e077a17e83f500d7fd946343aa4d475db7bf45b6283bec00675e1a"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "normally",
+      "src": "/audio/wordlists/ngsl-spoken/normally.mp3",
+      "text": "normally",
+      "textSha256": "f885b8a1b99b6c431845cc7c0fea6611fea99065e034ffa8cdc41ebddd0002d2"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "purpose",
+      "src": "/audio/wordlists/ngsl-spoken/purpose.mp3",
+      "text": "purpose",
+      "textSha256": "81b06df4303e6581efecfa2830bf76c30a9d32a3e4892eac2fe43b7487d3ae2f"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "bus",
+      "src": "/audio/wordlists/ngsl-spoken/bus.mp3",
+      "text": "bus",
+      "textSha256": "04e027e4990a203f4899f7e87c2d5ff6b9019e9565795619a59ce06c099560d4"
+    },
+    {
+      "wordListId": "ngsl-spoken",
+      "entryId": "create",
+      "src": "/audio/wordlists/ngsl-spoken/create.mp3",
+      "text": "create",
+      "textSha256": "fa8847b0c33183273f5945508b31c3208a9e4ece58ca47233a05628d8dba3799"
+    }
+  ]
+}
