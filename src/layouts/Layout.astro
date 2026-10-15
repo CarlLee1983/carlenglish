@@ -1,13 +1,15 @@
 ---
 import '../styles/global.css';
 import { learningLevels, type LearningLevel } from '../lib/catalog';
-import { canonicalUrl, defaultSocialImage, serializeJsonLd, siteDescription, type SocialImage } from '../lib/seo';
+import { loadWordListSummaries } from '../lib/wordlists';
+import { canonicalUrl, defaultSocialImage, serializeJsonForScript, serializeJsonLd, siteDescription, type SocialImage } from '../lib/seo';
 interface Props {
   title: string; description?: string; currentLevel?: LearningLevel['id']; isReader?: boolean;
   noindex?: boolean; isNotFound?: boolean; shareImage?: SocialImage; structuredData?: Record<string, unknown>[];
 }
 const { title, description = siteDescription, currentLevel, isReader = false, noindex = false,
   isNotFound = false, shareImage = defaultSocialImage, structuredData = [] } = Astro.props;
+const wordListSummaries = loadWordListSummaries();
 const pageTitle = `${title} | CarlEnglish`;
 const canonical = isNotFound ? undefined : canonicalUrl(Astro.url.pathname, Astro.site);
 const imageUrl = new URL(shareImage.src, Astro.site).href;
@@ -24,6 +26,7 @@ const imageUrl = new URL(shareImage.src, Astro.site).href;
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" sizes="any" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
+    <link rel="manifest" href="/manifest.webmanifest" />
     <meta property="og:site_name" content="CarlEnglish" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="zh_TW" />
@@ -55,9 +58,12 @@ const imageUrl = new URL(shareImage.src, Astro.site).href;
           {learningLevels.map((level) => <a href={`/levels/${level.id}/`} aria-current={currentLevel === level.id ? (isReader ? 'location' : 'page') : undefined}>{level.name}</a>)}
         </nav>
         <a class="header-link" href="/#articles" aria-current={Astro.url.pathname.startsWith('/articles/') ? 'location' : undefined}>新聞與貼文</a>
+        <a class="header-link review-link" href="/review/" aria-current={Astro.url.pathname.startsWith('/review/') ? 'page' : undefined} data-review-nav>複習<span class="review-badge" data-review-badge aria-hidden="true" hidden></span></a>
       </div>
     </header>
     <main id="main"><slot /></main>
+    <script type="application/json" data-wordlist-summaries set:html={serializeJsonForScript(wordListSummaries)} />
+    <script>import '../scripts/review-nav';</script>
     <footer class="site-footer"><span>CarlEnglish</span><p>看懂情境，練習日常英文。</p><a href="/">選擇學習程度 <span aria-hidden="true">↗</span></a></footer>
   </body>
 </html>

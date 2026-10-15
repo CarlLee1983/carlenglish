@@ -1,0 +1,113 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { attributionText, wordListUrl } from '../../lib/wordlist-data';
+import { loadWordListsOnce } from '../../lib/wordlists';
+
+const wordLists = loadWordListsOnce();
+---
+<Layout title="複習" description="複習你從場景重點單字、文章關鍵詞加入的字卡，或訂閱詞表發出的新字卡。" noindex>
+  <section class="page-shell review-page" data-review-root>
+    <header class="review-heading">
+      <p class="eyebrow">字卡複習</p>
+      <h1>複習</h1>
+      <p class="review-summary" data-review-summary role="status" aria-live="polite" aria-atomic="true"></p>
+    </header>
+    <section class="review-message review-reminder" data-review-reminder aria-label="備份提醒" hidden>
+      <p data-reminder-text role="status"></p>
+      <button type="button" class="review-button" data-reminder-export>立即匯出</button>
+    </section>
+    <section class="review-message review-hint" data-review-hint aria-label="加到主畫面" hidden>
+      <h2>加到主畫面，紀錄更安全</h2>
+      <p>iPhone 的瀏覽器若一段時間沒開過本站，可能會清除複習紀錄；加到主畫面的 App 不受這個限制。但主畫面 App 和瀏覽器的紀錄是分開的，加入時不會自動帶過去，請照下面的順序搬家：</p>
+      <ol class="review-hint-steps">
+        <li>
+          先匯出備份。
+          <button type="button" class="review-button" data-hint-export hidden>先匯出備份</button>
+        </li>
+        <li>用瀏覽器的分享選單選「加入主畫面」（Safari 要先點「⋯」再點「分享」）。</li>
+        <li>從主畫面打開本站，到複習頁匯入備份。</li>
+      </ol>
+      <p>搬完之後，請在主畫面 App 裡閱讀和加入字卡。</p>
+      <button type="button" class="review-button" data-hint-dismiss aria-label="關閉說明">關閉</button>
+    </section>
+    <noscript><p class="review-message">複習功能需要啟用 JavaScript；場景與文章仍可正常閱讀。</p></noscript>
+    <p class="review-message review-error" data-review-error role="alert" hidden></p>
+    <p class="review-message review-warning" data-review-warning role="status" hidden></p>
+    <div class="review-message" data-review-empty hidden>
+      <h2>還沒有字卡</h2>
+      <p>到任一篇<a href="/">場景</a>的「重點單字」或文章的「關鍵詞」，按詞旁的「加入複習」，那個詞就會出現在這裡；也可以在下方訂閱一份詞表，讓它每天發出新字卡。</p>
+      <p data-review-standalone-hint hidden>從瀏覽器搬過來？在這裡匯入備份。</p>
+    </div>
+    <div class="review-message" data-review-done hidden>
+      <h2 data-review-done-title></h2>
+      <p data-review-done-detail></p>
+      <p data-review-later></p>
+    </div>
+    <article class="review-card" data-review-card hidden>
+      <p class="review-front" lang="en" data-review-front></p>
+      <button type="button" class="review-button review-flip" data-review-flip aria-label="翻面">翻面 <span class="key-hint" aria-hidden="true">空白鍵</span></button>
+      <div class="review-back" data-review-back tabindex="-1" hidden>
+        <p class="review-meaning" data-review-meaning></p>
+        <p class="review-example" lang="en" data-review-example></p>
+        <button type="button" class="review-button review-audio" data-review-audio aria-label="播放單字發音" hidden>播放發音</button>
+        <p class="review-audio-error" data-review-audio-error role="status" hidden>這個瀏覽器無法播放音檔。</p>
+        <ul class="review-sources" data-review-sources></ul>
+        <div class="review-grades">
+          <button type="button" class="review-button review-again" data-review-grade="again" aria-label="忘記了">忘記了 <span class="key-hint" aria-hidden="true">1</span></button>
+          <button type="button" class="review-button review-good" data-review-grade="good" aria-label="想起來了">想起來了 <span class="key-hint" aria-hidden="true">2</span></button>
+        </div>
+      </div>
+    </article>
+    <section class="review-settings" data-review-settings aria-labelledby="settings-title" hidden>
+      <h2 id="settings-title">設定</h2>
+      <div class="review-backup-row">
+        <label for="daily-new-limit">每天新卡上限</label>
+        <input id="daily-new-limit" class="review-number-input" type="number" inputmode="numeric" min="1" max="50" step="1" data-review-limit />
+        <span class="review-backup-hint">1–50 張；超過的字卡會順延到之後幾天。</span>
+      </div>
+    </section>
+    <section class="review-wordlists" data-review-wordlists aria-labelledby="wordlists-title" hidden>
+      <h2 id="wordlists-title">詞表</h2>
+      <p class="section-hint">訂閱後，詞表每天依詞頻從最常用的字開始發出新字卡，和手動加入的字卡共用每天新卡上限（手動加入的優先）。取消訂閱不會刪除已經發出的字卡。</p>
+      <p class="review-message review-error" data-review-wordlist-error role="alert" hidden></p>
+      <ul class="review-wordlist-items">
+        {wordLists.map((list) => (
+          <li class="review-wordlist" data-wordlist data-wordlist-id={list.id} data-wordlist-name={list.name} data-wordlist-url={wordListUrl(list.id)} data-wordlist-attribution={attributionText(list)}>
+            <h3>{list.name}</h3>
+            <p>{list.description}</p>
+            <p class="review-backup-hint">共 {list.entries.length} 字</p>
+            <p class="review-backup-hint" data-wordlist-progress role="status" hidden></p>
+            <p class="review-backup-hint">
+              出處：<a href={list.source.url} rel="noopener noreferrer">{list.source.name}</a>（{list.source.authors}），依 <a href={list.license.url} rel="noopener noreferrer">{list.license.name}</a> 授權。{list.source.adaptation}
+            </p>
+            <button type="button" class="review-button" data-wordlist-toggle aria-label={`訂閱 ${list.name}`}>訂閱</button>
+          </li>
+        ))}
+      </ul>
+    </section>
+    <p class="review-result" data-review-result role="status" aria-live="polite"></p>
+    <section class="review-backup" data-review-backup aria-labelledby="backup-title" hidden>
+      <h2 id="backup-title">備份</h2>
+      <p class="section-hint">複習紀錄只存在這個瀏覽器。匯出備份檔可以自己保存，也能在另一台裝置匯入繼續複習。</p>
+      <div class="review-backup-row">
+        <button type="button" class="review-button" data-backup-export>匯出備份</button>
+        <span class="review-backup-hint" data-backup-export-hint></span>
+      </div>
+      <div class="review-backup-row">
+        <label for="backup-file">匯入備份</label>
+        <input id="backup-file" class="review-file-input" type="file" accept="application/json,.json" data-backup-file />
+      </div>
+      <div class="review-message" data-backup-confirm hidden>
+        <p data-backup-confirm-text></p>
+        <div class="review-grades">
+          <button type="button" class="review-button review-good" data-backup-replace>取代</button>
+          <button type="button" class="review-button" data-backup-cancel>取消</button>
+        </div>
+      </div>
+      <p class="review-backup-status" data-backup-status role="status" aria-live="polite"></p>
+    </section>
+  </section>
+  <script>import '../../scripts/review';</script>
+  <script>import '../../scripts/review-backup';</script>
+  <script>import '../../scripts/review-protect';</script>
+</Layout>

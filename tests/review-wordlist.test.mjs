@@ -1,0 +1,316 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import test from 'node:test';
+import { parseBackup, serializeBackup } from '../src/lib/review-backup-format.ts';
+import { reduce } from '../src/lib/review-deck.ts';
+import { cardKey, emptyState, issuedCardCount, remainingNewSlots, reviewCounts, todayQueue } from '../src/lib/review-state.ts';
+import { loadWordLists, toWordListData } from '../src/lib/wordlists.ts';
+import { remainingWords, summarizeWordList, unissuedFromLists, unissuedWordCount } from '../src/lib/wordlist-data.ts';
+
+// 詞表訂閱：訂閱／取消、依詞頻發新卡、與手動字卡共用每日上限、與既有字卡去重。
+
+const now = new Date(2026, 9, 14, 9, 0, 0);
+const nextMorning = new Date(2026, 9, 15, 8, 0, 0);
+const exportTime = new Date(2026, 9, 20, 18, 30, 0);
+const minutes = (count) => count * 60_000;
+const sceneSource = { kind: 'scene', id: 'cafe-breakfast', title: '咖啡店早餐', href: '/scenes/cafe-breakfast/' };
+
+const makeList = (id, count, prefix = id) => ({
+  id, name: `詞表 ${id}`, description: '測試詞表',
+  source: { name: 'Sample 1.0', authors: 'Example, A.', url: 'https://example.org/', adaptation: '改作說明' },
+  license: { name: 'CC BY-SA 4.0', url: 'https://creativecommons.org/licenses/by-sa/4.0/' },
+  entries: Array.from({ length: count }, (_, index) => ({
+    id: `${prefix}${index + 1}`, rank: index + 1, english: `${prefix}${index + 1}`, meaning: `意思${prefix}${index + 1}`,
+    example: `Example ${prefix}${index + 1}.`, audioSrc: `/audio/wordlists/${id}/${prefix}${index + 1}.mp3`,
+  })),
+});
+const listSource = (id) => ({ kind: 'wordlist', id, title: `詞表 ${id}`, href: '/review/' });
+const subscribe = (state, wordListId, at = now) => reduce(state, { type: 'SUBSCRIBE', wordListId, now: at });
+const issue = (state, wordLists, at = now) => reduce(state, { type: 'ISSUE_NEW_CARDS', wordLists, now: at });
+const wordsOf = (count) => Array.from({ length: count }, (_, index) => ({ english: `word${index}`, meaning: `字${index}`, example: null, audioSrc: null }));
+const addAll = (state, words, at) => words.reduce((acc, card) => reduce(acc, { type: 'ADD_CARD', card, source: sceneSource, now: at }), state);
+const englishOf = (queue) => queue.map((card) => card.content.english);
+const wordlistA = makeList('list-a', 25, 'a');
+
+test('subscribing records the list once, and unsubscribing removes it', () => {
+  const state = subscribe(emptyState(), 'list-a');
+  assert.deepEqual(state.subscriptions, [{ wordListId: 'list-a', subscribedAt: now.toISOString(), issuedThrough: 0 }]);
+  assert.equal(subscribe(state, 'list-a', new Date(now.getTime() + minutes(5))), state);
+  assert.equal(subscribe(state, 'list-b').subscriptions.length, 2);
+  assert.deepEqual(reduce(state, { type: 'UNSUBSCRIBE', wordListId: 'list-a' }).subscriptions, []);
+  assert.equal(reduce(state, { type: 'UNSUBSCRIBE', wordListId: 'nope' }), state);
+});
+
+test('a subscription issues the list in frequency order, up to the daily limit, as cards that carry the list as their source', () => {
+  const state = issue(subscribe(emptyState(), 'list-a'), [wordlistA]);
+  assert.deepEqual(englishOf(todayQueue(state, now)), wordlistA.entries.slice(0, 10).map((entry) => entry.english));
+  const first = state.cards[0];
+  assert.deepEqual(first.content, { english: 'a1', meaning: '意思a1', example: 'Example a1.', audioSrc: '/audio/wordlists/list-a/a1.mp3' });
+  assert.deepEqual(first.sources, [listSource('list-a')]);
+  assert.equal(first.firstReviewedAt, null);
+  assert.deepEqual(state.subscriptions[0], { wordListId: 'list-a', subscribedAt: now.toISOString(), issuedThrough: 10 });
+  assert.equal(issuedCardCount(state, 'list-a'), 10);
+});
+
+test('issuing again the same day changes nothing, even after cards are reviewed', () => {
+  let state = issue(subscribe(emptyState(), 'list-a'), [wordlistA]);
+  assert.equal(issue(state, [wordlistA]), state);
+  for (const card of state.cards.slice(0, 4)) state = reduce(state, { type: 'GRADE', cardKey: card.key, grade: 'good', now });
+  assert.equal(issue(state, [wordlistA]), state);
+  assert.equal(state.cards.length, 10);
+});
+
+test('the next day issues only as many as the allowance minus the new cards still waiting', () => {
+  let state = reduce(subscribe(emptyState(), 'list-a'), { type: 'SET_DAILY_NEW_LIMIT', limit: 4 });
+  state = issue(state, [wordlistA]);
+  for (const card of state.cards.slice(0, 3)) state = reduce(state, { type: 'GRADE', cardKey: card.key, grade: 'good', now });
+  // 昨天學了 3 張，還有 1 張新卡沒學：今天額度 4，已有 1 張在等，補 3 張。
+  const next = issue(state, [wordlistA], nextMorning);
+  assert.deepEqual(next.cards.map((card) => card.content.english), ['a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7']);
+  assert.equal(next.subscriptions[0].issuedThrough, 7);
+  // 新卡沒學完，同一天再發也不會多出來。
+  assert.equal(issue(next, [wordlistA], new Date(nextMorning.getTime() + minutes(30))), next);
+});
+
+test('new cards the learner has not started pile up no further: nothing more is issued while the allowance is already waiting', () => {
+  const state = issue(subscribe(emptyState(), 'list-a'), [wordlistA]);
+  assert.equal(issue(state, [wordlistA], nextMorning), state);
+  assert.equal(state.cards.length, 10);
+});
+
+test('manual cards take the day\'s new-card slots first, and the list fills the rest', () => {
+  const state = issue(subscribe(addAll(emptyState(), wordsOf(3), now), 'list-a'), [wordlistA]);
+  assert.deepEqual(englishOf(todayQueue(state, now)), ['word0', 'word1', 'word2', 'a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7']);
+  assert.equal(issuedCardCount(state, 'list-a'), 7);
+});
+
+test('a manual card added after list cards were issued still comes before them', () => {
+  let state = issue(subscribe(emptyState(), 'list-a'), [wordlistA]);
+  state = addAll(state, wordsOf(1), now);
+  const queue = englishOf(todayQueue(state, now));
+  assert.equal(queue.length, 10);
+  assert.deepEqual(queue.slice(0, 3), ['word0', 'a1', 'a2']);
+  assert.equal(queue.includes('a10'), false);
+});
+
+test('a list card that is also added by hand keeps both sources and counts as a manual card', () => {
+  let state = issue(subscribe(emptyState(), 'list-a'), [wordlistA]);
+  state = reduce(state, { type: 'ADD_CARD', card: state.cards[9].content, source: sceneSource, now });
+  const queue = todayQueue(state, now);
+  assert.equal(queue[0].content.english, 'a10');
+  assert.deepEqual(queue[0].sources, [listSource('list-a'), sceneSource]);
+  assert.equal(state.cards.length, 10);
+});
+
+test('several subscriptions share one daily limit and take turns in subscription order', () => {
+  const wordlistB = makeList('list-b', 25, 'b');
+  let state = reduce(emptyState(), { type: 'SET_DAILY_NEW_LIMIT', limit: 5 });
+  state = subscribe(subscribe(state, 'list-a'), 'list-b');
+  state = issue(state, [wordlistB, wordlistA]);
+  assert.deepEqual(state.cards.map((card) => card.content.english), ['a1', 'b1', 'a2', 'b2', 'a3']);
+  assert.deepEqual(state.subscriptions.map((entry) => [entry.wordListId, entry.issuedThrough]), [['list-a', 3], ['list-b', 2]]);
+});
+
+test('manual cards that fill the limit leave no slot for any list', () => {
+  let state = reduce(addAll(emptyState(), wordsOf(5), now), { type: 'SET_DAILY_NEW_LIMIT', limit: 5 });
+  state = issue(subscribe(subscribe(state, 'list-a'), 'list-b'), [wordlistA, makeList('list-b', 3, 'b')]);
+  assert.equal(state.cards.length, 5);
+  assert.deepEqual(state.subscriptions.map((entry) => entry.issuedThrough), [0, 0]);
+});
+
+test('a list entry that is already a card is skipped without using a slot, whatever its review state', () => {
+  const list = makeList('list-a', 6, 'a');
+  let state = reduce(emptyState(), { type: 'SET_DAILY_NEW_LIMIT', limit: 3 });
+  const reviewed = { english: 'A2', meaning: ' 意思a2 ', example: null, audioSrc: null };
+  const waiting = { english: 'a3', meaning: '意思a3', example: null, audioSrc: null };
+  state = addAll(state, [reviewed, waiting], now);
+  state = reduce(state, { type: 'GRADE', cardKey: cardKey(reviewed), grade: 'good', now });
+  state = issue(subscribe(state, 'list-a'), [list]);
+  // 額度 3：a2 已學過（今天用掉 1 個），a3 在等（占 1 個），剩 1 個給 a1；a2、a3 被跳過。
+  assert.deepEqual(state.cards.map((card) => card.content.english).sort(), ['A2', 'a1', 'a3']);
+  assert.deepEqual(state.subscriptions[0], { wordListId: 'list-a', subscribedAt: now.toISOString(), issuedThrough: 1 });
+  assert.equal(issuedCardCount(state, 'list-a'), 1);
+  // 隔天 a1 還沒學：額度 3、等待 2 張（a1、a3），只補 1 張；a2、a3 已是字卡，跳過不占額度。
+  const nextDay = issue(state, [list], nextMorning);
+  assert.deepEqual(nextDay.subscriptions[0], { wordListId: 'list-a', subscribedAt: now.toISOString(), issuedThrough: 4 });
+  assert.equal(issuedCardCount(nextDay, 'list-a'), 2);
+  assert.equal(nextDay.cards.filter((card) => card.sources.some((source) => source.kind === 'wordlist')).length, 2);
+});
+
+test('the same English word with another meaning is a different card and is issued', () => {
+  const list = makeList('list-a', 2, 'a');
+  list.entries[0] = { ...list.entries[0], english: 'issue', meaning: '發行' };
+  const state = issue(subscribe(addAll(emptyState(), [{ english: 'issue', meaning: '議題', example: null, audioSrc: null }], now), 'list-a'), [list]);
+  assert.deepEqual(state.cards.map((card) => card.content.meaning), ['議題', '發行', '意思a2']);
+});
+
+test('a finished list stops issuing, and a subscribed list that is not provided is left alone', () => {
+  const short = makeList('list-a', 2, 'a');
+  const state = issue(subscribe(emptyState(), 'list-a'), [short]);
+  assert.equal(state.cards.length, 2);
+  assert.equal(state.subscriptions[0].issuedThrough, 2);
+  assert.equal(issue(state, [short], nextMorning), state);
+  const missing = subscribe(emptyState(), 'list-gone');
+  assert.equal(issue(missing, [short]), missing);
+  const none = emptyState();
+  assert.equal(issue(none, [short]), none);
+});
+
+test('unsubscribing keeps the cards already issued and stops further issuing', () => {
+  let state = issue(subscribe(emptyState(), 'list-a'), [wordlistA]);
+  state = reduce(state, { type: 'UNSUBSCRIBE', wordListId: 'list-a' });
+  assert.equal(state.cards.length, 10);
+  assert.deepEqual(state.subscriptions, []);
+  assert.equal(issue(state, [wordlistA], nextMorning), state);
+  assert.equal(todayQueue(state, now).length, 10);
+});
+
+test('issuing never mutates its inputs', () => {
+  const state = subscribe(addAll(emptyState(), wordsOf(2), now), 'list-a');
+  const before = JSON.stringify(state);
+  const list = JSON.stringify(wordlistA);
+  issue(state, [wordlistA]);
+  assert.equal(JSON.stringify(state), before);
+  assert.equal(JSON.stringify(wordlistA), list);
+});
+
+test('counts include the list cards that opening the review page would hand out today, within the daily limit', () => {
+  const none = emptyState();
+  assert.equal(reviewCounts(none, now, 0).due, 0);
+  assert.deepEqual([reviewCounts(none, now, 4).due, reviewCounts(none, now, 4).newCards], [4, 4]);
+  assert.equal(reviewCounts(none, now, 40).due, 10);
+  const manual = addAll(emptyState(), wordsOf(3), now);
+  assert.equal(reviewCounts(manual, now, 40).due, 10);
+  assert.equal(reviewCounts(addAll(emptyState(), wordsOf(12), now), now, 40).due, 10);
+  // 今天已學 2 張新卡：額度剩 8。
+  let started = reduce(addAll(emptyState(), wordsOf(2), now), { type: 'GRADE', cardKey: cardKey(wordsOf(2)[0]), grade: 'good', now });
+  started = reduce(started, { type: 'GRADE', cardKey: cardKey(wordsOf(2)[1]), grade: 'good', now });
+  const later = new Date(now.getTime() + minutes(11));
+  assert.equal(reviewCounts(started, later, 40).newCards, 8);
+});
+
+test('the counts before and after the list cards are actually handed out agree', () => {
+  for (const [subscribed, limit] of [[0, 10], [3, 10], [8, 5], [12, 10]]) {
+    let state = reduce(addAll(emptyState(), wordsOf(subscribed), now), { type: 'SET_DAILY_NEW_LIMIT', limit });
+    state = subscribe(state, 'list-a');
+    const before = reviewCounts(state, now, unissuedFromLists(state.subscriptions, [summarizeWordList(wordlistA)]));
+    const issued = issue(state, [wordlistA]);
+    const after = reviewCounts(issued, now, unissuedFromLists(issued.subscriptions, [summarizeWordList(wordlistA)]));
+    assert.deepEqual([before.due, before.newCards, before.tomorrow], [after.due, after.newCards, after.tomorrow], `${subscribed} manual, limit ${limit}`);
+  }
+});
+
+test('tomorrow\'s count includes list cards that will be issued, up to the limit left after carried-over cards', () => {
+  const state = addAll(emptyState(), wordsOf(13), now);
+  assert.equal(reviewCounts(state, now, 0).tomorrow, 3);
+  assert.equal(reviewCounts(state, now, 40).tomorrow, 10);
+  // 空的狀態：今天發 4 張，明天沒有剩的詞。
+  assert.equal(reviewCounts(emptyState(), now, 4).tomorrow, 0);
+  assert.equal(reviewCounts(emptyState(), now, 40).tomorrow, 10);
+  assert.equal(reviewCounts(emptyState(), now, 0).tomorrow, 0);
+});
+
+test('the issued count is derived from the cards that carry the list as a source, so it survives unsubscribing and subscribing again', () => {
+  let state = issue(subscribe(emptyState(), 'list-a'), [wordlistA]);
+  assert.equal(issuedCardCount(state, 'list-a'), 10);
+  assert.equal(issuedCardCount(state, 'list-b'), 0);
+  state = reduce(reduce(state, { type: 'UNSUBSCRIBE', wordListId: 'list-a' }), { type: 'SUBSCRIBE', wordListId: 'list-a', now });
+  assert.equal(issuedCardCount(state, 'list-a'), 10);
+  // 手動也加入同一張卡：仍然算詞表發出的。
+  const merged = reduce(state, { type: 'ADD_CARD', card: state.cards[0].content, source: sceneSource, now });
+  assert.equal(issuedCardCount(merged, 'list-a'), 10);
+});
+
+test('a list summary gives the last rank and the excluded ranks below it, which is enough to count the words left', () => {
+  const list = { ...makeList('list-a', 6), excluded: [{ rank: 2 }, { rank: 99 }] };
+  list.entries = list.entries.map((entry, index) => ({ ...entry, rank: [1, 3, 4, 5, 6, 7][index] }));
+  const summary = summarizeWordList(list);
+  assert.deepEqual(summary, { id: 'list-a', lastRank: 7, excludedRanks: [2] });
+  assert.equal(remainingWords(summary, 0), 6);
+  assert.equal(remainingWords(summary, 1), 5);
+  assert.equal(remainingWords(summary, 2), 5);
+  assert.equal(remainingWords(summary, 6), 1);
+  assert.equal(remainingWords(summary, 7), 0);
+  assert.equal(remainingWords(summary, 50), 0);
+  const subscriptions = [{ wordListId: 'list-a', issuedThrough: 3 }, { wordListId: 'unknown', issuedThrough: 0 }];
+  assert.equal(unissuedFromLists(subscriptions, [summary]), 4);
+});
+
+test('the list progress counts words not yet issued and not already cards, so issued plus remaining never exceeds the list after resubscribing', () => {
+  let state = issue(subscribe(emptyState(), 'list-a'), [wordlistA]);
+  const progress = (current) => {
+    const subscription = current.subscriptions[0];
+    return [issuedCardCount(current, 'list-a'), unissuedWordCount(wordlistA, subscription, current.cards)];
+  };
+  assert.deepEqual(progress(state), [10, 15]);
+  // 取消再重新訂閱：issuedThrough 歸零，但前 10 個詞已是字卡，不能再算進剩餘。
+  state = subscribe(reduce(state, { type: 'UNSUBSCRIBE', wordListId: 'list-a' }), 'list-a');
+  assert.equal(state.subscriptions[0].issuedThrough, 0);
+  const [issuedCount, remaining] = progress(state);
+  assert.deepEqual([issuedCount, remaining], [10, 15]);
+  assert.ok(issuedCount + remaining <= wordlistA.entries.length);
+  // 手動加入的字卡若剛好是詞表裡的詞，也不算剩餘。
+  const manual = reduce(state, { type: 'ADD_CARD', card: { english: 'a20', meaning: '意思a20', example: null, audioSrc: null }, source: sceneSource, now });
+  assert.equal(unissuedWordCount(wordlistA, manual.subscriptions[0], manual.cards), 14);
+});
+
+test('remainingNewSlots is the daily allowance minus the new cards already waiting', () => {
+  assert.equal(remainingNewSlots(emptyState(), now), 10);
+  assert.equal(remainingNewSlots(addAll(emptyState(), wordsOf(4), now), now), 6);
+  assert.equal(remainingNewSlots(addAll(emptyState(), wordsOf(14), now), now), 0);
+});
+
+test('subscriptions and issued cards survive a backup round trip', () => {
+  let state = issue(subscribe(subscribe(emptyState(), 'list-a'), 'list-b'), [wordlistA, makeList('list-b', 3, 'b')]);
+  state = reduce(state, { type: 'GRADE', cardKey: state.cards[0].key, grade: 'good', now });
+  const parsed = parseBackup(serializeBackup(state, exportTime));
+  assert.equal(parsed.ok, true);
+  assert.deepEqual({ ...parsed.state, lastExportedAt: null }, state);
+  assert.deepEqual(parsed.state.subscriptions, state.subscriptions);
+});
+
+test('a backup with a malformed subscription is rejected', () => {
+  const base = JSON.parse(serializeBackup(subscribe(emptyState(), 'list-a'), exportTime));
+  const good = base.state.subscriptions[0];
+  const withSubscriptions = (subscriptions) => JSON.stringify({ ...base, state: { ...base.state, subscriptions } });
+  assert.equal(parseBackup(withSubscriptions([good])).ok, true);
+  const rejected = {
+    'missing id': { ...good, wordListId: undefined },
+    'blank id': { ...good, wordListId: '' },
+    'bad date': { ...good, subscribedAt: 'yesterday' },
+    'negative position': { ...good, issuedThrough: -1 },
+    'fractional position': { ...good, issuedThrough: 1.5 },
+    'text position': { ...good, issuedThrough: '3' },
+    'stored issued count (it is derived from the cards)': { ...good, issuedCount: 0 },
+    'extra field': { ...good, extra: 1 },
+  };
+  for (const [name, entry] of Object.entries(rejected)) assert.equal(parseBackup(withSubscriptions([entry])).ok, false, name);
+  assert.equal(parseBackup(withSubscriptions([good, good])).ok, false, 'duplicate list');
+  assert.equal(parseBackup(withSubscriptions('list-a')).ok, false, 'not an array');
+});
+
+test('a wordlist card source passes the backup source checks', () => {
+  const state = issue(subscribe(emptyState(), 'list-a'), [wordlistA]);
+  const file = JSON.parse(serializeBackup(state, exportTime));
+  const evil = { ...file, state: { ...file.state, cards: [{ ...file.state.cards[0], sources: [{ ...listSource('list-a'), href: '//evil.example' }] }] } };
+  assert.equal(parseBackup(JSON.stringify(evil)).ok, false);
+});
+
+test('a TSL word whose English and meaning match a scene card the learner already has is not issued again', () => {
+  const tsl = toWordListData(loadWordLists().find((candidate) => candidate.id === 'tsl'));
+  const scene = JSON.parse(readFileSync(join(process.cwd(), 'content/scenes/weekend-plans.json'), 'utf8'));
+  const bicycle = scene.words.find((word) => word.english === 'bicycle');
+  const owned = { english: bicycle.english, meaning: bicycle.translation, example: bicycle.example, audioSrc: null };
+  assert.equal(cardKey(owned), cardKey(tsl.entries.find((entry) => entry.english === 'bicycle')), 'the TSL entry must reuse the scene meaning');
+  const limited = reduce(emptyState(), { type: 'SET_DAILY_NEW_LIMIT', limit: 50 });
+  const state = issue(subscribe(reduce(limited, { type: 'ADD_CARD', card: owned, source: sceneSource, now }), 'tsl'), [tsl]);
+  const keys = state.cards.map((card) => card.key);
+  assert.equal(new Set(keys).size, keys.length);
+  const bicycleCards = state.cards.filter((card) => card.content.english === 'bicycle');
+  assert.equal(bicycleCards.length, 1);
+  assert.deepEqual(bicycleCards[0].sources.map((source) => source.kind), ['scene']);
+  // 額度 50 已被等待中的場景字卡占 1 個：TSL 前 50 個排名裡扣掉 bicycle，剛好發出 49 張。
+  assert.equal(issuedCardCount(state, 'tsl'), 49);
+  assert.equal(state.subscriptions[0].issuedThrough, 50);
+});
