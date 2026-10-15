@@ -1,0 +1,354 @@
+{
+  "id": "rearranging-a-booking",
+  "title": "有條件地更改預約",
+  "titleEn": "Rearranging a Booking",
+  "category": "消費與服務",
+  "level": "中級至中高級",
+  "image": {
+    "src": "/images/scenes/rearranging-a-booking.webp",
+    "alt": "Owen 在家中拿著電話、查看行事曆，與陶藝工作室的櫃檯人員討論更改兩人的課程預約。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "could-we-move",
+      "english": "Could we move",
+      "translation": "可以把……改到",
+      "audio": {
+        "src": "/audio/phrases/rearranging-a-booking-could-we-move.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ac5394f1531ca20df3434c464e11287ed3079c66a37bb2ad32777292da381f4b",
+        "sha256": "365eb91f4c774370513a8d5a21a34c5744924276c23b207642966841f95b3b00"
+      }
+    },
+    {
+      "id": "if-there-is-no-extra-charge",
+      "english": "If there is no extra charge",
+      "translation": "如果不需要額外付費",
+      "audio": {
+        "src": "/audio/phrases/rearranging-a-booking-if-there-is-no-extra-charge.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "be2cab7eca0d6d44d81d7676f987de23f72b43d28b1c39b581c6fbd1d9d10f05",
+        "sha256": "089bd35672d7b565a2caf4fc0c3009040175a7e5a05e0d4e9885bec77827789b"
+      }
+    },
+    {
+      "id": "the-price-stays-the-same",
+      "english": "The price stays the same",
+      "translation": "價格不變",
+      "audio": {
+        "src": "/audio/phrases/rearranging-a-booking-the-price-stays-the-same.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "74ae70b8caaf61e9a82820f9ed2bdfd0e820e7892e2df1f493fffc7fa152aaf0",
+        "sha256": "653d85253eaf25759bb6b5133be50acc1fa4b21c0a12073bf9a38646677683ae"
+      }
+    },
+    {
+      "id": "depends-on",
+      "english": "depends on",
+      "translation": "取決於；須以……為條件",
+      "audio": {
+        "src": "/audio/phrases/rearranging-a-booking-depends-on.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a768d802046ef647b76893940f449fa5fd3fdacb9525a35a539b3027226820f9",
+        "sha256": "adfe1df543655a0a916e1dd0595099a9aebd203e87efc09c1ea17ef31fb485a0"
+      }
+    },
+    {
+      "id": "could-you-keep",
+      "english": "Could you keep",
+      "translation": "可以請你保留……嗎",
+      "audio": {
+        "src": "/audio/phrases/rearranging-a-booking-could-you-keep.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b55c2aadcf83a211eee988ab4fc7a5a47b0e18c08c995ec7916581d6f8e7f66c",
+        "sha256": "e56db817de4a0ddf856ce5fda08bfe6d523a59db8530ad810b9e8c134ea35739"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "booking",
+      "english": "booking",
+      "translation": "預約",
+      "example": "Our booking is for two people.",
+      "audio": {
+        "src": "/audio/words/rearranging-a-booking-booking.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "001d057c49888db925f47ba4f0cbb75edf527893381dc5a27d7a965c766508c4",
+        "sha256": "fdfb5a6c1d9d069dd15682853c4736ccc610772ba736bb41e1630db621edb4ac"
+      }
+    },
+    {
+      "id": "session",
+      "english": "session",
+      "translation": "一節課；一個活動時段",
+      "example": "The morning session starts at ten.",
+      "audio": {
+        "src": "/audio/words/rearranging-a-booking-session.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3f3af1ecebbd1410ab417ec0d27bbfcb5d340e177ae159b59fc8626c2dfd9175",
+        "sha256": "313b3f95b20efb7921ec3c046151ca524db90905afb490961594c8db5553d674"
+      }
+    },
+    {
+      "id": "receptionist",
+      "english": "receptionist",
+      "translation": "櫃檯接待人員",
+      "example": "The receptionist answered my question.",
+      "audio": {
+        "src": "/audio/words/rearranging-a-booking-receptionist.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c3bca14c650063bb88e5a82f757c11defaf4ea06c18368c9c9b70c5d77933dd3",
+        "sha256": "7fe1f4e7543e33b3f9b7b7defa88ecadf3ef303de2d1c58afc6252abe6d01083"
+      }
+    },
+    {
+      "id": "charge",
+      "english": "charge",
+      "translation": "費用",
+      "example": "Is there an extra charge for materials?",
+      "audio": {
+        "src": "/audio/words/rearranging-a-booking-charge.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "97488fbab3282166738a47c2f619037228568494475d4ac107c46c02678cb728",
+        "sha256": "806082ae3d59b200accc8cb21e4eb22997b027652e63bf3f61380f2f1275ba14"
+      }
+    },
+    {
+      "id": "availability",
+      "english": "availability",
+      "translation": "是否有空位；可用情況",
+      "example": "Please check availability before changing your plans.",
+      "audio": {
+        "src": "/audio/words/rearranging-a-booking-availability.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f95dac581e9b439c58abf51a6c8c091f8e0aac8c0fb06f0cbca10fc8ac361330",
+        "sha256": "ff0fe7742d68e345c0f9952c021dbd4d61eb185f5381341bf70cfa431148939a"
+      }
+    },
+    {
+      "id": "original",
+      "english": "original",
+      "translation": "原來的；原先的",
+      "example": "Please keep the original date for now.",
+      "audio": {
+        "src": "/audio/words/rearranging-a-booking-original.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0682c5f2076f099c34cfdd15a9e063849ed437a49677e6fcc5b4198c76575be5",
+        "sha256": "c7a9e7abb0df9068cd170556702ba061de12042ae3c8aa01dad1ea412c0cbf92"
+      }
+    },
+    {
+      "id": "confirmation",
+      "english": "confirmation",
+      "translation": "確認",
+      "example": "We are waiting for confirmation of the new time.",
+      "audio": {
+        "src": "/audio/words/rearranging-a-booking-confirmation.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "93cdccc66f8c7f8e670f513593663b243eb1e219766844ba75472272e01a2d6f",
+        "sha256": "cb6cebe6d421bb1760b48836f5b5503c2e403fcfc3844ee842f657586a8aa21f"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Owen calls a pottery studio to move a "
+        },
+        {
+          "text": "booking",
+          "wordIds": [
+            "booking"
+          ]
+        },
+        {
+          "text": " for two people from Saturday to Sunday."
+        }
+      ],
+      "translation": "Owen 打電話到陶藝工作室，想把兩個人的預約從週六改到週日。"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Could we move",
+          "phraseIds": [
+            "could-we-move"
+          ]
+        },
+        {
+          "text": " our "
+        },
+        {
+          "text": "session",
+          "wordIds": [
+            "session"
+          ]
+        },
+        {
+          "text": " to the afternoon?” he asks."
+        }
+      ],
+      "translation": "他問：「可以把我們的課程改到下午嗎？」"
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "receptionist",
+          "wordIds": [
+            "receptionist"
+          ]
+        },
+        {
+          "text": " says the afternoon is full, but two places are available at ten in the morning."
+        }
+      ],
+      "translation": "櫃檯人員說下午已經額滿，不過上午十點還有兩個名額。"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "If there is no extra ",
+          "phraseIds": [
+            "if-there-is-no-extra-charge"
+          ]
+        },
+        {
+          "text": "charge",
+          "phraseIds": [
+            "if-there-is-no-extra-charge"
+          ],
+          "wordIds": [
+            "charge"
+          ]
+        },
+        {
+          "text": ", we could take the morning "
+        },
+        {
+          "text": "session",
+          "wordIds": [
+            "session"
+          ]
+        },
+        {
+          "text": ",” Owen replies."
+        }
+      ],
+      "translation": "Owen 回答：「如果不需要額外付費，我們可以改上早上的課。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "The price stays the same",
+          "phraseIds": [
+            "the-price-stays-the-same"
+          ]
+        },
+        {
+          "text": ", but any change "
+        },
+        {
+          "text": "depends on",
+          "phraseIds": [
+            "depends-on"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "availability",
+          "wordIds": [
+            "availability"
+          ]
+        },
+        {
+          "text": " when you call back before five today,” she explains."
+        }
+      ],
+      "translation": "她解釋：「價格不變，不過你必須在今天五點前回電，而且能否更改，還要看當時是否有名額。」"
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Could you keep",
+          "phraseIds": [
+            "could-you-keep"
+          ]
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "original",
+          "wordIds": [
+            "original"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "booking",
+          "wordIds": [
+            "booking"
+          ]
+        },
+        {
+          "text": " until then?” he asks, because his friend has not agreed yet."
+        }
+      ],
+      "translation": "他問：「在那之前，可以先保留原來的預約嗎？」因為他的朋友還沒有同意。"
+    },
+    {
+      "segments": [
+        {
+          "text": "She agrees to keep Saturday booked but warns that the Sunday places cannot be held without "
+        },
+        {
+          "text": "confirmation",
+          "wordIds": [
+            "confirmation"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "她同意保留週六的預約，但提醒他，未確認之前無法替他保留週日的名額。"
+    },
+    {
+      "segments": [
+        {
+          "text": "Owen will check with his friend and call back before five, knowing that Sunday may no longer be available."
+        }
+      ],
+      "translation": "Owen 會先和朋友確認，再於五點前回電；他知道到時候週日可能已經沒有名額。"
+    }
+  ],
+  "audio": {
+    "src": "/audio/stories/rearranging-a-booking.mp3",
+    "voiceId": "kokoro-af-heart-v1",
+    "textSha256": "22cd8296859356329b33761dad88019eb981f58d1400cad32b297aada4e657d5",
+    "sha256": "e8d239048119a2ce112b1c270e8e5679cbdb3c5745f9d5895e96cf07517018b6"
+  }
+}

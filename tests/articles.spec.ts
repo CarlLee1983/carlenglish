@@ -135,13 +135,54 @@ test('the N2 rewrite shows its source link and all five dates', async ({ page })
   await page.goto(articlePath(article));
   const region = page.getByRole('region', { name: '來源' });
   await expect(region.getByText(source.outlet)).toBeVisible();
-  const link = region.getByRole('link', { name: source.title });
+  const link = region.getByRole('link', { name: `閱讀原文：${source.title}` });
   await expect(link).toHaveAttribute('href', source.url);
   expect((await link.boundingBox())!.height).toBeGreaterThanOrEqual(44);
+  const details = region.locator('details');
+  const summary = region.getByText('查看日期與改寫資訊', { exact: true });
+  await expect(details).not.toHaveAttribute('open');
+  await expect(region.getByText(source.title, { exact: true })).toBeHidden();
+  await summary.focus();
+  await page.keyboard.press('Enter');
+  await expect(details).toHaveAttribute('open', '');
+  await expect(region.getByText(source.title, { exact: true })).toBeVisible();
   for (const date of [source.publishedAt, source.eventDate, source.rewrittenAt, source.accessedAt]) {
     await expect(region.getByText(date).first()).toBeVisible();
   }
-  await expect(page.getByRole('region', { name: '背景' })).toContainText(article.background!);
+  const background = page.getByRole('region', { name: '背景' });
+  await expect(background).toContainText(article.background!);
+  const articleBody = body(page);
+  expect((await articleBody.boundingBox())!.y).toBeLessThan((await background.boundingBox())!.y);
+});
+
+test('N2 source disclosure works without JavaScript', async ({ browser, baseURL }) => {
+  const context = await browser.newContext({ javaScriptEnabled: false, baseURL });
+  try {
+    const page = await context.newPage();
+    const article = byId('nobel-medicine-2026');
+    await page.goto(articlePath(article));
+    const source = page.getByRole('region', { name: '來源' });
+    const title = source.getByText(article.source!.title, { exact: true });
+    await expect(title).toBeHidden();
+    await source.getByText('查看日期與改寫資訊', { exact: true }).focus();
+    await page.keyboard.press('Enter');
+    await expect(title).toBeVisible();
+  } finally {
+    await context.close();
+  }
+});
+
+test('article English begins in the initial viewport', async ({ page }) => {
+  for (const article of articles) {
+    await page.goto(articlePath(article));
+    const first = article.paragraphs
+      ? body(page).getByText(article.paragraphs[0].english, { exact: true })
+      : body(page).getByText(article.posts![0].english, { exact: true });
+    const box = await first.boundingBox();
+    expect(box, article.id).not.toBeNull();
+    expect(box!.y, article.id).toBeGreaterThanOrEqual(0);
+    expect(box!.y, article.id).toBeLessThan(page.viewportSize()!.height);
+  }
 });
 
 test('original articles have no source block and N1 has no background block', async ({ page }) => {

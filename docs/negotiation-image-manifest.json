@@ -1,0 +1,35 @@
+[
+  {
+    "id": "returning-faulty-headphones",
+    "tool": "image_gen",
+    "attempts": 1,
+    "width": 1536,
+    "height": 1024,
+    "sourceSha256": "05b47ca2f3b5d601a95d5d7907609af5d1a0b2ed1253c8a182c8732a675f0d18",
+    "webpSha256": "d42231302c9f05f281aec78fbfd4cb106fa8630b88fefca5db10e3e6c7264874",
+    "bytes": 175962,
+    "conversion": "sharp 0.35.5 WebP quality 86, original dimensions"
+  },
+  {
+    "id": "rearranging-a-booking",
+    "tool": "image_gen",
+    "attempts": 1,
+    "width": 1536,
+    "height": 1024,
+    "sourceSha256": "495c7ab7e96945945df099efd938225e260c635c83f375b01f6f13b627a6290a",
+    "webpSha256": "4e79a95f1306cc5360e66a936fd4f9ee2d6a6e4038d35592b222ed291e65225f",
+    "bytes": 200296,
+    "conversion": "sharp 0.35.5 WebP quality 86, original dimensions"
+  },
+  {
+    "id": "agreeing-on-a-shared-budget",
+    "tool": "image_gen",
+    "attempts": 1,
+    "width": 1536,
+    "height": 1024,
+    "sourceSha256": "46cb1e5562e1f5eccc08c0bfa9be133e1019dd3932122f8da9a2b5309c744218",
+    "webpSha256": "f5cf93ee0fde0e5f71a2423153ffa9d2c88832bb7e9d22e777bd3938c9eb9972",
+    "bytes": 241190,
+    "conversion": "sharp 0.35.5 WebP quality 86, original dimensions"
+  }
+]

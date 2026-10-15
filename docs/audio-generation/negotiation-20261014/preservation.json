@@ -1,0 +1,9 @@
+{
+  "base": "89e55edb75cf6657536f3ee2a0d6619e326fe027",
+  "checkedFiles": 683,
+  "changedUnexpectedly": [],
+  "allowedDocumentationUpdates": [
+    "README.md",
+    "docs/expansion-plan.md"
+  ]
+}
