@@ -1,8 +1,11 @@
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
 import test from 'node:test';
 import { parseBackup, serializeBackup } from '../src/lib/review-backup-format.ts';
 import { reduce } from '../src/lib/review-deck.ts';
 import { cardKey, emptyState, issuedCardCount, reviewCounts, todayQueue } from '../src/lib/review-state.ts';
+import { loadWordLists, toWordListData } from '../src/lib/wordlists.ts';
 import { remainingWords, summarizeWordList, unissuedFromLists } from '../src/lib/wordlist-data.ts';
 
 // 詞表訂閱：訂閱／取消、依詞頻發新卡、與手動字卡共用每日上限、與既有字卡去重。
@@ -268,4 +271,22 @@ test('a wordlist card source passes the backup source checks', () => {
   const file = JSON.parse(serializeBackup(state, exportTime));
   const evil = { ...file, state: { ...file.state, cards: [{ ...file.state.cards[0], sources: [{ ...listSource('list-a'), href: '//evil.example' }] }] } };
   assert.equal(parseBackup(JSON.stringify(evil)).ok, false);
+});
+
+test('a TSL word whose English and meaning match a scene card the learner already has is not issued again', () => {
+  const tsl = toWordListData(loadWordLists().find((candidate) => candidate.id === 'tsl'));
+  const scene = JSON.parse(readFileSync(join(process.cwd(), 'content/scenes/weekend-plans.json'), 'utf8'));
+  const bicycle = scene.words.find((word) => word.english === 'bicycle');
+  const owned = { english: bicycle.english, meaning: bicycle.translation, example: bicycle.example, audioSrc: null };
+  assert.equal(cardKey(owned), cardKey(tsl.entries.find((entry) => entry.english === 'bicycle')), 'the TSL entry must reuse the scene meaning');
+  const limited = reduce(emptyState(), { type: 'SET_DAILY_NEW_LIMIT', limit: 50 });
+  const state = issue(subscribe(reduce(limited, { type: 'ADD_CARD', card: owned, source: sceneSource, now }), 'tsl'), [tsl]);
+  const keys = state.cards.map((card) => card.key);
+  assert.equal(new Set(keys).size, keys.length);
+  const bicycleCards = state.cards.filter((card) => card.content.english === 'bicycle');
+  assert.equal(bicycleCards.length, 1);
+  assert.deepEqual(bicycleCards[0].sources.map((source) => source.kind), ['scene']);
+  // 額度 50 已被等待中的場景字卡占 1 個：TSL 前 50 個排名裡扣掉 bicycle，剛好發出 49 張。
+  assert.equal(issuedCardCount(state, 'tsl'), 49);
+  assert.equal(state.subscriptions[0].issuedThrough, 50);
 });
