@@ -180,6 +180,21 @@ test.describe('navigation entry', () => {
         await expect(badge(page)).toHaveText(shown);
         await expect(entry(page)).toHaveAccessibleName(`複習，今天 ${count} 張待複習`);
         expect(await headerHeight(), `${count} cards`).toBe(without);
+        const links = page.locator('.header-links a');
+        const boxes = await links.evaluateAll((elements) => elements.map((element) => {
+          const { x, y, width, height } = element.getBoundingClientRect();
+          return { x, y, width, height };
+        }));
+        // Narrow navigation has one stable row, including the largest visible badge.
+        expect(Math.max(...boxes.map((box) => box.y)) - Math.min(...boxes.map((box) => box.y))).toBeLessThanOrEqual(1);
+        for (const box of boxes) {
+          expect(box.height).toBeGreaterThanOrEqual(44);
+          expect(box.x).toBeGreaterThanOrEqual(0);
+          expect(box.x + box.width).toBeLessThanOrEqual(width);
+        }
+        for (let index = 1; index < boxes.length; index++) {
+          expect(boxes[index].x).toBeGreaterThanOrEqual(boxes[index - 1].x + boxes[index - 1].width);
+        }
         expect(await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth)).toBeLessThanOrEqual(0);
       }
     });
