@@ -1,6 +1,6 @@
 import { shouldShowHomeScreenHint } from '../lib/home-screen';
-import { reviewChangedEvent } from '../lib/review-state';
 import { dismissHomeScreenHint, isHomeScreenHintDismissed, loadReviewState } from '../lib/review-storage';
+import { onReviewStateMayChange } from './review-change';
 
 /** 申請持久儲存；不支援或被拒絕都不打擾學習者，也不阻擋複習。 */
 async function requestPersistentStorage() {
@@ -37,8 +37,7 @@ function initializeStandaloneInvitation(invitation: HTMLElement) {
     if (empty && focus) document.querySelector<HTMLInputElement>('[data-backup-file]')?.focus();
   };
   update(true);
-  window.addEventListener('storage', () => update(false));
-  document.addEventListener(reviewChangedEvent, () => update(false));
+  onReviewStateMayChange(() => update(false));
 }
 
 document.querySelectorAll<HTMLElement>('[data-review-hint]').forEach(initializeHomeScreenHint);
