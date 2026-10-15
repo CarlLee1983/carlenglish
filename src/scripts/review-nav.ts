@@ -1,6 +1,7 @@
-import { reviewChangedEvent, reviewCounts } from '../lib/review-state';
+import { reviewCounts } from '../lib/review-state';
 import { loadReviewState } from '../lib/review-storage';
 import { unissuedFromLists } from '../lib/wordlist-data';
+import { onReviewStateMayChange } from './review-change';
 import { readWordListSummaries } from './wordlist-summaries';
 
 /** 徽章最多顯示到這個數字，超過顯示「99+」；可及名稱仍是實際張數。 */
@@ -24,9 +25,7 @@ function initializeReviewNav(link: HTMLAnchorElement) {
   }
 
   refresh();
-  window.addEventListener('storage', refresh);
-  document.addEventListener(reviewChangedEvent, refresh);
-  document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
+  onReviewStateMayChange(refresh);
 }
 
 document.querySelectorAll<HTMLAnchorElement>('[data-review-nav]').forEach(initializeReviewNav);

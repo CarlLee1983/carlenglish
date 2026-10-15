@@ -18,4 +18,4 @@
 
 TSL（多益常用字）詞表 1,250 字的英文詞各有一段 MP3（1,250 段，約 13.1 MiB，合計約 31 分鐘），聲線、模型與生成流程同下；檔名用詞條 ID（`ice-cream`、`o-clock`、`ma-am`、`cafe`、`entree`、`resume-cv` 對應 `résumé`，`resume` 是另一個詞），重音字母 `é` 由合成器照原字念（`résumé` 念作 rez-oo-MAY，與 `resume` 不同）。批次紀錄在 [`audio-generation/wordlist-tsl-20261015/`](audio-generation/wordlist-tsl-20261015/)，尚未經使用者實聽驗收。
 
-NGSL-Spoken 詞表前 100 字的英文詞各有一段 MP3（100 段，約 830 KB；排除三個逐字稿標記後遞補三個詞，批次紀錄含 `*-replacements.json`），聲線、模型與生成流程與場景相同，只念英文詞、不念例句；批次紀錄在 [`audio-generation/wordlist-ngsl-spoken-20261014/`](audio-generation/wordlist-ngsl-spoken-20261014/)。這批音檔尚未經使用者實聽驗收。
+NGSL-Spoken 詞表共 716 字，英文詞各有一段 MP3（716 段，約 8.3 MiB），聲線、模型與生成流程與場景相同，只念英文詞、不念例句。分兩批生成：2026-10-14 的前 100 字（約 830 KB；排除三個逐字稿標記後遞補三個詞，批次紀錄含 `*-replacements.json`），紀錄在 [`audio-generation/wordlist-ngsl-spoken-20261014/`](audio-generation/wordlist-ngsl-spoken-20261014/)；2026-10-15 的其餘 616 字，紀錄在 [`audio-generation/wordlist-ngsl-spoken-remaining-20261015/`](audio-generation/wordlist-ngsl-spoken-remaining-20261015/)。兩批音檔都尚未經使用者實聽驗收。

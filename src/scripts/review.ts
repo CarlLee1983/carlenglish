@@ -1,7 +1,9 @@
 import { reduce } from '../lib/review-deck';
-import { effectiveDailyNewLimit, isDailyNewLimit, issuedCardCount, nextDue, reviewChangedEvent, reviewCounts, todayQueue, type Grade, type ReviewChangeSource, type ReviewState, type StoredCard } from '../lib/review-state';
+import { effectiveDailyNewLimit, isDailyNewLimit, nextDue, reviewCounts, todayQueue, type Grade, type ReviewState, type StoredCard } from '../lib/review-state';
 import { loadReviewState, saveReviewState } from '../lib/review-storage';
-import { parseWordListData, remainingWords, unissuedFromLists, type WordListData } from '../lib/wordlist-data';
+import { unissuedFromLists } from '../lib/wordlist-data';
+import { announceReviewChange, onReviewStateMayChange } from './review-change';
+import { createWordListPanel } from './review-wordlists';
 import { readWordListSummaries } from './wordlist-summaries';
 
 const saveFailureMessage = '這次的紀錄沒有存進瀏覽器（可能是私密瀏覽或儲存空間已滿），離開本頁後會遺失。';
@@ -9,8 +11,6 @@ const loadFailureMessages = {
   unavailable: '無法讀取複習紀錄：這個瀏覽器不允許本站儲存資料（可能是私密瀏覽或設定封鎖）。',
   corrupt: '無法讀取複習紀錄：儲存的資料已損壞。為了避免覆蓋，本頁不會修改它。',
 };
-
-const wordListFailureMessage = (names: string[]) => `無法載入詞表「${names.join('」「')}」，暫時不會發出這${names.length > 1 ? '些' : '份'}詞表的新字卡。請確認網路連線後重新整理本頁。`;
 
 function describeWait(target: Date, now: Date): string {
   const minutes = Math.max(1, Math.round((target.getTime() - now.getTime()) / 60_000));
@@ -42,25 +42,18 @@ function initializeReview(root: HTMLElement) {
   const result = $('result');
   const settings = $('settings');
   const limitInput = $<HTMLInputElement>('limit');
-  const wordListSection = $('wordlists');
-  const wordListError = $('wordlist-error');
-  const wordListItems = [...wordListSection.querySelectorAll<HTMLElement>('[data-wordlist]')];
+  const wordListPanel = createWordListPanel($('wordlists'));
   const summaries = readWordListSummaries();
-  const wordListItem = (id: string) => wordListItems.find((item) => item.dataset.wordlistId === id);
 
   let state: ReviewState | null = null;
   let current: StoredCard | null = null;
   let flipped = false;
   let timer: number | undefined;
-  /** 已載入的詞表內容；只有訂閱了的詞表才會被載入。 */
-  const wordLists = new Map<string, WordListData>();
-  const loadingLists = new Set<string>();
-  const failedLists = new Set<string>();
 
   function sourceLine(source: StoredCard['sources'][number]): HTMLElement {
     const item = document.createElement('li');
     if (source.kind === 'wordlist') {
-      const attribution = wordListItem(source.id)?.dataset.wordlistAttribution;
+      const attribution = wordListPanel.attribution(source.id);
       item.textContent = attribution ? `詞表：${source.title}，出處：${attribution}` : `詞表：${source.title}`;
       return item;
     }
@@ -104,7 +97,7 @@ function initializeReview(root: HTMLElement) {
 
   /** 通知導覽列徽章等其他監聽者重算；本頁自己的監聽器看到 'review-page' 會忽略，不從儲存重讀。 */
   function announceChange() {
-    document.dispatchEvent(new CustomEvent<ReviewChangeSource>(reviewChangedEvent, { detail: 'review-page' }));
+    announceReviewChange('review-page');
   }
 
   function reportSaveResult(saved: ReturnType<typeof saveReviewState>) {
@@ -116,37 +109,11 @@ function initializeReview(root: HTMLElement) {
   /** 把已載入詞表的新卡發出來（見 ISSUE_NEW_CARDS）；有新卡才寫回儲存並通知導覽列。 */
   function issueFromLists(current: ReviewState): ReviewState {
     if (current.subscriptions.length === 0) return current;
-    const next = reduce(current, { type: 'ISSUE_NEW_CARDS', wordLists: [...wordLists.values()], now: new Date() });
+    const next = reduce(current, { type: 'ISSUE_NEW_CARDS', wordLists: wordListPanel.loadedLists(), now: new Date() });
     if (next === current) return current;
     reportSaveResult(saveReviewState(next));
     announceChange();
     return next;
-  }
-
-  async function fetchWordList(id: string) {
-    loadingLists.add(id);
-    try {
-      const response = await fetch(wordListItem(id)!.dataset.wordlistUrl!);
-      if (!response.ok) throw new Error(`HTTP ${response.status}`);
-      const data = parseWordListData(await response.json(), id);
-      if (!data) throw new Error('The word list data has an unexpected shape.');
-      wordLists.set(id, data);
-    } catch (error) {
-      console.error(`Failed to load word list "${id}"`, error);
-      failedLists.add(id);
-    } finally {
-      loadingLists.delete(id);
-    }
-  }
-
-  /** 只載入有訂閱、還沒載入、也還沒失敗過的詞表；全部處理完再同步一次，這時不會再有待載入的。 */
-  async function loadMissingLists() {
-    if (!state) return;
-    const missing = state.subscriptions.map((subscription) => subscription.wordListId)
-      .filter((id) => wordListItem(id) && !wordLists.has(id) && !loadingLists.has(id) && !failedLists.has(id));
-    if (missing.length === 0) return;
-    await Promise.all(missing.map(fetchWordList));
-    sync();
   }
 
   /** 重讀儲存、發出詞表新卡、重畫，並補載入缺少的詞表。 */
@@ -154,35 +121,14 @@ function initializeReview(root: HTMLElement) {
     const latest = reload();
     if (latest) state = issueFromLists(latest);
     render();
-    void loadMissingLists();
-  }
-
-
-  function renderWordLists() {
-    wordListSection.hidden = !state;
-    if (!state) return;
-    for (const item of wordListItems) {
-      const subscription = state.subscriptions.find((candidate) => candidate.wordListId === item.dataset.wordlistId);
-      const name = item.dataset.wordlistName ?? '';
-      const toggle = item.querySelector<HTMLButtonElement>('[data-wordlist-toggle]')!;
-      toggle.textContent = subscription ? '取消訂閱' : '訂閱';
-      toggle.setAttribute('aria-label', `${subscription ? '取消訂閱' : '訂閱'} ${name}`);
-      const progress = item.querySelector<HTMLElement>('[data-wordlist-progress]')!;
-      const summary = summaries.find((candidate) => candidate.id === item.dataset.wordlistId);
-      const remaining = subscription && summary ? remainingWords(summary, subscription.issuedThrough) : 0;
-      progress.hidden = !subscription;
-      progress.textContent = subscription ? `已發出 ${issuedCardCount(state, subscription.wordListId)} 張，剩餘 ${remaining} 張` : '';
-    }
-    const failed = state.subscriptions.filter((subscription) => failedLists.has(subscription.wordListId))
-      .map((subscription) => wordListItem(subscription.wordListId)?.dataset.wordlistName ?? subscription.wordListId);
-    wordListError.hidden = failed.length === 0;
-    wordListError.textContent = failed.length === 0 ? '' : wordListFailureMessage(failed);
+    // 全部載入完再同步一次，這時不會再有待載入的。
+    void wordListPanel.loadMissing(state).then((attempted) => { if (attempted) sync(); });
   }
 
   function render() {
     window.clearTimeout(timer);
     settings.hidden = !state;
-    renderWordLists();
+    wordListPanel.render(state);
     if (state && document.activeElement !== limitInput) limitInput.value = String(effectiveDailyNewLimit(state));
     if (!state) {
       summary.textContent = '';
@@ -258,15 +204,13 @@ function initializeReview(root: HTMLElement) {
     reportSaveResult(saveReviewState(state));
     announceChange();
     // 重新訂閱時給載入失敗過的詞表再一次機會。
-    failedLists.delete(id);
+    wordListPanel.retry(id);
     sync();
   }
 
   flipButton.addEventListener('click', flip);
   limitInput.addEventListener('change', changeLimit);
-  for (const item of wordListItems) {
-    item.querySelector<HTMLButtonElement>('[data-wordlist-toggle]')!.addEventListener('click', () => toggleSubscription(item.dataset.wordlistId!));
-  }
+  wordListPanel.onToggle(toggleSubscription);
   for (const kind of ['again', 'good'] as const) {
     root.querySelector<HTMLButtonElement>(`[data-review-grade="${kind}"]`)!.addEventListener('click', () => grade(kind));
   }
@@ -294,13 +238,9 @@ function initializeReview(root: HTMLElement) {
     }
   });
   // 分頁回到前景時，過了到期時間的字卡要馬上出現。
-  const refresh = () => { failedLists.clear(); sync(); };
-  document.addEventListener('visibilitychange', () => { if (!document.hidden) refresh(); });
-  window.addEventListener('storage', refresh);
-  document.addEventListener(reviewChangedEvent, (event) => {
-    // 儲存失敗時，剛評的記憶體狀態比儲存裡的舊資料新；重讀會把它蓋掉。
-    if ((event as CustomEvent<ReviewChangeSource>).detail !== 'review-page') refresh();
-  });
+  // 儲存失敗時，剛評的記憶體狀態比儲存裡的舊資料新；重讀會把它蓋掉，所以忽略自己的事件。
+  const refresh = () => { wordListPanel.retry(); sync(); };
+  onReviewStateMayChange(refresh, 'review-page');
   refresh();
 }
 

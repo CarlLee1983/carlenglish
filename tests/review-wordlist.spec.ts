@@ -59,7 +59,7 @@ test.describe('word list subscription', () => {
     await subscribe(page);
     await expect(page.getByText('今天到期 10 張，其中新卡 10 張')).toBeVisible();
     await expect(front(page)).toHaveText(be.english);
-    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 10 張，剩餘 706 張');
+    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 10 張，剩餘 706 字');
     expect(requested).toEqual(['/wordlists/ngsl-spoken.json']);
     await expect(page.locator('[data-review-badge]')).toHaveText('10');
 
@@ -76,7 +76,7 @@ test.describe('word list subscription', () => {
     await expect(front(page)).toHaveText(the.english);
     await page.reload();
     await expect(page.getByText('今天到期 10 張，其中新卡 9 張')).toBeVisible();
-    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 10 張，剩餘 706 張');
+    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 10 張，剩餘 706 字');
     const state = await stored(page);
     expect(state?.cards.map((card) => card.content.english)).toEqual(list.entries.slice(0, 10).map((entry) => entry.english));
     expect(state?.subscriptions).toMatchObject([{ wordListId: 'ngsl-spoken', issuedThrough: 10 }]);
@@ -89,13 +89,13 @@ test.describe('word list subscription', () => {
     await subscribeButton(page).click();
     await expect(page.getByText('今天到期 50 張，其中新卡 50 張')).toBeVisible();
     // 第 50 個詞的詞頻序號是 52（24、26 被排除），剩餘仍是 716 - 50。
-    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 50 張，剩餘 666 張');
+    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 50 張，剩餘 666 字');
     expect((await stored(page))?.subscriptions).toMatchObject([{ issuedThrough: 52 }]);
   });
 
   test('subscribing again keeps showing the cards already handed out instead of starting from zero', async ({ page }) => {
     await subscribe(page);
-    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 10 張，剩餘 706 張');
+    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 10 張，剩餘 706 字');
     await unsubscribeButton(page).click();
     await subscribeButton(page).click();
     await expect(unsubscribeButton(page)).toBeVisible();
@@ -137,7 +137,7 @@ test.describe('word list subscription', () => {
     await subscribeButton(page).click();
     await expect(page.getByText('今天到期 3 張，其中新卡 3 張')).toBeVisible();
     await expect(front(page)).toHaveText(first.english);
-    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 2 張，剩餘 714 張');
+    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 2 張，剩餘 714 字');
     expect((await stored(page))?.cards.map((card) => card.content.english)).toEqual([first.english, be.english, the.english]);
   });
 
@@ -224,7 +224,7 @@ test.describe('word list subscription', () => {
     await page.getByLabel('匯入備份').setInputFiles(file);
     await page.getByRole('button', { name: '取代' }).click();
     await expect(unsubscribeButton(page)).toBeVisible();
-    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 10 張，剩餘 706 張');
+    await expect(listItem(page).locator('[data-wordlist-progress]')).toHaveText('已發出 10 張，剩餘 706 字');
     await expect(front(page)).toHaveText(be.english);
   });
 

@@ -1,5 +1,5 @@
 import { Rating, createEmptyCard, fsrs, type Card } from 'ts-fsrs';
-import { cardKey, isDailyNewLimit, isNewCard, newCardAllowance, sameSource, type CardContent, type CardSource, type Grade, type ReviewState, type StoredCard, type StoredSchedule, type Subscription } from './review-state.ts';
+import { cardKey, isDailyNewLimit, remainingNewSlots, sameSource, type CardContent, type CardSource, type Grade, type ReviewState, type StoredCard, type StoredSchedule, type Subscription } from './review-state.ts';
 import type { WordListData } from './wordlist-data.ts';
 
 // 這個模組是唯一需要 ts-fsrs 的地方；不需要排程演算法的純函式都在 review-state.ts，讓每頁載入的腳本不必帶進 ts-fsrs。
@@ -27,7 +27,7 @@ const newSchedule = (now: Date): StoredSchedule => serializeSchedule(createEmpty
  * 剩下的才由各訂閱詞表輪流補上；詞表裡已經是字卡的詞跳過，不占額度。額度用完或詞表發完就原樣回傳。
  */
 function issueNewCards(state: ReviewState, wordLists: WordListData[], now: Date): ReviewState {
-  let slots = newCardAllowance(state, now) - state.cards.filter(isNewCard).length;
+  let slots = remainingNewSlots(state, now);
   if (slots <= 0 || state.subscriptions.length === 0) return state;
   const lists = new Map(wordLists.map((list) => [list.id, list]));
   const subscriptions = state.subscriptions.map((subscription) => ({ ...subscription }));

@@ -1,4 +1,5 @@
-import { isRecord, parseReviewState, type ReviewState } from './review-state.ts';
+import { isRecord } from './guards.ts';
+import { parseReviewState, type ReviewState } from './review-state.ts';
 
 /** 備份檔大小上限（位元組），超過就不讀內容。 */
 export const maxBackupBytes = 1_048_576;

@@ -1,6 +1,7 @@
 import { maxBackupBytes, parseBackup, serializeBackup } from '../lib/review-backup-format';
-import { backupReminderDays, needsBackupReminder, reviewChangedEvent, type ReviewChangeSource, type ReviewState } from '../lib/review-state';
+import { backupReminderDays, needsBackupReminder, type ReviewState } from '../lib/review-state';
 import { loadReviewState, saveReviewState } from '../lib/review-storage';
+import { announceReviewChange, onReviewStateMayChange } from './review-change';
 
 const pad = (value: number) => String(value).padStart(2, '0');
 const localDate = (date: Date) => `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
@@ -117,7 +118,7 @@ function initializeBackup(root: HTMLElement) {
     clearPending();
     say(`已匯入 ${cardCount} 張字卡`);
     refreshExportAvailability();
-    document.dispatchEvent(new CustomEvent<ReviewChangeSource>(reviewChangedEvent, { detail: 'review-backup' }));
+    announceReviewChange('review-backup');
   });
 
   cancelButton.addEventListener('click', () => {
@@ -127,10 +128,8 @@ function initializeBackup(root: HTMLElement) {
 
   root.hidden = false;
   refreshExportAvailability();
-  window.addEventListener('storage', refreshExportAvailability);
-  // 本頁的詞表訂閱會自己發出新卡，字卡張數在本分頁內也會變。
-  document.addEventListener(reviewChangedEvent, refreshExportAvailability);
-  document.addEventListener('visibilitychange', () => { if (!document.hidden) refreshExportAvailability(); });
+  // 本頁的詞表訂閱會自己發出新卡，字卡張數在本分頁內也會變；自己匯入後已直接重算，所以忽略自己的事件。
+  onReviewStateMayChange(refreshExportAvailability, 'review-backup');
 }
 
 document.querySelectorAll<HTMLElement>('[data-review-backup]').forEach(initializeBackup);

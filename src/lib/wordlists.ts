@@ -128,15 +128,15 @@ function entries(value: unknown, path: string, { skipped, excludedPath, publicDi
   });
 }
 
-/** 詞表目錄必須附 LICENSE（CC BY-SA 要求隨內容提供授權）；詞表檔所在的目錄就是詞表目錄。 */
-function requireLicenseFile(wordListFile: string, issues: string[]) {
-  const licensePath = join(dirname(wordListFile), 'LICENSE');
+/** 詞表目錄必須附 LICENSE（CC BY-SA 要求隨內容提供授權）與 NOTICE.md（出處與改作說明）；詞表檔所在的目錄就是詞表目錄。 */
+function requireDirectoryFile(wordListFile: string, name: string, issues: string[]) {
+  const path = join(dirname(wordListFile), name);
   try {
-    if (statSync(licensePath).isFile() && statSync(licensePath).size > 0) return;
+    if (statSync(path).isFile() && statSync(path).size > 0) return;
   } catch {
     // 讀不到就和空檔案一樣處理，下面統一回報。
   }
-  issues.push(`${licensePath}: word list directory must contain a nonempty LICENSE file`);
+  issues.push(`${path}: word list directory must contain a nonempty ${name} file`);
 }
 
 function validateWordListsAt(items: { source: string; data: unknown }[], publicDir: string, rawProfile: unknown, profileSource: string): WordList[] {
@@ -149,7 +149,8 @@ function validateWordListsAt(items: { source: string; data: unknown }[], publicD
     const id = identifier(data.id, `${file}.id`, issues);
     if (id && ids.has(id)) issues.push(`${file}.id: duplicate word list ID "${id}" (also in ${ids.get(id)})`);
     if (id) ids.set(id, file);
-    requireLicenseFile(file, issues);
+    requireDirectoryFile(file, 'LICENSE', issues);
+    requireDirectoryFile(file, 'NOTICE.md', issues);
     const skipped = excluded(data.excluded, `${file}.excluded`, issues);
     return {
       id,
@@ -212,10 +213,18 @@ export function toWordListData(list: WordList): WordListData {
   };
 }
 
+let cached: WordList[] | undefined;
+
+/** 建置程序內只載入驗證一次（驗證會對每個 MP3 算雜湊）；Layout、複習頁與詞表 JSON 端點共用。 */
+export function loadWordListsOnce(): WordList[] {
+  cached ??= loadWordLists();
+  return cached;
+}
+
 let summaries: WordListSummary[] | undefined;
 
-/** 每一頁的 Layout 都要帶摘要；建置程序內只載入驗證一次。 */
+/** 每一頁的 Layout 都要帶摘要。 */
 export function loadWordListSummaries(): WordListSummary[] {
-  summaries ??= loadWordLists().map(summarizeWordList);
+  summaries ??= loadWordListsOnce().map(summarizeWordList);
   return summaries;
 }

@@ -4,9 +4,9 @@ import { join } from 'node:path';
 import test from 'node:test';
 import { parseBackup, serializeBackup } from '../src/lib/review-backup-format.ts';
 import { reduce } from '../src/lib/review-deck.ts';
-import { cardKey, emptyState, issuedCardCount, reviewCounts, todayQueue } from '../src/lib/review-state.ts';
+import { cardKey, emptyState, issuedCardCount, remainingNewSlots, reviewCounts, todayQueue } from '../src/lib/review-state.ts';
 import { loadWordLists, toWordListData } from '../src/lib/wordlists.ts';
-import { remainingWords, summarizeWordList, unissuedFromLists } from '../src/lib/wordlist-data.ts';
+import { remainingWords, summarizeWordList, unissuedFromLists, unissuedWordCount } from '../src/lib/wordlist-data.ts';
 
 // 詞表訂閱：訂閱／取消、依詞頻發新卡、與手動字卡共用每日上限、與既有字卡去重。
 
@@ -235,6 +235,30 @@ test('a list summary gives the last rank and the excluded ranks below it, which 
   assert.equal(remainingWords(summary, 50), 0);
   const subscriptions = [{ wordListId: 'list-a', issuedThrough: 3 }, { wordListId: 'unknown', issuedThrough: 0 }];
   assert.equal(unissuedFromLists(subscriptions, [summary]), 4);
+});
+
+test('the list progress counts words not yet issued and not already cards, so issued plus remaining never exceeds the list after resubscribing', () => {
+  let state = issue(subscribe(emptyState(), 'list-a'), [wordlistA]);
+  const progress = (current) => {
+    const subscription = current.subscriptions[0];
+    return [issuedCardCount(current, 'list-a'), unissuedWordCount(wordlistA, subscription, current.cards)];
+  };
+  assert.deepEqual(progress(state), [10, 15]);
+  // 取消再重新訂閱：issuedThrough 歸零，但前 10 個詞已是字卡，不能再算進剩餘。
+  state = subscribe(reduce(state, { type: 'UNSUBSCRIBE', wordListId: 'list-a' }), 'list-a');
+  assert.equal(state.subscriptions[0].issuedThrough, 0);
+  const [issuedCount, remaining] = progress(state);
+  assert.deepEqual([issuedCount, remaining], [10, 15]);
+  assert.ok(issuedCount + remaining <= wordlistA.entries.length);
+  // 手動加入的字卡若剛好是詞表裡的詞，也不算剩餘。
+  const manual = reduce(state, { type: 'ADD_CARD', card: { english: 'a20', meaning: '意思a20', example: null, audioSrc: null }, source: sceneSource, now });
+  assert.equal(unissuedWordCount(wordlistA, manual.subscriptions[0], manual.cards), 14);
+});
+
+test('remainingNewSlots is the daily allowance minus the new cards already waiting', () => {
+  assert.equal(remainingNewSlots(emptyState(), now), 10);
+  assert.equal(remainingNewSlots(addAll(emptyState(), wordsOf(4), now), now), 6);
+  assert.equal(remainingNewSlots(addAll(emptyState(), wordsOf(14), now), now), 0);
 });
 
 test('subscriptions and issued cards survive a backup round trip', () => {

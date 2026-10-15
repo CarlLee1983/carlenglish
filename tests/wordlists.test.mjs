@@ -59,6 +59,7 @@ const licensedRoot = mkdtempSync(join(tmpdir(), 'licensed wordlist '));
 const at = join(licensedRoot, 'sample-list', 'wordlist.json');
 mkdirSync(join(licensedRoot, 'sample-list'));
 writeFileSync(join(licensedRoot, 'sample-list', 'LICENSE'), 'Attribution-ShareAlike 4.0 International');
+writeFileSync(join(licensedRoot, 'sample-list', 'NOTICE.md'), 'Sample List 1.0 by Example, A.');
 after(() => rmSync(licensedRoot, { recursive: true, force: true }));
 
 function issuesOf(publicDir, ...lists) {
@@ -213,6 +214,21 @@ test('a word list directory without a nonempty LICENSE file is rejected', () => 
     writeFileSync(join(directory, 'LICENSE'), '');
     assert.ok(check().some((issue) => issue.includes('LICENSE')), 'empty');
     writeFileSync(join(directory, 'LICENSE'), 'Attribution-ShareAlike 4.0 International');
+    writeFileSync(join(directory, 'NOTICE.md'), 'Sample List 1.0 by Example, A.');
+    assert.deepEqual(check(), []);
+  });
+});
+
+test('a word list directory without a nonempty NOTICE.md is rejected', () => {
+  withFixture(({ root, publicDir }) => {
+    const directory = join(root, 'content', 'wordlists', 'sample-list');
+    mkdirSync(directory, { recursive: true });
+    writeFileSync(join(directory, 'LICENSE'), 'Attribution-ShareAlike 4.0 International');
+    const check = () => issuesOf2(publicDir, join(directory, 'wordlist.json'));
+    assert.ok(check().some((issue) => issue.includes(join(directory, 'NOTICE.md'))), 'missing');
+    writeFileSync(join(directory, 'NOTICE.md'), '');
+    assert.ok(check().some((issue) => issue.includes('NOTICE.md')), 'empty');
+    writeFileSync(join(directory, 'NOTICE.md'), 'Sample List 1.0 by Example, A.');
     assert.deepEqual(check(), []);
   });
 });
@@ -256,6 +272,7 @@ test('the client also rejects duplicate entry IDs and a license link that is not
     assert.equal(parseWordListData(duplicate, 'sample-list'), null);
     for (const url of ['http://example.org/license', 'javascript:alert(1)', 'not a url', '//example.org/license']) {
       assert.equal(parseWordListData({ ...good, license: { ...good.license, url } }, 'sample-list'), null, url);
+      assert.equal(parseWordListData({ ...good, source: { ...good.source, url } }, 'sample-list'), null, `source ${url}`);
     }
   });
 });
@@ -273,6 +290,7 @@ test('loadWordLists reads one wordlist.json per directory and reports unreadable
       mkdirSync(join(contentDir, id));
       writeFileSync(join(contentDir, id, 'wordlist.json'), JSON.stringify(list(id)));
       writeFileSync(join(contentDir, id, 'LICENSE'), 'Attribution-ShareAlike 4.0 International');
+      writeFileSync(join(contentDir, id, 'NOTICE.md'), 'Sample List 1.0 by Example, A.');
     }
     assert.deepEqual(loadWordLists({ contentDir, publicDir }).map((entry) => entry.id), ['other-list', 'sample-list']);
     mkdirSync(join(contentDir, 'unlicensed'));

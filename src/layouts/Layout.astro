@@ -2,7 +2,7 @@
 import '../styles/global.css';
 import { learningLevels, type LearningLevel } from '../lib/catalog';
 import { loadWordListSummaries } from '../lib/wordlists';
-import { canonicalUrl, defaultSocialImage, serializeJsonLd, siteDescription, type SocialImage } from '../lib/seo';
+import { canonicalUrl, defaultSocialImage, serializeJsonForScript, serializeJsonLd, siteDescription, type SocialImage } from '../lib/seo';
 interface Props {
   title: string; description?: string; currentLevel?: LearningLevel['id']; isReader?: boolean;
   noindex?: boolean; isNotFound?: boolean; shareImage?: SocialImage; structuredData?: Record<string, unknown>[];
@@ -62,7 +62,7 @@ const imageUrl = new URL(shareImage.src, Astro.site).href;
       </div>
     </header>
     <main id="main"><slot /></main>
-    <script type="application/json" data-wordlist-summaries set:html={serializeJsonLd(wordListSummaries)} />
+    <script type="application/json" data-wordlist-summaries set:html={serializeJsonForScript(wordListSummaries)} />
     <script>import '../scripts/review-nav';</script>
     <footer class="site-footer"><span>CarlEnglish</span><p>看懂情境，練習日常英文。</p><a href="/">選擇學習程度 <span aria-hidden="true">↗</span></a></footer>
   </body>

@@ -1,4 +1,5 @@
 import type { CardInput } from 'ts-fsrs';
+import { isInternalHref, isRecord } from './guards.ts';
 
 export interface CardContent { english: string; meaning: string; example: string | null; audioSrc: string | null }
 export const cardSourceKinds = ['scene', 'article', 'wordlist'] as const;
@@ -39,7 +40,6 @@ export interface ReviewState {
 export const reviewChangedEvent = 'carlenglish:review-changed';
 export type ReviewChangeSource = 'review-page' | 'review-add' | 'review-backup';
 
-
 export function emptyState(): ReviewState {
   return { version: 1, cards: [], lastExportedAt: null, dailyNewLimit: null, subscriptions: [] };
 }
@@ -63,11 +63,11 @@ export const effectiveDailyNewLimit = (state: ReviewState): number => state.dail
 
 export const isNewCard = (card: StoredCard) => card.firstReviewedAt === null;
 
-/** 手動加入（場景或文章）的卡優先於只由詞表發出的卡。 */
 /** 這份詞表已發出的字卡數：來源包含這份詞表的字卡；取消訂閱後仍保留，重新訂閱也不會歸零。 */
 export const issuedCardCount = (state: ReviewState, wordListId: string): number => state.cards
   .filter((card) => card.sources.some((source) => source.kind === 'wordlist' && source.id === wordListId)).length;
 
+/** 手動加入（場景或文章）的卡優先於只由詞表發出的卡。 */
 const hasManualSource = (card: StoredCard) => card.sources.some((source) => source.kind !== 'wordlist');
 
 const startOfLocalDay = (date: Date, offsetDays = 0) => new Date(date.getFullYear(), date.getMonth(), date.getDate() + offsetDays);
@@ -83,6 +83,9 @@ export function newCardAllowance(state: ReviewState, now: Date): number {
   }).length;
   return Math.max(0, effectiveDailyNewLimit(state) - startedToday);
 }
+
+/** 今天還能新發出的張數：今天的新卡額度扣掉已在等的新卡；手動加入的、前幾天發了還沒學的都先占額度。 */
+export const remainingNewSlots = (state: ReviewState, now: Date): number => Math.max(0, newCardAllowance(state, now) - state.cards.filter(isNewCard).length);
 
 /** 到期的舊卡全部出現，不受上限；新卡手動加入的在前、詞表發出的在後，各依加入先後，只取今天剩餘額度。 */
 export function todayQueue(state: ReviewState, now: Date): StoredCard[] {
@@ -106,7 +109,7 @@ export interface ReviewCounts {
 }
 
 /**
- * unissuedFromLists：訂閱的詞表裡還沒處理到的詞數。今天剩下的額度（扣掉已在等的新卡）會由詞表補上，
+ * unissuedFromLists：訂閱的詞表裡還沒處理到的詞數。今天剩下的額度（remainingNewSlots）會由詞表補上，
  * 所以這些詞算進今天的新卡；開複習頁才實際發卡，但數字不變。明天最多再發出上限扣掉順延之後剩下的額度。
  */
 export function reviewCounts(state: ReviewState, now: Date, unissuedFromLists: number): ReviewCounts {
@@ -115,7 +118,7 @@ export function reviewCounts(state: ReviewState, now: Date, unissuedFromLists: n
   const dueTodayOld = state.cards.filter((card) => !isNewCard(card) && new Date(card.schedule.due).getTime() < startOfTomorrow.getTime());
   const dueNew = state.cards.filter((card) => isNewCard(card) && new Date(card.schedule.due).getTime() < startOfTomorrow.getTime());
   const allowance = newCardAllowance(state, now);
-  const incoming = Math.max(0, Math.min(allowance - state.cards.filter(isNewCard).length, unissuedFromLists));
+  const incoming = Math.min(remainingNewSlots(state, now), unissuedFromLists);
   const newToday = Math.min(dueNew.length + incoming, allowance);
   const later = dueTodayOld.map((card) => new Date(card.schedule.due))
     .filter((date) => date.getTime() > now.getTime())
@@ -137,9 +140,6 @@ export function reviewCounts(state: ReviewState, now: Date, unissuedFromLists: n
 
 export const isCardSourceKind = (value: unknown): value is CardSourceKind => cardSourceKinds.includes(value as CardSourceKind);
 
-/** 來源連結只接受站內路徑：以單一 `/` 開頭，排除 `//host` 與 `javascript:` 等。 */
-export const isInternalHref = (value: unknown): value is string => typeof value === 'string' && /^\/(?![/\\])/.test(value);
-
 export const backupReminderDays = 7;
 
 /** 'never'：有字卡但從未匯出；'stale'：距上次匯出超過 backupReminderDays 天；null：不需要提醒。 */
@@ -159,7 +159,6 @@ export function nextDue(state: ReviewState, key: string): Date | null {
   return card ? new Date(card.schedule.due) : null;
 }
 
-export const isRecord = (value: unknown): value is Record<string, unknown> => typeof value === 'object' && value !== null && !Array.isArray(value);
 const isText = (value: unknown): value is string => typeof value === 'string';
 const isTextOrNull = (value: unknown) => value === null || isText(value);
 const isNumber = (value: unknown) => typeof value === 'number' && Number.isFinite(value);

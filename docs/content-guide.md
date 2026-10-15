@@ -42,6 +42,10 @@ node scripts/generate-audio.mjs .scratch/illustrated-english/unified-voice/.venv
 
 生成工具讀取場景與聲線設定，準備文字、呼叫固定的 Python 合成器，驗證後寫入資產及 JSON。模型版本、來源與授權見 [audio-sources.md](audio-sources.md)。
 
+## 文章關鍵詞
+
+文章的每個關鍵詞（`glossary`）必須完整落在同一個句子裡：建置時依序把段落與貼文切句，取第一個含有該詞的句子當作加入複習時的字卡例句。詞跨過句號或換行就找不到例句，字卡會沒有例句。關鍵詞比對詞首須是單字邊界、詞尾不限，所以 `eye` 對得上 `eyes`，`art` 對不上 `start`。
+
 ## 詞表
 
 詞表是獨立於場景與文章的內容類型（ADR 0001 的做法），資料放在 `content/wordlists/<id>/`，每份一個目錄：`wordlist.json`、授權檔 `LICENSE`（CC BY-SA 4.0 全文）與出處說明 `NOTICE.md`。網站程式碼的授權不受影響。

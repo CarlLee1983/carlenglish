@@ -1,4 +1,5 @@
-import { isInternalHref, isRecord, type Subscription } from './review-state.ts';
+import { isInternalHref, isRecord } from './guards.ts';
+import { cardKey, type StoredCard, type Subscription } from './review-state.ts';
 
 // 詞表在建置時輸出成靜態 JSON（/wordlists/<id>.json），複習頁只在有訂閱時載入。
 // 這個模組不碰檔案系統，讓瀏覽器端的程式碼可以共用型別與驗證。
@@ -51,6 +52,15 @@ export function remainingWords(summary: WordListSummary, issuedThrough: number):
   return summary.lastRank - issuedThrough - summary.excludedRanks.filter((rank) => rank > issuedThrough).length;
 }
 
+/**
+ * 複習頁用的精確剩餘數：訂閱還沒處理到、且還不是字卡的詞。取消後重新訂閱時 issuedThrough 會歸零，
+ * 前面已發出的詞都已是字卡，所以不能只看序號（那是徽章用的 remainingWords 摘要估算）。
+ */
+export function unissuedWordCount(list: Pick<WordListData, 'entries'>, subscription: Pick<Subscription, 'issuedThrough'>, cards: Pick<StoredCard, 'key'>[]): number {
+  const keys = new Set(cards.map((card) => card.key));
+  return list.entries.filter((entry) => entry.rank > subscription.issuedThrough && !keys.has(cardKey(entry))).length;
+}
+
 export function unissuedFromLists(subscriptions: Pick<Subscription, 'wordListId' | 'issuedThrough'>[], summaries: WordListSummary[]): number {
   return subscriptions.reduce((total, subscription) => {
     const summary = summaries.find((candidate) => candidate.id === subscription.wordListId);
@@ -77,7 +87,7 @@ const isHttpsUrl = (value: unknown): boolean => {
 export function parseWordListData(value: unknown, expectedId: string): WordListData | null {
   if (!isRecord(value) || value.id !== expectedId || !isNonblank(value.name) || !isNonblank(value.description)) return null;
   const { source, license, entries } = value;
-  if (!isRecord(source) || !['name', 'authors', 'url', 'adaptation'].every((field) => isNonblank(source[field]))) return null;
+  if (!isRecord(source) || !['name', 'authors', 'adaptation'].every((field) => isNonblank(source[field])) || !isHttpsUrl(source.url)) return null;
   if (!isRecord(license) || !isNonblank(license.name) || !isHttpsUrl(license.url)) return null;
   if (!Array.isArray(entries) || entries.length === 0) return null;
   let previousRank = 0;

@@ -51,7 +51,9 @@ export function breadcrumbData(items: { name: string; path: string }[], site: UR
   };
 }
 
-export function serializeJsonLd(value: unknown): string {
-  // A content string containing </script> must stay inside the JSON-LD element.
+/** 內嵌進 <script> 的 JSON：內容字串裡的 </script> 必須留在元素之內。 */
+export function serializeJsonForScript(value: unknown): string {
   return JSON.stringify(value).replace(/</g, '\\u003c');
 }
+
+export const serializeJsonLd = serializeJsonForScript;
