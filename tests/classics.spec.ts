@@ -81,7 +81,7 @@ test('every published classic overview and part is indexable and fits 320px', as
       const response = await page.goto(path);
       expect(response?.status()).toBe(200);
       await expect(page.locator('head link[rel="canonical"]')).toHaveAttribute('href', `https://carlenglish.gravito.dev${path}`);
-      await expect(page.locator('head title')).toContainText(classic.title);
+      expect(await page.title()).toContain(classic.title);
       await expect(page.locator('head meta[name="description"]')).toHaveAttribute('content', /\S/);
       expect(await page.evaluate(() => document.documentElement.scrollWidth), path).toBeLessThanOrEqual(320);
     }
