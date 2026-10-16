@@ -20,7 +20,7 @@ const structuredData = [
 ];
 ---
 <Layout title={`${classic.title}｜第 ${number} 節 ${part.title}`} description={description} structuredData={structuredData}>
-  <article class="page-shell reader classic-reader">
+  <article class="page-shell reader classic-reader" data-classic-resume-part data-classic-id={classic.id} data-part={number} data-part-count={classic.parts.length}>
     <a class="back-link" href={overviewPath}><span aria-hidden="true">←</span> 回到總覽</a>
     <header class="reader-heading"><p class="scene-meta">{classic.stage}<span>{classicOriginLabels[classic.origin]}</span><span>第 {number}／{classic.parts.length} 節</span></p><h1 lang="en">{part.title}</h1><p class="reader-title-zh">{classic.title}</p></header>
     <div class="reading-body">
@@ -35,4 +35,5 @@ const structuredData = [
       </ul></nav>
     </div>
   </article>
+  <script>import '../../../scripts/classic-resume';</script>
 </Layout>
