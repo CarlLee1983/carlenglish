@@ -1,0 +1,338 @@
+{
+  "id": "monkeys-paw-l2",
+  "title": "猴爪",
+  "titleEn": "The Monkey’s Paw",
+  "stage": "L2",
+  "origin": "rewrite",
+  "rewrittenAt": "2026-10-16",
+  "sourceWork": {
+    "author": "W. W. Jacobs",
+    "title": "The Monkey’s Paw",
+    "published": 1902,
+    "gutenberg": {
+      "ebook": 12122,
+      "url": "https://www.gutenberg.org/ebooks/12122",
+      "accessedAt": "2026-10-16"
+    }
+  },
+  "parts": [
+    {
+      "title": "A Visitor in the Storm",
+      "intro": "一位老朋友在風雨中來訪。留意 White 一家如何對待客人，以及客人談起那件小東西時，語氣有什麼變化。",
+      "paragraphs": [
+        "Outside Laburnam Villa, rain beat against the windows and wind shook the trees. Inside, a bright fire made the small room warm. Mr. White was playing chess with his son Herbert. He made a dangerous move, then tried to turn Herbert's attention to the weather. Herbert smiled and moved his piece. “Checkmate,” he said. Mrs. White looked up from her knitting. She knew her husband hated to lose, even to their only son.",
+        "Mr. White stood and complained about their lonely road. The path was muddy, and the nearest neighbors lived some distance away. Then the front gate banged. A large man came through the rain and knocked at the door. It was Sergeant-Major Morris, an old friend who had spent twenty-one years in India. Mr. White welcomed him in, took his wet coat, and placed a chair near the fire.",
+        "The family listened as Morris talked about places they had never seen. He described long journeys, strange buildings, and difficult days as a soldier. Mr. White wished he could visit India too. Morris looked into the fire. “Better where you are,” he said quietly. For a moment he seemed much older than the strong man who had entered the house.",
+        "Mr. White remembered a story Morris had mentioned before. “What was that about a monkey's paw?” he asked. Morris first said it was nothing worth hearing. The Whites asked again, and at last he reached into his pocket. He placed a small, dried paw on the table. Mrs. White drew back, but Herbert picked it up and looked at it closely. It seemed too ugly and ordinary to hold any secret.",
+        "Morris said a holy man had put a spell on the paw. He wanted to teach people that fate ruled their lives and that trying to change it could bring sorrow. The paw could give three wishes to each of three people. Morris had used his own three wishes, he said, and so had the man before him. He did not know that man's first two wishes. His third had been for death. The room fell silent. Herbert looked at the little paw again, and it no longer seemed quite so ordinary."
+      ],
+      "annotations": [
+        {
+          "english": "lonely road",
+          "translation": "偏僻的道路"
+        },
+        {
+          "english": "Sergeant-Major",
+          "translation": "軍士長",
+          "note": "英國軍階；Morris 是已退役的軍人。"
+        },
+        {
+          "english": "holy man",
+          "translation": "修行者"
+        },
+        {
+          "english": "spell",
+          "translation": "魔法"
+        },
+        {
+          "english": "fate",
+          "translation": "命運"
+        }
+      ],
+      "questions": [
+        {
+          "question": "故事一開始，White 一家正在做什麼？",
+          "answer": "Mr. White 和 Herbert 下棋，Mrs. White 在旁邊織東西。"
+        },
+        {
+          "question": "Morris 說猴爪能做什麼？他如何描述許願的後果？",
+          "answer": "它能讓三個人各許三個願；他警告人們，違逆命運可能招來悲傷。"
+        },
+        {
+          "question": "哪些細節讓這隻普通的小爪子變得令人不安？",
+          "answer": "Morris 不願談它、提到前一位持有者最後求死，房間也因此安靜下來。"
+        }
+      ]
+    },
+    {
+      "title": "The First Wish",
+      "intro": "Morris 帶來的故事讓一家人又好奇又不安。留意他離開前的行動，以及 Mr. White 許願時每個人的反應。",
+      "paragraphs": [
+        "Mr. White asked Morris why he kept the paw if it had already given him three wishes. Morris did not answer at once. Perhaps he kept it because he could not forget what had happened. He had thought about selling it, but people who believed the story wanted proof before paying. Others laughed at him. “It has caused enough trouble,” he said.",
+        "Suddenly Morris picked up the paw and threw it into the fire. Mr. White cried out and pulled it from the flames. Morris told him to put it back. Mr. White would not. If his friend no longer wanted it, he said, perhaps he could keep it. Morris refused to give it as a gift, but Mr. White offered him a little money. Before leaving, the soldier warned him again: hold the paw in your right hand, speak the wish aloud, and think carefully about the consequences.",
+        "After supper Morris went to catch the last train. Herbert watched him go and laughed. The visitor had told many colorful stories; why should this one be true? Mrs. White noticed that her husband was still holding the paw. Mr. White admitted he had paid Morris for it, though Morris had urged him to throw it away. Herbert pretended they might become rich, famous, and happy by morning. His father was less certain. He said he already had most of what he wanted.",
+        "“Wish for two hundred pounds,” Herbert suggested. That amount would pay the money still owed on their house. Mr. White raised the paw in his right hand. Herbert played a few dramatic notes on the piano, and Mrs. White smiled at their little game. “I wish for two hundred pounds,” Mr. White said clearly.",
+        "He dropped the paw with a cry. It had twisted in his hand, he said, like a living snake. Herbert picked it up. There was no money on the table, in the room, or anywhere else they could see. Mrs. White said fear and the firelight might have fooled him. Mr. White wanted to agree, yet he could still feel that strange movement against his skin.",
+        "The family sat together for a while, quieter than before. At bedtime Herbert joked that a bag of money might appear on his father's bed. He went upstairs smiling. Mr. White stayed by the dying fire, where the shadows formed a face that looked almost like a monkey's. When his hand touched the paw again, he pulled it away and followed the others to bed."
+      ],
+      "annotations": [
+        {
+          "english": "flames",
+          "translation": "火焰"
+        },
+        {
+          "english": "consequences",
+          "translation": "後果"
+        },
+        {
+          "english": "urged",
+          "translation": "力勸"
+        },
+        {
+          "english": "owed",
+          "translation": "欠下的"
+        },
+        {
+          "english": "twisted",
+          "translation": "扭動"
+        },
+        {
+          "english": "shadows",
+          "translation": "陰影"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Morris 對猴爪做了什麼？Mr. White 又怎麼做？",
+          "answer": "Morris 把它丟進火裡，Mr. White 把它救出來並留下。"
+        },
+        {
+          "question": "Herbert 為什麼提議許願得到兩百英鎊？",
+          "answer": "這筆錢正好能還清房子欠下的款項。"
+        },
+        {
+          "question": "許願後，什麼事讓 Mr. White 害怕？其他人如何解釋？",
+          "answer": "他覺得猴爪像活蛇一樣扭動；Mrs. White 認為可能是恐懼和火光讓他產生錯覺。"
+        }
+      ]
+    },
+    {
+      "title": "A Visitor from the Factory",
+      "intro": "隔天早晨，一家人重新談起昨晚的願望。留意一位陌生訪客如何慢慢說出來意，以及他帶來的消息與願望有何關係。",
+      "paragraphs": [
+        "Morning sunlight filled the room. The paw lay on a shelf, small and harmless in the clear light. Mrs. White laughed at how seriously they had listened to Morris. Herbert made another joke about the money. If it came, he said, his father might become mean and refuse to share it. Then he put on his coat and left for work at the factory. His mother watched him walk down the muddy road.",
+        "Mr. White remembered what Morris had said: wishes could come true in ways that looked completely natural. Anyone could call them a coincidence. Mrs. White asked how two hundred pounds could possibly hurt them. Neither had an answer. At noon, when the postman knocked, she hurried to the door. He had brought only a bill. She smiled at herself for expecting more.",
+        "Later she noticed a well-dressed stranger outside. He stopped at their gate, walked past, then came back. This happened several times before he finally opened it. Mrs. White thought at once of the money. She hurried to hide her old apron before letting him in. The man looked uncomfortable and did not begin his business. He said only that he came from Maw and Meggins, the company where Herbert worked.",
+        "Mrs. White's smile disappeared. “Has something happened to Herbert?” she asked. Mr. White told her not to fear the worst before they had heard anything. The visitor looked down. Herbert had been caught in the factory machinery, he said. He was badly hurt, but he felt no pain now. For an instant Mrs. White thanked God. Then she saw what the man's words meant. Herbert was dead.",
+        "The two parents sat together without speaking. Mr. White held his wife's hand, as he had done when they were young. He said Herbert was the only child they had left. The visitor explained that the company denied responsibility for the accident. Still, it wanted to offer some money in recognition of Herbert's work. His careful words sounded cold in the small room.",
+        "“How much?” Mr. White asked. His voice was barely heard. “Two hundred pounds,” the man answered. Mrs. White cried out. Mr. White stood as if he could no longer see the room, then fell to the floor. The wish had been answered, if it had been answered at all. The money was real; so was the accident. Neither parent could know whether the paw had caused Herbert's death or whether two terrible events had met by chance."
+      ],
+      "annotations": [
+        {
+          "english": "factory",
+          "translation": "工廠"
+        },
+        {
+          "english": "coincidence",
+          "translation": "巧合"
+        },
+        {
+          "english": "apron",
+          "translation": "圍裙"
+        },
+        {
+          "english": "machinery",
+          "translation": "機器設備"
+        },
+        {
+          "english": "denied responsibility",
+          "translation": "否認責任"
+        },
+        {
+          "english": "recognition",
+          "translation": "表彰；肯定"
+        }
+      ],
+      "questions": [
+        {
+          "question": "陌生人為什麼來 White 家？",
+          "answer": "他代表 Herbert 工作的公司，告知 Herbert 因工廠機器事故死亡並帶來補償消息。"
+        },
+        {
+          "question": "公司提出多少補償金？這個數字為什麼讓 Mr. White 震驚？",
+          "answer": "兩百英鎊，正是他昨晚許願要得到的金額。"
+        },
+        {
+          "question": "從這一節能確定猴爪造成事故嗎？為什麼？",
+          "answer": "不能。金額吻合很可怕，但故事也保留事故與願望只是巧合的可能。"
+        }
+      ]
+    },
+    {
+      "title": "The Second Wish",
+      "intro": "Herbert 去世後，父母的悲傷沒有隨時間消失。留意兩人想起剩餘願望時，對「讓他回來」的想像有何不同。",
+      "paragraphs": [
+        "The Whites buried Herbert in a large cemetery two miles from their house. They returned to rooms where every familiar thing reminded them of him. His chair stood empty. The chessboard waited on the table. At first they almost expected to hear his steps at the gate. Days passed, but no familiar voice came through the door. They spoke less and less, because even ordinary words seemed too heavy.",
+        "One night, about ten days after Herbert's death, Mr. White woke and found his wife beside the window. She was crying softly. He asked her to come back to bed; the room was cold. “It is colder for my son,” she said. He had no answer. At last she became quiet, and he began to sleep again. Then she cried out, “The paw! The monkey's paw!”",
+        "Mr. White sat up. Mrs. White said they had made only one wish. There were still two left. Why had they not thought of that sooner? They could ask for Herbert to live again. She spoke quickly, as if saying the words might make them true. Mr. White was horrified. He remembered the first wish and the visitor from the factory. “Was not that enough?” he asked.",
+        "Mrs. White would not give up. She reminded him that the money had come, exactly as he had requested. Mr. White called it a coincidence, though he did not sound sure. He also knew something he had spared her from hearing: Herbert's body had been so badly damaged by the machinery that Mr. White had recognized him only by his clothes. He tried to explain what a return might mean. Mrs. White said she could never fear the son she had raised.",
+        "At her insistence, Mr. White went downstairs in the dark. The paw was where they had left it. He held it and imagined Herbert suddenly standing before him, as he had been laid in the grave. He felt along the wall until he found the stairs again. Upstairs, his wife's face was pale and full of hope. She told him to wish.",
+        "“I wish my son alive again,” Mr. White said. The paw fell from his hand. Nothing else moved. Mrs. White went to the window and looked toward the road. Mr. White sat with her in the darkness, waiting for a sound he wanted to hear and feared more than anything."
+      ],
+      "annotations": [
+        {
+          "english": "cemetery",
+          "translation": "墓園"
+        },
+        {
+          "english": "familiar",
+          "translation": "熟悉的"
+        },
+        {
+          "english": "horrified",
+          "translation": "驚恐的"
+        },
+        {
+          "english": "coincidence",
+          "translation": "巧合"
+        },
+        {
+          "english": "recognized",
+          "translation": "認出"
+        },
+        {
+          "english": "insistence",
+          "translation": "堅持"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Mrs. White 為什麼突然想起猴爪？",
+          "answer": "她想到只用過一次願望，還能再許願讓 Herbert 活過來。"
+        },
+        {
+          "question": "Mr. White 為什麼害怕第二個願望？",
+          "answer": "第一次願望之後 Herbert 死去；他也知道 Herbert 的遺體受損嚴重，擔心「回來」的模樣。"
+        },
+        {
+          "question": "第二次許願後，兩人立刻看見 Herbert 嗎？",
+          "answer": "沒有。他們只是在黑暗中等待。"
+        }
+      ]
+    },
+    {
+      "title": "Knocking at the Door",
+      "intro": "第二個願望後，屋內暫時毫無動靜。留意敲門聲出現時，父母各自如何理解門外的訪客。",
+      "paragraphs": [
+        "Mrs. White kept looking through the window until the last bit of candle had burned away. There was no one on the road. The grave was two miles away, Mr. White told himself. Perhaps the paw had done nothing. Perhaps the first wish had meant nothing too. He felt ashamed of his fear and grateful for the silence. At last he went back to bed. Mrs. White came a little later, but she did not speak.",
+        "They lay awake listening to the clock. A stair creaked somewhere below, and a mouse ran inside the wall. Each small noise made Mr. White hold his breath. He wanted a candle, so he found a box of matches and went downstairs. His hands shook as he struck one. Near the bottom step the flame went out. While he reached for another match, he heard a soft knock at the front door.",
+        "It was so quiet that he might have imagined it. He stood still. The knock came again, a little clearer this time. His matches fell to the floor. He hurried upstairs and closed the bedroom door. A third knock sounded through the house. Mrs. White sat up. “What was that?” she asked. “A rat,” Mr. White answered, though he knew the sound had come from the front door.",
+        "Then the knocking became louder. Mrs. White ran toward the stairs. “It's Herbert!” she cried. Mr. White caught her arm and begged her to stay. She pulled against him. To her, the knocks meant that her son had walked the two miles home. To him, they raised a terrible question: what might be waiting on the other side of the door? He remembered the visitor's words about the machinery and his own last sight of Herbert.",
+        "“Do you fear your own son?” Mrs. White demanded. She called to Herbert and broke free. Mr. White followed her to the stairs but could not make his feet go farther. Down below, she pulled back the door chain. The knocks continued while she struggled with a bolt above her reach. She dragged a chair across the floor and stood on it. “Come help me!” she called.",
+        "Mr. White turned back to the bedroom. Somewhere on its dark floor lay the paw. He dropped to his knees and searched with both hands. The knocking filled the house. He could hear the chair move beneath his wife as she reached for the final bolt. He searched faster, afraid of what she might see if the door opened first."
+      ],
+      "annotations": [
+        {
+          "english": "creaked",
+          "translation": "發出吱嘎聲"
+        },
+        {
+          "english": "matches",
+          "translation": "火柴"
+        },
+        {
+          "english": "imagined",
+          "translation": "想像出來的"
+        },
+        {
+          "english": "begged",
+          "translation": "懇求"
+        },
+        {
+          "english": "bolt",
+          "translation": "門閂"
+        },
+        {
+          "english": "beneath",
+          "translation": "在……下方"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Mr. White 第一次聽見敲門聲時在哪裡？",
+          "answer": "他在樓梯下方找火柴、準備點蠟燭。"
+        },
+        {
+          "question": "Mrs. White 和 Mr. White 對敲門聲有什麼不同的看法？",
+          "answer": "她相信是 Herbert 回來了；他害怕門外可能是受傷後復活的 Herbert。"
+        },
+        {
+          "question": "Mrs. White 為什麼搬椅子到門邊？",
+          "answer": "最後一道門閂太高，她需要站上椅子才能打開。"
+        }
+      ]
+    },
+    {
+      "title": "The Empty Road",
+      "intro": "門即將打開，Mr. White 還有最後一個願望。讀到結尾時，留意敘事者讓我們知道了什麼，又留下什麼沒有證實。",
+      "paragraphs": [
+        "Mr. White's fingers found nothing but the cold floor. He moved around the bed, then toward the wall. Below him, the knocking came faster, as if the person outside could hear the bolt moving. Mrs. White called again for help. Mr. White wanted to go to her. He also wanted to keep the door shut. He could not bear to choose between his wife's hope and the picture of Herbert that would not leave his mind.",
+        "At last his hand touched something small and dry. It was the monkey's paw. He held it tightly. He had made two wishes with it: one for money, one for his son's life. Now only the third and last wish remained. He could hear Mrs. White pulling the top bolt. He did not say his final words loudly enough for her to hear. The story does not tell us exactly what he asked for.",
+        "The knocking stopped at once. For a moment Mr. White thought he could still hear its echo in the walls. Then came the scrape of the chair as Mrs. White climbed down. The door opened, and cold wind moved up the staircase. She gave a long cry, filled with disappointment. Mr. White ran down to her. Beyond the doorway, under the weak streetlamp, he saw an empty road.",
+        "No figure stood at the gate. No footsteps crossed the mud. The rain had ended, but the night remained dark and cold. Mrs. White looked into it as though Herbert might still appear. Mr. White could offer her no explanation that would lessen her loss. Together they had heard the knocks; neither of them had seen who, or what, made them. The road gave them no answer.",
+        "Perhaps the second wish had brought Herbert back and the third had taken him away before the door opened. Perhaps a stranger had knocked and left when no one came quickly enough. Perhaps fear and grief had made ordinary sounds seem impossible to ignore. Mr. White might have wished for the visitor to disappear; he might have wished for something else. All we know is that he used the paw one last time, and the knocking ended.",
+        "Mrs. White stayed by the open door. Mr. White stepped beside her and looked toward the cemetery road. Their first wish had brought exactly two hundred pounds, but at a cost they would never have chosen. Their second had offered hope and terror in the same breath. The final wish left them standing together with an unanswered question. Across the quiet, deserted road, the streetlamp flickered. Nothing moved in its light."
+      ],
+      "annotations": [
+        {
+          "english": "fingers",
+          "translation": "手指"
+        },
+        {
+          "english": "echo",
+          "translation": "回聲"
+        },
+        {
+          "english": "scrape",
+          "translation": "刮擦聲"
+        },
+        {
+          "english": "streetlamp",
+          "translation": "路燈"
+        },
+        {
+          "english": "grief",
+          "translation": "悲傷"
+        },
+        {
+          "english": "deserted road",
+          "translation": "空無一人的道路"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Mr. White 許第三個願望後，敲門聲和門外景象有何變化？",
+          "answer": "敲門聲立刻停止；門開後，只看見空無一人的道路。"
+        },
+        {
+          "question": "故事有沒有說出第三個願望的確切內容，或證實敲門者是誰？",
+          "answer": "都沒有。敘事者只說他許了最後一個願，沒有揭露原話，也沒有讓人看見敲門者。"
+        },
+        {
+          "question": "結尾保留了哪兩種主要可能？",
+          "answer": "猴爪真的使 Herbert 回來、又被最後一願帶走；或敲門與願望只是巧合，恐懼和悲傷影響了父母的理解。"
+        }
+      ],
+      "wholeQuestions": [
+        {
+          "question": "這個故事如何讓讀者同時懷疑與相信猴爪的力量？",
+          "answer": "兩百英鎊與事故、第二願與敲門在時間上相連；但事故、補償與不明訪客也都可能有自然解釋，敘事者不給確證。"
+        },
+        {
+          "question": "從 Mr. White 和 Mrs. White 對門外聲音的反應，可以看出他們各自最強烈的感受是什麼？",
+          "answer": "Mrs. White 的希望和思子之情讓她急著開門；Mr. White 對願望後果及 Herbert 遺體的恐懼讓他尋找猴爪。"
+        }
+      ]
+    }
+  ]
+}

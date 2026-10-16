@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { Image } from 'astro:assets';
 import type { ImageMetadata } from 'astro';
 import { loadArticles, originLabels, trackLabels, type Track } from '../lib/articles';
+import { classicOriginLabels, classicStages, loadClassics } from '../lib/classics';
 import { loadScenes } from '../lib/scenes';
 import { createCatalog } from '../lib/catalog';
 import { canonicalUrl, siteDescription } from '../lib/seo';
@@ -19,6 +20,7 @@ const structuredData = [
   { '@type': 'WebPage', '@id': `${homeUrl}#webpage`, name: '生活讀本與新聞貼文閱讀', url: homeUrl, description: siteDescription, inLanguage: 'zh-Hant', isPartOf: { '@id': `${homeUrl}#website` } },
 ];
 const articles = loadArticles();
+const classics = loadClassics();
 const tracks: Track[] = ['news', 'posts'];
 const articleGroups = tracks.map((track) => ({
   track,
@@ -70,6 +72,23 @@ const articleGroups = tracks.map((track) => ({
                   <p class="article-card-title">{article.title}</p>
                 </a>
               </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </section>
+    <section class="classics-section" id="classics" aria-labelledby="classics-title">
+      <div class="collection-heading"><h2 id="classics-title">文學軌</h2><p>{classics.length} 篇經典</p></div>
+      {classicStages.map((stage) => (
+        <div class="article-group classic-group">
+          <h3>{stage}</h3>
+          <ul class="article-list">
+            {classics.filter((classic) => classic.stage === stage).map((classic) => (
+              <li><a class="article-card" href={`/classics/${classic.id}/`}>
+                <p class="scene-meta">{stage}<span>{classicOriginLabels[classic.origin]}</span></p>
+                <h4 lang="en">{classic.titleEn}</h4>
+                <p class="article-card-title">{classic.title} · {classic.sourceWork.author}</p>
+              </a></li>
             ))}
           </ul>
         </div>

@@ -54,8 +54,18 @@ export function onlyFields(data: RecordValue, allowed: readonly string[], path: 
   }
 }
 
-export function crossTypeDuplicateIds(scenes: { id: string; source: string }[], articles: { id: string; source: string }[]): string[] {
-  const sceneSources = new Map(scenes.map((scene) => [scene.id, scene.source]));
-  return articles.filter((article) => sceneSources.has(article.id))
-    .map((article) => `duplicate ID "${article.id}": used by scene ${sceneSources.get(article.id)} and article ${article.source}`);
+export function crossTypeDuplicateIds(
+  scenes: { id: string; source: string }[], articles: { id: string; source: string }[],
+  wordLists: { id: string; source: string }[] = [], classics: { id: string; source: string }[] = [],
+): string[] {
+  const seen = new Map<string, { kind: string; source: string }>();
+  const issues: string[] = [];
+  for (const [kind, entries] of [['scene', scenes], ['article', articles], ['word list', wordLists], ['classic', classics]] as const) {
+    for (const entry of entries) {
+      const earlier = seen.get(entry.id);
+      if (earlier) issues.push(`duplicate ID "${entry.id}": used by ${earlier.kind} ${earlier.source} and ${kind} ${entry.source}`);
+      else seen.set(entry.id, { kind, source: entry.source });
+    }
+  }
+  return issues;
 }

@@ -1,5 +1,6 @@
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
+import { firstSentenceContaining, textContainsTerm } from './sentences.ts';
 import { array, httpsUrl, identifier, nonblank, onlyFields, record } from './validation.ts';
 
 export type Track = 'news' | 'posts';
@@ -145,26 +146,9 @@ function posts(value: unknown, path: string, issues: string[]): Post[] {
   });
 }
 
-/** 詞首需為單字邊界，詞尾不限，讓 eye 仍能對上 eyes，但 art 對不上 start；驗證與例句擷取共用。 */
-function glossaryPattern(english: string): RegExp {
-  return new RegExp(`(?<![\\p{L}\\p{N}])${english.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`, 'iu');
-}
-
-const sentenceSegmenter = new Intl.Segmenter('en', { granularity: 'sentence' });
-
 /** 建置時為關鍵詞決定例句：段落與貼文依序切句後，第一個含有該詞的句子；找不到為 null。 */
 export function glossaryExample(article: Pick<Article, 'paragraphs' | 'posts'>, english: string): string | null {
-  return firstSentenceContaining([...(article.paragraphs ?? []), ...(article.posts ?? [])], english);
-}
-
-function firstSentenceContaining(items: { english: string }[], english: string): string | null {
-  const pattern = glossaryPattern(english);
-  for (const item of items) {
-    for (const { segment } of sentenceSegmenter.segment(item.english)) {
-      if (pattern.test(segment)) return segment.trim();
-    }
-  }
-  return null;
+  return firstSentenceContaining([...(article.paragraphs ?? []), ...(article.posts ?? [])].map((item) => item.english), english);
 }
 
 function glossary(value: unknown, path: string, body: { english: string }[], issues: string[]): GlossaryItem[] {
@@ -173,9 +157,9 @@ function glossary(value: unknown, path: string, body: { english: string }[], iss
     const data = record(raw, `${path}[${index}]`, issues);
     onlyFields(data, paragraphFields, `${path}[${index}]`, issues);
     const english = nonblank(data.english, `${path}[${index}].english`, issues);
-    if (english && !glossaryPattern(english).test(body.map((item) => item.english).join('\n'))) {
+    if (english && !textContainsTerm(body.map((item) => item.english).join('\n'), english)) {
       issues.push(`${path}[${index}].english: "${english}" does not appear in the article text`);
-    } else if (english && firstSentenceContaining(body, english) === null) {
+    } else if (english && firstSentenceContaining(body.map((item) => item.english), english) === null) {
       // 句子切分會在 "Mr. " 這類縮寫後斷開；例句擷取找不到時，字卡背面會缺例句，所以在內容階段就擋下。
       issues.push(`${path}[${index}].english: no sentence contains "${english}" (a term must sit inside a single sentence)`);
     }

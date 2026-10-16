@@ -3,6 +3,7 @@ import { join } from 'node:path';
 import { articleMetrics, loadArticles, stageWarnings } from '../src/lib/articles.ts';
 import { loadScenes } from '../src/lib/scenes.ts';
 import { loadWordLists } from '../src/lib/wordlists.ts';
+import { classicWarnings, loadClassics } from '../src/lib/classics.ts';
 import { createCatalog } from '../src/lib/catalog.ts';
 import { crossTypeDuplicateIds } from '../src/lib/validation.ts';
 
@@ -16,12 +17,19 @@ try {
   const scenes = loadScenes();
   createCatalog(scenes);
   const articles = loadArticles();
-  const duplicates = crossTypeDuplicateIds(idsIn(join(process.cwd(), 'content', 'scenes')), idsIn(join(process.cwd(), 'content', 'articles')));
+  const wordLists = loadWordLists();
+  const classics = loadClassics();
+  const duplicates = crossTypeDuplicateIds(
+    idsIn(join(process.cwd(), 'content', 'scenes')),
+    idsIn(join(process.cwd(), 'content', 'articles')),
+    wordLists.map((list) => ({ id: list.id, source: join(process.cwd(), 'content', 'wordlists', list.id, 'wordlist.json') })),
+    idsIn(join(process.cwd(), 'content', 'classics')),
+  );
   if (duplicates.length) throw new Error(`Invalid content:\n${duplicates.map((issue) => `- ${issue}`).join('\n')}`);
   console.log(`Validated ${scenes.length} scene(s): ${scenes.map((scene) => scene.id).join(', ')}`);
   console.log(`Validated ${articles.length} article(s): ${articles.map((article) => article.id).join(', ')}`);
-  const wordLists = loadWordLists();
   console.log(`Validated ${wordLists.length} word list(s): ${wordLists.map((list) => `${list.id} (${list.entries.length} entries)`).join(', ')}`);
+  console.log(`Validated ${classics.length} classic(s): ${classics.map((classic) => classic.id).join(', ')}`);
   for (const article of articles) {
     const { words, averageSentenceLength } = articleMetrics(article);
     console.log(`${article.stage} ${article.id}: ${words} words, ${averageSentenceLength.toFixed(1)} words/sentence`);
@@ -29,6 +37,9 @@ try {
   // 長度參考只警告，不影響結束碼
   for (const article of articles) {
     for (const warning of stageWarnings(article)) console.error(`warning: ${warning}`);
+  }
+  for (const classic of classics) {
+    for (const warning of classicWarnings(classic)) console.error(`warning: ${warning}`);
   }
 } catch (error) {
   console.error(error.message);

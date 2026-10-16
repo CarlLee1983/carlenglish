@@ -1,0 +1,91 @@
+{
+  "id": "gift-of-the-magi-l1",
+  "title": "麥琪的禮物",
+  "titleEn": "The Gift of the Magi",
+  "stage": "L1",
+  "origin": "rewrite",
+  "rewrittenAt": "2026-10-16",
+  "sourceWork": {
+    "author": "O. Henry",
+    "title": "The Gift of the Magi",
+    "published": 1905,
+    "gutenberg": {
+      "ebook": 7256,
+      "url": "https://www.gutenberg.org/ebooks/7256",
+      "accessedAt": "2026-10-16"
+    }
+  },
+  "parts": [
+    {
+      "title": "A Gift for Jim",
+      "intro": "聖誕節前一天，Della 想替丈夫 Jim 準備禮物。留意她遇到的困難，以及她如何做決定。",
+      "paragraphs": [
+        "Della sat at the kitchen table and counted her money again. One dollar and eighty-seven cents. That was all. Tomorrow was Christmas, and she still had no gift for Jim, her husband.",
+        "Jim worked hard, but he did not earn much money. Every week, Della tried to spend less on food. She wanted to buy him something special. Now she looked at the few coins on the table and began to cry.",
+        "After a while, she stood up and looked in the mirror. She let down her long brown hair. It fell past her knees. Jim loved her hair, and Della loved Jim's gold watch. The watch had belonged to his father. These were the two things they were most proud of.",
+        "Suddenly, Della had an idea. She put on her old coat and ran outside. On the next street, she found a shop that bought hair.",
+        "“Will you buy my hair?” she asked.",
+        "The woman in the shop looked at it. “Twenty dollars,” she said.",
+        "“Please cut it now,” said Della.",
+        "Soon Della was back on the street. Her head felt light, and her pocket held twenty dollars. She had two hours to find the right gift for Jim. She did not stop to think about how different she would look when he came home."
+      ],
+      "annotations": [
+        { "english": "hair", "translation": "頭髮" },
+        { "english": "belonged", "translation": "屬於", "note": "belong to 表示某物屬於某人。" },
+        { "english": "gift", "translation": "禮物" }
+      ],
+      "questions": [
+        { "question": "Della 遇到什麼困難？她想達成什麼事？", "answer": "她只有一美元八十七美分，卻想買一份特別的聖誕禮物給 Jim。" },
+        { "question": "她怎麼解決這個困難？她為此放棄了什麼？", "answer": "她把自己的長髮賣了二十美元，放棄了她與 Jim 都珍惜的頭髮。" },
+        { "question": "Jim 的手錶為什麼對他特別重要？", "answer": "那是父親留給他的金錶，也是他最珍惜的東西之一。" }
+      ]
+    },
+    {
+      "title": "A Chain for the Watch",
+      "intro": "Della 帶著賣頭髮所得的錢找禮物。留意她選擇這份禮物的理由，以及買完後的新擔憂。",
+      "paragraphs": [
+        "Della walked from shop to shop. She looked at many things, but none of them seemed right for Jim. Then, in a small shop window, she saw a simple silver chain. She knew at once that it was the gift she wanted.",
+        "Jim's gold watch was beautiful, but the old chain on it was not. Sometimes he looked at the watch when nobody was near. Della imagined him taking it out with the new silver chain. He could look at it proudly wherever he went.",
+        "The chain cost twenty-one dollars. Della paid for it and went home with eighty-seven cents. She held the little box tightly. Jim's gift was ready, but now she began to worry about her hair. Would he still think she was beautiful?",
+        "At home, Della worked on her short hair. She made small curls and looked in the mirror. She almost did not know the woman she saw. Then she made dinner and waited by the door. She told herself that Jim loved her, and that hair would grow again.",
+        "At seven o'clock, she heard his steps on the stairs. Della stood very still. She hoped he would understand why she had sold her hair. Before the door opened, she whispered a little wish: “Please let him think I am still pretty.”"
+      ],
+      "annotations": [
+        { "english": "chain", "translation": "錶鍊" },
+        { "english": "silver chain", "translation": "銀鍊" },
+        { "english": "proudly", "translation": "驕傲地" },
+        { "english": "gift", "translation": "禮物" }
+      ],
+      "questions": [
+        { "question": "Della 為什麼選銀鍊作為禮物？", "answer": "Jim 的金錶很漂亮，但舊錶鍊不相稱；她希望他能自在地拿出金錶。" },
+        { "question": "買完禮物後，Della 為什麼又擔心起來？", "answer": "她擔心短髮會讓 Jim 覺得她不再漂亮。" },
+        { "question": "Della 在門打開前許了什麼願？", "answer": "她希望 Jim 仍覺得她漂亮。" }
+      ]
+    },
+    {
+      "title": "Jim Comes Home",
+      "intro": "Jim 回到家，兩人準備交換禮物。留意他們如何回應彼此，以及結尾如何看待他們的選擇。",
+      "paragraphs": [
+        "Jim opened the door and stopped. He looked at Della's short hair, but he said nothing. Della went to him quickly. “I sold my hair to buy you a gift,” she said. “It will grow again. Please say you still love me.”",
+        "Jim put his arms around her. “I love you just the same,” he said. Then he gave her a small package. Inside were two beautiful combs for her long hair. Della had seen them in a shop window many times. She had wanted them, but they were too expensive.",
+        "For a moment she cried. Then she smiled and held up a short curl. “My hair grows fast,” she told Jim. She remembered his gift and ran to get the little box. She placed the silver chain in his hand. “Now you can use your watch every day!” she said.",
+        "Jim sat down and smiled gently. “Let's keep our gifts for now,” he said. “I sold my watch to buy your combs.” Della looked at him, and then they both laughed. They had each given up their most precious thing for the other person.",
+        "Long ago, wise people brought gifts to a child at Christmas. Della and Jim did not have much money. Their gifts could not be used yet. But each had thought first of the other. The story calls them wise because of the love behind their gifts."
+      ],
+      "annotations": [
+        { "english": "combs", "translation": "髮梳" },
+        { "english": "precious", "translation": "珍貴的" },
+        { "english": "could", "translation": "可能、能夠（依語境判斷）", "note": "此處表示能夠。" }
+      ],
+      "questions": [
+        { "question": "Jim 看見 Della 的短髮後，怎麼回應她的擔心？", "answer": "他擁抱她，說自己仍一樣愛她。" },
+        { "question": "兩人的禮物為什麼都暫時用不上？", "answer": "Della 賣了頭髮，暫時用不上髮梳；Jim 賣了金錶，暫時用不上銀鍊。" },
+        { "question": "兩人為買禮物各自放棄了什麼？", "answer": "Della 放棄長髮，Jim 放棄金錶。" }
+      ],
+      "wholeQuestions": [
+        { "question": "故事為什麼稱 Della 和 Jim 是有智慧的送禮者？", "answer": "他們的禮物暫時派不上用場，但都先想到對方，願意為對方犧牲自己珍惜的東西。" },
+        { "question": "如果只看禮物能不能立刻使用，會漏掉故事的哪一層意思？", "answer": "會漏掉兩人互相關愛的心意；故事看重的是送禮背後的愛。" }
+      ]
+    }
+  ]
+}

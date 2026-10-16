@@ -10,6 +10,8 @@ permissions:
 
 jobs:
   verify:
+    # Deploy verifies main before publishing; retain CI when deployment is disabled.
+    if: github.event_name == 'pull_request' || vars.CLOUDFLARE_DEPLOY_ENABLED != 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
