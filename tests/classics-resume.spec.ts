@@ -9,6 +9,8 @@ test('opening a part offers a direct link back to the last opened part of that c
   await page.goto(overview);
   await expect(resumeLink(page)).toHaveCount(0);
   await page.getByRole('link', { name: /第 2 節/ }).click();
+  // Let the part's module script save the position before navigating away.
+  await page.waitForURL(`${overview}2/`, { waitUntil: 'load' });
   await page.goto(overview);
   await expect(resumeLink(page)).toHaveText('繼續讀第 2 節');
   await expect(resumeLink(page)).toHaveAttribute('href', `${overview}2/`);
