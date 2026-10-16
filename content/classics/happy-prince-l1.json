@@ -1,0 +1,226 @@
+{
+  "id": "happy-prince-l1",
+  "title": "快樂王子",
+  "titleEn": "The Happy Prince",
+  "stage": "L1",
+  "origin": "rewrite",
+  "rewrittenAt": "2026-10-16",
+  "sourceWork": {
+    "author": "Oscar Wilde",
+    "title": "The Happy Prince",
+    "published": 1888,
+    "gutenberg": {
+      "ebook": 902,
+      "url": "https://www.gutenberg.org/ebooks/902",
+      "accessedAt": "2026-10-16"
+    }
+  },
+  "parts": [
+    {
+      "title": "The Prince and the Swallow",
+      "intro": "城裡有一座被稱為「快樂王子」的雕像。一隻燕子在旅途中停下來過夜；留意牠發現王子身上什麼意想不到的事。",
+      "paragraphs": [
+        "A statue stood high above the city. People called it the Happy Prince. Thin gold covered his body. He had two blue stones for eyes and a red stone on his sword. People stopped to look at him and said he was beautiful.",
+        "One night, a little Swallow flew into the city. His friends had already gone to warm Egypt. He had stayed near a river because he loved a plant there. When the plant would not leave its home, he flew away alone. Now he needed a place to sleep before continuing his long trip.",
+        "The Swallow landed at the Prince’s feet. “This is a fine bedroom,” he said. Then a drop of water fell on his head. Another drop followed. He looked up. The drops were tears from the Prince’s eyes.",
+        "“Why are you crying?” asked the Swallow. “You are the Happy Prince.”",
+        "“When I was alive, I lived behind a high wall,” said the Prince. “I danced and played every day. I never saw the poor people outside. I thought I was happy. Now I can see the whole city. I see people who are hungry and sick. My heart is made of metal, but I still feel sad for them.”",
+        "The Swallow looked at the city below. He had planned to leave at once, but he listened to the Prince."
+      ],
+      "annotations": [
+        {
+          "english": "statue",
+          "translation": "雕像"
+        },
+        {
+          "english": "Swallow",
+          "translation": "燕子"
+        },
+        {
+          "english": "metal",
+          "translation": "金屬"
+        }
+      ],
+      "questions": [
+        {
+          "question": "燕子為什麼比朋友晚去埃及？",
+          "answer": "牠留在河邊，因為牠愛上那裡的一株植物；植物不肯離開，牠才獨自上路。"
+        },
+        {
+          "question": "王子活著時為什麼不知道城裡有人受苦？",
+          "answer": "他住在高牆內，每天玩樂，沒有看見牆外的窮人。"
+        },
+        {
+          "question": "燕子在王子腳邊發現什麼？",
+          "answer": "牠發現滴在頭上的水是王子的眼淚。"
+        }
+      ]
+    },
+    {
+      "title": "The Red Stone",
+      "intro": "王子看見一戶需要幫助的人家，但雕像不能走動。留意燕子原本的旅行計畫，以及牠這一晚做了什麼選擇。",
+      "paragraphs": [
+        "“I can see a small house,” said the Prince. “A woman is making a dress for a rich lady. She has worked all day with a needle, but she has little money. Her young son is ill. He asks for oranges, and she can only give him water. Please take the red stone from my sword to her.”",
+        "“I must go to Egypt,” said the Swallow. “My friends are waiting for me there.” The air was growing cold. He did not want to spend another night in the city. But the Prince looked so sad that the Swallow agreed to stay one night.",
+        "He pulled the red ruby from the sword and carried it across the city. On his way, he passed a bright room where people danced. A rich young woman spoke about the dress she wanted. She complained that the woman making it worked too slowly.",
+        "At the small house, the mother had fallen asleep beside her work. Her son was hot with fever and could not rest. The Swallow put the ruby on the table. Then he moved his wings gently over the boy’s face. The boy felt cooler and slept.",
+        "The Swallow flew back to the Prince. “I feel warm,” he said, “although the night is cold.” The Prince told him that helping someone can make a heart feel warm. In the morning the Swallow still thought of Egypt. When night came, he returned to say goodbye, but the Prince asked him to stay again."
+      ],
+      "annotations": [
+        {
+          "english": "needle",
+          "translation": "針"
+        },
+        {
+          "english": "ruby",
+          "translation": "紅寶石"
+        },
+        {
+          "english": "fever",
+          "translation": "發燒"
+        }
+      ],
+      "questions": [
+        {
+          "question": "王子請燕子把紅寶石送給誰？她家中發生什麼事？",
+          "answer": "送給替富人做衣服的窮女人；她的兒子生病了，想吃橘子，她卻只能給水。"
+        },
+        {
+          "question": "燕子飛過富人的房間時聽見什麼，和小屋裡的情況有何不同？",
+          "answer": "富人抱怨禮服做得太慢；做衣服的女人卻忙到睡著，家中孩子還在發燒。"
+        },
+        {
+          "question": "燕子做完這件事後有什麼感覺？",
+          "answer": "雖然天冷，牠卻覺得溫暖。"
+        }
+      ]
+    },
+    {
+      "title": "The Two Blue Eyes",
+      "intro": "燕子再度準備出發，王子卻又看見需要幫助的人。留意每次送出寶石後，王子失去什麼，燕子的決定又如何改變。",
+      "paragraphs": [
+        "“Across the city, a young man is trying to write a play,” said the Prince. “His room is cold, and he has no food. Please take one of my blue eyes to him. He can sell it and buy what he needs.”",
+        "“Your eyes?” cried the Swallow. He did not want to hurt his friend. But the Prince asked again, so the Swallow took one bright sapphire from the statue. He carried it through a hole in the young man’s roof and left it on the desk. The writer thought a friend had sent it. Now he could finish his play.",
+        "The next day, the Swallow said he must leave for Egypt. The Prince asked for one more night. A little girl had dropped the matches she was selling into dirty water. She would have no money to take home, and she was afraid her father would hit her. She had no shoes, even in the cold.",
+        "“Give her my other eye,” said the Prince.",
+        "“Then you will not see anything,” said the Swallow. But the Prince still wanted to help. The Swallow took the second sapphire and put it in the girl’s hand. She ran home smiling.",
+        "The Prince was now blind. “I will stay with you,” said the Swallow. The Prince told him to go to warm Egypt, but the bird would not leave his friend. He sat beside the Prince and told him stories about the places he had seen."
+      ],
+      "annotations": [
+        {
+          "english": "sapphire",
+          "translation": "藍寶石"
+        },
+        {
+          "english": "matches",
+          "translation": "火柴"
+        },
+        {
+          "english": "blind",
+          "translation": "失明的"
+        }
+      ],
+      "questions": [
+        {
+          "question": "王子兩隻藍寶石眼睛分別幫助了誰？",
+          "answer": "第一隻送給又冷又餓的年輕劇作家，第二隻送給弄濕火柴、怕被父親打的小女孩。"
+        },
+        {
+          "question": "王子失去第二隻眼睛後，燕子做了什麼決定？",
+          "answer": "牠決定留在失明的王子身邊，不去埃及。"
+        },
+        {
+          "question": "小女孩為什麼害怕回家？",
+          "answer": "她弄濕了要賣的火柴，沒有錢帶回家，怕父親打她。"
+        }
+      ]
+    },
+    {
+      "title": "Gold for the City",
+      "intro": "王子已經看不見城市，便請燕子替他觀察。留意他們接下來送出了什麼，以及天氣變冷時燕子的處境。",
+      "paragraphs": [
+        "One day the Prince asked the Swallow to fly over the city and tell him what he saw. The bird saw rich families enjoying warm homes. He also saw children with no food and people sleeping outside in the rain. He returned and told the Prince about them.",
+        "“My body is covered with gold,” said the Prince. “Take the thin pieces off and give them to the poor.” The Swallow took the gold, piece by piece, and carried it to hungry people. Children who had been hungry could buy bread. They began to laugh and play. The Prince lost his shine and looked grey, but he was glad they had food.",
+        "Snow fell, and the streets grew white. The Swallow was very cold. He found small pieces of bread to eat and moved his wings to keep warm. He could have flown away, but he loved the Prince and stayed with him.",
+        "At last the Swallow was too weak to fly. He reached the Prince’s shoulder and said goodbye. The Prince thought his friend was finally going to Egypt. “No,” said the Swallow. “I am going to die.” He kissed the Prince and fell dead at his feet.",
+        "Inside the statue, the Prince’s metal heart broke in two. The winter was very cold, but his heart had also broken because the Swallow was gone."
+      ],
+      "annotations": [
+        {
+          "english": "gold",
+          "translation": "黃金"
+        },
+        {
+          "english": "shine",
+          "translation": "光澤"
+        },
+        {
+          "english": "weak",
+          "translation": "虛弱的"
+        }
+      ],
+      "questions": [
+        {
+          "question": "燕子飛過城市時看見富人與窮人過著怎樣不同的生活？",
+          "answer": "富人在溫暖的家中享樂；窮人挨餓，有人還得在雨中露宿。"
+        },
+        {
+          "question": "王子失去身上的黃金後，窮人和王子各有什麼變化？",
+          "answer": "窮人有錢買麵包，孩子笑著玩；王子失去光澤，變得灰暗。"
+        },
+        {
+          "question": "燕子最後為什麼死在王子腳邊？",
+          "answer": "牠為了陪伴王子留在寒冷的城市，身體愈來愈虛弱，最後死去。"
+        }
+      ]
+    },
+    {
+      "title": "The Most Precious Things",
+      "intro": "隔天早上，城裡的官員看見王子雕像的樣子。讀的時候留意他們如何判斷這座雕像，以及故事最後提出不同的看法。",
+      "paragraphs": [
+        "The next morning, the Mayor and the town leaders walked past the statue. They saw that its ruby, blue eyes, and gold were gone. “The Happy Prince looks terrible now,” said the Mayor. The other leaders agreed with him. None of them asked where the stones and gold had gone.",
+        "They also saw the dead Swallow at the Prince’s feet. The Mayor wanted a new rule to stop birds from dying there. Then the leaders pulled down the statue. One man said it was no longer useful because it was no longer beautiful.",
+        "They put the statue into a hot fire to make a new one. The Mayor wanted the new statue to look like himself. Each of the other leaders wanted the same thing, and they began to argue. But the Prince’s broken heart would not melt. The workers threw it away with the dead Swallow.",
+        "God asked an angel to bring him the two most precious things in the city. The angel brought the broken heart and the dead bird. God said the angel had chosen well. In God’s garden, the Swallow would sing forever. In God’s golden city, the Prince would live with him."
+      ],
+      "annotations": [
+        {
+          "english": "Mayor",
+          "translation": "市長"
+        },
+        {
+          "english": "argue",
+          "translation": "爭吵"
+        },
+        {
+          "english": "angel",
+          "translation": "天使"
+        }
+      ],
+      "questions": [
+        {
+          "question": "官員為什麼拆掉王子雕像？",
+          "answer": "他們只看到雕像失去寶石和黃金後變得難看，認為它不再有用。"
+        },
+        {
+          "question": "工人把什麼丟在同一處？",
+          "answer": "王子無法熔化的破心，以及死去的燕子。"
+        },
+        {
+          "question": "上帝請天使帶來什麼？天使選了什麼？",
+          "answer": "上帝要城裡最珍貴的兩樣東西；天使選了王子的破心和死燕子。"
+        }
+      ],
+      "wholeQuestions": [
+        {
+          "question": "故事中的官員和結尾的上帝如何不同地判斷「珍貴」？",
+          "answer": "官員看重雕像的外表與材料；上帝看重王子和燕子為別人付出的愛。"
+        },
+        {
+          "question": "「快樂王子」這個名字到故事結尾有什麼新意思？",
+          "answer": "王子活著時只享受自己的快樂；成為雕像後，他看見苦難並幫助別人，這種關懷比外表的華麗更重要。"
+        }
+      ]
+    }
+  ]
+}
