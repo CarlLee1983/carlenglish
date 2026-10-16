@@ -7,7 +7,7 @@ test('learner finds the L1 classic, its source, and all three parts', async ({ p
   const literature = page.getByRole('region', { name: '文學軌' });
   await expect(literature.getByRole('heading', { name: 'L1' })).toBeVisible();
   for (const stage of ['L2', 'L3', 'L4']) await expect(literature.getByRole('heading', { name: stage })).toBeVisible();
-  await literature.getByRole('link', { name: /The Gift of the Magi/ }).click();
+  await literature.getByRole('heading', { name: 'L1' }).locator('..').getByRole('link', { name: /The Gift of the Magi/ }).click();
   await expect(page).toHaveURL(new RegExp(`${overview}$`));
   await expect(page.getByRole('heading', { name: 'The Gift of the Magi' })).toBeVisible();
   await expect(page.getByText('O. Henry')).toBeVisible();
@@ -15,6 +15,38 @@ test('learner finds the L1 classic, its source, and all three parts', async ({ p
   await expect(page.getByText('教學改寫').first()).toBeVisible();
   await expect(page.getByRole('link', { name: /Project Gutenberg #7256/ })).toHaveAttribute('href', 'https://www.gutenberg.org/ebooks/7256');
   await expect(page.locator('.classic-toc li')).toHaveCount(3);
+});
+
+test('Gift of the Magi versions link in both directions from overviews and final parts', async ({ page }) => {
+  const versions = [
+    { from: '/classics/gift-of-the-magi-l1/', to: '/classics/gift-of-the-magi-l3/', label: /L3 原文/ },
+    { from: '/classics/gift-of-the-magi-l3/', to: '/classics/gift-of-the-magi-l1/', label: /L1 教學改寫/ },
+  ];
+  for (const { from, to, label } of versions) {
+    await page.goto(from);
+    await expect(page.getByRole('heading', { name: '同一原作的其他版本' })).toBeVisible();
+    await expect(page.locator('.classic-versions').getByRole('link', { name: label })).toHaveAttribute('href', to);
+    await page.goto(`${from}3/`);
+    await expect(page.getByRole('navigation', { name: '節導覽' }).getByRole('link', { name: new RegExp(`閱讀 ${label.source}`) })).toHaveAttribute('href', to);
+  }
+});
+
+test('the complete L3 original is available with its Gutenberg source', async ({ page, request }) => {
+  await page.goto('/');
+  const literature = page.getByRole('region', { name: '文學軌' });
+  await expect(literature.getByRole('heading', { name: 'L3' }).locator('..').getByRole('link', { name: /The Gift of the Magi/ })).toHaveAttribute('href', '/classics/gift-of-the-magi-l3/');
+  await page.goto('/classics/gift-of-the-magi-l3/');
+  await expect(page.getByRole('link', { name: 'Project Gutenberg #2776' })).toHaveAttribute('href', 'https://www.gutenberg.org/ebooks/2776');
+  await expect(page.locator('.classic-toc li')).toHaveCount(3);
+  const sitemap = await (await request.get('/sitemap.xml')).text();
+  expect(sitemap).toContain('https://carlenglish.gravito.dev/classics/gift-of-the-magi-l3/');
+  for (const [number, count] of [[1, 11], [2, 16], [3, 17]]) {
+    const path = `/classics/gift-of-the-magi-l3/${number}/`;
+    await page.goto(path);
+    await expect(page.locator('.classic-story p')).toHaveCount(count);
+    expect(sitemap).toContain(`https://carlenglish.gravito.dev${path}`);
+  }
+  await expect(page.locator('.classic-story p').last()).toContainText('They are the magi.');
 });
 
 test('each part shows English body, questions and usable navigation', async ({ page }) => {
