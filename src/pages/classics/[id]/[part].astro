@@ -1,0 +1,38 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { classicOriginLabels, loadClassics, otherVersions, type Classic } from '../../../lib/classics';
+import { breadcrumbData, canonicalUrl } from '../../../lib/seo';
+export function getStaticPaths() {
+  const classics = loadClassics();
+  return classics.flatMap((classic) => classic.parts.map((_, index) => ({ params: { id: classic.id, part: String(index + 1) }, props: { classic, classics, number: index + 1 } })));
+}
+interface Props { classic: Classic; classics: Classic[]; number: number }
+const { classic, classics, number } = Astro.props;
+const part = classic.parts[number - 1];
+const overviewPath = `/classics/${classic.id}/`;
+const path = `${overviewPath}${number}/`;
+const url = canonicalUrl(path, Astro.site);
+const description = `${classic.title}第 ${number} 節〈${part.title}〉｜${classic.stage} ${classicOriginLabels[classic.origin]}。閱讀英文故事與讀後提問。`;
+const versions = otherVersions(classic, classics);
+const structuredData = [
+  { '@type': 'WebPage', '@id': `${url}#webpage`, name: `${classic.title}：${part.title}`, url, description, inLanguage: ['zh-Hant', 'en'], isBasedOn: classic.sourceWork.gutenberg.url },
+  breadcrumbData([{ name: '首頁', path: '/' }, { name: classic.title, path: overviewPath }, { name: `第 ${number} 節`, path }], Astro.site),
+];
+---
+<Layout title={`${classic.title}｜第 ${number} 節 ${part.title}`} description={description} structuredData={structuredData}>
+  <article class="page-shell reader classic-reader">
+    <a class="back-link" href={overviewPath}><span aria-hidden="true">←</span> 回到總覽</a>
+    <header class="reader-heading"><p class="scene-meta">{classic.stage}<span>{classicOriginLabels[classic.origin]}</span><span>第 {number}／{classic.parts.length} 節</span></p><h1 lang="en">{part.title}</h1><p class="reader-title-zh">{classic.title}</p></header>
+    <div class="reading-body">
+      <section class="article-section classic-intro" aria-labelledby="intro-title"><h2 id="intro-title">閱讀導讀</h2><p>{part.intro}</p></section>
+      <section class="story-section" aria-labelledby="body-title"><h2 id="body-title">英文正文</h2><div class="english-story classic-story" lang="en">{part.paragraphs.map((paragraph) => <p>{paragraph}</p>)}</div></section>
+      {part.annotations.length > 0 && <section class="article-section" aria-labelledby="annotations-title"><h2 id="annotations-title">注釋</h2><ol class="glossary-list">{part.annotations.map((item) => <li><span lang="en">{item.english}</span> — {item.translation}{item.note && <p>{item.note}</p>}</li>)}</ol></section>}
+      <section class="article-section" aria-labelledby="questions-title"><h2 id="questions-title">讀後提問</h2><p class="section-hint">先用中文回答，再打開參考答案對照。</p><ol class="question-list">{part.questions.map((item) => <li><p class="question-text">{item.question}</p><details class="answer"><summary aria-label={`查看參考答案：${item.question}`}>查看參考答案<span class="disclosure-symbol" aria-hidden="true">+</span></summary><p class="answer-text">{item.answer}</p></details></li>)}</ol></section>
+      {part.wholeQuestions && <section class="article-section" aria-labelledby="whole-title"><h2 id="whole-title">全篇回顧</h2><ol class="question-list">{part.wholeQuestions.map((item) => <li><p class="question-text">{item.question}</p><details class="answer"><summary aria-label={`查看參考答案：${item.question}`}>查看參考答案<span class="disclosure-symbol" aria-hidden="true">+</span></summary><p class="answer-text">{item.answer}</p></details></li>)}</ol></section>}
+      <nav class="reader-navigation classic-navigation" aria-label="節導覽"><ul>
+        {number > 1 && <li><a href={`${overviewPath}${number - 1}/`}>← 上一節：<span lang="en">{classic.parts[number - 2].title}</span></a></li>}
+        {number < classic.parts.length ? <li><a href={`${overviewPath}${number + 1}/`}>下一節：<span lang="en">{classic.parts[number].title}</span> →</a></li> : <><li><a href={overviewPath}>故事結束，回到總覽 →</a></li>{versions.map((version) => <li><a href={`/classics/${version.id}/`}>閱讀 {version.stage} {classicOriginLabels[version.origin]} →</a></li>)}</>}
+      </ul></nav>
+    </div>
+  </article>
+</Layout>

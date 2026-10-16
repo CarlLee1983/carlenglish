@@ -1,0 +1,51 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { classicOriginLabels, loadClassics, otherVersions, type Classic } from '../../../lib/classics';
+import { breadcrumbData, canonicalUrl } from '../../../lib/seo';
+export function getStaticPaths() {
+  const classics = loadClassics();
+  return classics.map((classic) => ({ params: { id: classic.id }, props: { classic, classics } }));
+}
+interface Props { classic: Classic; classics: Classic[] }
+const { classic, classics } = Astro.props;
+const path = `/classics/${classic.id}/`;
+const url = canonicalUrl(path, Astro.site);
+const description = `${classic.title}｜${classic.sourceWork.author}《${classic.sourceWork.title}》（${classic.sourceWork.published}）。${classic.stage} ${classicOriginLabels[classic.origin]}，共 ${classic.parts.length} 節。`;
+const versions = otherVersions(classic, classics);
+const structuredData = [
+  { '@type': 'WebPage', '@id': `${url}#webpage`, name: classic.title, alternateName: classic.titleEn, url,
+    description, inLanguage: ['zh-Hant', 'en'], isBasedOn: classic.sourceWork.gutenberg.url },
+  breadcrumbData([{ name: '首頁', path: '/' }, { name: classic.title, path }], Astro.site),
+];
+---
+<Layout title={`${classic.title}｜${classic.stage} ${classicOriginLabels[classic.origin]}`} description={description} structuredData={structuredData}>
+  <article class="page-shell reader classic-reader">
+    <a class="back-link" href="/#classics"><span aria-hidden="true">←</span> 回到文學軌</a>
+    <header class="reader-heading">
+      <p class="scene-meta">文學軌 <span>{classic.stage}</span><span>{classicOriginLabels[classic.origin]}</span></p>
+      <h1 lang="en">{classic.titleEn}</h1>
+      <p class="reader-title-zh">{classic.title}</p>
+    </header>
+    <div class="reading-body">
+      <section class="article-source" aria-labelledby="source-title">
+        <h2 id="source-title">原作</h2>
+        <dl class="source-list">
+          <div><dt>作者</dt><dd lang="en">{classic.sourceWork.author}</dd></div>
+          <div><dt>書名</dt><dd lang="en">{classic.sourceWork.title}</dd></div>
+          <div><dt>出版年</dt><dd>{classic.sourceWork.published}</dd></div>
+          <div><dt>文字版本</dt><dd>{classicOriginLabels[classic.origin]}</dd></div>
+          {classic.rewrittenAt && <div><dt>改寫日期</dt><dd>{classic.rewrittenAt}</dd></div>}
+          <div><dt>原文版本</dt><dd><a href={classic.sourceWork.gutenberg.url}>Project Gutenberg #{classic.sourceWork.gutenberg.ebook}</a></dd></div>
+          <div><dt>取用日期</dt><dd>{classic.sourceWork.gutenberg.accessedAt}</dd></div>
+        </dl>
+      </section>
+      <section class="article-section" aria-labelledby="parts-title">
+        <h2 id="parts-title">節目錄</h2>
+        <ol class="classic-toc">
+          {classic.parts.map((part, index) => <li><a href={`${path}${index + 1}/`}><span>第 {index + 1} 節</span><span lang="en">{part.title}</span></a></li>)}
+        </ol>
+      </section>
+      {versions.length > 0 && <section class="article-section" aria-labelledby="versions-title"><h2 id="versions-title">同一原作的其他版本</h2><ul class="classic-versions">{versions.map((version) => <li><a href={`/classics/${version.id}/`}>{version.stage} {classicOriginLabels[version.origin]}：{version.title}</a></li>)}</ul></section>}
+    </div>
+  </article>
+</Layout>

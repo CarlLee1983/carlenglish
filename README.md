@@ -1,6 +1,6 @@
 # CarlEnglish
 
-看圖學生活英文的本地靜態網站。首頁先選初級、中級或高級，再從該級別的生活場景開始閱讀；目錄可搜尋中文、英文標題與主題，並依生活主題篩選。目前涵蓋兒童、國中、高中與家庭生活的 46 個場景，初級 27 篇、中級 12 篇、高級 7 篇。 首頁另有「新聞與貼文」文章入口，目前收錄 3 篇文章，沿用新聞軌／貼文軌與各自級別，提供翻譯、關鍵詞、來源標示與可展開的讀後提問參考答案。
+看圖學生活英文的本地靜態網站。首頁先選初級、中級或高級，再從該級別的生活場景開始閱讀；目錄可搜尋中文、英文標題與主題，並依生活主題篩選。目前涵蓋兒童、國中、高中與家庭生活的 46 個場景，初級 27 篇、中級 12 篇、高級 7 篇。首頁另有新聞與貼文文章，以及依 L1–L4 分組的文學軌。首篇經典是 L1 教學改寫《麥琪的禮物》，分三節閱讀，提供原作資訊與讀後提問。
 
 讀本可播放完整短文、常用短句與重點單字的本地 MP3。528 段引用音檔（46 篇短文、194 個短句、288 個單字）使用同一個 Kokoro `af_heart` 美式女聲合成。播放不會呼叫線上語音服務；一次只播放一段，點選另一段會停止原播放。短文可暫停、續播、從頭播放及停止；不會自動播放。播放失敗時會在頁面提示。需要 JavaScript，文章本身仍可在停用 JavaScript 時閱讀。
 
@@ -33,10 +33,11 @@ pnpm run test:extension
 - `pnpm-workspace.yaml`：指定原生工具的建置腳本政策；目前允許固定版本的 esbuild、workerd，fsevents 使用套件內附的可選 macOS binary。發布年齡例外只涵蓋遷移前已採用的 `wrangler@4.150.0` 與 `miniflare@5.20261006.2-beta`；其他套件及後續版本沿用 pnpm 的預設限制。升級相關依賴時需同步核對這些政策。
 - `content/scenes/*.json`：每個場景一份資料。
 - `content/articles/*.json`：每篇新聞／貼文文章一份資料，與場景分開驗證。
+- `content/classics/*.json`：每篇經典一份資料；新增合法資料檔即產生總覽、節頁、首頁卡片與 sitemap 項目。
 - `public/images/scenes/`：網站直接使用的預先生成圖片。
 - `public/audio/{words,phrases,stories}/`：網站直接播放的本地合成 MP3。
 - `content/audio/voice-profile.json`：固定聲線與生成設定。
-- `src/lib/scenes.ts`、`src/lib/articles.ts`：各自發現、驗證與取得場景及文章；`src/lib/validation.ts` 提供共用欄位檢查。
+- `src/lib/scenes.ts`、`src/lib/articles.ts`、`src/lib/classics.ts`：各自發現、驗證與取得場景、文章及經典；`src/lib/validation.ts` 提供共用欄位與跨類型 ID 檢查。
 - `src/lib/catalog.ts`：統一初／中／高級分組、主題與最多三篇同級推薦。
 - `src/lib/seo.ts`：分享圖片資訊、canonical、索引清單與 JSON-LD 安全輸出；`src/layouts/Layout.astro` 統一呈現中繼資料。
 - `src/pages/{sitemap.xml,robots.txt}.ts`：依內容產生 crawler 檔案；分享圖靜態端點使用建置用的 `sharp@0.35.5`。
@@ -45,6 +46,7 @@ pnpm run test:extension
 - `src/scripts/pronunciation.ts`：頁內音訊控制與錯誤狀態。
 - `src/scripts/reader-navigation.ts`：保留進入讀本前的搜尋與主題條件。
 - `src/pages/scenes/[id].astro`、`src/pages/articles/[id].astro`：依各自內容 ID 產生穩定路由與分享／索引資料。
+- `src/pages/classics/[id]/`：依經典資料產生總覽與每節的靜態頁面。
 - `tests/`：內容入口與瀏覽器行為測試。
 
 新增場景只要加入 JSON、圖片及所需音檔，執行內容驗證，再重新建置；完全相同的英文可重用既有音檔。不需修改版型、頁面、路由或清單。欄位與生成命令見 [內容維護說明](docs/content-guide.md)，分級與導覽行為見 [UI 導覽說明](docs/ui-navigation.md)，圖示、分享與搜尋資料見 [SEO／AEO 說明](docs/seo.md)，聲線與舊錄音來源見 [audio-sources.md](docs/audio-sources.md)。

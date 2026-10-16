@@ -11,11 +11,13 @@ const scenes = readdirSync(join(process.cwd(), 'content/scenes')).filter((name) 
   .map((name) => JSON.parse(readFileSync(join(process.cwd(), 'content/scenes', name), 'utf8')) as Scene);
 const articles = readdirSync(join(process.cwd(), 'content/articles')).filter((name) => name.endsWith('.json')).sort()
   .map((name) => JSON.parse(readFileSync(join(process.cwd(), 'content/articles', name), 'utf8')) as Article);
+const classics = readdirSync(join(process.cwd(), 'content/classics')).filter((name) => name.endsWith('.json')).sort()
+  .map((name) => JSON.parse(readFileSync(join(process.cwd(), 'content/classics', name), 'utf8')) as { id: string; parts: unknown[] });
 const pathFor = (scene: Scene) => `/scenes/${scene.id}/`;
 const articlePathFor = (article: Article) => `/articles/${article.id}/`;
 const paths = ['/', ...learningLevels.map((level) => `/levels/${level.id}/`), ...scenes.map(pathFor), ...articles.map(articlePathFor)];
 const populated = learningLevels.filter((level) => scenes.some((scene) => getLearningLevel(scene).id === level.id));
-const indexed = ['/', ...populated.map((level) => `/levels/${level.id}/`), ...scenes.map(pathFor), ...articles.map(articlePathFor)];
+const indexed = ['/', ...populated.map((level) => `/levels/${level.id}/`), ...scenes.map(pathFor), ...articles.map(articlePathFor), ...classics.flatMap((classic) => [`/classics/${classic.id}/`, ...classic.parts.map((_, index) => `/classics/${classic.id}/${index + 1}/`)])];
 const meta = (page: Page, key: string, value: string) => page.locator(`head meta[${key}="${value}"]`);
 const jsonLd = async (page: Page) => (await page.locator('head script[type="application/ld+json"]').allTextContents())
   .flatMap((text) => {

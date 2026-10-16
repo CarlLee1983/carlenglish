@@ -205,6 +205,11 @@ test('a large mixed-level catalog builds and serves complete routes without chan
       ...allScenes.map((scene) => `${site}/scenes/${scene.id}/`),
       ...readdirSync(join(tempRoot, 'content/articles')).filter((name) => name.endsWith('.json')).sort()
         .map((name) => `${site}/articles/${JSON.parse(readFileSync(join(tempRoot, 'content/articles', name), 'utf8')).id}/`),
+      ...readdirSync(join(tempRoot, 'content/classics')).filter((name) => name.endsWith('.json')).sort()
+        .flatMap((name) => {
+          const classic = JSON.parse(readFileSync(join(tempRoot, 'content/classics', name), 'utf8'));
+          return [`${site}/classics/${classic.id}/`, ...classic.parts.map((_, index) => `${site}/classics/${classic.id}/${index + 1}/`)];
+        }),
     ];
     assert.deepEqual(new Set(locs), new Set(expectedUrls));
     assert.equal(locs.length, expectedUrls.length);

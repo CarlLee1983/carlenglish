@@ -545,6 +545,14 @@ ul { padding: 0; margin: 0; list-style: none; }
 .answer { margin-top: 10px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius-sm); box-shadow: var(--shadow-sm); overflow: hidden; }
 .answer summary { min-height: 44px; padding: 12px 18px; display: flex; justify-content: space-between; align-items: center; list-style: none; cursor: pointer; font-size: 15px; font-weight: 500; transition: background-color 160ms ease; }
 .answer-text { padding: 0 18px 18px; color: var(--muted); font-size: 16px; line-height: 1.85; }
+.classics-section { margin-top: 64px; }
+.classic-group { margin-top: 28px; }
+.classic-toc, .classic-versions { list-style: none; padding: 0; margin-top: 18px; display: grid; gap: 12px; }
+.classic-toc a, .classic-versions a { display: flex; flex-wrap: wrap; gap: 8px 16px; padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--radius-sm); color: var(--accent); text-decoration: none; overflow-wrap: anywhere; }
+.classic-toc a span:first-child { color: var(--muted); }
+.classic-intro { margin-top: 24px; }
+.classic-intro p { margin-top: 12px; line-height: 1.8; }
+.classic-story p { white-space: pre-line; overflow-wrap: anywhere; }
 
 /* 複習專區 */
 .review-page { max-width: 640px; padding-block: 28px 56px; }
