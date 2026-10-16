@@ -41,6 +41,7 @@ const structuredData = [
       </section>
       <section class="article-section" aria-labelledby="parts-title">
         <h2 id="parts-title">節目錄</h2>
+        <p data-classic-resume-hint data-classic-id={classic.id} data-part-count={classic.parts.length} hidden><a href={`${path}1/`}></a></p>
         <ol class="classic-toc">
           {classic.parts.map((part, index) => <li><a href={`${path}${index + 1}/`}><span>第 {index + 1} 節</span><span lang="en">{part.title}</span></a></li>)}
         </ol>
@@ -48,4 +49,5 @@ const structuredData = [
       {versions.length > 0 && <section class="article-section" aria-labelledby="versions-title"><h2 id="versions-title">同一原作的其他版本</h2><ul class="classic-versions">{versions.map((version) => <li><a href={`/classics/${version.id}/`}>{version.stage} {classicOriginLabels[version.origin]}：{version.title}</a></li>)}</ul></section>}
     </div>
   </article>
+  <script>import '../../../scripts/classic-resume';</script>
 </Layout>
