@@ -1,0 +1,72 @@
+{
+  "id": "satellite-fire-blind-spots-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "衛星沒標出火，森林就沒在燒嗎？",
+  "titleEn": "Smoke hides some Amazon fires from satellites",
+  "source": {
+    "outlet": "NASA Earth Observatory",
+    "title": "Fires Arrive in the Amazon Rainforest",
+    "url": "https://science.nasa.gov/earth/earth-observatory/fires-arrive-in-the-amazon-rainforest/",
+    "publishedAt": "2026-10-15",
+    "accessedAt": "2026-10-16",
+    "eventDate": "2026-10-12",
+    "rewrittenAt": "2026-10-16"
+  },
+  "background": "閱讀目標：看懂 However 前後的轉折，分清「沒有偵測到」與「確定不存在」。NASA 於 2026 年 10 月 15 日說明亞馬遜火災觀測；事件日期採本文提到的 10 月 12 日衛星影像拍攝日，不是所有火災的起火日。以下依當時報導練習閱讀，不提供即時災情或避難指引。",
+  "paragraphs": [
+    {
+      "english": "Smoke covered parts of the Amazon rainforest in a satellite image taken on October 12. NASA described the image in an October 15 report. The agency said fire activity had increased in the central and eastern Amazon since September. Satellites help scientists follow these fires across a large area.",
+      "translation": "10 月 12 日拍攝的一張衛星影像中，煙霧覆蓋了亞馬遜雨林的部分地區。NASA 在 10 月 15 日的報導中介紹這張影像。該機構表示，自 9 月以來，亞馬遜中部與東部的火災活動增加。衛星協助科學家追蹤這片廣大地區的火災。"
+    },
+    {
+      "english": "However, a satellite cannot always see a fire clearly. Thick smoke, clouds and trees can hide the heat signal that its sensors need. Some fires burn below the treetops. A sensor may miss them even while they continue to burn. A low number of detections can therefore leave part of the picture missing.",
+      "translation": "不過，衛星並非總能清楚偵測到火災。濃煙、雲層與樹木可能遮住感測器需要接收的熱訊號。有些火在樹冠下方燃燒，即使仍在燒，感測器也可能漏掉。因此，偵測數量偏低時，可能沒有呈現完整情況。"
+    },
+    {
+      "english": "Researcher Shane Coffield is examining additional satellite data to find possible fires missing from standard reports. He plans to share their locations with other researchers. These possible fires still need careful checking. An empty spot on a fire map cannot tell us on its own whether a fire is burning there.",
+      "translation": "研究人員 Shane Coffield 正在檢視額外的衛星資料，尋找標準報告可能漏掉的火災，並計畫把位置分享給其他研究人員。這些可能的火災仍需要仔細查核。單憑火災地圖上的空白，無法判斷該處是否正在燃燒。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "satellite",
+      "translation": "衛星"
+    },
+    {
+      "english": "sensors",
+      "translation": "感測器"
+    },
+    {
+      "english": "detections",
+      "translation": "偵測到的紀錄"
+    },
+    {
+      "english": "additional",
+      "translation": "額外的"
+    },
+    {
+      "english": "whether",
+      "translation": "是否"
+    }
+  ],
+  "questions": [
+    {
+      "question": "這篇的重點是「衛星完全沒有用」嗎？請用一句中文概括主旨。",
+      "answer": "不是。衛星能協助追蹤火災，但煙、雲與樹木可能讓它漏掉一些火，因此解讀偵測結果時要考慮限制。"
+    },
+    {
+      "question": "第二段開頭的 However 轉折了第一段的哪個想法？",
+      "answer": "第一段說衛星能協助科學家追蹤大片地區的火災；However 接著指出衛星並非總能清楚偵測。它是補上限制，不是否定衛星的所有用途。"
+    },
+    {
+      "question": "不查字典，如何用附近的句子理解 detections？",
+      "answer": "前面提到感測器接收熱訊號，也可能 miss 一些火災。因此 detections 指感測器偵測到的紀錄，不等於現場所有火災的總數。"
+    },
+    {
+      "question": "地圖某處沒有火災標記，可以推論「那裡一定沒有火」或「那裡一定有火」嗎？",
+      "answer": "兩者都不能。第二段說感測器可能漏掉火災，第三段最後一句則直接限制兩種推論。需要其他觀測或查核，不能只靠空白標記下結論。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "museum-diwali-evening-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "博物館的夜晚，從看展到一起跳舞",
+  "titleEn": "Museum to welcome evening visitors for Diwali",
+  "source": {
+    "outlet": "Smithsonian National Museum of Asian Art",
+    "title": "National Museum of Asian Art Opens After Hours To Celebrate 2026 Diwali",
+    "url": "https://asia.si.edu/about/press/releases/diwali-2026/",
+    "publishedAt": "2026-10-15",
+    "accessedAt": "2026-10-16",
+    "eventDate": "2026-11-06",
+    "rewrittenAt": "2026-10-16"
+  },
+  "background": "建議先讀這篇，再讀「衛星沒標出火，森林就沒在燒嗎？」。閱讀目標：追蹤 they 指的是誰，找出最後一段如何補充參加條件。Diwali 常譯為排燈節；本文介紹美國國立亞洲藝術博物館的一場活動，不代表各地都以相同方式過節。10 月 15 日是公告日；11 月 6 日是預定活動日，本文不是活動實況。",
+  "paragraphs": [
+    {
+      "english": "A museum visit will not have to end in the afternoon on November 6. The National Museum of Asian Art in Washington, D.C., plans an evening celebration of Diwali. In its October 15 announcement, the museum says visitors can join activities from 5 to 9:30 p.m. The program will include art, music and dance.",
+      "translation": "11 月 6 日，參觀博物館不必在下午結束。位於華盛頓特區的國立亞洲藝術博物館計畫舉辦排燈節夜間慶祝活動。館方在 10 月 15 日的公告中表示，民眾可在下午 5 點至晚上 9 點半參與。活動將包括藝術、音樂與舞蹈。"
+    },
+    {
+      "english": "Visitors can explore the galleries and make colorful patterns in an arts-and-crafts activity. They can also hear live music and watch dance performances. At 7:30 p.m., the outdoor plaza will become a dance floor. A DJ will provide music while projected lights add color to the space.",
+      "translation": "參觀者可以逛展廳，並在手作活動中製作繽紛的圖案。他們也能聽現場音樂、欣賞舞蹈表演。晚上 7 點半，戶外廣場將成為舞池。DJ 將播放音樂，投影燈光則為現場增添色彩。"
+    },
+    {
+      "english": "The museum recommends registering, but visitors do not have to register to attend. Admission to the museum is free. However, food at the festival will be available to buy. Visitors who want a meal should therefore plan for that extra cost.",
+      "translation": "館方建議事先登記，但參加並不強制要求登記。博物館免費入場，不過活動現場的餐飲需要購買。因此，想在現場用餐的人應把這筆額外費用算進去。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "celebration",
+      "translation": "慶祝活動"
+    },
+    {
+      "english": "galleries",
+      "translation": "展廳"
+    },
+    {
+      "english": "plaza",
+      "translation": "廣場"
+    },
+    {
+      "english": "register",
+      "translation": "登記"
+    },
+    {
+      "english": "admission",
+      "translation": "入場"
+    }
+  ],
+  "questions": [
+    {
+      "question": "用一句中文說出這則消息的重點，不必列出所有表演。",
+      "answer": "國立亞洲藝術博物館計畫在 11 月 6 日延長到晚間舉辦排燈節活動，讓民眾參與藝術、音樂與舞蹈。第一段提供主旨；後兩段補充活動內容與參加條件。"
+    },
+    {
+      "question": "第二段的 They 指誰？哪個前文能幫你確認？",
+      "answer": "指 Visitors，也就是參觀者。前一句以 Visitors 為主詞，下一句的 They 延續同一群人，不是指展廳或圖案。"
+    },
+    {
+      "question": "最後一段如何補充前兩段？請指出一項參加條件與一項費用資訊。",
+      "answer": "前兩段說活動時間與內容；最後一段補充實際參加方式。建議登記但不強制；入場免費，但餐飲另外付費。"
+    },
+    {
+      "question": "朋友說：「免費入場，所以晚餐也免費。」你會用哪兩句指出問題？",
+      "answer": "「Admission to the museum is free.」以及「However, food at the festival will be available to buy.」However 引出費用上的差別，free 只修飾入場，不能延伸成餐飲也免費。"
+    }
+  ]
+}
