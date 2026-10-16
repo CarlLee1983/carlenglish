@@ -2,7 +2,7 @@ import type { CardInput } from 'ts-fsrs';
 import { isInternalHref, isRecord } from './guards.ts';
 
 export interface CardContent { english: string; meaning: string; example: string | null; audioSrc: string | null }
-export const cardSourceKinds = ['scene', 'article', 'wordlist'] as const;
+export const cardSourceKinds = ['scene', 'article', 'wordlist', 'classic'] as const;
 export type CardSourceKind = (typeof cardSourceKinds)[number];
 export type Grade = 'again' | 'good';
 export interface CardSource { kind: CardSourceKind; id: string; title: string; href: string }
@@ -49,7 +49,8 @@ export function cardKey(content: Pick<CardContent, 'english' | 'meaning'>): stri
   return `${normalize(content.english)}\n${normalize(content.meaning)}`;
 }
 
-export const sameSource = (a: CardSource, b: CardSource) => a.kind === b.kind && a.id === b.id;
+export const sameSource = (a: CardSource, b: CardSource) => a.kind === b.kind && a.id === b.id
+  && (a.kind !== 'classic' || a.href === b.href);
 
 export const defaultDailyNewLimit = 10;
 export const minDailyNewLimit = 1;

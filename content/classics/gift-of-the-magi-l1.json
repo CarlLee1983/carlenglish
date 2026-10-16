@@ -31,7 +31,8 @@
       ],
       "annotations": [
         { "english": "hair", "translation": "頭髮" },
-        { "english": "belonged", "translation": "屬於", "note": "belong to 表示某物屬於某人。" }
+        { "english": "belonged", "translation": "屬於", "note": "belong to 表示某物屬於某人。" },
+        { "english": "gift", "translation": "禮物" }
       ],
       "questions": [
         { "question": "Della 遇到什麼困難？她想達成什麼事？", "answer": "她只有一美元八十七美分，卻想買一份特別的聖誕禮物給 Jim。" },
@@ -52,7 +53,8 @@
       "annotations": [
         { "english": "chain", "translation": "錶鍊" },
         { "english": "silver chain", "translation": "銀鍊" },
-        { "english": "proudly", "translation": "驕傲地" }
+        { "english": "proudly", "translation": "驕傲地" },
+        { "english": "gift", "translation": "禮物" }
       ],
       "questions": [
         { "question": "Della 為什麼選銀鍊作為禮物？", "answer": "Jim 的金錶很漂亮，但舊錶鍊不相稱；她希望他能自在地拿出金錶。" },
@@ -72,7 +74,8 @@
       ],
       "annotations": [
         { "english": "combs", "translation": "髮梳" },
-        { "english": "precious", "translation": "珍貴的" }
+        { "english": "precious", "translation": "珍貴的" },
+        { "english": "could", "translation": "可能、能夠（依語境判斷）", "note": "此處表示能夠。" }
       ],
       "questions": [
         { "question": "Jim 看見 Della 的短髮後，怎麼回應她的擔心？", "answer": "他擁抱她，說自己仍一樣愛她。" },
