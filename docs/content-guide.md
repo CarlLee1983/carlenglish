@@ -46,6 +46,10 @@ node scripts/generate-audio.mjs .scratch/illustrated-english/unified-voice/.venv
 
 文章的每個關鍵詞（`glossary`）必須完整落在同一個句子裡：建置時依序把段落與貼文切句，取第一個含有該詞的句子當作加入複習時的字卡例句。詞跨過句號或換行就找不到例句，字卡會沒有例句。關鍵詞比對詞首須是單字邊界、詞尾不限，所以 `eye` 對得上 `eyes`，`art` 對不上 `start`。
 
+## 經典
+
+經典以完整故事分節閱讀，資料獨立放在 `content/classics/`，不使用文章的雙語段落。L1–L2 是教學改寫，L3–L4 是公版原文；來源、注釋、提問、版本互連與續讀的契約見 [經典內容維護](classics.md)。新增合法 JSON 後，首頁、總覽、每節與 sitemap 會自動產生。
+
 ## 詞表
 
 詞表是獨立於場景與文章的內容類型（ADR 0001 的做法），資料放在 `content/wordlists/<id>/`，每份一個目錄：`wordlist.json`、授權檔 `LICENSE`（CC BY-SA 4.0 全文）與出處說明 `NOTICE.md`。網站程式碼的授權不受影響。

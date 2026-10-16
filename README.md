@@ -82,3 +82,5 @@ gh secret set CLOUDFLARE_API_TOKEN --repo CarlLee1983/carlenglish
 ## 生活協商閱讀單元
 
 新增三篇原創中級至中高級生活讀本：釐清故障耳機的退換方式、有條件地更改預約、協調共同預算與支出界線。沿用 8 句雙語短文、5 個短句、7 個單字及固定聲線；不新增頁面互動。建議順序、9 題練習與分開的參考答案見 [生活協商學習說明](docs/negotiation-study-guide.md)，[本批製作與驗證](docs/negotiation-verification.md) 記錄檢查範圍與限制。
+
+經典的欄位、原文取用與切節、注釋字卡及續讀資料維護方式見 [經典內容維護](docs/classics.md)。
