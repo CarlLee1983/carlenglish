@@ -14,7 +14,7 @@
     "build": "pnpm run validate:content && astro build",
     "preview": "astro preview --host 127.0.0.1",
     "deploy": "pnpm run verify && wrangler deploy",
-    "test:content": "node --test tests/content.test.mjs tests/catalog.test.mjs tests/articles.test.mjs tests/classics.test.mjs tests/classics-annotations.test.mjs tests/sentences.test.mjs tests/seo.test.mjs tests/wordlists.test.mjs tests/review-deck.test.mjs tests/review-wordlist.test.mjs tests/review-storage.test.mjs tests/home-screen.test.mjs",
+    "test:content": "node --test tests/content.test.mjs tests/catalog.test.mjs tests/articles.test.mjs tests/classics.test.mjs tests/classics-annotations.test.mjs tests/classics-monkeys-paw.test.mjs tests/sentences.test.mjs tests/seo.test.mjs tests/wordlists.test.mjs tests/review-deck.test.mjs tests/review-wordlist.test.mjs tests/review-storage.test.mjs tests/home-screen.test.mjs",
     "test:browser": "playwright test",
     "test:extension": "node --test tests/extension.test.mjs",
     "verify": "pnpm run check && pnpm run validate:content && pnpm run test:content && pnpm run build && pnpm run test:browser && pnpm run test:extension"
