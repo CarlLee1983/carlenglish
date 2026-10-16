@@ -1,4 +1,5 @@
 import { expect, test } from '@playwright/test';
+import { loadClassics } from '../src/lib/classics';
 
 const overview = '/classics/gift-of-the-magi-l1/';
 
@@ -76,5 +77,24 @@ test('classic pages are indexable and fit 320px', async ({ page, request }) => {
     await expect(page.locator('head link[rel="canonical"]')).toHaveAttribute('href', `https://carlenglish.gravito.dev${path}`);
     await page.setViewportSize({ width: 320, height: 700 });
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
+  }
+});
+
+test('every published classic overview and part is indexable and fits 320px', async ({ page, request }) => {
+  test.setTimeout(60_000);
+  await page.setViewportSize({ width: 320, height: 700 });
+  const sitemap = await (await request.get('/sitemap.xml')).text();
+  for (const classic of loadClassics()) {
+    const overviewPath = `/classics/${classic.id}/`;
+    const paths = [overviewPath, ...classic.parts.map((_, index) => `${overviewPath}${index + 1}/`)];
+    for (const path of paths) {
+      expect(sitemap).toContain(`https://carlenglish.gravito.dev${path}`);
+      const response = await page.goto(path);
+      expect(response?.status()).toBe(200);
+      await expect(page.locator('head link[rel="canonical"]')).toHaveAttribute('href', `https://carlenglish.gravito.dev${path}`);
+      await expect(page.locator('head title')).toContainText(classic.title);
+      await expect(page.locator('head meta[name="description"]')).toHaveAttribute('content', /\S/);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth), path).toBeLessThanOrEqual(320);
+    }
   }
 });
