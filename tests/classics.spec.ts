@@ -69,17 +69,6 @@ test('each part shows English body, questions and usable navigation', async ({ p
   await expect(page).toHaveURL(new RegExp(`${overview}$`));
 });
 
-test('classic pages are indexable and fit 320px', async ({ page, request }) => {
-  const sitemap = await (await request.get('/sitemap.xml')).text();
-  for (const path of [overview, `${overview}1/`, `${overview}2/`, `${overview}3/`]) {
-    expect(sitemap).toContain(`https://carlenglish.gravito.dev${path}`);
-    await page.goto(path);
-    await expect(page.locator('head link[rel="canonical"]')).toHaveAttribute('href', `https://carlenglish.gravito.dev${path}`);
-    await page.setViewportSize({ width: 320, height: 700 });
-    expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(320);
-  }
-});
-
 test('every published classic overview and part is indexable and fits 320px', async ({ page, request }) => {
   test.setTimeout(60_000);
   await page.setViewportSize({ width: 320, height: 700 });

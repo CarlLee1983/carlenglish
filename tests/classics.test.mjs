@@ -69,8 +69,11 @@ test('same source work and stage cannot duplicate; IDs cannot collide across typ
   assert.equal(crossTypeDuplicateIds([{ id: 'gift', source: 's' }], [], [], [{ id: 'gift', source }]).length, 1);
   assert.equal(crossTypeDuplicateIds([], [], [{ id: 'gift', source: 'w' }], [{ id: 'gift', source }]).length, 1);
 });
-test('the published first classic passes the same validation', () => {
-  assert.ok(loadClassics().some((classic) => classic.id === 'gift-of-the-magi-l1'));
+test('all six initial classics pass the same validation', () => {
+  const classics = loadClassics();
+  for (const id of ['gift-of-the-magi-l1', 'gift-of-the-magi-l3', 'happy-prince-l1', 'happy-prince-l3', 'monkeys-paw-l2', 'scandal-in-bohemia-l4']) {
+    assert.ok(classics.some((classic) => classic.id === id), `missing initial classic: ${id}`);
+  }
 });
 test('the normal build rejects a classic ID already used by any other content type', () => {
   const project = process.cwd();
