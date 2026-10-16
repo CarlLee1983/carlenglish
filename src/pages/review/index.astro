@@ -5,7 +5,7 @@ import { loadWordListsOnce } from '../../lib/wordlists';
 
 const wordLists = loadWordListsOnce();
 ---
-<Layout title="複習" description="複習你從場景重點單字、文章關鍵詞加入的字卡，或訂閱詞表發出的新字卡。" noindex>
+<Layout title="複習" description="複習你從場景、文章、經典注釋加入的字卡，或訂閱詞表發出的新字卡。" noindex>
   <section class="page-shell review-page" data-review-root>
     <header class="review-heading">
       <p class="eyebrow">字卡複習</p>
@@ -30,12 +30,12 @@ const wordLists = loadWordListsOnce();
       <p>搬完之後，請在主畫面 App 裡閱讀和加入字卡。</p>
       <button type="button" class="review-button" data-hint-dismiss aria-label="關閉說明">關閉</button>
     </section>
-    <noscript><p class="review-message">複習功能需要啟用 JavaScript；場景與文章仍可正常閱讀。</p></noscript>
+    <noscript><p class="review-message">複習功能需要啟用 JavaScript；場景、文章與經典仍可正常閱讀。</p></noscript>
     <p class="review-message review-error" data-review-error role="alert" hidden></p>
     <p class="review-message review-warning" data-review-warning role="status" hidden></p>
     <div class="review-message" data-review-empty hidden>
       <h2>還沒有字卡</h2>
-      <p>到任一篇<a href="/">場景</a>的「重點單字」或文章的「關鍵詞」，按詞旁的「加入複習」，那個詞就會出現在這裡；也可以在下方訂閱一份詞表，讓它每天發出新字卡。</p>
+      <p>到任一篇<a href="/">場景</a>的「重點單字」、文章的「關鍵詞」或經典的「注釋」，按詞旁的「加入複習」，那個詞就會出現在這裡；也可以在下方訂閱一份詞表，讓它每天發出新字卡。</p>
       <p data-review-standalone-hint hidden>從瀏覽器搬過來？在這裡匯入備份。</p>
     </div>
     <div class="review-message" data-review-done hidden>
