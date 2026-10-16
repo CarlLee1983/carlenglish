@@ -67,7 +67,7 @@ pnpm run test:extension
 
 2026-10-14 的 UI／favicon／SEO 版本 `701b6750-4874-47be-9895-340116532e5f` 從 `ui/level-entry-catalog` worktree 直接部署，整合的教材基底為 `354d919a`。程式已整理於 `ui/level-entry-catalog` 分支的 PR；合併前，`main` 自動部署會使用主分支版本。驗證與回復方式見 [發布紀錄](docs/implementation.md#2026-10-14-分級介面與-seo-整合發布)。
 
-GitHub Actions 在 pull request 及 `main` 推送執行驗證；首筆提交的 [CI 已通過](https://github.com/CarlLee1983/carlenglish/actions/runs/38504543453)。首次上線使用本機既有的 Cloudflare 授權完成。GitHub 自動部署已啟用：repository secrets `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN` 與 variable `CLOUDFLARE_DEPLOY_ENABLED=true` 均已設定，`main` 推送或手動啟動 `Deploy` 會先執行 `pnpm run verify` 再部署；[首次 Actions 部署](https://github.com/CarlLee1983/carlenglish/actions/runs/38509015094)已成功。
+GitHub Actions 在 pull request 執行 CI 完整驗證。`main` 推送時，若 `CLOUDFLARE_DEPLOY_ENABLED=true`，由 Deploy 執行完整驗證再發布，CI 的 `verify` job 跳過，避免同一筆提交重複跑兩套檢查；停用自動部署或未設定該變數時，仍由 CI 驗證 `main`。這項分工減少重複運算，不會省略部署前的測試，也不代表單次部署時間減半。首筆提交的 [CI 已通過](https://github.com/CarlLee1983/carlenglish/actions/runs/38504543453)。首次上線使用本機既有的 Cloudflare 授權完成。GitHub 自動部署已啟用：repository secrets `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN` 與 variable `CLOUDFLARE_DEPLOY_ENABLED=true` 均已設定，`main` 推送或手動啟動 `Deploy` 會先執行 `pnpm run verify` 再部署；[首次 Actions 部署](https://github.com/CarlLee1983/carlenglish/actions/runs/38509015094)已成功。
 
 部署 token 是專用 custom user token（`carlenglish-github-deploy`），權限為 Account 的 Workers Scripts Edit、Account Settings Read，以及 Zone 的 Workers Routes Edit、Zone Read；Account Resources 限定網站所屬帳號，Zone Resources 限定 `gravito.dev`，不設 IP 限制（GitHub Actions IP 不固定）。`cf` CLI 的登入無法管理 token（403，9109），須在 [Cloudflare API Tokens](https://dash.cloudflare.com/profile/api-tokens) 建立。更換 token 時在自己的終端執行以下指令，於隱藏提示輸入新 token：
 
