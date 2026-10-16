@@ -2,6 +2,7 @@ import { readFileSync } from 'node:fs';
 import { expect, test, type Page } from '@playwright/test';
 
 const overview = '/classics/gift-of-the-magi-l1/';
+const originalOverview = '/classics/gift-of-the-magi-l3/';
 const resumeLink = (page: Page) => page.getByRole('link', { name: /^繼續讀第 \d+ 節$/ });
 
 test('opening a part offers a direct link back to the last opened part of that classic', async ({ page }) => {
@@ -14,6 +15,17 @@ test('opening a part offers a direct link back to the last opened part of that c
   await page.reload();
   await resumeLink(page).click();
   await expect(page).toHaveURL(new RegExp(`${overview}2/$`));
+});
+
+test('rewrite and original remember their own last opened parts', async ({ page }) => {
+  await page.goto(`${overview}2/`);
+  await page.goto(originalOverview);
+  await expect(resumeLink(page)).toHaveCount(0);
+  await page.goto(`${originalOverview}1/`);
+  await page.goto(originalOverview);
+  await expect(resumeLink(page)).toHaveAttribute('href', `${originalOverview}1/`);
+  await page.goto(overview);
+  await expect(resumeLink(page)).toHaveAttribute('href', `${overview}2/`);
 });
 
 test('Back and Forward refresh the resume link and last opened part', async ({ page }) => {
