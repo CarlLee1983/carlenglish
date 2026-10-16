@@ -553,6 +553,10 @@ ul { padding: 0; margin: 0; list-style: none; }
 .classic-intro { margin-top: 24px; }
 .classic-intro p { margin-top: 12px; line-height: 1.8; }
 .classic-story p { white-space: pre-line; overflow-wrap: anywhere; }
+.classic-annotation-link { color: inherit; text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 1.5px; text-underline-offset: 4px; }
+.classic-annotation-overlap { display: inline-block; color: var(--accent); text-decoration: none; vertical-align: super; font-size: .65em; line-height: 1; }
+.classic-annotation-overlap::after { content: "†"; }
+.classic-annotation-return { color: var(--accent); font-size: 14px; }
 
 /* 複習專區 */
 .review-page { max-width: 640px; padding-block: 28px 56px; }

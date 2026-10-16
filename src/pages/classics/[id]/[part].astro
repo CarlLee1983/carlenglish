@@ -1,5 +1,6 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
+import { annotationSegments } from '../../../lib/classic-annotations';
 import { classicOriginLabels, loadClassics, otherVersions, type Classic } from '../../../lib/classics';
 import { breadcrumbData, canonicalUrl } from '../../../lib/seo';
 export function getStaticPaths() {
@@ -9,6 +10,8 @@ export function getStaticPaths() {
 interface Props { classic: Classic; classics: Classic[]; number: number }
 const { classic, classics, number } = Astro.props;
 const part = classic.parts[number - 1];
+const paragraphs = annotationSegments(part.paragraphs, part.annotations);
+const linkedAnnotations = new Set(paragraphs.flatMap((segments) => segments.flatMap((segment) => [segment.annotationIndex, ...(segment.overlappingAnnotationIndices ?? [])].filter((index) => index !== undefined))));
 const overviewPath = `/classics/${classic.id}/`;
 const path = `${overviewPath}${number}/`;
 const url = canonicalUrl(path, Astro.site);
@@ -25,8 +28,8 @@ const structuredData = [
     <header class="reader-heading"><p class="scene-meta">{classic.stage}<span>{classicOriginLabels[classic.origin]}</span><span>第 {number}／{classic.parts.length} 節</span></p><h1 lang="en">{part.title}</h1><p class="reader-title-zh">{classic.title}</p></header>
     <div class="reading-body">
       <section class="article-section classic-intro" aria-labelledby="intro-title"><h2 id="intro-title">閱讀導讀</h2><p>{part.intro}</p></section>
-      <section class="story-section" aria-labelledby="body-title"><h2 id="body-title">英文正文</h2><div class="english-story classic-story" lang="en">{part.paragraphs.map((paragraph) => <p>{paragraph}</p>)}</div></section>
-      {part.annotations.length > 0 && <section class="article-section" aria-labelledby="annotations-title"><h2 id="annotations-title">注釋</h2><ol class="glossary-list">{part.annotations.map((item) => <li><span lang="en">{item.english}</span> — {item.translation}{item.note && <p>{item.note}</p>}</li>)}</ol></section>}
+      <section class="story-section" aria-labelledby="body-title"><h2 id="body-title">英文正文</h2><div class="english-story classic-story" lang="en">{paragraphs.map((segments) => <p>{segments.map((segment) => segment.annotationIndex === undefined ? segment.text : <><a class="classic-annotation-link" id={`annotation-source-${segment.annotationIndex + 1}`} href={`#annotation-${segment.annotationIndex + 1}`} aria-label={`查看注釋：${part.annotations[segment.annotationIndex].english}`}>{segment.text}</a>{segment.overlappingAnnotationIndices?.map((index) => <a class="classic-annotation-overlap" id={`annotation-source-${index + 1}`} href={`#annotation-${index + 1}`} aria-label={`查看注釋：${part.annotations[index].english}`}></a>)}</>)}</p>)}</div></section>
+      {part.annotations.length > 0 && <section class="article-section" aria-labelledby="annotations-title"><h2 id="annotations-title">注釋</h2><ol class="glossary-list">{part.annotations.map((item, index) => <li id={`annotation-${index + 1}`}><span lang="en">{item.english}</span> — {item.translation}{item.note && <p>{item.note}</p>}{linkedAnnotations.has(index) && <a class="classic-annotation-return" href={`#annotation-source-${index + 1}`} aria-label={`返回正文：${item.english}`}>返回正文 ↑</a>}</li>)}</ol></section>}
       <section class="article-section" aria-labelledby="questions-title"><h2 id="questions-title">讀後提問</h2><p class="section-hint">先用中文回答，再打開參考答案對照。</p><ol class="question-list">{part.questions.map((item) => <li><p class="question-text">{item.question}</p><details class="answer"><summary aria-label={`查看參考答案：${item.question}`}>查看參考答案<span class="disclosure-symbol" aria-hidden="true">+</span></summary><p class="answer-text">{item.answer}</p></details></li>)}</ol></section>
       {part.wholeQuestions && <section class="article-section" aria-labelledby="whole-title"><h2 id="whole-title">全篇回顧</h2><ol class="question-list">{part.wholeQuestions.map((item) => <li><p class="question-text">{item.question}</p><details class="answer"><summary aria-label={`查看參考答案：${item.question}`}>查看參考答案<span class="disclosure-symbol" aria-hidden="true">+</span></summary><p class="answer-text">{item.answer}</p></details></li>)}</ol></section>}
       <nav class="reader-navigation classic-navigation" aria-label="節導覽"><ul>

@@ -29,7 +29,10 @@
         "“Please cut it now,” said Della.",
         "Soon Della was back on the street. Her head felt light, and her pocket held twenty dollars. She had two hours to find the right gift for Jim. She did not stop to think about how different she would look when he came home."
       ],
-      "annotations": [],
+      "annotations": [
+        { "english": "hair", "translation": "頭髮" },
+        { "english": "belonged", "translation": "屬於", "note": "belong to 表示某物屬於某人。" }
+      ],
       "questions": [
         { "question": "Della 遇到什麼困難？她想達成什麼事？", "answer": "她只有一美元八十七美分，卻想買一份特別的聖誕禮物給 Jim。" },
         { "question": "她怎麼解決這個困難？她為此放棄了什麼？", "answer": "她把自己的長髮賣了二十美元，放棄了她與 Jim 都珍惜的頭髮。" },
@@ -46,7 +49,11 @@
         "At home, Della worked on her short hair. She made small curls and looked in the mirror. She almost did not know the woman she saw. Then she made dinner and waited by the door. She told herself that Jim loved her, and that hair would grow again.",
         "At seven o'clock, she heard his steps on the stairs. Della stood very still. She hoped he would understand why she had sold her hair. Before the door opened, she whispered a little wish: “Please let him think I am still pretty.”"
       ],
-      "annotations": [],
+      "annotations": [
+        { "english": "chain", "translation": "錶鍊" },
+        { "english": "silver chain", "translation": "銀鍊" },
+        { "english": "proudly", "translation": "驕傲地" }
+      ],
       "questions": [
         { "question": "Della 為什麼選銀鍊作為禮物？", "answer": "Jim 的金錶很漂亮，但舊錶鍊不相稱；她希望他能自在地拿出金錶。" },
         { "question": "買完禮物後，Della 為什麼又擔心起來？", "answer": "她擔心短髮會讓 Jim 覺得她不再漂亮。" },
@@ -63,7 +70,10 @@
         "Jim sat down and smiled gently. “Let's keep our gifts for now,” he said. “I sold my watch to buy your combs.” Della looked at him, and then they both laughed. They had each given up their most precious thing for the other person.",
         "Long ago, wise people brought gifts to a child at Christmas. Della and Jim did not have much money. Their gifts could not be used yet. But each had thought first of the other. The story calls them wise because of the love behind their gifts."
       ],
-      "annotations": [],
+      "annotations": [
+        { "english": "combs", "translation": "髮梳" },
+        { "english": "precious", "translation": "珍貴的" }
+      ],
       "questions": [
         { "question": "Jim 看見 Della 的短髮後，怎麼回應她的擔心？", "answer": "他擁抱她，說自己仍一樣愛她。" },
         { "question": "兩人的禮物為什麼都暫時用不上？", "answer": "Della 賣了頭髮，暫時用不上髮梳；Jim 賣了金錶，暫時用不上銀鍊。" },
