@@ -1,0 +1,72 @@
+{
+  "id": "mars-practice-life-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "在地球練習火星生活",
+  "titleEn": "A year of Mars practice on Earth",
+  "source": {
+    "outlet": "NASA",
+    "title": "NASA’s Simulated Mars Crew Marks One Year Inside Habitat",
+    "url": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/",
+    "publishedAt": "2026-10-19",
+    "accessedAt": "2026-10-20",
+    "eventDate": "2026-10-19",
+    "rewrittenAt": "2026-10-20"
+  },
+  "background": "建議接在「山坡變色了，原因是什麼？」之後，也可獨立閱讀。閱讀目標：辨認模擬與真實的差別，以及 could 所保留的不確定性。N2 不代表讀者已進階。CHAPEA 是 NASA 在休士頓進行的地面模擬研究；本篇依主辦機構的 2026 年 10 月 19 日進度報導改寫，並非獨立驗證其研究成效。事件日期採滿一年的日期，預定離艙日仍是未來計畫。",
+  "paragraphs": [
+    {
+      "english": "Four people have spent a year living as a team in a special building in Houston. They are part of a NASA study called CHAPEA. Their home is on Earth, but their daily work imitates parts of a Mars mission. They entered the building on October 19, 2025.",
+      "translation": "四個人已在休士頓一棟特殊建築裡共同生活了一年。他們參與 NASA 一項名為 CHAPEA 的研究。居住地在地球，但日常工作模仿火星任務的部分情境。他們於 2025 年 10 月 19 日進入這棟建築。"
+    },
+    {
+      "english": "The team grows crops and manages limited supplies. Messages are delayed to make communication more like an exchange with Mars. Even contact with family happens through email. These conditions give researchers a way to study how people handle everyday tasks when help and resources are not immediately available.",
+      "translation": "團隊種植作物，也管理有限的物資。訊息會延遲傳送，讓通訊更接近與火星往來的情況。就連與家人的聯繫也透過電子郵件進行。這些條件讓研究人員能觀察：當協助與資源無法立即取得時，人們如何處理日常任務。"
+    },
+    {
+      "english": "NASA says the team is due to leave on October 31, 2026. Scientists will then discuss the experience with them and carry out further evaluations. The findings could help NASA plan future missions. However, practicing on Earth is not the same as living on Mars. The report describes ongoing research, not proof that every challenge has been solved.",
+      "translation": "NASA 表示，團隊預定於 2026 年 10 月 31 日離開。之後，科學家將與他們討論這段經驗，並進一步評估。研究結果可能協助 NASA 規劃未來任務。然而，在地球練習與在火星生活並不相同。這篇報導描述的是持續進行中的研究，並不能證明所有挑戰都已解決。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "imitates",
+      "translation": "模仿"
+    },
+    {
+      "english": "limited",
+      "translation": "有限的"
+    },
+    {
+      "english": "delayed",
+      "translation": "延遲的、被延後的"
+    },
+    {
+      "english": "due to",
+      "translation": "預定（後接動詞）"
+    },
+    {
+      "english": "could",
+      "translation": "可能、能夠（依語境判斷）"
+    }
+  ],
+  "questions": [
+    {
+      "question": "用一句中文概括這項研究的目的，保留它在哪裡進行的資訊。",
+      "answer": "NASA 在地球上的休士頓模擬部分火星生活條件，研究團隊如何應付日常任務，以協助未來任務規劃。"
+    },
+    {
+      "question": "三段依序提供哪些資訊？第三段的 However 提醒了什麼限制？",
+      "answer": "第一段介紹人物、地點與模擬研究；第二段說明生活條件與研究用途；第三段交代後續安排及可能價值。However 提醒地球模擬不等於真正的火星生活。"
+    },
+    {
+      "question": "第二段如何幫你猜出 delayed？請找出一個有關時間的線索。",
+      "answer": "第二段最後一句的 not immediately available 表示無法立即取得協助，加上通訊要模仿與火星往來，可推知 delayed 是延後、不是即時送達。"
+    },
+    {
+      "question": "「這項研究已解決所有火星生活難題」是否符合本文？請找出兩處語氣或內容依據。",
+      "answer": "不符合。could help 表示可能有幫助，並非保證；ongoing research 表示研究仍在進行，最後一句也明確說這不是所有挑戰都已解決的證明。"
+    }
+  ]
+}
