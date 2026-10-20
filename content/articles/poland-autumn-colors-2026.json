@@ -1,0 +1,72 @@
+{
+  "id": "poland-autumn-colors-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "山坡變色了，原因是什麼？",
+  "titleEn": "Satellite reveals autumn colors in Poland",
+  "source": {
+    "outlet": "NASA Earth Observatory",
+    "title": "Autumn Paints Poland’s Bieszczady Mountains",
+    "url": "https://science.nasa.gov/earth/earth-observatory/autumn-paints-polands-bieszczady-mountains/",
+    "publishedAt": "2026-10-19",
+    "accessedAt": "2026-10-20",
+    "eventDate": "2026-10-08",
+    "rewrittenAt": "2026-10-20"
+  },
+  "background": "建議先讀本篇，再讀「在地球練習火星生活」。閱讀目標：分辨景象描述與原因解釋，用上下文猜 meadow。N2 是教材設計級別，不是讀者程度判定。NASA 於 2026 年 10 月 19 日刊登影像報導，影像攝於 10 月 8 日；事件日期採拍攝日，並非整片森林開始變色的日期。本文不附原圖，理解與作答不需看圖。",
+  "paragraphs": [
+    {
+      "english": "A satellite image shows autumn arriving in a national park in southeastern Poland. Landsat 9 took the picture on October 8, 2026. NASA published it on October 19. Forests cover the mountain slopes, where some trees are turning red and gold. The picture records one moment in a changing season.",
+      "translation": "一張衛星影像呈現波蘭東南部一座國家公園的秋日景象。Landsat 9 於 2026 年 10 月 8 日拍下影像，NASA 在 10 月 19 日刊登。森林覆蓋山坡，其中一些樹木正轉為紅色與金色。這張影像記錄了季節變化中的一個時刻。"
+    },
+    {
+      "english": "Why do the leaves change? In autumn, shorter days and cooler weather reduce the production of chlorophyll. This substance helps plants use sunlight to make food and gives leaves their green color. As the green fades, some other colors become easier to see.",
+      "translation": "樹葉為什麼會變色？秋季白晝縮短、天氣轉涼，使葉綠素的生成減少。這種物質幫助植物利用陽光製造養分，也讓葉片呈現綠色。隨著綠色褪去，部分其他顏色更容易被看見。"
+    },
+    {
+      "english": "Higher up, the landscape is different. Above the forests are mountain meadows, open areas with grasses and small bushes. Some now look tan instead of summer green. So the image shows more than changing leaves: different plants also form different parts of the mountain landscape.",
+      "translation": "往更高處看，地景就不同了。森林上方是高山草甸，也就是長有草和矮灌木的開闊地帶。其中一些如今呈現黃褐色，不再是夏季的綠色。因此，影像呈現的不只有葉片變色：不同植物也構成山區地景的不同部分。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "slopes",
+      "translation": "斜坡、山坡"
+    },
+    {
+      "english": "chlorophyll",
+      "translation": "葉綠素"
+    },
+    {
+      "english": "fades",
+      "translation": "逐漸褪去"
+    },
+    {
+      "english": "meadows",
+      "translation": "草甸、草地"
+    },
+    {
+      "english": "instead of",
+      "translation": "而不是、取代"
+    }
+  ],
+  "questions": [
+    {
+      "question": "用一句中文說出本文主旨，不要只列出日期。",
+      "answer": "衛星影像呈現波蘭山區的秋色，本文解釋葉片變色的原因，並對照森林與更高處草甸的景象。"
+    },
+    {
+      "question": "第二段與第一段有什麼關係？第三段的 Higher up 又把注意力移到哪裡？",
+      "answer": "第一段描述影像中的變色景象，第二段解釋其原因；Higher up 把注意力移到森林上方的草甸，對照不同高度的植被。"
+    },
+    {
+      "question": "先不看關鍵詞翻譯。第三段哪些字幫你猜出 meadows 的意思？",
+      "answer": "open areas、grasses 和 small bushes 說明它是長有草與矮灌木的開闊地帶，不是密集森林。"
+    },
+    {
+      "question": "能否從本文判定所有樹木都在 10 月 8 日開始變色？請指出依據。",
+      "answer": "不能。10 月 8 日是拍攝日，第一段只說 some trees 正在變色，而且影像只記錄 one moment，沒有提供所有樹木開始變色的日期。"
+    }
+  ]
+}
