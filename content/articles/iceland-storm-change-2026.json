@@ -1,0 +1,72 @@
+{
+  "id": "iceland-storm-change-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "風暴換了類型，強風卻未消失",
+  "titleEn": "Former hurricane brings powerful winds near Iceland",
+  "source": {
+    "outlet": "NASA Earth Observatory",
+    "title": "Extratropical Cyclone Whips Past Iceland",
+    "url": "https://science.nasa.gov/earth/earth-observatory/extratropical-cyclone-whips-past-iceland/",
+    "publishedAt": "2026-10-21",
+    "accessedAt": "2026-10-23",
+    "eventDate": "2026-10-14",
+    "rewrittenAt": "2026-10-23"
+  },
+  "background": "閱讀目標：沿時間線重建事件，區分風暴類型與風力。extratropical cyclone（溫帶氣旋）不是「比較弱的颶風」的同義詞。事件日期採冰島附近的衛星影像日 10 月 14 日，不是 NASA 文章發布日 10 月 21 日。這是回顧性閱讀教材，不提供即時天氣預報或安全判斷。",
+  "paragraphs": [
+    {
+      "english": "A storm can change its type without losing all its power. NASA reported on October 21 that the remains of Hurricane Isaias had developed into another kind of storm over the North Atlantic. It was called an extratropical cyclone, a low-pressure weather system that can bring very strong winds.",
+      "translation": "風暴可能改變類型，卻沒有失去所有威力。NASA 在 10 月 21 日報導，颶風 Isaias 的殘餘系統在北大西洋上發展成另一類風暴，稱為溫帶氣旋，也就是可能帶來強風的低氣壓天氣系統。"
+    },
+    {
+      "english": "A NOAA-21 satellite image showed the cyclone near Iceland on October 14. This was a week before the NASA article appeared. The report described powerful winds along Iceland’s coast. The satellite observation and the publication date tell us different things: one places the storm in time, while the other dates the report.",
+      "translation": "NOAA-21 衛星在 10 月 14 日的影像中拍到冰島附近的氣旋，比 NASA 文章發布早了一週。報導描述了冰島沿岸的強風。衛星觀測日與發布日提供不同資訊：前者標示風暴出現的時間，後者標示報導的日期。"
+    },
+    {
+      "english": "The new name did not mean the storm was harmless. Former tropical cyclones can still produce heavy rain and high winds. To understand the event, readers should connect the storm’s changing type with the conditions described. A different category alone is not evidence that its effects have ended.",
+      "translation": "換了名稱不代表風暴已無害。原本的熱帶氣旋在改變後，仍可能帶來大雨和強風。要理解這起事件，讀者應把風暴類型的變化與文中描述的狀況一起看。僅憑類型不同，不能證明它的影響已經結束。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "remains",
+      "translation": "殘餘部分、殘餘系統"
+    },
+    {
+      "english": "low-pressure",
+      "translation": "低氣壓的"
+    },
+    {
+      "english": "coast",
+      "translation": "海岸、沿岸"
+    },
+    {
+      "english": "publication",
+      "translation": "發布、出版"
+    },
+    {
+      "english": "harmless",
+      "translation": "無害的"
+    }
+  ],
+  "questions": [
+    {
+      "question": "用一句中文說出主旨，不要只列出日期。",
+      "answer": "Isaias 的殘餘系統轉為溫帶氣旋並在冰島附近帶來強風，顯示類型改變不等於影響消失。"
+    },
+    {
+      "question": "三段如何連接？第二段為什麼同時提到兩個日期？",
+      "answer": "第一段提出類型改變但仍有威力；第二段用事件與觀測細節支持，並區分 10 月 14 日影像日和 10 月 21 日發布日；第三段收束為不能只靠類型判斷影響的推論。"
+    },
+    {
+      "question": "第三段的 harmless 如何從前後文猜出意思？",
+      "answer": "did not mean 與下一句 still produce heavy rain and high winds 形成對照：仍可能有大雨強風，所以 harmless 應是「無害的」。"
+    },
+    {
+      "question": "「10 月 21 日風暴才到冰島」與「不再是熱帶氣旋，所以影響已結束」有證據嗎？",
+      "answer": "都沒有。影像早在 10 月 14 日就拍到冰島附近的風暴；文中也說改變後仍可能有大雨與強風，不能從發布日期或類型名稱單獨推出這兩項結論。"
+    }
+  ]
+}
