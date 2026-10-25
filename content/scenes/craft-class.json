@@ -26,7 +26,13 @@
           "text": " in art class."
         }
       ],
-      "translation": "Mia 和 Leo 一起坐在美勞課的大桌子旁。"
+      "translation": "Mia 和 Leo 一起坐在美勞課的大桌子旁。",
+      "audio": {
+        "src": "/audio/sentences/craft-class/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "668d1e724792f8ff6d1ebe6702ee3e7d043c4f543f8652110b15a43e4101262f",
+        "sha256": "7c61ac13d8f87b782187a1fc9d2432d5fce91f0613b2b7586531c3e6c4eadd69"
+      }
     },
     {
       "segments": [
@@ -58,7 +64,13 @@
           "text": "”"
         }
       ],
-      "translation": "老師微笑著提醒大家：「使用剪刀要小心。」"
+      "translation": "老師微笑著提醒大家：「使用剪刀要小心。」",
+      "audio": {
+        "src": "/audio/sentences/craft-class/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2b34ea36131136c2e3bd29adf727a00c106e92c083a048b345b2bb60adf9cec6",
+        "sha256": "2cf711efd3d5fa5af4b816df8ede76fce2059ac74d1daf239ddf3e11043f4a97"
+      }
     },
     {
       "segments": [
@@ -99,7 +111,13 @@
           "text": "”"
         }
       ],
-      "translation": "Mia 剪著一張鮮豔的紙並說：「多漂亮的顏色啊！」"
+      "translation": "Mia 剪著一張鮮豔的紙並說：「多漂亮的顏色啊！」",
+      "audio": {
+        "src": "/audio/sentences/craft-class/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6361d47bff3fcd56c03fb46fcff768af3d022c1318f5e3259cfefce42e925383",
+        "sha256": "2634ab8e6b0218476fd4cf54a68c0c9a3e83bd18275a5576f2a19af51b48efc3"
+      }
     },
     {
       "segments": [
@@ -131,7 +149,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 想黏貼紙貼片，便問：「請把膠水拿給我好嗎。」"
+      "translation": "Leo 想黏貼紙貼片，便問：「請把膠水拿給我好嗎。」",
+      "audio": {
+        "src": "/audio/sentences/craft-class/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7c37033caac313f06539de617cab0cbbeaee19792cc55093054bb6bbe4189e03",
+        "sha256": "a1de4c19df56af5a8029ed123889f7e495b85258fbd9bc45ccb9f618a6b1fffc"
+      }
     },
     {
       "segments": [
@@ -148,7 +172,13 @@
           "text": " with a friendly smile."
         }
       ],
-      "translation": "Mia 帶著友善的微笑把膠水遞給他。"
+      "translation": "Mia 帶著友善的微笑把膠水遞給他。",
+      "audio": {
+        "src": "/audio/sentences/craft-class/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7a1759431d8113d8fa3d85815d613abc1ce5c8f6cc8450afadfcc6d6eff9e8b2",
+        "sha256": "d2c43f8278f2b49e51a964362abed5d2b4ece97474354c9a78893546ced63a88"
+      }
     },
     {
       "segments": [
@@ -180,7 +210,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 舉起他的紙獅子並歡呼：「看我的手工作品！」"
+      "translation": "Leo 舉起他的紙獅子並歡呼：「看我的手工作品！」",
+      "audio": {
+        "src": "/audio/sentences/craft-class/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7a8ed9091e699f309eb5c43dde5f7f36953fdc0d9c46cf0dbe9e76381cabf111",
+        "sha256": "d7f6ec72e673c9ecb8ce88f6fc7ab0bb2f67be7dfedd8fd8d990bb36884cec40"
+      }
     }
   ],
   "phrases": [
@@ -302,11 +338,5 @@
         "sha256": "d1dc1078737a72676e287e646549f51a89a9dd7555eb629b2cfb087e27a0e632"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/craft-class.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "a410cde893802c802d9f3a0184d963af8374110ef9a5c714dc965e13f02fed04",
-    "sha256": "2924b5af375d8189da3a518b2230483c8a63c82ff30050294828400553cc63f9"
-  }
+  ]
 }

@@ -26,7 +26,13 @@
           "text": " Mia sit on the carpet in the living room."
         }
       ],
-      "translation": "Leo 和他的朋友 Mia 坐在客廳的地毯上。"
+      "translation": "Leo 和他的朋友 Mia 坐在客廳的地毯上。",
+      "audio": {
+        "src": "/audio/sentences/toy-sharing/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bdac155a212321cc9e1fb3a79b6658377e30e7ac20a0a9db4f6ee449246d956d",
+        "sha256": "e6c4d03717a6f558ee9e87b0158a5046c9a382a35d3feae2c3094763218b6bc4"
+      }
     },
     {
       "segments": [
@@ -43,7 +49,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 微笑著說：「我們一起玩吧。」"
+      "translation": "Leo 微笑著說：「我們一起玩吧。」",
+      "audio": {
+        "src": "/audio/sentences/toy-sharing/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "316a343f0c51dd020c5642b81b60dd085a088fe7115360d37ce2424458e09712",
+        "sha256": "d79c82d02973bdb7eb543cae696f312bac87d38c50128b43c61c1263fb1a05f0"
+      }
     },
     {
       "segments": [
@@ -90,7 +102,13 @@
           "text": "”"
         }
       ],
-      "translation": "Mia 看著彩色的盒子問：「我可以分享你的玩具嗎？」"
+      "translation": "Mia 看著彩色的盒子問：「我可以分享你的玩具嗎？」",
+      "audio": {
+        "src": "/audio/sentences/toy-sharing/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "051ad12b7ead48d415073a7441d6d9f25ceb220cd3d9ffc67b8f666881b16846",
+        "sha256": "88667f1e88ba5c7e939265c0de85b11ed5a711bda6b864b501840266b8ca2099"
+      }
     },
     {
       "segments": [
@@ -122,7 +140,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 遞給她一個紅色車頭並說：「這裡有一列火車。」"
+      "translation": "Leo 遞給她一個紅色車頭並說：「這裡有一列火車。」",
+      "audio": {
+        "src": "/audio/sentences/toy-sharing/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "abebffba808e6bb8e6e53eaa32413174a434f9ee1a0af8984fe08be8f0756d05",
+        "sha256": "ad1e2ab4e94cd537628d771b922b5cfc517dbae3a7d0119f9e5642f9cc3a53b1"
+      }
     },
     {
       "segments": [
@@ -139,7 +163,13 @@
           "text": " on the rug to build a bridge."
         }
       ],
-      "translation": "Mia 在地毯上放了一塊木頭積木來蓋一座小橋。"
+      "translation": "Mia 在地毯上放了一塊木頭積木來蓋一座小橋。",
+      "audio": {
+        "src": "/audio/sentences/toy-sharing/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f7da7d51ad0cdc1c54b513efa25dac85f5496a558d297b2190df12d9be34b558",
+        "sha256": "118c567217a72dade8d0db196229900eebe2dac6cebad4c9588131d419776682"
+      }
     },
     {
       "segments": [
@@ -171,7 +201,13 @@
           "text": "”"
         }
       ],
-      "translation": "他們一起把零件連接起來並歡呼：「我們做了一條軌道！」"
+      "translation": "他們一起把零件連接起來並歡呼：「我們做了一條軌道！」",
+      "audio": {
+        "src": "/audio/sentences/toy-sharing/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "de44e0b92c508256e6711bf6ed817299edd395780cf5b7d019a76121288732c7",
+        "sha256": "4b9df3f21bc373264ea1ca499df42be243c21997a8b254630d45cdc7fce83842"
+      }
     },
     {
       "segments": [
@@ -179,7 +215,13 @@
           "text": "The two friends watch the little cars roll and have fun all afternoon."
         }
       ],
-      "translation": "兩位好朋友看著小車子前進，整個下午都玩得非常開心。"
+      "translation": "兩位好朋友看著小車子前進，整個下午都玩得非常開心。",
+      "audio": {
+        "src": "/audio/sentences/toy-sharing/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bc42a9ab016e4e96f08024a67ccb2aa1e43cc2350073e76930a224b36ee69f4f",
+        "sha256": "5918476c8493e60cce6b0178bc676bef1e252d96368ee64806e095f97f2fe23e"
+      }
     }
   ],
   "phrases": [
@@ -301,11 +343,5 @@
         "sha256": "c01a2962eae90522d7471f881e46eeabbb8133c8b73d1434f15ae05590b3ac09"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/toy-sharing.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "7b3757367ca5800a71b2f43ef1d9bd208cc88a1d0f565b449aa86e1e09512eea",
-    "sha256": "efb577264d0605ed8a85f6845ec8e5ece2e5a084bd50c0c991014810d15903da"
-  }
+  ]
 }

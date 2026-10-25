@@ -35,7 +35,13 @@
           "text": " student from Seattle."
         }
       ],
-      "translation": "在學校大門前，Emily 親切迎接來自西雅圖的外國交換學生 Mark。"
+      "translation": "在學校大門前，Emily 親切迎接來自西雅圖的外國交換學生 Mark。",
+      "audio": {
+        "src": "/audio/sentences/exchange-student-welcome/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f0d86778443684c2401623f354e7d5af0788e7c64ee1470a5ab60ad5b59f8867",
+        "sha256": "f696912d807aa6fbe468543876c9383fb40166057c6c364ecbd4e4d80c8d1187"
+      }
     },
     {
       "segments": [
@@ -61,7 +67,13 @@
           "text": "”"
         }
       ],
-      "translation": "她帶著燦爛的微笑揮手致意，並說道：「歡迎來到我們學校！」"
+      "translation": "她帶著燦爛的微笑揮手致意，並說道：「歡迎來到我們學校！」",
+      "audio": {
+        "src": "/audio/sentences/exchange-student-welcome/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9b196255ea018ba91d955ef60133ded99c8d637bd7ddb2dec057264434fc29af",
+        "sha256": "40d00fb49fa2e1742cca5cd78419bd204bc122845387de7f7a96ae24a1a933d5"
+      }
     },
     {
       "segments": [
@@ -78,7 +90,13 @@
           "text": "”"
         }
       ],
-      "translation": "Emily 熱情地提議：「讓我帶你參觀一下周遭環境。」"
+      "translation": "Emily 熱情地提議：「讓我帶你參觀一下周遭環境。」",
+      "audio": {
+        "src": "/audio/sentences/exchange-student-welcome/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "43526f56f9df85493a3bb12da6fbf40cc55fbe99d5eead0ce6276ffecca5658e",
+        "sha256": "84cdb5fbbb4c1613da8e374d1550306ebe75cbd144bf8dc506a6a83d7fa6bf7b"
+      }
     },
     {
       "segments": [
@@ -113,7 +131,13 @@
           "text": ", starting with the main academic building."
         }
       ],
-      "translation": "她將引導他探索每一處現代化的校園設施，首先從主教學大樓開始。"
+      "translation": "她將引導他探索每一處現代化的校園設施，首先從主教學大樓開始。",
+      "audio": {
+        "src": "/audio/sentences/exchange-student-welcome/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "15ffa5adf88545d36adf97f6a2014459cef6a26cb8ee152d4316f0380cc8a77f",
+        "sha256": "dbe0877d9d6777b32c0268512805cc8f40494352ab9effb8a8bd3b1144f39408"
+      }
     },
     {
       "segments": [
@@ -130,7 +154,13 @@
           "text": "”"
         }
       ],
-      "translation": "指著一座寬敞的大樓，她說道：「這裡是圖書館。」"
+      "translation": "指著一座寬敞的大樓，她說道：「這裡是圖書館。」",
+      "audio": {
+        "src": "/audio/sentences/exchange-student-welcome/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "16e389e2a676bfe5752f45972325559a7221473160c78a706412e1b23f0706dd",
+        "sha256": "f027413d5e090e29a45db19e0a5a90f1061941c097ab5f5f3cfbcf9a32f05033"
+      }
     },
     {
       "segments": [
@@ -138,7 +168,13 @@
           "text": "Next, she highlights the cafeteria nearby, where students gather for lunch and relax between classes."
         }
       ],
-      "translation": "接著，她介紹了附近的學生餐廳，學生們午餐時間會在那裡聚餐並在課間放鬆。"
+      "translation": "接著，她介紹了附近的學生餐廳，學生們午餐時間會在那裡聚餐並在課間放鬆。",
+      "audio": {
+        "src": "/audio/sentences/exchange-student-welcome/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0285123a6cf49fbf37094bc681c21f9aecd1c68ee86c17709275cc4a62e0ff2e",
+        "sha256": "3e825fb863cb5f9cf504ab6d188a7fbf7da60669492f211d5139cab69c7edeaf"
+      }
     },
     {
       "segments": [
@@ -155,7 +191,13 @@
           "text": "”"
         }
       ],
-      "translation": "Emily 熱心提供全力協助，微笑著補充道：「隨時都可以問我任何問題。」"
+      "translation": "Emily 熱心提供全力協助，微笑著補充道：「隨時都可以問我任何問題。」",
+      "audio": {
+        "src": "/audio/sentences/exchange-student-welcome/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "64a9d24e333c73a2dd903cd171a273b3dc2164308cfd40a5957bb70bd7f95beb",
+        "sha256": "873cc54a8a06aab79e6dd36f97ce52383a82339ba8f82b2fa8464356d41a9d76"
+      }
     }
   ],
   "phrases": [
@@ -277,11 +319,5 @@
         "sha256": "1d685554a5e45233d3a633f200f4449d5e4058aa8d15d81287b60def60e005f7"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/exchange-student-welcome.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "50db2f365c3b88bff7f969c52c312625c11b173859d872960b099d2145d371e7",
-    "sha256": "d3b80c5c2cb32937c9dc7b5d94dc1b2b429577720bd186da9d1c2705da1f17de"
-  }
+  ]
 }

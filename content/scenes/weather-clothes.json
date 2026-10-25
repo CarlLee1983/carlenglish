@@ -35,7 +35,13 @@
           "text": " morning."
         }
       ],
-      "translation": "在下雨的早晨，Leo 看著窗外。"
+      "translation": "在下雨的早晨，Leo 看著窗外。",
+      "audio": {
+        "src": "/audio/sentences/weather-clothes/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8e78297abf91c010d8bee469db1959972b03010e50e62dcb99880171fb747446",
+        "sha256": "751603ee7e154ff6b1fce02f0ad83f2dc07b4b0ea1c447451672406fa0b43434"
+      }
     },
     {
       "segments": [
@@ -52,7 +58,13 @@
           "text": "”"
         }
       ],
-      "translation": "他看著雨滴說：「看，外面下雨了！」"
+      "translation": "他看著雨滴說：「看，外面下雨了！」",
+      "audio": {
+        "src": "/audio/sentences/weather-clothes/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fd89c9ce9fa4baa5481302a15ee89a9b104748b1b68bbcb25dd8ef320a18757d",
+        "sha256": "f55569abd9889f8a5dced75b0bc3e831e28e118560fd4665cb3837292d174993"
+      }
     },
     {
       "segments": [
@@ -69,7 +81,13 @@
           "text": " is cold and wet today."
         }
       ],
-      "translation": "今天的天氣又冷又濕。"
+      "translation": "今天的天氣又冷又濕。",
+      "audio": {
+        "src": "/audio/sentences/weather-clothes/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "046ae8b5dc8c60d6a0f33711f52c7e04b028e55b3f24740b9e99b541767bbe2d",
+        "sha256": "6598cb269ad1d79e9b60369e58063845dd76754c2bc5840672f7f5fd73aa06cc"
+      }
     },
     {
       "segments": [
@@ -101,7 +119,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 跑到房間說：「我需要我的外套。」"
+      "translation": "Leo 跑到房間說：「我需要我的外套。」",
+      "audio": {
+        "src": "/audio/sentences/weather-clothes/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "323971c3aebffe8ad730fdee286a3d8a2f89f39505a706616a8c8f4a0cbbc06d",
+        "sha256": "68edd51f8d3d0cef4b88d253fd58b049f29bb69dcb1d95c08bacbb569af7d120"
+      }
     },
     {
       "segments": [
@@ -133,7 +157,13 @@
           "text": "”"
         }
       ],
-      "translation": "媽媽微笑著說：「穿上你的靴子。」"
+      "translation": "媽媽微笑著說：「穿上你的靴子。」",
+      "audio": {
+        "src": "/audio/sentences/weather-clothes/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8ecc8941455465174428fb8839a287ab27d3a8c011ed4e3495dd756f735591d1",
+        "sha256": "5e860ab0f5b76fd90ea3276371b58274e8dbddffdfa29b37d5034df015498129"
+      }
     },
     {
       "segments": [
@@ -165,7 +195,13 @@
           "text": "”"
         }
       ],
-      "translation": "媽媽指著門口說：「別忘了帶你的雨傘。」"
+      "translation": "媽媽指著門口說：「別忘了帶你的雨傘。」",
+      "audio": {
+        "src": "/audio/sentences/weather-clothes/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b7a0cf77fb7b0b1f024ee6ffa1dfd81efd15a6ae70aff177db38960adb4bf052",
+        "sha256": "9526acdc85e38c1276ef6456e1823f53fc4233773942d0d296582ba2b7f259a4"
+      }
     },
     {
       "segments": [
@@ -182,7 +218,13 @@
           "text": " and smiles, ready to go outside."
         }
       ],
-      "translation": "Leo 拿著雨傘微微笑，準備好走出家門。"
+      "translation": "Leo 拿著雨傘微微笑，準備好走出家門。",
+      "audio": {
+        "src": "/audio/sentences/weather-clothes/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "218151719f3790b80c29ee3f2ec5702c67fa9cb2c8837f6ced36566aa9ffba97",
+        "sha256": "4ec163e5d69b0a91e000f398fe46e6175752d3dc97a47d68cf5183eb05695ee1"
+      }
     }
   ],
   "phrases": [
@@ -304,11 +346,5 @@
         "sha256": "a2f041c4620c097057052c21a1c91d28ebf09551543c43147d11c8866701eab5"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/weather-clothes.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "fdd8bf9af69dec481d22cbf053b7212d7d2fe3b4718ac88f9b6de19d266d9214",
-    "sha256": "73cab843b774e3005c17bbfc1910d0020251f826edd88d40af8e1a8171192c2b"
-  }
+  ]
 }

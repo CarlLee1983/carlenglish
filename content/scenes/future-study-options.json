@@ -26,7 +26,13 @@
           "text": " best matches his strengths."
         }
       ],
-      "translation": "Alex 來到生涯輔導室，討論哪一個大學學科最符合他的優勢。"
+      "translation": "Alex 來到生涯輔導室，討論哪一個大學學科最符合他的優勢。",
+      "audio": {
+        "src": "/audio/sentences/future-study-options/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cc44d5f083b1542160a0814ef36b93da6e9155af9b3e237968af85a0ef39f178",
+        "sha256": "5222ed3bed351a1bcaf00c4125b090126b04d6b60c6c7621910ae9a7aeb567e7"
+      }
     },
     {
       "segments": [
@@ -43,7 +49,13 @@
           "text": "”"
         }
       ],
-      "translation": "林老師親切地微笑著，指著探索圖表問道：「你的興趣是什麼？」"
+      "translation": "林老師親切地微笑著，指著探索圖表問道：「你的興趣是什麼？」",
+      "audio": {
+        "src": "/audio/sentences/future-study-options/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9ec0510566a0b9701aef16f7865f2883cdf3d2d948ad75cd6106401ab8e54213",
+        "sha256": "49c2ce1a94b6e7300cff6453e8d907fec1205848673b2d05fbf07180fa6d9f59"
+      }
     },
     {
       "segments": [
@@ -69,7 +81,13 @@
           "text": " interactive media.”"
         }
       ],
-      "translation": "Alex 說明了他對科技與設計的濃厚興趣，並補充說：「我想多了解互動媒體。」"
+      "translation": "Alex 說明了他對科技與設計的濃厚興趣，並補充說：「我想多了解互動媒體。」",
+      "audio": {
+        "src": "/audio/sentences/future-study-options/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3418703029bdf48a744c50f1d08127246051ab09e079821cc4ea0e0e28585f20",
+        "sha256": "09e7de83b8836d0494a246de4063c5a3f72166a0fb2e098c9a5c2e96672641a0"
+      }
     },
     {
       "segments": [
@@ -86,7 +104,13 @@
           "text": "."
         }
       ],
-      "translation": "林老師建議將這兩個領域結合，作為大學的跨領域主修。"
+      "translation": "林老師建議將這兩個領域結合，作為大學的跨領域主修。",
+      "audio": {
+        "src": "/audio/sentences/future-study-options/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c1592b9c1985bcbdd432a532e7b8d4f4fe7f8edca577af2ef1b0277befafa71f",
+        "sha256": "9d92cf5e18869848d51b817192972fa881983b971abc70bae5fd6881fed74fa5"
+      }
     },
     {
       "segments": [
@@ -130,7 +154,13 @@
           "text": "”"
         }
       ],
-      "translation": "一起檢視學位發展路徑時，她鼓勵他：「考慮你未來的職業發展。」"
+      "translation": "一起檢視學位發展路徑時，她鼓勵他：「考慮你未來的職業發展。」",
+      "audio": {
+        "src": "/audio/sentences/future-study-options/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "915510b328acb6019b7d94f3e2122ff8fcc72a089e04d1dcc9253f4fdfe86772",
+        "sha256": "150237d07db3829448cfbd749ff5d9e5319ec60f0956cc51447bd8bdf3fe519e"
+      }
     },
     {
       "segments": [
@@ -162,7 +192,13 @@
           "text": "”"
         }
       ],
-      "translation": "Alex 將自己的想法整理成一份清晰的學習計畫，微笑著說：「謝謝您的建議。」"
+      "translation": "Alex 將自己的想法整理成一份清晰的學習計畫，微笑著說：「謝謝您的建議。」",
+      "audio": {
+        "src": "/audio/sentences/future-study-options/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b8c6b8170b3a507a4d597537ae0ba29ca927251d164bb4f5239c8432ee9c1f9a",
+        "sha256": "14102b7dae154e2dd67ade41bd4c57d96e0d28039f222d1d75e4bf3f68d8b14b"
+      }
     }
   ],
   "phrases": [
@@ -284,11 +320,5 @@
         "sha256": "aa75eeba05a0783de6b7518804afbd9ec44606b2b991b943ade826d0b856201e"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/future-study-options.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "34f64bbad4ec743b7c941658ddb3a6d274f2824e996a2ad762122046fdcf518f",
-    "sha256": "d173c3d51ddbc129328880f22a6528d3ce3a8f7b904c1ef12264e9cd84cf4177"
-  }
+  ]
 }

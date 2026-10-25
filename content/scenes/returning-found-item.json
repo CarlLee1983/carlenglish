@@ -35,7 +35,13 @@
           "text": "."
         }
       ],
-      "translation": "當凱文走進活動中心時，他注意到大門入口附近的地板上有一個遺失的皮夾。"
+      "translation": "當凱文走進活動中心時，他注意到大門入口附近的地板上有一個遺失的皮夾。",
+      "audio": {
+        "src": "/audio/sentences/returning-found-item/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d7895ce5281b6a871004dbdb8e5dbccf6df385cbe762e5d421a759b6fc01f8c3",
+        "sha256": "22d9007b2478f2d7f71791e6cfb683804ca59bf92cf8013e5de113dfe8778048"
+      }
     },
     {
       "segments": [
@@ -52,7 +58,13 @@
           "text": " it right away."
         }
       ],
-      "translation": "他把遺失的物品撿起來，並決定立刻將它歸還。"
+      "translation": "他把遺失的物品撿起來，並決定立刻將它歸還。",
+      "audio": {
+        "src": "/audio/sentences/returning-found-item/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "be074549a9fc242bfd4892adae2f1cff5ce86068bc112be473fd4fd08f7eda8e",
+        "sha256": "d05bacf31392c798159e32d6655269e76529bf4930b9d2477bd488ac4e6a9855"
+      }
     },
     {
       "segments": [
@@ -69,7 +81,13 @@
           "text": " to report what he discovered."
         }
       ],
-      "translation": "凱文穿過大廳走向服務台，通報他所發現的物品。"
+      "translation": "凱文穿過大廳走向服務台，通報他所發現的物品。",
+      "audio": {
+        "src": "/audio/sentences/returning-found-item/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4a7e11e4c6e26e191f6623300a9d18a4af2cae8a46404cc3c61c4790f4501efd",
+        "sha256": "0b20e067fe8b2b9b2c694f402713de5819f74f0e91f1a160142bbf900dea1b07"
+      }
     },
     {
       "segments": [
@@ -116,7 +134,13 @@
           "text": "”"
         }
       ],
-      "translation": "走近櫃檯時，他向服務人員說道：「我在門附近撿到了這個皮夾。」"
+      "translation": "走近櫃檯時，他向服務人員說道：「我在門附近撿到了這個皮夾。」",
+      "audio": {
+        "src": "/audio/sentences/returning-found-item/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f80325e015ccda1dc84425c73f386cd31137eed6a16f53327511b765a6e6e4e1",
+        "sha256": "cd701af17ed7335dca7e2ce5e468e71bf87f4fdd63553b0ff73dfce9a4f8ad32"
+      }
     },
     {
       "segments": [
@@ -142,7 +166,13 @@
           "text": "”"
         }
       ],
-      "translation": "工作人員親切地微笑並問道：「你在哪裡找到的？」"
+      "translation": "工作人員親切地微笑並問道：「你在哪裡找到的？」",
+      "audio": {
+        "src": "/audio/sentences/returning-found-item/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c8d3688b9c162d400d4885905c0c36be75525abcdaba1957a0dfb3f7efcb840b",
+        "sha256": "efa4307e14995f1254850be01eef8e38aad24115590acd0c925585b793058079"
+      }
     },
     {
       "segments": [
@@ -159,7 +189,13 @@
           "text": "”"
         }
       ],
-      "translation": "在凱文說明事情原委後，服務人員說道：「謝謝你把它拿過來。」"
+      "translation": "在凱文說明事情原委後，服務人員說道：「謝謝你把它拿過來。」",
+      "audio": {
+        "src": "/audio/sentences/returning-found-item/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "094f474b33f3a4218de445c59ec9fa4458d7e20a879364e1465cfb847d0033a4",
+        "sha256": "f581754500833f3221390b6e32b084cbc089cab4b5ea7605aeb858235bf4874d"
+      }
     },
     {
       "segments": [
@@ -176,7 +212,13 @@
           "text": "”"
         }
       ],
-      "translation": "她將物品妥善收進抽屜裡，並補充說：「失主一定會非常安心。」"
+      "translation": "她將物品妥善收進抽屜裡，並補充說：「失主一定會非常安心。」",
+      "audio": {
+        "src": "/audio/sentences/returning-found-item/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "beddbb9533049496ab5bf8f9f0009a9fbbfd8b774e1eb570371e965619596647",
+        "sha256": "1afb3a89c99e95df7d86d43bc4869de4ae3e1e7f7ff807a5a080cc248e9d4833"
+      }
     }
   ],
   "phrases": [
@@ -298,11 +340,5 @@
         "sha256": "28a2f19e5112dbe610850f967c529a0257607f98fe521e442afbe02da8f27e79"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/returning-found-item.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "927e93089357d34f860d6be7e7bd7643c05327a9bcbb81a4cc68eeee7b203ee5",
-    "sha256": "a039f18b87ca366fc75f9f8eee7d7d7a7fc164fead43f7710ff047ee2dd32c7c"
-  }
+  ]
 }

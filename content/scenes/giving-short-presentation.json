@@ -26,7 +26,13 @@
           "text": " for a book swap that thirty students will attend."
         }
       ],
-      "translation": "在規劃會議上，Maya 提出一份方案，要為三十位學生舉辦換書活動。"
+      "translation": "在規劃會議上，Maya 提出一份方案，要為三十位學生舉辦換書活動。",
+      "audio": {
+        "src": "/audio/sentences/giving-short-presentation/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "61d4e17fd205271cf99d01fff7f564e2cca32411e37e143d3c570c9747ffb3b5",
+        "sha256": "981c75700473d4289dff67ab8cec360cf7ae4fcc7b96d21eb546e5de802fcf6c"
+      }
     },
     {
       "segments": [
@@ -58,7 +64,13 @@
           "text": " the library meeting room because it will keep the books dry.”"
         }
       ],
-      "translation": "「我們建議使用圖書館會議室，因為這樣可以讓書本保持乾燥。」"
+      "translation": "「我們建議使用圖書館會議室，因為這樣可以讓書本保持乾燥。」",
+      "audio": {
+        "src": "/audio/sentences/giving-short-presentation/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4a94518e93361dd8da76f8762cf089393ebff1e10fa2b431ec9c0fea4521eb88",
+        "sha256": "8f9975d1c218d0e3425757a5f8049c23d182e529ea535b1a51aaa5714288d673"
+      }
     },
     {
       "segments": [
@@ -75,7 +87,13 @@
           "text": ", the room is available on Friday.”"
         }
       ],
-      "translation": "「根據目前的公告，這個房間週五可使用。」"
+      "translation": "「根據目前的公告，這個房間週五可使用。」",
+      "audio": {
+        "src": "/audio/sentences/giving-short-presentation/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "88a5c67b53aa7e0b0a59df420a1175511b7877f8166f8150c35e50340f069326",
+        "sha256": "e83c1abcd04a7ef9bf077c0f5e4a4b58081b32adfea9078529d042b5c5c84c89"
+      }
     },
     {
       "segments": [
@@ -116,7 +134,13 @@
           "text": " if it rains.”"
         }
       ],
-      "translation": "「主要的好處是，即使下雨，我們也不必取消活動。」"
+      "translation": "「主要的好處是，即使下雨，我們也不必取消活動。」",
+      "audio": {
+        "src": "/audio/sentences/giving-short-presentation/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5ddecbe8edc1aaf895fddd30f5191202a320f6450059c2f807cbd6fb45899bdf",
+        "sha256": "5aef75cd5f900df4b02837b89d815dbe778af2be3540cf707110a76e783bb7c5"
+      }
     },
     {
       "segments": [
@@ -157,7 +181,13 @@
           "text": ".”"
         }
       ],
-      "translation": "Ben 補充：「不過，人數上限是二十人，所以我們建議分成兩場，每場十五人。」"
+      "translation": "Ben 補充：「不過，人數上限是二十人，所以我們建議分成兩場，每場十五人。」",
+      "audio": {
+        "src": "/audio/sentences/giving-short-presentation/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "aa574745917f5d9d0007eea57209bf3977c48011fe687ab32b1f86921d343a39",
+        "sha256": "9b0256c2ddf9486e3852319be04642651736e21867889d38fa9ff98d04b2951d"
+      }
     },
     {
       "segments": [
@@ -165,7 +195,13 @@
           "text": "A classmate asks how they will keep the reading area quiet."
         }
       ],
-      "translation": "一位同學問，他們要怎麼讓閱覽區保持安靜。"
+      "translation": "一位同學問，他們要怎麼讓閱覽區保持安靜。",
+      "audio": {
+        "src": "/audio/sentences/giving-short-presentation/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7d057724ec88d2fea97995a31f2d38a0b67656e3396317dba06efe7d22212e1d",
+        "sha256": "e8db5397ca0d2c83c2fc23dec0027861106b6997f46e8ebecc85110592cecc09"
+      }
     },
     {
       "segments": [
@@ -173,7 +209,13 @@
           "text": "“We could close the meeting-room door and ask everyone to keep their voices down,” Maya replies."
         }
       ],
-      "translation": "Maya 回答：「我們可以關上會議室的門，並請大家放低音量。」"
+      "translation": "Maya 回答：「我們可以關上會議室的門，並請大家放低音量。」",
+      "audio": {
+        "src": "/audio/sentences/giving-short-presentation/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "818f405477fe8736ebc4416924b71cede658d8b17ddc31461727b32d14cb4eb1",
+        "sha256": "196184af9977814bedaaea46a0ce288db6d652fae973bbac61c35d6f7b22564f"
+      }
     },
     {
       "segments": [
@@ -199,7 +241,13 @@
           "text": " the room,” Maya says, and the group agrees."
         }
       ],
-      "translation": "Maya 說：「我們下一步要請圖書館員協助預約這個房間。」小組成員都表示同意。"
+      "translation": "Maya 說：「我們下一步要請圖書館員協助預約這個房間。」小組成員都表示同意。",
+      "audio": {
+        "src": "/audio/sentences/giving-short-presentation/8.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7932b4a5ddace65913cb939f4ef23a6da42a5e353505aa8e87b3d5a35d2fbae9",
+        "sha256": "abe45f9fda6d425636260aa330bd22c9286a495898733298f6d2962ac3743d50"
+      }
     }
   ],
   "phrases": [
@@ -344,11 +392,5 @@
         "sha256": "bcb9a741900b7d3806b22b49bb9a870fc4afccf03bd14ba3b211928e14797ac8"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/giving-short-presentation.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "6cedd0c7eddb910eb4baa3a1a61ee2a9e685f54bc2ee2b5cfa7c2bcf4f14e408",
-    "sha256": "0332462972a8358e11502d4a4ea364cb7099a9846a2e147df9c9a44cfc53cea1"
-  }
+  ]
 }

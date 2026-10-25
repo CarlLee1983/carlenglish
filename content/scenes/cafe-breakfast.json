@@ -26,7 +26,13 @@
           "text": "."
         }
       ],
-      "translation": "晴朗的早晨，Mia 來到一間小咖啡店。"
+      "translation": "晴朗的早晨，Mia 來到一間小咖啡店。",
+      "audio": {
+        "src": "/audio/sentences/cafe-breakfast/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5da421b02e2bc0d2b95948e5c83aff302cf2f35882a9c516496ef818f7d529da",
+        "sha256": "6498efbeb0d27a7d313e22005663d0b4859e04a318a8eb7476d95defe9399c0f"
+      }
     },
     {
       "segments": [
@@ -70,7 +76,13 @@
           "text": ", please.”"
         }
       ],
-      "translation": "她看著菜單說：「我想要一杯咖啡和一些吐司，謝謝。」"
+      "translation": "她看著菜單說：「我想要一杯咖啡和一些吐司，謝謝。」",
+      "audio": {
+        "src": "/audio/sentences/cafe-breakfast/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f2eaa34a142e1ac3f4b9847fb71c0c95e95ed43732c0ee9668028574f46333c5",
+        "sha256": "b656c512a3befa88aaeb7a5a837748b7bda73d667e1871c585e0588ae7a417e5"
+      }
     },
     {
       "segments": [
@@ -96,7 +108,13 @@
           "text": "”"
         }
       ],
-      "translation": "咖啡師問：「內用還是外帶？」"
+      "translation": "咖啡師問：「內用還是外帶？」",
+      "audio": {
+        "src": "/audio/sentences/cafe-breakfast/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "403a939158dc7ca41a3f28eb383388b7c101d19dd414d47e96e42174938d26e2",
+        "sha256": "401903bf2d1c865fedf657bdfb297e374170853700c369279816da7ca7cedac2"
+      }
     },
     {
       "segments": [
@@ -113,7 +131,13 @@
           "text": ",” Mia says."
         }
       ],
-      "translation": "Mia 說：「外帶，謝謝。」"
+      "translation": "Mia 說：「外帶，謝謝。」",
+      "audio": {
+        "src": "/audio/sentences/cafe-breakfast/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cedcb4f5030435a8ede31fe53e71dcce2e522e222e467baed63e51765d54c045",
+        "sha256": "679b848712525117ce0bcbf6e246567a09daecf17eea7ef47d18dff8d8d93468"
+      }
     },
     {
       "segments": [
@@ -148,7 +172,13 @@
           "text": "."
         }
       ],
-      "translation": "咖啡師把她的吐司放進紙袋裡。"
+      "translation": "咖啡師把她的吐司放進紙袋裡。",
+      "audio": {
+        "src": "/audio/sentences/cafe-breakfast/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c75b3bc846db159db04cc1062b668c5ac492576447214fd48030365f4c1e609f",
+        "sha256": "ffd1be0901c703f76a9ff8e70ffd825a2c67f27a1328c5d443e31ba1e04833ae"
+      }
     },
     {
       "segments": [
@@ -174,7 +204,13 @@
           "text": "."
         }
       ],
-      "translation": "Mia 在櫃檯問：「多少錢？」"
+      "translation": "Mia 在櫃檯問：「多少錢？」",
+      "audio": {
+        "src": "/audio/sentences/cafe-breakfast/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1eca1fea450490838b84bcb435855e496a3d54fa6bafa53343610d02dd5270d0",
+        "sha256": "26910de8dda326ca3e13d0f19823e1efcd3bd448e923b59124937799b209f2a8"
+      }
     },
     {
       "segments": [
@@ -191,7 +227,13 @@
           "text": " says."
         }
       ],
-      "translation": "咖啡師說：「五元。」"
+      "translation": "咖啡師說：「五元。」",
+      "audio": {
+        "src": "/audio/sentences/cafe-breakfast/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "418477ba7b1d907fd7b5738e47ef7f4200c22be175dcd02676a0b806459a7c6f",
+        "sha256": "3c64ca600b9fef1f28a40a99ff0e8795288971382115efa9eb1c06cd894ce91c"
+      }
     },
     {
       "segments": [
@@ -217,7 +259,13 @@
           "text": "”"
         }
       ],
-      "translation": "Mia 付了錢，拿起早餐，並說：「謝謝你！」"
+      "translation": "Mia 付了錢，拿起早餐，並說：「謝謝你！」",
+      "audio": {
+        "src": "/audio/sentences/cafe-breakfast/8.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3579f5b701c45a68b13c35377eceb91ae227068cb0b07c6de260f95c0ba80964",
+        "sha256": "d7d7ebf64f10e98ae68c79d940806b994081153c69ed6cd72e53ff3b9c2e9798"
+      }
     }
   ],
   "phrases": [
@@ -374,11 +422,5 @@
         "sha256": "88f9eea4958a119760ac4e099752fcb4ea0ed08ca8ca7e607cb9ed87b7cf0e4b"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/cafe-breakfast.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "16e23830a1df8ba939804c3f6b0a9d9cb7efd2961bab66667186fa2652df8577",
-    "sha256": "b2007a986dff86e1fddd3233fb7a01bda49149ee955e19284b4a3235af6752e1"
-  }
+  ]
 }

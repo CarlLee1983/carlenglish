@@ -44,7 +44,13 @@
           "text": "."
         }
       ],
-      "translation": "Leo 看著書桌，但他只有一個橡皮擦和一把尺。"
+      "translation": "Leo 看著書桌，但他只有一個橡皮擦和一把尺。",
+      "audio": {
+        "src": "/audio/sentences/classroom-help/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "999e3b72da16fc30eb68cb74aee89684656ace0b0a10017876e37c489557e45e",
+        "sha256": "2d22bd75a1c128c7d45b4f314ac99cd95eb6d163f13bf5d1a33b0d9e449eb8da"
+      }
     },
     {
       "segments": [
@@ -70,7 +76,13 @@
           "text": " Mia for help."
         }
       ],
-      "translation": "他忘了帶鉛筆，便轉向同學 Mia 求助。"
+      "translation": "他忘了帶鉛筆，便轉向同學 Mia 求助。",
+      "audio": {
+        "src": "/audio/sentences/classroom-help/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c0ff52409af4a1c994ad0dd08d301280a1db731fd704d113571cb1d358ae3f53",
+        "sha256": "085c7786a29b05924995dec8cf6573888904fbb47bff31cceb44799ce0d82d39"
+      }
     },
     {
       "segments": [
@@ -102,7 +114,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 有禮貌地問：「我可以借一枝鉛筆嗎？」"
+      "translation": "Leo 有禮貌地問：「我可以借一枝鉛筆嗎？」",
+      "audio": {
+        "src": "/audio/sentences/classroom-help/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7ba91604e3c95ed2e917ef18d128dc453c6c8b88471b835baaa045090d91797d",
+        "sha256": "29e7d3d0b8aeeec8f56111312c169d6e5ee2534b61b818949a44cc8d3cb7b9ed"
+      }
     },
     {
       "segments": [
@@ -119,7 +137,13 @@
           "text": "”"
         }
       ],
-      "translation": "Mia 親切地微笑著說：「這給你。」"
+      "translation": "Mia 親切地微笑著說：「這給你。」",
+      "audio": {
+        "src": "/audio/sentences/classroom-help/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d22628f753d2f4f6d3e39b93df80991e4925471e505a45ed96a357cf047a073e",
+        "sha256": "d7608f06d9e80f05071224b202ba39e6b56b7cd789f1fe0de9b3b31fd97c372a"
+      }
     },
     {
       "segments": [
@@ -145,7 +169,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 接過鉛筆並說：「非常謝謝你。」"
+      "translation": "Leo 接過鉛筆並說：「非常謝謝你。」",
+      "audio": {
+        "src": "/audio/sentences/classroom-help/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3efcf3526f04a21fba5d2601868b914b36a68f0954da40bb1131b0976e562372",
+        "sha256": "3f261f4b9c5342e03c2e3f79075d885fb16b85a045f955c5dcec4bfd9ddf23d3"
+      }
     },
     {
       "segments": [
@@ -162,7 +192,13 @@
           "text": "”"
         }
       ],
-      "translation": "Mia 帶著友善的微笑回答：「不客氣。」"
+      "translation": "Mia 帶著友善的微笑回答：「不客氣。」",
+      "audio": {
+        "src": "/audio/sentences/classroom-help/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fd8572bdd543c2961fe3a26f7ae9275f32d7a4f27d0d821db56a40b052d6eacb",
+        "sha256": "76bf9740cba34546e85f88e7e7de545c60caa7640011a239dd661b1b8e6a32ac"
+      }
     },
     {
       "segments": [
@@ -179,7 +215,13 @@
           "text": " smiles at them and starts the lesson."
         }
       ],
-      "translation": "他們的老師對著他們微笑，並開始上課。"
+      "translation": "他們的老師對著他們微笑，並開始上課。",
+      "audio": {
+        "src": "/audio/sentences/classroom-help/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c431a88b106edc4a5560ddda3d38d7b37ccc61b4ba16f251bfb29ef79d3b6410",
+        "sha256": "96e4557b917adb6457bb22f5825231ce554932487834c0dbe53b45feb4225c99"
+      }
     }
   ],
   "phrases": [
@@ -301,11 +343,5 @@
         "sha256": "9730f9baecb75e2960f57e2ef53e9f307a974e0896c87b34bc4fb0f4385f31e8"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/classroom-help.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "00bbf32b40e17a28a3f0ab3cf2007c14962a7709f82630d1c9bf1b2299b4ded8",
-    "sha256": "e20f42308a0d10ced5189d8daba915240f437bff73e137810a69e3ff777a0d7c"
-  }
+  ]
 }

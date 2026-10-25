@@ -1,13 +1,16 @@
 ---
 import type { Scene } from '../lib/scenes';
 import { getLearningLevel, getRelatedScenes } from '../lib/catalog';
+import { createHash } from 'node:crypto';
 interface Props { scene: Scene; scenes: Scene[] }
 const { scene, scenes } = Astro.props;
 const level = getLearningLevel(scene);
 const otherScenes = getRelatedScenes(scene, scenes);
 const levelPath = `/levels/${level.id}/`;
+const readingVersion = createHash('sha256').update(JSON.stringify(scene.sentences.map(({ audio }) =>
+  [audio.textSha256, audio.sha256, audio.voiceId]))).digest('hex');
 ---
-<article class="page-shell reader" data-pronunciation-player>
+<article class="page-shell reader" data-pronunciation-player data-scene-id={scene.id} data-reading-level={level.id} data-reading-version={readingVersion}>
   <a class="back-link" href={levelPath} data-catalog-context><span aria-hidden="true">←</span> 回到{level.name}讀本</a>
   <header class="reader-heading">
     <p class="scene-meta">{scene.category}<span>{scene.level}</span></p>
@@ -18,24 +21,26 @@ const levelPath = `/levels/${level.id}/`;
   <img class="scene-image" src={scene.image.src} alt={scene.image.alt} width={scene.image.width} height={scene.image.height} style={`--scene-width: ${360 * scene.image.width / scene.image.height}px; --scene-mobile-width: ${260 * scene.image.width / scene.image.height}px;`} fetchpriority="high" />
   <div class="reading-body">
     <section id="story" class="story-section" aria-labelledby="story-title">
-      <h2 id="story-title">英文短文</h2>
-      <p class="section-hint">先試著讀英文，需要時再查看翻譯。</p>
-      <div class="pronunciation-controls">
-        <button type="button" class="pronounce-button" data-pronounce data-audio-kind="story" data-audio-src={scene.audio.src} data-label="整篇短文" aria-label="朗讀整篇英文短文" disabled>朗讀整篇</button>
-        <button type="button" class="pronunciation-action" data-story-pause aria-label="暫停朗讀" disabled>暫停</button>
-        <button type="button" class="pronunciation-action" data-story-restart aria-label="從頭朗讀" disabled>從頭播放</button>
-        <button type="button" class="pronunciation-stop" data-pronounce-stop disabled>停止播放</button>
+      <div class="story-heading">
+        <h2 id="story-title">英文短文</h2>
+        <button type="button" class="pronunciation-action follow-entry" data-follow-open disabled>開始跟讀</button>
       </div>
-      <p class="pronunciation-status" data-pronounce-status role="status" aria-live="polite" aria-atomic="true">點選播放按鈕，即可聽固定美式女聲。</p>
+      <div class="reading-audio-status">
+        <p class="pronunciation-status" data-pronounce-status role="status" aria-live="polite" aria-atomic="true">點選短句或單字的播放按鈕，即可聽固定美式女聲。</p>
+        <button type="button" class="pronunciation-stop" data-pronounce-stop disabled>停止播放</button>
+        <p class="reading-storage-status" data-reading-storage-status role="status" aria-live="polite" hidden></p>
+      </div>
       <noscript><p class="pronunciation-noscript">啟用 JavaScript 後即可播放語音；文章仍可正常閱讀。</p></noscript>
-      <p class="annotation-key"><span class="phrase-highlight">常用短句</span><span class="word-highlight">重點單字</span></p>
       <div class="english-story" lang="en">
         {scene.sentences.map((sentence) => (
+          <div class="story-sentence" data-story-sentence data-audio-src={sentence.audio.src} data-translation={sentence.translation} tabindex="-1">
           <p>{sentence.segments.map((segment) => (
             <span class:list={{ 'phrase-highlight': Boolean(segment.phraseIds?.length), 'word-highlight': Boolean(segment.wordIds?.length) }}>{segment.text}</span>
           ))}</p>
+          </div>
         ))}
       </div>
+      <p class="annotation-key"><span class="phrase-highlight">常用短句</span><span class="word-highlight">重點單字</span></p>
       <details class="translation">
         <summary><span class="when-closed">查看繁體中文翻譯</span><span class="when-open">收合繁體中文翻譯</span><span class="disclosure-symbol" aria-hidden="true">+</span></summary>
         <div class="translated-story">
@@ -88,6 +93,51 @@ const levelPath = `/levels/${level.id}/`;
       <a class="back-link" href={levelPath} data-catalog-context>回到{level.name}讀本 <span aria-hidden="true">→</span></a>
     </nav>
   </div>
+  <dialog class="follow-dialog" data-follow-dialog aria-labelledby="follow-title">
+    <div class="follow-practice" data-follow-practice>
+      <header class="follow-header">
+        <button type="button" class="follow-quiet" data-follow-close disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" /></svg>回到文章</button>
+        <p id="follow-title" class="follow-title" title={scene.title}>{scene.title}</p>
+        <details class="follow-settings">
+          <summary>設定</summary>
+          <div class="follow-settings-body">
+            <label>朗讀模式<select aria-label="朗讀模式" data-reading-mode disabled><option value="guided" selected={level.id === 'beginner'}>逐句跟讀</option><option value="continuous" selected={level.id !== 'beginner'}>連續朗讀</option></select></label>
+            <label>跳到句子<select aria-label="選擇跟讀句子" data-follow-sentence disabled>{scene.sentences.map((_, index) => <option value={index}>第 {index + 1} 句</option>)}</select></label>
+            <button type="button" data-story-restart disabled>從頭朗讀</button>
+          </div>
+        </details>
+      </header>
+      <div class="follow-toolbar">
+        <span class="reading-position" data-reading-position>1 / {scene.sentences.length} 句</span>
+        <div class="follow-toolbar-actions">
+          <button type="button" class="follow-quiet" data-follow-translation aria-pressed="false" disabled>顯示中文</button>
+          <select aria-label="朗讀語速" title="朗讀語速" data-reading-rate disabled>{[0.7, 0.8, 0.9, 1].map((rate) => <option value={rate} selected={rate === (level.id === 'beginner' ? 0.8 : 1)}>{rate.toFixed(1)} 倍</option>)}</select>
+        </div>
+      </div>
+      <section class="follow-text-region" data-follow-text-region tabindex="0" aria-label="本句內容，可捲動">
+        <p class="follow-content" data-follow-content lang="en">{scene.sentences[0].segments.map((segment) => <span class:list={{ 'phrase-highlight': Boolean(segment.phraseIds?.length), 'word-highlight': Boolean(segment.wordIds?.length) }}>{segment.text}</span>)}</p>
+        <p class="follow-translation" data-follow-translation-text hidden>{scene.sentences[0].translation}</p>
+      </section>
+      <footer class="follow-footer">
+        <p class="follow-status" data-follow-status role="status" aria-live="polite" aria-atomic="true">先聽本句，再自己開口說一次。</p>
+        <div class="follow-actions">
+          <button type="button" data-story-previous disabled>上一句</button>
+          <button type="button" data-story-repeat disabled>重聽本句</button>
+          <button type="button" class="follow-primary" data-pronounce data-audio-kind="story" data-audio-src={scene.sentences[0].audio.src} data-label="英文短文" data-story-primary disabled>播放本句</button>
+        </div>
+        <p class="follow-hint">每句播完會停下來，換你開口跟讀。</p>
+        <p class="reading-storage-status" data-reading-storage-status role="status" aria-live="polite" hidden></p>
+      </footer>
+    </div>
+    <section class="follow-completion" data-follow-completion hidden>
+      <h2 data-follow-completion-title tabindex="-1">本篇已聽完</h2>
+      <p>再練一次，或回到文章慢慢讀。</p>
+      <div class="follow-completion-actions">
+        <button type="button" data-follow-close disabled>回到文章</button>
+        <button type="button" class="follow-primary" data-follow-replay disabled>再練一次</button>
+      </div>
+    </section>
+  </dialog>
 </article>
 <script>import '../scripts/pronunciation';</script>
 <script>import '../scripts/reader-navigation';</script>

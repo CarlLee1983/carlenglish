@@ -35,7 +35,13 @@
           "text": " booth."
         }
       ],
-      "translation": "在學校社團博覽會上，Kevin 走到科學社的攤位前。"
+      "translation": "在學校社團博覽會上，Kevin 走到科學社的攤位前。",
+      "audio": {
+        "src": "/audio/sentences/club-signup/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "114a54faccec695a8ab4ad614d9e1412bf1200742856b92331e4a5411483aa98",
+        "sha256": "5fce740015a1652b61ca9a3659f5785b0b0999dfb338798cc32da64896863aa8"
+      }
     },
     {
       "segments": [
@@ -52,7 +58,13 @@
           "text": "”"
         }
       ],
-      "translation": "他對他們的成果感到好奇，微笑著問道：「你們在這裡做些什麼？」"
+      "translation": "他對他們的成果感到好奇，微笑著問道：「你們在這裡做些什麼？」",
+      "audio": {
+        "src": "/audio/sentences/club-signup/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bc69e7bdfdbdcf261263309e4ffdfed6f33db1ae28076bb429d6f6a210f6825d",
+        "sha256": "93ede6ae97f29574100b4a7c35fa4878e1474ab2bf809b4540abe7b5738a7809"
+      }
     },
     {
       "segments": [
@@ -78,7 +90,13 @@
           "text": " every week.”"
         }
       ],
-      "translation": "一位友善的社員回答：「我們每週都會製作模型，並規劃有趣的活動。」"
+      "translation": "一位友善的社員回答：「我們每週都會製作模型，並規劃有趣的活動。」",
+      "audio": {
+        "src": "/audio/sentences/club-signup/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ef8ee52210f3a4baa82b96109671921f14876eac33842e9b26fb32fdb41fafa8",
+        "sha256": "d3db22ec07f5c71c8058fc863fb591ae4cae9c487738c6e402e75715dde71ea8"
+      }
     },
     {
       "segments": [
@@ -95,7 +113,13 @@
           "text": "”"
         }
       ],
-      "translation": "Kevin 對社團時間很感興趣，問道：「你們什麼時候聚會？」"
+      "translation": "Kevin 對社團時間很感興趣，問道：「你們什麼時候聚會？」",
+      "audio": {
+        "src": "/audio/sentences/club-signup/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2cc710e580b906f357c612f774cd54fb5770a65fecba2931ee48b4e7b6886d95",
+        "sha256": "a859db42d79b07949316aafa7139695b16d7e8b81aaadf21d0765263fa120353"
+      }
     },
     {
       "segments": [
@@ -103,7 +127,13 @@
           "text": "“We meet every Thursday after class in the lab,” the student explains."
         }
       ],
-      "translation": "「我們每週四放學後在實驗室聚會，」那位同學說明道。"
+      "translation": "「我們每週四放學後在實驗室聚會，」那位同學說明道。",
+      "audio": {
+        "src": "/audio/sentences/club-signup/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6b9d38e05f0486f9977d12840a6f72c8683e2c3035d9a00426846fbd70937e54",
+        "sha256": "ec189a136b1fc68a2671245a7f719d36b6cf64151ff85b74d5decddb8ca82091"
+      }
     },
     {
       "segments": [
@@ -150,7 +180,13 @@
           "text": "”"
         }
       ],
-      "translation": "Kevin 非常興奮並說道：「我想加入這個社團。」"
+      "translation": "Kevin 非常興奮並說道：「我想加入這個社團。」",
+      "audio": {
+        "src": "/audio/sentences/club-signup/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e9c716110dd33f3e36fa5d08de9cb1cef696328723b6b6edcd3157863ae73db7",
+        "sha256": "2803ee153b1ff1d910ab28305d03322ec64e617bfafb0903caf56c5d79984c87"
+      }
     },
     {
       "segments": [
@@ -191,7 +227,13 @@
           "text": " his name."
         }
       ],
-      "translation": "接著他問道：「我可以在哪裡報名？」並拿起筆簽下自己的名字。"
+      "translation": "接著他問道：「我可以在哪裡報名？」並拿起筆簽下自己的名字。",
+      "audio": {
+        "src": "/audio/sentences/club-signup/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8a487252b7505279a6bae7d9e06734d53742af7b32ee64138c8b865d3f46e0f2",
+        "sha256": "0d9d59a019558139a11f76b320f4cbb8061966670a0a1ba7d4099c5340739601"
+      }
     }
   ],
   "phrases": [
@@ -313,11 +355,5 @@
         "sha256": "4f10a4872da0296ad4a29e875400b4ae426a77912e60e468f41ff5635523a8ff"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/club-signup.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "3987c77a843384da494607f31b3d843c2d3fd3b2a4d699f9ec66e11a039d7763",
-    "sha256": "8e56f5e9b795aec39fac9b931ac78c5ef26c45775e627919394cecb7b3e8d90e"
-  }
+  ]
 }

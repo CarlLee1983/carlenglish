@@ -44,7 +44,13 @@
           "text": "."
         }
       ],
-      "translation": "Leo 走到戶外，在院子裡和他養的寵物狗一起玩。"
+      "translation": "Leo 走到戶外，在院子裡和他養的寵物狗一起玩。",
+      "audio": {
+        "src": "/audio/sentences/pet-care/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6b2390f372a527380a3de617254970c8f8e2ec9bedf60f96ffd04dc9f518913c",
+        "sha256": "9ac227bb8e9b86b1ca72effef3beeddf5526afeab92dc550c12b0b0776fef541"
+      }
     },
     {
       "segments": [
@@ -109,7 +115,13 @@
           "text": "”"
         }
       ],
-      "translation": "媽媽把乾淨的水倒進碗裡，說：「我們給狗狗倒點水吧。」"
+      "translation": "媽媽把乾淨的水倒進碗裡，說：「我們給狗狗倒點水吧。」",
+      "audio": {
+        "src": "/audio/sentences/pet-care/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4c724626d39b4b1dd2e606b7257425d849fe7b53dad5e7e38f548a6323d24dbc",
+        "sha256": "35a6c8e078cfae025cdc3ff36e472ce4a542e3b056cf7e74bd5868b21e8b75d6"
+      }
     },
     {
       "segments": [
@@ -135,7 +147,13 @@
           "text": "”"
         }
       ],
-      "translation": "接著，Leo 裝滿飼料碗並大聲喊：「吃飯時間到了！」"
+      "translation": "接著，Leo 裝滿飼料碗並大聲喊：「吃飯時間到了！」",
+      "audio": {
+        "src": "/audio/sentences/pet-care/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "75131708e7ebae3ed3451756ce6d1c29bb4afafb2b0656d605735087946eb178",
+        "sha256": "92ec22f3810dcae8ce3310a4174fb4056b0f8e42f775b34e52a3f7edd8f25369"
+      }
     },
     {
       "segments": [
@@ -152,7 +170,13 @@
           "text": "”"
         }
       ],
-      "translation": "吃完後，Leo 溫柔地幫 Toby 梳毛並笑著說：「好乖！」"
+      "translation": "吃完後，Leo 溫柔地幫 Toby 梳毛並笑著說：「好乖！」",
+      "audio": {
+        "src": "/audio/sentences/pet-care/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "54d8f4fcf2395ea4924aeb9614578e918aa026c29bb213e71b9ef88e7e7246d9",
+        "sha256": "4901c2f5faf1aeef934dd2825c430800d1abae77706d35936360f10ad96fd4c2"
+      }
     },
     {
       "segments": [
@@ -193,7 +217,13 @@
           "text": "”"
         }
       ],
-      "translation": "然後，Leo 把一顆紅色的球丟過草地，大聲喊：「去把球撿回來。」"
+      "translation": "然後，Leo 把一顆紅色的球丟過草地，大聲喊：「去把球撿回來。」",
+      "audio": {
+        "src": "/audio/sentences/pet-care/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "268e2e71690b50ac67c561aadb24071bbe5592eba41c8c52404977491e97c7d9",
+        "sha256": "ee4d097c66f8a558a5d9da8b6f36195ac35449011c0f26e176642bea2f0bf21a"
+      }
     },
     {
       "segments": [
@@ -210,7 +240,13 @@
           "text": " back to Leo's hands."
         }
       ],
-      "translation": "Toby 開心地把球叼回 Leo 的手上。"
+      "translation": "Toby 開心地把球叼回 Leo 的手上。",
+      "audio": {
+        "src": "/audio/sentences/pet-care/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "69cf221269728213b6d16cb1b073491848e623bba9c1dbcf19f7f0a2fd5c1771",
+        "sha256": "97b731a575bd5225ffc6aa279a2c591c437ce6c3a81ebbe663a3f13e51c6d4ba"
+      }
     }
   ],
   "phrases": [
@@ -332,11 +368,5 @@
         "sha256": "d5f343ed9f1dca01f2099870c01ecfc1c81ab8550f6a9615f2a933aa1d0caca8"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/pet-care.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "ef399be85c3891de3c0fc0905e11fd3baadbe4d5d15ce9b60c83e08c9f1881e2",
-    "sha256": "58e6e7d3e0ebb1056a6f73fa73b4d28b91c8b466fd1a0c2c6315d48940c46478"
-  }
+  ]
 }

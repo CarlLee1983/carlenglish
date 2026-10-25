@@ -41,7 +41,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 走進學校餐廳，問道：「今天午餐吃什麼？」"
+      "translation": "Leo 走進學校餐廳，問道：「今天午餐吃什麼？」",
+      "audio": {
+        "src": "/audio/sentences/lunch-choice/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9e375645b6cf2a10be6d6c700b906367ffc7381a0befee8bf720e7828cf83a8d",
+        "sha256": "275523c1466cc8ade92b505a5a9a897fc1b7d2fba80ddd7f0ba5bcb5a91188b3"
+      }
     },
     {
       "segments": [
@@ -67,7 +73,13 @@
           "text": "”"
         }
       ],
-      "translation": "他看著熱騰騰的雞肉說：「看起來好好吃。」"
+      "translation": "他看著熱騰騰的雞肉說：「看起來好好吃。」",
+      "audio": {
+        "src": "/audio/sentences/lunch-choice/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f43d1f083a0e717907aa8f8269d38c08f8f57878ffb7e8e536c49c0af1593389",
+        "sha256": "b09b5b91486a060c720438032bc47e4a049ea7151aa622d7543d9bfc2c8867b1"
+      }
     },
     {
       "segments": [
@@ -99,7 +111,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 對廚工阿姨說：「我想要一些白飯，謝謝。」"
+      "translation": "Leo 對廚工阿姨說：「我想要一些白飯，謝謝。」",
+      "audio": {
+        "src": "/audio/sentences/lunch-choice/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ec712aff3960be0e18b2deb98f6f267aca3a2649b0078dae1ed91e699ce8744a",
+        "sha256": "7b61986334b35e46af3f2ac190d85cf25ccb7d9b109d583e2e7de76eb1c8bdbc"
+      }
     },
     {
       "segments": [
@@ -140,7 +158,13 @@
           "text": "”"
         }
       ],
-      "translation": "他選了一道新鮮蔬菜，並問：「我可以要一些湯嗎？」"
+      "translation": "他選了一道新鮮蔬菜，並問：「我可以要一些湯嗎？」",
+      "audio": {
+        "src": "/audio/sentences/lunch-choice/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8b7ee58f2598f3b6f3b800cd0a6b38283c4f85e0d43bb1b0e196738d04ab44a0",
+        "sha256": "2ab7061b07cd4b2be295e2204efbb46d2f88d6169d9db6d71aeceacf94c6399f"
+      }
     },
     {
       "segments": [
@@ -157,7 +181,13 @@
           "text": "."
         }
       ],
-      "translation": "廚工阿姨微笑著，把熱騰騰的食物放到他的餐盤上。"
+      "translation": "廚工阿姨微笑著，把熱騰騰的食物放到他的餐盤上。",
+      "audio": {
+        "src": "/audio/sentences/lunch-choice/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5f9d20d6844d4f9fca33da93e9629c80de05e260604601f02bd8a8f13d4ee073",
+        "sha256": "2b303f1d0c84adbf27e4d4a4b92bbea81a565b611e666128e2c6b5d2ec7a26d5"
+      }
     },
     {
       "segments": [
@@ -174,7 +204,13 @@
           "text": "."
         }
       ],
-      "translation": "Leo 和朋友們坐在一起，開心地享用他的午餐。"
+      "translation": "Leo 和朋友們坐在一起，開心地享用他的午餐。",
+      "audio": {
+        "src": "/audio/sentences/lunch-choice/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c24a9feaf8349c27d40164f1ce6adbd8cf5ec7177dbcb49c9b2850f460206ee4",
+        "sha256": "0c7361975f57a112092102b076d4e42c6db297ba8769af39e31feb24bbb8d898"
+      }
     }
   ],
   "phrases": [
@@ -296,11 +332,5 @@
         "sha256": "7c84541365e375efd7924c392720005221b8292e806cd8b8997df59e94343295"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/lunch-choice.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "b97d5cd9016fc4fce4834aa920c4bb3a2d21f9aff3f2ec45b0baa2b243f4b6da",
-    "sha256": "3ff9a6263a102d3bd0dfda438edf1016852bb0b2b474940849e46b3f166afc72"
-  }
+  ]
 }

@@ -35,7 +35,13 @@
           "text": "."
         }
       ],
-      "translation": "放學後，Ben 坐在書桌前的椅子上。"
+      "translation": "放學後，Ben 坐在書桌前的椅子上。",
+      "audio": {
+        "src": "/audio/sentences/after-school-homework/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ca819f33aa8609d0b17b41a0b4d4dc4f9e034078f68e3068436808fe7205681b",
+        "sha256": "b10e45ae508e2605f03a266b41c2eb0ec496f721018864c3fc6eb351f03383e1"
+      }
     },
     {
       "segments": [
@@ -52,7 +58,13 @@
           "text": "."
         }
       ],
-      "translation": "他打開練習本開始寫功課。"
+      "translation": "他打開練習本開始寫功課。",
+      "audio": {
+        "src": "/audio/sentences/after-school-homework/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "967e113cb3dea7a0091059caebadc8ac964ddc431f7fc8180ccb9412f50671fa",
+        "sha256": "5f68633b10388921169a29c46810d90b72fd9217b473ef8c40938f9d0552a7f0"
+      }
     },
     {
       "segments": [
@@ -78,7 +90,13 @@
           "text": " is hard, so Ben thinks carefully."
         }
       ],
-      "translation": "有一題數學題目很難，所以 Ben 認真思考。"
+      "translation": "有一題數學題目很難，所以 Ben 認真思考。",
+      "audio": {
+        "src": "/audio/sentences/after-school-homework/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "deecc253b84873e20afb1dc1611649ac5810d3c62fc8595b1ffb0109679b9ec1",
+        "sha256": "5d4e5b597a3713cb636a333d99090a3cf47f0825a6f4abbfffa9f27e7b80a887"
+      }
     },
     {
       "segments": [
@@ -95,7 +113,13 @@
           "text": "”"
         }
       ],
-      "translation": "Ben 看著爸爸問：「你可以幫我嗎？」"
+      "translation": "Ben 看著爸爸問：「你可以幫我嗎？」",
+      "audio": {
+        "src": "/audio/sentences/after-school-homework/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c6b193ad36cb0145da62867452eb01b02c66e8cfb6096546921411d37f19cf3f",
+        "sha256": "74ce59964cef807f292a3a3470cadaa4b4bd569b9982d05b59ee5dec0e2863fd"
+      }
     },
     {
       "segments": [
@@ -112,7 +136,13 @@
           "text": "”"
         }
       ],
-      "translation": "爸爸親切地微笑著說：「讓我看看。」"
+      "translation": "爸爸親切地微笑著說：「讓我看看。」",
+      "audio": {
+        "src": "/audio/sentences/after-school-homework/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "88c67e58b6ca4439bddac97e80318cd7232e719f25f0c252a9e94a22fcae2e5b",
+        "sha256": "bec7465b726439841a21ac168767e69d6d36ddc099b14effcfa68413aabecf17"
+      }
     },
     {
       "segments": [
@@ -144,7 +174,13 @@
           "text": "”"
         }
       ],
-      "translation": "爸爸一步步引導他，Ben 開心地說：「我做完了。」"
+      "translation": "爸爸一步步引導他，Ben 開心地說：「我做完了。」",
+      "audio": {
+        "src": "/audio/sentences/after-school-homework/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a57ac6a3814f8f20aedcc509b90a7bcab38e4b530775ac7a79b8073705dc70bf",
+        "sha256": "735e895c44fbbef2db35a0d7b8950eba677510ae02f80efddbca8a60f89f04de"
+      }
     },
     {
       "segments": [
@@ -161,7 +197,13 @@
           "text": "”"
         }
       ],
-      "translation": "爸爸和他擊掌並說：「做得好！」"
+      "translation": "爸爸和他擊掌並說：「做得好！」",
+      "audio": {
+        "src": "/audio/sentences/after-school-homework/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5206c54fdb5e6f68c873143ad168a014a47ddb57b461bec10d99bb24a6253d25",
+        "sha256": "42bc2815ba1c2c058af0820d02b1662596ab41cb43d8882b7c28f744f2ff0bfc"
+      }
     }
   ],
   "phrases": [
@@ -283,11 +325,5 @@
         "sha256": "ea5bde5e8db8cce4fefee5f2b331cda0bdb30f885aba3ad0802b8edc0562d0ae"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/after-school-homework.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "ebd73e872020cad2779fe3fb5a28d728c038b569ee6f4ed2c39b50b523136222",
-    "sha256": "21411269566cad90db2a6168b90d100ad46888aa547ea0a006b4f11be738ab47"
-  }
+  ]
 }

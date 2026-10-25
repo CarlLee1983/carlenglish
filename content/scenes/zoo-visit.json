@@ -26,7 +26,13 @@
           "text": "."
         }
       ],
-      "translation": "星期天，我和家人開心地走進動物園。"
+      "translation": "星期天，我和家人開心地走進動物園。",
+      "audio": {
+        "src": "/audio/sentences/zoo-visit/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2bdc7b627ff281326da202469a5a9c817d975c4e775dc4a7df0cb24c85f12e14",
+        "sha256": "de06a31ad5d3fe6cb61cb78f81234d02ce32e05b2228a157f32d54ab3b850e59"
+      }
     },
     {
       "segments": [
@@ -43,7 +49,13 @@
           "text": "."
         }
       ],
-      "translation": "我們很興奮能拜訪每一隻友善的動物。"
+      "translation": "我們很興奮能拜訪每一隻友善的動物。",
+      "audio": {
+        "src": "/audio/sentences/zoo-visit/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b0ef5fe5c95d6c7500e5ea50c813592b8f886b2a7854f6a1477ca5aa7782d07f",
+        "sha256": "f578511eef882a3bea5e525479e87d3d9e2cbe6bfc533227690962ac5a60e164"
+      }
     },
     {
       "segments": [
@@ -90,7 +102,13 @@
           "text": "”"
         }
       ],
-      "translation": "我們看著長頸鹿吃綠葉，我說：「長頸鹿好高喔。」"
+      "translation": "我們看著長頸鹿吃綠葉，我說：「長頸鹿好高喔。」",
+      "audio": {
+        "src": "/audio/sentences/zoo-visit/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "30a1b083e6e0610f7b45f32ef28701b348aec72c34e479b001a2974d19017981",
+        "sha256": "06eed67919ea4bf76d880f5ace81a56437ecfaaf10a39601a412d00506ead2e5"
+      }
     },
     {
       "segments": [
@@ -122,7 +140,13 @@
           "text": "”"
         }
       ],
-      "translation": "接著我弟弟指著並喊道：「看那隻大象！」"
+      "translation": "接著我弟弟指著並喊道：「看那隻大象！」",
+      "audio": {
+        "src": "/audio/sentences/zoo-visit/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e247c1c7f05dea95620ad5a005c677e294475958e93976f564384143e4aac612",
+        "sha256": "b59e45e20ccaa6e290763a02270a1f4cbc33af3cc7c3ce45fc190d97d231b903"
+      }
     },
     {
       "segments": [
@@ -154,7 +178,13 @@
           "text": "”"
         }
       ],
-      "translation": "媽媽舉起相機問：「我們可以拍張照嗎？」"
+      "translation": "媽媽舉起相機問：「我們可以拍張照嗎？」",
+      "audio": {
+        "src": "/audio/sentences/zoo-visit/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e87b9970b3af99920a69291953dac00047151cfad4c457b3c7823c1c01a4021a",
+        "sha256": "87c0b9fb8fa0bafe89e242b97b6b449cd51d6a094d41a72f2e4a3be84a4e4a2e"
+      }
     },
     {
       "segments": [
@@ -186,7 +216,13 @@
           "text": "”"
         }
       ],
-      "translation": "我們大家一起對著鏡頭微笑，我說：「我好喜歡動物園！」"
+      "translation": "我們大家一起對著鏡頭微笑，我說：「我好喜歡動物園！」",
+      "audio": {
+        "src": "/audio/sentences/zoo-visit/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3a151b513dc7b6a3e74644cb941b461e0f37b8e9587b70cb73bdc27406f23a60",
+        "sha256": "1a7e85a1a6df1d2f72b3f5a1f7009a317c8416e0489595e0669c0157fa1d7b51"
+      }
     }
   ],
   "phrases": [
@@ -308,11 +344,5 @@
         "sha256": "a9a489e07eab02feef6c89077ed426d74d909839abb6de0105a796072483e092"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/zoo-visit.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "b4494f8016f0278303520514c0a92e86b997968d6b1d29ebe523843f3eaf8b13",
-    "sha256": "ebc086b4052da15d0b6730ee069b7a0e8238b4c55c18d1c86448c21ab8cca3d1"
-  }
+  ]
 }

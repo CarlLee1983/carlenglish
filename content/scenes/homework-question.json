@@ -44,7 +44,13 @@
           "text": " Mia."
         }
       ],
-      "translation": "放學後，Leo 對今天的英文作業有疑問，便走向他的同學 Mia。"
+      "translation": "放學後，Leo 對今天的英文作業有疑問，便走向他的同學 Mia。",
+      "audio": {
+        "src": "/audio/sentences/homework-question/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c9176c31f7a689aba70c39c7f9fb48dbddffa4187619b443dacfd292997bd67a",
+        "sha256": "c1d9ef6675f53e7a2900d81994ea8f183d661e4874294aa70c4255c6860563a1"
+      }
     },
     {
       "segments": [
@@ -76,7 +82,13 @@
           "text": "”"
         }
       ],
-      "translation": "他打開鉛筆盒問道：「作業什麼時候要交？」"
+      "translation": "他打開鉛筆盒問道：「作業什麼時候要交？」",
+      "audio": {
+        "src": "/audio/sentences/homework-question/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ac6c2d9a599701207704a64ad35b51277f0685d7918620e04d35e69bacb7f9b3",
+        "sha256": "349dce283c96c42615cdd969601e83ca1cdd53891a7c60b8f5e656a4dec82816"
+      }
     },
     {
       "segments": [
@@ -93,7 +105,13 @@
           "text": " this Friday morning before the bell rings.”"
         }
       ],
-      "translation": "Mia 看了看她的學習計畫本說：「這週五早上鐘響前要交。」"
+      "translation": "Mia 看了看她的學習計畫本說：「這週五早上鐘響前要交。」",
+      "audio": {
+        "src": "/audio/sentences/homework-question/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5e3484e7edd592fd3606979fb064da1045991e492eb2b158793ac618b8a6eb47",
+        "sha256": "fe660a02bc96b8aada2cdf64dbdd731b6b400f753ac0469720300012edffe932"
+      }
     },
     {
       "segments": [
@@ -125,7 +143,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 翻開作業本問道：「是哪一頁？」"
+      "translation": "Leo 翻開作業本問道：「是哪一頁？」",
+      "audio": {
+        "src": "/audio/sentences/homework-question/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e85f5e4242cd71a5a71a7fc8fa10d3e3089b38623f3dd985592a463dae533687",
+        "sha256": "a1d2373804e52912846602e67ba816c938a5fd1b7ed9551a28e2411b64f47fcd"
+      }
     },
     {
       "segments": [
@@ -142,7 +166,13 @@
           "text": " thirty-four.”"
         }
       ],
-      "translation": "Mia 指向閱讀部分回答：「我們要完成第三十四頁。」"
+      "translation": "Mia 指向閱讀部分回答：「我們要完成第三十四頁。」",
+      "audio": {
+        "src": "/audio/sentences/homework-question/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1b96aa53d69fab70bb0456b73202fb52433b391de535af33b3f38ba3765bad7a",
+        "sha256": "3822e15cd997f0210c508d9ff1770728e9d137d425caabefce752901946a2170"
+      }
     },
     {
       "segments": [
@@ -159,7 +189,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 面帶微笑記下筆記並說：「謝謝你的幫忙。」"
+      "translation": "Leo 面帶微笑記下筆記並說：「謝謝你的幫忙。」",
+      "audio": {
+        "src": "/audio/sentences/homework-question/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c2c930708207947dbf7d744de9352355584627e363c5e3fec0f489076bb4fcd9",
+        "sha256": "2c1a9a19e655c60097d45dcf328cbbb4c3ec2ac54c8cd2c0f6a282fa359f8c5a"
+      }
     },
     {
       "segments": [
@@ -191,7 +227,13 @@
           "text": "”"
         }
       ],
-      "translation": "Mia 背起書包開朗地回答：「完全沒問題。」"
+      "translation": "Mia 背起書包開朗地回答：「完全沒問題。」",
+      "audio": {
+        "src": "/audio/sentences/homework-question/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "153ecaf8c950b1185e0c26d9866fa1f47a2dbd920404f2eaad90eb02d15700ca",
+        "sha256": "56e2d660b6c350a99e1c842f2a7a45ff331ea1d54c28b307395fe1e36d9f08a2"
+      }
     }
   ],
   "phrases": [
@@ -313,11 +355,5 @@
         "sha256": "7c52c5aa3fa7b29a8d685145023a9d439081a05c9f4e48dcc2af3d6f59267c40"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/homework-question.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "7ed18904f9afe3b1d5a2278850f6a2ee92ddd23d290903147d988561275c9946",
-    "sha256": "9375951bfbdc9aec90d2022743a778ec1e0ccc0629c029594bc9ec4350b5c5a3"
-  }
+  ]
 }

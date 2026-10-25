@@ -26,7 +26,13 @@
           "text": " sun shines brightly into the room."
         }
       ],
-      "translation": "早晨的陽光燦爛地照進房間。"
+      "translation": "早晨的陽光燦爛地照進房間。",
+      "audio": {
+        "src": "/audio/sentences/morning-routine/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c65823c99a52e3791dcb3c80daf9c1547a306de8cf442a49f4c6f761ff4843f1",
+        "sha256": "44fd530d3b0cbdaf9978b074c087896566fac62f2f1edbd1becc1437dc459686"
+      }
     },
     {
       "segments": [
@@ -43,7 +49,13 @@
           "text": "”"
         }
       ],
-      "translation": "媽媽帶著溫暖的微笑走進來，說：「早安！」"
+      "translation": "媽媽帶著溫暖的微笑走進來，說：「早安！」",
+      "audio": {
+        "src": "/audio/sentences/morning-routine/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "53e69a3295478dbf65731de3075a45ed1f832a4d74effe455933f738e1e69f7b",
+        "sha256": "8720c0df1e590080b3a9dbe63594193778064fed1999026ced71e744fc347f46"
+      }
     },
     {
       "segments": [
@@ -60,7 +72,13 @@
           "text": "”"
         }
       ],
-      "translation": "她輕輕拍拍 Leo 說：「該起床了。」"
+      "translation": "她輕輕拍拍 Leo 說：「該起床了。」",
+      "audio": {
+        "src": "/audio/sentences/morning-routine/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "82303bf520878c8a9073f648a6ea68335edd1ab902329b116cbd6d20460b9fec",
+        "sha256": "8c23561be50fc9f304d4a9d7520db04181df5066f315c868905162a83cc892cd"
+      }
     },
     {
       "segments": [
@@ -86,7 +104,13 @@
           "text": "."
         }
       ],
-      "translation": "Leo 開心地醒來，並去刷牙。"
+      "translation": "Leo 開心地醒來，並去刷牙。",
+      "audio": {
+        "src": "/audio/sentences/morning-routine/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "392b0e13dd45499f5a0a290c8f94aee67a35e4e1d72ba8620a7656080397d6e6",
+        "sha256": "44c3fdeeec45d49e3702e2095eba8258ddad0e8052870080812c91aaf8887f34"
+      }
     },
     {
       "segments": [
@@ -103,7 +127,13 @@
           "text": "."
         }
       ],
-      "translation": "接著，他坐在餐桌旁吃早餐。"
+      "translation": "接著，他坐在餐桌旁吃早餐。",
+      "audio": {
+        "src": "/audio/sentences/morning-routine/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "946aaa4db43e0e4c7a37792c7e35d825b0b1e41667af3c1de741c4a20e77b755",
+        "sha256": "d973b370a776cc06529fcdd13ed2e6226267bac8d248dba0b9c44496550536fe"
+      }
     },
     {
       "segments": [
@@ -135,7 +165,13 @@
           "text": "”"
         }
       ],
-      "translation": "媽媽指著玄關說：「穿上你的鞋子。」"
+      "translation": "媽媽指著玄關說：「穿上你的鞋子。」",
+      "audio": {
+        "src": "/audio/sentences/morning-routine/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7c59ed2da0649d175e38ce3101351a3ff50f89a3332d3c1c992ee5d69a5f88cb",
+        "sha256": "5a59df2b924c27b4f4d7b1e59c6d08e920ff8a8efd681fac8a277275b498100b"
+      }
     },
     {
       "segments": [
@@ -161,7 +197,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 打開大門準備去上學，並大聲說：「待會見！」"
+      "translation": "Leo 打開大門準備去上學，並大聲說：「待會見！」",
+      "audio": {
+        "src": "/audio/sentences/morning-routine/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "180b7519a55205a32bf1c8d170e817b84794bdb96d2aea85816f63926003244a",
+        "sha256": "2ca1f6134fbab258094b8554a8cba18cde89a35c865e64f40f34c60436688748"
+      }
     }
   ],
   "phrases": [
@@ -283,11 +325,5 @@
         "sha256": "eced439903870845ad1cb32f1ee22a9caa90fc83d3fd43a1f74ea135f91b559a"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/morning-routine.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "c02da09228f3a0c575c12531e79fc69bbd9c0d5813b29d5a54dd1df4abb6b196",
-    "sha256": "827524577ff1b1c8c3ba75734e4a4182c5005df043c10575ed543433c8e942c1"
-  }
+  ]
 }

@@ -26,7 +26,13 @@
           "text": " with his mother."
         }
       ],
-      "translation": "Toby 和媽媽一起走進社區圖書館。"
+      "translation": "Toby 和媽媽一起走進社區圖書館。",
+      "audio": {
+        "src": "/audio/sentences/library-borrowing/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "162d4aeff9059a46ee100c1c8bacf566b9dec644486f93062a013f9a47e0ac3d",
+        "sha256": "41265e4b2c483b74e43f0a1fba380f1068b74f7c61d2b5bde4c64bee86d5bf77"
+      }
     },
     {
       "segments": [
@@ -58,7 +64,13 @@
           "text": "”"
         }
       ],
-      "translation": "牆上的標語寫著：「在圖書館裡請保持安靜。」"
+      "translation": "牆上的標語寫著：「在圖書館裡請保持安靜。」",
+      "audio": {
+        "src": "/audio/sentences/library-borrowing/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "03873ea5ad766fcf4b4357c67361ecfebb4c6c83eab6be268f3037bbba590752",
+        "sha256": "8b95cbef629e4303d102ae07804301c5698018dfd50820488777687885659a6b"
+      }
     },
     {
       "segments": [
@@ -75,7 +87,13 @@
           "text": " to find a fun story."
         }
       ],
-      "translation": "他看著高高的書架，想找一本有趣的故事書。"
+      "translation": "他看著高高的書架，想找一本有趣的故事書。",
+      "audio": {
+        "src": "/audio/sentences/library-borrowing/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6c408af5e459292daac6a7a1bacb5dc0ac53255bad35b829fc180538f3047999",
+        "sha256": "e87a6c945dbb6db5e3572a8dfd81d3bc2447c03ceabd1eefb74e900304b8fad2"
+      }
     },
     {
       "segments": [
@@ -101,7 +119,13 @@
           "text": "."
         }
       ],
-      "translation": "他找到一本想讀的動物繪本。"
+      "translation": "他找到一本想讀的動物繪本。",
+      "audio": {
+        "src": "/audio/sentences/library-borrowing/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1c7774be637d8364ccd8269bea4147345f58390d84fd264574dbdc6d6c344df7",
+        "sha256": "4beff0a0746e6547b8aea19f9e33f263ece4b5e6d9c4bbed8fb3c42d7ddaafd5"
+      }
     },
     {
       "segments": [
@@ -142,7 +166,13 @@
           "text": "”"
         }
       ],
-      "translation": "Toby 走向圖書館員並問：「我可以借這本書嗎？」"
+      "translation": "Toby 走向圖書館員並問：「我可以借這本書嗎？」",
+      "audio": {
+        "src": "/audio/sentences/library-borrowing/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fec9de1c29254cd2e6acee3eda05d013ee571f3356eeffcd09e0ad15e8f18f20",
+        "sha256": "c86be78c05ab1d1542a1ff40e76d0b29a0881ee7abe913ac5ebfc96c5cfea87a"
+      }
     },
     {
       "segments": [
@@ -174,7 +204,13 @@
           "text": "”"
         }
       ],
-      "translation": "他微笑著說：「這是我的借書證。」"
+      "translation": "他微笑著說：「這是我的借書證。」",
+      "audio": {
+        "src": "/audio/sentences/library-borrowing/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "49cce67ea48d34cc712ae1fdb49f4650adcb2314582213e9081f35ad9eb6019a",
+        "sha256": "9b16a6a9f6f58d49e1739b5b15238c14cd48236fcfb8f08879de69422cbc575d"
+      }
     },
     {
       "segments": [
@@ -209,7 +245,13 @@
           "text": "”"
         }
       ],
-      "translation": "圖書館員在書上蓋章並說：「祝你閱讀愉快！」"
+      "translation": "圖書館員在書上蓋章並說：「祝你閱讀愉快！」",
+      "audio": {
+        "src": "/audio/sentences/library-borrowing/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a98020e12c9478842520016a32d0ad24898565db307cdb410eff47452709aab3",
+        "sha256": "95bba8865fa672c55d4ccbe138b445f4010157f71b2fe05ca8a77ef54c3e26f8"
+      }
     }
   ],
   "phrases": [
@@ -331,11 +373,5 @@
         "sha256": "da9c3c15f19f2523fd68eba50413cec100e51b7b81d32d792ec1f8ce8e0f7a17"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/library-borrowing.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "5b5893fcc1d9fbfe9dbba1b2262e9d646cadeafe42e3c760d27a92d358041717",
-    "sha256": "e62d5cbaa469a0eaecdd3c37d855864ff131f37ae5be33379a6b3277b9f11c4f"
-  }
+  ]
 }

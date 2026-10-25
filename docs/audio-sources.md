@@ -1,10 +1,14 @@
 # 統一聲線與音檔來源
 
-目前分支包含 93 段本地 AI 合成 MP3：51 個單字、35 個短句及 7 篇完整短文。新換書活動單元新增 39 段，既有四篇的 54 段不變。全部由 [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) 的 `af_heart` 聲線產生，設定以 `content/audio/voice-profile.json` 為準：Kokoro 0.9.4、模型 revision `f3ff3571791e39611d31c381e3a41a3af07b4987`、速度 1、24 kHz、CPU。這是固定的美式女聲合成音訊，不是真人錄音。
+生活讀本目前使用 321 段正文句子音檔，以及既有單字與短句的本地 AI 合成 MP3。逐句跟讀與連續朗讀共用句子音檔，原先 46 段整篇 MP3 已移除。全部由 [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) 的 `af_heart` 聲線產生，設定以 `content/audio/voice-profile.json` 為準：Kokoro 0.9.4、模型 revision `f3ff3571791e39611d31c381e3a41a3af07b4987`、速度 1、24 kHz、CPU。這是固定的美式女聲合成音訊，不是真人錄音。
 
 模型來源標示 [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)；這是模型授權資訊，不表示生成 MP3 自動適用同一授權。模型檔與聲線檔的雜湊記於 profile。生成用的 Python 環境、模型、安裝鎖定與來源紀錄放在 `.scratch/illustrated-english/unified-voice/`，不進網站資產。離線生成時使用 `HF_HUB_OFFLINE=1 HF_HUB_DISABLE_IMPLICIT_TOKEN=1`，不讀取隱含 Hugging Face token；瀏覽網站播放時不需要 Python 或遠端語音服務。
 
 使用者先試聽 coffee、aisle、短句及 22.1 秒咖啡店全文樣本，接受「自然且一致，可以用這個聲音」，之後於完整內容及手機操作驗收項目列明後確認「驗收完成」。工單 04 已結案；此結果依使用者確認，不由來源評級、雜湊或媒體 metadata 推論。音檔的文字、聲線與 SHA-256 契約及重製方式見 [內容維護說明](content-guide.md)。
+
+## 2026-10-25 逐句朗讀音檔
+
+46 篇生活讀本共 321 段正文句子，合計 12,870,924 bytes、1433.92 秒，仍以原始語速 1 生成；頁面上的 `0.7×／0.8×／0.9×／1×` 為保留音高的播放語速設定。輸入、逐句文字、模型與聲線資訊、音檔雜湊、時長及合成器實際消耗的文字記在 [批次製作紀錄](audio-generation/sentence-reading-20261025/README.md)。所有句子都通過 FFmpeg 解碼與文字／檔案雜湊核對；這些檢查不代表慢速自然度或手機跟讀節奏已由使用者驗收。本次不變更既有短句與單字錄音。
 
 ## 已取代的 Commons 錄音
 

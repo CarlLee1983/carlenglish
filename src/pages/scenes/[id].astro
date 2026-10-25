@@ -20,7 +20,8 @@ const structuredData = [
     url: pageUrl, description, inLanguage: ['en', 'zh-Hant'], educationalLevel: scene.level, learningResourceType: '生活英文圖文讀本',
     about: { '@type': 'Thing', name: scene.category }, teaches: scene.phrases.map((phrase) => phrase.english),
     image: { '@type': 'ImageObject', url: new URL(scene.image.src, Astro.site).href, width: scene.image.width, height: scene.image.height, caption: scene.image.alt },
-    audio: { '@type': 'AudioObject', contentUrl: new URL(scene.audio.src, Astro.site).href, encodingFormat: 'audio/mpeg', inLanguage: 'en', name: `${scene.title}英文短文朗讀` },
+    audio: scene.sentences.map((sentence, index) => ({ '@type': 'AudioObject', contentUrl: new URL(sentence.audio.src, Astro.site).href,
+      encodingFormat: 'audio/mpeg', inLanguage: 'en', name: `${scene.title}第 ${index + 1} 句朗讀` })),
     isPartOf: { '@id': `${homeUrl}#website` }, breadcrumb: { '@id': `${pageUrl}#breadcrumbs` } },
   breadcrumbData([{ name: 'CarlEnglish', path: '/' }, { name: `${level.name}讀本`, path: `/levels/${level.id}/` }, { name: scene.title, path: `/scenes/${scene.id}/` }], Astro.site),
 ];

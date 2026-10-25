@@ -4,7 +4,7 @@ import { isAbsolute, relative, resolve } from 'node:path';
 import { textSha256 } from './audio-text.ts';
 import { httpsUrl, identifier, nonblank, record } from './validation.ts';
 
-// 場景與詞表共用的音檔與聲線 metadata 驗證；兩種內容類型只差在音檔所在的類別目錄。
+// 場景與詞表共用的音檔與聲線 metadata 驗證；音檔依內容用途分在不同的類別目錄。
 
 export interface AudioClip {
   src: string;
@@ -34,7 +34,7 @@ export interface VoiceProfile {
 const hashPattern = /^[a-f0-9]{64}$/;
 const revisionPattern = /^[a-f0-9]{40}$/;
 
-export type AudioCategory = 'words' | 'phrases' | 'stories' | 'wordlists';
+export type AudioCategory = 'words' | 'phrases' | 'sentences' | 'wordlists';
 
 export function voiceProfile(value: unknown, path: string, issues: string[]): VoiceProfile {
   const data = record(value, path, issues);

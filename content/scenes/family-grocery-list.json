@@ -26,7 +26,13 @@
           "text": " table."
         }
       ],
-      "translation": "星期六早晨，Ben 和媽媽坐在廚房的餐桌旁。"
+      "translation": "星期六早晨，Ben 和媽媽坐在廚房的餐桌旁。",
+      "audio": {
+        "src": "/audio/sentences/family-grocery-list/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a849b363d26f22d4226de4fd54cdff8b8f67b12068030933d040d10cc71bf6bb",
+        "sha256": "3eb5583050ae7040b493722a586ea9f7c286c6df0678603458bf52ab1888aaab"
+      }
     },
     {
       "segments": [
@@ -58,7 +64,13 @@
           "text": "”"
         }
       ],
-      "translation": "媽媽從餐桌抬起頭說：「我們來檢查一下冰箱吧。」"
+      "translation": "媽媽從餐桌抬起頭說：「我們來檢查一下冰箱吧。」",
+      "audio": {
+        "src": "/audio/sentences/family-grocery-list/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e783d5cecf5dee798bb517152e59fa93cf5d6378de072a2d61d99fa79f3f2bed",
+        "sha256": "c7e7cd334522a8576d0562af7a49b3fd12486f3a4349c56e06d715baa747969b"
+      }
     },
     {
       "segments": [
@@ -90,7 +102,13 @@
           "text": "”"
         }
       ],
-      "translation": "Ben 打開冰箱門看著裡面，問道：「我們需要雞蛋嗎？」"
+      "translation": "Ben 打開冰箱門看著裡面，問道：「我們需要雞蛋嗎？」",
+      "audio": {
+        "src": "/audio/sentences/family-grocery-list/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5a407597fc7a69521821f13b41c5c1f86a8e92487f6655b54f0890888ad51c98",
+        "sha256": "e66fe590d58e769b4acc5d85ca7ea22e0e8c1144a8470db51d897c10c938274a"
+      }
     },
     {
       "segments": [
@@ -107,7 +125,13 @@
           "text": ".”"
         }
       ],
-      "translation": "媽媽看著空蛋盒並說：「對，而且我們也需要新鮮的牛奶。」"
+      "translation": "媽媽看著空蛋盒並說：「對，而且我們也需要新鮮的牛奶。」",
+      "audio": {
+        "src": "/audio/sentences/family-grocery-list/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "78fa1860201b7325d5886cc21167da546eb38f9392a0707afbb0399fc0bbc6a8",
+        "sha256": "4fa10455936880e9bfa9c343f3bd9ed7516eff666450a0a7771aa57c1591cd9d"
+      }
     },
     {
       "segments": [
@@ -139,7 +163,13 @@
           "text": "”"
         }
       ],
-      "translation": "Ben 拿好鉛筆準備記錄，媽媽說：「把它寫在清單上吧。」"
+      "translation": "Ben 拿好鉛筆準備記錄，媽媽說：「把它寫在清單上吧。」",
+      "audio": {
+        "src": "/audio/sentences/family-grocery-list/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "075bf07951da25fa9c50e8fca57468bf2d7e0f307a2041cd457b868be8fdf024",
+        "sha256": "571be64b31b9692bb2939c5580413a8b74c97fac844b37b1af6c481c5799ba87"
+      }
     },
     {
       "segments": [
@@ -165,7 +195,13 @@
           "text": "”"
         }
       ],
-      "translation": "把去市場要買的東西都寫好後，媽媽微笑著說：「我們準備好出發了。」"
+      "translation": "把去市場要買的東西都寫好後，媽媽微笑著說：「我們準備好出發了。」",
+      "audio": {
+        "src": "/audio/sentences/family-grocery-list/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "683f8e6c94415f0574f98e730b32c35197c1f0f1f3ea22c1c398abdb98db72a8",
+        "sha256": "f0304742adeedcd7f3b03523bcaecdd7f92c994f5600700de9e329cb49895cda"
+      }
     }
   ],
   "phrases": [
@@ -287,11 +323,5 @@
         "sha256": "07a11765376449969bd34e9b636eac7b8f045cec8174c5c49224914f656c9696"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/family-grocery-list.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "8774d0fc07ed10d539d01f39d6dd6e08bdb180ae93d34d458bbe55efa9fa1ceb",
-    "sha256": "7c4e16f4ff047c2d941474bf30bf84a5dea65db99d33a79405cc66522de16456"
-  }
+  ]
 }

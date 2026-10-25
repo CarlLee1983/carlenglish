@@ -38,7 +38,9 @@ async function expectImageLoaded(page: Page, scene: Scene) {
 
 async function expectSceneContent(page: Page, scene: Scene) {
   await expect(page.getByRole('heading', { level: 1, name: scene.titleEn })).toBeVisible();
-  await expect(page.getByText(scene.title, { exact: true })).toBeVisible();
+  const title = page.locator('.reader-heading .reader-title-zh');
+  await expect(title).toHaveText(scene.title);
+  await expect(title).toBeVisible();
   await expect(page.getByRole('article')).toContainText(scene.category);
   await expect(page.getByRole('article')).toContainText(scene.level);
   await expectImageLoaded(page, scene);

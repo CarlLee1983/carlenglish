@@ -26,7 +26,13 @@
           "text": " after PE class."
         }
       ],
-      "translation": "體育課結束後，Leo 走進教室。"
+      "translation": "體育課結束後，Leo 走進教室。",
+      "audio": {
+        "src": "/audio/sentences/lost-water-bottle/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b8d6f97b70f1084cff74759c540f6c194b7b4211ff3ff175e766cefb3f27bd3a",
+        "sha256": "fa8476153394bfaae2e762a51c7292b15f345b15cee35bdf0715886371f84e79"
+      }
     },
     {
       "segments": [
@@ -61,7 +67,13 @@
           "text": "."
         }
       ],
-      "translation": "他檢查了自己的書桌，但找不到他的水壺。"
+      "translation": "他檢查了自己的書桌，但找不到他的水壺。",
+      "audio": {
+        "src": "/audio/sentences/lost-water-bottle/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dc157e3fba579e7f016048ec573ac476338630a794ebd6ffd91848de8a4fa0b1",
+        "sha256": "684f441371d74ea280304199fc61f16436e5bfa9577530fc9343279012567407"
+      }
     },
     {
       "segments": [
@@ -78,7 +90,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 問老師和朋友們：「你有看見我的水壺嗎？」"
+      "translation": "Leo 問老師和朋友們：「你有看見我的水壺嗎？」",
+      "audio": {
+        "src": "/audio/sentences/lost-water-bottle/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1e1d92bf855a3a03facbb443ed7740232dc54214b605b9552992d10ae6468399",
+        "sha256": "ac0275274e195cedd29eecea464f309779e6167b7409d37148252b0bc4b0de39"
+      }
     },
     {
       "segments": [
@@ -95,7 +113,13 @@
           "text": "”"
         }
       ],
-      "translation": "老師微笑著問：「你把它留在哪裡了？」"
+      "translation": "老師微笑著問：「你把它留在哪裡了？」",
+      "audio": {
+        "src": "/audio/sentences/lost-water-bottle/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3db81df552249e56761b5937fdfc312ecda359e53c7472be7a4fd0c111e615c9",
+        "sha256": "741e168c59aeb8ef18a0bb17b40c3f9accda83387b4ee7fdacafb1a2db584ad6"
+      }
     },
     {
       "segments": [
@@ -127,7 +151,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 想了一下說：「它是藍色而且小小的。」"
+      "translation": "Leo 想了一下說：「它是藍色而且小小的。」",
+      "audio": {
+        "src": "/audio/sentences/lost-water-bottle/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7af6e395c750ce70a7e4a660fd31ee20e29abf6c17dcd07805ab9771eda246af",
+        "sha256": "0ba603a25ca693d92f4a7b53cfeabbe08cb418cf8575bac1be7346bbf9aab579"
+      }
     },
     {
       "segments": [
@@ -144,7 +174,13 @@
           "text": "."
         }
       ],
-      "translation": "他們走回操場，他的朋友指著一張長椅。"
+      "translation": "他們走回操場，他的朋友指著一張長椅。",
+      "audio": {
+        "src": "/audio/sentences/lost-water-bottle/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bdb4f2038ad54df36b0d356ae2e940238314013e8cd2c961f82661fbcf50872c",
+        "sha256": "cae9585d3a48e22d2b8c28f8819ba6dc64c6f10e9715b0dc5a3d044a2179d048"
+      }
     },
     {
       "segments": [
@@ -161,7 +197,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 跑過去歡呼：「它在這裡！」"
+      "translation": "Leo 跑過去歡呼：「它在這裡！」",
+      "audio": {
+        "src": "/audio/sentences/lost-water-bottle/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e9b5a69500937b5543822d84b2f66155247295ca9a1b810221961b4ee8fbabe7",
+        "sha256": "88b58664ae2a9d59ac91480ecf7ee56ce53afde156304b8e31efbef2f0940bbb"
+      }
     }
   ],
   "phrases": [
@@ -283,11 +325,5 @@
         "sha256": "705cb3e401b1c04f17dbc42a7190f4e8484160ceebc35ba88233a8f697ceb47b"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/lost-water-bottle.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "355fe368ac9589c95ca13ca9e8625fc4e2b243c8919c04d7077100e78c9b9f7f",
-    "sha256": "0dce6755b4c918003b3514a1096c35e0bccde260dafc2bb3ad4ada6e0bc1a1c7"
-  }
+  ]
 }

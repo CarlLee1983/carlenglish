@@ -35,7 +35,13 @@
           "text": "."
         }
       ],
-      "translation": "開學第一天，Leo 走進教室。"
+      "translation": "開學第一天，Leo 走進教室。",
+      "audio": {
+        "src": "/audio/sentences/school-greeting/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4cc2b99c0b09ace33eff24c552bf4fc627bf64a89dbb6f460efd0d97494d5d87",
+        "sha256": "c56c65221b5d78645312fa70c76fd3f3efb532ab842f15eda7fc9ccb37796908"
+      }
     },
     {
       "segments": [
@@ -70,7 +76,13 @@
           "text": "”"
         }
       ],
-      "translation": "一位友善的女孩微笑著說：「你好！」"
+      "translation": "一位友善的女孩微笑著說：「你好！」",
+      "audio": {
+        "src": "/audio/sentences/school-greeting/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "312d37e83ef8bdb16c03b274e8e488f4e3c624387be44f89176d9ef9660794c8",
+        "sha256": "fbb8265c6579f04269266565c8d20a1e3169667e92616beacaaaac3ecaaa1fe7"
+      }
     },
     {
       "segments": [
@@ -102,7 +114,13 @@
           "text": " Leo.”"
         }
       ],
-      "translation": "Leo 也微笑回應說：「嗨，我的名字是 Leo。」"
+      "translation": "Leo 也微笑回應說：「嗨，我的名字是 Leo。」",
+      "audio": {
+        "src": "/audio/sentences/school-greeting/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "aca126bb0a246fb15634fe262852f2f18b92f82929c6ab484312651ca94784a3",
+        "sha256": "1d85e7a77d30c4e6651b5c8e5da41d227486549c2f8cc4a8c04e4d89bf32aeba"
+      }
     },
     {
       "segments": [
@@ -134,7 +152,13 @@
           "text": "”"
         }
       ],
-      "translation": "接著他問：「你叫什麼名字？」"
+      "translation": "接著他問：「你叫什麼名字？」",
+      "audio": {
+        "src": "/audio/sentences/school-greeting/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4946220779828ded27b577009b5b51ee79068817936f696b981304da6d4a18cd",
+        "sha256": "7b062d4dfab783161bb12feba2dc824c25655aea72d8ba2ebcdf07e4ad2d9de1"
+      }
     },
     {
       "segments": [
@@ -151,7 +175,13 @@
           "text": " I am Emma.”"
         }
       ],
-      "translation": "女孩說：「很高興認識你！我是 Emma。」"
+      "translation": "女孩說：「很高興認識你！我是 Emma。」",
+      "audio": {
+        "src": "/audio/sentences/school-greeting/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5024d177aeec809fb278cc9dabbc0517a30b808a7008ec4b9a239cca6f3484da",
+        "sha256": "517e166fba4d44688da87258efe239b320b6d446f3ab58d21e51a26727b06a5f"
+      }
     },
     {
       "segments": [
@@ -183,7 +213,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 說：「我也很高興認識你。我們當朋友吧！」"
+      "translation": "Leo 說：「我也很高興認識你。我們當朋友吧！」",
+      "audio": {
+        "src": "/audio/sentences/school-greeting/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d27c12f6cc0e7ff5142a4ca8c50871d214d33bdaa14a7526a6d406e8cd36b3d5",
+        "sha256": "4c03a45882fb2a6c4d00259d3826592c63fcb7f4af86320cc5a633884f9ebd10"
+      }
     }
   ],
   "phrases": [
@@ -316,11 +352,5 @@
         "sha256": "91efdff589f11e0898595382c99072fe88e07ac5663cf85e79e7c462e6978857"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/school-greeting.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "c8d766091b1f4d3c6cb1d6df38ac81ce3fa4a6aaa4fee619223e71d551325199",
-    "sha256": "eddd00fab82ee20b523144a1d7c4c4ce426ec342ee0509b65395e7e68c98a94d"
-  }
+  ]
 }
