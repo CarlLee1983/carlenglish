@@ -1,0 +1,324 @@
+{
+  "id": "feelings-break",
+  "title": "先休息一下",
+  "titleEn": "Taking a Break",
+  "category": "情緒與友誼",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/feelings-break.webp",
+    "alt": "小美把蠟筆放在畫紙旁，坐著慢慢呼吸休息，朋友安靜地坐在她身邊陪伴。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Mei feels "
+        },
+        {
+          "text": "upset",
+          "wordIds": [
+            "upset"
+          ]
+        },
+        {
+          "text": " about her "
+        },
+        {
+          "text": "drawing",
+          "wordIds": [
+            "drawing"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小美對自己的畫有點懊惱。",
+      "audio": {
+        "src": "/audio/sentences/feelings-break/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9aabc758200ab88a5d623e8e94f6a037331f687a6424f7e139c5db0f45bcce1a",
+        "sha256": "56554eb24c3cad5b8f6415ed33fb2b71a1cf5c0a373f972cd90886c8760f2d64"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "She tells her "
+        },
+        {
+          "text": "friend",
+          "wordIds": [
+            "friend"
+          ]
+        },
+        {
+          "text": ", “"
+        },
+        {
+          "text": "I need a ",
+          "phraseIds": [
+            "i-need-a-break"
+          ]
+        },
+        {
+          "text": "break",
+          "phraseIds": [
+            "i-need-a-break"
+          ],
+          "wordIds": [
+            "break"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "i-need-a-break"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "她告訴朋友：「我需要休息一下。」",
+      "audio": {
+        "src": "/audio/sentences/feelings-break/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "48902b56238a1d51fcf907e33466abff976bb8b5e6cfbb141febda0629b1c56e",
+        "sha256": "4cfcda160981f29d2b8d99c2bfb0b1b88ec117b4f8ca85cbb92751c6f521704a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Her "
+        },
+        {
+          "text": "friend",
+          "wordIds": [
+            "friend"
+          ]
+        },
+        {
+          "text": " says, “"
+        },
+        {
+          "text": "Take your time.",
+          "phraseIds": [
+            "take-your-time"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "她的朋友說：「慢慢來。」",
+      "audio": {
+        "src": "/audio/sentences/feelings-break/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9e600e529e57c311c7d0659e22ad223a83c4b55c75d81505e5038cadf348ccba",
+        "sha256": "f48ae0a7c9c269ca23e238fc055d7b5dff1624d203a783898853dd9a298c1008"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mei puts down her "
+        },
+        {
+          "text": "crayon",
+          "wordIds": [
+            "crayon"
+          ]
+        },
+        {
+          "text": " and breathes "
+        },
+        {
+          "text": "slowly",
+          "wordIds": [
+            "slowly"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小美放下蠟筆，慢慢呼吸。",
+      "audio": {
+        "src": "/audio/sentences/feelings-break/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b5edad854f71726114afeddb0ba09afbbf704bbc20a0f45eb97dd0b0f98b7f39",
+        "sha256": "c1df8b44b0effff14094b1f1b6bceb081972e7a45314237f1149469502147e06"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Later, Mei says, “"
+        },
+        {
+          "text": "I am ready now.",
+          "phraseIds": [
+            "i-am-ready-now"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "過了一會兒，小美說：「我現在準備好了。」",
+      "audio": {
+        "src": "/audio/sentences/feelings-break/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9d14f3a0c72d2dfe897e10347322dc35061ccff697d9192ef43750ba75dfe9f5",
+        "sha256": "dcca63a0bec8fcfdfca4a948eb43a9ae813ac5b5388430080c448e8322a94a6e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They sit together, and Mei "
+        },
+        {
+          "text": "tries again",
+          "phraseIds": [
+            "tries-again"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們坐在一起，小美再試一次。",
+      "audio": {
+        "src": "/audio/sentences/feelings-break/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9e67a029b07e1d4be01d19334c30f09316c706a1a2ee42cad554983b385411a3",
+        "sha256": "bd86ff168ec2d6d5604d87b59f210b6c73d7005603b4a8e0d2082b3dac79b345"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "i-need-a-break",
+      "english": "I need a break.",
+      "translation": "我需要休息一下。",
+      "audio": {
+        "src": "/audio/phrases/feelings-break-i-need-a-break.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6d7edd32e0e1f2bd3196180ec688cad4e06cb19e6bcd889650f6698cfb09715f",
+        "sha256": "e43d905ffc03c38798a78f7a715928bd652d40aa00a5bf4c2669d7b84e509f6b"
+      }
+    },
+    {
+      "id": "take-your-time",
+      "english": "Take your time.",
+      "translation": "慢慢來。",
+      "audio": {
+        "src": "/audio/phrases/feelings-break-take-your-time.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "71659e9e5d2bebb460d85f0dbd8e22f521d05cd99095d2724eeacd5d1458566c",
+        "sha256": "be0221f7dc681b01f7dbc3abe002954b41ce2f707867479348a36dda716991b7"
+      }
+    },
+    {
+      "id": "i-am-ready-now",
+      "english": "I am ready now.",
+      "translation": "我現在準備好了。",
+      "audio": {
+        "src": "/audio/phrases/feelings-break-i-am-ready-now.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6611ad8eaa100b6ac06b095353f91355a7744b7fcc9dff1403d38576f4540c5f",
+        "sha256": "d623d75a4dbc0b2a50e4035219020a5caeb0f5845e169809bc1e6ce73a6d84cc"
+      }
+    },
+    {
+      "id": "tries-again",
+      "english": "tries again",
+      "translation": "再試一次",
+      "audio": {
+        "src": "/audio/phrases/feelings-break-tries-again.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f3eac91a50ea1b2a078efc42df0c95b29744678ae8f5b54e08eb0d97fe8f86fb",
+        "sha256": "3bed83e77929cc060c8db5b3c11cd686d681a4374362d083ca14c7a389f54823"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "upset",
+      "english": "upset",
+      "translation": "難過；心煩",
+      "example": "I feel upset today.",
+      "audio": {
+        "src": "/audio/words/feelings-break-upset.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8b2f406339328a5dd4c6586a2da0d35978b7a9a13bf1bb0c38274e6ba245964a",
+        "sha256": "1fde9bf0d703f4cc8eb31a55ff01f5cf128948d55586baca3e69378fa29a3bb5"
+      }
+    },
+    {
+      "id": "drawing",
+      "english": "drawing",
+      "translation": "圖畫",
+      "example": "This is my drawing.",
+      "audio": {
+        "src": "/audio/words/feelings-break-drawing.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27f3282691613a41f159fe0fb8f3791f3b99fa00fc62df29edeeafe496eb0fdd",
+        "sha256": "ddf88153c888e09062535f46b0f4c80bfdf57b884d779b32a111d51885b81cfa"
+      }
+    },
+    {
+      "id": "friend",
+      "english": "friend",
+      "translation": "朋友",
+      "example": "My friend sits with me.",
+      "audio": {
+        "src": "/audio/words/feelings-break-friend.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cde48537ca2c28084ff560826d0e6388b7c57a51497a6cb56f397289e52ff41b",
+        "sha256": "41b5edb8c74f0f90bfaf69f2ed11a6d6207ece305f5601be9d75cfb49fa97f3c"
+      }
+    },
+    {
+      "id": "break",
+      "english": "break",
+      "translation": "休息",
+      "example": "I need a short break.",
+      "audio": {
+        "src": "/audio/words/feelings-break-break.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "14ebe56a5008e7c251101e9e1fdbe281ab0a82bd6fa00a5cef746b9ee0dd31d1",
+        "sha256": "4991897d45b3c97dbd3bf6f3c22bb876a197aa4e81c010500eceb4cd782c567e"
+      }
+    },
+    {
+      "id": "crayon",
+      "english": "crayon",
+      "translation": "蠟筆",
+      "example": "My crayon is blue.",
+      "audio": {
+        "src": "/audio/words/feelings-break-crayon.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d8b1858e24ae617677d50392c61e0ca351d1ef9bcbe683ba71bd4926df6b8fbe",
+        "sha256": "a6bcc7eb995e7dd4bcecec93dda2beb175f79f99782a18b96fe23a5e5984a5bb"
+      }
+    },
+    {
+      "id": "slowly",
+      "english": "slowly",
+      "translation": "慢慢地",
+      "example": "We walk slowly.",
+      "audio": {
+        "src": "/audio/words/feelings-break-slowly.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "793080bb3a187fcaeac15b1797045cda6103b8fbc8836642def618ccc41cf96a",
+        "sha256": "381ec9aa949938a72733a9656ff1e186bff4cdece3849aec97fbef586ac25ff4"
+      }
+    }
+  ]
+}

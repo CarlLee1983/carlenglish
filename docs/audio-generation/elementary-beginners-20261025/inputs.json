@@ -1,0 +1,789 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "sentences",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/breakfast-shop-order/1.mp3",
+      "text": "An goes to the breakfast shop with Mom.",
+      "textSha256": "f2955a23bfebdff29c5d3d16b627da1f0e93dbc76dcb08ad9201d58c4150ef14"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "sentences",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/breakfast-shop-order/2.mp3",
+      "text": "She says, “One egg pancake, please.”",
+      "textSha256": "7efd40c40842336f40d7e0b82f139bb53986ce425611e8aa3745f94df02ae27c"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "sentences",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/breakfast-shop-order/3.mp3",
+      "text": "Mom buys a pancake for An.",
+      "textSha256": "cceca92c12bca257a6f60d6f1c8cd5d6a0e8f9f5da770a66db69ad03e5318cc1"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "sentences",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/breakfast-shop-order/4.mp3",
+      "text": "An asks, “May I have some water?”",
+      "textSha256": "0053d28099d1ac5c248f706bc5c323a69ec465338c9b50484a9df04029f9fd26"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "sentences",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/breakfast-shop-order/5.mp3",
+      "text": "The shopkeeper gives her a cup of water.",
+      "textSha256": "33008656a6ad12ad5b50166cd9f95a463ac3b75dae1597892b80d144ab414406"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "sentences",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/breakfast-shop-order/6.mp3",
+      "text": "An says, “Thank you,” to the shopkeeper.",
+      "textSha256": "81ef5fc38354ba9b47e75fbbce03821baea82bde81e065d496d6e61c0ec3f5b7"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "phrases",
+      "itemId": "with-mom",
+      "src": "/audio/phrases/breakfast-shop-order-with-mom.mp3",
+      "text": "with Mom",
+      "textSha256": "25d4745f4f9da2cab842e78e28ff11b516ad240d3d05a527e9593276a0e97597"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "phrases",
+      "itemId": "one-egg-pancake",
+      "src": "/audio/phrases/breakfast-shop-order-one-egg-pancake.mp3",
+      "text": "One egg pancake, please.",
+      "textSha256": "faf6ce1b3ece26c5a22146626f417be0b94766ebd95a88990093e0514ab0fca4"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "phrases",
+      "itemId": "may-i-have-water",
+      "src": "/audio/phrases/breakfast-shop-order-may-i-have-water.mp3",
+      "text": "May I have some water?",
+      "textSha256": "774a6f02256a8f1201b9c3b541046e0ec0b623c7da1acae898c4ea97164eac40"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "phrases",
+      "itemId": "thank-you",
+      "src": "/audio/phrases/breakfast-shop-order-thank-you.mp3",
+      "text": "Thank you",
+      "textSha256": "268bc1833e83306f48ae6203eefb86e7a39dedb1d3d6df99c18ef70aa61ef84d"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "words",
+      "itemId": "shop",
+      "src": "/audio/words/breakfast-shop-order-shop.mp3",
+      "text": "shop",
+      "textSha256": "8d9001d32c6a703d95921a77115050f33dd823d3f1730bd35215dcbecad6dc20"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "words",
+      "itemId": "egg",
+      "src": "/audio/words/breakfast-shop-order-egg.mp3",
+      "text": "egg",
+      "textSha256": "34707c3f40dfa20c3902b807b627d420d6d474d9d98066ba637953d1cfd6b914"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "words",
+      "itemId": "pancake",
+      "src": "/audio/words/breakfast-shop-order-pancake.mp3",
+      "text": "pancake",
+      "textSha256": "a9c1034fb623883b5786268bbde25a871b72c9920a4ff708d516e4852bcf7da0"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "words",
+      "itemId": "water",
+      "src": "/audio/words/breakfast-shop-order-water.mp3",
+      "text": "water",
+      "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "words",
+      "itemId": "cup",
+      "src": "/audio/words/breakfast-shop-order-cup.mp3",
+      "text": "cup",
+      "textSha256": "c6171781d65f3ccce1135e3c89850cfbaa7f332fd72a1f8f6a841fbcf7fd362a"
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "words",
+      "itemId": "shopkeeper",
+      "src": "/audio/words/breakfast-shop-order-shopkeeper.mp3",
+      "text": "shopkeeper",
+      "textSha256": "c279eb254ae9d10709bb1ce13ef3fcd3dc76f72d54f0c27220756e61f3b6df3c"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "sentences",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/rainy-school-day/1.mp3",
+      "text": "It is raining on the way to school.",
+      "textSha256": "6d07401337913cf36233843775d773f208e6022e5cd3604a8491ee10a113633b"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "sentences",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/rainy-school-day/2.mp3",
+      "text": "Bo puts on his raincoat and boots.",
+      "textSha256": "a44cf416f60074b5cf2f06460f22f52df39259894ce3a32404f76fd0647c7d82"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "sentences",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/rainy-school-day/3.mp3",
+      "text": "His dad holds a big umbrella.",
+      "textSha256": "2810b5c5764de0d44596ad592026c070118b31f1c047010b03ebe7e8232b8c30"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "sentences",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/rainy-school-day/4.mp3",
+      "text": "They stand together under the umbrella.",
+      "textSha256": "0e7ea246025582d79b653f2c3e6fc3fb1c6f92eebb031c7a1f968ee952b8263e"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "sentences",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/rainy-school-day/5.mp3",
+      "text": "Dad says, “We can walk slowly.”",
+      "textSha256": "93e9a7137fe1ed61dd9bbc098f4d9b5727700820cff7946263e56d34a0589a31"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "sentences",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/rainy-school-day/6.mp3",
+      "text": "They reach the school gate together.",
+      "textSha256": "ab51b4f51a21cf89dcd26cf20c59dd48e9523fb1b7f6a24dbfbf1c19a9038bef"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "phrases",
+      "itemId": "it-is-raining",
+      "src": "/audio/phrases/rainy-school-day-it-is-raining.mp3",
+      "text": "It is raining",
+      "textSha256": "4e233c2092448777d6bd1574338ef286e449474004f0fd6d408530972f38f11c"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "phrases",
+      "itemId": "puts-on",
+      "src": "/audio/phrases/rainy-school-day-puts-on.mp3",
+      "text": "puts on",
+      "textSha256": "30dcf7b8cc768c9fee50ece32c8985c08940d85197c17d6a5c853fb3f61c2967"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "phrases",
+      "itemId": "under-the-umbrella",
+      "src": "/audio/phrases/rainy-school-day-under-the-umbrella.mp3",
+      "text": "under the umbrella",
+      "textSha256": "c0276ce2214e5edfa232a11c292437b36660a361c40ecc495e441fd0bc12bb0f"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "phrases",
+      "itemId": "walk-slowly",
+      "src": "/audio/phrases/rainy-school-day-walk-slowly.mp3",
+      "text": "walk slowly",
+      "textSha256": "2eb592820eca00a6a90b373c3d19a1ba943c909d3f983042632a356826daa194"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "words",
+      "itemId": "school",
+      "src": "/audio/words/rainy-school-day-school.mp3",
+      "text": "school",
+      "textSha256": "d64debd942d7dc26a851231583b1721f43ea936fa41932b6dad7556e5f8cd24a"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "words",
+      "itemId": "raincoat",
+      "src": "/audio/words/rainy-school-day-raincoat.mp3",
+      "text": "raincoat",
+      "textSha256": "b6958aab121d91a7aeff1426fe8d77d9c69afbc6e6f38b332ed6455414c3c54c"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "words",
+      "itemId": "boots",
+      "src": "/audio/words/rainy-school-day-boots.mp3",
+      "text": "boots",
+      "textSha256": "40cafc18e93464f86d5d304e726df74311237955bcf7d99909bcef3f0bcb90bb"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "words",
+      "itemId": "dad",
+      "src": "/audio/words/rainy-school-day-dad.mp3",
+      "text": "dad",
+      "textSha256": "6fe8ecbc1deafa51c2ecf088cf364eba1ceba9032ffbe2621e771b90ea93153d"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "words",
+      "itemId": "umbrella",
+      "src": "/audio/words/rainy-school-day-umbrella.mp3",
+      "text": "umbrella",
+      "textSha256": "2974744982f08b2077515f1e0dd62fd94b70d805831c994ad0a55b187ecdd1f9"
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "words",
+      "itemId": "gate",
+      "src": "/audio/words/rainy-school-day-gate.mp3",
+      "text": "gate",
+      "textSha256": "c974e17b8e7321ce8c12983de3d0ed4a289821f579bbe0925b0181a4bc8e8d80"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "sentences",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/pretend-picnic/1.mp3",
+      "text": "An and Yu sit on a rug at home.",
+      "textSha256": "313a60ffc775a49ce817f7812478e9d3f38ed55c13caefa9bbc760d809d51d0b"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "sentences",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/pretend-picnic/2.mp3",
+      "text": "They put toy food in a basket.",
+      "textSha256": "48e1a1db1b8cfcd69e17cbcf29b50d699e7f171b7202577a7454249d9ac856aa"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "sentences",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/pretend-picnic/3.mp3",
+      "text": "An says, “Let's have a picnic!”",
+      "textSha256": "add7d97d517ecd5d1b6836eebebd1b5952e5f192d24f97c5a0759567e8023bac"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "sentences",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/pretend-picnic/4.mp3",
+      "text": "Yu says, “Here is your cup.”",
+      "textSha256": "0ce6ba46f2c668d0074b0d5eef9ed38f0862f31fb37842e9fcd8d74cf0d2fff5"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "sentences",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/pretend-picnic/5.mp3",
+      "text": "They pretend to drink tea and share the food.",
+      "textSha256": "3188fc8e8fa6742144c2c65ec69c9d937397e5fb753f34f77728a8c76e39af89"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "sentences",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/pretend-picnic/6.mp3",
+      "text": "“This is fun!” says An with a smile.",
+      "textSha256": "3b57b301bd61efa6bb14cfb3d9406b5ed148633f3108ba1ac15704dc3234dad6"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "phrases",
+      "itemId": "lets-have-a-picnic",
+      "src": "/audio/phrases/pretend-picnic-lets-have-a-picnic.mp3",
+      "text": "Let's have a picnic!",
+      "textSha256": "64a5b2d6a21f5b14aa4c6e00a4dac8a07cb4921bb89cdf62fbfaa499ea1c340a"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "phrases",
+      "itemId": "here-is-your-cup",
+      "src": "/audio/phrases/pretend-picnic-here-is-your-cup.mp3",
+      "text": "Here is your cup.",
+      "textSha256": "43c194c274debee861336c90417678a4b800ca9446a42babc04b8001da8493b9"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "phrases",
+      "itemId": "share-the-food",
+      "src": "/audio/phrases/pretend-picnic-share-the-food.mp3",
+      "text": "share the food",
+      "textSha256": "cfca932691e992cc238fa17a4e48b4857dd150f29a1ebbf9333460428f8929dd"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "phrases",
+      "itemId": "this-is-fun",
+      "src": "/audio/phrases/pretend-picnic-this-is-fun.mp3",
+      "text": "This is fun!",
+      "textSha256": "212a9433375ae5d763526da2942c605b0920221b9449c8b268c9210db8c63d58"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "words",
+      "itemId": "rug",
+      "src": "/audio/words/pretend-picnic-rug.mp3",
+      "text": "rug",
+      "textSha256": "9fdaa7ee3f13a29e53b116094579cf9066f87750824391d9f16440ddcf8c09dc"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "words",
+      "itemId": "home",
+      "src": "/audio/words/pretend-picnic-home.mp3",
+      "text": "home",
+      "textSha256": "4ea140588150773ce3aace786aeef7f4049ce100fa649c94fbbddb960f1da942"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "words",
+      "itemId": "food",
+      "src": "/audio/words/pretend-picnic-food.mp3",
+      "text": "food",
+      "textSha256": "c1f026582fe6e8cb620d0c85a72fe421ddded756662a8ec00ed4c297ad10676b"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "words",
+      "itemId": "basket",
+      "src": "/audio/words/pretend-picnic-basket.mp3",
+      "text": "basket",
+      "textSha256": "fa76d99ad957d952fb3738ae1ed7282a18d3bca1531c7efc273d52e16b774bd6"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "words",
+      "itemId": "cup",
+      "src": "/audio/words/pretend-picnic-cup.mp3",
+      "text": "cup",
+      "textSha256": "c6171781d65f3ccce1135e3c89850cfbaa7f332fd72a1f8f6a841fbcf7fd362a"
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "words",
+      "itemId": "tea",
+      "src": "/audio/words/pretend-picnic-tea.mp3",
+      "text": "tea",
+      "textSha256": "a9f74d1ec36ebdeb2da3f6e5868090cd2a2d20b3dcca7b62f60304b1d3d9ef42"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "sentences",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/feelings-break/1.mp3",
+      "text": "Mei feels upset about her drawing.",
+      "textSha256": "9aabc758200ab88a5d623e8e94f6a037331f687a6424f7e139c5db0f45bcce1a"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "sentences",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/feelings-break/2.mp3",
+      "text": "She tells her friend, “I need a break.”",
+      "textSha256": "48902b56238a1d51fcf907e33466abff976bb8b5e6cfbb141febda0629b1c56e"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "sentences",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/feelings-break/3.mp3",
+      "text": "Her friend says, “Take your time.”",
+      "textSha256": "9e600e529e57c311c7d0659e22ad223a83c4b55c75d81505e5038cadf348ccba"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "sentences",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/feelings-break/4.mp3",
+      "text": "Mei puts down her crayon and breathes slowly.",
+      "textSha256": "b5edad854f71726114afeddb0ba09afbbf704bbc20a0f45eb97dd0b0f98b7f39"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "sentences",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/feelings-break/5.mp3",
+      "text": "Later, Mei says, “I am ready now.”",
+      "textSha256": "9d14f3a0c72d2dfe897e10347322dc35061ccff697d9192ef43750ba75dfe9f5"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "sentences",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/feelings-break/6.mp3",
+      "text": "They sit together, and Mei tries again.",
+      "textSha256": "9e67a029b07e1d4be01d19334c30f09316c706a1a2ee42cad554983b385411a3"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "phrases",
+      "itemId": "i-need-a-break",
+      "src": "/audio/phrases/feelings-break-i-need-a-break.mp3",
+      "text": "I need a break.",
+      "textSha256": "6d7edd32e0e1f2bd3196180ec688cad4e06cb19e6bcd889650f6698cfb09715f"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "phrases",
+      "itemId": "take-your-time",
+      "src": "/audio/phrases/feelings-break-take-your-time.mp3",
+      "text": "Take your time.",
+      "textSha256": "71659e9e5d2bebb460d85f0dbd8e22f521d05cd99095d2724eeacd5d1458566c"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "phrases",
+      "itemId": "i-am-ready-now",
+      "src": "/audio/phrases/feelings-break-i-am-ready-now.mp3",
+      "text": "I am ready now.",
+      "textSha256": "6611ad8eaa100b6ac06b095353f91355a7744b7fcc9dff1403d38576f4540c5f"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "phrases",
+      "itemId": "tries-again",
+      "src": "/audio/phrases/feelings-break-tries-again.mp3",
+      "text": "tries again",
+      "textSha256": "f3eac91a50ea1b2a078efc42df0c95b29744678ae8f5b54e08eb0d97fe8f86fb"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "words",
+      "itemId": "upset",
+      "src": "/audio/words/feelings-break-upset.mp3",
+      "text": "upset",
+      "textSha256": "8b2f406339328a5dd4c6586a2da0d35978b7a9a13bf1bb0c38274e6ba245964a"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "words",
+      "itemId": "drawing",
+      "src": "/audio/words/feelings-break-drawing.mp3",
+      "text": "drawing",
+      "textSha256": "27f3282691613a41f159fe0fb8f3791f3b99fa00fc62df29edeeafe496eb0fdd"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "words",
+      "itemId": "friend",
+      "src": "/audio/words/feelings-break-friend.mp3",
+      "text": "friend",
+      "textSha256": "cde48537ca2c28084ff560826d0e6388b7c57a51497a6cb56f397289e52ff41b"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "words",
+      "itemId": "break",
+      "src": "/audio/words/feelings-break-break.mp3",
+      "text": "break",
+      "textSha256": "14ebe56a5008e7c251101e9e1fdbe281ab0a82bd6fa00a5cef746b9ee0dd31d1"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "words",
+      "itemId": "crayon",
+      "src": "/audio/words/feelings-break-crayon.mp3",
+      "text": "crayon",
+      "textSha256": "d8b1858e24ae617677d50392c61e0ca351d1ef9bcbe683ba71bd4926df6b8fbe"
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "words",
+      "itemId": "slowly",
+      "src": "/audio/words/feelings-break-slowly.mp3",
+      "text": "slowly",
+      "textSha256": "793080bb3a187fcaeac15b1797045cda6103b8fbc8836642def618ccc41cf96a"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "sentences",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/classroom-cleanup/1.mp3",
+      "text": "After class, An says, “Let's clean up.”",
+      "textSha256": "aad40115080f726ed69980b5705ff788931cd05bacfcba2c8c7ac5c3873f5c5f"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "sentences",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/classroom-cleanup/2.mp3",
+      "text": "She wipes the desk with a cloth.",
+      "textSha256": "5b4847db4e45647d8a22db92cb9b87611f0549e09c91899db4a8ad200c189425"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "sentences",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/classroom-cleanup/3.mp3",
+      "text": "Yu uses a broom to sweep the floor.",
+      "textSha256": "f6485cdc78aadbf067615fbf6e2e8d9f87fcb78625d37f52807659d16ab14c32"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "sentences",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/classroom-cleanup/4.mp3",
+      "text": "An says, “We can recycle the paper.”",
+      "textSha256": "e0cd33398b4db9a8b9b571c3fa1b3ac1ab7e9073d625a7607524d55f1404c26f"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "sentences",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/classroom-cleanup/5.mp3",
+      "text": "Mia puts the paper in the recycling bin.",
+      "textSha256": "1282fbda8fb2d33bae16d8952bfcb323fb0f13ac20abaab824a84e7a6999b3f1"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "sentences",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/classroom-cleanup/6.mp3",
+      "text": "The room is clean, and they smile.",
+      "textSha256": "04632f8b54a5e80af17addd317a3ea52c611665cd9588d9c08abb313c217188b"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "phrases",
+      "itemId": "lets-clean-up",
+      "src": "/audio/phrases/classroom-cleanup-lets-clean-up.mp3",
+      "text": "Let's clean up.",
+      "textSha256": "336221058ee8592d971cc77c99439805ee81cc26ff02a2f3b1b05326098d42bb"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "phrases",
+      "itemId": "wipes-the-desk",
+      "src": "/audio/phrases/classroom-cleanup-wipes-the-desk.mp3",
+      "text": "wipes the desk",
+      "textSha256": "54b9b460633398c080a7e8dacd8c52116b728a38f39c25174f740bd1d793ca74"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "phrases",
+      "itemId": "uses-a-broom",
+      "src": "/audio/phrases/classroom-cleanup-uses-a-broom.mp3",
+      "text": "uses a broom",
+      "textSha256": "8c18a61028bd7e70316668842926be0ef3365ff692486e56c1c86cf2ad39df1e"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "phrases",
+      "itemId": "recycle-the-paper",
+      "src": "/audio/phrases/classroom-cleanup-recycle-the-paper.mp3",
+      "text": "recycle the paper",
+      "textSha256": "1dcc2932928faefaff39ed9a02269a8dc7a5e8573c9f9802496515ecfe3f2181"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "words",
+      "itemId": "class",
+      "src": "/audio/words/classroom-cleanup-class.mp3",
+      "text": "class",
+      "textSha256": "0889113e04d3203f0c401c17c0fd8b352b740dc607433779d3edcaa13320b001"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "words",
+      "itemId": "desk",
+      "src": "/audio/words/classroom-cleanup-desk.mp3",
+      "text": "desk",
+      "textSha256": "49be417ad74080a0031b636b44cfc26fdd0065492d6cd3b033960c4414955cf7"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "words",
+      "itemId": "cloth",
+      "src": "/audio/words/classroom-cleanup-cloth.mp3",
+      "text": "cloth",
+      "textSha256": "d6e28ffb3b198d85e47dc58d1febc577d52031abedf28af8e10d8c165d681e7b"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "words",
+      "itemId": "broom",
+      "src": "/audio/words/classroom-cleanup-broom.mp3",
+      "text": "broom",
+      "textSha256": "100a07d1e4368153d76b4b078ebabb41a7b313ec1453851324582440c38473a1"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "words",
+      "itemId": "paper",
+      "src": "/audio/words/classroom-cleanup-paper.mp3",
+      "text": "paper",
+      "textSha256": "382635c9325bf3273d195ff1b8a44e5b11afd7d97addeb8863ea35feb98c1a07"
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "words",
+      "itemId": "clean",
+      "src": "/audio/words/classroom-cleanup-clean.mp3",
+      "text": "clean",
+      "textSha256": "3b066804f6d1d077173cfe4d06002e6a61e6f21c2b2e648417962115f1afcd8e"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "sentences",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/night-market-fruit/1.mp3",
+      "text": "Bo visits the night market with his mother.",
+      "textSha256": "971df794fc37b6b7698e484dfdb1802f18e2ba03cc78de39dabefe11357b74d8"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "sentences",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/night-market-fruit/2.mp3",
+      "text": "The fruit stall has bright lights.",
+      "textSha256": "4013ca9da1ebc5e8429cff183a65ca4e9f776f237d03d83dbe3f2446c8a651e2"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "sentences",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/night-market-fruit/3.mp3",
+      "text": "Bo says, “I like these bananas.”",
+      "textSha256": "acffdbacda4a5c824a1a8caeadedc2199546af993b3e2e38ded1fd27c555aec4"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "sentences",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/night-market-fruit/4.mp3",
+      "text": "He asks the seller, “Two apples, please.”",
+      "textSha256": "6928e12564e14612c44ddcec042ff3179843e5dedbdc201296d51f47f6a07cb4"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "sentences",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/night-market-fruit/5.mp3",
+      "text": "His mother helps him put fruit in a bag.",
+      "textSha256": "f832f65c61f1f810adebdcb1e1174b611d123a6a2fd7bc4b1eccf7e466327cba"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "sentences",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/night-market-fruit/6.mp3",
+      "text": "“Thank you!” Bo says to the seller.",
+      "textSha256": "3c48b458d98031dad504a8a359110f58db0f86e875bf3daeb3da3816ba1f43f4"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "phrases",
+      "itemId": "with-his-mother",
+      "src": "/audio/phrases/night-market-fruit-with-his-mother.mp3",
+      "text": "with his mother",
+      "textSha256": "9e42b2a663ed663a92a4f47eb7c2cc5695cf17433e7f21f9a6fde7b1cdd969c2"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "phrases",
+      "itemId": "i-like-these-bananas",
+      "src": "/audio/phrases/night-market-fruit-i-like-these-bananas.mp3",
+      "text": "I like these bananas.",
+      "textSha256": "47aa992c0c450ef505fb73a4e0f36af9f7eacf3d7abf25dc1704939cd3b4b3fa"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "phrases",
+      "itemId": "two-apples-please",
+      "src": "/audio/phrases/night-market-fruit-two-apples-please.mp3",
+      "text": "Two apples, please.",
+      "textSha256": "0ef25ad8fcb4fb0b0c1b421a0ad959cd2be7016ef2311094b2d4083f53357d39"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "phrases",
+      "itemId": "thank-you",
+      "src": "/audio/phrases/night-market-fruit-thank-you.mp3",
+      "text": "Thank you!",
+      "textSha256": "3afdda2c098fc8346a9f2e0ba06ec9c6188411cf78cc7934cfd8b666ce632f55"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "words",
+      "itemId": "fruit",
+      "src": "/audio/words/night-market-fruit-fruit.mp3",
+      "text": "fruit",
+      "textSha256": "9209526aaa61b0709dbb838e14686a26c4a03b53e8eedf34c7e5f6f606110d8c"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "words",
+      "itemId": "stall",
+      "src": "/audio/words/night-market-fruit-stall.mp3",
+      "text": "stall",
+      "textSha256": "e5b6a7364e8a1049a9236dacfa24768ccffd3c4b671dc8b02953625844789b97"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "words",
+      "itemId": "lights",
+      "src": "/audio/words/night-market-fruit-lights.mp3",
+      "text": "lights",
+      "textSha256": "6fe6c35728c65f0351ca3e4f151b8010215afec63174941e71755ea1d8440475"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "words",
+      "itemId": "bananas",
+      "src": "/audio/words/night-market-fruit-bananas.mp3",
+      "text": "bananas",
+      "textSha256": "e4ba5cbd251c98e6cd1c23f126a3b81d8d8328abc95387229850952b3ef9f904"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "words",
+      "itemId": "apples",
+      "src": "/audio/words/night-market-fruit-apples.mp3",
+      "text": "apples",
+      "textSha256": "f5903f51e341a783e69ffc2d9b335048716f5f040a782a2764cd4e728b0f74d9"
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "words",
+      "itemId": "bag",
+      "src": "/audio/words/night-market-fruit-bag.mp3",
+      "text": "bag",
+      "textSha256": "c018019b6a8b01ab5868cf4be8db327a7549ae03202548b9ffcd2671c4c2b624"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "id": "pretend-picnic",
+  "title": "在家玩野餐",
+  "titleEn": "A Pretend Picnic",
+  "category": "遊戲與友誼",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/pretend-picnic.webp",
+    "alt": "小安和小宇坐在家裡的地毯上玩野餐遊戲，身旁有裝著玩具食物的籃子和兩個杯子。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "An and Yu sit on a "
+        },
+        {
+          "text": "rug",
+          "wordIds": [
+            "rug"
+          ]
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "home",
+          "wordIds": [
+            "home"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小安和小宇坐在家裡的地毯上。",
+      "audio": {
+        "src": "/audio/sentences/pretend-picnic/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "313a60ffc775a49ce817f7812478e9d3f38ed55c13caefa9bbc760d809d51d0b",
+        "sha256": "b596f2c8c62c4597762da13db1e8a92da3f24846aa02fa0aacfd2c2d2384ec9e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They put toy "
+        },
+        {
+          "text": "food",
+          "wordIds": [
+            "food"
+          ]
+        },
+        {
+          "text": " in a "
+        },
+        {
+          "text": "basket",
+          "wordIds": [
+            "basket"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們把玩具食物放進籃子裡。",
+      "audio": {
+        "src": "/audio/sentences/pretend-picnic/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "48e1a1db1b8cfcd69e17cbcf29b50d699e7f171b7202577a7454249d9ac856aa",
+        "sha256": "33367dd459e8c607cbadbcabc882ceed9ff42e13dc3f5b27098623ba17179b81"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "An says, “"
+        },
+        {
+          "text": "Let's have a picnic!",
+          "phraseIds": [
+            "lets-have-a-picnic"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "小安說：「我們來野餐吧！」",
+      "audio": {
+        "src": "/audio/sentences/pretend-picnic/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "add7d97d517ecd5d1b6836eebebd1b5952e5f192d24f97c5a0759567e8023bac",
+        "sha256": "70f546958ad5d89761b7664d9f1af1d24a3a07fcbbcb48ff30475d814fdb1574"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yu says, “"
+        },
+        {
+          "text": "Here is your ",
+          "phraseIds": [
+            "here-is-your-cup"
+          ]
+        },
+        {
+          "text": "cup",
+          "phraseIds": [
+            "here-is-your-cup"
+          ],
+          "wordIds": [
+            "cup"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "here-is-your-cup"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "小宇說：「這是你的杯子。」",
+      "audio": {
+        "src": "/audio/sentences/pretend-picnic/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0ce6ba46f2c668d0074b0d5eef9ed38f0862f31fb37842e9fcd8d74cf0d2fff5",
+        "sha256": "97f6f22d4dc31ed576cdf00c34b45f2aa730aa99b3c8049f2a0420e77485aaa7"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They pretend to drink "
+        },
+        {
+          "text": "tea",
+          "wordIds": [
+            "tea"
+          ]
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "share the ",
+          "phraseIds": [
+            "share-the-food"
+          ]
+        },
+        {
+          "text": "food",
+          "phraseIds": [
+            "share-the-food"
+          ],
+          "wordIds": [
+            "food"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們假裝喝茶，並分享玩具食物。",
+      "audio": {
+        "src": "/audio/sentences/pretend-picnic/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3188fc8e8fa6742144c2c65ec69c9d937397e5fb753f34f77728a8c76e39af89",
+        "sha256": "61f2c48e75b47dca87062106c3361e2ec687513014402c7403554a26fb644e45"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "This is fun!",
+          "phraseIds": [
+            "this-is-fun"
+          ]
+        },
+        {
+          "text": "” says An with a smile."
+        }
+      ],
+      "translation": "小安笑著說：「這真好玩！」",
+      "audio": {
+        "src": "/audio/sentences/pretend-picnic/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3b57b301bd61efa6bb14cfb3d9406b5ed148633f3108ba1ac15704dc3234dad6",
+        "sha256": "e8b60c2b99db08a001f82009bbab235299da7395314775073b302a1202506e67"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "lets-have-a-picnic",
+      "english": "Let's have a picnic!",
+      "translation": "我們來野餐吧！",
+      "audio": {
+        "src": "/audio/phrases/pretend-picnic-lets-have-a-picnic.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "64a5b2d6a21f5b14aa4c6e00a4dac8a07cb4921bb89cdf62fbfaa499ea1c340a",
+        "sha256": "263d81cae13f97e220e71b06c190ee17efa554324e137dd5970fdb2749109d03"
+      }
+    },
+    {
+      "id": "here-is-your-cup",
+      "english": "Here is your cup.",
+      "translation": "這是你的杯子。",
+      "audio": {
+        "src": "/audio/phrases/pretend-picnic-here-is-your-cup.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "43c194c274debee861336c90417678a4b800ca9446a42babc04b8001da8493b9",
+        "sha256": "f5ff7bdee98b3f41552e44f13b4fe736756d6d6978fb0c94f4887470af419e65"
+      }
+    },
+    {
+      "id": "share-the-food",
+      "english": "share the food",
+      "translation": "分享食物",
+      "audio": {
+        "src": "/audio/phrases/pretend-picnic-share-the-food.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cfca932691e992cc238fa17a4e48b4857dd150f29a1ebbf9333460428f8929dd",
+        "sha256": "dcc907cd4232d4875daebe345b689aac45150e1600a33ebf7c580909f7a899ae"
+      }
+    },
+    {
+      "id": "this-is-fun",
+      "english": "This is fun!",
+      "translation": "這真好玩！",
+      "audio": {
+        "src": "/audio/phrases/pretend-picnic-this-is-fun.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "212a9433375ae5d763526da2942c605b0920221b9449c8b268c9210db8c63d58",
+        "sha256": "aec409069a20679b481b04e241ba178ffa4f477e6098e36376ac5a50b6a3f9c1"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "rug",
+      "english": "rug",
+      "translation": "地毯",
+      "example": "We sit on the rug.",
+      "audio": {
+        "src": "/audio/words/pretend-picnic-rug.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9fdaa7ee3f13a29e53b116094579cf9066f87750824391d9f16440ddcf8c09dc",
+        "sha256": "3e214eb35b62e9b768160796171ea9f7a2fe4a6225930abed0cadd1b89a35a3b"
+      }
+    },
+    {
+      "id": "home",
+      "english": "home",
+      "translation": "家",
+      "example": "I am at home.",
+      "audio": {
+        "src": "/audio/words/pretend-picnic-home.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4ea140588150773ce3aace786aeef7f4049ce100fa649c94fbbddb960f1da942",
+        "sha256": "c6a37e4cdcdc8b675f0049cc41b1f5080a0a1ea701d5a0c33a33fc0acb4a51fe"
+      }
+    },
+    {
+      "id": "food",
+      "english": "food",
+      "translation": "食物",
+      "example": "The food is on the table.",
+      "audio": {
+        "src": "/audio/words/pretend-picnic-food.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c1f026582fe6e8cb620d0c85a72fe421ddded756662a8ec00ed4c297ad10676b",
+        "sha256": "1bd51b27e04ff7b2f1b88c68f43107cf00b0a2d29eb82042962308e19c6401d8"
+      }
+    },
+    {
+      "id": "basket",
+      "english": "basket",
+      "translation": "籃子",
+      "example": "The basket is small.",
+      "audio": {
+        "src": "/audio/words/pretend-picnic-basket.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fa76d99ad957d952fb3738ae1ed7282a18d3bca1531c7efc273d52e16b774bd6",
+        "sha256": "2d38dab27934ce92f99f385a50c8dc9c2055c05777039b7343da5c543a927fdf"
+      }
+    },
+    {
+      "id": "cup",
+      "english": "cup",
+      "translation": "杯子",
+      "example": "This is my cup.",
+      "audio": {
+        "src": "/audio/words/pretend-picnic-cup.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c6171781d65f3ccce1135e3c89850cfbaa7f332fd72a1f8f6a841fbcf7fd362a",
+        "sha256": "5f69fa242392148faf2cb6b4daee468cbe065486431e6fdc921edd9d690b163b"
+      }
+    },
+    {
+      "id": "tea",
+      "english": "tea",
+      "translation": "茶",
+      "example": "Mom likes warm tea.",
+      "audio": {
+        "src": "/audio/words/pretend-picnic-tea.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a9f74d1ec36ebdeb2da3f6e5868090cd2a2d20b3dcca7b62f60304b1d3d9ef42",
+        "sha256": "3dff30abf54c00da2da8fe9f2177ad3df6d7c0c2117cda7742dff45ede6bbf56"
+      }
+    }
+  ]
+}

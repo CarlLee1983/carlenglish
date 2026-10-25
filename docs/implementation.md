@@ -1,5 +1,17 @@
 # 實作與驗收紀錄
 
+## 2026-10-25 台灣小學生初級單元發布
+
+本批新增六篇入門生活讀本、六張原創插畫與 96 段本地 MP3，生活讀本共 52 篇、初級 33 篇。範圍及實聽界線見 [本批驗證](elementary-beginners-verification.md)，共讀順序、練習及 Bluey 外部選讀的版權處理見 [學習說明](elementary-beginners-study-guide.md)。沒有新增套件、服務、設定、密鑰、資料庫或讀者資料遷移。
+
+依使用者「devops 收尾佈署上線」授權，從已核對的 `origin/main`（`7dd0233400ec00e4e83e39250b2a46c82edc6235`）建立本批分支、提交與 PR，候選版本 CI 通過後合併，再由既有 Deploy 工作流程驗證合併 SHA 並發布。其他開啟中的新聞 PR 不在本批。正式目標是 Cloudflare account `b2a2c00fb55ae6b774fde3adb3d465b2` 的 Worker `carlenglish`，網域 `carlenglish.gravito.dev`；沿用 repository 的專用 Cloudflare secrets，未搬用本機登入憑證。
+
+部署前已核對線上版本 `f2a0e691-8a61-4507-b26a-b7c014161489`、100% 流量，與上述主分支的 [Deploy run 40173906759](https://github.com/CarlLee1983/carlenglish/actions/runs/40173906759) 輸出一致。本地完整驗證通過：內容 164、瀏覽器 1,763 passed／12 項既有條件略過、擴充 1；候選與合併版本仍各以實際 GitHub Actions 結果為準。發布一次替換完整靜態版本至 100% 流量，不另外平行發布未提交內容。
+
+上線後核對平台版本、六篇頁面及初級目錄，並比對六張插畫與 96 段音檔的 SHA-256；另檢查既有閱讀入口、sitemap 與未知網址的 404。成功部署不等於完成這些服務驗證；部署 SHA、平台版本與結果以本次 Actions run 及發布回報為準。
+
+若上線驗證失敗，先停止後續操作並記錄影響。程式回復目標為部署前完整版本，命令是 `pnpm exec wrangler rollback f2a0e691-8a61-4507-b26a-b7c014161489 --name carlenglish`，須在取得回復授權後執行，再核對部署版本、舊目錄與既有讀本圖音。程式、內容與音檔須一起回復；本批沒有 schema 或持久資料變更，不需要資料還原。新增教材在回復後將暫時不可用。實機音質與跟讀節奏回饋繼續獨立保留，不能標記為已驗收。
+
 ## 2026-10-25 專注跟讀交付與發布流程
 
 生活讀本新增獨立專注跟讀、四種語速、逐句／連續模式與每篇接續位置；46 篇共 321 段逐句 MP3，取代 46 段整篇音檔。完整範圍見 [設計](read-aloud-design.md)、[驗證與手機實聽](read-aloud-verification.md) 及 [音檔產製紀錄](audio-generation/sentence-reading-20261025/README.md)。語音模型只在本地產製時使用，部署包沒有模型、私人原型或學習紀錄；沒有新增套件、後端、雲端密鑰或資料庫遷移。

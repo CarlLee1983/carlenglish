@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-25",
+  "tool": "built-in image_gen",
+  "conversion": "Full frame PNG to WebP, sharp quality 86; no crop.",
+  "images": [
+    {
+      "id": "breakfast-shop-order",
+      "generatedFile": "exec-38684099-a1cd-412b-a951-d68c1aa449ca.png",
+      "src": "/images/scenes/breakfast-shop-order.webp",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Scene: At a small clean Taiwanese breakfast shop in morning light, an East Asian elementary school girl with schoolbag is beside her mother at the counter. A friendly adult vendor offers a freshly cooked egg pancake on a plate, and a cup of water sits on the counter. Show the child politely ordering; no cooking utensils in child's hands. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, anthropomorphic dogs, recognizable characters, logos, brands, text, lettering, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series.",
+      "sha256": "2f9c8c76e4411bfab263ebec8c3b4ebd83dce56024ab10ff78bd57c5117aec68"
+    },
+    {
+      "id": "rainy-school-day",
+      "generatedFile": "exec-0eece427-7048-4f99-beac-8a50b30057f5.png",
+      "src": "/images/scenes/rainy-school-day.webp",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Scene: An East Asian elementary boy in a yellow raincoat and rain boots walks carefully beside his father, who holds an umbrella over them, on a wet sidewalk near a school gate. Gentle rain, small puddles, no road crossing, no visible traffic danger. Both fully in frame. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, anthropomorphic dogs, recognizable characters, logos, brands, text, lettering, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series.",
+      "sha256": "0891b573d47c60e7bc71dec0c4fdf4e2bc57559ab202a49339a49330e1e49263"
+    },
+    {
+      "id": "pretend-picnic",
+      "generatedFile": "exec-b043d83d-5bc5-4640-b116-e5cdf6155b63.png",
+      "src": "/images/scenes/pretend-picnic.webp",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Scene: Two East Asian elementary children, a girl and a boy, seated comfortably on a green living room rug, playing an imaginary picnic with clearly wooden toy food, two small empty toy cups and a toy basket. Relaxed happy home play, no actual eating of toys, no furniture climbing. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, anthropomorphic dogs, recognizable characters, logos, brands, text, lettering, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series.",
+      "sha256": "ba7ad95e30375457c80917d97ec23eb49ae104536a3bff0c0e3872c8687c5de6"
+    },
+    {
+      "id": "feelings-break",
+      "generatedFile": "exec-4596afe5-6584-4839-bef4-852cb3577827.png",
+      "src": "/images/scenes/feelings-break.webp",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Scene: In a calm elementary art classroom, an East Asian elementary school girl seated at a desk pauses beside an unfinished crayon drawing. Crayons on paper. She is taking a slow breath with hands resting comfortably, looking calmer; a kind same-age friend sits nearby, leaving space. Gentle realistic emotions, no exaggerated tears. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, anthropomorphic dogs, recognizable characters, logos, brands, text, lettering, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series.",
+      "sha256": "b3763d72aef5a6e1d46e5a605b933b4da24b1bbd4c9f8371e9d2ab5f95e37182"
+    },
+    {
+      "id": "classroom-cleanup",
+      "generatedFile": "exec-cfa88973-ad1d-4599-b892-163a39e94c56.png",
+      "src": "/images/scenes/classroom-cleanup.webp",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Scene: Three East Asian elementary pupils tidying their classroom after class: one wipes a low desk with a simple cloth, one uses a child-sized broom on the floor, one puts used paper into a paper recycling basket. No cleaning chemicals, no standing on furniture. Warm cooperative afternoon scene, schoolbags nearby. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, anthropomorphic dogs, recognizable characters, logos, brands, text, lettering, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series.",
+      "sha256": "dbafdad0edd1131691bf5e8942d5540bf050633f72c58c6204160236d7aa8ec1"
+    },
+    {
+      "id": "night-market-fruit",
+      "generatedFile": "exec-f665b491-65a8-41e0-a191-1db215f76ce6.png",
+      "src": "/images/scenes/night-market-fruit.webp",
+      "width": 1536,
+      "height": 1024,
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Scene: An East Asian elementary boy accompanies his mother at a friendly Taiwanese night market fruit stall under warm lantern lights. A vendor places two apples in a reusable shopping bag, with bananas clearly visible on the counter. Mom stands close to the child. This is a fruit stand, no drinks or toys or branded signage. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, anthropomorphic dogs, recognizable characters, logos, brands, text, lettering, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series.",
+      "sha256": "3374675fbf9c42f4dffef22c77b36afd60534281f8a96609a4eb9264e1d37e2c"
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "id": "rainy-school-day",
+  "title": "雨天上學",
+  "titleEn": "A Rainy School Day",
+  "category": "學校生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/rainy-school-day.webp",
+    "alt": "小柏穿著雨衣和雨靴，與爸爸一起撐著一把大雨傘，慢慢走向學校大門。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "It is raining",
+          "phraseIds": [
+            "it-is-raining"
+          ]
+        },
+        {
+          "text": " on the way to "
+        },
+        {
+          "text": "school",
+          "wordIds": [
+            "school"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "上學的路上正在下雨。",
+      "audio": {
+        "src": "/audio/sentences/rainy-school-day/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6d07401337913cf36233843775d773f208e6022e5cd3604a8491ee10a113633b",
+        "sha256": "e387cc634ed95ffd64e7bf4cf6846777b5042b674d2e94012a08c7ee06613921"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Bo "
+        },
+        {
+          "text": "puts on",
+          "phraseIds": [
+            "puts-on"
+          ]
+        },
+        {
+          "text": " his "
+        },
+        {
+          "text": "raincoat",
+          "wordIds": [
+            "raincoat"
+          ]
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "boots",
+          "wordIds": [
+            "boots"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小柏穿上雨衣和雨靴。",
+      "audio": {
+        "src": "/audio/sentences/rainy-school-day/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a44cf416f60074b5cf2f06460f22f52df39259894ce3a32404f76fd0647c7d82",
+        "sha256": "0cba5f5f8ad989ffa97920e07897d40121189a5116b94486f737fec2274058f7"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "His "
+        },
+        {
+          "text": "dad",
+          "wordIds": [
+            "dad"
+          ]
+        },
+        {
+          "text": " holds a big "
+        },
+        {
+          "text": "umbrella",
+          "wordIds": [
+            "umbrella"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他的爸爸撐著一把大雨傘。",
+      "audio": {
+        "src": "/audio/sentences/rainy-school-day/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2810b5c5764de0d44596ad592026c070118b31f1c047010b03ebe7e8232b8c30",
+        "sha256": "0f5295989b7e6827022bcb67336d7156c65c4973a17065d3a45c07640284bdd2"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They stand together "
+        },
+        {
+          "text": "under the ",
+          "phraseIds": [
+            "under-the-umbrella"
+          ]
+        },
+        {
+          "text": "umbrella",
+          "phraseIds": [
+            "under-the-umbrella"
+          ],
+          "wordIds": [
+            "umbrella"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們一起站在雨傘下。",
+      "audio": {
+        "src": "/audio/sentences/rainy-school-day/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0e7ea246025582d79b653f2c3e6fc3fb1c6f92eebb031c7a1f968ee952b8263e",
+        "sha256": "2ba463c2e22ac4a60c4e8daab18dc4e8545582afcf902ada5d87ba7381be8695"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Dad says, “We can "
+        },
+        {
+          "text": "walk slowly",
+          "phraseIds": [
+            "walk-slowly"
+          ]
+        },
+        {
+          "text": ".”"
+        }
+      ],
+      "translation": "爸爸說：「我們可以慢慢走。」",
+      "audio": {
+        "src": "/audio/sentences/rainy-school-day/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "93e9a7137fe1ed61dd9bbc098f4d9b5727700820cff7946263e56d34a0589a31",
+        "sha256": "0f53b84dfc255ecbd0feea874d30134ade1d0555ac4fa649a1b8066d850b2dfe"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They reach the "
+        },
+        {
+          "text": "school",
+          "wordIds": [
+            "school"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "gate",
+          "wordIds": [
+            "gate"
+          ]
+        },
+        {
+          "text": " together."
+        }
+      ],
+      "translation": "他們一起走到學校大門。",
+      "audio": {
+        "src": "/audio/sentences/rainy-school-day/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ab51b4f51a21cf89dcd26cf20c59dd48e9523fb1b7f6a24dbfbf1c19a9038bef",
+        "sha256": "1b25bad8842df5293140dc18a4e0c846325b600e975dbd8ed260628630b5dfe6"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "it-is-raining",
+      "english": "It is raining",
+      "translation": "正在下雨",
+      "audio": {
+        "src": "/audio/phrases/rainy-school-day-it-is-raining.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4e233c2092448777d6bd1574338ef286e449474004f0fd6d408530972f38f11c",
+        "sha256": "27328f43f70ee93836ce459f114e4a38ee5b4a3ebe09b2ab0082778c83815998"
+      }
+    },
+    {
+      "id": "puts-on",
+      "english": "puts on",
+      "translation": "穿上",
+      "audio": {
+        "src": "/audio/phrases/rainy-school-day-puts-on.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "30dcf7b8cc768c9fee50ece32c8985c08940d85197c17d6a5c853fb3f61c2967",
+        "sha256": "0ee6c15c5b6ad33fe2bc66b98e52ab2ace923831d33f4c3ebf08e5f47f326607"
+      }
+    },
+    {
+      "id": "under-the-umbrella",
+      "english": "under the umbrella",
+      "translation": "在雨傘下",
+      "audio": {
+        "src": "/audio/phrases/rainy-school-day-under-the-umbrella.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c0276ce2214e5edfa232a11c292437b36660a361c40ecc495e441fd0bc12bb0f",
+        "sha256": "bb1973b54d03a8f30bf5e8925bfead3be6094410f62b06b7a79c34a2b869c5d4"
+      }
+    },
+    {
+      "id": "walk-slowly",
+      "english": "walk slowly",
+      "translation": "慢慢走",
+      "audio": {
+        "src": "/audio/phrases/rainy-school-day-walk-slowly.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2eb592820eca00a6a90b373c3d19a1ba943c909d3f983042632a356826daa194",
+        "sha256": "a082cc2116f776872e36c67778443209fa2ec4114fbc0a03cb4b5b5f50cd11a4"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "school",
+      "english": "school",
+      "translation": "學校",
+      "example": "I like my school.",
+      "audio": {
+        "src": "/audio/words/rainy-school-day-school.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d64debd942d7dc26a851231583b1721f43ea936fa41932b6dad7556e5f8cd24a",
+        "sha256": "04bf53b796b5169595139471cbf020fe257f66c70462c547343b905d6d9a126c"
+      }
+    },
+    {
+      "id": "raincoat",
+      "english": "raincoat",
+      "translation": "雨衣",
+      "example": "My raincoat is yellow.",
+      "audio": {
+        "src": "/audio/words/rainy-school-day-raincoat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b6958aab121d91a7aeff1426fe8d77d9c69afbc6e6f38b332ed6455414c3c54c",
+        "sha256": "d9dde5dce9d53419cd170413e1c827d27bf0761ab67d4f0e4c8539c9d2efc65a"
+      }
+    },
+    {
+      "id": "boots",
+      "english": "boots",
+      "translation": "靴子",
+      "example": "My boots are wet.",
+      "audio": {
+        "src": "/audio/words/rainy-school-day-boots.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "40cafc18e93464f86d5d304e726df74311237955bcf7d99909bcef3f0bcb90bb",
+        "sha256": "80426261ba8c5a469667dd64ac90335e8c55a95500a60483ee4be0c8f70e7ca3"
+      }
+    },
+    {
+      "id": "dad",
+      "english": "dad",
+      "translation": "爸爸",
+      "example": "My dad is here.",
+      "audio": {
+        "src": "/audio/words/rainy-school-day-dad.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6fe8ecbc1deafa51c2ecf088cf364eba1ceba9032ffbe2621e771b90ea93153d",
+        "sha256": "e07294c576b2debe4da3e9aed5d4e48f905018ee2aa0d39f78d5ad79b3cd4422"
+      }
+    },
+    {
+      "id": "umbrella",
+      "english": "umbrella",
+      "translation": "雨傘",
+      "example": "This umbrella is big.",
+      "audio": {
+        "src": "/audio/words/rainy-school-day-umbrella.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2974744982f08b2077515f1e0dd62fd94b70d805831c994ad0a55b187ecdd1f9",
+        "sha256": "3debdab23400331e29fbf41f70492f6735108af581ad5bb6180084de9aa4f90c"
+      }
+    },
+    {
+      "id": "gate",
+      "english": "gate",
+      "translation": "大門",
+      "example": "We meet at the gate.",
+      "audio": {
+        "src": "/audio/words/rainy-school-day-gate.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c974e17b8e7321ce8c12983de3d0ed4a289821f579bbe0925b0181a4bc8e8d80",
+        "sha256": "1bd2e7ce5b482843e5868ed65ad9ae4791fc1a3863089721aaf57dd58ef60d19"
+      }
+    }
+  ]
+}
