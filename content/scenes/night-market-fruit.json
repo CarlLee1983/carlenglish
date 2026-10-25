@@ -1,0 +1,330 @@
+{
+  "id": "night-market-fruit",
+  "title": "夜市買水果",
+  "titleEn": "Fruit at the Night Market",
+  "category": "飲食與購物",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/night-market-fruit.webp",
+    "alt": "小柏和媽媽站在夜市燈光明亮的水果攤前，攤上有香蕉和蘋果，攤販把蘋果放進購物袋。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Bo visits the night market "
+        },
+        {
+          "text": "with his mother",
+          "phraseIds": [
+            "with-his-mother"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小柏和媽媽一起逛夜市。",
+      "audio": {
+        "src": "/audio/sentences/night-market-fruit/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "971df794fc37b6b7698e484dfdb1802f18e2ba03cc78de39dabefe11357b74d8",
+        "sha256": "1a94694564702330776f3df656e81ede3e2b9ac818fe1d6e26899cb2a0e2bf3c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "fruit",
+          "wordIds": [
+            "fruit"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "stall",
+          "wordIds": [
+            "stall"
+          ]
+        },
+        {
+          "text": " has bright "
+        },
+        {
+          "text": "lights",
+          "wordIds": [
+            "lights"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "水果攤有明亮的燈光。",
+      "audio": {
+        "src": "/audio/sentences/night-market-fruit/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4013ca9da1ebc5e8429cff183a65ca4e9f776f237d03d83dbe3f2446c8a651e2",
+        "sha256": "d346c8e42ce9b5cb22f89696c520e7bdc911ca05b23d994c351d89068f07fb4a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Bo says, “"
+        },
+        {
+          "text": "I like these ",
+          "phraseIds": [
+            "i-like-these-bananas"
+          ]
+        },
+        {
+          "text": "bananas",
+          "phraseIds": [
+            "i-like-these-bananas"
+          ],
+          "wordIds": [
+            "bananas"
+          ]
+        },
+        {
+          "text": ".",
+          "phraseIds": [
+            "i-like-these-bananas"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "小柏說：「我喜歡這些香蕉。」",
+      "audio": {
+        "src": "/audio/sentences/night-market-fruit/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "acffdbacda4a5c824a1a8caeadedc2199546af993b3e2e38ded1fd27c555aec4",
+        "sha256": "1a6994bcd1d8e6d2422837b9e468c8990b20bef0962aad3e1987102a39022a99"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "He asks the seller, “"
+        },
+        {
+          "text": "Two ",
+          "phraseIds": [
+            "two-apples-please"
+          ]
+        },
+        {
+          "text": "apples",
+          "phraseIds": [
+            "two-apples-please"
+          ],
+          "wordIds": [
+            "apples"
+          ]
+        },
+        {
+          "text": ", please.",
+          "phraseIds": [
+            "two-apples-please"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "他向攤販說：「請給我兩顆蘋果。」",
+      "audio": {
+        "src": "/audio/sentences/night-market-fruit/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6928e12564e14612c44ddcec042ff3179843e5dedbdc201296d51f47f6a07cb4",
+        "sha256": "91b9d47f744eb85bcab7fe4017a7580353fbb7759ff5dc5670d1ad47622d6c8b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "His mother helps him put "
+        },
+        {
+          "text": "fruit",
+          "wordIds": [
+            "fruit"
+          ]
+        },
+        {
+          "text": " in a "
+        },
+        {
+          "text": "bag",
+          "wordIds": [
+            "bag"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "媽媽幫他把水果放進袋子裡。",
+      "audio": {
+        "src": "/audio/sentences/night-market-fruit/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f832f65c61f1f810adebdcb1e1174b611d123a6a2fd7bc4b1eccf7e466327cba",
+        "sha256": "42482540a3f4fd756472be08fb0aa31632e111f02c66fadbc95e8a7c7cf6bc1d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Thank you!",
+          "phraseIds": [
+            "thank-you"
+          ]
+        },
+        {
+          "text": "” Bo says to the seller."
+        }
+      ],
+      "translation": "小柏對攤販說：「謝謝您！」",
+      "audio": {
+        "src": "/audio/sentences/night-market-fruit/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3c48b458d98031dad504a8a359110f58db0f86e875bf3daeb3da3816ba1f43f4",
+        "sha256": "98bd583ab7a12a78ff4c6ff375ade5c5684049b56ac2e965dc832c4841be706a"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "with-his-mother",
+      "english": "with his mother",
+      "translation": "和他的媽媽一起",
+      "audio": {
+        "src": "/audio/phrases/night-market-fruit-with-his-mother.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9e42b2a663ed663a92a4f47eb7c2cc5695cf17433e7f21f9a6fde7b1cdd969c2",
+        "sha256": "ec4232cae2c9fd16ed1b30641196e2537fc613590e54da6ff1f37b75d1cce984"
+      }
+    },
+    {
+      "id": "i-like-these-bananas",
+      "english": "I like these bananas.",
+      "translation": "我喜歡這些香蕉。",
+      "audio": {
+        "src": "/audio/phrases/night-market-fruit-i-like-these-bananas.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "47aa992c0c450ef505fb73a4e0f36af9f7eacf3d7abf25dc1704939cd3b4b3fa",
+        "sha256": "a22ccee2f0d9f57c05c788415e9c9aef7fec0f0e88864cbff263e0a52772a100"
+      }
+    },
+    {
+      "id": "two-apples-please",
+      "english": "Two apples, please.",
+      "translation": "請給我兩顆蘋果。",
+      "audio": {
+        "src": "/audio/phrases/night-market-fruit-two-apples-please.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0ef25ad8fcb4fb0b0c1b421a0ad959cd2be7016ef2311094b2d4083f53357d39",
+        "sha256": "564da4e3fc75ea7a53fa2ec0eacb576c6cbb8dca355387ad38ba71478922e37d"
+      }
+    },
+    {
+      "id": "thank-you",
+      "english": "Thank you!",
+      "translation": "謝謝您！",
+      "audio": {
+        "src": "/audio/phrases/night-market-fruit-thank-you.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3afdda2c098fc8346a9f2e0ba06ec9c6188411cf78cc7934cfd8b666ce632f55",
+        "sha256": "b7d5b49ac35bd34c15eff2d9ad35cce04994d197db06c5ee738e11c2581614f7"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "fruit",
+      "english": "fruit",
+      "translation": "水果",
+      "example": "I like fresh fruit.",
+      "audio": {
+        "src": "/audio/words/night-market-fruit-fruit.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9209526aaa61b0709dbb838e14686a26c4a03b53e8eedf34c7e5f6f606110d8c",
+        "sha256": "e5a1c9a1c24d4f105f3d6a892784036e9c136316f5e763961c84f8de4e1cb135"
+      }
+    },
+    {
+      "id": "stall",
+      "english": "stall",
+      "translation": "攤位",
+      "example": "The stall is open.",
+      "audio": {
+        "src": "/audio/words/night-market-fruit-stall.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e5b6a7364e8a1049a9236dacfa24768ccffd3c4b671dc8b02953625844789b97",
+        "sha256": "759d9e2463b228b41fe33d99b925df11e69710f0f4c021e0d5c63da72aaa09c9"
+      }
+    },
+    {
+      "id": "lights",
+      "english": "lights",
+      "translation": "燈",
+      "example": "The lights are bright.",
+      "audio": {
+        "src": "/audio/words/night-market-fruit-lights.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6fe6c35728c65f0351ca3e4f151b8010215afec63174941e71755ea1d8440475",
+        "sha256": "61e7e29f7844a7da7db807881ce80eb012a146284a18ee9fa2a6712e5b34cd5f"
+      }
+    },
+    {
+      "id": "bananas",
+      "english": "bananas",
+      "translation": "香蕉",
+      "example": "These bananas are yellow.",
+      "audio": {
+        "src": "/audio/words/night-market-fruit-bananas.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e4ba5cbd251c98e6cd1c23f126a3b81d8d8328abc95387229850952b3ef9f904",
+        "sha256": "fc5b7a66cb4013b41a85d2ef3a0e1ea9b3554aca9d6e0c72811644b0770758a6"
+      }
+    },
+    {
+      "id": "apples",
+      "english": "apples",
+      "translation": "蘋果",
+      "example": "I like red apples.",
+      "audio": {
+        "src": "/audio/words/night-market-fruit-apples.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f5903f51e341a783e69ffc2d9b335048716f5f040a782a2764cd4e728b0f74d9",
+        "sha256": "89c631d51ee4614ca8daa23cbe32bbfde0ddbab4873d1fe9fd1539be0d2a7d34"
+      }
+    },
+    {
+      "id": "bag",
+      "english": "bag",
+      "translation": "袋子",
+      "example": "The bag is on the table.",
+      "audio": {
+        "src": "/audio/words/night-market-fruit-bag.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c018019b6a8b01ab5868cf4be8db327a7549ae03202548b9ffcd2671c4c2b624",
+        "sha256": "25e9dd42c147e1e0e26f10ae74a22f397bf10cddcbc66132aea6bc5a2e651b1f"
+      }
+    }
+  ]
+}

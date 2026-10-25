@@ -1,0 +1,1653 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "sentences",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/breakfast-shop-order/1.mp3",
+      "text": "An goes to the breakfast shop with Mom.",
+      "textSha256": "f2955a23bfebdff29c5d3d16b627da1f0e93dbc76dcb08ad9201d58c4150ef14",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d6cef69c65ea7b12110c2670f0080546695cfc497eecc1b7701b0f5f723ed9f6",
+      "duration": 2.6,
+      "graphemes": [
+        "An goes to the breakfast shop with Mom."
+      ],
+      "phonemes": [
+        "ɐn ɡˈOz tə ðə bɹˈɛkfəst ʃˈɑp wɪð mˈɑm."
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "sentences",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/breakfast-shop-order/2.mp3",
+      "text": "She says, “One egg pancake, please.”",
+      "textSha256": "7efd40c40842336f40d7e0b82f139bb53986ce425611e8aa3745f94df02ae27c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cc310a65b68d52c1519cfd00edfba675002b98eecb8a93239ed8e759ffb5316f",
+      "duration": 2.725,
+      "graphemes": [
+        "She says, “One egg pancake, please.”"
+      ],
+      "phonemes": [
+        "ʃˌi sˈɛz, “wˈʌn ˈɛɡ pˈænkˌAk, plˈiz.”"
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "sentences",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/breakfast-shop-order/3.mp3",
+      "text": "Mom buys a pancake for An.",
+      "textSha256": "cceca92c12bca257a6f60d6f1c8cd5d6a0e8f9f5da770a66db69ad03e5318cc1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3cc620ccd1bbb6c670ce6fda31e1fbf0c8bf862e4973b7a9b131b78b5885a041",
+      "duration": 2.275,
+      "graphemes": [
+        "Mom buys a pancake for An."
+      ],
+      "phonemes": [
+        "mˈɑm bˈIz ɐ pˈænkˌAk fɔɹ ɐn."
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "sentences",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/breakfast-shop-order/4.mp3",
+      "text": "An asks, “May I have some water?”",
+      "textSha256": "0053d28099d1ac5c248f706bc5c323a69ec465338c9b50484a9df04029f9fd26",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ada61ab7f0fc2b03992ab1cf1ad29de1a03afc6671544afe1f4cf3e34daa0fbc",
+      "duration": 2.525,
+      "graphemes": [
+        "An asks, “May I have some water?”"
+      ],
+      "phonemes": [
+        "ɐn ˈæsks, “mˈA ˌI hæv sˌʌm wˈɔTəɹ?”"
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "sentences",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/breakfast-shop-order/5.mp3",
+      "text": "The shopkeeper gives her a cup of water.",
+      "textSha256": "33008656a6ad12ad5b50166cd9f95a463ac3b75dae1597892b80d144ab414406",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3429bc386862e2c9eed0e3c9819c3f3df7dd8dba1ebd86e67873970d8c55508d",
+      "duration": 2.925,
+      "graphemes": [
+        "The shopkeeper gives her a cup of water."
+      ],
+      "phonemes": [
+        "ðə ʃˈɑpkˌipəɹ ɡˈɪvz hɜɹ ɐ kˈʌp ʌv wˈɔTəɹ."
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "sentences",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/breakfast-shop-order/6.mp3",
+      "text": "An says, “Thank you,” to the shopkeeper.",
+      "textSha256": "81ef5fc38354ba9b47e75fbbce03821baea82bde81e065d496d6e61c0ec3f5b7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0087d022168180ba3581d1edf34daf9417f6a195d80c94f409565349cf5ac6b4",
+      "duration": 2.925,
+      "graphemes": [
+        "An says, “Thank you,” to the shopkeeper."
+      ],
+      "phonemes": [
+        "ɐn sˈɛz, “θˈæŋk ju,” tə ðə ʃˈɑpkˌipəɹ."
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "phrases",
+      "itemId": "with-mom",
+      "src": "/audio/phrases/breakfast-shop-order-with-mom.mp3",
+      "text": "with Mom",
+      "textSha256": "25d4745f4f9da2cab842e78e28ff11b516ad240d3d05a527e9593276a0e97597",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7c77892e28313526ef3725bf48895a03880399f8b2352aadffc0da6c67e2322c",
+      "duration": 1.5,
+      "graphemes": [
+        "with Mom"
+      ],
+      "phonemes": [
+        "wɪð mˈɑm"
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "phrases",
+      "itemId": "one-egg-pancake",
+      "src": "/audio/phrases/breakfast-shop-order-one-egg-pancake.mp3",
+      "text": "One egg pancake, please.",
+      "textSha256": "faf6ce1b3ece26c5a22146626f417be0b94766ebd95a88990093e0514ab0fca4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "44a103135639dfbf1260e5e4638996a9d9ec4a5b2783e9593218269e000ffaaf",
+      "duration": 2.175,
+      "graphemes": [
+        "One egg pancake, please."
+      ],
+      "phonemes": [
+        "wˈʌn ˈɛɡ pˈænkˌAk, plˈiz."
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "phrases",
+      "itemId": "may-i-have-water",
+      "src": "/audio/phrases/breakfast-shop-order-may-i-have-water.mp3",
+      "text": "May I have some water?",
+      "textSha256": "774a6f02256a8f1201b9c3b541046e0ec0b623c7da1acae898c4ea97164eac40",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3702c2e4299df7cc9341d7d58ee07d8d98da40c0dbfa06464df9b4555b7bc39b",
+      "duration": 1.825,
+      "graphemes": [
+        "May I have some water?"
+      ],
+      "phonemes": [
+        "mˈA ˌI hæv sˌʌm wˈɔTəɹ?"
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "phrases",
+      "itemId": "thank-you",
+      "src": "/audio/phrases/breakfast-shop-order-thank-you.mp3",
+      "text": "Thank you",
+      "textSha256": "268bc1833e83306f48ae6203eefb86e7a39dedb1d3d6df99c18ef70aa61ef84d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ce2e5704c9e369e03d14ebef4dfb18296775eda0110d223eb468163055222265",
+      "duration": 1.5,
+      "graphemes": [
+        "Thank you"
+      ],
+      "phonemes": [
+        "θˈæŋk ju"
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "words",
+      "itemId": "shop",
+      "src": "/audio/words/breakfast-shop-order-shop.mp3",
+      "text": "shop",
+      "textSha256": "8d9001d32c6a703d95921a77115050f33dd823d3f1730bd35215dcbecad6dc20",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9cfc02d1e3bf0fbf70c38559aafdfb1bd2efbd2ee80b59c3d3b1df27ccc0a592",
+      "duration": 1.275,
+      "graphemes": [
+        "shop"
+      ],
+      "phonemes": [
+        "ʃˈɑp"
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "words",
+      "itemId": "egg",
+      "src": "/audio/words/breakfast-shop-order-egg.mp3",
+      "text": "egg",
+      "textSha256": "34707c3f40dfa20c3902b807b627d420d6d474d9d98066ba637953d1cfd6b914",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8c73fb4953bbb349842103882da44a733e9e8bc69db0fdb0c1704e5f898baf59",
+      "duration": 1.225,
+      "graphemes": [
+        "egg"
+      ],
+      "phonemes": [
+        "ˈɛɡ"
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "words",
+      "itemId": "pancake",
+      "src": "/audio/words/breakfast-shop-order-pancake.mp3",
+      "text": "pancake",
+      "textSha256": "a9c1034fb623883b5786268bbde25a871b72c9920a4ff708d516e4852bcf7da0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c244d360a5f88c4d5e190526546a8f9b71b6cf9b9a0cefade2cb85d97d657ac3",
+      "duration": 1.475,
+      "graphemes": [
+        "pancake"
+      ],
+      "phonemes": [
+        "pˈænkˌAk"
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "words",
+      "itemId": "water",
+      "src": "/audio/words/breakfast-shop-order-water.mp3",
+      "text": "water",
+      "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3b0c4f3d1bca1d60434fb746bf9c8c42fe771d6ff787765144fd247d3a262c45",
+      "duration": 1.375,
+      "graphemes": [
+        "water"
+      ],
+      "phonemes": [
+        "wˈɔTəɹ"
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "words",
+      "itemId": "cup",
+      "src": "/audio/words/breakfast-shop-order-cup.mp3",
+      "text": "cup",
+      "textSha256": "c6171781d65f3ccce1135e3c89850cfbaa7f332fd72a1f8f6a841fbcf7fd362a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "daa974105b0d76a25171570a63a7c848a1a17523254a17aa317248114ad64b20",
+      "duration": 1.2,
+      "graphemes": [
+        "cup"
+      ],
+      "phonemes": [
+        "kˈʌp"
+      ]
+    },
+    {
+      "sceneId": "breakfast-shop-order",
+      "kind": "words",
+      "itemId": "shopkeeper",
+      "src": "/audio/words/breakfast-shop-order-shopkeeper.mp3",
+      "text": "shopkeeper",
+      "textSha256": "c279eb254ae9d10709bb1ce13ef3fcd3dc76f72d54f0c27220756e61f3b6df3c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c06c5e1e5191a1f50639717e3a05ca549a199337c19069d84c29baaa8b407173",
+      "duration": 1.575,
+      "graphemes": [
+        "shopkeeper"
+      ],
+      "phonemes": [
+        "ʃˈɑpkˌipəɹ"
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "sentences",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/rainy-school-day/1.mp3",
+      "text": "It is raining on the way to school.",
+      "textSha256": "6d07401337913cf36233843775d773f208e6022e5cd3604a8491ee10a113633b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e387cc634ed95ffd64e7bf4cf6846777b5042b674d2e94012a08c7ee06613921",
+      "duration": 2.35,
+      "graphemes": [
+        "It is raining on the way to school."
+      ],
+      "phonemes": [
+        "ˌɪt ɪz ɹˈAnɪŋ ˌɔn ðə wˈA tə skˈul."
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "sentences",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/rainy-school-day/2.mp3",
+      "text": "Bo puts on his raincoat and boots.",
+      "textSha256": "a44cf416f60074b5cf2f06460f22f52df39259894ce3a32404f76fd0647c7d82",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0cba5f5f8ad989ffa97920e07897d40121189a5116b94486f737fec2274058f7",
+      "duration": 2.525,
+      "graphemes": [
+        "Bo puts on his raincoat and boots."
+      ],
+      "phonemes": [
+        "bˈO pˌʊts ˌɔn hɪz ɹˈAnkˌOt ænd bˈuts."
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "sentences",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/rainy-school-day/3.mp3",
+      "text": "His dad holds a big umbrella.",
+      "textSha256": "2810b5c5764de0d44596ad592026c070118b31f1c047010b03ebe7e8232b8c30",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0f5295989b7e6827022bcb67336d7156c65c4973a17065d3a45c07640284bdd2",
+      "duration": 2.4,
+      "graphemes": [
+        "His dad holds a big umbrella."
+      ],
+      "phonemes": [
+        "hˌɪz dˈæd hˈOldz ɐ bˈɪɡ ˌʌmbɹˈɛlə."
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "sentences",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/rainy-school-day/4.mp3",
+      "text": "They stand together under the umbrella.",
+      "textSha256": "0e7ea246025582d79b653f2c3e6fc3fb1c6f92eebb031c7a1f968ee952b8263e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2ba463c2e22ac4a60c4e8daab18dc4e8545582afcf902ada5d87ba7381be8695",
+      "duration": 2.775,
+      "graphemes": [
+        "They stand together under the umbrella."
+      ],
+      "phonemes": [
+        "ðˌA stˈænd təɡˈɛðəɹ ˈʌndəɹ ði ˌʌmbɹˈɛlə."
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "sentences",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/rainy-school-day/5.mp3",
+      "text": "Dad says, “We can walk slowly.”",
+      "textSha256": "93e9a7137fe1ed61dd9bbc098f4d9b5727700820cff7946263e56d34a0589a31",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0f53b84dfc255ecbd0feea874d30134ade1d0555ac4fa649a1b8066d850b2dfe",
+      "duration": 2.5,
+      "graphemes": [
+        "Dad says, “We can walk slowly.”"
+      ],
+      "phonemes": [
+        "dˈæd sˈɛz, “wˌi kæn wˈɔk slˈOli.”"
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "sentences",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/rainy-school-day/6.mp3",
+      "text": "They reach the school gate together.",
+      "textSha256": "ab51b4f51a21cf89dcd26cf20c59dd48e9523fb1b7f6a24dbfbf1c19a9038bef",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1b25bad8842df5293140dc18a4e0c846325b600e975dbd8ed260628630b5dfe6",
+      "duration": 2.25,
+      "graphemes": [
+        "They reach the school gate together."
+      ],
+      "phonemes": [
+        "ðˌA ɹˈiʧ ðə skˈul ɡˈAt təɡˈɛðəɹ."
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "phrases",
+      "itemId": "it-is-raining",
+      "src": "/audio/phrases/rainy-school-day-it-is-raining.mp3",
+      "text": "It is raining",
+      "textSha256": "4e233c2092448777d6bd1574338ef286e449474004f0fd6d408530972f38f11c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "27328f43f70ee93836ce459f114e4a38ee5b4a3ebe09b2ab0082778c83815998",
+      "duration": 1.55,
+      "graphemes": [
+        "It is raining"
+      ],
+      "phonemes": [
+        "ˌɪt ɪz ɹˈAnɪŋ"
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "phrases",
+      "itemId": "puts-on",
+      "src": "/audio/phrases/rainy-school-day-puts-on.mp3",
+      "text": "puts on",
+      "textSha256": "30dcf7b8cc768c9fee50ece32c8985c08940d85197c17d6a5c853fb3f61c2967",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0ee6c15c5b6ad33fe2bc66b98e52ab2ace923831d33f4c3ebf08e5f47f326607",
+      "duration": 1.5,
+      "graphemes": [
+        "puts on"
+      ],
+      "phonemes": [
+        "pˌʊts ˌɔn"
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "phrases",
+      "itemId": "under-the-umbrella",
+      "src": "/audio/phrases/rainy-school-day-under-the-umbrella.mp3",
+      "text": "under the umbrella",
+      "textSha256": "c0276ce2214e5edfa232a11c292437b36660a361c40ecc495e441fd0bc12bb0f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bb1973b54d03a8f30bf5e8925bfead3be6094410f62b06b7a79c34a2b869c5d4",
+      "duration": 1.6,
+      "graphemes": [
+        "under the umbrella"
+      ],
+      "phonemes": [
+        "ˈʌndəɹ ði ˌʌmbɹˈɛlə"
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "phrases",
+      "itemId": "walk-slowly",
+      "src": "/audio/phrases/rainy-school-day-walk-slowly.mp3",
+      "text": "walk slowly",
+      "textSha256": "2eb592820eca00a6a90b373c3d19a1ba943c909d3f983042632a356826daa194",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a082cc2116f776872e36c67778443209fa2ec4114fbc0a03cb4b5b5f50cd11a4",
+      "duration": 1.55,
+      "graphemes": [
+        "walk slowly"
+      ],
+      "phonemes": [
+        "wˈɔk slˈOli"
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "words",
+      "itemId": "school",
+      "src": "/audio/words/rainy-school-day-school.mp3",
+      "text": "school",
+      "textSha256": "d64debd942d7dc26a851231583b1721f43ea936fa41932b6dad7556e5f8cd24a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "04bf53b796b5169595139471cbf020fe257f66c70462c547343b905d6d9a126c",
+      "duration": 1.4,
+      "graphemes": [
+        "school"
+      ],
+      "phonemes": [
+        "skˈul"
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "words",
+      "itemId": "raincoat",
+      "src": "/audio/words/rainy-school-day-raincoat.mp3",
+      "text": "raincoat",
+      "textSha256": "b6958aab121d91a7aeff1426fe8d77d9c69afbc6e6f38b332ed6455414c3c54c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d9dde5dce9d53419cd170413e1c827d27bf0761ab67d4f0e4c8539c9d2efc65a",
+      "duration": 1.5,
+      "graphemes": [
+        "raincoat"
+      ],
+      "phonemes": [
+        "ɹˈAnkˌOt"
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "words",
+      "itemId": "boots",
+      "src": "/audio/words/rainy-school-day-boots.mp3",
+      "text": "boots",
+      "textSha256": "40cafc18e93464f86d5d304e726df74311237955bcf7d99909bcef3f0bcb90bb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "80426261ba8c5a469667dd64ac90335e8c55a95500a60483ee4be0c8f70e7ca3",
+      "duration": 1.35,
+      "graphemes": [
+        "boots"
+      ],
+      "phonemes": [
+        "bˈuts"
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "words",
+      "itemId": "dad",
+      "src": "/audio/words/rainy-school-day-dad.mp3",
+      "text": "dad",
+      "textSha256": "6fe8ecbc1deafa51c2ecf088cf364eba1ceba9032ffbe2621e771b90ea93153d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e07294c576b2debe4da3e9aed5d4e48f905018ee2aa0d39f78d5ad79b3cd4422",
+      "duration": 1.275,
+      "graphemes": [
+        "dad"
+      ],
+      "phonemes": [
+        "dˈæd"
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "words",
+      "itemId": "umbrella",
+      "src": "/audio/words/rainy-school-day-umbrella.mp3",
+      "text": "umbrella",
+      "textSha256": "2974744982f08b2077515f1e0dd62fd94b70d805831c994ad0a55b187ecdd1f9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3debdab23400331e29fbf41f70492f6735108af581ad5bb6180084de9aa4f90c",
+      "duration": 1.5,
+      "graphemes": [
+        "umbrella"
+      ],
+      "phonemes": [
+        "ˌʌmbɹˈɛlə"
+      ]
+    },
+    {
+      "sceneId": "rainy-school-day",
+      "kind": "words",
+      "itemId": "gate",
+      "src": "/audio/words/rainy-school-day-gate.mp3",
+      "text": "gate",
+      "textSha256": "c974e17b8e7321ce8c12983de3d0ed4a289821f579bbe0925b0181a4bc8e8d80",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1bd2e7ce5b482843e5868ed65ad9ae4791fc1a3863089721aaf57dd58ef60d19",
+      "duration": 1.25,
+      "graphemes": [
+        "gate"
+      ],
+      "phonemes": [
+        "ɡˈAt"
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "sentences",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/pretend-picnic/1.mp3",
+      "text": "An and Yu sit on a rug at home.",
+      "textSha256": "313a60ffc775a49ce817f7812478e9d3f38ed55c13caefa9bbc760d809d51d0b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b596f2c8c62c4597762da13db1e8a92da3f24846aa02fa0aacfd2c2d2384ec9e",
+      "duration": 2.475,
+      "graphemes": [
+        "An and Yu sit on a rug at home."
+      ],
+      "phonemes": [
+        "ɐn ænd jˈu sˈɪt ˌɔn ɐ ɹˈʌɡ æt hˈOm."
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "sentences",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/pretend-picnic/2.mp3",
+      "text": "They put toy food in a basket.",
+      "textSha256": "48e1a1db1b8cfcd69e17cbcf29b50d699e7f171b7202577a7454249d9ac856aa",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "33367dd459e8c607cbadbcabc882ceed9ff42e13dc3f5b27098623ba17179b81",
+      "duration": 2.325,
+      "graphemes": [
+        "They put toy food in a basket."
+      ],
+      "phonemes": [
+        "ðˌA pˌʊt tˈY fˈud ɪn ɐ bˈæskət."
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "sentences",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/pretend-picnic/3.mp3",
+      "text": "An says, “Let's have a picnic!”",
+      "textSha256": "add7d97d517ecd5d1b6836eebebd1b5952e5f192d24f97c5a0759567e8023bac",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "70f546958ad5d89761b7664d9f1af1d24a3a07fcbbcb48ff30475d814fdb1574",
+      "duration": 2.375,
+      "graphemes": [
+        "An says, “Let's have a picnic!”"
+      ],
+      "phonemes": [
+        "ɐn sˈɛz, “lˈɛts hæv ɐ pˈɪknˌɪk!”"
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "sentences",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/pretend-picnic/4.mp3",
+      "text": "Yu says, “Here is your cup.”",
+      "textSha256": "0ce6ba46f2c668d0074b0d5eef9ed38f0862f31fb37842e9fcd8d74cf0d2fff5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "97f6f22d4dc31ed576cdf00c34b45f2aa730aa99b3c8049f2a0420e77485aaa7",
+      "duration": 2.125,
+      "graphemes": [
+        "Yu says, “Here is your cup.”"
+      ],
+      "phonemes": [
+        "jˈu sˈɛz, “hˈɪɹ ɪz jʊɹ kˈʌp.”"
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "sentences",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/pretend-picnic/5.mp3",
+      "text": "They pretend to drink tea and share the food.",
+      "textSha256": "3188fc8e8fa6742144c2c65ec69c9d937397e5fb753f34f77728a8c76e39af89",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "61f2c48e75b47dca87062106c3361e2ec687513014402c7403554a26fb644e45",
+      "duration": 3.025,
+      "graphemes": [
+        "They pretend to drink tea and share the food."
+      ],
+      "phonemes": [
+        "ðˌA pɹitˈɛnd tə dɹˈɪŋk tˈi ænd ʃˈɛɹ ðə fˈud."
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "sentences",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/pretend-picnic/6.mp3",
+      "text": "“This is fun!” says An with a smile.",
+      "textSha256": "3b57b301bd61efa6bb14cfb3d9406b5ed148633f3108ba1ac15704dc3234dad6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e8b60c2b99db08a001f82009bbab235299da7395314775073b302a1202506e67",
+      "duration": 2.65,
+      "graphemes": [
+        "“This is fun!” says An with a smile."
+      ],
+      "phonemes": [
+        "“ðˌɪs ɪz fˈʌn!” sˈɛz ɐn wɪð ɐ smˈIl."
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "phrases",
+      "itemId": "lets-have-a-picnic",
+      "src": "/audio/phrases/pretend-picnic-lets-have-a-picnic.mp3",
+      "text": "Let's have a picnic!",
+      "textSha256": "64a5b2d6a21f5b14aa4c6e00a4dac8a07cb4921bb89cdf62fbfaa499ea1c340a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "263d81cae13f97e220e71b06c190ee17efa554324e137dd5970fdb2749109d03",
+      "duration": 1.775,
+      "graphemes": [
+        "Let's have a picnic!"
+      ],
+      "phonemes": [
+        "lˈɛts hæv ɐ pˈɪknˌɪk!"
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "phrases",
+      "itemId": "here-is-your-cup",
+      "src": "/audio/phrases/pretend-picnic-here-is-your-cup.mp3",
+      "text": "Here is your cup.",
+      "textSha256": "43c194c274debee861336c90417678a4b800ca9446a42babc04b8001da8493b9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f5ff7bdee98b3f41552e44f13b4fe736756d6d6978fb0c94f4887470af419e65",
+      "duration": 1.575,
+      "graphemes": [
+        "Here is your cup."
+      ],
+      "phonemes": [
+        "hˈɪɹ ɪz jʊɹ kˈʌp."
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "phrases",
+      "itemId": "share-the-food",
+      "src": "/audio/phrases/pretend-picnic-share-the-food.mp3",
+      "text": "share the food",
+      "textSha256": "cfca932691e992cc238fa17a4e48b4857dd150f29a1ebbf9333460428f8929dd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dcc907cd4232d4875daebe345b689aac45150e1600a33ebf7c580909f7a899ae",
+      "duration": 1.625,
+      "graphemes": [
+        "share the food"
+      ],
+      "phonemes": [
+        "ʃˈɛɹ ðə fˈud"
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "phrases",
+      "itemId": "this-is-fun",
+      "src": "/audio/phrases/pretend-picnic-this-is-fun.mp3",
+      "text": "This is fun!",
+      "textSha256": "212a9433375ae5d763526da2942c605b0920221b9449c8b268c9210db8c63d58",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "aec409069a20679b481b04e241ba178ffa4f477e6098e36376ac5a50b6a3f9c1",
+      "duration": 1.6,
+      "graphemes": [
+        "This is fun!"
+      ],
+      "phonemes": [
+        "ðˌɪs ɪz fˈʌn!"
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "words",
+      "itemId": "rug",
+      "src": "/audio/words/pretend-picnic-rug.mp3",
+      "text": "rug",
+      "textSha256": "9fdaa7ee3f13a29e53b116094579cf9066f87750824391d9f16440ddcf8c09dc",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3e214eb35b62e9b768160796171ea9f7a2fe4a6225930abed0cadd1b89a35a3b",
+      "duration": 1.275,
+      "graphemes": [
+        "rug"
+      ],
+      "phonemes": [
+        "ɹˈʌɡ"
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "words",
+      "itemId": "home",
+      "src": "/audio/words/pretend-picnic-home.mp3",
+      "text": "home",
+      "textSha256": "4ea140588150773ce3aace786aeef7f4049ce100fa649c94fbbddb960f1da942",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c6a37e4cdcdc8b675f0049cc41b1f5080a0a1ea701d5a0c33a33fc0acb4a51fe",
+      "duration": 1.35,
+      "graphemes": [
+        "home"
+      ],
+      "phonemes": [
+        "hˈOm"
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "words",
+      "itemId": "food",
+      "src": "/audio/words/pretend-picnic-food.mp3",
+      "text": "food",
+      "textSha256": "c1f026582fe6e8cb620d0c85a72fe421ddded756662a8ec00ed4c297ad10676b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1bd51b27e04ff7b2f1b88c68f43107cf00b0a2d29eb82042962308e19c6401d8",
+      "duration": 1.35,
+      "graphemes": [
+        "food"
+      ],
+      "phonemes": [
+        "fˈud"
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "words",
+      "itemId": "basket",
+      "src": "/audio/words/pretend-picnic-basket.mp3",
+      "text": "basket",
+      "textSha256": "fa76d99ad957d952fb3738ae1ed7282a18d3bca1531c7efc273d52e16b774bd6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2d38dab27934ce92f99f385a50c8dc9c2055c05777039b7343da5c543a927fdf",
+      "duration": 1.45,
+      "graphemes": [
+        "basket"
+      ],
+      "phonemes": [
+        "bˈæskət"
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "words",
+      "itemId": "cup",
+      "src": "/audio/words/pretend-picnic-cup.mp3",
+      "text": "cup",
+      "textSha256": "c6171781d65f3ccce1135e3c89850cfbaa7f332fd72a1f8f6a841fbcf7fd362a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5f69fa242392148faf2cb6b4daee468cbe065486431e6fdc921edd9d690b163b",
+      "duration": 1.2,
+      "graphemes": [
+        "cup"
+      ],
+      "phonemes": [
+        "kˈʌp"
+      ]
+    },
+    {
+      "sceneId": "pretend-picnic",
+      "kind": "words",
+      "itemId": "tea",
+      "src": "/audio/words/pretend-picnic-tea.mp3",
+      "text": "tea",
+      "textSha256": "a9f74d1ec36ebdeb2da3f6e5868090cd2a2d20b3dcca7b62f60304b1d3d9ef42",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3dff30abf54c00da2da8fe9f2177ad3df6d7c0c2117cda7742dff45ede6bbf56",
+      "duration": 1.325,
+      "graphemes": [
+        "tea"
+      ],
+      "phonemes": [
+        "tˈi"
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "sentences",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/feelings-break/1.mp3",
+      "text": "Mei feels upset about her drawing.",
+      "textSha256": "9aabc758200ab88a5d623e8e94f6a037331f687a6424f7e139c5db0f45bcce1a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "56554eb24c3cad5b8f6415ed33fb2b71a1cf5c0a373f972cd90886c8760f2d64",
+      "duration": 2.35,
+      "graphemes": [
+        "Mei feels upset about her drawing."
+      ],
+      "phonemes": [
+        "mˈA fˈilz ˌʌpsˈɛt əbˈWt hɜɹ dɹˈYŋ."
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "sentences",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/feelings-break/2.mp3",
+      "text": "She tells her friend, “I need a break.”",
+      "textSha256": "48902b56238a1d51fcf907e33466abff976bb8b5e6cfbb141febda0629b1c56e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4cfcda160981f29d2b8d99c2bfb0b1b88ec117b4f8ca85cbb92751c6f521704a",
+      "duration": 2.725,
+      "graphemes": [
+        "She tells her friend, “I need a break.”"
+      ],
+      "phonemes": [
+        "ʃˌi tˈɛlz hɜɹ fɹˈɛnd, “ˌI nˈid ɐ bɹˈAk.”"
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "sentences",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/feelings-break/3.mp3",
+      "text": "Her friend says, “Take your time.”",
+      "textSha256": "9e600e529e57c311c7d0659e22ad223a83c4b55c75d81505e5038cadf348ccba",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f48ae0a7c9c269ca23e238fc055d7b5dff1624d203a783898853dd9a298c1008",
+      "duration": 2.4,
+      "graphemes": [
+        "Her friend says, “Take your time.”"
+      ],
+      "phonemes": [
+        "hˌɜɹ fɹˈɛnd sˈɛz, “tˈAk jʊɹ tˈIm.”"
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "sentences",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/feelings-break/4.mp3",
+      "text": "Mei puts down her crayon and breathes slowly.",
+      "textSha256": "b5edad854f71726114afeddb0ba09afbbf704bbc20a0f45eb97dd0b0f98b7f39",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c1df8b44b0effff14094b1f1b6bceb081972e7a45314237f1149469502147e06",
+      "duration": 2.95,
+      "graphemes": [
+        "Mei puts down her crayon and breathes slowly."
+      ],
+      "phonemes": [
+        "mˈA pˌʊts dˌWn hɜɹ kɹˈAˌɑn ænd bɹˈiðz slˈOli."
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "sentences",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/feelings-break/5.mp3",
+      "text": "Later, Mei says, “I am ready now.”",
+      "textSha256": "9d14f3a0c72d2dfe897e10347322dc35061ccff697d9192ef43750ba75dfe9f5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dcca63a0bec8fcfdfca4a948eb43a9ae813ac5b5388430080c448e8322a94a6e",
+      "duration": 2.7,
+      "graphemes": [
+        "Later, Mei says, “I am ready now.”"
+      ],
+      "phonemes": [
+        "lˈATəɹ, mˈA sˈɛz, “ˌI ɐm ɹˈɛdi nˈW.”"
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "sentences",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/feelings-break/6.mp3",
+      "text": "They sit together, and Mei tries again.",
+      "textSha256": "9e67a029b07e1d4be01d19334c30f09316c706a1a2ee42cad554983b385411a3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bd86ff168ec2d6d5604d87b59f210b6c73d7005603b4a8e0d2082b3dac79b345",
+      "duration": 2.775,
+      "graphemes": [
+        "They sit together, and Mei tries again."
+      ],
+      "phonemes": [
+        "ðˌA sˈɪt təɡˈɛðəɹ, ænd mˈA tɹˈIz əɡˈɛn."
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "phrases",
+      "itemId": "i-need-a-break",
+      "src": "/audio/phrases/feelings-break-i-need-a-break.mp3",
+      "text": "I need a break.",
+      "textSha256": "6d7edd32e0e1f2bd3196180ec688cad4e06cb19e6bcd889650f6698cfb09715f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e43d905ffc03c38798a78f7a715928bd652d40aa00a5bf4c2669d7b84e509f6b",
+      "duration": 1.65,
+      "graphemes": [
+        "I need a break."
+      ],
+      "phonemes": [
+        "ˌI nˈid ɐ bɹˈAk."
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "phrases",
+      "itemId": "take-your-time",
+      "src": "/audio/phrases/feelings-break-take-your-time.mp3",
+      "text": "Take your time.",
+      "textSha256": "71659e9e5d2bebb460d85f0dbd8e22f521d05cd99095d2724eeacd5d1458566c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "be0221f7dc681b01f7dbc3abe002954b41ce2f707867479348a36dda716991b7",
+      "duration": 1.625,
+      "graphemes": [
+        "Take your time."
+      ],
+      "phonemes": [
+        "tˈAk jʊɹ tˈIm."
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "phrases",
+      "itemId": "i-am-ready-now",
+      "src": "/audio/phrases/feelings-break-i-am-ready-now.mp3",
+      "text": "I am ready now.",
+      "textSha256": "6611ad8eaa100b6ac06b095353f91355a7744b7fcc9dff1403d38576f4540c5f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d623d75a4dbc0b2a50e4035219020a5caeb0f5845e169809bc1e6ce73a6d84cc",
+      "duration": 1.675,
+      "graphemes": [
+        "I am ready now."
+      ],
+      "phonemes": [
+        "ˌI ɐm ɹˈɛdi nˈW."
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "phrases",
+      "itemId": "tries-again",
+      "src": "/audio/phrases/feelings-break-tries-again.mp3",
+      "text": "tries again",
+      "textSha256": "f3eac91a50ea1b2a078efc42df0c95b29744678ae8f5b54e08eb0d97fe8f86fb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3bed83e77929cc060c8db5b3c11cd686d681a4374362d083ca14c7a389f54823",
+      "duration": 1.65,
+      "graphemes": [
+        "tries again"
+      ],
+      "phonemes": [
+        "tɹˈIz əɡˈɛn"
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "words",
+      "itemId": "upset",
+      "src": "/audio/words/feelings-break-upset.mp3",
+      "text": "upset",
+      "textSha256": "8b2f406339328a5dd4c6586a2da0d35978b7a9a13bf1bb0c38274e6ba245964a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1fde9bf0d703f4cc8eb31a55ff01f5cf128948d55586baca3e69378fa29a3bb5",
+      "duration": 1.35,
+      "graphemes": [
+        "upset"
+      ],
+      "phonemes": [
+        "ˌʌpsˈɛt"
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "words",
+      "itemId": "drawing",
+      "src": "/audio/words/feelings-break-drawing.mp3",
+      "text": "drawing",
+      "textSha256": "27f3282691613a41f159fe0fb8f3791f3b99fa00fc62df29edeeafe496eb0fdd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ddf88153c888e09062535f46b0f4c80bfdf57b884d779b32a111d51885b81cfa",
+      "duration": 1.4,
+      "graphemes": [
+        "drawing"
+      ],
+      "phonemes": [
+        "dɹˈYŋ"
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "words",
+      "itemId": "friend",
+      "src": "/audio/words/feelings-break-friend.mp3",
+      "text": "friend",
+      "textSha256": "cde48537ca2c28084ff560826d0e6388b7c57a51497a6cb56f397289e52ff41b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "41b5edb8c74f0f90bfaf69f2ed11a6d6207ece305f5601be9d75cfb49fa97f3c",
+      "duration": 1.4,
+      "graphemes": [
+        "friend"
+      ],
+      "phonemes": [
+        "fɹˈɛnd"
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "words",
+      "itemId": "break",
+      "src": "/audio/words/feelings-break-break.mp3",
+      "text": "break",
+      "textSha256": "14ebe56a5008e7c251101e9e1fdbe281ab0a82bd6fa00a5cef746b9ee0dd31d1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4991897d45b3c97dbd3bf6f3c22bb876a197aa4e81c010500eceb4cd782c567e",
+      "duration": 1.275,
+      "graphemes": [
+        "break"
+      ],
+      "phonemes": [
+        "bɹˈAk"
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "words",
+      "itemId": "crayon",
+      "src": "/audio/words/feelings-break-crayon.mp3",
+      "text": "crayon",
+      "textSha256": "d8b1858e24ae617677d50392c61e0ca351d1ef9bcbe683ba71bd4926df6b8fbe",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a6bcc7eb995e7dd4bcecec93dda2beb175f79f99782a18b96fe23a5e5984a5bb",
+      "duration": 1.45,
+      "graphemes": [
+        "crayon"
+      ],
+      "phonemes": [
+        "kɹˈAˌɑn"
+      ]
+    },
+    {
+      "sceneId": "feelings-break",
+      "kind": "words",
+      "itemId": "slowly",
+      "src": "/audio/words/feelings-break-slowly.mp3",
+      "text": "slowly",
+      "textSha256": "793080bb3a187fcaeac15b1797045cda6103b8fbc8836642def618ccc41cf96a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "381ec9aa949938a72733a9656ff1e186bff4cdece3849aec97fbef586ac25ff4",
+      "duration": 1.475,
+      "graphemes": [
+        "slowly"
+      ],
+      "phonemes": [
+        "slˈOli"
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "sentences",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/classroom-cleanup/1.mp3",
+      "text": "After class, An says, “Let's clean up.”",
+      "textSha256": "aad40115080f726ed69980b5705ff788931cd05bacfcba2c8c7ac5c3873f5c5f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "02e61cf5d2236120c30ac2f03c25575a8893fb2b0af6b41fa5c3be5a5d40d561",
+      "duration": 2.85,
+      "graphemes": [
+        "After class, An says, “Let's clean up.”"
+      ],
+      "phonemes": [
+        "ˈæftəɹ klˈæs, ɐn sˈɛz, “lˈɛts klˈin ˌʌp.”"
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "sentences",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/classroom-cleanup/2.mp3",
+      "text": "She wipes the desk with a cloth.",
+      "textSha256": "5b4847db4e45647d8a22db92cb9b87611f0549e09c91899db4a8ad200c189425",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "591c1338ec50f3f7b5b55d0fadb64c00f824b11da3d4ebc8068988b8e0fe735b",
+      "duration": 2.2,
+      "graphemes": [
+        "She wipes the desk with a cloth."
+      ],
+      "phonemes": [
+        "ʃˌi wˈIps ðə dˈɛsk wɪð ɐ klˈɔθ."
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "sentences",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/classroom-cleanup/3.mp3",
+      "text": "Yu uses a broom to sweep the floor.",
+      "textSha256": "f6485cdc78aadbf067615fbf6e2e8d9f87fcb78625d37f52807659d16ab14c32",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9036433e4926c27ca60f3e4189b74c26dcd59c4d8a711531ea5c74c5e5eda4ac",
+      "duration": 2.7,
+      "graphemes": [
+        "Yu uses a broom to sweep the floor."
+      ],
+      "phonemes": [
+        "jˈu jˈuzᵻz ɐ bɹˈum tə swˈip ðə flˈɔɹ."
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "sentences",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/classroom-cleanup/4.mp3",
+      "text": "An says, “We can recycle the paper.”",
+      "textSha256": "e0cd33398b4db9a8b9b571c3fa1b3ac1ab7e9073d625a7607524d55f1404c26f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "99d62a6ea401f3f657da6bf556e06b79dbfb37bd0972d8c7a56ed9c0591fc830",
+      "duration": 2.8,
+      "graphemes": [
+        "An says, “We can recycle the paper.”"
+      ],
+      "phonemes": [
+        "ɐn sˈɛz, “wˌi kæn ɹisˈIkᵊl ðə pˈApəɹ.”"
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "sentences",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/classroom-cleanup/5.mp3",
+      "text": "Mia puts the paper in the recycling bin.",
+      "textSha256": "1282fbda8fb2d33bae16d8952bfcb323fb0f13ac20abaab824a84e7a6999b3f1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "598cc978a05fcf5d2fe742ff7753cdd2964eb9fdc172f7e914620458cf96d63c",
+      "duration": 2.875,
+      "graphemes": [
+        "Mia puts the paper in the recycling bin."
+      ],
+      "phonemes": [
+        "mˈiə pˌʊts ðə pˈApəɹ ɪn ðə ɹisˈIkᵊlɪŋ bˈɪn."
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "sentences",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/classroom-cleanup/6.mp3",
+      "text": "The room is clean, and they smile.",
+      "textSha256": "04632f8b54a5e80af17addd317a3ea52c611665cd9588d9c08abb313c217188b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9ec9eb523b911bcebc4dd5b9c6bc93fca3d1d7cb824f438b0aaab2fd118bbaa9",
+      "duration": 2.5,
+      "graphemes": [
+        "The room is clean, and they smile."
+      ],
+      "phonemes": [
+        "ðə ɹˈum ɪz klˈin, ænd ðA smˈIl."
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "phrases",
+      "itemId": "lets-clean-up",
+      "src": "/audio/phrases/classroom-cleanup-lets-clean-up.mp3",
+      "text": "Let's clean up.",
+      "textSha256": "336221058ee8592d971cc77c99439805ee81cc26ff02a2f3b1b05326098d42bb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a3c64d66fab844f03102a539532956b8fd44b5e080b0f6118955c3826fc996a4",
+      "duration": 1.625,
+      "graphemes": [
+        "Let's clean up."
+      ],
+      "phonemes": [
+        "lˈɛts klˈin ˌʌp."
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "phrases",
+      "itemId": "wipes-the-desk",
+      "src": "/audio/phrases/classroom-cleanup-wipes-the-desk.mp3",
+      "text": "wipes the desk",
+      "textSha256": "54b9b460633398c080a7e8dacd8c52116b728a38f39c25174f740bd1d793ca74",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4c46ccddaecbb1d1997c23d1765bcd49a2f1a25aad97a1580a35ac0a90d4dbba",
+      "duration": 1.675,
+      "graphemes": [
+        "wipes the desk"
+      ],
+      "phonemes": [
+        "wˈIps ðə dˈɛsk"
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "phrases",
+      "itemId": "uses-a-broom",
+      "src": "/audio/phrases/classroom-cleanup-uses-a-broom.mp3",
+      "text": "uses a broom",
+      "textSha256": "8c18a61028bd7e70316668842926be0ef3365ff692486e56c1c86cf2ad39df1e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f30f20720f8ef87e59c4e84f3b9faed44783d93f65735b0b96c16fbd3ea16a9c",
+      "duration": 1.7,
+      "graphemes": [
+        "uses a broom"
+      ],
+      "phonemes": [
+        "jˈuzᵻz ɐ bɹˈum"
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "phrases",
+      "itemId": "recycle-the-paper",
+      "src": "/audio/phrases/classroom-cleanup-recycle-the-paper.mp3",
+      "text": "recycle the paper",
+      "textSha256": "1dcc2932928faefaff39ed9a02269a8dc7a5e8573c9f9802496515ecfe3f2181",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "00ccc1e6094085ebecc040db2ed1a8f542689dd67ff0b96ed6b27c558fea3e98",
+      "duration": 1.725,
+      "graphemes": [
+        "recycle the paper"
+      ],
+      "phonemes": [
+        "ɹisˈIkᵊl ðə pˈApəɹ"
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "words",
+      "itemId": "class",
+      "src": "/audio/words/classroom-cleanup-class.mp3",
+      "text": "class",
+      "textSha256": "0889113e04d3203f0c401c17c0fd8b352b740dc607433779d3edcaa13320b001",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fa28474d1c6f1bf8da46cbc7b78949a6f88fc0ad47d3863558919dcd6a186fb1",
+      "duration": 1.325,
+      "graphemes": [
+        "class"
+      ],
+      "phonemes": [
+        "klˈæs"
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "words",
+      "itemId": "desk",
+      "src": "/audio/words/classroom-cleanup-desk.mp3",
+      "text": "desk",
+      "textSha256": "49be417ad74080a0031b636b44cfc26fdd0065492d6cd3b033960c4414955cf7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1426d3dd93da7ea98236e88819d541a701e6cb938153334f56eb0f235ca66c82",
+      "duration": 1.3,
+      "graphemes": [
+        "desk"
+      ],
+      "phonemes": [
+        "dˈɛsk"
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "words",
+      "itemId": "cloth",
+      "src": "/audio/words/classroom-cleanup-cloth.mp3",
+      "text": "cloth",
+      "textSha256": "d6e28ffb3b198d85e47dc58d1febc577d52031abedf28af8e10d8c165d681e7b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1fbee343828d9f19f83b268c879f83f23e8d340fbb6e5e8976b7f6f4598d36c6",
+      "duration": 1.3,
+      "graphemes": [
+        "cloth"
+      ],
+      "phonemes": [
+        "klˈɔθ"
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "words",
+      "itemId": "broom",
+      "src": "/audio/words/classroom-cleanup-broom.mp3",
+      "text": "broom",
+      "textSha256": "100a07d1e4368153d76b4b078ebabb41a7b313ec1453851324582440c38473a1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8caa330705c04377dd50ead097a808f24f34d27d57f3cb212861a0dfe5f3285c",
+      "duration": 1.4,
+      "graphemes": [
+        "broom"
+      ],
+      "phonemes": [
+        "bɹˈum"
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "words",
+      "itemId": "paper",
+      "src": "/audio/words/classroom-cleanup-paper.mp3",
+      "text": "paper",
+      "textSha256": "382635c9325bf3273d195ff1b8a44e5b11afd7d97addeb8863ea35feb98c1a07",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c7052098c15ebbe0cf653832b1e5875c5985352f47c305ddafd85d1011b40d45",
+      "duration": 1.425,
+      "graphemes": [
+        "paper"
+      ],
+      "phonemes": [
+        "pˈApəɹ"
+      ]
+    },
+    {
+      "sceneId": "classroom-cleanup",
+      "kind": "words",
+      "itemId": "clean",
+      "src": "/audio/words/classroom-cleanup-clean.mp3",
+      "text": "clean",
+      "textSha256": "3b066804f6d1d077173cfe4d06002e6a61e6f21c2b2e648417962115f1afcd8e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "821b17b20ab39e652a91a969188e6b19a05bf9cd714a6ac7cabd06e1175e30ea",
+      "duration": 1.4,
+      "graphemes": [
+        "clean"
+      ],
+      "phonemes": [
+        "klˈin"
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "sentences",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/night-market-fruit/1.mp3",
+      "text": "Bo visits the night market with his mother.",
+      "textSha256": "971df794fc37b6b7698e484dfdb1802f18e2ba03cc78de39dabefe11357b74d8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1a94694564702330776f3df656e81ede3e2b9ac818fe1d6e26899cb2a0e2bf3c",
+      "duration": 2.8,
+      "graphemes": [
+        "Bo visits the night market with his mother."
+      ],
+      "phonemes": [
+        "bˈO vˈɪzəts ðə nˈIt mˈɑɹkət wɪð hɪz mˈʌðəɹ."
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "sentences",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/night-market-fruit/2.mp3",
+      "text": "The fruit stall has bright lights.",
+      "textSha256": "4013ca9da1ebc5e8429cff183a65ca4e9f776f237d03d83dbe3f2446c8a651e2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d346c8e42ce9b5cb22f89696c520e7bdc911ca05b23d994c351d89068f07fb4a",
+      "duration": 2.3,
+      "graphemes": [
+        "The fruit stall has bright lights."
+      ],
+      "phonemes": [
+        "ðə fɹˈut stˈɔl hæz bɹˈIt lˈIts."
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "sentences",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/night-market-fruit/3.mp3",
+      "text": "Bo says, “I like these bananas.”",
+      "textSha256": "acffdbacda4a5c824a1a8caeadedc2199546af993b3e2e38ded1fd27c555aec4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1a6994bcd1d8e6d2422837b9e468c8990b20bef0962aad3e1987102a39022a99",
+      "duration": 2.575,
+      "graphemes": [
+        "Bo says, “I like these bananas.”"
+      ],
+      "phonemes": [
+        "bˈO sˈɛz, “ˌI lˈIk ðiz bənˈænəz.”"
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "sentences",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/night-market-fruit/4.mp3",
+      "text": "He asks the seller, “Two apples, please.”",
+      "textSha256": "6928e12564e14612c44ddcec042ff3179843e5dedbdc201296d51f47f6a07cb4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "91b9d47f744eb85bcab7fe4017a7580353fbb7759ff5dc5670d1ad47622d6c8b",
+      "duration": 2.95,
+      "graphemes": [
+        "He asks the seller, “Two apples, please.”"
+      ],
+      "phonemes": [
+        "hˌi ˈæsks ðə sˈɛləɹ, “tˈu ˈæpᵊlz, plˈiz.”"
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "sentences",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/night-market-fruit/5.mp3",
+      "text": "His mother helps him put fruit in a bag.",
+      "textSha256": "f832f65c61f1f810adebdcb1e1174b611d123a6a2fd7bc4b1eccf7e466327cba",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "42482540a3f4fd756472be08fb0aa31632e111f02c66fadbc95e8a7c7cf6bc1d",
+      "duration": 2.725,
+      "graphemes": [
+        "His mother helps him put fruit in a bag."
+      ],
+      "phonemes": [
+        "hˌɪz mˈʌðəɹ hˈɛlps hˌɪm pˌʊt fɹˈut ɪn ɐ bˈæɡ."
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "sentences",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/night-market-fruit/6.mp3",
+      "text": "“Thank you!” Bo says to the seller.",
+      "textSha256": "3c48b458d98031dad504a8a359110f58db0f86e875bf3daeb3da3816ba1f43f4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "98bd583ab7a12a78ff4c6ff375ade5c5684049b56ac2e965dc832c4841be706a",
+      "duration": 2.55,
+      "graphemes": [
+        "“Thank you!” Bo says to the seller."
+      ],
+      "phonemes": [
+        "“θˈæŋk ju!” bˈO sˈɛz tə ðə sˈɛləɹ."
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "phrases",
+      "itemId": "with-his-mother",
+      "src": "/audio/phrases/night-market-fruit-with-his-mother.mp3",
+      "text": "with his mother",
+      "textSha256": "9e42b2a663ed663a92a4f47eb7c2cc5695cf17433e7f21f9a6fde7b1cdd969c2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ec4232cae2c9fd16ed1b30641196e2537fc613590e54da6ff1f37b75d1cce984",
+      "duration": 1.575,
+      "graphemes": [
+        "with his mother"
+      ],
+      "phonemes": [
+        "wɪð hɪz mˈʌðəɹ"
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "phrases",
+      "itemId": "i-like-these-bananas",
+      "src": "/audio/phrases/night-market-fruit-i-like-these-bananas.mp3",
+      "text": "I like these bananas.",
+      "textSha256": "47aa992c0c450ef505fb73a4e0f36af9f7eacf3d7abf25dc1704939cd3b4b3fa",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a22ccee2f0d9f57c05c788415e9c9aef7fec0f0e88864cbff263e0a52772a100",
+      "duration": 1.95,
+      "graphemes": [
+        "I like these bananas."
+      ],
+      "phonemes": [
+        "ˌI lˈIk ðiz bənˈænəz."
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "phrases",
+      "itemId": "two-apples-please",
+      "src": "/audio/phrases/night-market-fruit-two-apples-please.mp3",
+      "text": "Two apples, please.",
+      "textSha256": "0ef25ad8fcb4fb0b0c1b421a0ad959cd2be7016ef2311094b2d4083f53357d39",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "564da4e3fc75ea7a53fa2ec0eacb576c6cbb8dca355387ad38ba71478922e37d",
+      "duration": 1.875,
+      "graphemes": [
+        "Two apples, please."
+      ],
+      "phonemes": [
+        "tˈu ˈæpᵊlz, plˈiz."
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "phrases",
+      "itemId": "thank-you",
+      "src": "/audio/phrases/night-market-fruit-thank-you.mp3",
+      "text": "Thank you!",
+      "textSha256": "3afdda2c098fc8346a9f2e0ba06ec9c6188411cf78cc7934cfd8b666ce632f55",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b7d5b49ac35bd34c15eff2d9ad35cce04994d197db06c5ee738e11c2581614f7",
+      "duration": 1.475,
+      "graphemes": [
+        "Thank you!"
+      ],
+      "phonemes": [
+        "θˈæŋk ju!"
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "words",
+      "itemId": "fruit",
+      "src": "/audio/words/night-market-fruit-fruit.mp3",
+      "text": "fruit",
+      "textSha256": "9209526aaa61b0709dbb838e14686a26c4a03b53e8eedf34c7e5f6f606110d8c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e5a1c9a1c24d4f105f3d6a892784036e9c136316f5e763961c84f8de4e1cb135",
+      "duration": 1.325,
+      "graphemes": [
+        "fruit"
+      ],
+      "phonemes": [
+        "fɹˈut"
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "words",
+      "itemId": "stall",
+      "src": "/audio/words/night-market-fruit-stall.mp3",
+      "text": "stall",
+      "textSha256": "e5b6a7364e8a1049a9236dacfa24768ccffd3c4b671dc8b02953625844789b97",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "759d9e2463b228b41fe33d99b925df11e69710f0f4c021e0d5c63da72aaa09c9",
+      "duration": 1.325,
+      "graphemes": [
+        "stall"
+      ],
+      "phonemes": [
+        "stˈɔl"
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "words",
+      "itemId": "lights",
+      "src": "/audio/words/night-market-fruit-lights.mp3",
+      "text": "lights",
+      "textSha256": "6fe6c35728c65f0351ca3e4f151b8010215afec63174941e71755ea1d8440475",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "61e7e29f7844a7da7db807881ce80eb012a146284a18ee9fa2a6712e5b34cd5f",
+      "duration": 1.325,
+      "graphemes": [
+        "lights"
+      ],
+      "phonemes": [
+        "lˈIts"
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "words",
+      "itemId": "bananas",
+      "src": "/audio/words/night-market-fruit-bananas.mp3",
+      "text": "bananas",
+      "textSha256": "e4ba5cbd251c98e6cd1c23f126a3b81d8d8328abc95387229850952b3ef9f904",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fc5b7a66cb4013b41a85d2ef3a0e1ea9b3554aca9d6e0c72811644b0770758a6",
+      "duration": 1.5,
+      "graphemes": [
+        "bananas"
+      ],
+      "phonemes": [
+        "bənˈænəz"
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "words",
+      "itemId": "apples",
+      "src": "/audio/words/night-market-fruit-apples.mp3",
+      "text": "apples",
+      "textSha256": "f5903f51e341a783e69ffc2d9b335048716f5f040a782a2764cd4e728b0f74d9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "89c631d51ee4614ca8daa23cbe32bbfde0ddbab4873d1fe9fd1539be0d2a7d34",
+      "duration": 1.45,
+      "graphemes": [
+        "apples"
+      ],
+      "phonemes": [
+        "ˈæpᵊlz"
+      ]
+    },
+    {
+      "sceneId": "night-market-fruit",
+      "kind": "words",
+      "itemId": "bag",
+      "src": "/audio/words/night-market-fruit-bag.mp3",
+      "text": "bag",
+      "textSha256": "c018019b6a8b01ab5868cf4be8db327a7549ae03202548b9ffcd2671c4c2b624",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "25e9dd42c147e1e0e26f10ae74a22f397bf10cddcbc66132aea6bc5a2e651b1f",
+      "duration": 1.3,
+      "graphemes": [
+        "bag"
+      ],
+      "phonemes": [
+        "bˈæɡ"
+      ]
+    }
+  ]
+}

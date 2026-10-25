@@ -1,6 +1,6 @@
 # 統一聲線與音檔來源
 
-生活讀本目前使用 321 段正文句子音檔，以及既有單字與短句的本地 AI 合成 MP3。逐句跟讀與連續朗讀共用句子音檔，原先 46 段整篇 MP3 已移除。全部由 [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) 的 `af_heart` 聲線產生，設定以 `content/audio/voice-profile.json` 為準：Kokoro 0.9.4、模型 revision `f3ff3571791e39611d31c381e3a41a3af07b4987`、速度 1、24 kHz、CPU。這是固定的美式女聲合成音訊，不是真人錄音。
+生活讀本目前使用 357 段正文句子音檔，以及既有單字與短句的本地 AI 合成 MP3。逐句跟讀與連續朗讀共用句子音檔，原先 46 段整篇 MP3 已移除。全部由 [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) 的 `af_heart` 聲線產生，設定以 `content/audio/voice-profile.json` 為準：Kokoro 0.9.4、模型 revision `f3ff3571791e39611d31c381e3a41a3af07b4987`、速度 1、24 kHz、CPU。這是固定的美式女聲合成音訊，不是真人錄音。
 
 模型來源標示 [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)；這是模型授權資訊，不表示生成 MP3 自動適用同一授權。模型檔與聲線檔的雜湊記於 profile。生成用的 Python 環境、模型、安裝鎖定與來源紀錄放在 `.scratch/illustrated-english/unified-voice/`，不進網站資產。離線生成時使用 `HF_HUB_OFFLINE=1 HF_HUB_DISABLE_IMPLICIT_TOKEN=1`，不讀取隱含 Hugging Face token；瀏覽網站播放時不需要 Python 或遠端語音服務。
 
@@ -23,3 +23,7 @@
 TSL（多益常用字）詞表 1,250 字的英文詞各有一段 MP3（1,250 段，約 13.1 MiB，合計約 31 分鐘），聲線、模型與生成流程同下；檔名用詞條 ID（`ice-cream`、`o-clock`、`ma-am`、`cafe`、`entree`、`resume-cv` 對應 `résumé`，`resume` 是另一個詞），重音字母 `é` 由合成器照原字念（`résumé` 念作 rez-oo-MAY，與 `resume` 不同）。批次紀錄在 [`audio-generation/wordlist-tsl-20261015/`](audio-generation/wordlist-tsl-20261015/)，尚未經使用者實聽驗收。
 
 NGSL-Spoken 詞表共 716 字，英文詞各有一段 MP3（716 段，約 8.3 MiB），聲線、模型與生成流程與場景相同，只念英文詞、不念例句。分兩批生成：2026-10-14 的前 100 字（約 830 KB；排除三個逐字稿標記後遞補三個詞，批次紀錄含 `*-replacements.json`），紀錄在 [`audio-generation/wordlist-ngsl-spoken-20261014/`](audio-generation/wordlist-ngsl-spoken-20261014/)；2026-10-15 的其餘 616 字，紀錄在 [`audio-generation/wordlist-ngsl-spoken-remaining-20261015/`](audio-generation/wordlist-ngsl-spoken-remaining-20261015/)。兩批音檔都尚未經使用者實聽驗收。
+
+## 台灣小學生初級單元
+
+2026-10-25 新增六篇入門讀本，共 36 段正文、24 段短句、36 段單字 MP3；沿用相同 Kokoro 版本、模型 revision 與 `af_heart` 聲線。新批次獨立製作，未重製或替換既有錄音。完整文字、雜湊、時長及合成器消耗的文字見 [本批音訊紀錄](audio-generation/elementary-beginners-20261025/README.md)。這些新音檔仍須本批實聽；舊批次的使用者驗收結果不延伸至本批。

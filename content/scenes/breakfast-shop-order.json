@@ -1,0 +1,348 @@
+{
+  "id": "breakfast-shop-order",
+  "title": "早餐店點餐",
+  "titleEn": "Ordering Breakfast",
+  "category": "飲食與購物",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/breakfast-shop-order.webp",
+    "alt": "小安和媽媽在台灣早餐店點餐，店員端著蛋餅，櫃檯上放著一杯水。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "An goes to the breakfast "
+        },
+        {
+          "text": "shop",
+          "wordIds": [
+            "shop"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "with Mom",
+          "phraseIds": [
+            "with-mom"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小安和媽媽去早餐店。",
+      "audio": {
+        "src": "/audio/sentences/breakfast-shop-order/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f2955a23bfebdff29c5d3d16b627da1f0e93dbc76dcb08ad9201d58c4150ef14",
+        "sha256": "d6cef69c65ea7b12110c2670f0080546695cfc497eecc1b7701b0f5f723ed9f6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "She says, “"
+        },
+        {
+          "text": "One ",
+          "phraseIds": [
+            "one-egg-pancake"
+          ]
+        },
+        {
+          "text": "egg ",
+          "phraseIds": [
+            "one-egg-pancake"
+          ],
+          "wordIds": [
+            "egg"
+          ]
+        },
+        {
+          "text": "pancake",
+          "phraseIds": [
+            "one-egg-pancake"
+          ],
+          "wordIds": [
+            "pancake"
+          ]
+        },
+        {
+          "text": ", please.",
+          "phraseIds": [
+            "one-egg-pancake"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "她說：「請給我一份蛋餅。」",
+      "audio": {
+        "src": "/audio/sentences/breakfast-shop-order/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7efd40c40842336f40d7e0b82f139bb53986ce425611e8aa3745f94df02ae27c",
+        "sha256": "cc310a65b68d52c1519cfd00edfba675002b98eecb8a93239ed8e759ffb5316f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom buys a "
+        },
+        {
+          "text": "pancake",
+          "wordIds": [
+            "pancake"
+          ]
+        },
+        {
+          "text": " for An."
+        }
+      ],
+      "translation": "媽媽買了一份蛋餅給小安。",
+      "audio": {
+        "src": "/audio/sentences/breakfast-shop-order/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cceca92c12bca257a6f60d6f1c8cd5d6a0e8f9f5da770a66db69ad03e5318cc1",
+        "sha256": "3cc620ccd1bbb6c670ce6fda31e1fbf0c8bf862e4973b7a9b131b78b5885a041"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "An asks, “"
+        },
+        {
+          "text": "May I have some ",
+          "phraseIds": [
+            "may-i-have-water"
+          ]
+        },
+        {
+          "text": "water",
+          "phraseIds": [
+            "may-i-have-water"
+          ],
+          "wordIds": [
+            "water"
+          ]
+        },
+        {
+          "text": "?",
+          "phraseIds": [
+            "may-i-have-water"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "小安問：「可以給我一些水嗎？」",
+      "audio": {
+        "src": "/audio/sentences/breakfast-shop-order/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0053d28099d1ac5c248f706bc5c323a69ec465338c9b50484a9df04029f9fd26",
+        "sha256": "ada61ab7f0fc2b03992ab1cf1ad29de1a03afc6671544afe1f4cf3e34daa0fbc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "shopkeeper",
+          "wordIds": [
+            "shopkeeper"
+          ]
+        },
+        {
+          "text": " gives her a "
+        },
+        {
+          "text": "cup",
+          "wordIds": [
+            "cup"
+          ]
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "water",
+          "wordIds": [
+            "water"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "店員給她一杯水。",
+      "audio": {
+        "src": "/audio/sentences/breakfast-shop-order/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "33008656a6ad12ad5b50166cd9f95a463ac3b75dae1597892b80d144ab414406",
+        "sha256": "3429bc386862e2c9eed0e3c9819c3f3df7dd8dba1ebd86e67873970d8c55508d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "An says, “"
+        },
+        {
+          "text": "Thank you",
+          "phraseIds": [
+            "thank-you"
+          ]
+        },
+        {
+          "text": ",” to the "
+        },
+        {
+          "text": "shopkeeper",
+          "wordIds": [
+            "shopkeeper"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小安對店員說：「謝謝您。」",
+      "audio": {
+        "src": "/audio/sentences/breakfast-shop-order/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "81ef5fc38354ba9b47e75fbbce03821baea82bde81e065d496d6e61c0ec3f5b7",
+        "sha256": "0087d022168180ba3581d1edf34daf9417f6a195d80c94f409565349cf5ac6b4"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "with-mom",
+      "english": "with Mom",
+      "translation": "和媽媽一起",
+      "audio": {
+        "src": "/audio/phrases/breakfast-shop-order-with-mom.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "25d4745f4f9da2cab842e78e28ff11b516ad240d3d05a527e9593276a0e97597",
+        "sha256": "7c77892e28313526ef3725bf48895a03880399f8b2352aadffc0da6c67e2322c"
+      }
+    },
+    {
+      "id": "one-egg-pancake",
+      "english": "One egg pancake, please.",
+      "translation": "請給我一份蛋餅。",
+      "audio": {
+        "src": "/audio/phrases/breakfast-shop-order-one-egg-pancake.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "faf6ce1b3ece26c5a22146626f417be0b94766ebd95a88990093e0514ab0fca4",
+        "sha256": "44a103135639dfbf1260e5e4638996a9d9ec4a5b2783e9593218269e000ffaaf"
+      }
+    },
+    {
+      "id": "may-i-have-water",
+      "english": "May I have some water?",
+      "translation": "可以給我一些水嗎？",
+      "audio": {
+        "src": "/audio/phrases/breakfast-shop-order-may-i-have-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "774a6f02256a8f1201b9c3b541046e0ec0b623c7da1acae898c4ea97164eac40",
+        "sha256": "3702c2e4299df7cc9341d7d58ee07d8d98da40c0dbfa06464df9b4555b7bc39b"
+      }
+    },
+    {
+      "id": "thank-you",
+      "english": "Thank you",
+      "translation": "謝謝您",
+      "audio": {
+        "src": "/audio/phrases/breakfast-shop-order-thank-you.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "268bc1833e83306f48ae6203eefb86e7a39dedb1d3d6df99c18ef70aa61ef84d",
+        "sha256": "ce2e5704c9e369e03d14ebef4dfb18296775eda0110d223eb468163055222265"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "shop",
+      "english": "shop",
+      "translation": "商店",
+      "example": "The shop is open.",
+      "audio": {
+        "src": "/audio/words/breakfast-shop-order-shop.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8d9001d32c6a703d95921a77115050f33dd823d3f1730bd35215dcbecad6dc20",
+        "sha256": "9cfc02d1e3bf0fbf70c38559aafdfb1bd2efbd2ee80b59c3d3b1df27ccc0a592"
+      }
+    },
+    {
+      "id": "egg",
+      "english": "egg",
+      "translation": "蛋",
+      "example": "I like this egg.",
+      "audio": {
+        "src": "/audio/words/breakfast-shop-order-egg.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "34707c3f40dfa20c3902b807b627d420d6d474d9d98066ba637953d1cfd6b914",
+        "sha256": "8c73fb4953bbb349842103882da44a733e9e8bc69db0fdb0c1704e5f898baf59"
+      }
+    },
+    {
+      "id": "pancake",
+      "english": "pancake",
+      "translation": "薄餅",
+      "example": "This pancake is warm.",
+      "audio": {
+        "src": "/audio/words/breakfast-shop-order-pancake.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a9c1034fb623883b5786268bbde25a871b72c9920a4ff708d516e4852bcf7da0",
+        "sha256": "c244d360a5f88c4d5e190526546a8f9b71b6cf9b9a0cefade2cb85d97d657ac3"
+      }
+    },
+    {
+      "id": "water",
+      "english": "water",
+      "translation": "水",
+      "example": "I drink some water.",
+      "audio": {
+        "src": "/audio/words/breakfast-shop-order-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501",
+        "sha256": "3b0c4f3d1bca1d60434fb746bf9c8c42fe771d6ff787765144fd247d3a262c45"
+      }
+    },
+    {
+      "id": "cup",
+      "english": "cup",
+      "translation": "杯子",
+      "example": "This is my cup.",
+      "audio": {
+        "src": "/audio/words/breakfast-shop-order-cup.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c6171781d65f3ccce1135e3c89850cfbaa7f332fd72a1f8f6a841fbcf7fd362a",
+        "sha256": "daa974105b0d76a25171570a63a7c848a1a17523254a17aa317248114ad64b20"
+      }
+    },
+    {
+      "id": "shopkeeper",
+      "english": "shopkeeper",
+      "translation": "店員",
+      "example": "The shopkeeper is kind.",
+      "audio": {
+        "src": "/audio/words/breakfast-shop-order-shopkeeper.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c279eb254ae9d10709bb1ce13ef3fcd3dc76f72d54f0c27220756e61f3b6df3c",
+        "sha256": "c06c5e1e5191a1f50639717e3a05ca549a199337c19069d84c29baaa8b407173"
+      }
+    }
+  ]
+}

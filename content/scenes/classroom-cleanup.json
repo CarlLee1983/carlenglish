@@ -1,0 +1,330 @@
+{
+  "id": "classroom-cleanup",
+  "title": "下課後一起打掃",
+  "titleEn": "Cleaning the Classroom",
+  "category": "學校生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/classroom-cleanup.webp",
+    "alt": "下課後，三名小學生在教室合作打掃：小安用抹布擦桌，小宇拿掃把掃地，Mia 把廢紙放進回收桶。",
+    "width": 1536,
+    "height": 1024
+  },
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "After "
+        },
+        {
+          "text": "class",
+          "wordIds": [
+            "class"
+          ]
+        },
+        {
+          "text": ", An says, “"
+        },
+        {
+          "text": "Let's ",
+          "phraseIds": [
+            "lets-clean-up"
+          ]
+        },
+        {
+          "text": "clean",
+          "phraseIds": [
+            "lets-clean-up"
+          ]
+        },
+        {
+          "text": " up.",
+          "phraseIds": [
+            "lets-clean-up"
+          ]
+        },
+        {
+          "text": "”"
+        }
+      ],
+      "translation": "下課後，小安說：「我們來打掃吧。」",
+      "audio": {
+        "src": "/audio/sentences/classroom-cleanup/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "aad40115080f726ed69980b5705ff788931cd05bacfcba2c8c7ac5c3873f5c5f",
+        "sha256": "02e61cf5d2236120c30ac2f03c25575a8893fb2b0af6b41fa5c3be5a5d40d561"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "She "
+        },
+        {
+          "text": "wipes the ",
+          "phraseIds": [
+            "wipes-the-desk"
+          ]
+        },
+        {
+          "text": "desk",
+          "phraseIds": [
+            "wipes-the-desk"
+          ],
+          "wordIds": [
+            "desk"
+          ]
+        },
+        {
+          "text": " with a "
+        },
+        {
+          "text": "cloth",
+          "wordIds": [
+            "cloth"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "她用抹布擦桌子。",
+      "audio": {
+        "src": "/audio/sentences/classroom-cleanup/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5b4847db4e45647d8a22db92cb9b87611f0549e09c91899db4a8ad200c189425",
+        "sha256": "591c1338ec50f3f7b5b55d0fadb64c00f824b11da3d4ebc8068988b8e0fe735b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yu "
+        },
+        {
+          "text": "uses a ",
+          "phraseIds": [
+            "uses-a-broom"
+          ]
+        },
+        {
+          "text": "broom",
+          "phraseIds": [
+            "uses-a-broom"
+          ],
+          "wordIds": [
+            "broom"
+          ]
+        },
+        {
+          "text": " to sweep the floor."
+        }
+      ],
+      "translation": "小宇用掃把掃地。",
+      "audio": {
+        "src": "/audio/sentences/classroom-cleanup/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f6485cdc78aadbf067615fbf6e2e8d9f87fcb78625d37f52807659d16ab14c32",
+        "sha256": "9036433e4926c27ca60f3e4189b74c26dcd59c4d8a711531ea5c74c5e5eda4ac"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "An says, “We can "
+        },
+        {
+          "text": "recycle the ",
+          "phraseIds": [
+            "recycle-the-paper"
+          ]
+        },
+        {
+          "text": "paper",
+          "phraseIds": [
+            "recycle-the-paper"
+          ],
+          "wordIds": [
+            "paper"
+          ]
+        },
+        {
+          "text": ".”"
+        }
+      ],
+      "translation": "小安說：「我們可以回收這些紙。」",
+      "audio": {
+        "src": "/audio/sentences/classroom-cleanup/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e0cd33398b4db9a8b9b571c3fa1b3ac1ab7e9073d625a7607524d55f1404c26f",
+        "sha256": "99d62a6ea401f3f657da6bf556e06b79dbfb37bd0972d8c7a56ed9c0591fc830"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mia puts the "
+        },
+        {
+          "text": "paper",
+          "wordIds": [
+            "paper"
+          ]
+        },
+        {
+          "text": " in the recycling bin."
+        }
+      ],
+      "translation": "Mia把紙放進回收桶裡。",
+      "audio": {
+        "src": "/audio/sentences/classroom-cleanup/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1282fbda8fb2d33bae16d8952bfcb323fb0f13ac20abaab824a84e7a6999b3f1",
+        "sha256": "598cc978a05fcf5d2fe742ff7753cdd2964eb9fdc172f7e914620458cf96d63c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The room is "
+        },
+        {
+          "text": "clean",
+          "wordIds": [
+            "clean"
+          ]
+        },
+        {
+          "text": ", and they smile."
+        }
+      ],
+      "translation": "教室乾淨了，他們笑了。",
+      "audio": {
+        "src": "/audio/sentences/classroom-cleanup/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "04632f8b54a5e80af17addd317a3ea52c611665cd9588d9c08abb313c217188b",
+        "sha256": "9ec9eb523b911bcebc4dd5b9c6bc93fca3d1d7cb824f438b0aaab2fd118bbaa9"
+      }
+    }
+  ],
+  "phrases": [
+    {
+      "id": "lets-clean-up",
+      "english": "Let's clean up.",
+      "translation": "我們來打掃吧。",
+      "audio": {
+        "src": "/audio/phrases/classroom-cleanup-lets-clean-up.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "336221058ee8592d971cc77c99439805ee81cc26ff02a2f3b1b05326098d42bb",
+        "sha256": "a3c64d66fab844f03102a539532956b8fd44b5e080b0f6118955c3826fc996a4"
+      }
+    },
+    {
+      "id": "wipes-the-desk",
+      "english": "wipes the desk",
+      "translation": "擦桌子",
+      "audio": {
+        "src": "/audio/phrases/classroom-cleanup-wipes-the-desk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "54b9b460633398c080a7e8dacd8c52116b728a38f39c25174f740bd1d793ca74",
+        "sha256": "4c46ccddaecbb1d1997c23d1765bcd49a2f1a25aad97a1580a35ac0a90d4dbba"
+      }
+    },
+    {
+      "id": "uses-a-broom",
+      "english": "uses a broom",
+      "translation": "使用掃把",
+      "audio": {
+        "src": "/audio/phrases/classroom-cleanup-uses-a-broom.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8c18a61028bd7e70316668842926be0ef3365ff692486e56c1c86cf2ad39df1e",
+        "sha256": "f30f20720f8ef87e59c4e84f3b9faed44783d93f65735b0b96c16fbd3ea16a9c"
+      }
+    },
+    {
+      "id": "recycle-the-paper",
+      "english": "recycle the paper",
+      "translation": "回收這些紙",
+      "audio": {
+        "src": "/audio/phrases/classroom-cleanup-recycle-the-paper.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1dcc2932928faefaff39ed9a02269a8dc7a5e8573c9f9802496515ecfe3f2181",
+        "sha256": "00ccc1e6094085ebecc040db2ed1a8f542689dd67ff0b96ed6b27c558fea3e98"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "class",
+      "english": "class",
+      "translation": "課；課堂",
+      "example": "Our class starts now.",
+      "audio": {
+        "src": "/audio/words/classroom-cleanup-class.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0889113e04d3203f0c401c17c0fd8b352b740dc607433779d3edcaa13320b001",
+        "sha256": "fa28474d1c6f1bf8da46cbc7b78949a6f88fc0ad47d3863558919dcd6a186fb1"
+      }
+    },
+    {
+      "id": "desk",
+      "english": "desk",
+      "translation": "書桌；課桌",
+      "example": "My book is on the desk.",
+      "audio": {
+        "src": "/audio/words/classroom-cleanup-desk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "49be417ad74080a0031b636b44cfc26fdd0065492d6cd3b033960c4414955cf7",
+        "sha256": "1426d3dd93da7ea98236e88819d541a701e6cb938153334f56eb0f235ca66c82"
+      }
+    },
+    {
+      "id": "cloth",
+      "english": "cloth",
+      "translation": "布；抹布",
+      "example": "I use a soft cloth.",
+      "audio": {
+        "src": "/audio/words/classroom-cleanup-cloth.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d6e28ffb3b198d85e47dc58d1febc577d52031abedf28af8e10d8c165d681e7b",
+        "sha256": "1fbee343828d9f19f83b268c879f83f23e8d340fbb6e5e8976b7f6f4598d36c6"
+      }
+    },
+    {
+      "id": "broom",
+      "english": "broom",
+      "translation": "掃把",
+      "example": "The broom is by the door.",
+      "audio": {
+        "src": "/audio/words/classroom-cleanup-broom.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "100a07d1e4368153d76b4b078ebabb41a7b313ec1453851324582440c38473a1",
+        "sha256": "8caa330705c04377dd50ead097a808f24f34d27d57f3cb212861a0dfe5f3285c"
+      }
+    },
+    {
+      "id": "paper",
+      "english": "paper",
+      "translation": "紙",
+      "example": "I need some paper.",
+      "audio": {
+        "src": "/audio/words/classroom-cleanup-paper.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "382635c9325bf3273d195ff1b8a44e5b11afd7d97addeb8863ea35feb98c1a07",
+        "sha256": "c7052098c15ebbe0cf653832b1e5875c5985352f47c305ddafd85d1011b40d45"
+      }
+    },
+    {
+      "id": "clean",
+      "english": "clean",
+      "translation": "乾淨的",
+      "example": "The table is clean.",
+      "audio": {
+        "src": "/audio/words/classroom-cleanup-clean.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3b066804f6d1d077173cfe4d06002e6a61e6f21c2b2e648417962115f1afcd8e",
+        "sha256": "821b17b20ab39e652a91a969188e6b19a05bf9cd714a6ac7cabd06e1175e30ea"
+      }
+    }
+  ]
+}

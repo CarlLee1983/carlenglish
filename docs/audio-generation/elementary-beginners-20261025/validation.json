@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-25",
+  "clips": 96,
+  "sentences": 36,
+  "phrases": 24,
+  "words": 36,
+  "bytes": 1463688,
+  "durationSeconds": 182.525,
+  "textAndFileHashes": "passed",
+  "voiceProfile": "passed",
+  "completeTextConsumed": "passed",
+  "ffmpegDecode": "passed",
+  "humanListeningAcceptance": "pending"
+}
