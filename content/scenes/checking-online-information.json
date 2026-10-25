@@ -26,7 +26,13 @@
           "text": " saying the library is closed."
         }
       ],
-      "translation": "在決定換書活動的場地之前，Ben 給 Maya 看一張寫著圖書館關閉的截圖。"
+      "translation": "在決定換書活動的場地之前，Ben 給 Maya 看一張寫著圖書館關閉的截圖。",
+      "audio": {
+        "src": "/audio/sentences/checking-online-information/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2ad24b544e7464e5edc194e70e0d70654332f19d17985667fdeb40149831f8a5",
+        "sha256": "e7f9a26cad2cc7b37bdcd8dd7f192e3e353887e91a66e3a84a8c5b03d15b98bc"
+      }
     },
     {
       "segments": [
@@ -58,7 +64,13 @@
           "text": ",” Maya says, rather than forwarding the warning."
         }
       ],
-      "translation": "Maya 沒有轉傳這則提醒，而是說：「我們先查一下來源吧。」"
+      "translation": "Maya 沒有轉傳這則提醒，而是說：「我們先查一下來源吧。」",
+      "audio": {
+        "src": "/audio/sentences/checking-online-information/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27e6e486b3e793ecc70282165ed9feca663f6320a63d157ca76985a7bf8f9c14",
+        "sha256": "8eaad2eb37ace2d970ad6d176438d24a74dabcc3046c969a00592030248a0bb9"
+      }
     },
     {
       "segments": [
@@ -93,7 +105,13 @@
           "text": "”"
         }
       ],
-      "translation": "他們在學校網站上打開原始公告，Maya 問：「這個資訊現在還適用嗎？」"
+      "translation": "他們在學校網站上打開原始公告，Maya 問：「這個資訊現在還適用嗎？」",
+      "audio": {
+        "src": "/audio/sentences/checking-online-information/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b74ba2d9136087c4299fcbe165e6cc1a218b619747070da017b1e94cd31eed01",
+        "sha256": "6c19cf080f344dab6f98abff217861b06c490f866b5aea6eb1dc6b567a91570c"
+      }
     },
     {
       "segments": [
@@ -110,7 +128,13 @@
           "text": ", during the repairs,” Ben says."
         }
       ],
-      "translation": "Ben 說：「這是去年維修期間發布的。」"
+      "translation": "Ben 說：「這是去年維修期間發布的。」",
+      "audio": {
+        "src": "/audio/sentences/checking-online-information/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7b6fb6b10e7eed9ef17a5dc94a16a4dba1dabf311004a45263e2ae20c3c1ea26",
+        "sha256": "8ab9e62df7efc2be40ff7fa3a4386b0951883bfb4730a86712daaac418c85767"
+      }
     },
     {
       "segments": [
@@ -127,7 +151,13 @@
           "text": " it's closed now,” Maya replies."
         }
       ],
-      "translation": "Maya 回答：「那不一定代表圖書館現在也關著。」"
+      "translation": "Maya 回答：「那不一定代表圖書館現在也關著。」",
+      "audio": {
+        "src": "/audio/sentences/checking-online-information/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "eeb9dbc371b95ed8d125480f1c80e84cec639eb37bc2c86ca70c6fe4b8147d0f",
+        "sha256": "778c5ae37d66f58872ac8fff4394ee8912a4964ade07da5eb6e3ce1b8758f923"
+      }
     },
     {
       "segments": [
@@ -153,7 +183,13 @@
           "text": " says the library meeting room is available on Friday, although the reading area must stay quiet."
         }
       ],
-      "translation": "目前的公告寫著圖書館會議室週五可使用，不過閱覽區必須保持安靜。"
+      "translation": "目前的公告寫著圖書館會議室週五可使用，不過閱覽區必須保持安靜。",
+      "audio": {
+        "src": "/audio/sentences/checking-online-information/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b52142a84beafbdf767594d4840bb1768e72789a8b9b90a8579c8831103555a3",
+        "sha256": "936424c1f6a3fe786a258a6380bd9ba14dd1dccfa710d8cdacdeed3499a9085e"
+      }
     },
     {
       "segments": [
@@ -194,7 +230,13 @@
           "text": ",” Ben says, and the librarian tells them the room can hold twenty people."
         }
       ],
-      "translation": "Ben 說：「我們應該確認細節。」接著，圖書館員告訴他們，那個房間可以容納二十人。"
+      "translation": "Ben 說：「我們應該確認細節。」接著，圖書館員告訴他們，那個房間可以容納二十人。",
+      "audio": {
+        "src": "/audio/sentences/checking-online-information/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8aec29e373c422a713d5cd10c8e230c2184caf26421666bde7899393467c166b",
+        "sha256": "50b76fca38ea91297c6e195d44b5532a4527343fb57a2f93739bb30912e58906"
+      }
     },
     {
       "segments": [
@@ -202,7 +244,13 @@
           "text": "They save the link and date so everyone in their group can check the information for themselves."
         }
       ],
-      "translation": "他們存下連結和日期，讓小組成員也能自行查核這個資訊。"
+      "translation": "他們存下連結和日期，讓小組成員也能自行查核這個資訊。",
+      "audio": {
+        "src": "/audio/sentences/checking-online-information/8.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0dfc99f4a9f356fac857779659cf84b5ae6ee56f5a44b51a5ba2b890caffeea0",
+        "sha256": "5868bec101d17e0df3a543414bcb609a9d3135c02205c88961fa21cb9e000ce5"
+      }
     }
   ],
   "phrases": [
@@ -347,11 +395,5 @@
         "sha256": "427aef6f20461bbc7946a166bcffe990db2369782f7ace44b4f3f2d36c33b97d"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/checking-online-information.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "38f0acc8f8ef3c055f072ae288c0e1938865a7149845887e5114286cbcfa7e38",
-    "sha256": "913e7317a664a35e85595075eb6aa6360ec4f1b6c563a0c284450087534727d1"
-  }
+  ]
 }

@@ -169,7 +169,13 @@
           "text": " for two people from Saturday to Sunday."
         }
       ],
-      "translation": "Owen 打電話到陶藝工作室，想把兩個人的預約從週六改到週日。"
+      "translation": "Owen 打電話到陶藝工作室，想把兩個人的預約從週六改到週日。",
+      "audio": {
+        "src": "/audio/sentences/rearranging-a-booking/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "79b8a466cd231ecda085b3563b33a13e91a56784b5bac1b3a567938e0125bb01",
+        "sha256": "a7df3ff83812180862d702cca4606c644e41a584c8bb34428f7769bdeb87c7f2"
+      }
     },
     {
       "segments": [
@@ -195,7 +201,13 @@
           "text": " to the afternoon?” he asks."
         }
       ],
-      "translation": "他問：「可以把我們的課程改到下午嗎？」"
+      "translation": "他問：「可以把我們的課程改到下午嗎？」",
+      "audio": {
+        "src": "/audio/sentences/rearranging-a-booking/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7577a4319a7b8b3a50b60002733d47924f9548fcb3607f526ae06bd8da927d9d",
+        "sha256": "c4b83e35c62d0df684bc042a656d0cfca03e288145fd41ad0c876a76e096ed1c"
+      }
     },
     {
       "segments": [
@@ -212,7 +224,13 @@
           "text": " says the afternoon is full, but two places are available at ten in the morning."
         }
       ],
-      "translation": "櫃檯人員說下午已經額滿，不過上午十點還有兩個名額。"
+      "translation": "櫃檯人員說下午已經額滿，不過上午十點還有兩個名額。",
+      "audio": {
+        "src": "/audio/sentences/rearranging-a-booking/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a22e171b1a04cec73e63382382cc0cf451e6f8ba3ef8715463b628eb9ade5379",
+        "sha256": "3bb005167f2795d19ed1350dfac2db41b63126956da42254241c82f31ca70db3"
+      }
     },
     {
       "segments": [
@@ -247,7 +265,13 @@
           "text": ",” Owen replies."
         }
       ],
-      "translation": "Owen 回答：「如果不需要額外付費，我們可以改上早上的課。」"
+      "translation": "Owen 回答：「如果不需要額外付費，我們可以改上早上的課。」",
+      "audio": {
+        "src": "/audio/sentences/rearranging-a-booking/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "477fc61048c0bacb45d1bb08dbff32f671aac5888f40b496549b819da6edcf44",
+        "sha256": "0eb07125d42a09dc60e0b9431a94ea952d1b18bc77b6c4bdc6128c5776153890"
+      }
     },
     {
       "segments": [
@@ -282,7 +306,13 @@
           "text": " when you call back before five today,” she explains."
         }
       ],
-      "translation": "她解釋：「價格不變，不過你必須在今天五點前回電，而且能否更改，還要看當時是否有名額。」"
+      "translation": "她解釋：「價格不變，不過你必須在今天五點前回電，而且能否更改，還要看當時是否有名額。」",
+      "audio": {
+        "src": "/audio/sentences/rearranging-a-booking/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2022f8602004b8b2248df0a645f83ab0aee9a9a805f7a3823a220bf7b75af262",
+        "sha256": "0cbaa9f05264c22dc02536f55e1d473d4aed89966be82fde028ca678e626904e"
+      }
     },
     {
       "segments": [
@@ -317,7 +347,13 @@
           "text": " until then?” he asks, because his friend has not agreed yet."
         }
       ],
-      "translation": "他問：「在那之前，可以先保留原來的預約嗎？」因為他的朋友還沒有同意。"
+      "translation": "他問：「在那之前，可以先保留原來的預約嗎？」因為他的朋友還沒有同意。",
+      "audio": {
+        "src": "/audio/sentences/rearranging-a-booking/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "57490a31fb98bd10e6b69220eb1f83f63a6788d4004e8988ef62ba95c5fcbab7",
+        "sha256": "5d7e9a639bc1d8e1f54b0d578fa612ea9aa738d173c595f8c233d39606833173"
+      }
     },
     {
       "segments": [
@@ -334,7 +370,13 @@
           "text": "."
         }
       ],
-      "translation": "她同意保留週六的預約，但提醒他，未確認之前無法替他保留週日的名額。"
+      "translation": "她同意保留週六的預約，但提醒他，未確認之前無法替他保留週日的名額。",
+      "audio": {
+        "src": "/audio/sentences/rearranging-a-booking/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "23179c4b4cc3e311409e20c38bdce5001a625a976e8273376863a91b6d11452d",
+        "sha256": "85426dac7df53d4f98d3ee0008187a65291971d19c26c2f7202dfcdb67a5197a"
+      }
     },
     {
       "segments": [
@@ -342,13 +384,13 @@
           "text": "Owen will check with his friend and call back before five, knowing that Sunday may no longer be available."
         }
       ],
-      "translation": "Owen 會先和朋友確認，再於五點前回電；他知道到時候週日可能已經沒有名額。"
+      "translation": "Owen 會先和朋友確認，再於五點前回電；他知道到時候週日可能已經沒有名額。",
+      "audio": {
+        "src": "/audio/sentences/rearranging-a-booking/8.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "714ba14f3205bbc2144cef3ba683f4305b33e576638dcea791e81677d3ad5f14",
+        "sha256": "334a5e7ef5a0ab5f4925b1df1e6169ff2e353a31c794e6f89f1b5edaca7843fd"
+      }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/rearranging-a-booking.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "22cd8296859356329b33761dad88019eb981f58d1400cad32b297aada4e657d5",
-    "sha256": "e8d239048119a2ce112b1c270e8e5679cbdb3c5745f9d5895e96cf07517018b6"
-  }
+  ]
 }

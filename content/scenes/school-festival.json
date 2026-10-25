@@ -35,7 +35,13 @@
           "text": "."
         }
       ],
-      "translation": "今天每位學生都很興奮，因為學校正在舉辦一年一度的園遊會。"
+      "translation": "今天每位學生都很興奮，因為學校正在舉辦一年一度的園遊會。",
+      "audio": {
+        "src": "/audio/sentences/school-festival/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7cebee2d46af73d6a65cc1643188a0572814676bea14cbb11209e7e62b72d2f4",
+        "sha256": "9bd052202675d1f0c67e02507363f0591c4ce354d8a570d3557aee531ffb1a82"
+      }
     },
     {
       "segments": [
@@ -61,7 +67,13 @@
           "text": " handmade cookies and fun games."
         }
       ],
-      "translation": "我們班設立了一個色彩繽紛的攤位，販售手工餅乾和好玩的遊戲。"
+      "translation": "我們班設立了一個色彩繽紛的攤位，販售手工餅乾和好玩的遊戲。",
+      "audio": {
+        "src": "/audio/sentences/school-festival/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7eb2dfc35a4e5078ba81925c52473de7afa8b8f217744750b52df5fe45fc8122",
+        "sha256": "065858db9bdb8c7d9f46baccfda2a32b6214a753f1164247b56d43d9817bcc7d"
+      }
     },
     {
       "segments": [
@@ -93,7 +105,13 @@
           "text": "”"
         }
       ],
-      "translation": "當訪客走過時，Mia 開心地揮手並喊道：「歡迎來到我們的攤位！」"
+      "translation": "當訪客走過時，Mia 開心地揮手並喊道：「歡迎來到我們的攤位！」",
+      "audio": {
+        "src": "/audio/sentences/school-festival/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5ef5c5321dd54df8a783fd600a6e4ff3d2559ec3649c77bfe3a91895e9818cdc",
+        "sha256": "caa342af23de5bef2a2a19780994e65c6574145aca72340cfa11871f348d32fd"
+      }
     },
     {
       "segments": [
@@ -110,7 +128,13 @@
           "text": " stops at our table to look around."
         }
       ],
-      "translation": "一位親切的客人停在我們的桌子前東張西望。"
+      "translation": "一位親切的客人停在我們的桌子前東張西望。",
+      "audio": {
+        "src": "/audio/sentences/school-festival/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "560cc2655f6e47939aa36d127e81b0029a5cf0ffcc9af454e477a4575b78322b",
+        "sha256": "0a5a889cf601aa13f62cb9de125996a57ccbe0db1ab5a62fe027a60ef1aed449"
+      }
     },
     {
       "segments": [
@@ -127,7 +151,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 指著我們新鮮的點心問道：「你想嚐嚐看嗎？」"
+      "translation": "Leo 指著我們新鮮的點心問道：「你想嚐嚐看嗎？」",
+      "audio": {
+        "src": "/audio/sentences/school-festival/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "780eb1513dc948bd9056ff233623bef9c647dd549fb1d8710822afbab350480f",
+        "sha256": "f46a1e49fd130cf6d46c07b7ab62c4f79f81986a594e987a7b1a886784f420d4"
+      }
     },
     {
       "segments": [
@@ -159,7 +189,13 @@
           "text": "”"
         }
       ],
-      "translation": "客人微笑著說：「請給我一張票。」"
+      "translation": "客人微笑著說：「請給我一張票。」",
+      "audio": {
+        "src": "/audio/sentences/school-festival/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "567c32d0bb23ddfedb42084f0a1baa1d876583c1ecbdd587f77ca50d83e2ec8a",
+        "sha256": "21357a6b0ad8b68fd7193d11ac79223823d6b6c1050dfbf1d75f1cca39b34220"
+      }
     },
     {
       "segments": [
@@ -176,7 +212,13 @@
           "text": "”"
         }
       ],
-      "translation": "遞上點心後，學生們揮手說道：「謝謝光臨！」"
+      "translation": "遞上點心後，學生們揮手說道：「謝謝光臨！」",
+      "audio": {
+        "src": "/audio/sentences/school-festival/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "246599614fb791232015610acb34017f1dc0350e6af51e3db6208c6c23f56efd",
+        "sha256": "a75f9ab7bda96b8a040f7b35fe9a31907544b860a13baf0898200c81d7b0277f"
+      }
     }
   ],
   "phrases": [
@@ -298,11 +340,5 @@
         "sha256": "15342db06cf429402836e4303011cb69fcf911f4b9b2f035507bbb658aba06fb"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/school-festival.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "33112aaff146a37fdfaf3027640a4a19bfe8948e4d4a8c97eab21aa30d7c20c6",
-    "sha256": "5830dbce6cd58ae4528420e30f82592b393f807c2b9ca75bc6b76aab72554cca"
-  }
+  ]
 }

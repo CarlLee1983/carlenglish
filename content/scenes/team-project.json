@@ -35,7 +35,13 @@
           "text": "."
         }
       ],
-      "translation": "下課後，我們小組圍坐在圖書館的桌子旁，一起進行英語專案作業。"
+      "translation": "下課後，我們小組圍坐在圖書館的桌子旁，一起進行英語專案作業。",
+      "audio": {
+        "src": "/audio/sentences/team-project/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6bfe294430fafc1ea97822a07f6b46351f91eb5d57a31b778c37a7c7c887f884",
+        "sha256": "3bc55884a147b4b9d9b4f7f3cafc4f995fe1ce71ea8428bb2673de7f577dbd19"
+      }
     },
     {
       "segments": [
@@ -52,7 +58,13 @@
           "text": "”"
         }
       ],
-      "translation": "Kevin 打開筆記本問道：「我們應該先做什麼？」"
+      "translation": "Kevin 打開筆記本問道：「我們應該先做什麼？」",
+      "audio": {
+        "src": "/audio/sentences/team-project/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "28876e540fcbb7a84ca2473a6d5264b0acce9c9f6699f775453359bd28e383fa",
+        "sha256": "41b364a30a0062e774be002bd5882de63f7a92100e702be4fa7203a5d4914ad2"
+      }
     },
     {
       "segments": [
@@ -69,7 +81,13 @@
           "text": " about world festivals."
         }
       ],
-      "translation": "Mia 分享了一個關於世界節慶的創意點子。"
+      "translation": "Mia 分享了一個關於世界節慶的創意點子。",
+      "audio": {
+        "src": "/audio/sentences/team-project/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c6be594ad859de5f6c9a5234d6c2fb536f77cb8ec4e290ef4f4166c58171d736",
+        "sha256": "3f3f16f143de0da3024f32d502ece2240bb7b0ac5c9311c35fb32ec0a5a739fa"
+      }
     },
     {
       "segments": [
@@ -101,7 +119,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 表示贊同並說：「那是個好主意。」"
+      "translation": "Leo 表示贊同並說：「那是個好主意。」",
+      "audio": {
+        "src": "/audio/sentences/team-project/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d08dfa3118348f60a2df78baf343d9bd0cfd820f1298665fda2c71cdf839c6ea",
+        "sha256": "706f218c576fafe433e588e62f0679e0d262353a571b0de040f20f07620ac283"
+      }
     },
     {
       "segments": [
@@ -118,7 +142,13 @@
           "text": ", and Mia offers to do the research."
         }
       ],
-      "translation": "接著，我們分配各項任務，Mia 主動負責資料搜尋。"
+      "translation": "接著，我們分配各項任務，Mia 主動負責資料搜尋。",
+      "audio": {
+        "src": "/audio/sentences/team-project/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bb75922bc35fea37bbac67954c7776a511dfd46bf779895962b005d9f9047450",
+        "sha256": "0d9c116834a885986f1cab232b8de2cb7cd08c9fe97461ed458d99054e171f0b"
+      }
     },
     {
       "segments": [
@@ -150,7 +180,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 微笑著說：「我可以做海報。」"
+      "translation": "Leo 微笑著說：「我可以做海報。」",
+      "audio": {
+        "src": "/audio/sentences/team-project/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "30ab7e27369e8c360d54a071e0c3b03d8b1f3cb6782c3751ea4faf06d175ca83",
+        "sha256": "454f76a19b5d6378aef59b161f6a74e2ba0db13e084b89449800a1008f2af6a0"
+      }
     },
     {
       "segments": [
@@ -182,7 +218,13 @@
           "text": "”"
         }
       ],
-      "translation": "在收拾書包前，Kevin 說：「我們星期五見面吧。」"
+      "translation": "在收拾書包前，Kevin 說：「我們星期五見面吧。」",
+      "audio": {
+        "src": "/audio/sentences/team-project/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e102c0222710c28c7afec965520d1d5d6fefa4e5b75411ab4267100acb24a33f",
+        "sha256": "027862aeb464590474729342ea202261e4c461a6ef34df457e203a992213c751"
+      }
     }
   ],
   "phrases": [
@@ -304,11 +346,5 @@
         "sha256": "83fc784d504b5f14a692b696cda94b17b3f98151c1abcd09927306cd6bfce92d"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/team-project.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "28062cf20874b7b6583dcad376bf5c67bc89e73b54b709d1d8bb03b90f72761b",
-    "sha256": "cd0fa9912feefe7889fb2aa3f8d8c2c5d2c7adedef178ed253439c55eb2cac3c"
-  }
+  ]
 }

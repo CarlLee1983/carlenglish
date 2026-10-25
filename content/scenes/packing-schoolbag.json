@@ -26,7 +26,13 @@
           "text": " for school the next day."
         }
       ],
-      "translation": "Leo 正在為隔天上學做準備。"
+      "translation": "Leo 正在為隔天上學做準備。",
+      "audio": {
+        "src": "/audio/sentences/packing-schoolbag/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3dfe6e8c1e2bd64a1ab87aa25e534b86d202014bd474c0225dbf515ad8c8db44",
+        "sha256": "22bc6f2d1237465290af74a52e599b45b9942651c760e3ddba41ff6a7798dfcd"
+      }
     },
     {
       "segments": [
@@ -58,7 +64,13 @@
           "text": "”"
         }
       ],
-      "translation": "媽媽走進房間並問道：「你準備好了嗎？」"
+      "translation": "媽媽走進房間並問道：「你準備好了嗎？」",
+      "audio": {
+        "src": "/audio/sentences/packing-schoolbag/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d1c4c887ec42983f379c83a12229506c364321fe2d63a8f26b0467b003b39eae",
+        "sha256": "708295bbb8ad4236b613be7bb321ea45df8dfa33fb149705cd1898366163f0b5"
+      }
     },
     {
       "segments": [
@@ -90,7 +102,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 檢查要帶的物品並問道：「我的筆記本在哪裡？」"
+      "translation": "Leo 檢查要帶的物品並問道：「我的筆記本在哪裡？」",
+      "audio": {
+        "src": "/audio/sentences/packing-schoolbag/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4769604af475c468107ca046273b9d28b9903ddb409849a972976ca976e5b190",
+        "sha256": "dbb7a767f50022a0cfc3a1350fea06e1c7ed8bb73fbb3feb1214b37d667d0b07"
+      }
     },
     {
       "segments": [
@@ -116,7 +134,13 @@
           "text": "”"
         }
       ],
-      "translation": "媽媽在英文課本旁邊找到它，並說道：「在這裡！」"
+      "translation": "媽媽在英文課本旁邊找到它，並說道：「在這裡！」",
+      "audio": {
+        "src": "/audio/sentences/packing-schoolbag/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d0e4c29c62ff990c8f8c5042aa267bcae4078cae6ddeb416faa17a15783c65f6",
+        "sha256": "9a568c991bcc20696a891f550e6dc7d07bada7528e4c4e8906b7de3b0ed2785b"
+      }
     },
     {
       "segments": [
@@ -133,7 +157,13 @@
           "text": "”"
         }
       ],
-      "translation": "她微笑著遞給 Leo 並說道：「把它放進書包裡。」"
+      "translation": "她微笑著遞給 Leo 並說道：「把它放進書包裡。」",
+      "audio": {
+        "src": "/audio/sentences/packing-schoolbag/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3a1514eae08c3fa8a78ac87221b015dac363331272df3d5f29ff255dc5704d3f",
+        "sha256": "c6e807a0e2b11651a5f99abcdc0eefc95d447e6fd873466d642e00779c70f20e"
+      }
     },
     {
       "segments": [
@@ -177,7 +207,13 @@
           "text": "."
         }
       ],
-      "translation": "Leo 找到了他的尺，接著把鉛筆和筆記本放進書包裡。"
+      "translation": "Leo 找到了他的尺，接著把鉛筆和筆記本放進書包裡。",
+      "audio": {
+        "src": "/audio/sentences/packing-schoolbag/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bbf56418f1d3d0e0f5b054059332ccdc445d42eb2878583136e06eee89d86dad",
+        "sha256": "2904bd2bbde87d75e5242e4bfaedab6cfc052655269b165b1d766dfbbb31e11b"
+      }
     },
     {
       "segments": [
@@ -203,7 +239,13 @@
           "text": "."
         }
       ],
-      "translation": "每樣東西都準備好了，於是他拉上書包的拉鍊。"
+      "translation": "每樣東西都準備好了，於是他拉上書包的拉鍊。",
+      "audio": {
+        "src": "/audio/sentences/packing-schoolbag/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "40c2d9476f4ff43b8dcda7c48ef0d0b6411e0d037b1f95f19066c15e444036fc",
+        "sha256": "df653fc7b41eb61e4e8937dd04815cffaf29d0b372adccc5787a8a8c95efdea4"
+      }
     }
   ],
   "phrases": [
@@ -325,11 +367,5 @@
         "sha256": "424e77a61077e35a823ebaeec35409b14e8cb2e653eeaff235faf63fa54616de"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/packing-schoolbag.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "c06173b230cb8c2a1493f8abd61200f190f9d62f7fc6842434eaa6c00ddf123c",
-    "sha256": "312792c3596c66c80871118686ca139103de424f3c3d10b92f4a4c2203806797"
-  }
+  ]
 }

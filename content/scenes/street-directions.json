@@ -35,7 +35,13 @@
           "text": "."
         }
       ],
-      "translation": "Leo 在一條街區道路上停下來，查看手機。"
+      "translation": "Leo 在一條街區道路上停下來，查看手機。",
+      "audio": {
+        "src": "/audio/sentences/street-directions/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b6f5428869970e39ac3c9625a65d679fab9eaa09de5fd89663c80f7a5281fe79",
+        "sha256": "dccebf15c373f300b574d75108ef4b651355f73d961301722318e7da3edf8864"
+      }
     },
     {
       "segments": [
@@ -76,7 +82,13 @@
           "text": "”"
         }
       ],
-      "translation": "他問一位女子：「請問車站怎麼走？」"
+      "translation": "他問一位女子：「請問車站怎麼走？」",
+      "audio": {
+        "src": "/audio/sentences/street-directions/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d3bd3ee39a7b0d3c7f799969184e7150ca1f3f46ea79acc7dcd98c07c4385cc4",
+        "sha256": "f46e90f2c68812bf6b3a314889f5830000a905c6b0f5f8edbbd4e9c7e5ef7212"
+      }
     },
     {
       "segments": [
@@ -111,7 +123,13 @@
           "text": ",” she says, pointing ahead."
         }
       ],
-      "translation": "她指向前方說：「沿著這條街直走。」"
+      "translation": "她指向前方說：「沿著這條街直走。」",
+      "audio": {
+        "src": "/audio/sentences/street-directions/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a1bf1a0f23ac96459269b5a8575340c92180ba7de59dc4a0d20a153a51856f76",
+        "sha256": "39017efeb006b8c431276acb2fe68adb987daf7947045cef7030efb5badb12c9"
+      }
     },
     {
       "segments": [
@@ -143,7 +161,13 @@
           "text": ".”"
         }
       ],
-      "translation": "「然後在紅綠燈左轉。」"
+      "translation": "「然後在紅綠燈左轉。」",
+      "audio": {
+        "src": "/audio/sentences/street-directions/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "24f7898568900c9a245cb692c232d61b225dd82c3e039c252aa25ac59aab4a2a",
+        "sha256": "81896cf1a5d72dbdcd317e84047fd32d3caabea690ddfb7b0647cfc9cc6dc15f"
+      }
     },
     {
       "segments": [
@@ -178,7 +202,13 @@
           "text": ".”"
         }
       ],
-      "translation": "「車站就在銀行旁邊。」"
+      "translation": "「車站就在銀行旁邊。」",
+      "audio": {
+        "src": "/audio/sentences/street-directions/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dc8e5ec9a9e191d949254c0f2c06d4351289c2499b43b429f235956d252967a6",
+        "sha256": "85bd5a19e3de604af4e2ed6915e1f344ff8a3f9d022ebf503365825351d697d4"
+      }
     },
     {
       "segments": [
@@ -204,7 +234,13 @@
           "text": " from here.”"
         }
       ],
-      "translation": "「從這裡走過去大約五分鐘。」"
+      "translation": "「從這裡走過去大約五分鐘。」",
+      "audio": {
+        "src": "/audio/sentences/street-directions/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "32e31c66918acbce6ef99c994a76981447030dd3a877f3560367c2f9ba897d43",
+        "sha256": "fef5428fb70a377af0f6eae7bf0b8707d46398bde6f14dfe3321b1ecafdf91e8"
+      }
     },
     {
       "segments": [
@@ -212,7 +248,13 @@
           "text": "“Thank you for your help,” Leo says."
         }
       ],
-      "translation": "Leo 說：「謝謝妳幫忙。」"
+      "translation": "Leo 說：「謝謝妳幫忙。」",
+      "audio": {
+        "src": "/audio/sentences/street-directions/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d27a76dd68e80bceaa77b7eed28bab4815853653258f3e93f7864f1560abad77",
+        "sha256": "192d83e533d0a6e4f0afc17760ce6384f4f5072819fcb06b6dc2e4003953d4b2"
+      }
     },
     {
       "segments": [
@@ -229,7 +271,13 @@
           "text": " and starts walking."
         }
       ],
-      "translation": "他收起手機，開始往車站走。"
+      "translation": "他收起手機，開始往車站走。",
+      "audio": {
+        "src": "/audio/sentences/street-directions/8.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "440e90bc0d493afde96c1d472aa1849ad4c2d2996104ad5104a862355651a2db",
+        "sha256": "5e8c042302f13d7c4ab8c838bdd3c3386cfa0455d83bc15b088bf46e95bd08a9"
+      }
     }
   ],
   "phrases": [
@@ -386,11 +434,5 @@
         "sha256": "a76359cc0685fd82e38b2ee2882c0a5b20fad1a0cdc8b0f43f857b2a89d6e15a"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/street-directions.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "76b41ccfaef9004952bbfba769283c6a317a8803143e44428de6c097e3c64ed6",
-    "sha256": "c7733057d153c7a55beacc4fda7572f2d3b54c60849df96458363cd095c7622c"
-  }
+  ]
 }

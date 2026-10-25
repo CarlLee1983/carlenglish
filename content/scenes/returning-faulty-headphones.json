@@ -178,7 +178,13 @@
           "text": " to the store."
         }
       ],
-      "translation": "Noah 帶著一副故障的耳機和收據回到店裡。"
+      "translation": "Noah 帶著一副故障的耳機和收據回到店裡。",
+      "audio": {
+        "src": "/audio/sentences/returning-faulty-headphones/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4146566ad6db4e92fa7da8c2288ec31df40c0567895edb6b0adc30465fcf4358",
+        "sha256": "002144345d33b4b9280cfa2dd191e47c8c0a376f52423fcad96a96fee70beefb"
+      }
     },
     {
       "segments": [
@@ -204,7 +210,13 @@
           "text": "."
         }
       ],
-      "translation": "他向店員說明：「左邊的聲音會斷斷續續。」"
+      "translation": "他向店員說明：「左邊的聲音會斷斷續續。」",
+      "audio": {
+        "src": "/audio/sentences/returning-faulty-headphones/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d9bf756828756a62bcb3bc42d670342fe0679bbdebfc29581b9c8509978ea412",
+        "sha256": "f9100984ed0bd1fa1a48ce215d46c94ac80a06d32ebc1a9eeddf6997675ee3a6"
+      }
     },
     {
       "segments": [
@@ -221,7 +233,13 @@
           "text": " when it happens?” she asks before testing them."
         }
       ],
-      "translation": "她在測試之前問：「可以說清楚是在什麼時候發生的嗎？」"
+      "translation": "她在測試之前問：「可以說清楚是在什麼時候發生的嗎？」",
+      "audio": {
+        "src": "/audio/sentences/returning-faulty-headphones/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "87495f1fe0b228533039fc5d701099894a4b50da0a02bc13c829c57ea0fa9bc4",
+        "sha256": "2d5ba29621795daef6038acc287f276629cd9f654774d7b40ea01eebf5304d59"
+      }
     },
     {
       "segments": [
@@ -247,7 +265,13 @@
           "text": " is full.”"
         }
       ],
-      "translation": "Noah 回答：「即使電池充飽電，也會出現這個問題。」"
+      "translation": "Noah 回答：「即使電池充飽電，也會出現這個問題。」",
+      "audio": {
+        "src": "/audio/sentences/returning-faulty-headphones/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7a7eb5bbfa2b90c7592b73b141331236117b8f82896e31a855e4e2e152541bfd",
+        "sha256": "ac9d39d5e1da197a90b2732cea4d57a1f5fdf6577eeb0e4346cf1a3008ed0743"
+      }
     },
     {
       "segments": [
@@ -273,7 +297,13 @@
           "text": "."
         }
       ],
-      "translation": "店員發現同樣的問題，便提出換貨。"
+      "translation": "店員發現同樣的問題，便提出換貨。",
+      "audio": {
+        "src": "/audio/sentences/returning-faulty-headphones/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1ffbe41c072ec259494d15c78b97f499426c604b565985f3a5446b6118a0de4a",
+        "sha256": "a6d3abc215f80089db0687859c1f901f8a75b8cd45216a4bb2901ece1c3e2860"
+      }
     },
     {
       "segments": [
@@ -305,7 +335,13 @@
           "text": "?” Noah asks, because he has already bought another pair."
         }
       ],
-      "translation": "Noah 問：「可以退款嗎？」因為他已經另外買了一副耳機。"
+      "translation": "Noah 問：「可以退款嗎？」因為他已經另外買了一副耳機。",
+      "audio": {
+        "src": "/audio/sentences/returning-faulty-headphones/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "707e565db6dd7f2c4700fe20a6c5545b82e2d4fd390e06445cfb6d344339a15b",
+        "sha256": "463727fdc51812878ff6af64755097031dc7127a6acfb667c4007c77176b43e3"
+      }
     },
     {
       "segments": [
@@ -331,7 +367,13 @@
           "text": " yet.”"
         }
       ],
-      "translation": "她說：「我需要主管核准，所以目前還不能保證會退款。」"
+      "translation": "她說：「我需要主管核准，所以目前還不能保證會退款。」",
+      "audio": {
+        "src": "/audio/sentences/returning-faulty-headphones/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2b1d3de139454a782832b2e4904c9b4c71d37290559f2a7aa5df2ac7613ba6f1",
+        "sha256": "36d721e03161fc6d5534303ac7cd2935b1d3fe5ea0ad66365f861c52022e86b6"
+      }
     },
     {
       "segments": [
@@ -348,13 +390,13 @@
           "text": ", you will check with your manager before I decide,” Noah says."
         }
       ],
-      "translation": "Noah 說：「我確認一下，在我做決定之前，你會先向主管詢問。」"
+      "translation": "Noah 說：「我確認一下，在我做決定之前，你會先向主管詢問。」",
+      "audio": {
+        "src": "/audio/sentences/returning-faulty-headphones/8.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "44a455c8c67479c9c61b09d13fdd8910f1cdc66222cd13b7de65bf16d756b03c",
+        "sha256": "9bebbfeb2802f888529eb742742ee19cbabe9d3a5481be1e17f06e2e6135e312"
+      }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/returning-faulty-headphones.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "caa3fbf08a663e22a3a993403a409b22291aeca13f37a3eb17e9fc8bbdf88972",
-    "sha256": "5968fb219bc2742c43ea82f0954a5d96422d317afea476b0298fd66b82243f52"
-  }
+  ]
 }

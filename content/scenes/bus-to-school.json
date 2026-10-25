@@ -44,7 +44,13 @@
           "text": " with his backpack."
         }
       ],
-      "translation": "在一個陽光明媚的早晨，Ethan 背著書包在公車站牌旁等車。"
+      "translation": "在一個陽光明媚的早晨，Ethan 背著書包在公車站牌旁等車。",
+      "audio": {
+        "src": "/audio/sentences/bus-to-school/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5d6afc32fb655cdaf0c67153e857020e4ec74dac4e0edf32507a480ff90dd648",
+        "sha256": "5265c98486964286c11959910cd6eaa7eec0133f892ff0b08587b9aef5c26183"
+      }
     },
     {
       "segments": [
@@ -85,7 +91,13 @@
           "text": "”"
         }
       ],
-      "translation": "他確認了公車號碼，開心地說：「公車來了。」"
+      "translation": "他確認了公車號碼，開心地說：「公車來了。」",
+      "audio": {
+        "src": "/audio/sentences/bus-to-school/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b225e76b208306127cff483f0323246f23f02f9888a862a0125a4bcc4d191091",
+        "sha256": "4625fe9ef1adb48dd45405f1c45c52bbdefdcb79d31d826ecb9b46209e6c9012"
+      }
     },
     {
       "segments": [
@@ -132,7 +144,13 @@
           "text": "”"
         }
       ],
-      "translation": "為了確定，他問身旁的同學：「這班公車會到我們學校嗎？」"
+      "translation": "為了確定，他問身旁的同學：「這班公車會到我們學校嗎？」",
+      "audio": {
+        "src": "/audio/sentences/bus-to-school/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "946b530758cda860d79ff335a922d7648d7e7d8df7334f290b9f80b269304627",
+        "sha256": "914022747b0e9480d0addcbad57bfa5eb2f8c85229c9809091faf52292ee8219"
+      }
     },
     {
       "segments": [
@@ -164,7 +182,13 @@
           "text": "”"
         }
       ],
-      "translation": "那位同學微笑著回答：「會的！感應你的卡片吧。」"
+      "translation": "那位同學微笑著回答：「會的！感應你的卡片吧。」",
+      "audio": {
+        "src": "/audio/sentences/bus-to-school/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bee821e9c09e5a988d5bd4d91c75565ee012732ec88c1cc206a6ed8fd27195a6",
+        "sha256": "cbf7cc91a06e1afcb0b5945990973356ec883edc3223b882145faeb182011f06"
+      }
     },
     {
       "segments": [
@@ -190,7 +214,13 @@
           "text": " against the reader."
         }
       ],
-      "translation": "Ethan 踏上公車，將卡片靠在感應機上刷卡。"
+      "translation": "Ethan 踏上公車，將卡片靠在感應機上刷卡。",
+      "audio": {
+        "src": "/audio/sentences/bus-to-school/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d20a7fa5d571f773f1f41247bc90ba73397ea8ea05f2f5294c80e42632e90fb4",
+        "sha256": "181d9302722a6d916ec353c4c2dd365da42778019dfcb39a946b9581e3a0b04d"
+      }
     },
     {
       "segments": [
@@ -222,7 +252,13 @@
           "text": "”"
         }
       ],
-      "translation": "他走下走道，一位親切的乘客說：「請坐。」"
+      "translation": "他走下走道，一位親切的乘客說：「請坐。」",
+      "audio": {
+        "src": "/audio/sentences/bus-to-school/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6bc9011d44891dd1e018a97ea8a4a213e2d776442ba9485eb14173dc1bc2f26e",
+        "sha256": "45d899fc2fefab315155557cfe4f881da4632e891d8a7b2accbef8b8d479dec3"
+      }
     },
     {
       "segments": [
@@ -239,7 +275,13 @@
           "text": "."
         }
       ],
-      "translation": "Ethan 微笑著坐下，享受前往學校的乘車時光。"
+      "translation": "Ethan 微笑著坐下，享受前往學校的乘車時光。",
+      "audio": {
+        "src": "/audio/sentences/bus-to-school/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "64d1d991df8e92d0e1470e6371f5b2f4613d3c2dbd75e51209622ca1f91f6192",
+        "sha256": "05035ed1a1156825f5fb30385ca126b431b986380516a87fceeb2d4a30f57897"
+      }
     }
   ],
   "phrases": [
@@ -361,11 +403,5 @@
         "sha256": "f4a32f167fbd02a86b6a987781e2229377c41e8440268a78a0959c8de1957080"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/bus-to-school.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "358836ec76ab7313424c23a95fb6a00fafa05679cc659cf3315616dc269b5e7f",
-    "sha256": "f97eb50cc23984eaaff93e89bdabfbc3abacec41179a4054f033e5d2a210583a"
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 
-export function canonicalStoryText(sentences: { segments: { text: string }[] }[]): string {
-  return sentences.map((sentence) => sentence.segments.map((segment) => segment.text).join('')).join(' ');
+export function canonicalSentenceText(sentence: { segments: { text: string }[] }): string {
+  return sentence.segments.map((segment) => segment.text).join('');
 }
 
 export function textSha256(text: string): string {

@@ -44,7 +44,13 @@
           "text": "."
         }
       ],
-      "translation": "Emily 和 Brian 一起檢視下學期開設的每一門選修課。"
+      "translation": "Emily 和 Brian 一起檢視下學期開設的每一門選修課。",
+      "audio": {
+        "src": "/audio/sentences/choosing-school-course/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "535c7d9b32ab5b8c4adc5149888b31556141ae61e805fd9efdfa3cd67a5d045e",
+        "sha256": "970d8a1c8d4d9d39f94cfbeee6bbdfa8e781c4d418848c288937b9ef921d0ffd"
+      }
     },
     {
       "segments": [
@@ -91,7 +97,13 @@
           "text": "”"
         }
       ],
-      "translation": "Brian 對自己的學業規劃拿不定主意，嘆了口氣問道：「我該選哪門課呢？」"
+      "translation": "Brian 對自己的學業規劃拿不定主意，嘆了口氣問道：「我該選哪門課呢？」",
+      "audio": {
+        "src": "/audio/sentences/choosing-school-course/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "06338f3cffdb68655f7f5dc7c8470ff2c11474808e93e22a698d79034e63cdc2",
+        "sha256": "f234301b02ce3260253ff1810ef2acaa5aa6ab13fbf7e41df9a0f639e15913c5"
+      }
     },
     {
       "segments": [
@@ -108,7 +120,13 @@
           "text": " each offers."
         }
       ],
-      "translation": "Emily 將進階物理課與世界文學專題進行比較，確認各能獲得多少學術學分。"
+      "translation": "Emily 將進階物理課與世界文學專題進行比較，確認各能獲得多少學術學分。",
+      "audio": {
+        "src": "/audio/sentences/choosing-school-course/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6de46e8f3b0852e9e1ac24ae9449c4446e1f0c89f3d81b586467de1e9e42daf0",
+        "sha256": "2583948df8a1df7810d08086b660393ad3644a63e8504e28a17a1d0bfa150adc"
+      }
     },
     {
       "segments": [
@@ -149,7 +167,13 @@
           "text": "”"
         }
       ],
-      "translation": "Brian 指著人工智慧的課程大綱，說明自己對資料科學的濃厚興趣：「我對這門課很感興趣。」"
+      "translation": "Brian 指著人工智慧的課程大綱，說明自己對資料科學的濃厚興趣：「我對這門課很感興趣。」",
+      "audio": {
+        "src": "/audio/sentences/choosing-school-course/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9158a6ca4e3bc5d7103790f02daf3c7e314355995e1f57117f0792825a46450c",
+        "sha256": "fb1a136ace2a72accc87ae71bc022f67a0272a5383c364ed827bb827a8be1b40"
+      }
     },
     {
       "segments": [
@@ -166,7 +190,13 @@
           "text": "”"
         }
       ],
-      "translation": "Emily 微笑著提醒他實驗室的繁重負擔，並補充說：「聽起來很有挑戰性。」"
+      "translation": "Emily 微笑著提醒他實驗室的繁重負擔，並補充說：「聽起來很有挑戰性。」",
+      "audio": {
+        "src": "/audio/sentences/choosing-school-course/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f99935b13776395c4313cd58d751f3a685738113e25ab21ce00ce43611c5a64e",
+        "sha256": "3ac3177c035b3333c872111b0593f00abea25773951d6c3450b3fe2dddfeb731"
+      }
     },
     {
       "segments": [
@@ -183,7 +213,13 @@
           "text": "”"
         }
       ],
-      "translation": "在檢查每週課表確認沒有衝堂之後，Brian 開心地說：「這符合我的時間安排。」"
+      "translation": "在檢查每週課表確認沒有衝堂之後，Brian 開心地說：「這符合我的時間安排。」",
+      "audio": {
+        "src": "/audio/sentences/choosing-school-course/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "59da9ddd6af1f0c1c3b782302352b06a05a62b27f764145579cd37f46af2b363",
+        "sha256": "f3abd5c0df659756f3c0aa16250060c78ecd0fb0eeae02ce38868010d093c042"
+      }
     },
     {
       "segments": [
@@ -191,7 +227,13 @@
           "text": "He clicks the registration button with confidence, eager to learn new skills."
         }
       ],
-      "translation": "他滿懷信心地按下選課登記按鈕，熱切期盼著學習新技能。"
+      "translation": "他滿懷信心地按下選課登記按鈕，熱切期盼著學習新技能。",
+      "audio": {
+        "src": "/audio/sentences/choosing-school-course/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7316c4ed91cee27e4c9f57d597dbd9a3f6e82299c4cf24945996476b4d766a0e",
+        "sha256": "e7c7604b249dc243d0619666206bde5f9bb9bb6993403a43e7914bfbd05e7758"
+      }
     }
   ],
   "phrases": [
@@ -313,11 +355,5 @@
         "sha256": "d9031c7b6aaa410ab8e46033e62d2edb489046986665296de2f075589b4df62b"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/choosing-school-course.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "af542898e30b4920d4e5083467b3e758902af6f782cd724743c88dcc64e237fa",
-    "sha256": "657ae5eb458d3a308d8209ff431fb4ad561abf353568141edb228d5d8e1d9990"
-  }
+  ]
 }

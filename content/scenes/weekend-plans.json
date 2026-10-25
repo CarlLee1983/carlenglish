@@ -41,7 +41,13 @@
           "text": "”"
         }
       ],
-      "translation": "週五下課後，Kevin 問 Amy：「這個週末妳打算做什麼？」"
+      "translation": "週五下課後，Kevin 問 Amy：「這個週末妳打算做什麼？」",
+      "audio": {
+        "src": "/audio/sentences/weekend-plans/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "94361f81fa297d7d971a2c168987ac267f9f5588d01725b2b2f3c348c0bbeb54",
+        "sha256": "bc99289419aa93d5b50ebe27464010d2df47415c7d7944d761ac257a28690e9e"
+      }
     },
     {
       "segments": [
@@ -49,7 +55,13 @@
           "text": "Amy smiles and says that she has no special plans."
         }
       ],
-      "translation": "Amy 笑著說她沒有什麼特別的計畫。"
+      "translation": "Amy 笑著說她沒有什麼特別的計畫。",
+      "audio": {
+        "src": "/audio/sentences/weekend-plans/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "77f563e67b204bf3d313a49f5cd6ee58c299ae3034f6518dfbc6720335d989c1",
+        "sha256": "1098bdd2710dae2665b6d82a4635a05e31afb00bea623c803f0b0c03a6813803"
+      }
     },
     {
       "segments": [
@@ -75,7 +87,13 @@
           "text": ",” Kevin says."
         }
       ],
-      "translation": "「Ethan 和我想在河濱公園騎腳踏車，」Kevin 說。"
+      "translation": "「Ethan 和我想在河濱公園騎腳踏車，」Kevin 說。",
+      "audio": {
+        "src": "/audio/sentences/weekend-plans/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7d25f51161a7d354b64176eec25dece4a198240e87bd0c7e474255869a940a9d",
+        "sha256": "95e908c9d2f12009e6514e1dd9e9485a1a38fb0086e10809a014f8d66b89fc8b"
+      }
     },
     {
       "segments": [
@@ -92,7 +110,13 @@
           "text": "”"
         }
       ],
-      "translation": "他興奮地看著 Amy 問道：「妳想和我們一起去嗎？」"
+      "translation": "他興奮地看著 Amy 問道：「妳想和我們一起去嗎？」",
+      "audio": {
+        "src": "/audio/sentences/weekend-plans/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3e4b13fb08dc66d6836f609b9b0b823a02c98c29ac6e76c19697732405a52b0a",
+        "sha256": "4b7b5681e3aa579d3840c5e4312bfac841c22752c3dd752e2e64b1f76f20e578"
+      }
     },
     {
       "segments": [
@@ -109,7 +133,13 @@
           "text": "” Amy replies with a big smile."
         }
       ],
-      "translation": "「聽起來很好玩！」Amy 帶著大大的笑容回答。"
+      "translation": "「聽起來很好玩！」Amy 帶著大大的笑容回答。",
+      "audio": {
+        "src": "/audio/sentences/weekend-plans/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "034dd48fdebb1a233cd23a980989f0557bb98836381ec3580f3c7eeb21618938",
+        "sha256": "38339a928e6c13b378ecd7148e97cbf2a0768e1aa63ad130c5c5580877664604"
+      }
     },
     {
       "segments": [
@@ -135,7 +165,13 @@
           "text": " on his phone."
         }
       ],
-      "translation": "他們約好在入口附近碰面，Ethan 則用手機確認了時間。"
+      "translation": "他們約好在入口附近碰面，Ethan 則用手機確認了時間。",
+      "audio": {
+        "src": "/audio/sentences/weekend-plans/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "42d0008b2186f4c439d80ccb218d744822da783135f96b5c35da833c651b87e2",
+        "sha256": "088b15eeb3bd370ea735737aa82c494039f176b67180cd90ee3a8223421bff50"
+      }
     },
     {
       "segments": [
@@ -167,7 +203,13 @@
           "text": "”"
         }
       ],
-      "translation": "Kevin 開心地向 Amy 揮手說：「週六見。」"
+      "translation": "Kevin 開心地向 Amy 揮手說：「週六見。」",
+      "audio": {
+        "src": "/audio/sentences/weekend-plans/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "28d245786e939a556b03a8fa64cc554c283ea38f6b2ae5281db5fb8ca25d0426",
+        "sha256": "c47d1bc3ba76d07b7646471d6df49c012454774c28358fc8b2cfbe532c0b053c"
+      }
     }
   ],
   "phrases": [
@@ -289,11 +331,5 @@
         "sha256": "933d39e5fa1bcd5d108809dd04873106bdafa005e692f9fd318b389bfbd2a0a4"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/weekend-plans.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "698ff37cba8003434cdad5c209dba0efa406fe901b090c6151294116e3097cb1",
-    "sha256": "1bac56ede3cfd97923771aebc4db942d805d986d5582d4a2651b632f98525219"
-  }
+  ]
 }

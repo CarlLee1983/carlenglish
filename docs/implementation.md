@@ -1,5 +1,16 @@
 # 實作與驗收紀錄
 
+## 2026-10-25 專注跟讀交付與發布流程
+
+生活讀本新增獨立專注跟讀、四種語速、逐句／連續模式與每篇接續位置；46 篇共 321 段逐句 MP3，取代 46 段整篇音檔。完整範圍見 [設計](read-aloud-design.md)、[驗證與手機實聽](read-aloud-verification.md) 及 [音檔產製紀錄](audio-generation/sentence-reading-20261025/README.md)。語音模型只在本地產製時使用，部署包沒有模型、私人原型或學習紀錄；沒有新增套件、後端、雲端密鑰或資料庫遷移。
+
+依使用者「devops 收尾並上線」授權，提交這批變更、建立 PR，通過該候選版本的 CI 後合併 `main`，由既有 [Deploy](https://github.com/CarlLee1983/carlenglish/actions/workflows/deploy.yml) 再跑完整驗證並發布。發布版本以該次 `main` 合併 SHA 與成功 Deploy run 為準，平台成功與公開網站實際驗證分別確認。其他未合併的新聞內容 PR 不屬於本批。
+
+部署前已核對目前平台版本為 `6ca249de-2f5f-4a7d-81a6-d0db0b751fb2`、100% 流量，對應 `cea4c5039bec80ed2ca5de22f3300d6d2eae9ca0` 的 [Deploy run](https://github.com/CarlLee1983/carlenglish/actions/runs/39364728254)。若需回復，依授權執行 `pnpm exec wrangler rollback 6ca249de-2f5f-4a7d-81a6-d0db0b751fb2 --name carlenglish`，再核對平台與公開網站；必須回復完整 Worker 版本，讓程式、JSON 與音檔保持一致。朗讀偏好與進度使用獨立的瀏覽器儲存鍵，舊版忽略這些鍵，不需要還原讀者資料。舊分頁若仍使用整篇音檔網址，更新後應重新整理再播放。
+
+本地與模擬瀏覽器的通過結果不代表使用者已完成實際手機的音質、停頓與跟讀節奏驗收；這項回饋獨立保留。
+
+
 ## 2026-10-14 PR #3 文章整合與衝突修正
 
 依使用者回報 PR #3 衝突，將最新 `origin/main`（`330bb61ad1bc16ef450e7a2bf89748662deba335`，已合併新聞與貼文的 PR #2）整合至 `ui/level-entry-catalog`。八個衝突位於 package／Playwright 設定、內容驗證、Layout、首頁、404 及瀏覽器／擴充測試；以 merge 保留兩邊歷史，沒有重寫分支。此次只更新 PR 分支，未合併 `main` 或再次部署。

@@ -169,7 +169,13 @@
           "text": " of one hundred and twenty dollars for shared groceries and cleaning supplies."
         }
       ],
-      "translation": "室友 Leah 和 Sam 把每週共用的食品雜貨與清潔用品預算訂為一百二十元。"
+      "translation": "室友 Leah 和 Sam 把每週共用的食品雜貨與清潔用品預算訂為一百二十元。",
+      "audio": {
+        "src": "/audio/sentences/agreeing-on-a-shared-budget/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7cdf3de0f99d637d37b6d4da086301d6fafd0f38b961a4abce1f673a9346a2c6",
+        "sha256": "480389158375c7b9d1167e232eecfc7d531f210347215f1f4f4442c9a3ab572e"
+      }
     },
     {
       "segments": [
@@ -195,7 +201,13 @@
           "text": " fresh vegetables,” Leah says."
         }
       ],
-      "translation": "Leah 說：「我寧可少買肉，也不想減少新鮮蔬菜。」"
+      "translation": "Leah 說：「我寧可少買肉，也不想減少新鮮蔬菜。」",
+      "audio": {
+        "src": "/audio/sentences/agreeing-on-a-shared-budget/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "274e3e32e94937bbf97c638d0b1b096983bd1c5129d73bcba9c3a146dace20c0",
+        "sha256": "68712d61c4de43947905c0dc078a54e1c63c2cab8e9b092662e59064b6ae75b6"
+      }
     },
     {
       "segments": [
@@ -221,7 +233,13 @@
           "text": " for unexpected costs?”"
         }
       ],
-      "translation": "Sam 同意，不過他問：「這個金額包含應付意外支出的備用金嗎？」"
+      "translation": "Sam 同意，不過他問：「這個金額包含應付意外支出的備用金嗎？」",
+      "audio": {
+        "src": "/audio/sentences/agreeing-on-a-shared-budget/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1607322e9f5a83b9c8bb58497b3cee002db5ae003000a7ac1e44bb7813004f80",
+        "sha256": "bf51e85773438c44d59f4337822e5a10513aa9a71b2f864ac39b4f7063308216"
+      }
     },
     {
       "segments": [
@@ -238,7 +256,13 @@
           "text": "."
         }
       ],
-      "translation": "他們安排八十元購買食品雜貨、二十五元購買清潔用品，留下十五元作為緩衝金。"
+      "translation": "他們安排八十元購買食品雜貨、二十五元購買清潔用品，留下十五元作為緩衝金。",
+      "audio": {
+        "src": "/audio/sentences/agreeing-on-a-shared-budget/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5a773c0e4749ce5f2acf0b5eea5acbf22c04b8dae3c4c35f85dd8c7aee161504",
+        "sha256": "0a0f2b69f374dc9ded8147019b0d6c2cb100f5d04d755d32ab4db193c5c20d6c"
+      }
     },
     {
       "segments": [
@@ -264,7 +288,13 @@
           "text": " personal snacks come from our own money,” Sam suggests."
         }
       ],
-      "translation": "Sam 提議：「我們可以平均分攤總額，條件是個人的零食要用自己的錢買。」"
+      "translation": "Sam 提議：「我們可以平均分攤總額，條件是個人的零食要用自己的錢買。」",
+      "audio": {
+        "src": "/audio/sentences/agreeing-on-a-shared-budget/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e824b203fc18762465849806c826477546ea1f79f64e87659178d8fa12759707",
+        "sha256": "756e765f293e2584d6aeb33b4353cfba61fcabd606c1ba5240ab1910452bd2a9"
+      }
     },
     {
       "segments": [
@@ -290,7 +320,13 @@
           "text": " needs both of us to agree first.”"
         }
       ],
-      "translation": "Leah 同意出六十元，不過她補充：「任何超出每週上限的支出，都要先經過我們兩個人同意。」"
+      "translation": "Leah 同意出六十元，不過她補充：「任何超出每週上限的支出，都要先經過我們兩個人同意。」",
+      "audio": {
+        "src": "/audio/sentences/agreeing-on-a-shared-budget/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5d713c4472af6d4d01d8ca55dfc0d14be4610013646931d68761b895000afc3e",
+        "sha256": "ef3c3a9b99dfa374c43b72e92b5f421b84eeb8d2ff365a09eb641707572d2709"
+      }
     },
     {
       "segments": [
@@ -325,7 +361,13 @@
           "text": ", but we can keep our spending under control.”"
         }
       ],
-      "translation": "Sam 同意出同樣的金額，並說：「代價是選擇少一些，不過我們可以控制支出。」"
+      "translation": "Sam 同意出同樣的金額，並說：「代價是選擇少一些，不過我們可以控制支出。」",
+      "audio": {
+        "src": "/audio/sentences/agreeing-on-a-shared-budget/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d66d72cd8d28d4ed477b3bb07ee7a8d39e9e3d3fc3b3a51cbe1e3380e333f663",
+        "sha256": "c1b3b299b9c55003aab3585e05d1bb878f81bf2afcee6c9fc870257fcb781c23"
+      }
     },
     {
       "segments": [
@@ -342,13 +384,13 @@
           "text": "."
         }
       ],
-      "translation": "他們會在兩週後檢視這個計畫，並在提高上限之前先討論任何調整。"
+      "translation": "他們會在兩週後檢視這個計畫，並在提高上限之前先討論任何調整。",
+      "audio": {
+        "src": "/audio/sentences/agreeing-on-a-shared-budget/8.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b968a5e8924291b159cf7ae339e3a6885c6ed4fc8cd6cf8ca48016338e9f0c28",
+        "sha256": "74447ac3abcc68c25aa36a3ef369008a1bb5187b797628ce7adc072b2e69d351"
+      }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/agreeing-on-a-shared-budget.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "5975f9a61a7fba2d851c974c58ed3cb5739a90b0b035c0d4ced67fdd1e8c60a3",
-    "sha256": "9b68ea665086d365a0e616190faa59703c54412397ae20a6fbb2bb418203557e"
-  }
+  ]
 }

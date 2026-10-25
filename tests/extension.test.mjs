@@ -65,7 +65,10 @@ async function stopChild(child) {
 
 async function expectOfficialReader(page, scene, profile, allScenes) {
   assert.equal(await page.getByRole('heading', { level: 1, name: scene.titleEn }).count(), 1);
-  assert.equal(await page.getByText(scene.title, { exact: true }).count(), 1);
+  const title = page.locator('.reader-heading .reader-title-zh');
+  assert.equal(await title.count(), 1);
+  assert.equal(await title.textContent(), scene.title);
+  assert.ok(await title.isVisible());
   const article = await page.getByRole('article').textContent();
   assert.ok(article.includes(scene.category) && article.includes(scene.level));
   const image = page.getByRole('img', { name: scene.image.alt });
@@ -104,11 +107,11 @@ async function expectOfficialReader(page, scene, profile, allScenes) {
       [`聽 ${word.english} 的發音`, 'word', word.audio.src, word.english]);
   }
   assert.equal(await page.locator('[data-pronounce]').count(), 1 + scene.phrases.length + scene.words.length);
-  const story = page.getByRole('button', { name: '朗讀整篇英文短文' });
+  const story = page.locator('[data-pronounce][data-audio-kind="story"]');
   assert.deepEqual([await story.getAttribute('data-audio-kind'), await story.getAttribute('data-audio-src'), await story.getAttribute('data-label')],
-    ['story', scene.audio.src, '整篇短文']);
-  assert.equal(await page.getByRole('button', { name: '暫停朗讀' }).count(), 1);
-  assert.equal(await page.getByRole('button', { name: '從頭朗讀' }).count(), 1);
+    ['story', scene.sentences[0].audio.src, '英文短文']);
+  assert.equal(await page.locator('[data-follow-open]').count(), 1);
+  assert.equal(await page.locator('[data-story-primary]').count(), 1);
   const attribution = page.locator('.pronunciation-attribution');
   assert.equal(await attribution.getAttribute('open'), null);
   await attribution.locator('summary').click();
@@ -342,12 +345,12 @@ test('a large mixed-level catalog builds and serves complete routes without chan
       assert.equal(await button.getAttribute('data-label'), fourth.words[i].english);
     }
     assert.equal(await page.locator('[data-pronounce]').count(), 1 + fourth.phrases.length + fourth.words.length);
-    const story = page.getByRole('button', { name: '朗讀整篇英文短文' });
+    const story = page.locator('[data-pronounce][data-audio-kind="story"]');
     assert.equal(await story.getAttribute('data-audio-kind'), 'story');
-    assert.equal(await story.getAttribute('data-audio-src'), fourth.audio.src);
-    assert.equal(await story.getAttribute('data-label'), '整篇短文');
-    assert.equal(await page.getByRole('button', { name: '暫停朗讀' }).count(), 1);
-    assert.equal(await page.getByRole('button', { name: '從頭朗讀' }).count(), 1);
+    assert.equal(await story.getAttribute('data-audio-src'), fourth.sentences[0].audio.src);
+    assert.equal(await story.getAttribute('data-label'), '英文短文');
+    assert.equal(await page.locator('[data-follow-open]').count(), 1);
+    assert.equal(await page.locator('[data-story-primary]').count(), 1);
     const attribution = page.locator('.pronunciation-attribution');
     assert.equal(await attribution.getAttribute('open'), null);
     await attribution.locator('summary').click();

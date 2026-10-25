@@ -1,0 +1,2268 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "sceneId": "after-school-homework",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/after-school-homework/1.mp3",
+      "text": "After school, Ben sits on a chair at his desk.",
+      "textSha256": "ca819f33aa8609d0b17b41a0b4d4dc4f9e034078f68e3068436808fe7205681b"
+    },
+    {
+      "sceneId": "after-school-homework",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/after-school-homework/2.mp3",
+      "text": "He opens his workbook to do his homework.",
+      "textSha256": "967e113cb3dea7a0091059caebadc8ac964ddc431f7fc8180ccb9412f50671fa"
+    },
+    {
+      "sceneId": "after-school-homework",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/after-school-homework/3.mp3",
+      "text": "One math question is hard, so Ben thinks carefully.",
+      "textSha256": "deecc253b84873e20afb1dc1611649ac5810d3c62fc8595b1ffb0109679b9ec1"
+    },
+    {
+      "sceneId": "after-school-homework",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/after-school-homework/4.mp3",
+      "text": "Ben looks at his dad and asks, “Can you help me?”",
+      "textSha256": "c6b193ad36cb0145da62867452eb01b02c66e8cfb6096546921411d37f19cf3f"
+    },
+    {
+      "sceneId": "after-school-homework",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/after-school-homework/5.mp3",
+      "text": "Dad smiles warmly and says, “Let me see.”",
+      "textSha256": "88c67e58b6ca4439bddac97e80318cd7232e719f25f0c252a9e94a22fcae2e5b"
+    },
+    {
+      "sceneId": "after-school-homework",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/after-school-homework/6.mp3",
+      "text": "Dad helps him step by step, and Ben happily says, “I am finished.”",
+      "textSha256": "a57ac6a3814f8f20aedcc509b90a7bcab38e4b530775ac7a79b8073705dc70bf"
+    },
+    {
+      "sceneId": "after-school-homework",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/after-school-homework/7.mp3",
+      "text": "Dad gives him a high five and says, “Good job!”",
+      "textSha256": "5206c54fdb5e6f68c873143ad168a014a47ddb57b461bec10d99bb24a6253d25"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/agreeing-on-a-shared-budget/1.mp3",
+      "text": "Roommates Leah and Sam set a weekly budget of one hundred and twenty dollars for shared groceries and cleaning supplies.",
+      "textSha256": "7cdf3de0f99d637d37b6d4da086301d6fafd0f38b961a4abce1f673a9346a2c6"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/agreeing-on-a-shared-budget/2.mp3",
+      "text": "“I would rather buy less meat than cut back on fresh vegetables,” Leah says.",
+      "textSha256": "274e3e32e94937bbf97c638d0b1b096983bd1c5129d73bcba9c3a146dace20c0"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/agreeing-on-a-shared-budget/3.mp3",
+      "text": "Sam agrees, but asks, “Does that include a reserve for unexpected costs?”",
+      "textSha256": "1607322e9f5a83b9c8bb58497b3cee002db5ae003000a7ac1e44bb7813004f80"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/agreeing-on-a-shared-budget/4.mp3",
+      "text": "They allow eighty dollars for groceries and twenty-five for supplies, leaving fifteen as a buffer.",
+      "textSha256": "5a773c0e4749ce5f2acf0b5eea5acbf22c04b8dae3c4c35f85dd8c7aee161504"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/agreeing-on-a-shared-budget/5.mp3",
+      "text": "“We can split the total equally, provided that personal snacks come from our own money,” Sam suggests.",
+      "textSha256": "e824b203fc18762465849806c826477546ea1f79f64e87659178d8fa12759707"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/agreeing-on-a-shared-budget/6.mp3",
+      "text": "Leah agrees to contribute sixty dollars, but adds, “Any spending above the weekly limit needs both of us to agree first.”",
+      "textSha256": "5d713c4472af6d4d01d8ca55dfc0d14be4610013646931d68761b895000afc3e"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/agreeing-on-a-shared-budget/7.mp3",
+      "text": "Sam agrees to contribute the same amount and says, “The trade-off is less variety, but we can keep our spending under control.”",
+      "textSha256": "d66d72cd8d28d4ed477b3bb07ee7a8d39e9e3d3fc3b3a51cbe1e3380e333f663"
+    },
+    {
+      "sceneId": "agreeing-on-a-shared-budget",
+      "sentenceIndex": 7,
+      "src": "/audio/sentences/agreeing-on-a-shared-budget/8.mp3",
+      "text": "They will review the plan after two weeks and discuss any changes before raising the limit.",
+      "textSha256": "b968a5e8924291b159cf7ae339e3a6885c6ed4fc8cd6cf8ca48016338e9f0c28"
+    },
+    {
+      "sceneId": "asking-teacher-feedback",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/asking-teacher-feedback/1.mp3",
+      "text": "After class, Kevin stays in the classroom to talk to his English teacher.",
+      "textSha256": "050ff9bb8fc7a679ec04cfeca1c44af147b04ed8de50c0a5bb9ecb8c30ec8cc1"
+    },
+    {
+      "sceneId": "asking-teacher-feedback",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/asking-teacher-feedback/2.mp3",
+      "text": "He looks at the helpful feedback written on his essay.",
+      "textSha256": "6b019fe06a3ae0a050baeca624ee2e6ba8d6f98281d22524136cf3f90acfe7ce"
+    },
+    {
+      "sceneId": "asking-teacher-feedback",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/asking-teacher-feedback/3.mp3",
+      "text": "Kevin points to a note and asks, “Could you explain this part?”",
+      "textSha256": "865107d01f856aecc959a6965e4059e162378efe794088b738c67469bd13b779"
+    },
+    {
+      "sceneId": "asking-teacher-feedback",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/asking-teacher-feedback/4.mp3",
+      "text": "He wants to do better and asks, “How can I improve my writing?”",
+      "textSha256": "e71f556740321367bf6355b627e427035b6f934ca7177fcb73bf4d7b1fdfc7e2"
+    },
+    {
+      "sceneId": "asking-teacher-feedback",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/asking-teacher-feedback/5.mp3",
+      "text": "The teacher gives him clear advice on organizing his main ideas.",
+      "textSha256": "1fc5eab1cbfa121361f3b487f9ba9799cdd8b3c511dd33e94657dc058347b827"
+    },
+    {
+      "sceneId": "asking-teacher-feedback",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/asking-teacher-feedback/6.mp3",
+      "text": "Kevin smiles and says, “Thank you for the advice.”",
+      "textSha256": "0bf48d40d200b5fe71eef115e5c80f1bfaa43410dfc3ca4b4a29c2ff02a4ad07"
+    },
+    {
+      "sceneId": "asking-teacher-feedback",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/asking-teacher-feedback/7.mp3",
+      "text": "The teacher smiles back and encourages him, “Keep up the good work.”",
+      "textSha256": "0b45d97d2a2dda5dbc0db803832a3ce0501c95653e7ae981e1f6617be19cb084"
+    },
+    {
+      "sceneId": "birthday-party",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/birthday-party/1.mp3",
+      "text": "Today, Leo goes to Sam's home for a fun birthday party.",
+      "textSha256": "275d7a49b2e9bd700728e2641c35bf0debfa386d74a992a3527ef9cbec69bcdf"
+    },
+    {
+      "sceneId": "birthday-party",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/birthday-party/2.mp3",
+      "text": "All the friends smile warmly and cheer, “Happy birthday!”",
+      "textSha256": "1bad966d0fc7a472157f99195dd55fd49c4c1c8592789579522757942f96965c"
+    },
+    {
+      "sceneId": "birthday-party",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/birthday-party/3.mp3",
+      "text": "Leo gives Sam a wrapped gift and says, “This gift is for you.”",
+      "textSha256": "7b750d2dbb68433d469c582bcbe21480f8c6a0db56a16ee2543fba5f0f688218"
+    },
+    {
+      "sceneId": "birthday-party",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/birthday-party/4.mp3",
+      "text": "They gather around the table and sing a happy birthday song together.",
+      "textSha256": "6957fba7605f8c06789c92146ae9ebf102c815fc4f2c38486684de68123434a8"
+    },
+    {
+      "sceneId": "birthday-party",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/birthday-party/5.mp3",
+      "text": "Mom brings out a sweet cake with a glowing candle on top.",
+      "textSha256": "0a7a7d6909a52e7021eb308048ef6ed655670044390c6958aa13a9047fb7d8a3"
+    },
+    {
+      "sceneId": "birthday-party",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/birthday-party/6.mp3",
+      "text": "Everyone shouts, “Make a wish!” and Sam blows out the candle.",
+      "textSha256": "79521506fb9ebe11afdd57ebc31496bdaad89c169755e67438b95ed04f5179ac"
+    },
+    {
+      "sceneId": "birthday-party",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/birthday-party/7.mp3",
+      "text": "Sam smiles at his friends and says, “Thank you for coming.”",
+      "textSha256": "eb865d262f1c6d499a2708326815af9f2dbb16c121ecd66fd5a77a0af6476ae9"
+    },
+    {
+      "sceneId": "bus-to-school",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/bus-to-school/1.mp3",
+      "text": "On a sunny morning, Ethan waits by the bus stop with his backpack.",
+      "textSha256": "5d6afc32fb655cdaf0c67153e857020e4ec74dac4e0edf32507a480ff90dd648"
+    },
+    {
+      "sceneId": "bus-to-school",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/bus-to-school/2.mp3",
+      "text": "He checks the bus number and says happily, “Here comes the bus.”",
+      "textSha256": "b225e76b208306127cff483f0323246f23f02f9888a862a0125a4bcc4d191091"
+    },
+    {
+      "sceneId": "bus-to-school",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/bus-to-school/3.mp3",
+      "text": "To be sure, he asks a student next to him, “Does this bus go to our school?”",
+      "textSha256": "946b530758cda860d79ff335a922d7648d7e7d8df7334f290b9f80b269304627"
+    },
+    {
+      "sceneId": "bus-to-school",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/bus-to-school/4.mp3",
+      "text": "The student smiles and answers, “Yes, it does! Tap your card.”",
+      "textSha256": "bee821e9c09e5a988d5bd4d91c75565ee012732ec88c1cc206a6ed8fd27195a6"
+    },
+    {
+      "sceneId": "bus-to-school",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/bus-to-school/5.mp3",
+      "text": "Ethan steps onto the bus and taps his card against the reader.",
+      "textSha256": "d20a7fa5d571f773f1f41247bc90ba73397ea8ea05f2f5294c80e42632e90fb4"
+    },
+    {
+      "sceneId": "bus-to-school",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/bus-to-school/6.mp3",
+      "text": "He walks down the aisle, and a friendly passenger says, “Have a seat.”",
+      "textSha256": "6bc9011d44891dd1e018a97ea8a4a213e2d776442ba9485eb14173dc1bc2f26e"
+    },
+    {
+      "sceneId": "bus-to-school",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/bus-to-school/7.mp3",
+      "text": "Ethan sits down with a smile and enjoys the ride to school.",
+      "textSha256": "64d1d991df8e92d0e1470e6371f5b2f4613d3c2dbd75e51209622ca1f91f6192"
+    },
+    {
+      "sceneId": "cafe-breakfast",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/cafe-breakfast/1.mp3",
+      "text": "On a sunny morning, Mia stops at a small café.",
+      "textSha256": "5da421b02e2bc0d2b95948e5c83aff302cf2f35882a9c516496ef818f7d529da"
+    },
+    {
+      "sceneId": "cafe-breakfast",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/cafe-breakfast/2.mp3",
+      "text": "She looks at the menu and says, “I'd like a coffee and some toast, please.”",
+      "textSha256": "f2eaa34a142e1ac3f4b9847fb71c0c95e95ed43732c0ee9668028574f46333c5"
+    },
+    {
+      "sceneId": "cafe-breakfast",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/cafe-breakfast/3.mp3",
+      "text": "The barista asks, “For here or to go?”",
+      "textSha256": "403a939158dc7ca41a3f28eb383388b7c101d19dd414d47e96e42174938d26e2"
+    },
+    {
+      "sceneId": "cafe-breakfast",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/cafe-breakfast/4.mp3",
+      "text": "“To go, please,” Mia says.",
+      "textSha256": "cedcb4f5030435a8ede31fe53e71dcce2e522e222e467baed63e51765d54c045"
+    },
+    {
+      "sceneId": "cafe-breakfast",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/cafe-breakfast/5.mp3",
+      "text": "The barista puts her toast in a paper bag.",
+      "textSha256": "c75b3bc846db159db04cc1062b668c5ac492576447214fd48030365f4c1e609f"
+    },
+    {
+      "sceneId": "cafe-breakfast",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/cafe-breakfast/6.mp3",
+      "text": "“How much is it?” Mia asks at the counter.",
+      "textSha256": "1eca1fea450490838b84bcb435855e496a3d54fa6bafa53343610d02dd5270d0"
+    },
+    {
+      "sceneId": "cafe-breakfast",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/cafe-breakfast/7.mp3",
+      "text": "“Five dollars,” the barista says.",
+      "textSha256": "418477ba7b1d907fd7b5738e47ef7f4200c22be175dcd02676a0b806459a7c6f"
+    },
+    {
+      "sceneId": "cafe-breakfast",
+      "sentenceIndex": 7,
+      "src": "/audio/sentences/cafe-breakfast/8.mp3",
+      "text": "Mia pays, takes her breakfast, and says, “Thank you!”",
+      "textSha256": "3579f5b701c45a68b13c35377eceb91ae227068cb0b07c6de260f95c0ba80964"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/checking-online-information/1.mp3",
+      "text": "Before choosing a place for the book swap, Ben shows Maya a screenshot saying the library is closed.",
+      "textSha256": "2ad24b544e7464e5edc194e70e0d70654332f19d17985667fdeb40149831f8a5"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/checking-online-information/2.mp3",
+      "text": "“Let's check the source first,” Maya says, rather than forwarding the warning.",
+      "textSha256": "27e6e486b3e793ecc70282165ed9feca663f6320a63d157ca76985a7bf8f9c14"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/checking-online-information/3.mp3",
+      "text": "They open the original notice on the school website, and Maya asks, “Is it still up to date?”",
+      "textSha256": "b74ba2d9136087c4299fcbe165e6cc1a218b619747070da017b1e94cd31eed01"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/checking-online-information/4.mp3",
+      "text": "“It was posted last year, during the repairs,” Ben says.",
+      "textSha256": "7b6fb6b10e7eed9ef17a5dc94a16a4dba1dabf311004a45263e2ae20c3c1ea26"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/checking-online-information/5.mp3",
+      "text": "“That doesn't necessarily mean it's closed now,” Maya replies.",
+      "textSha256": "eeb9dbc371b95ed8d125480f1c80e84cec639eb37bc2c86ca70c6fe4b8147d0f"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/checking-online-information/6.mp3",
+      "text": "A current notice says the library meeting room is available on Friday, although the reading area must stay quiet.",
+      "textSha256": "b52142a84beafbdf767594d4840bb1768e72789a8b9b90a8579c8831103555a3"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/checking-online-information/7.mp3",
+      "text": "“We should confirm the details,” Ben says, and the librarian tells them the room can hold twenty people.",
+      "textSha256": "8aec29e373c422a713d5cd10c8e230c2184caf26421666bde7899393467c166b"
+    },
+    {
+      "sceneId": "checking-online-information",
+      "sentenceIndex": 7,
+      "src": "/audio/sentences/checking-online-information/8.mp3",
+      "text": "They save the link and date so everyone in their group can check the information for themselves.",
+      "textSha256": "0dfc99f4a9f356fac857779659cf84b5ae6ee56f5a44b51a5ba2b890caffeea0"
+    },
+    {
+      "sceneId": "choosing-school-course",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/choosing-school-course/1.mp3",
+      "text": "Emily and Brian review every elective course offered for next semester.",
+      "textSha256": "535c7d9b32ab5b8c4adc5149888b31556141ae61e805fd9efdfa3cd67a5d045e"
+    },
+    {
+      "sceneId": "choosing-school-course",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/choosing-school-course/2.mp3",
+      "text": "Unsure about his academic plan, Brian sighs and asks, “Which course should I choose?”",
+      "textSha256": "06338f3cffdb68655f7f5dc7c8470ff2c11474808e93e22a698d79034e63cdc2"
+    },
+    {
+      "sceneId": "choosing-school-course",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/choosing-school-course/3.mp3",
+      "text": "Emily compares an advanced physics class with a world literature seminar to check how much academic credit each offers.",
+      "textSha256": "6de46e8f3b0852e9e1ac24ae9449c4446e1f0c89f3d81b586467de1e9e42daf0"
+    },
+    {
+      "sceneId": "choosing-school-course",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/choosing-school-course/4.mp3",
+      "text": "Brian points to the artificial intelligence syllabus, explaining his deep interest in data science: “I'm interested in this course.”",
+      "textSha256": "9158a6ca4e3bc5d7103790f02daf3c7e314355995e1f57117f0792825a46450c"
+    },
+    {
+      "sceneId": "choosing-school-course",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/choosing-school-course/5.mp3",
+      "text": "Emily smiles and cautions him about the heavy lab workload, adding, “That sounds challenging.”",
+      "textSha256": "f99935b13776395c4313cd58d751f3a685738113e25ab21ce00ce43611c5a64e"
+    },
+    {
+      "sceneId": "choosing-school-course",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/choosing-school-course/6.mp3",
+      "text": "After checking his weekly timetable to avoid time conflicts, Brian says happily, “It fits my schedule.”",
+      "textSha256": "59da9ddd6af1f0c1c3b782302352b06a05a62b27f764145579cd37f46af2b363"
+    },
+    {
+      "sceneId": "choosing-school-course",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/choosing-school-course/7.mp3",
+      "text": "He clicks the registration button with confidence, eager to learn new skills.",
+      "textSha256": "7316c4ed91cee27e4c9f57d597dbd9a3f6e82299c4cf24945996476b4d766a0e"
+    },
+    {
+      "sceneId": "classroom-help",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/classroom-help/1.mp3",
+      "text": "Leo looks at his desk, but he only has an eraser and a ruler.",
+      "textSha256": "999e3b72da16fc30eb68cb74aee89684656ace0b0a10017876e37c489557e45e"
+    },
+    {
+      "sceneId": "classroom-help",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/classroom-help/2.mp3",
+      "text": "He forgot his pencil and turns to his classmate Mia for help.",
+      "textSha256": "c0ff52409af4a1c994ad0dd08d301280a1db731fd704d113571cb1d358ae3f53"
+    },
+    {
+      "sceneId": "classroom-help",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/classroom-help/3.mp3",
+      "text": "Leo asks politely, “Can I borrow a pencil?”",
+      "textSha256": "7ba91604e3c95ed2e917ef18d128dc453c6c8b88471b835baaa045090d91797d"
+    },
+    {
+      "sceneId": "classroom-help",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/classroom-help/4.mp3",
+      "text": "Mia smiles warmly and says, “Here you are.”",
+      "textSha256": "d22628f753d2f4f6d3e39b93df80991e4925471e505a45ed96a357cf047a073e"
+    },
+    {
+      "sceneId": "classroom-help",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/classroom-help/5.mp3",
+      "text": "Leo takes the pencil and says, “Thank you very much.”",
+      "textSha256": "3efcf3526f04a21fba5d2601868b914b36a68f0954da40bb1131b0976e562372"
+    },
+    {
+      "sceneId": "classroom-help",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/classroom-help/6.mp3",
+      "text": "Mia answers with a friendly smile, “You're welcome.”",
+      "textSha256": "fd8572bdd543c2961fe3a26f7ae9275f32d7a4f27d0d821db56a40b052d6eacb"
+    },
+    {
+      "sceneId": "classroom-help",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/classroom-help/7.mp3",
+      "text": "Their teacher smiles at them and starts the lesson.",
+      "textSha256": "c431a88b106edc4a5560ddda3d38d7b37ccc61b4ba16f251bfb29ef79d3b6410"
+    },
+    {
+      "sceneId": "club-signup",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/club-signup/1.mp3",
+      "text": "During the school club fair, Kevin walks over to the science club booth.",
+      "textSha256": "114a54faccec695a8ab4ad614d9e1412bf1200742856b92331e4a5411483aa98"
+    },
+    {
+      "sceneId": "club-signup",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/club-signup/2.mp3",
+      "text": "Curious about their projects, he smiles and asks, “What do you do here?”",
+      "textSha256": "bc69e7bdfdbdcf261263309e4ffdfed6f33db1ae28076bb429d6f6a210f6825d"
+    },
+    {
+      "sceneId": "club-signup",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/club-signup/3.mp3",
+      "text": "A friendly member replies, “We build models and plan a fun activity every week.”",
+      "textSha256": "ef8ee52210f3a4baa82b96109671921f14876eac33842e9b26fb32fdb41fafa8"
+    },
+    {
+      "sceneId": "club-signup",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/club-signup/4.mp3",
+      "text": "Kevin is interested in the schedule and asks, “When do you meet?”",
+      "textSha256": "2cc710e580b906f357c612f774cd54fb5770a65fecba2931ee48b4e7b6886d95"
+    },
+    {
+      "sceneId": "club-signup",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/club-signup/5.mp3",
+      "text": "“We meet every Thursday after class in the lab,” the student explains.",
+      "textSha256": "6b9d38e05f0486f9977d12840a6f72c8683e2c3035d9a00426846fbd70937e54"
+    },
+    {
+      "sceneId": "club-signup",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/club-signup/6.mp3",
+      "text": "Kevin is very excited and says, “I'd like to join the club.”",
+      "textSha256": "e9c716110dd33f3e36fa5d08de9cb1cef696328723b6b6edcd3157863ae73db7"
+    },
+    {
+      "sceneId": "club-signup",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/club-signup/7.mp3",
+      "text": "Then he asks, “Where can I sign up?” and takes a pen to sign his name.",
+      "textSha256": "8a487252b7505279a6bae7d9e06734d53742af7b32ee64138c8b865d3f46e0f2"
+    },
+    {
+      "sceneId": "craft-class",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/craft-class/1.mp3",
+      "text": "Mia and Leo sit together at a big table in art class.",
+      "textSha256": "668d1e724792f8ff6d1ebe6702ee3e7d043c4f543f8652110b15a43e4101262f"
+    },
+    {
+      "sceneId": "craft-class",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/craft-class/2.mp3",
+      "text": "The teacher smiles and reminds everyone, “Be careful with scissors.”",
+      "textSha256": "2b34ea36131136c2e3bd29adf727a00c106e92c083a048b345b2bb60adf9cec6"
+    },
+    {
+      "sceneId": "craft-class",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/craft-class/3.mp3",
+      "text": "Mia cuts a bright sheet of paper and says, “What a pretty color!”",
+      "textSha256": "6361d47bff3fcd56c03fb46fcff768af3d022c1318f5e3259cfefce42e925383"
+    },
+    {
+      "sceneId": "craft-class",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/craft-class/4.mp3",
+      "text": "Leo wants to paste paper shapes and asks, “Pass me the glue, please.”",
+      "textSha256": "7c37033caac313f06539de617cab0cbbeaee19792cc55093054bb6bbe4189e03"
+    },
+    {
+      "sceneId": "craft-class",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/craft-class/5.mp3",
+      "text": "Mia hands him the glue with a friendly smile.",
+      "textSha256": "7a1759431d8113d8fa3d85815d613abc1ce5c8f6cc8450afadfcc6d6eff9e8b2"
+    },
+    {
+      "sceneId": "craft-class",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/craft-class/6.mp3",
+      "text": "Leo holds up his paper lion and cheers, “Look at my craft!”",
+      "textSha256": "7a8ed9091e699f309eb5c43dde5f7f36953fdc0d9c46cf0dbe9e76381cabf111"
+    },
+    {
+      "sceneId": "exchange-student-welcome",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/exchange-student-welcome/1.mp3",
+      "text": "At the front gate, Emily greets Mark, a foreign exchange student from Seattle.",
+      "textSha256": "f0d86778443684c2401623f354e7d5af0788e7c64ee1470a5ab60ad5b59f8867"
+    },
+    {
+      "sceneId": "exchange-student-welcome",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/exchange-student-welcome/2.mp3",
+      "text": "With a bright smile, she waves her hand and says, “Welcome to our school!”",
+      "textSha256": "9b196255ea018ba91d955ef60133ded99c8d637bd7ddb2dec057264434fc29af"
+    },
+    {
+      "sceneId": "exchange-student-welcome",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/exchange-student-welcome/3.mp3",
+      "text": "Emily enthusiastically offers, “Let me show you around.”",
+      "textSha256": "43526f56f9df85493a3bb12da6fbf40cc55fbe99d5eead0ce6276ffecca5658e"
+    },
+    {
+      "sceneId": "exchange-student-welcome",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/exchange-student-welcome/4.mp3",
+      "text": "She will guide him to explore each modern campus facility, starting with the main academic building.",
+      "textSha256": "15ffa5adf88545d36adf97f6a2014459cef6a26cb8ee152d4316f0380cc8a77f"
+    },
+    {
+      "sceneId": "exchange-student-welcome",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/exchange-student-welcome/5.mp3",
+      "text": "Pointing toward a spacious hall, she says, “Here is the library.”",
+      "textSha256": "16e389e2a676bfe5752f45972325559a7221473160c78a706412e1b23f0706dd"
+    },
+    {
+      "sceneId": "exchange-student-welcome",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/exchange-student-welcome/6.mp3",
+      "text": "Next, she highlights the cafeteria nearby, where students gather for lunch and relax between classes.",
+      "textSha256": "0285123a6cf49fbf37094bc681c21f9aecd1c68ee86c17709275cc4a62e0ff2e"
+    },
+    {
+      "sceneId": "exchange-student-welcome",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/exchange-student-welcome/7.mp3",
+      "text": "Offering her full support, Emily smiles and adds, “Feel free to ask me anything.”",
+      "textSha256": "64a9d24e333c73a2dd903cd171a273b3dc2164308cfd40a5957bb70bd7f95beb"
+    },
+    {
+      "sceneId": "family-grocery-list",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/family-grocery-list/1.mp3",
+      "text": "On Saturday morning, Ben and his mom sit at the kitchen table.",
+      "textSha256": "a849b363d26f22d4226de4fd54cdff8b8f67b12068030933d040d10cc71bf6bb"
+    },
+    {
+      "sceneId": "family-grocery-list",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/family-grocery-list/2.mp3",
+      "text": "Mom looks up from the table and says, “Let's check the fridge.”",
+      "textSha256": "e783d5cecf5dee798bb517152e59fa93cf5d6378de072a2d61d99fa79f3f2bed"
+    },
+    {
+      "sceneId": "family-grocery-list",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/family-grocery-list/3.mp3",
+      "text": "Ben opens the door, looks inside, and asks, “Do we need any eggs?”",
+      "textSha256": "5a407597fc7a69521821f13b41c5c1f86a8e92487f6655b54f0890888ad51c98"
+    },
+    {
+      "sceneId": "family-grocery-list",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/family-grocery-list/4.mp3",
+      "text": "Mom looks at the empty egg carton and says, “Yes, and we also need fresh milk.”",
+      "textSha256": "78fa1860201b7325d5886cc21167da546eb38f9392a0707afbb0399fc0bbc6a8"
+    },
+    {
+      "sceneId": "family-grocery-list",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/family-grocery-list/5.mp3",
+      "text": "Ben holds the pencil ready, and Mom says, “Write it on the list.”",
+      "textSha256": "075bf07951da25fa9c50e8fca57468bf2d7e0f307a2041cd457b868be8fdf024"
+    },
+    {
+      "sceneId": "family-grocery-list",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/family-grocery-list/6.mp3",
+      "text": "With their shopping items written down for the market, Mom smiles and says, “We are ready to go.”",
+      "textSha256": "683f8e6c94415f0574f98e730b32c35197c1f0f1f3ea22c1c398abdb98db72a8"
+    },
+    {
+      "sceneId": "family-outing-plan",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/family-outing-plan/1.mp3",
+      "text": "On Friday evening, Dad sits down with the family and smiles, “Let's plan our trip.”",
+      "textSha256": "f2fd3e965abcd194ef4b32a827af632a891037639d9d637dbdd0da4a291ab3ec"
+    },
+    {
+      "sceneId": "family-outing-plan",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/family-outing-plan/2.mp3",
+      "text": "Mom opens a notebook and suggests visiting a scenic mountain park this weekend.",
+      "textSha256": "24313fe831d969897d91f422e837845752d0e4ef3d9e5c3f341dd3964ebf6d14"
+    },
+    {
+      "sceneId": "family-outing-plan",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/family-outing-plan/3.mp3",
+      "text": "Dad checks his phone and says the weather will be sunny and clear.",
+      "textSha256": "49f302d45b7b0b5351e8b67605f8430ab77dd50584039d3242b84f8c83f723b1"
+    },
+    {
+      "sceneId": "family-outing-plan",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/family-outing-plan/4.mp3",
+      "text": "Emily raises her hand excitedly and asks, “What should we bring?”",
+      "textSha256": "dab6c9485fc104453acea218bf0ea421a8788fdfc5ab3a16f0de2cf0c79348c6"
+    },
+    {
+      "sceneId": "family-outing-plan",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/family-outing-plan/5.mp3",
+      "text": "Mom smiles and reminds everyone, “Don't forget your hat.”",
+      "textSha256": "06a69af710272ce17d105f53d6a9b6fb30f5d3c09436a556c13db5c9d22b3282"
+    },
+    {
+      "sceneId": "family-outing-plan",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/family-outing-plan/6.mp3",
+      "text": "They also decide to pack sandwiches and water for a pleasant picnic.",
+      "textSha256": "81bf46daa8bf172c34ad404e8011d575b7e4d833dc8a879c84238f04dd6bec0a"
+    },
+    {
+      "sceneId": "family-outing-plan",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/family-outing-plan/7.mp3",
+      "text": "Looking forward to the hike, everyone cheers, “It will be so much fun!”",
+      "textSha256": "18acb0739faacea5c467e0d3e272250a3aa40a5dfc45c02175f4f8bbc3df94c2"
+    },
+    {
+      "sceneId": "future-study-options",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/future-study-options/1.mp3",
+      "text": "Alex visits the guidance counselor's office to discuss which university subject best matches his strengths.",
+      "textSha256": "cc44d5f083b1542160a0814ef36b93da6e9155af9b3e237968af85a0ef39f178"
+    },
+    {
+      "sceneId": "future-study-options",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/future-study-options/2.mp3",
+      "text": "Ms. Lin smiles warmly, points to an exploratory chart, and asks, “What are your interests?”",
+      "textSha256": "9ec0510566a0b9701aef16f7865f2883cdf3d2d948ad75cd6106401ab8e54213"
+    },
+    {
+      "sceneId": "future-study-options",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/future-study-options/3.mp3",
+      "text": "Alex explains his deep interest in technology and design, adding, “I'd like to learn more about interactive media.”",
+      "textSha256": "3418703029bdf48a744c50f1d08127246051ab09e079821cc4ea0e0e28585f20"
+    },
+    {
+      "sceneId": "future-study-options",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/future-study-options/4.mp3",
+      "text": "Ms. Lin suggests combining both fields into an interdisciplinary college major.",
+      "textSha256": "c1592b9c1985bcbdd432a532e7b8d4f4fe7f8edca577af2ef1b0277befafa71f"
+    },
+    {
+      "sceneId": "future-study-options",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/future-study-options/5.mp3",
+      "text": "Looking over the degree pathways together, she encourages him, “Consider your future career.”",
+      "textSha256": "915510b328acb6019b7d94f3e2122ff8fcc72a089e04d1dcc9253f4fdfe86772"
+    },
+    {
+      "sceneId": "future-study-options",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/future-study-options/6.mp3",
+      "text": "Alex organizes his ideas into a clear study plan and smiles, “Thank you for the advice.”",
+      "textSha256": "b8c6b8170b3a507a4d597537ae0ba29ca927251d164bb4f5239c8432ee9c1f9a"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/giving-short-presentation/1.mp3",
+      "text": "At a planning meeting, Maya presents a proposal for a book swap that thirty students will attend.",
+      "textSha256": "61d4e17fd205271cf99d01fff7f564e2cca32411e37e143d3c570c9747ffb3b5"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/giving-short-presentation/2.mp3",
+      "text": "“We recommend using the library meeting room because it will keep the books dry.”",
+      "textSha256": "4a94518e93361dd8da76f8762cf089393ebff1e10fa2b431ec9c0fea4521eb88"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/giving-short-presentation/3.mp3",
+      "text": "“According to the current notice, the room is available on Friday.”",
+      "textSha256": "88a5c67b53aa7e0b0a59df420a1175511b7877f8166f8150c35e50340f069326"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/giving-short-presentation/4.mp3",
+      "text": "“The main advantage is that we won't need to cancel if it rains.”",
+      "textSha256": "5ddecbe8edc1aaf895fddd30f5191202a320f6450059c2f807cbd6fb45899bdf"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/giving-short-presentation/5.mp3",
+      "text": "Ben adds, “However, there's a limit of twenty people, so we suggest two sessions of fifteen.”",
+      "textSha256": "aa574745917f5d9d0007eea57209bf3977c48011fe687ab32b1f86921d343a39"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/giving-short-presentation/6.mp3",
+      "text": "A classmate asks how they will keep the reading area quiet.",
+      "textSha256": "7d057724ec88d2fea97995a31f2d38a0b67656e3396317dba06efe7d22212e1d"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/giving-short-presentation/7.mp3",
+      "text": "“We could close the meeting-room door and ask everyone to keep their voices down,” Maya replies.",
+      "textSha256": "818f405477fe8736ebc4416924b71cede658d8b17ddc31461727b32d14cb4eb1"
+    },
+    {
+      "sceneId": "giving-short-presentation",
+      "sentenceIndex": 7,
+      "src": "/audio/sentences/giving-short-presentation/8.mp3",
+      "text": "“Our next step is to ask the librarian to reserve the room,” Maya says, and the group agrees.",
+      "textSha256": "7932b4a5ddace65913cb939f4ef23a6da42a5e353505aa8e87b3d5a35d2fbae9"
+    },
+    {
+      "sceneId": "homework-question",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/homework-question/1.mp3",
+      "text": "After school, Leo has a question about today's English assignment and walks over to his classmate Mia.",
+      "textSha256": "c9176c31f7a689aba70c39c7f9fb48dbddffa4187619b443dacfd292997bd67a"
+    },
+    {
+      "sceneId": "homework-question",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/homework-question/2.mp3",
+      "text": "He opens his pencil case and asks, “When is the homework due?”",
+      "textSha256": "ac6c2d9a599701207704a64ad35b51277f0685d7918620e04d35e69bacb7f9b3"
+    },
+    {
+      "sceneId": "homework-question",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/homework-question/3.mp3",
+      "text": "Mia checks her study planner and says, “It is due this Friday morning before the bell rings.”",
+      "textSha256": "5e3484e7edd592fd3606979fb064da1045991e492eb2b158793ac618b8a6eb47"
+    },
+    {
+      "sceneId": "homework-question",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/homework-question/4.mp3",
+      "text": "Leo flips open his workbook and asks, “Which page is it?”",
+      "textSha256": "e85f5e4242cd71a5a71a7fc8fa10d3e3089b38623f3dd985592a463dae533687"
+    },
+    {
+      "sceneId": "homework-question",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/homework-question/5.mp3",
+      "text": "Mia points to the reading section and answers, “We need to complete page thirty-four.”",
+      "textSha256": "1b96aa53d69fab70bb0456b73202fb52433b391de535af33b3f38ba3765bad7a"
+    },
+    {
+      "sceneId": "homework-question",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/homework-question/6.mp3",
+      "text": "Leo writes down the notes with a smile and says, “Thanks for your help.”",
+      "textSha256": "c2c930708207947dbf7d744de9352355584627e363c5e3fec0f489076bb4fcd9"
+    },
+    {
+      "sceneId": "homework-question",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/homework-question/7.mp3",
+      "text": "Mia packs her backpack and replies cheerfully, “No problem at all.”",
+      "textSha256": "153ecaf8c950b1185e0c26d9866fa1f47a2dbd920404f2eaad90eb02d15700ca"
+    },
+    {
+      "sceneId": "library-borrowing",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/library-borrowing/1.mp3",
+      "text": "Toby walks into the neighborhood library with his mother.",
+      "textSha256": "162d4aeff9059a46ee100c1c8bacf566b9dec644486f93062a013f9a47e0ac3d"
+    },
+    {
+      "sceneId": "library-borrowing",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/library-borrowing/2.mp3",
+      "text": "A sign on the wall says, “Please be quiet in the library.”",
+      "textSha256": "03873ea5ad766fcf4b4357c67361ecfebb4c6c83eab6be268f3037bbba590752"
+    },
+    {
+      "sceneId": "library-borrowing",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/library-borrowing/3.mp3",
+      "text": "He looks at the tall shelf to find a fun story.",
+      "textSha256": "6c408af5e459292daac6a7a1bacb5dc0ac53255bad35b829fc180538f3047999"
+    },
+    {
+      "sceneId": "library-borrowing",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/library-borrowing/4.mp3",
+      "text": "He finds a picture book about animals that he wants to read.",
+      "textSha256": "1c7774be637d8364ccd8269bea4147345f58390d84fd264574dbdc6d6c344df7"
+    },
+    {
+      "sceneId": "library-borrowing",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/library-borrowing/5.mp3",
+      "text": "Toby walks to the librarian and asks, “Can I borrow this book?”",
+      "textSha256": "fec9de1c29254cd2e6acee3eda05d013ee571f3356eeffcd09e0ad15e8f18f20"
+    },
+    {
+      "sceneId": "library-borrowing",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/library-borrowing/6.mp3",
+      "text": "He smiles and says, “Here is my library card.”",
+      "textSha256": "49cce67ea48d34cc712ae1fdb49f4650adcb2314582213e9081f35ad9eb6019a"
+    },
+    {
+      "sceneId": "library-borrowing",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/library-borrowing/7.mp3",
+      "text": "The librarian stamps the book and says, “Enjoy your reading!”",
+      "textSha256": "a98020e12c9478842520016a32d0ad24898565db307cdb410eff47452709aab3"
+    },
+    {
+      "sceneId": "lost-water-bottle",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/lost-water-bottle/1.mp3",
+      "text": "Leo walks into the classroom after PE class.",
+      "textSha256": "b8d6f97b70f1084cff74759c540f6c194b7b4211ff3ff175e766cefb3f27bd3a"
+    },
+    {
+      "sceneId": "lost-water-bottle",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/lost-water-bottle/2.mp3",
+      "text": "He checks his desk, but he cannot find his water bottle.",
+      "textSha256": "dc157e3fba579e7f016048ec573ac476338630a794ebd6ffd91848de8a4fa0b1"
+    },
+    {
+      "sceneId": "lost-water-bottle",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/lost-water-bottle/3.mp3",
+      "text": "Leo asks his teacher and friends, “Have you seen my water bottle?”",
+      "textSha256": "1e1d92bf855a3a03facbb443ed7740232dc54214b605b9552992d10ae6468399"
+    },
+    {
+      "sceneId": "lost-water-bottle",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/lost-water-bottle/4.mp3",
+      "text": "His teacher smiles and asks, “Where did you leave it?”",
+      "textSha256": "3db81df552249e56761b5937fdfc312ecda359e53c7472be7a4fd0c111e615c9"
+    },
+    {
+      "sceneId": "lost-water-bottle",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/lost-water-bottle/5.mp3",
+      "text": "Leo thinks for a moment and says, “It is blue and small.”",
+      "textSha256": "7af6e395c750ce70a7e4a660fd31ee20e29abf6c17dcd07805ab9771eda246af"
+    },
+    {
+      "sceneId": "lost-water-bottle",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/lost-water-bottle/6.mp3",
+      "text": "They go back to the playground, and his friend points to a bench.",
+      "textSha256": "bdb4f2038ad54df36b0d356ae2e940238314013e8cd2c961f82661fbcf50872c"
+    },
+    {
+      "sceneId": "lost-water-bottle",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/lost-water-bottle/7.mp3",
+      "text": "Leo runs over and cheers, “Here it is!”",
+      "textSha256": "e9b5a69500937b5543822d84b2f66155247295ca9a1b810221961b4ee8fbabe7"
+    },
+    {
+      "sceneId": "lunch-choice",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/lunch-choice/1.mp3",
+      "text": "Leo walks into the cafeteria and asks, “What's for lunch?”",
+      "textSha256": "9e375645b6cf2a10be6d6c700b906367ffc7381a0befee8bf720e7828cf83a8d"
+    },
+    {
+      "sceneId": "lunch-choice",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/lunch-choice/2.mp3",
+      "text": "He sees hot chicken and says, “It looks delicious.”",
+      "textSha256": "f43d1f083a0e717907aa8f8269d38c08f8f57878ffb7e8e536c49c0af1593389"
+    },
+    {
+      "sceneId": "lunch-choice",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/lunch-choice/3.mp3",
+      "text": "Leo says to the cook, “I'd like some rice, please.”",
+      "textSha256": "ec712aff3960be0e18b2deb98f6f267aca3a2649b0078dae1ed91e699ce8744a"
+    },
+    {
+      "sceneId": "lunch-choice",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/lunch-choice/4.mp3",
+      "text": "He chooses a fresh vegetable and asks, “Can I have some soup?”",
+      "textSha256": "8b7ee58f2598f3b6f3b800cd0a6b38283c4f85e0d43bb1b0e196738d04ab44a0"
+    },
+    {
+      "sceneId": "lunch-choice",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/lunch-choice/5.mp3",
+      "text": "The cook smiles and puts the warm food on his tray.",
+      "textSha256": "5f9d20d6844d4f9fca33da93e9629c80de05e260604601f02bd8a8f13d4ee073"
+    },
+    {
+      "sceneId": "lunch-choice",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/lunch-choice/6.mp3",
+      "text": "Leo sits with his friends and happily enjoys his lunch.",
+      "textSha256": "c24a9feaf8349c27d40164f1ce6adbd8cf5ec7177dbcb49c9b2850f460206ee4"
+    },
+    {
+      "sceneId": "making-new-friends",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/making-new-friends/1.mp3",
+      "text": "During lunch break, Leo sits on a courtyard bench and starts a conversation with a new friend named Sam.",
+      "textSha256": "50b61e835444447d88496764163f594ff69099d9e2774d590bc5ace679c4d8d4"
+    },
+    {
+      "sceneId": "making-new-friends",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/making-new-friends/2.mp3",
+      "text": "Curious about Sam's interests, Leo turns to him and asks, “What do you like to do?”",
+      "textSha256": "6480c37299a3f0ba6da4bb0189ba531de7e01b7631b52655d58739d4e3958fb7"
+    },
+    {
+      "sceneId": "making-new-friends",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/making-new-friends/3.mp3",
+      "text": "Sam points to his instrument case and replies, “I love playing guitar.”",
+      "textSha256": "af90002dfbecdd95170bba35fe17271cd28807c0730a14a5f2a6793df2fbe34d"
+    },
+    {
+      "sceneId": "making-new-friends",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/making-new-friends/4.mp3",
+      "text": "Leo's eyes light up with excitement as he replies, “Me too!”",
+      "textSha256": "f58f5406369b9b0586c3e9e4994874d01cb1954b9a995204769b32a4f1dd2f36"
+    },
+    {
+      "sceneId": "making-new-friends",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/making-new-friends/5.mp3",
+      "text": "They quickly realize that music is their shared hobby and discuss the songs they listen to after school.",
+      "textSha256": "c3f56509923ef08eb7c7ca4707ba4304c38bebd95e760374ee1ab43a7f632c15"
+    },
+    {
+      "sceneId": "making-new-friends",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/making-new-friends/6.mp3",
+      "text": "Before the bell rings, they gladly exchange contact information, and Sam says, “Let's hang out sometime.”",
+      "textSha256": "b56c2b1af9d3be0bf4eca5f49ace5d63e088fe21cd39a4852312ed1dc34c1c8e"
+    },
+    {
+      "sceneId": "morning-routine",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/morning-routine/1.mp3",
+      "text": "The morning sun shines brightly into the room.",
+      "textSha256": "c65823c99a52e3791dcb3c80daf9c1547a306de8cf442a49f4c6f761ff4843f1"
+    },
+    {
+      "sceneId": "morning-routine",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/morning-routine/2.mp3",
+      "text": "Mom comes in with a warm smile and says, “Good morning!”",
+      "textSha256": "53e69a3295478dbf65731de3075a45ed1f832a4d74effe455933f738e1e69f7b"
+    },
+    {
+      "sceneId": "morning-routine",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/morning-routine/3.mp3",
+      "text": "She gently taps Leo and says, “It's time to get up.”",
+      "textSha256": "82303bf520878c8a9073f648a6ea68335edd1ab902329b116cbd6d20460b9fec"
+    },
+    {
+      "sceneId": "morning-routine",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/morning-routine/4.mp3",
+      "text": "Leo wakes up happily and brushes his teeth.",
+      "textSha256": "392b0e13dd45499f5a0a290c8f94aee67a35e4e1d72ba8620a7656080397d6e6"
+    },
+    {
+      "sceneId": "morning-routine",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/morning-routine/5.mp3",
+      "text": "Next, he sits down at the table to eat breakfast.",
+      "textSha256": "946aaa4db43e0e4c7a37792c7e35d825b0b1e41667af3c1de741c4a20e77b755"
+    },
+    {
+      "sceneId": "morning-routine",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/morning-routine/6.mp3",
+      "text": "Mom points to the hallway and says, “Put on your shoes.”",
+      "textSha256": "7c59ed2da0649d175e38ce3101351a3ff50f89a3332d3c1c992ee5d69a5f88cb"
+    },
+    {
+      "sceneId": "morning-routine",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/morning-routine/7.mp3",
+      "text": "Leo opens the front door to go to school and calls, “See you later!”",
+      "textSha256": "180b7519a55205a32bf1c8d170e817b84794bdb96d2aea85816f63926003244a"
+    },
+    {
+      "sceneId": "museum-field-trip",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/museum-field-trip/1.mp3",
+      "text": "Today, our class arrives at the history museum for an exciting field trip.",
+      "textSha256": "4c8b8ea811f692a18fec22696032250f373ced2b32ea186c038e87619237dda4"
+    },
+    {
+      "sceneId": "museum-field-trip",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/museum-field-trip/2.mp3",
+      "text": "A friendly museum guide welcomes our group at the entrance and gives us maps.",
+      "textSha256": "68ec12f856df8bf0af200f4a738c957cec9978e4e5e2971b955ddf306eae2dd4"
+    },
+    {
+      "sceneId": "museum-field-trip",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/museum-field-trip/3.mp3",
+      "text": "Before we explore the galleries, Mr. Chen reminds us, “Take some notes.”",
+      "textSha256": "ccc056663f1c0fb8611d1c60f84084d4e391c570648e1238c50f0deb2252e895"
+    },
+    {
+      "sceneId": "museum-field-trip",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/museum-field-trip/4.mp3",
+      "text": "Inside the ancient hall, Leo points to a glass case and whispers, “Look at this exhibit.”",
+      "textSha256": "8ff3e6bd45ecedee040dc620fc1a77433fba6a8bd7d5f48a4a52b2fa4216541c"
+    },
+    {
+      "sceneId": "museum-field-trip",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/museum-field-trip/5.mp3",
+      "text": "We admire a rare gold bowl from thousands of years ago and write down facts about it.",
+      "textSha256": "a1cadf1cdc1d5a814c52152f7a4484bea4cf67cabc93d40243a03ec17626654d"
+    },
+    {
+      "sceneId": "museum-field-trip",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/museum-field-trip/6.mp3",
+      "text": "As lunchtime approaches, Emily raises her hand and asks, “Where should we meet?”",
+      "textSha256": "e45eb595fb6bacccdd241e7f144f981566d8d0f5e7087b190ce34a98748a7007"
+    },
+    {
+      "sceneId": "museum-field-trip",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/museum-field-trip/7.mp3",
+      "text": "Mr. Chen smiles and announces, “By the main gate at noon. Don't be late.”",
+      "textSha256": "e26f27343d3bda04ca9a184f68fd296c1cfb23620f139764a1afd0f2cc8e5a52"
+    },
+    {
+      "sceneId": "packing-schoolbag",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/packing-schoolbag/1.mp3",
+      "text": "Leo gets ready for school the next day.",
+      "textSha256": "3dfe6e8c1e2bd64a1ab87aa25e534b86d202014bd474c0225dbf515ad8c8db44"
+    },
+    {
+      "sceneId": "packing-schoolbag",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/packing-schoolbag/2.mp3",
+      "text": "Mom comes into the room and asks, “Are you ready?”",
+      "textSha256": "d1c4c887ec42983f379c83a12229506c364321fe2d63a8f26b0467b003b39eae"
+    },
+    {
+      "sceneId": "packing-schoolbag",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/packing-schoolbag/3.mp3",
+      "text": "Leo checks his items and asks, “Where is my notebook?”",
+      "textSha256": "4769604af475c468107ca046273b9d28b9903ddb409849a972976ca976e5b190"
+    },
+    {
+      "sceneId": "packing-schoolbag",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/packing-schoolbag/4.mp3",
+      "text": "Mom finds it beside an English book and says, “Here it is!”",
+      "textSha256": "d0e4c29c62ff990c8f8c5042aa267bcae4078cae6ddeb416faa17a15783c65f6"
+    },
+    {
+      "sceneId": "packing-schoolbag",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/packing-schoolbag/5.mp3",
+      "text": "She hands it to Leo with a smile and says, “Put it in the bag.”",
+      "textSha256": "3a1514eae08c3fa8a78ac87221b015dac363331272df3d5f29ff255dc5704d3f"
+    },
+    {
+      "sceneId": "packing-schoolbag",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/packing-schoolbag/6.mp3",
+      "text": "Leo finds his ruler, then puts his pencil and notebook inside the schoolbag.",
+      "textSha256": "bbf56418f1d3d0e0f5b054059332ccdc445d42eb2878583136e06eee89d86dad"
+    },
+    {
+      "sceneId": "packing-schoolbag",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/packing-schoolbag/7.mp3",
+      "text": "Everything is ready, so he zips up the schoolbag.",
+      "textSha256": "40c2d9476f4ff43b8dcda7c48ef0d0b6411e0d037b1f95f19066c15e444036fc"
+    },
+    {
+      "sceneId": "pet-care",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/pet-care/1.mp3",
+      "text": "Leo goes outside to play with his pet dog in the yard.",
+      "textSha256": "6b2390f372a527380a3de617254970c8f8e2ec9bedf60f96ffd04dc9f518913c"
+    },
+    {
+      "sceneId": "pet-care",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/pet-care/2.mp3",
+      "text": "Mom pours fresh water into a clean bowl and says, “Let's give the dog some water.”",
+      "textSha256": "4c724626d39b4b1dd2e606b7257425d849fe7b53dad5e7e38f548a6323d24dbc"
+    },
+    {
+      "sceneId": "pet-care",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/pet-care/3.mp3",
+      "text": "Next, Leo fills the food bowl and calls, “Time to eat!”",
+      "textSha256": "75131708e7ebae3ed3451756ce6d1c29bb4afafb2b0656d605735087946eb178"
+    },
+    {
+      "sceneId": "pet-care",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/pet-care/4.mp3",
+      "text": "After eating, Leo gently brushes Toby's fur and smiles, “Good boy!”",
+      "textSha256": "54d8f4fcf2395ea4924aeb9614578e918aa026c29bb213e71b9ef88e7e7246d9"
+    },
+    {
+      "sceneId": "pet-care",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/pet-care/5.mp3",
+      "text": "Then, Leo throws a red ball across the grass and shouts, “Fetch the ball.”",
+      "textSha256": "268e2e71690b50ac67c561aadb24071bbe5592eba41c8c52404977491e97c7d9"
+    },
+    {
+      "sceneId": "pet-care",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/pet-care/6.mp3",
+      "text": "Toby happily brings the ball back to Leo's hands.",
+      "textSha256": "69cf221269728213b6d16cb1b073491848e623bba9c1dbcf19f7f0a2fd5c1771"
+    },
+    {
+      "sceneId": "playground-turns",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/playground-turns/1.mp3",
+      "text": "The children have fun together on the playground.",
+      "textSha256": "84533cc6fc22aaf7752d336bf42efe576026095a6fbf69bb2f6a44b43a12d5df"
+    },
+    {
+      "sceneId": "playground-turns",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/playground-turns/2.mp3",
+      "text": "Amy swings high on the swing, and Leo walks to the big slide.",
+      "textSha256": "5645977b63325784dd6d3668097d6283be9e8418ea3166f6ead63de6d1b52077"
+    },
+    {
+      "sceneId": "playground-turns",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/playground-turns/3.mp3",
+      "text": "Leo smiles at Mia and asks, “Can I play too?”",
+      "textSha256": "2e55790d9020d4085769b1ab462d70d365585745a8474adf880e49cae6c3a9fb"
+    },
+    {
+      "sceneId": "playground-turns",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/playground-turns/4.mp3",
+      "text": "Mia nods and says, “Yes! Let's wait in line.”",
+      "textSha256": "902428fbf824d75da92e6e40ce5913d06d0fd821b17550eacecdfd26c81ef049"
+    },
+    {
+      "sceneId": "playground-turns",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/playground-turns/5.mp3",
+      "text": "Leo waits patiently and asks, “Is it my turn?”",
+      "textSha256": "bc1e1accd8e93b4c16d7c215c2c0cc0bbefe10c8d34eb181ce9fc4bb3d780ac3"
+    },
+    {
+      "sceneId": "playground-turns",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/playground-turns/6.mp3",
+      "text": "Mia smiles and says, “It's your turn now.”",
+      "textSha256": "bdc3fb6f07627f0d4aebad35148144f77907c63febd4d6e693469203728d0013"
+    },
+    {
+      "sceneId": "playground-turns",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/playground-turns/7.mp3",
+      "text": "Leo slides down the slide, and the children are happy to play together.",
+      "textSha256": "657998f070bb3e44d47ccce4dd5bf510d1f4ca79fef488a6797ef4ecf5f112af"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/rearranging-a-booking/1.mp3",
+      "text": "Owen calls a pottery studio to move a booking for two people from Saturday to Sunday.",
+      "textSha256": "79b8a466cd231ecda085b3563b33a13e91a56784b5bac1b3a567938e0125bb01"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/rearranging-a-booking/2.mp3",
+      "text": "“Could we move our session to the afternoon?” he asks.",
+      "textSha256": "7577a4319a7b8b3a50b60002733d47924f9548fcb3607f526ae06bd8da927d9d"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/rearranging-a-booking/3.mp3",
+      "text": "The receptionist says the afternoon is full, but two places are available at ten in the morning.",
+      "textSha256": "a22e171b1a04cec73e63382382cc0cf451e6f8ba3ef8715463b628eb9ade5379"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/rearranging-a-booking/4.mp3",
+      "text": "“If there is no extra charge, we could take the morning session,” Owen replies.",
+      "textSha256": "477fc61048c0bacb45d1bb08dbff32f671aac5888f40b496549b819da6edcf44"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/rearranging-a-booking/5.mp3",
+      "text": "“The price stays the same, but any change depends on availability when you call back before five today,” she explains.",
+      "textSha256": "2022f8602004b8b2248df0a645f83ab0aee9a9a805f7a3823a220bf7b75af262"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/rearranging-a-booking/6.mp3",
+      "text": "“Could you keep the original booking until then?” he asks, because his friend has not agreed yet.",
+      "textSha256": "57490a31fb98bd10e6b69220eb1f83f63a6788d4004e8988ef62ba95c5fcbab7"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/rearranging-a-booking/7.mp3",
+      "text": "She agrees to keep Saturday booked but warns that the Sunday places cannot be held without confirmation.",
+      "textSha256": "23179c4b4cc3e311409e20c38bdce5001a625a976e8273376863a91b6d11452d"
+    },
+    {
+      "sceneId": "rearranging-a-booking",
+      "sentenceIndex": 7,
+      "src": "/audio/sentences/rearranging-a-booking/8.mp3",
+      "text": "Owen will check with his friend and call back before five, knowing that Sunday may no longer be available.",
+      "textSha256": "714ba14f3205bbc2144cef3ba683f4305b33e576638dcea791e81677d3ad5f14"
+    },
+    {
+      "sceneId": "resolving-misunderstanding",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/resolving-misunderstanding/1.mp3",
+      "text": "After school, Leo sits on a wooden bench to talk openly with his friend Ethan.",
+      "textSha256": "b75ea4da10ea70c5cc28832563dd40d20fdfbcc2d5dd8010e7f25ee81cc2fb8d"
+    },
+    {
+      "sceneId": "resolving-misunderstanding",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/resolving-misunderstanding/2.mp3",
+      "text": "They had an awkward misunderstanding because of a confusing text message sent yesterday.",
+      "textSha256": "5c14c6729afba0dae1cdd28fcfee8483d903e8977c768fc5e65f3140261dd153"
+    },
+    {
+      "sceneId": "resolving-misunderstanding",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/resolving-misunderstanding/3.mp3",
+      "text": "Leo shows his phone and explains that he did not mean to sound rude, saying, “That's not what I meant.”",
+      "textSha256": "688fe804044e04e1576c819dddf1badc1018866d178e2209c05d54d553534ec3"
+    },
+    {
+      "sceneId": "resolving-misunderstanding",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/resolving-misunderstanding/4.mp3",
+      "text": "He looks at Ethan sincerely and adds, “I am sorry about that.”",
+      "textSha256": "71299674860993a4e8d896bbe096b31b7fa9bc549e6d523d20ac61016577a9af"
+    },
+    {
+      "sceneId": "resolving-misunderstanding",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/resolving-misunderstanding/5.mp3",
+      "text": "Ethan takes a deep breath and is willing to listen carefully to his explanation.",
+      "textSha256": "d4309d96a01a55296202c7893efa47b7edcbce677ca4fe183f32e27b553f603d"
+    },
+    {
+      "sceneId": "resolving-misunderstanding",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/resolving-misunderstanding/6.mp3",
+      "text": "Understanding the whole situation, Ethan smiles and says, “Thanks for explaining.”",
+      "textSha256": "e66a63c15d51cffbf29d77f24e9c2bd8bf7b21f3ef0159fd02a78b15f5109779"
+    },
+    {
+      "sceneId": "resolving-misunderstanding",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/resolving-misunderstanding/7.mp3",
+      "text": "They bump fists happily on the bench, and Leo says, “We are still friends.”",
+      "textSha256": "796cf1006ad4eb6e571a1cd4978e071b976c5799f7443a16eac07b3180e7c418"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/respectful-disagreement/1.mp3",
+      "text": "Maya and Ben are choosing a location for a Friday book swap with thirty students.",
+      "textSha256": "ba43a0e41bdce9b2bc3ad97b67e77d32207948b42be88ae5dfe08dc601e712bf"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/respectful-disagreement/2.mp3",
+      "text": "Ben points to the school courtyard and says, “We could hold it here because there's plenty of space.”",
+      "textSha256": "0ebea6c3f5f93e07ed2b5df79285327dd386bd8c28e6d67ab95829cf12d1c8d0"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/respectful-disagreement/3.mp3",
+      "text": "“I see your point, but the forecast says it might rain,” Maya replies.",
+      "textSha256": "6181069f06638dc97cd8728205364fa9c31125d9fb19c210ccc5fc44ad9a2ffb"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/respectful-disagreement/4.mp3",
+      "text": "“My main concern is keeping the books dry.”",
+      "textSha256": "2db447e863086fdc89d4a158844375a3e243fd7c33f7029154aa631a3a28028b"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/respectful-disagreement/5.mp3",
+      "text": "Ben suggests the library instead, although he is not sure whether it is available.",
+      "textSha256": "69d08967090a76609f192d2168c5ed7f50394587011a584df9a3a2dea6fddf14"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/respectful-disagreement/6.mp3",
+      "text": "“Let's compare the options before we decide,” Maya says.",
+      "textSha256": "86f25807952bc76d4f1f95abd7030248a96ef2164ddb2dc999bd6918947506e4"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/respectful-disagreement/7.mp3",
+      "text": "Ben agrees: “That sounds reasonable, as long as we check how much space we can use.”",
+      "textSha256": "d84bfd449bd03dcab46e2fadfc9a2142697a0bed5ed669317c2a889c294460c6"
+    },
+    {
+      "sceneId": "respectful-disagreement",
+      "sentenceIndex": 7,
+      "src": "/audio/sentences/respectful-disagreement/8.mp3",
+      "text": "They write down their shared goal: a place with enough room and protection from the rain.",
+      "textSha256": "69e0983b78036642b9efca1815e7c0277fb1edabe2becf961d63362914dd2ac3"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/returning-faulty-headphones/1.mp3",
+      "text": "Noah brings a pair of faulty headphones and his receipt to the store.",
+      "textSha256": "4146566ad6db4e92fa7da8c2288ec31df40c0567895edb6b0adc30465fcf4358"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/returning-faulty-headphones/2.mp3",
+      "text": "“The sound cuts out on the left side,” he explains to the assistant.",
+      "textSha256": "d9bf756828756a62bcb3bc42d670342fe0679bbdebfc29581b9c8509978ea412"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/returning-faulty-headphones/3.mp3",
+      "text": "“Could you clarify when it happens?” she asks before testing them.",
+      "textSha256": "87495f1fe0b228533039fc5d701099894a4b50da0a02bc13c829c57ea0fa9bc4"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/returning-faulty-headphones/4.mp3",
+      "text": "Noah replies, “It happens even when the battery is full.”",
+      "textSha256": "7a7eb5bbfa2b90c7592b73b141331236117b8f82896e31a855e4e2e152541bfd"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/returning-faulty-headphones/5.mp3",
+      "text": "The assistant finds the same problem and offers a replacement.",
+      "textSha256": "1ffbe41c072ec259494d15c78b97f499426c604b565985f3a5446b6118a0de4a"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/returning-faulty-headphones/6.mp3",
+      "text": "“Would a refund be possible?” Noah asks, because he has already bought another pair.",
+      "textSha256": "707e565db6dd7f2c4700fe20a6c5545b82e2d4fd390e06445cfb6d344339a15b"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/returning-faulty-headphones/7.mp3",
+      "text": "“I need approval from my manager,” she says, “so I cannot promise a refund yet.”",
+      "textSha256": "2b1d3de139454a782832b2e4904c9b4c71d37290559f2a7aa5df2ac7613ba6f1"
+    },
+    {
+      "sceneId": "returning-faulty-headphones",
+      "sentenceIndex": 7,
+      "src": "/audio/sentences/returning-faulty-headphones/8.mp3",
+      "text": "“Just to confirm, you will check with your manager before I decide,” Noah says.",
+      "textSha256": "44a455c8c67479c9c61b09d13fdd8910f1cdc66222cd13b7de65bf16d756b03c"
+    },
+    {
+      "sceneId": "returning-found-item",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/returning-found-item/1.mp3",
+      "text": "While walking inside the community center, Kevin notices a lost leather wallet on the floor near the entrance.",
+      "textSha256": "d7895ce5281b6a871004dbdb8e5dbccf6df385cbe762e5d421a759b6fc01f8c3"
+    },
+    {
+      "sceneId": "returning-found-item",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/returning-found-item/2.mp3",
+      "text": "He picks up the lost item and decides to return it right away.",
+      "textSha256": "be074549a9fc242bfd4892adae2f1cff5ce86068bc112be473fd4fd08f7eda8e"
+    },
+    {
+      "sceneId": "returning-found-item",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/returning-found-item/3.mp3",
+      "text": "Kevin walks across the lobby to the information desk to report what he discovered.",
+      "textSha256": "4a7e11e4c6e26e191f6623300a9d18a4af2cae8a46404cc3c61c4790f4501efd"
+    },
+    {
+      "sceneId": "returning-found-item",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/returning-found-item/4.mp3",
+      "text": "Approaching the counter, he tells the attendant, “I found this wallet near the door.”",
+      "textSha256": "f80325e015ccda1dc84425c73f386cd31137eed6a16f53327511b765a6e6e4e1"
+    },
+    {
+      "sceneId": "returning-found-item",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/returning-found-item/5.mp3",
+      "text": "The staff member smiles warmly and asks, “Where did you find it?”",
+      "textSha256": "c8d3688b9c162d400d4885905c0c36be75525abcdaba1957a0dfb3f7efcb840b"
+    },
+    {
+      "sceneId": "returning-found-item",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/returning-found-item/6.mp3",
+      "text": "After Kevin explains what happened, the officer says, “Thank you for bringing it here.”",
+      "textSha256": "094f474b33f3a4218de445c59ec9fa4458d7e20a879364e1465cfb847d0033a4"
+    },
+    {
+      "sceneId": "returning-found-item",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/returning-found-item/7.mp3",
+      "text": "She safely stores the item in a drawer and adds, “Someone will be very relieved.”",
+      "textSha256": "beddbb9533049496ab5bf8f9f0009a9fbbfd8b774e1eb570371e965619596647"
+    },
+    {
+      "sceneId": "school-festival",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/school-festival/1.mp3",
+      "text": "Today, every student is excited because our school is holding its annual festival.",
+      "textSha256": "7cebee2d46af73d6a65cc1643188a0572814676bea14cbb11209e7e62b72d2f4"
+    },
+    {
+      "sceneId": "school-festival",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/school-festival/2.mp3",
+      "text": "Our class sets up a colorful booth to sell handmade cookies and fun games.",
+      "textSha256": "7eb2dfc35a4e5078ba81925c52473de7afa8b8f217744750b52df5fe45fc8122"
+    },
+    {
+      "sceneId": "school-festival",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/school-festival/3.mp3",
+      "text": "When visitors walk by, Mia waves happily and calls out, “Welcome to our booth!”",
+      "textSha256": "5ef5c5321dd54df8a783fd600a6e4ff3d2559ec3649c77bfe3a91895e9818cdc"
+    },
+    {
+      "sceneId": "school-festival",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/school-festival/4.mp3",
+      "text": "A friendly customer stops at our table to look around.",
+      "textSha256": "560cc2655f6e47939aa36d127e81b0029a5cf0ffcc9af454e477a4575b78322b"
+    },
+    {
+      "sceneId": "school-festival",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/school-festival/5.mp3",
+      "text": "Leo points to our fresh treats and asks, “Would you like to try one?”",
+      "textSha256": "780eb1513dc948bd9056ff233623bef9c647dd549fb1d8710822afbab350480f"
+    },
+    {
+      "sceneId": "school-festival",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/school-festival/6.mp3",
+      "text": "The customer smiles and says, “One ticket, please.”",
+      "textSha256": "567c32d0bb23ddfedb42084f0a1baa1d876583c1ecbdd587f77ca50d83e2ec8a"
+    },
+    {
+      "sceneId": "school-festival",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/school-festival/7.mp3",
+      "text": "After handing over the snack, the students wave and say, “Thanks for coming!”",
+      "textSha256": "246599614fb791232015610acb34017f1dc0350e6af51e3db6208c6c23f56efd"
+    },
+    {
+      "sceneId": "school-greeting",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/school-greeting/1.mp3",
+      "text": "It is the first day of school, and Leo walks into the classroom.",
+      "textSha256": "4cc2b99c0b09ace33eff24c552bf4fc627bf64a89dbb6f460efd0d97494d5d87"
+    },
+    {
+      "sceneId": "school-greeting",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/school-greeting/2.mp3",
+      "text": "A friendly girl smiles and says, “Hello!”",
+      "textSha256": "312d37e83ef8bdb16c03b274e8e488f4e3c624387be44f89176d9ef9660794c8"
+    },
+    {
+      "sceneId": "school-greeting",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/school-greeting/3.mp3",
+      "text": "Leo smiles back and says, “Hi, my name is Leo.”",
+      "textSha256": "aca126bb0a246fb15634fe262852f2f18b92f82929c6ab484312651ca94784a3"
+    },
+    {
+      "sceneId": "school-greeting",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/school-greeting/4.mp3",
+      "text": "Then he asks, “What is your name?”",
+      "textSha256": "4946220779828ded27b577009b5b51ee79068817936f696b981304da6d4a18cd"
+    },
+    {
+      "sceneId": "school-greeting",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/school-greeting/5.mp3",
+      "text": "The girl says, “Nice to meet you! I am Emma.”",
+      "textSha256": "5024d177aeec809fb278cc9dabbc0517a30b808a7008ec4b9a239cca6f3484da"
+    },
+    {
+      "sceneId": "school-greeting",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/school-greeting/6.mp3",
+      "text": "Leo says, “Nice to meet you, too. Let's be friends!”",
+      "textSha256": "d27c12f6cc0e7ff5142a4ca8c50871d214d33bdaa14a7526a6d406e8cd36b3d5"
+    },
+    {
+      "sceneId": "school-store",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/school-store/1.mp3",
+      "text": "During the break, Kevin walks into the school store.",
+      "textSha256": "68131efd5ff222fbf61666ad2518fac9fb7e3694dfc6a46c020a37c035808e21"
+    },
+    {
+      "sceneId": "school-store",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/school-store/2.mp3",
+      "text": "He is hungry and asks the clerk, “Can I get a snack?”",
+      "textSha256": "8437951c50ca4f515ec13a06c4a01514c9983ae9b542d280176b5cbd3ce52313"
+    },
+    {
+      "sceneId": "school-store",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/school-store/3.mp3",
+      "text": "After choosing a bun, Kevin asks, “Where are the drinks?”",
+      "textSha256": "ed26e2d8a715bd04776dcd1520a486f6647838924deb092aac27845ae49d3c4b"
+    },
+    {
+      "sceneId": "school-store",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/school-store/4.mp3",
+      "text": "He finds a cold bottle in the fridge and asks, “How much is this juice?”",
+      "textSha256": "cd8aa7efdb0f86ee81e73673885288778911947430444977d6b48efc6f614770"
+    },
+    {
+      "sceneId": "school-store",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/school-store/5.mp3",
+      "text": "“The price is thirty dollars,” the clerk answers with a smile.",
+      "textSha256": "0b2d9b5e55f0e74a21316e60de284c9b340fa094a4ef90ccef01aea7ee1dd737"
+    },
+    {
+      "sceneId": "school-store",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/school-store/6.mp3",
+      "text": "Kevin hands her a fifty-dollar coin and says, “Keep the change.”",
+      "textSha256": "f49700196456153fb510c92de55cc54e6e1172bc0040470e6d0d2bfa04742619"
+    },
+    {
+      "sceneId": "school-store",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/school-store/7.mp3",
+      "text": "The clerk laughs, gives him twenty dollars, and says, “Take your change and enjoy your snack!”",
+      "textSha256": "7afb8cff98985cec37061d2cd8703eddbf65e284452fe2f5df437c64b49e83e0"
+    },
+    {
+      "sceneId": "sports-practice",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/sports-practice/1.mp3",
+      "text": "As classes end, Kevin packs his bag and asks Mia, “What time does practice start?”",
+      "textSha256": "924a38f3385fd7a6d479159bfa3c348b1b81be1747cd0f9b439e4afd6382095c"
+    },
+    {
+      "sceneId": "sports-practice",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/sports-practice/2.mp3",
+      "text": "Mia ties her sneakers and says, “It starts at four o'clock. See you on the field.”",
+      "textSha256": "1d5c1db1c58f8cfe0e90228c751b209092828874678ced023223d5c47a06883b"
+    },
+    {
+      "sceneId": "sports-practice",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/sports-practice/3.mp3",
+      "text": "Soon, the whole soccer team gathers on the sports field around their coach.",
+      "textSha256": "cdb60263db69249c4052cb907d08f299a4da8a592b31327222aeb21508c0640e"
+    },
+    {
+      "sceneId": "sports-practice",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/sports-practice/4.mp3",
+      "text": "The coach blows his whistle and explains the drill for Friday's big game.",
+      "textSha256": "30ea9035a6e2c4a9ea17fadb7bb6ba8789d3df4f7b958adb22331bfed8211b55"
+    },
+    {
+      "sceneId": "sports-practice",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/sports-practice/5.mp3",
+      "text": "During drills, Kevin receives the ball and makes a crisp pass to his teammate.",
+      "textSha256": "0de65c44e2e2c25c4c933420b29b70645b7c55fbd222d0a8b28f5acf7966770e"
+    },
+    {
+      "sceneId": "sports-practice",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/sports-practice/6.mp3",
+      "text": "“Nice pass!” shouts Mia as she kicks the soccer ball into the net.",
+      "textSha256": "874dfd1b6877068ea27766a0569f98fc33037f229f91c26d89b65fcc2b55e04b"
+    },
+    {
+      "sceneId": "sports-practice",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/sports-practice/7.mp3",
+      "text": "Before heading home, the players gather in a circle and say, “Let's do our best.”",
+      "textSha256": "8e0f062b9fb59f536afdf3ef9c3717257f52142faaf6cffe35244ffde7d0b3e0"
+    },
+    {
+      "sceneId": "street-directions",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/street-directions/1.mp3",
+      "text": "Leo stops on a neighborhood street and checks his phone.",
+      "textSha256": "b6f5428869970e39ac3c9625a65d679fab9eaa09de5fd89663c80f7a5281fe79"
+    },
+    {
+      "sceneId": "street-directions",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/street-directions/2.mp3",
+      "text": "He asks a woman, “How do I get to the station?”",
+      "textSha256": "d3bd3ee39a7b0d3c7f799969184e7150ca1f3f46ea79acc7dcd98c07c4385cc4"
+    },
+    {
+      "sceneId": "street-directions",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/street-directions/3.mp3",
+      "text": "“Go straight along this street,” she says, pointing ahead.",
+      "textSha256": "a1bf1a0f23ac96459269b5a8575340c92180ba7de59dc4a0d20a153a51856f76"
+    },
+    {
+      "sceneId": "street-directions",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/street-directions/4.mp3",
+      "text": "“Then turn left at the traffic light.”",
+      "textSha256": "24f7898568900c9a245cb692c232d61b225dd82c3e039c252aa25ac59aab4a2a"
+    },
+    {
+      "sceneId": "street-directions",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/street-directions/5.mp3",
+      "text": "“The station is next to the bank.”",
+      "textSha256": "dc8e5ec9a9e191d949254c0f2c06d4351289c2499b43b429f235956d252967a6"
+    },
+    {
+      "sceneId": "street-directions",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/street-directions/6.mp3",
+      "text": "“It's about a five-minute walk from here.”",
+      "textSha256": "32e31c66918acbce6ef99c994a76981447030dd3a877f3560367c2f9ba897d43"
+    },
+    {
+      "sceneId": "street-directions",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/street-directions/7.mp3",
+      "text": "“Thank you for your help,” Leo says.",
+      "textSha256": "d27a76dd68e80bceaa77b7eed28bab4815853653258f3e93f7864f1560abad77"
+    },
+    {
+      "sceneId": "street-directions",
+      "sentenceIndex": 7,
+      "src": "/audio/sentences/street-directions/8.mp3",
+      "text": "He puts away his phone and starts walking.",
+      "textSha256": "440e90bc0d493afde96c1d472aa1849ad4c2d2996104ad5104a862355651a2db"
+    },
+    {
+      "sceneId": "study-group-plan",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/study-group-plan/1.mp3",
+      "text": "After school, three high school classmates gather in the library to organize their weekly study group.",
+      "textSha256": "78a820bdd2ef99ec406d85950d547b5fe767b4d476a1b6300bd1ec3e1bc9d8bd"
+    },
+    {
+      "sceneId": "study-group-plan",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/study-group-plan/2.mp3",
+      "text": "As they open their biology textbooks, Emily suggests, “Let's review this chapter first.”",
+      "textSha256": "5474fb3b7cc04ab80ebf638bf30af0f8f15103b62c568ef6f791d41e3acdd8e2"
+    },
+    {
+      "sceneId": "study-group-plan",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/study-group-plan/3.mp3",
+      "text": "Looking over the upcoming exam requirements, David turns to the team and asks, “What is your main goal?”",
+      "textSha256": "865bc564f298b76c2d389e9c71b5d7eed57bfd5142fd85a27183f2b9e5658b21"
+    },
+    {
+      "sceneId": "study-group-plan",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/study-group-plan/4.mp3",
+      "text": "Next, they discuss how to divide each presentation topic for their class report.",
+      "textSha256": "d6c4ed4c3d09e37b01aeb3b66b1afd175f03e81443d7c807278ad5edec2ac1c0"
+    },
+    {
+      "sceneId": "study-group-plan",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/study-group-plan/5.mp3",
+      "text": "Pointing at the diagram on genetics, Hannah volunteers, “I can cover this section.”",
+      "textSha256": "9320430ecb3e64c4e9e9bf0b46e4156232288684fe76b890b74fd99edefe22fd"
+    },
+    {
+      "sceneId": "study-group-plan",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/study-group-plan/6.mp3",
+      "text": "After finalizing an efficient study schedule, David smiles and says, “Let's take a short break.”",
+      "textSha256": "713e7c85fb9252f6c8f4f1a929b6ea67c8e2a4132ed25f65c427b85984a15a8c"
+    },
+    {
+      "sceneId": "supermarket-shopping",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/supermarket-shopping/1.mp3",
+      "text": "Nora takes a basket at the supermarket.",
+      "textSha256": "1cd6d82bbaf3c94ea0670c8b6e23c57f279cf65467b90e9b9f15909d9a054266"
+    },
+    {
+      "sceneId": "supermarket-shopping",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/supermarket-shopping/2.mp3",
+      "text": "She asks a staff member, “Where can I find the milk?”",
+      "textSha256": "b680e6335a23df855fa99f16f959b9e459e7c5636d64f843e49710255cf42bed"
+    },
+    {
+      "sceneId": "supermarket-shopping",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/supermarket-shopping/3.mp3",
+      "text": "“It's in aisle three,” the staff member says.",
+      "textSha256": "3a144e01b4d92e4df94e398b02f0cff2d070f0132eaf3041b73bc59c0ee9a2dc"
+    },
+    {
+      "sceneId": "supermarket-shopping",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/supermarket-shopping/4.mp3",
+      "text": "She walks with Nora to aisle three and points to the milk on a shelf.",
+      "textSha256": "510371dcc0f8ca72675d27fa70132270abef88b214e706cf9be4064520e36f75"
+    },
+    {
+      "sceneId": "supermarket-shopping",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/supermarket-shopping/5.mp3",
+      "text": "“I'll take a carton of milk,” Nora says, putting it in her basket.",
+      "textSha256": "538b95a0f587166bc5418700fdf99ef7057c38f0da8144624b93dddbe5ed4e3b"
+    },
+    {
+      "sceneId": "supermarket-shopping",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/supermarket-shopping/6.mp3",
+      "text": "She picks up some bread and apples, too.",
+      "textSha256": "dbe65c95bda17042a786cf58146cff3920f0194422498a1d2d37581f093da27c"
+    },
+    {
+      "sceneId": "supermarket-shopping",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/supermarket-shopping/7.mp3",
+      "text": "At checkout, she asks, “Can I pay by card?”",
+      "textSha256": "e968206061c33162c563a496e911ec0d6e1affc6b71484c8bf2062da8a1dfb32"
+    },
+    {
+      "sceneId": "supermarket-shopping",
+      "sentenceIndex": 7,
+      "src": "/audio/sentences/supermarket-shopping/8.mp3",
+      "text": "She pays by card and puts everything in a bag.",
+      "textSha256": "260363b0655333a5830c7c5fc1d700e8a1f93256fb1c07a7230380b5a39354cf"
+    },
+    {
+      "sceneId": "team-project",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/team-project/1.mp3",
+      "text": "After class, our group gathers around a library table to work on an English project.",
+      "textSha256": "6bfe294430fafc1ea97822a07f6b46351f91eb5d57a31b778c37a7c7c887f884"
+    },
+    {
+      "sceneId": "team-project",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/team-project/2.mp3",
+      "text": "Kevin opens his notebook and asks, “What should we do first?”",
+      "textSha256": "28876e540fcbb7a84ca2473a6d5264b0acce9c9f6699f775453359bd28e383fa"
+    },
+    {
+      "sceneId": "team-project",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/team-project/3.mp3",
+      "text": "Mia shares a creative idea about world festivals.",
+      "textSha256": "c6be594ad859de5f6c9a5234d6c2fb536f77cb8ec4e290ef4f4166c58171d736"
+    },
+    {
+      "sceneId": "team-project",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/team-project/4.mp3",
+      "text": "Leo agrees and says, “That's a great idea.”",
+      "textSha256": "d08dfa3118348f60a2df78baf343d9bd0cfd820f1298665fda2c71cdf839c6ea"
+    },
+    {
+      "sceneId": "team-project",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/team-project/5.mp3",
+      "text": "Next, we divide each task, and Mia offers to do the research.",
+      "textSha256": "bb75922bc35fea37bbac67954c7776a511dfd46bf779895962b005d9f9047450"
+    },
+    {
+      "sceneId": "team-project",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/team-project/6.mp3",
+      "text": "Leo smiles and says, “I can make the poster.”",
+      "textSha256": "30ab7e27369e8c360d54a071e0c3b03d8b1f3cb6782c3751ea4faf06d175ca83"
+    },
+    {
+      "sceneId": "team-project",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/team-project/7.mp3",
+      "text": "Before packing up, Kevin says, “Let's meet on Friday.”",
+      "textSha256": "e102c0222710c28c7afec965520d1d5d6fefa4e5b75411ab4267100acb24a33f"
+    },
+    {
+      "sceneId": "tidying-bedroom",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/tidying-bedroom/1.mp3",
+      "text": "Leo looks around his bedroom and says, “Look at this mess.”",
+      "textSha256": "aae79c12e484cb994098ac8740a11e1146e7dbe549adb9c170a4a0f8027839cf"
+    },
+    {
+      "sceneId": "tidying-bedroom",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/tidying-bedroom/2.mp3",
+      "text": "Many blocks and toy cars are all over the floor.",
+      "textSha256": "d101d8b5aa436715ffca65bc29173624776aba50d7904dbdbcbe6dd8c2de4bf5"
+    },
+    {
+      "sceneId": "tidying-bedroom",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/tidying-bedroom/3.mp3",
+      "text": "Mom smiles and says, “Let's put the toys away.”",
+      "textSha256": "2e0cb800ff3162dac884e8a1820ee62539579004b270035c3d3a627cf781f3c7"
+    },
+    {
+      "sceneId": "tidying-bedroom",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/tidying-bedroom/4.mp3",
+      "text": "Leo picks up a toy car, and Mom says, “Put it in the box.”",
+      "textSha256": "c802ec94c4c172cb08c98c8f33d58d4a69bc6cc8d4f208244dd758c9ac83e6e6"
+    },
+    {
+      "sceneId": "tidying-bedroom",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/tidying-bedroom/5.mp3",
+      "text": "They put every toy into the box and make the bed.",
+      "textSha256": "cf7775a938857fc9a02442c610ffa5587d5ce4d0ce05e461616ef235abded87b"
+    },
+    {
+      "sceneId": "tidying-bedroom",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/tidying-bedroom/6.mp3",
+      "text": "Leo looks at his tidy room and smiles, “Now it is clean.”",
+      "textSha256": "b759daed036e406763cd779701a9991f30b5f9e1ac30e2d52d1a980b9b0e31e7"
+    },
+    {
+      "sceneId": "toy-sharing",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/toy-sharing/1.mp3",
+      "text": "Leo and his friend Mia sit on the carpet in the living room.",
+      "textSha256": "bdac155a212321cc9e1fb3a79b6658377e30e7ac20a0a9db4f6ee449246d956d"
+    },
+    {
+      "sceneId": "toy-sharing",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/toy-sharing/2.mp3",
+      "text": "Leo smiles and says, “Let's play together.”",
+      "textSha256": "316a343f0c51dd020c5642b81b60dd085a088fe7115360d37ce2424458e09712"
+    },
+    {
+      "sceneId": "toy-sharing",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/toy-sharing/3.mp3",
+      "text": "Mia looks at the colorful box and asks, “Can I share your toy?”",
+      "textSha256": "051ad12b7ead48d415073a7441d6d9f25ceb220cd3d9ffc67b8f666881b16846"
+    },
+    {
+      "sceneId": "toy-sharing",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/toy-sharing/4.mp3",
+      "text": "Leo hands her a red engine and says, “Here is a train.”",
+      "textSha256": "abebffba808e6bb8e6e53eaa32413174a434f9ee1a0af8984fe08be8f0756d05"
+    },
+    {
+      "sceneId": "toy-sharing",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/toy-sharing/5.mp3",
+      "text": "Mia places a wooden block on the rug to build a bridge.",
+      "textSha256": "f7da7d51ad0cdc1c54b513efa25dac85f5496a558d297b2190df12d9be34b558"
+    },
+    {
+      "sceneId": "toy-sharing",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/toy-sharing/6.mp3",
+      "text": "Together, they connect the pieces and cheer, “We built a track!”",
+      "textSha256": "de44e0b92c508256e6711bf6ed817299edd395780cf5b7d019a76121288732c7"
+    },
+    {
+      "sceneId": "toy-sharing",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/toy-sharing/7.mp3",
+      "text": "The two friends watch the little cars roll and have fun all afternoon.",
+      "textSha256": "bc42a9ab016e4e96f08024a67ccb2aa1e43cc2350073e76930a224b36ee69f4f"
+    },
+    {
+      "sceneId": "train-station-help",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/train-station-help/1.mp3",
+      "text": "Leo and his mother enter the busy train station with their luggage.",
+      "textSha256": "21e80e13a05959cc36a7e7e1d8b2f2fda7d202254e783207dd7617e7c0ef1472"
+    },
+    {
+      "sceneId": "train-station-help",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/train-station-help/2.mp3",
+      "text": "They look up at the large departure board to check the train schedule.",
+      "textSha256": "fd0f5c19a438c9c79247fc9db04a2ec91502eda60d40b9771ab32497377a2150"
+    },
+    {
+      "sceneId": "train-station-help",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/train-station-help/3.mp3",
+      "text": "Leo shows their ticket to a station employee and asks, “Which platform should we go to?”",
+      "textSha256": "812a209acaca308660fe37fe00d9b9dca3939f4d03a0a8adfdde043fafd3248a"
+    },
+    {
+      "sceneId": "train-station-help",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/train-station-help/4.mp3",
+      "text": "The employee checks the ticket and says, “Your train to Taipei is at platform two.”",
+      "textSha256": "3201d6a5128043a009abbadee4701004d72f7dd66e9dc702b7f1d646ea31cba6"
+    },
+    {
+      "sceneId": "train-station-help",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/train-station-help/5.mp3",
+      "text": "Leo looks around the busy station and asks, “Where is platform two?”",
+      "textSha256": "8a4e69d770e13c7bcdc697ef8de9e5e9ae7b87e2ef17ac646f82509cfa5c1251"
+    },
+    {
+      "sceneId": "train-station-help",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/train-station-help/6.mp3",
+      "text": "The employee points toward the stairs and says, “Here is your train.”",
+      "textSha256": "fec41a94055f4d11968dd43daf42eb012e3f781bbc9b1fcf9386b1c673fbd3fc"
+    },
+    {
+      "sceneId": "train-station-help",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/train-station-help/7.mp3",
+      "text": "Leo smiles warmly and says, “Thank you for your help.”",
+      "textSha256": "b05299aeced99fabf5c2767b32c4757ad1a586908016ecf1049d67e77974a53f"
+    },
+    {
+      "sceneId": "volunteer-day",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/volunteer-day/1.mp3",
+      "text": "On Saturday morning, high school students gather in the park to volunteer for their local community.",
+      "textSha256": "2d9a3aa1f84c77a2caf8105770c30a72f814b664de6173a03734425a00a7e64b"
+    },
+    {
+      "sceneId": "volunteer-day",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/volunteer-day/2.mp3",
+      "text": "Meeting the organizer, Leo waves with a warm smile and says, “We are glad to be here.”",
+      "textSha256": "a76d21b5eff8a17fee30ed083f21ac93caba894413ed0f217a2e0571c50f8fe2"
+    },
+    {
+      "sceneId": "volunteer-day",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/volunteer-day/3.mp3",
+      "text": "He puts on sturdy work gloves and asks, “How can I help?”",
+      "textSha256": "f828844df1bf160cb7c86bebd3a509ecafcec9b1be06e8b77a0ba0bec17e5c79"
+    },
+    {
+      "sceneId": "volunteer-day",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/volunteer-day/4.mp3",
+      "text": "Leo teams up with a partner and says, “Let's collect the bottles.”",
+      "textSha256": "57a55fc36b94e200fa5f10578181967657b55c499054f0730576f86c562c2752"
+    },
+    {
+      "sceneId": "volunteer-day",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/volunteer-day/5.mp3",
+      "text": "They pick up discarded trash along the paths to recycle plastic containers properly.",
+      "textSha256": "62635d06e5f8d458a1d2462cd9db18cf894dcc4ff7832c5111a5d9b2dea0fe5a"
+    },
+    {
+      "sceneId": "volunteer-day",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/volunteer-day/6.mp3",
+      "text": "Looking at the tidy walkways, the coordinator shouts, “Great teamwork everyone!”",
+      "textSha256": "7befc7067e91b0af21c8bfcf6a4fa09a35e534867668629093baf53d1dc7ee5a"
+    },
+    {
+      "sceneId": "volunteer-day",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/volunteer-day/7.mp3",
+      "text": "Walking home with new friends, Leo feels proud of making his neighborhood a better place.",
+      "textSha256": "2192725cc4b42d151e3d9d989d7c2c38241abac414f14f2a00ca2b68f215d6f0"
+    },
+    {
+      "sceneId": "weather-clothes",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/weather-clothes/1.mp3",
+      "text": "Leo looks out the window on a rainy morning.",
+      "textSha256": "8e78297abf91c010d8bee469db1959972b03010e50e62dcb99880171fb747446"
+    },
+    {
+      "sceneId": "weather-clothes",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/weather-clothes/2.mp3",
+      "text": "He looks at the raindrops and says, “Look, it is raining!”",
+      "textSha256": "fd89c9ce9fa4baa5481302a15ee89a9b104748b1b68bbcb25dd8ef320a18757d"
+    },
+    {
+      "sceneId": "weather-clothes",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/weather-clothes/3.mp3",
+      "text": "The weather is cold and wet today.",
+      "textSha256": "046ae8b5dc8c60d6a0f33711f52c7e04b028e55b3f24740b9e99b541767bbe2d"
+    },
+    {
+      "sceneId": "weather-clothes",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/weather-clothes/4.mp3",
+      "text": "Leo runs to his room and says, “I need my jacket.”",
+      "textSha256": "323971c3aebffe8ad730fdee286a3d8a2f89f39505a706616a8c8f4a0cbbc06d"
+    },
+    {
+      "sceneId": "weather-clothes",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/weather-clothes/5.mp3",
+      "text": "Mom smiles and says, “Put on your boots.”",
+      "textSha256": "8ecc8941455465174428fb8839a287ab27d3a8c011ed4e3495dd756f735591d1"
+    },
+    {
+      "sceneId": "weather-clothes",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/weather-clothes/6.mp3",
+      "text": "Mom points to the door and says, “Don't forget your umbrella.”",
+      "textSha256": "b7a0cf77fb7b0b1f024ee6ffa1dfd81efd15a6ae70aff177db38960adb4bf052"
+    },
+    {
+      "sceneId": "weather-clothes",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/weather-clothes/7.mp3",
+      "text": "Leo takes his umbrella and smiles, ready to go outside.",
+      "textSha256": "218151719f3790b80c29ee3f2ec5702c67fa9cb2c8837f6ced36566aa9ffba97"
+    },
+    {
+      "sceneId": "weekend-plans",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/weekend-plans/1.mp3",
+      "text": "After class on Friday, Kevin asks Amy, “What are you doing this weekend?”",
+      "textSha256": "94361f81fa297d7d971a2c168987ac267f9f5588d01725b2b2f3c348c0bbeb54"
+    },
+    {
+      "sceneId": "weekend-plans",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/weekend-plans/2.mp3",
+      "text": "Amy smiles and says that she has no special plans.",
+      "textSha256": "77f563e67b204bf3d313a49f5cd6ee58c299ae3034f6518dfbc6720335d989c1"
+    },
+    {
+      "sceneId": "weekend-plans",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/weekend-plans/3.mp3",
+      "text": "“Ethan and I want to ride a bicycle at the riverside park,” Kevin says.",
+      "textSha256": "7d25f51161a7d354b64176eec25dece4a198240e87bd0c7e474255869a940a9d"
+    },
+    {
+      "sceneId": "weekend-plans",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/weekend-plans/4.mp3",
+      "text": "He looks at Amy excitedly and asks, “Do you want to go with us?”",
+      "textSha256": "3e4b13fb08dc66d6836f609b9b0b823a02c98c29ac6e76c19697732405a52b0a"
+    },
+    {
+      "sceneId": "weekend-plans",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/weekend-plans/5.mp3",
+      "text": "“Sounds like fun!” Amy replies with a big smile.",
+      "textSha256": "034dd48fdebb1a233cd23a980989f0557bb98836381ec3580f3c7eeb21618938"
+    },
+    {
+      "sceneId": "weekend-plans",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/weekend-plans/6.mp3",
+      "text": "They agree to meet near the entrance, and Ethan checks the time on his phone.",
+      "textSha256": "42d0008b2186f4c439d80ccb218d744822da783135f96b5c35da833c651b87e2"
+    },
+    {
+      "sceneId": "weekend-plans",
+      "sentenceIndex": 6,
+      "src": "/audio/sentences/weekend-plans/7.mp3",
+      "text": "Kevin waves happily to Amy and says, “See you on Saturday.”",
+      "textSha256": "28d245786e939a556b03a8fa64cc554c283ea38f6b2ae5281db5fb8ca25d0426"
+    },
+    {
+      "sceneId": "zoo-visit",
+      "sentenceIndex": 0,
+      "src": "/audio/sentences/zoo-visit/1.mp3",
+      "text": "On Sunday, my family walks happily into the zoo.",
+      "textSha256": "2bdc7b627ff281326da202469a5a9c817d975c4e775dc4a7df0cb24c85f12e14"
+    },
+    {
+      "sceneId": "zoo-visit",
+      "sentenceIndex": 1,
+      "src": "/audio/sentences/zoo-visit/2.mp3",
+      "text": "We are excited to visit every friendly animal.",
+      "textSha256": "b0ef5fe5c95d6c7500e5ea50c813592b8f886b2a7854f6a1477ca5aa7782d07f"
+    },
+    {
+      "sceneId": "zoo-visit",
+      "sentenceIndex": 2,
+      "src": "/audio/sentences/zoo-visit/3.mp3",
+      "text": "We watch giraffes eat green leaves, and I say, “The giraffe is so tall.”",
+      "textSha256": "30a1b083e6e0610f7b45f32ef28701b348aec72c34e479b001a2974d19017981"
+    },
+    {
+      "sceneId": "zoo-visit",
+      "sentenceIndex": 3,
+      "src": "/audio/sentences/zoo-visit/4.mp3",
+      "text": "Then my little brother points and shouts, “Look at the elephant!”",
+      "textSha256": "e247c1c7f05dea95620ad5a005c677e294475958e93976f564384143e4aac612"
+    },
+    {
+      "sceneId": "zoo-visit",
+      "sentenceIndex": 4,
+      "src": "/audio/sentences/zoo-visit/5.mp3",
+      "text": "Mom holds up her camera and asks, “Can we take a picture?”",
+      "textSha256": "e87b9970b3af99920a69291953dac00047151cfad4c457b3c7823c1c01a4021a"
+    },
+    {
+      "sceneId": "zoo-visit",
+      "sentenceIndex": 5,
+      "src": "/audio/sentences/zoo-visit/6.mp3",
+      "text": "We all smile together for the camera, and I say, “I love the zoo!”",
+      "textSha256": "3a151b513dc7b6a3e74644cb941b461e0f37b8e9587b70cb73bdc27406f23a60"
+    }
+  ]
+}

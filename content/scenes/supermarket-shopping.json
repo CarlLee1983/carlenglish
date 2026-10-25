@@ -35,7 +35,13 @@
           "text": "."
         }
       ],
-      "translation": "Nora 在超市拿了一個購物籃。"
+      "translation": "Nora 在超市拿了一個購物籃。",
+      "audio": {
+        "src": "/audio/sentences/supermarket-shopping/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1cd6d82bbaf3c94ea0670c8b6e23c57f279cf65467b90e9b9f15909d9a054266",
+        "sha256": "7d0ed080a56ddb5832dc0bd5257917b25ed03ea7cf62eccba324f4b1ad4e941c"
+      }
     },
     {
       "segments": [
@@ -67,7 +73,13 @@
           "text": "”"
         }
       ],
-      "translation": "她問店員：「請問牛奶在哪裡？」"
+      "translation": "她問店員：「請問牛奶在哪裡？」",
+      "audio": {
+        "src": "/audio/sentences/supermarket-shopping/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b680e6335a23df855fa99f16f959b9e459e7c5636d64f843e49710255cf42bed",
+        "sha256": "e36c7f83212216941758b54207f1ef35632c7b61e0cc925af6f4e80e71901f55"
+      }
     },
     {
       "segments": [
@@ -99,7 +111,13 @@
           "text": ",” the staff member says."
         }
       ],
-      "translation": "店員說：「在第三走道。」"
+      "translation": "店員說：「在第三走道。」",
+      "audio": {
+        "src": "/audio/sentences/supermarket-shopping/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3a144e01b4d92e4df94e398b02f0cff2d070f0132eaf3041b73bc59c0ee9a2dc",
+        "sha256": "36ab3c6f21e04c0132dddb1a50f2d647df3a436d3c830a8a94f8fd294ef64d85"
+      }
     },
     {
       "segments": [
@@ -134,7 +152,13 @@
           "text": "."
         }
       ],
-      "translation": "她陪 Nora 走到第三走道，指給她看架上的牛奶。"
+      "translation": "她陪 Nora 走到第三走道，指給她看架上的牛奶。",
+      "audio": {
+        "src": "/audio/sentences/supermarket-shopping/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "510371dcc0f8ca72675d27fa70132270abef88b214e706cf9be4064520e36f75",
+        "sha256": "29adea439a649968a82c83d9f9642def428f49b82bfa1c06bf3f061f6781bc58"
+      }
     },
     {
       "segments": [
@@ -169,7 +193,13 @@
           "text": "."
         }
       ],
-      "translation": "Nora 說：「我要拿一盒牛奶。」說完便把牛奶放進購物籃。"
+      "translation": "Nora 說：「我要拿一盒牛奶。」說完便把牛奶放進購物籃。",
+      "audio": {
+        "src": "/audio/sentences/supermarket-shopping/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "538b95a0f587166bc5418700fdf99ef7057c38f0da8144624b93dddbe5ed4e3b",
+        "sha256": "67e135ce331eaa6de1b0e49943bdd2b9f8becd21cfe591cff7819da994d7ba9f"
+      }
     },
     {
       "segments": [
@@ -186,7 +216,13 @@
           "text": " and apples, too."
         }
       ],
-      "translation": "她也拿了一些麵包和蘋果。"
+      "translation": "她也拿了一些麵包和蘋果。",
+      "audio": {
+        "src": "/audio/sentences/supermarket-shopping/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dbe65c95bda17042a786cf58146cff3920f0194422498a1d2d37581f093da27c",
+        "sha256": "120ac258c3fa920a6eb1fac71e20dbd771b1ec74b9d1464486f978c9466eb0e8"
+      }
     },
     {
       "segments": [
@@ -235,7 +271,13 @@
           "text": "”"
         }
       ],
-      "translation": "結帳時，她問：「可以刷卡嗎？」"
+      "translation": "結帳時，她問：「可以刷卡嗎？」",
+      "audio": {
+        "src": "/audio/sentences/supermarket-shopping/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e968206061c33162c563a496e911ec0d6e1affc6b71484c8bf2062da8a1dfb32",
+        "sha256": "5d31ef98f5979db1b82ecb6de0c34617cd0e69aef3bdcfc9d8613f6982b85cc6"
+      }
     },
     {
       "segments": [
@@ -255,7 +297,13 @@
           "text": " and puts everything in a bag."
         }
       ],
-      "translation": "她刷卡付了錢，並把買的東西都放進袋子裡。"
+      "translation": "她刷卡付了錢，並把買的東西都放進袋子裡。",
+      "audio": {
+        "src": "/audio/sentences/supermarket-shopping/8.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "260363b0655333a5830c7c5fc1d700e8a1f93256fb1c07a7230380b5a39354cf",
+        "sha256": "25d8ed5ecb135b5bba6a94512be3eb2f8f49697b950c9c58b4ec9b4609785cec"
+      }
     }
   ],
   "phrases": [
@@ -412,11 +460,5 @@
         "sha256": "379b17c7f903d9f58ffd53b00ee0cf27d9957fa9e296891078b0f2270262142f"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/supermarket-shopping.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "6e27906f0c6f17dabcf1e5897adc4d7d1123a8a080104cf4626a5939239a79ef",
-    "sha256": "b3ab4641657cacf1120b8094f0272e1d83a497a9ecec2bdf2b1a8f3b00281716"
-  }
+  ]
 }

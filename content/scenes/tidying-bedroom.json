@@ -35,7 +35,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 看著自己的臥室並說：「看這團亂七八糟。」"
+      "translation": "Leo 看著自己的臥室並說：「看這團亂七八糟。」",
+      "audio": {
+        "src": "/audio/sentences/tidying-bedroom/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "aae79c12e484cb994098ac8740a11e1146e7dbe549adb9c170a4a0f8027839cf",
+        "sha256": "7937bd36836addb11cbfc1b61f42e89ba63ce2fb3611be9bddf2216d1090d583"
+      }
     },
     {
       "segments": [
@@ -61,7 +67,13 @@
           "text": "."
         }
       ],
-      "translation": "好多積木和玩具車散落得整座地板都是。"
+      "translation": "好多積木和玩具車散落得整座地板都是。",
+      "audio": {
+        "src": "/audio/sentences/tidying-bedroom/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d101d8b5aa436715ffca65bc29173624776aba50d7904dbdbcbe6dd8c2de4bf5",
+        "sha256": "fcaa7eb09bcac0350c230a598d08a26cd0be58b761dcda5618cf4554616ad532"
+      }
     },
     {
       "segments": [
@@ -78,7 +90,13 @@
           "text": "”"
         }
       ],
-      "translation": "媽媽微笑著說：「我們把玩具收好吧。」"
+      "translation": "媽媽微笑著說：「我們把玩具收好吧。」",
+      "audio": {
+        "src": "/audio/sentences/tidying-bedroom/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2e0cb800ff3162dac884e8a1820ee62539579004b270035c3d3a627cf781f3c7",
+        "sha256": "0393f653b7ea254140b880d0c5a27b889f414f068104464c373352e65c36067b"
+      }
     },
     {
       "segments": [
@@ -119,7 +137,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 撿起一輛玩具車，媽媽說：「把它放進箱子裡。」"
+      "translation": "Leo 撿起一輛玩具車，媽媽說：「把它放進箱子裡。」",
+      "audio": {
+        "src": "/audio/sentences/tidying-bedroom/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c802ec94c4c172cb08c98c8f33d58d4a69bc6cc8d4f208244dd758c9ac83e6e6",
+        "sha256": "14b4ad2fa2b61830ee235a80746b223070136e7c5f454ba7d827ab214fb0fc44"
+      }
     },
     {
       "segments": [
@@ -154,7 +178,13 @@
           "text": "."
         }
       ],
-      "translation": "他們把每個玩具都放進箱子裡，並把床鋪整理好。"
+      "translation": "他們把每個玩具都放進箱子裡，並把床鋪整理好。",
+      "audio": {
+        "src": "/audio/sentences/tidying-bedroom/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cf7775a938857fc9a02442c610ffa5587d5ce4d0ce05e461616ef235abded87b",
+        "sha256": "0dd4d69736c6e587b4de60458212090dd7a25d1f0baf1ce6488f51f8e1ea4401"
+      }
     },
     {
       "segments": [
@@ -186,7 +216,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 看著整齊的房間微笑著說：「現在變乾淨了。」"
+      "translation": "Leo 看著整齊的房間微笑著說：「現在變乾淨了。」",
+      "audio": {
+        "src": "/audio/sentences/tidying-bedroom/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b759daed036e406763cd779701a9991f30b5f9e1ac30e2d52d1a980b9b0e31e7",
+        "sha256": "e6841ee14b211376b8310dc1aba3e27ea673d0b8db7b42a0c49ce136e1e829d2"
+      }
     }
   ],
   "phrases": [
@@ -308,11 +344,5 @@
         "sha256": "83e21a204d39206ea6b152c41413a56744bfc31dbf126efa4a7a1d4e0cb1b691"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/tidying-bedroom.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "9c8fcce28db387650726484808bcbc3d605c960e124c0b00b734fc2294f8e022",
-    "sha256": "68b07ea546482ed97fbe21726a35e8428495ffd4a693b9cbcf9b1f19af46f760"
-  }
+  ]
 }

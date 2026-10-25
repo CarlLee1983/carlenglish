@@ -35,7 +35,13 @@
           "text": " named Sam."
         }
       ],
-      "translation": "午休時，Leo 坐在中庭的長椅上，與一位名叫 Sam 的新朋友開啟了交談。"
+      "translation": "午休時，Leo 坐在中庭的長椅上，與一位名叫 Sam 的新朋友開啟了交談。",
+      "audio": {
+        "src": "/audio/sentences/making-new-friends/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "50b61e835444447d88496764163f594ff69099d9e2774d590bc5ace679c4d8d4",
+        "sha256": "2638e057cd2adab6e7a90ff298fafac0ea35ad697497a2dbbfd3c13df4383b40"
+      }
     },
     {
       "segments": [
@@ -52,7 +58,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 對 Sam 的興趣感到好奇，轉向他問道：「你平時喜歡做什麼？」"
+      "translation": "Leo 對 Sam 的興趣感到好奇，轉向他問道：「你平時喜歡做什麼？」",
+      "audio": {
+        "src": "/audio/sentences/making-new-friends/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6480c37299a3f0ba6da4bb0189ba531de7e01b7631b52655d58739d4e3958fb7",
+        "sha256": "faf775cbccf12767bb7edcd1c6becb6ee85b4fb788d8699745d5b81e26622055"
+      }
     },
     {
       "segments": [
@@ -84,7 +96,13 @@
           "text": "”"
         }
       ],
-      "translation": "Sam 指著自己的樂器盒回答：「我非常喜歡彈吉他。」"
+      "translation": "Sam 指著自己的樂器盒回答：「我非常喜歡彈吉他。」",
+      "audio": {
+        "src": "/audio/sentences/making-new-friends/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "af90002dfbecdd95170bba35fe17271cd28807c0730a14a5f2a6793df2fbe34d",
+        "sha256": "efd4571efff22d84ae715747470812fadaf7b55b1478ee62fd74a99195c76cb2"
+      }
     },
     {
       "segments": [
@@ -101,7 +119,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 興奮地眼睛一亮，回答道：「我也是！」"
+      "translation": "Leo 興奮地眼睛一亮，回答道：「我也是！」",
+      "audio": {
+        "src": "/audio/sentences/making-new-friends/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f58f5406369b9b0586c3e9e4994874d01cb1954b9a995204769b32a4f1dd2f36",
+        "sha256": "3f0bb2eb8e1269623cfc17ee3ebc5a76f481a941b09065ddd7a306fe9d85ff9e"
+      }
     },
     {
       "segments": [
@@ -136,7 +160,13 @@
           "text": " to after school."
         }
       ],
-      "translation": "他們很快發現音樂是彼此共同的嗜好，並聊起放學後經常聆聽的歌曲。"
+      "translation": "他們很快發現音樂是彼此共同的嗜好，並聊起放學後經常聆聽的歌曲。",
+      "audio": {
+        "src": "/audio/sentences/making-new-friends/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c3f56509923ef08eb7c7ca4707ba4304c38bebd95e760374ee1ab43a7f632c15",
+        "sha256": "75f2837b964a5ca06768bde6f5bebd32eb65ea2868d9529836587121e7a12938"
+      }
     },
     {
       "segments": [
@@ -153,7 +183,13 @@
           "text": "”"
         }
       ],
-      "translation": "在鐘聲響起之前，他們開心地交換了聯絡方式，Sam 說：「我們有空一起出去玩吧。」"
+      "translation": "在鐘聲響起之前，他們開心地交換了聯絡方式，Sam 說：「我們有空一起出去玩吧。」",
+      "audio": {
+        "src": "/audio/sentences/making-new-friends/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b56c2b1af9d3be0bf4eca5f49ace5d63e088fe21cd39a4852312ed1dc34c1c8e",
+        "sha256": "6c1fc3ba817cc0605d5e2141f5427d8d0a57b2e852b442b0aabe50b1476e86c0"
+      }
     }
   ],
   "phrases": [
@@ -275,11 +311,5 @@
         "sha256": "6416aac0d1f779622670541abe57a1eb9cea78ee8a746f664f93f06fa5820258"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/making-new-friends.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "9cbe8a1c7782580df229cbe9b1ef47574aa1bd87dfc683273a83257fe77185e9",
-    "sha256": "008b7edccc68fdf6443f7339ba8011d7682b6efc319ff346dc22e62ae0c42b38"
-  }
+  ]
 }

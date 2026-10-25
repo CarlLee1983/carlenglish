@@ -26,7 +26,13 @@
           "text": "."
         }
       ],
-      "translation": "下課時間，Kevin 走進學校福利社。"
+      "translation": "下課時間，Kevin 走進學校福利社。",
+      "audio": {
+        "src": "/audio/sentences/school-store/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "68131efd5ff222fbf61666ad2518fac9fb7e3694dfc6a46c020a37c035808e21",
+        "sha256": "cd1977b90411d94984f82b785bcb323bc4793bf05d22bc02ca29f1038215b449"
+      }
     },
     {
       "segments": [
@@ -58,7 +64,13 @@
           "text": "”"
         }
       ],
-      "translation": "他肚子餓了，便問店員：「我可以買個點心嗎？」"
+      "translation": "他肚子餓了，便問店員：「我可以買個點心嗎？」",
+      "audio": {
+        "src": "/audio/sentences/school-store/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8437951c50ca4f515ec13a06c4a01514c9983ae9b542d280176b5cbd3ce52313",
+        "sha256": "999cd4e6a16d80046907f78a7c10545252b7da329560f3f8f5737b9697822c0c"
+      }
     },
     {
       "segments": [
@@ -75,7 +87,13 @@
           "text": "”"
         }
       ],
-      "translation": "挑好一個麵包後，Kevin 問道：「飲料在哪裡？」"
+      "translation": "挑好一個麵包後，Kevin 問道：「飲料在哪裡？」",
+      "audio": {
+        "src": "/audio/sentences/school-store/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ed26e2d8a715bd04776dcd1520a486f6647838924deb092aac27845ae49d3c4b",
+        "sha256": "db8f67f0ca56cd3b82c9271ad29275738ca0b5efc130ccf907e1c626acf11bb3"
+      }
     },
     {
       "segments": [
@@ -116,7 +134,13 @@
           "text": "”"
         }
       ],
-      "translation": "他在冰箱裡拿了一瓶冰涼的飲料，並問：「這瓶果汁多少錢？」"
+      "translation": "他在冰箱裡拿了一瓶冰涼的飲料，並問：「這瓶果汁多少錢？」",
+      "audio": {
+        "src": "/audio/sentences/school-store/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cd8aa7efdb0f86ee81e73673885288778911947430444977d6b48efc6f614770",
+        "sha256": "176af9eded10cfe82507507217dc971188f52bcbb9fff6143a0c481e4d2153a0"
+      }
     },
     {
       "segments": [
@@ -133,7 +157,13 @@
           "text": " is thirty dollars,” the clerk answers with a smile."
         }
       ],
-      "translation": "店員微笑著回答：「價格是三十元。」"
+      "translation": "店員微笑著回答：「價格是三十元。」",
+      "audio": {
+        "src": "/audio/sentences/school-store/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0b2d9b5e55f0e74a21316e60de284c9b340fa094a4ef90ccef01aea7ee1dd737",
+        "sha256": "793a123cf4c69f12423dfdbcbbf678199642637652860c2f95b02c1419d43bf3"
+      }
     },
     {
       "segments": [
@@ -165,7 +195,13 @@
           "text": "”"
         }
       ],
-      "translation": "Kevin 遞給她一枚五十元硬幣並說：「不用找零了。」"
+      "translation": "Kevin 遞給她一枚五十元硬幣並說：「不用找零了。」",
+      "audio": {
+        "src": "/audio/sentences/school-store/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f49700196456153fb510c92de55cc54e6e1172bc0040470e6d0d2bfa04742619",
+        "sha256": "26e39ec10507f8ef61b0e9bb1579a87bb5b3ec0163eb7fbc7bc53a716fb1f60f"
+      }
     },
     {
       "segments": [
@@ -191,7 +227,13 @@
           "text": "!”"
         }
       ],
-      "translation": "店員笑著找給他二十元，並說：「收下你的零錢，好好享用點心吧！」"
+      "translation": "店員笑著找給他二十元，並說：「收下你的零錢，好好享用點心吧！」",
+      "audio": {
+        "src": "/audio/sentences/school-store/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7afb8cff98985cec37061d2cd8703eddbf65e284452fe2f5df437c64b49e83e0",
+        "sha256": "7848b00c5aed1d719762da2d49d612a9702dbeb332ebe9d3389ea62c71d9de2a"
+      }
     }
   ],
   "phrases": [
@@ -313,11 +355,5 @@
         "sha256": "ab70d0e9359e26ac5225062379f3b8a47b193a63ddafa4c4afac65927442d3d1"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/school-store.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "fc06cd3bbac397f5d563368c7bc72d7ef00b82d2ddb76c0c00815b696f23d560",
-    "sha256": "144d868fcf5bb16cb508f4e4afabbf8c32e10d06acc0dfc0b39819378dbd4d85"
-  }
+  ]
 }

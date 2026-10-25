@@ -41,7 +41,13 @@
           "text": "”"
         }
       ],
-      "translation": "放學鐘聲響起，Kevin 收拾背包並問 Mia：「練習什麼時候開始？」"
+      "translation": "放學鐘聲響起，Kevin 收拾背包並問 Mia：「練習什麼時候開始？」",
+      "audio": {
+        "src": "/audio/sentences/sports-practice/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "924a38f3385fd7a6d479159bfa3c348b1b81be1747cd0f9b439e4afd6382095c",
+        "sha256": "a69b3d67748ad3dc8d1fa74368411eee4c71ff4a8feea0a05a4eeedbf216f142"
+      }
     },
     {
       "segments": [
@@ -73,7 +79,13 @@
           "text": "”"
         }
       ],
-      "translation": "Mia 繫好球鞋鞋帶並說：「四點開始。球場上見。」"
+      "translation": "Mia 繫好球鞋鞋帶並說：「四點開始。球場上見。」",
+      "audio": {
+        "src": "/audio/sentences/sports-practice/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1d5c1db1c58f8cfe0e90228c751b209092828874678ced023223d5c47a06883b",
+        "sha256": "a15fa5152454aa061ade4887fd0b2043c795790ab18056e3f644540a5c986990"
+      }
     },
     {
       "segments": [
@@ -108,7 +120,13 @@
           "text": "."
         }
       ],
-      "translation": "不久後，整個足球隊聚集在球場上，圍繞在教練身邊。"
+      "translation": "不久後，整個足球隊聚集在球場上，圍繞在教練身邊。",
+      "audio": {
+        "src": "/audio/sentences/sports-practice/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cdb60263db69249c4052cb907d08f299a4da8a592b31327222aeb21508c0640e",
+        "sha256": "974520d2803d993205b9ab3477d90fbcff918c6f0f196363222567e0be855051"
+      }
     },
     {
       "segments": [
@@ -134,7 +152,13 @@
           "text": "."
         }
       ],
-      "translation": "教練吹響哨子，為週五的重要比賽講解訓練動作。"
+      "translation": "教練吹響哨子，為週五的重要比賽講解訓練動作。",
+      "audio": {
+        "src": "/audio/sentences/sports-practice/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "30ea9035a6e2c4a9ea17fadb7bb6ba8789d3df4f7b958adb22331bfed8211b55",
+        "sha256": "2a6c9d3508cdb9dcbeee4982a21148faaa6fc58eb5bc9b3fb672dce8f8fae5ad"
+      }
     },
     {
       "segments": [
@@ -151,7 +175,13 @@
           "text": " to his teammate."
         }
       ],
-      "translation": "在訓練過程中，Kevin 接住球並俐落地傳球給隊友。"
+      "translation": "在訓練過程中，Kevin 接住球並俐落地傳球給隊友。",
+      "audio": {
+        "src": "/audio/sentences/sports-practice/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0de65c44e2e2c25c4c933420b29b70645b7c55fbd222d0a8b28f5acf7966770e",
+        "sha256": "1e96a11ee933bab56f418223129ce8284a65f43c9476e06066d67948101bc4be"
+      }
     },
     {
       "segments": [
@@ -183,7 +213,13 @@
           "text": "” shouts Mia as she kicks the soccer ball into the net."
         }
       ],
-      "translation": "「傳得好！」Mia 將足球踢入球門時大喊著。"
+      "translation": "「傳得好！」Mia 將足球踢入球門時大喊著。",
+      "audio": {
+        "src": "/audio/sentences/sports-practice/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "874dfd1b6877068ea27766a0569f98fc33037f229f91c26d89b65fcc2b55e04b",
+        "sha256": "200c75228cd88672d66aa5cb9a2418458f894aa1a7b9967167b40199090e6eba"
+      }
     },
     {
       "segments": [
@@ -200,7 +236,13 @@
           "text": "”"
         }
       ],
-      "translation": "在回家之前，球員們圍成一圈說：「我們全力以赴吧。」"
+      "translation": "在回家之前，球員們圍成一圈說：「我們全力以赴吧。」",
+      "audio": {
+        "src": "/audio/sentences/sports-practice/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8e0f062b9fb59f536afdf3ef9c3717257f52142faaf6cffe35244ffde7d0b3e0",
+        "sha256": "feba26680024b0cee41ff336bad1bbe50aed043a7d65cf04ef6337ac6f44070c"
+      }
     }
   ],
   "phrases": [
@@ -322,11 +364,5 @@
         "sha256": "a70ecb43aa0d6212d5cabef34b2d24eb40470e882531391e62d67ae2ea0091b2"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/sports-practice.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "e08b907b59d27196d812a8fbc2ea3074d0f2edae8552e6fb42555939dc63a532",
-    "sha256": "45dd0ad7acd13e4ca036c832314b2f88ebc7fcacb9b30200da9f0b13374d75d7"
-  }
+  ]
 }

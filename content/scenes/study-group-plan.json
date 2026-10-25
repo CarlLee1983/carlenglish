@@ -26,7 +26,13 @@
           "text": "."
         }
       ],
-      "translation": "放學後，三位高中同學聚集在圖書館，籌備他們的每週讀書會。"
+      "translation": "放學後，三位高中同學聚集在圖書館，籌備他們的每週讀書會。",
+      "audio": {
+        "src": "/audio/sentences/study-group-plan/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "78a820bdd2ef99ec406d85950d547b5fe767b4d476a1b6300bd1ec3e1bc9d8bd",
+        "sha256": "44e6a85fd1e0028f18ba7b3799284f63df6eb2e62e142bbb79a58aca2da23bb1"
+      }
     },
     {
       "segments": [
@@ -73,7 +79,13 @@
           "text": "”"
         }
       ],
-      "translation": "當他們翻開生物教科書時，Emily 提議道：「我們先來複習這個章節吧。」"
+      "translation": "當他們翻開生物教科書時，Emily 提議道：「我們先來複習這個章節吧。」",
+      "audio": {
+        "src": "/audio/sentences/study-group-plan/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5474fb3b7cc04ab80ebf638bf30af0f8f15103b62c568ef6f791d41e3acdd8e2",
+        "sha256": "3a829f497bd82499ce3983a5eca8ee795f097d23bf8d5740e5f1565dfb2b0eed"
+      }
     },
     {
       "segments": [
@@ -105,7 +117,13 @@
           "text": "”"
         }
       ],
-      "translation": "檢視著即將到來的考試要求，David 轉向團隊問道：「你的主要目標是什麼？」"
+      "translation": "檢視著即將到來的考試要求，David 轉向團隊問道：「你的主要目標是什麼？」",
+      "audio": {
+        "src": "/audio/sentences/study-group-plan/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "865bc564f298b76c2d389e9c71b5d7eed57bfd5142fd85a27183f2b9e5658b21",
+        "sha256": "9b728b4eb5b0c120667f6b49299a0e442a84409e5ea16e8dad1cea06173f320c"
+      }
     },
     {
       "segments": [
@@ -122,7 +140,13 @@
           "text": " for their class report."
         }
       ],
-      "translation": "接著，他們討論如何為課堂報告分配各個簡報主題。"
+      "translation": "接著，他們討論如何為課堂報告分配各個簡報主題。",
+      "audio": {
+        "src": "/audio/sentences/study-group-plan/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d6c4ed4c3d09e37b01aeb3b66b1afd175f03e81443d7c807278ad5edec2ac1c0",
+        "sha256": "d22a8b7881f73aaca640e1a6e7006c23d16454cc570bdeda56c0aa367117df0a"
+      }
     },
     {
       "segments": [
@@ -139,7 +163,13 @@
           "text": "”"
         }
       ],
-      "translation": "指著遺傳學圖表，Hannah 自告奮勇說：「我可以負責這個部分。」"
+      "translation": "指著遺傳學圖表，Hannah 自告奮勇說：「我可以負責這個部分。」",
+      "audio": {
+        "src": "/audio/sentences/study-group-plan/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9320430ecb3e64c4e9e9bf0b46e4156232288684fe76b890b74fd99edefe22fd",
+        "sha256": "d53c718b3213677aa5b6d358930d767124efa6eace11726402f0cc73384a062a"
+      }
     },
     {
       "segments": [
@@ -165,7 +195,13 @@
           "text": "”"
         }
       ],
-      "translation": "在敲定了一份高效率的讀書進度表後，David 微笑著說：「我們稍微休息一下吧。」"
+      "translation": "在敲定了一份高效率的讀書進度表後，David 微笑著說：「我們稍微休息一下吧。」",
+      "audio": {
+        "src": "/audio/sentences/study-group-plan/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "713e7c85fb9252f6c8f4f1a929b6ea67c8e2a4132ed25f65c427b85984a15a8c",
+        "sha256": "dcfc673a12353788c94b8527a1f4497e2e573e461c0c5d75b66e1822d22371f1"
+      }
     }
   ],
   "phrases": [
@@ -287,11 +323,5 @@
         "sha256": "e7e03486e8093bb4717c54c6f82a8b33991066735cf100a9ddf352f356e173ee"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/study-group-plan.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "f5ca6e97ad0904a972c9e8eda8c566609b41564335f846ccfdadc419b3bc948d",
-    "sha256": "96d58e3dc08605ee23d9102c36e0e29d8c5ea09262102049d5af230766efc786"
-  }
+  ]
 }

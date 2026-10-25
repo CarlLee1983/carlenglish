@@ -35,7 +35,13 @@
           "text": " for an exciting field trip."
         }
       ],
-      "translation": "今天，我們班來到歷史博物館進行令人興奮的校外教學。"
+      "translation": "今天，我們班來到歷史博物館進行令人興奮的校外教學。",
+      "audio": {
+        "src": "/audio/sentences/museum-field-trip/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4c8b8ea811f692a18fec22696032250f373ced2b32ea186c038e87619237dda4",
+        "sha256": "e149f600688635f2c1d313320f20694bf42966d1feddd5d50865edb22ac144f2"
+      }
     },
     {
       "segments": [
@@ -61,7 +67,13 @@
           "text": " at the entrance and gives us maps."
         }
       ],
-      "translation": "一位親切的博物館導覽員在門口迎接我們這組，並發給大家地圖。"
+      "translation": "一位親切的博物館導覽員在門口迎接我們這組，並發給大家地圖。",
+      "audio": {
+        "src": "/audio/sentences/museum-field-trip/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "68ec12f856df8bf0af200f4a738c957cec9978e4e5e2971b955ddf306eae2dd4",
+        "sha256": "20465e17aaeec843fb3d85588388c9c62764ab79ed0f25f93fe0d6d53a2cdc53"
+      }
     },
     {
       "segments": [
@@ -93,7 +105,13 @@
           "text": "”"
         }
       ],
-      "translation": "在我們探索展廳之前，陳老師提醒大家：「做些筆記。」"
+      "translation": "在我們探索展廳之前，陳老師提醒大家：「做些筆記。」",
+      "audio": {
+        "src": "/audio/sentences/museum-field-trip/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ccc056663f1c0fb8611d1c60f84084d4e391c570648e1238c50f0deb2252e895",
+        "sha256": "1f3f2326a4f514ca75e18f4efd83f240ff8b31f94bc67cbd223feb9ce45aa350"
+      }
     },
     {
       "segments": [
@@ -125,7 +143,13 @@
           "text": "”"
         }
       ],
-      "translation": "在古代展廳裡，Leo 指著玻璃櫃悄悄說：「看這個展覽品。」"
+      "translation": "在古代展廳裡，Leo 指著玻璃櫃悄悄說：「看這個展覽品。」",
+      "audio": {
+        "src": "/audio/sentences/museum-field-trip/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8ff3e6bd45ecedee040dc620fc1a77433fba6a8bd7d5f48a4a52b2fa4216541c",
+        "sha256": "5e98eebadde462bda10e58e560891989db771f77fa7151a8a387c4b8e33a3071"
+      }
     },
     {
       "segments": [
@@ -133,7 +157,13 @@
           "text": "We admire a rare gold bowl from thousands of years ago and write down facts about it."
         }
       ],
-      "translation": "我們欣賞著一件數千年前的珍貴黃金碗，並記錄下關於它的歷史資訊。"
+      "translation": "我們欣賞著一件數千年前的珍貴黃金碗，並記錄下關於它的歷史資訊。",
+      "audio": {
+        "src": "/audio/sentences/museum-field-trip/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a1cadf1cdc1d5a814c52152f7a4484bea4cf67cabc93d40243a03ec17626654d",
+        "sha256": "8d5cd88eaf299e9417c26a48a6017da952da1b32bbd1102c104015f87ffd0a0b"
+      }
     },
     {
       "segments": [
@@ -150,7 +180,13 @@
           "text": "”"
         }
       ],
-      "translation": "午餐時間快到了，Emily 舉手問道：「我們應該在哪裡集合？」"
+      "translation": "午餐時間快到了，Emily 舉手問道：「我們應該在哪裡集合？」",
+      "audio": {
+        "src": "/audio/sentences/museum-field-trip/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e45eb595fb6bacccdd241e7f144f981566d8d0f5e7087b190ce34a98748a7007",
+        "sha256": "e46bb865f90d412ce97da5111aff88eb8372950c138dad68f93b190ea9a94d6f"
+      }
     },
     {
       "segments": [
@@ -167,7 +203,13 @@
           "text": "”"
         }
       ],
-      "translation": "陳老師微笑著宣布：「中午在正門口集合。別遲到。」"
+      "translation": "陳老師微笑著宣布：「中午在正門口集合。別遲到。」",
+      "audio": {
+        "src": "/audio/sentences/museum-field-trip/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e26f27343d3bda04ca9a184f68fd296c1cfb23620f139764a1afd0f2cc8e5a52",
+        "sha256": "02a35518d4dc2c4cf6c25ba4ef4ca19177cc26e9033c4c40167f5db1f73cda83"
+      }
     }
   ],
   "phrases": [
@@ -289,11 +331,5 @@
         "sha256": "3e6ba46332703800b7fca7bea4d03ed08729ea03fc84a270eb6b60517ac7c0e5"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/museum-field-trip.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "728baa21568827e67e687fd3f2db86e813274f52f5bf84521145be64b1d31e3c",
-    "sha256": "e7e8c675889ffa132261e3cfd4b295b9f3f615b631c66a36186f3568eea306ff"
-  }
+  ]
 }

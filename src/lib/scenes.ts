@@ -1,7 +1,7 @@
 import { existsSync, readFileSync, readdirSync, realpathSync, statSync } from 'node:fs';
 import { dirname, isAbsolute, join, relative, resolve } from 'node:path';
 import { audio, voiceProfile, type AudioClip, type VoiceProfile } from './audio-validation.ts';
-import { canonicalStoryText } from './audio-text.ts';
+import { canonicalSentenceText } from './audio-text.ts';
 import { array, identifier, nonblank, record } from './validation.ts';
 
 export interface Segment {
@@ -11,6 +11,7 @@ export interface Segment {
 }
 
 export interface Sentence {
+  audio: AudioClip;
   segments: Segment[];
   translation: string;
 }
@@ -33,7 +34,6 @@ export interface Scene {
   category: string;
   level: string;
   image: { src: string; alt: string; width: number; height: number };
-  audio: AudioClip;
   voiceProfile: VoiceProfile;
   sentences: Sentence[];
   phrases: Phrase[];
@@ -163,7 +163,11 @@ function validateScenesAt(entries: { source: string; data: unknown }[], publicDi
       if (!segments.map((segment) => segment.text).join('').trim()) {
         issues.push(`${sentencePath}.segments: combined sentence text must be nonempty`);
       }
-      return { segments, translation: nonblank(sentence.translation, `${sentencePath}.translation`, issues) };
+      return {
+        segments,
+        translation: nonblank(sentence.translation, `${sentencePath}.translation`, issues),
+        audio: audio(sentence.audio, `${sentencePath}.audio`, publicDir, 'sentences', canonicalSentenceText({ segments }), profile, issues),
+      };
     });
     phrases.forEach((item, index) => {
       if (item.id && !usedPhrases.has(item.id)) issues.push(`${source}.phrases[${index}].id: unreferenced phrase "${item.id}"`);
@@ -179,7 +183,6 @@ function validateScenesAt(entries: { source: string; data: unknown }[], publicDi
       category: nonblank(data.category, `${source}.category`, issues),
       level: nonblank(data.level, `${source}.level`, issues),
       image: image(data.image, `${source}.image`, publicDir, issues),
-      audio: audio(data.audio, `${source}.audio`, publicDir, 'stories', canonicalStoryText(sentences), profile, issues),
       voiceProfile: profile,
       sentences,
       phrases,

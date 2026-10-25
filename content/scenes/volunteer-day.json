@@ -35,7 +35,13 @@
           "text": "."
         }
       ],
-      "translation": "週六早晨，高中生們在公園集合，為當地的社區擔任志工。"
+      "translation": "週六早晨，高中生們在公園集合，為當地的社區擔任志工。",
+      "audio": {
+        "src": "/audio/sentences/volunteer-day/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2d9a3aa1f84c77a2caf8105770c30a72f814b664de6173a03734425a00a7e64b",
+        "sha256": "b9bb0bd75ece6d39449549f9e398ecca6da559a3aa2e163ebadf6a75c166db8f"
+      }
     },
     {
       "segments": [
@@ -52,7 +58,13 @@
           "text": "”"
         }
       ],
-      "translation": "見到主辦人時，Leo 帶著溫暖的微笑揮手並說：「我們很高興能來到這裡。」"
+      "translation": "見到主辦人時，Leo 帶著溫暖的微笑揮手並說：「我們很高興能來到這裡。」",
+      "audio": {
+        "src": "/audio/sentences/volunteer-day/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a76d21b5eff8a17fee30ed083f21ac93caba894413ed0f217a2e0571c50f8fe2",
+        "sha256": "9ab84acbbd007f88c1d1d80b8406fa31fe0253f68d09d7934ddbdef0d0849d67"
+      }
     },
     {
       "segments": [
@@ -69,7 +81,13 @@
           "text": "”"
         }
       ],
-      "translation": "他戴上結實的工作手套並詢問：「我該如何幫忙？」"
+      "translation": "他戴上結實的工作手套並詢問：「我該如何幫忙？」",
+      "audio": {
+        "src": "/audio/sentences/volunteer-day/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f828844df1bf160cb7c86bebd3a509ecafcec9b1be06e8b77a0ba0bec17e5c79",
+        "sha256": "6b0a376aae9a22dbf198b6267d282b54324eb940101a89b9a521ccd188577a47"
+      }
     },
     {
       "segments": [
@@ -110,7 +128,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 與一位夥伴組隊，並說：「我們來收集瓶子吧。」"
+      "translation": "Leo 與一位夥伴組隊，並說：「我們來收集瓶子吧。」",
+      "audio": {
+        "src": "/audio/sentences/volunteer-day/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "57a55fc36b94e200fa5f10578181967657b55c499054f0730576f86c562c2752",
+        "sha256": "acbd84156647b81d9c167dc2247a5a64188c16db34ec688689d75feb567ee645"
+      }
     },
     {
       "segments": [
@@ -127,7 +151,13 @@
           "text": " plastic containers properly."
         }
       ],
-      "translation": "他們沿著步道撿起被丟棄的垃圾，妥善回收塑膠容器。"
+      "translation": "他們沿著步道撿起被丟棄的垃圾，妥善回收塑膠容器。",
+      "audio": {
+        "src": "/audio/sentences/volunteer-day/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "62635d06e5f8d458a1d2462cd9db18cf894dcc4ff7832c5111a5d9b2dea0fe5a",
+        "sha256": "53e2be7108da70c3fde197802ea37f9cbe46fa22cfa33d50acd5ca8ef07de95c"
+      }
     },
     {
       "segments": [
@@ -144,7 +174,13 @@
           "text": "”"
         }
       ],
-      "translation": "看著整潔的步道，協調員高喊：「大家團隊合作太棒了！」"
+      "translation": "看著整潔的步道，協調員高喊：「大家團隊合作太棒了！」",
+      "audio": {
+        "src": "/audio/sentences/volunteer-day/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7befc7067e91b0af21c8bfcf6a4fa09a35e534867668629093baf53d1dc7ee5a",
+        "sha256": "4306601502cfd13550ae41cde27d5519c6ceab10f64a4fc29bda5d4e6e9f5ee7"
+      }
     },
     {
       "segments": [
@@ -161,7 +197,13 @@
           "text": " of making his neighborhood a better place."
         }
       ],
-      "translation": "與新朋友們一起走回家時，Leo 為讓自己的社區變得更美好而感到驕傲。"
+      "translation": "與新朋友們一起走回家時，Leo 為讓自己的社區變得更美好而感到驕傲。",
+      "audio": {
+        "src": "/audio/sentences/volunteer-day/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2192725cc4b42d151e3d9d989d7c2c38241abac414f14f2a00ca2b68f215d6f0",
+        "sha256": "893edcccb7a1ef43a35264930b1b0bc85692eccd7e61d3b6baca30057b74fbb5"
+      }
     }
   ],
   "phrases": [
@@ -283,11 +325,5 @@
         "sha256": "0cd325aaa8a0c696f2c807f1086d9eb2fa6cf82779e370add7d5687f9cf88f0a"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/volunteer-day.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "7e26003ccf1ebd5117f5b52e087f2c8ff7284a897275a671df1491f4fb113967",
-    "sha256": "22ddd12d89736b701cf53184b5bab11310b28566786aff01002612ad7a5391e4"
-  }
+  ]
 }

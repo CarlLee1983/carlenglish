@@ -5,7 +5,7 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import test from 'node:test';
 import { ContentError, getScene, loadScenes, validateScenes } from '../src/lib/scenes.ts';
-import { canonicalStoryText, textSha256 } from '../src/lib/audio-text.ts';
+import { canonicalSentenceText, textSha256 } from '../src/lib/audio-text.ts';
 
 const audioBytes = Buffer.from('nonempty audio fixture');
 const fileSha256 = createHash('sha256').update(audioBytes).digest('hex');
@@ -30,7 +30,7 @@ function fixture() {
   mkdirSync(join(root, 'content', 'audio'), { recursive: true });
   writeFileSync(join(root, 'content', 'audio', 'voice-profile.json'), JSON.stringify(profile()));
   writeFileSync(join(publicDir, 'images', 'scenes', 'cafe.webp'), 'image');
-  for (const category of ['words', 'phrases', 'stories']) {
+  for (const category of ['words', 'phrases', 'sentences']) {
     mkdirSync(join(publicDir, 'audio', category), { recursive: true });
     writeFileSync(join(publicDir, 'audio', category, 'sample.mp3'), audioBytes);
   }
@@ -52,12 +52,12 @@ function scene(id = 'cafe-breakfast') {
       { text: 'coffee.', wordIds: [`word-${((i + 1) % 6) + 1}`] },
     ],
     translation: `我點了咖啡 ${i + 1}。`,
+    audio: clip('sentences', 'I ask for coffee.'),
   }));
   return {
     id, title: '咖啡店買早餐', titleEn: 'Breakfast at a café', category: 'Food', level: 'Beginner',
     image: { src: '/images/scenes/cafe.webp', alt: 'A customer ordering breakfast', width: 1200, height: 800 },
     sentences,
-    audio: clip('stories', canonicalStoryText(sentences)),
     phrases, words,
   };
 }
@@ -95,7 +95,7 @@ test('valid overlapping and repeated annotations preserve segment text and resol
   data.words[0].id = data.phrases[0].id;
   data.sentences[0].segments[0].wordIds = [data.words[0].id];
   data.sentences[0].segments.push({ text: ' Again!', phraseIds: [data.phrases[0].id], wordIds: [data.words[0].id] });
-  data.audio.textSha256 = textSha256(canonicalStoryText(data.sentences));
+  data.sentences.forEach((sentence) => { sentence.audio = clip('sentences', canonicalSentenceText(sentence)); });
   const [result] = validateScenes([{ source: 'sample.json', data }], publicDir, profile());
   assert.equal(result.sentences[0].segments.map((segment) => segment.text).join(''), 'I ask for coffee. Again!');
   assert.deepEqual(result.sentences[0].segments[0].phraseIds, ['phrase-1']);
@@ -104,19 +104,19 @@ test('valid overlapping and repeated annotations preserve segment text and resol
   assert.deepEqual(result.words[0].audio, data.words[0].audio);
 }));
 
-test('requires clips on words, phrases, and stories and preserves one shared voice profile', () => withFixture(({ publicDir }) => {
+test('requires clips on words, phrases, and sentences and preserves one shared voice profile', () => withFixture(({ publicDir }) => {
   const valid = scene();
   const [result] = validateScenes([{ source: 'sample.json', data: valid }], publicDir, profile());
   assert.deepEqual(result.words.map((word) => word.audio), valid.words.map((word) => word.audio));
   assert.deepEqual(result.phrases.map((phrase) => phrase.audio), valid.phrases.map((phrase) => phrase.audio));
-  assert.deepEqual(result.audio, valid.audio);
+  assert.deepEqual(result.sentences[0].audio, valid.sentences[0].audio);
   assert.deepEqual(result.voiceProfile, profile());
-  for (const location of ['word', 'phrase', 'story']) {
+  for (const location of ['word', 'phrase', 'sentence']) {
     const data = scene();
     if (location === 'word') delete data.words[0].audio;
     if (location === 'phrase') delete data.phrases[0].audio;
-    if (location === 'story') delete data.audio;
-    expectIssue(data, publicDir, location === 'story' ? 'sample.json.audio' : location === 'word' ? 'words[0].audio' : 'phrases[0].audio');
+    if (location === 'sentence') delete data.sentences[0].audio;
+    expectIssue(data, publicDir, location === 'sentence' ? 'sentences[0].audio' : location === 'word' ? 'words[0].audio' : 'phrases[0].audio');
   }
   for (const field of ['src', 'voiceId', 'textSha256', 'sha256']) {
     const data = scene();
@@ -125,12 +125,12 @@ test('requires clips on words, phrases, and stories and preserves one shared voi
   }
 }));
 
-test('clips reject extra fields at story, phrase, and word locations', () => withFixture(({ publicDir }) => {
-  for (const location of ['story', 'phrase', 'word']) {
+test('clips reject extra fields at sentence, phrase, and word locations', () => withFixture(({ publicDir }) => {
+  for (const location of ['sentence', 'phrase', 'word']) {
     const data = scene();
-    const target = location === 'story' ? data.audio : location === 'phrase' ? data.phrases[0].audio : data.words[0].audio;
+    const target = location === 'sentence' ? data.sentences[0].audio : location === 'phrase' ? data.phrases[0].audio : data.words[0].audio;
     target.licenseName = 'old clip attribution';
-    const path = location === 'story' ? 'sample.json.audio.licenseName'
+    const path = location === 'sentence' ? 'sentences[0].audio.licenseName'
       : location === 'phrase' ? 'phrases[0].audio.licenseName' : 'words[0].audio.licenseName';
     expectIssue(data, publicDir, path);
   }
@@ -184,9 +184,9 @@ test('clips require category paths, nonempty files, containment, and matching ha
   const wrongCategory = scene();
   wrongCategory.phrases[0].audio.src = '/audio/words/sample.mp3';
   expectIssue(wrongCategory, publicDir, 'phrases[0].audio.src');
-  const wrongStoryCategory = scene();
-  wrongStoryCategory.audio.src = '/audio/phrases/sample.mp3';
-  expectIssue(wrongStoryCategory, publicDir, 'sample.json.audio.src');
+  const wrongSentenceCategory = scene();
+  wrongSentenceCategory.sentences[0].audio.src = '/audio/phrases/sample.mp3';
+  expectIssue(wrongSentenceCategory, publicDir, 'sentences[0].audio.src');
   writeFileSync(join(publicDir, 'audio', 'words', 'sample.mp3'), 'different bytes');
   expectIssue(scene(), publicDir, 'words[0].audio.sha256');
 }));
@@ -198,15 +198,37 @@ test('stale canonical text and mismatched voice IDs are rejected at all clip lev
   const phrase = scene();
   phrase.phrases[0].english = 'Changed phrase';
   expectIssue(phrase, publicDir, 'phrases[0].audio.textSha256');
-  const story = scene();
-  story.sentences[0].segments[0].text = 'Changed sentence. ';
-  expectIssue(story, publicDir, 'sample.json.audio.textSha256');
-  for (const location of ['word', 'phrase', 'story']) {
+  const sentence = scene();
+  sentence.sentences[0].segments[0].text = 'Changed sentence. ';
+  expectIssue(sentence, publicDir, 'sentences[0].audio.textSha256');
+  for (const location of ['word', 'phrase', 'sentence']) {
     const data = scene();
-    const target = location === 'word' ? data.words[0].audio : location === 'phrase' ? data.phrases[0].audio : data.audio;
+    const target = location === 'word' ? data.words[0].audio : location === 'phrase' ? data.phrases[0].audio : data.sentences[0].audio;
     target.voiceId = 'another-voice';
-    expectIssue(data, publicDir, `${location === 'story' ? 'sample.json' : location === 'word' ? 'words[0]' : 'phrases[0]'}.audio.voiceId`);
+    expectIssue(data, publicDir, `${location === 'sentence' ? 'sentences[0]' : location === 'word' ? 'words[0]' : 'phrases[0]'}.audio.voiceId`);
   }
+}));
+
+test('sentence clips require matching canonical text, voice, category, and existing bytes', () => withFixture(({ publicDir }) => {
+  const valid = scene();
+  const [result] = validateScenes([{ source: 'sample.json', data: valid }], publicDir, profile());
+  assert.deepEqual(result.sentences.map(({ audio }) => audio), valid.sentences.map(({ audio }) => audio));
+  const missing = scene();
+  delete missing.sentences[0].audio;
+  expectIssue(missing, publicDir, 'sentences[0].audio');
+  const stale = scene();
+  stale.sentences[0].segments[0].text += ' ';
+  expectIssue(stale, publicDir, 'sentences[0].audio.textSha256');
+  for (const [field, value] of [
+    ['voiceId', 'another-voice'], ['src', '/audio/stories/sample.mp3'],
+    ['src', '/audio/sentences/missing.mp3'], ['sha256', 'a'.repeat(64)],
+  ]) {
+    const data = scene();
+    data.sentences[0].audio[field] = value;
+    expectIssue(data, publicDir, `sentences[0].audio.${field}`);
+  }
+  writeFileSync(join(publicDir, 'audio', 'sentences', 'sample.mp3'), '');
+  expectIssue(scene(), publicDir, 'sentences[0].audio.src');
 }));
 
 test('rejects references on whitespace-only segments but permits unannotated spacing', () => withFixture(({ publicDir }) => {
@@ -216,7 +238,7 @@ test('rejects references on whitespace-only segments but permits unannotated spa
 
   const valid = scene();
   valid.sentences[0].segments.splice(1, 0, { text: ' ' });
-  valid.audio.textSha256 = textSha256(canonicalStoryText(valid.sentences));
+  valid.sentences.forEach((sentence) => { sentence.audio = clip('sentences', canonicalSentenceText(sentence)); });
   const [result] = validateScenes([{ source: 'sample.json', data: valid }], publicDir, profile());
   assert.equal(result.sentences[0].segments.map(({ text }) => text).join(''), 'I ask for  coffee.');
 }));
@@ -276,13 +298,12 @@ test('accepts maximum-length scenes while rejecting any larger story or learning
       translation: `第 ${i + 1} 句翻譯。`,
     };
   });
-  data.audio.textSha256 = textSha256(canonicalStoryText(data.sentences));
+  data.sentences.forEach((sentence) => { sentence.audio = clip('sentences', canonicalSentenceText(sentence)); });
   const [result] = validateScenes([{ source: 'sample.json', data }], publicDir, profile());
   assert.deepEqual([result.sentences.length, result.phrases.length, result.words.length], [8, 6, 8]);
   for (const [field, range] of [['sentences', '5–8'], ['phrases', '4–6'], ['words', '6–8']]) {
     const invalid = structuredClone(data);
     invalid[field].push(structuredClone(invalid[field][0]));
-    invalid.audio.textSha256 = textSha256(canonicalStoryText(invalid.sentences));
     assert.throws(() => validateScenes([{ source: 'sample.json', data: invalid }], publicDir, profile()),
       (error) => error instanceof ContentError && error.issues.includes(`sample.json.${field}: expected ${range} items, found ${invalid[field].length}`));
   }

@@ -26,7 +26,13 @@
           "text": " Ethan."
         }
       ],
-      "translation": "放學後，Leo 坐在木長椅上，與他的朋友 Ethan 坦誠地交談。"
+      "translation": "放學後，Leo 坐在木長椅上，與他的朋友 Ethan 坦誠地交談。",
+      "audio": {
+        "src": "/audio/sentences/resolving-misunderstanding/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b75ea4da10ea70c5cc28832563dd40d20fdfbcc2d5dd8010e7f25ee81cc2fb8d",
+        "sha256": "c2bdcb3874165d529429cd8cf9c11df73f221401404b1765546a7e7a6481a541"
+      }
     },
     {
       "segments": [
@@ -52,7 +58,13 @@
           "text": " sent yesterday."
         }
       ],
-      "translation": "因為昨天發送的一則令人困惑的簡訊，他們之間產生了尷尬的誤會。"
+      "translation": "因為昨天發送的一則令人困惑的簡訊，他們之間產生了尷尬的誤會。",
+      "audio": {
+        "src": "/audio/sentences/resolving-misunderstanding/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5c14c6729afba0dae1cdd28fcfee8483d903e8977c768fc5e65f3140261dd153",
+        "sha256": "5e7f3b9c94c9ece1875179296b1c0d0b510b4823ad26feceac14e9d7e03019b4"
+      }
     },
     {
       "segments": [
@@ -93,7 +105,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 拿出手機並解釋自己並沒有想要表現得很無禮，說道：「那不是我的意思。」"
+      "translation": "Leo 拿出手機並解釋自己並沒有想要表現得很無禮，說道：「那不是我的意思。」",
+      "audio": {
+        "src": "/audio/sentences/resolving-misunderstanding/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "688fe804044e04e1576c819dddf1badc1018866d178e2209c05d54d553534ec3",
+        "sha256": "8dd8eca6cd1049dd4dfad1738e7b6da7dfc5a562a93ece1426a79d23b02a1383"
+      }
     },
     {
       "segments": [
@@ -125,7 +143,13 @@
           "text": "”"
         }
       ],
-      "translation": "他真誠地看著 Ethan 並補充說：「我對那件事感到很抱歉。」"
+      "translation": "他真誠地看著 Ethan 並補充說：「我對那件事感到很抱歉。」",
+      "audio": {
+        "src": "/audio/sentences/resolving-misunderstanding/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "71299674860993a4e8d896bbe096b31b7fa9bc549e6d523d20ac61016577a9af",
+        "sha256": "9cbf4c981f17928c142563c7353eedc84c92c6fb7ca6c7cb327658e13ec13f86"
+      }
     },
     {
       "segments": [
@@ -142,7 +166,13 @@
           "text": " carefully to his explanation."
         }
       ],
-      "translation": "Ethan 深吸了一口氣，願意仔細聆聽他的解釋。"
+      "translation": "Ethan 深吸了一口氣，願意仔細聆聽他的解釋。",
+      "audio": {
+        "src": "/audio/sentences/resolving-misunderstanding/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d4309d96a01a55296202c7893efa47b7edcbce677ca4fe183f32e27b553f603d",
+        "sha256": "80add269fd4dfc407bd800e52a0f2c2e7404efc4b25e511d697333b42368fd67"
+      }
     },
     {
       "segments": [
@@ -159,7 +189,13 @@
           "text": "”"
         }
       ],
-      "translation": "理解了整個情況後，Ethan 微笑著說：「謝謝你的說明。」"
+      "translation": "理解了整個情況後，Ethan 微笑著說：「謝謝你的說明。」",
+      "audio": {
+        "src": "/audio/sentences/resolving-misunderstanding/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e66a63c15d51cffbf29d77f24e9c2bd8bf7b21f3ef0159fd02a78b15f5109779",
+        "sha256": "055a45a1486fec64f0b78743418d99f8af4f9f43d57f883ec6863718e8fd44a5"
+      }
     },
     {
       "segments": [
@@ -191,7 +227,13 @@
           "text": "”"
         }
       ],
-      "translation": "他們在長椅上開心地碰拳，Leo 說道：「我們依然是朋友。」"
+      "translation": "他們在長椅上開心地碰拳，Leo 說道：「我們依然是朋友。」",
+      "audio": {
+        "src": "/audio/sentences/resolving-misunderstanding/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "796cf1006ad4eb6e571a1cd4978e071b976c5799f7443a16eac07b3180e7c418",
+        "sha256": "472ee1f6679dd75b9f93963a8fbad385fb7283384a21fe7f6509c2dcb82098d3"
+      }
     }
   ],
   "phrases": [
@@ -313,11 +355,5 @@
         "sha256": "41795ebd2f97a8c441c1651c448933cc26ac8b4ea1fc6bdfdd07274e9eb74953"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/resolving-misunderstanding.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "af9126bbee12afbd1a75ea3a58706513d18f6246dbb9c0091c5e81e041ba0398",
-    "sha256": "d40c68f88e0d24d4d7e9efd6a41b5b6ff2609f291127c6a106f70a854165fda2"
-  }
+  ]
 }

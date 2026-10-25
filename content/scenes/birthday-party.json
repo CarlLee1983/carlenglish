@@ -35,7 +35,13 @@
           "text": "."
         }
       ],
-      "translation": "今天，Leo 到 Sam 家參加有趣的生日聚會。"
+      "translation": "今天，Leo 到 Sam 家參加有趣的生日聚會。",
+      "audio": {
+        "src": "/audio/sentences/birthday-party/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "275d7a49b2e9bd700728e2641c35bf0debfa386d74a992a3527ef9cbec69bcdf",
+        "sha256": "6b273868ddf8c38704017c2d89ad3a8da6acb289723b2d3e3ba81fe072aa2ff4"
+      }
     },
     {
       "segments": [
@@ -52,7 +58,13 @@
           "text": "”"
         }
       ],
-      "translation": "所有的朋友溫暖地微笑並歡呼：「生日快樂！」"
+      "translation": "所有的朋友溫暖地微笑並歡呼：「生日快樂！」",
+      "audio": {
+        "src": "/audio/sentences/birthday-party/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1bad966d0fc7a472157f99195dd55fd49c4c1c8592789579522757942f96965c",
+        "sha256": "0904f2eb1932f4e98b34dc98dd467a672f7c2879b2978891dd507a2a1ad8e76e"
+      }
     },
     {
       "segments": [
@@ -78,7 +90,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 遞給 Sam 一份包裝好的禮物並說：「這份禮物是給你的。」"
+      "translation": "Leo 遞給 Sam 一份包裝好的禮物並說：「這份禮物是給你的。」",
+      "audio": {
+        "src": "/audio/sentences/birthday-party/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7b750d2dbb68433d469c582bcbe21480f8c6a0db56a16ee2543fba5f0f688218",
+        "sha256": "29ae65f4e18fe9e03e27d8331753dcb37f7541220073918b78a2e9848cd34643"
+      }
     },
     {
       "segments": [
@@ -95,7 +113,13 @@
           "text": " together."
         }
       ],
-      "translation": "他們圍在桌子旁，一起唱著歡樂的生日歌。"
+      "translation": "他們圍在桌子旁，一起唱著歡樂的生日歌。",
+      "audio": {
+        "src": "/audio/sentences/birthday-party/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6957fba7605f8c06789c92146ae9ebf102c815fc4f2c38486684de68123434a8",
+        "sha256": "5fa549547be7e6edf3227f25cf1f1c09e00ee42ee3b647177cdfa5f538ee1b1d"
+      }
     },
     {
       "segments": [
@@ -121,7 +145,13 @@
           "text": " on top."
         }
       ],
-      "translation": "媽媽端出一個香甜的蛋糕，上面插著一根發光的蠟燭。"
+      "translation": "媽媽端出一個香甜的蛋糕，上面插著一根發光的蠟燭。",
+      "audio": {
+        "src": "/audio/sentences/birthday-party/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0a7a7d6909a52e7021eb308048ef6ed655670044390c6958aa13a9047fb7d8a3",
+        "sha256": "902a15d727b41d1e6d568c13812469fc204a4b49ac1a3305b4c98b40d2e62741"
+      }
     },
     {
       "segments": [
@@ -138,7 +168,13 @@
           "text": "” and Sam blows out the candle."
         }
       ],
-      "translation": "大家喊著：「許個願吧！」Sam 接著吹熄了蠟燭。"
+      "translation": "大家喊著：「許個願吧！」Sam 接著吹熄了蠟燭。",
+      "audio": {
+        "src": "/audio/sentences/birthday-party/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "79521506fb9ebe11afdd57ebc31496bdaad89c169755e67438b95ed04f5179ac",
+        "sha256": "8eaff32b871bf47912708fcfa2299006593df150f3a6c707a7ed7cc9b6763dd1"
+      }
     },
     {
       "segments": [
@@ -155,7 +191,13 @@
           "text": "”"
         }
       ],
-      "translation": "Sam 對著朋友們微笑說：「謝謝你們來參加。」"
+      "translation": "Sam 對著朋友們微笑說：「謝謝你們來參加。」",
+      "audio": {
+        "src": "/audio/sentences/birthday-party/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "eb865d262f1c6d499a2708326815af9f2dbb16c121ecd66fd5a77a0af6476ae9",
+        "sha256": "87d18e523e8e9a5c28436e08099dd2f62da2b635cf45bf48a88dd6ab318fc959"
+      }
     }
   ],
   "phrases": [
@@ -277,11 +319,5 @@
         "sha256": "a1e2ef8e410d32e4a3fa9f8378d13c1fed372dda6dd99e2b6c1e28468e59dab2"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/birthday-party.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "6edf7eba40907941beb0324579b02d055bfc73ac5489c7c7b0aac77b3268db27",
-    "sha256": "f10e19dc43bb34c101fdfefbadc53bbfcfa2a48bcf92f2ac9c5a2a05cb58c38c"
-  }
+  ]
 }

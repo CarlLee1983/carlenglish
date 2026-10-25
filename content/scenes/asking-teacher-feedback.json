@@ -26,7 +26,13 @@
           "text": "."
         }
       ],
-      "translation": "下課後，Kevin 留在教室裡找他的英文老師談談。"
+      "translation": "下課後，Kevin 留在教室裡找他的英文老師談談。",
+      "audio": {
+        "src": "/audio/sentences/asking-teacher-feedback/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "050ff9bb8fc7a679ec04cfeca1c44af147b04ed8de50c0a5bb9ecb8c30ec8cc1",
+        "sha256": "4dc42d72d2b7e70bdabed276d600bbbb886f8e64097404aa288f7e0c995784c5"
+      }
     },
     {
       "segments": [
@@ -52,7 +58,13 @@
           "text": "."
         }
       ],
-      "translation": "他看著寫在他作文上很有幫助的批改意見。"
+      "translation": "他看著寫在他作文上很有幫助的批改意見。",
+      "audio": {
+        "src": "/audio/sentences/asking-teacher-feedback/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6b019fe06a3ae0a050baeca624ee2e6ba8d6f98281d22524136cf3f90acfe7ce",
+        "sha256": "1dc8a1ef33f91eab30fe3bd81203af6235deea24040aa7550526becc564f7963"
+      }
     },
     {
       "segments": [
@@ -84,7 +96,13 @@
           "text": "”"
         }
       ],
-      "translation": "Kevin 指著一段評語問道：「您可以解釋這部分嗎？」"
+      "translation": "Kevin 指著一段評語問道：「您可以解釋這部分嗎？」",
+      "audio": {
+        "src": "/audio/sentences/asking-teacher-feedback/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "865107d01f856aecc959a6965e4059e162378efe794088b738c67469bd13b779",
+        "sha256": "d656878fd636c6d65cb71d6b0c84593ef5ca47e42d085ff4873e7148dd12ed11"
+      }
     },
     {
       "segments": [
@@ -116,7 +134,13 @@
           "text": "”"
         }
       ],
-      "translation": "他想寫得更好，便問道：「我該如何改進我的寫作呢？」"
+      "translation": "他想寫得更好，便問道：「我該如何改進我的寫作呢？」",
+      "audio": {
+        "src": "/audio/sentences/asking-teacher-feedback/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e71f556740321367bf6355b627e427035b6f934ca7177fcb73bf4d7b1fdfc7e2",
+        "sha256": "9fc5e2fdd857f19bdf70700764853b00aa81061a270ce4c1f1f5bbea452e4b56"
+      }
     },
     {
       "segments": [
@@ -142,7 +166,13 @@
           "text": " on organizing his main ideas."
         }
       ],
-      "translation": "老師就如何組織主要論點給了他明確的建議。"
+      "translation": "老師就如何組織主要論點給了他明確的建議。",
+      "audio": {
+        "src": "/audio/sentences/asking-teacher-feedback/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1fc5eab1cbfa121361f3b487f9ba9799cdd8b3c511dd33e94657dc058347b827",
+        "sha256": "b76caaf06dcf7fcbd98c160066cd636db43e59b5a3267eed97e0db59ca651980"
+      }
     },
     {
       "segments": [
@@ -174,7 +204,13 @@
           "text": "”"
         }
       ],
-      "translation": "Kevin 微笑著說：「謝謝您的建議。」"
+      "translation": "Kevin 微笑著說：「謝謝您的建議。」",
+      "audio": {
+        "src": "/audio/sentences/asking-teacher-feedback/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0bf48d40d200b5fe71eef115e5c80f1bfaa43410dfc3ca4b4a29c2ff02a4ad07",
+        "sha256": "64e61fdc9678d5e24d5ce685446ec8a5d2e480badc06b22d184ebe7972e0674b"
+      }
     },
     {
       "segments": [
@@ -200,7 +236,13 @@
           "text": "”"
         }
       ],
-      "translation": "老師也對他微笑並鼓勵道：「繼續保持優異的表現。」"
+      "translation": "老師也對他微笑並鼓勵道：「繼續保持優異的表現。」",
+      "audio": {
+        "src": "/audio/sentences/asking-teacher-feedback/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0b45d97d2a2dda5dbc0db803832a3ce0501c95653e7ae981e1f6617be19cb084",
+        "sha256": "aeabe002dd215e9b292487876c8f77530f934087827a846c7522d3c5261075e3"
+      }
     }
   ],
   "phrases": [
@@ -322,11 +364,5 @@
         "sha256": "d771b482680346954262f5e0ad12eb48e8a3e3ae771f772805052b58b3ad4acd"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/asking-teacher-feedback.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "ebdfbc5e5bff2197320cba400d699b4ca7bd06fe9af0afc1007f8be679ff226b",
-    "sha256": "2a5b659f78b173bc646e971c94a31ba595089993cc83c13513a83f26db13c9ec"
-  }
+  ]
 }

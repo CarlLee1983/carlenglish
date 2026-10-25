@@ -26,7 +26,13 @@
           "text": " for a Friday book swap with thirty students."
         }
       ],
-      "translation": "Maya 和 Ben 正在為三十位學生參加的週五換書活動挑選場地。"
+      "translation": "Maya 和 Ben 正在為三十位學生參加的週五換書活動挑選場地。",
+      "audio": {
+        "src": "/audio/sentences/respectful-disagreement/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ba43a0e41bdce9b2bc3ad97b67e77d32207948b42be88ae5dfe08dc601e712bf",
+        "sha256": "c51ff86353bf0127b5e1d7e344f52fc9a889a5133dd04dd6058261cd06fe0199"
+      }
     },
     {
       "segments": [
@@ -52,7 +58,13 @@
           "text": " because there's plenty of space.”"
         }
       ],
-      "translation": "Ben 指著學校中庭說：「我們可以在這裡辦，因為空間很充足。」"
+      "translation": "Ben 指著學校中庭說：「我們可以在這裡辦，因為空間很充足。」",
+      "audio": {
+        "src": "/audio/sentences/respectful-disagreement/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0ebea6c3f5f93e07ed2b5df79285327dd386bd8c28e6d67ab95829cf12d1c8d0",
+        "sha256": "a81580ad1ba51e432c9c1b7ff4776d5a0ea71c02ece83ba13f4e7f21ed78dd73"
+      }
     },
     {
       "segments": [
@@ -78,7 +90,13 @@
           "text": " says it might rain,” Maya replies."
         }
       ],
-      "translation": "Maya 回答：「我懂你的想法，不過天氣預報說可能會下雨。」"
+      "translation": "Maya 回答：「我懂你的想法，不過天氣預報說可能會下雨。」",
+      "audio": {
+        "src": "/audio/sentences/respectful-disagreement/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6181069f06638dc97cd8728205364fa9c31125d9fb19c210ccc5fc44ad9a2ffb",
+        "sha256": "eb82d6d5f48a85236b6db8e83a7577510f706ab93ae4355f48509f2828ed10f9"
+      }
     },
     {
       "segments": [
@@ -110,7 +128,13 @@
           "text": " keeping the books dry.”"
         }
       ],
-      "translation": "「我最在意的是讓書本保持乾燥。」"
+      "translation": "「我最在意的是讓書本保持乾燥。」",
+      "audio": {
+        "src": "/audio/sentences/respectful-disagreement/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2db447e863086fdc89d4a158844375a3e243fd7c33f7029154aa631a3a28028b",
+        "sha256": "b87e6312330d11c8d61f993a0aa60336fe307e7951342e9ab9840b5b495807e6"
+      }
     },
     {
       "segments": [
@@ -127,7 +151,13 @@
           "text": "."
         }
       ],
-      "translation": "Ben 改提議用圖書館，不過他不確定那裡能不能使用。"
+      "translation": "Ben 改提議用圖書館，不過他不確定那裡能不能使用。",
+      "audio": {
+        "src": "/audio/sentences/respectful-disagreement/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "69d08967090a76609f192d2168c5ed7f50394587011a584df9a3a2dea6fddf14",
+        "sha256": "c1d14f1bf58cd956758a80d314f1df8b404c725d8bc16edbda5b3ae4fdd9f2e3"
+      }
     },
     {
       "segments": [
@@ -153,7 +183,13 @@
           "text": " before we decide,” Maya says."
         }
       ],
-      "translation": "Maya 說：「我們先比較各個選項，再做決定吧。」"
+      "translation": "Maya 說：「我們先比較各個選項，再做決定吧。」",
+      "audio": {
+        "src": "/audio/sentences/respectful-disagreement/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "86f25807952bc76d4f1f95abd7030248a96ef2164ddb2dc999bd6918947506e4",
+        "sha256": "dd3c653c53cf3005224dba7d1615b45a1bbe305cc6e4e99dabddd21c681f4f9a"
+      }
     },
     {
       "segments": [
@@ -170,7 +206,13 @@
           "text": ", as long as we check how much space we can use.”"
         }
       ],
-      "translation": "Ben 表示同意：「聽起來很合理，只要我們確認一下有多少空間可以用就好。」"
+      "translation": "Ben 表示同意：「聽起來很合理，只要我們確認一下有多少空間可以用就好。」",
+      "audio": {
+        "src": "/audio/sentences/respectful-disagreement/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d84bfd449bd03dcab46e2fadfc9a2142697a0bed5ed669317c2a889c294460c6",
+        "sha256": "6e4897726a51160bf1a76aad99af7ecc94b90d775c3168469a56deb320709109"
+      }
     },
     {
       "segments": [
@@ -187,7 +229,13 @@
           "text": " from the rain."
         }
       ],
-      "translation": "他們寫下共同目標：找一個空間足夠、又能遮雨的地方。"
+      "translation": "他們寫下共同目標：找一個空間足夠、又能遮雨的地方。",
+      "audio": {
+        "src": "/audio/sentences/respectful-disagreement/8.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "69e0983b78036642b9efca1815e7c0277fb1edabe2becf961d63362914dd2ac3",
+        "sha256": "d7c58fbc5de7aa6c9d6aae4d403f695076b5b55ff889a10e0a70c6b5f349ec02"
+      }
     }
   ],
   "phrases": [
@@ -332,11 +380,5 @@
         "sha256": "8cf01ebb884cba3b1ff351b0239c00445a2fbfaa5e256243ed07dc1df77306fe"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/respectful-disagreement.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "9f8c693f345498e7f6ce24c02477b016c71a5c748201562cd60c2dfadab7295d",
-    "sha256": "40458e154e5c0a587ba7adccbf6811e9bf2e2a83e36cc8cd4e4d344e0eda3b03"
-  }
+  ]
 }

@@ -41,7 +41,13 @@
           "text": "”"
         }
       ],
-      "translation": "週五晚上，爸爸和家人一起坐下來微笑著說：「我們來規劃我們的旅行吧。」"
+      "translation": "週五晚上，爸爸和家人一起坐下來微笑著說：「我們來規劃我們的旅行吧。」",
+      "audio": {
+        "src": "/audio/sentences/family-outing-plan/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f2fd3e965abcd194ef4b32a827af632a891037639d9d637dbdd0da4a291ab3ec",
+        "sha256": "51856bea49438e42302dcc681e15d09ff726b1ad5d3bf9e6aba3ef593d1d219c"
+      }
     },
     {
       "segments": [
@@ -58,7 +64,13 @@
           "text": " park this weekend."
         }
       ],
-      "translation": "媽媽打開筆記本，建議這個週末去一座風景優美的山區公園。"
+      "translation": "媽媽打開筆記本，建議這個週末去一座風景優美的山區公園。",
+      "audio": {
+        "src": "/audio/sentences/family-outing-plan/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "24313fe831d969897d91f422e837845752d0e4ef3d9e5c3f341dd3964ebf6d14",
+        "sha256": "14f1a09530008f0a23a3e27c50961e3a0bb331293258fa9d23a1f8f921bd89ec"
+      }
     },
     {
       "segments": [
@@ -75,7 +87,13 @@
           "text": " will be sunny and clear."
         }
       ],
-      "translation": "爸爸查看手機並表示天氣將會晴朗無雲。"
+      "translation": "爸爸查看手機並表示天氣將會晴朗無雲。",
+      "audio": {
+        "src": "/audio/sentences/family-outing-plan/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "49f302d45b7b0b5351e8b67605f8430ab77dd50584039d3242b84f8c83f723b1",
+        "sha256": "135995a2eec4d2326a7c568e737fc674385d035d2acbc8699d4fc92b1cb64a7f"
+      }
     },
     {
       "segments": [
@@ -107,7 +125,13 @@
           "text": "”"
         }
       ],
-      "translation": "Emily 興奮地舉手問道：「我們應該帶什麼？」"
+      "translation": "Emily 興奮地舉手問道：「我們應該帶什麼？」",
+      "audio": {
+        "src": "/audio/sentences/family-outing-plan/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dab6c9485fc104453acea218bf0ea421a8788fdfc5ab3a16f0de2cf0c79348c6",
+        "sha256": "af9daec356ff177ae2f280eddd67d844f68d746197443aba6527c51ee88b557c"
+      }
     },
     {
       "segments": [
@@ -139,7 +163,13 @@
           "text": "”"
         }
       ],
-      "translation": "媽媽微笑著提醒大家：「別忘了你的帽子。」"
+      "translation": "媽媽微笑著提醒大家：「別忘了你的帽子。」",
+      "audio": {
+        "src": "/audio/sentences/family-outing-plan/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "06a69af710272ce17d105f53d6a9b6fb30f5d3c09436a556c13db5c9d22b3282",
+        "sha256": "25bac8d0bbcf405062472e917fb57a0cc115020116dbe34dfccde74502fbeac2"
+      }
     },
     {
       "segments": [
@@ -156,7 +186,13 @@
           "text": "."
         }
       ],
-      "translation": "他們還決定準備三明治和水，來一場愉快的外出野餐。"
+      "translation": "他們還決定準備三明治和水，來一場愉快的外出野餐。",
+      "audio": {
+        "src": "/audio/sentences/family-outing-plan/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "81bf46daa8bf172c34ad404e8011d575b7e4d833dc8a879c84238f04dd6bec0a",
+        "sha256": "0122d5c7f65e471f2e86dce21863e21ef930946de187923f2ee25dca42795d2c"
+      }
     },
     {
       "segments": [
@@ -173,7 +209,13 @@
           "text": "”"
         }
       ],
-      "translation": "期待著即將到來的健行，大家一起歡呼：「一定會非常好玩！」"
+      "translation": "期待著即將到來的健行，大家一起歡呼：「一定會非常好玩！」",
+      "audio": {
+        "src": "/audio/sentences/family-outing-plan/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "18acb0739faacea5c467e0d3e272250a3aa40a5dfc45c02175f4f8bbc3df94c2",
+        "sha256": "c94dfe71c343434e5427f239b2744a8e1e2edc8c7e92e610f0b27bed1544e4f6"
+      }
     }
   ],
   "phrases": [
@@ -295,11 +337,5 @@
         "sha256": "2fe07bab058d2c4112bd9a2bab6ed5a766e83c55aa666dbae69875e2be841304"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/family-outing-plan.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "8c8b853a64886dd8dc3989695cc8b5f1c7e74eb47ddd0aaeb1497b98cec2dc7e",
-    "sha256": "8d9ab50225953c8340d70b147be6ff82bd999769f349f3a31aa09dd92f0b4322"
-  }
+  ]
 }

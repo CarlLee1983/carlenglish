@@ -400,6 +400,84 @@ ul { padding: 0; margin: 0; list-style: none; }
 .pronunciation-voice { margin-top: 14px; }
 .pronunciation-status { margin-top: 6px; }
 .pronunciation-noscript { margin-top: 10px; }
+[data-pronunciation-player] .story-heading { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+[data-pronunciation-player] .reading-audio-status { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 16px; margin-top: 12px; }
+[data-pronunciation-player] .reading-audio-status .pronunciation-status { flex: 1; min-width: 200px; margin: 0; }
+[data-pronunciation-player] .reading-audio-status .reading-storage-status { flex-basis: 100%; }
+[data-pronunciation-player] .follow-entry { background: var(--accent); color: var(--accent-text); }
+[data-pronunciation-player] .reading-storage-status { color: var(--text); font-size: 14px; margin-top: 8px; }
+[data-pronunciation-player] .story-sentence + .story-sentence { margin-top: 20px; }
+[data-pronunciation-player] .story-sentence:focus-visible { outline: 3px solid var(--accent); outline-offset: 6px; border-radius: var(--radius-sm); }
+html[data-follow-open="true"] { overflow: hidden; }
+[data-pronunciation-player] .follow-dialog {
+  position: fixed; inset: 0; width: 100%; max-width: none; height: 100dvh; max-height: none;
+  margin: 0; padding: 0; border: 0; background: var(--surface); color: var(--text); overflow: hidden;
+}
+[data-pronunciation-player] .follow-dialog::backdrop { background: var(--surface); }
+[data-pronunciation-player] .follow-practice {
+  display: grid; grid-template-rows: auto auto minmax(0, 1fr) auto; gap: 16px;
+  width: min(100%, 960px); height: 100%; margin-inline: auto;
+  padding: max(24px, env(safe-area-inset-top, 0px)) max(40px, env(safe-area-inset-right, 0px)) max(24px, env(safe-area-inset-bottom, 0px)) max(40px, env(safe-area-inset-left, 0px));
+}
+[data-pronunciation-player] .follow-dialog button, [data-pronunciation-player] .follow-dialog select {
+  min-height: 44px; padding: 8px 16px; border: 1px solid var(--control-border); border-radius: var(--radius-sm);
+  background: var(--surface); color: var(--text); font: inherit; font-size: 16px; line-height: 1.5; touch-action: manipulation;
+}
+[data-pronunciation-player] .follow-dialog button:disabled, [data-pronunciation-player] .follow-dialog select:disabled { opacity: .5; cursor: default; }
+[data-pronunciation-player] .follow-dialog .follow-quiet { border-color: transparent; background: transparent; }
+[data-pronunciation-player] .follow-header { display: flex; align-items: center; gap: 16px; min-width: 0; }
+[data-pronunciation-player] .follow-header > button { display: inline-flex; align-items: center; gap: 8px; padding-left: 0; flex-shrink: 0; }
+[data-pronunciation-player] .follow-header svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+[data-pronunciation-player] .follow-title { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--muted); text-align: right; }
+[data-pronunciation-player] .follow-settings { position: relative; flex-shrink: 0; }
+[data-pronunciation-player] .follow-settings summary { min-height: 44px; display: flex; align-items: center; justify-content: center; padding: 8px; cursor: pointer; }
+[data-pronunciation-player] .follow-settings-body { position: absolute; z-index: 1; top: calc(100% + 8px); right: 0; width: 264px; display: grid; gap: 16px; padding: 20px; background: var(--surface-raised); border: 1px solid var(--control-border); border-radius: var(--radius-md); }
+[data-pronunciation-player] .follow-settings-body label { display: grid; gap: 8px; color: var(--muted); }
+[data-pronunciation-player] .follow-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+[data-pronunciation-player] .reading-position { color: var(--muted); font-size: 16px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+[data-pronunciation-player] .follow-toolbar-actions { display: flex; align-items: center; gap: 8px; }
+[data-pronunciation-player] .follow-toolbar-actions button { padding-inline: 8px; }
+[data-pronunciation-player] .follow-toolbar-actions select { width: 88px; padding-inline: 8px; }
+[data-pronunciation-player] .follow-text-region { min-height: 0; overflow: auto; overscroll-behavior: contain; display: flex; flex-direction: column; justify-content: safe center; padding-block: 24px; scrollbar-color: var(--control-border) transparent; }
+[data-pronunciation-player] .follow-text-region:focus-visible, [data-pronunciation-player] [data-follow-completion-title]:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; border-radius: var(--radius-sm); }
+[data-pronunciation-player] .follow-content { max-width: 32ch; font-size: 40px; line-height: 1.4; letter-spacing: -.02em; text-wrap: pretty; }
+[data-pronunciation-player] .follow-translation { margin-top: 24px; color: var(--muted); font-size: 20px; line-height: 1.6; }
+[data-pronunciation-player] .follow-footer { padding-top: 16px; border-top: 1px solid var(--line); }
+[data-pronunciation-player] .follow-status { min-height: 26px; margin-bottom: 16px; color: var(--muted); font-size: 16px; }
+[data-pronunciation-player] .follow-actions { display: grid; grid-template-columns: 1fr 1fr 1.5fr; gap: 12px; }
+[data-pronunciation-player] .follow-actions button { min-height: 56px; }
+[data-pronunciation-player] .follow-dialog .follow-primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); font-weight: 650; }
+[data-pronunciation-player] .follow-hint { margin-top: 12px; color: var(--muted); font-size: 16px; }
+[data-pronunciation-player] .follow-completion { width: min(100%, 600px); height: 100%; margin-inline: auto; padding: max(32px, env(safe-area-inset-top, 0px)) 32px max(32px, env(safe-area-inset-bottom, 0px)); display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 24px; }
+[data-pronunciation-player] .follow-completion h2 { font-size: 40px; line-height: 1.2; }
+[data-pronunciation-player] .follow-completion-actions { width: 100%; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (hover: hover) {
+  [data-pronunciation-player] .follow-dialog button:hover:not(:disabled) { background: var(--panel-hover); }
+  [data-pronunciation-player] .follow-dialog .follow-primary:hover:not(:disabled) { background: var(--accent-hover); }
+  [data-pronunciation-player] .follow-settings summary:hover { background: var(--panel-hover); border-radius: var(--radius-sm); }
+}
+@media (max-width: 600px) {
+  [data-pronunciation-player] .follow-practice { gap: 8px; padding: max(12px, env(safe-area-inset-top, 0px)) max(20px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(20px, env(safe-area-inset-left, 0px)); }
+  [data-pronunciation-player] .follow-header { gap: 8px; }
+  [data-pronunciation-player] .follow-header > button { padding-right: 0; }
+  [data-pronunciation-player] .follow-toolbar { gap: 8px; padding-bottom: 8px; }
+  [data-pronunciation-player] .follow-content { font-size: 32px; }
+  [data-pronunciation-player] .follow-text-region { padding-block: 20px; }
+  [data-pronunciation-player] .follow-translation { font-size: 16px; margin-top: 16px; }
+  [data-pronunciation-player] .follow-footer { padding-top: 12px; }
+  [data-pronunciation-player] .follow-status { margin-bottom: 12px; }
+  [data-pronunciation-player] .follow-actions { grid-template-columns: 1fr 1fr; gap: 8px; }
+  [data-pronunciation-player] .follow-actions .follow-primary { grid-row: 1; grid-column: 1 / -1; }
+  [data-pronunciation-player] .follow-actions button { min-height: 48px; }
+  [data-pronunciation-player] .follow-hint { margin-top: 8px; }
+  [data-pronunciation-player] .follow-completion h2 { font-size: 32px; }
+  [data-pronunciation-player] .follow-completion-actions { grid-template-columns: 1fr; }
+}
+@media (max-width: 350px) {
+  [data-pronunciation-player] .follow-practice { padding-inline: max(16px, env(safe-area-inset-left, 0px)); }
+  [data-pronunciation-player] .follow-content { font-size: 24px; }
+  [data-pronunciation-player] .follow-hint { display: none; }
+}
 
 .pronounce-button, .pronunciation-action, .pronunciation-stop, .review-add-button, .review-button {
   min-height: 44px;

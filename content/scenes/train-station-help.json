@@ -35,7 +35,13 @@
           "text": " with their luggage."
         }
       ],
-      "translation": "Leo 和媽媽帶著行李走進繁忙的火車站。"
+      "translation": "Leo 和媽媽帶著行李走進繁忙的火車站。",
+      "audio": {
+        "src": "/audio/sentences/train-station-help/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "21e80e13a05959cc36a7e7e1d8b2f2fda7d202254e783207dd7617e7c0ef1472",
+        "sha256": "5fec09b4c4adc46053e69061e5880bd651bc483fff1e16ac7a50558658027e8d"
+      }
     },
     {
       "segments": [
@@ -70,7 +76,13 @@
           "text": " schedule."
         }
       ],
-      "translation": "他們抬頭看著大型出發看板確認列車時刻。"
+      "translation": "他們抬頭看著大型出發看板確認列車時刻。",
+      "audio": {
+        "src": "/audio/sentences/train-station-help/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fd0f5c19a438c9c79247fc9db04a2ec91502eda60d40b9771ab32497377a2150",
+        "sha256": "dbd193c7ec86e6739ae5c77a0a4be0460ee1396be2cba02b0da8ccbe9675ec80"
+      }
     },
     {
       "segments": [
@@ -120,7 +132,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 向車站站務員出示車票並問：「我們該去哪一個月台？」"
+      "translation": "Leo 向車站站務員出示車票並問：「我們該去哪一個月台？」",
+      "audio": {
+        "src": "/audio/sentences/train-station-help/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "812a209acaca308660fe37fe00d9b9dca3939f4d03a0a8adfdde043fafd3248a",
+        "sha256": "b7e459484b16decc8abcffab3cc1a5cfa7d1c3004e62a601be3ebd641eae694f"
+      }
     },
     {
       "segments": [
@@ -155,7 +173,13 @@
           "text": " two.”"
         }
       ],
-      "translation": "站務員確認車票後說：「你們前往台北的火車在第二月台。」"
+      "translation": "站務員確認車票後說：「你們前往台北的火車在第二月台。」",
+      "audio": {
+        "src": "/audio/sentences/train-station-help/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3201d6a5128043a009abbadee4701004d72f7dd66e9dc702b7f1d646ea31cba6",
+        "sha256": "1bf09ba8d143f202dbcee793f9d1944b6920d8f2a5f9bfa419e9d9a14463b48e"
+      }
     },
     {
       "segments": [
@@ -196,7 +220,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 環顧繁忙的車站並問：「請問第二月台在哪裡？」"
+      "translation": "Leo 環顧繁忙的車站並問：「請問第二月台在哪裡？」",
+      "audio": {
+        "src": "/audio/sentences/train-station-help/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8a4e69d770e13c7bcdc697ef8de9e5e9ae7b87e2ef17ac646f82509cfa5c1251",
+        "sha256": "55ca05c7aeb7cf17bc765de54316c7d43499dadd1c21277a79d4fabd25938d8c"
+      }
     },
     {
       "segments": [
@@ -228,7 +258,13 @@
           "text": "”"
         }
       ],
-      "translation": "站務員指向樓梯並說：「你們的火車就在這裡。」"
+      "translation": "站務員指向樓梯並說：「你們的火車就在這裡。」",
+      "audio": {
+        "src": "/audio/sentences/train-station-help/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fec41a94055f4d11968dd43daf42eb012e3f781bbc9b1fcf9386b1c673fbd3fc",
+        "sha256": "dfe2b154e2d5e50feb574fa5c52e4e9528d4594e3b0baad9e24e2c15a9a2763d"
+      }
     },
     {
       "segments": [
@@ -245,7 +281,13 @@
           "text": "”"
         }
       ],
-      "translation": "Leo 親切地微笑著說：「謝謝您的幫忙。」"
+      "translation": "Leo 親切地微笑著說：「謝謝您的幫忙。」",
+      "audio": {
+        "src": "/audio/sentences/train-station-help/7.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b05299aeced99fabf5c2767b32c4757ad1a586908016ecf1049d67e77974a53f",
+        "sha256": "fea6b6a923e4871a9ed21d137d3bd37e7fc3175703310088ac62cfd90af00a42"
+      }
     }
   ],
   "phrases": [
@@ -367,11 +409,5 @@
         "sha256": "25d243a0689e478d7325350a7770791db260d2fcf511a2d17314da457e153260"
       }
     }
-  ],
-  "audio": {
-    "src": "/audio/stories/train-station-help.mp3",
-    "voiceId": "kokoro-af-heart-v1",
-    "textSha256": "5f3303ebfdafaaf8db7058d32d0e78b243013c9d09585aa124c3cb28008105c0",
-    "sha256": "272c5bd49278a642361c0d2fe1fa2cca67599ae345ce588343267052b8ccd9fb"
-  }
+  ]
 }
