@@ -100,7 +100,7 @@ for (const article of articles) {
     await expectNoHorizontalScroll(page);
   });
 
-  test(`${article.id}: has no audio or pronunciation buttons (only add-to-review buttons) and marks English text with lang="en"`, async ({ page }) => {
+  test(`${article.id}: has no audio or pronunciation buttons (only add-to-review buttons) and marks English text with lang="en"`, { tag: '@content' }, async ({ page }) => {
     await page.goto(articlePath(article));
     await expect(page.locator('audio, button:not([data-review-add])')).toHaveCount(0);
     await expect(page.getByRole('heading', { level: 1, name: article.titleEn })).toHaveAttribute('lang', 'en');
@@ -109,7 +109,7 @@ for (const article of articles) {
     for (const post of article.posts ?? []) await expect(region.getByText(post.english, { exact: true })).toHaveAttribute('lang', 'en');
   });
 
-  test(`${article.id}: keyword list matches the data`, async ({ page }) => {
+  test(`${article.id}: keyword list matches the data`, { tag: '@content' }, async ({ page }) => {
     await page.goto(articlePath(article));
     const region = page.getByRole('region', { name: '關鍵詞' });
     await expect(region.getByRole('listitem')).toHaveCount(article.glossary.length);
@@ -119,7 +119,7 @@ for (const article of articles) {
     }
   });
 
-  test(`${article.id}: navigation reaches the other articles and the home page`, async ({ page }) => {
+  test(`${article.id}: navigation reaches the other articles and the home page`, { tag: '@content' }, async ({ page }) => {
     await page.goto(articlePath(article));
     const nav = page.getByRole('navigation', { name: '文章導覽' });
     for (const other of articles.filter((item) => item.id !== article.id)) {

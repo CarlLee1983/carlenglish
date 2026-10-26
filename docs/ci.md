@@ -10,7 +10,7 @@
 
 **Verified：** [CI run 40267896680](https://github.com/CarlLee1983/carlenglish/actions/runs/40267896680) 的 `verify` 步驟用了 18 分 32 秒；[Deploy run 40270154178](https://github.com/CarlLee1983/carlenglish/actions/runs/40270154178) 的相同步驟用了 28 分 30 秒，瀏覽器安裝分別為 39、53 秒。主要改善對象是測試臨界路徑。既有流程在啟用部署的 main 跳過 CI，本次沒有把它誤算為同次 push 的雙重驗證。
 
-**Verified：** 修改前 82 篇共有 2,225 個 Playwright 案例，每篇三個逐篇測試乘五種 projects，另有全目錄、SEO 與共用互動測試。最終清單為 2,535 個案例：原本 2,220 個非轉場案例完全不變，五個整批翻譯切頁案例拆成 63 個來源各五種 projects，共 315 個獨立轉場案例，全部原有斷言保留。音檔解碼原已只在 Chromium、WebKit 執行；不改 `fullyParallel`，維持檔案內執行順序。
+**Verified：** 修改前 82 篇共有 2,225 個 Playwright 案例，每篇三個逐篇測試乘五種 projects，另有全目錄、SEO 與共用互動測試。最終清單為 2,535 個案例：原本 2,220 個非轉場案例完全不變，五個整批翻譯切頁案例拆成 63 個來源各五種 projects，共 315 個獨立轉場案例，全部原有斷言保留。音檔解碼原已只在 Chromium、WebKit 執行；不改 `fullyParallel`，維持檔案內執行順序。（此兩點已由下方「縮短瀏覽器測試」取代。）
 
 **Inferred：** 三個獨立 runner 可縮短完整套件的等待時間，但分片按檔案分配，耗時不一定等分；安裝與產物傳輸會有額外工作量。實際遠端加速比例要由新 SHA 的 Actions 量測，本機舊紀錄在 6.1–19.6 分鐘間波動，不能當成精確預測。
 
@@ -20,9 +20,10 @@ GitHub 唯讀查詢確認 `CLOUDFLARE_DEPLOY_ENABLED=true`；main 的 branch pro
 
 ```text
 verify:static → 同 run 的 dist + SHA／檔案 manifest
-                    ├─ Playwright 分片 1/3（五 projects）
-                    ├─ Playwright 分片 2/3（五 projects）
-                    ├─ Playwright 分片 3/3（五 projects）
+                    ├─ Playwright Chromium 分片 1/2（四 projects）
+                    ├─ Playwright Chromium 分片 2/2（四 projects）
+                    ├─ Playwright WebKit 分片 1/2（mobile-webkit）
+                    ├─ Playwright WebKit 分片 2/2（mobile-webkit）
                     └─ 隔離擴充測試
                              ↓ 全部成功
                      Complete verification
@@ -79,6 +80,19 @@ pnpm run verify
 新增測試涵蓋變更偵測、共用素材、Git 各狀態聚合、未知 base、刪改名、程式變更、無效選擇器、CI 拒絕選擇器、子程序失敗，以及 artifact 的錯誤 SHA／檔案變更／遺漏／額外檔案／symlink。Actionlint v1.7.12 的下載 archive 已依官方 release checksums 核對，只放在忽略的 `.scratch/ci-improvement-20261026/`。
 
 證據、案例清單、日誌與收尾草稿保存於 `.scratch/ci-improvement-20261026/`。包含 `static.log`、`shard-audit.json`、`gate-check.json`、`shard-{1,2,3}.log`、失敗 traces、`extension.log`、`extension-solo.log` 及 `author.log`；305 個先前批次內容／素材／紀錄的雜湊與 CI 修改前一致，十八張圖與 288 段 MP3 均符合原始 manifests。`source-manifest.json` 記錄交付工作目錄相對基底 SHA 的變更檔案雜湊；它只綁定本機未提交版本，不代替新提交的 CI。遠端 workflow 尚未執行，不能宣稱新 CI 已在 GitHub 通過或已有量測加速。
+
+## 縮短瀏覽器測試（2026-10-27）
+
+**Verified：** 改動前 CI 總時間 13–31 分鐘，瓶頸是瀏覽器分片的測試步驟：[Deploy 40361182775](https://github.com/CarlLee1983/carlenglish/actions/runs/40361182775) 三片為 614／528／938 秒，build 僅約 1 分鐘。原因為 2,535 個案例中，逐篇內容檢查在五個 projects 重複；未開 `fullyParallel` 時分片按「檔案 × project」切，耗時不均。
+
+使用者決定縮小重複範圍，這是刻意的取捨：
+
+- 與視窗無關的逐篇內容檢查標記 `@content`（場景旅程與翻譯切頁、句子資產、文章 lang／關鍵詞／導覽），`desktop-dark`、`mobile-chromium`、`narrow-chromium` 以 `grepInvert` 排除；`desktop-chromium` 與 `mobile-webkit` 照跑，與既有音檔解碼的引擎組合相同。版面、溢出、點擊尺寸等檢查五個 projects 照舊。代價：只在深色或窄版 Chromium 出現、且不造成溢出的內容錯誤，不再由內容檢查攔截。
+- `fullyParallel: true`，CI `workers: 4`（ubuntu-latest 4 vCPU，預設僅 2）。
+- `fullyParallel` 下分片依 project 順序切，WebKit 全落在最後一片；workflow 改為 Chromium、WebKit 各自兩片，Chromium job 不再安裝 WebKit。
+- 首頁級別目錄測試按級別拆成獨立案例，各保留 120 秒期限；整批版本在 4 workers 的 WebKit 分片逾時（[CI 40417658295](https://github.com/CarlLee1983/carlenglish/actions/runs/40417658295)）。初級仍在單一案例檢查全部卡片圖片，場景持續增加時是下一個期限風險。
+
+案例數 2,535 → 1,779。回復方式：移除 `@content` 的 `grepInvert`、`fullyParallel`、`workers` 及 matrix 的引擎拆分。遠端耗時以 [PR #20](https://github.com/CarlLee1983/carlenglish/pull/20) 新 SHA 的 run 為準。
 
 ## 後續與回復
 

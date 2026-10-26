@@ -157,7 +157,7 @@ const entries = (scene: Scene) => [
 ];
 
 for (const scene of selectScenes(scenes)) {
-  test(`${scene.id} exposes sentence assets and opens focus without autoplay`, async ({ page }) => {
+  test(`${scene.id} exposes sentence assets and opens focus without autoplay`, { tag: '@content' }, async ({ page }) => {
     await mockAudio(page);
     await page.goto(`/scenes/${scene.id}/`);
     await expect(dialog(page)).not.toBeVisible();

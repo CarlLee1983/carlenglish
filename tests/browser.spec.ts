@@ -80,8 +80,7 @@ async function expectNoHorizontalClipping(page: Page) {
   expect(result.clipped).toEqual([]);
 }
 
-test('home offers the three learning levels and level pages discover official scenes', async ({ page }) => {
-  test.setTimeout(120_000);
+test('home offers the three learning levels without listing scenes', async ({ page }) => {
   const ids = scenes.map((scene) => scene.id);
   assert.equal(new Set(ids).size, ids.length, 'every discovered scene must have a unique route');
   for (const id of originalIds) assert.ok(ids.includes(id), `missing baseline scene ${id}`);
@@ -89,6 +88,14 @@ test('home offers the three learning levels and level pages discover official sc
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
   await expect(sceneLinks(page)).toHaveCount(0);
   for (const level of learningLevels) {
+    await expect(page.getByRole('link', { name: `進入${level.name}` })).toHaveAttribute('href', `/levels/${level.id}/`);
+  }
+});
+
+for (const level of learningLevels) {
+  test(`home enters the ${level.id} level and its page discovers official scenes`, async ({ page }) => {
+    test.setTimeout(120_000);
+    await page.goto('/');
     const entry = page.getByRole('link', { name: `進入${level.name}` });
     await expect(entry).toHaveAttribute('href', `/levels/${level.id}/`);
     await entry.click();
@@ -112,9 +119,8 @@ test('home offers the three learning levels and level pages discover official sc
       await expect(page.getByText('這個級別的讀本還在準備中')).toBeVisible();
       await expect(page.getByRole('link', { name: '先讀初級讀本' })).toHaveAttribute('href', '/levels/beginner/');
     }
-    await page.goto('/');
-  }
-});
+  });
+}
 
 test('home preview loads and the first beginner entry fits the initial viewport', async ({ page }) => {
   const preview = scenes.find((scene) => scene.id === 'cafe-breakfast') ?? scenes[0];
@@ -362,7 +368,7 @@ test('level pages remain readable without JavaScript and links work by keyboard'
 });
 
 for (const scene of selectScenes(scenes)) {
-  test(`${scene.id}: level journey, exact content, translation, direct URL, and reload`, async ({ page }) => {
+  test(`${scene.id}: level journey, exact content, translation, direct URL, and reload`, { tag: '@content' }, async ({ page }) => {
     await page.goto(levelPath(scene));
     await page.getByRole('link', { name: `閱讀${scene.title}` }).click();
     await expect(page).toHaveURL(new RegExp(`${scenePath(scene)}$`));
@@ -421,7 +427,7 @@ for (const scene of selectScenes(scenes)) {
 const tierScenes = scenes.filter((scene) => getLearningLevel(scene).id === getLearningLevel(scenes[0]).id);
 assert.ok(tierScenes.length >= 2, 'Translation navigation requires at least two scenes in the first learning level.');
 for (const current of selectScenes(scenes).filter((scene) => getLearningLevel(scene).id === getLearningLevel(scenes[0]).id)) {
-  test(`${current.id}: switching after opening translation shows only the next related scene`, async ({ page }) => {
+  test(`${current.id}: switching after opening translation shows only the next related scene`, { tag: '@content' }, async ({ page }) => {
     const next = tierScenes.find((candidate) => candidate.id !== current.id)!;
     await page.goto(scenePath(current));
     await translationDisclosure(page).locator('summary').click();
