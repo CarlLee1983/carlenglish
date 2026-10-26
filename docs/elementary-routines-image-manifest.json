@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen",
+  "conversion": "Full frame PNG to WebP, sharp quality 86; no crop.",
+  "images": [
+    {
+      "id": "board-game-turns",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: An elementary girl and boy play an ORIGINAL very simple board game at a low home table. Girl is moving ONE red pawn along a single straight track of twelve large pastel squares; her red pawn is near the right-hand end, with a small plain checkered finish flag at the last square. Boy smiles beside her; his ONE blue pawn is further back along the same track. Exactly TWO pawns total. On the clear tabletop beside the board sits ONE large ivory cube die: its UPWARD-FACING TOP FACE must show exactly THREE dark round pips in one diagonal line; one visible side can show one pip and the other two. Slightly elevated three-quarter view clearly shows both children's natural hands and faces, the full track, and the three-pip top face. No other dice, numbered spaces, words, cards, extra game pieces or existing board-game branding. Not a recognizable commercial game. Warm shared play, uncluttered table.",
+      "generationCalls": 1,
+      "editCalls": 0,
+      "generatedFile": "exec-014fc0d0-bf46-4f96-8a71-b43999525037.png",
+      "src": "/images/scenes/board-game-turns.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b71c8532303afc25654f8eedd67f5accdac7bbde0c99f7cb5949acc3eddd8fd8"
+    },
+    {
+      "id": "bottle-refill",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: Two elementary classmates help fill a water bottle at a simple school water-refill station. Boy holds ONE clear reusable water bottle with its hinged lid OPEN, directly under the station's small downward-facing drinking-water tap. A gentle thin stream enters the open bottle; the bottle is partly filled so filling is visibly in progress. Girl stands beside him and presses the station's ONE large plain blue push button with one finger. Both people have clear natural separated hands; boy steadies the bottle, girl handles the button. Generic simple metal refill station mounted at child height, one nozzle and one button, not a hot-water appliance. School corridor, soft daylight. No cups, extra bottles, labels, words, temperature markings, logos or brands. Make the tap, open bottle mouth, water stream and button easy to distinguish.",
+      "generationCalls": 1,
+      "editCalls": 0,
+      "generatedFile": "exec-c35c910c-020f-4af4-8dc8-f72de3ca09cc.png",
+      "src": "/images/scenes/bottle-refill.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4ad1f291d5b8fffb89c45c133df6da8ee95b97ae19ceb33903a883c38ef3c5e7"
+    },
+    {
+      "id": "bedtime-alarm",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: An elementary girl in simple pajamas and her mother sit together on the edge of a child's bed beside a small bedside table, setting an alarm before bed. ONE simple cream-colored digital alarm clock sits on the table with a large readable display showing exactly '7:00' and a clear small BELL ICON beside the digits, indicating the alarm is enabled. The mother's index finger points toward the bell icon without covering it or the digits; daughter watches calmly. Show a three-quarter close view of both people, the bedside table, the clock face and part of the pillow and blanket. Warm bedside-lamp light with a dark blue evening window in background. REQUIRED TEXT EXCEPTION: the clock digits '7:00' are the ONLY lettering or numbers in the entire image; no labels, logos, AM/PM, calendars or other text. This is the alarm SETTING shown on the fictional clock, not a phone app. No extra clocks, phones, tablets or physical hand bells.",
+      "generationCalls": 1,
+      "editCalls": 1,
+      "initialGeneratedFile": "exec-e00838e9-f302-4ee0-8ac5-45ad97cd7553.png",
+      "editPrompt": "Use case: precise-object-edit. Change ONLY the alarm clock's display layout in this illustration. Move the existing single bell icon from the RIGHT of the digits to the LEFT of the digits, directly below the mother's pointing fingertip, so her unchanged finger clearly points toward the bell icon rather than the number. After the bell icon, show exactly '7:00' clearly on the rest of the display to the right. Keep exactly ONE bell icon, remove its former position, keep all digits fully readable and do not add any other text or icons. Preserve the entire clock case, mother and daughter, their hands and poses, bedroom, lighting, colors, composition and illustration style. No other changes. Maintain1536x1024.",
+      "generatedFile": "exec-714f0794-08ae-4c97-9c61-44656134940d.png",
+      "src": "/images/scenes/bedtime-alarm.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "27fec2bddea58e9b741c0ba71527b749c7dc6d6af8e1d65eaf06b40c14796fd7"
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/comparing-pencils/1.mp3",
+      "text": "Bo has a red pencil and a blue pencil.",
+      "textSha256": "a6f7b185cccfe3f536a6ccce4bc8d3739d3f15eacfebce9a9d27215761c65781"
+    },
+    {
+      "src": "/audio/sentences/comparing-pencils/2.mp3",
+      "text": "He puts them side by side.",
+      "textSha256": "279c1739135d948edb017f7b7c5e6e9ddc78e1db4fa49d07d8d3ca67de8df38b"
+    },
+    {
+      "src": "/audio/sentences/comparing-pencils/3.mp3",
+      "text": "“Which one is longer?” asks his teacher.",
+      "textSha256": "68b76e6a274d9cd2ced296fd9b0890bfb3d1f89e63a7fff5ede7f8757a182a93"
+    },
+    {
+      "src": "/audio/sentences/comparing-pencils/4.mp3",
+      "text": "“The red one,” says Bo.",
+      "textSha256": "b73d426e0712e249d52db775bd0b8cb2e7c2872406f1f7aa073a7f81762982eb"
+    },
+    {
+      "src": "/audio/sentences/comparing-pencils/5.mp3",
+      "text": "He points to the shorter blue pencil.",
+      "textSha256": "79680849e6b8999c7e23ca3da54d28d47ec4d43253bcf27b1ebf0e683a785e97"
+    },
+    {
+      "src": "/audio/sentences/comparing-pencils/6.mp3",
+      "text": "His teacher smiles and nods at him.",
+      "textSha256": "aa8049bef834961d9865d54f9f1f1f149b76be9620f00853046d343947100594"
+    },
+    {
+      "src": "/audio/phrases/comparing-pencils-side-by-side.mp3",
+      "text": "side by side",
+      "textSha256": "1da444b0e662817b8ceb0bd58a3bdab17972719a5ce58a7ef892fe65f07601fa"
+    },
+    {
+      "src": "/audio/phrases/comparing-pencils-which-one-is-longer.mp3",
+      "text": "Which one is longer",
+      "textSha256": "d1659c5f4da3eb413360bf598b02ab3a13c4f2313cf15bbe753318c4c5a2a201"
+    },
+    {
+      "src": "/audio/phrases/comparing-pencils-the-red-one.mp3",
+      "text": "The red one",
+      "textSha256": "30b997bf7d6e142330c5338ac5a18eaae9bb95be72c8c1f2825a047d8ea21b20"
+    },
+    {
+      "src": "/audio/phrases/comparing-pencils-points-to.mp3",
+      "text": "points to",
+      "textSha256": "d03f5d0e7656d7b7c1134d891af438ad8e92ae563e68dea760ed24c166551437"
+    },
+    {
+      "src": "/audio/words/comparing-pencils-pencil.mp3",
+      "text": "pencil",
+      "textSha256": "13809668fb436386706f67dcb052ed584a04ba16a8c02a17d66d34c30fceda21"
+    },
+    {
+      "src": "/audio/words/comparing-pencils-red.mp3",
+      "text": "red",
+      "textSha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+    },
+    {
+      "src": "/audio/words/comparing-pencils-blue.mp3",
+      "text": "blue",
+      "textSha256": "16477688c0e00699c6cfa4497a3612d7e83c532062b64b250fed8908128ed548"
+    },
+    {
+      "src": "/audio/words/comparing-pencils-longer.mp3",
+      "text": "longer",
+      "textSha256": "73834addcec75fafd7d73717ca1614a1324652ffa70b4b6c44fa359ae5a69dab"
+    },
+    {
+      "src": "/audio/words/comparing-pencils-shorter.mp3",
+      "text": "shorter",
+      "textSha256": "13602ce54433df2bee54be0836c90a0adc931b85abc047f786e1a6c39670adb8"
+    },
+    {
+      "src": "/audio/words/comparing-pencils-teacher.mp3",
+      "text": "teacher",
+      "textSha256": "1057a9604e04b274da5a4de0c8f4b4868d9b230989f8c8c6a28221143cc5a755"
+    },
+    {
+      "src": "/audio/sentences/tablet-charging/1.mp3",
+      "text": "An puts her tablet on the desk.",
+      "textSha256": "188fd4e6e0d7fdf43c7e75ae7af869a66a24b023185df14f7b00b8c9e3e6fdb9"
+    },
+    {
+      "src": "/audio/sentences/tablet-charging/2.mp3",
+      "text": "“The battery is low,” she tells Mom.",
+      "textSha256": "f39c9c4f85977b86e9ddc7335839af024f7ec8cebdf4bd1b8c263592a5577755"
+    },
+    {
+      "src": "/audio/sentences/tablet-charging/3.mp3",
+      "text": "“Can you help me?” she asks.",
+      "textSha256": "87c7598d7ffe5b99c0ee2a8c33f2e7ba24307685428ec7f3f571c5d2ebe05089"
+    },
+    {
+      "src": "/audio/sentences/tablet-charging/4.mp3",
+      "text": "Mom brings a charger and a cable.",
+      "textSha256": "03626953d85a9e4e05b3f8fc4b029fc6739fb589b1554aad814979da78133855"
+    },
+    {
+      "src": "/audio/sentences/tablet-charging/5.mp3",
+      "text": "She connects them to charge the tablet.",
+      "textSha256": "7aa834306c35c850b0dc50272eb3f7d8d94845e65a0807e5b4e8a3ebae7ec6f3"
+    },
+    {
+      "src": "/audio/sentences/tablet-charging/6.mp3",
+      "text": "“We can wait,” says An.",
+      "textSha256": "db9a4f59849fcae0634de21404d9b4078c864639141aa7ebaf87d7fda72b0222"
+    },
+    {
+      "src": "/audio/phrases/tablet-charging-on-the-desk.mp3",
+      "text": "on the desk",
+      "textSha256": "348f5a04b8ff66810f824c82af0410e0306c1c702e411c91e58b70ff4be9fe50"
+    },
+    {
+      "src": "/audio/phrases/tablet-charging-the-battery-is-low.mp3",
+      "text": "The battery is low",
+      "textSha256": "a8914926a63a0d13ad5d1166d457b35a03b868f966c92009ab48bfade37eb60e"
+    },
+    {
+      "src": "/audio/phrases/tablet-charging-can-you-help-me.mp3",
+      "text": "Can you help me",
+      "textSha256": "45e8dd79ec3aafb729946309e46708a535d7b365a80b9feb2d595487e45e10e1"
+    },
+    {
+      "src": "/audio/phrases/tablet-charging-we-can-wait.mp3",
+      "text": "We can wait",
+      "textSha256": "0dee56495441660c400c0d8e6b8355783f2747a5758338eea9476ed8045027bf"
+    },
+    {
+      "src": "/audio/words/tablet-charging-tablet.mp3",
+      "text": "tablet",
+      "textSha256": "5bed85bd69a5502a8f645a58a05e979f94bdeb77b957199ce8429e0ffbc01257"
+    },
+    {
+      "src": "/audio/words/tablet-charging-battery.mp3",
+      "text": "battery",
+      "textSha256": "f3d1701e1d575e1294786989517866986bc97343e07af63e201f46ba0be5806a"
+    },
+    {
+      "src": "/audio/words/tablet-charging-desk.mp3",
+      "text": "desk",
+      "textSha256": "49be417ad74080a0031b636b44cfc26fdd0065492d6cd3b033960c4414955cf7"
+    },
+    {
+      "src": "/audio/words/tablet-charging-charger.mp3",
+      "text": "charger",
+      "textSha256": "38102b4b8d453fbae854c177c7baad3e4fa42407b104b220dfb42837fb562db2"
+    },
+    {
+      "src": "/audio/words/tablet-charging-cable.mp3",
+      "text": "cable",
+      "textSha256": "7d6e18d0ff4bed3b1d1f3afc82ffa124f83ff2b43c83bf14a69562c8e22f0b2c"
+    },
+    {
+      "src": "/audio/words/tablet-charging-wait.mp3",
+      "text": "wait",
+      "textSha256": "716ecabb45ac6a88a049398fde2d3d5225c6dd3121ae9bbc5af457eb4baf056a"
+    },
+    {
+      "src": "/audio/sentences/ice-cream-choice/1.mp3",
+      "text": "Mei stops at an ice cream stand.",
+      "textSha256": "9735234397dc43fb4dd72cc06cc9948afc6854aed5d7affa9e8e750af09304ac"
+    },
+    {
+      "src": "/audio/sentences/ice-cream-choice/2.mp3",
+      "text": "“Which flavor would you like?” asks the seller.",
+      "textSha256": "0a527921be8296c477ea658dbc1a2881d4b0cf33ced026ea9c0a54fa04f96161"
+    },
+    {
+      "src": "/audio/sentences/ice-cream-choice/3.mp3",
+      "text": "“Strawberry, please,” says Mei.",
+      "textSha256": "be7e4c2611f2c87ab7558b2108d89afb559d52a123be2313587fbb8e2e187928"
+    },
+    {
+      "src": "/audio/sentences/ice-cream-choice/4.mp3",
+      "text": "“A cone or a cup?” he asks.",
+      "textSha256": "b1010466e8915cb8d2959e32338ae07b18e77bffbfb8aa25d72870e6e966209a"
+    },
+    {
+      "src": "/audio/sentences/ice-cream-choice/5.mp3",
+      "text": "“A cup, please,” she says.",
+      "textSha256": "2f1e8f72c454093fdef9a788f80694f4c51e82a5ebf24fed7f4958dd46f09554"
+    },
+    {
+      "src": "/audio/sentences/ice-cream-choice/6.mp3",
+      "text": "Mei takes her ice cream and says thanks.",
+      "textSha256": "a28ecf82adebeb180d54349d6b790dae74977066c8d1948e5433e0ae4bbc1fe5"
+    },
+    {
+      "src": "/audio/phrases/ice-cream-choice-which-flavor-would-you-like.mp3",
+      "text": "Which flavor would you like",
+      "textSha256": "2b431c875cef3b7254bbed35b6e7d1fb791d2ae4aaa6461b28e59a9f8f1acfc5"
+    },
+    {
+      "src": "/audio/phrases/ice-cream-choice-strawberry-please.mp3",
+      "text": "Strawberry, please",
+      "textSha256": "a5cf574954d03f894464316713cce4a2a1559a11a09465f44b54060b3a4d1c1e"
+    },
+    {
+      "src": "/audio/phrases/ice-cream-choice-a-cone-or-a-cup.mp3",
+      "text": "A cone or a cup",
+      "textSha256": "57515199a6401926da6e747c5628f47fd6b7b27f4e70cb7ac084e9c842785a4f"
+    },
+    {
+      "src": "/audio/phrases/ice-cream-choice-a-cup-please.mp3",
+      "text": "A cup, please",
+      "textSha256": "b04f8bb3efc402ce3a626444a225264746e5333e50d821aeeee3d5adbbfddbed"
+    },
+    {
+      "src": "/audio/words/ice-cream-choice-ice-cream.mp3",
+      "text": "ice cream",
+      "textSha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7"
+    },
+    {
+      "src": "/audio/words/ice-cream-choice-flavor.mp3",
+      "text": "flavor",
+      "textSha256": "b5d2f4515ba34f2f83f3a84e6958769f2b89b5ceca3fdfe1b4303eead3507daa"
+    },
+    {
+      "src": "/audio/words/ice-cream-choice-strawberry.mp3",
+      "text": "strawberry",
+      "textSha256": "5e737f891db1175442a39fde73e51d781a545506d71c95477a6deb5988bd7f9a"
+    },
+    {
+      "src": "/audio/words/ice-cream-choice-cone.mp3",
+      "text": "cone",
+      "textSha256": "cff179e7721e503c090cb8200cb1ef125aaff60886179b1eb70fb6c422ee1314"
+    },
+    {
+      "src": "/audio/words/ice-cream-choice-cup.mp3",
+      "text": "cup",
+      "textSha256": "c6171781d65f3ccce1135e3c89850cfbaa7f332fd72a1f8f6a841fbcf7fd362a"
+    },
+    {
+      "src": "/audio/words/ice-cream-choice-seller.mp3",
+      "text": "seller",
+      "textSha256": "a4279eae47aaa7417da62434795a011ccb0ec870f7f56646d181b5500a892a9a"
+    }
+  ]
+}

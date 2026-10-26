@@ -1,0 +1,261 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/family-photo/1.mp3",
+      "text": "Bo wants a photo with Grandpa.",
+      "textSha256": "76a19ca1f7c88b8d9ae118ae7132c590bbd36349ea20f586bb653cc8dd3093ae"
+    },
+    {
+      "src": "/audio/sentences/family-photo/2.mp3",
+      "text": "Mom holds the camera near the door.",
+      "textSha256": "b883c7ea144fe1b4a2ad851c41cae8ed51a042fc6984af7b38a00d6fabc14117"
+    },
+    {
+      "src": "/audio/sentences/family-photo/3.mp3",
+      "text": "“Stand beside me,” Grandpa tells Bo.",
+      "textSha256": "36867b796a0541abaca64b092b767cdc3ea715cec906736bdba355dfc90cec65"
+    },
+    {
+      "src": "/audio/sentences/family-photo/4.mp3",
+      "text": "Bo moves closer and looks at Mom.",
+      "textSha256": "24d8f635e814e73e2b733ce682c612149779e1097a6414a4d7f52933dfc5ef52"
+    },
+    {
+      "src": "/audio/sentences/family-photo/5.mp3",
+      "text": "“Ready? Say cheese!” Mom says.",
+      "textSha256": "33b76169bfded15df2e62bc9195efda8786a453dfea365b803aaa87094fa819d"
+    },
+    {
+      "src": "/audio/sentences/family-photo/6.mp3",
+      "text": "They smile, and Mom takes the photo.",
+      "textSha256": "74f7025eebc5e192e6ec050c49a3b83c675623f2c79e59b4f22c23695fdf0541"
+    },
+    {
+      "src": "/audio/phrases/family-photo-a-photo-with-grandpa.mp3",
+      "text": "a photo with Grandpa",
+      "textSha256": "589dcc63831071f02b339eb436c7cd3de43e426d72730ded5d5d0c33b946ba2d"
+    },
+    {
+      "src": "/audio/phrases/family-photo-stand-beside-me.mp3",
+      "text": "Stand beside me",
+      "textSha256": "29702fc4b5284598f1f41ad774bddd33b3bd8a1eedf8c2b6ea930ab783b75873"
+    },
+    {
+      "src": "/audio/phrases/family-photo-moves-closer.mp3",
+      "text": "moves closer",
+      "textSha256": "14b019b35e57fd006b6a645d8e0926f1cd993260aabb951c26d8be767b352392"
+    },
+    {
+      "src": "/audio/phrases/family-photo-say-cheese.mp3",
+      "text": "Say cheese",
+      "textSha256": "3af54e22fdb05bf134b7f2eb32ebf8bcf84eb1bf6ecb9b552b98b5fe8ec2cfee"
+    },
+    {
+      "src": "/audio/words/family-photo-photo.mp3",
+      "text": "photo",
+      "textSha256": "55c64d0fcd6f9d5f7c828093857e3fdfda68478bb4e9bd24d481ef391c7804e8"
+    },
+    {
+      "src": "/audio/words/family-photo-grandpa.mp3",
+      "text": "Grandpa",
+      "textSha256": "e4dbedab3839b18ea4c3bbe46deb7fae1e62e0bfa2afa3ce561a44db35da1baa"
+    },
+    {
+      "src": "/audio/words/family-photo-camera.mp3",
+      "text": "camera",
+      "textSha256": "89e8b9518d92279489bbdee26f3dc646d921d89a15afbd3a3e0ad695328a3da0"
+    },
+    {
+      "src": "/audio/words/family-photo-door.mp3",
+      "text": "door",
+      "textSha256": "2534e2de1dec24fedab4c00266b55ba9ba60dde03a349c5b5662189dd561ba9e"
+    },
+    {
+      "src": "/audio/words/family-photo-closer.mp3",
+      "text": "closer",
+      "textSha256": "be98c6532c0d6a26d7c9e3e15d148ffa35f558afd9f24a3c643ce9a07b791bba"
+    },
+    {
+      "src": "/audio/words/family-photo-smile.mp3",
+      "text": "smile",
+      "textSha256": "fa1eadc4c6995667412681c69ce33adfc9302a2965f521c40908549e670e2e4e"
+    },
+    {
+      "src": "/audio/sentences/wrapping-gift/1.mp3",
+      "text": "Yu puts a gift in a small box.",
+      "textSha256": "c36d1157157155c84b22ca43ebd8330f943992d59713dc9f6cd04418af23c8d4"
+    },
+    {
+      "src": "/audio/sentences/wrapping-gift/2.mp3",
+      "text": "He wraps paper around the box.",
+      "textSha256": "ec07d4d39627b709da3c770674c26446665ccb5baf382f6f52c8dcc5c3c55389"
+    },
+    {
+      "src": "/audio/sentences/wrapping-gift/3.mp3",
+      "text": "“Hold this end, please,” he asks Mom.",
+      "textSha256": "b4eb179a9b0012699ff250d707b31973270ec5df3116b343aca3aa804c002a8f"
+    },
+    {
+      "src": "/audio/sentences/wrapping-gift/4.mp3",
+      "text": "Mom holds it while Yu adds tape.",
+      "textSha256": "8a7b47c23f3dfb9da6d49ce35d823bd568b70d0656d3a8f48d2feac14e5d9a76"
+    },
+    {
+      "src": "/audio/sentences/wrapping-gift/5.mp3",
+      "text": "Yu ties a ribbon around the gift.",
+      "textSha256": "bff665da0a34e3ae91d797694185791b39d449ff1cc5e336742812f14e1107b3"
+    },
+    {
+      "src": "/audio/sentences/wrapping-gift/6.mp3",
+      "text": "“Now it is ready!” he says.",
+      "textSha256": "4e02c3c84adfa8e149b3bde3710da490dcc3cace48a6ad34746bb76863c5aa7f"
+    },
+    {
+      "src": "/audio/phrases/wrapping-gift-around-the-box.mp3",
+      "text": "around the box",
+      "textSha256": "7e7501c7908bec69fbabdd3aaf3d8d49b01a03c5935f22bfd4cf08153c023cfa"
+    },
+    {
+      "src": "/audio/phrases/wrapping-gift-hold-this-end-please.mp3",
+      "text": "Hold this end, please",
+      "textSha256": "93901a9ad15f5bfd341da597db6eb277edccb86498b9c08e7b3bca351db9e4c1"
+    },
+    {
+      "src": "/audio/phrases/wrapping-gift-adds-tape.mp3",
+      "text": "adds tape",
+      "textSha256": "809f5b7b1fd3a033416cdbc75494a3188e6855c14fed806bdadcb6de3f58e2d9"
+    },
+    {
+      "src": "/audio/phrases/wrapping-gift-now-it-is-ready.mp3",
+      "text": "Now it is ready",
+      "textSha256": "0e282bd39d3591991edc377ad50a4d2defeefb891a5d694dcbcc424a4bf64cd4"
+    },
+    {
+      "src": "/audio/words/wrapping-gift-gift.mp3",
+      "text": "gift",
+      "textSha256": "a1954b15a7459a2f7f6c03d87b73963830616feef7c93853fe5c05be996276bc"
+    },
+    {
+      "src": "/audio/words/wrapping-gift-box.mp3",
+      "text": "box",
+      "textSha256": "26f8567f2569182294c3fa5b9f9cb2270b554eef628b4c149cf82a42888ff4ae"
+    },
+    {
+      "src": "/audio/words/wrapping-gift-wraps.mp3",
+      "text": "wraps",
+      "textSha256": "d4771ec0ad044eb8e11655780b49c83fa1b666898faef33aa826cfbf01563be5"
+    },
+    {
+      "src": "/audio/words/wrapping-gift-paper.mp3",
+      "text": "paper",
+      "textSha256": "382635c9325bf3273d195ff1b8a44e5b11afd7d97addeb8863ea35feb98c1a07"
+    },
+    {
+      "src": "/audio/words/wrapping-gift-tape.mp3",
+      "text": "tape",
+      "textSha256": "8ba4ec7d634f794ec260675876415c279bcd46e3705d5ffda147a65db9e15a12"
+    },
+    {
+      "src": "/audio/words/wrapping-gift-ribbon.mp3",
+      "text": "ribbon",
+      "textSha256": "affc35bd6c6352aa5960f8db7845839953f83096b390b0bacb2f861440b5ed44"
+    },
+    {
+      "src": "/audio/sentences/park-bubbles/1.mp3",
+      "text": "Mei dips a wand into the bubble mix.",
+      "textSha256": "7a815376270598a21d4f2c1de02d5d822d91e0a09098655b0eb7aeb7f2c3e366"
+    },
+    {
+      "src": "/audio/sentences/park-bubbles/2.mp3",
+      "text": "She blows gently and makes small bubbles.",
+      "textSha256": "329788563cd7a6c4dccc59baaad4f3c00a9051cee2cc29f7c4711c73a1d392b5"
+    },
+    {
+      "src": "/audio/sentences/park-bubbles/3.mp3",
+      "text": "“Can I try?” asks her brother.",
+      "textSha256": "7a8855aa5d41ae58d59253928f7263b2a4cfec0b885a8f0ce691ae6ac647b335"
+    },
+    {
+      "src": "/audio/sentences/park-bubbles/4.mp3",
+      "text": "Mei gives him the wand.",
+      "textSha256": "862d6b0b752fba79ae5d6f15850fa100f5143941b4d166a949d6747bcb7aea9b"
+    },
+    {
+      "src": "/audio/sentences/park-bubbles/5.mp3",
+      "text": "A big bubble floats past his nose.",
+      "textSha256": "e81fa39bf6bb7d59d8230851abf254b3877a5d368228f2763ab91986e0d95a2b"
+    },
+    {
+      "src": "/audio/sentences/park-bubbles/6.mp3",
+      "text": "“Look at that one!” he says.",
+      "textSha256": "e23d2dd7d413f6e8369f5d519640c9b4c63d64ce22c20e30696b5cfa00abf947"
+    },
+    {
+      "src": "/audio/phrases/park-bubbles-bubble-mix.mp3",
+      "text": "bubble mix",
+      "textSha256": "2973c02ebcde5f22303809e561bced922a8611c0717b9ceb05eecabe147f06d3"
+    },
+    {
+      "src": "/audio/phrases/park-bubbles-blows-gently.mp3",
+      "text": "blows gently",
+      "textSha256": "245a4d8c2ecb0bb0dfff8411f3bd0a75b5defd0d4349a706acd1d07caea52391"
+    },
+    {
+      "src": "/audio/phrases/park-bubbles-can-i-try.mp3",
+      "text": "Can I try",
+      "textSha256": "40b66c8b2224496bcf15239ba009762243536620f5b7e1622e16d91407ea09c6"
+    },
+    {
+      "src": "/audio/phrases/park-bubbles-look-at-that-one.mp3",
+      "text": "Look at that one",
+      "textSha256": "b0b44f68e6d671b4d584921aac7c5c181f341c4d5e925dd908e0048e8c9f5b47"
+    },
+    {
+      "src": "/audio/words/park-bubbles-dips.mp3",
+      "text": "dips",
+      "textSha256": "9b9a2cbe44b2d2c3c209563430ac4933cf56341e30bc7cbad1c5def0620606cc"
+    },
+    {
+      "src": "/audio/words/park-bubbles-wand.mp3",
+      "text": "wand",
+      "textSha256": "04224b1d2fb402314a8dfc9d03e00937aae352fd20d3070181209a66c5127fb2"
+    },
+    {
+      "src": "/audio/words/park-bubbles-bubbles.mp3",
+      "text": "bubbles",
+      "textSha256": "2ea0d25e51920dc0ba247fcda7f514f3e8ad6234e704277036df405af860ed6c"
+    },
+    {
+      "src": "/audio/words/park-bubbles-brother.mp3",
+      "text": "brother",
+      "textSha256": "0b4bd77cec705cf5df016344c0fc673fb3c2240078e6af572b2c5c6fa76114af"
+    },
+    {
+      "src": "/audio/words/park-bubbles-floats.mp3",
+      "text": "floats",
+      "textSha256": "4b379441613442e9bd746f463554d9e27aa22d4d4aa4aa7c84f3192997bc2200"
+    },
+    {
+      "src": "/audio/words/park-bubbles-nose.mp3",
+      "text": "nose",
+      "textSha256": "d77e22123e64d3d87f1f95d9cff7a0b6af6c32b9a81552cb90e991eb55cf63d4"
+    }
+  ]
+}

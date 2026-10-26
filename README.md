@@ -1,8 +1,8 @@
 # CarlEnglish
 
-看圖學生活英文的本地靜態網站。首頁先選初級、中級或高級，再從該級別的生活場景開始閱讀；目錄可搜尋中文、英文標題與主題，並依生活主題篩選。目前涵蓋兒童、國中、高中與家庭生活的 64 個場景，初級 45 篇、中級 12 篇、高級 7 篇。首頁另有新聞與貼文文章，以及依 L1–L4 分組的文學軌。首篇經典是 L1 教學改寫《麥琪的禮物》，分三節閱讀，提供原作資訊與讀後提問。
+看圖學生活英文的本地靜態網站。首頁先選初級、中級或高級，再從該級別的生活場景開始閱讀；目錄可搜尋中文、英文標題與主題，並依生活主題篩選。目前涵蓋兒童、國中、高中與家庭生活的 82 個場景，初級 63 篇、中級 12 篇、高級 7 篇。首頁另有新聞與貼文文章，以及依 L1–L4 分組的文學軌。首篇經典是 L1 教學改寫《麥琪的禮物》，分三節閱讀，提供原作資訊與讀後提問。
 
-生活讀本使用同一個 Kokoro `af_heart` 美式女聲的本地 MP3，包含 429 段逐句正文及既有常用短句、重點單字。初級預設逐句跟讀與 `0.8×`；中／高級預設連續朗讀與 `1×`，可選 `0.7×／0.8×／0.9×／1×`，手動選擇的模式與語速會套用到後續教材。一般閱讀保留整篇正文，點「開始跟讀」或接續入口後進入獨立的專注畫面。目前句子、可開關的中文翻譯、語速與主要操作保持同屏；主按鈕依序處理播放、暫停、繼續、下一句與完成。重聽與上一句為次要操作，跳句、連續模式與從頭朗讀收在設定內。退出或按 Escape 會停止發聲，回到正文剛練習的句子；可再到短句／單字區試聽，之後手動返回原句。逐句與連續模式共用句子音檔，不會呼叫線上語音服務。
+生活讀本使用同一個 Kokoro `af_heart` 美式女聲的本地 MP3，包含 537 段逐句正文及既有常用短句、重點單字。初級預設逐句跟讀與 `0.8×`；中／高級預設連續朗讀與 `1×`，可選 `0.7×／0.8×／0.9×／1×`，手動選擇的模式與語速會套用到後續教材。一般閱讀保留整篇正文，點「開始跟讀」或接續入口後進入獨立的專注畫面。目前句子、可開關的中文翻譯、語速與主要操作保持同屏；主按鈕依序處理播放、暫停、繼續、下一句與完成。重聽與上一句為次要操作，跳句、連續模式與從頭朗讀收在設定內。退出或按 Escape 會停止發聲，回到正文剛練習的句子；可再到短句／單字區試聽，之後手動返回原句。逐句與連續模式共用句子音檔，不會呼叫線上語音服務。
 
 每篇最後聽到的句子與聽完狀態保存在同一瀏覽器；停止、離頁或切到背景後仍可從句首接續，重新開頁須點擊才播放。聽完不代表已學會。教材或錄音更新使位置失效時提示從頭開始；儲存不可用不影響播放，並另顯示保存失敗提示。沒有帳號或跨裝置同步，清除網站資料也會移除朗讀紀錄；經典的篇章續讀與複習資料各自獨立。需要 JavaScript 才能播放，停用時仍可閱讀正文與翻譯。
 
@@ -25,7 +25,9 @@ pnpm run test:browser
 pnpm run test:extension
 ```
 
-`pnpm run verify` 依序執行上述完整檢查。瀏覽器測試讀取正式 `dist/`，預設用 4391 埠啟動前景預覽並在結束時關閉；不要先手動佔用該埠。同時執行其他 worktree 時，可用 `CARLENGLISH_TEST_PORT=4393 pnpm run verify` 指定另一個未使用的埠。`test:extension` 在暫存副本加入 42 篇合法測試教材，分布於三個級別並重用相同英文的圖片與音檔，再正常建置並以 Chromium 檢查分級、搜尋、主題、有限推薦與完整閱讀內容；它也核對正式專案檔案雜湊沒有變動。測試結束會關閉自己的伺服器並移除副本，測試教材不會混入正式內容。正式建置後也能以 `pnpm run preview` 查看。
+製作場景期間先用 `pnpm run verify:content-change`：仍執行全站型別、內容與單元檢查、完整建置，再驗證變更場景及共用目錄、朗讀、SEO 與全場景音檔。它合併相對 `HEAD` 的已提交差異、暫存區、工作目錄與未追蹤檔案；共用素材會選中所有引用場景。可用 `--base origin/main` 改比較基準，`--plan` 只查看計畫、不算驗證。遇到程式、測試、設定、未知素材、刪除或不明基準，會回退完整 `verify`。內容作者檢查不代替整合或發布驗收；每次整合、PR 與發布仍須完整驗證。細節見 [CI 與教材驗證](docs/ci.md)。
+
+`pnpm run verify` 保留完整檢查，`verify:static` 集中型別、單元測試與建置，內容驗證在建置前執行一次。瀏覽器測試讀取正式 `dist/`，預設用 4391 埠啟動前景預覽並在結束時關閉；不要先手動佔用該埠。同時執行其他 worktree 時，可用 `CARLENGLISH_TEST_PORT=4393 pnpm run verify` 指定另一個未使用的埠。`test:extension` 在暫存副本加入 42 篇合法測試教材，分布於三個級別並重用相同英文的圖片與音檔，再正常建置並以 Chromium 檢查分級、搜尋、主題、有限推薦與完整閱讀內容；它也核對正式專案檔案雜湊沒有變動。測試結束會關閉自己的伺服器並移除副本，測試教材不會混入正式內容。正式建置後也能以 `pnpm run preview` 查看。
 
 發音自動測試涵蓋逐句／連續模式、語速與偏好、句子進度、播放切換、舊事件與 Promise 隔離、失敗處理及本地音檔解碼。新增逐句音檔、慢速與手機跟讀體驗仍須本次實聽驗收，見 [朗讀改善設計](docs/read-aloud-design.md)。既有內容曾由使用者接受代表性聲線樣本，再確認當時的內容、音檔與手機操作驗收完成。本批三篇與 39 段新音檔須另外驗收，不能沿用舊批次的結案結果。人工驗收依使用者確認，媒體事件不能代替實聽。網站尚未建立離線快取或 PWA。
 
@@ -70,7 +72,9 @@ pnpm run test:extension
 
 2026-10-14 的 UI／favicon／SEO 版本 `701b6750-4874-47be-9895-340116532e5f` 從 `ui/level-entry-catalog` worktree 直接部署，整合的教材基底為 `354d919a`。程式已整理於 `ui/level-entry-catalog` 分支的 PR；合併前，`main` 自動部署會使用主分支版本。驗證與回復方式見 [發布紀錄](docs/implementation.md#2026-10-14-分級介面與-seo-整合發布)。
 
-GitHub Actions 在 pull request 執行 CI 完整驗證。`main` 推送時，若 `CLOUDFLARE_DEPLOY_ENABLED=true`，由 Deploy 執行完整驗證再發布，CI 的 `verify` job 跳過，避免同一筆提交重複跑兩套檢查；停用自動部署或未設定該變數時，仍由 CI 驗證 `main`。這項分工減少重複運算，不會省略部署前的測試，也不代表單次部署時間減半。首筆提交的 [CI 已通過](https://github.com/CarlLee1983/carlenglish/actions/runs/38504543453)。首次上線使用本機既有的 Cloudflare 授權完成。GitHub 自動部署已啟用：repository secrets `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN` 與 variable `CLOUDFLARE_DEPLOY_ENABLED=true` 均已設定，`main` 推送或手動啟動 `Deploy` 會先執行 `pnpm run verify` 再部署；[首次 Actions 部署](https://github.com/CarlLee1983/carlenglish/actions/runs/38509015094)已成功。
+CI 與 Deploy 共用完整驗證 workflow：一次建置後，三個 Playwright 分片與擴充測試平行執行，所有必要工作成功才通過總閘門；原有五種瀏覽器設定與完整案例皆保留。PR 新提交會取消過期 CI，正式部署仍依序執行。`main` 推送時，若 `CLOUDFLARE_DEPLOY_ENABLED=true`，只由 Deploy 驗證，CI 跳過；停用時仍由 CI 驗證 `main`。部署下載同一 run 的精確 artifact ID，核對來源 SHA 與每個 `dist/` 檔案雜湊後發布，不重建，也不採用其他 run 的「最近成功」產物。相關 gates、版本固定與驗證狀態見 [CI 說明](docs/ci.md)。
+
+首筆提交的 [CI 已通過](https://github.com/CarlLee1983/carlenglish/actions/runs/38504543453)。首次上線使用本機既有的 Cloudflare 授權完成。GitHub 自動部署已啟用：repository secrets `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN` 與 variable `CLOUDFLARE_DEPLOY_ENABLED=true` 均已設定，`main` 推送或手動啟動 `Deploy` 會先完成全部 gates 再部署；[首次 Actions 部署](https://github.com/CarlLee1983/carlenglish/actions/runs/38509015094)已成功。
 
 部署 token 是專用 custom user token（`carlenglish-github-deploy`），權限為 Account 的 Workers Scripts Edit、Account Settings Read，以及 Zone 的 Workers Routes Edit、Zone Read；Account Resources 限定網站所屬帳號，Zone Resources 限定 `gravito.dev`，不設 IP 限制（GitHub Actions IP 不固定）。`cf` CLI 的登入無法管理 token（403，9109），須在 [Cloudflare API Tokens](https://dash.cloudflare.com/profile/api-tokens) 建立。更換 token 時在自己的終端執行以下指令，於隱藏提示輸入新 token：
 
@@ -80,7 +84,7 @@ gh secret set CLOUDFLARE_API_TOKEN --repo CarlLee1983/carlenglish
 
 不要將 token 貼入對話或寫入 repository。不要將本機 `.scratch/`、`docs/learning-progress.md` 加入 repository。`docs/learning-progress.md` 是個人閱讀紀錄，網站驗收與發布不會改變其學習進度。
 
-目前內容為 64 篇 5–8 句生活短文，涵蓋日常生活、校園學習與思辨提案等場景。未來交辦 dot 每日製作教材是後續工作；長文格式、新聞來源呈現與每日發布流程尚未實作。
+目前內容為 82 篇 5–8 句生活短文，涵蓋日常生活、校園學習與思辨提案等場景。未來交辦 dot 每日製作教材是後續工作；長文格式、新聞來源呈現與每日發布流程尚未實作。
 
 ## 生活協商閱讀單元
 
@@ -117,3 +121,39 @@ gh secret set CLOUDFLARE_API_TOKEN --repo CarlLee1983/carlenglish
 再新增三篇入門原創讀本：音樂課打節拍、池塘邊看一看、摺一艘紙船。每篇 6 句、40 個英文字、4 組語塊、6 個單字，附原創插畫與固定聲線，共 48 段新音檔。練習聽指令、描述觀察與提出問題；音樂課只朗讀故事，不收錄歌曲或樂譜。
 
 [共讀練習與分開的答案](docs/elementary-discovery-study-guide.md)可獨立使用；素材、實際檢查與待實聽／試讀事項見[本批驗證](docs/elementary-discovery-verification.md)。
+
+## 小學生生活英文：幫忙、試一試、看影子
+
+新增三篇入門原創讀本：幫忙擺餐桌、試穿新鞋、和影子玩遊戲。每篇 6 句、38–42 個英文字、4 組語塊、6 個單字，附原創插畫及相同固定聲線，共 48 段新音檔。練習確認餐具、描述試穿感受，以及從代名詞理解人物與影子。
+
+[共讀順序、理解與口說練習、參考答案](docs/elementary-help-observe-study-guide.md)可獨立使用；[本批素材與驗證](docs/elementary-help-observe-verification.md)記錄檢查範圍及仍待使用者實聽、孩子試讀的項目。
+
+## 小學生生活英文：拍照、包禮物、吹泡泡
+
+再新增三篇入門原創讀本：和阿公拍照、包裝小禮物、公園吹泡泡。每篇 6 句、38–41 個英文字、4 組語塊、6 個單字，搭配原創插畫及相同固定聲線，共 48 段新音檔。練習拍照時的位置指示、包裝禮物的動作順序，以及輪流試玩的請求與回應。
+
+[共讀順序、理解與口說練習、參考答案](docs/elementary-play-make-study-guide.md)可獨立使用；[本批素材與驗證](docs/elementary-play-make-verification.md)記錄實際檢查及仍待使用者實聽、孩子試讀的項目。
+
+## 小學生生活英文：剪頭髮、拌水果、放風箏
+
+再新增三篇入門原創讀本：剪短一點點、拌一碗水果沙拉、公園放風箏。每篇 6 句、40–42 個英文字、4 組語塊、6 個單字，搭配原創插畫及相同固定聲線，共 48 段新音檔。練習表達想剪短一點的需求、請求參與拌水果，以及分清放風箏時誰放手、誰抓線。
+
+[共讀順序、理解與口說練習、參考答案](docs/elementary-daily-adventures-study-guide.md)可獨立使用；[本批素材與驗證](docs/elementary-daily-adventures-verification.md)記錄實際檢查及仍待使用者實聽、孩子試讀的項目。
+
+## 小學生生活英文：比較、求助與選擇
+
+再新增三篇入門原創讀本：比一比鉛筆長短、平板需要充電、選口味買冰淇淋。每篇 6 句、39–41 個英文字、4 組語塊、6 個重點詞，搭配原創插畫及相同固定聲線，共 48 段新音檔。練習比較這兩支鉛筆的長短、請家人幫忙，以及分別回答口味和甜筒／杯裝的選擇題。
+
+[共讀順序、理解與口說練習、參考答案](docs/elementary-choices-study-guide.md)可獨立使用；[本批素材與驗證](docs/elementary-choices-verification.md)記錄實際檢查及仍待使用者實聽、孩子試讀的項目。
+
+## 小學生生活英文：輪流玩、幫忙裝水、準備明天
+
+再新增三篇入門原創讀本：輪流玩棋盤遊戲、幫忙裝滿水壺、睡前設定鬧鐘。每篇 6 句、40–41 個英文字、4 組語塊、6 個重點詞，搭配原創插畫及相同固定聲線，共 48 段新音檔。練習分清骰子點數與移動格數、描述水壺從空到滿，以及確認鬧鐘已開啟。
+
+[共讀順序、理解與口說練習、參考答案](docs/elementary-routines-study-guide.md)可獨立使用；[本批素材與驗證](docs/elementary-routines-verification.md)記錄實際檢查及仍待使用者實聽、孩子試讀的項目。
+
+## 小學生生活英文：搭建、採買與收拾
+
+再新增三篇入門原創讀本：一起搭積木塔、到麵包店買麵包、整理畫畫用品。每篇 6 句、38–42 個英文字、4 組語塊、6 個重點詞，搭配原創插畫及相同固定聲線，共 48 段新音檔。練習提出問題與觀察結果、接受店家的袋裝提議，以及詢問畫具的收納位置。
+
+[共讀順序、理解與口說練習、參考答案](docs/elementary-building-study-guide.md)可獨立使用；[本批素材與驗證](docs/elementary-building-verification.md)記錄實際檢查及仍待使用者實聽、孩子試讀的項目。

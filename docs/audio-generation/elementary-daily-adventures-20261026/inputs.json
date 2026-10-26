@@ -1,0 +1,261 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/haircut-visit/1.mp3",
+      "text": "Bo wants his hair a little shorter.",
+      "textSha256": "f6356a902f86bdc0dc8946574f24365c5609d7268770658712aeb5787a8ee111"
+    },
+    {
+      "src": "/audio/sentences/haircut-visit/2.mp3",
+      "text": "The barber puts a cape around him.",
+      "textSha256": "749d86eda7b262981944649a3dd8bdec2ffc70a9cb0aede87394c4ae77c7d070"
+    },
+    {
+      "src": "/audio/sentences/haircut-visit/3.mp3",
+      "text": "“Just a little, please,” says Bo.",
+      "textSha256": "16367b111e215ee301559228ab6b931246733231dd9e906224661ad3810141b9"
+    },
+    {
+      "src": "/audio/sentences/haircut-visit/4.mp3",
+      "text": "He watches her cut in the mirror.",
+      "textSha256": "428cb7e55e38abf4d85f8fcdbe86f1004d51e5beda9faeeeefdf480561cb5b6e"
+    },
+    {
+      "src": "/audio/sentences/haircut-visit/5.mp3",
+      "text": "“How does it look?” the barber asks.",
+      "textSha256": "e4cb4f00e6453c13fbd7ac8f32c950066f51fe645fbbea00e575703273f8822f"
+    },
+    {
+      "src": "/audio/sentences/haircut-visit/6.mp3",
+      "text": "“I like it!” Bo says with a smile.",
+      "textSha256": "fd339795fa64089f26d4cfb39edc9747394bede04cb049d8785adbbcceda7f83"
+    },
+    {
+      "src": "/audio/phrases/haircut-visit-a-little-shorter.mp3",
+      "text": "a little shorter",
+      "textSha256": "8589e1785bc39f33e903547a0ea189a3fe981be746bc03bbcfee6fc2acd72f87"
+    },
+    {
+      "src": "/audio/phrases/haircut-visit-just-a-little-please.mp3",
+      "text": "Just a little, please",
+      "textSha256": "4221b996d7b9f92a5c3f9e4b42f23f83b45e0e4c51fd76215fa419d2d93d668a"
+    },
+    {
+      "src": "/audio/phrases/haircut-visit-how-does-it-look.mp3",
+      "text": "How does it look",
+      "textSha256": "f8b3989addf47d4c74e5b4e0d79a405368b35ad18ec522cc632d2f2ba8138d9c"
+    },
+    {
+      "src": "/audio/phrases/haircut-visit-i-like-it.mp3",
+      "text": "I like it",
+      "textSha256": "68594064b3736c58e04232a44a5605050535cf79ea1e33dd616c977f0d7f5846"
+    },
+    {
+      "src": "/audio/words/haircut-visit-hair.mp3",
+      "text": "hair",
+      "textSha256": "4dc2159bba05da394c3b94c6f54354db1f1f43b321ac4bbdfc2f658237858c70"
+    },
+    {
+      "src": "/audio/words/haircut-visit-shorter.mp3",
+      "text": "shorter",
+      "textSha256": "13602ce54433df2bee54be0836c90a0adc931b85abc047f786e1a6c39670adb8"
+    },
+    {
+      "src": "/audio/words/haircut-visit-barber.mp3",
+      "text": "barber",
+      "textSha256": "b67b8e2e8472a0a87a3d64d75995193c1da90bf098123586ceba69881880fbb1"
+    },
+    {
+      "src": "/audio/words/haircut-visit-cape.mp3",
+      "text": "cape",
+      "textSha256": "0ed2fa2539de546945afee750df626e1e54543bf7fd05aad842e28f0969b06f8"
+    },
+    {
+      "src": "/audio/words/haircut-visit-mirror.mp3",
+      "text": "mirror",
+      "textSha256": "00154761637ca746c354a6d9cfbf1da1a92e79afa6bb127bb8a1c434e9c73170"
+    },
+    {
+      "src": "/audio/words/haircut-visit-cut.mp3",
+      "text": "cut",
+      "textSha256": "378bfce5cda2599a6cda399f1cacef861e4e575ec794744dcf0e55e9c4780633"
+    },
+    {
+      "src": "/audio/sentences/fruit-salad/1.mp3",
+      "text": "Yu puts apple pieces in a bowl.",
+      "textSha256": "e11d9b8858a6603775e98946271c9cf07d037a16f0125eb14d88830022edee5d"
+    },
+    {
+      "src": "/audio/sentences/fruit-salad/2.mp3",
+      "text": "Mom adds banana slices and some grapes.",
+      "textSha256": "48898c4421f9434ec50f7ec48a7a235f5fd5167e011ef20a37cfe66d9822c46e"
+    },
+    {
+      "src": "/audio/sentences/fruit-salad/3.mp3",
+      "text": "“Can I mix it?” asks Yu.",
+      "textSha256": "1012d0d21157ad8d6b5a7b2c26ea2b1f1f6799b48b3f6b5ffb64200362c0cf40"
+    },
+    {
+      "src": "/audio/sentences/fruit-salad/4.mp3",
+      "text": "Mom gives him a big spoon.",
+      "textSha256": "0760c8a2f70074423b40cb13a7ff37dd0059976988e3dce0f7650d71647e4c30"
+    },
+    {
+      "src": "/audio/sentences/fruit-salad/5.mp3",
+      "text": "Yu mixes the fruit with the spoon.",
+      "textSha256": "381a50d3513a8aa9e2347836c5be8371fa35e2fa531ff3638e8625b0cfe7b4f9"
+    },
+    {
+      "src": "/audio/sentences/fruit-salad/6.mp3",
+      "text": "“Our fruit salad is ready!” he says.",
+      "textSha256": "14a3d3996efe533c5a4e042707830c8589ac0958869ba8de342de91eed8a063a"
+    },
+    {
+      "src": "/audio/phrases/fruit-salad-apple-pieces.mp3",
+      "text": "apple pieces",
+      "textSha256": "581dcf86f939299ce78967a86bb919ff3b30489a0caa36203c29b18252f1a062"
+    },
+    {
+      "src": "/audio/phrases/fruit-salad-can-i-mix-it.mp3",
+      "text": "Can I mix it",
+      "textSha256": "94c8e01f1abfb8763a71c0648bf9c95911d5c80514276c9a6a2bdcbf7c351035"
+    },
+    {
+      "src": "/audio/phrases/fruit-salad-with-the-spoon.mp3",
+      "text": "with the spoon",
+      "textSha256": "e315af4868af6bb2dec90ce18b39d43d7a3039db2defeb7dfc91be00f6d80bd1"
+    },
+    {
+      "src": "/audio/phrases/fruit-salad-our-fruit-salad-is-ready.mp3",
+      "text": "Our fruit salad is ready",
+      "textSha256": "91ea3ef6e0c2f93fb3931572487d93d37f939811c9733024063ce34bdf3bdcaf"
+    },
+    {
+      "src": "/audio/words/fruit-salad-apple.mp3",
+      "text": "apple",
+      "textSha256": "3a7bd3e2360a3d29eea436fcfb7e44c735d117c42d1c1835420b6b9942dd4f1b"
+    },
+    {
+      "src": "/audio/words/fruit-salad-bowl.mp3",
+      "text": "bowl",
+      "textSha256": "d9f2babb167353d055843c7d537e6a663023561f921f831369ea1d657aa3051a"
+    },
+    {
+      "src": "/audio/words/fruit-salad-banana.mp3",
+      "text": "banana",
+      "textSha256": "b493d48364afe44d11c0165cf470a4164d1e2609911ef998be868d46ade3de4e"
+    },
+    {
+      "src": "/audio/words/fruit-salad-grapes.mp3",
+      "text": "grapes",
+      "textSha256": "8286ee4ea8f54f0276bcd4a125de6fd38a58534eebe24df396f05febeee3a91a"
+    },
+    {
+      "src": "/audio/words/fruit-salad-spoon.mp3",
+      "text": "spoon",
+      "textSha256": "7f480e744a79953eb916b68f540e0eeec6f9cf23edf4aa08cc1cdf5f077c0f6f"
+    },
+    {
+      "src": "/audio/words/fruit-salad-mixes.mp3",
+      "text": "mixes",
+      "textSha256": "5732d58f124d5e47999e37d6da01aa67a6dde9461b6705cfbd7424462afdff89"
+    },
+    {
+      "src": "/audio/sentences/kite-in-park/1.mp3",
+      "text": "Mei takes her kite to the park.",
+      "textSha256": "726b4fbd00ed7543a81c7cf649c041c1df5b7ada29c7e0de5838e056d1e5c1c8"
+    },
+    {
+      "src": "/audio/sentences/kite-in-park/2.mp3",
+      "text": "Dad holds it while she gets the string.",
+      "textSha256": "ca5574e94d4ec6be62296dfcd2b81650dc69c82fa5ba55ee84f8bd47263e21ed"
+    },
+    {
+      "src": "/audio/sentences/kite-in-park/3.mp3",
+      "text": "“Ready? Let go!” she calls to Dad.",
+      "textSha256": "f534d3349cc54cbaff27b012a87eebe4913e15abb9b5ebadf7ef360fb47e6b11"
+    },
+    {
+      "src": "/audio/sentences/kite-in-park/4.mp3",
+      "text": "The kite goes up into the sky.",
+      "textSha256": "3509dcfad8e8ebc169ab019e47f9c87d35968a2ee8cee5c68270d76f0c10cd9a"
+    },
+    {
+      "src": "/audio/sentences/kite-in-park/5.mp3",
+      "text": "Mei holds the string with both hands.",
+      "textSha256": "95113c4e9782ef529fb169bd16595c857a256ead721faf13c61b99cf92fde369"
+    },
+    {
+      "src": "/audio/sentences/kite-in-park/6.mp3",
+      "text": "“Look! It is flying!” she says.",
+      "textSha256": "a8c05f5aa6597f4efc92249f3242fb57f7aae094ccde98a7c97edc7d856d52e2"
+    },
+    {
+      "src": "/audio/phrases/kite-in-park-let-go.mp3",
+      "text": "Let go",
+      "textSha256": "afa4294dc102853209a1ffec417fb01dffe7dabd75b00dd01c50e22ac227b214"
+    },
+    {
+      "src": "/audio/phrases/kite-in-park-goes-up.mp3",
+      "text": "goes up",
+      "textSha256": "69421502d03aee9346d0d366662c285d085714b111b22bdf2e95a8b04f93773e"
+    },
+    {
+      "src": "/audio/phrases/kite-in-park-with-both-hands.mp3",
+      "text": "with both hands",
+      "textSha256": "db992b758fb23bd5e0388d4607e88691d4a297e0e67b4b64fb2cbeaa46c5d61b"
+    },
+    {
+      "src": "/audio/phrases/kite-in-park-it-is-flying.mp3",
+      "text": "It is flying",
+      "textSha256": "0949551ba0a29707fd98bc0b3d5a7aeb4d839620ecaade4f22b6d2c43d04608c"
+    },
+    {
+      "src": "/audio/words/kite-in-park-kite.mp3",
+      "text": "kite",
+      "textSha256": "8e8c7d42b456c9e4ec52e545b201fffc003ace9b7a32a44ac646b4679f99b00b"
+    },
+    {
+      "src": "/audio/words/kite-in-park-park.mp3",
+      "text": "park",
+      "textSha256": "4d3971de62245c94cd3dd8d4d3a72b8ff527d902832eedc8529a9717a969f1d1"
+    },
+    {
+      "src": "/audio/words/kite-in-park-string.mp3",
+      "text": "string",
+      "textSha256": "473287f8298dba7163a897908958f7c0eae733e25d2e027992ea2edc9bed2fa8"
+    },
+    {
+      "src": "/audio/words/kite-in-park-sky.mp3",
+      "text": "sky",
+      "textSha256": "05f514fae7ca5710f9e9289a20a5c9b372af781bfc94dd23d9cb8a044122460f"
+    },
+    {
+      "src": "/audio/words/kite-in-park-hands.mp3",
+      "text": "hands",
+      "textSha256": "45a229d57d35d935b67ce83a69f0353508b131ca39325494db3520252c841e10"
+    },
+    {
+      "src": "/audio/words/kite-in-park-flying.mp3",
+      "text": "flying",
+      "textSha256": "a1f95e4f6e5e4d17aafbe143c1357c9923e0854d74938aa75e89e836ef1ce077"
+    }
+  ]
+}

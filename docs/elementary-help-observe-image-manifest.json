@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen",
+  "conversion": "Full frame PNG to WebP, sharp quality 86; no crop.",
+  "images": [
+    {
+      "id": "setting-table",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No text, lettering, logos, brands, watermarks, collage, panels, existing fictional characters or named artist imitation. Scene: An elementary boy helps his father set a small family dining table at home for three people. Slightly elevated three-quarter view clearly shows exactly THREE plain shallow empty ceramic dinner PLATES, arranged as three place settings; exactly THREE spoons, each beside a plate. The boy is setting the last spoon next to one plate while his father smiles nearby. No bowls, no extra plates, no mugs, no serving dishes, no food yet. Father and son have naturally separated arms and hands. Cozy modest apartment dining room, soft warm early evening light. Focus on helping and setting the table.",
+      "generatedFile": "exec-7d57cebf-1a7d-4d50-8fce-c6a476fd7a4e.png",
+      "src": "/images/scenes/setting-table.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c2e8fdcd8b2b4da84d964c5273c363c37283b9e6367610a587f4ba5dfe1e2b8f"
+    },
+    {
+      "id": "shoe-shop-fit",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No text, lettering, logos, brands, watermarks, collage, panels, existing fictional characters or named artist imitation. Scene: In a simple unbranded neighborhood shoe store, an elementary girl in a yellow top walks a few small steps while trying on a PAIR of plain blue low-top shoes that are clearly worn on her two feet. Her mother and an adult store clerk stand nearby and watch kindly. Girl is visibly walking, not sitting; feet and both fitted shoes are fully in frame. Low shoe shelves and a small fitting bench in the background, a single open shoebox on the bench. Clear space around feet, floor and people, soft daylight. No visible brand marks, price tags or lettering. Focus on trying the fit rather than purchasing.",
+      "generatedFile": "exec-73af2c63-596d-4945-b014-10ac08f16fde.png",
+      "src": "/images/scenes/shoe-shop-fit.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c6862afe714ecdcf203abd86114ecbe632b1fe584f4aa8f28100e178c68e4774"
+    },
+    {
+      "id": "shadow-play",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No text, lettering, logos, brands, watermarks, collage, panels, existing fictional characters or named artist imitation. Scene: A cheerful elementary girl and her father stand beside each other on a broad empty light-colored park path in sunshine, raising and spreading their arms playfully to look at their own shadows. Full bodies and both shadows must be clearly visible in a slightly elevated wide three-quarter composition. Each person's ONE shadow is visibly attached to that person's feet and stretches diagonally across the foreground in the SAME direction from a single low sun behind them. Shadow poses match their owners' raised arms, distinct readable silhouettes with long arms, no overlapping shadows, no duplicate people or detached shadows. Girl and father look toward the shadows, hands simple and natural. Low grass borders, sparse trees far away, uncluttered ground without tree shadows over the two human silhouettes. No glowing sun icon, arrows, diagrams or fantasy beings.",
+      "generatedFile": "exec-680e1e91-e9e2-4d7a-830f-58d247697cf9.png",
+      "src": "/images/scenes/shadow-play.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4d928b6eed65baffdafacd593f0faf029d80eb7bd5e895d293d290bcca515200"
+    }
+  ]
+}

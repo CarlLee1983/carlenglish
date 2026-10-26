@@ -1,0 +1,318 @@
+{
+  "id": "shadow-play",
+  "title": "和影子玩遊戲",
+  "titleEn": "Playing with Shadows",
+  "category": "學習與探索",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/shadow-play.webp",
+    "alt": "小安和爸爸站在陽光下抬起手臂玩影子，兩人的影子落在步道上。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "on-the-ground",
+      "english": "on the ground",
+      "translation": "在地上",
+      "audio": {
+        "src": "/audio/phrases/shadow-play-on-the-ground.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9583374a67faef428fbb24e219fd4f9dbea2b2d4e8e8ff06302511877369a6a1",
+        "sha256": "284f14b1db4749186723ad971d106fa56be59b12353a7c8e4ff8c1fb1486c2f2"
+      }
+    },
+    {
+      "id": "moves-too",
+      "english": "moves too",
+      "translation": "也跟著動",
+      "audio": {
+        "src": "/audio/phrases/shadow-play-moves-too.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ed377ca88544a19924f92ce3f4879720422d07c08ff02d6e178497696226b8d9",
+        "sha256": "dcb9a4ff5ef4b27a17cbeadb60f4d5f1729ab432dcb1ddcd968b4cc62fa8c88a"
+      }
+    },
+    {
+      "id": "in-the-sun",
+      "english": "in the sun",
+      "translation": "在陽光下",
+      "audio": {
+        "src": "/audio/phrases/shadow-play-in-the-sun.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9dcbf55598ab6295fb6915c15dc2a91fed513a5b9ca48404bf255167684d4c45",
+        "sha256": "7fa1f578d3d4cc2bc89a3dea05ab0994b7d93654c25e45cf31ad00d784237d19"
+      }
+    },
+    {
+      "id": "make-shapes",
+      "english": "make shapes",
+      "translation": "做出各種形狀",
+      "audio": {
+        "src": "/audio/phrases/shadow-play-make-shapes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "768dad46a994597f3ad182ccfedf34b162fd4fb2b9723503b5f43ce7fe99ce39",
+        "sha256": "979c4087c45cc079ca46412ee24a7e7f62fccebde5e607551ddda16cc0bb3066"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "shadow",
+      "english": "shadow",
+      "translation": "影子",
+      "example": "My shadow is long.",
+      "audio": {
+        "src": "/audio/words/shadow-play-shadow.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0bb09d80600eec3eb9d7793a6f859bedde2a2d83899b70bd78e961ed674b32f4",
+        "sha256": "0d4ab4447439573ac7e167003a692844ec9525cdb2b1ee492d236aaecadac016"
+      }
+    },
+    {
+      "id": "ground",
+      "english": "ground",
+      "translation": "地面",
+      "example": "The ball is on the ground.",
+      "audio": {
+        "src": "/audio/words/shadow-play-ground.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dbb3b50e59c7326b2ff7d6619430257b9188cf3c0b8d778f7275ffd3bf4998a2",
+        "sha256": "b2a3ff45ca5f2698f47df81f22f12a0908064d3a99fd0e707cd114e5fe8b6846"
+      }
+    },
+    {
+      "id": "waves",
+      "english": "waves",
+      "translation": "揮手",
+      "example": "She waves to Dad.",
+      "audio": {
+        "src": "/audio/words/shadow-play-waves.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "eb81ba5ff779ca24d480493b87b9ad1c6ae8fd62211d6b3e8344c03aa55d495b",
+        "sha256": "48a3eca0775e29726a46bf36b58f197a8a0e17d47627515f1efa7019c1c97766"
+      }
+    },
+    {
+      "id": "arms",
+      "english": "arms",
+      "translation": "手臂（複數）",
+      "example": "I raise my arms.",
+      "audio": {
+        "src": "/audio/words/shadow-play-arms.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d86982d2329abe57405176ccba9812be866ceabe324c1e27ff2f6075fac6b871",
+        "sha256": "93fd7336cb8bd694c4207dbb5c559b030446880d57779fcc81563b30559b0edf"
+      }
+    },
+    {
+      "id": "sun",
+      "english": "sun",
+      "translation": "太陽",
+      "example": "The sun is bright.",
+      "audio": {
+        "src": "/audio/words/shadow-play-sun.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27756f050e14a1cb1c1ee867f0eace9ea4d9fcb81b8bee089469f1ebd5fd7b17",
+        "sha256": "a997ecc8d935adc4a7883f473779d05e0916db2915014c36a35aba5e7da6a324"
+      }
+    },
+    {
+      "id": "hands",
+      "english": "hands",
+      "translation": "手（複數）",
+      "example": "My hands are clean.",
+      "audio": {
+        "src": "/audio/words/shadow-play-hands.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "45a229d57d35d935b67ce83a69f0353508b131ca39325494db3520252c841e10",
+        "sha256": "139ddf1b0808dfc7ab6a11256523d41c4cbdb8d5735572f9a823f69073107367"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "An sees her "
+        },
+        {
+          "text": "shadow",
+          "wordIds": [
+            "shadow"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on the ",
+          "phraseIds": [
+            "on-the-ground"
+          ]
+        },
+        {
+          "text": "ground",
+          "phraseIds": [
+            "on-the-ground"
+          ],
+          "wordIds": [
+            "ground"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小安看見地上自己的影子。",
+      "audio": {
+        "src": "/audio/sentences/shadow-play/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "838bb9b498385e575fad05913eb0ca091139ae7860f2bcfc5b72c0015744a020",
+        "sha256": "1714b856015dacd5cf880bdb834df808804f51ec2394c30697ec90065accfa10"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "She "
+        },
+        {
+          "text": "waves",
+          "wordIds": [
+            "waves"
+          ]
+        },
+        {
+          "text": ", and her "
+        },
+        {
+          "text": "shadow",
+          "wordIds": [
+            "shadow"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "moves too",
+          "phraseIds": [
+            "moves-too"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "她揮揮手，她的影子也跟著動。",
+      "audio": {
+        "src": "/audio/sentences/shadow-play/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1e4ea161af442ce18a55518d9f948be57d6f25101b585fab7e8e3c0dd7bb2450",
+        "sha256": "b4b9bf86b85ae05b13918fc371b7cf44ba9e79b1ffced45fe03f758c3425f240"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“Its "
+        },
+        {
+          "text": "arms",
+          "wordIds": [
+            "arms"
+          ]
+        },
+        {
+          "text": " are long!” she says."
+        }
+      ],
+      "translation": "她說：「它的手臂好長！」",
+      "audio": {
+        "src": "/audio/sentences/shadow-play/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a8fed143461a819dd751220ba7fa6f2207af51e69e633abce4ef2f7e809665f4",
+        "sha256": "3d057af936c01b6478f513fe0f3331551e51afe554ab5395fe38892d48617381"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Dad stands beside her "
+        },
+        {
+          "text": "in the ",
+          "phraseIds": [
+            "in-the-sun"
+          ]
+        },
+        {
+          "text": "sun",
+          "phraseIds": [
+            "in-the-sun"
+          ],
+          "wordIds": [
+            "sun"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "爸爸在陽光下站在她旁邊。",
+      "audio": {
+        "src": "/audio/sentences/shadow-play/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "aaa0d398971b4a7697af5baad8b479120435e6f1959ecb3a7016d1330a456a64",
+        "sha256": "172b301eb3bae050b418a30e65950252eeb7421098e0363a057da691488a6cc2"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They "
+        },
+        {
+          "text": "make shapes",
+          "phraseIds": [
+            "make-shapes"
+          ]
+        },
+        {
+          "text": " with their "
+        },
+        {
+          "text": "hands",
+          "wordIds": [
+            "hands"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們用手做出各種形狀。",
+      "audio": {
+        "src": "/audio/sentences/shadow-play/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9758bbf2df866d16bb0bfe70ff8a1902d1fc85ab8c8b1a781de8734029fb91b4",
+        "sha256": "bdeb8c5f8b4804c65abb88eaf840ed05fdc7ad871baaacdcac3ff1c2ce8dea8a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“Our shadows are dancing!” says An."
+        }
+      ],
+      "translation": "小安說：「我們的影子在跳舞！」",
+      "audio": {
+        "src": "/audio/sentences/shadow-play/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c1e4eebf83beccc7d9eb25877182d36779dce56c2652fa0ffe747fbdd40f16cc",
+        "sha256": "de0761d0c392286554dcfbcd2b909b1abd3446079f9aff563de0bd1fd6fd01c0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "id": "ice-cream-choice",
+  "title": "選口味買冰淇淋",
+  "titleEn": "Choosing Ice Cream",
+  "category": "飲食與購物",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/ice-cream-choice.webp",
+    "alt": "小美在冰淇淋攤前拿著杯裝草莓冰淇淋，男攤販站在櫃台後。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "which-flavor-would-you-like",
+      "english": "Which flavor would you like",
+      "translation": "你想要哪一種口味",
+      "audio": {
+        "src": "/audio/phrases/ice-cream-choice-which-flavor-would-you-like.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2b431c875cef3b7254bbed35b6e7d1fb791d2ae4aaa6461b28e59a9f8f1acfc5",
+        "sha256": "f31ce1538b3c727ea83b8ff1a5236a46b05b5163e6b5243c2d776d24d7d4788a"
+      }
+    },
+    {
+      "id": "strawberry-please",
+      "english": "Strawberry, please",
+      "translation": "請給我草莓口味",
+      "audio": {
+        "src": "/audio/phrases/ice-cream-choice-strawberry-please.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a5cf574954d03f894464316713cce4a2a1559a11a09465f44b54060b3a4d1c1e",
+        "sha256": "d0fd93fa99239d801b778b532131a1b129352b2c72181d69e81cf2cade6058ce"
+      }
+    },
+    {
+      "id": "a-cone-or-a-cup",
+      "english": "A cone or a cup",
+      "translation": "甜筒還是杯裝",
+      "audio": {
+        "src": "/audio/phrases/ice-cream-choice-a-cone-or-a-cup.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "57515199a6401926da6e747c5628f47fd6b7b27f4e70cb7ac084e9c842785a4f",
+        "sha256": "960412f8bae15cebc4e3bc55d59957de6d0f7adcc8ff66523f8af42205e07f48"
+      }
+    },
+    {
+      "id": "a-cup-please",
+      "english": "A cup, please",
+      "translation": "請給我杯裝",
+      "audio": {
+        "src": "/audio/phrases/ice-cream-choice-a-cup-please.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b04f8bb3efc402ce3a626444a225264746e5333e50d821aeeee3d5adbbfddbed",
+        "sha256": "a40f21079acc0d6f9af47c58be5030f32eeefbdb472e39c20d92bfc194cea8fc"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "ice-cream",
+      "english": "ice cream",
+      "translation": "冰淇淋",
+      "example": "I like ice cream.",
+      "audio": {
+        "src": "/audio/words/ice-cream-choice-ice-cream.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7",
+        "sha256": "d34dd0c9349378b542fbecf797a0c4aaf08653fcc4ec28f7a9f4636d378a6440"
+      }
+    },
+    {
+      "id": "flavor",
+      "english": "flavor",
+      "translation": "口味",
+      "example": "Which flavor do you like?",
+      "audio": {
+        "src": "/audio/words/ice-cream-choice-flavor.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b5d2f4515ba34f2f83f3a84e6958769f2b89b5ceca3fdfe1b4303eead3507daa",
+        "sha256": "5ba20648a95e1ce5de0a77d2aa7e52c37cc45db08729a0dacfb80dfa7bc426b4"
+      }
+    },
+    {
+      "id": "strawberry",
+      "english": "strawberry",
+      "translation": "草莓（口味）",
+      "example": "I like strawberry ice cream.",
+      "audio": {
+        "src": "/audio/words/ice-cream-choice-strawberry.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5e737f891db1175442a39fde73e51d781a545506d71c95477a6deb5988bd7f9a",
+        "sha256": "691eee0fec7d48df374fdf14b083d45c2ce91fc17d47403d47f5a389fba57cae"
+      }
+    },
+    {
+      "id": "cone",
+      "english": "cone",
+      "translation": "甜筒",
+      "example": "I want a cone.",
+      "audio": {
+        "src": "/audio/words/ice-cream-choice-cone.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cff179e7721e503c090cb8200cb1ef125aaff60886179b1eb70fb6c422ee1314",
+        "sha256": "12321dbd095d77778436752e0632eb72d5616f169c6a0bdf3d52ad2b05c7cdf6"
+      }
+    },
+    {
+      "id": "cup",
+      "english": "cup",
+      "translation": "杯子",
+      "example": "The cup is small.",
+      "audio": {
+        "src": "/audio/words/ice-cream-choice-cup.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c6171781d65f3ccce1135e3c89850cfbaa7f332fd72a1f8f6a841fbcf7fd362a",
+        "sha256": "58bbcb407d1103be4035ba5162e9ca39ea44359e2a8b938b2398e7fb761a666a"
+      }
+    },
+    {
+      "id": "seller",
+      "english": "seller",
+      "translation": "攤販",
+      "example": "The seller is kind.",
+      "audio": {
+        "src": "/audio/words/ice-cream-choice-seller.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a4279eae47aaa7417da62434795a011ccb0ec870f7f56646d181b5500a892a9a",
+        "sha256": "ba28669ae9217244aac70f58a8bfc4465b017012b1af2c76dc29034f0c284369"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Mei stops at an "
+        },
+        {
+          "text": "ice cream",
+          "wordIds": [
+            "ice-cream"
+          ]
+        },
+        {
+          "text": " stand."
+        }
+      ],
+      "translation": "小美在冰淇淋攤前停下來。",
+      "audio": {
+        "src": "/audio/sentences/ice-cream-choice/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9735234397dc43fb4dd72cc06cc9948afc6854aed5d7affa9e8e750af09304ac",
+        "sha256": "27f98a9e42948ed3652880e6ee88d7229f85b3f79edaca4c34c4bb4b12648c97"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Which ",
+          "phraseIds": [
+            "which-flavor-would-you-like"
+          ]
+        },
+        {
+          "text": "flavor",
+          "phraseIds": [
+            "which-flavor-would-you-like"
+          ],
+          "wordIds": [
+            "flavor"
+          ]
+        },
+        {
+          "text": " would you like",
+          "phraseIds": [
+            "which-flavor-would-you-like"
+          ]
+        },
+        {
+          "text": "?” asks the "
+        },
+        {
+          "text": "seller",
+          "wordIds": [
+            "seller"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "攤販問：「你想要哪一種口味？」",
+      "audio": {
+        "src": "/audio/sentences/ice-cream-choice/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0a527921be8296c477ea658dbc1a2881d4b0cf33ced026ea9c0a54fa04f96161",
+        "sha256": "fff992e12a2d5bd85e22280ba107519523991d2e46e15cb364fc16c2e8ee2ae4"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Strawberry",
+          "phraseIds": [
+            "strawberry-please"
+          ],
+          "wordIds": [
+            "strawberry"
+          ]
+        },
+        {
+          "text": ", please",
+          "phraseIds": [
+            "strawberry-please"
+          ]
+        },
+        {
+          "text": ",” says Mei."
+        }
+      ],
+      "translation": "小美說：「請給我草莓口味。」",
+      "audio": {
+        "src": "/audio/sentences/ice-cream-choice/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "be7e4c2611f2c87ab7558b2108d89afb559d52a123be2313587fbb8e2e187928",
+        "sha256": "6eeccbc4ef05734ba003d2d4ec69d06e725f85603c8f36bf59e82d22cd5cc856"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "A ",
+          "phraseIds": [
+            "a-cone-or-a-cup"
+          ]
+        },
+        {
+          "text": "cone",
+          "phraseIds": [
+            "a-cone-or-a-cup"
+          ],
+          "wordIds": [
+            "cone"
+          ]
+        },
+        {
+          "text": " or a ",
+          "phraseIds": [
+            "a-cone-or-a-cup"
+          ]
+        },
+        {
+          "text": "cup",
+          "phraseIds": [
+            "a-cone-or-a-cup"
+          ],
+          "wordIds": [
+            "cup"
+          ]
+        },
+        {
+          "text": "?” he asks."
+        }
+      ],
+      "translation": "他問：「甜筒還是杯裝？」",
+      "audio": {
+        "src": "/audio/sentences/ice-cream-choice/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b1010466e8915cb8d2959e32338ae07b18e77bffbfb8aa25d72870e6e966209a",
+        "sha256": "a85032184311fe6535fd79243c7c398751d0f7443e7d4dff8e175d185a3c2c02"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "A ",
+          "phraseIds": [
+            "a-cup-please"
+          ]
+        },
+        {
+          "text": "cup",
+          "phraseIds": [
+            "a-cup-please"
+          ],
+          "wordIds": [
+            "cup"
+          ]
+        },
+        {
+          "text": ", please",
+          "phraseIds": [
+            "a-cup-please"
+          ]
+        },
+        {
+          "text": ",” she says."
+        }
+      ],
+      "translation": "她說：「請給我杯裝。」",
+      "audio": {
+        "src": "/audio/sentences/ice-cream-choice/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2f1e8f72c454093fdef9a788f80694f4c51e82a5ebf24fed7f4958dd46f09554",
+        "sha256": "9564fbb67c6dc920a4eaac4a13f94e1505019bc2b9b9cf29a50e85b7dd884f33"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mei takes her "
+        },
+        {
+          "text": "ice cream",
+          "wordIds": [
+            "ice-cream"
+          ]
+        },
+        {
+          "text": " and says thanks."
+        }
+      ],
+      "translation": "小美接過冰淇淋，說了聲謝謝。",
+      "audio": {
+        "src": "/audio/sentences/ice-cream-choice/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a28ecf82adebeb180d54349d6b790dae74977066c8d1948e5433e0ae4bbc1fe5",
+        "sha256": "f38201f859afccf92f847c7442cd482baa144fc45d1a820f6bc6f5c6c715338f"
+      }
+    }
+  ]
+}

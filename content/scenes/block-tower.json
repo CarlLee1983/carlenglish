@@ -1,0 +1,318 @@
+{
+  "id": "block-tower",
+  "title": "一起搭積木塔",
+  "titleEn": "Building a Block Tower",
+  "category": "遊戲與友誼",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/block-tower.webp",
+    "alt": "小柏和小安坐在地毯上，看著一塊大積木上疊著兩塊小積木的高塔。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "builds-a-tower",
+      "english": "builds a tower",
+      "translation": "搭一座高塔",
+      "audio": {
+        "src": "/audio/phrases/block-tower-builds-a-tower.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5ab8e0e03806bf98ec69fd2ead0b78386ae034287db6f8053320942d3e8305b8",
+        "sha256": "3f87c0bf9f16e0a82258abb2bcc51927b05c04546b4ae344174ce8b62515a185"
+      }
+    },
+    {
+      "id": "on-top",
+      "english": "on top",
+      "translation": "在上面",
+      "audio": {
+        "src": "/audio/phrases/block-tower-on-top.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f182531cddd4ca4db5ed96955e2ddcb102e0e84ea76696942f82e7d3b0677e3c",
+        "sha256": "fb7fc0704a5a1aa9dfbce9807563009f7a6647e3f784c638448c80ba63b8f839"
+      }
+    },
+    {
+      "id": "can-it-stand",
+      "english": "Can it stand",
+      "translation": "它能立住嗎",
+      "audio": {
+        "src": "/audio/phrases/block-tower-can-it-stand.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "13dcd1e13091a068b58ecede6ed01a301a9daa85bbeddd9a08fd0a391d1eccc0",
+        "sha256": "dbf2b4b87f9c90cdde935cd6bfa05a338d9725c7695daaadc0158ccc0a2715e4"
+      }
+    },
+    {
+      "id": "let-go",
+      "english": "let go",
+      "translation": "放手",
+      "audio": {
+        "src": "/audio/phrases/block-tower-let-go.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "84a910315b56ca0a56691e1265366f44b8a76ed4b3be9aa4d045a9592dddb651",
+        "sha256": "4838a172e928fcb6d036fa211b0a7486b5ad16f659ac3544862b8fade67ef342"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "tower",
+      "english": "tower",
+      "translation": "高塔",
+      "example": "The tower is tall.",
+      "audio": {
+        "src": "/audio/words/block-tower-tower.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ad2015263f339bff96818238148b790bd02be561472f4ea7db44498caa0b6558",
+        "sha256": "63214580334d494b700fd17a19556000dfaca30d1d8e3061cfc65f3e4ab10794"
+      }
+    },
+    {
+      "id": "block",
+      "english": "block",
+      "translation": "積木",
+      "example": "This block is big.",
+      "audio": {
+        "src": "/audio/words/block-tower-block.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "496aca80e4d8f29fb8e8cd816c3afb48d3f103970b3a2ee1600c08ca67326dee",
+        "sha256": "3d5d409214c096f72dfbf0cd7c7fd093804e8214caaa02dcf34d6551b5c65d91"
+      }
+    },
+    {
+      "id": "rug",
+      "english": "rug",
+      "translation": "地毯",
+      "example": "The rug is soft.",
+      "audio": {
+        "src": "/audio/words/block-tower-rug.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9fdaa7ee3f13a29e53b116094579cf9066f87750824391d9f16440ddcf8c09dc",
+        "sha256": "556ac5dc4329147825ff14a63dcad82fe624b6f43fbde11f29a7c02f52d1e620"
+      }
+    },
+    {
+      "id": "small",
+      "english": "small",
+      "translation": "小的",
+      "example": "This bag is small.",
+      "audio": {
+        "src": "/audio/words/block-tower-small.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "81db8ebbbbc69c6c6ad4a6aa92b76e0c08af547da236b9e2c9dbe1d8285a8130",
+        "sha256": "5d3a8e44258455253b1bb9b5f22146059b065d21f7ea6ebc2f85579141e58456"
+      }
+    },
+    {
+      "id": "top",
+      "english": "top",
+      "translation": "上面",
+      "example": "Put it on top.",
+      "audio": {
+        "src": "/audio/words/block-tower-top.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "28720365c5e7476a011e4f43ac003ee5f16247a263b9d623aa85ed311d73bf39",
+        "sha256": "9c9c78101e3edf6dc9cc98f33b526f6f448baf3544f9365c586b510362a8ec91"
+      }
+    },
+    {
+      "id": "stand",
+      "english": "stand",
+      "translation": "立住",
+      "example": "Can the tower stand?",
+      "audio": {
+        "src": "/audio/words/block-tower-stand.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d37a24b801c6e2e338243b7361c5985e1d8e26bcf5555dd08cd8c969e01e1670",
+        "sha256": "16fa6d8cdcb5de9dec3f558a2df77d2dc2d2b85bf89be225ec9142483c5ca631"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Bo "
+        },
+        {
+          "text": "builds a ",
+          "phraseIds": [
+            "builds-a-tower"
+          ]
+        },
+        {
+          "text": "tower",
+          "phraseIds": [
+            "builds-a-tower"
+          ],
+          "wordIds": [
+            "tower"
+          ]
+        },
+        {
+          "text": " with An."
+        }
+      ],
+      "translation": "小柏和小安一起搭高塔。",
+      "audio": {
+        "src": "/audio/sentences/block-tower/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1e78d83267a1c35a46be87f71e704c31704670a1b4996497680073e8d2b86f25",
+        "sha256": "cb5c2294f407ec6a64731bc1fb2a7cc1ed775a3d12e38fa8da3b39153c337155"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "He puts a big "
+        },
+        {
+          "text": "block",
+          "wordIds": [
+            "block"
+          ]
+        },
+        {
+          "text": " on the "
+        },
+        {
+          "text": "rug",
+          "wordIds": [
+            "rug"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他把一塊大積木放在地毯上。",
+      "audio": {
+        "src": "/audio/sentences/block-tower/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "66ee99042f8a7895689666af9cfe68e3acab9a94053d1371a395fa570162fbb1",
+        "sha256": "c8f78387abf114f18fc36c17120caa2f7bf80625c8cde47463020895dbde7bf6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "An adds two "
+        },
+        {
+          "text": "small",
+          "wordIds": [
+            "small"
+          ]
+        },
+        {
+          "text": " blocks "
+        },
+        {
+          "text": "on ",
+          "phraseIds": [
+            "on-top"
+          ]
+        },
+        {
+          "text": "top",
+          "phraseIds": [
+            "on-top"
+          ],
+          "wordIds": [
+            "top"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小安在上面加上兩塊小積木。",
+      "audio": {
+        "src": "/audio/sentences/block-tower/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8a684aee1f01f90ed5d181258b46ca7f005359b640d92c3be45a174883d429fc",
+        "sha256": "7f4a15cdcbf5f3d6184abff629d70a5afb42ff2d5d9ffda3ba76bec9935e1bbc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Can it ",
+          "phraseIds": [
+            "can-it-stand"
+          ]
+        },
+        {
+          "text": "stand",
+          "phraseIds": [
+            "can-it-stand"
+          ],
+          "wordIds": [
+            "stand"
+          ]
+        },
+        {
+          "text": "?” asks Bo."
+        }
+      ],
+      "translation": "小柏問：「它能立住嗎？」",
+      "audio": {
+        "src": "/audio/sentences/block-tower/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5d3bf141e75d2c49f9fe627a32e3b7b015f7dd0ad0b2140bf023f8a1f84d8988",
+        "sha256": "62b222f42e99a9bdfa0315f56a8e64d17d7982a1c91481db68af88da4d9d6322"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They "
+        },
+        {
+          "text": "let go",
+          "phraseIds": [
+            "let-go"
+          ]
+        },
+        {
+          "text": " and watch the "
+        },
+        {
+          "text": "tower",
+          "wordIds": [
+            "tower"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們放手，看著高塔。",
+      "audio": {
+        "src": "/audio/sentences/block-tower/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7ab211aa3bedabc4675c1311c7a7bfd1234f4eec6d8116e98f88b698aba8b19a",
+        "sha256": "f9b3f73a2942b27256626fdf460cb2618e243e94ce6a97a9ddf67d03c24968a7"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“Yes! It stands!” says An."
+        }
+      ],
+      "translation": "小安說：「可以！它立住了！」",
+      "audio": {
+        "src": "/audio/sentences/block-tower/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "efab6e97acd49fb3c9f23bc1ef0f75a9c7e13c3511c7fe3da55861754d2725e3",
+        "sha256": "60d69cb51f61fd2e1d0ff5f9b3ff9dae35e0601dc75cfbbb2b43d49de44cdce5"
+      }
+    }
+  ]
+}

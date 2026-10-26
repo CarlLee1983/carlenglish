@@ -1,0 +1,693 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/comparing-pencils/1.mp3",
+      "text": "Bo has a red pencil and a blue pencil.",
+      "textSha256": "a6f7b185cccfe3f536a6ccce4bc8d3739d3f15eacfebce9a9d27215761c65781",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e4d1bb445c00f7ed732650c8868715576858e8d878220f5068193392ec5bd531",
+      "duration": 3.125,
+      "graphemes": [
+        "Bo has a red pencil and a blue pencil."
+      ],
+      "phonemes": [
+        "bˈO hæz ɐ ɹˈɛd pˈɛnsᵊl ænd ɐ blˈu pˈɛnsᵊl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/comparing-pencils/2.mp3",
+      "text": "He puts them side by side.",
+      "textSha256": "279c1739135d948edb017f7b7c5e6e9ddc78e1db4fa49d07d8d3ca67de8df38b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0ccb84fcaa95b473bc97c67a6bae355b4252acd35028ebd29e3c69a7bea6330e",
+      "duration": 2.125,
+      "graphemes": [
+        "He puts them side by side."
+      ],
+      "phonemes": [
+        "hˌi pˌʊts ðˌɛm sˈId bI sˈId."
+      ]
+    },
+    {
+      "src": "/audio/sentences/comparing-pencils/3.mp3",
+      "text": "“Which one is longer?” asks his teacher.",
+      "textSha256": "68b76e6a274d9cd2ced296fd9b0890bfb3d1f89e63a7fff5ede7f8757a182a93",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b270a73c3db09536b2ea3e15b9de590e89fc345856a2314927ec39f9e3b66864",
+      "duration": 2.8,
+      "graphemes": [
+        "“Which one is longer?” asks his teacher."
+      ],
+      "phonemes": [
+        "“wˌɪʧ wˈʌn ɪz lˈɔŋɡəɹ?” ˈæsks hɪz tˈiʧəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/comparing-pencils/4.mp3",
+      "text": "“The red one,” says Bo.",
+      "textSha256": "b73d426e0712e249d52db775bd0b8cb2e7c2872406f1f7aa073a7f81762982eb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ee2ace381f8a0c17bc4d0525e193898fa5a4dd30abef839feb70d77954b3323a",
+      "duration": 2.175,
+      "graphemes": [
+        "“The red one,” says Bo."
+      ],
+      "phonemes": [
+        "“ðə ɹˈɛd wˈʌn,” sˈɛz bˈO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/comparing-pencils/5.mp3",
+      "text": "He points to the shorter blue pencil.",
+      "textSha256": "79680849e6b8999c7e23ca3da54d28d47ec4d43253bcf27b1ebf0e683a785e97",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b594adfde30a88729cdeb8aca411500ed904a3b330e94fb4d35d1660c033b655",
+      "duration": 2.5,
+      "graphemes": [
+        "He points to the shorter blue pencil."
+      ],
+      "phonemes": [
+        "hˌi pˈYnts tə ðə ʃˈɔɹTəɹ blˈu pˈɛnsᵊl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/comparing-pencils/6.mp3",
+      "text": "His teacher smiles and nods at him.",
+      "textSha256": "aa8049bef834961d9865d54f9f1f1f149b76be9620f00853046d343947100594",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5378dc38bec591cb192bd0032da9d24aa2f6e927617b90f42be3ef663d268c39",
+      "duration": 2.75,
+      "graphemes": [
+        "His teacher smiles and nods at him."
+      ],
+      "phonemes": [
+        "hˌɪz tˈiʧəɹ smˈIlz ænd nˈɑdz æt hˌɪm."
+      ]
+    },
+    {
+      "src": "/audio/phrases/comparing-pencils-side-by-side.mp3",
+      "text": "side by side",
+      "textSha256": "1da444b0e662817b8ceb0bd58a3bdab17972719a5ce58a7ef892fe65f07601fa",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "986474cc48111345d46724e5ffd7a5efc22fc4538f1ea8424640309ec4fa23f2",
+      "duration": 1.675,
+      "graphemes": [
+        "side by side"
+      ],
+      "phonemes": [
+        "sˈId bI sˈId"
+      ]
+    },
+    {
+      "src": "/audio/phrases/comparing-pencils-which-one-is-longer.mp3",
+      "text": "Which one is longer",
+      "textSha256": "d1659c5f4da3eb413360bf598b02ab3a13c4f2313cf15bbe753318c4c5a2a201",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "43039cfad43003917532317a7537bef0195098bdc87df919fae12cb29d084cb1",
+      "duration": 1.75,
+      "graphemes": [
+        "Which one is longer"
+      ],
+      "phonemes": [
+        "wˌɪʧ wˈʌn ɪz lˈɔŋɡəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/comparing-pencils-the-red-one.mp3",
+      "text": "The red one",
+      "textSha256": "30b997bf7d6e142330c5338ac5a18eaae9bb95be72c8c1f2825a047d8ea21b20",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "631023108bec48b156cea6d8d6e9a566bcde42e138448b244a2ba64b2f670501",
+      "duration": 1.525,
+      "graphemes": [
+        "The red one"
+      ],
+      "phonemes": [
+        "ðə ɹˈɛd wˈʌn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/comparing-pencils-points-to.mp3",
+      "text": "points to",
+      "textSha256": "d03f5d0e7656d7b7c1134d891af438ad8e92ae563e68dea760ed24c166551437",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c4f3a72f3db30b6be973aead89beb8c7ef787eec7436c49770390fff743ba179",
+      "duration": 1.6,
+      "graphemes": [
+        "points to"
+      ],
+      "phonemes": [
+        "pˈYnts tu"
+      ]
+    },
+    {
+      "src": "/audio/words/comparing-pencils-pencil.mp3",
+      "text": "pencil",
+      "textSha256": "13809668fb436386706f67dcb052ed584a04ba16a8c02a17d66d34c30fceda21",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "847eae946ff802ced8b80c937d0a1970ac2f936b4d1701a245becd65f67e2940",
+      "duration": 1.4,
+      "graphemes": [
+        "pencil"
+      ],
+      "phonemes": [
+        "pˈɛnsᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/comparing-pencils-red.mp3",
+      "text": "red",
+      "textSha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9e766ddb1146c74735d06548793b6f41163ca01c1f5323cd2566daed2108589d",
+      "duration": 1.2,
+      "graphemes": [
+        "red"
+      ],
+      "phonemes": [
+        "ɹˈɛd"
+      ]
+    },
+    {
+      "src": "/audio/words/comparing-pencils-blue.mp3",
+      "text": "blue",
+      "textSha256": "16477688c0e00699c6cfa4497a3612d7e83c532062b64b250fed8908128ed548",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "88058c269fa8b4b51f70d929ab358628f87f7a260b00ab05758b759b52fee413",
+      "duration": 1.325,
+      "graphemes": [
+        "blue"
+      ],
+      "phonemes": [
+        "blˈu"
+      ]
+    },
+    {
+      "src": "/audio/words/comparing-pencils-longer.mp3",
+      "text": "longer",
+      "textSha256": "73834addcec75fafd7d73717ca1614a1324652ffa70b4b6c44fa359ae5a69dab",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c713dc62259cc8d94e65de8f4d1d1e457ad8d69a66d75dfb34c4665914da45a3",
+      "duration": 1.425,
+      "graphemes": [
+        "longer"
+      ],
+      "phonemes": [
+        "lˈɔŋɡəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/comparing-pencils-shorter.mp3",
+      "text": "shorter",
+      "textSha256": "13602ce54433df2bee54be0836c90a0adc931b85abc047f786e1a6c39670adb8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c3be61b2cb95d177e5f4b73175b2c7833c48cf51747fbfe1694c56b58cdcb537",
+      "duration": 1.35,
+      "graphemes": [
+        "shorter"
+      ],
+      "phonemes": [
+        "ʃˈɔɹTəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/comparing-pencils-teacher.mp3",
+      "text": "teacher",
+      "textSha256": "1057a9604e04b274da5a4de0c8f4b4868d9b230989f8c8c6a28221143cc5a755",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f44023d64ef88c811ac54550e7f97bfcbcdd425f7d461e18008bbe6848bee449",
+      "duration": 1.375,
+      "graphemes": [
+        "teacher"
+      ],
+      "phonemes": [
+        "tˈiʧəɹ"
+      ]
+    },
+    {
+      "src": "/audio/sentences/tablet-charging/1.mp3",
+      "text": "An puts her tablet on the desk.",
+      "textSha256": "188fd4e6e0d7fdf43c7e75ae7af869a66a24b023185df14f7b00b8c9e3e6fdb9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4d31d9b0233e0ad1b1861b7857c0af9a365f60e4d71421c9c8ea2047435d8488",
+      "duration": 2.325,
+      "graphemes": [
+        "An puts her tablet on the desk."
+      ],
+      "phonemes": [
+        "ɐn pˌʊts hɜɹ tˈæblət ˌɔn ðə dˈɛsk."
+      ]
+    },
+    {
+      "src": "/audio/sentences/tablet-charging/2.mp3",
+      "text": "“The battery is low,” she tells Mom.",
+      "textSha256": "f39c9c4f85977b86e9ddc7335839af024f7ec8cebdf4bd1b8c263592a5577755",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5f6080b6533963025bf16a7cf3d873d329afb52778706e0189e1d0d5ac03c49c",
+      "duration": 2.775,
+      "graphemes": [
+        "“The battery is low,” she tells Mom."
+      ],
+      "phonemes": [
+        "“ðə bˈæTəɹi ɪz lˈO,” ʃi tˈɛlz mˈɑm."
+      ]
+    },
+    {
+      "src": "/audio/sentences/tablet-charging/3.mp3",
+      "text": "“Can you help me?” she asks.",
+      "textSha256": "87c7598d7ffe5b99c0ee2a8c33f2e7ba24307685428ec7f3f571c5d2ebe05089",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "87106fe6f3ed6c9bbcb327e71426706d9fd67e2fa70e492c0d02d82cabb67f00",
+      "duration": 2.175,
+      "graphemes": [
+        "“Can you help me?” she asks."
+      ],
+      "phonemes": [
+        "“kˌæn ju hˈɛlp mˌi?” ʃi ˈæsks."
+      ]
+    },
+    {
+      "src": "/audio/sentences/tablet-charging/4.mp3",
+      "text": "Mom brings a charger and a cable.",
+      "textSha256": "03626953d85a9e4e05b3f8fc4b029fc6739fb589b1554aad814979da78133855",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "38d6b660a71a3069b1d64e651cc9cac72f320d9d985cee6b9fe57358ad9123da",
+      "duration": 2.425,
+      "graphemes": [
+        "Mom brings a charger and a cable."
+      ],
+      "phonemes": [
+        "mˈɑm bɹˈɪŋz ɐ ʧˈɑɹʤəɹ ænd ɐ kˈAbᵊl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/tablet-charging/5.mp3",
+      "text": "She connects them to charge the tablet.",
+      "textSha256": "7aa834306c35c850b0dc50272eb3f7d8d94845e65a0807e5b4e8a3ebae7ec6f3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "66b3ed2364c674e876f1b0c455d0ebb717894bf7fb7c0af730a0215b9c246bef",
+      "duration": 2.55,
+      "graphemes": [
+        "She connects them to charge the tablet."
+      ],
+      "phonemes": [
+        "ʃˌi kənˈɛkts ðˌɛm tə ʧˈɑɹʤ ðə tˈæblət."
+      ]
+    },
+    {
+      "src": "/audio/sentences/tablet-charging/6.mp3",
+      "text": "“We can wait,” says An.",
+      "textSha256": "db9a4f59849fcae0634de21404d9b4078c864639141aa7ebaf87d7fda72b0222",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a3995fdb6461c466457db8dcfbec5270552702f235b3d6a2970254d354d10d1a",
+      "duration": 2.025,
+      "graphemes": [
+        "“We can wait,” says An."
+      ],
+      "phonemes": [
+        "“wˌi kæn wˈAt,” sˈɛz ɐn."
+      ]
+    },
+    {
+      "src": "/audio/phrases/tablet-charging-on-the-desk.mp3",
+      "text": "on the desk",
+      "textSha256": "348f5a04b8ff66810f824c82af0410e0306c1c702e411c91e58b70ff4be9fe50",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5c6589dd0b3c6a4ccfccf82211861ec7beed470e79b15d99305d4e37bfe56037",
+      "duration": 1.525,
+      "graphemes": [
+        "on the desk"
+      ],
+      "phonemes": [
+        "ˌɔn ðə dˈɛsk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/tablet-charging-the-battery-is-low.mp3",
+      "text": "The battery is low",
+      "textSha256": "a8914926a63a0d13ad5d1166d457b35a03b868f966c92009ab48bfade37eb60e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a93199aa501d6ed1306ba9089a1259704d50966d450c8373acdd10a4a7818c4a",
+      "duration": 1.9,
+      "graphemes": [
+        "The battery is low"
+      ],
+      "phonemes": [
+        "ðə bˈæTəɹi ɪz lˈO"
+      ]
+    },
+    {
+      "src": "/audio/phrases/tablet-charging-can-you-help-me.mp3",
+      "text": "Can you help me",
+      "textSha256": "45e8dd79ec3aafb729946309e46708a535d7b365a80b9feb2d595487e45e10e1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e6fe8ff0e3c309418f6555b9544b3680e0dda3fd537e5b970517854624cbf816",
+      "duration": 1.65,
+      "graphemes": [
+        "Can you help me"
+      ],
+      "phonemes": [
+        "kˌæn ju hˈɛlp mˌi"
+      ]
+    },
+    {
+      "src": "/audio/phrases/tablet-charging-we-can-wait.mp3",
+      "text": "We can wait",
+      "textSha256": "0dee56495441660c400c0d8e6b8355783f2747a5758338eea9476ed8045027bf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fdc7de76f5b59bf3d0ed1670fabf96ce30dee40647bf21a4ccd9958e4c8befe0",
+      "duration": 1.525,
+      "graphemes": [
+        "We can wait"
+      ],
+      "phonemes": [
+        "wˌi kæn wˈAt"
+      ]
+    },
+    {
+      "src": "/audio/words/tablet-charging-tablet.mp3",
+      "text": "tablet",
+      "textSha256": "5bed85bd69a5502a8f645a58a05e979f94bdeb77b957199ce8429e0ffbc01257",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "48bd7e7c843960b0c9cf86be8e8e14fbcf032decfd5fab2786f657d9e1ccdb83",
+      "duration": 1.375,
+      "graphemes": [
+        "tablet"
+      ],
+      "phonemes": [
+        "tˈæblət"
+      ]
+    },
+    {
+      "src": "/audio/words/tablet-charging-battery.mp3",
+      "text": "battery",
+      "textSha256": "f3d1701e1d575e1294786989517866986bc97343e07af63e201f46ba0be5806a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "302a45886fe475bcddf0cc881d3aa6c9cb573ccf3bf86adc992c85e1f5bf8c8d",
+      "duration": 1.425,
+      "graphemes": [
+        "battery"
+      ],
+      "phonemes": [
+        "bˈæTəɹi"
+      ]
+    },
+    {
+      "src": "/audio/words/tablet-charging-desk.mp3",
+      "text": "desk",
+      "textSha256": "49be417ad74080a0031b636b44cfc26fdd0065492d6cd3b033960c4414955cf7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "61cc6de5b5eb90821e0a4f4ee4e78f624d87ea2e33b1657afa62a22040e5bc20",
+      "duration": 1.3,
+      "graphemes": [
+        "desk"
+      ],
+      "phonemes": [
+        "dˈɛsk"
+      ]
+    },
+    {
+      "src": "/audio/words/tablet-charging-charger.mp3",
+      "text": "charger",
+      "textSha256": "38102b4b8d453fbae854c177c7baad3e4fa42407b104b220dfb42837fb562db2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6e5ab8db0d2599721e000da9f496196af09680cc8d20d41b7307929801f805e4",
+      "duration": 1.425,
+      "graphemes": [
+        "charger"
+      ],
+      "phonemes": [
+        "ʧˈɑɹʤəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/tablet-charging-cable.mp3",
+      "text": "cable",
+      "textSha256": "7d6e18d0ff4bed3b1d1f3afc82ffa124f83ff2b43c83bf14a69562c8e22f0b2c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a5392ebdd31584d546090f4d55bb40c6e58b17ddea1ae8e7e6b988c2ff6659d6",
+      "duration": 1.35,
+      "graphemes": [
+        "cable"
+      ],
+      "phonemes": [
+        "kˈAbᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/tablet-charging-wait.mp3",
+      "text": "wait",
+      "textSha256": "716ecabb45ac6a88a049398fde2d3d5225c6dd3121ae9bbc5af457eb4baf056a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f588bc7b3f83c5ee9e650fb37e6dd7d6e8e0e316070cd3d937d027f9fe749da4",
+      "duration": 1.225,
+      "graphemes": [
+        "wait"
+      ],
+      "phonemes": [
+        "wˈAt"
+      ]
+    },
+    {
+      "src": "/audio/sentences/ice-cream-choice/1.mp3",
+      "text": "Mei stops at an ice cream stand.",
+      "textSha256": "9735234397dc43fb4dd72cc06cc9948afc6854aed5d7affa9e8e750af09304ac",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "27f98a9e42948ed3652880e6ee88d7229f85b3f79edaca4c34c4bb4b12648c97",
+      "duration": 2.425,
+      "graphemes": [
+        "Mei stops at an ice cream stand."
+      ],
+      "phonemes": [
+        "mˈA stˈɑps æt ɐn ˈIs kɹˈim stˈænd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/ice-cream-choice/2.mp3",
+      "text": "“Which flavor would you like?” asks the seller.",
+      "textSha256": "0a527921be8296c477ea658dbc1a2881d4b0cf33ced026ea9c0a54fa04f96161",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fff992e12a2d5bd85e22280ba107519523991d2e46e15cb364fc16c2e8ee2ae4",
+      "duration": 2.9,
+      "graphemes": [
+        "“Which flavor would you like?” asks the seller."
+      ],
+      "phonemes": [
+        "“wˌɪʧ flˈAvəɹ wʊd ju lˈIk?” ˈæsks ðə sˈɛləɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/ice-cream-choice/3.mp3",
+      "text": "“Strawberry, please,” says Mei.",
+      "textSha256": "be7e4c2611f2c87ab7558b2108d89afb559d52a123be2313587fbb8e2e187928",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6eeccbc4ef05734ba003d2d4ec69d06e725f85603c8f36bf59e82d22cd5cc856",
+      "duration": 2.45,
+      "graphemes": [
+        "“Strawberry, please,” says Mei."
+      ],
+      "phonemes": [
+        "“stɹˈɔbˌɛɹi, plˈiz,” sˈɛz mˈA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/ice-cream-choice/4.mp3",
+      "text": "“A cone or a cup?” he asks.",
+      "textSha256": "b1010466e8915cb8d2959e32338ae07b18e77bffbfb8aa25d72870e6e966209a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a85032184311fe6535fd79243c7c398751d0f7443e7d4dff8e175d185a3c2c02",
+      "duration": 2.4,
+      "graphemes": [
+        "“A cone or a cup?” he asks."
+      ],
+      "phonemes": [
+        "“ɐ kˈOn ɔɹ ɐ kˈʌp?” hi ˈæsks."
+      ]
+    },
+    {
+      "src": "/audio/sentences/ice-cream-choice/5.mp3",
+      "text": "“A cup, please,” she says.",
+      "textSha256": "2f1e8f72c454093fdef9a788f80694f4c51e82a5ebf24fed7f4958dd46f09554",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9564fbb67c6dc920a4eaac4a13f94e1505019bc2b9b9cf29a50e85b7dd884f33",
+      "duration": 2.15,
+      "graphemes": [
+        "“A cup, please,” she says."
+      ],
+      "phonemes": [
+        "“ɐ kˈʌp, plˈiz,” ʃi sˈɛz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/ice-cream-choice/6.mp3",
+      "text": "Mei takes her ice cream and says thanks.",
+      "textSha256": "a28ecf82adebeb180d54349d6b790dae74977066c8d1948e5433e0ae4bbc1fe5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f38201f859afccf92f847c7442cd482baa144fc45d1a820f6bc6f5c6c715338f",
+      "duration": 2.625,
+      "graphemes": [
+        "Mei takes her ice cream and says thanks."
+      ],
+      "phonemes": [
+        "mˈA tˈAks hɜɹ ˈIs kɹˈim ænd sˈɛz θˈæŋks."
+      ]
+    },
+    {
+      "src": "/audio/phrases/ice-cream-choice-which-flavor-would-you-like.mp3",
+      "text": "Which flavor would you like",
+      "textSha256": "2b431c875cef3b7254bbed35b6e7d1fb791d2ae4aaa6461b28e59a9f8f1acfc5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f31ce1538b3c727ea83b8ff1a5236a46b05b5163e6b5243c2d776d24d7d4788a",
+      "duration": 1.85,
+      "graphemes": [
+        "Which flavor would you like"
+      ],
+      "phonemes": [
+        "wˌɪʧ flˈAvəɹ wʊd ju lˈIk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/ice-cream-choice-strawberry-please.mp3",
+      "text": "Strawberry, please",
+      "textSha256": "a5cf574954d03f894464316713cce4a2a1559a11a09465f44b54060b3a4d1c1e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d0fd93fa99239d801b778b532131a1b129352b2c72181d69e81cf2cade6058ce",
+      "duration": 1.825,
+      "graphemes": [
+        "Strawberry, please"
+      ],
+      "phonemes": [
+        "stɹˈɔbˌɛɹi, plˈiz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/ice-cream-choice-a-cone-or-a-cup.mp3",
+      "text": "A cone or a cup",
+      "textSha256": "57515199a6401926da6e747c5628f47fd6b7b27f4e70cb7ac084e9c842785a4f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "960412f8bae15cebc4e3bc55d59957de6d0f7adcc8ff66523f8af42205e07f48",
+      "duration": 1.7,
+      "graphemes": [
+        "A cone or a cup"
+      ],
+      "phonemes": [
+        "ɐ kˈOn ɔɹ ɐ kˈʌp"
+      ]
+    },
+    {
+      "src": "/audio/phrases/ice-cream-choice-a-cup-please.mp3",
+      "text": "A cup, please",
+      "textSha256": "b04f8bb3efc402ce3a626444a225264746e5333e50d821aeeee3d5adbbfddbed",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a40f21079acc0d6f9af47c58be5030f32eeefbdb472e39c20d92bfc194cea8fc",
+      "duration": 1.65,
+      "graphemes": [
+        "A cup, please"
+      ],
+      "phonemes": [
+        "ɐ kˈʌp, plˈiz"
+      ]
+    },
+    {
+      "src": "/audio/words/ice-cream-choice-ice-cream.mp3",
+      "text": "ice cream",
+      "textSha256": "e971c330aab8741082ab062c2d63f754238c6f46aac59291b07beff6b5a87dd7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d34dd0c9349378b542fbecf797a0c4aaf08653fcc4ec28f7a9f4636d378a6440",
+      "duration": 1.575,
+      "graphemes": [
+        "ice cream"
+      ],
+      "phonemes": [
+        "ˈIs kɹˈim"
+      ]
+    },
+    {
+      "src": "/audio/words/ice-cream-choice-flavor.mp3",
+      "text": "flavor",
+      "textSha256": "b5d2f4515ba34f2f83f3a84e6958769f2b89b5ceca3fdfe1b4303eead3507daa",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5ba20648a95e1ce5de0a77d2aa7e52c37cc45db08729a0dacfb80dfa7bc426b4",
+      "duration": 1.4,
+      "graphemes": [
+        "flavor"
+      ],
+      "phonemes": [
+        "flˈAvəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/ice-cream-choice-strawberry.mp3",
+      "text": "strawberry",
+      "textSha256": "5e737f891db1175442a39fde73e51d781a545506d71c95477a6deb5988bd7f9a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "691eee0fec7d48df374fdf14b083d45c2ce91fc17d47403d47f5a389fba57cae",
+      "duration": 1.525,
+      "graphemes": [
+        "strawberry"
+      ],
+      "phonemes": [
+        "stɹˈɔbˌɛɹi"
+      ]
+    },
+    {
+      "src": "/audio/words/ice-cream-choice-cone.mp3",
+      "text": "cone",
+      "textSha256": "cff179e7721e503c090cb8200cb1ef125aaff60886179b1eb70fb6c422ee1314",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "12321dbd095d77778436752e0632eb72d5616f169c6a0bdf3d52ad2b05c7cdf6",
+      "duration": 1.325,
+      "graphemes": [
+        "cone"
+      ],
+      "phonemes": [
+        "kˈOn"
+      ]
+    },
+    {
+      "src": "/audio/words/ice-cream-choice-cup.mp3",
+      "text": "cup",
+      "textSha256": "c6171781d65f3ccce1135e3c89850cfbaa7f332fd72a1f8f6a841fbcf7fd362a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "58bbcb407d1103be4035ba5162e9ca39ea44359e2a8b938b2398e7fb761a666a",
+      "duration": 1.2,
+      "graphemes": [
+        "cup"
+      ],
+      "phonemes": [
+        "kˈʌp"
+      ]
+    },
+    {
+      "src": "/audio/words/ice-cream-choice-seller.mp3",
+      "text": "seller",
+      "textSha256": "a4279eae47aaa7417da62434795a011ccb0ec870f7f56646d181b5500a892a9a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ba28669ae9217244aac70f58a8bfc4465b017012b1af2c76dc29034f0c284369",
+      "duration": 1.325,
+      "graphemes": [
+        "seller"
+      ],
+      "phonemes": [
+        "sˈɛləɹ"
+      ]
+    }
+  ]
+}

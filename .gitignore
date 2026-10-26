@@ -8,6 +8,7 @@ dist/
 .wrangler/
 test-results/
 playwright-report/
+/artifact-manifest.json
 .scratch/
 .claude/
 __pycache__/

@@ -1,0 +1,324 @@
+{
+  "id": "art-tools-away",
+  "title": "整理畫畫用品",
+  "titleEn": "Putting Art Tools Away",
+  "category": "校園學習",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/art-tools-away.webp",
+    "alt": "小宇在美術教室桌旁把蠟筆放進盒子，桌上有裝著畫筆的罐子和紙張，老師在旁指著盒子。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "after-class",
+      "english": "after class",
+      "translation": "下課後",
+      "audio": {
+        "src": "/audio/phrases/art-tools-away-after-class.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5c7860d21e04156c5b0966c0bfe6a5f7b519760d7ec904e122fabedea329c59e",
+        "sha256": "6ea4bbce0af218082fba99c8fed41309fa89968adb78134d4ff3026623b299f3"
+      }
+    },
+    {
+      "id": "where-do-these-crayons-go",
+      "english": "Where do these crayons go",
+      "translation": "這些蠟筆要放哪裡",
+      "audio": {
+        "src": "/audio/phrases/art-tools-away-where-do-these-crayons-go.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fb26359e3c38cc060bb61768871f3c3741e5f03838a94588f3da731819f3fd70",
+        "sha256": "10256ca0ae661bf1648897ed07b6fc8cae4a8aea9ae6a078124b02755abc18e0"
+      }
+    },
+    {
+      "id": "in-this-box",
+      "english": "In this box",
+      "translation": "在這個盒子裡",
+      "audio": {
+        "src": "/audio/phrases/art-tools-away-in-this-box.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e7771c5d72d2991e916b7e4af8c0efe44022e549c38fc66015416ff1d049b55a",
+        "sha256": "e4539002748db4e3eb886be8ac874edc97a93a4ae687b2d089eb099e9f50603a"
+      }
+    },
+    {
+      "id": "my-desk-is-tidy",
+      "english": "my desk is tidy",
+      "translation": "我的桌面整齊了",
+      "audio": {
+        "src": "/audio/phrases/art-tools-away-my-desk-is-tidy.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e7a15f4614548bf6539fcf1888a5869e6df19abbb3df8d51f21fac46dd8d0461",
+        "sha256": "e19788aa29ce9c505bc8c367016ffa1d8ec1cb671b3683d4578b86f57dcbdfe7"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "tools",
+      "english": "tools",
+      "translation": "工具（複數）",
+      "example": "These tools are for art.",
+      "audio": {
+        "src": "/audio/words/art-tools-away-tools.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f9d35d43770d39092a663e665e82ae1d84a9e0da3d0d10c407acada6a40cd281",
+        "sha256": "0d71cf3b3353409685fa73d4e8a1615d94261205f5390a33eb7ce1a5ad18c90c"
+      }
+    },
+    {
+      "id": "brushes",
+      "english": "brushes",
+      "translation": "畫筆（複數）",
+      "example": "The brushes are in the jar.",
+      "audio": {
+        "src": "/audio/words/art-tools-away-brushes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b4d2062daaed8dcfe507ec4e3f68d6817b1f2a4554bf709d6be7a03eaa515c15",
+        "sha256": "d151f4f957df4ece3913b0c0858f29a8de63a4902c701cf227f4da6cad9bbdbb"
+      }
+    },
+    {
+      "id": "jar",
+      "english": "jar",
+      "translation": "罐子",
+      "example": "The jar is on the table.",
+      "audio": {
+        "src": "/audio/words/art-tools-away-jar.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0163f1eea7894350060624d315234d40c508ab251ba121714e234503045faadd",
+        "sha256": "f1ba282d265ab6acf0d6be5acae39c36ec3d6d8ee3674860da096ad784fa14ea"
+      }
+    },
+    {
+      "id": "crayons",
+      "english": "crayons",
+      "translation": "蠟筆（複數）",
+      "example": "My crayons are in the box.",
+      "audio": {
+        "src": "/audio/words/art-tools-away-crayons.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e23ce146f7285d84c5ce5f7181c3092df9e1ca14adb0986aa7269cb14c70f250",
+        "sha256": "f14c746e40500b8f500c1827f9f6cef93e82071c0169c0b73ce391f01d229d4a"
+      }
+    },
+    {
+      "id": "box",
+      "english": "box",
+      "translation": "盒子",
+      "example": "The box is small.",
+      "audio": {
+        "src": "/audio/words/art-tools-away-box.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "26f8567f2569182294c3fa5b9f9cb2270b554eef628b4c149cf82a42888ff4ae",
+        "sha256": "27eb3a0398f8eca66d0bbd0c6aee69a601d1fe06da51a8092e3e02d322575d29"
+      }
+    },
+    {
+      "id": "paper",
+      "english": "paper",
+      "translation": "紙",
+      "example": "The paper is red.",
+      "audio": {
+        "src": "/audio/words/art-tools-away-paper.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "382635c9325bf3273d195ff1b8a44e5b11afd7d97addeb8863ea35feb98c1a07",
+        "sha256": "56b994593679c9d5549c82f84fdcf3a577bb15f8b4e38d80e5ffb53d0f470fcf"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Yu sorts his art "
+        },
+        {
+          "text": "tools",
+          "wordIds": [
+            "tools"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "after class",
+          "phraseIds": [
+            "after-class"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小宇下課後整理畫畫用品。",
+      "audio": {
+        "src": "/audio/sentences/art-tools-away/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9cf9ebfdadecabd78bf54aca47330816e2b35a4da158388506fa5508873ee911",
+        "sha256": "b47d18ed29c90925d094c45d6ba04ff37c54f2003b831ace7c2c24b6439ee06f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "He puts the "
+        },
+        {
+          "text": "brushes",
+          "wordIds": [
+            "brushes"
+          ]
+        },
+        {
+          "text": " in a "
+        },
+        {
+          "text": "jar",
+          "wordIds": [
+            "jar"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他把畫筆放進罐子裡。",
+      "audio": {
+        "src": "/audio/sentences/art-tools-away/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cbcc6fb08be2292675e6380776069561fa0c5e7b63dbe79f27b1610060146551",
+        "sha256": "f1f70e7afc15e6cce3cf4aa7a0a5148d29b8fbdd2f5349ab559184e22e36486f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Where do these ",
+          "phraseIds": [
+            "where-do-these-crayons-go"
+          ]
+        },
+        {
+          "text": "crayons",
+          "phraseIds": [
+            "where-do-these-crayons-go"
+          ],
+          "wordIds": [
+            "crayons"
+          ]
+        },
+        {
+          "text": " go",
+          "phraseIds": [
+            "where-do-these-crayons-go"
+          ]
+        },
+        {
+          "text": "?” he asks."
+        }
+      ],
+      "translation": "他問：「這些蠟筆要放哪裡？」",
+      "audio": {
+        "src": "/audio/sentences/art-tools-away/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bb983d2b1d59e93a5bc5867e8870313e21a158c4fef4989700e4bed7862d436f",
+        "sha256": "0f89abbeef02693d8ac83e55d01c44aaa0b14ce7bdf8bf5a1730e53521f43d65"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "In this ",
+          "phraseIds": [
+            "in-this-box"
+          ]
+        },
+        {
+          "text": "box",
+          "phraseIds": [
+            "in-this-box"
+          ],
+          "wordIds": [
+            "box"
+          ]
+        },
+        {
+          "text": ",” says his teacher."
+        }
+      ],
+      "translation": "老師說：「在這個盒子裡。」",
+      "audio": {
+        "src": "/audio/sentences/art-tools-away/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1a3512b87216f12558e9000244a1cee703e74f5603ca31196b033c86a8a84c11",
+        "sha256": "31f33806392412483056e9eba254609e069830ac27d1753dc877f26690dd9cdf"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yu closes the "
+        },
+        {
+          "text": "box",
+          "wordIds": [
+            "box"
+          ]
+        },
+        {
+          "text": " and stacks the "
+        },
+        {
+          "text": "paper",
+          "wordIds": [
+            "paper"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小宇蓋好盒子，把紙張疊好。",
+      "audio": {
+        "src": "/audio/sentences/art-tools-away/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "efc128544fa796d5fc011952c1649863b35fd4249e236ec9cd4d44f6c84b900f",
+        "sha256": "0c4c21157b05eb9a53961ca30829520258b0d3289799ff5f14c9862d7ff5c540"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“Now "
+        },
+        {
+          "text": "my desk is tidy",
+          "phraseIds": [
+            "my-desk-is-tidy"
+          ]
+        },
+        {
+          "text": "!” he says."
+        }
+      ],
+      "translation": "他說：「現在我的桌面整齊了！」",
+      "audio": {
+        "src": "/audio/sentences/art-tools-away/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "769555601f909e47f7da82db507338ef9ffc9c75ade87ad8628cb77cff89cb0f",
+        "sha256": "ebf8d894bbe2a0ce219cb9a93e7f1b2b38643b33f3fe1dfc72b98a5a60072db5"
+      }
+    }
+  ]
+}

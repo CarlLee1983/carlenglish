@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-26",
+  "clips": 48,
+  "bytes": 722712,
+  "durationSeconds": 89.9,
+  "checks": {
+    "textSha256": true,
+    "fileSha256": true,
+    "voiceId": true,
+    "completeGraphemes": true,
+    "ffmpegDecode": true
+  },
+  "scope": [
+    "family-photo",
+    "wrapping-gift",
+    "park-bubbles"
+  ]
+}

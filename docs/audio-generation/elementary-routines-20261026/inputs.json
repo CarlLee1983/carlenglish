@@ -1,0 +1,261 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/board-game-turns/1.mp3",
+      "text": "Mei and Bo play a board game.",
+      "textSha256": "9533cab1d7a0f5c5b9fbca13f197c5789eead08905d4160b83ea098ba203310d"
+    },
+    {
+      "src": "/audio/sentences/board-game-turns/2.mp3",
+      "text": "“It is your turn,” says Bo.",
+      "textSha256": "b53fbbeeab98ffe3aeed00c5f3b58673aad249a862fbb87db77c5d78f07f4dc0"
+    },
+    {
+      "src": "/audio/sentences/board-game-turns/3.mp3",
+      "text": "Mei rolls a die and gets three.",
+      "textSha256": "14264070f7b0ab8aca58c155df42f6e918f3e2d787cc0b9dead1ef2ef26ab957"
+    },
+    {
+      "src": "/audio/sentences/board-game-turns/4.mp3",
+      "text": "She moves her piece three spaces.",
+      "textSha256": "a0b54cb1a4d5b312b1ccd6d6ca17dff236eccd9fb250873df741a65255485589"
+    },
+    {
+      "src": "/audio/sentences/board-game-turns/5.mp3",
+      "text": "“Your piece is near the end!” says Bo.",
+      "textSha256": "c5dce410b878e092a16f733153134a570787d7a2347cd30fed871e974ebdc61d"
+    },
+    {
+      "src": "/audio/sentences/board-game-turns/6.mp3",
+      "text": "They smile and keep playing together.",
+      "textSha256": "ded24feb28f702ff536b4b83ef05a0c720dbafec7cda173a774bcf21d0312d69"
+    },
+    {
+      "src": "/audio/phrases/board-game-turns-it-is-your-turn.mp3",
+      "text": "It is your turn",
+      "textSha256": "6403e0d59f2db391353ceefd19ef0425ee9766a5e09d8aaf7c6052896c2dc133"
+    },
+    {
+      "src": "/audio/phrases/board-game-turns-rolls-a-die.mp3",
+      "text": "rolls a die",
+      "textSha256": "cc125dd64379dcb15d482f31dfc5a78f814411258c41b219426b148421824098"
+    },
+    {
+      "src": "/audio/phrases/board-game-turns-three-spaces.mp3",
+      "text": "three spaces",
+      "textSha256": "c0d08d774729d0a797b3b6dafab8ed05f5f7f3f240450e7d70b9414f38c83200"
+    },
+    {
+      "src": "/audio/phrases/board-game-turns-near-the-end.mp3",
+      "text": "near the end",
+      "textSha256": "278e643fd09a6506e88c25b1d5386112dfa74c0daf3acf296cdd00c14193c6ad"
+    },
+    {
+      "src": "/audio/words/board-game-turns-game.mp3",
+      "text": "game",
+      "textSha256": "6ca5cab77e702c787b4c14b3d3bf26bad43da606be6eed04ab0b9720120ae081"
+    },
+    {
+      "src": "/audio/words/board-game-turns-die.mp3",
+      "text": "die",
+      "textSha256": "a8d79f40ddb79de569d778f1c0b832f9cc266b32274b702cff4ba2b8a0dd1549"
+    },
+    {
+      "src": "/audio/words/board-game-turns-three.mp3",
+      "text": "three",
+      "textSha256": "8b5b9db0c13db24256c829aa364aa90c6d2eba318b9232a4ab9313b954d3555f"
+    },
+    {
+      "src": "/audio/words/board-game-turns-piece.mp3",
+      "text": "piece",
+      "textSha256": "34235a2c502e3919d3f00af5dabb87cb58aef4566b10631f2a5db94950ebffbd"
+    },
+    {
+      "src": "/audio/words/board-game-turns-spaces.mp3",
+      "text": "spaces",
+      "textSha256": "ff6f0e9a530a025ad61dbea8fefa873faf153860b184d14af9bb4f57354f93cd"
+    },
+    {
+      "src": "/audio/words/board-game-turns-end.mp3",
+      "text": "end",
+      "textSha256": "361e48d0308f20e32dba5fb56328baf18d72ef0ccb43b84f5c262d2a6a1fc6c8"
+    },
+    {
+      "src": "/audio/sentences/bottle-refill/1.mp3",
+      "text": "Bo takes his bottle to the water station.",
+      "textSha256": "63931a86faa15ea7b943d68ed276818a82280837ff79304df8a3842e4a24693a"
+    },
+    {
+      "src": "/audio/sentences/bottle-refill/2.mp3",
+      "text": "“It is empty,” he tells Mei.",
+      "textSha256": "fc3a2cb88e5201cb2f058ba3c909452783d14ce7c1789175083d1d3b197497e7"
+    },
+    {
+      "src": "/audio/sentences/bottle-refill/3.mp3",
+      "text": "Bo puts the bottle under the tap.",
+      "textSha256": "fbc9c4d357a5d08c5a5a8fb5a8a6b0afb70382e8228912d9f88d22a3fa85b2f8"
+    },
+    {
+      "src": "/audio/sentences/bottle-refill/4.mp3",
+      "text": "Mei presses the button to add water.",
+      "textSha256": "f16569e0de6f2503d6190fe9daf813ff9de80e608daed8e81d2f42df34b6065e"
+    },
+    {
+      "src": "/audio/sentences/bottle-refill/5.mp3",
+      "text": "“It is full!” says Bo.",
+      "textSha256": "56a9dcbe2fe0cb360926aa74cd4b516a0f40197e0c4467d04ffe5236074b4cb7"
+    },
+    {
+      "src": "/audio/sentences/bottle-refill/6.mp3",
+      "text": "He closes the lid and thanks Mei.",
+      "textSha256": "56e634e71157c6e0473daca9305babbf4e7509d783ec7333fc0e19e51d43fbb7"
+    },
+    {
+      "src": "/audio/phrases/bottle-refill-it-is-empty.mp3",
+      "text": "It is empty",
+      "textSha256": "a83ec5f12582011f4dfaee36629897ba4e98d17f78d98d4712660bfa620ce60c"
+    },
+    {
+      "src": "/audio/phrases/bottle-refill-under-the-tap.mp3",
+      "text": "under the tap",
+      "textSha256": "273829d542911757216d3168c9241f38eb202818364a6d93ab7ed237bb2b464d"
+    },
+    {
+      "src": "/audio/phrases/bottle-refill-presses-the-button.mp3",
+      "text": "presses the button",
+      "textSha256": "7a79d03713def719f02a6f74419111747cdfbdf860a104b06e59e285cd4e99cd"
+    },
+    {
+      "src": "/audio/phrases/bottle-refill-it-is-full.mp3",
+      "text": "It is full",
+      "textSha256": "0f86a171945ed33be284cb0fdca4053b6b3eba9c9e186c16dc02f95d1ab59fab"
+    },
+    {
+      "src": "/audio/words/bottle-refill-bottle.mp3",
+      "text": "bottle",
+      "textSha256": "7def9c79e5be6d7a70022168b8b099ce1e707a2fd809a60fab73de6de578884b"
+    },
+    {
+      "src": "/audio/words/bottle-refill-water.mp3",
+      "text": "water",
+      "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501"
+    },
+    {
+      "src": "/audio/words/bottle-refill-empty.mp3",
+      "text": "empty",
+      "textSha256": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d"
+    },
+    {
+      "src": "/audio/words/bottle-refill-tap.mp3",
+      "text": "tap",
+      "textSha256": "729cd87c6329408e2bbfea0e2055404969539832af12773b558aca625ccc9041"
+    },
+    {
+      "src": "/audio/words/bottle-refill-button.mp3",
+      "text": "button",
+      "textSha256": "c3e2d78f3ff335724b4029f06505b511e4f8f01e258828de29849b36b40b55d0"
+    },
+    {
+      "src": "/audio/words/bottle-refill-lid.mp3",
+      "text": "lid",
+      "textSha256": "98fbb7ef60124ed0c3bb88f8cdf6cdaafb901fea5d9ae82ac5e000228c31e1e4"
+    },
+    {
+      "src": "/audio/sentences/bedtime-alarm/1.mp3",
+      "text": "An needs to get up early tomorrow.",
+      "textSha256": "4729d9c88e9a080c9b6d80897f2b3b8290b47bac4b66d0e7cb369c292974fa11"
+    },
+    {
+      "src": "/audio/sentences/bedtime-alarm/2.mp3",
+      "text": "Mom sets An's alarm clock for seven.",
+      "textSha256": "19ed0ee78e97c12bf94e071bc0adf3bbd92982d2da76f75834ff1f974ac56ff8"
+    },
+    {
+      "src": "/audio/sentences/bedtime-alarm/3.mp3",
+      "text": "“Is the alarm on?” asks An.",
+      "textSha256": "26f978fb9f53122fb6f15847a3ff4836c8026d7b0e5ffd04312f66160955c6d9"
+    },
+    {
+      "src": "/audio/sentences/bedtime-alarm/4.mp3",
+      "text": "Mom points to a bell on the screen.",
+      "textSha256": "5551f35b65a9be64ee2f59ee5e69a0308fdb5fb7f53a12bc7bc81c28130582de"
+    },
+    {
+      "src": "/audio/sentences/bedtime-alarm/5.mp3",
+      "text": "“Yes, it is on,” she says.",
+      "textSha256": "4b139a77e8842539eb0d131d5f1d44e66f4e60f92d371584a2b78a93646c2d78"
+    },
+    {
+      "src": "/audio/sentences/bedtime-alarm/6.mp3",
+      "text": "An puts the clock beside her bed.",
+      "textSha256": "49cba3fdc073a6c4e53cbdbf52f9c761c082624f3fdb4fed025dfc2d702802b8"
+    },
+    {
+      "src": "/audio/phrases/bedtime-alarm-get-up-early.mp3",
+      "text": "get up early",
+      "textSha256": "d332a40252aab225ecd2c038036a1b6e8eccb9225381109256c4dc1bd94e3243"
+    },
+    {
+      "src": "/audio/phrases/bedtime-alarm-is-the-alarm-on.mp3",
+      "text": "Is the alarm on",
+      "textSha256": "c45cda01e6f1b32c386d8e6f45fe0757df67831cbb5d38db0e967809c0c65750"
+    },
+    {
+      "src": "/audio/phrases/bedtime-alarm-yes-it-is-on.mp3",
+      "text": "Yes, it is on",
+      "textSha256": "8387c835a9fda61ceefc5165313ca3d7720141353549898994f5656760b3513c"
+    },
+    {
+      "src": "/audio/phrases/bedtime-alarm-beside-her-bed.mp3",
+      "text": "beside her bed",
+      "textSha256": "09cd71d704bc6827ea008d4db18f6cbb5174843ef62318eb933d84e905fd576e"
+    },
+    {
+      "src": "/audio/words/bedtime-alarm-alarm.mp3",
+      "text": "alarm",
+      "textSha256": "5e94ec139442cfe98f5cdb0ffbb6dd081de42949b11f8950a122c5d797598329"
+    },
+    {
+      "src": "/audio/words/bedtime-alarm-clock.mp3",
+      "text": "clock",
+      "textSha256": "d8198efa3604d164853468608c55efa148bc56e3564d5a30232bf98b8ab43aeb"
+    },
+    {
+      "src": "/audio/words/bedtime-alarm-seven.mp3",
+      "text": "seven",
+      "textSha256": "3ba8d02b16fd2a01c1a8ba1a1f036d7ce386ed953696fa57331c2ac48a80b255"
+    },
+    {
+      "src": "/audio/words/bedtime-alarm-bell.mp3",
+      "text": "bell",
+      "textSha256": "f683740cded6680d9d94dfe6a258e44c96a27278a89e15acb52c0b8f32453d38"
+    },
+    {
+      "src": "/audio/words/bedtime-alarm-screen.mp3",
+      "text": "screen",
+      "textSha256": "4cd6c2914887dd4a68e4c9ffbed8b077f048cf795d6cfa0b801d43e0ea5a1560"
+    },
+    {
+      "src": "/audio/words/bedtime-alarm-bed.mp3",
+      "text": "bed",
+      "textSha256": "c5052532c2206140dfdc3b0d756cce0831ac00fd978f2bfd150858e7ee217a8c"
+    }
+  ]
+}

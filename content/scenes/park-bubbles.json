@@ -1,0 +1,318 @@
+{
+  "id": "park-bubbles",
+  "title": "公園吹泡泡",
+  "titleEn": "Bubbles in the Park",
+  "category": "遊戲與友誼",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/park-bubbles.webp",
+    "alt": "小美和弟弟在公園吹泡泡，弟弟拿著吹泡泡棒，看著鼻子前方的大泡泡。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "bubble-mix",
+      "english": "bubble mix",
+      "translation": "泡泡水",
+      "audio": {
+        "src": "/audio/phrases/park-bubbles-bubble-mix.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2973c02ebcde5f22303809e561bced922a8611c0717b9ceb05eecabe147f06d3",
+        "sha256": "e4ff701331d14f86483ccba6dfa43632a46aa25072884188e3daccaea22c115e"
+      }
+    },
+    {
+      "id": "blows-gently",
+      "english": "blows gently",
+      "translation": "輕輕地吹",
+      "audio": {
+        "src": "/audio/phrases/park-bubbles-blows-gently.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "245a4d8c2ecb0bb0dfff8411f3bd0a75b5defd0d4349a706acd1d07caea52391",
+        "sha256": "aa8b3f470799e51633bec5fc9594d15c49fdf114f5203cd33a842be57d36a64b"
+      }
+    },
+    {
+      "id": "can-i-try",
+      "english": "Can I try",
+      "translation": "我可以試試看嗎",
+      "audio": {
+        "src": "/audio/phrases/park-bubbles-can-i-try.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "40b66c8b2224496bcf15239ba009762243536620f5b7e1622e16d91407ea09c6",
+        "sha256": "43f1c2c549858591964ebd2bf5cf414bc17e998d659659e746806f2f012606d9"
+      }
+    },
+    {
+      "id": "look-at-that-one",
+      "english": "Look at that one",
+      "translation": "看那個泡泡",
+      "audio": {
+        "src": "/audio/phrases/park-bubbles-look-at-that-one.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b0b44f68e6d671b4d584921aac7c5c181f341c4d5e925dd908e0048e8c9f5b47",
+        "sha256": "8bbf36d99534a49b26a98e5af6dd976cb1eecd04910390d88800ef888617ad1a"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "dips",
+      "english": "dips",
+      "translation": "浸入",
+      "example": "She dips the wand in water.",
+      "audio": {
+        "src": "/audio/words/park-bubbles-dips.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9b9a2cbe44b2d2c3c209563430ac4933cf56341e30bc7cbad1c5def0620606cc",
+        "sha256": "9354dea3a9e22f2fafb57d62d601d1160b3fb3dcfb3a874d7540fdc6c835acb0"
+      }
+    },
+    {
+      "id": "wand",
+      "english": "wand",
+      "translation": "吹泡泡棒",
+      "example": "I hold the wand.",
+      "audio": {
+        "src": "/audio/words/park-bubbles-wand.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "04224b1d2fb402314a8dfc9d03e00937aae352fd20d3070181209a66c5127fb2",
+        "sha256": "f76aace20896d30d342bcda29a3dd92a38775e8311e6b227fb196693b2a841a7"
+      }
+    },
+    {
+      "id": "bubbles",
+      "english": "bubbles",
+      "translation": "泡泡（複數）",
+      "example": "The bubbles are small.",
+      "audio": {
+        "src": "/audio/words/park-bubbles-bubbles.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2ea0d25e51920dc0ba247fcda7f514f3e8ad6234e704277036df405af860ed6c",
+        "sha256": "cdeb54d4005c4479a6f1eb248fc33dc7c18c9bda4d3a2762f3da706731ca2712"
+      }
+    },
+    {
+      "id": "brother",
+      "english": "brother",
+      "translation": "弟弟",
+      "example": "My brother can run.",
+      "audio": {
+        "src": "/audio/words/park-bubbles-brother.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0b4bd77cec705cf5df016344c0fc673fb3c2240078e6af572b2c5c6fa76114af",
+        "sha256": "7504956a26e85140ed052abaccf7819535f48d05fce2f7d27247775ebb0ba5e8"
+      }
+    },
+    {
+      "id": "floats",
+      "english": "floats",
+      "translation": "飄浮",
+      "example": "The bubble floats away.",
+      "audio": {
+        "src": "/audio/words/park-bubbles-floats.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4b379441613442e9bd746f463554d9e27aa22d4d4aa4aa7c84f3192997bc2200",
+        "sha256": "6198993d6426b6a7a5e0c0a8145861928280771528247fd24a91f7dc9952cfd4"
+      }
+    },
+    {
+      "id": "nose",
+      "english": "nose",
+      "translation": "鼻子",
+      "example": "My nose is cold.",
+      "audio": {
+        "src": "/audio/words/park-bubbles-nose.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d77e22123e64d3d87f1f95d9cff7a0b6af6c32b9a81552cb90e991eb55cf63d4",
+        "sha256": "8f45fa4aea5635dc2eafa7a8821f7ac990e96b0d8acc4317504c60ea10c108eb"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Mei "
+        },
+        {
+          "text": "dips",
+          "wordIds": [
+            "dips"
+          ]
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "wand",
+          "wordIds": [
+            "wand"
+          ]
+        },
+        {
+          "text": " into the "
+        },
+        {
+          "text": "bubble mix",
+          "phraseIds": [
+            "bubble-mix"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小美把吹泡泡棒浸入泡泡水裡。",
+      "audio": {
+        "src": "/audio/sentences/park-bubbles/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7a815376270598a21d4f2c1de02d5d822d91e0a09098655b0eb7aeb7f2c3e366",
+        "sha256": "e082604191b661224bfde9bb6a3948a1d3966a3005c852586d6dc045c4b0bac9"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "She "
+        },
+        {
+          "text": "blows gently",
+          "phraseIds": [
+            "blows-gently"
+          ]
+        },
+        {
+          "text": " and makes small "
+        },
+        {
+          "text": "bubbles",
+          "wordIds": [
+            "bubbles"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "她輕輕地吹，吹出小泡泡。",
+      "audio": {
+        "src": "/audio/sentences/park-bubbles/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "329788563cd7a6c4dccc59baaad4f3c00a9051cee2cc29f7c4711c73a1d392b5",
+        "sha256": "09c341b3e2238734f45500e0402221730242325ca3c0927066fb1f30633a6998"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Can I try",
+          "phraseIds": [
+            "can-i-try"
+          ]
+        },
+        {
+          "text": "?” asks her "
+        },
+        {
+          "text": "brother",
+          "wordIds": [
+            "brother"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "弟弟問：「我可以試試看嗎？」",
+      "audio": {
+        "src": "/audio/sentences/park-bubbles/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7a8855aa5d41ae58d59253928f7263b2a4cfec0b885a8f0ce691ae6ac647b335",
+        "sha256": "30dcf3ffa880ca71a77a6990e6c411e6cc2c0714724e01451d1cc466e43eef30"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mei gives him the "
+        },
+        {
+          "text": "wand",
+          "wordIds": [
+            "wand"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小美把吹泡泡棒交給他。",
+      "audio": {
+        "src": "/audio/sentences/park-bubbles/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "862d6b0b752fba79ae5d6f15850fa100f5143941b4d166a949d6747bcb7aea9b",
+        "sha256": "9d92de4ef271acfe436f751a87f4484eed63db928fd699c131a8f65bb3b648d0"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "A big bubble "
+        },
+        {
+          "text": "floats",
+          "wordIds": [
+            "floats"
+          ]
+        },
+        {
+          "text": " past his "
+        },
+        {
+          "text": "nose",
+          "wordIds": [
+            "nose"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "一個大泡泡飄過他的鼻子前方。",
+      "audio": {
+        "src": "/audio/sentences/park-bubbles/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e81fa39bf6bb7d59d8230851abf254b3877a5d368228f2763ab91986e0d95a2b",
+        "sha256": "7bdcba3127940c820f5bb2d5482f46bec3b4620ec127aecb5a53a401f0514ab6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Look at that one",
+          "phraseIds": [
+            "look-at-that-one"
+          ]
+        },
+        {
+          "text": "!” he says."
+        }
+      ],
+      "translation": "他說：「看那個泡泡！」",
+      "audio": {
+        "src": "/audio/sentences/park-bubbles/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e23d2dd7d413f6e8369f5d519640c9b4c63d64ce22c20e30696b5cfa00abf947",
+        "sha256": "00626d556e43e262fe5bc2e94f2a9ca63ecfecafde18e4ec276d8b92bb27cabd"
+      }
+    }
+  ]
+}

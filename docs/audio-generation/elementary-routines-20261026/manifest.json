@@ -1,0 +1,693 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/board-game-turns/1.mp3",
+      "text": "Mei and Bo play a board game.",
+      "textSha256": "9533cab1d7a0f5c5b9fbca13f197c5789eead08905d4160b83ea098ba203310d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "411aecc083259d7e0b2af412f514f0b92463ec0fdf1990b90923f4c20f5b38a1",
+      "duration": 2.175,
+      "graphemes": [
+        "Mei and Bo play a board game."
+      ],
+      "phonemes": [
+        "mˈA ænd bˈO plˈA ɐ bˈɔɹd ɡˈAm."
+      ]
+    },
+    {
+      "src": "/audio/sentences/board-game-turns/2.mp3",
+      "text": "“It is your turn,” says Bo.",
+      "textSha256": "b53fbbeeab98ffe3aeed00c5f3b58673aad249a862fbb87db77c5d78f07f4dc0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "44bc15d1a71df2ef19d3b6f3104a0f3ab68548fbd5637e06cfb34d822358d11d",
+      "duration": 2.25,
+      "graphemes": [
+        "“It is your turn,” says Bo."
+      ],
+      "phonemes": [
+        "“ˌɪt ɪz jʊɹ tˈɜɹn,” sˈɛz bˈO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/board-game-turns/3.mp3",
+      "text": "Mei rolls a die and gets three.",
+      "textSha256": "14264070f7b0ab8aca58c155df42f6e918f3e2d787cc0b9dead1ef2ef26ab957",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e26333fe4c64df19910b33c95e8a5ffbe07084680009015f79ce3294465f0665",
+      "duration": 2.3,
+      "graphemes": [
+        "Mei rolls a die and gets three."
+      ],
+      "phonemes": [
+        "mˈA ɹˈOlz ɐ dˈI ænd ɡɛts θɹˈi."
+      ]
+    },
+    {
+      "src": "/audio/sentences/board-game-turns/4.mp3",
+      "text": "She moves her piece three spaces.",
+      "textSha256": "a0b54cb1a4d5b312b1ccd6d6ca17dff236eccd9fb250873df741a65255485589",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "05f8d564e13dc8bbafd83bfa5043e8c53e4b82250855a89b202fbb275abb1f05",
+      "duration": 2.4,
+      "graphemes": [
+        "She moves her piece three spaces."
+      ],
+      "phonemes": [
+        "ʃˌi mˈuvz hɜɹ pˈis θɹˈi spˈAsᵻz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/board-game-turns/5.mp3",
+      "text": "“Your piece is near the end!” says Bo.",
+      "textSha256": "c5dce410b878e092a16f733153134a570787d7a2347cd30fed871e974ebdc61d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2215b49020ed23efafcd5b57aeca3c21a452d3739c463170ee130e29dcd80e33",
+      "duration": 2.8,
+      "graphemes": [
+        "“Your piece is near the end!” says Bo."
+      ],
+      "phonemes": [
+        "“jˌʊɹ pˈis ɪz nˌɪɹ ði ˈɛnd!” sˈɛz bˈO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/board-game-turns/6.mp3",
+      "text": "They smile and keep playing together.",
+      "textSha256": "ded24feb28f702ff536b4b83ef05a0c720dbafec7cda173a774bcf21d0312d69",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7236cc2c56209e78e1862198fd2e4391fde5aeff1123801d1cbaf09ccf21c355",
+      "duration": 2.6,
+      "graphemes": [
+        "They smile and keep playing together."
+      ],
+      "phonemes": [
+        "ðˌA smˈIl ænd kˈip plˈAɪŋ təɡˈɛðəɹ."
+      ]
+    },
+    {
+      "src": "/audio/phrases/board-game-turns-it-is-your-turn.mp3",
+      "text": "It is your turn",
+      "textSha256": "6403e0d59f2db391353ceefd19ef0425ee9766a5e09d8aaf7c6052896c2dc133",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "768e212338816b1ed18e3094f37e52618e25117b5498eb67b3a0e6172a3f7422",
+      "duration": 1.625,
+      "graphemes": [
+        "It is your turn"
+      ],
+      "phonemes": [
+        "ˌɪt ɪz jʊɹ tˈɜɹn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/board-game-turns-rolls-a-die.mp3",
+      "text": "rolls a die",
+      "textSha256": "cc125dd64379dcb15d482f31dfc5a78f814411258c41b219426b148421824098",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7e217ee3393ea2dfcf5f85c56aa80e528afda443dd2101d73e8ad11c051d8bfd",
+      "duration": 1.725,
+      "graphemes": [
+        "rolls a die"
+      ],
+      "phonemes": [
+        "ɹˈOlz ɐ dˈI"
+      ]
+    },
+    {
+      "src": "/audio/phrases/board-game-turns-three-spaces.mp3",
+      "text": "three spaces",
+      "textSha256": "c0d08d774729d0a797b3b6dafab8ed05f5f7f3f240450e7d70b9414f38c83200",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "59542423bbf924f7579c32f5322089de928c6b4429737346aea482d32af1192d",
+      "duration": 1.75,
+      "graphemes": [
+        "three spaces"
+      ],
+      "phonemes": [
+        "θɹˈi spˈAsᵻz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/board-game-turns-near-the-end.mp3",
+      "text": "near the end",
+      "textSha256": "278e643fd09a6506e88c25b1d5386112dfa74c0daf3acf296cdd00c14193c6ad",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "15838080a694520075e4c84574f47603aabd8f9acb5290e520e9b9340baee708",
+      "duration": 1.5,
+      "graphemes": [
+        "near the end"
+      ],
+      "phonemes": [
+        "nˌɪɹ ði ˈɛnd"
+      ]
+    },
+    {
+      "src": "/audio/words/board-game-turns-game.mp3",
+      "text": "game",
+      "textSha256": "6ca5cab77e702c787b4c14b3d3bf26bad43da606be6eed04ab0b9720120ae081",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a5779cf48bd3fe9522ba4b721ac1d3dba7c80d2b2773dbab91605aeeccd128fc",
+      "duration": 1.425,
+      "graphemes": [
+        "game"
+      ],
+      "phonemes": [
+        "ɡˈAm"
+      ]
+    },
+    {
+      "src": "/audio/words/board-game-turns-die.mp3",
+      "text": "die",
+      "textSha256": "a8d79f40ddb79de569d778f1c0b832f9cc266b32274b702cff4ba2b8a0dd1549",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b667287519fe5009261150d4c1a5eb014a19004fa4b83e5a2880545b1ac0c1d0",
+      "duration": 1.3,
+      "graphemes": [
+        "die"
+      ],
+      "phonemes": [
+        "dˈI"
+      ]
+    },
+    {
+      "src": "/audio/words/board-game-turns-three.mp3",
+      "text": "three",
+      "textSha256": "8b5b9db0c13db24256c829aa364aa90c6d2eba318b9232a4ab9313b954d3555f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b770ad844f05a1cc384e8d5d93c25ee8b56fae15cccdf3e204a05447460611ac",
+      "duration": 1.35,
+      "graphemes": [
+        "three"
+      ],
+      "phonemes": [
+        "θɹˈi"
+      ]
+    },
+    {
+      "src": "/audio/words/board-game-turns-piece.mp3",
+      "text": "piece",
+      "textSha256": "34235a2c502e3919d3f00af5dabb87cb58aef4566b10631f2a5db94950ebffbd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e3a1d8b563a0688d16f000c10e0e2e1cc3830019e2069fbee111c9d19e539adb",
+      "duration": 1.35,
+      "graphemes": [
+        "piece"
+      ],
+      "phonemes": [
+        "pˈis"
+      ]
+    },
+    {
+      "src": "/audio/words/board-game-turns-spaces.mp3",
+      "text": "spaces",
+      "textSha256": "ff6f0e9a530a025ad61dbea8fefa873faf153860b184d14af9bb4f57354f93cd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8878c1cfef0d5501ed4da58e7cc39c105619e9b7be44369f5a736d203db5eed8",
+      "duration": 1.6,
+      "graphemes": [
+        "spaces"
+      ],
+      "phonemes": [
+        "spˈAsᵻz"
+      ]
+    },
+    {
+      "src": "/audio/words/board-game-turns-end.mp3",
+      "text": "end",
+      "textSha256": "361e48d0308f20e32dba5fb56328baf18d72ef0ccb43b84f5c262d2a6a1fc6c8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "65c6b627486a3a76f6de0a8002e480cae914b56380259a132569132c22a0d0c1",
+      "duration": 0.975,
+      "graphemes": [
+        "end"
+      ],
+      "phonemes": [
+        "ˈɛnd"
+      ]
+    },
+    {
+      "src": "/audio/sentences/bottle-refill/1.mp3",
+      "text": "Bo takes his bottle to the water station.",
+      "textSha256": "63931a86faa15ea7b943d68ed276818a82280837ff79304df8a3842e4a24693a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a14feb25ac52bf4faec2865d2356bbd217f40e35018c2d0cce5051cc0747a11f",
+      "duration": 2.825,
+      "graphemes": [
+        "Bo takes his bottle to the water station."
+      ],
+      "phonemes": [
+        "bˈO tˈAks hɪz bˈɑTəl tə ðə wˈɔTəɹ stˈAʃən."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bottle-refill/2.mp3",
+      "text": "“It is empty,” he tells Mei.",
+      "textSha256": "fc3a2cb88e5201cb2f058ba3c909452783d14ce7c1789175083d1d3b197497e7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b566ba97021cf8d1db9cc6d324e273289fc5ed45d1dc0c09364cab9aff2e27a6",
+      "duration": 2.425,
+      "graphemes": [
+        "“It is empty,” he tells Mei."
+      ],
+      "phonemes": [
+        "“ˌɪt ɪz ˈɛmpti,” hi tˈɛlz mˈA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bottle-refill/3.mp3",
+      "text": "Bo puts the bottle under the tap.",
+      "textSha256": "fbc9c4d357a5d08c5a5a8fb5a8a6b0afb70382e8228912d9f88d22a3fa85b2f8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2daeb9fd03ffc0336537da70881a818a72dd59ef0eb42ae2ae2be3a9a754f690",
+      "duration": 2.35,
+      "graphemes": [
+        "Bo puts the bottle under the tap."
+      ],
+      "phonemes": [
+        "bˈO pˌʊts ðə bˈɑTəl ˈʌndəɹ ðə tˈæp."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bottle-refill/4.mp3",
+      "text": "Mei presses the button to add water.",
+      "textSha256": "f16569e0de6f2503d6190fe9daf813ff9de80e608daed8e81d2f42df34b6065e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "da2e359f90b5975fd9a3705081119260b236459ad8de81e15a8eea6dcf105a64",
+      "duration": 2.6,
+      "graphemes": [
+        "Mei presses the button to add water."
+      ],
+      "phonemes": [
+        "mˈA pɹˈɛsᵻz ðə bˈʌtn tʊ ˈæd wˈɔTəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bottle-refill/5.mp3",
+      "text": "“It is full!” says Bo.",
+      "textSha256": "56a9dcbe2fe0cb360926aa74cd4b516a0f40197e0c4467d04ffe5236074b4cb7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3d0b606377d0693819f133b7cfd55a352a6486dc0d5dcddefc36387f5dd047e4",
+      "duration": 2.125,
+      "graphemes": [
+        "“It is full!” says Bo."
+      ],
+      "phonemes": [
+        "“ˌɪt ɪz fˈʊl!” sˈɛz bˈO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bottle-refill/6.mp3",
+      "text": "He closes the lid and thanks Mei.",
+      "textSha256": "56e634e71157c6e0473daca9305babbf4e7509d783ec7333fc0e19e51d43fbb7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "54a117ddcf2dfa6af99d642f32bb24425cec35babb1a8c9352353b57176360fa",
+      "duration": 2.55,
+      "graphemes": [
+        "He closes the lid and thanks Mei."
+      ],
+      "phonemes": [
+        "hˌi klˈOzᵻz ðə lˈɪd ænd θˈæŋks mˈA."
+      ]
+    },
+    {
+      "src": "/audio/phrases/bottle-refill-it-is-empty.mp3",
+      "text": "It is empty",
+      "textSha256": "a83ec5f12582011f4dfaee36629897ba4e98d17f78d98d4712660bfa620ce60c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "388afaa436ad378a2a7929dffce7e9aca85144bf951fd49ce5b683b1e7dd47fb",
+      "duration": 1.7,
+      "graphemes": [
+        "It is empty"
+      ],
+      "phonemes": [
+        "ˌɪt ɪz ˈɛmpti"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bottle-refill-under-the-tap.mp3",
+      "text": "under the tap",
+      "textSha256": "273829d542911757216d3168c9241f38eb202818364a6d93ab7ed237bb2b464d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c337dcd865034ebd108a8261da9da60e298c385e8cf119301066c1b10a054f02",
+      "duration": 1.5,
+      "graphemes": [
+        "under the tap"
+      ],
+      "phonemes": [
+        "ˈʌndəɹ ðə tˈæp"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bottle-refill-presses-the-button.mp3",
+      "text": "presses the button",
+      "textSha256": "7a79d03713def719f02a6f74419111747cdfbdf860a104b06e59e285cd4e99cd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9e71dd537cee8a6a254271efdc705fe56769fcb920fdc74729ab899ef24e3ffc",
+      "duration": 1.85,
+      "graphemes": [
+        "presses the button"
+      ],
+      "phonemes": [
+        "pɹˈɛsᵻz ðə bˈʌtn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bottle-refill-it-is-full.mp3",
+      "text": "It is full",
+      "textSha256": "0f86a171945ed33be284cb0fdca4053b6b3eba9c9e186c16dc02f95d1ab59fab",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "70b098db7c83e75effb081735bd49d0271b5cd2ef2930c9fb79f77611b02b17b",
+      "duration": 1.55,
+      "graphemes": [
+        "It is full"
+      ],
+      "phonemes": [
+        "ˌɪt ɪz fˈʊl"
+      ]
+    },
+    {
+      "src": "/audio/words/bottle-refill-bottle.mp3",
+      "text": "bottle",
+      "textSha256": "7def9c79e5be6d7a70022168b8b099ce1e707a2fd809a60fab73de6de578884b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b22740718eaa2723de380b3a88fed1f7dfb3dc4b64273093d50551c90d142f46",
+      "duration": 1.325,
+      "graphemes": [
+        "bottle"
+      ],
+      "phonemes": [
+        "bˈɑTəl"
+      ]
+    },
+    {
+      "src": "/audio/words/bottle-refill-water.mp3",
+      "text": "water",
+      "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7efe162ba6b1a04e3df9ac5715fc4cff17f5213d533d249c01ea697d00faa778",
+      "duration": 1.375,
+      "graphemes": [
+        "water"
+      ],
+      "phonemes": [
+        "wˈɔTəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/bottle-refill-empty.mp3",
+      "text": "empty",
+      "textSha256": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "454a3c6071d9cc5bd5be4f738bcbb21394b01cabf4e246426a511163069a6574",
+      "duration": 1.5,
+      "graphemes": [
+        "empty"
+      ],
+      "phonemes": [
+        "ˈɛmpti"
+      ]
+    },
+    {
+      "src": "/audio/words/bottle-refill-tap.mp3",
+      "text": "tap",
+      "textSha256": "729cd87c6329408e2bbfea0e2055404969539832af12773b558aca625ccc9041",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9c793a547b394f434842033728e987df612ddc3580d9ab87bb4d544442d560c0",
+      "duration": 1.25,
+      "graphemes": [
+        "tap"
+      ],
+      "phonemes": [
+        "tˈæp"
+      ]
+    },
+    {
+      "src": "/audio/words/bottle-refill-button.mp3",
+      "text": "button",
+      "textSha256": "c3e2d78f3ff335724b4029f06505b511e4f8f01e258828de29849b36b40b55d0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "86fba4d5987f6a36f86c5483124cd464a2a13be8815b5a2f7207ce04b68eb494",
+      "duration": 1.4,
+      "graphemes": [
+        "button"
+      ],
+      "phonemes": [
+        "bˈʌtn"
+      ]
+    },
+    {
+      "src": "/audio/words/bottle-refill-lid.mp3",
+      "text": "lid",
+      "textSha256": "98fbb7ef60124ed0c3bb88f8cdf6cdaafb901fea5d9ae82ac5e000228c31e1e4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "58d067b96903f6d865d95f785724b33bdd5296fac641a119596f61568b180933",
+      "duration": 1.3,
+      "graphemes": [
+        "lid"
+      ],
+      "phonemes": [
+        "lˈɪd"
+      ]
+    },
+    {
+      "src": "/audio/sentences/bedtime-alarm/1.mp3",
+      "text": "An needs to get up early tomorrow.",
+      "textSha256": "4729d9c88e9a080c9b6d80897f2b3b8290b47bac4b66d0e7cb369c292974fa11",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3b78b4eefde758265883c7b49d6aefd06e3076a7cefd56356c699db7122f5124",
+      "duration": 2.4,
+      "graphemes": [
+        "An needs to get up early tomorrow."
+      ],
+      "phonemes": [
+        "ɐn nˈidz tə ɡɛt ˌʌp ˈɜɹli təmˈɑɹO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bedtime-alarm/2.mp3",
+      "text": "Mom sets An's alarm clock for seven.",
+      "textSha256": "19ed0ee78e97c12bf94e071bc0adf3bbd92982d2da76f75834ff1f974ac56ff8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b22d33685a14446c785866d0771e8ea463684c10cb523aaeb92d48e99a2a9686",
+      "duration": 2.85,
+      "graphemes": [
+        "Mom sets An's alarm clock for seven."
+      ],
+      "phonemes": [
+        "mˈɑm sˈɛts ˌænz əlˈɑɹm klˈɑk fɔɹ sˈɛvən."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bedtime-alarm/3.mp3",
+      "text": "“Is the alarm on?” asks An.",
+      "textSha256": "26f978fb9f53122fb6f15847a3ff4836c8026d7b0e5ffd04312f66160955c6d9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "771142385b5b38eb19fbfca8ae0a09a2765db54d8580f68ada9ff6024666b740",
+      "duration": 2.425,
+      "graphemes": [
+        "“Is the alarm on?” asks An."
+      ],
+      "phonemes": [
+        "“ˌɪz ði əlˈɑɹm ˌɔn?” ˈæsks ɐn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bedtime-alarm/4.mp3",
+      "text": "Mom points to a bell on the screen.",
+      "textSha256": "5551f35b65a9be64ee2f59ee5e69a0308fdb5fb7f53a12bc7bc81c28130582de",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e32a56f96b00d45d4b68159d8350c81b340ed885463130f28d2b7626911eff65",
+      "duration": 2.4,
+      "graphemes": [
+        "Mom points to a bell on the screen."
+      ],
+      "phonemes": [
+        "mˈɑm pˈYnts tə ɐ bˈɛl ˌɔn ðə skɹˈin."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bedtime-alarm/5.mp3",
+      "text": "“Yes, it is on,” she says.",
+      "textSha256": "4b139a77e8842539eb0d131d5f1d44e66f4e60f92d371584a2b78a93646c2d78",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "571b91fb0a3d46798504cf6be6888c38455ea1fb3f5713295bc5b574eeb0a676",
+      "duration": 2.275,
+      "graphemes": [
+        "“Yes, it is on,” she says."
+      ],
+      "phonemes": [
+        "“jˈɛs, ɪt ɪz ˌɔn,” ʃi sˈɛz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bedtime-alarm/6.mp3",
+      "text": "An puts the clock beside her bed.",
+      "textSha256": "49cba3fdc073a6c4e53cbdbf52f9c761c082624f3fdb4fed025dfc2d702802b8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "69bc7dbbef6b0aa7da39c2111f6b4d8d7c06b26655b64e38beb84ae3bdac4716",
+      "duration": 2.325,
+      "graphemes": [
+        "An puts the clock beside her bed."
+      ],
+      "phonemes": [
+        "ɐn pˌʊts ðə klˈɑk bəsˈId hɜɹ bˈɛd."
+      ]
+    },
+    {
+      "src": "/audio/phrases/bedtime-alarm-get-up-early.mp3",
+      "text": "get up early",
+      "textSha256": "d332a40252aab225ecd2c038036a1b6e8eccb9225381109256c4dc1bd94e3243",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "933cf43f9c79010ca86186555b6c80d328ac90376a7fbda09b90cd321d54b7e5",
+      "duration": 1.55,
+      "graphemes": [
+        "get up early"
+      ],
+      "phonemes": [
+        "ɡɛt ˌʌp ˈɜɹli"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bedtime-alarm-is-the-alarm-on.mp3",
+      "text": "Is the alarm on",
+      "textSha256": "c45cda01e6f1b32c386d8e6f45fe0757df67831cbb5d38db0e967809c0c65750",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5164a7d41732082756a35886cbdf3c38c2b4b961d37a5be01a7a74906e9d8bfe",
+      "duration": 1.725,
+      "graphemes": [
+        "Is the alarm on"
+      ],
+      "phonemes": [
+        "ˌɪz ði əlˈɑɹm ˌɔn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bedtime-alarm-yes-it-is-on.mp3",
+      "text": "Yes, it is on",
+      "textSha256": "8387c835a9fda61ceefc5165313ca3d7720141353549898994f5656760b3513c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bb5906a432dea81eaa9481b2f32538fb4d8e1697e8d15f16663cd504a69eedb0",
+      "duration": 1.75,
+      "graphemes": [
+        "Yes, it is on"
+      ],
+      "phonemes": [
+        "jˈɛs, ɪt ɪz ˌɔn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bedtime-alarm-beside-her-bed.mp3",
+      "text": "beside her bed",
+      "textSha256": "09cd71d704bc6827ea008d4db18f6cbb5174843ef62318eb933d84e905fd576e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ae24c8be06b916006176bfd69a07860f43b401ad2ffcff6a26ca2eb4182cee63",
+      "duration": 1.65,
+      "graphemes": [
+        "beside her bed"
+      ],
+      "phonemes": [
+        "bəsˈId hɜɹ bˈɛd"
+      ]
+    },
+    {
+      "src": "/audio/words/bedtime-alarm-alarm.mp3",
+      "text": "alarm",
+      "textSha256": "5e94ec139442cfe98f5cdb0ffbb6dd081de42949b11f8950a122c5d797598329",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2df6fbe21ec1ac64a5d422f228f6fd40b3c2f0575f7cde7276e45934a293384c",
+      "duration": 1.45,
+      "graphemes": [
+        "alarm"
+      ],
+      "phonemes": [
+        "əlˈɑɹm"
+      ]
+    },
+    {
+      "src": "/audio/words/bedtime-alarm-clock.mp3",
+      "text": "clock",
+      "textSha256": "d8198efa3604d164853468608c55efa148bc56e3564d5a30232bf98b8ab43aeb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bda8dd170ff5d241bc7da220105ebd4d4301d495bd1eee7996b6a7bbf6dbb268",
+      "duration": 1.275,
+      "graphemes": [
+        "clock"
+      ],
+      "phonemes": [
+        "klˈɑk"
+      ]
+    },
+    {
+      "src": "/audio/words/bedtime-alarm-seven.mp3",
+      "text": "seven",
+      "textSha256": "3ba8d02b16fd2a01c1a8ba1a1f036d7ce386ed953696fa57331c2ac48a80b255",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a55e3bc62f8ed92365d9e907c5c2b4d6e817283eafb93a2be2b32f9f9f8bc5b6",
+      "duration": 1.4,
+      "graphemes": [
+        "seven"
+      ],
+      "phonemes": [
+        "sˈɛvən"
+      ]
+    },
+    {
+      "src": "/audio/words/bedtime-alarm-bell.mp3",
+      "text": "bell",
+      "textSha256": "f683740cded6680d9d94dfe6a258e44c96a27278a89e15acb52c0b8f32453d38",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cd587b04177441e0093d815cc313c0a76199f083f2f21700763c57169b29898a",
+      "duration": 1.275,
+      "graphemes": [
+        "bell"
+      ],
+      "phonemes": [
+        "bˈɛl"
+      ]
+    },
+    {
+      "src": "/audio/words/bedtime-alarm-screen.mp3",
+      "text": "screen",
+      "textSha256": "4cd6c2914887dd4a68e4c9ffbed8b077f048cf795d6cfa0b801d43e0ea5a1560",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "49f48c55b15bbc83f77259b446705fe14f5e709d90436aa4dbade582c1dddb47",
+      "duration": 1.475,
+      "graphemes": [
+        "screen"
+      ],
+      "phonemes": [
+        "skɹˈin"
+      ]
+    },
+    {
+      "src": "/audio/words/bedtime-alarm-bed.mp3",
+      "text": "bed",
+      "textSha256": "c5052532c2206140dfdc3b0d756cce0831ac00fd978f2bfd150858e7ee217a8c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a720bdb7f4880fd201ecff5559be5f1b8438d0c4230a9d82e522123043f07a02",
+      "duration": 0.85,
+      "graphemes": [
+        "bed"
+      ],
+      "phonemes": [
+        "bˈɛd"
+      ]
+    }
+  ]
+}

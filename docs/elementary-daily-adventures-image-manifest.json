@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen",
+  "conversion": "Full frame PNG to WebP, sharp quality 86; no crop.",
+  "images": [
+    {
+      "id": "haircut-visit",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No text, lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: In a small tidy neighborhood barbershop, an elementary boy with short dark hair sits calmly in a barber chair wearing a plain pale blue barber cape fastened around his neck and draped over his torso. An adult woman barber stands beside him and carefully trims a small amount of hair at the side of his head, holding a comb in one hand and small hair scissors in the other. His face is unobscured and gently smiling as he looks into a large plain wall mirror in front of the chair. Three-quarter side view shows the actual boy, actual barber and an intelligible reflection of the boy's face; no extra real people, no mismatched mirror anatomy. Both barber hands distinct and natural. Simple counter below mirror, warm daylight, uncluttered calm setting, no superhero cape, no electric clippers, no posters with people.",
+      "generatedFile": "exec-864c351d-41ec-45ef-9c27-7124f7228208.png",
+      "src": "/images/scenes/haircut-visit.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c5238f3df8879c632a68aed17b014cda14b52c01ef9baef21ee57daecc7d069f"
+    },
+    {
+      "id": "fruit-salad",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No text, lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: An elementary boy and his mother at a home kitchen table prepare a simple fruit salad. The boy gently stirs a wide white ceramic bowl with one LARGE wooden spoon, while his mother stands beside him smiling and steadying the bowl with one hand. The bowl visibly contains distinct red-skinned APPLE pieces, pale BANANA slices and small PURPLE GRAPES, and no other food. Clear slightly elevated tabletop view makes the three fruit types, bowl, spoon and natural separated hands easy to read. One large bowl and one spoon only; no salad dressing, yogurt, cake, cooking appliances or knives. Warm modest family kitchen and soft daylight, focus on mixing and cooperation.",
+      "generatedFile": "exec-6a082755-9903-474c-b155-61d111f99f28.png",
+      "src": "/images/scenes/fruit-salad.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d31d071ff94066bce2c308cb16e13da2302dd49526ebb078e61bc3f3207582e4"
+    },
+    {
+      "id": "kite-in-park",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No text, lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: An elementary girl flies ONE simple red diamond-shaped kite in a spacious sunny neighborhood park while her father stands beside her watching. Girl is clearly using BOTH hands: one hand holds a small plain kite-string spool, the other grips the same string in front of her body. ONE fine continuous visible string connects her hands directly to the kite high in the sky; it does not cross faces or attach to anyone's body. Father has released the kite and his hands are free. Composition shows both people large enough for readable faces and hands in the lower half, the entire flying kite and a simple ribbon tail in the upper half, with sky filling plenty of frame. Full kite and both hands in frame. Open grass, distant simple trees, clear blue sky; no other kites, people, buildings, poles, power lines, printed graphics or motion arrows.",
+      "generatedFile": "exec-26edf958-3caa-4d60-9fdd-a077cb53fa1a.png",
+      "src": "/images/scenes/kite-in-park.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "bb7db00e5235da0bcb17dac8d71fad5a08aaadb537b202bfd5b1a082bd3750ea"
+    }
+  ]
+}

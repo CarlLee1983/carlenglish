@@ -1,0 +1,333 @@
+{
+  "id": "bedtime-alarm",
+  "title": "睡前設定鬧鐘",
+  "titleEn": "Setting an Alarm",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/bedtime-alarm.webp",
+    "alt": "小安和媽媽坐在床邊，媽媽指著顯示七點與鈴鐺圖示的鬧鐘螢幕。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "get-up-early",
+      "english": "get up early",
+      "translation": "早點起床",
+      "audio": {
+        "src": "/audio/phrases/bedtime-alarm-get-up-early.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d332a40252aab225ecd2c038036a1b6e8eccb9225381109256c4dc1bd94e3243",
+        "sha256": "933cf43f9c79010ca86186555b6c80d328ac90376a7fbda09b90cd321d54b7e5"
+      }
+    },
+    {
+      "id": "is-the-alarm-on",
+      "english": "Is the alarm on",
+      "translation": "鬧鐘有開啟嗎",
+      "audio": {
+        "src": "/audio/phrases/bedtime-alarm-is-the-alarm-on.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c45cda01e6f1b32c386d8e6f45fe0757df67831cbb5d38db0e967809c0c65750",
+        "sha256": "5164a7d41732082756a35886cbdf3c38c2b4b961d37a5be01a7a74906e9d8bfe"
+      }
+    },
+    {
+      "id": "yes-it-is-on",
+      "english": "Yes, it is on",
+      "translation": "是的，有開啟",
+      "audio": {
+        "src": "/audio/phrases/bedtime-alarm-yes-it-is-on.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8387c835a9fda61ceefc5165313ca3d7720141353549898994f5656760b3513c",
+        "sha256": "bb5906a432dea81eaa9481b2f32538fb4d8e1697e8d15f16663cd504a69eedb0"
+      }
+    },
+    {
+      "id": "beside-her-bed",
+      "english": "beside her bed",
+      "translation": "在她的床邊",
+      "audio": {
+        "src": "/audio/phrases/bedtime-alarm-beside-her-bed.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "09cd71d704bc6827ea008d4db18f6cbb5174843ef62318eb933d84e905fd576e",
+        "sha256": "ae24c8be06b916006176bfd69a07860f43b401ad2ffcff6a26ca2eb4182cee63"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "alarm",
+      "english": "alarm",
+      "translation": "鬧鐘",
+      "example": "The alarm is on.",
+      "audio": {
+        "src": "/audio/words/bedtime-alarm-alarm.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5e94ec139442cfe98f5cdb0ffbb6dd081de42949b11f8950a122c5d797598329",
+        "sha256": "2df6fbe21ec1ac64a5d422f228f6fd40b3c2f0575f7cde7276e45934a293384c"
+      }
+    },
+    {
+      "id": "clock",
+      "english": "clock",
+      "translation": "時鐘",
+      "example": "The clock is by my bed.",
+      "audio": {
+        "src": "/audio/words/bedtime-alarm-clock.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d8198efa3604d164853468608c55efa148bc56e3564d5a30232bf98b8ab43aeb",
+        "sha256": "bda8dd170ff5d241bc7da220105ebd4d4301d495bd1eee7996b6a7bbf6dbb268"
+      }
+    },
+    {
+      "id": "seven",
+      "english": "seven",
+      "translation": "七",
+      "example": "I get up at seven.",
+      "audio": {
+        "src": "/audio/words/bedtime-alarm-seven.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3ba8d02b16fd2a01c1a8ba1a1f036d7ce386ed953696fa57331c2ac48a80b255",
+        "sha256": "a55e3bc62f8ed92365d9e907c5c2b4d6e817283eafb93a2be2b32f9f9f8bc5b6"
+      }
+    },
+    {
+      "id": "bell",
+      "english": "bell",
+      "translation": "鈴鐺圖示",
+      "example": "The bell is on the screen.",
+      "audio": {
+        "src": "/audio/words/bedtime-alarm-bell.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f683740cded6680d9d94dfe6a258e44c96a27278a89e15acb52c0b8f32453d38",
+        "sha256": "cd587b04177441e0093d815cc313c0a76199f083f2f21700763c57169b29898a"
+      }
+    },
+    {
+      "id": "screen",
+      "english": "screen",
+      "translation": "螢幕",
+      "example": "The screen is small.",
+      "audio": {
+        "src": "/audio/words/bedtime-alarm-screen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4cd6c2914887dd4a68e4c9ffbed8b077f048cf795d6cfa0b801d43e0ea5a1560",
+        "sha256": "49f48c55b15bbc83f77259b446705fe14f5e709d90436aa4dbade582c1dddb47"
+      }
+    },
+    {
+      "id": "bed",
+      "english": "bed",
+      "translation": "床",
+      "example": "My bed is big.",
+      "audio": {
+        "src": "/audio/words/bedtime-alarm-bed.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c5052532c2206140dfdc3b0d756cce0831ac00fd978f2bfd150858e7ee217a8c",
+        "sha256": "a720bdb7f4880fd201ecff5559be5f1b8438d0c4230a9d82e522123043f07a02"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "An needs to "
+        },
+        {
+          "text": "get up early",
+          "phraseIds": [
+            "get-up-early"
+          ]
+        },
+        {
+          "text": " tomorrow."
+        }
+      ],
+      "translation": "小安明天需要早點起床。",
+      "audio": {
+        "src": "/audio/sentences/bedtime-alarm/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4729d9c88e9a080c9b6d80897f2b3b8290b47bac4b66d0e7cb369c292974fa11",
+        "sha256": "3b78b4eefde758265883c7b49d6aefd06e3076a7cefd56356c699db7122f5124"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom sets An's "
+        },
+        {
+          "text": "alarm",
+          "wordIds": [
+            "alarm"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "clock",
+          "wordIds": [
+            "clock"
+          ]
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "seven",
+          "wordIds": [
+            "seven"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "媽媽把小安的鬧鐘設在七點。",
+      "audio": {
+        "src": "/audio/sentences/bedtime-alarm/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "19ed0ee78e97c12bf94e071bc0adf3bbd92982d2da76f75834ff1f974ac56ff8",
+        "sha256": "b22d33685a14446c785866d0771e8ea463684c10cb523aaeb92d48e99a2a9686"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Is the ",
+          "phraseIds": [
+            "is-the-alarm-on"
+          ]
+        },
+        {
+          "text": "alarm",
+          "phraseIds": [
+            "is-the-alarm-on"
+          ],
+          "wordIds": [
+            "alarm"
+          ]
+        },
+        {
+          "text": " on",
+          "phraseIds": [
+            "is-the-alarm-on"
+          ]
+        },
+        {
+          "text": "?” asks An."
+        }
+      ],
+      "translation": "小安問：「鬧鐘有開啟嗎？」",
+      "audio": {
+        "src": "/audio/sentences/bedtime-alarm/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "26f978fb9f53122fb6f15847a3ff4836c8026d7b0e5ffd04312f66160955c6d9",
+        "sha256": "771142385b5b38eb19fbfca8ae0a09a2765db54d8580f68ada9ff6024666b740"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom points to a "
+        },
+        {
+          "text": "bell",
+          "wordIds": [
+            "bell"
+          ]
+        },
+        {
+          "text": " on the "
+        },
+        {
+          "text": "screen",
+          "wordIds": [
+            "screen"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "媽媽指向螢幕上的鈴鐺圖示。",
+      "audio": {
+        "src": "/audio/sentences/bedtime-alarm/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5551f35b65a9be64ee2f59ee5e69a0308fdb5fb7f53a12bc7bc81c28130582de",
+        "sha256": "e32a56f96b00d45d4b68159d8350c81b340ed885463130f28d2b7626911eff65"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Yes, it is on",
+          "phraseIds": [
+            "yes-it-is-on"
+          ]
+        },
+        {
+          "text": ",” she says."
+        }
+      ],
+      "translation": "她說：「是的，有開啟。」",
+      "audio": {
+        "src": "/audio/sentences/bedtime-alarm/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4b139a77e8842539eb0d131d5f1d44e66f4e60f92d371584a2b78a93646c2d78",
+        "sha256": "571b91fb0a3d46798504cf6be6888c38455ea1fb3f5713295bc5b574eeb0a676"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "An puts the "
+        },
+        {
+          "text": "clock",
+          "wordIds": [
+            "clock"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "beside her ",
+          "phraseIds": [
+            "beside-her-bed"
+          ]
+        },
+        {
+          "text": "bed",
+          "phraseIds": [
+            "beside-her-bed"
+          ],
+          "wordIds": [
+            "bed"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小安把鬧鐘放在床邊。",
+      "audio": {
+        "src": "/audio/sentences/bedtime-alarm/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "49cba3fdc073a6c4e53cbdbf52f9c761c082624f3fdb4fed025dfc2d702802b8",
+        "sha256": "69bc7dbbef6b0aa7da39c2111f6b4d8d7c06b26655b64e38beb84ae3bdac4716"
+      }
+    }
+  ]
+}

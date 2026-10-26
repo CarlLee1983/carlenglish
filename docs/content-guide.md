@@ -111,9 +111,12 @@ node scripts/generate-wordlist-audio.mjs <isolated-python> <local-model-director
 ## 驗證與建置
 
 ```sh
-pnpm run validate:content
+pnpm run verify:content-change
+# 整合多批內容、PR 候選或發布時：
 pnpm run verify
 ```
+
+場景製作中的批次可先用內容變更檢查，保留全站型別、單元、內容及完整建置，再縮小逐篇瀏覽器案例；共用目錄、SEO 與 Chromium／WebKit 音檔檢查仍讀取全部場景。共用素材反查所有引用場景，基準不明、刪除、未知素材或程式／測試／設定變更會回退完整套件。`--base REF` 可指定比較基準，`--plan` 只列計畫，不能當作通過證據。這是作者階段驗證，整合多批、PR 與發布仍須完整 `verify`；CI 禁止套用場景選擇器。規則與證據見 [CI 與教材驗證](ci.md)。
 
 錯誤會指出檔案與欄位，例如 `cafe-breakfast.json.sentences[0].translation`，表示第一句缺少翻譯；陣列索引從 0 開始。`unknown word ID` 表示片段引用不存在的單字，`unreferenced phrase` 表示清單短句沒有文中對應，`duplicate scene ID` 表示兩份資料使用相同場景 ID。
 
@@ -130,3 +133,17 @@ pnpm run verify
 換書活動單元使用相同的短篇資料與媒體契約，不增加句數上限或新互動。三篇依序練習不同意見與理由、查核資訊是否仍適用、有根據且承認限制的提案。閱讀順序與練習放在 [配套學習說明](book-swap-study-guide.md)，不把 JSON 檔名排序當成學習順序。
 
 較進階內容也須保持可理解的具體情境；不能只靠拉長句子或堆疊生字提高難度。新批次沿用既有聲線，但仍須另外實聽與人工驗收，既有內容的驗收結果不自動延伸到新內容。
+
+## 接續初級生活素材
+
+擺餐桌、試鞋與影子遊戲三篇沿用既有內容與媒體契約，無須修改清單、路由或頁面。建議閱讀順序、語塊提示、理解題和獨立參考答案見[幫忙、試一試、看影子](elementary-help-observe-study-guide.md)，本批圖片與音檔追溯及驗證結果見[製作與驗證](elementary-help-observe-verification.md)。
+
+拍照、包禮物與吹泡泡三篇接續相同契約；共讀順序、語塊提示、理解與口說練習及分開的答案見[拍照、包禮物、吹泡泡](elementary-play-make-study-guide.md)，素材追溯及實際檢查見[本批驗證](elementary-play-make-verification.md)。
+
+剪髮、水果沙拉與放風箏三篇沿用相同契約；共讀順序、語塊提示、理解與口說練習及分開的答案見[剪頭髮、拌水果、放風箏](elementary-daily-adventures-study-guide.md)，素材追溯及實際檢查見[本批驗證](elementary-daily-adventures-verification.md)。主題選項由資料自動產生，本批新增的「生活服務」不需要修改清單或頁面。
+
+比較鉛筆、平板充電與選冰淇淋三篇沿用相同契約；共讀順序、語塊提示、理解與口說練習及分開的答案見[比較、求助與選擇](elementary-choices-study-guide.md)，素材追溯及實際檢查見[本批驗證](elementary-choices-verification.md)。`ice cream` 以一個常用詞彙項目放入既有 `words`，正文總字數仍按空白分詞；不改動資料欄位或驗證規則。
+
+棋盤遊戲、裝水與設定鬧鐘三篇沿用相同契約；共讀順序、語塊提示、理解與口說練習及分開的答案見[輪流玩、幫忙裝水、準備明天](elementary-routines-study-guide.md)，素材追溯及實際檢查見[本批驗證](elementary-routines-verification.md)。同一個詞依上下文選義：本批 `die` 是一顆骰子，`piece` 是棋子，與其他場景或詞表的不同意思分開保存。
+
+積木塔、麵包店與畫具收納三篇沿用相同契約；共讀順序、語塊提示、理解與口說練習及分開的答案見[搭建、採買與收拾](elementary-building-study-guide.md)，素材追溯及實際檢查見[本批驗證](elementary-building-verification.md)。圖像呈現故事的一刻，教學時分清當下觀察、稍後動作與詞彙例句。

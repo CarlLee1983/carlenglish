@@ -1,0 +1,327 @@
+{
+  "id": "kite-in-park",
+  "title": "公園放風箏",
+  "titleEn": "Flying a Kite",
+  "category": "休閒生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/kite-in-park.webp",
+    "alt": "小美在公園裡雙手控制風箏線，爸爸站在一旁，風箏飛在空中。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "let-go",
+      "english": "Let go",
+      "translation": "放手",
+      "audio": {
+        "src": "/audio/phrases/kite-in-park-let-go.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "afa4294dc102853209a1ffec417fb01dffe7dabd75b00dd01c50e22ac227b214",
+        "sha256": "a595ab22ef2af6811c1b6350cec52c9ca898e2ee1f224bbe8375ca586cdd1465"
+      }
+    },
+    {
+      "id": "goes-up",
+      "english": "goes up",
+      "translation": "升起",
+      "audio": {
+        "src": "/audio/phrases/kite-in-park-goes-up.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "69421502d03aee9346d0d366662c285d085714b111b22bdf2e95a8b04f93773e",
+        "sha256": "c7eff7a98cac09a5dc341df6ea9192d10e539d6b0d14550d39da4f7833f34acd"
+      }
+    },
+    {
+      "id": "with-both-hands",
+      "english": "with both hands",
+      "translation": "用雙手",
+      "audio": {
+        "src": "/audio/phrases/kite-in-park-with-both-hands.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "db992b758fb23bd5e0388d4607e88691d4a297e0e67b4b64fb2cbeaa46c5d61b",
+        "sha256": "db9a082ddb2549d7bc5a018faa10902d994ff56d41c5a7928eee3e669a5a74b3"
+      }
+    },
+    {
+      "id": "it-is-flying",
+      "english": "It is flying",
+      "translation": "它飛起來了",
+      "audio": {
+        "src": "/audio/phrases/kite-in-park-it-is-flying.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0949551ba0a29707fd98bc0b3d5a7aeb4d839620ecaade4f22b6d2c43d04608c",
+        "sha256": "cddef5cd9ff9721da89a8fcc720bead527d74b8774a5b21ab4bb3a0cb76a3e8b"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "kite",
+      "english": "kite",
+      "translation": "風箏",
+      "example": "My kite is red.",
+      "audio": {
+        "src": "/audio/words/kite-in-park-kite.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8e8c7d42b456c9e4ec52e545b201fffc003ace9b7a32a44ac646b4679f99b00b",
+        "sha256": "fc4a2355bf621805263c14ec74b32b1b4e4000908c10e6b9706260eb051e952a"
+      }
+    },
+    {
+      "id": "park",
+      "english": "park",
+      "translation": "公園",
+      "example": "We go to the park.",
+      "audio": {
+        "src": "/audio/words/kite-in-park-park.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4d3971de62245c94cd3dd8d4d3a72b8ff527d902832eedc8529a9717a969f1d1",
+        "sha256": "9c7905e4743e13b3f3e9c95270c469c418a0b323ee9248540d5820556760b7b9"
+      }
+    },
+    {
+      "id": "string",
+      "english": "string",
+      "translation": "線；繩子",
+      "example": "I hold the string.",
+      "audio": {
+        "src": "/audio/words/kite-in-park-string.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "473287f8298dba7163a897908958f7c0eae733e25d2e027992ea2edc9bed2fa8",
+        "sha256": "75887986d9abc4f98574ba6198cfaac767e846b58915cd53f0ca51c0927e5417"
+      }
+    },
+    {
+      "id": "sky",
+      "english": "sky",
+      "translation": "天空",
+      "example": "The sky is blue.",
+      "audio": {
+        "src": "/audio/words/kite-in-park-sky.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "05f514fae7ca5710f9e9289a20a5c9b372af781bfc94dd23d9cb8a044122460f",
+        "sha256": "9b66bac49f5abbc9e6b2452b56c81891360ce050a717bc976000f2fa915c017d"
+      }
+    },
+    {
+      "id": "hands",
+      "english": "hands",
+      "translation": "手（複數）",
+      "example": "I raise my hands.",
+      "audio": {
+        "src": "/audio/words/kite-in-park-hands.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "45a229d57d35d935b67ce83a69f0353508b131ca39325494db3520252c841e10",
+        "sha256": "d199aa331f6ebf5b8e5144868870e48b0bdeb13e9a8c8295ce2915ffc183ed8e"
+      }
+    },
+    {
+      "id": "flying",
+      "english": "flying",
+      "translation": "飛翔",
+      "example": "The kite is flying.",
+      "audio": {
+        "src": "/audio/words/kite-in-park-flying.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a1f95e4f6e5e4d17aafbe143c1357c9923e0854d74938aa75e89e836ef1ce077",
+        "sha256": "919a5a25bc54576d1554a02afa6893f197e2a2e0ce3969befd510d6137989514"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Mei takes her "
+        },
+        {
+          "text": "kite",
+          "wordIds": [
+            "kite"
+          ]
+        },
+        {
+          "text": " to the "
+        },
+        {
+          "text": "park",
+          "wordIds": [
+            "park"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小美帶著風箏去公園。",
+      "audio": {
+        "src": "/audio/sentences/kite-in-park/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "726b4fbd00ed7543a81c7cf649c041c1df5b7ada29c7e0de5838e056d1e5c1c8",
+        "sha256": "ddd24f52714f353447b2d144a1f2bcc2b6790882f9b921b53e1fed109f76dc56"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Dad holds it while she gets the "
+        },
+        {
+          "text": "string",
+          "wordIds": [
+            "string"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "爸爸拿著風箏，小美拿起風箏線。",
+      "audio": {
+        "src": "/audio/sentences/kite-in-park/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ca5574e94d4ec6be62296dfcd2b81650dc69c82fa5ba55ee84f8bd47263e21ed",
+        "sha256": "58b044ebc4be76908dd5c96a026e556b8c6158d08c9dba250a0f050ea69c3946"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“Ready? "
+        },
+        {
+          "text": "Let go",
+          "phraseIds": [
+            "let-go"
+          ]
+        },
+        {
+          "text": "!” she calls to Dad."
+        }
+      ],
+      "translation": "她對爸爸喊：「準備好了嗎？放手！」",
+      "audio": {
+        "src": "/audio/sentences/kite-in-park/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f534d3349cc54cbaff27b012a87eebe4913e15abb9b5ebadf7ef360fb47e6b11",
+        "sha256": "c9046b568a976e927e5ed23eaf4988d8d01b0eb007feb29a33c758c5c33a7274"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "kite",
+          "wordIds": [
+            "kite"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "goes up",
+          "phraseIds": [
+            "goes-up"
+          ]
+        },
+        {
+          "text": " into the "
+        },
+        {
+          "text": "sky",
+          "wordIds": [
+            "sky"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "風箏升上天空。",
+      "audio": {
+        "src": "/audio/sentences/kite-in-park/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3509dcfad8e8ebc169ab019e47f9c87d35968a2ee8cee5c68270d76f0c10cd9a",
+        "sha256": "7f7eb3afd2d01196f745b98af5f149449c37a1b9f6bd00711f008a914a239441"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mei holds the "
+        },
+        {
+          "text": "string",
+          "wordIds": [
+            "string"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "with both ",
+          "phraseIds": [
+            "with-both-hands"
+          ]
+        },
+        {
+          "text": "hands",
+          "phraseIds": [
+            "with-both-hands"
+          ],
+          "wordIds": [
+            "hands"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小美用雙手抓著風箏線。",
+      "audio": {
+        "src": "/audio/sentences/kite-in-park/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "95113c4e9782ef529fb169bd16595c857a256ead721faf13c61b99cf92fde369",
+        "sha256": "d9326b2d40e2e1f557ae57f993cb3845b8d1c3e640862a94dea8fad25600d6ab"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“Look! "
+        },
+        {
+          "text": "It is ",
+          "phraseIds": [
+            "it-is-flying"
+          ]
+        },
+        {
+          "text": "flying",
+          "phraseIds": [
+            "it-is-flying"
+          ],
+          "wordIds": [
+            "flying"
+          ]
+        },
+        {
+          "text": "!” she says."
+        }
+      ],
+      "translation": "她說：「看！它飛起來了！」",
+      "audio": {
+        "src": "/audio/sentences/kite-in-park/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a8c05f5aa6597f4efc92249f3242fb57f7aae094ccde98a7c97edc7d856d52e2",
+        "sha256": "1641bd0e1520fe76782282e1704a8ef783e79d569880793ba18441da7d2f2faa"
+      }
+    }
+  ]
+}
