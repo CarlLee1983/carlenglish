@@ -362,7 +362,7 @@ test('level pages remain readable without JavaScript and links work by keyboard'
 });
 
 for (const scene of selectScenes(scenes)) {
-  test(`${scene.id}: level journey, exact content, translation, direct URL, and reload`, async ({ page }) => {
+  test(`${scene.id}: level journey, exact content, translation, direct URL, and reload`, { tag: '@content' }, async ({ page }) => {
     await page.goto(levelPath(scene));
     await page.getByRole('link', { name: `閱讀${scene.title}` }).click();
     await expect(page).toHaveURL(new RegExp(`${scenePath(scene)}$`));
@@ -421,7 +421,7 @@ for (const scene of selectScenes(scenes)) {
 const tierScenes = scenes.filter((scene) => getLearningLevel(scene).id === getLearningLevel(scenes[0]).id);
 assert.ok(tierScenes.length >= 2, 'Translation navigation requires at least two scenes in the first learning level.');
 for (const current of selectScenes(scenes).filter((scene) => getLearningLevel(scene).id === getLearningLevel(scenes[0]).id)) {
-  test(`${current.id}: switching after opening translation shows only the next related scene`, async ({ page }) => {
+  test(`${current.id}: switching after opening translation shows only the next related scene`, { tag: '@content' }, async ({ page }) => {
     const next = tierScenes.find((candidate) => candidate.id !== current.id)!;
     await page.goto(scenePath(current));
     await translationDisclosure(page).locator('summary').click();
