@@ -47,7 +47,13 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        shard: [1, 2, 3]
+        # WebKit is slowest; give each engine its own shards so none trails the rest.
+        engine:
+          - name: chromium
+            projects: --project=desktop-chromium --project=desktop-dark --project=mobile-chromium --project=narrow-chromium
+          - name: webkit
+            projects: --project=mobile-webkit
+        shard: [1, 2]
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
         with:
@@ -60,7 +66,7 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Use official Ubuntu archive
         run: sudo -n "$(command -v node)" scripts/use-ubuntu-archive.mjs
-      - run: pnpm exec playwright install --with-deps chromium webkit
+      - run: pnpm exec playwright install --with-deps ${{ matrix.engine.name }}
         timeout-minutes: 5
       - name: Require the exact build artifact
         env:
@@ -72,11 +78,11 @@ jobs:
           merge-multiple: true
           digest-mismatch: error
       - run: node scripts/artifact-manifest.mjs verify
-      - run: pnpm run test:browser --shard=${{ matrix.shard }}/3
+      - run: pnpm run test:browser ${{ matrix.engine.projects }} --shard=${{ matrix.shard }}/2
       - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         if: failure()
         with:
-          name: browser-failures-${{ matrix.shard }}-${{ github.run_attempt }}
+          name: browser-failures-${{ matrix.engine.name }}-${{ matrix.shard }}-${{ github.run_attempt }}
           path: test-results/
           retention-days: 7
 
