@@ -59,6 +59,7 @@ jobs:
           install: false
       - run: pnpm install --frozen-lockfile
       - run: pnpm exec playwright install --with-deps chromium webkit
+        timeout-minutes: 5
       - name: Require the exact build artifact
         env:
           VERIFY_ARTIFACT_ID: ${{ needs.build.outputs.artifact_id }}
@@ -92,6 +93,7 @@ jobs:
           install: false
       - run: pnpm install --frozen-lockfile
       - run: pnpm exec playwright install --with-deps chromium
+        timeout-minutes: 5
       - name: Require the exact build artifact
         env:
           VERIFY_ARTIFACT_ID: ${{ needs.build.outputs.artifact_id }}

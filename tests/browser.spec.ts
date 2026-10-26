@@ -418,12 +418,10 @@ for (const scene of selectScenes(scenes)) {
   });
 }
 
-test('switching after opening translation shows only the next related scene', async ({ page }) => {
-  test.setTimeout(120_000);
-  const tierScenes = scenes.filter((scene) => getLearningLevel(scene).id === getLearningLevel(scenes[0]).id);
-  if (tierScenes.length < 2) return;
-  for (let i = 0; i < tierScenes.length; i++) {
-    const current = tierScenes[i];
+const tierScenes = scenes.filter((scene) => getLearningLevel(scene).id === getLearningLevel(scenes[0]).id);
+assert.ok(tierScenes.length >= 2, 'Translation navigation requires at least two scenes in the first learning level.');
+for (const current of selectScenes(scenes).filter((scene) => getLearningLevel(scene).id === getLearningLevel(scenes[0]).id)) {
+  test(`${current.id}: switching after opening translation shows only the next related scene`, async ({ page }) => {
     const next = tierScenes.find((candidate) => candidate.id !== current.id)!;
     await page.goto(scenePath(current));
     await translationDisclosure(page).locator('summary').click();
@@ -438,8 +436,8 @@ test('switching after opening translation shows only the next related scene', as
     await expect(translationDisclosure(page)).not.toHaveAttribute('open');
     await expect(translationDisclosure(page).locator('p').first()).toBeHidden();
     await expect(page.getByRole('heading', { level: 1, name: current.titleEn })).toHaveCount(0);
-  }
-});
+  });
+}
 
 test('unknown scene shows custom 404 and return link', async ({ page }) => {
   const response = await page.goto('/scenes/not-a-scene/');
