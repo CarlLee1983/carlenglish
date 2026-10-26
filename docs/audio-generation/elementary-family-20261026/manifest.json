@@ -1,0 +1,693 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/puzzle-together/1.mp3",
+      "text": "An and Yu sit at a low table.",
+      "textSha256": "d1c16084fec853815a665972bdb958d288f02aaaff27ef066b182107213abbc0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "af293d32a6cad68a41975e380448d979f1f15efa0060922e0f0370501756b17d",
+      "duration": 2.4,
+      "graphemes": [
+        "An and Yu sit at a low table."
+      ],
+      "phonemes": [
+        "ɐn ænd jˈu sˈɪt æt ɐ lˈO tˈAbᵊl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/puzzle-together/2.mp3",
+      "text": "They work on a puzzle of a boat.",
+      "textSha256": "01e4df0237c92f08fbdfce3d40e79c429709352f6ff0296ebb9208c51c16b0e7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fc55fb1b2a024f1805790bb5ae6ed6c15b311f295ef6384efca3518451a7aa19",
+      "duration": 2.2,
+      "graphemes": [
+        "They work on a puzzle of a boat."
+      ],
+      "phonemes": [
+        "ðˌA wˈɜɹk ˌɔn ɐ pˈʌzᵊl ʌv ɐ bˈOt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/puzzle-together/3.mp3",
+      "text": "An asks, “Can you find a blue piece?”",
+      "textSha256": "0c4ad0f5b321f3cb43e94a9b6d8c247e904434cbbe633171ded2276e72925884",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6b35935aa688df1a008ffa787593b3a78e25971afd433f7015cface357d62e7c",
+      "duration": 2.575,
+      "graphemes": [
+        "An asks, “Can you find a blue piece?”"
+      ],
+      "phonemes": [
+        "ɐn ˈæsks, “kˌæn ju fˈInd ɐ blˈu pˈis?”"
+      ]
+    },
+    {
+      "src": "/audio/sentences/puzzle-together/4.mp3",
+      "text": "Yu looks in the box and finds one.",
+      "textSha256": "328f13241924986bf71b574b5dd333cdd116fc2d99232c25c6dc5910dfd150a3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "47efc4806d6872734aebaa9c999048630bf3bb20c5cb413038fef6c713f27a41",
+      "duration": 2.55,
+      "graphemes": [
+        "Yu looks in the box and finds one."
+      ],
+      "phonemes": [
+        "jˈu lˈʊks ɪn ðə bˈɑks ænd fˈIndz wˈʌn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/puzzle-together/5.mp3",
+      "text": "“This piece fits here,” he says.",
+      "textSha256": "15de2148dd6736639e9b362546a6a80430c8f87eebd1b2483e49317d67b7a966",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d2324a8aae83402e89b5c999131fad49c901de0a029764eea0efd70872bae3b6",
+      "duration": 2.425,
+      "graphemes": [
+        "“This piece fits here,” he says."
+      ],
+      "phonemes": [
+        "“ðˌɪs pˈis fˈɪts hˈɪɹ,” hi sˈɛz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/puzzle-together/6.mp3",
+      "text": "They finish the puzzle and clap.",
+      "textSha256": "ff7873e34d018e1988cb85d20ab6cc9fb67d13a93bd7b5336a0d8a336944e2a1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "15e3273be5c0cb2e275e955841e8d81e5b1ba91088e8adf95a58b64a22ea7af4",
+      "duration": 2.2,
+      "graphemes": [
+        "They finish the puzzle and clap."
+      ],
+      "phonemes": [
+        "ðˌA fˈɪnəʃ ðə pˈʌzᵊl ænd klˈæp."
+      ]
+    },
+    {
+      "src": "/audio/phrases/puzzle-together-work-on-a-puzzle.mp3",
+      "text": "work on a puzzle",
+      "textSha256": "ad7a5811fe25b11faf79e522e516f2c18bae77f6a0b432fa7a6b4076e5a7dea7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0e0a4002dd3ed1f138c4cf571d2b7c42b267e2357edc18e429bde1212a7923ba",
+      "duration": 1.65,
+      "graphemes": [
+        "work on a puzzle"
+      ],
+      "phonemes": [
+        "wˈɜɹk ˌɔn ɐ pˈʌzᵊl"
+      ]
+    },
+    {
+      "src": "/audio/phrases/puzzle-together-can-you-find.mp3",
+      "text": "Can you find",
+      "textSha256": "ae5b7a392c5582ebd8f236aae4c7e64178ed8373175557eb061a8ecc385711d5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a2f2373945dcf10fb478142c45bfa6396f01d823fb298da7c2188efc71d10717",
+      "duration": 1.6,
+      "graphemes": [
+        "Can you find"
+      ],
+      "phonemes": [
+        "kˌæn ju fˈInd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/puzzle-together-in-the-box.mp3",
+      "text": "in the box",
+      "textSha256": "8f00e8594e7e6f9639f3f18a03eb46f933e756df3fbbcf9f84f3c895d6a8bed8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "07c4cf11a31e23b60477ce602fe3fb1f9e1fd6ff4e9264f744d4bf3cdd695a06",
+      "duration": 1.475,
+      "graphemes": [
+        "in the box"
+      ],
+      "phonemes": [
+        "ɪn ðə bˈɑks"
+      ]
+    },
+    {
+      "src": "/audio/phrases/puzzle-together-fits-here.mp3",
+      "text": "fits here",
+      "textSha256": "db45157c19e7382eb188b1575335900e82ebcf375b09775e4889fd2acc2bf2b5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e4cf98a5c3b6d6f0d096397f75e48de06bc64616d80d981b0931fe02498dab82",
+      "duration": 1.5,
+      "graphemes": [
+        "fits here"
+      ],
+      "phonemes": [
+        "fˈɪts hˈɪɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/puzzle-together-table.mp3",
+      "text": "table",
+      "textSha256": "0d4fc4a78d3706edccafb665a8b2fdd9309e82c78625bb0f2b8e7bb9e1c4d21c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8447df6b3a8ea5e70d5820ddf3aa40bb765fa49780f8d0c1ea3a44d9850045b1",
+      "duration": 1.35,
+      "graphemes": [
+        "table"
+      ],
+      "phonemes": [
+        "tˈAbᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/puzzle-together-puzzle.mp3",
+      "text": "puzzle",
+      "textSha256": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a563ef2420b0e29fe936fae003720d7a70c27ece7b5025c999b5ea75df3b054a",
+      "duration": 1.375,
+      "graphemes": [
+        "puzzle"
+      ],
+      "phonemes": [
+        "pˈʌzᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/puzzle-together-boat.mp3",
+      "text": "boat",
+      "textSha256": "25cdb46d8d2115a24eb15c3c58f34f3330cfca4fec249ff70b7cad2bb560a0dd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "238e6f07de9fd7b909008d44b0c345c910d93f8742e0936b92c41fff6ce1488e",
+      "duration": 1.225,
+      "graphemes": [
+        "boat"
+      ],
+      "phonemes": [
+        "bˈOt"
+      ]
+    },
+    {
+      "src": "/audio/words/puzzle-together-blue.mp3",
+      "text": "blue",
+      "textSha256": "16477688c0e00699c6cfa4497a3612d7e83c532062b64b250fed8908128ed548",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cf02f3a69f5c8c17e080de7c7bcf520aae4953c3f13ea6216bfdb0f3fe33d12c",
+      "duration": 1.325,
+      "graphemes": [
+        "blue"
+      ],
+      "phonemes": [
+        "blˈu"
+      ]
+    },
+    {
+      "src": "/audio/words/puzzle-together-piece.mp3",
+      "text": "piece",
+      "textSha256": "34235a2c502e3919d3f00af5dabb87cb58aef4566b10631f2a5db94950ebffbd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "880ef8a5c198bb72ecec374e724d6f6879900029fd95b7231044dfe98f0cf4c5",
+      "duration": 1.35,
+      "graphemes": [
+        "piece"
+      ],
+      "phonemes": [
+        "pˈis"
+      ]
+    },
+    {
+      "src": "/audio/words/puzzle-together-box.mp3",
+      "text": "box",
+      "textSha256": "26f8567f2569182294c3fa5b9f9cb2270b554eef628b4c149cf82a42888ff4ae",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "450ae8a2f140c60a930825f85d2c47d258c1d0fff3175518c43482a78efba86e",
+      "duration": 1.3,
+      "graphemes": [
+        "box"
+      ],
+      "phonemes": [
+        "bˈɑks"
+      ]
+    },
+    {
+      "src": "/audio/sentences/video-call-grandma/1.mp3",
+      "text": "Bo sits with Mom beside a tablet.",
+      "textSha256": "d9de983684d2d44bbb93b9e2f5350f13d34a0884f36641b578ea807efed73857",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e10fac48d4ed9eb45542cf0b2fb02528aef0e8f08f06c579ad95d9e3a6a79c4e",
+      "duration": 2.65,
+      "graphemes": [
+        "Bo sits with Mom beside a tablet."
+      ],
+      "phonemes": [
+        "bˈO sˈɪts wɪð mˈɑm bəsˈId ɐ tˈæblət."
+      ]
+    },
+    {
+      "src": "/audio/sentences/video-call-grandma/2.mp3",
+      "text": "Grandma waves from the screen.",
+      "textSha256": "1417e9ddf44361f4a881a6b997e36511384764c42f64d7ce90e1bc3beddc6b9d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0eac34910337a304ecf12a2097023619ecdf39d8407d9486cb705b2259874cca",
+      "duration": 2.25,
+      "graphemes": [
+        "Grandma waves from the screen."
+      ],
+      "phonemes": [
+        "ɡɹˈændmˌɑ wˈAvz fɹʌm ðə skɹˈin."
+      ]
+    },
+    {
+      "src": "/audio/sentences/video-call-grandma/3.mp3",
+      "text": "“Hello, Grandma! Can you hear me?” asks Bo.",
+      "textSha256": "cd206d84d83314d61f4777b148b515d0d53fe21981fa26bc59568a1595bd5cba",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c39a45851ee83d1dcda9c6b8dd72e62cd51926a287a00143883dc03f0390d5f1",
+      "duration": 3.2,
+      "graphemes": [
+        "“Hello, Grandma! Can you hear me?” asks Bo."
+      ],
+      "phonemes": [
+        "“həlˈO, ɡɹˈændmˌɑ! kˌæn ju hˈɪɹ mˌi?” ˈæsks bˈO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/video-call-grandma/4.mp3",
+      "text": "“Yes, I can,” she says with a smile.",
+      "textSha256": "f09176b6b48a2d870835d4df7cfdd6615c34c3d2c3500d39f906b463bf80d936",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2f9ce50ba12c29bcecb0aad34c88e2a593fe6e7a77d7e139f0772599bd8f17ea",
+      "duration": 2.825,
+      "graphemes": [
+        "“Yes, I can,” she says with a smile."
+      ],
+      "phonemes": [
+        "“jˈɛs, ˌI kˈæn,” ʃi sˈɛz wɪð ɐ smˈIl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/video-call-grandma/5.mp3",
+      "text": "Bo holds up his drawing of a cat.",
+      "textSha256": "3aee287e91b1004ca95f3760c113b2947ca8f4e5abd307926bec3959c49f9b8d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3d2f747b869ac29f074177d0c1397fc93e1ebea11a9251be49d7a20281ab7d70",
+      "duration": 2.375,
+      "graphemes": [
+        "Bo holds up his drawing of a cat."
+      ],
+      "phonemes": [
+        "bˈO hˈOldz ˌʌp hɪz dɹˈYŋ ʌv ɐ kˈæt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/video-call-grandma/6.mp3",
+      "text": "“Look at my cat!” he says.",
+      "textSha256": "c7dbbde73bab8ab70cca4259b095849bb4c134775bdf61982384be4d9cf6a5cf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "05cf5123505286fe0b16880ee175b0e3b4fee592d2b2b1473b1a27171e455177",
+      "duration": 2.15,
+      "graphemes": [
+        "“Look at my cat!” he says."
+      ],
+      "phonemes": [
+        "“lˈʊk æt mI kˈæt!” hi sˈɛz."
+      ]
+    },
+    {
+      "src": "/audio/phrases/video-call-grandma-can-you-hear-me.mp3",
+      "text": "Can you hear me",
+      "textSha256": "010427960a1e87a8aa10bef5ea724e7e205bf064f26a8fa15253720b7308ee3f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "227481b5a93edf8748217ad3e1d88a3af40f7ab0d918195f084abb5f8b4249e2",
+      "duration": 1.575,
+      "graphemes": [
+        "Can you hear me"
+      ],
+      "phonemes": [
+        "kˌæn ju hˈɪɹ mˌi"
+      ]
+    },
+    {
+      "src": "/audio/phrases/video-call-grandma-yes-i-can.mp3",
+      "text": "Yes, I can",
+      "textSha256": "9a48ca6e90db9e5b6be8f3d09e8bdbcc04ef65bd232da51aa2424ea156d62221",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4be83dd248fe36270a9072a1238ad0e220fa2238746850963ac119b80566a116",
+      "duration": 1.725,
+      "graphemes": [
+        "Yes, I can"
+      ],
+      "phonemes": [
+        "jˈɛs, ˌI kˈæn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/video-call-grandma-holds-up.mp3",
+      "text": "holds up",
+      "textSha256": "1979ecea94b6d29984f5f1a6e7570ddd3eb7e62c34363aea8b6d75a9a57497e0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "488dcefc2bbeec686e60fb0efd6039108c0aa79a5d0e9cbc4fff90ff80eacccf",
+      "duration": 1.425,
+      "graphemes": [
+        "holds up"
+      ],
+      "phonemes": [
+        "hˈOldz ˌʌp"
+      ]
+    },
+    {
+      "src": "/audio/phrases/video-call-grandma-look-at-my-cat.mp3",
+      "text": "Look at my cat",
+      "textSha256": "a65637dbe263487d925cb49d25490b43ef62b2bbde3f180bb6211fe274718184",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "339ac0bcb0e1d1eb207d17d0fc9b3ece7bf0a5d0307e4622aad77bed68eb2c3f",
+      "duration": 1.65,
+      "graphemes": [
+        "Look at my cat"
+      ],
+      "phonemes": [
+        "lˈʊk æt mI kˈæt"
+      ]
+    },
+    {
+      "src": "/audio/words/video-call-grandma-tablet.mp3",
+      "text": "tablet",
+      "textSha256": "5bed85bd69a5502a8f645a58a05e979f94bdeb77b957199ce8429e0ffbc01257",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9d679b0b850a54a40481b16447f514bcd589fb514750b03e90ae4662cbf7c240",
+      "duration": 1.375,
+      "graphemes": [
+        "tablet"
+      ],
+      "phonemes": [
+        "tˈæblət"
+      ]
+    },
+    {
+      "src": "/audio/words/video-call-grandma-grandma.mp3",
+      "text": "grandma",
+      "textSha256": "ba8d3e6a2d8b5ed67ba21927de648785e0dccf8fdf6efacde32b8456f534f70b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a4b4d25664a604f7d332fbd77dde8633f239c454a4179ef37ee8838919225bfa",
+      "duration": 1.525,
+      "graphemes": [
+        "grandma"
+      ],
+      "phonemes": [
+        "ɡɹˈændmˌɑ"
+      ]
+    },
+    {
+      "src": "/audio/words/video-call-grandma-waves.mp3",
+      "text": "waves",
+      "textSha256": "eb81ba5ff779ca24d480493b87b9ad1c6ae8fd62211d6b3e8344c03aa55d495b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "aa0ba749875bd625f02cfeeb50e494d3804da2e3aa4b989325e9dce66a391d98",
+      "duration": 1.375,
+      "graphemes": [
+        "waves"
+      ],
+      "phonemes": [
+        "wˈAvz"
+      ]
+    },
+    {
+      "src": "/audio/words/video-call-grandma-screen.mp3",
+      "text": "screen",
+      "textSha256": "4cd6c2914887dd4a68e4c9ffbed8b077f048cf795d6cfa0b801d43e0ea5a1560",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bfa264a7f9b8a2f58825456a6c2e61e531df1cdd54460f1e17518b147c4f3613",
+      "duration": 1.475,
+      "graphemes": [
+        "screen"
+      ],
+      "phonemes": [
+        "skɹˈin"
+      ]
+    },
+    {
+      "src": "/audio/words/video-call-grandma-drawing.mp3",
+      "text": "drawing",
+      "textSha256": "27f3282691613a41f159fe0fb8f3791f3b99fa00fc62df29edeeafe496eb0fdd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "01ee74e3e1767232c26a69b61008845389e782337dc0e0cd88349b1d85f37e9a",
+      "duration": 1.4,
+      "graphemes": [
+        "drawing"
+      ],
+      "phonemes": [
+        "dɹˈYŋ"
+      ]
+    },
+    {
+      "src": "/audio/words/video-call-grandma-cat.mp3",
+      "text": "cat",
+      "textSha256": "77af778b51abd4a3c51c5ddd97204a9c3ae614ebccb75a606c3b6865aed6744e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "be17f566bad6bee1a29a7a4190c3383a6d705f92ded45bfad06eeacf58b826bd",
+      "duration": 1.2,
+      "graphemes": [
+        "cat"
+      ],
+      "phonemes": [
+        "kˈæt"
+      ]
+    },
+    {
+      "src": "/audio/sentences/bedtime-book/1.mp3",
+      "text": "Mei chooses a book before bed.",
+      "textSha256": "e619425e6c1f49d36abca96f1b924c78a7178194fd16f07c36757352f3f97fc0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "39ef966dc614415d052aa5a86e8afe180a7c7a7ca24fd8cb5572b4a38cbad765",
+      "duration": 2.325,
+      "graphemes": [
+        "Mei chooses a book before bed."
+      ],
+      "phonemes": [
+        "mˈA ʧˈuzᵻz ɐ bˈʊk bəfˈɔɹ bˈɛd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bedtime-book/2.mp3",
+      "text": "“This one, please,” she says to Dad.",
+      "textSha256": "6ec7acb18dc8c380ce5eb1a3fe14a9caf27494325b3d987068fdcd7a9f1f901c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ee3d174d632c9b39a70acb7c3ef866cd82d0b25d4b40e38549a8b38424d54234",
+      "duration": 2.75,
+      "graphemes": [
+        "“This one, please,” she says to Dad."
+      ],
+      "phonemes": [
+        "“ðˌɪs wˈʌn, plˈiz,” ʃi sˈɛz tə dˈæd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bedtime-book/3.mp3",
+      "text": "They sit together under a soft blanket.",
+      "textSha256": "16a72b76e4dc0457647d8702c2a0b0155119f7367ddebc9563dd24a315d624a1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d362a9c9186b552a38e18192de00b9e2c4fa563fb9d40b5e77ed5cc85d452a5a",
+      "duration": 2.675,
+      "graphemes": [
+        "They sit together under a soft blanket."
+      ],
+      "phonemes": [
+        "ðˌA sˈɪt təɡˈɛðəɹ ˈʌndəɹ ɐ sˈɔft blˈæŋkət."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bedtime-book/4.mp3",
+      "text": "Dad opens the book to the first page.",
+      "textSha256": "e098a42c7c111d9793980c616cebc0626a6d823459f3a8faaf9d5ae02d07bd9a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9050afd512d1db2d17f90e0632adc120ec3b8aa63f1fb04c1457fb128e9115d8",
+      "duration": 2.65,
+      "graphemes": [
+        "Dad opens the book to the first page."
+      ],
+      "phonemes": [
+        "dˈæd ˈOpᵊnz ðə bˈʊk tə ðə fˈɜɹst pˈAʤ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bedtime-book/5.mp3",
+      "text": "Mei points to a star in the picture.",
+      "textSha256": "369192857d2ff4ecc51c7a14fcbdbaf44dbeea806a5ade2844d45a416ded10f0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2bc23a990d7a5e0c83a344bf9c21c11a03e75f01dae984b3b6f335e389a5ef0b",
+      "duration": 2.425,
+      "graphemes": [
+        "Mei points to a star in the picture."
+      ],
+      "phonemes": [
+        "mˈA pˈYnts tə ɐ stˈɑɹ ɪn ðə pˈɪkʧəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bedtime-book/6.mp3",
+      "text": "“One more page, please!” she says.",
+      "textSha256": "f320e83ff03b3c307cdca2b65ca7dfaa57283c99ed126eb5e01045ba7a1a9468",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7b45e8d23d8e4f77653bb7e81564f873f497ae2c6867ca5507c90ba1d98fdbef",
+      "duration": 2.6,
+      "graphemes": [
+        "“One more page, please!” she says."
+      ],
+      "phonemes": [
+        "“wˈʌn mˈɔɹ pˈAʤ, plˈiz!” ʃi sˈɛz."
+      ]
+    },
+    {
+      "src": "/audio/phrases/bedtime-book-before-bed.mp3",
+      "text": "before bed",
+      "textSha256": "3ef7f4a5cecd357b650f23142890ce5a4246b418ba810d8b97870007bee68649",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "171862b778d298ab4ebb3b852cfc38c7f25a5cdf0e79e02e6281d44bb52f416b",
+      "duration": 1.575,
+      "graphemes": [
+        "before bed"
+      ],
+      "phonemes": [
+        "bəfˈɔɹ bˈɛd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bedtime-book-this-one-please.mp3",
+      "text": "This one, please",
+      "textSha256": "6059fec593f973442e3942b94aa4c4d9f196d8501b3852666337d9ed77195bc1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "43e9981275b577160d740b569e16e02246a2740bd7ec120c75b980f729061269",
+      "duration": 1.75,
+      "graphemes": [
+        "This one, please"
+      ],
+      "phonemes": [
+        "ðˌɪs wˈʌn, plˈiz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bedtime-book-sit-together.mp3",
+      "text": "sit together",
+      "textSha256": "d741648c023b089995466b0b68c64369c7467c0cf8fd93ad74e7c54dc775ead0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9631caa35033091b93719a8f5f4deef826ba7cd526f7d70507da0c565dd037af",
+      "duration": 1.525,
+      "graphemes": [
+        "sit together"
+      ],
+      "phonemes": [
+        "sˈɪt təɡˈɛðəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bedtime-book-one-more-page.mp3",
+      "text": "One more page, please",
+      "textSha256": "1ca7d05b7fdc3629a482df812fe5c84b9778e7540e414582077d08a65c3ddb39",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5d16f2918b9837bad59e0cebfece5b6a62768687ff1a723c744e58151ba73fb8",
+      "duration": 2.05,
+      "graphemes": [
+        "One more page, please"
+      ],
+      "phonemes": [
+        "wˈʌn mˈɔɹ pˈAʤ, plˈiz"
+      ]
+    },
+    {
+      "src": "/audio/words/bedtime-book-book.mp3",
+      "text": "book",
+      "textSha256": "92719fe0cf8cd51592af31ee8a5736d79f7273777fa3f7b70bfe993a4cd32180",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "434f2e79fa4c78668a980ce36e7990e9ad06d6529dbdf09d32e65e53ac21d195",
+      "duration": 1.2,
+      "graphemes": [
+        "book"
+      ],
+      "phonemes": [
+        "bˈʊk"
+      ]
+    },
+    {
+      "src": "/audio/words/bedtime-book-bed.mp3",
+      "text": "bed",
+      "textSha256": "c5052532c2206140dfdc3b0d756cce0831ac00fd978f2bfd150858e7ee217a8c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "502ab8d37e87a465395a29a5afa099648576fda23d235aa5e4e52cd90d818d41",
+      "duration": 0.85,
+      "graphemes": [
+        "bed"
+      ],
+      "phonemes": [
+        "bˈɛd"
+      ]
+    },
+    {
+      "src": "/audio/words/bedtime-book-blanket.mp3",
+      "text": "blanket",
+      "textSha256": "7cd0fc6ee61e2a57b030062d729f8b68705faab8fee6d727ada7a8c0329fab6e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "448ab5751e85ceacbc185eba6dec18f5c78741144178b541b0c936d65476cbbf",
+      "duration": 1.475,
+      "graphemes": [
+        "blanket"
+      ],
+      "phonemes": [
+        "blˈæŋkət"
+      ]
+    },
+    {
+      "src": "/audio/words/bedtime-book-page.mp3",
+      "text": "page",
+      "textSha256": "3660315a9af3df255d8f19ab077e4797822b41488a0e2a04bc6af71213c23274",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9f80c95be86b532bf0e149e61fa0b3befc18f2642411b706bdcdd48359a1c2d5",
+      "duration": 1.25,
+      "graphemes": [
+        "page"
+      ],
+      "phonemes": [
+        "pˈAʤ"
+      ]
+    },
+    {
+      "src": "/audio/words/bedtime-book-star.mp3",
+      "text": "star",
+      "textSha256": "525eca1d5089dbdcbb6700d910c5e0bc23fbaa23ee026c0e224c2b45490e5f29",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "255ec5fab0ad75c0312960a571022f1cde2f12d5ef3749eef978cb2ef6197c69",
+      "duration": 1.325,
+      "graphemes": [
+        "star"
+      ],
+      "phonemes": [
+        "stˈɑɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/bedtime-book-picture.mp3",
+      "text": "picture",
+      "textSha256": "2cea274d0bedc39ec4ab6ba9e59ec889e3ed6fb56a1cf088a64d9b383378dc97",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2cf1073b61a9bf098e2611ff113d842f8b20ca51e8f6eb6911d9cbfba6d7440d",
+      "duration": 1.4,
+      "graphemes": [
+        "picture"
+      ],
+      "phonemes": [
+        "pˈɪkʧəɹ"
+      ]
+    }
+  ]
+}

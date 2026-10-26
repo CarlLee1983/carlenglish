@@ -1,0 +1,321 @@
+{
+  "id": "elevator-ride",
+  "title": "和爸爸搭電梯",
+  "titleEn": "Up to the Third Floor",
+  "category": "交通與生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/elevator-ride.webp",
+    "alt": "小安和爸爸站在電梯裡，小安伸手按樓層按鈕。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "wait-for-the-elevator",
+      "english": "wait for the elevator",
+      "translation": "等電梯",
+      "audio": {
+        "src": "/audio/phrases/elevator-ride-wait-for-the-elevator.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4efec01ba3969554ef54f096becc6da8e4eb90e478539bcbc0f8a9d5d97c1a7d",
+        "sha256": "4f80fddd83aa666b12b3c754df0beaa24501144a0eb74c33f82457bf8a87ab80"
+      }
+    },
+    {
+      "id": "which-floor",
+      "english": "Which floor",
+      "translation": "哪一樓",
+      "audio": {
+        "src": "/audio/phrases/elevator-ride-which-floor.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dff40e03678cbee5a79e4e67195d1561675c886122881625a11d8a539aaeb7ab",
+        "sha256": "9b43b3932834ecd0022f0214d0452a9cbbd2fdf98bc865c58d11a8f3c8388426"
+      }
+    },
+    {
+      "id": "the-third-floor",
+      "english": "The third floor",
+      "translation": "三樓",
+      "audio": {
+        "src": "/audio/phrases/elevator-ride-the-third-floor.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "14df80c595667f0391ec2a666c249c540644d88b7168c3c6d5e0fa743c2d9378",
+        "sha256": "daef90c66c948664569355d0aa8ef3b4dc073d989a3ca55c8afd8fb084a18b8b"
+      }
+    },
+    {
+      "id": "ride-up",
+      "english": "ride up",
+      "translation": "搭乘上樓",
+      "audio": {
+        "src": "/audio/phrases/elevator-ride-ride-up.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "851013e63df627097c6712fb5f4aeb484d5ba84074d0cc8f29bfda6f5db61e9e",
+        "sha256": "680f479ff256edbc04d51577b77d92e39f8ccf2d0992c57221696f13b434f964"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "elevator",
+      "english": "elevator",
+      "translation": "電梯",
+      "example": "The elevator is here.",
+      "audio": {
+        "src": "/audio/words/elevator-ride-elevator.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "41762bcf88c5e7148181df374b2e9ecff9bc9e64d67e032ebeea1a6d5a26eda8",
+        "sha256": "c82455caeac5d1e73e703f2bbe4c33ede546d6ad9e09c30f6e80d010f4a341eb"
+      }
+    },
+    {
+      "id": "people",
+      "english": "people",
+      "translation": "人們",
+      "example": "Two people are waiting.",
+      "audio": {
+        "src": "/audio/words/elevator-ride-people.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c9022680f888674e2b2274758755bfa07dea729b68d71cde5c521ed70ef261bf",
+        "sha256": "eb35c7c514c1f9424a9593d6a790923aea0beb3762038ecc287f8038e8af6228"
+      }
+    },
+    {
+      "id": "floor",
+      "english": "floor",
+      "translation": "樓層",
+      "example": "Which floor do you need?",
+      "audio": {
+        "src": "/audio/words/elevator-ride-floor.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a3e1f4935b0919b346c2caf4da18078a1ebaf6451eb7f7b5dc79c11629b6368c",
+        "sha256": "39066e1e1d8d8450158930ae6c5ff0e599164c5fd8201db1212ef43ceef1e3cd"
+      }
+    },
+    {
+      "id": "third",
+      "english": "third",
+      "translation": "第三",
+      "example": "This is the third floor.",
+      "audio": {
+        "src": "/audio/words/elevator-ride-third.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b1e99324505bd32da0e1f85dcf5e19a09db0481e8a15f62c41eb320304a8e927",
+        "sha256": "a699af437dac2a6c2f8c6f1a288dca793afa7745b9f69b92c83cebf535b4d926"
+      }
+    },
+    {
+      "id": "button",
+      "english": "button",
+      "translation": "按鈕",
+      "example": "The button is round.",
+      "audio": {
+        "src": "/audio/words/elevator-ride-button.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c3e2d78f3ff335724b4029f06505b511e4f8f01e258828de29849b36b40b55d0",
+        "sha256": "2d1aff61705692c073a4ef716a11b6259ae8e0229bb1840c8741b36a2f1e5349"
+      }
+    },
+    {
+      "id": "three",
+      "english": "three",
+      "translation": "三",
+      "example": "I have three books.",
+      "audio": {
+        "src": "/audio/words/elevator-ride-three.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8b5b9db0c13db24256c829aa364aa90c6d2eba318b9232a4ab9313b954d3555f",
+        "sha256": "2563020100b27e9a1c736df7e683499afc80504fc523d9c78518043ca0d1a5dc"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "An and Dad "
+        },
+        {
+          "text": "wait for the ",
+          "phraseIds": [
+            "wait-for-the-elevator"
+          ]
+        },
+        {
+          "text": "elevator",
+          "phraseIds": [
+            "wait-for-the-elevator"
+          ],
+          "wordIds": [
+            "elevator"
+          ]
+        },
+        {
+          "text": " downstairs."
+        }
+      ],
+      "translation": "小安和爸爸在樓下等電梯。",
+      "audio": {
+        "src": "/audio/sentences/elevator-ride/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6f5f8660ab633c3eec8bbf3fa1bb2669d835a7e216c8480f12d130504588086f",
+        "sha256": "01bd42be825512a2ff78cee5c24ffd3d4ea2329ec214628f1fa3df441011fdfc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They let "
+        },
+        {
+          "text": "people",
+          "wordIds": [
+            "people"
+          ]
+        },
+        {
+          "text": " come out first."
+        }
+      ],
+      "translation": "他們先讓裡面的人出來。",
+      "audio": {
+        "src": "/audio/sentences/elevator-ride/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a61190b5a1ea08f9f2ffdee1036b8d996a55079db5ba4168476db77484069dee",
+        "sha256": "5d2046a45a7c001ccdd4991610dd49017b2446fa2c7f16b0b3b5e45cc19f0d94"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Which ",
+          "phraseIds": [
+            "which-floor"
+          ]
+        },
+        {
+          "text": "floor",
+          "phraseIds": [
+            "which-floor"
+          ],
+          "wordIds": [
+            "floor"
+          ]
+        },
+        {
+          "text": " do we need?” asks An."
+        }
+      ],
+      "translation": "小安問：「我們要到哪一樓？」",
+      "audio": {
+        "src": "/audio/sentences/elevator-ride/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "df72d2b6906e9ec722715aa4e04cbadeb933c2e5303757799a709606da4fcfdf",
+        "sha256": "3e1f05e1ce6d823d668582802624020814e7bc6e34167358c7080b7b00948cb6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "The ",
+          "phraseIds": [
+            "the-third-floor"
+          ]
+        },
+        {
+          "text": "third",
+          "phraseIds": [
+            "the-third-floor"
+          ],
+          "wordIds": [
+            "third"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "floor",
+          "phraseIds": [
+            "the-third-floor"
+          ],
+          "wordIds": [
+            "floor"
+          ]
+        },
+        {
+          "text": ",” says Dad with a smile."
+        }
+      ],
+      "translation": "爸爸微笑著說：「三樓。」",
+      "audio": {
+        "src": "/audio/sentences/elevator-ride/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e4ae12e3b966fc47e4f94c00f21e3b1260b375067d4aca3d09e334a9ff7e2aa1",
+        "sha256": "1239ed2c1db3a8c9843785d515e26e66ba3d4280540f13a9d56600c49ba65f9c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "An presses the "
+        },
+        {
+          "text": "button",
+          "wordIds": [
+            "button"
+          ]
+        },
+        {
+          "text": " with a "
+        },
+        {
+          "text": "three",
+          "wordIds": [
+            "three"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小安按下標著數字三的按鈕。",
+      "audio": {
+        "src": "/audio/sentences/elevator-ride/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "38d77cb2dadbcb96cc21502665495ae65cbac031b622348045f5e794c39025c6",
+        "sha256": "429894b07f5b0bc9adbf9a1ceff9e1630d90f55a3e64fbc9482292c80f6fe593"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They "
+        },
+        {
+          "text": "ride up",
+          "phraseIds": [
+            "ride-up"
+          ]
+        },
+        {
+          "text": " and leave together."
+        }
+      ],
+      "translation": "他們搭電梯上樓，再一起走出去。",
+      "audio": {
+        "src": "/audio/sentences/elevator-ride/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9d4ebd8d8951c19575333df1694d632711fa5cbe5ae4f7a11af5c31b11d217d4",
+        "sha256": "af930f403e7af8a25bf930c47929cac23cd801f596178c47964e38ca3cd29f42"
+      }
+    }
+  ]
+}

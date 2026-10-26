@@ -1,0 +1,336 @@
+{
+  "id": "wash-before-snack",
+  "title": "洗手準備點心",
+  "titleEn": "Clean Hands for Snack Time",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/wash-before-snack.webp",
+    "alt": "小安在家中洗手台前搓揉沾有肥皂泡泡的雙手，旁邊掛著毛巾，媽媽在旁陪伴。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "puts-down",
+      "english": "puts down",
+      "translation": "放下",
+      "audio": {
+        "src": "/audio/phrases/wash-before-snack-puts-down.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c19a9200dbfea248f0077855a22e2688376e60567efa2beb54dd79310fdf2d69",
+        "sha256": "17143a1168d93664452b70fb660e9e6bd007e36c129b7e5b8f7d4d1ebf6d50cb"
+      }
+    },
+    {
+      "id": "wash-our-hands",
+      "english": "wash our hands",
+      "translation": "洗我們的手",
+      "audio": {
+        "src": "/audio/phrases/wash-before-snack-wash-our-hands.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2776f6e3e071b2b613f422759aa548cbed778bf4c0b9a2085a8c324d64fc2cb2",
+        "sha256": "13a132a73b5c34e7f989ffe838c0bcc28b19e6a52be830fbd92bfa49e4923f62"
+      }
+    },
+    {
+      "id": "with-water",
+      "english": "with water",
+      "translation": "用水",
+      "audio": {
+        "src": "/audio/phrases/wash-before-snack-with-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2e29d824bb6b52e9bbbd9e82eefb50982a0812eb188e07c5e0eac5fc5b4480fc",
+        "sha256": "2eff15e41b6bcefaca32012bed6dd1bf57ddf42a07848a0cf5188a390c658818"
+      }
+    },
+    {
+      "id": "here-is-a-towel",
+      "english": "Here is a towel",
+      "translation": "這裡有一條毛巾",
+      "audio": {
+        "src": "/audio/phrases/wash-before-snack-here-is-a-towel.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8cef4585d8ae481f3f061d7886f4f7830186dabfdf89ad33d0b781d1ebab3201",
+        "sha256": "e985b37505ecd83be121a79bd669a9e6289864f37ed5a73913b48be6a0a9575a"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "bag",
+      "english": "bag",
+      "translation": "袋子",
+      "example": "My bag is blue.",
+      "audio": {
+        "src": "/audio/words/wash-before-snack-bag.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c018019b6a8b01ab5868cf4be8db327a7549ae03202548b9ffcd2671c4c2b624",
+        "sha256": "40acffe53209dee6db6163a957fb876933619f5b6f42900a6773f8ee640e2d42"
+      }
+    },
+    {
+      "id": "soap",
+      "english": "soap",
+      "translation": "肥皂",
+      "example": "I use soap.",
+      "audio": {
+        "src": "/audio/words/wash-before-snack-soap.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "736bc2d4e0945110e88f7808a4a4d38d3479a0122de1de7ac84c920121928480",
+        "sha256": "613e1e02f71d882f484150fea19ad628f821f3d2228afcaeaaf74a75d7ac53ad"
+      }
+    },
+    {
+      "id": "hands",
+      "english": "hands",
+      "translation": "雙手",
+      "example": "My hands are clean.",
+      "audio": {
+        "src": "/audio/words/wash-before-snack-hands.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "45a229d57d35d935b67ce83a69f0353508b131ca39325494db3520252c841e10",
+        "sha256": "54891f1f37e0ad558592199195ab6ec6836430739009e015667a5608a148a738"
+      }
+    },
+    {
+      "id": "water",
+      "english": "water",
+      "translation": "水",
+      "example": "The water is warm.",
+      "audio": {
+        "src": "/audio/words/wash-before-snack-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501",
+        "sha256": "72f4697fd0f3978924a437674d5044896bf5fa5cd1b1ed498342ba7e2d4f53da"
+      }
+    },
+    {
+      "id": "towel",
+      "english": "towel",
+      "translation": "毛巾",
+      "example": "This towel is soft.",
+      "audio": {
+        "src": "/audio/words/wash-before-snack-towel.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "10ca50a8a7148afd6d2a563e8ef8e05cfedd17fc97a6a5327cf9e5300b933e4b",
+        "sha256": "ec6ea313ae482fa2ca0f0c250c38563d9263072c245b13a440727e367901883a"
+      }
+    },
+    {
+      "id": "snack",
+      "english": "snack",
+      "translation": "點心",
+      "example": "I have a snack.",
+      "audio": {
+        "src": "/audio/words/wash-before-snack-snack.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ff488ab8733e4c47df71b83349a8479186fbc6bbc7074355b16583f016ee16f0",
+        "sha256": "ada554e323a88b77471a27ab3fd97e6151a20657ccb2fb73b5f83b3fed6070b5"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "An comes home and "
+        },
+        {
+          "text": "puts down",
+          "phraseIds": [
+            "puts-down"
+          ]
+        },
+        {
+          "text": " her "
+        },
+        {
+          "text": "bag",
+          "wordIds": [
+            "bag"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小安回到家，放下她的袋子。",
+      "audio": {
+        "src": "/audio/sentences/wash-before-snack/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "48927a2beda9b3bd064d9b5dabf190773a328fa6929ffc8dd6bf297c7d89ea5b",
+        "sha256": "5247b26747ee2eccb1242d435c6dfae4cf2b04a370a46967553193fbae014fec"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom says, “Let’s "
+        },
+        {
+          "text": "wash our ",
+          "phraseIds": [
+            "wash-our-hands"
+          ]
+        },
+        {
+          "text": "hands",
+          "phraseIds": [
+            "wash-our-hands"
+          ],
+          "wordIds": [
+            "hands"
+          ]
+        },
+        {
+          "text": ".”"
+        }
+      ],
+      "translation": "媽媽說：「我們來洗手吧。」",
+      "audio": {
+        "src": "/audio/sentences/wash-before-snack/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4a61ffbae30eed17d800e8b08516c8d8bbbcaa20f9db60eb6c35c5194d508fa6",
+        "sha256": "ed8c009f52a8968cfdb7028d808c1cec1baafaf13897a5250cb91b785a7f78cf"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "An uses "
+        },
+        {
+          "text": "soap",
+          "wordIds": [
+            "soap"
+          ]
+        },
+        {
+          "text": " and rubs her "
+        },
+        {
+          "text": "hands",
+          "wordIds": [
+            "hands"
+          ]
+        },
+        {
+          "text": " together."
+        }
+      ],
+      "translation": "小安用肥皂搓揉雙手。",
+      "audio": {
+        "src": "/audio/sentences/wash-before-snack/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e9eecd317f9ff84a959b8b99bfd79697c161661fbaad56afdf0111daa6eb0b32",
+        "sha256": "63b32acc59a52cf71878dd8c1b99f1f68154657ff944d83e6a4483601d6cce32"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "She rinses her "
+        },
+        {
+          "text": "hands",
+          "wordIds": [
+            "hands"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "with ",
+          "phraseIds": [
+            "with-water"
+          ]
+        },
+        {
+          "text": "water",
+          "phraseIds": [
+            "with-water"
+          ],
+          "wordIds": [
+            "water"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "她用水沖洗雙手。",
+      "audio": {
+        "src": "/audio/sentences/wash-before-snack/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "04df1a2ae0d48856b177af3a59f4a01d5faa96b6af8b498573341b97b8d61209",
+        "sha256": "3bee0e93ffba73f7e0fc7478331b684b5b91b51b9f7a0284a5711b13e882d0a1"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Here is a ",
+          "phraseIds": [
+            "here-is-a-towel"
+          ]
+        },
+        {
+          "text": "towel",
+          "phraseIds": [
+            "here-is-a-towel"
+          ],
+          "wordIds": [
+            "towel"
+          ]
+        },
+        {
+          "text": ",” says Mom."
+        }
+      ],
+      "translation": "媽媽說：「這裡有一條毛巾。」",
+      "audio": {
+        "src": "/audio/sentences/wash-before-snack/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "86bd3efde865b4a6095dd658e7411db13cca97c91fad53146b8dce6346aef6ce",
+        "sha256": "74a164e715343b035e2a894a84c7630cbca6aa8c1ab56ea75458149d690fd03c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "An dries her "
+        },
+        {
+          "text": "hands",
+          "wordIds": [
+            "hands"
+          ]
+        },
+        {
+          "text": ", then eats her "
+        },
+        {
+          "text": "snack",
+          "wordIds": [
+            "snack"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小安擦乾雙手，然後吃點心。",
+      "audio": {
+        "src": "/audio/sentences/wash-before-snack/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e5e7cc8f89021bcc879328c0efef0688b5d740cbecacc3e20573931397f94969",
+        "sha256": "1d5cce4875b73ba566b81b87c68a59a2740c9f07ef4dee05399ffcea2bb8615a"
+      }
+    }
+  ]
+}

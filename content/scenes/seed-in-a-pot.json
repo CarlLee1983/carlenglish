@@ -1,0 +1,327 @@
+{
+  "id": "seed-in-a-pot",
+  "title": "小種子發芽了",
+  "titleEn": "A Seed in a Pot",
+  "category": "學習與探索",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/seed-in-a-pot.webp",
+    "alt": "小美和媽媽在明亮窗邊看著一盆剛長出綠色嫩芽的植物，旁邊放著小澆水壺。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "a-small-pot",
+      "english": "a small pot",
+      "translation": "一個小花盆",
+      "audio": {
+        "src": "/audio/phrases/seed-in-a-pot-a-small-pot.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2647832123570c69dac2fac638a83a3b8a4c5c9c630fc2ea417d6633df58d989",
+        "sha256": "277215d473da2e10b5a2ace29783469f6f00e7971bc7345860865a84d9d0dfaa"
+      }
+    },
+    {
+      "id": "a-little-water",
+      "english": "A little water, please",
+      "translation": "請給它一點水",
+      "audio": {
+        "src": "/audio/phrases/seed-in-a-pot-a-little-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "afead90b4c2ea22adce2e2faa9470d316ed02cc795fb1ae9d7cf632a5bee60e5",
+        "sha256": "916f914795be184653636cd96a9d2c8c39e6c213030ea9b5bb690d76cd2e95a7"
+      }
+    },
+    {
+      "id": "by-the-window",
+      "english": "by the window",
+      "translation": "在窗邊",
+      "audio": {
+        "src": "/audio/phrases/seed-in-a-pot-by-the-window.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3606fdcf4ac03eed56d11535ff77f0bf512b6644e140d262431042a963e1c9fa",
+        "sha256": "dca75e0dcabaeaaf152faf2dcbc3af2b0d6abb6d48fa5484e101a9f4ddc55405"
+      }
+    },
+    {
+      "id": "every-day",
+      "english": "every day",
+      "translation": "每天",
+      "audio": {
+        "src": "/audio/phrases/seed-in-a-pot-every-day.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ed28f6cae0fa83a36aec9ce49eabd7feb487960cfff9df8b7595c10622c8e975",
+        "sha256": "40676bb4a0afe3d0e441cb312e04d1cf05c45009c6c956944a66c1135d67bca5"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "soil",
+      "english": "soil",
+      "translation": "土壤",
+      "example": "The soil is in the pot.",
+      "audio": {
+        "src": "/audio/words/seed-in-a-pot-soil.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e93d59a02163f846fecf6bb6bd7135d093d8e40b46b1e5c2dda57cd74e655e1e",
+        "sha256": "ba9c6b11aee44c1878b80af827d4ba612b7cc8a1064dea9b291f89d36eb182da"
+      }
+    },
+    {
+      "id": "pot",
+      "english": "pot",
+      "translation": "花盆",
+      "example": "This pot is small.",
+      "audio": {
+        "src": "/audio/words/seed-in-a-pot-pot.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "74a51c3ce9ff025523588c1c1de1cda985cf96fc868aafb675639d15c13edb82",
+        "sha256": "0f0833af3316c4fa3be26975509427bdd58abcc5559d1445e13c03b18e0cbb17"
+      }
+    },
+    {
+      "id": "seed",
+      "english": "seed",
+      "translation": "種子",
+      "example": "I plant a seed.",
+      "audio": {
+        "src": "/audio/words/seed-in-a-pot-seed.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "19b25856e1c150ca834cffc8b59b23adbd0ec0389e58eb22b3b64768098d002b",
+        "sha256": "30c19418304d573638fe6dde19f479d2a4201d5823e280f5e4c8759d1061d1a9"
+      }
+    },
+    {
+      "id": "window",
+      "english": "window",
+      "translation": "窗戶",
+      "example": "The window is open.",
+      "audio": {
+        "src": "/audio/words/seed-in-a-pot-window.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "44ff7b02c80d38b26dd6aa31d9470aed81b32e10331a3c994fb1a9945fd847ba",
+        "sha256": "6ef172dfa59e07b819fd6f55b25caf03552ac08de2fda723b1a60e10222c970e"
+      }
+    },
+    {
+      "id": "green",
+      "english": "green",
+      "translation": "綠色的",
+      "example": "The leaf is green.",
+      "audio": {
+        "src": "/audio/words/seed-in-a-pot-green.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ba4788b226aa8dc2e6dc74248bb9f618cfa8c959e0c26c147be48f6839a0b088",
+        "sha256": "b7884773e04c56b5e64d6869768f23997b3196942a96906679625caabe55bec6"
+      }
+    },
+    {
+      "id": "shoot",
+      "english": "shoot",
+      "translation": "嫩芽",
+      "example": "I see a small shoot.",
+      "audio": {
+        "src": "/audio/words/seed-in-a-pot-shoot.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bd9b8d8e9aa8e2aa24c07daa04d04cf4058f7f3084faa0dd346e75f783d80e97",
+        "sha256": "f03e819a7f6406b9555243998bf0abcd8e271939c013d14fe807e67330a0ac91"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Mei puts "
+        },
+        {
+          "text": "soil",
+          "wordIds": [
+            "soil"
+          ]
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "a small ",
+          "phraseIds": [
+            "a-small-pot"
+          ]
+        },
+        {
+          "text": "pot",
+          "phraseIds": [
+            "a-small-pot"
+          ],
+          "wordIds": [
+            "pot"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小美把土放進一個小花盆裡。",
+      "audio": {
+        "src": "/audio/sentences/seed-in-a-pot/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f63ce91a8e05e59c62ae297fa956fbe47e57d26fec1f4613533f7b86efeb10c6",
+        "sha256": "75668b44f163d510171214f325c23121824df0e62280f755e2276ae6c5bc863c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "She plants a "
+        },
+        {
+          "text": "seed",
+          "wordIds": [
+            "seed"
+          ]
+        },
+        {
+          "text": " with Mom."
+        }
+      ],
+      "translation": "她和媽媽一起種下一顆種子。",
+      "audio": {
+        "src": "/audio/sentences/seed-in-a-pot/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "deb472e0e693e52a53c2073ef3f26a59a5a0b5f40c45e631cbefa4b595c49198",
+        "sha256": "4e00e8aef576a73e7c50cb6d0a8acc4fd7f5f96473cdcb685183abcb79538e0a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "A little water, please",
+          "phraseIds": [
+            "a-little-water"
+          ]
+        },
+        {
+          "text": ",” says Mom."
+        }
+      ],
+      "translation": "媽媽說：「請給它一點水。」",
+      "audio": {
+        "src": "/audio/sentences/seed-in-a-pot/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2055289e73e03af782ae9483d547dda13fd7ad2d85fdd32a83cd1c9be444f304",
+        "sha256": "634aaf4bf7f51c438bd161d019c9ff552bed05dd49b2604182bde7e95aacba9a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They put the "
+        },
+        {
+          "text": "pot",
+          "wordIds": [
+            "pot"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "by the ",
+          "phraseIds": [
+            "by-the-window"
+          ]
+        },
+        {
+          "text": "window",
+          "phraseIds": [
+            "by-the-window"
+          ],
+          "wordIds": [
+            "window"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "她們把花盆放在窗邊。",
+      "audio": {
+        "src": "/audio/sentences/seed-in-a-pot/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c11370d7a9b2d71fcab6fa20aeffbde12b1f371b3575fcec3d29aca0e86294ef",
+        "sha256": "d2d6328213e36622b9e18bc62b3589ad1dd7588b210057b092a3365f8ca2e410"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mei checks the "
+        },
+        {
+          "text": "pot",
+          "wordIds": [
+            "pot"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "every day",
+          "phraseIds": [
+            "every-day"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小美每天查看花盆。",
+      "audio": {
+        "src": "/audio/sentences/seed-in-a-pot/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e766db89642f0ffceb9ed3a9ae4cf055942a7ed12e91b6f317e3166154375ce2",
+        "sha256": "9f5e6fb3cf456209bb3d36c0cbb13344b4a83034be17140c8733f7f4c2fcbcc3"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "One day, she says, “Look! A "
+        },
+        {
+          "text": "green",
+          "wordIds": [
+            "green"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "shoot",
+          "wordIds": [
+            "shoot"
+          ]
+        },
+        {
+          "text": "!”"
+        }
+      ],
+      "translation": "有一天，她說：「看！一株綠色的嫩芽！」",
+      "audio": {
+        "src": "/audio/sentences/seed-in-a-pot/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "89dfd9ef1706426846ed69795f79f4baaac076a9a615cfea3ac43006aca4221a",
+        "sha256": "795ea190ec4649c7ba24228da736f66ea8d63ea6b5184b350f7530ce0471bd8b"
+      }
+    }
+  ]
+}

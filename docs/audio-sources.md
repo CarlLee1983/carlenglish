@@ -1,6 +1,6 @@
 # 統一聲線與音檔來源
 
-生活讀本目前使用 357 段正文句子音檔，以及既有單字與短句的本地 AI 合成 MP3。逐句跟讀與連續朗讀共用句子音檔，原先 46 段整篇 MP3 已移除。全部由 [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) 的 `af_heart` 聲線產生，設定以 `content/audio/voice-profile.json` 為準：Kokoro 0.9.4、模型 revision `f3ff3571791e39611d31c381e3a41a3af07b4987`、速度 1、24 kHz、CPU。這是固定的美式女聲合成音訊，不是真人錄音。
+生活讀本目前使用 429 段正文句子音檔，以及既有單字與短句的本地 AI 合成 MP3。逐句跟讀與連續朗讀共用句子音檔，原先 46 段整篇 MP3 已移除。全部由 [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) 的 `af_heart` 聲線產生，設定以 `content/audio/voice-profile.json` 為準：Kokoro 0.9.4、模型 revision `f3ff3571791e39611d31c381e3a41a3af07b4987`、速度 1、24 kHz、CPU。這是固定的美式女聲合成音訊，不是真人錄音。
 
 模型來源標示 [Apache-2.0](https://www.apache.org/licenses/LICENSE-2.0)；這是模型授權資訊，不表示生成 MP3 自動適用同一授權。模型檔與聲線檔的雜湊記於 profile。生成用的 Python 環境、模型、安裝鎖定與來源紀錄放在 `.scratch/illustrated-english/unified-voice/`，不進網站資產。離線生成時使用 `HF_HUB_OFFLINE=1 HF_HUB_DISABLE_IMPLICIT_TOKEN=1`，不讀取隱含 Hugging Face token；瀏覽網站播放時不需要 Python 或遠端語音服務。
 
@@ -27,3 +27,19 @@ NGSL-Spoken 詞表共 716 字，英文詞各有一段 MP3（716 段，約 8.3 Mi
 ## 台灣小學生初級單元
 
 2026-10-25 新增六篇入門讀本，共 36 段正文、24 段短句、36 段單字 MP3；沿用相同 Kokoro 版本、模型 revision 與 `af_heart` 聲線。新批次獨立製作，未重製或替換既有錄音。完整文字、雜湊、時長及合成器消耗的文字見 [本批音訊紀錄](audio-generation/elementary-beginners-20261025/README.md)。這些新音檔仍須本批實聽；舊批次的使用者驗收結果不延伸至本批。
+
+## 動手做與觀察單元
+
+2026-10-26 新增三篇入門原創讀本，獨立製作 18 段正文、12 段語塊及 18 段單字 MP3，共 48 段。沿用相同 Kokoro 版本、模型與 `af_heart` 聲線，沒有替換既有錄音；輸入、模型核對、雜湊及解碼證據見[本批音訊紀錄](audio-generation/elementary-everyday-20261026/README.md)。本批實聽與跟讀節奏尚待使用者驗收。
+
+## 一起玩與分享單元
+
+2026-10-26 另新增三篇入門原創讀本，使用獨立輸入製作 18 段正文、12 段語塊、18 段單字，共 48 段 MP3。沿用相同 Kokoro 版本、模型與 `af_heart` 聲線，沒有替換前批或既有錄音。完整文字、profile、雜湊與解碼證據見[本批音訊紀錄](audio-generation/elementary-family-20261026/README.md)；本批尚待使用者實聽、跟讀節奏及難度驗收。
+
+## 生活小任務單元
+
+2026-10-26 第三批再新增三篇入門原創讀本，獨立製作 18 段正文、12 段語塊、18 段單字，共 48 段 MP3。沿用既有 Kokoro 版本、模型與 `af_heart` 聲線，未重製前批或既有錄音；來源、實際文字、雜湊與解碼證據見[本批音訊紀錄](audio-generation/elementary-outings-20261026/README.md)。本批尚待使用者實聽、跟讀節奏與孩子試讀驗收。
+
+## 聽一聽，看一看單元
+
+2026-10-26 第四批再新增三篇入門原創讀本，獨立製作 18 段正文、12 段語塊、18 段單字，共 48 段 MP3。沿用相同 Kokoro 版本、模型與 `af_heart` 聲線，沒有重製前批或既有錄音，也未取用音樂或動物音效。完整文字、profile、雜湊與解碼證據見[本批音訊紀錄](audio-generation/elementary-discovery-20261026/README.md)。本批仍待使用者與孩子對發音、0.8× 節奏與難度的實聽及試讀驗收。

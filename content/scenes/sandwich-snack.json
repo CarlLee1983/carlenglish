@@ -1,0 +1,351 @@
+{
+  "id": "sandwich-snack",
+  "title": "做一份三明治",
+  "titleEn": "A Sandwich for Snack Time",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/sandwich-snack.webp",
+    "alt": "小安和爸爸在家中餐桌旁做三明治，盤子裡放著麵包、起司和切好的番茄片。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "what-would-you-like",
+      "english": "What would you like",
+      "translation": "你想要什麼",
+      "audio": {
+        "src": "/audio/phrases/sandwich-snack-what-would-you-like.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "440c82c74089022f2be43c0040a5bf3714f675a257996969b4c593bb6d7e9e59",
+        "sha256": "128912e9ad3b99744d5144c0592f70f62d83f7b3e7adc3e33b1e97c76bacd8cd"
+      }
+    },
+    {
+      "id": "cheese-and-tomatoes",
+      "english": "Cheese and tomatoes, please",
+      "translation": "請給我起司和番茄",
+      "audio": {
+        "src": "/audio/phrases/sandwich-snack-cheese-and-tomatoes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dfa495246d157a086f27940b987f4047ebba8ad071f8040b816839c7fd40e2d0",
+        "sha256": "8e694aacbef92a93c0be6360d52e33f94d517fe7052b31cf7b4261641d3f2558"
+      }
+    },
+    {
+      "id": "on-top",
+      "english": "on top",
+      "translation": "在上面",
+      "audio": {
+        "src": "/audio/phrases/sandwich-snack-on-top.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f182531cddd4ca4db5ed96955e2ddcb102e0e84ea76696942f82e7d3b0677e3c",
+        "sha256": "a6dc32756a5538252910ce37d1c931f03073f9324848eb75639cddab7add759b"
+      }
+    },
+    {
+      "id": "is-ready",
+      "english": "is ready",
+      "translation": "做好了；準備好了",
+      "audio": {
+        "src": "/audio/phrases/sandwich-snack-is-ready.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "61659f74fe37880afd4becb402e6f8b4ad827eb38eed704b3a8f1af1085dfb07",
+        "sha256": "ea2e62a5d2e6f9f14f827228c36eb12befc08ad2c4e13b5cd7280c4dd388f9ca"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "bread",
+      "english": "bread",
+      "translation": "麵包",
+      "example": "The bread is soft.",
+      "audio": {
+        "src": "/audio/words/sandwich-snack-bread.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "985604c2b60243122c24d4e18363e6434c535923be05f760204a1aef023aae9b",
+        "sha256": "af60f5d7b4a811553498df2809e0c09fbe3feca0efecf343744e935e0290448f"
+      }
+    },
+    {
+      "id": "plate",
+      "english": "plate",
+      "translation": "盤子",
+      "example": "The plate is clean.",
+      "audio": {
+        "src": "/audio/words/sandwich-snack-plate.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3b56c3520006aaeb038c24862bcde877284bc1654e73bda292d90db943c4573d",
+        "sha256": "d848d646067853c8c45df047188062bee0f713675bef58544372127abd165d30"
+      }
+    },
+    {
+      "id": "cheese",
+      "english": "cheese",
+      "translation": "起司",
+      "example": "I like cheese.",
+      "audio": {
+        "src": "/audio/words/sandwich-snack-cheese.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "873ac9ffea4dd04fa719e8920cd6938f0c23cd678af330939cff53c3d2855f34",
+        "sha256": "3bd8084d242a1df918dde6e8a85b07fdfd50689e7e336d64640674e7a311ae59"
+      }
+    },
+    {
+      "id": "tomatoes",
+      "english": "tomatoes",
+      "translation": "番茄（複數）",
+      "example": "The tomatoes are red.",
+      "audio": {
+        "src": "/audio/words/sandwich-snack-tomatoes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "20c526012014489e3ab8d33ea2a64b855dcbbd967b93041e352ba137e94bbb60",
+        "sha256": "3df689bed24880868d67dc5c473b3e61e08de1b2696610641fb20bd9d6d8072d"
+      }
+    },
+    {
+      "id": "slice",
+      "english": "slice",
+      "translation": "一片",
+      "example": "I have a slice of bread.",
+      "audio": {
+        "src": "/audio/words/sandwich-snack-slice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "03fdb065d956f3fb9ccd85da1b15398f00a9958b715145ebf916dd91fd7b6361",
+        "sha256": "3e94a6b6fa065a8ce3e27d4efc930783e3f7c45d64ac17aadbdf81b502f0e9ff"
+      }
+    },
+    {
+      "id": "sandwich",
+      "english": "sandwich",
+      "translation": "三明治",
+      "example": "This sandwich has cheese.",
+      "audio": {
+        "src": "/audio/words/sandwich-snack-sandwich.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8f5c570f55dd7921c9861e941be98a9492991d1a862d05283f6ddad56c891cca",
+        "sha256": "2222b117a9bb1927d41578eea817767a804475f4bd484f9dfb0aee252cdb361a"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "An puts "
+        },
+        {
+          "text": "bread",
+          "wordIds": [
+            "bread"
+          ]
+        },
+        {
+          "text": " on a "
+        },
+        {
+          "text": "plate",
+          "wordIds": [
+            "plate"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小安把麵包放在盤子上。",
+      "audio": {
+        "src": "/audio/sentences/sandwich-snack/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2033e97a93d0048e403abf6ebb923c94b44237eef87fcea270875d50fdeae707",
+        "sha256": "46f4e78c6c658c55070d60e5038e0081274d73a1d29797daf6f7d322321fa7bc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Dad asks, “"
+        },
+        {
+          "text": "What would you like",
+          "phraseIds": [
+            "what-would-you-like"
+          ]
+        },
+        {
+          "text": "?”"
+        }
+      ],
+      "translation": "爸爸問：「你想要什麼？」",
+      "audio": {
+        "src": "/audio/sentences/sandwich-snack/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "37fbc9725b29e7fc851ed9ba171e00a906d27659e6940db0efa6659f30962779",
+        "sha256": "192e9555111b30889ce1581a9bda378c809413dbbbf90bcf76f144ba99821343"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Cheese",
+          "phraseIds": [
+            "cheese-and-tomatoes"
+          ],
+          "wordIds": [
+            "cheese"
+          ]
+        },
+        {
+          "text": " and ",
+          "phraseIds": [
+            "cheese-and-tomatoes"
+          ]
+        },
+        {
+          "text": "tomatoes",
+          "phraseIds": [
+            "cheese-and-tomatoes"
+          ],
+          "wordIds": [
+            "tomatoes"
+          ]
+        },
+        {
+          "text": ", please",
+          "phraseIds": [
+            "cheese-and-tomatoes"
+          ]
+        },
+        {
+          "text": ",” she says."
+        }
+      ],
+      "translation": "她說：「請給我起司和番茄。」",
+      "audio": {
+        "src": "/audio/sentences/sandwich-snack/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b45042e0d3c9fbbe319a498f8b7c3305e5a94af2e56488dfb1530b05bdcca507",
+        "sha256": "a84631d12c9646c759cb11839f7fe1c8f3ecaa6bf1c0d1cee89f3ef4f5425587"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "An puts "
+        },
+        {
+          "text": "cheese",
+          "wordIds": [
+            "cheese"
+          ]
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "tomatoes",
+          "wordIds": [
+            "tomatoes"
+          ]
+        },
+        {
+          "text": " on the "
+        },
+        {
+          "text": "bread",
+          "wordIds": [
+            "bread"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小安把起司和番茄放在麵包上。",
+      "audio": {
+        "src": "/audio/sentences/sandwich-snack/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0076b61752489dd24c4ea7cbad0597a73975218dc8bf082628d8a6d01102bc21",
+        "sha256": "b6b1515330a42ca424ada04fe9bef9323929860c9387c9f3820fa41853204431"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "She adds another "
+        },
+        {
+          "text": "slice",
+          "wordIds": [
+            "slice"
+          ]
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "bread",
+          "wordIds": [
+            "bread"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on top",
+          "phraseIds": [
+            "on-top"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "她再加一片麵包蓋在上面。",
+      "audio": {
+        "src": "/audio/sentences/sandwich-snack/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f1ff40f1925e52aa8a3d869044cf4aaf5c846025d85a380345e3095c598c5583",
+        "sha256": "71a300a900d9be460602f390d1d0366971b1e09130e138ecae0ad2557eb94e50"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“My "
+        },
+        {
+          "text": "sandwich",
+          "wordIds": [
+            "sandwich"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "is ready",
+          "phraseIds": [
+            "is-ready"
+          ]
+        },
+        {
+          "text": "!” she says."
+        }
+      ],
+      "translation": "她說：「我的三明治做好了！」",
+      "audio": {
+        "src": "/audio/sentences/sandwich-snack/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4a16181e662a53995534845814925983492ac717001ad81e26056ed68b19679f",
+        "sha256": "b487e7a2840d8e23cfaf0793eaac4c8571a85403348a1e5037f14a7aa578929e"
+      }
+    }
+  ]
+}

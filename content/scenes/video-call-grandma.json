@@ -1,0 +1,324 @@
+{
+  "id": "video-call-grandma",
+  "title": "和阿嬤視訊",
+  "titleEn": "A Video Call with Grandma",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/video-call-grandma.webp",
+    "alt": "小柏和媽媽坐在家中桌前，向平板螢幕裡揮手的阿嬤展示一張小貓畫作。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "can-you-hear-me",
+      "english": "Can you hear me",
+      "translation": "你聽得到我嗎",
+      "audio": {
+        "src": "/audio/phrases/video-call-grandma-can-you-hear-me.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "010427960a1e87a8aa10bef5ea724e7e205bf064f26a8fa15253720b7308ee3f",
+        "sha256": "227481b5a93edf8748217ad3e1d88a3af40f7ab0d918195f084abb5f8b4249e2"
+      }
+    },
+    {
+      "id": "yes-i-can",
+      "english": "Yes, I can",
+      "translation": "對，我可以",
+      "audio": {
+        "src": "/audio/phrases/video-call-grandma-yes-i-can.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9a48ca6e90db9e5b6be8f3d09e8bdbcc04ef65bd232da51aa2424ea156d62221",
+        "sha256": "4be83dd248fe36270a9072a1238ad0e220fa2238746850963ac119b80566a116"
+      }
+    },
+    {
+      "id": "holds-up",
+      "english": "holds up",
+      "translation": "舉起",
+      "audio": {
+        "src": "/audio/phrases/video-call-grandma-holds-up.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1979ecea94b6d29984f5f1a6e7570ddd3eb7e62c34363aea8b6d75a9a57497e0",
+        "sha256": "488dcefc2bbeec686e60fb0efd6039108c0aa79a5d0e9cbc4fff90ff80eacccf"
+      }
+    },
+    {
+      "id": "look-at-my-cat",
+      "english": "Look at my cat",
+      "translation": "看看我的小貓",
+      "audio": {
+        "src": "/audio/phrases/video-call-grandma-look-at-my-cat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a65637dbe263487d925cb49d25490b43ef62b2bbde3f180bb6211fe274718184",
+        "sha256": "339ac0bcb0e1d1eb207d17d0fc9b3ece7bf0a5d0307e4622aad77bed68eb2c3f"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "tablet",
+      "english": "tablet",
+      "translation": "平板電腦",
+      "example": "The tablet is on the table.",
+      "audio": {
+        "src": "/audio/words/video-call-grandma-tablet.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5bed85bd69a5502a8f645a58a05e979f94bdeb77b957199ce8429e0ffbc01257",
+        "sha256": "9d679b0b850a54a40481b16447f514bcd589fb514750b03e90ae4662cbf7c240"
+      }
+    },
+    {
+      "id": "grandma",
+      "english": "grandma",
+      "translation": "阿嬤",
+      "example": "I wave to Grandma.",
+      "audio": {
+        "src": "/audio/words/video-call-grandma-grandma.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ba8d3e6a2d8b5ed67ba21927de648785e0dccf8fdf6efacde32b8456f534f70b",
+        "sha256": "a4b4d25664a604f7d332fbd77dde8633f239c454a4179ef37ee8838919225bfa"
+      }
+    },
+    {
+      "id": "waves",
+      "english": "waves",
+      "translation": "揮手",
+      "example": "Dad waves to me.",
+      "audio": {
+        "src": "/audio/words/video-call-grandma-waves.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "eb81ba5ff779ca24d480493b87b9ad1c6ae8fd62211d6b3e8344c03aa55d495b",
+        "sha256": "aa0ba749875bd625f02cfeeb50e494d3804da2e3aa4b989325e9dce66a391d98"
+      }
+    },
+    {
+      "id": "screen",
+      "english": "screen",
+      "translation": "螢幕",
+      "example": "I see Grandma on the screen.",
+      "audio": {
+        "src": "/audio/words/video-call-grandma-screen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4cd6c2914887dd4a68e4c9ffbed8b077f048cf795d6cfa0b801d43e0ea5a1560",
+        "sha256": "bfa264a7f9b8a2f58825456a6c2e61e531df1cdd54460f1e17518b147c4f3613"
+      }
+    },
+    {
+      "id": "drawing",
+      "english": "drawing",
+      "translation": "圖畫",
+      "example": "This is my drawing.",
+      "audio": {
+        "src": "/audio/words/video-call-grandma-drawing.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27f3282691613a41f159fe0fb8f3791f3b99fa00fc62df29edeeafe496eb0fdd",
+        "sha256": "01ee74e3e1767232c26a69b61008845389e782337dc0e0cd88349b1d85f37e9a"
+      }
+    },
+    {
+      "id": "cat",
+      "english": "cat",
+      "translation": "貓",
+      "example": "The cat is small.",
+      "audio": {
+        "src": "/audio/words/video-call-grandma-cat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "77af778b51abd4a3c51c5ddd97204a9c3ae614ebccb75a606c3b6865aed6744e",
+        "sha256": "be17f566bad6bee1a29a7a4190c3383a6d705f92ded45bfad06eeacf58b826bd"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Bo sits with Mom beside a "
+        },
+        {
+          "text": "tablet",
+          "wordIds": [
+            "tablet"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小柏和媽媽一起坐在平板電腦旁。",
+      "audio": {
+        "src": "/audio/sentences/video-call-grandma/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d9de983684d2d44bbb93b9e2f5350f13d34a0884f36641b578ea807efed73857",
+        "sha256": "e10fac48d4ed9eb45542cf0b2fb02528aef0e8f08f06c579ad95d9e3a6a79c4e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Grandma",
+          "wordIds": [
+            "grandma"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "waves",
+          "wordIds": [
+            "waves"
+          ]
+        },
+        {
+          "text": " from the "
+        },
+        {
+          "text": "screen",
+          "wordIds": [
+            "screen"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "阿嬤在螢幕裡揮手。",
+      "audio": {
+        "src": "/audio/sentences/video-call-grandma/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1417e9ddf44361f4a881a6b997e36511384764c42f64d7ce90e1bc3beddc6b9d",
+        "sha256": "0eac34910337a304ecf12a2097023619ecdf39d8407d9486cb705b2259874cca"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“Hello, "
+        },
+        {
+          "text": "Grandma",
+          "wordIds": [
+            "grandma"
+          ]
+        },
+        {
+          "text": "! "
+        },
+        {
+          "text": "Can you hear me",
+          "phraseIds": [
+            "can-you-hear-me"
+          ]
+        },
+        {
+          "text": "?” asks Bo."
+        }
+      ],
+      "translation": "小柏問：「阿嬤你好！你聽得到我嗎？」",
+      "audio": {
+        "src": "/audio/sentences/video-call-grandma/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cd206d84d83314d61f4777b148b515d0d53fe21981fa26bc59568a1595bd5cba",
+        "sha256": "c39a45851ee83d1dcda9c6b8dd72e62cd51926a287a00143883dc03f0390d5f1"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Yes, I can",
+          "phraseIds": [
+            "yes-i-can"
+          ]
+        },
+        {
+          "text": ",” she says with a smile."
+        }
+      ],
+      "translation": "她微笑著說：「對，我聽得到。」",
+      "audio": {
+        "src": "/audio/sentences/video-call-grandma/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f09176b6b48a2d870835d4df7cfdd6615c34c3d2c3500d39f906b463bf80d936",
+        "sha256": "2f9ce50ba12c29bcecb0aad34c88e2a593fe6e7a77d7e139f0772599bd8f17ea"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Bo "
+        },
+        {
+          "text": "holds up",
+          "phraseIds": [
+            "holds-up"
+          ]
+        },
+        {
+          "text": " his "
+        },
+        {
+          "text": "drawing",
+          "wordIds": [
+            "drawing"
+          ]
+        },
+        {
+          "text": " of a "
+        },
+        {
+          "text": "cat",
+          "wordIds": [
+            "cat"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小柏舉起他畫的小貓圖畫。",
+      "audio": {
+        "src": "/audio/sentences/video-call-grandma/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3aee287e91b1004ca95f3760c113b2947ca8f4e5abd307926bec3959c49f9b8d",
+        "sha256": "3d2f747b869ac29f074177d0c1397fc93e1ebea11a9251be49d7a20281ab7d70"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Look at my ",
+          "phraseIds": [
+            "look-at-my-cat"
+          ]
+        },
+        {
+          "text": "cat",
+          "phraseIds": [
+            "look-at-my-cat"
+          ],
+          "wordIds": [
+            "cat"
+          ]
+        },
+        {
+          "text": "!” he says."
+        }
+      ],
+      "translation": "他說：「看看我畫的小貓！」",
+      "audio": {
+        "src": "/audio/sentences/video-call-grandma/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c7dbbde73bab8ab70cca4259b095849bb4c134775bdf61982384be4d9cf6a5cf",
+        "sha256": "05cf5123505286fe0b16880ee175b0e3b4fee592d2b2b1473b1a27171e455177"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen",
+  "conversion": "Full frame PNG to WebP, sharp quality 86; no crop.",
+  "images": [
+    {
+      "id": "music-class-beat",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, recognizable characters, logos, brands, text, lettering, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series. Scene: A gentle elementary music class with exactly four people: an East Asian elementary girl seated at center holds a small round hand drum, tapping its skin lightly with one hand while the other hand supports its rim. Two same-age classmates nearby clap along; an adult woman teacher listens and encourages them. Clear spacing between people's hands and bodies. Warm classroom, simple shelves, no drumsticks, no sheet music, no lyrics, no visible music notation, no branded instruments. Focus on listening and shared rhythm.",
+      "generatedFile": "exec-fe42ecda-5ff4-41ac-8897-b957473d8bba.png",
+      "src": "/images/scenes/music-class-beat.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "37168c6e566a369214f3d27e7f88207a83ce82d0cb460eb4fc0bd3fe46ecb4bf"
+    },
+    {
+      "id": "pond-watch",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, recognizable characters, logos, brands, text, lettering, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series. Scene: An East Asian elementary boy and his father stand calmly on a park path beside a small clear shallow pond, behind a low wooden railing. They look down at exactly TWO fish in the water, one orange fish and one silver-gray fish, and exactly ONE duck swimming near them. The duck's two orange feet are visible just beneath the transparent shallow water. Slightly elevated three-quarter view makes both fish, duck, water, path and people readable. No extra fish or ducks. No feeding, no food, no reaching into water or climbing. Soft daylight and gentle reeds, original quiet neighborhood park.",
+      "generatedFile": "exec-37306582-7baf-462b-acab-679f06e4817f.png",
+      "src": "/images/scenes/pond-watch.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1ce05f3c11120b29aba69a0e3c380629e3baeb397952f0c1bd44ad17360bc466"
+    },
+    {
+      "id": "paper-boat",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, recognizable characters, logos, brands, text, lettering, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series. Scene: An East Asian elementary boy and his mother sit at a home table, smiling as they watch ONE small blue folded-paper boat floating in a wide ceramic bowl of clear water. The boat is unmistakably simple origami paper with an open hull and pointed ends, not a toy ship, not an airplane, no separate mast. A few plain sheets of paper lie on the dry tabletop nearby. Boy's hand rests near the bowl, mother watches with him. Close readable tabletop activity, no sharp tools, no other boats, no outdoor pond or bathtub. Calm warm family apartment interior.",
+      "generatedFile": "exec-e7f71b28-afb5-4d1e-91e7-3c503e019a8a.png",
+      "src": "/images/scenes/paper-boat.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fa6cb830f0c20c47d646371a9724a08ac57ca3620f498e138c577ad90dfbcd88"
+    }
+  ]
+}

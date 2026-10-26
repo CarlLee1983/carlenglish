@@ -1,0 +1,261 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/music-class-beat/1.mp3",
+      "text": "Mei holds a small drum in music class.",
+      "textSha256": "89d1102b2ef2b49293db74b973e908b574b4d247da794eeea24754aff9941fc7"
+    },
+    {
+      "src": "/audio/sentences/music-class-beat/2.mp3",
+      "text": "The teacher says, “Listen to the beat.”",
+      "textSha256": "25d82043ce79f9885a068494e8155f68ec5382a5e93c18549c5c6772bf9cb143"
+    },
+    {
+      "src": "/audio/sentences/music-class-beat/3.mp3",
+      "text": "Mei taps the drum with one hand.",
+      "textSha256": "09eb34607b469909443c465cc5c2f7287f7ddf78212f795059c9773b49cdf6f9"
+    },
+    {
+      "src": "/audio/sentences/music-class-beat/4.mp3",
+      "text": "Her friends clap along with her.",
+      "textSha256": "0878e9d7c97a6014ae102f17916722c5963bf31a6332b00a161f60473a5d4c7d"
+    },
+    {
+      "src": "/audio/sentences/music-class-beat/5.mp3",
+      "text": "“Can we play slowly?” asks Mei.",
+      "textSha256": "f4bb8354da8ef13675692e20aaa084d0503c5f2dcad3380c14a44fb93819fd81"
+    },
+    {
+      "src": "/audio/sentences/music-class-beat/6.mp3",
+      "text": "They try again and smile together.",
+      "textSha256": "4717c378941a5986d76d094f348ad689cb15d6782cf2298c564e4c32b47d8d39"
+    },
+    {
+      "src": "/audio/phrases/music-class-beat-listen-to-the-beat.mp3",
+      "text": "Listen to the beat",
+      "textSha256": "28ecba53d6652b9b918fec64a0708768a4a56de2196917573f44ef5e83666e70"
+    },
+    {
+      "src": "/audio/phrases/music-class-beat-clap-along.mp3",
+      "text": "clap along",
+      "textSha256": "1677cdd5f88d11d18b6fe82a5181e8462ed59bd3345ad2e3a043ebc61f66db5d"
+    },
+    {
+      "src": "/audio/phrases/music-class-beat-can-we-play-slowly.mp3",
+      "text": "Can we play slowly",
+      "textSha256": "41cc84591e8b4c47dfc90980b56d3aa6b15a923b9d528bea4fbb6d38f67816c8"
+    },
+    {
+      "src": "/audio/phrases/music-class-beat-try-again.mp3",
+      "text": "try again",
+      "textSha256": "5b5dedee32c5bd671f8d930b734993338d4192be1f63d0dfd64d1963586d7953"
+    },
+    {
+      "src": "/audio/words/music-class-beat-drum.mp3",
+      "text": "drum",
+      "textSha256": "2752a2b5446f68dd231ee74418d3f8345ec4188aac528bca3fdf10bcf2069810"
+    },
+    {
+      "src": "/audio/words/music-class-beat-music.mp3",
+      "text": "music",
+      "textSha256": "80f189984e5ca70287d13342f6daa0db45cba3c131c4e46dc81360f3a4c4f690"
+    },
+    {
+      "src": "/audio/words/music-class-beat-teacher.mp3",
+      "text": "teacher",
+      "textSha256": "1057a9604e04b274da5a4de0c8f4b4868d9b230989f8c8c6a28221143cc5a755"
+    },
+    {
+      "src": "/audio/words/music-class-beat-beat.mp3",
+      "text": "beat",
+      "textSha256": "f9eeb63bf773f4b0854dae2f22b7c57a8cd129443f1712c46e7344e3b05f1149"
+    },
+    {
+      "src": "/audio/words/music-class-beat-hand.mp3",
+      "text": "hand",
+      "textSha256": "1b001706a418bdfca35361355c643b7918572b8f9b7503f3043a6e23b45dce52"
+    },
+    {
+      "src": "/audio/words/music-class-beat-friends.mp3",
+      "text": "friends",
+      "textSha256": "2e4b9cc2428beb7bff6a56c14d7304e472a23e890e91ef0a6b0b0380e89f9734"
+    },
+    {
+      "src": "/audio/sentences/pond-watch/1.mp3",
+      "text": "Bo and Dad stop beside a small pond.",
+      "textSha256": "9ccbd5d11f0787b42a6ad8e261a0158007d8c3cca28d4882ed8cccb5a6db2a82"
+    },
+    {
+      "src": "/audio/sentences/pond-watch/2.mp3",
+      "text": "Bo sees two fish under the water.",
+      "textSha256": "2abdf84c0e61463a4f10ddad88cf6a9a8cc3c070e664cd14dc3da4296332c788"
+    },
+    {
+      "src": "/audio/sentences/pond-watch/3.mp3",
+      "text": "“One is orange,” he says to Dad.",
+      "textSha256": "ab9a3e766ec26484b4b75731c7f471c253f5cffb1b5467d65682cc37534397c5"
+    },
+    {
+      "src": "/audio/sentences/pond-watch/4.mp3",
+      "text": "A duck swims past the fish.",
+      "textSha256": "a06db62e43a2e1c65f61287a34dc425c76fdca4c0828919375977c37a36ccfda"
+    },
+    {
+      "src": "/audio/sentences/pond-watch/5.mp3",
+      "text": "“Look at its feet!” says Bo.",
+      "textSha256": "404af35eac19de0068e63729b03a475aa2ecef72a4ef7d436ca21daf4d8cd55a"
+    },
+    {
+      "src": "/audio/sentences/pond-watch/6.mp3",
+      "text": "They watch quietly from the path.",
+      "textSha256": "097ded1fb7da5337aae50947d1190a312034a3360d2361d898e54c370808dc08"
+    },
+    {
+      "src": "/audio/phrases/pond-watch-stop-beside.mp3",
+      "text": "stop beside",
+      "textSha256": "c9da320adecab0dc46d00cd0edfed7f618fa0a74ef38e2b76e1fa00acf75890b"
+    },
+    {
+      "src": "/audio/phrases/pond-watch-under-the-water.mp3",
+      "text": "under the water",
+      "textSha256": "cece0a0659395e6b6891326c514ab79d48b4925e0704fa49e577cf5d0a28021d"
+    },
+    {
+      "src": "/audio/phrases/pond-watch-look-at-its-feet.mp3",
+      "text": "Look at its feet",
+      "textSha256": "1effe68eaad33360ed77a82d6486a0cbcdeddfbf435799bd71d6964c7da28547"
+    },
+    {
+      "src": "/audio/phrases/pond-watch-watch-quietly.mp3",
+      "text": "watch quietly",
+      "textSha256": "79165537e19e23299665229b1a9d5d23ed83030cdb36c5bf855544ebc1b775a6"
+    },
+    {
+      "src": "/audio/words/pond-watch-pond.mp3",
+      "text": "pond",
+      "textSha256": "4e7914b0df8068b79cdc10d387f294c12a245d3982ab6fb8ae57c19e62713e41"
+    },
+    {
+      "src": "/audio/words/pond-watch-fish.mp3",
+      "text": "fish",
+      "textSha256": "b474a99a2705e23cf905a484ec6d14ef58b56bbe62e9292783466ec363b5072d"
+    },
+    {
+      "src": "/audio/words/pond-watch-water.mp3",
+      "text": "water",
+      "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501"
+    },
+    {
+      "src": "/audio/words/pond-watch-orange.mp3",
+      "text": "orange",
+      "textSha256": "1b4c9133da73a711322404314402765ab0d23fd362a167d6f0c65bb215113d94"
+    },
+    {
+      "src": "/audio/words/pond-watch-duck.mp3",
+      "text": "duck",
+      "textSha256": "2d2370db2447ff8cf4f3accd68c85aa119a9c893effd200a9b69176e9fc5eb98"
+    },
+    {
+      "src": "/audio/words/pond-watch-path.mp3",
+      "text": "path",
+      "textSha256": "a0af9f865bf637e6736817f4ce552e4cdf7b8c36ea75bc254c1d1f0af744b5bf"
+    },
+    {
+      "src": "/audio/sentences/paper-boat/1.mp3",
+      "text": "Yu folds a sheet of paper with Mom.",
+      "textSha256": "091c401e0506fc6b8b8cc80d2b4107f18f531f75353d062f0a9bb21387184240"
+    },
+    {
+      "src": "/audio/sentences/paper-boat/2.mp3",
+      "text": "He makes a small paper boat.",
+      "textSha256": "e0bad52eed49038d61bf98c26d8a00367e14e8fcbc3f6f90f531015f54b5d56b"
+    },
+    {
+      "src": "/audio/sentences/paper-boat/3.mp3",
+      "text": "“Can it float?” he asks.",
+      "textSha256": "3acfe3822427d93211e2876da9c435fbe355f226dbb79fa951596ffb7b9e2b2e"
+    },
+    {
+      "src": "/audio/sentences/paper-boat/4.mp3",
+      "text": "Mom puts water in a bowl.",
+      "textSha256": "295174eaaa78ddac82940ef1c9300374f20fbf0fc41fec15dcbc64ce042356bf"
+    },
+    {
+      "src": "/audio/sentences/paper-boat/5.mp3",
+      "text": "Yu sets the boat on the water.",
+      "textSha256": "e011f8643979df501ea747e23d21e49257273678ee2e3a429c29dbbd6725f6f4"
+    },
+    {
+      "src": "/audio/sentences/paper-boat/6.mp3",
+      "text": "“Look! It floats!” he says with a smile.",
+      "textSha256": "e730f0f509489ff356346707063167deb9cbd4cc3d8bae119dc7c48fd62694ae"
+    },
+    {
+      "src": "/audio/phrases/paper-boat-a-sheet-of-paper.mp3",
+      "text": "a sheet of paper",
+      "textSha256": "8b073c72408043d02dbb4b9c858ea41058c5088c82595c597ad3504ab3261ae7"
+    },
+    {
+      "src": "/audio/phrases/paper-boat-a-small-paper-boat.mp3",
+      "text": "a small paper boat",
+      "textSha256": "07c4606a2f9338472978bf6bd55e3586caf8eaacc2821bb74c3f1f49662086ff"
+    },
+    {
+      "src": "/audio/phrases/paper-boat-can-it-float.mp3",
+      "text": "Can it float",
+      "textSha256": "2f1972648d97a5255067c42ba99df36de4940a33d7232afca196f5c4068c676b"
+    },
+    {
+      "src": "/audio/phrases/paper-boat-with-a-smile.mp3",
+      "text": "with a smile",
+      "textSha256": "664f80f8f16c38f6d319e06bf39169f58e9d81b1037dd15dfb9456a4fa87a1c8"
+    },
+    {
+      "src": "/audio/words/paper-boat-folds.mp3",
+      "text": "folds",
+      "textSha256": "212aa61b2ca4694314cbcb105e6df22947597c2010ae78f3be2084438c5c6e55"
+    },
+    {
+      "src": "/audio/words/paper-boat-paper.mp3",
+      "text": "paper",
+      "textSha256": "382635c9325bf3273d195ff1b8a44e5b11afd7d97addeb8863ea35feb98c1a07"
+    },
+    {
+      "src": "/audio/words/paper-boat-boat.mp3",
+      "text": "boat",
+      "textSha256": "25cdb46d8d2115a24eb15c3c58f34f3330cfca4fec249ff70b7cad2bb560a0dd"
+    },
+    {
+      "src": "/audio/words/paper-boat-float.mp3",
+      "text": "float",
+      "textSha256": "76a7e234dc54e9c605b2cc9fdf71279526150df48c574bdfa69e436e0b3d5c18"
+    },
+    {
+      "src": "/audio/words/paper-boat-water.mp3",
+      "text": "water",
+      "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501"
+    },
+    {
+      "src": "/audio/words/paper-boat-bowl.mp3",
+      "text": "bowl",
+      "textSha256": "d9f2babb167353d055843c7d537e6a663023561f921f831369ea1d657aa3051a"
+    }
+  ]
+}

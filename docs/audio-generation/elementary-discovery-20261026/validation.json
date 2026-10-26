@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-26",
+  "clips": 48,
+  "bytes": 705024,
+  "durationSeconds": 88.125,
+  "checks": {
+    "textSha256": true,
+    "fileSha256": true,
+    "voiceId": true,
+    "completeGraphemes": true,
+    "ffmpegDecode": true
+  },
+  "scope": [
+    "music-class-beat",
+    "pond-watch",
+    "paper-boat"
+  ]
+}

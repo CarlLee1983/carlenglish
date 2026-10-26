@@ -1,0 +1,318 @@
+{
+  "id": "pond-watch",
+  "title": "池塘邊看一看",
+  "titleEn": "By the Pond",
+  "category": "學習與探索",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/pond-watch.webp",
+    "alt": "小柏和爸爸站在池塘旁的小路上，看著水裡的兩條魚和一隻鴨子。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "stop-beside",
+      "english": "stop beside",
+      "translation": "在……旁停下來",
+      "audio": {
+        "src": "/audio/phrases/pond-watch-stop-beside.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c9da320adecab0dc46d00cd0edfed7f618fa0a74ef38e2b76e1fa00acf75890b",
+        "sha256": "d0d94b7f2169d696435f015ece3e3caa45ff1f2fd534ba78e46b9f6144fca6f3"
+      }
+    },
+    {
+      "id": "under-the-water",
+      "english": "under the water",
+      "translation": "在水裡",
+      "audio": {
+        "src": "/audio/phrases/pond-watch-under-the-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cece0a0659395e6b6891326c514ab79d48b4925e0704fa49e577cf5d0a28021d",
+        "sha256": "a19e1b6db2baf333fec7894cc69dcce80220bfb86930ab688f2be89c970d20ab"
+      }
+    },
+    {
+      "id": "look-at-its-feet",
+      "english": "Look at its feet",
+      "translation": "看看牠的腳",
+      "audio": {
+        "src": "/audio/phrases/pond-watch-look-at-its-feet.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1effe68eaad33360ed77a82d6486a0cbcdeddfbf435799bd71d6964c7da28547",
+        "sha256": "fa7e06641d6f47bd0d4e988da27277716708b59e4a5819ad738c974729f68db0"
+      }
+    },
+    {
+      "id": "watch-quietly",
+      "english": "watch quietly",
+      "translation": "安靜地看著",
+      "audio": {
+        "src": "/audio/phrases/pond-watch-watch-quietly.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "79165537e19e23299665229b1a9d5d23ed83030cdb36c5bf855544ebc1b775a6",
+        "sha256": "44d79f8504e70d1abbac0e9b85fc6d4ebf0175aff36c7063a184f7cfd6f65fe5"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "pond",
+      "english": "pond",
+      "translation": "池塘",
+      "example": "The pond is small.",
+      "audio": {
+        "src": "/audio/words/pond-watch-pond.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4e7914b0df8068b79cdc10d387f294c12a245d3982ab6fb8ae57c19e62713e41",
+        "sha256": "690f9905925dadc47f6727e9b6091b44e062df24316de0470d9bf62756896f74"
+      }
+    },
+    {
+      "id": "fish",
+      "english": "fish",
+      "translation": "魚",
+      "example": "Two fish swim here.",
+      "audio": {
+        "src": "/audio/words/pond-watch-fish.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b474a99a2705e23cf905a484ec6d14ef58b56bbe62e9292783466ec363b5072d",
+        "sha256": "99d657b201e04d2876a7766b1f7349d905b726202397b7e195bb4dc19b4b9f47"
+      }
+    },
+    {
+      "id": "water",
+      "english": "water",
+      "translation": "水",
+      "example": "The water is clear.",
+      "audio": {
+        "src": "/audio/words/pond-watch-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501",
+        "sha256": "8f8408d7d422401ed24c53f6f3dfdb3df79158a720147507bcdd706986f1be98"
+      }
+    },
+    {
+      "id": "orange",
+      "english": "orange",
+      "translation": "橘色的",
+      "example": "My bag is orange.",
+      "audio": {
+        "src": "/audio/words/pond-watch-orange.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1b4c9133da73a711322404314402765ab0d23fd362a167d6f0c65bb215113d94",
+        "sha256": "391b4a8cad7b4e6d5fcdcecd53718ca42d9692ecb6265b1193810522cf8988b1"
+      }
+    },
+    {
+      "id": "duck",
+      "english": "duck",
+      "translation": "鴨子",
+      "example": "The duck can swim.",
+      "audio": {
+        "src": "/audio/words/pond-watch-duck.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2d2370db2447ff8cf4f3accd68c85aa119a9c893effd200a9b69176e9fc5eb98",
+        "sha256": "b9ae4b541ade4c1244d52220f844951b71ddf162adb783e548c5b1dd6f70bad3"
+      }
+    },
+    {
+      "id": "path",
+      "english": "path",
+      "translation": "小路",
+      "example": "We walk on the path.",
+      "audio": {
+        "src": "/audio/words/pond-watch-path.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a0af9f865bf637e6736817f4ce552e4cdf7b8c36ea75bc254c1d1f0af744b5bf",
+        "sha256": "f23fb2ee5b0bc0f75a7c45d3755f07018b0cc960a667d9f31fb7c78a5515f3f4"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Bo and Dad "
+        },
+        {
+          "text": "stop beside",
+          "phraseIds": [
+            "stop-beside"
+          ]
+        },
+        {
+          "text": " a small "
+        },
+        {
+          "text": "pond",
+          "wordIds": [
+            "pond"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小柏和爸爸在一個小池塘旁停下來。",
+      "audio": {
+        "src": "/audio/sentences/pond-watch/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9ccbd5d11f0787b42a6ad8e261a0158007d8c3cca28d4882ed8cccb5a6db2a82",
+        "sha256": "c3bc9db3ce301a5ad13c870b46d705aaf333af721e531267323c96f5a3f146e5"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Bo sees two "
+        },
+        {
+          "text": "fish",
+          "wordIds": [
+            "fish"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "under the ",
+          "phraseIds": [
+            "under-the-water"
+          ]
+        },
+        {
+          "text": "water",
+          "phraseIds": [
+            "under-the-water"
+          ],
+          "wordIds": [
+            "water"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小柏看見水裡有兩條魚。",
+      "audio": {
+        "src": "/audio/sentences/pond-watch/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2abdf84c0e61463a4f10ddad88cf6a9a8cc3c070e664cd14dc3da4296332c788",
+        "sha256": "dc4b93ddb71abc09afe238c69452d4932c4c487e6864efb409c625bbf9335d30"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“One is "
+        },
+        {
+          "text": "orange",
+          "wordIds": [
+            "orange"
+          ]
+        },
+        {
+          "text": ",” he says to Dad."
+        }
+      ],
+      "translation": "他對爸爸說：「其中一條是橘色的。」",
+      "audio": {
+        "src": "/audio/sentences/pond-watch/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ab9a3e766ec26484b4b75731c7f471c253f5cffb1b5467d65682cc37534397c5",
+        "sha256": "2a43641b1ccd3a8265769e7f04b2852378c5fc899e941a48c4537cfe6794b05a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "A "
+        },
+        {
+          "text": "duck",
+          "wordIds": [
+            "duck"
+          ]
+        },
+        {
+          "text": " swims past the "
+        },
+        {
+          "text": "fish",
+          "wordIds": [
+            "fish"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "一隻鴨子游過魚的旁邊。",
+      "audio": {
+        "src": "/audio/sentences/pond-watch/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a06db62e43a2e1c65f61287a34dc425c76fdca4c0828919375977c37a36ccfda",
+        "sha256": "f4061d3784a9046b2f650951b78b97ea9bb70451fa988a05a54b2a8e7f746691"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Look at its feet",
+          "phraseIds": [
+            "look-at-its-feet"
+          ]
+        },
+        {
+          "text": "!” says Bo."
+        }
+      ],
+      "translation": "小柏說：「看看牠的腳！」",
+      "audio": {
+        "src": "/audio/sentences/pond-watch/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "404af35eac19de0068e63729b03a475aa2ecef72a4ef7d436ca21daf4d8cd55a",
+        "sha256": "89212c3954a6bedfa83798f4fc4e66a694369d17f28d6e3890a3c89dfab75975"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They "
+        },
+        {
+          "text": "watch quietly",
+          "phraseIds": [
+            "watch-quietly"
+          ]
+        },
+        {
+          "text": " from the "
+        },
+        {
+          "text": "path",
+          "wordIds": [
+            "path"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們在小路上安靜地看著。",
+      "audio": {
+        "src": "/audio/sentences/pond-watch/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "097ded1fb7da5337aae50947d1190a312034a3360d2361d898e54c370808dc08",
+        "sha256": "50a47925db6cef23cea4ad00222fabcb5874579eb42eb3e3da9ed879f20a78a8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/wash-before-snack/1.mp3",
+      "text": "An comes home and puts down her bag.",
+      "textSha256": "48927a2beda9b3bd064d9b5dabf190773a328fa6929ffc8dd6bf297c7d89ea5b"
+    },
+    {
+      "src": "/audio/sentences/wash-before-snack/2.mp3",
+      "text": "Mom says, “Let’s wash our hands.”",
+      "textSha256": "4a61ffbae30eed17d800e8b08516c8d8bbbcaa20f9db60eb6c35c5194d508fa6"
+    },
+    {
+      "src": "/audio/sentences/wash-before-snack/3.mp3",
+      "text": "An uses soap and rubs her hands together.",
+      "textSha256": "e9eecd317f9ff84a959b8b99bfd79697c161661fbaad56afdf0111daa6eb0b32"
+    },
+    {
+      "src": "/audio/sentences/wash-before-snack/4.mp3",
+      "text": "She rinses her hands with water.",
+      "textSha256": "04df1a2ae0d48856b177af3a59f4a01d5faa96b6af8b498573341b97b8d61209"
+    },
+    {
+      "src": "/audio/sentences/wash-before-snack/5.mp3",
+      "text": "“Here is a towel,” says Mom.",
+      "textSha256": "86bd3efde865b4a6095dd658e7411db13cca97c91fad53146b8dce6346aef6ce"
+    },
+    {
+      "src": "/audio/sentences/wash-before-snack/6.mp3",
+      "text": "An dries her hands, then eats her snack.",
+      "textSha256": "e5e7cc8f89021bcc879328c0efef0688b5d740cbecacc3e20573931397f94969"
+    },
+    {
+      "src": "/audio/phrases/wash-before-snack-puts-down.mp3",
+      "text": "puts down",
+      "textSha256": "c19a9200dbfea248f0077855a22e2688376e60567efa2beb54dd79310fdf2d69"
+    },
+    {
+      "src": "/audio/phrases/wash-before-snack-wash-our-hands.mp3",
+      "text": "wash our hands",
+      "textSha256": "2776f6e3e071b2b613f422759aa548cbed778bf4c0b9a2085a8c324d64fc2cb2"
+    },
+    {
+      "src": "/audio/phrases/wash-before-snack-with-water.mp3",
+      "text": "with water",
+      "textSha256": "2e29d824bb6b52e9bbbd9e82eefb50982a0812eb188e07c5e0eac5fc5b4480fc"
+    },
+    {
+      "src": "/audio/phrases/wash-before-snack-here-is-a-towel.mp3",
+      "text": "Here is a towel",
+      "textSha256": "8cef4585d8ae481f3f061d7886f4f7830186dabfdf89ad33d0b781d1ebab3201"
+    },
+    {
+      "src": "/audio/words/wash-before-snack-bag.mp3",
+      "text": "bag",
+      "textSha256": "c018019b6a8b01ab5868cf4be8db327a7549ae03202548b9ffcd2671c4c2b624"
+    },
+    {
+      "src": "/audio/words/wash-before-snack-soap.mp3",
+      "text": "soap",
+      "textSha256": "736bc2d4e0945110e88f7808a4a4d38d3479a0122de1de7ac84c920121928480"
+    },
+    {
+      "src": "/audio/words/wash-before-snack-hands.mp3",
+      "text": "hands",
+      "textSha256": "45a229d57d35d935b67ce83a69f0353508b131ca39325494db3520252c841e10"
+    },
+    {
+      "src": "/audio/words/wash-before-snack-water.mp3",
+      "text": "water",
+      "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501"
+    },
+    {
+      "src": "/audio/words/wash-before-snack-towel.mp3",
+      "text": "towel",
+      "textSha256": "10ca50a8a7148afd6d2a563e8ef8e05cfedd17fc97a6a5327cf9e5300b933e4b"
+    },
+    {
+      "src": "/audio/words/wash-before-snack-snack.mp3",
+      "text": "snack",
+      "textSha256": "ff488ab8733e4c47df71b83349a8479186fbc6bbc7074355b16583f016ee16f0"
+    },
+    {
+      "src": "/audio/sentences/folding-laundry/1.mp3",
+      "text": "Yu helps Dad with the clean clothes.",
+      "textSha256": "d63ad215e3465e92b9e92ad6393ede236f31e4ac34eeadf93a7a5dd8df023b12"
+    },
+    {
+      "src": "/audio/sentences/folding-laundry/2.mp3",
+      "text": "Dad says, “Let’s fold this shirt.”",
+      "textSha256": "31ad6028a85e83acad05ab5605d59704b4540e7aeb6210032361dda52abae517"
+    },
+    {
+      "src": "/audio/sentences/folding-laundry/3.mp3",
+      "text": "Yu finds one blue sock in the basket.",
+      "textSha256": "59ef828c2999ef91ab504c8a4933e5157f9c09d244faf4a26c8c3eabd1ee83e9"
+    },
+    {
+      "src": "/audio/sentences/folding-laundry/4.mp3",
+      "text": "“Where is the other sock?” he asks.",
+      "textSha256": "e294a27e8abc7ab2813672ae670c80d0fb258902b780e9f80cf2920403ddd82c"
+    },
+    {
+      "src": "/audio/sentences/folding-laundry/5.mp3",
+      "text": "Dad points to a sock under the shirt.",
+      "textSha256": "6d590964a68c4da21bbd3207413fc02be1783dd048df507c89915845ff9aad43"
+    },
+    {
+      "src": "/audio/sentences/folding-laundry/6.mp3",
+      "text": "“Now I have a pair!” says Yu.",
+      "textSha256": "4a2e5b052d43e7ef558cd817fbe1c83553725d9ce6c024b2929ae0be5e386c92"
+    },
+    {
+      "src": "/audio/phrases/folding-laundry-lets-fold.mp3",
+      "text": "Let’s fold",
+      "textSha256": "53875c606e7865294a072e4a27f6bbad155ff6a5be5f4abef688ecb7bd19f0d7"
+    },
+    {
+      "src": "/audio/phrases/folding-laundry-where-is.mp3",
+      "text": "Where is the other sock",
+      "textSha256": "b9a22a407429c401ed44bf3d57a07f6c1c8d8c549778f24a4240a1ef1d601bc6"
+    },
+    {
+      "src": "/audio/phrases/folding-laundry-under-the-shirt.mp3",
+      "text": "under the shirt",
+      "textSha256": "373522db34c8dfd13681a63356794d39949ac9c75496455bdeb23a5343d8b529"
+    },
+    {
+      "src": "/audio/phrases/folding-laundry-have-a-pair.mp3",
+      "text": "have a pair",
+      "textSha256": "d2903a59117c13e983c2ecf245fdb5902fac19c868b2e12139b95731c6c9dd4a"
+    },
+    {
+      "src": "/audio/words/folding-laundry-clean.mp3",
+      "text": "clean",
+      "textSha256": "3b066804f6d1d077173cfe4d06002e6a61e6f21c2b2e648417962115f1afcd8e"
+    },
+    {
+      "src": "/audio/words/folding-laundry-clothes.mp3",
+      "text": "clothes",
+      "textSha256": "5c5f9b87778cfb103aa03ec2585398e9a8049da5552591609efcd784ad84d847"
+    },
+    {
+      "src": "/audio/words/folding-laundry-shirt.mp3",
+      "text": "shirt",
+      "textSha256": "a52514252adf86066966790e947f72ef6ea6690a6852d5bb5480ee2eeb663395"
+    },
+    {
+      "src": "/audio/words/folding-laundry-blue.mp3",
+      "text": "blue",
+      "textSha256": "16477688c0e00699c6cfa4497a3612d7e83c532062b64b250fed8908128ed548"
+    },
+    {
+      "src": "/audio/words/folding-laundry-sock.mp3",
+      "text": "sock",
+      "textSha256": "06efe37f5e983469e8609e7af8399f4bdc5a80d361247a3a732ce4bec4fdb826"
+    },
+    {
+      "src": "/audio/words/folding-laundry-basket.mp3",
+      "text": "basket",
+      "textSha256": "fa76d99ad957d952fb3738ae1ed7282a18d3bca1531c7efc273d52e16b774bd6"
+    },
+    {
+      "src": "/audio/sentences/seed-in-a-pot/1.mp3",
+      "text": "Mei puts soil in a small pot.",
+      "textSha256": "f63ce91a8e05e59c62ae297fa956fbe47e57d26fec1f4613533f7b86efeb10c6"
+    },
+    {
+      "src": "/audio/sentences/seed-in-a-pot/2.mp3",
+      "text": "She plants a seed with Mom.",
+      "textSha256": "deb472e0e693e52a53c2073ef3f26a59a5a0b5f40c45e631cbefa4b595c49198"
+    },
+    {
+      "src": "/audio/sentences/seed-in-a-pot/3.mp3",
+      "text": "“A little water, please,” says Mom.",
+      "textSha256": "2055289e73e03af782ae9483d547dda13fd7ad2d85fdd32a83cd1c9be444f304"
+    },
+    {
+      "src": "/audio/sentences/seed-in-a-pot/4.mp3",
+      "text": "They put the pot by the window.",
+      "textSha256": "c11370d7a9b2d71fcab6fa20aeffbde12b1f371b3575fcec3d29aca0e86294ef"
+    },
+    {
+      "src": "/audio/sentences/seed-in-a-pot/5.mp3",
+      "text": "Mei checks the pot every day.",
+      "textSha256": "e766db89642f0ffceb9ed3a9ae4cf055942a7ed12e91b6f317e3166154375ce2"
+    },
+    {
+      "src": "/audio/sentences/seed-in-a-pot/6.mp3",
+      "text": "One day, she says, “Look! A green shoot!”",
+      "textSha256": "89dfd9ef1706426846ed69795f79f4baaac076a9a615cfea3ac43006aca4221a"
+    },
+    {
+      "src": "/audio/phrases/seed-in-a-pot-a-small-pot.mp3",
+      "text": "a small pot",
+      "textSha256": "2647832123570c69dac2fac638a83a3b8a4c5c9c630fc2ea417d6633df58d989"
+    },
+    {
+      "src": "/audio/phrases/seed-in-a-pot-a-little-water.mp3",
+      "text": "A little water, please",
+      "textSha256": "afead90b4c2ea22adce2e2faa9470d316ed02cc795fb1ae9d7cf632a5bee60e5"
+    },
+    {
+      "src": "/audio/phrases/seed-in-a-pot-by-the-window.mp3",
+      "text": "by the window",
+      "textSha256": "3606fdcf4ac03eed56d11535ff77f0bf512b6644e140d262431042a963e1c9fa"
+    },
+    {
+      "src": "/audio/phrases/seed-in-a-pot-every-day.mp3",
+      "text": "every day",
+      "textSha256": "ed28f6cae0fa83a36aec9ce49eabd7feb487960cfff9df8b7595c10622c8e975"
+    },
+    {
+      "src": "/audio/words/seed-in-a-pot-soil.mp3",
+      "text": "soil",
+      "textSha256": "e93d59a02163f846fecf6bb6bd7135d093d8e40b46b1e5c2dda57cd74e655e1e"
+    },
+    {
+      "src": "/audio/words/seed-in-a-pot-pot.mp3",
+      "text": "pot",
+      "textSha256": "74a51c3ce9ff025523588c1c1de1cda985cf96fc868aafb675639d15c13edb82"
+    },
+    {
+      "src": "/audio/words/seed-in-a-pot-seed.mp3",
+      "text": "seed",
+      "textSha256": "19b25856e1c150ca834cffc8b59b23adbd0ec0389e58eb22b3b64768098d002b"
+    },
+    {
+      "src": "/audio/words/seed-in-a-pot-window.mp3",
+      "text": "window",
+      "textSha256": "44ff7b02c80d38b26dd6aa31d9470aed81b32e10331a3c994fb1a9945fd847ba"
+    },
+    {
+      "src": "/audio/words/seed-in-a-pot-green.mp3",
+      "text": "green",
+      "textSha256": "ba4788b226aa8dc2e6dc74248bb9f618cfa8c959e0c26c147be48f6839a0b088"
+    },
+    {
+      "src": "/audio/words/seed-in-a-pot-shoot.mp3",
+      "text": "shoot",
+      "textSha256": "bd9b8d8e9aa8e2aa24c07daa04d04cf4058f7f3084faa0dd346e75f783d80e97"
+    }
+  ]
+}
