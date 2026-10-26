@@ -42,7 +42,7 @@ jobs:
 
   browsers:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     strategy:
       fail-fast: false
@@ -58,6 +58,8 @@ jobs:
           cache: true
           install: false
       - run: pnpm install --frozen-lockfile
+      - name: Use official Ubuntu archive
+        run: sudo -n "$(command -v node)" scripts/use-ubuntu-archive.mjs
       - run: pnpm exec playwright install --with-deps chromium webkit
         timeout-minutes: 5
       - name: Require the exact build artifact
@@ -80,7 +82,7 @@ jobs:
 
   extension:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
@@ -92,6 +94,8 @@ jobs:
           cache: true
           install: false
       - run: pnpm install --frozen-lockfile
+      - name: Use official Ubuntu archive
+        run: sudo -n "$(command -v node)" scripts/use-ubuntu-archive.mjs
       - run: pnpm exec playwright install --with-deps chromium
         timeout-minutes: 5
       - name: Require the exact build artifact
