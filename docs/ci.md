@@ -38,6 +38,10 @@ PR 更新會取消同一 PR 過期的 CI；正式部署沿用不取消進行中�
 
 首次遠端 [CI 40341588134](https://github.com/CarlLee1983/carlenglish/actions/runs/40341588134) 的一個 browser runner 在安裝步驟等待超過十五分鐘，另外兩個相同步驟約一分鐘。取消過期 run 後取得日誌，確認等待發生在 Azure Ubuntu apt 鏡像下載套件，未更換系統鏡像。共用流程的 browser／extension 瀏覽器安裝各設五分鐘步驟上限，避免安裝停滯耗盡整個 job 的驗證預算；逾時即失敗，不自動重試或跳過。這個防護不改測試覆蓋，不能被描述成已修復安裝服務。
 
+其後 PR #18 的候選完整 CI 已通過，main 合併為 `f7eb2d9`；但 [Deploy 40351900312](https://github.com/CarlLee1983/carlenglish/actions/runs/40351900312) 的 extension 安裝及一次同 SHA 補跑，都在 `azure.archive.ubuntu.com` 的套件下載超過五分鐘。三個完整 browser 分片均通過，發布 job 兩次略過，未發布；不繼續以重試掩蓋同點失敗。
+
+因此 browser／extension 固定使用已驗證的 `ubuntu-24.04`。安裝前由 `scripts/use-ubuntu-archive.mjs` 精確改寫 runner 的 `/etc/apt/apt-mirrors.txt`，只將完整 Azure Ubuntu archive URL token 換成 `https://archive.ubuntu.com/ubuntu`。保留其他 mirrors、priority、空白／換行、APT suites、components、keyring 與簽章驗證；不刪依賴、不改原 Playwright 安裝指令或五分鐘期限。已是指定官方 URL 時可重入；缺檔或沒有預期的有效 URL 時明確失敗。Node 純轉換函式有五項回歸測試；實際 host 設定與下載結果仍須由新 SHA 的完整 CI 證明。
+
 該 run 的 mobile-webkit 亦重現整批翻譯切頁測試的 120 秒 deadline。最終改為每個來源一個獨立案例，各自使用預設 30 秒，保留來源翻譯、鍵盤切頁、完整目的內容／圖片、目的翻譯收起及舊標題消失等斷言。這是將整批共享期限改為每個完整轉場的期限，整體允許時間增加，並非總預算不變；不增加 retry。來源可在作者階段選取，目的仍從完整級別集合產生。少於兩個同級來源時直接失敗，避免沒有有效目的仍空跑成功。
 
 ### 場景作者的本機檢查
