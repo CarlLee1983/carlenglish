@@ -8,20 +8,12 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
 jobs:
   verify:
     # Deploy verifies main before publishing; retain CI when deployment is disabled.
     if: github.event_name == 'pull_request' || vars.CLOUDFLARE_DEPLOY_ENABLED != 'true'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
-        with:
-          persist-credentials: false
-      - uses: pnpm/setup@5d160c5bc68a09337ad0d5654e237e03253b5879 # v1
-        with:
-          runtime: node@24
-          cache: true
-          install: false
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm exec playwright install --with-deps chromium webkit
-      - run: pnpm run verify
+    uses: ./.github/workflows/verify.yml

@@ -1,0 +1,360 @@
+{
+  "id": "comparing-pencils",
+  "title": "比一比鉛筆長短",
+  "titleEn": "Which Pencil Is Longer?",
+  "category": "校園學習",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/comparing-pencils.webp",
+    "alt": "小柏把一支較長的紅鉛筆和一支較短的藍鉛筆並排放在桌上，指著藍鉛筆，老師在旁看著。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "side-by-side",
+      "english": "side by side",
+      "translation": "並排",
+      "audio": {
+        "src": "/audio/phrases/comparing-pencils-side-by-side.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1da444b0e662817b8ceb0bd58a3bdab17972719a5ce58a7ef892fe65f07601fa",
+        "sha256": "986474cc48111345d46724e5ffd7a5efc22fc4538f1ea8424640309ec4fa23f2"
+      }
+    },
+    {
+      "id": "which-one-is-longer",
+      "english": "Which one is longer",
+      "translation": "哪一支比較長",
+      "audio": {
+        "src": "/audio/phrases/comparing-pencils-which-one-is-longer.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d1659c5f4da3eb413360bf598b02ab3a13c4f2313cf15bbe753318c4c5a2a201",
+        "sha256": "43039cfad43003917532317a7537bef0195098bdc87df919fae12cb29d084cb1"
+      }
+    },
+    {
+      "id": "the-red-one",
+      "english": "The red one",
+      "translation": "紅色那支",
+      "audio": {
+        "src": "/audio/phrases/comparing-pencils-the-red-one.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "30b997bf7d6e142330c5338ac5a18eaae9bb95be72c8c1f2825a047d8ea21b20",
+        "sha256": "631023108bec48b156cea6d8d6e9a566bcde42e138448b244a2ba64b2f670501"
+      }
+    },
+    {
+      "id": "points-to",
+      "english": "points to",
+      "translation": "指向",
+      "audio": {
+        "src": "/audio/phrases/comparing-pencils-points-to.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d03f5d0e7656d7b7c1134d891af438ad8e92ae563e68dea760ed24c166551437",
+        "sha256": "c4f3a72f3db30b6be973aead89beb8c7ef787eec7436c49770390fff743ba179"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "pencil",
+      "english": "pencil",
+      "translation": "鉛筆",
+      "example": "My pencil is red.",
+      "audio": {
+        "src": "/audio/words/comparing-pencils-pencil.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "13809668fb436386706f67dcb052ed584a04ba16a8c02a17d66d34c30fceda21",
+        "sha256": "847eae946ff802ced8b80c937d0a1970ac2f936b4d1701a245becd65f67e2940"
+      }
+    },
+    {
+      "id": "red",
+      "english": "red",
+      "translation": "紅色的",
+      "example": "This bag is red.",
+      "audio": {
+        "src": "/audio/words/comparing-pencils-red.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a",
+        "sha256": "9e766ddb1146c74735d06548793b6f41163ca01c1f5323cd2566daed2108589d"
+      }
+    },
+    {
+      "id": "blue",
+      "english": "blue",
+      "translation": "藍色的",
+      "example": "My cup is blue.",
+      "audio": {
+        "src": "/audio/words/comparing-pencils-blue.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "16477688c0e00699c6cfa4497a3612d7e83c532062b64b250fed8908128ed548",
+        "sha256": "88058c269fa8b4b51f70d929ab358628f87f7a260b00ab05758b759b52fee413"
+      }
+    },
+    {
+      "id": "longer",
+      "english": "longer",
+      "translation": "更長的",
+      "example": "This pencil is longer.",
+      "audio": {
+        "src": "/audio/words/comparing-pencils-longer.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "73834addcec75fafd7d73717ca1614a1324652ffa70b4b6c44fa359ae5a69dab",
+        "sha256": "c713dc62259cc8d94e65de8f4d1d1e457ad8d69a66d75dfb34c4665914da45a3"
+      }
+    },
+    {
+      "id": "shorter",
+      "english": "shorter",
+      "translation": "更短的",
+      "example": "The blue pencil is shorter.",
+      "audio": {
+        "src": "/audio/words/comparing-pencils-shorter.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "13602ce54433df2bee54be0836c90a0adc931b85abc047f786e1a6c39670adb8",
+        "sha256": "c3be61b2cb95d177e5f4b73175b2c7833c48cf51747fbfe1694c56b58cdcb537"
+      }
+    },
+    {
+      "id": "teacher",
+      "english": "teacher",
+      "translation": "老師",
+      "example": "Our teacher is here.",
+      "audio": {
+        "src": "/audio/words/comparing-pencils-teacher.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1057a9604e04b274da5a4de0c8f4b4868d9b230989f8c8c6a28221143cc5a755",
+        "sha256": "f44023d64ef88c811ac54550e7f97bfcbcdd425f7d461e18008bbe6848bee449"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Bo has a "
+        },
+        {
+          "text": "red",
+          "wordIds": [
+            "red"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "pencil",
+          "wordIds": [
+            "pencil"
+          ]
+        },
+        {
+          "text": " and a "
+        },
+        {
+          "text": "blue",
+          "wordIds": [
+            "blue"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "pencil",
+          "wordIds": [
+            "pencil"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小柏有一支紅鉛筆和一支藍鉛筆。",
+      "audio": {
+        "src": "/audio/sentences/comparing-pencils/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a6f7b185cccfe3f536a6ccce4bc8d3739d3f15eacfebce9a9d27215761c65781",
+        "sha256": "e4d1bb445c00f7ed732650c8868715576858e8d878220f5068193392ec5bd531"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "He puts them "
+        },
+        {
+          "text": "side by side",
+          "phraseIds": [
+            "side-by-side"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他把它們並排放好。",
+      "audio": {
+        "src": "/audio/sentences/comparing-pencils/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "279c1739135d948edb017f7b7c5e6e9ddc78e1db4fa49d07d8d3ca67de8df38b",
+        "sha256": "0ccb84fcaa95b473bc97c67a6bae355b4252acd35028ebd29e3c69a7bea6330e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Which one is ",
+          "phraseIds": [
+            "which-one-is-longer"
+          ]
+        },
+        {
+          "text": "longer",
+          "phraseIds": [
+            "which-one-is-longer"
+          ],
+          "wordIds": [
+            "longer"
+          ]
+        },
+        {
+          "text": "?” asks his "
+        },
+        {
+          "text": "teacher",
+          "wordIds": [
+            "teacher"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "老師問：「哪一支比較長？」",
+      "audio": {
+        "src": "/audio/sentences/comparing-pencils/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "68b76e6a274d9cd2ced296fd9b0890bfb3d1f89e63a7fff5ede7f8757a182a93",
+        "sha256": "b270a73c3db09536b2ea3e15b9de590e89fc345856a2314927ec39f9e3b66864"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "The ",
+          "phraseIds": [
+            "the-red-one"
+          ]
+        },
+        {
+          "text": "red",
+          "phraseIds": [
+            "the-red-one"
+          ],
+          "wordIds": [
+            "red"
+          ]
+        },
+        {
+          "text": " one",
+          "phraseIds": [
+            "the-red-one"
+          ]
+        },
+        {
+          "text": ",” says Bo."
+        }
+      ],
+      "translation": "小柏說：「紅色那支。」",
+      "audio": {
+        "src": "/audio/sentences/comparing-pencils/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b73d426e0712e249d52db775bd0b8cb2e7c2872406f1f7aa073a7f81762982eb",
+        "sha256": "ee2ace381f8a0c17bc4d0525e193898fa5a4dd30abef839feb70d77954b3323a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "He "
+        },
+        {
+          "text": "points to",
+          "phraseIds": [
+            "points-to"
+          ]
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "shorter",
+          "wordIds": [
+            "shorter"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "blue",
+          "wordIds": [
+            "blue"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "pencil",
+          "wordIds": [
+            "pencil"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他指向較短的藍鉛筆。",
+      "audio": {
+        "src": "/audio/sentences/comparing-pencils/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "79680849e6b8999c7e23ca3da54d28d47ec4d43253bcf27b1ebf0e683a785e97",
+        "sha256": "b594adfde30a88729cdeb8aca411500ed904a3b330e94fb4d35d1660c033b655"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "His "
+        },
+        {
+          "text": "teacher",
+          "wordIds": [
+            "teacher"
+          ]
+        },
+        {
+          "text": " smiles and nods at him."
+        }
+      ],
+      "translation": "老師對著他微笑、點點頭。",
+      "audio": {
+        "src": "/audio/sentences/comparing-pencils/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "aa8049bef834961d9865d54f9f1f1f149b76be9620f00853046d343947100594",
+        "sha256": "5378dc38bec591cb192bd0032da9d24aa2f6e927617b90f42be3ef663d268c39"
+      }
+    }
+  ]
+}

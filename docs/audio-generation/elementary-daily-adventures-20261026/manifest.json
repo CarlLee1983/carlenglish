@@ -1,0 +1,693 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/haircut-visit/1.mp3",
+      "text": "Bo wants his hair a little shorter.",
+      "textSha256": "f6356a902f86bdc0dc8946574f24365c5609d7268770658712aeb5787a8ee111",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cccdb1ace3c9167480336d8e28543563b43587401baa655f36a938709ae64acf",
+      "duration": 2.375,
+      "graphemes": [
+        "Bo wants his hair a little shorter."
+      ],
+      "phonemes": [
+        "bˈO wˈɑnts hɪz hˈɛɹ ɐ lˈɪTᵊl ʃˈɔɹTəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/haircut-visit/2.mp3",
+      "text": "The barber puts a cape around him.",
+      "textSha256": "749d86eda7b262981944649a3dd8bdec2ffc70a9cb0aede87394c4ae77c7d070",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a5dfdfc464fe17eabc9cc159ae5129dcb1cbaa0581ba45056533c3b790522faa",
+      "duration": 2.35,
+      "graphemes": [
+        "The barber puts a cape around him."
+      ],
+      "phonemes": [
+        "ðə bˈɑɹbəɹ pˌʊts ɐ kˈAp əɹˈWnd hˌɪm."
+      ]
+    },
+    {
+      "src": "/audio/sentences/haircut-visit/3.mp3",
+      "text": "“Just a little, please,” says Bo.",
+      "textSha256": "16367b111e215ee301559228ab6b931246733231dd9e906224661ad3810141b9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dfd7151e844172a3b7de6615cc7003c5137057d535426fe424fc2754e9bc09bc",
+      "duration": 2.475,
+      "graphemes": [
+        "“Just a little, please,” says Bo."
+      ],
+      "phonemes": [
+        "“ʤˈʌst ɐ lˈɪTᵊl, plˈiz,” sˈɛz bˈO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/haircut-visit/4.mp3",
+      "text": "He watches her cut in the mirror.",
+      "textSha256": "428cb7e55e38abf4d85f8fcdbe86f1004d51e5beda9faeeeefdf480561cb5b6e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "18224bac46150297179dacb77769180c55c619b88004f2644f82fbd5561afdc0",
+      "duration": 2.225,
+      "graphemes": [
+        "He watches her cut in the mirror."
+      ],
+      "phonemes": [
+        "hˌi wˈɑʧᵻz hɜɹ kˈʌt ɪn ðə mˈɪɹəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/haircut-visit/5.mp3",
+      "text": "“How does it look?” the barber asks.",
+      "textSha256": "e4cb4f00e6453c13fbd7ac8f32c950066f51fe645fbbea00e575703273f8822f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4cbcf4f9cdc97ce51154faf24c5f725e106e55dda1288902d6c2520df17928bb",
+      "duration": 2.525,
+      "graphemes": [
+        "“How does it look?” the barber asks."
+      ],
+      "phonemes": [
+        "“hˌW dˈʌz ɪt lˈʊk?” ðə bˈɑɹbəɹ ˈæsks."
+      ]
+    },
+    {
+      "src": "/audio/sentences/haircut-visit/6.mp3",
+      "text": "“I like it!” Bo says with a smile.",
+      "textSha256": "fd339795fa64089f26d4cfb39edc9747394bede04cb049d8785adbbcceda7f83",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7fdb213e767b025cae36f1bf155735803c5b37019d7834380d28567ad0ad5e6d",
+      "duration": 2.6,
+      "graphemes": [
+        "“I like it!” Bo says with a smile."
+      ],
+      "phonemes": [
+        "“ˌI lˈIk ɪt!” bˈO sˈɛz wɪð ɐ smˈIl."
+      ]
+    },
+    {
+      "src": "/audio/phrases/haircut-visit-a-little-shorter.mp3",
+      "text": "a little shorter",
+      "textSha256": "8589e1785bc39f33e903547a0ea189a3fe981be746bc03bbcfee6fc2acd72f87",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "346326ccc090e035a086f402cd4e794728deae4a9efbc01d124bb99a84c68693",
+      "duration": 1.575,
+      "graphemes": [
+        "a little shorter"
+      ],
+      "phonemes": [
+        "ɐ lˈɪTᵊl ʃˈɔɹTəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/haircut-visit-just-a-little-please.mp3",
+      "text": "Just a little, please",
+      "textSha256": "4221b996d7b9f92a5c3f9e4b42f23f83b45e0e4c51fd76215fa419d2d93d668a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4a9ac1f0b801e1ca872b10430b0f4ba0707d047852abc7bc780105bdcb83e84f",
+      "duration": 1.8,
+      "graphemes": [
+        "Just a little, please"
+      ],
+      "phonemes": [
+        "ʤˈʌst ɐ lˈɪTᵊl, plˈiz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/haircut-visit-how-does-it-look.mp3",
+      "text": "How does it look",
+      "textSha256": "f8b3989addf47d4c74e5b4e0d79a405368b35ad18ec522cc632d2f2ba8138d9c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d5b619f25b0e888b62044add132624d4255fbf2ce5d9b4d16d21533cd31798a9",
+      "duration": 1.5,
+      "graphemes": [
+        "How does it look"
+      ],
+      "phonemes": [
+        "hˌW dˈʌz ɪt lˈʊk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/haircut-visit-i-like-it.mp3",
+      "text": "I like it",
+      "textSha256": "68594064b3736c58e04232a44a5605050535cf79ea1e33dd616c977f0d7f5846",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d3d00dcb78c6290c8666a684cf074e6621421a9e2f54747855b4e9a8ab1fa252",
+      "duration": 1.425,
+      "graphemes": [
+        "I like it"
+      ],
+      "phonemes": [
+        "ˌI lˈIk ɪt"
+      ]
+    },
+    {
+      "src": "/audio/words/haircut-visit-hair.mp3",
+      "text": "hair",
+      "textSha256": "4dc2159bba05da394c3b94c6f54354db1f1f43b321ac4bbdfc2f658237858c70",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7e82a74170509d1155ae43bb40934ba52b2ef525b46002c5ee025e5e8b832765",
+      "duration": 1.25,
+      "graphemes": [
+        "hair"
+      ],
+      "phonemes": [
+        "hˈɛɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/haircut-visit-shorter.mp3",
+      "text": "shorter",
+      "textSha256": "13602ce54433df2bee54be0836c90a0adc931b85abc047f786e1a6c39670adb8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "14c91294dab38b647c28c761ef0f6e08f211b30cfc8e20ee92308051c52fdee5",
+      "duration": 1.35,
+      "graphemes": [
+        "shorter"
+      ],
+      "phonemes": [
+        "ʃˈɔɹTəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/haircut-visit-barber.mp3",
+      "text": "barber",
+      "textSha256": "b67b8e2e8472a0a87a3d64d75995193c1da90bf098123586ceba69881880fbb1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7d0b25f6528ada96fedc1471c384af49d0cd0b7c51593409cb23700460de4047",
+      "duration": 1.35,
+      "graphemes": [
+        "barber"
+      ],
+      "phonemes": [
+        "bˈɑɹbəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/haircut-visit-cape.mp3",
+      "text": "cape",
+      "textSha256": "0ed2fa2539de546945afee750df626e1e54543bf7fd05aad842e28f0969b06f8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8bd6039b6e4d5f5aa92c34b7a31e6331a9b03dbc7dc98ca2de8b32c64048775e",
+      "duration": 1.25,
+      "graphemes": [
+        "cape"
+      ],
+      "phonemes": [
+        "kˈAp"
+      ]
+    },
+    {
+      "src": "/audio/words/haircut-visit-mirror.mp3",
+      "text": "mirror",
+      "textSha256": "00154761637ca746c354a6d9cfbf1da1a92e79afa6bb127bb8a1c434e9c73170",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c9fd89fa21c1aedb5d160d17e162326b2ff1db7f77362bedcb3efd32b1ddc871",
+      "duration": 1.35,
+      "graphemes": [
+        "mirror"
+      ],
+      "phonemes": [
+        "mˈɪɹəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/haircut-visit-cut.mp3",
+      "text": "cut",
+      "textSha256": "378bfce5cda2599a6cda399f1cacef861e4e575ec794744dcf0e55e9c4780633",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a2076537d719565c73c86b2bab08bfbd24d2f50bb1e732ce37896d5c96274e4d",
+      "duration": 1.225,
+      "graphemes": [
+        "cut"
+      ],
+      "phonemes": [
+        "kˈʌt"
+      ]
+    },
+    {
+      "src": "/audio/sentences/fruit-salad/1.mp3",
+      "text": "Yu puts apple pieces in a bowl.",
+      "textSha256": "e11d9b8858a6603775e98946271c9cf07d037a16f0125eb14d88830022edee5d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8e2342a092e66fd8b4ee2d41d5b612c17b50e9ce9a3e6b15851049acf336ee3a",
+      "duration": 2.5,
+      "graphemes": [
+        "Yu puts apple pieces in a bowl."
+      ],
+      "phonemes": [
+        "jˈu pˌʊts ˈæpᵊl pˈisᵻz ɪn ɐ bˈOl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/fruit-salad/2.mp3",
+      "text": "Mom adds banana slices and some grapes.",
+      "textSha256": "48898c4421f9434ec50f7ec48a7a235f5fd5167e011ef20a37cfe66d9822c46e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e998b28fd60e459ade7264b9a245d2bc1d1317b71d9997e7e4996a7740a7b37f",
+      "duration": 3.1,
+      "graphemes": [
+        "Mom adds banana slices and some grapes."
+      ],
+      "phonemes": [
+        "mˈɑm ˈædz bənˈænə slˈIsᵻz ænd sˌʌm ɡɹˈAps."
+      ]
+    },
+    {
+      "src": "/audio/sentences/fruit-salad/3.mp3",
+      "text": "“Can I mix it?” asks Yu.",
+      "textSha256": "1012d0d21157ad8d6b5a7b2c26ea2b1f1f6799b48b3f6b5ffb64200362c0cf40",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d566d3578579559927604f5bf959a288cf82c9680c28b1328d6d9a2f694e1fbc",
+      "duration": 2.175,
+      "graphemes": [
+        "“Can I mix it?” asks Yu."
+      ],
+      "phonemes": [
+        "“kˌæn ˌI mˈɪks ɪt?” ˈæsks jˈu."
+      ]
+    },
+    {
+      "src": "/audio/sentences/fruit-salad/4.mp3",
+      "text": "Mom gives him a big spoon.",
+      "textSha256": "0760c8a2f70074423b40cb13a7ff37dd0059976988e3dce0f7650d71647e4c30",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "874fb78d1f2c559a769d2592ecfec36aec9932a467c564aa7bedf8da79c07426",
+      "duration": 2.15,
+      "graphemes": [
+        "Mom gives him a big spoon."
+      ],
+      "phonemes": [
+        "mˈɑm ɡˈɪvz hˌɪm ɐ bˈɪɡ spˈun."
+      ]
+    },
+    {
+      "src": "/audio/sentences/fruit-salad/5.mp3",
+      "text": "Yu mixes the fruit with the spoon.",
+      "textSha256": "381a50d3513a8aa9e2347836c5be8371fa35e2fa531ff3638e8625b0cfe7b4f9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4432082d000971e797ab359a6acb3d741a41b40140684f6c82e7be4783752d1d",
+      "duration": 2.45,
+      "graphemes": [
+        "Yu mixes the fruit with the spoon."
+      ],
+      "phonemes": [
+        "jˈu mˈɪksᵻz ðə fɹˈut wɪð ðə spˈun."
+      ]
+    },
+    {
+      "src": "/audio/sentences/fruit-salad/6.mp3",
+      "text": "“Our fruit salad is ready!” he says.",
+      "textSha256": "14a3d3996efe533c5a4e042707830c8589ac0958869ba8de342de91eed8a063a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b0581bc1598e75db4ede034c43506e716bff57bfaae0dfd0c2f9daba2ba3a1cf",
+      "duration": 2.7,
+      "graphemes": [
+        "“Our fruit salad is ready!” he says."
+      ],
+      "phonemes": [
+        "“ˌWəɹ fɹˈut sˈæləd ɪz ɹˈɛdi!” hi sˈɛz."
+      ]
+    },
+    {
+      "src": "/audio/phrases/fruit-salad-apple-pieces.mp3",
+      "text": "apple pieces",
+      "textSha256": "581dcf86f939299ce78967a86bb919ff3b30489a0caa36203c29b18252f1a062",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d85e899563f813decca9dc824fef1d3129ca7d66c0abea635afd5f5c4747ff9b",
+      "duration": 1.775,
+      "graphemes": [
+        "apple pieces"
+      ],
+      "phonemes": [
+        "ˈæpᵊl pˈisᵻz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/fruit-salad-can-i-mix-it.mp3",
+      "text": "Can I mix it",
+      "textSha256": "94c8e01f1abfb8763a71c0648bf9c95911d5c80514276c9a6a2bdcbf7c351035",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "03a083944ae1a6ee264e6e589662d707c3b2aecedb8491d84b6e632c4934dc85",
+      "duration": 1.5,
+      "graphemes": [
+        "Can I mix it"
+      ],
+      "phonemes": [
+        "kˌæn ˌI mˈɪks ɪt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/fruit-salad-with-the-spoon.mp3",
+      "text": "with the spoon",
+      "textSha256": "e315af4868af6bb2dec90ce18b39d43d7a3039db2defeb7dfc91be00f6d80bd1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "38f6cdbfd44611ba0306bbecf53e015ce3ca0c9a245d46bbe7b8b22597dafb27",
+      "duration": 1.675,
+      "graphemes": [
+        "with the spoon"
+      ],
+      "phonemes": [
+        "wɪð ðə spˈun"
+      ]
+    },
+    {
+      "src": "/audio/phrases/fruit-salad-our-fruit-salad-is-ready.mp3",
+      "text": "Our fruit salad is ready",
+      "textSha256": "91ea3ef6e0c2f93fb3931572487d93d37f939811c9733024063ce34bdf3bdcaf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cae7feaa0c58f12a5f243d21e8be742d05cd44d0b437d178181c51f8b1fec4e6",
+      "duration": 2.125,
+      "graphemes": [
+        "Our fruit salad is ready"
+      ],
+      "phonemes": [
+        "ˌWəɹ fɹˈut sˈæləd ɪz ɹˈɛdi"
+      ]
+    },
+    {
+      "src": "/audio/words/fruit-salad-apple.mp3",
+      "text": "apple",
+      "textSha256": "3a7bd3e2360a3d29eea436fcfb7e44c735d117c42d1c1835420b6b9942dd4f1b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8a5d40fbd85e8e4df2518849bc164a49f21b3d44c9cd8dc0f15503f3fbbee0db",
+      "duration": 1.375,
+      "graphemes": [
+        "apple"
+      ],
+      "phonemes": [
+        "ˈæpᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/fruit-salad-bowl.mp3",
+      "text": "bowl",
+      "textSha256": "d9f2babb167353d055843c7d537e6a663023561f921f831369ea1d657aa3051a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a9d20b89375a097b317baafc8bfdd36b6e5ddf064f8949bf40c270904e3d81df",
+      "duration": 1.3,
+      "graphemes": [
+        "bowl"
+      ],
+      "phonemes": [
+        "bˈOl"
+      ]
+    },
+    {
+      "src": "/audio/words/fruit-salad-banana.mp3",
+      "text": "banana",
+      "textSha256": "b493d48364afe44d11c0165cf470a4164d1e2609911ef998be868d46ade3de4e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "db8770fdb60800a108089b0d8c2fd4a76763b3c4ba6afc3d1a4e3836bc53dc4b",
+      "duration": 1.45,
+      "graphemes": [
+        "banana"
+      ],
+      "phonemes": [
+        "bənˈænə"
+      ]
+    },
+    {
+      "src": "/audio/words/fruit-salad-grapes.mp3",
+      "text": "grapes",
+      "textSha256": "8286ee4ea8f54f0276bcd4a125de6fd38a58534eebe24df396f05febeee3a91a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3f8cab5887d984addc8ef0f62c898c19e1cc92be8d3893cbb76ac3e081d35dc4",
+      "duration": 1.35,
+      "graphemes": [
+        "grapes"
+      ],
+      "phonemes": [
+        "ɡɹˈAps"
+      ]
+    },
+    {
+      "src": "/audio/words/fruit-salad-spoon.mp3",
+      "text": "spoon",
+      "textSha256": "7f480e744a79953eb916b68f540e0eeec6f9cf23edf4aa08cc1cdf5f077c0f6f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a69a192f3bb4272f5fb23e2cb2c3fdf6eeed12af57c53808bcb11d1e9b03661f",
+      "duration": 1.45,
+      "graphemes": [
+        "spoon"
+      ],
+      "phonemes": [
+        "spˈun"
+      ]
+    },
+    {
+      "src": "/audio/words/fruit-salad-mixes.mp3",
+      "text": "mixes",
+      "textSha256": "5732d58f124d5e47999e37d6da01aa67a6dde9461b6705cfbd7424462afdff89",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "29dbfe37a3527f4a60602b95679efa77590eb04e742c20351d6ff292bfb68036",
+      "duration": 1.525,
+      "graphemes": [
+        "mixes"
+      ],
+      "phonemes": [
+        "mˈɪksᵻz"
+      ]
+    },
+    {
+      "src": "/audio/sentences/kite-in-park/1.mp3",
+      "text": "Mei takes her kite to the park.",
+      "textSha256": "726b4fbd00ed7543a81c7cf649c041c1df5b7ada29c7e0de5838e056d1e5c1c8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ddd24f52714f353447b2d144a1f2bcc2b6790882f9b921b53e1fed109f76dc56",
+      "duration": 2.175,
+      "graphemes": [
+        "Mei takes her kite to the park."
+      ],
+      "phonemes": [
+        "mˈA tˈAks hɜɹ kˈIt tə ðə pˈɑɹk."
+      ]
+    },
+    {
+      "src": "/audio/sentences/kite-in-park/2.mp3",
+      "text": "Dad holds it while she gets the string.",
+      "textSha256": "ca5574e94d4ec6be62296dfcd2b81650dc69c82fa5ba55ee84f8bd47263e21ed",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "58b044ebc4be76908dd5c96a026e556b8c6158d08c9dba250a0f050ea69c3946",
+      "duration": 2.5,
+      "graphemes": [
+        "Dad holds it while she gets the string."
+      ],
+      "phonemes": [
+        "dˈæd hˈOldz ɪt wˌIl ʃi ɡɛts ðə stɹˈɪŋ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/kite-in-park/3.mp3",
+      "text": "“Ready? Let go!” she calls to Dad.",
+      "textSha256": "f534d3349cc54cbaff27b012a87eebe4913e15abb9b5ebadf7ef360fb47e6b11",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c9046b568a976e927e5ed23eaf4988d8d01b0eb007feb29a33c758c5c33a7274",
+      "duration": 2.725,
+      "graphemes": [
+        "“Ready? Let go!” she calls to Dad."
+      ],
+      "phonemes": [
+        "“ɹˈɛdi? lˈɛt ɡˌO!” ʃi kˈɔlz tə dˈæd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/kite-in-park/4.mp3",
+      "text": "The kite goes up into the sky.",
+      "textSha256": "3509dcfad8e8ebc169ab019e47f9c87d35968a2ee8cee5c68270d76f0c10cd9a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7f7eb3afd2d01196f745b98af5f149449c37a1b9f6bd00711f008a914a239441",
+      "duration": 2.225,
+      "graphemes": [
+        "The kite goes up into the sky."
+      ],
+      "phonemes": [
+        "ðə kˈIt ɡˈOz ˌʌp ˈɪntu ðə skˈI."
+      ]
+    },
+    {
+      "src": "/audio/sentences/kite-in-park/5.mp3",
+      "text": "Mei holds the string with both hands.",
+      "textSha256": "95113c4e9782ef529fb169bd16595c857a256ead721faf13c61b99cf92fde369",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d9326b2d40e2e1f557ae57f993cb3845b8d1c3e640862a94dea8fad25600d6ab",
+      "duration": 2.55,
+      "graphemes": [
+        "Mei holds the string with both hands."
+      ],
+      "phonemes": [
+        "mˈA hˈOldz ðə stɹˈɪŋ wɪð bˈOθ hˈændz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/kite-in-park/6.mp3",
+      "text": "“Look! It is flying!” she says.",
+      "textSha256": "a8c05f5aa6597f4efc92249f3242fb57f7aae094ccde98a7c97edc7d856d52e2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1641bd0e1520fe76782282e1704a8ef783e79d569880793ba18441da7d2f2faa",
+      "duration": 2.375,
+      "graphemes": [
+        "“Look! It is flying!” she says."
+      ],
+      "phonemes": [
+        "“lˈʊk! ˌɪt ɪz flˈIɪŋ!” ʃi sˈɛz."
+      ]
+    },
+    {
+      "src": "/audio/phrases/kite-in-park-let-go.mp3",
+      "text": "Let go",
+      "textSha256": "afa4294dc102853209a1ffec417fb01dffe7dabd75b00dd01c50e22ac227b214",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a595ab22ef2af6811c1b6350cec52c9ca898e2ee1f224bbe8375ca586cdd1465",
+      "duration": 1.475,
+      "graphemes": [
+        "Let go"
+      ],
+      "phonemes": [
+        "lˈɛt ɡˌO"
+      ]
+    },
+    {
+      "src": "/audio/phrases/kite-in-park-goes-up.mp3",
+      "text": "goes up",
+      "textSha256": "69421502d03aee9346d0d366662c285d085714b111b22bdf2e95a8b04f93773e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c7eff7a98cac09a5dc341df6ea9192d10e539d6b0d14550d39da4f7833f34acd",
+      "duration": 1.4,
+      "graphemes": [
+        "goes up"
+      ],
+      "phonemes": [
+        "ɡˈOz ˌʌp"
+      ]
+    },
+    {
+      "src": "/audio/phrases/kite-in-park-with-both-hands.mp3",
+      "text": "with both hands",
+      "textSha256": "db992b758fb23bd5e0388d4607e88691d4a297e0e67b4b64fb2cbeaa46c5d61b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "db9a082ddb2549d7bc5a018faa10902d994ff56d41c5a7928eee3e669a5a74b3",
+      "duration": 1.75,
+      "graphemes": [
+        "with both hands"
+      ],
+      "phonemes": [
+        "wɪð bˈOθ hˈændz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/kite-in-park-it-is-flying.mp3",
+      "text": "It is flying",
+      "textSha256": "0949551ba0a29707fd98bc0b3d5a7aeb4d839620ecaade4f22b6d2c43d04608c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cddef5cd9ff9721da89a8fcc720bead527d74b8774a5b21ab4bb3a0cb76a3e8b",
+      "duration": 1.625,
+      "graphemes": [
+        "It is flying"
+      ],
+      "phonemes": [
+        "ˌɪt ɪz flˈIɪŋ"
+      ]
+    },
+    {
+      "src": "/audio/words/kite-in-park-kite.mp3",
+      "text": "kite",
+      "textSha256": "8e8c7d42b456c9e4ec52e545b201fffc003ace9b7a32a44ac646b4679f99b00b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fc4a2355bf621805263c14ec74b32b1b4e4000908c10e6b9706260eb051e952a",
+      "duration": 1.225,
+      "graphemes": [
+        "kite"
+      ],
+      "phonemes": [
+        "kˈIt"
+      ]
+    },
+    {
+      "src": "/audio/words/kite-in-park-park.mp3",
+      "text": "park",
+      "textSha256": "4d3971de62245c94cd3dd8d4d3a72b8ff527d902832eedc8529a9717a969f1d1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9c7905e4743e13b3f3e9c95270c469c418a0b323ee9248540d5820556760b7b9",
+      "duration": 1.275,
+      "graphemes": [
+        "park"
+      ],
+      "phonemes": [
+        "pˈɑɹk"
+      ]
+    },
+    {
+      "src": "/audio/words/kite-in-park-string.mp3",
+      "text": "string",
+      "textSha256": "473287f8298dba7163a897908958f7c0eae733e25d2e027992ea2edc9bed2fa8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "75887986d9abc4f98574ba6198cfaac767e846b58915cd53f0ca51c0927e5417",
+      "duration": 1.45,
+      "graphemes": [
+        "string"
+      ],
+      "phonemes": [
+        "stɹˈɪŋ"
+      ]
+    },
+    {
+      "src": "/audio/words/kite-in-park-sky.mp3",
+      "text": "sky",
+      "textSha256": "05f514fae7ca5710f9e9289a20a5c9b372af781bfc94dd23d9cb8a044122460f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9b66bac49f5abbc9e6b2452b56c81891360ce050a717bc976000f2fa915c017d",
+      "duration": 1.35,
+      "graphemes": [
+        "sky"
+      ],
+      "phonemes": [
+        "skˈI"
+      ]
+    },
+    {
+      "src": "/audio/words/kite-in-park-hands.mp3",
+      "text": "hands",
+      "textSha256": "45a229d57d35d935b67ce83a69f0353508b131ca39325494db3520252c841e10",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d199aa331f6ebf5b8e5144868870e48b0bdeb13e9a8c8295ce2915ffc183ed8e",
+      "duration": 1.375,
+      "graphemes": [
+        "hands"
+      ],
+      "phonemes": [
+        "hˈændz"
+      ]
+    },
+    {
+      "src": "/audio/words/kite-in-park-flying.mp3",
+      "text": "flying",
+      "textSha256": "a1f95e4f6e5e4d17aafbe143c1357c9923e0854d74938aa75e89e836ef1ce077",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "919a5a25bc54576d1554a02afa6893f197e2a2e0ce3969befd510d6137989514",
+      "duration": 1.4,
+      "graphemes": [
+        "flying"
+      ],
+      "phonemes": [
+        "flˈIɪŋ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "id": "setting-table",
+  "title": "幫忙擺餐桌",
+  "titleEn": "Setting the Table",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/setting-table.webp",
+    "alt": "小柏和爸爸在家中餐桌旁擺放三個盤子和湯匙。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "set-the-table",
+      "english": "set the table",
+      "translation": "擺餐桌",
+      "audio": {
+        "src": "/audio/phrases/setting-table-set-the-table.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f121d960d05cfc44f6969d6d90d4deb6bbca38d2a92e7f1cd580ea3ccadce496",
+        "sha256": "9af4a88fd46be77be235c8f2179c7b33501bfae2c08c2c3b122fd279ec3f7eb9"
+      }
+    },
+    {
+      "id": "do-we-need-bowls",
+      "english": "Do we need bowls",
+      "translation": "我們需要碗嗎",
+      "audio": {
+        "src": "/audio/phrases/setting-table-do-we-need-bowls.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b204e6bc003c6c863b325e2312eae482128a312245028f33e0754018dad57b8d",
+        "sha256": "1b75f38c3dbf86eee73bf6262e4d7ce94fa176cdf296a7daa4654600e4c6a20b"
+      }
+    },
+    {
+      "id": "beside-each-plate",
+      "english": "beside each plate",
+      "translation": "在每個盤子旁邊",
+      "audio": {
+        "src": "/audio/phrases/setting-table-beside-each-plate.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d3591c36e6a7fe144f28f72923d197b6da87223b7e81edb08780848d0b66b3cf",
+        "sha256": "2425cccac55c461eeb3ae2bb4685ade7c217ff9584365e9fdb3e4a629e8fc0c4"
+      }
+    },
+    {
+      "id": "dinner-is-ready",
+      "english": "Dinner is ready",
+      "translation": "晚餐好了",
+      "audio": {
+        "src": "/audio/phrases/setting-table-dinner-is-ready.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4a63228438671831fc8f50cc878c30b3e0a8abecb6b8e307c07499df3e2b1f87",
+        "sha256": "d5ab5b1185d711a995d3ec6676d423afcde8118e7b68264a3d9b5bf2fd3fe7f9"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "table",
+      "english": "table",
+      "translation": "桌子",
+      "example": "The table is big.",
+      "audio": {
+        "src": "/audio/words/setting-table-table.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0d4fc4a78d3706edccafb665a8b2fdd9309e82c78625bb0f2b8e7bb9e1c4d21c",
+        "sha256": "f3e84089a459b77cc98ce3abd6ad8e9f4051681f5426e473db878489af3d3981"
+      }
+    },
+    {
+      "id": "three",
+      "english": "three",
+      "translation": "三",
+      "example": "I have three cups.",
+      "audio": {
+        "src": "/audio/words/setting-table-three.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8b5b9db0c13db24256c829aa364aa90c6d2eba318b9232a4ab9313b954d3555f",
+        "sha256": "8197136372a870a6b881ea1c1b4f96bf98fb30a25d3e14be1e38274efbbfb7dd"
+      }
+    },
+    {
+      "id": "plates",
+      "english": "plates",
+      "translation": "盤子（複數）",
+      "example": "The plates are clean.",
+      "audio": {
+        "src": "/audio/words/setting-table-plates.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e7bf93b428bead01dad66ac3e48f9b652f8fa9e6a741946ae58b5cacf0e7c31f",
+        "sha256": "2cb498d76a51bf1936dfc51e3127232a59e9811b4f79b1a86daafaf5bd0cdf0b"
+      }
+    },
+    {
+      "id": "bowls",
+      "english": "bowls",
+      "translation": "碗（複數）",
+      "example": "We need two bowls.",
+      "audio": {
+        "src": "/audio/words/setting-table-bowls.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "590bf251e185fa75591499d117a181017f6ab5dcde9d211ed594853622439b67",
+        "sha256": "706930e8f6a7e9c6db67a482fb48120f73c0952f67648bfc66925ebd7c5b5dac"
+      }
+    },
+    {
+      "id": "spoon",
+      "english": "spoon",
+      "translation": "湯匙",
+      "example": "This spoon is small.",
+      "audio": {
+        "src": "/audio/words/setting-table-spoon.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7f480e744a79953eb916b68f540e0eeec6f9cf23edf4aa08cc1cdf5f077c0f6f",
+        "sha256": "b7858ae44646f42bffb62d2340669d0e53d4d1dde95a1eea4d44f3450f9f0654"
+      }
+    },
+    {
+      "id": "dinner",
+      "english": "dinner",
+      "translation": "晚餐",
+      "example": "We have dinner at home.",
+      "audio": {
+        "src": "/audio/words/setting-table-dinner.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dda209044ad44962b012ececcc2cb2f7efd35c72d22465586e294b6493bc21c1",
+        "sha256": "20a36be78cc0942dc6b96c55d3baa17d2bd8ef2d0df6a116cae350d5b17f6261"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Bo helps Dad "
+        },
+        {
+          "text": "set the ",
+          "phraseIds": [
+            "set-the-table"
+          ]
+        },
+        {
+          "text": "table",
+          "phraseIds": [
+            "set-the-table"
+          ],
+          "wordIds": [
+            "table"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小柏幫爸爸擺餐桌。",
+      "audio": {
+        "src": "/audio/sentences/setting-table/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "36b9d80a28db9e52ddc7cf6197ff51e38f6873a40db6671647fe59dfa485446f",
+        "sha256": "4cd4d831bf4043fad0c1bb181ef2c0ddaec592e0f434e00bfc836e6dbb0c8b3b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "He puts "
+        },
+        {
+          "text": "three",
+          "wordIds": [
+            "three"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "plates",
+          "wordIds": [
+            "plates"
+          ]
+        },
+        {
+          "text": " on the "
+        },
+        {
+          "text": "table",
+          "wordIds": [
+            "table"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他把三個盤子放在桌上。",
+      "audio": {
+        "src": "/audio/sentences/setting-table/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f20aa27cf3ccc680bd6306ba58668a4b97e46c6c2218eb9a93d68d0653c82358",
+        "sha256": "9c569a67ac28b5242dac981131eaebd60946fc6c9c316852eb4bc5f713de1692"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Do we need ",
+          "phraseIds": [
+            "do-we-need-bowls"
+          ]
+        },
+        {
+          "text": "bowls",
+          "phraseIds": [
+            "do-we-need-bowls"
+          ],
+          "wordIds": [
+            "bowls"
+          ]
+        },
+        {
+          "text": "?” asks Bo."
+        }
+      ],
+      "translation": "小柏問：「我們需要碗嗎？」",
+      "audio": {
+        "src": "/audio/sentences/setting-table/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3087557ddd63bd6eb1f6a9f67ddf2b447c2e5d4ff50e844b672451cfd2b7b4e6",
+        "sha256": "0048c63fe497f761a2806a262b5436cd0fd1c3447fdf9e82b6ac24a4abb96c2d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“No, just "
+        },
+        {
+          "text": "plates",
+          "wordIds": [
+            "plates"
+          ]
+        },
+        {
+          "text": ",” says Dad."
+        }
+      ],
+      "translation": "爸爸說：「不用，只要盤子。」",
+      "audio": {
+        "src": "/audio/sentences/setting-table/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2304fe003390ededf0b13aab1a2b033d4135b8c7b605978ef0ecaef48c6825cb",
+        "sha256": "e95ad1d48690609c81c0cbe761f9e73d2e635182e585fda42c0ea00658e95a1c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Bo puts a "
+        },
+        {
+          "text": "spoon",
+          "wordIds": [
+            "spoon"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "beside each plate",
+          "phraseIds": [
+            "beside-each-plate"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小柏在每個盤子旁邊放一支湯匙。",
+      "audio": {
+        "src": "/audio/sentences/setting-table/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e2fba901392d6d2534239ed8b1816db18086e9fb4ed6aaf7cbab0c9cdc1652fa",
+        "sha256": "40dc56455454cf6c0be3fb5034ee01c4fe66e7b295804efbd994772f7541b9f4"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Dinner",
+          "phraseIds": [
+            "dinner-is-ready"
+          ],
+          "wordIds": [
+            "dinner"
+          ]
+        },
+        {
+          "text": " is ready",
+          "phraseIds": [
+            "dinner-is-ready"
+          ]
+        },
+        {
+          "text": "!” Dad calls to Mom."
+        }
+      ],
+      "translation": "爸爸叫媽媽：「晚餐好了！」",
+      "audio": {
+        "src": "/audio/sentences/setting-table/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2530cea92e7d4ac0b134443bea9b91d95b4d5bb90893ea5914f8147023ed29ad",
+        "sha256": "a21dd939bfa7ce9fcd3ee3e08e364f14d7c6e615993ee3c11501903a5172b34f"
+      }
+    }
+  ]
+}

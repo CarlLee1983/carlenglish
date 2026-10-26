@@ -1,0 +1,327 @@
+{
+  "id": "wrapping-gift",
+  "title": "包裝小禮物",
+  "titleEn": "Wrapping a Gift",
+  "category": "節慶與生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/wrapping-gift.webp",
+    "alt": "小宇和媽媽在桌旁用包裝紙、膠帶和緞帶包裝一個小禮物盒。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "around-the-box",
+      "english": "around the box",
+      "translation": "在盒子周圍",
+      "audio": {
+        "src": "/audio/phrases/wrapping-gift-around-the-box.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7e7501c7908bec69fbabdd3aaf3d8d49b01a03c5935f22bfd4cf08153c023cfa",
+        "sha256": "b38277b2620bfccb0aefb60c4427920ab57a7c1abe102d642293e0154bf49ad5"
+      }
+    },
+    {
+      "id": "hold-this-end-please",
+      "english": "Hold this end, please",
+      "translation": "請抓住這一端",
+      "audio": {
+        "src": "/audio/phrases/wrapping-gift-hold-this-end-please.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "93901a9ad15f5bfd341da597db6eb277edccb86498b9c08e7b3bca351db9e4c1",
+        "sha256": "b672f6e1323090bc4b225b2799342ad47b2c920a63eda9b1ba0a037a941b84bb"
+      }
+    },
+    {
+      "id": "adds-tape",
+      "english": "adds tape",
+      "translation": "貼上膠帶",
+      "audio": {
+        "src": "/audio/phrases/wrapping-gift-adds-tape.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "809f5b7b1fd3a033416cdbc75494a3188e6855c14fed806bdadcb6de3f58e2d9",
+        "sha256": "1f3f5d7db973e7919b6922a4f18c53b442eb087d0f9159c51d00747254d4713e"
+      }
+    },
+    {
+      "id": "now-it-is-ready",
+      "english": "Now it is ready",
+      "translation": "現在準備好了",
+      "audio": {
+        "src": "/audio/phrases/wrapping-gift-now-it-is-ready.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0e282bd39d3591991edc377ad50a4d2defeefb891a5d694dcbcc424a4bf64cd4",
+        "sha256": "68a6f3cdf8524c0441865c67040fec48b713ce37c5b747d3dc39f164c02754e2"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "gift",
+      "english": "gift",
+      "translation": "禮物",
+      "example": "This gift is for Mom.",
+      "audio": {
+        "src": "/audio/words/wrapping-gift-gift.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a1954b15a7459a2f7f6c03d87b73963830616feef7c93853fe5c05be996276bc",
+        "sha256": "82129a9f0fbff0f3222e0c29e1f03b87aad4954245da32bae4a63b0224c41373"
+      }
+    },
+    {
+      "id": "box",
+      "english": "box",
+      "translation": "盒子",
+      "example": "The box is small.",
+      "audio": {
+        "src": "/audio/words/wrapping-gift-box.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "26f8567f2569182294c3fa5b9f9cb2270b554eef628b4c149cf82a42888ff4ae",
+        "sha256": "884978d7723c5a26669a09121b23150b1328ff70cb25a25a4e157632cd8a4c71"
+      }
+    },
+    {
+      "id": "wraps",
+      "english": "wraps",
+      "translation": "包裹",
+      "example": "She wraps the gift.",
+      "audio": {
+        "src": "/audio/words/wrapping-gift-wraps.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d4771ec0ad044eb8e11655780b49c83fa1b666898faef33aa826cfbf01563be5",
+        "sha256": "4caa69873915dcf2d5d4cd10daf184c6292c3d295d241edb6fb7161687824b2e"
+      }
+    },
+    {
+      "id": "paper",
+      "english": "paper",
+      "translation": "紙",
+      "example": "The paper is red.",
+      "audio": {
+        "src": "/audio/words/wrapping-gift-paper.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "382635c9325bf3273d195ff1b8a44e5b11afd7d97addeb8863ea35feb98c1a07",
+        "sha256": "a07957eeaa561a15e81bda844f39eb0f706f20f8394ac166f4fde41cbcee2b2c"
+      }
+    },
+    {
+      "id": "tape",
+      "english": "tape",
+      "translation": "膠帶",
+      "example": "I need some tape.",
+      "audio": {
+        "src": "/audio/words/wrapping-gift-tape.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8ba4ec7d634f794ec260675876415c279bcd46e3705d5ffda147a65db9e15a12",
+        "sha256": "8ffdbd56ab37c37d69f0710ab246a512557e6b0d468b936638a51a1639b0ea7d"
+      }
+    },
+    {
+      "id": "ribbon",
+      "english": "ribbon",
+      "translation": "緞帶",
+      "example": "The ribbon is blue.",
+      "audio": {
+        "src": "/audio/words/wrapping-gift-ribbon.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "affc35bd6c6352aa5960f8db7845839953f83096b390b0bacb2f861440b5ed44",
+        "sha256": "9b023c896f8b0982863a3a862796904ea29a1344f47568e18c446e729b107f7e"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Yu puts a "
+        },
+        {
+          "text": "gift",
+          "wordIds": [
+            "gift"
+          ]
+        },
+        {
+          "text": " in a small "
+        },
+        {
+          "text": "box",
+          "wordIds": [
+            "box"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小宇把禮物放進一個小盒子裡。",
+      "audio": {
+        "src": "/audio/sentences/wrapping-gift/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c36d1157157155c84b22ca43ebd8330f943992d59713dc9f6cd04418af23c8d4",
+        "sha256": "f1dcc7f077fe8e8cacd7765f0cc9634533aa0c089621055440a221ae1d494a95"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "He "
+        },
+        {
+          "text": "wraps",
+          "wordIds": [
+            "wraps"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "paper",
+          "wordIds": [
+            "paper"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "around the ",
+          "phraseIds": [
+            "around-the-box"
+          ]
+        },
+        {
+          "text": "box",
+          "phraseIds": [
+            "around-the-box"
+          ],
+          "wordIds": [
+            "box"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他用紙包住盒子。",
+      "audio": {
+        "src": "/audio/sentences/wrapping-gift/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ec07d4d39627b709da3c770674c26446665ccb5baf382f6f52c8dcc5c3c55389",
+        "sha256": "11b187ac5e5248be3aa9cfb2c432831ca63094ca717cbeae4eeb88b99e83f571"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Hold this end, please",
+          "phraseIds": [
+            "hold-this-end-please"
+          ]
+        },
+        {
+          "text": ",” he asks Mom."
+        }
+      ],
+      "translation": "他請媽媽幫忙：「請抓住這一端。」",
+      "audio": {
+        "src": "/audio/sentences/wrapping-gift/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b4eb179a9b0012699ff250d707b31973270ec5df3116b343aca3aa804c002a8f",
+        "sha256": "511399b5deacda3a038107debedcef6e91a53124bcba95598007729fc1e18704"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom holds it while Yu "
+        },
+        {
+          "text": "adds ",
+          "phraseIds": [
+            "adds-tape"
+          ]
+        },
+        {
+          "text": "tape",
+          "phraseIds": [
+            "adds-tape"
+          ],
+          "wordIds": [
+            "tape"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "媽媽抓住那一端，小宇貼上膠帶。",
+      "audio": {
+        "src": "/audio/sentences/wrapping-gift/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8a7b47c23f3dfb9da6d49ce35d823bd568b70d0656d3a8f48d2feac14e5d9a76",
+        "sha256": "099e23707e6a341c991bd26e014fc26513d5ac56e3b22c7783df5be8349d77c1"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yu ties a "
+        },
+        {
+          "text": "ribbon",
+          "wordIds": [
+            "ribbon"
+          ]
+        },
+        {
+          "text": " around the "
+        },
+        {
+          "text": "gift",
+          "wordIds": [
+            "gift"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小宇在禮物外面繫上緞帶。",
+      "audio": {
+        "src": "/audio/sentences/wrapping-gift/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bff665da0a34e3ae91d797694185791b39d449ff1cc5e336742812f14e1107b3",
+        "sha256": "4e77c3c47942f93e38b5caad3bbd8713f76aca5ddc0e7aa7dcaaf409004ff13f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Now it is ready",
+          "phraseIds": [
+            "now-it-is-ready"
+          ]
+        },
+        {
+          "text": "!” he says."
+        }
+      ],
+      "translation": "他說：「現在準備好了！」",
+      "audio": {
+        "src": "/audio/sentences/wrapping-gift/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4e02c3c84adfa8e149b3bde3710da490dcc3cace48a6ad34746bb76863c5aa7f",
+        "sha256": "532f82a02593893f56db5b560c26933828b57b7d1401a3190fb5679e13b69901"
+      }
+    }
+  ]
+}

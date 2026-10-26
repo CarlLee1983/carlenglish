@@ -1,0 +1,261 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/setting-table/1.mp3",
+      "text": "Bo helps Dad set the table.",
+      "textSha256": "36b9d80a28db9e52ddc7cf6197ff51e38f6873a40db6671647fe59dfa485446f"
+    },
+    {
+      "src": "/audio/sentences/setting-table/2.mp3",
+      "text": "He puts three plates on the table.",
+      "textSha256": "f20aa27cf3ccc680bd6306ba58668a4b97e46c6c2218eb9a93d68d0653c82358"
+    },
+    {
+      "src": "/audio/sentences/setting-table/3.mp3",
+      "text": "“Do we need bowls?” asks Bo.",
+      "textSha256": "3087557ddd63bd6eb1f6a9f67ddf2b447c2e5d4ff50e844b672451cfd2b7b4e6"
+    },
+    {
+      "src": "/audio/sentences/setting-table/4.mp3",
+      "text": "“No, just plates,” says Dad.",
+      "textSha256": "2304fe003390ededf0b13aab1a2b033d4135b8c7b605978ef0ecaef48c6825cb"
+    },
+    {
+      "src": "/audio/sentences/setting-table/5.mp3",
+      "text": "Bo puts a spoon beside each plate.",
+      "textSha256": "e2fba901392d6d2534239ed8b1816db18086e9fb4ed6aaf7cbab0c9cdc1652fa"
+    },
+    {
+      "src": "/audio/sentences/setting-table/6.mp3",
+      "text": "“Dinner is ready!” Dad calls to Mom.",
+      "textSha256": "2530cea92e7d4ac0b134443bea9b91d95b4d5bb90893ea5914f8147023ed29ad"
+    },
+    {
+      "src": "/audio/phrases/setting-table-set-the-table.mp3",
+      "text": "set the table",
+      "textSha256": "f121d960d05cfc44f6969d6d90d4deb6bbca38d2a92e7f1cd580ea3ccadce496"
+    },
+    {
+      "src": "/audio/phrases/setting-table-do-we-need-bowls.mp3",
+      "text": "Do we need bowls",
+      "textSha256": "b204e6bc003c6c863b325e2312eae482128a312245028f33e0754018dad57b8d"
+    },
+    {
+      "src": "/audio/phrases/setting-table-beside-each-plate.mp3",
+      "text": "beside each plate",
+      "textSha256": "d3591c36e6a7fe144f28f72923d197b6da87223b7e81edb08780848d0b66b3cf"
+    },
+    {
+      "src": "/audio/phrases/setting-table-dinner-is-ready.mp3",
+      "text": "Dinner is ready",
+      "textSha256": "4a63228438671831fc8f50cc878c30b3e0a8abecb6b8e307c07499df3e2b1f87"
+    },
+    {
+      "src": "/audio/words/setting-table-table.mp3",
+      "text": "table",
+      "textSha256": "0d4fc4a78d3706edccafb665a8b2fdd9309e82c78625bb0f2b8e7bb9e1c4d21c"
+    },
+    {
+      "src": "/audio/words/setting-table-three.mp3",
+      "text": "three",
+      "textSha256": "8b5b9db0c13db24256c829aa364aa90c6d2eba318b9232a4ab9313b954d3555f"
+    },
+    {
+      "src": "/audio/words/setting-table-plates.mp3",
+      "text": "plates",
+      "textSha256": "e7bf93b428bead01dad66ac3e48f9b652f8fa9e6a741946ae58b5cacf0e7c31f"
+    },
+    {
+      "src": "/audio/words/setting-table-bowls.mp3",
+      "text": "bowls",
+      "textSha256": "590bf251e185fa75591499d117a181017f6ab5dcde9d211ed594853622439b67"
+    },
+    {
+      "src": "/audio/words/setting-table-spoon.mp3",
+      "text": "spoon",
+      "textSha256": "7f480e744a79953eb916b68f540e0eeec6f9cf23edf4aa08cc1cdf5f077c0f6f"
+    },
+    {
+      "src": "/audio/words/setting-table-dinner.mp3",
+      "text": "dinner",
+      "textSha256": "dda209044ad44962b012ececcc2cb2f7efd35c72d22465586e294b6493bc21c1"
+    },
+    {
+      "src": "/audio/sentences/shoe-shop-fit/1.mp3",
+      "text": "Mei tries on new shoes with Mom.",
+      "textSha256": "c2434ad666add80fd78a4c8e3c9d2b754d49f0713c2c994e2a14f53d86bc2d75"
+    },
+    {
+      "src": "/audio/sentences/shoe-shop-fit/2.mp3",
+      "text": "“These shoes are too small,” she says.",
+      "textSha256": "8160286d1b327faa626f0643d180aa316fe6d858c3b244d9e7682ea94bb346a4"
+    },
+    {
+      "src": "/audio/sentences/shoe-shop-fit/3.mp3",
+      "text": "A clerk brings her a bigger pair.",
+      "textSha256": "f9e3c545cffb77a28de5da320a02aefb422bc441eaa14370c56689a75ca39119"
+    },
+    {
+      "src": "/audio/sentences/shoe-shop-fit/4.mp3",
+      "text": "Mei walks a few steps in them.",
+      "textSha256": "426d01a154c221234e017e8bb37b47afa7b067995849006523b373934ccbbd82"
+    },
+    {
+      "src": "/audio/sentences/shoe-shop-fit/5.mp3",
+      "text": "“How do they feel?” asks Mom.",
+      "textSha256": "3dbe054df317653d265505fb079f64877534762214137a5dfe3b08cc410aae6b"
+    },
+    {
+      "src": "/audio/sentences/shoe-shop-fit/6.mp3",
+      "text": "“They fit well!” says Mei with a smile.",
+      "textSha256": "5583a4ebb11314dff85672c2df0c06c4172442177a78c0feb25a7532eb931394"
+    },
+    {
+      "src": "/audio/phrases/shoe-shop-fit-too-small.mp3",
+      "text": "too small",
+      "textSha256": "b4e1b307efbc77df67ffa56cfb9fbeeae65b7cf2782229277e07c47504cba62f"
+    },
+    {
+      "src": "/audio/phrases/shoe-shop-fit-a-bigger-pair.mp3",
+      "text": "a bigger pair",
+      "textSha256": "86bb1919d1a6a7ecdaaf7b4baf9b8d3a8f711e221f3c83d04be9fcab81d0fcff"
+    },
+    {
+      "src": "/audio/phrases/shoe-shop-fit-how-do-they-feel.mp3",
+      "text": "How do they feel",
+      "textSha256": "d757d668511fa9e62cc96f8707f43dfaf26481d5f5e7baf136a9e152a1f858f5"
+    },
+    {
+      "src": "/audio/phrases/shoe-shop-fit-they-fit-well.mp3",
+      "text": "They fit well",
+      "textSha256": "925a28c3d5a75bff8b955ad0c3347f905605e19d800448cacc6d3665ce68c939"
+    },
+    {
+      "src": "/audio/words/shoe-shop-fit-shoes.mp3",
+      "text": "shoes",
+      "textSha256": "01ea5ddd3be5477ac3eae2366fa12064615c485a541682db3e62d283241055a6"
+    },
+    {
+      "src": "/audio/words/shoe-shop-fit-small.mp3",
+      "text": "small",
+      "textSha256": "81db8ebbbbc69c6c6ad4a6aa92b76e0c08af547da236b9e2c9dbe1d8285a8130"
+    },
+    {
+      "src": "/audio/words/shoe-shop-fit-clerk.mp3",
+      "text": "clerk",
+      "textSha256": "c40dc72b0228e5850d8b173ff861a48acfb4a15b37b2849cbb6584bbadbc7907"
+    },
+    {
+      "src": "/audio/words/shoe-shop-fit-bigger.mp3",
+      "text": "bigger",
+      "textSha256": "9e5db53b5cf0dace033c64479e32fd987a0d9a592bc3f22e6360e9e7c2bbfbe4"
+    },
+    {
+      "src": "/audio/words/shoe-shop-fit-steps.mp3",
+      "text": "steps",
+      "textSha256": "b7595e2a863957fc6c225ed540d335dd1e859dd3032451c2e11bceb0329defa6"
+    },
+    {
+      "src": "/audio/words/shoe-shop-fit-fit.mp3",
+      "text": "fit",
+      "textSha256": "da4270e3735a3418c9d462af2e17d045132dede43df058e85b1f0399fcf96f1b"
+    },
+    {
+      "src": "/audio/sentences/shadow-play/1.mp3",
+      "text": "An sees her shadow on the ground.",
+      "textSha256": "838bb9b498385e575fad05913eb0ca091139ae7860f2bcfc5b72c0015744a020"
+    },
+    {
+      "src": "/audio/sentences/shadow-play/2.mp3",
+      "text": "She waves, and her shadow moves too.",
+      "textSha256": "1e4ea161af442ce18a55518d9f948be57d6f25101b585fab7e8e3c0dd7bb2450"
+    },
+    {
+      "src": "/audio/sentences/shadow-play/3.mp3",
+      "text": "“Its arms are long!” she says.",
+      "textSha256": "a8fed143461a819dd751220ba7fa6f2207af51e69e633abce4ef2f7e809665f4"
+    },
+    {
+      "src": "/audio/sentences/shadow-play/4.mp3",
+      "text": "Dad stands beside her in the sun.",
+      "textSha256": "aaa0d398971b4a7697af5baad8b479120435e6f1959ecb3a7016d1330a456a64"
+    },
+    {
+      "src": "/audio/sentences/shadow-play/5.mp3",
+      "text": "They make shapes with their hands.",
+      "textSha256": "9758bbf2df866d16bb0bfe70ff8a1902d1fc85ab8c8b1a781de8734029fb91b4"
+    },
+    {
+      "src": "/audio/sentences/shadow-play/6.mp3",
+      "text": "“Our shadows are dancing!” says An.",
+      "textSha256": "c1e4eebf83beccc7d9eb25877182d36779dce56c2652fa0ffe747fbdd40f16cc"
+    },
+    {
+      "src": "/audio/phrases/shadow-play-on-the-ground.mp3",
+      "text": "on the ground",
+      "textSha256": "9583374a67faef428fbb24e219fd4f9dbea2b2d4e8e8ff06302511877369a6a1"
+    },
+    {
+      "src": "/audio/phrases/shadow-play-moves-too.mp3",
+      "text": "moves too",
+      "textSha256": "ed377ca88544a19924f92ce3f4879720422d07c08ff02d6e178497696226b8d9"
+    },
+    {
+      "src": "/audio/phrases/shadow-play-in-the-sun.mp3",
+      "text": "in the sun",
+      "textSha256": "9dcbf55598ab6295fb6915c15dc2a91fed513a5b9ca48404bf255167684d4c45"
+    },
+    {
+      "src": "/audio/phrases/shadow-play-make-shapes.mp3",
+      "text": "make shapes",
+      "textSha256": "768dad46a994597f3ad182ccfedf34b162fd4fb2b9723503b5f43ce7fe99ce39"
+    },
+    {
+      "src": "/audio/words/shadow-play-shadow.mp3",
+      "text": "shadow",
+      "textSha256": "0bb09d80600eec3eb9d7793a6f859bedde2a2d83899b70bd78e961ed674b32f4"
+    },
+    {
+      "src": "/audio/words/shadow-play-ground.mp3",
+      "text": "ground",
+      "textSha256": "dbb3b50e59c7326b2ff7d6619430257b9188cf3c0b8d778f7275ffd3bf4998a2"
+    },
+    {
+      "src": "/audio/words/shadow-play-waves.mp3",
+      "text": "waves",
+      "textSha256": "eb81ba5ff779ca24d480493b87b9ad1c6ae8fd62211d6b3e8344c03aa55d495b"
+    },
+    {
+      "src": "/audio/words/shadow-play-arms.mp3",
+      "text": "arms",
+      "textSha256": "d86982d2329abe57405176ccba9812be866ceabe324c1e27ff2f6075fac6b871"
+    },
+    {
+      "src": "/audio/words/shadow-play-sun.mp3",
+      "text": "sun",
+      "textSha256": "27756f050e14a1cb1c1ee867f0eace9ea4d9fcb81b8bee089469f1ebd5fd7b17"
+    },
+    {
+      "src": "/audio/words/shadow-play-hands.mp3",
+      "text": "hands",
+      "textSha256": "45a229d57d35d935b67ce83a69f0353508b131ca39325494db3520252c841e10"
+    }
+  ]
+}

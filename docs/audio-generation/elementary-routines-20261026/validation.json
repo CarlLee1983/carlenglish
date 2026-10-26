@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-26",
+  "clips": 48,
+  "bytes": 701352,
+  "durationSeconds": 87.825,
+  "checks": {
+    "textSha256": true,
+    "fileSha256": true,
+    "voiceId": true,
+    "completeGraphemes": true,
+    "ffmpegDecode": true
+  },
+  "scope": [
+    "board-game-turns",
+    "bottle-refill",
+    "bedtime-alarm"
+  ]
+}

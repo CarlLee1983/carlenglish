@@ -1,0 +1,327 @@
+{
+  "id": "bottle-refill",
+  "title": "幫忙裝滿水壺",
+  "titleEn": "Filling a Water Bottle",
+  "category": "校園生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/bottle-refill.webp",
+    "alt": "小柏把打開的水壺放在飲水設備的出水口下，小美按下按鈕幫忙裝水。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "it-is-empty",
+      "english": "It is empty",
+      "translation": "水壺空了",
+      "audio": {
+        "src": "/audio/phrases/bottle-refill-it-is-empty.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a83ec5f12582011f4dfaee36629897ba4e98d17f78d98d4712660bfa620ce60c",
+        "sha256": "388afaa436ad378a2a7929dffce7e9aca85144bf951fd49ce5b683b1e7dd47fb"
+      }
+    },
+    {
+      "id": "under-the-tap",
+      "english": "under the tap",
+      "translation": "在出水口下",
+      "audio": {
+        "src": "/audio/phrases/bottle-refill-under-the-tap.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "273829d542911757216d3168c9241f38eb202818364a6d93ab7ed237bb2b464d",
+        "sha256": "c337dcd865034ebd108a8261da9da60e298c385e8cf119301066c1b10a054f02"
+      }
+    },
+    {
+      "id": "presses-the-button",
+      "english": "presses the button",
+      "translation": "按下按鈕",
+      "audio": {
+        "src": "/audio/phrases/bottle-refill-presses-the-button.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7a79d03713def719f02a6f74419111747cdfbdf860a104b06e59e285cd4e99cd",
+        "sha256": "9e71dd537cee8a6a254271efdc705fe56769fcb920fdc74729ab899ef24e3ffc"
+      }
+    },
+    {
+      "id": "it-is-full",
+      "english": "It is full",
+      "translation": "裝滿了",
+      "audio": {
+        "src": "/audio/phrases/bottle-refill-it-is-full.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f86a171945ed33be284cb0fdca4053b6b3eba9c9e186c16dc02f95d1ab59fab",
+        "sha256": "70b098db7c83e75effb081735bd49d0271b5cd2ef2930c9fb79f77611b02b17b"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "bottle",
+      "english": "bottle",
+      "translation": "水壺",
+      "example": "My bottle is blue.",
+      "audio": {
+        "src": "/audio/words/bottle-refill-bottle.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7def9c79e5be6d7a70022168b8b099ce1e707a2fd809a60fab73de6de578884b",
+        "sha256": "b22740718eaa2723de380b3a88fed1f7dfb3dc4b64273093d50551c90d142f46"
+      }
+    },
+    {
+      "id": "water",
+      "english": "water",
+      "translation": "水",
+      "example": "The water is in the bottle.",
+      "audio": {
+        "src": "/audio/words/bottle-refill-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501",
+        "sha256": "7efe162ba6b1a04e3df9ac5715fc4cff17f5213d533d249c01ea697d00faa778"
+      }
+    },
+    {
+      "id": "empty",
+      "english": "empty",
+      "translation": "空的",
+      "example": "My bottle is empty.",
+      "audio": {
+        "src": "/audio/words/bottle-refill-empty.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d",
+        "sha256": "454a3c6071d9cc5bd5be4f738bcbb21394b01cabf4e246426a511163069a6574"
+      }
+    },
+    {
+      "id": "tap",
+      "english": "tap",
+      "translation": "出水口",
+      "example": "The bottle is under the tap.",
+      "audio": {
+        "src": "/audio/words/bottle-refill-tap.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "729cd87c6329408e2bbfea0e2055404969539832af12773b558aca625ccc9041",
+        "sha256": "9c793a547b394f434842033728e987df612ddc3580d9ab87bb4d544442d560c0"
+      }
+    },
+    {
+      "id": "button",
+      "english": "button",
+      "translation": "按鈕",
+      "example": "Press this button.",
+      "audio": {
+        "src": "/audio/words/bottle-refill-button.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c3e2d78f3ff335724b4029f06505b511e4f8f01e258828de29849b36b40b55d0",
+        "sha256": "86fba4d5987f6a36f86c5483124cd464a2a13be8815b5a2f7207ce04b68eb494"
+      }
+    },
+    {
+      "id": "lid",
+      "english": "lid",
+      "translation": "壺蓋",
+      "example": "The lid is on the bottle.",
+      "audio": {
+        "src": "/audio/words/bottle-refill-lid.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "98fbb7ef60124ed0c3bb88f8cdf6cdaafb901fea5d9ae82ac5e000228c31e1e4",
+        "sha256": "58d067b96903f6d865d95f785724b33bdd5296fac641a119596f61568b180933"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Bo takes his "
+        },
+        {
+          "text": "bottle",
+          "wordIds": [
+            "bottle"
+          ]
+        },
+        {
+          "text": " to the "
+        },
+        {
+          "text": "water",
+          "wordIds": [
+            "water"
+          ]
+        },
+        {
+          "text": " station."
+        }
+      ],
+      "translation": "小柏帶著水壺走到飲水區。",
+      "audio": {
+        "src": "/audio/sentences/bottle-refill/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "63931a86faa15ea7b943d68ed276818a82280837ff79304df8a3842e4a24693a",
+        "sha256": "a14feb25ac52bf4faec2865d2356bbd217f40e35018c2d0cce5051cc0747a11f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "It is ",
+          "phraseIds": [
+            "it-is-empty"
+          ]
+        },
+        {
+          "text": "empty",
+          "phraseIds": [
+            "it-is-empty"
+          ],
+          "wordIds": [
+            "empty"
+          ]
+        },
+        {
+          "text": ",” he tells Mei."
+        }
+      ],
+      "translation": "他告訴小美：「水壺空了。」",
+      "audio": {
+        "src": "/audio/sentences/bottle-refill/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fc3a2cb88e5201cb2f058ba3c909452783d14ce7c1789175083d1d3b197497e7",
+        "sha256": "b566ba97021cf8d1db9cc6d324e273289fc5ed45d1dc0c09364cab9aff2e27a6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Bo puts the "
+        },
+        {
+          "text": "bottle",
+          "wordIds": [
+            "bottle"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "under the ",
+          "phraseIds": [
+            "under-the-tap"
+          ]
+        },
+        {
+          "text": "tap",
+          "phraseIds": [
+            "under-the-tap"
+          ],
+          "wordIds": [
+            "tap"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小柏把水壺放在出水口下。",
+      "audio": {
+        "src": "/audio/sentences/bottle-refill/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fbc9c4d357a5d08c5a5a8fb5a8a6b0afb70382e8228912d9f88d22a3fa85b2f8",
+        "sha256": "2daeb9fd03ffc0336537da70881a818a72dd59ef0eb42ae2ae2be3a9a754f690"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mei "
+        },
+        {
+          "text": "presses the ",
+          "phraseIds": [
+            "presses-the-button"
+          ]
+        },
+        {
+          "text": "button",
+          "phraseIds": [
+            "presses-the-button"
+          ],
+          "wordIds": [
+            "button"
+          ]
+        },
+        {
+          "text": " to add "
+        },
+        {
+          "text": "water",
+          "wordIds": [
+            "water"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小美按下按鈕，幫忙裝水。",
+      "audio": {
+        "src": "/audio/sentences/bottle-refill/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f16569e0de6f2503d6190fe9daf813ff9de80e608daed8e81d2f42df34b6065e",
+        "sha256": "da2e359f90b5975fd9a3705081119260b236459ad8de81e15a8eea6dcf105a64"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "It is full",
+          "phraseIds": [
+            "it-is-full"
+          ]
+        },
+        {
+          "text": "!” says Bo."
+        }
+      ],
+      "translation": "小柏說：「裝滿了！」",
+      "audio": {
+        "src": "/audio/sentences/bottle-refill/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "56a9dcbe2fe0cb360926aa74cd4b516a0f40197e0c4467d04ffe5236074b4cb7",
+        "sha256": "3d0b606377d0693819f133b7cfd55a352a6486dc0d5dcddefc36387f5dd047e4"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "He closes the "
+        },
+        {
+          "text": "lid",
+          "wordIds": [
+            "lid"
+          ]
+        },
+        {
+          "text": " and thanks Mei."
+        }
+      ],
+      "translation": "他蓋好壺蓋，向小美道謝。",
+      "audio": {
+        "src": "/audio/sentences/bottle-refill/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "56e634e71157c6e0473daca9305babbf4e7509d783ec7333fc0e19e51d43fbb7",
+        "sha256": "54a117ddcf2dfa6af99d642f32bb24425cec35babb1a8c9352353b57176360fa"
+      }
+    }
+  ]
+}

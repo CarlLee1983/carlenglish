@@ -4,6 +4,7 @@ import { join } from 'node:path';
 import { expect, test, type Page } from '@playwright/test';
 import type { Scene } from '../src/lib/scenes';
 import { getLearningLevel, learningLevels } from '../src/lib/catalog';
+import { selectScenes } from './helpers/scene-selection';
 
 const contentDir = join(process.cwd(), 'content/scenes');
 const scenes = readdirSync(contentDir).filter((name) => name.endsWith('.json')).sort()
@@ -360,7 +361,7 @@ test('level pages remain readable without JavaScript and links work by keyboard'
   }
 });
 
-for (const scene of scenes) {
+for (const scene of selectScenes(scenes)) {
   test(`${scene.id}: level journey, exact content, translation, direct URL, and reload`, async ({ page }) => {
     await page.goto(levelPath(scene));
     await page.getByRole('link', { name: `閱讀${scene.title}` }).click();

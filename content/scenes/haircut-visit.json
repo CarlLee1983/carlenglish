@@ -1,0 +1,318 @@
+{
+  "id": "haircut-visit",
+  "title": "剪短一點點",
+  "titleEn": "A Little Shorter",
+  "category": "生活服務",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/haircut-visit.webp",
+    "alt": "小柏披著理髮圍布坐在椅子上，看著鏡子，女理髮師替他修剪頭髮。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "a-little-shorter",
+      "english": "a little shorter",
+      "translation": "短一點",
+      "audio": {
+        "src": "/audio/phrases/haircut-visit-a-little-shorter.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8589e1785bc39f33e903547a0ea189a3fe981be746bc03bbcfee6fc2acd72f87",
+        "sha256": "346326ccc090e035a086f402cd4e794728deae4a9efbc01d124bb99a84c68693"
+      }
+    },
+    {
+      "id": "just-a-little-please",
+      "english": "Just a little, please",
+      "translation": "請剪一點點就好",
+      "audio": {
+        "src": "/audio/phrases/haircut-visit-just-a-little-please.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4221b996d7b9f92a5c3f9e4b42f23f83b45e0e4c51fd76215fa419d2d93d668a",
+        "sha256": "4a9ac1f0b801e1ca872b10430b0f4ba0707d047852abc7bc780105bdcb83e84f"
+      }
+    },
+    {
+      "id": "how-does-it-look",
+      "english": "How does it look",
+      "translation": "看起來怎麼樣",
+      "audio": {
+        "src": "/audio/phrases/haircut-visit-how-does-it-look.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f8b3989addf47d4c74e5b4e0d79a405368b35ad18ec522cc632d2f2ba8138d9c",
+        "sha256": "d5b619f25b0e888b62044add132624d4255fbf2ce5d9b4d16d21533cd31798a9"
+      }
+    },
+    {
+      "id": "i-like-it",
+      "english": "I like it",
+      "translation": "我喜歡",
+      "audio": {
+        "src": "/audio/phrases/haircut-visit-i-like-it.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "68594064b3736c58e04232a44a5605050535cf79ea1e33dd616c977f0d7f5846",
+        "sha256": "d3d00dcb78c6290c8666a684cf074e6621421a9e2f54747855b4e9a8ab1fa252"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "hair",
+      "english": "hair",
+      "translation": "頭髮",
+      "example": "My hair is long.",
+      "audio": {
+        "src": "/audio/words/haircut-visit-hair.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4dc2159bba05da394c3b94c6f54354db1f1f43b321ac4bbdfc2f658237858c70",
+        "sha256": "7e82a74170509d1155ae43bb40934ba52b2ef525b46002c5ee025e5e8b832765"
+      }
+    },
+    {
+      "id": "shorter",
+      "english": "shorter",
+      "translation": "更短的",
+      "example": "My hair is shorter now.",
+      "audio": {
+        "src": "/audio/words/haircut-visit-shorter.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "13602ce54433df2bee54be0836c90a0adc931b85abc047f786e1a6c39670adb8",
+        "sha256": "14c91294dab38b647c28c761ef0f6e08f211b30cfc8e20ee92308051c52fdee5"
+      }
+    },
+    {
+      "id": "barber",
+      "english": "barber",
+      "translation": "理髮師",
+      "example": "The barber is kind.",
+      "audio": {
+        "src": "/audio/words/haircut-visit-barber.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b67b8e2e8472a0a87a3d64d75995193c1da90bf098123586ceba69881880fbb1",
+        "sha256": "7d0b25f6528ada96fedc1471c384af49d0cd0b7c51593409cb23700460de4047"
+      }
+    },
+    {
+      "id": "cape",
+      "english": "cape",
+      "translation": "理髮圍布",
+      "example": "The barber has a cape.",
+      "audio": {
+        "src": "/audio/words/haircut-visit-cape.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0ed2fa2539de546945afee750df626e1e54543bf7fd05aad842e28f0969b06f8",
+        "sha256": "8bd6039b6e4d5f5aa92c34b7a31e6331a9b03dbc7dc98ca2de8b32c64048775e"
+      }
+    },
+    {
+      "id": "mirror",
+      "english": "mirror",
+      "translation": "鏡子",
+      "example": "I look in the mirror.",
+      "audio": {
+        "src": "/audio/words/haircut-visit-mirror.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "00154761637ca746c354a6d9cfbf1da1a92e79afa6bb127bb8a1c434e9c73170",
+        "sha256": "c9fd89fa21c1aedb5d160d17e162326b2ff1db7f77362bedcb3efd32b1ddc871"
+      }
+    },
+    {
+      "id": "cut",
+      "english": "cut",
+      "translation": "剪",
+      "example": "Please cut my hair.",
+      "audio": {
+        "src": "/audio/words/haircut-visit-cut.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "378bfce5cda2599a6cda399f1cacef861e4e575ec794744dcf0e55e9c4780633",
+        "sha256": "a2076537d719565c73c86b2bab08bfbd24d2f50bb1e732ce37896d5c96274e4d"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Bo wants his "
+        },
+        {
+          "text": "hair",
+          "wordIds": [
+            "hair"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "a little ",
+          "phraseIds": [
+            "a-little-shorter"
+          ]
+        },
+        {
+          "text": "shorter",
+          "phraseIds": [
+            "a-little-shorter"
+          ],
+          "wordIds": [
+            "shorter"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小柏想把頭髮剪短一點。",
+      "audio": {
+        "src": "/audio/sentences/haircut-visit/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f6356a902f86bdc0dc8946574f24365c5609d7268770658712aeb5787a8ee111",
+        "sha256": "cccdb1ace3c9167480336d8e28543563b43587401baa655f36a938709ae64acf"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "barber",
+          "wordIds": [
+            "barber"
+          ]
+        },
+        {
+          "text": " puts a "
+        },
+        {
+          "text": "cape",
+          "wordIds": [
+            "cape"
+          ]
+        },
+        {
+          "text": " around him."
+        }
+      ],
+      "translation": "理髮師替他圍上理髮圍布。",
+      "audio": {
+        "src": "/audio/sentences/haircut-visit/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "749d86eda7b262981944649a3dd8bdec2ffc70a9cb0aede87394c4ae77c7d070",
+        "sha256": "a5dfdfc464fe17eabc9cc159ae5129dcb1cbaa0581ba45056533c3b790522faa"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Just a little, please",
+          "phraseIds": [
+            "just-a-little-please"
+          ]
+        },
+        {
+          "text": ",” says Bo."
+        }
+      ],
+      "translation": "小柏說：「請剪一點點就好。」",
+      "audio": {
+        "src": "/audio/sentences/haircut-visit/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "16367b111e215ee301559228ab6b931246733231dd9e906224661ad3810141b9",
+        "sha256": "dfd7151e844172a3b7de6615cc7003c5137057d535426fe424fc2754e9bc09bc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "He watches her "
+        },
+        {
+          "text": "cut",
+          "wordIds": [
+            "cut"
+          ]
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "mirror",
+          "wordIds": [
+            "mirror"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他從鏡子裡看著她剪頭髮。",
+      "audio": {
+        "src": "/audio/sentences/haircut-visit/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "428cb7e55e38abf4d85f8fcdbe86f1004d51e5beda9faeeeefdf480561cb5b6e",
+        "sha256": "18224bac46150297179dacb77769180c55c619b88004f2644f82fbd5561afdc0"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "How does it look",
+          "phraseIds": [
+            "how-does-it-look"
+          ]
+        },
+        {
+          "text": "?” the "
+        },
+        {
+          "text": "barber",
+          "wordIds": [
+            "barber"
+          ]
+        },
+        {
+          "text": " asks."
+        }
+      ],
+      "translation": "理髮師問：「看起來怎麼樣？」",
+      "audio": {
+        "src": "/audio/sentences/haircut-visit/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e4cb4f00e6453c13fbd7ac8f32c950066f51fe645fbbea00e575703273f8822f",
+        "sha256": "4cbcf4f9cdc97ce51154faf24c5f725e106e55dda1288902d6c2520df17928bb"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "I like it",
+          "phraseIds": [
+            "i-like-it"
+          ]
+        },
+        {
+          "text": "!” Bo says with a smile."
+        }
+      ],
+      "translation": "小柏微笑著說：「我喜歡！」",
+      "audio": {
+        "src": "/audio/sentences/haircut-visit/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fd339795fa64089f26d4cfb39edc9747394bede04cb049d8785adbbcceda7f83",
+        "sha256": "7fdb213e767b025cae36f1bf155735803c5b37019d7834380d28567ad0ad5e6d"
+      }
+    }
+  ]
+}

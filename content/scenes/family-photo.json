@@ -1,0 +1,333 @@
+{
+  "id": "family-photo",
+  "title": "和阿公拍照",
+  "titleEn": "A Photo with Grandpa",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/family-photo.webp",
+    "alt": "小柏站在阿公身旁微笑，媽媽拿著相機為兩人拍照。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "a-photo-with-grandpa",
+      "english": "a photo with Grandpa",
+      "translation": "和阿公的一張合照",
+      "audio": {
+        "src": "/audio/phrases/family-photo-a-photo-with-grandpa.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "589dcc63831071f02b339eb436c7cd3de43e426d72730ded5d5d0c33b946ba2d",
+        "sha256": "97df848425a9aa2b3c5f8a22feddae5548dd48696ed675c29b9bad6939c05cf1"
+      }
+    },
+    {
+      "id": "stand-beside-me",
+      "english": "Stand beside me",
+      "translation": "站在我旁邊",
+      "audio": {
+        "src": "/audio/phrases/family-photo-stand-beside-me.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "29702fc4b5284598f1f41ad774bddd33b3bd8a1eedf8c2b6ea930ab783b75873",
+        "sha256": "db382bc8e134fdfb3da8e0361a3377c449f56e469ba6016544fd563e93e0e0aa"
+      }
+    },
+    {
+      "id": "moves-closer",
+      "english": "moves closer",
+      "translation": "靠近一點",
+      "audio": {
+        "src": "/audio/phrases/family-photo-moves-closer.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "14b019b35e57fd006b6a645d8e0926f1cd993260aabb951c26d8be767b352392",
+        "sha256": "e865ad99b8066a90c48a01af758f7ce91451d709669d6d7d2cce3e9a33d0b0a7"
+      }
+    },
+    {
+      "id": "say-cheese",
+      "english": "Say cheese",
+      "translation": "笑一個",
+      "audio": {
+        "src": "/audio/phrases/family-photo-say-cheese.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3af54e22fdb05bf134b7f2eb32ebf8bcf84eb1bf6ecb9b552b98b5fe8ec2cfee",
+        "sha256": "b6d7e96ff5e6d68b936de502514a856da6798f89a88caebe98516bbe000e07b2"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "photo",
+      "english": "photo",
+      "translation": "照片",
+      "example": "This photo is nice.",
+      "audio": {
+        "src": "/audio/words/family-photo-photo.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "55c64d0fcd6f9d5f7c828093857e3fdfda68478bb4e9bd24d481ef391c7804e8",
+        "sha256": "8a507969acf0b78dae0efddd847f7d58db3301ab81f9f6877f4dd2b240b58ab5"
+      }
+    },
+    {
+      "id": "grandpa",
+      "english": "Grandpa",
+      "translation": "阿公",
+      "example": "Grandpa is here.",
+      "audio": {
+        "src": "/audio/words/family-photo-grandpa.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e4dbedab3839b18ea4c3bbe46deb7fae1e62e0bfa2afa3ce561a44db35da1baa",
+        "sha256": "f649051d95d2bb723247f897f7ab1763cb9be5bba91de09cd72d20fe1d6bf660"
+      }
+    },
+    {
+      "id": "camera",
+      "english": "camera",
+      "translation": "相機",
+      "example": "Mom has a camera.",
+      "audio": {
+        "src": "/audio/words/family-photo-camera.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "89e8b9518d92279489bbdee26f3dc646d921d89a15afbd3a3e0ad695328a3da0",
+        "sha256": "a321ea7e6629274945156bd44620958c4c0c1dc9303d0a759349bfa03783a850"
+      }
+    },
+    {
+      "id": "door",
+      "english": "door",
+      "translation": "門",
+      "example": "The door is open.",
+      "audio": {
+        "src": "/audio/words/family-photo-door.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2534e2de1dec24fedab4c00266b55ba9ba60dde03a349c5b5662189dd561ba9e",
+        "sha256": "69c7f22e2348759787b180a2b3caed974987ff1c53e4ba21924a62d0e1a8bfda"
+      }
+    },
+    {
+      "id": "closer",
+      "english": "closer",
+      "translation": "更近地",
+      "example": "Come closer, please.",
+      "audio": {
+        "src": "/audio/words/family-photo-closer.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "be98c6532c0d6a26d7c9e3e15d148ffa35f558afd9f24a3c643ce9a07b791bba",
+        "sha256": "312d79cda1bf77aaa4c4f2391de15c2c59ffb31bc567d282da6d194d4ff40693"
+      }
+    },
+    {
+      "id": "smile",
+      "english": "smile",
+      "translation": "微笑",
+      "example": "We smile at Mom.",
+      "audio": {
+        "src": "/audio/words/family-photo-smile.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fa1eadc4c6995667412681c69ce33adfc9302a2965f521c40908549e670e2e4e",
+        "sha256": "5dee148b21699fff8c53aa782d027441030b3fb097dcdf358b5ec691d8cbe4fd"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Bo wants "
+        },
+        {
+          "text": "a ",
+          "phraseIds": [
+            "a-photo-with-grandpa"
+          ]
+        },
+        {
+          "text": "photo",
+          "phraseIds": [
+            "a-photo-with-grandpa"
+          ],
+          "wordIds": [
+            "photo"
+          ]
+        },
+        {
+          "text": " with ",
+          "phraseIds": [
+            "a-photo-with-grandpa"
+          ]
+        },
+        {
+          "text": "Grandpa",
+          "phraseIds": [
+            "a-photo-with-grandpa"
+          ],
+          "wordIds": [
+            "grandpa"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小柏想和阿公拍張照。",
+      "audio": {
+        "src": "/audio/sentences/family-photo/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "76a19ca1f7c88b8d9ae118ae7132c590bbd36349ea20f586bb653cc8dd3093ae",
+        "sha256": "a49c21271a8fa6208197ca0788e6003bf46c26ee44ac061b699062b24ed66c4f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom holds the "
+        },
+        {
+          "text": "camera",
+          "wordIds": [
+            "camera"
+          ]
+        },
+        {
+          "text": " near the "
+        },
+        {
+          "text": "door",
+          "wordIds": [
+            "door"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "媽媽在門邊拿著相機。",
+      "audio": {
+        "src": "/audio/sentences/family-photo/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b883c7ea144fe1b4a2ad851c41cae8ed51a042fc6984af7b38a00d6fabc14117",
+        "sha256": "573fa31774fc62731f1ba5f02f3e55549973341c0bbfbb2019e58a1fac1a835b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Stand beside me",
+          "phraseIds": [
+            "stand-beside-me"
+          ]
+        },
+        {
+          "text": ",” "
+        },
+        {
+          "text": "Grandpa",
+          "wordIds": [
+            "grandpa"
+          ]
+        },
+        {
+          "text": " tells Bo."
+        }
+      ],
+      "translation": "阿公告訴小柏：「站在我旁邊。」",
+      "audio": {
+        "src": "/audio/sentences/family-photo/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "36867b796a0541abaca64b092b767cdc3ea715cec906736bdba355dfc90cec65",
+        "sha256": "c65c20b7b2c78e69adaf1b51d64b2d36f84c6a2c6b8f77e8f04d8952446b22de"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Bo "
+        },
+        {
+          "text": "moves ",
+          "phraseIds": [
+            "moves-closer"
+          ]
+        },
+        {
+          "text": "closer",
+          "phraseIds": [
+            "moves-closer"
+          ],
+          "wordIds": [
+            "closer"
+          ]
+        },
+        {
+          "text": " and looks at Mom."
+        }
+      ],
+      "translation": "小柏靠近一點，看著媽媽。",
+      "audio": {
+        "src": "/audio/sentences/family-photo/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "24d8f635e814e73e2b733ce682c612149779e1097a6414a4d7f52933dfc5ef52",
+        "sha256": "e248eb7570cd473f34f6eb1cfc2604b6f700de34214981a0f6c03137baab23ad"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“Ready? "
+        },
+        {
+          "text": "Say cheese",
+          "phraseIds": [
+            "say-cheese"
+          ]
+        },
+        {
+          "text": "!” Mom says."
+        }
+      ],
+      "translation": "媽媽說：「準備好了嗎？笑一個！」",
+      "audio": {
+        "src": "/audio/sentences/family-photo/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "33b76169bfded15df2e62bc9195efda8786a453dfea365b803aaa87094fa819d",
+        "sha256": "bc5e8691831e463fed80bd382213b2363ef751bb3beac811099d75137c9c0ed7"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They "
+        },
+        {
+          "text": "smile",
+          "wordIds": [
+            "smile"
+          ]
+        },
+        {
+          "text": ", and Mom takes the "
+        },
+        {
+          "text": "photo",
+          "wordIds": [
+            "photo"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們露出笑容，媽媽拍下照片。",
+      "audio": {
+        "src": "/audio/sentences/family-photo/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "74f7025eebc5e192e6ec050c49a3b83c675623f2c79e59b4f22c23695fdf0541",
+        "sha256": "d00fcb8d2519a116073baed29e029aaa7622c568b1ffe6880f17241143676a60"
+      }
+    }
+  ]
+}

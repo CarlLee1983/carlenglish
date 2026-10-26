@@ -1,0 +1,324 @@
+{
+  "id": "board-game-turns",
+  "title": "輪流玩棋盤遊戲",
+  "titleEn": "Taking Turns at a Board Game",
+  "category": "遊戲與友誼",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/board-game-turns.webp",
+    "alt": "小美和小柏在桌旁玩棋盤遊戲，小美移動棋子，旁邊的骰子上面有三個點。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "it-is-your-turn",
+      "english": "It is your turn",
+      "translation": "輪到你了",
+      "audio": {
+        "src": "/audio/phrases/board-game-turns-it-is-your-turn.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6403e0d59f2db391353ceefd19ef0425ee9766a5e09d8aaf7c6052896c2dc133",
+        "sha256": "768e212338816b1ed18e3094f37e52618e25117b5498eb67b3a0e6172a3f7422"
+      }
+    },
+    {
+      "id": "rolls-a-die",
+      "english": "rolls a die",
+      "translation": "擲一顆骰子",
+      "audio": {
+        "src": "/audio/phrases/board-game-turns-rolls-a-die.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cc125dd64379dcb15d482f31dfc5a78f814411258c41b219426b148421824098",
+        "sha256": "7e217ee3393ea2dfcf5f85c56aa80e528afda443dd2101d73e8ad11c051d8bfd"
+      }
+    },
+    {
+      "id": "three-spaces",
+      "english": "three spaces",
+      "translation": "三格",
+      "audio": {
+        "src": "/audio/phrases/board-game-turns-three-spaces.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c0d08d774729d0a797b3b6dafab8ed05f5f7f3f240450e7d70b9414f38c83200",
+        "sha256": "59542423bbf924f7579c32f5322089de928c6b4429737346aea482d32af1192d"
+      }
+    },
+    {
+      "id": "near-the-end",
+      "english": "near the end",
+      "translation": "靠近終點",
+      "audio": {
+        "src": "/audio/phrases/board-game-turns-near-the-end.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "278e643fd09a6506e88c25b1d5386112dfa74c0daf3acf296cdd00c14193c6ad",
+        "sha256": "15838080a694520075e4c84574f47603aabd8f9acb5290e520e9b9340baee708"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "game",
+      "english": "game",
+      "translation": "遊戲",
+      "example": "This game is fun.",
+      "audio": {
+        "src": "/audio/words/board-game-turns-game.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6ca5cab77e702c787b4c14b3d3bf26bad43da606be6eed04ab0b9720120ae081",
+        "sha256": "a5779cf48bd3fe9522ba4b721ac1d3dba7c80d2b2773dbab91605aeeccd128fc"
+      }
+    },
+    {
+      "id": "die",
+      "english": "die",
+      "translation": "骰子（單數）",
+      "example": "This die is small.",
+      "audio": {
+        "src": "/audio/words/board-game-turns-die.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a8d79f40ddb79de569d778f1c0b832f9cc266b32274b702cff4ba2b8a0dd1549",
+        "sha256": "b667287519fe5009261150d4c1a5eb014a19004fa4b83e5a2880545b1ac0c1d0"
+      }
+    },
+    {
+      "id": "three",
+      "english": "three",
+      "translation": "三",
+      "example": "I have three cups.",
+      "audio": {
+        "src": "/audio/words/board-game-turns-three.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8b5b9db0c13db24256c829aa364aa90c6d2eba318b9232a4ab9313b954d3555f",
+        "sha256": "b770ad844f05a1cc384e8d5d93c25ee8b56fae15cccdf3e204a05447460611ac"
+      }
+    },
+    {
+      "id": "piece",
+      "english": "piece",
+      "translation": "棋子",
+      "example": "My piece is near the end.",
+      "audio": {
+        "src": "/audio/words/board-game-turns-piece.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "34235a2c502e3919d3f00af5dabb87cb58aef4566b10631f2a5db94950ebffbd",
+        "sha256": "e3a1d8b563a0688d16f000c10e0e2e1cc3830019e2069fbee111c9d19e539adb"
+      }
+    },
+    {
+      "id": "spaces",
+      "english": "spaces",
+      "translation": "棋格（複數）",
+      "example": "Move two spaces.",
+      "audio": {
+        "src": "/audio/words/board-game-turns-spaces.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ff6f0e9a530a025ad61dbea8fefa873faf153860b184d14af9bb4f57354f93cd",
+        "sha256": "8878c1cfef0d5501ed4da58e7cc39c105619e9b7be44369f5a736d203db5eed8"
+      }
+    },
+    {
+      "id": "end",
+      "english": "end",
+      "translation": "終點",
+      "example": "My piece is at the end.",
+      "audio": {
+        "src": "/audio/words/board-game-turns-end.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "361e48d0308f20e32dba5fb56328baf18d72ef0ccb43b84f5c262d2a6a1fc6c8",
+        "sha256": "65c6b627486a3a76f6de0a8002e480cae914b56380259a132569132c22a0d0c1"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Mei and Bo play a board "
+        },
+        {
+          "text": "game",
+          "wordIds": [
+            "game"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小美和小柏玩棋盤遊戲。",
+      "audio": {
+        "src": "/audio/sentences/board-game-turns/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9533cab1d7a0f5c5b9fbca13f197c5789eead08905d4160b83ea098ba203310d",
+        "sha256": "411aecc083259d7e0b2af412f514f0b92463ec0fdf1990b90923f4c20f5b38a1"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "It is your turn",
+          "phraseIds": [
+            "it-is-your-turn"
+          ]
+        },
+        {
+          "text": ",” says Bo."
+        }
+      ],
+      "translation": "小柏說：「輪到你了。」",
+      "audio": {
+        "src": "/audio/sentences/board-game-turns/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b53fbbeeab98ffe3aeed00c5f3b58673aad249a862fbb87db77c5d78f07f4dc0",
+        "sha256": "44bc15d1a71df2ef19d3b6f3104a0f3ab68548fbd5637e06cfb34d822358d11d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mei "
+        },
+        {
+          "text": "rolls a ",
+          "phraseIds": [
+            "rolls-a-die"
+          ]
+        },
+        {
+          "text": "die",
+          "phraseIds": [
+            "rolls-a-die"
+          ],
+          "wordIds": [
+            "die"
+          ]
+        },
+        {
+          "text": " and gets "
+        },
+        {
+          "text": "three",
+          "wordIds": [
+            "three"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小美擲骰子，擲出三點。",
+      "audio": {
+        "src": "/audio/sentences/board-game-turns/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "14264070f7b0ab8aca58c155df42f6e918f3e2d787cc0b9dead1ef2ef26ab957",
+        "sha256": "e26333fe4c64df19910b33c95e8a5ffbe07084680009015f79ce3294465f0665"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "She moves her "
+        },
+        {
+          "text": "piece",
+          "wordIds": [
+            "piece"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "three",
+          "phraseIds": [
+            "three-spaces"
+          ],
+          "wordIds": [
+            "three"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "spaces",
+          "phraseIds": [
+            "three-spaces"
+          ],
+          "wordIds": [
+            "spaces"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "她把自己的棋子往前移三格。",
+      "audio": {
+        "src": "/audio/sentences/board-game-turns/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a0b54cb1a4d5b312b1ccd6d6ca17dff236eccd9fb250873df741a65255485589",
+        "sha256": "05f8d564e13dc8bbafd83bfa5043e8c53e4b82250855a89b202fbb275abb1f05"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“Your "
+        },
+        {
+          "text": "piece",
+          "wordIds": [
+            "piece"
+          ]
+        },
+        {
+          "text": " is "
+        },
+        {
+          "text": "near the ",
+          "phraseIds": [
+            "near-the-end"
+          ]
+        },
+        {
+          "text": "end",
+          "phraseIds": [
+            "near-the-end"
+          ],
+          "wordIds": [
+            "end"
+          ]
+        },
+        {
+          "text": "!” says Bo."
+        }
+      ],
+      "translation": "小柏說：「你的棋子快到終點了！」",
+      "audio": {
+        "src": "/audio/sentences/board-game-turns/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c5dce410b878e092a16f733153134a570787d7a2347cd30fed871e974ebdc61d",
+        "sha256": "2215b49020ed23efafcd5b57aeca3c21a452d3739c463170ee130e29dcd80e33"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They smile and keep playing together."
+        }
+      ],
+      "translation": "他們笑著繼續一起玩。",
+      "audio": {
+        "src": "/audio/sentences/board-game-turns/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ded24feb28f702ff536b4b83ef05a0c720dbafec7cda173a774bcf21d0312d69",
+        "sha256": "7236cc2c56209e78e1862198fd2e4391fde5aeff1123801d1cbaf09ccf21c355"
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen",
+  "conversion": "Full frame PNG to WebP, sharp quality 86; no crop.",
+  "images": [
+    {
+      "id": "comparing-pencils",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No text, lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: An elementary boy and his adult woman teacher compare TWO graphite writing pencils at a classroom desk. Slightly elevated three-quarter view makes both people's faces and the desktop clear. Exactly TWO pencils on the clear desk: one RED-painted pencil clearly much LONGER, and one BLUE-painted pencil clearly SHORTER. They lie PARALLEL, side by side, with their left ends aligned and their sharpened graphite tips both pointing right; the red pencil extends well beyond the blue pencil. Boy points to the SHORTER BLUE pencil without hiding either endpoint. Teacher smiles encouragingly beside him. No ruler, numbers, writing, crayons or extra pencils anywhere. Simple classroom background, gentle daylight, focus on comparing physical length.",
+      "editPrompt": "Use case: precise-object-edit. Edit this original classroom illustration. Change ONLY the boy's pointing right hand and extended index finger so the fingertip points unambiguously to the SHORTER BLUE pencil: place the fingertip immediately to the LEFT of the blue pencil's left flat end, at the blue pencil's vertical level, BELOW the red pencil. Do not point at the red pencil or at the gap. Keep both complete pencils and their endpoints unobscured: longer red pencil above, shorter blue pencil below, parallel with left ends aligned, graphite tips to the right. Preserve every other detail, composition, style, colors, teacher, faces, desk and classroom. No text, extra objects or extra fingers. Maintain1536x1024.",
+      "initialGeneratedFile": "exec-12b5b9f9-af70-4c1e-a7ac-6fc708a8a45a.png",
+      "generationCalls": 1,
+      "editCalls": 1,
+      "generatedFile": "exec-c12f4c77-caf9-4d1b-9cad-693832a13d0a.png",
+      "src": "/images/scenes/comparing-pencils.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1a5385756f7b8b1a2f1c313226581944f7c76ee95a72c210da25c1371818dd56"
+    },
+    {
+      "id": "tablet-charging",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No text, lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: An elementary girl and her mother are beside a home study desk, getting a plain unbranded tablet charged. The tablet rests on a simple low stand on the desk, screen facing us at an angle; it shows ONLY a large simple generic low-battery pictogram with a small red charge bar and tiny charging bolt, no letters or numbers, no apps or recognizable operating-system interface. Mother gently connects ONE charging cable to the tablet's side. The same cable visibly leads to ONE small plain charger plugged into a normal wall outlet beside the desk. Girl watches calmly with her hands resting on the desk. Both people and natural hands clearly visible. Simple lamp and closed book can establish a study desk; no extra screens, no detached batteries, no tangled cables. Cozy modest apartment, warm daylight, focus on asking for help and waiting.",
+      "editPrompt": "Use case: precise-object-edit. Correct ONLY the charging connection and the mother's nearest hand in this illustration. The cable must plug into a visible connector on the RIGHT SIDE EDGE of the tablet (the edge facing the wall charger), never the glass screen. Remove the entire existing cord loop across the front of the desk and remove the loose connector from the mother's hand. Route ONE short plain white cable from the existing wall charger on the right to the tablet's RIGHT SIDE EDGE at mid-height, ending in a small clearly connected side plug. Mother now rests her empty hand flat on the wooden desk to the LEFT of the tablet. Keep the two people, their faces, tablet position, low red battery pictogram and charging bolt, desk, stand, charger, outlet, lamp, book, background, framing and illustration style unchanged. No additional cables or devices. No text. Maintain1536x1024.",
+      "initialGeneratedFile": "exec-bc0be86c-ad35-4301-ba2d-d4d82190e69b.png",
+      "generationCalls": 1,
+      "editCalls": 1,
+      "generatedFile": "exec-144ae478-2a90-48ec-9a31-3cd56f9f3f70.png",
+      "src": "/images/scenes/tablet-charging.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "cfd37a172fe44d7bf365fe7ad4f3b4945a9a1b80e5f58adf469f670fb21962d4"
+    },
+    {
+      "id": "ice-cream-choice",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No text, lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: An elementary girl stands at a small unbranded neighborhood ice cream stand, smiling gratefully as she holds ONE plain paper CUP containing a single scoop of PINK strawberry ice cream. An adult male seller stands behind the counter, smiling kindly, one hand resting naturally on the counter. A small stack of EMPTY waffle cones beside him makes the choice between cone and cup visible, but the girl's ice cream is definitely in a cup. Exactly two people. Simple shaded counter and plain canopy, soft daylight, clear cup and hands with no extra ice cream in the girl's hands. No price signs, lettering, labels, menus, logos or branded packaging. Original everyday street setting, warm gentle composition.",
+      "generationCalls": 1,
+      "editCalls": 0,
+      "generatedFile": "exec-6884bebc-87cf-42ae-aa03-b6a6ca67c58e.png",
+      "src": "/images/scenes/ice-cream-choice.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "c2bc17f18ed6fd37984742da324488f08ba048317a3e483961c66dc301685ab8"
+    }
+  ]
+}

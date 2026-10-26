@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-26",
+  "clips": 48,
+  "bytes": 693792,
+  "durationSeconds": 87.4,
+  "checks": {
+    "textSha256": true,
+    "fileSha256": true,
+    "voiceId": true,
+    "completeGraphemes": true,
+    "ffmpegDecode": true
+  },
+  "scope": [
+    "setting-table",
+    "shoe-shop-fit",
+    "shadow-play"
+  ]
+}

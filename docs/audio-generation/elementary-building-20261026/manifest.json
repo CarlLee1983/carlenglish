@@ -1,0 +1,693 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/block-tower/1.mp3",
+      "text": "Bo builds a tower with An.",
+      "textSha256": "1e78d83267a1c35a46be87f71e704c31704670a1b4996497680073e8d2b86f25",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cb5c2294f407ec6a64731bc1fb2a7cc1ed775a3d12e38fa8da3b39153c337155",
+      "duration": 2.075,
+      "graphemes": [
+        "Bo builds a tower with An."
+      ],
+      "phonemes": [
+        "bˈO bˈɪldz ɐ tˈWəɹ wɪð ɐn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/block-tower/2.mp3",
+      "text": "He puts a big block on the rug.",
+      "textSha256": "66ee99042f8a7895689666af9cfe68e3acab9a94053d1371a395fa570162fbb1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c8f78387abf114f18fc36c17120caa2f7bf80625c8cde47463020895dbde7bf6",
+      "duration": 2.3,
+      "graphemes": [
+        "He puts a big block on the rug."
+      ],
+      "phonemes": [
+        "hˌi pˌʊts ɐ bˈɪɡ blˈɑk ˌɔn ðə ɹˈʌɡ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/block-tower/3.mp3",
+      "text": "An adds two small blocks on top.",
+      "textSha256": "8a684aee1f01f90ed5d181258b46ca7f005359b640d92c3be45a174883d429fc",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7f4a15cdcbf5f3d6184abff629d70a5afb42ff2d5d9ffda3ba76bec9935e1bbc",
+      "duration": 2.45,
+      "graphemes": [
+        "An adds two small blocks on top."
+      ],
+      "phonemes": [
+        "ɐn ˈædz tˈu smˈɔl blˈɑks ˌɔn tˈɑp."
+      ]
+    },
+    {
+      "src": "/audio/sentences/block-tower/4.mp3",
+      "text": "“Can it stand?” asks Bo.",
+      "textSha256": "5d3bf141e75d2c49f9fe627a32e3b7b015f7dd0ad0b2140bf023f8a1f84d8988",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "62b222f42e99a9bdfa0315f56a8e64d17d7982a1c91481db68af88da4d9d6322",
+      "duration": 2.25,
+      "graphemes": [
+        "“Can it stand?” asks Bo."
+      ],
+      "phonemes": [
+        "“kˌæn ɪt stˈænd?” ˈæsks bˈO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/block-tower/5.mp3",
+      "text": "They let go and watch the tower.",
+      "textSha256": "7ab211aa3bedabc4675c1311c7a7bfd1234f4eec6d8116e98f88b698aba8b19a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f9b3f73a2942b27256626fdf460cb2618e243e94ce6a97a9ddf67d03c24968a7",
+      "duration": 2.3,
+      "graphemes": [
+        "They let go and watch the tower."
+      ],
+      "phonemes": [
+        "ðˌA lˈɛt ɡˌO ænd wˈɑʧ ðə tˈWəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/block-tower/6.mp3",
+      "text": "“Yes! It stands!” says An.",
+      "textSha256": "efab6e97acd49fb3c9f23bc1ef0f75a9c7e13c3511c7fe3da55861754d2725e3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "60d69cb51f61fd2e1d0ff5f9b3ff9dae35e0601dc75cfbbb2b43d49de44cdce5",
+      "duration": 2.425,
+      "graphemes": [
+        "“Yes! It stands!” says An."
+      ],
+      "phonemes": [
+        "“jˈɛs! ˌɪt stˈændz!” sˈɛz ɐn."
+      ]
+    },
+    {
+      "src": "/audio/phrases/block-tower-builds-a-tower.mp3",
+      "text": "builds a tower",
+      "textSha256": "5ab8e0e03806bf98ec69fd2ead0b78386ae034287db6f8053320942d3e8305b8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3f87c0bf9f16e0a82258abb2bcc51927b05c04546b4ae344174ce8b62515a185",
+      "duration": 1.7,
+      "graphemes": [
+        "builds a tower"
+      ],
+      "phonemes": [
+        "bˈɪldz ɐ tˈWəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/block-tower-on-top.mp3",
+      "text": "on top",
+      "textSha256": "f182531cddd4ca4db5ed96955e2ddcb102e0e84ea76696942f82e7d3b0677e3c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fb7fc0704a5a1aa9dfbce9807563009f7a6647e3f784c638448c80ba63b8f839",
+      "duration": 1.475,
+      "graphemes": [
+        "on top"
+      ],
+      "phonemes": [
+        "ˌɔn tˈɑp"
+      ]
+    },
+    {
+      "src": "/audio/phrases/block-tower-can-it-stand.mp3",
+      "text": "Can it stand",
+      "textSha256": "13dcd1e13091a068b58ecede6ed01a301a9daa85bbeddd9a08fd0a391d1eccc0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dbf2b4b87f9c90cdde935cd6bfa05a338d9725c7695daaadc0158ccc0a2715e4",
+      "duration": 1.5,
+      "graphemes": [
+        "Can it stand"
+      ],
+      "phonemes": [
+        "kˌæn ɪt stˈænd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/block-tower-let-go.mp3",
+      "text": "let go",
+      "textSha256": "84a910315b56ca0a56691e1265366f44b8a76ed4b3be9aa4d045a9592dddb651",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4838a172e928fcb6d036fa211b0a7486b5ad16f659ac3544862b8fade67ef342",
+      "duration": 1.475,
+      "graphemes": [
+        "let go"
+      ],
+      "phonemes": [
+        "lˈɛt ɡˌO"
+      ]
+    },
+    {
+      "src": "/audio/words/block-tower-tower.mp3",
+      "text": "tower",
+      "textSha256": "ad2015263f339bff96818238148b790bd02be561472f4ea7db44498caa0b6558",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "63214580334d494b700fd17a19556000dfaca30d1d8e3061cfc65f3e4ab10794",
+      "duration": 1.35,
+      "graphemes": [
+        "tower"
+      ],
+      "phonemes": [
+        "tˈWəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/block-tower-block.mp3",
+      "text": "block",
+      "textSha256": "496aca80e4d8f29fb8e8cd816c3afb48d3f103970b3a2ee1600c08ca67326dee",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3d5d409214c096f72dfbf0cd7c7fd093804e8214caaa02dcf34d6551b5c65d91",
+      "duration": 1.3,
+      "graphemes": [
+        "block"
+      ],
+      "phonemes": [
+        "blˈɑk"
+      ]
+    },
+    {
+      "src": "/audio/words/block-tower-rug.mp3",
+      "text": "rug",
+      "textSha256": "9fdaa7ee3f13a29e53b116094579cf9066f87750824391d9f16440ddcf8c09dc",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "556ac5dc4329147825ff14a63dcad82fe624b6f43fbde11f29a7c02f52d1e620",
+      "duration": 1.275,
+      "graphemes": [
+        "rug"
+      ],
+      "phonemes": [
+        "ɹˈʌɡ"
+      ]
+    },
+    {
+      "src": "/audio/words/block-tower-small.mp3",
+      "text": "small",
+      "textSha256": "81db8ebbbbc69c6c6ad4a6aa92b76e0c08af547da236b9e2c9dbe1d8285a8130",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5d3a8e44258455253b1bb9b5f22146059b065d21f7ea6ebc2f85579141e58456",
+      "duration": 1.375,
+      "graphemes": [
+        "small"
+      ],
+      "phonemes": [
+        "smˈɔl"
+      ]
+    },
+    {
+      "src": "/audio/words/block-tower-top.mp3",
+      "text": "top",
+      "textSha256": "28720365c5e7476a011e4f43ac003ee5f16247a263b9d623aa85ed311d73bf39",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9c9c78101e3edf6dc9cc98f33b526f6f448baf3544f9365c586b510362a8ec91",
+      "duration": 1.275,
+      "graphemes": [
+        "top"
+      ],
+      "phonemes": [
+        "tˈɑp"
+      ]
+    },
+    {
+      "src": "/audio/words/block-tower-stand.mp3",
+      "text": "stand",
+      "textSha256": "d37a24b801c6e2e338243b7361c5985e1d8e26bcf5555dd08cd8c969e01e1670",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "16fa6d8cdcb5de9dec3f558a2df77d2dc2d2b85bf89be225ec9142483c5ca631",
+      "duration": 1.425,
+      "graphemes": [
+        "stand"
+      ],
+      "phonemes": [
+        "stˈænd"
+      ]
+    },
+    {
+      "src": "/audio/sentences/bakery-rolls/1.mp3",
+      "text": "Mei visits a bakery with Dad.",
+      "textSha256": "78b3e187fe026a0bd962830bdf86d063222794411e9f2be1105f1d6752bd9d27",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fa419cc38761706cc72095164dc8ddf20b89bf66c0c2f140ceaffb9eea8139de",
+      "duration": 2.35,
+      "graphemes": [
+        "Mei visits a bakery with Dad."
+      ],
+      "phonemes": [
+        "mˈA vˈɪzəts ɐ bˈAkəɹi wɪð dˈæd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bakery-rolls/2.mp3",
+      "text": "“Two rolls, please,” she tells the baker.",
+      "textSha256": "a8dd2f211917e3f217cae54f58bf74d65fd14c4b544734b0bcaca7bdd6a28513",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cfa0ca03cc10409c78b73c2a63c6bcc05825e34673eaf1a3b78ea55d951d0275",
+      "duration": 3.075,
+      "graphemes": [
+        "“Two rolls, please,” she tells the baker."
+      ],
+      "phonemes": [
+        "“tˈu ɹˈOlz, plˈiz,” ʃi tˈɛlz ðə bˈAkəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bakery-rolls/3.mp3",
+      "text": "“Would you like a bag?” he asks.",
+      "textSha256": "6487e15a4770dc63b7504ce33d344a8ed7e49aecf6737d35f06cc22b95e7830c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e89f552c9a0130f077f84935f20e90b689e7cd996c82a23724875c438cc2218f",
+      "duration": 2.375,
+      "graphemes": [
+        "“Would you like a bag?” he asks."
+      ],
+      "phonemes": [
+        "“wˌʊd ju lˈIk ɐ bˈæɡ?” hi ˈæsks."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bakery-rolls/4.mp3",
+      "text": "“Yes, please,” says Mei.",
+      "textSha256": "5014f46bf346529eac58eae39cb133868a260f5da3eba3b4acf080bd9653be16",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "390e786fcf282ed979f299a62fdf44bef858d01cc17c28f7da15c5acb9903caa",
+      "duration": 2.2,
+      "graphemes": [
+        "“Yes, please,” says Mei."
+      ],
+      "phonemes": [
+        "“jˈɛs, plˈiz,” sˈɛz mˈA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bakery-rolls/5.mp3",
+      "text": "The baker puts the rolls in a bag.",
+      "textSha256": "af1498c4caab2fa5d0516468b07134f0d8676a1d4c1c3316130572cd8d09212f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1a6f63ea5aff57b6704c29c882c540767eb5ea65f28e0acb94d7a9b831513ce8",
+      "duration": 2.475,
+      "graphemes": [
+        "The baker puts the rolls in a bag."
+      ],
+      "phonemes": [
+        "ðə bˈAkəɹ pˌʊts ðə ɹˈOlz ɪn ɐ bˈæɡ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bakery-rolls/6.mp3",
+      "text": "Mei carries the warm bread home.",
+      "textSha256": "5ef2796e5167ba7c0f7dc3a5e5f35a960e3a5b580f1eaf6fe0458c63b76f4cd4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4d76965b36b32e593ccf4ba66489f4d3c68bbdbc078dbb38e917e86f6d1dfc70",
+      "duration": 2.375,
+      "graphemes": [
+        "Mei carries the warm bread home."
+      ],
+      "phonemes": [
+        "mˈA kˈɛɹiz ðə wˈɔɹm bɹˈɛd hˈOm."
+      ]
+    },
+    {
+      "src": "/audio/phrases/bakery-rolls-two-rolls-please.mp3",
+      "text": "Two rolls, please",
+      "textSha256": "7ab391e1d8ab1f1543e12d664780973f8a84ef86c700e039c26e8cf02c80e856",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "be3d5a4ea7c29f71e1b4614fe25bc7fd332cb5eb758b78199cb94d7bb49e94fb",
+      "duration": 1.825,
+      "graphemes": [
+        "Two rolls, please"
+      ],
+      "phonemes": [
+        "tˈu ɹˈOlz, plˈiz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bakery-rolls-would-you-like-a-bag.mp3",
+      "text": "Would you like a bag",
+      "textSha256": "ca92a2f9b0300c37b50b13b4d0f513e803484a96955a46baa424b0ef863368e8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d89f937ea66864d6435c941c3d006c0aec1ce5fba1f0b31c3aaa6b74eda337e6",
+      "duration": 1.75,
+      "graphemes": [
+        "Would you like a bag"
+      ],
+      "phonemes": [
+        "wˌʊd ju lˈIk ɐ bˈæɡ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bakery-rolls-yes-please.mp3",
+      "text": "Yes, please",
+      "textSha256": "e360440aadb5336ce73cf49dab67e9c1b0dd006647e21055db8c6532635df035",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "daaf48932fe1ee8a5010cf5f362a90d1fd9d4e79474f2db2ec4b7b5210d2776d",
+      "duration": 1.65,
+      "graphemes": [
+        "Yes, please"
+      ],
+      "phonemes": [
+        "jˈɛs, plˈiz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bakery-rolls-in-a-bag.mp3",
+      "text": "in a bag",
+      "textSha256": "eab136e989d625be973ce8e48032b937b36925edde43b4498dd14eda52f54761",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "55acec4b9ce0d4bfc2c61ad38e9d10e49ee9a355d4bfc0741425b1ec90070893",
+      "duration": 1.475,
+      "graphemes": [
+        "in a bag"
+      ],
+      "phonemes": [
+        "ɪn ɐ bˈæɡ"
+      ]
+    },
+    {
+      "src": "/audio/words/bakery-rolls-bakery.mp3",
+      "text": "bakery",
+      "textSha256": "144ac86d05c00f559949c5db9d12a6c477292f690606ac2e8bdb2c9f9ee03406",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2f449762fa51846a450ecef06cc04d2aaa4e349428a3b839fb8e34ccb807b0e9",
+      "duration": 1.45,
+      "graphemes": [
+        "bakery"
+      ],
+      "phonemes": [
+        "bˈAkəɹi"
+      ]
+    },
+    {
+      "src": "/audio/words/bakery-rolls-rolls.mp3",
+      "text": "rolls",
+      "textSha256": "d5080414aac6fdf6ecc7d4001cdaac487682a7af6b8ab86341669d50f94d3316",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1830553e8bde301487d01453cc5daedcf54c8b89b6708270aadf327fe856c003",
+      "duration": 1.375,
+      "graphemes": [
+        "rolls"
+      ],
+      "phonemes": [
+        "ɹˈOlz"
+      ]
+    },
+    {
+      "src": "/audio/words/bakery-rolls-baker.mp3",
+      "text": "baker",
+      "textSha256": "530c4fc0e55038578184991c3f991043d4ec5bdceae63ed8f80743d313fb382d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1b28241fdb23e2cf1224bb53d244a46b06a1dd0915705534d6e254c2f22ded50",
+      "duration": 1.375,
+      "graphemes": [
+        "baker"
+      ],
+      "phonemes": [
+        "bˈAkəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/bakery-rolls-bag.mp3",
+      "text": "bag",
+      "textSha256": "c018019b6a8b01ab5868cf4be8db327a7549ae03202548b9ffcd2671c4c2b624",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "42a9de86d2234496626d1006ad00c3f1828e4a26e53bad80d530938388e6dd56",
+      "duration": 1.3,
+      "graphemes": [
+        "bag"
+      ],
+      "phonemes": [
+        "bˈæɡ"
+      ]
+    },
+    {
+      "src": "/audio/words/bakery-rolls-bread.mp3",
+      "text": "bread",
+      "textSha256": "985604c2b60243122c24d4e18363e6434c535923be05f760204a1aef023aae9b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4efee779fdc5a018d888f1c039be0efd26e680616aa3f02a0da6ef1e4505410e",
+      "duration": 1.075,
+      "graphemes": [
+        "bread"
+      ],
+      "phonemes": [
+        "bɹˈɛd"
+      ]
+    },
+    {
+      "src": "/audio/words/bakery-rolls-warm.mp3",
+      "text": "warm",
+      "textSha256": "0f0aa408c1832abefd06bced5378aa7945c11b3fe2f24f8a22cd6dbdbe4bccd8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ce6ae331eb9d067850d76016cd5c6834e86705844cbcc380c3798044054262b7",
+      "duration": 1.35,
+      "graphemes": [
+        "warm"
+      ],
+      "phonemes": [
+        "wˈɔɹm"
+      ]
+    },
+    {
+      "src": "/audio/sentences/art-tools-away/1.mp3",
+      "text": "Yu sorts his art tools after class.",
+      "textSha256": "9cf9ebfdadecabd78bf54aca47330816e2b35a4da158388506fa5508873ee911",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b47d18ed29c90925d094c45d6ba04ff37c54f2003b831ace7c2c24b6439ee06f",
+      "duration": 2.75,
+      "graphemes": [
+        "Yu sorts his art tools after class."
+      ],
+      "phonemes": [
+        "jˈu sˈɔɹts hɪz ˈɑɹt tˈulz ˈæftəɹ klˈæs."
+      ]
+    },
+    {
+      "src": "/audio/sentences/art-tools-away/2.mp3",
+      "text": "He puts the brushes in a jar.",
+      "textSha256": "cbcc6fb08be2292675e6380776069561fa0c5e7b63dbe79f27b1610060146551",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f1f70e7afc15e6cce3cf4aa7a0a5148d29b8fbdd2f5349ab559184e22e36486f",
+      "duration": 2.25,
+      "graphemes": [
+        "He puts the brushes in a jar."
+      ],
+      "phonemes": [
+        "hˌi pˌʊts ðə bɹˈʌʃᵻz ɪn ɐ ʤˈɑɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/art-tools-away/3.mp3",
+      "text": "“Where do these crayons go?” he asks.",
+      "textSha256": "bb983d2b1d59e93a5bc5867e8870313e21a158c4fef4989700e4bed7862d436f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0f89abbeef02693d8ac83e55d01c44aaa0b14ce7bdf8bf5a1730e53521f43d65",
+      "duration": 2.775,
+      "graphemes": [
+        "“Where do these crayons go?” he asks."
+      ],
+      "phonemes": [
+        "“wˌɛɹ dˈu ðiz kɹˈAˌɑnz ɡˌO?” hi ˈæsks."
+      ]
+    },
+    {
+      "src": "/audio/sentences/art-tools-away/4.mp3",
+      "text": "“In this box,” says his teacher.",
+      "textSha256": "1a3512b87216f12558e9000244a1cee703e74f5603ca31196b033c86a8a84c11",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "31f33806392412483056e9eba254609e069830ac27d1753dc877f26690dd9cdf",
+      "duration": 2.55,
+      "graphemes": [
+        "“In this box,” says his teacher."
+      ],
+      "phonemes": [
+        "“ɪn ðɪs bˈɑks,” sˈɛz hɪz tˈiʧəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/art-tools-away/5.mp3",
+      "text": "Yu closes the box and stacks the paper.",
+      "textSha256": "efc128544fa796d5fc011952c1649863b35fd4249e236ec9cd4d44f6c84b900f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0c4c21157b05eb9a53961ca30829520258b0d3289799ff5f14c9862d7ff5c540",
+      "duration": 2.85,
+      "graphemes": [
+        "Yu closes the box and stacks the paper."
+      ],
+      "phonemes": [
+        "jˈu klˈOzᵻz ðə bˈɑks ænd stˈæks ðə pˈApəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/art-tools-away/6.mp3",
+      "text": "“Now my desk is tidy!” he says.",
+      "textSha256": "769555601f909e47f7da82db507338ef9ffc9c75ade87ad8628cb77cff89cb0f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ebf8d894bbe2a0ce219cb9a93e7f1b2b38643b33f3fe1dfc72b98a5a60072db5",
+      "duration": 2.525,
+      "graphemes": [
+        "“Now my desk is tidy!” he says."
+      ],
+      "phonemes": [
+        "“nˈW mI dˈɛsk ɪz tˈIdi!” hi sˈɛz."
+      ]
+    },
+    {
+      "src": "/audio/phrases/art-tools-away-after-class.mp3",
+      "text": "after class",
+      "textSha256": "5c7860d21e04156c5b0966c0bfe6a5f7b519760d7ec904e122fabedea329c59e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6ea4bbce0af218082fba99c8fed41309fa89968adb78134d4ff3026623b299f3",
+      "duration": 1.65,
+      "graphemes": [
+        "after class"
+      ],
+      "phonemes": [
+        "ˈæftəɹ klˈæs"
+      ]
+    },
+    {
+      "src": "/audio/phrases/art-tools-away-where-do-these-crayons-go.mp3",
+      "text": "Where do these crayons go",
+      "textSha256": "fb26359e3c38cc060bb61768871f3c3741e5f03838a94588f3da731819f3fd70",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "10256ca0ae661bf1648897ed07b6fc8cae4a8aea9ae6a078124b02755abc18e0",
+      "duration": 1.975,
+      "graphemes": [
+        "Where do these crayons go"
+      ],
+      "phonemes": [
+        "wˌɛɹ dˈu ðiz kɹˈAˌɑnz ɡˌO"
+      ]
+    },
+    {
+      "src": "/audio/phrases/art-tools-away-in-this-box.mp3",
+      "text": "In this box",
+      "textSha256": "e7771c5d72d2991e916b7e4af8c0efe44022e549c38fc66015416ff1d049b55a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e4539002748db4e3eb886be8ac874edc97a93a4ae687b2d089eb099e9f50603a",
+      "duration": 1.6,
+      "graphemes": [
+        "In this box"
+      ],
+      "phonemes": [
+        "ɪn ðɪs bˈɑks"
+      ]
+    },
+    {
+      "src": "/audio/phrases/art-tools-away-my-desk-is-tidy.mp3",
+      "text": "my desk is tidy",
+      "textSha256": "e7a15f4614548bf6539fcf1888a5869e6df19abbb3df8d51f21fac46dd8d0461",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e19788aa29ce9c505bc8c367016ffa1d8ec1cb671b3683d4578b86f57dcbdfe7",
+      "duration": 1.875,
+      "graphemes": [
+        "my desk is tidy"
+      ],
+      "phonemes": [
+        "mI dˈɛsk ɪz tˈIdi"
+      ]
+    },
+    {
+      "src": "/audio/words/art-tools-away-tools.mp3",
+      "text": "tools",
+      "textSha256": "f9d35d43770d39092a663e665e82ae1d84a9e0da3d0d10c407acada6a40cd281",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0d71cf3b3353409685fa73d4e8a1615d94261205f5390a33eb7ce1a5ad18c90c",
+      "duration": 1.425,
+      "graphemes": [
+        "tools"
+      ],
+      "phonemes": [
+        "tˈulz"
+      ]
+    },
+    {
+      "src": "/audio/words/art-tools-away-brushes.mp3",
+      "text": "brushes",
+      "textSha256": "b4d2062daaed8dcfe507ec4e3f68d6817b1f2a4554bf709d6be7a03eaa515c15",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d151f4f957df4ece3913b0c0858f29a8de63a4902c701cf227f4da6cad9bbdbb",
+      "duration": 1.5,
+      "graphemes": [
+        "brushes"
+      ],
+      "phonemes": [
+        "bɹˈʌʃᵻz"
+      ]
+    },
+    {
+      "src": "/audio/words/art-tools-away-jar.mp3",
+      "text": "jar",
+      "textSha256": "0163f1eea7894350060624d315234d40c508ab251ba121714e234503045faadd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f1ba282d265ab6acf0d6be5acae39c36ec3d6d8ee3674860da096ad784fa14ea",
+      "duration": 1.2,
+      "graphemes": [
+        "jar"
+      ],
+      "phonemes": [
+        "ʤˈɑɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/art-tools-away-crayons.mp3",
+      "text": "crayons",
+      "textSha256": "e23ce146f7285d84c5ce5f7181c3092df9e1ca14adb0986aa7269cb14c70f250",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f14c746e40500b8f500c1827f9f6cef93e82071c0169c0b73ce391f01d229d4a",
+      "duration": 1.575,
+      "graphemes": [
+        "crayons"
+      ],
+      "phonemes": [
+        "kɹˈAˌɑnz"
+      ]
+    },
+    {
+      "src": "/audio/words/art-tools-away-box.mp3",
+      "text": "box",
+      "textSha256": "26f8567f2569182294c3fa5b9f9cb2270b554eef628b4c149cf82a42888ff4ae",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "27eb3a0398f8eca66d0bbd0c6aee69a601d1fe06da51a8092e3e02d322575d29",
+      "duration": 1.3,
+      "graphemes": [
+        "box"
+      ],
+      "phonemes": [
+        "bˈɑks"
+      ]
+    },
+    {
+      "src": "/audio/words/art-tools-away-paper.mp3",
+      "text": "paper",
+      "textSha256": "382635c9325bf3273d195ff1b8a44e5b11afd7d97addeb8863ea35feb98c1a07",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "56b994593679c9d5549c82f84fdcf3a577bb15f8b4e38d80e5ffb53d0f470fcf",
+      "duration": 1.425,
+      "graphemes": [
+        "paper"
+      ],
+      "phonemes": [
+        "pˈApəɹ"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "id": "tablet-charging",
+  "title": "平板需要充電",
+  "titleEn": "Charging the Tablet",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/tablet-charging.webp",
+    "alt": "小安和媽媽在書桌旁看著正在充電的平板，充電線連著平板和充電器。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "on-the-desk",
+      "english": "on the desk",
+      "translation": "在書桌上",
+      "audio": {
+        "src": "/audio/phrases/tablet-charging-on-the-desk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "348f5a04b8ff66810f824c82af0410e0306c1c702e411c91e58b70ff4be9fe50",
+        "sha256": "5c6589dd0b3c6a4ccfccf82211861ec7beed470e79b15d99305d4e37bfe56037"
+      }
+    },
+    {
+      "id": "the-battery-is-low",
+      "english": "The battery is low",
+      "translation": "電量快沒了",
+      "audio": {
+        "src": "/audio/phrases/tablet-charging-the-battery-is-low.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a8914926a63a0d13ad5d1166d457b35a03b868f966c92009ab48bfade37eb60e",
+        "sha256": "a93199aa501d6ed1306ba9089a1259704d50966d450c8373acdd10a4a7818c4a"
+      }
+    },
+    {
+      "id": "can-you-help-me",
+      "english": "Can you help me",
+      "translation": "可以幫我嗎",
+      "audio": {
+        "src": "/audio/phrases/tablet-charging-can-you-help-me.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "45e8dd79ec3aafb729946309e46708a535d7b365a80b9feb2d595487e45e10e1",
+        "sha256": "e6fe8ff0e3c309418f6555b9544b3680e0dda3fd537e5b970517854624cbf816"
+      }
+    },
+    {
+      "id": "we-can-wait",
+      "english": "We can wait",
+      "translation": "我們可以等一等",
+      "audio": {
+        "src": "/audio/phrases/tablet-charging-we-can-wait.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0dee56495441660c400c0d8e6b8355783f2747a5758338eea9476ed8045027bf",
+        "sha256": "fdc7de76f5b59bf3d0ed1670fabf96ce30dee40647bf21a4ccd9958e4c8befe0"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "tablet",
+      "english": "tablet",
+      "translation": "平板電腦",
+      "example": "The tablet is on the desk.",
+      "audio": {
+        "src": "/audio/words/tablet-charging-tablet.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5bed85bd69a5502a8f645a58a05e979f94bdeb77b957199ce8429e0ffbc01257",
+        "sha256": "48bd7e7c843960b0c9cf86be8e8e14fbcf032decfd5fab2786f657d9e1ccdb83"
+      }
+    },
+    {
+      "id": "battery",
+      "english": "battery",
+      "translation": "電池",
+      "example": "The battery is low.",
+      "audio": {
+        "src": "/audio/words/tablet-charging-battery.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f3d1701e1d575e1294786989517866986bc97343e07af63e201f46ba0be5806a",
+        "sha256": "302a45886fe475bcddf0cc881d3aa6c9cb573ccf3bf86adc992c85e1f5bf8c8d"
+      }
+    },
+    {
+      "id": "desk",
+      "english": "desk",
+      "translation": "書桌",
+      "example": "My desk is small.",
+      "audio": {
+        "src": "/audio/words/tablet-charging-desk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "49be417ad74080a0031b636b44cfc26fdd0065492d6cd3b033960c4414955cf7",
+        "sha256": "61cc6de5b5eb90821e0a4f4ee4e78f624d87ea2e33b1657afa62a22040e5bc20"
+      }
+    },
+    {
+      "id": "charger",
+      "english": "charger",
+      "translation": "充電器",
+      "example": "Mom has a charger.",
+      "audio": {
+        "src": "/audio/words/tablet-charging-charger.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "38102b4b8d453fbae854c177c7baad3e4fa42407b104b220dfb42837fb562db2",
+        "sha256": "6e5ab8db0d2599721e000da9f496196af09680cc8d20d41b7307929801f805e4"
+      }
+    },
+    {
+      "id": "cable",
+      "english": "cable",
+      "translation": "充電線",
+      "example": "This cable is long.",
+      "audio": {
+        "src": "/audio/words/tablet-charging-cable.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7d6e18d0ff4bed3b1d1f3afc82ffa124f83ff2b43c83bf14a69562c8e22f0b2c",
+        "sha256": "a5392ebdd31584d546090f4d55bb40c6e58b17ddea1ae8e7e6b988c2ff6659d6"
+      }
+    },
+    {
+      "id": "wait",
+      "english": "wait",
+      "translation": "等待",
+      "example": "We can wait here.",
+      "audio": {
+        "src": "/audio/words/tablet-charging-wait.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "716ecabb45ac6a88a049398fde2d3d5225c6dd3121ae9bbc5af457eb4baf056a",
+        "sha256": "f588bc7b3f83c5ee9e650fb37e6dd7d6e8e0e316070cd3d937d027f9fe749da4"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "An puts her "
+        },
+        {
+          "text": "tablet",
+          "wordIds": [
+            "tablet"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on the ",
+          "phraseIds": [
+            "on-the-desk"
+          ]
+        },
+        {
+          "text": "desk",
+          "phraseIds": [
+            "on-the-desk"
+          ],
+          "wordIds": [
+            "desk"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小安把平板放在書桌上。",
+      "audio": {
+        "src": "/audio/sentences/tablet-charging/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "188fd4e6e0d7fdf43c7e75ae7af869a66a24b023185df14f7b00b8c9e3e6fdb9",
+        "sha256": "4d31d9b0233e0ad1b1861b7857c0af9a365f60e4d71421c9c8ea2047435d8488"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "The ",
+          "phraseIds": [
+            "the-battery-is-low"
+          ]
+        },
+        {
+          "text": "battery",
+          "phraseIds": [
+            "the-battery-is-low"
+          ],
+          "wordIds": [
+            "battery"
+          ]
+        },
+        {
+          "text": " is low",
+          "phraseIds": [
+            "the-battery-is-low"
+          ]
+        },
+        {
+          "text": ",” she tells Mom."
+        }
+      ],
+      "translation": "她告訴媽媽：「電量快沒了。」",
+      "audio": {
+        "src": "/audio/sentences/tablet-charging/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f39c9c4f85977b86e9ddc7335839af024f7ec8cebdf4bd1b8c263592a5577755",
+        "sha256": "5f6080b6533963025bf16a7cf3d873d329afb52778706e0189e1d0d5ac03c49c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Can you help me",
+          "phraseIds": [
+            "can-you-help-me"
+          ]
+        },
+        {
+          "text": "?” she asks."
+        }
+      ],
+      "translation": "她問：「可以幫我嗎？」",
+      "audio": {
+        "src": "/audio/sentences/tablet-charging/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "87c7598d7ffe5b99c0ee2a8c33f2e7ba24307685428ec7f3f571c5d2ebe05089",
+        "sha256": "87106fe6f3ed6c9bbcb327e71426706d9fd67e2fa70e492c0d02d82cabb67f00"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom brings a "
+        },
+        {
+          "text": "charger",
+          "wordIds": [
+            "charger"
+          ]
+        },
+        {
+          "text": " and a "
+        },
+        {
+          "text": "cable",
+          "wordIds": [
+            "cable"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "媽媽拿來充電器和一條充電線。",
+      "audio": {
+        "src": "/audio/sentences/tablet-charging/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "03626953d85a9e4e05b3f8fc4b029fc6739fb589b1554aad814979da78133855",
+        "sha256": "38d6b660a71a3069b1d64e651cc9cac72f320d9d985cee6b9fe57358ad9123da"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "She connects them to charge the "
+        },
+        {
+          "text": "tablet",
+          "wordIds": [
+            "tablet"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "她把它們接好，替平板充電。",
+      "audio": {
+        "src": "/audio/sentences/tablet-charging/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7aa834306c35c850b0dc50272eb3f7d8d94845e65a0807e5b4e8a3ebae7ec6f3",
+        "sha256": "66b3ed2364c674e876f1b0c455d0ebb717894bf7fb7c0af730a0215b9c246bef"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "We can ",
+          "phraseIds": [
+            "we-can-wait"
+          ]
+        },
+        {
+          "text": "wait",
+          "phraseIds": [
+            "we-can-wait"
+          ],
+          "wordIds": [
+            "wait"
+          ]
+        },
+        {
+          "text": ",” says An."
+        }
+      ],
+      "translation": "小安說：「我們可以等一等。」",
+      "audio": {
+        "src": "/audio/sentences/tablet-charging/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "db9a4f59849fcae0634de21404d9b4078c864639141aa7ebaf87d7fda72b0222",
+        "sha256": "a3995fdb6461c466457db8dcfbec5270552702f235b3d6a2970254d354d10d1a"
+      }
+    }
+  ]
+}

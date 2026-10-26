@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen",
+  "conversion": "Full frame PNG to WebP, sharp quality 86; no crop.",
+  "images": [
+    {
+      "id": "family-photo",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No text, lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: A happy elementary boy stands close beside his smiling grandfather near the doorway of a modest cozy family apartment. Both face the mother who stands a few feet away holding a small plain camera at eye level, about to take their photo. Exactly THREE people: boy, grandfather with gray hair, adult mother. Three-quarter view over the mother's shoulder or side makes both smiling faces and the mother's two hands naturally holding the camera clear. The camera points directly toward the boy and grandfather. Visible simple open doorway nearby, uncluttered warm home background, soft daylight. No picture frames containing extra figures, no phones, no selfie, no photographer outside these three people.",
+      "generatedFile": "exec-facdf599-7fac-42cb-a611-ab26535460b3.png",
+      "src": "/images/scenes/family-photo.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "36709affc293c7e8fc10dee99d8807859839feb22f12de61ef48794e223795a0"
+    },
+    {
+      "id": "wrapping-gift",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No text, lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: An elementary boy and his mother work together to wrap ONE small rectangular gift box at a home table. The box is already partly covered in simple pale green wrapping paper. The mother gently holds one loose paper end against the box while the boy presses a short piece of clear tape onto the fold. Both people's hands are distinct and natural. A small roll of clear tape and a loose length of red ribbon rest beside the box, ready to finish wrapping later. Exactly two people, one box, one roll of tape, one ribbon. No scissors, knives, glitter, branded wrapping patterns or visible contents. Close readable tabletop composition, gentle family cooperation, warm light. Show a single moment, not multiple sequential stages.",
+      "generatedFile": "exec-b5b1c319-8413-409c-812c-897964d05834.png",
+      "src": "/images/scenes/wrapping-gift.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d9c2478f1d67a51ed02d982f0e82074eaa81859f7d50f10ad4004aaa7d415cb1"
+    },
+    {
+      "id": "park-bubbles",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No text, lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: An elementary girl and her younger brother play with soap bubbles on a grassy area of a quiet sunny neighborhood park. The younger boy holds ONE simple loop bubble wand in his hand in front of his mouth and looks with delight at ONE large transparent rainbow-tinted bubble floating just past his nose, clearly separate from his face and the wand. A few SMALL bubbles float further away. His older sister stands beside him, smiling and holding a small plain open container of bubble liquid. Exactly two children, no other people. The wand has a clearly visible single round open ring and a short handle, not a lollipop or straw. Their faces and natural hands remain fully visible, no bubble covering a face. Soft green grass and simple distant trees, uncluttered composition and readable bubbles, no text or toy branding.",
+      "generatedFile": "exec-f04d6813-2a1d-4a39-a85f-956abbf65342.png",
+      "src": "/images/scenes/park-bubbles.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e69e63c95916615836bfb253820f919f020040256476d74ea06ddb8828d1b192"
+    }
+  ]
+}

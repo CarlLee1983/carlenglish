@@ -1,0 +1,330 @@
+{
+  "id": "shoe-shop-fit",
+  "title": "試穿新鞋",
+  "titleEn": "Trying on New Shoes",
+  "category": "購物與交通",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/shoe-shop-fit.webp",
+    "alt": "小美在鞋店裡穿著新鞋試走，媽媽和店員在旁看著。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "too-small",
+      "english": "too small",
+      "translation": "太小",
+      "audio": {
+        "src": "/audio/phrases/shoe-shop-fit-too-small.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b4e1b307efbc77df67ffa56cfb9fbeeae65b7cf2782229277e07c47504cba62f",
+        "sha256": "b336dfaa5c9c550656182a2fc5311af7b4ffd7ec8e4afefc3626db63556d557b"
+      }
+    },
+    {
+      "id": "a-bigger-pair",
+      "english": "a bigger pair",
+      "translation": "一雙更大的鞋",
+      "audio": {
+        "src": "/audio/phrases/shoe-shop-fit-a-bigger-pair.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "86bb1919d1a6a7ecdaaf7b4baf9b8d3a8f711e221f3c83d04be9fcab81d0fcff",
+        "sha256": "656c7737d009de1db6271dc1f8ad68296338ad10b1d98b5d77a6350667c0592a"
+      }
+    },
+    {
+      "id": "how-do-they-feel",
+      "english": "How do they feel",
+      "translation": "穿起來感覺怎麼樣",
+      "audio": {
+        "src": "/audio/phrases/shoe-shop-fit-how-do-they-feel.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d757d668511fa9e62cc96f8707f43dfaf26481d5f5e7baf136a9e152a1f858f5",
+        "sha256": "82ab0f96aba75e9c86d2621873d25dabeba04713c1019182f2cf14f90945f76f"
+      }
+    },
+    {
+      "id": "they-fit-well",
+      "english": "They fit well",
+      "translation": "它們很合腳",
+      "audio": {
+        "src": "/audio/phrases/shoe-shop-fit-they-fit-well.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "925a28c3d5a75bff8b955ad0c3347f905605e19d800448cacc6d3665ce68c939",
+        "sha256": "eaea1dd115d99c5db0e869e1bc701e85cdc775bb7ecfd67ca1454a44b1a6c15d"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "shoes",
+      "english": "shoes",
+      "translation": "鞋子（複數）",
+      "example": "My shoes are blue.",
+      "audio": {
+        "src": "/audio/words/shoe-shop-fit-shoes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "01ea5ddd3be5477ac3eae2366fa12064615c485a541682db3e62d283241055a6",
+        "sha256": "16ee7219b4f323a346417852916bd8a323bdcba801f0b76c151d7c00fbb595a2"
+      }
+    },
+    {
+      "id": "small",
+      "english": "small",
+      "translation": "小的",
+      "example": "This bag is small.",
+      "audio": {
+        "src": "/audio/words/shoe-shop-fit-small.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "81db8ebbbbc69c6c6ad4a6aa92b76e0c08af547da236b9e2c9dbe1d8285a8130",
+        "sha256": "a6e8b4f76f90b49e965a5f88a90d5d96fc2d824ce6af491d5642787635cd74d8"
+      }
+    },
+    {
+      "id": "clerk",
+      "english": "clerk",
+      "translation": "店員",
+      "example": "The clerk is kind.",
+      "audio": {
+        "src": "/audio/words/shoe-shop-fit-clerk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c40dc72b0228e5850d8b173ff861a48acfb4a15b37b2849cbb6584bbadbc7907",
+        "sha256": "afdc838c4720a54ae2175811a99d4de8aac402cc19016a2557fdaf2840b8805b"
+      }
+    },
+    {
+      "id": "bigger",
+      "english": "bigger",
+      "translation": "更大的",
+      "example": "I need a bigger bag.",
+      "audio": {
+        "src": "/audio/words/shoe-shop-fit-bigger.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9e5db53b5cf0dace033c64479e32fd987a0d9a592bc3f22e6360e9e7c2bbfbe4",
+        "sha256": "0cef023968b4dd469d4254ac79df8cfaa48b2cac1a8abec2898d26dad0018a9d"
+      }
+    },
+    {
+      "id": "steps",
+      "english": "steps",
+      "translation": "步（複數）",
+      "example": "Take two steps.",
+      "audio": {
+        "src": "/audio/words/shoe-shop-fit-steps.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b7595e2a863957fc6c225ed540d335dd1e859dd3032451c2e11bceb0329defa6",
+        "sha256": "087f2b5c60054ec1953d5c14f20083c74165351d401db16e4e18ea8b648bcf6a"
+      }
+    },
+    {
+      "id": "fit",
+      "english": "fit",
+      "translation": "合身；合腳",
+      "example": "These shoes fit me.",
+      "audio": {
+        "src": "/audio/words/shoe-shop-fit-fit.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "da4270e3735a3418c9d462af2e17d045132dede43df058e85b1f0399fcf96f1b",
+        "sha256": "7f068a91c9552c2d57524e4791cbdff000425b500917aa50571c8199414ed53e"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Mei tries on new "
+        },
+        {
+          "text": "shoes",
+          "wordIds": [
+            "shoes"
+          ]
+        },
+        {
+          "text": " with Mom."
+        }
+      ],
+      "translation": "小美和媽媽一起試穿新鞋。",
+      "audio": {
+        "src": "/audio/sentences/shoe-shop-fit/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c2434ad666add80fd78a4c8e3c9d2b754d49f0713c2c994e2a14f53d86bc2d75",
+        "sha256": "47f521a4cf4de0121eea3dceba4265c2b0e8f97efe4f54d401e6bc5f24a29999"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“These "
+        },
+        {
+          "text": "shoes",
+          "wordIds": [
+            "shoes"
+          ]
+        },
+        {
+          "text": " are "
+        },
+        {
+          "text": "too ",
+          "phraseIds": [
+            "too-small"
+          ]
+        },
+        {
+          "text": "small",
+          "phraseIds": [
+            "too-small"
+          ],
+          "wordIds": [
+            "small"
+          ]
+        },
+        {
+          "text": ",” she says."
+        }
+      ],
+      "translation": "她說：「這雙鞋太小了。」",
+      "audio": {
+        "src": "/audio/sentences/shoe-shop-fit/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8160286d1b327faa626f0643d180aa316fe6d858c3b244d9e7682ea94bb346a4",
+        "sha256": "b8de6943dea670f6c8c821fb25e9beb9d07eac3e4225cf3ef11e63919e0a8c5b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "A "
+        },
+        {
+          "text": "clerk",
+          "wordIds": [
+            "clerk"
+          ]
+        },
+        {
+          "text": " brings her "
+        },
+        {
+          "text": "a ",
+          "phraseIds": [
+            "a-bigger-pair"
+          ]
+        },
+        {
+          "text": "bigger",
+          "phraseIds": [
+            "a-bigger-pair"
+          ],
+          "wordIds": [
+            "bigger"
+          ]
+        },
+        {
+          "text": " pair",
+          "phraseIds": [
+            "a-bigger-pair"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "店員拿來一雙更大的鞋給她。",
+      "audio": {
+        "src": "/audio/sentences/shoe-shop-fit/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f9e3c545cffb77a28de5da320a02aefb422bc441eaa14370c56689a75ca39119",
+        "sha256": "99f6919ed878c3d97512c686b6d4983523ba3e4a50e950faa067e30dce0f4f36"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mei walks a few "
+        },
+        {
+          "text": "steps",
+          "wordIds": [
+            "steps"
+          ]
+        },
+        {
+          "text": " in them."
+        }
+      ],
+      "translation": "小美穿著它們走了幾步。",
+      "audio": {
+        "src": "/audio/sentences/shoe-shop-fit/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "426d01a154c221234e017e8bb37b47afa7b067995849006523b373934ccbbd82",
+        "sha256": "a60aff8ee1db60a1d60930a261b926facc602f91293f3e7214a222faf9e2b3aa"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "How do they feel",
+          "phraseIds": [
+            "how-do-they-feel"
+          ]
+        },
+        {
+          "text": "?” asks Mom."
+        }
+      ],
+      "translation": "媽媽問：「穿起來感覺怎麼樣？」",
+      "audio": {
+        "src": "/audio/sentences/shoe-shop-fit/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3dbe054df317653d265505fb079f64877534762214137a5dfe3b08cc410aae6b",
+        "sha256": "61ac9b36fdd1ea2d0b616e344e7a0eb731d1d868d42ff1e8a787b9af0f96d5be"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "They ",
+          "phraseIds": [
+            "they-fit-well"
+          ]
+        },
+        {
+          "text": "fit",
+          "phraseIds": [
+            "they-fit-well"
+          ],
+          "wordIds": [
+            "fit"
+          ]
+        },
+        {
+          "text": " well",
+          "phraseIds": [
+            "they-fit-well"
+          ]
+        },
+        {
+          "text": "!” says Mei with a smile."
+        }
+      ],
+      "translation": "小美微笑著說：「它們很合腳！」",
+      "audio": {
+        "src": "/audio/sentences/shoe-shop-fit/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5583a4ebb11314dff85672c2df0c06c4172442177a78c0feb25a7532eb931394",
+        "sha256": "483636c8b4e779503f56862db62b5560d6b9ab6eeacaf467f982009e12e141a1"
+      }
+    }
+  ]
+}

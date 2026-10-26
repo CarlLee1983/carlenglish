@@ -1,0 +1,318 @@
+{
+  "id": "fruit-salad",
+  "title": "拌一碗水果沙拉",
+  "titleEn": "Making Fruit Salad",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/fruit-salad.webp",
+    "alt": "小宇和媽媽在桌旁準備水果沙拉，小宇用大湯匙拌碗裡的蘋果、香蕉和葡萄。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "apple-pieces",
+      "english": "apple pieces",
+      "translation": "蘋果塊",
+      "audio": {
+        "src": "/audio/phrases/fruit-salad-apple-pieces.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "581dcf86f939299ce78967a86bb919ff3b30489a0caa36203c29b18252f1a062",
+        "sha256": "d85e899563f813decca9dc824fef1d3129ca7d66c0abea635afd5f5c4747ff9b"
+      }
+    },
+    {
+      "id": "can-i-mix-it",
+      "english": "Can I mix it",
+      "translation": "我可以拌一拌嗎",
+      "audio": {
+        "src": "/audio/phrases/fruit-salad-can-i-mix-it.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "94c8e01f1abfb8763a71c0648bf9c95911d5c80514276c9a6a2bdcbf7c351035",
+        "sha256": "03a083944ae1a6ee264e6e589662d707c3b2aecedb8491d84b6e632c4934dc85"
+      }
+    },
+    {
+      "id": "with-the-spoon",
+      "english": "with the spoon",
+      "translation": "用湯匙",
+      "audio": {
+        "src": "/audio/phrases/fruit-salad-with-the-spoon.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e315af4868af6bb2dec90ce18b39d43d7a3039db2defeb7dfc91be00f6d80bd1",
+        "sha256": "38f6cdbfd44611ba0306bbecf53e015ce3ca0c9a245d46bbe7b8b22597dafb27"
+      }
+    },
+    {
+      "id": "our-fruit-salad-is-ready",
+      "english": "Our fruit salad is ready",
+      "translation": "我們的水果沙拉做好了",
+      "audio": {
+        "src": "/audio/phrases/fruit-salad-our-fruit-salad-is-ready.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "91ea3ef6e0c2f93fb3931572487d93d37f939811c9733024063ce34bdf3bdcaf",
+        "sha256": "cae7feaa0c58f12a5f243d21e8be742d05cd44d0b437d178181c51f8b1fec4e6"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "apple",
+      "english": "apple",
+      "translation": "蘋果",
+      "example": "I like this apple.",
+      "audio": {
+        "src": "/audio/words/fruit-salad-apple.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3a7bd3e2360a3d29eea436fcfb7e44c735d117c42d1c1835420b6b9942dd4f1b",
+        "sha256": "8a5d40fbd85e8e4df2518849bc164a49f21b3d44c9cd8dc0f15503f3fbbee0db"
+      }
+    },
+    {
+      "id": "bowl",
+      "english": "bowl",
+      "translation": "碗",
+      "example": "The bowl is on the table.",
+      "audio": {
+        "src": "/audio/words/fruit-salad-bowl.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d9f2babb167353d055843c7d537e6a663023561f921f831369ea1d657aa3051a",
+        "sha256": "a9d20b89375a097b317baafc8bfdd36b6e5ddf064f8949bf40c270904e3d81df"
+      }
+    },
+    {
+      "id": "banana",
+      "english": "banana",
+      "translation": "香蕉",
+      "example": "The banana is yellow.",
+      "audio": {
+        "src": "/audio/words/fruit-salad-banana.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b493d48364afe44d11c0165cf470a4164d1e2609911ef998be868d46ade3de4e",
+        "sha256": "db8770fdb60800a108089b0d8c2fd4a76763b3c4ba6afc3d1a4e3836bc53dc4b"
+      }
+    },
+    {
+      "id": "grapes",
+      "english": "grapes",
+      "translation": "葡萄（複數）",
+      "example": "These grapes are sweet.",
+      "audio": {
+        "src": "/audio/words/fruit-salad-grapes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8286ee4ea8f54f0276bcd4a125de6fd38a58534eebe24df396f05febeee3a91a",
+        "sha256": "3f8cab5887d984addc8ef0f62c898c19e1cc92be8d3893cbb76ac3e081d35dc4"
+      }
+    },
+    {
+      "id": "spoon",
+      "english": "spoon",
+      "translation": "湯匙",
+      "example": "This spoon is big.",
+      "audio": {
+        "src": "/audio/words/fruit-salad-spoon.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7f480e744a79953eb916b68f540e0eeec6f9cf23edf4aa08cc1cdf5f077c0f6f",
+        "sha256": "a69a192f3bb4272f5fb23e2cb2c3fdf6eeed12af57c53808bcb11d1e9b03661f"
+      }
+    },
+    {
+      "id": "mixes",
+      "english": "mixes",
+      "translation": "攪拌",
+      "example": "She mixes the fruit.",
+      "audio": {
+        "src": "/audio/words/fruit-salad-mixes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5732d58f124d5e47999e37d6da01aa67a6dde9461b6705cfbd7424462afdff89",
+        "sha256": "29dbfe37a3527f4a60602b95679efa77590eb04e742c20351d6ff292bfb68036"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Yu puts "
+        },
+        {
+          "text": "apple",
+          "phraseIds": [
+            "apple-pieces"
+          ],
+          "wordIds": [
+            "apple"
+          ]
+        },
+        {
+          "text": " pieces",
+          "phraseIds": [
+            "apple-pieces"
+          ]
+        },
+        {
+          "text": " in a "
+        },
+        {
+          "text": "bowl",
+          "wordIds": [
+            "bowl"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小宇把蘋果塊放進碗裡。",
+      "audio": {
+        "src": "/audio/sentences/fruit-salad/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e11d9b8858a6603775e98946271c9cf07d037a16f0125eb14d88830022edee5d",
+        "sha256": "8e2342a092e66fd8b4ee2d41d5b612c17b50e9ce9a3e6b15851049acf336ee3a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom adds "
+        },
+        {
+          "text": "banana",
+          "wordIds": [
+            "banana"
+          ]
+        },
+        {
+          "text": " slices and some "
+        },
+        {
+          "text": "grapes",
+          "wordIds": [
+            "grapes"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "媽媽加入香蕉片和一些葡萄。",
+      "audio": {
+        "src": "/audio/sentences/fruit-salad/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "48898c4421f9434ec50f7ec48a7a235f5fd5167e011ef20a37cfe66d9822c46e",
+        "sha256": "e998b28fd60e459ade7264b9a245d2bc1d1317b71d9997e7e4996a7740a7b37f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Can I mix it",
+          "phraseIds": [
+            "can-i-mix-it"
+          ]
+        },
+        {
+          "text": "?” asks Yu."
+        }
+      ],
+      "translation": "小宇問：「我可以拌一拌嗎？」",
+      "audio": {
+        "src": "/audio/sentences/fruit-salad/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1012d0d21157ad8d6b5a7b2c26ea2b1f1f6799b48b3f6b5ffb64200362c0cf40",
+        "sha256": "d566d3578579559927604f5bf959a288cf82c9680c28b1328d6d9a2f694e1fbc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom gives him a big "
+        },
+        {
+          "text": "spoon",
+          "wordIds": [
+            "spoon"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "媽媽給他一支大湯匙。",
+      "audio": {
+        "src": "/audio/sentences/fruit-salad/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0760c8a2f70074423b40cb13a7ff37dd0059976988e3dce0f7650d71647e4c30",
+        "sha256": "874fb78d1f2c559a769d2592ecfec36aec9932a467c564aa7bedf8da79c07426"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yu "
+        },
+        {
+          "text": "mixes",
+          "wordIds": [
+            "mixes"
+          ]
+        },
+        {
+          "text": " the fruit "
+        },
+        {
+          "text": "with the ",
+          "phraseIds": [
+            "with-the-spoon"
+          ]
+        },
+        {
+          "text": "spoon",
+          "phraseIds": [
+            "with-the-spoon"
+          ],
+          "wordIds": [
+            "spoon"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小宇用湯匙把水果拌一拌。",
+      "audio": {
+        "src": "/audio/sentences/fruit-salad/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "381a50d3513a8aa9e2347836c5be8371fa35e2fa531ff3638e8625b0cfe7b4f9",
+        "sha256": "4432082d000971e797ab359a6acb3d741a41b40140684f6c82e7be4783752d1d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Our fruit salad is ready",
+          "phraseIds": [
+            "our-fruit-salad-is-ready"
+          ]
+        },
+        {
+          "text": "!” he says."
+        }
+      ],
+      "translation": "他說：「我們的水果沙拉做好了！」",
+      "audio": {
+        "src": "/audio/sentences/fruit-salad/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "14a3d3996efe533c5a4e042707830c8589ac0958869ba8de342de91eed8a063a",
+        "sha256": "b0581bc1598e75db4ede034c43506e716bff57bfaae0dfd0c2f9daba2ba3a1cf"
+      }
+    }
+  ]
+}

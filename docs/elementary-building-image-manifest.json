@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen",
+  "conversion": "Full frame PNG to WebP, sharp quality 86; no crop.",
+  "images": [
+    {
+      "id": "block-tower",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: An elementary boy and girl sit on a soft woven rug at home, smiling as they watch a small free-standing tower made of exactly THREE plain wooden blocks: ONE large broad rectangular block at the bottom, TWO smaller cube blocks stacked vertically above it, flat faces aligned so the tower stands upright. Both children's hands rest visibly on their own laps or on the rug, clearly away from the tower, because they have just let go to see if it stands. Entire tower and all three blocks clearly visible between the children. No other blocks, toy trains, plastic studs, toy brands or objects resembling a commercial construction set. Calm uncluttered family living room, warm daylight, focus on cooperation and watching the result.",
+      "generatedFile": "exec-9e193e3b-9aa0-445a-91d2-b09f53718d9c.png",
+      "src": "/images/scenes/block-tower.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fb97f7b7515380333d6360b2a777927cce01a6aeb3815a7be13aa3c2a5937fe5"
+    },
+    {
+      "id": "bakery-rolls",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: An elementary girl and her father stand INSIDE a small neighborhood bakery at the counter. The girl holds ONE open plain paper bag with exactly TWO small round golden bread rolls clearly visible at its opening. An adult male baker stands behind the counter, smiling kindly, in a plain apron. Exactly three people: girl, father, baker. Their natural hands clearly separated; father stands beside the girl, girl holds her own bag. Simple shelves with a few generic plain loaves in background, soft warm light. No other rolls in the girl's bag, no croissants in the bag, no branded packaging, no signs, prices, menus or letters. Capture the moment after the baker has bagged the two rolls, before they take them home.",
+      "generatedFile": "exec-69d4523d-36dc-4e82-aeaa-8d2d7bf958d3.png",
+      "src": "/images/scenes/bakery-rolls.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fe650d72444a6d337e7b50819a9f2c6e9c961df030d6d2851ac832bde5df2299"
+    },
+    {
+      "id": "art-tools-away",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading scene for Taiwanese elementary pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Warm hand-drawn children's picture-book illustration, lightly textured gouache and colored pencil, soft fine outlines, muted natural colors, clear everyday actions, full-bleed composition with breathing room. Entirely original East Asian human characters and setting. No lettering, logos, brands, watermarks, collage, panels, recognizable fictional characters or named artist imitation. Scene: An elementary boy tidies art supplies at a classroom table while his adult woman teacher points into ONE open plain storage box. The boy is placing a short thick wax CRAYON into that open box, where a few other crayons rest. On the tabletop beside them is ONE clear jar holding several PAINTBRUSHES with visible soft bristles and wooden handles; a few plain loose paper sheets lie nearby. Clear slightly elevated three-quarter tabletop composition shows jar, brushes, open box, crayons and paper as different recognizable things. Both people's natural hands are clearly separated and not covering the supplies. No paints spilling, scissors, glue, extra jars, marker pens, branded art supplies, printed drawings, labels or lettering. Gentle after-class atmosphere, warm classroom daylight.",
+      "generatedFile": "exec-acb625b7-9c97-4f7c-9df8-9a27c3bbfc2a.png",
+      "src": "/images/scenes/art-tools-away.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ba55f432c337a1c94ce75cbed45d44c843a1a04ba259327d03d91e52a50e8a8d"
+    }
+  ]
+}

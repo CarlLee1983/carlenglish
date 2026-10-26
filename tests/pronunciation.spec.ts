@@ -2,6 +2,7 @@ import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { expect, test, type Page } from '@playwright/test';
 import { getLearningLevel } from '../src/lib/catalog';
+import { selectScenes } from './helpers/scene-selection';
 
 type Clip = { src: string; voiceId: string; textSha256: string; sha256: string };
 type Item = { id: string; english: string; audio: Clip };
@@ -155,7 +156,7 @@ const entries = (scene: Scene) => [
   ...scene.words.map((item) => ({ kind: 'word', label: item.english, audio: item.audio })),
 ];
 
-for (const scene of scenes) {
+for (const scene of selectScenes(scenes)) {
   test(`${scene.id} exposes sentence assets and opens focus without autoplay`, async ({ page }) => {
     await mockAudio(page);
     await page.goto(`/scenes/${scene.id}/`);

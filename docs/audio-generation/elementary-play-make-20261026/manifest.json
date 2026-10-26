@@ -1,0 +1,693 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/family-photo/1.mp3",
+      "text": "Bo wants a photo with Grandpa.",
+      "textSha256": "76a19ca1f7c88b8d9ae118ae7132c590bbd36349ea20f586bb653cc8dd3093ae",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a49c21271a8fa6208197ca0788e6003bf46c26ee44ac061b699062b24ed66c4f",
+      "duration": 2.425,
+      "graphemes": [
+        "Bo wants a photo with Grandpa."
+      ],
+      "phonemes": [
+        "bˈO wˈɑnts ɐ fˈOTO wɪð ɡɹˈændpˌɑ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/family-photo/2.mp3",
+      "text": "Mom holds the camera near the door.",
+      "textSha256": "b883c7ea144fe1b4a2ad851c41cae8ed51a042fc6984af7b38a00d6fabc14117",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "573fa31774fc62731f1ba5f02f3e55549973341c0bbfbb2019e58a1fac1a835b",
+      "duration": 2.575,
+      "graphemes": [
+        "Mom holds the camera near the door."
+      ],
+      "phonemes": [
+        "mˈɑm hˈOldz ðə kˈæməɹə nˌɪɹ ðə dˈɔɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/family-photo/3.mp3",
+      "text": "“Stand beside me,” Grandpa tells Bo.",
+      "textSha256": "36867b796a0541abaca64b092b767cdc3ea715cec906736bdba355dfc90cec65",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c65c20b7b2c78e69adaf1b51d64b2d36f84c6a2c6b8f77e8f04d8952446b22de",
+      "duration": 3.025,
+      "graphemes": [
+        "“Stand beside me,” Grandpa tells Bo."
+      ],
+      "phonemes": [
+        "“stˈænd bəsˈId mˌi,” ɡɹˈændpˌɑ tˈɛlz bˈO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/family-photo/4.mp3",
+      "text": "Bo moves closer and looks at Mom.",
+      "textSha256": "24d8f635e814e73e2b733ce682c612149779e1097a6414a4d7f52933dfc5ef52",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e248eb7570cd473f34f6eb1cfc2604b6f700de34214981a0f6c03137baab23ad",
+      "duration": 2.475,
+      "graphemes": [
+        "Bo moves closer and looks at Mom."
+      ],
+      "phonemes": [
+        "bˈO mˈuvz klˈOsəɹ ænd lˈʊks æt mˈɑm."
+      ]
+    },
+    {
+      "src": "/audio/sentences/family-photo/5.mp3",
+      "text": "“Ready? Say cheese!” Mom says.",
+      "textSha256": "33b76169bfded15df2e62bc9195efda8786a453dfea365b803aaa87094fa819d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bc5e8691831e463fed80bd382213b2363ef751bb3beac811099d75137c9c0ed7",
+      "duration": 2.6,
+      "graphemes": [
+        "“Ready? Say cheese!” Mom says."
+      ],
+      "phonemes": [
+        "“ɹˈɛdi? sˈA ʧˈiz!” mˈɑm sˈɛz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/family-photo/6.mp3",
+      "text": "They smile, and Mom takes the photo.",
+      "textSha256": "74f7025eebc5e192e6ec050c49a3b83c675623f2c79e59b4f22c23695fdf0541",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d00fcb8d2519a116073baed29e029aaa7622c568b1ffe6880f17241143676a60",
+      "duration": 2.825,
+      "graphemes": [
+        "They smile, and Mom takes the photo."
+      ],
+      "phonemes": [
+        "ðˌA smˈIl, ænd mˈɑm tˈAks ðə fˈOTO."
+      ]
+    },
+    {
+      "src": "/audio/phrases/family-photo-a-photo-with-grandpa.mp3",
+      "text": "a photo with Grandpa",
+      "textSha256": "589dcc63831071f02b339eb436c7cd3de43e426d72730ded5d5d0c33b946ba2d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "97df848425a9aa2b3c5f8a22feddae5548dd48696ed675c29b9bad6939c05cf1",
+      "duration": 2.1,
+      "graphemes": [
+        "a photo with Grandpa"
+      ],
+      "phonemes": [
+        "ɐ fˈOTO wɪð ɡɹˈændpˌɑ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/family-photo-stand-beside-me.mp3",
+      "text": "Stand beside me",
+      "textSha256": "29702fc4b5284598f1f41ad774bddd33b3bd8a1eedf8c2b6ea930ab783b75873",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "db382bc8e134fdfb3da8e0361a3377c449f56e469ba6016544fd563e93e0e0aa",
+      "duration": 1.775,
+      "graphemes": [
+        "Stand beside me"
+      ],
+      "phonemes": [
+        "stˈænd bəsˈId mˌi"
+      ]
+    },
+    {
+      "src": "/audio/phrases/family-photo-moves-closer.mp3",
+      "text": "moves closer",
+      "textSha256": "14b019b35e57fd006b6a645d8e0926f1cd993260aabb951c26d8be767b352392",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e865ad99b8066a90c48a01af758f7ce91451d709669d6d7d2cce3e9a33d0b0a7",
+      "duration": 1.7,
+      "graphemes": [
+        "moves closer"
+      ],
+      "phonemes": [
+        "mˈuvz klˈOsəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/family-photo-say-cheese.mp3",
+      "text": "Say cheese",
+      "textSha256": "3af54e22fdb05bf134b7f2eb32ebf8bcf84eb1bf6ecb9b552b98b5fe8ec2cfee",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b6d7e96ff5e6d68b936de502514a856da6798f89a88caebe98516bbe000e07b2",
+      "duration": 1.55,
+      "graphemes": [
+        "Say cheese"
+      ],
+      "phonemes": [
+        "sˈA ʧˈiz"
+      ]
+    },
+    {
+      "src": "/audio/words/family-photo-photo.mp3",
+      "text": "photo",
+      "textSha256": "55c64d0fcd6f9d5f7c828093857e3fdfda68478bb4e9bd24d481ef391c7804e8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8a507969acf0b78dae0efddd847f7d58db3301ab81f9f6877f4dd2b240b58ab5",
+      "duration": 1.375,
+      "graphemes": [
+        "photo"
+      ],
+      "phonemes": [
+        "fˈOTO"
+      ]
+    },
+    {
+      "src": "/audio/words/family-photo-grandpa.mp3",
+      "text": "Grandpa",
+      "textSha256": "e4dbedab3839b18ea4c3bbe46deb7fae1e62e0bfa2afa3ce561a44db35da1baa",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f649051d95d2bb723247f897f7ab1763cb9be5bba91de09cd72d20fe1d6bf660",
+      "duration": 1.575,
+      "graphemes": [
+        "Grandpa"
+      ],
+      "phonemes": [
+        "ɡɹˈændpˌɑ"
+      ]
+    },
+    {
+      "src": "/audio/words/family-photo-camera.mp3",
+      "text": "camera",
+      "textSha256": "89e8b9518d92279489bbdee26f3dc646d921d89a15afbd3a3e0ad695328a3da0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a321ea7e6629274945156bd44620958c4c0c1dc9303d0a759349bfa03783a850",
+      "duration": 1.425,
+      "graphemes": [
+        "camera"
+      ],
+      "phonemes": [
+        "kˈæməɹə"
+      ]
+    },
+    {
+      "src": "/audio/words/family-photo-door.mp3",
+      "text": "door",
+      "textSha256": "2534e2de1dec24fedab4c00266b55ba9ba60dde03a349c5b5662189dd561ba9e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "69c7f22e2348759787b180a2b3caed974987ff1c53e4ba21924a62d0e1a8bfda",
+      "duration": 1.275,
+      "graphemes": [
+        "door"
+      ],
+      "phonemes": [
+        "dˈɔɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/family-photo-closer.mp3",
+      "text": "closer",
+      "textSha256": "be98c6532c0d6a26d7c9e3e15d148ffa35f558afd9f24a3c643ce9a07b791bba",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "312d79cda1bf77aaa4c4f2391de15c2c59ffb31bc567d282da6d194d4ff40693",
+      "duration": 1.45,
+      "graphemes": [
+        "closer"
+      ],
+      "phonemes": [
+        "klˈOsəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/family-photo-smile.mp3",
+      "text": "smile",
+      "textSha256": "fa1eadc4c6995667412681c69ce33adfc9302a2965f521c40908549e670e2e4e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5dee148b21699fff8c53aa782d027441030b3fb097dcdf358b5ec691d8cbe4fd",
+      "duration": 1.425,
+      "graphemes": [
+        "smile"
+      ],
+      "phonemes": [
+        "smˈIl"
+      ]
+    },
+    {
+      "src": "/audio/sentences/wrapping-gift/1.mp3",
+      "text": "Yu puts a gift in a small box.",
+      "textSha256": "c36d1157157155c84b22ca43ebd8330f943992d59713dc9f6cd04418af23c8d4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f1dcc7f077fe8e8cacd7765f0cc9634533aa0c089621055440a221ae1d494a95",
+      "duration": 2.425,
+      "graphemes": [
+        "Yu puts a gift in a small box."
+      ],
+      "phonemes": [
+        "jˈu pˌʊts ɐ ɡˈɪft ɪn ɐ smˈɔl bˈɑks."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wrapping-gift/2.mp3",
+      "text": "He wraps paper around the box.",
+      "textSha256": "ec07d4d39627b709da3c770674c26446665ccb5baf382f6f52c8dcc5c3c55389",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "11b187ac5e5248be3aa9cfb2c432831ca63094ca717cbeae4eeb88b99e83f571",
+      "duration": 2.35,
+      "graphemes": [
+        "He wraps paper around the box."
+      ],
+      "phonemes": [
+        "hˌi ɹˈæps pˈApəɹ əɹˈWnd ðə bˈɑks."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wrapping-gift/3.mp3",
+      "text": "“Hold this end, please,” he asks Mom.",
+      "textSha256": "b4eb179a9b0012699ff250d707b31973270ec5df3116b343aca3aa804c002a8f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "511399b5deacda3a038107debedcef6e91a53124bcba95598007729fc1e18704",
+      "duration": 2.825,
+      "graphemes": [
+        "“Hold this end, please,” he asks Mom."
+      ],
+      "phonemes": [
+        "“hˈOld ðɪs ˈɛnd, plˈiz,” hi ˈæsks mˈɑm."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wrapping-gift/4.mp3",
+      "text": "Mom holds it while Yu adds tape.",
+      "textSha256": "8a7b47c23f3dfb9da6d49ce35d823bd568b70d0656d3a8f48d2feac14e5d9a76",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "099e23707e6a341c991bd26e014fc26513d5ac56e3b22c7783df5be8349d77c1",
+      "duration": 2.35,
+      "graphemes": [
+        "Mom holds it while Yu adds tape."
+      ],
+      "phonemes": [
+        "mˈɑm hˈOldz ɪt wˌIl jˈu ˈædz tˈAp."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wrapping-gift/5.mp3",
+      "text": "Yu ties a ribbon around the gift.",
+      "textSha256": "bff665da0a34e3ae91d797694185791b39d449ff1cc5e336742812f14e1107b3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4e77c3c47942f93e38b5caad3bbd8713f76aca5ddc0e7aa7dcaaf409004ff13f",
+      "duration": 2.425,
+      "graphemes": [
+        "Yu ties a ribbon around the gift."
+      ],
+      "phonemes": [
+        "jˈu tˈIz ɐ ɹˈɪbən əɹˈWnd ðə ɡˈɪft."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wrapping-gift/6.mp3",
+      "text": "“Now it is ready!” he says.",
+      "textSha256": "4e02c3c84adfa8e149b3bde3710da490dcc3cace48a6ad34746bb76863c5aa7f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "532f82a02593893f56db5b560c26933828b57b7d1401a3190fb5679e13b69901",
+      "duration": 2.225,
+      "graphemes": [
+        "“Now it is ready!” he says."
+      ],
+      "phonemes": [
+        "“nˈW ɪt ɪz ɹˈɛdi!” hi sˈɛz."
+      ]
+    },
+    {
+      "src": "/audio/phrases/wrapping-gift-around-the-box.mp3",
+      "text": "around the box",
+      "textSha256": "7e7501c7908bec69fbabdd3aaf3d8d49b01a03c5935f22bfd4cf08153c023cfa",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b38277b2620bfccb0aefb60c4427920ab57a7c1abe102d642293e0154bf49ad5",
+      "duration": 1.675,
+      "graphemes": [
+        "around the box"
+      ],
+      "phonemes": [
+        "əɹˈWnd ðə bˈɑks"
+      ]
+    },
+    {
+      "src": "/audio/phrases/wrapping-gift-hold-this-end-please.mp3",
+      "text": "Hold this end, please",
+      "textSha256": "93901a9ad15f5bfd341da597db6eb277edccb86498b9c08e7b3bca351db9e4c1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b672f6e1323090bc4b225b2799342ad47b2c920a63eda9b1ba0a037a941b84bb",
+      "duration": 1.925,
+      "graphemes": [
+        "Hold this end, please"
+      ],
+      "phonemes": [
+        "hˈOld ðɪs ˈɛnd, plˈiz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/wrapping-gift-adds-tape.mp3",
+      "text": "adds tape",
+      "textSha256": "809f5b7b1fd3a033416cdbc75494a3188e6855c14fed806bdadcb6de3f58e2d9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1f3f5d7db973e7919b6922a4f18c53b442eb087d0f9159c51d00747254d4713e",
+      "duration": 1.5,
+      "graphemes": [
+        "adds tape"
+      ],
+      "phonemes": [
+        "ˈædz tˈAp"
+      ]
+    },
+    {
+      "src": "/audio/phrases/wrapping-gift-now-it-is-ready.mp3",
+      "text": "Now it is ready",
+      "textSha256": "0e282bd39d3591991edc377ad50a4d2defeefb891a5d694dcbcc424a4bf64cd4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "68a6f3cdf8524c0441865c67040fec48b713ce37c5b747d3dc39f164c02754e2",
+      "duration": 1.775,
+      "graphemes": [
+        "Now it is ready"
+      ],
+      "phonemes": [
+        "nˈW ɪt ɪz ɹˈɛdi"
+      ]
+    },
+    {
+      "src": "/audio/words/wrapping-gift-gift.mp3",
+      "text": "gift",
+      "textSha256": "a1954b15a7459a2f7f6c03d87b73963830616feef7c93853fe5c05be996276bc",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "82129a9f0fbff0f3222e0c29e1f03b87aad4954245da32bae4a63b0224c41373",
+      "duration": 1.275,
+      "graphemes": [
+        "gift"
+      ],
+      "phonemes": [
+        "ɡˈɪft"
+      ]
+    },
+    {
+      "src": "/audio/words/wrapping-gift-box.mp3",
+      "text": "box",
+      "textSha256": "26f8567f2569182294c3fa5b9f9cb2270b554eef628b4c149cf82a42888ff4ae",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "884978d7723c5a26669a09121b23150b1328ff70cb25a25a4e157632cd8a4c71",
+      "duration": 1.3,
+      "graphemes": [
+        "box"
+      ],
+      "phonemes": [
+        "bˈɑks"
+      ]
+    },
+    {
+      "src": "/audio/words/wrapping-gift-wraps.mp3",
+      "text": "wraps",
+      "textSha256": "d4771ec0ad044eb8e11655780b49c83fa1b666898faef33aa826cfbf01563be5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4caa69873915dcf2d5d4cd10daf184c6292c3d295d241edb6fb7161687824b2e",
+      "duration": 1.325,
+      "graphemes": [
+        "wraps"
+      ],
+      "phonemes": [
+        "ɹˈæps"
+      ]
+    },
+    {
+      "src": "/audio/words/wrapping-gift-paper.mp3",
+      "text": "paper",
+      "textSha256": "382635c9325bf3273d195ff1b8a44e5b11afd7d97addeb8863ea35feb98c1a07",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a07957eeaa561a15e81bda844f39eb0f706f20f8394ac166f4fde41cbcee2b2c",
+      "duration": 1.425,
+      "graphemes": [
+        "paper"
+      ],
+      "phonemes": [
+        "pˈApəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/wrapping-gift-tape.mp3",
+      "text": "tape",
+      "textSha256": "8ba4ec7d634f794ec260675876415c279bcd46e3705d5ffda147a65db9e15a12",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8ffdbd56ab37c37d69f0710ab246a512557e6b0d468b936638a51a1639b0ea7d",
+      "duration": 1.275,
+      "graphemes": [
+        "tape"
+      ],
+      "phonemes": [
+        "tˈAp"
+      ]
+    },
+    {
+      "src": "/audio/words/wrapping-gift-ribbon.mp3",
+      "text": "ribbon",
+      "textSha256": "affc35bd6c6352aa5960f8db7845839953f83096b390b0bacb2f861440b5ed44",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9b023c896f8b0982863a3a862796904ea29a1344f47568e18c446e729b107f7e",
+      "duration": 1.425,
+      "graphemes": [
+        "ribbon"
+      ],
+      "phonemes": [
+        "ɹˈɪbən"
+      ]
+    },
+    {
+      "src": "/audio/sentences/park-bubbles/1.mp3",
+      "text": "Mei dips a wand into the bubble mix.",
+      "textSha256": "7a815376270598a21d4f2c1de02d5d822d91e0a09098655b0eb7aeb7f2c3e366",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e082604191b661224bfde9bb6a3948a1d3966a3005c852586d6dc045c4b0bac9",
+      "duration": 2.55,
+      "graphemes": [
+        "Mei dips a wand into the bubble mix."
+      ],
+      "phonemes": [
+        "mˈA dˈɪps ɐ wˈɑnd ˈɪntu ðə bˈʌbᵊl mˈɪks."
+      ]
+    },
+    {
+      "src": "/audio/sentences/park-bubbles/2.mp3",
+      "text": "She blows gently and makes small bubbles.",
+      "textSha256": "329788563cd7a6c4dccc59baaad4f3c00a9051cee2cc29f7c4711c73a1d392b5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "09c341b3e2238734f45500e0402221730242325ca3c0927066fb1f30633a6998",
+      "duration": 2.875,
+      "graphemes": [
+        "She blows gently and makes small bubbles."
+      ],
+      "phonemes": [
+        "ʃˌi blˈOz ʤˈɛntli ænd mˌAks smˈɔl bˈʌbᵊlz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/park-bubbles/3.mp3",
+      "text": "“Can I try?” asks her brother.",
+      "textSha256": "7a8855aa5d41ae58d59253928f7263b2a4cfec0b885a8f0ce691ae6ac647b335",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "30dcf3ffa880ca71a77a6990e6c411e6cc2c0714724e01451d1cc466e43eef30",
+      "duration": 2.425,
+      "graphemes": [
+        "“Can I try?” asks her brother."
+      ],
+      "phonemes": [
+        "“kˌæn ˌI tɹˈI?” ˈæsks hɜɹ bɹˈʌðəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/park-bubbles/4.mp3",
+      "text": "Mei gives him the wand.",
+      "textSha256": "862d6b0b752fba79ae5d6f15850fa100f5143941b4d166a949d6747bcb7aea9b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9d92de4ef271acfe436f751a87f4484eed63db928fd699c131a8f65bb3b648d0",
+      "duration": 1.85,
+      "graphemes": [
+        "Mei gives him the wand."
+      ],
+      "phonemes": [
+        "mˈA ɡˈɪvz hˌɪm ðə wˈɑnd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/park-bubbles/5.mp3",
+      "text": "A big bubble floats past his nose.",
+      "textSha256": "e81fa39bf6bb7d59d8230851abf254b3877a5d368228f2763ab91986e0d95a2b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7bdcba3127940c820f5bb2d5482f46bec3b4620ec127aecb5a53a401f0514ab6",
+      "duration": 2.625,
+      "graphemes": [
+        "A big bubble floats past his nose."
+      ],
+      "phonemes": [
+        "ɐ bˈɪɡ bˈʌbᵊl flˈOts pˈæst hɪz nˈOz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/park-bubbles/6.mp3",
+      "text": "“Look at that one!” he says.",
+      "textSha256": "e23d2dd7d413f6e8369f5d519640c9b4c63d64ce22c20e30696b5cfa00abf947",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "00626d556e43e262fe5bc2e94f2a9ca63ecfecafde18e4ec276d8b92bb27cabd",
+      "duration": 2.1,
+      "graphemes": [
+        "“Look at that one!” he says."
+      ],
+      "phonemes": [
+        "“lˈʊk æt ðˈæt wˈʌn!” hi sˈɛz."
+      ]
+    },
+    {
+      "src": "/audio/phrases/park-bubbles-bubble-mix.mp3",
+      "text": "bubble mix",
+      "textSha256": "2973c02ebcde5f22303809e561bced922a8611c0717b9ceb05eecabe147f06d3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e4ff701331d14f86483ccba6dfa43632a46aa25072884188e3daccaea22c115e",
+      "duration": 1.6,
+      "graphemes": [
+        "bubble mix"
+      ],
+      "phonemes": [
+        "bˈʌbᵊl mˈɪks"
+      ]
+    },
+    {
+      "src": "/audio/phrases/park-bubbles-blows-gently.mp3",
+      "text": "blows gently",
+      "textSha256": "245a4d8c2ecb0bb0dfff8411f3bd0a75b5defd0d4349a706acd1d07caea52391",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "aa8b3f470799e51633bec5fc9594d15c49fdf114f5203cd33a842be57d36a64b",
+      "duration": 1.7,
+      "graphemes": [
+        "blows gently"
+      ],
+      "phonemes": [
+        "blˈOz ʤˈɛntli"
+      ]
+    },
+    {
+      "src": "/audio/phrases/park-bubbles-can-i-try.mp3",
+      "text": "Can I try",
+      "textSha256": "40b66c8b2224496bcf15239ba009762243536620f5b7e1622e16d91407ea09c6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "43f1c2c549858591964ebd2bf5cf414bc17e998d659659e746806f2f012606d9",
+      "duration": 1.6,
+      "graphemes": [
+        "Can I try"
+      ],
+      "phonemes": [
+        "kˌæn ˌI tɹˈI"
+      ]
+    },
+    {
+      "src": "/audio/phrases/park-bubbles-look-at-that-one.mp3",
+      "text": "Look at that one",
+      "textSha256": "b0b44f68e6d671b4d584921aac7c5c181f341c4d5e925dd908e0048e8c9f5b47",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8bbf36d99534a49b26a98e5af6dd976cb1eecd04910390d88800ef888617ad1a",
+      "duration": 1.6,
+      "graphemes": [
+        "Look at that one"
+      ],
+      "phonemes": [
+        "lˈʊk æt ðˈæt wˈʌn"
+      ]
+    },
+    {
+      "src": "/audio/words/park-bubbles-dips.mp3",
+      "text": "dips",
+      "textSha256": "9b9a2cbe44b2d2c3c209563430ac4933cf56341e30bc7cbad1c5def0620606cc",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9354dea3a9e22f2fafb57d62d601d1160b3fb3dcfb3a874d7540fdc6c835acb0",
+      "duration": 1.25,
+      "graphemes": [
+        "dips"
+      ],
+      "phonemes": [
+        "dˈɪps"
+      ]
+    },
+    {
+      "src": "/audio/words/park-bubbles-wand.mp3",
+      "text": "wand",
+      "textSha256": "04224b1d2fb402314a8dfc9d03e00937aae352fd20d3070181209a66c5127fb2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f76aace20896d30d342bcda29a3dd92a38775e8311e6b227fb196693b2a841a7",
+      "duration": 1.35,
+      "graphemes": [
+        "wand"
+      ],
+      "phonemes": [
+        "wˈɑnd"
+      ]
+    },
+    {
+      "src": "/audio/words/park-bubbles-bubbles.mp3",
+      "text": "bubbles",
+      "textSha256": "2ea0d25e51920dc0ba247fcda7f514f3e8ad6234e704277036df405af860ed6c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cdeb54d4005c4479a6f1eb248fc33dc7c18c9bda4d3a2762f3da706731ca2712",
+      "duration": 1.4,
+      "graphemes": [
+        "bubbles"
+      ],
+      "phonemes": [
+        "bˈʌbᵊlz"
+      ]
+    },
+    {
+      "src": "/audio/words/park-bubbles-brother.mp3",
+      "text": "brother",
+      "textSha256": "0b4bd77cec705cf5df016344c0fc673fb3c2240078e6af572b2c5c6fa76114af",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7504956a26e85140ed052abaccf7819535f48d05fce2f7d27247775ebb0ba5e8",
+      "duration": 1.125,
+      "graphemes": [
+        "brother"
+      ],
+      "phonemes": [
+        "bɹˈʌðəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/park-bubbles-floats.mp3",
+      "text": "floats",
+      "textSha256": "4b379441613442e9bd746f463554d9e27aa22d4d4aa4aa7c84f3192997bc2200",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6198993d6426b6a7a5e0c0a8145861928280771528247fd24a91f7dc9952cfd4",
+      "duration": 1.35,
+      "graphemes": [
+        "floats"
+      ],
+      "phonemes": [
+        "flˈOts"
+      ]
+    },
+    {
+      "src": "/audio/words/park-bubbles-nose.mp3",
+      "text": "nose",
+      "textSha256": "d77e22123e64d3d87f1f95d9cff7a0b6af6c32b9a81552cb90e991eb55cf63d4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8f45fa4aea5635dc2eafa7a8821f7ac990e96b0d8acc4317504c60ea10c108eb",
+      "duration": 1.425,
+      "graphemes": [
+        "nose"
+      ],
+      "phonemes": [
+        "nˈOz"
+      ]
+    }
+  ]
+}
