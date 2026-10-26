@@ -1,0 +1,333 @@
+{
+  "id": "mailing-a-card",
+  "title": "寄卡片給阿嬤",
+  "titleEn": "A Card for Grandma",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/mailing-a-card.webp",
+    "alt": "小宇和爸爸站在郵筒旁，小宇把一封貼著郵票的信封放進投信口。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "on-the-front",
+      "english": "on the front",
+      "translation": "在正面",
+      "audio": {
+        "src": "/audio/phrases/mailing-a-card-on-the-front.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "029fda45f230e8e6098774f587a9268185061b4e82a5f67b0a6158152b8bb88c",
+        "sha256": "6fc45a7dcc830e4f315cf33c44311cf9939a8f30a55356ef40fe2ecb6d7573cb"
+      }
+    },
+    {
+      "id": "puts-the-card-inside",
+      "english": "puts the card inside",
+      "translation": "把卡片放進裡面",
+      "audio": {
+        "src": "/audio/phrases/mailing-a-card-puts-the-card-inside.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c6cde0392c92381084c98e6177a3f436093c9ac44d8743f977ea6d29306133e8",
+        "sha256": "a377bbe5abd5c9028c4bbe0e21b2833777dc23dc9d80965a1172b1c8077ae54d"
+      }
+    },
+    {
+      "id": "add-a-stamp",
+      "english": "add a stamp",
+      "translation": "貼上一張郵票",
+      "audio": {
+        "src": "/audio/phrases/mailing-a-card-add-a-stamp.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8fd420aa8ee541f0faa25cdae9583522ca82c23d022038d22f4e114539a6b61d",
+        "sha256": "fc0000b159e41241d5ca2d0d6aedacd4ab92e11eb9d17a76913d6a07cc9b066c"
+      }
+    },
+    {
+      "id": "with-a-big-smile",
+      "english": "with a big smile",
+      "translation": "笑容滿面地",
+      "audio": {
+        "src": "/audio/phrases/mailing-a-card-with-a-big-smile.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9048cad16bdc8589a665b72363a4dd01c3d2953dfcb3352b4321bbd51dfb9e64",
+        "sha256": "0334d6d4ab650c546ef65debe54c90d64a5a0a3470788568aa770fe9db96ac45"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "card",
+      "english": "card",
+      "translation": "卡片",
+      "example": "This card is for Dad.",
+      "audio": {
+        "src": "/audio/words/mailing-a-card-card.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8367cd66fdd136bba8ba23f8805bb050dd6289401c8ec3b0be44a3c233eef90d",
+        "sha256": "a9f305db0ed695b677e99007c11c88829f8e07bbb66044e12397f79f118b9ecb"
+      }
+    },
+    {
+      "id": "flower",
+      "english": "flower",
+      "translation": "花",
+      "example": "I draw a flower.",
+      "audio": {
+        "src": "/audio/words/mailing-a-card-flower.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c06b0cfe0cc5e900c57784484094331f095bf441995c3c31ea6c75691c786c35",
+        "sha256": "20c3af43e437ad2ea9e680bf197bed569c1b192eea9b953cb8e4af9bb8a90fc0"
+      }
+    },
+    {
+      "id": "address",
+      "english": "address",
+      "translation": "地址",
+      "example": "Mom writes the address.",
+      "audio": {
+        "src": "/audio/words/mailing-a-card-address.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d80c9bf910f144738ef983724bc04bd6bd3f17c5c83ed57bedee1b1b9278e811",
+        "sha256": "1a25d6ea74a874d3f310e71c2c1f563bda288242b35581a22ab24ff29ad29c01"
+      }
+    },
+    {
+      "id": "envelope",
+      "english": "envelope",
+      "translation": "信封",
+      "example": "The card is in the envelope.",
+      "audio": {
+        "src": "/audio/words/mailing-a-card-envelope.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4c503ca67761e5c4aaecfe996244c25d8c0b40902d1085c85b4468bd567548c6",
+        "sha256": "edfc0e7e9aaa782fcdc5badced0cb36aac37f23245f7b0de03bf268221a536eb"
+      }
+    },
+    {
+      "id": "stamp",
+      "english": "stamp",
+      "translation": "郵票",
+      "example": "The stamp is on the envelope.",
+      "audio": {
+        "src": "/audio/words/mailing-a-card-stamp.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e0afcdbf6ad4adf566c572d7f7c34d4dfb85e5122bba750d6a3a5842f915d39b",
+        "sha256": "030d8cbd87a388314fa737c65caf1f2517393bfb72090e70c133f33392ef37e7"
+      }
+    },
+    {
+      "id": "mailbox",
+      "english": "mailbox",
+      "translation": "郵筒",
+      "example": "We find a mailbox.",
+      "audio": {
+        "src": "/audio/words/mailing-a-card-mailbox.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "92bea4d52a1d53f0c8111edf39e26a89cc9e691edcf7da6ad3593cda431ae4c8",
+        "sha256": "bc3d34f6f2c45e14a8094b2578061e6a408b1735d4ea336323dc620ace50430c"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Yu makes a "
+        },
+        {
+          "text": "card",
+          "wordIds": [
+            "card"
+          ]
+        },
+        {
+          "text": " for Grandma."
+        }
+      ],
+      "translation": "小宇做了一張要給阿嬤的卡片。",
+      "audio": {
+        "src": "/audio/sentences/mailing-a-card/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5d0ca1db9bc065be6535ce4eedc45f3dfe2cdda3313d2d10ef2bfee1aa2e468c",
+        "sha256": "053abdd8a5ed0c895d2effbfd61a37ac0aa012ba8c4769e5eef027e3ea66f008"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "He draws a "
+        },
+        {
+          "text": "flower",
+          "wordIds": [
+            "flower"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on the front",
+          "phraseIds": [
+            "on-the-front"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他在卡片正面畫了一朵花。",
+      "audio": {
+        "src": "/audio/sentences/mailing-a-card/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2a8ac4a7bd5ec3e100512d6c158cc7c8f3429bce1073b4db107da8ef6d885633",
+        "sha256": "342d2124f4d08a45ef0ec44f440801e1dedcbb8d29dc35d45fe40c17ba296987"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Dad writes the "
+        },
+        {
+          "text": "address",
+          "wordIds": [
+            "address"
+          ]
+        },
+        {
+          "text": " on an "
+        },
+        {
+          "text": "envelope",
+          "wordIds": [
+            "envelope"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "爸爸把地址寫在一個信封上。",
+      "audio": {
+        "src": "/audio/sentences/mailing-a-card/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "298e0f5e9be8df5d812c1ebfa454a36c85bf31ea6edecc51f44b06b3b6fa9a9d",
+        "sha256": "d460dd5df236b37f2a4c214cfb9dc918212ee004f8eed8162d5f6048b6d0e563"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yu "
+        },
+        {
+          "text": "puts the ",
+          "phraseIds": [
+            "puts-the-card-inside"
+          ]
+        },
+        {
+          "text": "card",
+          "phraseIds": [
+            "puts-the-card-inside"
+          ],
+          "wordIds": [
+            "card"
+          ]
+        },
+        {
+          "text": " inside",
+          "phraseIds": [
+            "puts-the-card-inside"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小宇把卡片放進信封裡。",
+      "audio": {
+        "src": "/audio/sentences/mailing-a-card/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d8a41398dc963a68a554387f9bb71cb77ea0b39a03bd92b882cf2a17485c5097",
+        "sha256": "2527415c4a8e5be9d5171d9f25c8754df9e72e9540903ba7120a3cc65a66338c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They "
+        },
+        {
+          "text": "add a ",
+          "phraseIds": [
+            "add-a-stamp"
+          ]
+        },
+        {
+          "text": "stamp",
+          "phraseIds": [
+            "add-a-stamp"
+          ],
+          "wordIds": [
+            "stamp"
+          ]
+        },
+        {
+          "text": " and find a "
+        },
+        {
+          "text": "mailbox",
+          "wordIds": [
+            "mailbox"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們貼上一張郵票，找到一個郵筒。",
+      "audio": {
+        "src": "/audio/sentences/mailing-a-card/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ee8ede1792ae515dfbe37b73626142c923e130f78563a4bb923def8f08fe9666",
+        "sha256": "0fafb96a24b04b55be1801ea0d298f8d7baec0e56f15b35039353ffb1e7fa454"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yu mails the "
+        },
+        {
+          "text": "card",
+          "wordIds": [
+            "card"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "with a big smile",
+          "phraseIds": [
+            "with-a-big-smile"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小宇笑容滿面地把卡片寄出去。",
+      "audio": {
+        "src": "/audio/sentences/mailing-a-card/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5e5fe564fe07dd11b3d03591a14d2a72608d01c19eb6e4b858e6947618ec9aaf",
+        "sha256": "eb47982287c333b0ce013661122ecd0357e51d14ec1bb1c9a3df8b2b6e30db7b"
+      }
+    }
+  ]
+}

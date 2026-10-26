@@ -1,0 +1,339 @@
+{
+  "id": "paper-boat",
+  "title": "摺一艘紙船",
+  "titleEn": "A Paper Boat",
+  "category": "學習與探索",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/paper-boat.webp",
+    "alt": "小宇和媽媽坐在家中桌旁，看著一艘紙船浮在盛水的碗裡，桌上放著紙張。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "a-sheet-of-paper",
+      "english": "a sheet of paper",
+      "translation": "一張紙",
+      "audio": {
+        "src": "/audio/phrases/paper-boat-a-sheet-of-paper.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8b073c72408043d02dbb4b9c858ea41058c5088c82595c597ad3504ab3261ae7",
+        "sha256": "9c3665fdca8d40949fa2945e8ae38e430cc244b94f62e6d8cbb6d770034f26f2"
+      }
+    },
+    {
+      "id": "a-small-paper-boat",
+      "english": "a small paper boat",
+      "translation": "一艘小紙船",
+      "audio": {
+        "src": "/audio/phrases/paper-boat-a-small-paper-boat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "07c4606a2f9338472978bf6bd55e3586caf8eaacc2821bb74c3f1f49662086ff",
+        "sha256": "6077456ace68b37222e4966ead34789b3e728f7d796fc4be8cb694a255607906"
+      }
+    },
+    {
+      "id": "can-it-float",
+      "english": "Can it float",
+      "translation": "它能浮起來嗎",
+      "audio": {
+        "src": "/audio/phrases/paper-boat-can-it-float.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2f1972648d97a5255067c42ba99df36de4940a33d7232afca196f5c4068c676b",
+        "sha256": "24d3bd4e4098057bf24dd52e5619593cec2c32fb75e486a566cd386f0dfd48c2"
+      }
+    },
+    {
+      "id": "with-a-smile",
+      "english": "with a smile",
+      "translation": "微笑著",
+      "audio": {
+        "src": "/audio/phrases/paper-boat-with-a-smile.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "664f80f8f16c38f6d319e06bf39169f58e9d81b1037dd15dfb9456a4fa87a1c8",
+        "sha256": "453d2b488c2de4bd58626808d42d6443bad3386b909c61ca6e2d33b2c1c598d4"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "folds",
+      "english": "folds",
+      "translation": "摺疊",
+      "example": "She folds the paper.",
+      "audio": {
+        "src": "/audio/words/paper-boat-folds.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "212aa61b2ca4694314cbcb105e6df22947597c2010ae78f3be2084438c5c6e55",
+        "sha256": "b0251289ca314274e304c12a46df1391b109840ccf108cc2322337a6fe1704a1"
+      }
+    },
+    {
+      "id": "paper",
+      "english": "paper",
+      "translation": "紙",
+      "example": "The paper is blue.",
+      "audio": {
+        "src": "/audio/words/paper-boat-paper.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "382635c9325bf3273d195ff1b8a44e5b11afd7d97addeb8863ea35feb98c1a07",
+        "sha256": "c1096ff25b903cfb70bd1749019d8aff8f914499b680631a5add36f0e6d5eba4"
+      }
+    },
+    {
+      "id": "boat",
+      "english": "boat",
+      "translation": "小船",
+      "example": "The boat is on the water.",
+      "audio": {
+        "src": "/audio/words/paper-boat-boat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "25cdb46d8d2115a24eb15c3c58f34f3330cfca4fec249ff70b7cad2bb560a0dd",
+        "sha256": "e6ad0922535587443da789360ff91d69f5a20c8b8dfb37f5c8ab42a759ba090a"
+      }
+    },
+    {
+      "id": "float",
+      "english": "float",
+      "translation": "漂浮",
+      "example": "This boat can float.",
+      "audio": {
+        "src": "/audio/words/paper-boat-float.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "76a7e234dc54e9c605b2cc9fdf71279526150df48c574bdfa69e436e0b3d5c18",
+        "sha256": "fcabe31b5a7b5bd634aefb33dbc229c3386ceaffe3ccddc00b4f1fc44f25347c"
+      }
+    },
+    {
+      "id": "water",
+      "english": "water",
+      "translation": "水",
+      "example": "The water is in the bowl.",
+      "audio": {
+        "src": "/audio/words/paper-boat-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501",
+        "sha256": "88cf5c9883a57f37bae68984041212472076c2aa0f0a881e0c4cde2612d8eeda"
+      }
+    },
+    {
+      "id": "bowl",
+      "english": "bowl",
+      "translation": "碗",
+      "example": "The bowl is on the table.",
+      "audio": {
+        "src": "/audio/words/paper-boat-bowl.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d9f2babb167353d055843c7d537e6a663023561f921f831369ea1d657aa3051a",
+        "sha256": "14c7f44bc937ba9d8ab48efe7ee85814a65c7622a1a135468a08516223e51cf9"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Yu "
+        },
+        {
+          "text": "folds",
+          "wordIds": [
+            "folds"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "a sheet of ",
+          "phraseIds": [
+            "a-sheet-of-paper"
+          ]
+        },
+        {
+          "text": "paper",
+          "phraseIds": [
+            "a-sheet-of-paper"
+          ],
+          "wordIds": [
+            "paper"
+          ]
+        },
+        {
+          "text": " with Mom."
+        }
+      ],
+      "translation": "小宇和媽媽一起摺一張紙。",
+      "audio": {
+        "src": "/audio/sentences/paper-boat/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "091c401e0506fc6b8b8cc80d2b4107f18f531f75353d062f0a9bb21387184240",
+        "sha256": "f94ce22d3c4c6eacc8a946126d554d8005dd8a62548b0219fa93748105a378e1"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "He makes "
+        },
+        {
+          "text": "a small ",
+          "phraseIds": [
+            "a-small-paper-boat"
+          ]
+        },
+        {
+          "text": "paper",
+          "phraseIds": [
+            "a-small-paper-boat"
+          ],
+          "wordIds": [
+            "paper"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "boat",
+          "phraseIds": [
+            "a-small-paper-boat"
+          ],
+          "wordIds": [
+            "boat"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他做出一艘小紙船。",
+      "audio": {
+        "src": "/audio/sentences/paper-boat/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e0bad52eed49038d61bf98c26d8a00367e14e8fcbc3f6f90f531015f54b5d56b",
+        "sha256": "ee9362d9868b1af84d1234c23d0de1051fc58184f27a811d619eabb545903504"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Can it ",
+          "phraseIds": [
+            "can-it-float"
+          ]
+        },
+        {
+          "text": "float",
+          "phraseIds": [
+            "can-it-float"
+          ],
+          "wordIds": [
+            "float"
+          ]
+        },
+        {
+          "text": "?” he asks."
+        }
+      ],
+      "translation": "他問：「它能浮起來嗎？」",
+      "audio": {
+        "src": "/audio/sentences/paper-boat/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3acfe3822427d93211e2876da9c435fbe355f226dbb79fa951596ffb7b9e2b2e",
+        "sha256": "b69cb0a2169c331c8d2d7364dbbcd7d92161d2ea1492883e07f8f30bf78a9b3f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mom puts "
+        },
+        {
+          "text": "water",
+          "wordIds": [
+            "water"
+          ]
+        },
+        {
+          "text": " in a "
+        },
+        {
+          "text": "bowl",
+          "wordIds": [
+            "bowl"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "媽媽把水倒進碗裡。",
+      "audio": {
+        "src": "/audio/sentences/paper-boat/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "295174eaaa78ddac82940ef1c9300374f20fbf0fc41fec15dcbc64ce042356bf",
+        "sha256": "e88af1f19aafdd49cf886ec76142f1862d8d1a8b23036c4de9722a937eab452c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yu sets the "
+        },
+        {
+          "text": "boat",
+          "wordIds": [
+            "boat"
+          ]
+        },
+        {
+          "text": " on the "
+        },
+        {
+          "text": "water",
+          "wordIds": [
+            "water"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小宇把紙船放到水面上。",
+      "audio": {
+        "src": "/audio/sentences/paper-boat/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e011f8643979df501ea747e23d21e49257273678ee2e3a429c29dbbd6725f6f4",
+        "sha256": "020f1b1524c08ce10bc5a947fc5ea998f051ef0f5241e8d5bf9f935f9d9f79df"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“Look! It floats!” he says "
+        },
+        {
+          "text": "with a smile",
+          "phraseIds": [
+            "with-a-smile"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他微笑著說：「看！它浮起來了！」",
+      "audio": {
+        "src": "/audio/sentences/paper-boat/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e730f0f509489ff356346707063167deb9cbd4cc3d8bae119dc7c48fd62694ae",
+        "sha256": "2e84879f17a82f1168833f7fe668848784f88214163a77664614092ed326bf6d"
+      }
+    }
+  ]
+}

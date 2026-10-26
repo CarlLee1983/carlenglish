@@ -1,0 +1,327 @@
+{
+  "id": "puzzle-together",
+  "title": "一起拼拼圖",
+  "titleEn": "A Puzzle Together",
+  "category": "遊戲與友誼",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/puzzle-together.webp",
+    "alt": "小安和小宇坐在矮桌前拼一幅小船拼圖，小宇拿著一塊藍色拼片，桌上放著拼圖盒。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "work-on-a-puzzle",
+      "english": "work on a puzzle",
+      "translation": "拼拼圖",
+      "audio": {
+        "src": "/audio/phrases/puzzle-together-work-on-a-puzzle.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ad7a5811fe25b11faf79e522e516f2c18bae77f6a0b432fa7a6b4076e5a7dea7",
+        "sha256": "0e0a4002dd3ed1f138c4cf571d2b7c42b267e2357edc18e429bde1212a7923ba"
+      }
+    },
+    {
+      "id": "can-you-find",
+      "english": "Can you find",
+      "translation": "你能找到……嗎",
+      "audio": {
+        "src": "/audio/phrases/puzzle-together-can-you-find.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ae5b7a392c5582ebd8f236aae4c7e64178ed8373175557eb061a8ecc385711d5",
+        "sha256": "a2f2373945dcf10fb478142c45bfa6396f01d823fb298da7c2188efc71d10717"
+      }
+    },
+    {
+      "id": "in-the-box",
+      "english": "in the box",
+      "translation": "在盒子裡",
+      "audio": {
+        "src": "/audio/phrases/puzzle-together-in-the-box.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8f00e8594e7e6f9639f3f18a03eb46f933e756df3fbbcf9f84f3c895d6a8bed8",
+        "sha256": "07c4cf11a31e23b60477ce602fe3fb1f9e1fd6ff4e9264f744d4bf3cdd695a06"
+      }
+    },
+    {
+      "id": "fits-here",
+      "english": "fits here",
+      "translation": "剛好放這裡",
+      "audio": {
+        "src": "/audio/phrases/puzzle-together-fits-here.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "db45157c19e7382eb188b1575335900e82ebcf375b09775e4889fd2acc2bf2b5",
+        "sha256": "e4cf98a5c3b6d6f0d096397f75e48de06bc64616d80d981b0931fe02498dab82"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "table",
+      "english": "table",
+      "translation": "桌子",
+      "example": "The table is low.",
+      "audio": {
+        "src": "/audio/words/puzzle-together-table.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0d4fc4a78d3706edccafb665a8b2fdd9309e82c78625bb0f2b8e7bb9e1c4d21c",
+        "sha256": "8447df6b3a8ea5e70d5820ddf3aa40bb765fa49780f8d0c1ea3a44d9850045b1"
+      }
+    },
+    {
+      "id": "puzzle",
+      "english": "puzzle",
+      "translation": "拼圖",
+      "example": "This puzzle has a boat.",
+      "audio": {
+        "src": "/audio/words/puzzle-together-puzzle.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d4fba09b856cc0aa0f2b643f7d9ca20d309dc89b5e562f1229809c51f1e20dcc",
+        "sha256": "a563ef2420b0e29fe936fae003720d7a70c27ece7b5025c999b5ea75df3b054a"
+      }
+    },
+    {
+      "id": "boat",
+      "english": "boat",
+      "translation": "小船",
+      "example": "The boat is on the water.",
+      "audio": {
+        "src": "/audio/words/puzzle-together-boat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "25cdb46d8d2115a24eb15c3c58f34f3330cfca4fec249ff70b7cad2bb560a0dd",
+        "sha256": "238e6f07de9fd7b909008d44b0c345c910d93f8742e0936b92c41fff6ce1488e"
+      }
+    },
+    {
+      "id": "blue",
+      "english": "blue",
+      "translation": "藍色的",
+      "example": "My bag is blue.",
+      "audio": {
+        "src": "/audio/words/puzzle-together-blue.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "16477688c0e00699c6cfa4497a3612d7e83c532062b64b250fed8908128ed548",
+        "sha256": "cf02f3a69f5c8c17e080de7c7bcf520aae4953c3f13ea6216bfdb0f3fe33d12c"
+      }
+    },
+    {
+      "id": "piece",
+      "english": "piece",
+      "translation": "一片；一塊",
+      "example": "I need one more piece.",
+      "audio": {
+        "src": "/audio/words/puzzle-together-piece.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "34235a2c502e3919d3f00af5dabb87cb58aef4566b10631f2a5db94950ebffbd",
+        "sha256": "880ef8a5c198bb72ecec374e724d6f6879900029fd95b7231044dfe98f0cf4c5"
+      }
+    },
+    {
+      "id": "box",
+      "english": "box",
+      "translation": "盒子",
+      "example": "The box is on the table.",
+      "audio": {
+        "src": "/audio/words/puzzle-together-box.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "26f8567f2569182294c3fa5b9f9cb2270b554eef628b4c149cf82a42888ff4ae",
+        "sha256": "450ae8a2f140c60a930825f85d2c47d258c1d0fff3175518c43482a78efba86e"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "An and Yu sit at a low "
+        },
+        {
+          "text": "table",
+          "wordIds": [
+            "table"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小安和小宇坐在一張矮桌前。",
+      "audio": {
+        "src": "/audio/sentences/puzzle-together/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d1c16084fec853815a665972bdb958d288f02aaaff27ef066b182107213abbc0",
+        "sha256": "af293d32a6cad68a41975e380448d979f1f15efa0060922e0f0370501756b17d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They "
+        },
+        {
+          "text": "work on a ",
+          "phraseIds": [
+            "work-on-a-puzzle"
+          ]
+        },
+        {
+          "text": "puzzle",
+          "phraseIds": [
+            "work-on-a-puzzle"
+          ],
+          "wordIds": [
+            "puzzle"
+          ]
+        },
+        {
+          "text": " of a "
+        },
+        {
+          "text": "boat",
+          "wordIds": [
+            "boat"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他們一起拼一幅小船拼圖。",
+      "audio": {
+        "src": "/audio/sentences/puzzle-together/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "01e4df0237c92f08fbdfce3d40e79c429709352f6ff0296ebb9208c51c16b0e7",
+        "sha256": "fc55fb1b2a024f1805790bb5ae6ed6c15b311f295ef6384efca3518451a7aa19"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "An asks, “"
+        },
+        {
+          "text": "Can you find",
+          "phraseIds": [
+            "can-you-find"
+          ]
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "blue",
+          "wordIds": [
+            "blue"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "piece",
+          "wordIds": [
+            "piece"
+          ]
+        },
+        {
+          "text": "?”"
+        }
+      ],
+      "translation": "小安問：「你能找到一塊藍色拼片嗎？」",
+      "audio": {
+        "src": "/audio/sentences/puzzle-together/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0c4ad0f5b321f3cb43e94a9b6d8c247e904434cbbe633171ded2276e72925884",
+        "sha256": "6b35935aa688df1a008ffa787593b3a78e25971afd433f7015cface357d62e7c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yu looks "
+        },
+        {
+          "text": "in the ",
+          "phraseIds": [
+            "in-the-box"
+          ]
+        },
+        {
+          "text": "box",
+          "phraseIds": [
+            "in-the-box"
+          ],
+          "wordIds": [
+            "box"
+          ]
+        },
+        {
+          "text": " and finds one."
+        }
+      ],
+      "translation": "小宇在盒子裡找，找到了一塊。",
+      "audio": {
+        "src": "/audio/sentences/puzzle-together/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "328f13241924986bf71b574b5dd333cdd116fc2d99232c25c6dc5910dfd150a3",
+        "sha256": "47efc4806d6872734aebaa9c999048630bf3bb20c5cb413038fef6c713f27a41"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“This "
+        },
+        {
+          "text": "piece",
+          "wordIds": [
+            "piece"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "fits here",
+          "phraseIds": [
+            "fits-here"
+          ]
+        },
+        {
+          "text": ",” he says."
+        }
+      ],
+      "translation": "他說：「這塊拼片剛好放這裡。」",
+      "audio": {
+        "src": "/audio/sentences/puzzle-together/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "15de2148dd6736639e9b362546a6a80430c8f87eebd1b2483e49317d67b7a966",
+        "sha256": "d2324a8aae83402e89b5c999131fad49c901de0a029764eea0efd70872bae3b6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They finish the "
+        },
+        {
+          "text": "puzzle",
+          "wordIds": [
+            "puzzle"
+          ]
+        },
+        {
+          "text": " and clap."
+        }
+      ],
+      "translation": "他們完成拼圖，拍手慶祝。",
+      "audio": {
+        "src": "/audio/sentences/puzzle-together/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ff7873e34d018e1988cb85d20ab6cc9fb67d13a93bd7b5336a0d8a336944e2a1",
+        "sha256": "15e3273be5c0cb2e275e955841e8d81e5b1ba91088e8adf95a58b64a22ea7af4"
+      }
+    }
+  ]
+}

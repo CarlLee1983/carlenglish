@@ -1,0 +1,318 @@
+{
+  "id": "music-class-beat",
+  "title": "音樂課打節拍",
+  "titleEn": "Keeping the Beat",
+  "category": "校園學習",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/music-class-beat.webp",
+    "alt": "小美在音樂教室裡用手輕敲小鼓，老師和同學在旁聆聽或拍手。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "listen-to-the-beat",
+      "english": "Listen to the beat",
+      "translation": "聽聽這個節拍",
+      "audio": {
+        "src": "/audio/phrases/music-class-beat-listen-to-the-beat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "28ecba53d6652b9b918fec64a0708768a4a56de2196917573f44ef5e83666e70",
+        "sha256": "f6c4ff323a77b7787441e1e2096b14ed3eb4b05101fce4d80763e40016f42477"
+      }
+    },
+    {
+      "id": "clap-along",
+      "english": "clap along",
+      "translation": "跟著拍手",
+      "audio": {
+        "src": "/audio/phrases/music-class-beat-clap-along.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1677cdd5f88d11d18b6fe82a5181e8462ed59bd3345ad2e3a043ebc61f66db5d",
+        "sha256": "f25e85c9fae03da5cfd0412f0a9c02627e26853d45679581dd236a30ec1161d1"
+      }
+    },
+    {
+      "id": "can-we-play-slowly",
+      "english": "Can we play slowly",
+      "translation": "我們可以慢慢演奏嗎",
+      "audio": {
+        "src": "/audio/phrases/music-class-beat-can-we-play-slowly.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "41cc84591e8b4c47dfc90980b56d3aa6b15a923b9d528bea4fbb6d38f67816c8",
+        "sha256": "dec16da312886c10d2a008db252adc648b6740dc708ff5b9b9176ee71e7086b9"
+      }
+    },
+    {
+      "id": "try-again",
+      "english": "try again",
+      "translation": "再試一次",
+      "audio": {
+        "src": "/audio/phrases/music-class-beat-try-again.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5b5dedee32c5bd671f8d930b734993338d4192be1f63d0dfd64d1963586d7953",
+        "sha256": "21df569e313b5f97c9ab263fa67fce167c650a55a35d608a26429e7e65adcd0d"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "drum",
+      "english": "drum",
+      "translation": "鼓",
+      "example": "The drum is small.",
+      "audio": {
+        "src": "/audio/words/music-class-beat-drum.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2752a2b5446f68dd231ee74418d3f8345ec4188aac528bca3fdf10bcf2069810",
+        "sha256": "9bab00970dd380eebca40d376736c43893e2b6b28c7fd211d380b9cba72bb325"
+      }
+    },
+    {
+      "id": "music",
+      "english": "music",
+      "translation": "音樂",
+      "example": "I like music.",
+      "audio": {
+        "src": "/audio/words/music-class-beat-music.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "80f189984e5ca70287d13342f6daa0db45cba3c131c4e46dc81360f3a4c4f690",
+        "sha256": "43baf26f3db23bfbcff09879d53ea4617825a99c447451db8b2877817ce9dc8d"
+      }
+    },
+    {
+      "id": "teacher",
+      "english": "teacher",
+      "translation": "老師",
+      "example": "Our teacher is here.",
+      "audio": {
+        "src": "/audio/words/music-class-beat-teacher.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1057a9604e04b274da5a4de0c8f4b4868d9b230989f8c8c6a28221143cc5a755",
+        "sha256": "3bee1590d3d8ab58ee5248f971780567ab3030f8dc39bfdb814568f6719938ea"
+      }
+    },
+    {
+      "id": "beat",
+      "english": "beat",
+      "translation": "節拍",
+      "example": "I clap to the beat.",
+      "audio": {
+        "src": "/audio/words/music-class-beat-beat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f9eeb63bf773f4b0854dae2f22b7c57a8cd129443f1712c46e7344e3b05f1149",
+        "sha256": "5f179b172fe772d7961eec53164bb39fa4e7151d29a2d713fa389652b4896dbb"
+      }
+    },
+    {
+      "id": "hand",
+      "english": "hand",
+      "translation": "手",
+      "example": "I raise my hand.",
+      "audio": {
+        "src": "/audio/words/music-class-beat-hand.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1b001706a418bdfca35361355c643b7918572b8f9b7503f3043a6e23b45dce52",
+        "sha256": "e6803bfc32b771f515f844c85ce20b8ef374a2004169a867551f7bcf9d2bf881"
+      }
+    },
+    {
+      "id": "friends",
+      "english": "friends",
+      "translation": "朋友（複數）",
+      "example": "My friends clap with me.",
+      "audio": {
+        "src": "/audio/words/music-class-beat-friends.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2e4b9cc2428beb7bff6a56c14d7304e472a23e890e91ef0a6b0b0380e89f9734",
+        "sha256": "a5a72a3ddd9ff877be3bcfdf3f68e9fc9d34d44677e395fd45e72047d0ae03e1"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Mei holds a small "
+        },
+        {
+          "text": "drum",
+          "wordIds": [
+            "drum"
+          ]
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "music",
+          "wordIds": [
+            "music"
+          ]
+        },
+        {
+          "text": " class."
+        }
+      ],
+      "translation": "小美在音樂課上拿著一個小鼓。",
+      "audio": {
+        "src": "/audio/sentences/music-class-beat/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "89d1102b2ef2b49293db74b973e908b574b4d247da794eeea24754aff9941fc7",
+        "sha256": "20b39dccabe70d142e8603d22dad8d856ed4741305b7d7403d1dacf1bcd984c8"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "teacher",
+          "wordIds": [
+            "teacher"
+          ]
+        },
+        {
+          "text": " says, “"
+        },
+        {
+          "text": "Listen to the ",
+          "phraseIds": [
+            "listen-to-the-beat"
+          ]
+        },
+        {
+          "text": "beat",
+          "phraseIds": [
+            "listen-to-the-beat"
+          ],
+          "wordIds": [
+            "beat"
+          ]
+        },
+        {
+          "text": ".”"
+        }
+      ],
+      "translation": "老師說：「聽聽這個節拍。」",
+      "audio": {
+        "src": "/audio/sentences/music-class-beat/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "25d82043ce79f9885a068494e8155f68ec5382a5e93c18549c5c6772bf9cb143",
+        "sha256": "2ce8ac099298555901b17d5a2c73657d65b2a11d88ac090f10f6cfd29e07d16a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Mei taps the "
+        },
+        {
+          "text": "drum",
+          "wordIds": [
+            "drum"
+          ]
+        },
+        {
+          "text": " with one "
+        },
+        {
+          "text": "hand",
+          "wordIds": [
+            "hand"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小美用一隻手輕敲小鼓。",
+      "audio": {
+        "src": "/audio/sentences/music-class-beat/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "09eb34607b469909443c465cc5c2f7287f7ddf78212f795059c9773b49cdf6f9",
+        "sha256": "4160151d8029e309795ab9d7c339715684b9cc5bb80cfa755c554b73c77f9fe1"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Her "
+        },
+        {
+          "text": "friends",
+          "wordIds": [
+            "friends"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "clap along",
+          "phraseIds": [
+            "clap-along"
+          ]
+        },
+        {
+          "text": " with her."
+        }
+      ],
+      "translation": "她的朋友跟著她拍手。",
+      "audio": {
+        "src": "/audio/sentences/music-class-beat/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0878e9d7c97a6014ae102f17916722c5963bf31a6332b00a161f60473a5d4c7d",
+        "sha256": "838b199408b7eb1e33a5f60b86fa2539b47db806f2cb7068e3bb26b854f82140"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Can we play slowly",
+          "phraseIds": [
+            "can-we-play-slowly"
+          ]
+        },
+        {
+          "text": "?” asks Mei."
+        }
+      ],
+      "translation": "小美問：「我們可以慢慢打嗎？」",
+      "audio": {
+        "src": "/audio/sentences/music-class-beat/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f4bb8354da8ef13675692e20aaa084d0503c5f2dcad3380c14a44fb93819fd81",
+        "sha256": "8ee310b0754bc7fa12c88eb08c95240b7ebbd893e9e94edf1d2678335008cd76"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They "
+        },
+        {
+          "text": "try again",
+          "phraseIds": [
+            "try-again"
+          ]
+        },
+        {
+          "text": " and smile together."
+        }
+      ],
+      "translation": "他們再試一次，一起露出笑容。",
+      "audio": {
+        "src": "/audio/sentences/music-class-beat/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4717c378941a5986d76d094f348ad689cb15d6782cf2298c564e4c32b47d8d39",
+        "sha256": "8c6461ef62dfb887399bd397aec8c7f2b8a581b691601694a58f1a5703c0d0c2"
+      }
+    }
+  ]
+}

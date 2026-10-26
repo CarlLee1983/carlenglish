@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-26",
+  "clips": 48,
+  "bytes": 710376,
+  "durationSeconds": 89.325,
+  "checks": {
+    "textSha256": true,
+    "fileSha256": true,
+    "voiceId": true,
+    "completeGraphemes": true,
+    "ffmpegDecode": true
+  },
+  "scope": [
+    "wash-before-snack",
+    "folding-laundry",
+    "seed-in-a-pot"
+  ]
+}

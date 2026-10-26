@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen",
+  "conversion": "Full frame PNG to WebP, sharp quality 86; no crop.",
+  "images": [
+    {
+      "id": "puzzle-together",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, recognizable characters, logos, brands, text, lettering, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series. Scene: An East Asian elementary girl and boy sit at a low living room table assembling a simple jigsaw puzzle showing a small sailboat on blue water. Girl points toward a missing blue water piece near the boat; boy holds one blue jigsaw piece ready to fit it. An open plain puzzle box with a few remaining pieces sits on the table. Clear friendly teamwork and puzzle-solving, not toy blocks or a train set. Keep fingers and pieces natural, no extra people.",
+      "generatedFile": "exec-2279414e-b3b9-4e38-843d-d99508589bcb.png",
+      "src": "/images/scenes/puzzle-together.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0dd6df9e8b5eaf6518b210f4ea482bbb5a803d5c3de1917fe86ea2ec855e883a"
+    },
+    {
+      "id": "video-call-grandma",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, recognizable characters, logos, brands, text, lettering, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series. Scene: An East Asian elementary boy and his mother sit together at a home table during a video call. A tablet stands securely on the table, with its screen clearly showing only a smiling East Asian grandmother waving from her own home. The boy holds up his simple crayon drawing of a cat toward the tablet camera. Compose from an oblique angle so the real boy, mother, tablet screen, grandmother's face, and cat drawing are all readable. Clear screen edges distinguish the remote grandmother from the two people physically at the table. Generic unbranded tablet, no visible interface labels, no text, no private details.",
+      "generatedFile": "exec-ebcb7734-eae4-4b7d-94d0-bc994d73a9d7.png",
+      "src": "/images/scenes/video-call-grandma.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6da6f9c910e0792489c479e4828681f2f0bbc1afc693cc61b71de4ebe09aa9d3"
+    },
+    {
+      "id": "bedtime-book",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, recognizable characters, logos, brands, text, lettering, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series. Scene: An East Asian elementary girl and her father sit together on a bed under a soft cozy blanket before bedtime. The father holds open a simple original picture book; the girl points to a clearly visible star in its illustration. The book contains only a simple original night-sky picture without any text. Warm bedside lamp and quiet bedroom, a small stack of other plain books nearby. Both characters fully readable, calm affectionate companionship, no recognizable published book covers or franchise characters.",
+      "generatedFile": "exec-7bd59e0c-e936-4294-afeb-a5f642a33d4d.png",
+      "src": "/images/scenes/bedtime-book.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "44477da3c0ebd0699e8fc7a9f275952e73cfbfa0e10f7a6bfeb16d624702a620"
+    }
+  ]
+}

@@ -1,0 +1,693 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/wash-before-snack/1.mp3",
+      "text": "An comes home and puts down her bag.",
+      "textSha256": "48927a2beda9b3bd064d9b5dabf190773a328fa6929ffc8dd6bf297c7d89ea5b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5247b26747ee2eccb1242d435c6dfae4cf2b04a370a46967553193fbae014fec",
+      "duration": 2.75,
+      "graphemes": [
+        "An comes home and puts down her bag."
+      ],
+      "phonemes": [
+        "ɐn kˈʌmz hˈOm ænd pˌʊts dˌWn hɜɹ bˈæɡ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wash-before-snack/2.mp3",
+      "text": "Mom says, “Let’s wash our hands.”",
+      "textSha256": "4a61ffbae30eed17d800e8b08516c8d8bbbcaa20f9db60eb6c35c5194d508fa6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ed8c009f52a8968cfdb7028d808c1cec1baafaf13897a5250cb91b785a7f78cf",
+      "duration": 2.7,
+      "graphemes": [
+        "Mom says, “Let’s wash our hands.”"
+      ],
+      "phonemes": [
+        "mˈɑm sˈɛz, “lˈɛts wˈɔʃ ˌWəɹ hˈændz.”"
+      ]
+    },
+    {
+      "src": "/audio/sentences/wash-before-snack/3.mp3",
+      "text": "An uses soap and rubs her hands together.",
+      "textSha256": "e9eecd317f9ff84a959b8b99bfd79697c161661fbaad56afdf0111daa6eb0b32",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "63b32acc59a52cf71878dd8c1b99f1f68154657ff944d83e6a4483601d6cce32",
+      "duration": 3.125,
+      "graphemes": [
+        "An uses soap and rubs her hands together."
+      ],
+      "phonemes": [
+        "ɐn jˈuzᵻz sˈOp ænd ɹˈʌbz hɜɹ hˈændz təɡˈɛðəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wash-before-snack/4.mp3",
+      "text": "She rinses her hands with water.",
+      "textSha256": "04df1a2ae0d48856b177af3a59f4a01d5faa96b6af8b498573341b97b8d61209",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3bee0e93ffba73f7e0fc7478331b684b5b91b51b9f7a0284a5711b13e882d0a1",
+      "duration": 2.4,
+      "graphemes": [
+        "She rinses her hands with water."
+      ],
+      "phonemes": [
+        "ʃˌi ɹˈɪnsᵻz hɜɹ hˈændz wɪð wˈɔTəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wash-before-snack/5.mp3",
+      "text": "“Here is a towel,” says Mom.",
+      "textSha256": "86bd3efde865b4a6095dd658e7411db13cca97c91fad53146b8dce6346aef6ce",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "74a164e715343b035e2a894a84c7630cbca6aa8c1ab56ea75458149d690fd03c",
+      "duration": 2.275,
+      "graphemes": [
+        "“Here is a towel,” says Mom."
+      ],
+      "phonemes": [
+        "“hˈɪɹ ɪz ɐ tˈWᵊl,” sˈɛz mˈɑm."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wash-before-snack/6.mp3",
+      "text": "An dries her hands, then eats her snack.",
+      "textSha256": "e5e7cc8f89021bcc879328c0efef0688b5d740cbecacc3e20573931397f94969",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1d5cce4875b73ba566b81b87c68a59a2740c9f07ef4dee05399ffcea2bb8615a",
+      "duration": 2.95,
+      "graphemes": [
+        "An dries her hands, then eats her snack."
+      ],
+      "phonemes": [
+        "ɐn dɹˈIz hɜɹ hˈændz, ðˈɛn ˈits hɜɹ snˈæk."
+      ]
+    },
+    {
+      "src": "/audio/phrases/wash-before-snack-puts-down.mp3",
+      "text": "puts down",
+      "textSha256": "c19a9200dbfea248f0077855a22e2688376e60567efa2beb54dd79310fdf2d69",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "17143a1168d93664452b70fb660e9e6bd007e36c129b7e5b8f7d4d1ebf6d50cb",
+      "duration": 1.525,
+      "graphemes": [
+        "puts down"
+      ],
+      "phonemes": [
+        "pˌʊts dˌWn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/wash-before-snack-wash-our-hands.mp3",
+      "text": "wash our hands",
+      "textSha256": "2776f6e3e071b2b613f422759aa548cbed778bf4c0b9a2085a8c324d64fc2cb2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "13a132a73b5c34e7f989ffe838c0bcc28b19e6a52be830fbd92bfa49e4923f62",
+      "duration": 1.675,
+      "graphemes": [
+        "wash our hands"
+      ],
+      "phonemes": [
+        "wˈɔʃ ˌWəɹ hˈændz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/wash-before-snack-with-water.mp3",
+      "text": "with water",
+      "textSha256": "2e29d824bb6b52e9bbbd9e82eefb50982a0812eb188e07c5e0eac5fc5b4480fc",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2eff15e41b6bcefaca32012bed6dd1bf57ddf42a07848a0cf5188a390c658818",
+      "duration": 1.475,
+      "graphemes": [
+        "with water"
+      ],
+      "phonemes": [
+        "wɪð wˈɔTəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/wash-before-snack-here-is-a-towel.mp3",
+      "text": "Here is a towel",
+      "textSha256": "8cef4585d8ae481f3f061d7886f4f7830186dabfdf89ad33d0b781d1ebab3201",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e985b37505ecd83be121a79bd669a9e6289864f37ed5a73913b48be6a0a9575a",
+      "duration": 1.625,
+      "graphemes": [
+        "Here is a towel"
+      ],
+      "phonemes": [
+        "hˈɪɹ ɪz ɐ tˈWᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/wash-before-snack-bag.mp3",
+      "text": "bag",
+      "textSha256": "c018019b6a8b01ab5868cf4be8db327a7549ae03202548b9ffcd2671c4c2b624",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "40acffe53209dee6db6163a957fb876933619f5b6f42900a6773f8ee640e2d42",
+      "duration": 1.3,
+      "graphemes": [
+        "bag"
+      ],
+      "phonemes": [
+        "bˈæɡ"
+      ]
+    },
+    {
+      "src": "/audio/words/wash-before-snack-soap.mp3",
+      "text": "soap",
+      "textSha256": "736bc2d4e0945110e88f7808a4a4d38d3479a0122de1de7ac84c920121928480",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "613e1e02f71d882f484150fea19ad628f821f3d2228afcaeaaf74a75d7ac53ad",
+      "duration": 1.275,
+      "graphemes": [
+        "soap"
+      ],
+      "phonemes": [
+        "sˈOp"
+      ]
+    },
+    {
+      "src": "/audio/words/wash-before-snack-hands.mp3",
+      "text": "hands",
+      "textSha256": "45a229d57d35d935b67ce83a69f0353508b131ca39325494db3520252c841e10",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "54891f1f37e0ad558592199195ab6ec6836430739009e015667a5608a148a738",
+      "duration": 1.375,
+      "graphemes": [
+        "hands"
+      ],
+      "phonemes": [
+        "hˈændz"
+      ]
+    },
+    {
+      "src": "/audio/words/wash-before-snack-water.mp3",
+      "text": "water",
+      "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "72f4697fd0f3978924a437674d5044896bf5fa5cd1b1ed498342ba7e2d4f53da",
+      "duration": 1.375,
+      "graphemes": [
+        "water"
+      ],
+      "phonemes": [
+        "wˈɔTəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/wash-before-snack-towel.mp3",
+      "text": "towel",
+      "textSha256": "10ca50a8a7148afd6d2a563e8ef8e05cfedd17fc97a6a5327cf9e5300b933e4b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ec6ea313ae482fa2ca0f0c250c38563d9263072c245b13a440727e367901883a",
+      "duration": 1.275,
+      "graphemes": [
+        "towel"
+      ],
+      "phonemes": [
+        "tˈWᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/wash-before-snack-snack.mp3",
+      "text": "snack",
+      "textSha256": "ff488ab8733e4c47df71b83349a8479186fbc6bbc7074355b16583f016ee16f0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ada554e323a88b77471a27ab3fd97e6151a20657ccb2fb73b5f83b3fed6070b5",
+      "duration": 1.375,
+      "graphemes": [
+        "snack"
+      ],
+      "phonemes": [
+        "snˈæk"
+      ]
+    },
+    {
+      "src": "/audio/sentences/folding-laundry/1.mp3",
+      "text": "Yu helps Dad with the clean clothes.",
+      "textSha256": "d63ad215e3465e92b9e92ad6393ede236f31e4ac34eeadf93a7a5dd8df023b12",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f0106c1687ddbc8c3694e49373191ba3aaefb84273ecc2f74bacdd0d7489cfe9",
+      "duration": 2.55,
+      "graphemes": [
+        "Yu helps Dad with the clean clothes."
+      ],
+      "phonemes": [
+        "jˈu hˈɛlps dˈæd wɪð ðə klˈin klˈOðz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/folding-laundry/2.mp3",
+      "text": "Dad says, “Let’s fold this shirt.”",
+      "textSha256": "31ad6028a85e83acad05ab5605d59704b4540e7aeb6210032361dda52abae517",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "12632ff1df11369d65b23eededc24f9ea821742c8fc87c0a20274b53e4493320",
+      "duration": 2.475,
+      "graphemes": [
+        "Dad says, “Let’s fold this shirt.”"
+      ],
+      "phonemes": [
+        "dˈæd sˈɛz, “lˈɛts fˈOld ðɪs ʃˈɜɹt.”"
+      ]
+    },
+    {
+      "src": "/audio/sentences/folding-laundry/3.mp3",
+      "text": "Yu finds one blue sock in the basket.",
+      "textSha256": "59ef828c2999ef91ab504c8a4933e5157f9c09d244faf4a26c8c3eabd1ee83e9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c4c830ae379217fd62a9c26330e8032e4fe956903794a37a28ee76e89a4743cc",
+      "duration": 2.8,
+      "graphemes": [
+        "Yu finds one blue sock in the basket."
+      ],
+      "phonemes": [
+        "jˈu fˈIndz wˈʌn blˈu sˈɑk ɪn ðə bˈæskət."
+      ]
+    },
+    {
+      "src": "/audio/sentences/folding-laundry/4.mp3",
+      "text": "“Where is the other sock?” he asks.",
+      "textSha256": "e294a27e8abc7ab2813672ae670c80d0fb258902b780e9f80cf2920403ddd82c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b27a56f802c02c2af60271862348c235677f6e38fb1540a60a7a98b63c566329",
+      "duration": 2.525,
+      "graphemes": [
+        "“Where is the other sock?” he asks."
+      ],
+      "phonemes": [
+        "“wˌɛɹ ɪz ði ˈʌðəɹ sˈɑk?” hi ˈæsks."
+      ]
+    },
+    {
+      "src": "/audio/sentences/folding-laundry/5.mp3",
+      "text": "Dad points to a sock under the shirt.",
+      "textSha256": "6d590964a68c4da21bbd3207413fc02be1783dd048df507c89915845ff9aad43",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "abf9116c5fed32e367fd89faf638fd6094e9e96a7789fa4371f6eb97ce948dc8",
+      "duration": 2.425,
+      "graphemes": [
+        "Dad points to a sock under the shirt."
+      ],
+      "phonemes": [
+        "dˈæd pˈYnts tə ɐ sˈɑk ˈʌndəɹ ðə ʃˈɜɹt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/folding-laundry/6.mp3",
+      "text": "“Now I have a pair!” says Yu.",
+      "textSha256": "4a2e5b052d43e7ef558cd817fbe1c83553725d9ce6c024b2929ae0be5e386c92",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "00b9e30a413d992045e75854f6c5e18d0a56eea18f62c5c3c654827f725ef4e9",
+      "duration": 2.25,
+      "graphemes": [
+        "“Now I have a pair!” says Yu."
+      ],
+      "phonemes": [
+        "“nˈW ˌI hæv ɐ pˈɛɹ!” sˈɛz jˈu."
+      ]
+    },
+    {
+      "src": "/audio/phrases/folding-laundry-lets-fold.mp3",
+      "text": "Let’s fold",
+      "textSha256": "53875c606e7865294a072e4a27f6bbad155ff6a5be5f4abef688ecb7bd19f0d7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d1b8664c0a23b28e6f359cd73504004503ce7cd2c16fc60facdca1a9d7d1b211",
+      "duration": 1.6,
+      "graphemes": [
+        "Let’s fold"
+      ],
+      "phonemes": [
+        "lˈɛts fˈOld"
+      ]
+    },
+    {
+      "src": "/audio/phrases/folding-laundry-where-is.mp3",
+      "text": "Where is the other sock",
+      "textSha256": "b9a22a407429c401ed44bf3d57a07f6c1c8d8c549778f24a4240a1ef1d601bc6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "28608147ccb34ce8fef93ce6a0e3800cad64e402fb9cc29bf74681f91823eeb5",
+      "duration": 1.825,
+      "graphemes": [
+        "Where is the other sock"
+      ],
+      "phonemes": [
+        "wˌɛɹ ɪz ði ˈʌðəɹ sˈɑk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/folding-laundry-under-the-shirt.mp3",
+      "text": "under the shirt",
+      "textSha256": "373522db34c8dfd13681a63356794d39949ac9c75496455bdeb23a5343d8b529",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "44695850f6c0efb298df633a0895c7acdd63fbe8e0a9e70325d6aab2d277c524",
+      "duration": 1.55,
+      "graphemes": [
+        "under the shirt"
+      ],
+      "phonemes": [
+        "ˈʌndəɹ ðə ʃˈɜɹt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/folding-laundry-have-a-pair.mp3",
+      "text": "have a pair",
+      "textSha256": "d2903a59117c13e983c2ecf245fdb5902fac19c868b2e12139b95731c6c9dd4a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "27415dce64393206c9d9e19fb41dae65ddf16ee95070b4fc19c81657bde418f0",
+      "duration": 1.325,
+      "graphemes": [
+        "have a pair"
+      ],
+      "phonemes": [
+        "hæv ɐ pˈɛɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/folding-laundry-clean.mp3",
+      "text": "clean",
+      "textSha256": "3b066804f6d1d077173cfe4d06002e6a61e6f21c2b2e648417962115f1afcd8e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c971a7820d5ad4836c2a2e05187ebf83d501f8794a7b0232ce001708824eee3b",
+      "duration": 1.4,
+      "graphemes": [
+        "clean"
+      ],
+      "phonemes": [
+        "klˈin"
+      ]
+    },
+    {
+      "src": "/audio/words/folding-laundry-clothes.mp3",
+      "text": "clothes",
+      "textSha256": "5c5f9b87778cfb103aa03ec2585398e9a8049da5552591609efcd784ad84d847",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d8e5d81c01acdd82613ed55a595c4bcd475c7c7819a92a53d4fefaa14f00ab6b",
+      "duration": 1.475,
+      "graphemes": [
+        "clothes"
+      ],
+      "phonemes": [
+        "klˈOðz"
+      ]
+    },
+    {
+      "src": "/audio/words/folding-laundry-shirt.mp3",
+      "text": "shirt",
+      "textSha256": "a52514252adf86066966790e947f72ef6ea6690a6852d5bb5480ee2eeb663395",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7dcd5bab635869426ee64d6e398b24109d8c15de8d8212bfc4ffaa72c64f5063",
+      "duration": 1.3,
+      "graphemes": [
+        "shirt"
+      ],
+      "phonemes": [
+        "ʃˈɜɹt"
+      ]
+    },
+    {
+      "src": "/audio/words/folding-laundry-blue.mp3",
+      "text": "blue",
+      "textSha256": "16477688c0e00699c6cfa4497a3612d7e83c532062b64b250fed8908128ed548",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "875ec5b471aca72e8270036c9072d4e8e01a77ebd24a02e1f8aa2034d370fb92",
+      "duration": 1.325,
+      "graphemes": [
+        "blue"
+      ],
+      "phonemes": [
+        "blˈu"
+      ]
+    },
+    {
+      "src": "/audio/words/folding-laundry-sock.mp3",
+      "text": "sock",
+      "textSha256": "06efe37f5e983469e8609e7af8399f4bdc5a80d361247a3a732ce4bec4fdb826",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8eda2e7c3c111ebfb4e84f4a9a6102a2c5232213c6a8a73083d15094948f3a72",
+      "duration": 1.325,
+      "graphemes": [
+        "sock"
+      ],
+      "phonemes": [
+        "sˈɑk"
+      ]
+    },
+    {
+      "src": "/audio/words/folding-laundry-basket.mp3",
+      "text": "basket",
+      "textSha256": "fa76d99ad957d952fb3738ae1ed7282a18d3bca1531c7efc273d52e16b774bd6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3e8db6fd95e0d21c595ce4b8d1573bea5831059ea642a062eee72ee08b9567b3",
+      "duration": 1.45,
+      "graphemes": [
+        "basket"
+      ],
+      "phonemes": [
+        "bˈæskət"
+      ]
+    },
+    {
+      "src": "/audio/sentences/seed-in-a-pot/1.mp3",
+      "text": "Mei puts soil in a small pot.",
+      "textSha256": "f63ce91a8e05e59c62ae297fa956fbe47e57d26fec1f4613533f7b86efeb10c6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "75668b44f163d510171214f325c23121824df0e62280f755e2276ae6c5bc863c",
+      "duration": 2.2,
+      "graphemes": [
+        "Mei puts soil in a small pot."
+      ],
+      "phonemes": [
+        "mˈA pˌʊts sˈYl ɪn ɐ smˈɔl pˈɑt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/seed-in-a-pot/2.mp3",
+      "text": "She plants a seed with Mom.",
+      "textSha256": "deb472e0e693e52a53c2073ef3f26a59a5a0b5f40c45e631cbefa4b595c49198",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4e00e8aef576a73e7c50cb6d0a8acc4fd7f5f96473cdcb685183abcb79538e0a",
+      "duration": 2.125,
+      "graphemes": [
+        "She plants a seed with Mom."
+      ],
+      "phonemes": [
+        "ʃˌi plˈænts ɐ sˈid wɪð mˈɑm."
+      ]
+    },
+    {
+      "src": "/audio/sentences/seed-in-a-pot/3.mp3",
+      "text": "“A little water, please,” says Mom.",
+      "textSha256": "2055289e73e03af782ae9483d547dda13fd7ad2d85fdd32a83cd1c9be444f304",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "634aaf4bf7f51c438bd161d019c9ff552bed05dd49b2604182bde7e95aacba9a",
+      "duration": 2.7,
+      "graphemes": [
+        "“A little water, please,” says Mom."
+      ],
+      "phonemes": [
+        "“ɐ lˈɪTᵊl wˈɔTəɹ, plˈiz,” sˈɛz mˈɑm."
+      ]
+    },
+    {
+      "src": "/audio/sentences/seed-in-a-pot/4.mp3",
+      "text": "They put the pot by the window.",
+      "textSha256": "c11370d7a9b2d71fcab6fa20aeffbde12b1f371b3575fcec3d29aca0e86294ef",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d2d6328213e36622b9e18bc62b3589ad1dd7588b210057b092a3365f8ca2e410",
+      "duration": 2.125,
+      "graphemes": [
+        "They put the pot by the window."
+      ],
+      "phonemes": [
+        "ðˌA pˌʊt ðə pˈɑt bI ðə wˈɪndO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/seed-in-a-pot/5.mp3",
+      "text": "Mei checks the pot every day.",
+      "textSha256": "e766db89642f0ffceb9ed3a9ae4cf055942a7ed12e91b6f317e3166154375ce2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9f5e6fb3cf456209bb3d36c0cbb13344b4a83034be17140c8733f7f4c2fcbcc3",
+      "duration": 2.225,
+      "graphemes": [
+        "Mei checks the pot every day."
+      ],
+      "phonemes": [
+        "mˈA ʧˈɛks ðə pˈɑt ˈɛvəɹi dˈA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/seed-in-a-pot/6.mp3",
+      "text": "One day, she says, “Look! A green shoot!”",
+      "textSha256": "89dfd9ef1706426846ed69795f79f4baaac076a9a615cfea3ac43006aca4221a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "795ea190ec4649c7ba24228da736f66ea8d63ea6b5184b350f7530ce0471bd8b",
+      "duration": 2.825,
+      "graphemes": [
+        "One day, she says, “Look! A green shoot!”"
+      ],
+      "phonemes": [
+        "wˈʌn dˈA, ʃi sˈɛz, “lˈʊk! ɐ ɡɹˈin ʃˈut!”"
+      ]
+    },
+    {
+      "src": "/audio/phrases/seed-in-a-pot-a-small-pot.mp3",
+      "text": "a small pot",
+      "textSha256": "2647832123570c69dac2fac638a83a3b8a4c5c9c630fc2ea417d6633df58d989",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "277215d473da2e10b5a2ace29783469f6f00e7971bc7345860865a84d9d0dfaa",
+      "duration": 1.6,
+      "graphemes": [
+        "a small pot"
+      ],
+      "phonemes": [
+        "ɐ smˈɔl pˈɑt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/seed-in-a-pot-a-little-water.mp3",
+      "text": "A little water, please",
+      "textSha256": "afead90b4c2ea22adce2e2faa9470d316ed02cc795fb1ae9d7cf632a5bee60e5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "916f914795be184653636cd96a9d2c8c39e6c213030ea9b5bb690d76cd2e95a7",
+      "duration": 1.925,
+      "graphemes": [
+        "A little water, please"
+      ],
+      "phonemes": [
+        "ɐ lˈɪTᵊl wˈɔTəɹ, plˈiz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/seed-in-a-pot-by-the-window.mp3",
+      "text": "by the window",
+      "textSha256": "3606fdcf4ac03eed56d11535ff77f0bf512b6644e140d262431042a963e1c9fa",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dca75e0dcabaeaaf152faf2dcbc3af2b0d6abb6d48fa5484e101a9f4ddc55405",
+      "duration": 1.7,
+      "graphemes": [
+        "by the window"
+      ],
+      "phonemes": [
+        "bI ðə wˈɪndO"
+      ]
+    },
+    {
+      "src": "/audio/phrases/seed-in-a-pot-every-day.mp3",
+      "text": "every day",
+      "textSha256": "ed28f6cae0fa83a36aec9ce49eabd7feb487960cfff9df8b7595c10622c8e975",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "40676bb4a0afe3d0e441cb312e04d1cf05c45009c6c956944a66c1135d67bca5",
+      "duration": 1.6,
+      "graphemes": [
+        "every day"
+      ],
+      "phonemes": [
+        "ˈɛvəɹi dˈA"
+      ]
+    },
+    {
+      "src": "/audio/words/seed-in-a-pot-soil.mp3",
+      "text": "soil",
+      "textSha256": "e93d59a02163f846fecf6bb6bd7135d093d8e40b46b1e5c2dda57cd74e655e1e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ba9c6b11aee44c1878b80af827d4ba612b7cc8a1064dea9b291f89d36eb182da",
+      "duration": 1.35,
+      "graphemes": [
+        "soil"
+      ],
+      "phonemes": [
+        "sˈYl"
+      ]
+    },
+    {
+      "src": "/audio/words/seed-in-a-pot-pot.mp3",
+      "text": "pot",
+      "textSha256": "74a51c3ce9ff025523588c1c1de1cda985cf96fc868aafb675639d15c13edb82",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0f0833af3316c4fa3be26975509427bdd58abcc5559d1445e13c03b18e0cbb17",
+      "duration": 1.25,
+      "graphemes": [
+        "pot"
+      ],
+      "phonemes": [
+        "pˈɑt"
+      ]
+    },
+    {
+      "src": "/audio/words/seed-in-a-pot-seed.mp3",
+      "text": "seed",
+      "textSha256": "19b25856e1c150ca834cffc8b59b23adbd0ec0389e58eb22b3b64768098d002b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "30c19418304d573638fe6dde19f479d2a4201d5823e280f5e4c8759d1061d1a9",
+      "duration": 1.325,
+      "graphemes": [
+        "seed"
+      ],
+      "phonemes": [
+        "sˈid"
+      ]
+    },
+    {
+      "src": "/audio/words/seed-in-a-pot-window.mp3",
+      "text": "window",
+      "textSha256": "44ff7b02c80d38b26dd6aa31d9470aed81b32e10331a3c994fb1a9945fd847ba",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6ef172dfa59e07b819fd6f55b25caf03552ac08de2fda723b1a60e10222c970e",
+      "duration": 1.55,
+      "graphemes": [
+        "window"
+      ],
+      "phonemes": [
+        "wˈɪndO"
+      ]
+    },
+    {
+      "src": "/audio/words/seed-in-a-pot-green.mp3",
+      "text": "green",
+      "textSha256": "ba4788b226aa8dc2e6dc74248bb9f618cfa8c959e0c26c147be48f6839a0b088",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b7884773e04c56b5e64d6869768f23997b3196942a96906679625caabe55bec6",
+      "duration": 1.45,
+      "graphemes": [
+        "green"
+      ],
+      "phonemes": [
+        "ɡɹˈin"
+      ]
+    },
+    {
+      "src": "/audio/words/seed-in-a-pot-shoot.mp3",
+      "text": "shoot",
+      "textSha256": "bd9b8d8e9aa8e2aa24c07daa04d04cf4058f7f3084faa0dd346e75f783d80e97",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f03e819a7f6406b9555243998bf0abcd8e271939c013d14fe807e67330a0ac91",
+      "duration": 1.3,
+      "graphemes": [
+        "shoot"
+      ],
+      "phonemes": [
+        "ʃˈut"
+      ]
+    }
+  ]
+}

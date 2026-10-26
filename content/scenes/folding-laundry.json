@@ -1,0 +1,336 @@
+{
+  "id": "folding-laundry",
+  "title": "摺衣服找襪子",
+  "titleEn": "A Pair of Blue Socks",
+  "category": "家庭生活",
+  "level": "入門",
+  "image": {
+    "src": "/images/scenes/folding-laundry.webp",
+    "alt": "小宇和爸爸坐在家中地毯上整理乾淨衣物，身旁有衣籃、上衣和藍色襪子。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "lets-fold",
+      "english": "Let’s fold",
+      "translation": "我們來摺",
+      "audio": {
+        "src": "/audio/phrases/folding-laundry-lets-fold.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "53875c606e7865294a072e4a27f6bbad155ff6a5be5f4abef688ecb7bd19f0d7",
+        "sha256": "d1b8664c0a23b28e6f359cd73504004503ce7cd2c16fc60facdca1a9d7d1b211"
+      }
+    },
+    {
+      "id": "where-is",
+      "english": "Where is the other sock",
+      "translation": "另一隻襪子在哪裡",
+      "audio": {
+        "src": "/audio/phrases/folding-laundry-where-is.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b9a22a407429c401ed44bf3d57a07f6c1c8d8c549778f24a4240a1ef1d601bc6",
+        "sha256": "28608147ccb34ce8fef93ce6a0e3800cad64e402fb9cc29bf74681f91823eeb5"
+      }
+    },
+    {
+      "id": "under-the-shirt",
+      "english": "under the shirt",
+      "translation": "在上衣下面",
+      "audio": {
+        "src": "/audio/phrases/folding-laundry-under-the-shirt.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "373522db34c8dfd13681a63356794d39949ac9c75496455bdeb23a5343d8b529",
+        "sha256": "44695850f6c0efb298df633a0895c7acdd63fbe8e0a9e70325d6aab2d277c524"
+      }
+    },
+    {
+      "id": "have-a-pair",
+      "english": "have a pair",
+      "translation": "有一雙",
+      "audio": {
+        "src": "/audio/phrases/folding-laundry-have-a-pair.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d2903a59117c13e983c2ecf245fdb5902fac19c868b2e12139b95731c6c9dd4a",
+        "sha256": "27415dce64393206c9d9e19fb41dae65ddf16ee95070b4fc19c81657bde418f0"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "clean",
+      "english": "clean",
+      "translation": "乾淨的",
+      "example": "The clothes are clean.",
+      "audio": {
+        "src": "/audio/words/folding-laundry-clean.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3b066804f6d1d077173cfe4d06002e6a61e6f21c2b2e648417962115f1afcd8e",
+        "sha256": "c971a7820d5ad4836c2a2e05187ebf83d501f8794a7b0232ce001708824eee3b"
+      }
+    },
+    {
+      "id": "clothes",
+      "english": "clothes",
+      "translation": "衣服",
+      "example": "I fold my clothes.",
+      "audio": {
+        "src": "/audio/words/folding-laundry-clothes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5c5f9b87778cfb103aa03ec2585398e9a8049da5552591609efcd784ad84d847",
+        "sha256": "d8e5d81c01acdd82613ed55a595c4bcd475c7c7819a92a53d4fefaa14f00ab6b"
+      }
+    },
+    {
+      "id": "shirt",
+      "english": "shirt",
+      "translation": "上衣",
+      "example": "This shirt is green.",
+      "audio": {
+        "src": "/audio/words/folding-laundry-shirt.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a52514252adf86066966790e947f72ef6ea6690a6852d5bb5480ee2eeb663395",
+        "sha256": "7dcd5bab635869426ee64d6e398b24109d8c15de8d8212bfc4ffaa72c64f5063"
+      }
+    },
+    {
+      "id": "blue",
+      "english": "blue",
+      "translation": "藍色的",
+      "example": "My bag is blue.",
+      "audio": {
+        "src": "/audio/words/folding-laundry-blue.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "16477688c0e00699c6cfa4497a3612d7e83c532062b64b250fed8908128ed548",
+        "sha256": "875ec5b471aca72e8270036c9072d4e8e01a77ebd24a02e1f8aa2034d370fb92"
+      }
+    },
+    {
+      "id": "sock",
+      "english": "sock",
+      "translation": "襪子（單隻）",
+      "example": "I see one sock.",
+      "audio": {
+        "src": "/audio/words/folding-laundry-sock.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "06efe37f5e983469e8609e7af8399f4bdc5a80d361247a3a732ce4bec4fdb826",
+        "sha256": "8eda2e7c3c111ebfb4e84f4a9a6102a2c5232213c6a8a73083d15094948f3a72"
+      }
+    },
+    {
+      "id": "basket",
+      "english": "basket",
+      "translation": "籃子",
+      "example": "The basket is on the floor.",
+      "audio": {
+        "src": "/audio/words/folding-laundry-basket.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fa76d99ad957d952fb3738ae1ed7282a18d3bca1531c7efc273d52e16b774bd6",
+        "sha256": "3e8db6fd95e0d21c595ce4b8d1573bea5831059ea642a062eee72ee08b9567b3"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Yu helps Dad with the "
+        },
+        {
+          "text": "clean",
+          "wordIds": [
+            "clean"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "clothes",
+          "wordIds": [
+            "clothes"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小宇幫爸爸整理乾淨的衣服。",
+      "audio": {
+        "src": "/audio/sentences/folding-laundry/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d63ad215e3465e92b9e92ad6393ede236f31e4ac34eeadf93a7a5dd8df023b12",
+        "sha256": "f0106c1687ddbc8c3694e49373191ba3aaefb84273ecc2f74bacdd0d7489cfe9"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Dad says, “"
+        },
+        {
+          "text": "Let’s fold",
+          "phraseIds": [
+            "lets-fold"
+          ]
+        },
+        {
+          "text": " this "
+        },
+        {
+          "text": "shirt",
+          "wordIds": [
+            "shirt"
+          ]
+        },
+        {
+          "text": ".”"
+        }
+      ],
+      "translation": "爸爸說：「我們來摺這件上衣吧。」",
+      "audio": {
+        "src": "/audio/sentences/folding-laundry/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "31ad6028a85e83acad05ab5605d59704b4540e7aeb6210032361dda52abae517",
+        "sha256": "12632ff1df11369d65b23eededc24f9ea821742c8fc87c0a20274b53e4493320"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yu finds one "
+        },
+        {
+          "text": "blue",
+          "wordIds": [
+            "blue"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sock",
+          "wordIds": [
+            "sock"
+          ]
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "basket",
+          "wordIds": [
+            "basket"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "小宇在衣籃裡找到一隻藍色襪子。",
+      "audio": {
+        "src": "/audio/sentences/folding-laundry/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "59ef828c2999ef91ab504c8a4933e5157f9c09d244faf4a26c8c3eabd1ee83e9",
+        "sha256": "c4c830ae379217fd62a9c26330e8032e4fe956903794a37a28ee76e89a4743cc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“"
+        },
+        {
+          "text": "Where is the other ",
+          "phraseIds": [
+            "where-is"
+          ]
+        },
+        {
+          "text": "sock",
+          "phraseIds": [
+            "where-is"
+          ],
+          "wordIds": [
+            "sock"
+          ]
+        },
+        {
+          "text": "?” he asks."
+        }
+      ],
+      "translation": "他問：「另一隻襪子在哪裡？」",
+      "audio": {
+        "src": "/audio/sentences/folding-laundry/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e294a27e8abc7ab2813672ae670c80d0fb258902b780e9f80cf2920403ddd82c",
+        "sha256": "b27a56f802c02c2af60271862348c235677f6e38fb1540a60a7a98b63c566329"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Dad points to a "
+        },
+        {
+          "text": "sock",
+          "wordIds": [
+            "sock"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "under the ",
+          "phraseIds": [
+            "under-the-shirt"
+          ]
+        },
+        {
+          "text": "shirt",
+          "phraseIds": [
+            "under-the-shirt"
+          ],
+          "wordIds": [
+            "shirt"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "爸爸指著上衣下面的一隻襪子。",
+      "audio": {
+        "src": "/audio/sentences/folding-laundry/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6d590964a68c4da21bbd3207413fc02be1783dd048df507c89915845ff9aad43",
+        "sha256": "abf9116c5fed32e367fd89faf638fd6094e9e96a7789fa4371f6eb97ce948dc8"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "“Now I "
+        },
+        {
+          "text": "have a pair",
+          "phraseIds": [
+            "have-a-pair"
+          ]
+        },
+        {
+          "text": "!” says Yu."
+        }
+      ],
+      "translation": "小宇說：「現在我有一雙了！」",
+      "audio": {
+        "src": "/audio/sentences/folding-laundry/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4a2e5b052d43e7ef558cd817fbe1c83553725d9ce6c024b2929ae0be5e386c92",
+        "sha256": "00b9e30a413d992045e75854f6c5e18d0a56eea18f62c5c3c654827f725ef4e9"
+      }
+    }
+  ]
+}

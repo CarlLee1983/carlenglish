@@ -1,0 +1,693 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/sandwich-snack/1.mp3",
+      "text": "An puts bread on a plate.",
+      "textSha256": "2033e97a93d0048e403abf6ebb923c94b44237eef87fcea270875d50fdeae707",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "46f4e78c6c658c55070d60e5038e0081274d73a1d29797daf6f7d322321fa7bc",
+      "duration": 2.0,
+      "graphemes": [
+        "An puts bread on a plate."
+      ],
+      "phonemes": [
+        "ɐn pˌʊts bɹˈɛd ˌɔn ɐ plˈAt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/sandwich-snack/2.mp3",
+      "text": "Dad asks, “What would you like?”",
+      "textSha256": "37fbc9725b29e7fc851ed9ba171e00a906d27659e6940db0efa6659f30962779",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "192e9555111b30889ce1581a9bda378c809413dbbbf90bcf76f144ba99821343",
+      "duration": 2.325,
+      "graphemes": [
+        "Dad asks, “What would you like?”"
+      ],
+      "phonemes": [
+        "dˈæd ˈæsks, “wˌʌt wʊd ju lˈIk?”"
+      ]
+    },
+    {
+      "src": "/audio/sentences/sandwich-snack/3.mp3",
+      "text": "“Cheese and tomatoes, please,” she says.",
+      "textSha256": "b45042e0d3c9fbbe319a498f8b7c3305e5a94af2e56488dfb1530b05bdcca507",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a84631d12c9646c759cb11839f7fe1c8f3ecaa6bf1c0d1cee89f3ef4f5425587",
+      "duration": 2.775,
+      "graphemes": [
+        "“Cheese and tomatoes, please,” she says."
+      ],
+      "phonemes": [
+        "“ʧˈiz ænd təmˈATOz, plˈiz,” ʃi sˈɛz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/sandwich-snack/4.mp3",
+      "text": "An puts cheese and tomatoes on the bread.",
+      "textSha256": "0076b61752489dd24c4ea7cbad0597a73975218dc8bf082628d8a6d01102bc21",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b6b1515330a42ca424ada04fe9bef9323929860c9387c9f3820fa41853204431",
+      "duration": 2.9,
+      "graphemes": [
+        "An puts cheese and tomatoes on the bread."
+      ],
+      "phonemes": [
+        "ɐn pˌʊts ʧˈiz ænd təmˈATOz ˌɔn ðə bɹˈɛd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/sandwich-snack/5.mp3",
+      "text": "She adds another slice of bread on top.",
+      "textSha256": "f1ff40f1925e52aa8a3d869044cf4aaf5c846025d85a380345e3095c598c5583",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "71a300a900d9be460602f390d1d0366971b1e09130e138ecae0ad2557eb94e50",
+      "duration": 2.775,
+      "graphemes": [
+        "She adds another slice of bread on top."
+      ],
+      "phonemes": [
+        "ʃˌi ˈædz ənˈʌðəɹ slˈIs ʌv bɹˈɛd ˌɔn tˈɑp."
+      ]
+    },
+    {
+      "src": "/audio/sentences/sandwich-snack/6.mp3",
+      "text": "“My sandwich is ready!” she says.",
+      "textSha256": "4a16181e662a53995534845814925983492ac717001ad81e26056ed68b19679f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b487e7a2840d8e23cfaf0793eaac4c8571a85403348a1e5037f14a7aa578929e",
+      "duration": 2.525,
+      "graphemes": [
+        "“My sandwich is ready!” she says."
+      ],
+      "phonemes": [
+        "“mˌI sˈændwˌɪʧ ɪz ɹˈɛdi!” ʃi sˈɛz."
+      ]
+    },
+    {
+      "src": "/audio/phrases/sandwich-snack-what-would-you-like.mp3",
+      "text": "What would you like",
+      "textSha256": "440c82c74089022f2be43c0040a5bf3714f675a257996969b4c593bb6d7e9e59",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "128912e9ad3b99744d5144c0592f70f62d83f7b3e7adc3e33b1e97c76bacd8cd",
+      "duration": 1.525,
+      "graphemes": [
+        "What would you like"
+      ],
+      "phonemes": [
+        "wˌʌt wʊd ju lˈIk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/sandwich-snack-cheese-and-tomatoes.mp3",
+      "text": "Cheese and tomatoes, please",
+      "textSha256": "dfa495246d157a086f27940b987f4047ebba8ad071f8040b816839c7fd40e2d0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8e694aacbef92a93c0be6360d52e33f94d517fe7052b31cf7b4261641d3f2558",
+      "duration": 2.15,
+      "graphemes": [
+        "Cheese and tomatoes, please"
+      ],
+      "phonemes": [
+        "ʧˈiz ænd təmˈATOz, plˈiz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/sandwich-snack-on-top.mp3",
+      "text": "on top",
+      "textSha256": "f182531cddd4ca4db5ed96955e2ddcb102e0e84ea76696942f82e7d3b0677e3c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a6dc32756a5538252910ce37d1c931f03073f9324848eb75639cddab7add759b",
+      "duration": 1.475,
+      "graphemes": [
+        "on top"
+      ],
+      "phonemes": [
+        "ˌɔn tˈɑp"
+      ]
+    },
+    {
+      "src": "/audio/phrases/sandwich-snack-is-ready.mp3",
+      "text": "is ready",
+      "textSha256": "61659f74fe37880afd4becb402e6f8b4ad827eb38eed704b3a8f1af1085dfb07",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ea2e62a5d2e6f9f14f827228c36eb12befc08ad2c4e13b5cd7280c4dd388f9ca",
+      "duration": 1.575,
+      "graphemes": [
+        "is ready"
+      ],
+      "phonemes": [
+        "ɪz ɹˈɛdi"
+      ]
+    },
+    {
+      "src": "/audio/words/sandwich-snack-bread.mp3",
+      "text": "bread",
+      "textSha256": "985604c2b60243122c24d4e18363e6434c535923be05f760204a1aef023aae9b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "af60f5d7b4a811553498df2809e0c09fbe3feca0efecf343744e935e0290448f",
+      "duration": 1.075,
+      "graphemes": [
+        "bread"
+      ],
+      "phonemes": [
+        "bɹˈɛd"
+      ]
+    },
+    {
+      "src": "/audio/words/sandwich-snack-plate.mp3",
+      "text": "plate",
+      "textSha256": "3b56c3520006aaeb038c24862bcde877284bc1654e73bda292d90db943c4573d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d848d646067853c8c45df047188062bee0f713675bef58544372127abd165d30",
+      "duration": 1.275,
+      "graphemes": [
+        "plate"
+      ],
+      "phonemes": [
+        "plˈAt"
+      ]
+    },
+    {
+      "src": "/audio/words/sandwich-snack-cheese.mp3",
+      "text": "cheese",
+      "textSha256": "873ac9ffea4dd04fa719e8920cd6938f0c23cd678af330939cff53c3d2855f34",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3bd8084d242a1df918dde6e8a85b07fdfd50689e7e336d64640674e7a311ae59",
+      "duration": 1.425,
+      "graphemes": [
+        "cheese"
+      ],
+      "phonemes": [
+        "ʧˈiz"
+      ]
+    },
+    {
+      "src": "/audio/words/sandwich-snack-tomatoes.mp3",
+      "text": "tomatoes",
+      "textSha256": "20c526012014489e3ab8d33ea2a64b855dcbbd967b93041e352ba137e94bbb60",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3df689bed24880868d67dc5c473b3e61e08de1b2696610641fb20bd9d6d8072d",
+      "duration": 1.55,
+      "graphemes": [
+        "tomatoes"
+      ],
+      "phonemes": [
+        "təmˈATOz"
+      ]
+    },
+    {
+      "src": "/audio/words/sandwich-snack-slice.mp3",
+      "text": "slice",
+      "textSha256": "03fdb065d956f3fb9ccd85da1b15398f00a9958b715145ebf916dd91fd7b6361",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3e94a6b6fa065a8ce3e27d4efc930783e3f7c45d64ac17aadbdf81b502f0e9ff",
+      "duration": 1.4,
+      "graphemes": [
+        "slice"
+      ],
+      "phonemes": [
+        "slˈIs"
+      ]
+    },
+    {
+      "src": "/audio/words/sandwich-snack-sandwich.mp3",
+      "text": "sandwich",
+      "textSha256": "8f5c570f55dd7921c9861e941be98a9492991d1a862d05283f6ddad56c891cca",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2222b117a9bb1927d41578eea817767a804475f4bd484f9dfb0aee252cdb361a",
+      "duration": 1.475,
+      "graphemes": [
+        "sandwich"
+      ],
+      "phonemes": [
+        "sˈændwˌɪʧ"
+      ]
+    },
+    {
+      "src": "/audio/sentences/mailing-a-card/1.mp3",
+      "text": "Yu makes a card for Grandma.",
+      "textSha256": "5d0ca1db9bc065be6535ce4eedc45f3dfe2cdda3313d2d10ef2bfee1aa2e468c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "053abdd8a5ed0c895d2effbfd61a37ac0aa012ba8c4769e5eef027e3ea66f008",
+      "duration": 2.3,
+      "graphemes": [
+        "Yu makes a card for Grandma."
+      ],
+      "phonemes": [
+        "jˈu mˌAks ɐ kˈɑɹd fɔɹ ɡɹˈændmˌɑ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mailing-a-card/2.mp3",
+      "text": "He draws a flower on the front.",
+      "textSha256": "2a8ac4a7bd5ec3e100512d6c158cc7c8f3429bce1073b4db107da8ef6d885633",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "342d2124f4d08a45ef0ec44f440801e1dedcbb8d29dc35d45fe40c17ba296987",
+      "duration": 2.325,
+      "graphemes": [
+        "He draws a flower on the front."
+      ],
+      "phonemes": [
+        "hˌi dɹˈɔz ɐ flˈWəɹ ˌɔn ðə fɹˈʌnt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mailing-a-card/3.mp3",
+      "text": "Dad writes the address on an envelope.",
+      "textSha256": "298e0f5e9be8df5d812c1ebfa454a36c85bf31ea6edecc51f44b06b3b6fa9a9d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d460dd5df236b37f2a4c214cfb9dc918212ee004f8eed8162d5f6048b6d0e563",
+      "duration": 2.475,
+      "graphemes": [
+        "Dad writes the address on an envelope."
+      ],
+      "phonemes": [
+        "dˈæd ɹˈIts ði ədɹˈɛs ˌɔn ɐn ˈɛnvəlˌOp."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mailing-a-card/4.mp3",
+      "text": "Yu puts the card inside.",
+      "textSha256": "d8a41398dc963a68a554387f9bb71cb77ea0b39a03bd92b882cf2a17485c5097",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2527415c4a8e5be9d5171d9f25c8754df9e72e9540903ba7120a3cc65a66338c",
+      "duration": 2.125,
+      "graphemes": [
+        "Yu puts the card inside."
+      ],
+      "phonemes": [
+        "jˈu pˌʊts ðə kˈɑɹd ɪnsˈId."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mailing-a-card/5.mp3",
+      "text": "They add a stamp and find a mailbox.",
+      "textSha256": "ee8ede1792ae515dfbe37b73626142c923e130f78563a4bb923def8f08fe9666",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0fafb96a24b04b55be1801ea0d298f8d7baec0e56f15b35039353ffb1e7fa454",
+      "duration": 2.525,
+      "graphemes": [
+        "They add a stamp and find a mailbox."
+      ],
+      "phonemes": [
+        "ðˌA ˈæd ɐ stˈæmp ænd fˈInd ɐ mˈAlbˌɑks."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mailing-a-card/6.mp3",
+      "text": "Yu mails the card with a big smile.",
+      "textSha256": "5e5fe564fe07dd11b3d03591a14d2a72608d01c19eb6e4b858e6947618ec9aaf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "eb47982287c333b0ce013661122ecd0357e51d14ec1bb1c9a3df8b2b6e30db7b",
+      "duration": 2.625,
+      "graphemes": [
+        "Yu mails the card with a big smile."
+      ],
+      "phonemes": [
+        "jˈu mˈAlz ðə kˈɑɹd wɪð ɐ bˈɪɡ smˈIl."
+      ]
+    },
+    {
+      "src": "/audio/phrases/mailing-a-card-on-the-front.mp3",
+      "text": "on the front",
+      "textSha256": "029fda45f230e8e6098774f587a9268185061b4e82a5f67b0a6158152b8bb88c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6fc45a7dcc830e4f315cf33c44311cf9939a8f30a55356ef40fe2ecb6d7573cb",
+      "duration": 1.525,
+      "graphemes": [
+        "on the front"
+      ],
+      "phonemes": [
+        "ˌɔn ðə fɹˈʌnt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mailing-a-card-puts-the-card-inside.mp3",
+      "text": "puts the card inside",
+      "textSha256": "c6cde0392c92381084c98e6177a3f436093c9ac44d8743f977ea6d29306133e8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a377bbe5abd5c9028c4bbe0e21b2833777dc23dc9d80965a1172b1c8077ae54d",
+      "duration": 1.85,
+      "graphemes": [
+        "puts the card inside"
+      ],
+      "phonemes": [
+        "pˌʊts ðə kˈɑɹd ɪnsˈId"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mailing-a-card-add-a-stamp.mp3",
+      "text": "add a stamp",
+      "textSha256": "8fd420aa8ee541f0faa25cdae9583522ca82c23d022038d22f4e114539a6b61d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fc0000b159e41241d5ca2d0d6aedacd4ab92e11eb9d17a76913d6a07cc9b066c",
+      "duration": 1.575,
+      "graphemes": [
+        "add a stamp"
+      ],
+      "phonemes": [
+        "ˈæd ɐ stˈæmp"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mailing-a-card-with-a-big-smile.mp3",
+      "text": "with a big smile",
+      "textSha256": "9048cad16bdc8589a665b72363a4dd01c3d2953dfcb3352b4321bbd51dfb9e64",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0334d6d4ab650c546ef65debe54c90d64a5a0a3470788568aa770fe9db96ac45",
+      "duration": 1.65,
+      "graphemes": [
+        "with a big smile"
+      ],
+      "phonemes": [
+        "wɪð ɐ bˈɪɡ smˈIl"
+      ]
+    },
+    {
+      "src": "/audio/words/mailing-a-card-card.mp3",
+      "text": "card",
+      "textSha256": "8367cd66fdd136bba8ba23f8805bb050dd6289401c8ec3b0be44a3c233eef90d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a9f305db0ed695b677e99007c11c88829f8e07bbb66044e12397f79f118b9ecb",
+      "duration": 1.225,
+      "graphemes": [
+        "card"
+      ],
+      "phonemes": [
+        "kˈɑɹd"
+      ]
+    },
+    {
+      "src": "/audio/words/mailing-a-card-flower.mp3",
+      "text": "flower",
+      "textSha256": "c06b0cfe0cc5e900c57784484094331f095bf441995c3c31ea6c75691c786c35",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "20c3af43e437ad2ea9e680bf197bed569c1b192eea9b953cb8e4af9bb8a90fc0",
+      "duration": 1.4,
+      "graphemes": [
+        "flower"
+      ],
+      "phonemes": [
+        "flˈWəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/mailing-a-card-address.mp3",
+      "text": "address",
+      "textSha256": "d80c9bf910f144738ef983724bc04bd6bd3f17c5c83ed57bedee1b1b9278e811",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1a25d6ea74a874d3f310e71c2c1f563bda288242b35581a22ab24ff29ad29c01",
+      "duration": 1.425,
+      "graphemes": [
+        "address"
+      ],
+      "phonemes": [
+        "ədɹˈɛs"
+      ]
+    },
+    {
+      "src": "/audio/words/mailing-a-card-envelope.mp3",
+      "text": "envelope",
+      "textSha256": "4c503ca67761e5c4aaecfe996244c25d8c0b40902d1085c85b4468bd567548c6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "edfc0e7e9aaa782fcdc5badced0cb36aac37f23245f7b0de03bf268221a536eb",
+      "duration": 1.425,
+      "graphemes": [
+        "envelope"
+      ],
+      "phonemes": [
+        "ˈɛnvəlˌOp"
+      ]
+    },
+    {
+      "src": "/audio/words/mailing-a-card-stamp.mp3",
+      "text": "stamp",
+      "textSha256": "e0afcdbf6ad4adf566c572d7f7c34d4dfb85e5122bba750d6a3a5842f915d39b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "030d8cbd87a388314fa737c65caf1f2517393bfb72090e70c133f33392ef37e7",
+      "duration": 1.35,
+      "graphemes": [
+        "stamp"
+      ],
+      "phonemes": [
+        "stˈæmp"
+      ]
+    },
+    {
+      "src": "/audio/words/mailing-a-card-mailbox.mp3",
+      "text": "mailbox",
+      "textSha256": "92bea4d52a1d53f0c8111edf39e26a89cc9e691edcf7da6ad3593cda431ae4c8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bc3d34f6f2c45e14a8094b2578061e6a408b1735d4ea336323dc620ace50430c",
+      "duration": 1.475,
+      "graphemes": [
+        "mailbox"
+      ],
+      "phonemes": [
+        "mˈAlbˌɑks"
+      ]
+    },
+    {
+      "src": "/audio/sentences/elevator-ride/1.mp3",
+      "text": "An and Dad wait for the elevator downstairs.",
+      "textSha256": "6f5f8660ab633c3eec8bbf3fa1bb2669d835a7e216c8480f12d130504588086f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "01bd42be825512a2ff78cee5c24ffd3d4ea2329ec214628f1fa3df441011fdfc",
+      "duration": 3.225,
+      "graphemes": [
+        "An and Dad wait for the elevator downstairs."
+      ],
+      "phonemes": [
+        "ɐn ænd dˈæd wˈAt fɔɹ ði ˈɛləvˌATəɹ dˌWnstˈɛɹz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/elevator-ride/2.mp3",
+      "text": "They let people come out first.",
+      "textSha256": "a61190b5a1ea08f9f2ffdee1036b8d996a55079db5ba4168476db77484069dee",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5d2046a45a7c001ccdd4991610dd49017b2446fa2c7f16b0b3b5e45cc19f0d94",
+      "duration": 2.225,
+      "graphemes": [
+        "They let people come out first."
+      ],
+      "phonemes": [
+        "ðˌA lˈɛt pˈipᵊl kˈʌm ˈWt fˈɜɹst."
+      ]
+    },
+    {
+      "src": "/audio/sentences/elevator-ride/3.mp3",
+      "text": "“Which floor do we need?” asks An.",
+      "textSha256": "df72d2b6906e9ec722715aa4e04cbadeb933c2e5303757799a709606da4fcfdf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3e1f05e1ce6d823d668582802624020814e7bc6e34167358c7080b7b00948cb6",
+      "duration": 2.475,
+      "graphemes": [
+        "“Which floor do we need?” asks An."
+      ],
+      "phonemes": [
+        "“wˌɪʧ flˈɔɹ dˈu wi nˈid?” ˈæsks ɐn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/elevator-ride/4.mp3",
+      "text": "“The third floor,” says Dad with a smile.",
+      "textSha256": "e4ae12e3b966fc47e4f94c00f21e3b1260b375067d4aca3d09e334a9ff7e2aa1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1239ed2c1db3a8c9843785d515e26e66ba3d4280540f13a9d56600c49ba65f9c",
+      "duration": 2.875,
+      "graphemes": [
+        "“The third floor,” says Dad with a smile."
+      ],
+      "phonemes": [
+        "“ðə θˈɜɹd flˈɔɹ,” sˈɛz dˈæd wɪð ɐ smˈIl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/elevator-ride/5.mp3",
+      "text": "An presses the button with a three.",
+      "textSha256": "38d77cb2dadbcb96cc21502665495ae65cbac031b622348045f5e794c39025c6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "429894b07f5b0bc9adbf9a1ceff9e1630d90f55a3e64fbc9482292c80f6fe593",
+      "duration": 2.375,
+      "graphemes": [
+        "An presses the button with a three."
+      ],
+      "phonemes": [
+        "ɐn pɹˈɛsᵻz ðə bˈʌtn wɪð ɐ θɹˈi."
+      ]
+    },
+    {
+      "src": "/audio/sentences/elevator-ride/6.mp3",
+      "text": "They ride up and leave together.",
+      "textSha256": "9d4ebd8d8951c19575333df1694d632711fa5cbe5ae4f7a11af5c31b11d217d4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "af930f403e7af8a25bf930c47929cac23cd801f596178c47964e38ca3cd29f42",
+      "duration": 2.175,
+      "graphemes": [
+        "They ride up and leave together."
+      ],
+      "phonemes": [
+        "ðˌA ɹˈId ˌʌp ænd lˈiv təɡˈɛðəɹ."
+      ]
+    },
+    {
+      "src": "/audio/phrases/elevator-ride-wait-for-the-elevator.mp3",
+      "text": "wait for the elevator",
+      "textSha256": "4efec01ba3969554ef54f096becc6da8e4eb90e478539bcbc0f8a9d5d97c1a7d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4f80fddd83aa666b12b3c754df0beaa24501144a0eb74c33f82457bf8a87ab80",
+      "duration": 1.825,
+      "graphemes": [
+        "wait for the elevator"
+      ],
+      "phonemes": [
+        "wˈAt fɔɹ ði ˈɛləvˌATəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/elevator-ride-which-floor.mp3",
+      "text": "Which floor",
+      "textSha256": "dff40e03678cbee5a79e4e67195d1561675c886122881625a11d8a539aaeb7ab",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9b43b3932834ecd0022f0214d0452a9cbbd2fdf98bc865c58d11a8f3c8388426",
+      "duration": 1.525,
+      "graphemes": [
+        "Which floor"
+      ],
+      "phonemes": [
+        "wˌɪʧ flˈɔɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/elevator-ride-the-third-floor.mp3",
+      "text": "The third floor",
+      "textSha256": "14df80c595667f0391ec2a666c249c540644d88b7168c3c6d5e0fa743c2d9378",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "daef90c66c948664569355d0aa8ef3b4dc073d989a3ca55c8afd8fb084a18b8b",
+      "duration": 1.65,
+      "graphemes": [
+        "The third floor"
+      ],
+      "phonemes": [
+        "ðə θˈɜɹd flˈɔɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/elevator-ride-ride-up.mp3",
+      "text": "ride up",
+      "textSha256": "851013e63df627097c6712fb5f4aeb484d5ba84074d0cc8f29bfda6f5db61e9e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "680f479ff256edbc04d51577b77d92e39f8ccf2d0992c57221696f13b434f964",
+      "duration": 1.375,
+      "graphemes": [
+        "ride up"
+      ],
+      "phonemes": [
+        "ɹˈId ˌʌp"
+      ]
+    },
+    {
+      "src": "/audio/words/elevator-ride-elevator.mp3",
+      "text": "elevator",
+      "textSha256": "41762bcf88c5e7148181df374b2e9ecff9bc9e64d67e032ebeea1a6d5a26eda8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c82455caeac5d1e73e703f2bbe4c33ede546d6ad9e09c30f6e80d010f4a341eb",
+      "duration": 1.5,
+      "graphemes": [
+        "elevator"
+      ],
+      "phonemes": [
+        "ˈɛləvˌATəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/elevator-ride-people.mp3",
+      "text": "people",
+      "textSha256": "c9022680f888674e2b2274758755bfa07dea729b68d71cde5c521ed70ef261bf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "eb35c7c514c1f9424a9593d6a790923aea0beb3762038ecc287f8038e8af6228",
+      "duration": 1.375,
+      "graphemes": [
+        "people"
+      ],
+      "phonemes": [
+        "pˈipᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/elevator-ride-floor.mp3",
+      "text": "floor",
+      "textSha256": "a3e1f4935b0919b346c2caf4da18078a1ebaf6451eb7f7b5dc79c11629b6368c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "39066e1e1d8d8450158930ae6c5ff0e599164c5fd8201db1212ef43ceef1e3cd",
+      "duration": 1.325,
+      "graphemes": [
+        "floor"
+      ],
+      "phonemes": [
+        "flˈɔɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/elevator-ride-third.mp3",
+      "text": "third",
+      "textSha256": "b1e99324505bd32da0e1f85dcf5e19a09db0481e8a15f62c41eb320304a8e927",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a699af437dac2a6c2f8c6f1a288dca793afa7745b9f69b92c83cebf535b4d926",
+      "duration": 1.325,
+      "graphemes": [
+        "third"
+      ],
+      "phonemes": [
+        "θˈɜɹd"
+      ]
+    },
+    {
+      "src": "/audio/words/elevator-ride-button.mp3",
+      "text": "button",
+      "textSha256": "c3e2d78f3ff335724b4029f06505b511e4f8f01e258828de29849b36b40b55d0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2d1aff61705692c073a4ef716a11b6259ae8e0229bb1840c8741b36a2f1e5349",
+      "duration": 1.4,
+      "graphemes": [
+        "button"
+      ],
+      "phonemes": [
+        "bˈʌtn"
+      ]
+    },
+    {
+      "src": "/audio/words/elevator-ride-three.mp3",
+      "text": "three",
+      "textSha256": "8b5b9db0c13db24256c829aa364aa90c6d2eba318b9232a4ab9313b954d3555f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2563020100b27e9a1c736df7e683499afc80504fc523d9c78518043ca0d1a5dc",
+      "duration": 1.35,
+      "graphemes": [
+        "three"
+      ],
+      "phonemes": [
+        "θɹˈi"
+      ]
+    }
+  ]
+}

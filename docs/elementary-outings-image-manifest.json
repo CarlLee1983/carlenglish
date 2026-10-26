@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-26",
+  "tool": "built-in image_gen",
+  "conversion": "Full frame PNG to WebP, sharp quality 86; no crop.",
+  "images": [
+    {
+      "id": "sandwich-snack",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, recognizable characters, logos, brands, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series. Scene: An East Asian elementary girl and her father stand at a low kitchen table making a simple cheese and tomato sandwich. On a clean plate is a bottom bread slice with a square of cheese and red tomato slices. The girl holds another slice of bread just above the filling, ready to put it on top; father smiles nearby. Ingredients already sliced, no knives, stove, hot cookware, or cutting action. Warm Taiwanese family apartment, clean uncluttered tabletop. No text or lettering.",
+      "generatedFile": "exec-0e236eb4-56cd-4d82-ac9b-d4ee69f3109a.png",
+      "src": "/images/scenes/sandwich-snack.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a9618f6e81c7912b2b60f161a93aa4a5b40da916cd00bf9ca962d92eaab418b4"
+    },
+    {
+      "id": "mailing-a-card",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, recognizable characters, logos, brands, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series. Scene: An East Asian elementary boy and his father stand beside a simple green public mail collection box on a quiet pedestrian sidewalk. Boy reaches up comfortably to slide one sealed cream envelope into a low reachable mail slot. Show a small generic flower-design postage stamp on the envelope's upper corner; any address is only tiny indistinct strokes with no legible personal information. Father stands close, smiling. A small glimpse of a handmade flower card is NOT needed because the card is inside the envelope. No brand, government logo, postal service name or identifiable real location. No other text or lettering.",
+      "generatedFile": "exec-b641f69b-365b-4ea2-9199-f438dff32f5c.png",
+      "src": "/images/scenes/mailing-a-card.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "481bfa619f88eed6766dbe8b3f3143ab758140afdad3c8d9c513e2d470f2c232"
+    },
+    {
+      "id": "elevator-ride",
+      "prompt": "Use case: illustration-story. Asset type: original illustration for a beginner English reading lesson for Taiwanese elementary school pupils. Create ONE landscape image, 1536x1024 pixels, 3:2. Style: warm hand-drawn children's picture-book illustration, fine soft outlines, lightly textured gouache and colored pencil, clear uncluttered shapes and readable everyday actions, softly muted natural colors, full-bleed composition with comfortable breathing room. Entirely original human characters and setting. Avoid existing cartoon franchises, recognizable characters, logos, brands, watermarks, collage, multi-panel or graphic framing. Do not imitate a named artist or television series. Scene: An East Asian elementary girl stands beside her father inside a clean spacious apartment elevator. She presses a reachable round floor-selection button on a simple panel. The single pressed button must clearly display exactly the numeral 3; show this numeral once and do not duplicate it elsewhere. Other controls may be plain small circles without labels. Father smiles and stands calmly close, both away from the closed elevator doors, no hands or feet near the door edges. Clear everyday action, warm restrained interior. Text constraint: only the numeral 3 on that button, no other text, numbers, lettering or logos.",
+      "generatedFile": "exec-bde268b1-e5b6-4383-8ceb-c4587ffc0cdb.png",
+      "src": "/images/scenes/elevator-ride.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9f26b9bdcb109e43291a301c43c066bf9c0a405d29d7194761a0a19b41c26a69"
+    }
+  ]
+}

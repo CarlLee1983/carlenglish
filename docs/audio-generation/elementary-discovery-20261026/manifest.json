@@ -1,0 +1,693 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/music-class-beat/1.mp3",
+      "text": "Mei holds a small drum in music class.",
+      "textSha256": "89d1102b2ef2b49293db74b973e908b574b4d247da794eeea24754aff9941fc7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "20b39dccabe70d142e8603d22dad8d856ed4741305b7d7403d1dacf1bcd984c8",
+      "duration": 2.775,
+      "graphemes": [
+        "Mei holds a small drum in music class."
+      ],
+      "phonemes": [
+        "mˈA hˈOldz ɐ smˈɔl dɹˈʌm ɪn mjˈuzɪk klˈæs."
+      ]
+    },
+    {
+      "src": "/audio/sentences/music-class-beat/2.mp3",
+      "text": "The teacher says, “Listen to the beat.”",
+      "textSha256": "25d82043ce79f9885a068494e8155f68ec5382a5e93c18549c5c6772bf9cb143",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2ce8ac099298555901b17d5a2c73657d65b2a11d88ac090f10f6cfd29e07d16a",
+      "duration": 2.625,
+      "graphemes": [
+        "The teacher says, “Listen to the beat.”"
+      ],
+      "phonemes": [
+        "ðə tˈiʧəɹ sˈɛz, “lˈɪsᵊn tə ðə bˈit.”"
+      ]
+    },
+    {
+      "src": "/audio/sentences/music-class-beat/3.mp3",
+      "text": "Mei taps the drum with one hand.",
+      "textSha256": "09eb34607b469909443c465cc5c2f7287f7ddf78212f795059c9773b49cdf6f9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4160151d8029e309795ab9d7c339715684b9cc5bb80cfa755c554b73c77f9fe1",
+      "duration": 2.45,
+      "graphemes": [
+        "Mei taps the drum with one hand."
+      ],
+      "phonemes": [
+        "mˈA tˈæps ðə dɹˈʌm wɪð wˈʌn hˈænd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/music-class-beat/4.mp3",
+      "text": "Her friends clap along with her.",
+      "textSha256": "0878e9d7c97a6014ae102f17916722c5963bf31a6332b00a161f60473a5d4c7d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "838b199408b7eb1e33a5f60b86fa2539b47db806f2cb7068e3bb26b854f82140",
+      "duration": 2.15,
+      "graphemes": [
+        "Her friends clap along with her."
+      ],
+      "phonemes": [
+        "hˌɜɹ fɹˈɛndz klˈæp əlˈɔŋ wɪð hˌɜɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/music-class-beat/5.mp3",
+      "text": "“Can we play slowly?” asks Mei.",
+      "textSha256": "f4bb8354da8ef13675692e20aaa084d0503c5f2dcad3380c14a44fb93819fd81",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8ee310b0754bc7fa12c88eb08c95240b7ebbd893e9e94edf1d2678335008cd76",
+      "duration": 2.6,
+      "graphemes": [
+        "“Can we play slowly?” asks Mei."
+      ],
+      "phonemes": [
+        "“kˌæn wi plˈA slˈOli?” ˈæsks mˈA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/music-class-beat/6.mp3",
+      "text": "They try again and smile together.",
+      "textSha256": "4717c378941a5986d76d094f348ad689cb15d6782cf2298c564e4c32b47d8d39",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8c6461ef62dfb887399bd397aec8c7f2b8a581b691601694a58f1a5703c0d0c2",
+      "duration": 2.625,
+      "graphemes": [
+        "They try again and smile together."
+      ],
+      "phonemes": [
+        "ðˌA tɹˈI əɡˈɛn ænd smˈIl təɡˈɛðəɹ."
+      ]
+    },
+    {
+      "src": "/audio/phrases/music-class-beat-listen-to-the-beat.mp3",
+      "text": "Listen to the beat",
+      "textSha256": "28ecba53d6652b9b918fec64a0708768a4a56de2196917573f44ef5e83666e70",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f6c4ff323a77b7787441e1e2096b14ed3eb4b05101fce4d80763e40016f42477",
+      "duration": 1.725,
+      "graphemes": [
+        "Listen to the beat"
+      ],
+      "phonemes": [
+        "lˈɪsᵊn tə ðə bˈit"
+      ]
+    },
+    {
+      "src": "/audio/phrases/music-class-beat-clap-along.mp3",
+      "text": "clap along",
+      "textSha256": "1677cdd5f88d11d18b6fe82a5181e8462ed59bd3345ad2e3a043ebc61f66db5d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f25e85c9fae03da5cfd0412f0a9c02627e26853d45679581dd236a30ec1161d1",
+      "duration": 1.575,
+      "graphemes": [
+        "clap along"
+      ],
+      "phonemes": [
+        "klˈæp əlˈɔŋ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/music-class-beat-can-we-play-slowly.mp3",
+      "text": "Can we play slowly",
+      "textSha256": "41cc84591e8b4c47dfc90980b56d3aa6b15a923b9d528bea4fbb6d38f67816c8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dec16da312886c10d2a008db252adc648b6740dc708ff5b9b9176ee71e7086b9",
+      "duration": 1.85,
+      "graphemes": [
+        "Can we play slowly"
+      ],
+      "phonemes": [
+        "kˌæn wi plˈA slˈOli"
+      ]
+    },
+    {
+      "src": "/audio/phrases/music-class-beat-try-again.mp3",
+      "text": "try again",
+      "textSha256": "5b5dedee32c5bd671f8d930b734993338d4192be1f63d0dfd64d1963586d7953",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "21df569e313b5f97c9ab263fa67fce167c650a55a35d608a26429e7e65adcd0d",
+      "duration": 1.55,
+      "graphemes": [
+        "try again"
+      ],
+      "phonemes": [
+        "tɹˈI əɡˈɛn"
+      ]
+    },
+    {
+      "src": "/audio/words/music-class-beat-drum.mp3",
+      "text": "drum",
+      "textSha256": "2752a2b5446f68dd231ee74418d3f8345ec4188aac528bca3fdf10bcf2069810",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9bab00970dd380eebca40d376736c43893e2b6b28c7fd211d380b9cba72bb325",
+      "duration": 1.375,
+      "graphemes": [
+        "drum"
+      ],
+      "phonemes": [
+        "dɹˈʌm"
+      ]
+    },
+    {
+      "src": "/audio/words/music-class-beat-music.mp3",
+      "text": "music",
+      "textSha256": "80f189984e5ca70287d13342f6daa0db45cba3c131c4e46dc81360f3a4c4f690",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "43baf26f3db23bfbcff09879d53ea4617825a99c447451db8b2877817ce9dc8d",
+      "duration": 1.425,
+      "graphemes": [
+        "music"
+      ],
+      "phonemes": [
+        "mjˈuzɪk"
+      ]
+    },
+    {
+      "src": "/audio/words/music-class-beat-teacher.mp3",
+      "text": "teacher",
+      "textSha256": "1057a9604e04b274da5a4de0c8f4b4868d9b230989f8c8c6a28221143cc5a755",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3bee1590d3d8ab58ee5248f971780567ab3030f8dc39bfdb814568f6719938ea",
+      "duration": 1.375,
+      "graphemes": [
+        "teacher"
+      ],
+      "phonemes": [
+        "tˈiʧəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/music-class-beat-beat.mp3",
+      "text": "beat",
+      "textSha256": "f9eeb63bf773f4b0854dae2f22b7c57a8cd129443f1712c46e7344e3b05f1149",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5f179b172fe772d7961eec53164bb39fa4e7151d29a2d713fa389652b4896dbb",
+      "duration": 1.25,
+      "graphemes": [
+        "beat"
+      ],
+      "phonemes": [
+        "bˈit"
+      ]
+    },
+    {
+      "src": "/audio/words/music-class-beat-hand.mp3",
+      "text": "hand",
+      "textSha256": "1b001706a418bdfca35361355c643b7918572b8f9b7503f3043a6e23b45dce52",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e6803bfc32b771f515f844c85ce20b8ef374a2004169a867551f7bcf9d2bf881",
+      "duration": 1.325,
+      "graphemes": [
+        "hand"
+      ],
+      "phonemes": [
+        "hˈænd"
+      ]
+    },
+    {
+      "src": "/audio/words/music-class-beat-friends.mp3",
+      "text": "friends",
+      "textSha256": "2e4b9cc2428beb7bff6a56c14d7304e472a23e890e91ef0a6b0b0380e89f9734",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a5a72a3ddd9ff877be3bcfdf3f68e9fc9d34d44677e395fd45e72047d0ae03e1",
+      "duration": 1.425,
+      "graphemes": [
+        "friends"
+      ],
+      "phonemes": [
+        "fɹˈɛndz"
+      ]
+    },
+    {
+      "src": "/audio/sentences/pond-watch/1.mp3",
+      "text": "Bo and Dad stop beside a small pond.",
+      "textSha256": "9ccbd5d11f0787b42a6ad8e261a0158007d8c3cca28d4882ed8cccb5a6db2a82",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c3bc9db3ce301a5ad13c870b46d705aaf333af721e531267323c96f5a3f146e5",
+      "duration": 2.9,
+      "graphemes": [
+        "Bo and Dad stop beside a small pond."
+      ],
+      "phonemes": [
+        "bˈO ænd dˈæd stˈɑp bəsˈId ɐ smˈɔl pˈɑnd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/pond-watch/2.mp3",
+      "text": "Bo sees two fish under the water.",
+      "textSha256": "2abdf84c0e61463a4f10ddad88cf6a9a8cc3c070e664cd14dc3da4296332c788",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dc4b93ddb71abc09afe238c69452d4932c4c487e6864efb409c625bbf9335d30",
+      "duration": 2.45,
+      "graphemes": [
+        "Bo sees two fish under the water."
+      ],
+      "phonemes": [
+        "bˈO sˈiz tˈu fˈɪʃ ˈʌndəɹ ðə wˈɔTəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/pond-watch/3.mp3",
+      "text": "“One is orange,” he says to Dad.",
+      "textSha256": "ab9a3e766ec26484b4b75731c7f471c253f5cffb1b5467d65682cc37534397c5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2a43641b1ccd3a8265769e7f04b2852378c5fc899e941a48c4537cfe6794b05a",
+      "duration": 2.65,
+      "graphemes": [
+        "“One is orange,” he says to Dad."
+      ],
+      "phonemes": [
+        "“wˈʌn ɪz ˈɔɹᵊnʤ,” hi sˈɛz tə dˈæd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/pond-watch/4.mp3",
+      "text": "A duck swims past the fish.",
+      "textSha256": "a06db62e43a2e1c65f61287a34dc425c76fdca4c0828919375977c37a36ccfda",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f4061d3784a9046b2f650951b78b97ea9bb70451fa988a05a54b2a8e7f746691",
+      "duration": 2.15,
+      "graphemes": [
+        "A duck swims past the fish."
+      ],
+      "phonemes": [
+        "ɐ dˈʌk swˈɪmz pˈæst ðə fˈɪʃ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/pond-watch/5.mp3",
+      "text": "“Look at its feet!” says Bo.",
+      "textSha256": "404af35eac19de0068e63729b03a475aa2ecef72a4ef7d436ca21daf4d8cd55a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "89212c3954a6bedfa83798f4fc4e66a694369d17f28d6e3890a3c89dfab75975",
+      "duration": 2.25,
+      "graphemes": [
+        "“Look at its feet!” says Bo."
+      ],
+      "phonemes": [
+        "“lˈʊk æt ɪts fˈit!” sˈɛz bˈO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/pond-watch/6.mp3",
+      "text": "They watch quietly from the path.",
+      "textSha256": "097ded1fb7da5337aae50947d1190a312034a3360d2361d898e54c370808dc08",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "50a47925db6cef23cea4ad00222fabcb5874579eb42eb3e3da9ed879f20a78a8",
+      "duration": 2.3,
+      "graphemes": [
+        "They watch quietly from the path."
+      ],
+      "phonemes": [
+        "ðˌA wˈɑʧ kwˈIətli fɹʌm ðə pˈæθ."
+      ]
+    },
+    {
+      "src": "/audio/phrases/pond-watch-stop-beside.mp3",
+      "text": "stop beside",
+      "textSha256": "c9da320adecab0dc46d00cd0edfed7f618fa0a74ef38e2b76e1fa00acf75890b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d0d94b7f2169d696435f015ece3e3caa45ff1f2fd534ba78e46b9f6144fca6f3",
+      "duration": 1.7,
+      "graphemes": [
+        "stop beside"
+      ],
+      "phonemes": [
+        "stˈɑp bəsˈId"
+      ]
+    },
+    {
+      "src": "/audio/phrases/pond-watch-under-the-water.mp3",
+      "text": "under the water",
+      "textSha256": "cece0a0659395e6b6891326c514ab79d48b4925e0704fa49e577cf5d0a28021d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a19e1b6db2baf333fec7894cc69dcce80220bfb86930ab688f2be89c970d20ab",
+      "duration": 1.55,
+      "graphemes": [
+        "under the water"
+      ],
+      "phonemes": [
+        "ˈʌndəɹ ðə wˈɔTəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/pond-watch-look-at-its-feet.mp3",
+      "text": "Look at its feet",
+      "textSha256": "1effe68eaad33360ed77a82d6486a0cbcdeddfbf435799bd71d6964c7da28547",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fa7e06641d6f47bd0d4e988da27277716708b59e4a5819ad738c974729f68db0",
+      "duration": 1.6,
+      "graphemes": [
+        "Look at its feet"
+      ],
+      "phonemes": [
+        "lˈʊk æt ɪts fˈit"
+      ]
+    },
+    {
+      "src": "/audio/phrases/pond-watch-watch-quietly.mp3",
+      "text": "watch quietly",
+      "textSha256": "79165537e19e23299665229b1a9d5d23ed83030cdb36c5bf855544ebc1b775a6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "44d79f8504e70d1abbac0e9b85fc6d4ebf0175aff36c7063a184f7cfd6f65fe5",
+      "duration": 1.65,
+      "graphemes": [
+        "watch quietly"
+      ],
+      "phonemes": [
+        "wˈɑʧ kwˈIətli"
+      ]
+    },
+    {
+      "src": "/audio/words/pond-watch-pond.mp3",
+      "text": "pond",
+      "textSha256": "4e7914b0df8068b79cdc10d387f294c12a245d3982ab6fb8ae57c19e62713e41",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "690f9905925dadc47f6727e9b6091b44e062df24316de0470d9bf62756896f74",
+      "duration": 1.35,
+      "graphemes": [
+        "pond"
+      ],
+      "phonemes": [
+        "pˈɑnd"
+      ]
+    },
+    {
+      "src": "/audio/words/pond-watch-fish.mp3",
+      "text": "fish",
+      "textSha256": "b474a99a2705e23cf905a484ec6d14ef58b56bbe62e9292783466ec363b5072d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "99d657b201e04d2876a7766b1f7349d905b726202397b7e195bb4dc19b4b9f47",
+      "duration": 1.35,
+      "graphemes": [
+        "fish"
+      ],
+      "phonemes": [
+        "fˈɪʃ"
+      ]
+    },
+    {
+      "src": "/audio/words/pond-watch-water.mp3",
+      "text": "water",
+      "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8f8408d7d422401ed24c53f6f3dfdb3df79158a720147507bcdd706986f1be98",
+      "duration": 1.375,
+      "graphemes": [
+        "water"
+      ],
+      "phonemes": [
+        "wˈɔTəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/pond-watch-orange.mp3",
+      "text": "orange",
+      "textSha256": "1b4c9133da73a711322404314402765ab0d23fd362a167d6f0c65bb215113d94",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "391b4a8cad7b4e6d5fcdcecd53718ca42d9692ecb6265b1193810522cf8988b1",
+      "duration": 1.375,
+      "graphemes": [
+        "orange"
+      ],
+      "phonemes": [
+        "ˈɔɹᵊnʤ"
+      ]
+    },
+    {
+      "src": "/audio/words/pond-watch-duck.mp3",
+      "text": "duck",
+      "textSha256": "2d2370db2447ff8cf4f3accd68c85aa119a9c893effd200a9b69176e9fc5eb98",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b9ae4b541ade4c1244d52220f844951b71ddf162adb783e548c5b1dd6f70bad3",
+      "duration": 1.225,
+      "graphemes": [
+        "duck"
+      ],
+      "phonemes": [
+        "dˈʌk"
+      ]
+    },
+    {
+      "src": "/audio/words/pond-watch-path.mp3",
+      "text": "path",
+      "textSha256": "a0af9f865bf637e6736817f4ce552e4cdf7b8c36ea75bc254c1d1f0af744b5bf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f23fb2ee5b0bc0f75a7c45d3755f07018b0cc960a667d9f31fb7c78a5515f3f4",
+      "duration": 1.25,
+      "graphemes": [
+        "path"
+      ],
+      "phonemes": [
+        "pˈæθ"
+      ]
+    },
+    {
+      "src": "/audio/sentences/paper-boat/1.mp3",
+      "text": "Yu folds a sheet of paper with Mom.",
+      "textSha256": "091c401e0506fc6b8b8cc80d2b4107f18f531f75353d062f0a9bb21387184240",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f94ce22d3c4c6eacc8a946126d554d8005dd8a62548b0219fa93748105a378e1",
+      "duration": 2.725,
+      "graphemes": [
+        "Yu folds a sheet of paper with Mom."
+      ],
+      "phonemes": [
+        "jˈu fˈOldz ɐ ʃˈit ʌv pˈApəɹ wɪð mˈɑm."
+      ]
+    },
+    {
+      "src": "/audio/sentences/paper-boat/2.mp3",
+      "text": "He makes a small paper boat.",
+      "textSha256": "e0bad52eed49038d61bf98c26d8a00367e14e8fcbc3f6f90f531015f54b5d56b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ee9362d9868b1af84d1234c23d0de1051fc58184f27a811d619eabb545903504",
+      "duration": 2.15,
+      "graphemes": [
+        "He makes a small paper boat."
+      ],
+      "phonemes": [
+        "hˌi mˌAks ɐ smˈɔl pˈApəɹ bˈOt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/paper-boat/3.mp3",
+      "text": "“Can it float?” he asks.",
+      "textSha256": "3acfe3822427d93211e2876da9c435fbe355f226dbb79fa951596ffb7b9e2b2e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b69cb0a2169c331c8d2d7364dbbcd7d92161d2ea1492883e07f8f30bf78a9b3f",
+      "duration": 2.075,
+      "graphemes": [
+        "“Can it float?” he asks."
+      ],
+      "phonemes": [
+        "“kˌæn ɪt flˈOt?” hi ˈæsks."
+      ]
+    },
+    {
+      "src": "/audio/sentences/paper-boat/4.mp3",
+      "text": "Mom puts water in a bowl.",
+      "textSha256": "295174eaaa78ddac82940ef1c9300374f20fbf0fc41fec15dcbc64ce042356bf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e88af1f19aafdd49cf886ec76142f1862d8d1a8b23036c4de9722a937eab452c",
+      "duration": 2.175,
+      "graphemes": [
+        "Mom puts water in a bowl."
+      ],
+      "phonemes": [
+        "mˈɑm pˌʊts wˈɔTəɹ ɪn ɐ bˈOl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/paper-boat/5.mp3",
+      "text": "Yu sets the boat on the water.",
+      "textSha256": "e011f8643979df501ea747e23d21e49257273678ee2e3a429c29dbbd6725f6f4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "020f1b1524c08ce10bc5a947fc5ea998f051ef0f5241e8d5bf9f935f9d9f79df",
+      "duration": 2.25,
+      "graphemes": [
+        "Yu sets the boat on the water."
+      ],
+      "phonemes": [
+        "jˈu sˈɛts ðə bˈOt ˌɔn ðə wˈɔTəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/paper-boat/6.mp3",
+      "text": "“Look! It floats!” he says with a smile.",
+      "textSha256": "e730f0f509489ff356346707063167deb9cbd4cc3d8bae119dc7c48fd62694ae",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2e84879f17a82f1168833f7fe668848784f88214163a77664614092ed326bf6d",
+      "duration": 2.825,
+      "graphemes": [
+        "“Look! It floats!” he says with a smile."
+      ],
+      "phonemes": [
+        "“lˈʊk! ˌɪt flˈOts!” hi sˈɛz wɪð ɐ smˈIl."
+      ]
+    },
+    {
+      "src": "/audio/phrases/paper-boat-a-sheet-of-paper.mp3",
+      "text": "a sheet of paper",
+      "textSha256": "8b073c72408043d02dbb4b9c858ea41058c5088c82595c597ad3504ab3261ae7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9c3665fdca8d40949fa2945e8ae38e430cc244b94f62e6d8cbb6d770034f26f2",
+      "duration": 1.675,
+      "graphemes": [
+        "a sheet of paper"
+      ],
+      "phonemes": [
+        "ɐ ʃˈit ʌv pˈApəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/paper-boat-a-small-paper-boat.mp3",
+      "text": "a small paper boat",
+      "textSha256": "07c4606a2f9338472978bf6bd55e3586caf8eaacc2821bb74c3f1f49662086ff",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6077456ace68b37222e4966ead34789b3e728f7d796fc4be8cb694a255607906",
+      "duration": 1.85,
+      "graphemes": [
+        "a small paper boat"
+      ],
+      "phonemes": [
+        "ɐ smˈɔl pˈApəɹ bˈOt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/paper-boat-can-it-float.mp3",
+      "text": "Can it float",
+      "textSha256": "2f1972648d97a5255067c42ba99df36de4940a33d7232afca196f5c4068c676b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "24d3bd4e4098057bf24dd52e5619593cec2c32fb75e486a566cd386f0dfd48c2",
+      "duration": 1.475,
+      "graphemes": [
+        "Can it float"
+      ],
+      "phonemes": [
+        "kˌæn ɪt flˈOt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/paper-boat-with-a-smile.mp3",
+      "text": "with a smile",
+      "textSha256": "664f80f8f16c38f6d319e06bf39169f58e9d81b1037dd15dfb9456a4fa87a1c8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "453d2b488c2de4bd58626808d42d6443bad3386b909c61ca6e2d33b2c1c598d4",
+      "duration": 1.625,
+      "graphemes": [
+        "with a smile"
+      ],
+      "phonemes": [
+        "wɪð ɐ smˈIl"
+      ]
+    },
+    {
+      "src": "/audio/words/paper-boat-folds.mp3",
+      "text": "folds",
+      "textSha256": "212aa61b2ca4694314cbcb105e6df22947597c2010ae78f3be2084438c5c6e55",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b0251289ca314274e304c12a46df1391b109840ccf108cc2322337a6fe1704a1",
+      "duration": 1.45,
+      "graphemes": [
+        "folds"
+      ],
+      "phonemes": [
+        "fˈOldz"
+      ]
+    },
+    {
+      "src": "/audio/words/paper-boat-paper.mp3",
+      "text": "paper",
+      "textSha256": "382635c9325bf3273d195ff1b8a44e5b11afd7d97addeb8863ea35feb98c1a07",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c1096ff25b903cfb70bd1749019d8aff8f914499b680631a5add36f0e6d5eba4",
+      "duration": 1.425,
+      "graphemes": [
+        "paper"
+      ],
+      "phonemes": [
+        "pˈApəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/paper-boat-boat.mp3",
+      "text": "boat",
+      "textSha256": "25cdb46d8d2115a24eb15c3c58f34f3330cfca4fec249ff70b7cad2bb560a0dd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e6ad0922535587443da789360ff91d69f5a20c8b8dfb37f5c8ab42a759ba090a",
+      "duration": 1.225,
+      "graphemes": [
+        "boat"
+      ],
+      "phonemes": [
+        "bˈOt"
+      ]
+    },
+    {
+      "src": "/audio/words/paper-boat-float.mp3",
+      "text": "float",
+      "textSha256": "76a7e234dc54e9c605b2cc9fdf71279526150df48c574bdfa69e436e0b3d5c18",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fcabe31b5a7b5bd634aefb33dbc229c3386ceaffe3ccddc00b4f1fc44f25347c",
+      "duration": 1.3,
+      "graphemes": [
+        "float"
+      ],
+      "phonemes": [
+        "flˈOt"
+      ]
+    },
+    {
+      "src": "/audio/words/paper-boat-water.mp3",
+      "text": "water",
+      "textSha256": "0f4168490e38b8447e11ba4bd656aa11b925bd22af30bac464bc153fdb608501",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "88cf5c9883a57f37bae68984041212472076c2aa0f0a881e0c4cde2612d8eeda",
+      "duration": 1.375,
+      "graphemes": [
+        "water"
+      ],
+      "phonemes": [
+        "wˈɔTəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/paper-boat-bowl.mp3",
+      "text": "bowl",
+      "textSha256": "d9f2babb167353d055843c7d537e6a663023561f921f831369ea1d657aa3051a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "14c7f44bc937ba9d8ab48efe7ee85814a65c7622a1a135468a08516223e51cf9",
+      "duration": 1.3,
+      "graphemes": [
+        "bowl"
+      ],
+      "phonemes": [
+        "bˈOl"
+      ]
+    }
+  ]
+}

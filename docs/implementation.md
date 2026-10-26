@@ -1,5 +1,17 @@
 # 實作與驗收紀錄
 
+## 2026-10-26 十二篇初級生活讀本發布流程
+
+本次將四批原創入門單元一併收尾：動手做與觀察、一起玩與分享、生活小任務、聽一聽看一看，共十二篇、十二張插畫、192 段本地 MP3。生活場景由 52 增至 64 篇、初級目錄由 33 增至 45 篇、正文句子由 357 增至 429 段。各批共讀順序、練習、原創素材來源與實聽界線，分別見 `elementary-{everyday,family,outings,discovery}-study-guide.md` 及同前綴 `-verification.md`。沒有修改應用程式、依賴、設定、密鑰、既有場景或錄音，沒有 schema 或讀者資料遷移。
+
+依使用者「devops 收尾並佈署」授權，沿用 `CarlLee1983/carlenglish` 的既有流程：從已核對的 `origin/main`（`250ad384dec8686322016c63bf7818f8657c3129`）所建內容分支整理提交及 PR，候選 SHA 的 CI 完整通過後合併，讓既有 Deploy 工作流程對合併 SHA 再跑完整驗證並部署。其他開啟中的新聞 PR 不在本次範圍。正式環境為 Cloudflare account `b2a2c00fb55ae6b774fde3adb3d465b2`、Worker `carlenglish`、網域 `carlenglish.gravito.dev`；沿用 repository 專用的 `CLOUDFLARE_ACCOUNT_ID`、`CLOUDFLARE_API_TOKEN` 與已啟用的部署 variable，不搬用或更改憑證。
+
+部署前平台查得版本 `353ffdc9-f450-4ada-8b5d-cc62764a0151`、100% 流量，與 `250ad38` 的 [Deploy run 40209473054](https://github.com/CarlLee1983/carlenglish/actions/runs/40209473054) 一致，作為本次回復目標。本地最新完整檢查通過：Astro 83 檔無診斷、164 項內容測試、1,943 項瀏覽器通過／12 項既有條件略過、擴充驗證 1 通過。這些是未提交內容的本地證據；候選及合併 SHA 必須各以實際 Actions 成功結果為準。
+
+正式發布由同一個 Deploy job 完成 `pnpm run verify` 再 `pnpm exec wrangler deploy`，不平行進行本機直接部署；一次替換完整靜態版本至 100% 流量。若 CI、帳號、目標版本或服務檢查不符，停止依賴操作，查明當前狀態，不重複觸發部署。發布後核對平台部署版本與合併 SHA 的 Actions 輸出，確認十二篇正文、翻譯、圖片、分享圖、45 篇初級目錄、sitemap、既有閱讀入口與自訂 404；十二張新插畫及 192 段音檔須與 source SHA 的雜湊一致。平台成功不等於服務驗證通過，實際結果以本次 PR、Deploy run、平台版本與收尾回報為準。
+
+若需要回復，先記錄失敗範圍並取得回復授權，再執行 `pnpm exec wrangler rollback 353ffdc9-f450-4ada-8b5d-cc62764a0151 --name carlenglish`，核對帳號、平台版本、原有目錄及舊讀本圖音。必須回復完整 Worker 版本，讓程式、內容與音檔一起還原；十二篇新教材屆時暫時不可用。本次無 schema 或持久資料變更，不需資料還原；讀者原有瀏覽器儲存不由部署清除。命令與範圍依 [Cloudflare 官方回復說明](https://developers.cloudflare.com/workers/versions-and-deployments/rollbacks/) 及本專案固定 Wrangler 4.150.0 的 help 核對。實機音質、0.8× 節奏與孩子試讀仍待使用者確認，部署驗證不替代這些驗收。
+
 ## 2026-10-25 台灣小學生初級單元發布
 
 本批新增六篇入門生活讀本、六張原創插畫與 96 段本地 MP3，生活讀本共 52 篇、初級 33 篇。範圍及實聽界線見 [本批驗證](elementary-beginners-verification.md)，共讀順序、練習及 Bluey 外部選讀的版權處理見 [學習說明](elementary-beginners-study-guide.md)。沒有新增套件、服務、設定、密鑰、資料庫或讀者資料遷移。
