@@ -1,6 +1,9 @@
 import { expect, test } from '@playwright/test';
 import { loadVocabularyCatalog } from '../src/lib/vocabulary';
 
+// CI renders WebGL in software; parallel cases in this file starve each other's frames and break the motion assertions.
+test.describe.configure({ mode: 'default' });
+
 const groups = loadVocabularyCatalog();
 
 test('all levels expose content-grounded vocabulary, source links, and metadata @content', async ({ page }) => {
