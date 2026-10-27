@@ -1,0 +1,72 @@
+{
+  "id": "seed-data-restoration-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "復育自然，先找到合適的種子",
+  "titleEn": "Kew connects seed collections to restoration projects",
+  "source": {
+    "outlet": "Royal Botanic Gardens, Kew",
+    "title": "Why restoring nature starts with finding the right seeds",
+    "url": "https://www.kew.org/science/read-and-watch/seedpod-for-restoration",
+    "publishedAt": "2026-10-16",
+    "accessedAt": "2026-10-23",
+    "eventDate": "2026-10-13",
+    "rewrittenAt": "2026-10-23"
+  },
+  "background": "閱讀目標：追蹤「問題→工具→限制」的關係，分辨資料更容易取得與復育已成功。Kew 是英國的植物研究與保育機構；本文根據它介紹自家平台的文章改寫，不是獨立成效評估。平台發布日依官方公告為 10 月 13 日；本文來源發布於 10 月 16 日，兩者不是同一日期。",
+  "paragraphs": [
+    {
+      "english": "Restoring damaged natural areas takes more than planting anything green. People need seeds from suitable wild plants. Yet information about seed collections is often scattered across different organisations. Finding the right seeds can therefore be difficult, even when someone knows which plants a project needs.",
+      "translation": "復育受損的自然環境，不是隨便種些綠色植物就夠了。人們需要合適的野生植物種子。然而，種子館藏的資訊往往分散在不同機構。因此，即使知道計畫需要哪些植物，找到合適的種子仍可能很困難。"
+    },
+    {
+      "english": "Kew describes SeedPOD, a free online database, as a way to connect this information. Users can find out where seeds came from and learn how to grow them. Smaller seed banks can also share their collection lists without paying to build their own websites. The platform offers information in several languages.",
+      "translation": "Kew 表示，免費的線上資料庫 SeedPOD 是串連這些資訊的一種方式。使用者可以查到種子的來源地，並了解如何培育。較小的種子銀行也能分享館藏清單，無須付費建立自己的網站。平台提供多種語言的資訊。"
+    },
+    {
+      "english": "However, a database does not plant the seeds itself. Kew says more collections and data are still being added. The aim is to help people choose suitable seeds, not to promise that every restoration project will succeed. Better access to information is one step, rather than the whole solution.",
+      "translation": "然而，資料庫本身不會把種子種下去。Kew 表示，更多館藏與資料仍在持續加入。平台的目標是幫助人們挑選合適的種子，不是保證每個復育計畫都會成功。讓資訊更容易取得，是其中一步，而非完整的解方。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "Restoring",
+      "translation": "復育、恢復"
+    },
+    {
+      "english": "suitable",
+      "translation": "合適的"
+    },
+    {
+      "english": "scattered",
+      "translation": "分散的"
+    },
+    {
+      "english": "database",
+      "translation": "資料庫"
+    },
+    {
+      "english": "collections",
+      "translation": "館藏、收藏資料"
+    }
+  ],
+  "questions": [
+    {
+      "question": "用一句中文說明主旨，包含平台要解決的問題。",
+      "answer": "Kew 用免費的 SeedPOD 串連分散的種子館藏資訊，幫助復育工作者找到合適種子，但不保證復育一定成功。"
+    },
+    {
+      "question": "第二段如何回應第一段？第三段的 However 又補上什麼？",
+      "answer": "第一段提出種子資訊分散、難以尋找的問題；第二段介紹串連資訊的工具；第三段補充資料仍在增加，資訊工具不等於整個復育工作已完成。"
+    },
+    {
+      "question": "第一段的 scattered 可從哪些上下文猜出意思？",
+      "answer": "across different organisations 說資訊在不同機構，後面又說難以尋找；第二段的 connect this information 與它相對，因此可猜是「分散的」。"
+    },
+    {
+      "question": "某個計畫查到種子資訊，是否就能推論該地已復育成功？請指出英文依據。",
+      "answer": "不能。does not plant the seeds itself 與 one step, rather than the whole solution 都指出查到資訊只是一個環節；還要選擇、取得及培育合適種子，本文沒有該地復育成果。"
+    }
+  ]
+}
