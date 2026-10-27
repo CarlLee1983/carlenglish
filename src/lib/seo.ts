@@ -2,6 +2,7 @@ import { createCatalog } from './catalog.ts';
 import type { Article } from './articles.ts';
 import type { Classic } from './classics.ts';
 import type { Scene } from './scenes.ts';
+import type { VocabularyLevel } from './vocabulary.ts';
 
 export const siteDescription = '透過生活場景、新聞、社群貼文與經典文學練習英文閱讀。從短篇讀本到完整故事，依程度閱讀英文並練習理解。';
 
@@ -33,10 +34,11 @@ export function canonicalUrl(pathname: string, site: URL | undefined): string {
   return url.href;
 }
 
-export function indexedPaths(scenes: Scene[], articles: Pick<Article, 'id'>[] = [], classics: Pick<Classic, 'id' | 'parts'>[] = []): string[] {
+export function indexedPaths(scenes: Scene[], articles: Pick<Article, 'id'>[] = [], classics: Pick<Classic, 'id' | 'parts'>[] = [], vocabularyLevels: VocabularyLevel['id'][] = []): string[] {
   return [
     '/',
     ...createCatalog(scenes).filter((group) => group.scenes.length > 0).map((group) => `/levels/${group.level.id}/`),
+    ...vocabularyLevels.map((id) => `/vocabulary/${id}/`),
     ...scenes.map((scene) => `/scenes/${scene.id}/`),
     ...articles.map((article) => `/articles/${article.id}/`),
     ...classics.flatMap((classic) => [`/classics/${classic.id}/`, ...classic.parts.map((_, index) => `/classics/${classic.id}/${index + 1}/`)]),

@@ -37,6 +37,7 @@ const structuredData = [
       <div><p class="eyebrow" lang="en">{level.english}</p><h1>{level.name}讀本</h1><p>{level.summary}</p></div>
       <p class="catalog-total"><strong>{scenes.length.toString().padStart(2, '0')}</strong> 篇讀本</p>
     </header>
+    <p class="catalog-vocabulary-link"><a class="vocabulary-entry-link" href={`/vocabulary/${level.id}/`}>{level.name}單字庫・列印與字卡</a></p>
     {scenes.length > 0 ? (
       <section aria-labelledby="scenes-title" data-catalog>
         <form class="catalog-filters" role="search" aria-label="搜尋與篩選讀本" data-catalog-form hidden>

@@ -31,6 +31,9 @@ test('indexed paths include the home, populated levels, and every current scene 
     '/', '/levels/beginner/', '/levels/intermediate/', '/levels/advanced/',
     '/scenes/a/', '/scenes/b/', '/scenes/c/', '/scenes/d/', '/articles/news-a/',
   ]);
+  assert.deepEqual(indexedPaths([], [], [], ['beginner', 'intermediate', 'advanced']), [
+    '/', '/vocabulary/beginner/', '/vocabulary/intermediate/', '/vocabulary/advanced/',
+  ], 'standalone vocabulary stays indexable without scene content');
 });
 
 test('small illustrations use the full-size brand card; suitable art gets a scene share image', () => {
