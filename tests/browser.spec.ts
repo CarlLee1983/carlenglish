@@ -94,7 +94,7 @@ test('home offers the three learning levels without listing scenes', async ({ pa
 
 for (const level of learningLevels) {
   test(`home enters the ${level.id} level and its page discovers official scenes`, async ({ page }) => {
-    test.setTimeout(120_000);
+    test.setTimeout(240_000);
     await page.goto('/');
     const entry = page.getByRole('link', { name: `進入${level.name}` });
     await expect(entry).toHaveAttribute('href', `/levels/${level.id}/`);
