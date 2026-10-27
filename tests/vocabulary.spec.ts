@@ -357,6 +357,9 @@ test('a cancelled request failing late can retry on the same card immediately', 
 test('button paging has intermediate frames instead of teleporting @motion', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   await page.goto('/vocabulary/beginner/?view=cards');
+  // Start paging after deck setup and the entrance, so a slow first WebGL frame cannot swallow the scroll.
+  await expect(page.locator('[data-deck-scene="ready"]')).toBeVisible();
+  await expect.poll(() => page.locator('[data-vocabulary-flip] [data-card-rotor]').evaluate((rotor: HTMLElement) => rotor.style.transform)).toContain('scale(1)');
   await page.evaluate(() => {
     const track = document.querySelector<HTMLElement>('[data-vocabulary-track]')!;
     const trace = { width: track.clientWidth, positions: [] as number[], done: false };

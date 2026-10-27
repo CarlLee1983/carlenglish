@@ -95,7 +95,8 @@
 .vocabulary-practice-main[data-deck-scene="ready"] .vocabulary-track { position: relative; }
 .vocabulary-practice-main[data-deck-scene="ready"] .vocabulary-slide { overflow: hidden; }
 .vocabulary-practice-main[data-deck-scene="ready"] .vocabulary-card-rotor { transition: none; }
-/* The WebGL camera reads the same distance, so DOM text and paper share one projection. */
+/* The WebGL camera reads the same distance, so DOM text and paper share one projection.
+   The native fallback keeps the base 1200px without sinking; its near edge briefly overlaps the header and footer, accepted as the rare no-WebGL path. */
 .vocabulary-practice-main[data-deck-scene="ready"] .vocabulary-flashcard { perspective: var(--deck-distance); }
 .vocabulary-practice-main[data-deck-scene="ready"] .vocabulary-card-front,
 .vocabulary-practice-main[data-deck-scene="ready"] .vocabulary-card-back { background: transparent; border-color: transparent; }

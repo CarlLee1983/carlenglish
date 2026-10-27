@@ -39,6 +39,8 @@ export function createVocabularyDeckScene(main: HTMLElement, track: HTMLElement,
   const distance = parseFloat(tokens.getPropertyValue('--deck-distance'));
   const flipDuration = milliseconds(tokens.getPropertyValue('--flip-duration'));
   const flipEasing = tokens.getPropertyValue('--flip-easing').trim();
+  // Fail at creation so the caller falls back to native cards instead of breaking on the first flip.
+  if (!(distance > 0) || !(flipDuration > 0) || !flipEasing) throw new Error('Missing deck motion tokens on .vocabulary-practice-main');
   const scene = new Scene();
   const camera = new PerspectiveCamera(35, 1, 1, 4000);
   camera.position.z = distance;
@@ -183,15 +185,18 @@ export function createVocabularyDeckScene(main: HTMLElement, track: HTMLElement,
         const roll = relative * .035 - (1 - entry) * .07;
         const lift = -Math.abs(relative) * 8 + (1 - entry) * 20;
         // Sinking by the near edge's travel keeps every corner behind the resting plane, so the stage never clips it.
-        const depth = -Math.abs(relative) * 60 + (1 - entry) * 16 - arc * rect.width / 2 - Math.sin(tilt) * rect.height / 2;
+        const swipeDepth = -Math.abs(relative) * 60;
+        const depth = swipeDepth + (1 - entry) * 16 - arc * rect.width / 2 - Math.sin(tilt) * rect.height / 2;
         const scale = .94 + entry * .06;
         card.rotor.style.transform = `translate3d(0, ${lift}px, ${depth}px) rotateZ(${roll}rad) rotateX(${lean}rad) rotateY(${turn}rad) scale(${scale})`;
         card.face.dataset.deckSide = Math.cos(turn) >= 0 ? 'front' : 'back';
         top.position.set(0, -lift, depth);
         top.rotation.set(-lean, turn, -roll, 'ZXY');
         top.scale.setScalar(scale);
+        // The stack follows swiping depth but not the flip sink, so a neighbour never sits inside a larger stack.
+        shadow.position.z = swipeDepth - 48;
         backs.forEach((back, n) => {
-          back.position.set((n + 1) * 3, -(n + 1) * 7, -(n + 1) * 14);
+          back.position.set((n + 1) * 3, -(n + 1) * 7, swipeDepth - (n + 1) * 14);
           back.rotation.z = (n + 1) * .025;
           back.scale.setScalar(1 - (n + 1) * .012);
         });
