@@ -1,0 +1,1211 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/setting-meeting-time/1.mp3",
+      "text": "Are you free this Saturday morning to discuss our science assignment?",
+      "textSha256": "8b5d30d9ab21a23b7e096b2fbdd7224744dae6858aab6d29dc0c5fbeb2757f37",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d7d4a842001b83c2ecd5cc39aa94fdcadcec153c17efcd8ad8ebf16ef2cd87f9",
+      "duration": 4.225,
+      "graphemes": [
+        "Are you free this Saturday morning to discuss our science assignment?"
+      ],
+      "phonemes": [
+        "ˌɑɹ ju fɹˈi ðɪs sˈæTəɹdˌA mˈɔɹnɪŋ tə dəskˈʌs ˌWəɹ sˈIəns əsˈInmənt?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/setting-meeting-time/2.mp3",
+      "text": "I am quite busy until ten o'clock, but after that my schedule is open.",
+      "textSha256": "ec9f2c1ebc4f6c167ea738510f554d1603944cce9031aa76cea213e0c46de519",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a73032fd1839bd2b24a062bfc1ee7edbe84177e860cac8a5e43280c49f847320",
+      "duration": 4.825,
+      "graphemes": [
+        "I am quite busy until ten o'clock, but after that my schedule is open."
+      ],
+      "phonemes": [
+        "ˌI ɐm kwˈIt bˈɪzi ˌʌntˈɪl tˈɛn əklˈɑk, bˌʌt ˈæftəɹ ðˈæt mI skˈɛʤˌul ɪz ˈOpᵊn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/setting-meeting-time/3.mp3",
+      "text": "Ten thirty would suit me perfectly, does that sound convenient for you?",
+      "textSha256": "610eaf1bb63ff8cfcaaf90c30d8317d4e41e4b17a9f00ee599411848cb78ce66",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b2b1b21b95022f9f8b7a842b453e3ad30f988b71a65c6d8abc97b09be7ac8976",
+      "duration": 4.55,
+      "graphemes": [
+        "Ten thirty would suit me perfectly, does that sound convenient for you?"
+      ],
+      "phonemes": [
+        "tˈɛn θˈɜɹTi wʊd sˈut mˌi pˈɜɹfəktli, dˈʌz ðˈæt sˈWnd kənvˈinjənt fɔɹ ju?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/setting-meeting-time/4.mp3",
+      "text": "Yes, meeting earlier in the day is much better before it gets too hot.",
+      "textSha256": "d26bdb5b9adf5df44a1e8cceea6dddda4c1a4ecd6beb7551aaa3c2651521f0c3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a7cd99aeab05917a3c76c82162e9610f012c9e4054311dcd33390a030ef92d3f",
+      "duration": 4.6,
+      "graphemes": [
+        "Yes, meeting earlier in the day is much better before it gets too hot."
+      ],
+      "phonemes": [
+        "jˈɛs, mˈiTɪŋ ˈɜɹliəɹ ɪn ðə dˈA ɪz mˈʌʧ bˈɛTəɹ bəfˈɔɹ ɪt ɡɛts tˈu hˈɑt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/setting-meeting-time/5.mp3",
+      "text": "What is your plan for where to meet so nobody gets lost along the busy road?",
+      "textSha256": "f65a997c2d30aa9f479c084cfa0150c46b760c0e68a02ebe3832474353b55e0b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "254428eb293f6acc74d3e8917dd028c101e1321576b5160e7462eb1783e3c15f",
+      "duration": 4.65,
+      "graphemes": [
+        "What is your plan for where to meet so nobody gets lost along the busy road?"
+      ],
+      "phonemes": [
+        "wˌʌt ɪz jʊɹ plˈæn fɔɹ wˌɛɹ tə mˈit sˌO nˈObˌɑdi ɡɛts lˈɔst əlˈɔŋ ðə bˈɪzi ɹˈOd?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/setting-meeting-time/6.mp3",
+      "text": "Let us meet right outside the subway exit near the bakery clock tower.",
+      "textSha256": "84e9a9f398a26fd09e260791a2315d7b54241ff0ba7792c6a3865b9fc75004a4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9fdae959db16d2181bae7bedf97fa47087729c849991edd572c73194573641aa",
+      "duration": 4.575,
+      "graphemes": [
+        "Let us meet right outside the subway exit near the bakery clock tower."
+      ],
+      "phonemes": [
+        "lˈɛt ˌʌs mˈit ɹˈIt ˌWtsˈId ðə sˈʌbwˌA ˈɛɡzət nˌɪɹ ðə bˈAkəɹi klˈɑk tˈWəɹ."
+      ]
+    },
+    {
+      "src": "/audio/phrases/setting-meeting-time-are-you-free.mp3",
+      "text": "are you free",
+      "textSha256": "85626a3438f02f09fc41fec247957e5c5ad454e79285390b3dc61c7659f73499",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b9269d9ccf9ddcacd664ce1548eae3386c03b42dfe8ffd734d3d2d2f530ba8dd",
+      "duration": 1.525,
+      "graphemes": [
+        "are you free"
+      ],
+      "phonemes": [
+        "ɑɹ ju fɹˈi"
+      ]
+    },
+    {
+      "src": "/audio/phrases/setting-meeting-time-my-schedule-is-open.mp3",
+      "text": "my schedule is open",
+      "textSha256": "f69f681c6ecb8ddc3b5d67d06a79216fc8d2a718e21daea325eb92fb798b6a30",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dd44f2bfe49dfe7998d528509b394fc0ac388555da47998e162b7dbeaab74d91",
+      "duration": 1.975,
+      "graphemes": [
+        "my schedule is open"
+      ],
+      "phonemes": [
+        "mI skˈɛʤˌul ɪz ˈOpᵊn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/setting-meeting-time-suit-me-perfectly.mp3",
+      "text": "suit me perfectly",
+      "textSha256": "7ca1f8330babf0b4648231a5bca3237f98dbc6f7ef0ce1b78d843a30ead5d6c3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5159c8b1236a91c94f10c75f69d3f64442ca5cedf9304245ae7effc0fc1b57bc",
+      "duration": 1.75,
+      "graphemes": [
+        "suit me perfectly"
+      ],
+      "phonemes": [
+        "sˈut mˌi pˈɜɹfəktli"
+      ]
+    },
+    {
+      "src": "/audio/phrases/setting-meeting-time-earlier-in-the-day.mp3",
+      "text": "earlier in the day",
+      "textSha256": "ff013aa0802d3497869b77eb5ad3d0378a4ab9e8162ab2fc6355f5e21176ff62",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "164852a908e943e12af02f6f14d7e786a3ab1caab02ecfc560b353ba3f616829",
+      "duration": 1.825,
+      "graphemes": [
+        "earlier in the day"
+      ],
+      "phonemes": [
+        "ˈɜɹliəɹ ɪn ðə dˈA"
+      ]
+    },
+    {
+      "src": "/audio/phrases/setting-meeting-time-outside-the-subway-exit.mp3",
+      "text": "outside the subway exit",
+      "textSha256": "082464e068541773d1ceee860fbdfc196aa160a896c2bed40a745c740ac5cf8e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a298aeac90da9a9346368478a13978c80e386b634d63ac5a64a0ec040e4b8a1d",
+      "duration": 2.1,
+      "graphemes": [
+        "outside the subway exit"
+      ],
+      "phonemes": [
+        "ˌWtsˈId ðə sˈʌbwˌA ˈɛɡzət"
+      ]
+    },
+    {
+      "src": "/audio/words/setting-meeting-time-free.mp3",
+      "text": "free",
+      "textSha256": "ad95d5fa651ba86d8923fe1238d24a4f1988a752acfe426ac72ac7c04471bc17",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9fea9672ee0c808242a07d54171f52e691edc2fadfec052ffa6eb656535c7e14",
+      "duration": 1.35,
+      "graphemes": [
+        "free"
+      ],
+      "phonemes": [
+        "fɹˈi"
+      ]
+    },
+    {
+      "src": "/audio/words/setting-meeting-time-busy.mp3",
+      "text": "busy",
+      "textSha256": "c9bc072f4fa8189466c2a8f2c36a56a4ef1e60a2ffa4986ba2f155cd176c128b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a838bc55091fe4f55e2a9012736ee2cafe9cb82e9e05086f1df4a3121b8c529b",
+      "duration": 1.4,
+      "graphemes": [
+        "busy"
+      ],
+      "phonemes": [
+        "bˈɪzi"
+      ]
+    },
+    {
+      "src": "/audio/words/setting-meeting-time-meet.mp3",
+      "text": "meet",
+      "textSha256": "8ccb033c0e48b27ff91e1ab948367e3bbc6921487c97624ed7ad064025e3dc99",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "eb4df228797aaf897eea874beab9b63eba20a55ae0777942fa0286d43d8fb75c",
+      "duration": 1.25,
+      "graphemes": [
+        "meet"
+      ],
+      "phonemes": [
+        "mˈit"
+      ]
+    },
+    {
+      "src": "/audio/words/setting-meeting-time-convenient.mp3",
+      "text": "convenient",
+      "textSha256": "3320956b836c53b726d123b3c7021f4d298b4bde1bfe8f277b327f29d22af931",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e45329abbf13a82c209343cf0632354792a8cc4eed365621eeac1e75b8b2a5ab",
+      "duration": 1.525,
+      "graphemes": [
+        "convenient"
+      ],
+      "phonemes": [
+        "kənvˈinjənt"
+      ]
+    },
+    {
+      "src": "/audio/words/setting-meeting-time-plan.mp3",
+      "text": "plan",
+      "textSha256": "64879f7d6b960a01909762d911a32d4582c20010c5641ee90278b644a9e3b525",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cda2570837dba4b81cc4ba7eb91ff375d60e92f5bf66eab7a8a4dab2e1e0edd5",
+      "duration": 1.325,
+      "graphemes": [
+        "plan"
+      ],
+      "phonemes": [
+        "plˈæn"
+      ]
+    },
+    {
+      "src": "/audio/words/setting-meeting-time-early.mp3",
+      "text": "early",
+      "textSha256": "f408830bcc7fab370819172244aa32e3ba66a848835911c02629d9a4dff77992",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ca2d9217fad54874bcf58b5c5a7299da7f0ad8017a66ef5e3b0a2a063592446e",
+      "duration": 1.4,
+      "graphemes": [
+        "early"
+      ],
+      "phonemes": [
+        "ˈɜɹli"
+      ]
+    },
+    {
+      "src": "/audio/sentences/apologizing-for-being-late/1.mp3",
+      "text": "Hi Kevin, I am calling because my bus is completely stuck in heavy traffic.",
+      "textSha256": "f1f5e8cfc71d14602b7018bb2cbca66171916902a47cd80947f2ab1ffc865948",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9924879be32f7ad0045b52138eb43e795b84f3fb6e17004abe4e9d6a43a4273c",
+      "duration": 5.125,
+      "graphemes": [
+        "Hi Kevin, I am calling because my bus is completely stuck in heavy traffic."
+      ],
+      "phonemes": [
+        "hˈI kˈɛvɪn, ˌI ɐm kˈɔlɪŋ bəkˈʌz mI bˈʌs ɪz kəmplˈitli stˈʌk ɪn hˈɛvi tɹˈæfɪk."
+      ]
+    },
+    {
+      "src": "/audio/sentences/apologizing-for-being-late/2.mp3",
+      "text": "I am so sorry about that, but I will be fifteen minutes late.",
+      "textSha256": "ac65a293adb37ac371a87374d44cbf2d51a0c1cb649e248485b3c162da031e70",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "071d21a70b9e6b76ef06e6ab4809f852f41e8cb6f0afba9ae0cf81ab1154af66",
+      "duration": 4.025,
+      "graphemes": [
+        "I am so sorry about that, but I will be fifteen minutes late."
+      ],
+      "phonemes": [
+        "ˌI ɐm sˌO sˈɔɹi əbˈWt ðˈæt, bˌʌt ˌI wɪl bi fˌɪftˈin mˈɪnəts lˈAt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/apologizing-for-being-late/3.mp3",
+      "text": "Do not worry at all Leo, thank you for calling to let me know.",
+      "textSha256": "ce92ce62ddd3be353fb380689d8bc167255663cf5db47ba434413b23ae881062",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1e7f1cc2267005a1538fb69ecf42a4e41665614cac06e33fff254459449fe06b",
+      "duration": 3.925,
+      "graphemes": [
+        "Do not worry at all Leo, thank you for calling to let me know."
+      ],
+      "phonemes": [
+        "dˈu nˌɑt wˈɜɹi æt ˈɔl lˈiO, θˈæŋk ju fɔɹ kˈɔlɪŋ tə lˈɛt mˌi nˈO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/apologizing-for-being-late/4.mp3",
+      "text": "There was a broken delivery truck blocking two lanes on the bridge.",
+      "textSha256": "24e0803f9fe07712a1b4daedd512b3dffaf3e0461c5fcb5845d5845d3d0cbcda",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "00789a398d7ffce939e65657cc98a2996fa4484e870db68942676be40932d474",
+      "duration": 4.1,
+      "graphemes": [
+        "There was a broken delivery truck blocking two lanes on the bridge."
+      ],
+      "phonemes": [
+        "ðˌɛɹ wʌz ɐ bɹˈOkən dəlˈɪvəɹi tɹˈʌk blˈɑkɪŋ tˈu lˈAnz ˌɔn ðə bɹˈɪʤ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/apologizing-for-being-late/5.mp3",
+      "text": "The traffic is starting to move again, so I should arrive very soon.",
+      "textSha256": "10297fc164180d2b46b6306bbfe40ca870dc36a66ffa51fa23214cfe9a892f9f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e72ce90ff5e19d900e519cb8b88a31bc51e41ec76dec13efa1d6c3f370f35f8d",
+      "duration": 4.225,
+      "graphemes": [
+        "The traffic is starting to move again, so I should arrive very soon."
+      ],
+      "phonemes": [
+        "ðə tɹˈæfɪk ɪz stˈɑɹTɪŋ tə mˈuv əɡˈɛn, sˌO ˌI ʃˌʊd əɹˈIv vˈɛɹi sˈun."
+      ]
+    },
+    {
+      "src": "/audio/sentences/apologizing-for-being-late/6.mp3",
+      "text": "Take your time and stay safe, I will wait for you inside the bookstore.",
+      "textSha256": "1e5e39dd764d20d6c9daeff5b1b7eb6a44c6363fefee3b223f2206724df2b65b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fe2734f6d06a3e2a9cfa59804f86913a164a11c78898f4b9605755b0d533b35c",
+      "duration": 4.275,
+      "graphemes": [
+        "Take your time and stay safe, I will wait for you inside the bookstore."
+      ],
+      "phonemes": [
+        "tˈAk jʊɹ tˈIm ænd stˈA sˈAf, ˌI wɪl wˈAt fɔɹ ju ɪnsˈId ðə bˈʊkstˌɔɹ."
+      ]
+    },
+    {
+      "src": "/audio/phrases/apologizing-for-being-late-stuck-in-heavy-traffic.mp3",
+      "text": "stuck in heavy traffic",
+      "textSha256": "6873f0a6544684ca49300a348c59b883439ee5a9e5b95d77f214e8c1445acb1f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a14194b5553e04fc813357311694d45660f0610474375b0a30989931fe914331",
+      "duration": 1.9,
+      "graphemes": [
+        "stuck in heavy traffic"
+      ],
+      "phonemes": [
+        "stˈʌk ɪn hˈɛvi tɹˈæfɪk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/apologizing-for-being-late-so-sorry-about-that.mp3",
+      "text": "so sorry about that",
+      "textSha256": "a3c4da9e92ed38f90cd2269a270ac5a026d55a551416414672efb869f26deac5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "825aa63b3728f0b68abcc1182c2177ccd3248479b6be4ef6d316df35b49c1c6c",
+      "duration": 1.8,
+      "graphemes": [
+        "so sorry about that"
+      ],
+      "phonemes": [
+        "sˌO sˈɔɹi əbˈWt ðˈæt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/apologizing-for-being-late-fifteen-minutes-late.mp3",
+      "text": "fifteen minutes late",
+      "textSha256": "64bb190a97e8b6188c46dc198d95c198fe2648f74b23827a37fe552ebc7e4f37",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2f8f941300905f1d938416f57d27a6ef4993dd6e6050d281a666d8254ba2169a",
+      "duration": 1.8,
+      "graphemes": [
+        "fifteen minutes late"
+      ],
+      "phonemes": [
+        "fˌɪftˈin mˈɪnəts lˈAt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/apologizing-for-being-late-arrive-very-soon.mp3",
+      "text": "arrive very soon",
+      "textSha256": "e91a66f4d7f6f26fdb9ba6ee7f5253366c5c2527549f73256b645607f0902fa8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5702344244c5f16cb57f99da1c7e4625a9df2f8262122d9fea7c1c7b40ab62d8",
+      "duration": 1.825,
+      "graphemes": [
+        "arrive very soon"
+      ],
+      "phonemes": [
+        "əɹˈIv vˈɛɹi sˈun"
+      ]
+    },
+    {
+      "src": "/audio/phrases/apologizing-for-being-late-take-your-time.mp3",
+      "text": "take your time",
+      "textSha256": "0ca7da55239636e9f5dc6d5951dd0f413dd499d6c21edf3b0a8abaf7f9d654ee",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a33b898540cc904761a3a761d951ca198f08250f161dd1f105ef7c30c7736410",
+      "duration": 1.575,
+      "graphemes": [
+        "take your time"
+      ],
+      "phonemes": [
+        "tˈAk jʊɹ tˈIm"
+      ]
+    },
+    {
+      "src": "/audio/words/apologizing-for-being-late-sorry.mp3",
+      "text": "sorry",
+      "textSha256": "484aab2f2cd0f77b3c30f91521ba9a76c8c501112a53e100154a098c274f03d3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5f6d824857d8e232643f300307d76734366eea88379608f346f976998d8e1761",
+      "duration": 1.35,
+      "graphemes": [
+        "sorry"
+      ],
+      "phonemes": [
+        "sˈɔɹi"
+      ]
+    },
+    {
+      "src": "/audio/words/apologizing-for-being-late-late.mp3",
+      "text": "late",
+      "textSha256": "089001a35679a33ef3db0ca350db9b9a2f0136e0e327577b04b3b98127470961",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dcd9bdc74e43dc7bd1275abfcb7a8e4144c5d47055b7762d8da3ded75990b5a3",
+      "duration": 1.225,
+      "graphemes": [
+        "late"
+      ],
+      "phonemes": [
+        "lˈAt"
+      ]
+    },
+    {
+      "src": "/audio/words/apologizing-for-being-late-stuck.mp3",
+      "text": "stuck",
+      "textSha256": "9c05ce79d0bfe037953b11f168069e5af4ea2605b8534a188f64dee6c0b643fe",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f8bbabf602351291b78e4128b9634c2d8d8b9ced5e7dec2c349a9d6c611be0ea",
+      "duration": 1.25,
+      "graphemes": [
+        "stuck"
+      ],
+      "phonemes": [
+        "stˈʌk"
+      ]
+    },
+    {
+      "src": "/audio/words/apologizing-for-being-late-soon.mp3",
+      "text": "soon",
+      "textSha256": "4a754148b88a68e18df1a02489950666d187e904cd88d2dc0aa16c103b94045f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d1588d356f4205c7f78198396594dec50b42944b3eae329eeed7226e5e248897",
+      "duration": 1.375,
+      "graphemes": [
+        "soon"
+      ],
+      "phonemes": [
+        "sˈun"
+      ]
+    },
+    {
+      "src": "/audio/words/apologizing-for-being-late-arrive.mp3",
+      "text": "arrive",
+      "textSha256": "6dc09a300747b82d8bfe9d509ede4fb228e3c27204185e8c5e6188340904d9e0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a9e1a598a273c01cb22f1c24e054a0c6b838a673167ecc68d49ae75e855dac87",
+      "duration": 1.425,
+      "graphemes": [
+        "arrive"
+      ],
+      "phonemes": [
+        "əɹˈIv"
+      ]
+    },
+    {
+      "src": "/audio/words/apologizing-for-being-late-wait.mp3",
+      "text": "wait",
+      "textSha256": "716ecabb45ac6a88a049398fde2d3d5225c6dd3121ae9bbc5af457eb4baf056a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "231490057829fe19e0991fc4002e5564b28611a86ef9ed59446e055b13981cc6",
+      "duration": 1.225,
+      "graphemes": [
+        "wait"
+      ],
+      "phonemes": [
+        "wˈAt"
+      ]
+    },
+    {
+      "src": "/audio/sentences/declining-an-invitation/1.mp3",
+      "text": "Thank you for inviting me to join the seaside bike trip.",
+      "textSha256": "0a4774d9abbc73902dc5e9529961e9fc2b2e597cd0150ec7582387710a6dbb0a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "14257f58861cd377df4150398c31e9e83fa7a1c5956ad2bafcbeb6a4fa6edc42",
+      "duration": 3.725,
+      "graphemes": [
+        "Thank you for inviting me to join the seaside bike trip."
+      ],
+      "phonemes": [
+        "θˈæŋk ju fɔɹ ɪnvˈITɪŋ mˌi tə ʤˈYn ðə sˈisˌId bˈIk tɹˈɪp."
+      ]
+    },
+    {
+      "src": "/audio/sentences/declining-an-invitation/2.mp3",
+      "text": "It sounds like wonderful fun, and I really wish I could come along.",
+      "textSha256": "c6e1994f42b19c76bd5b7096be534e53d16bce89dab954439eabadd40669e898",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "16aa889ac4ebb2b1cafe9d5445ab0e77a8ac6a450d09ffbcc7a57d77077c5a75",
+      "duration": 4.15,
+      "graphemes": [
+        "It sounds like wonderful fun, and I really wish I could come along."
+      ],
+      "phonemes": [
+        "ˌɪt sˈWndz lˈIk wˈʌndəɹfᵊl fˈʌn, ænd ˌI ɹˈiᵊli wˈɪʃ ˌI kʊd kˈʌm əlˈɔŋ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/declining-an-invitation/3.mp3",
+      "text": "However, I already made a promise to visit my grandparents this Sunday.",
+      "textSha256": "907c7beb85c3679ddbed0eb3c72b2d51ca6659777a016d8bfe2a0e700c0b7294",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "744a64364b000dc089d322107bca6e786c62e9dae8d62f4660e8eb046b108318",
+      "duration": 4.575,
+      "graphemes": [
+        "However, I already made a promise to visit my grandparents this Sunday."
+      ],
+      "phonemes": [
+        "hWˈɛvəɹ, ˌI ˌɔlɹˈɛdi mˌAd ɐ pɹˈɑməs tə vˈɪzət mI ɡɹˈændpˌɛɹənts ðɪs sˈʌndˌA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/declining-an-invitation/4.mp3",
+      "text": "My whole family is gathering together for grandpa's birthday dinner.",
+      "textSha256": "90a4e38a5204d0e8ea4ab4f7580d50deaad439b793e9aca8a0ff957291f99dc7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2f7108a15ff0107229443935791e4a46c2cb44b2e25554aade3d59f6fb56bbed",
+      "duration": 4.725,
+      "graphemes": [
+        "My whole family is gathering together for grandpa's birthday dinner."
+      ],
+      "phonemes": [
+        "mˌI hˈOl fˈæmᵊli ɪz ɡˈæðəɹɪŋ təɡˈɛðəɹ fɔɹ ɡɹˈændpˌɑz bˈɜɹθdˌA dˈɪnəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/declining-an-invitation/5.mp3",
+      "text": "That is completely fine, family celebrations should always come first.",
+      "textSha256": "8639b0ff186f3d579bc0c4dde60cfb42d7d2186a250326977cf9e2240852562e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a218829e426513e039df5d3bdf511154002ec16ae9575deba8421ddff062d819",
+      "duration": 4.65,
+      "graphemes": [
+        "That is completely fine, family celebrations should always come first."
+      ],
+      "phonemes": [
+        "ðˈæt ɪz kəmplˈitli fˈIn, fˈæmᵊli sˌɛləbɹˈAʃənz ʃˌʊd ˈɔlwˌAz kˈʌm fˈɜɹst."
+      ]
+    },
+    {
+      "src": "/audio/sentences/declining-an-invitation/6.mp3",
+      "text": "Let us definitely plan another exciting trip together next time.",
+      "textSha256": "d5595b71751b2e9e810230f692b7ca9b2b127307e0d041d23688b51d6b4e8f3f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b666c905479e386b6fd7d06ec47e86bb8af4fa2d925b48f70495518d2494df47",
+      "duration": 4.5,
+      "graphemes": [
+        "Let us definitely plan another exciting trip together next time."
+      ],
+      "phonemes": [
+        "lˈɛt ˌʌs dˈɛfᵊnətli plˈæn ənˈʌðəɹ ɪksˈITɪŋ tɹˈɪp təɡˈɛðəɹ nˈɛkst tˈIm."
+      ]
+    },
+    {
+      "src": "/audio/phrases/declining-an-invitation-thank-you-for-inviting-me.mp3",
+      "text": "thank you for inviting me",
+      "textSha256": "08bc17447a379f23ca10af89d76fe7ea4c09522ddabc540ef7bab9b25cd73a7c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bcf1cf546b1ccaf0dbe9c39c2a9b088f6735f3c2bac45e9c27a53c52994a2ece",
+      "duration": 1.975,
+      "graphemes": [
+        "thank you for inviting me"
+      ],
+      "phonemes": [
+        "θˈæŋk ju fɔɹ ɪnvˈITɪŋ mˌi"
+      ]
+    },
+    {
+      "src": "/audio/phrases/declining-an-invitation-wish-i-could-come.mp3",
+      "text": "wish I could come",
+      "textSha256": "44ce5e55a7ef90f4ef7cc2d31059e6ada94f2e9063d32a0db089ba53e9b15dac",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "30deb165daed0108412a08ff864d9c9d34168a0b4531d8c1f98b2d99046a6317",
+      "duration": 1.675,
+      "graphemes": [
+        "wish I could come"
+      ],
+      "phonemes": [
+        "wˈɪʃ ˌI kʊd kˈʌm"
+      ]
+    },
+    {
+      "src": "/audio/phrases/declining-an-invitation-made-a-promise.mp3",
+      "text": "made a promise",
+      "textSha256": "a58911a6b1c8e53cbb05b0b56aea3f7f8a4a0c94d4b41b5edf780228599d7794",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f4619b387723778603fb0b07247db4915897d5c594da2c4cebfb14cb76ed2151",
+      "duration": 1.6,
+      "graphemes": [
+        "made a promise"
+      ],
+      "phonemes": [
+        "mˌAd ɐ pɹˈɑməs"
+      ]
+    },
+    {
+      "src": "/audio/phrases/declining-an-invitation-come-first.mp3",
+      "text": "come first",
+      "textSha256": "53002f20d0ddd5e1e016011fe38b37f696c4787916b27b6085c45f2de0293c5a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "52e33beefa1318527fe73cd4c9bd21ef39c4fb360016e8e5ce3f5f7a7280dc06",
+      "duration": 1.525,
+      "graphemes": [
+        "come first"
+      ],
+      "phonemes": [
+        "kˈʌm fˈɜɹst"
+      ]
+    },
+    {
+      "src": "/audio/phrases/declining-an-invitation-next-time.mp3",
+      "text": "next time",
+      "textSha256": "6a5c4e174099631791718e4b1fc292612de4b0c8547d360fcbd68177fabcb253",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2a626a14ef2b1ecb218a12679e9c9aae23ee346ea5cc7395359b38e564890c56",
+      "duration": 1.625,
+      "graphemes": [
+        "next time"
+      ],
+      "phonemes": [
+        "nˈɛkst tˈIm"
+      ]
+    },
+    {
+      "src": "/audio/words/declining-an-invitation-invite.mp3",
+      "text": "invite",
+      "textSha256": "5014f9af3a684fdd64a775c1c4c532ee66b1b96cb56b1d02170d2249b6764f75",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "af38b0e0d996fa6271ed730eee5696b8343f29342a905b4fdd64abd11b8bf905",
+      "duration": 1.375,
+      "graphemes": [
+        "invite"
+      ],
+      "phonemes": [
+        "ɪnvˈIt"
+      ]
+    },
+    {
+      "src": "/audio/words/declining-an-invitation-wish.mp3",
+      "text": "wish",
+      "textSha256": "091e606752615c91da70540d9951464cd898f7c2a420fc7181b4f6793772e723",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ce7a4ed938febd79e01b4e8eb6ec8a4ad57319e4f91d6815703282116b0947f7",
+      "duration": 1.3,
+      "graphemes": [
+        "wish"
+      ],
+      "phonemes": [
+        "wˈɪʃ"
+      ]
+    },
+    {
+      "src": "/audio/words/declining-an-invitation-could.mp3",
+      "text": "could",
+      "textSha256": "0e031e954a432055ace97e08d1a097013f562c021a1c3aa3ab4948dd56793b86",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fe7ee0e6bc68f39b3c40bac1f420442f43b57b2746944588668d2cfa543bdf3f",
+      "duration": 1.3,
+      "graphemes": [
+        "could"
+      ],
+      "phonemes": [
+        "kˈʊd"
+      ]
+    },
+    {
+      "src": "/audio/words/declining-an-invitation-already.mp3",
+      "text": "already",
+      "textSha256": "ea53396caebc40d702a99967c8b6cea050267d7b7b229aa68a6929f9c5659878",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f7a52ef259b09c61de9cddfcb02e3d5e21e2053b7a829b7e652bf76b23b7c1b2",
+      "duration": 1.525,
+      "graphemes": [
+        "already"
+      ],
+      "phonemes": [
+        "ˌɔlɹˈɛdi"
+      ]
+    },
+    {
+      "src": "/audio/words/declining-an-invitation-family.mp3",
+      "text": "family",
+      "textSha256": "d34a569ab7aaa54dacd715ae64953455d86b768846cd0085ef4e9e7471489b7b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2b3f3f70cd0ceab2a34049c1cec4cf4eafddef3b0d83cdc4d248ca8166960d8d",
+      "duration": 1.425,
+      "graphemes": [
+        "family"
+      ],
+      "phonemes": [
+        "fˈæmᵊli"
+      ]
+    },
+    {
+      "src": "/audio/words/declining-an-invitation-next.mp3",
+      "text": "next",
+      "textSha256": "c6c1c9a9c8543f1e4cd980064cf1625eeb61a90703b2464fff039f21682508b3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "39056d4549ddc9b9cd0bc2abc19296b54d4953d80a2bbb06b19ee17d06bc6a27",
+      "duration": 1.325,
+      "graphemes": [
+        "next"
+      ],
+      "phonemes": [
+        "nˈɛkst"
+      ]
+    },
+    {
+      "src": "/audio/sentences/neighbor-elevator-chat/1.mp3",
+      "text": "Good morning Mrs. Chen, are you heading out for a morning walk?",
+      "textSha256": "743c8672fc081ad22a8cd1ef5af246dafad4876852d829deed4507b35c3d1956",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "944a470fa8021dfda2dee0ed3b75c91b88bae42b9c690c23f47694b1270c6bac",
+      "duration": 3.9,
+      "graphemes": [
+        "Good morning Mrs. Chen, are you heading out for a morning walk?"
+      ],
+      "phonemes": [
+        "ɡˈʊd mˈɔɹnɪŋ mˈɪsɪz ʧˈɛn, ɑɹ ju hˈɛdɪŋ ˈWt fɔɹ ɐ mˈɔɹnɪŋ wˈɔk?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/neighbor-elevator-chat/2.mp3",
+      "text": "Good morning Leo, yes, the weather is so nice and cool today.",
+      "textSha256": "7df35d0be4ee6c74a43b10d88d3b1b96a1e28a242673449ccb5fb2261082565d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9977bdd0211b9ef5efb8fe12696b93ea6a6759544056b46c79faa366fc9f9e04",
+      "duration": 4.075,
+      "graphemes": [
+        "Good morning Leo, yes, the weather is so nice and cool today."
+      ],
+      "phonemes": [
+        "ɡˈʊd mˈɔɹnɪŋ lˈiO, jˈɛs, ðə wˈɛðəɹ ɪz sˌO nˈIs ænd kˈul tədˈA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/neighbor-elevator-chat/3.mp3",
+      "text": "After several days of rain, it is wonderful to see the bright sun.",
+      "textSha256": "c84568b889f2b314ed2a8be83d8a0828f0566a559fc07d644cc8498a948d140b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "685f4476bb85315ad8ec54ada3e8fc5cc1703db40f754769808d69e1645080b0",
+      "duration": 4.275,
+      "graphemes": [
+        "After several days of rain, it is wonderful to see the bright sun."
+      ],
+      "phonemes": [
+        "ˈæftəɹ sˈɛvəɹəl dˈAz ʌv ɹˈAn, ɪt ɪz wˈʌndəɹfᵊl tə sˈi ðə bɹˈIt sˈʌn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/neighbor-elevator-chat/4.mp3",
+      "text": "Are you heading off to school or do you have sports practice?",
+      "textSha256": "1eea1bfebbd65b4e903fa6c454a77db10c4e65c7a72a81670659a69f38391aa1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "083e851f2b257ec434380ec87aeb4d9077f1823ca9b38c2549bd52c31e99cc8d",
+      "duration": 3.7,
+      "graphemes": [
+        "Are you heading off to school or do you have sports practice?"
+      ],
+      "phonemes": [
+        "ˌɑɹ ju hˈɛdɪŋ ˈɔf tə skˈul ɔɹ dˈu ju hæv spˈɔɹts pɹˈæktəs?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/neighbor-elevator-chat/5.mp3",
+      "text": "I have soccer training with my school teammates on the grass field.",
+      "textSha256": "2ad7e2c67a99849a6ad31c34d5b4ed2382dfd8f1764f935b3cddc8ad6aa4a865",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c7a28e733f09a53ac6b9d0e1039c1cd191835c7001d8f1a017a7203a968bb9b3",
+      "duration": 4.175,
+      "graphemes": [
+        "I have soccer training with my school teammates on the grass field."
+      ],
+      "phonemes": [
+        "ˌI hæv sˈɑkəɹ tɹˈAnɪŋ wɪð mI skˈul tˈimmˌAts ˌɔn ðə ɡɹˈæs fˈild."
+      ]
+    },
+    {
+      "src": "/audio/sentences/neighbor-elevator-chat/6.mp3",
+      "text": "With a warm smile, she wished me a lovely sunny weekend!",
+      "textSha256": "c96a95e34bde87b2c484b41fbeaadf57ed16ee70419f2d883de1306483df6039",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1d379a43f1bc9bea71ea3c887f8bbcb7cf111f6b1d8c2e324a5ed863dbaf7833",
+      "duration": 3.75,
+      "graphemes": [
+        "With a warm smile, she wished me a lovely sunny weekend!"
+      ],
+      "phonemes": [
+        "wˌɪð ɐ wˈɔɹm smˈIl, ʃi wˈɪʃt mˌi ɐ lˈʌvli sˈʌni wˈikˌɛnd!"
+      ]
+    },
+    {
+      "src": "/audio/phrases/neighbor-elevator-chat-heading-out.mp3",
+      "text": "heading out",
+      "textSha256": "f4b965b5c6bfd1d075d0534d0aed814e65ef917b6a3dbfb38775dad4e0980b24",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "00b4c26bd879986b6089588be6e5b61b642cdf273681772b9f281cda2fc28291",
+      "duration": 1.475,
+      "graphemes": [
+        "heading out"
+      ],
+      "phonemes": [
+        "hˈɛdɪŋ ˈWt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/neighbor-elevator-chat-nice-and-cool.mp3",
+      "text": "nice and cool",
+      "textSha256": "928dd071c6370af6e8edf2c5174bb95f3c837fdd89422bc62e063cf708b92c9c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "53d44fe10324ff9ea6a1bf7bba2d01ddd08f9530d0a5eccbdded7248df20aa68",
+      "duration": 1.675,
+      "graphemes": [
+        "nice and cool"
+      ],
+      "phonemes": [
+        "nˈIs ænd kˈul"
+      ]
+    },
+    {
+      "src": "/audio/phrases/neighbor-elevator-chat-after-several-days-of-rain.mp3",
+      "text": "after several days of rain",
+      "textSha256": "2b9d2a34fedf6af0f3646280e91893b510c9318ad905a004aaf313800bb225c4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "790a42790468dd9901a5b35fb4f9e0e2fd68a62f427a8d3471872b974dfd5350",
+      "duration": 2.2,
+      "graphemes": [
+        "after several days of rain"
+      ],
+      "phonemes": [
+        "ˈæftəɹ sˈɛvəɹəl dˈAz ʌv ɹˈAn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/neighbor-elevator-chat-heading-off-to-school.mp3",
+      "text": "heading off to school",
+      "textSha256": "1bd4a570795866e13edbecbf882a2da32c8d53adb2469bb6c83033e008c1a4df",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ce6572e00ccaff60b4900c962ab073d65e055af100aa21c37eee83ebb5e420e8",
+      "duration": 1.825,
+      "graphemes": [
+        "heading off to school"
+      ],
+      "phonemes": [
+        "hˈɛdɪŋ ˈɔf tə skˈul"
+      ]
+    },
+    {
+      "src": "/audio/phrases/neighbor-elevator-chat-lovely-sunny-weekend.mp3",
+      "text": "lovely sunny weekend",
+      "textSha256": "22e99e8a8f5472fed3d1c4c336a633745504a2319fabce523c8b20c9307729c8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9ce3a8a75aea2f7fb641fee61c4c6b63c7a5d324887110761e0c910a24e62368",
+      "duration": 1.925,
+      "graphemes": [
+        "lovely sunny weekend"
+      ],
+      "phonemes": [
+        "lˈʌvli sˈʌni wˈikˌɛnd"
+      ]
+    },
+    {
+      "src": "/audio/words/neighbor-elevator-chat-weather.mp3",
+      "text": "weather",
+      "textSha256": "e5e72beb4e3c6926d3dc9e3e2ef7833ba50cd919c2460a782b244fd071e920de",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2772584fff3965d9d9686338c6a39aef442dd97de2b1c3bc5978ceaaafd663c5",
+      "duration": 1.275,
+      "graphemes": [
+        "weather"
+      ],
+      "phonemes": [
+        "wˈɛðəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/neighbor-elevator-chat-sunny.mp3",
+      "text": "sunny",
+      "textSha256": "c2333a7e3a607935c67c1e6f6810395decc9f66f592b812aaada7db94ba215d6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b0219cd0c0c2fb59be62005b6daa8019870140ad5a3330795b7df9b86ce7f293",
+      "duration": 1.425,
+      "graphemes": [
+        "sunny"
+      ],
+      "phonemes": [
+        "sˈʌni"
+      ]
+    },
+    {
+      "src": "/audio/words/neighbor-elevator-chat-weekend.mp3",
+      "text": "weekend",
+      "textSha256": "1197a20df1b4c87b10c868648eba70eac619e18ab6a6772e32bc9c701c315e41",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e89b4bbb168dcebfd0a1f2df0a5a01d9661e03332605a94c0b085695acc0aa69",
+      "duration": 1.5,
+      "graphemes": [
+        "weekend"
+      ],
+      "phonemes": [
+        "wˈikˌɛnd"
+      ]
+    },
+    {
+      "src": "/audio/words/neighbor-elevator-chat-nice.mp3",
+      "text": "nice",
+      "textSha256": "e186022d0931afe9fe0690857e32f85e50165e7fbe0966d49609ef1981f920c6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "34bf99943c3e451026d2c093b4a669f9bdb4867d9f23e969a80a97e475f1ed20",
+      "duration": 1.325,
+      "graphemes": [
+        "nice"
+      ],
+      "phonemes": [
+        "nˈIs"
+      ]
+    },
+    {
+      "src": "/audio/words/neighbor-elevator-chat-smile.mp3",
+      "text": "smile",
+      "textSha256": "fa1eadc4c6995667412681c69ce33adfc9302a2965f521c40908549e670e2e4e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "af028a3cb0ddcd0a7c92752457a8ad0185a4f43ec3e6028340fe05a38ed55efa",
+      "duration": 1.425,
+      "graphemes": [
+        "smile"
+      ],
+      "phonemes": [
+        "smˈIl"
+      ]
+    },
+    {
+      "src": "/audio/words/neighbor-elevator-chat-lovely.mp3",
+      "text": "lovely",
+      "textSha256": "f85b43067a280d4cc40f89cb78d8efff6e908727bc3cb43a9ae72b400d2eecc5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d54871e7e6841bf05c32c7dfce01814fa69df286dddd981b1fd7ed7132c10455",
+      "duration": 1.4,
+      "graphemes": [
+        "lovely"
+      ],
+      "phonemes": [
+        "lˈʌvli"
+      ]
+    },
+    {
+      "src": "/audio/sentences/returning-borrowed-tool/1.mp3",
+      "text": "Hello Mr. Wang, I came by to return the metal toolbox you lent me.",
+      "textSha256": "c5d51c2071498b0834b1803ea311c83eb43b5375fbd03bed53382261fe01d0c8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5b929f25d8f1ab8b02363b3feccb0fd111e6039838c2e4a627720e8c373a211f",
+      "duration": 4.625,
+      "graphemes": [
+        "Hello Mr. Wang, I came by to return the metal toolbox you lent me."
+      ],
+      "phonemes": [
+        "həlˈO mˈɪstəɹ wˈæŋɡ, ˌI kˈAm bI tə ɹətˈɜɹn ðə mˈɛTᵊl tˈulbˌɑks ju lˈɛnt mˌi."
+      ]
+    },
+    {
+      "src": "/audio/sentences/returning-borrowed-tool/2.mp3",
+      "text": "Did the tools you used help you fix your bedroom bookshelf?",
+      "textSha256": "1f6a2473be7f93f9f03ebc34852a7bfcdcecb7aa502aedfa959ca6b37c903db5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c69ad6d17bb60c31ec8afea0efb1863546a31567e73c6431bfcd0dd3253a6045",
+      "duration": 3.475,
+      "graphemes": [
+        "Did the tools you used help you fix your bedroom bookshelf?"
+      ],
+      "phonemes": [
+        "dˈɪd ðə tˈulz ju jˈuzd hˈɛlp ju fˈɪks jʊɹ bˈɛdɹˌum bˈʊkʃˌɛlf?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/returning-borrowed-tool/3.mp3",
+      "text": "Yes, having the proper tools made the work easy and my bookshelf is now done.",
+      "textSha256": "0f51d3014fa4b015c46170aa97a89eddbb7ed94239744a930618602fab72871b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3fed24b361f17c7c7b8bd91b1e1a9ec41261b404114ef960d79b0b12b3c6a1ad",
+      "duration": 5.2,
+      "graphemes": [
+        "Yes, having the proper tools made the work easy and my bookshelf is now done."
+      ],
+      "phonemes": [
+        "jˈɛs, hˈævɪŋ ðə pɹˈɑpəɹ tˈulz mˌAd ðə wˈɜɹk ˈizi ænd mI bˈʊkʃˌɛlf ɪz nˈW dˈʌn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/returning-borrowed-tool/4.mp3",
+      "text": "I wiped every tool clean and made sure each piece is back in the box.",
+      "textSha256": "3cae055c60afc69a90aaac5eabce871ed768d51d9bda2fb9991aaad32cc85e23",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8f245a8e03ed911287631e3281eae906f2c267b6f638214b045b2026dff36cd3",
+      "duration": 4.45,
+      "graphemes": [
+        "I wiped every tool clean and made sure each piece is back in the box."
+      ],
+      "phonemes": [
+        "ˌI wˈIpt ˈɛvəɹi tˈul klˈin ænd mˌAd ʃˈʊɹ ˈiʧ pˈis ɪz bˈæk ɪn ðə bˈɑks."
+      ]
+    },
+    {
+      "src": "/audio/sentences/returning-borrowed-tool/5.mp3",
+      "text": "Here is a small bag of homemade cookies to thank you very much for your kindness.",
+      "textSha256": "dbad878663e477ada57ae676e24dc45890b9fcedec7ff90bcf6df703a1e9945c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "61ca2a8667af56f34e0ea853a1a8178b4ef958e7616c98f3b95b6a912689aed3",
+      "duration": 5.125,
+      "graphemes": [
+        "Here is a small bag of homemade cookies to thank you very much for your kindness."
+      ],
+      "phonemes": [
+        "hˈɪɹ ɪz ɐ smˈɔl bˈæɡ ʌv hˌOmmˈAd kˈʊkiz tə θˈæŋk ju vˈɛɹi mˈʌʧ fɔɹ jʊɹ kˈIndnəs."
+      ]
+    },
+    {
+      "src": "/audio/sentences/returning-borrowed-tool/6.mp3",
+      "text": "That is so sweet of you Leo, you are always a thoughtful neighbor.",
+      "textSha256": "54c324faeb540424d8221db30940f15f185ea73dcf071978d2b315dae556cb1f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "971aeee6992a2e7a3009f8c5bf13e085771db2bf6c244d0fe99beb9aead41371",
+      "duration": 4.025,
+      "graphemes": [
+        "That is so sweet of you Leo, you are always a thoughtful neighbor."
+      ],
+      "phonemes": [
+        "ðˈæt ɪz sˌO swˈit ʌv ju lˈiO, ju ɑɹ ˈɔlwˌAz ɐ θˈɔtfᵊl nˈAbəɹ."
+      ]
+    },
+    {
+      "src": "/audio/phrases/returning-borrowed-tool-came-by-to-return.mp3",
+      "text": "came by to return",
+      "textSha256": "5c89aca3ae23ab30a0b89097f4d848d5a6991a3af8094605259be37299b03a4a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c649ee701a2c2482a76351aa8f97c011e5e490895033d48ee65d52a5811104ba",
+      "duration": 1.925,
+      "graphemes": [
+        "came by to return"
+      ],
+      "phonemes": [
+        "kˈAm bI tə ɹətˈɜɹn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/returning-borrowed-tool-having-the-proper-tools.mp3",
+      "text": "having the proper tools",
+      "textSha256": "0d109d164868b7ae0c0472ae246aa04a73f5b609169b13a655ce555b06be7a3e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2d591847b30bc2a3b12bd266ad403144781cc87ecefc0dbb7106b91e5ed3ff5e",
+      "duration": 1.95,
+      "graphemes": [
+        "having the proper tools"
+      ],
+      "phonemes": [
+        "hˈævɪŋ ðə pɹˈɑpəɹ tˈulz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/returning-borrowed-tool-wiped-every-tool-clean.mp3",
+      "text": "wiped every tool clean",
+      "textSha256": "ecccf35232f676df062e1d1545b1f2faaffe19dbeee5d67f009bb7b2c326205b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "75d1b78be945af694e268964d1431a60adc9c51a84a742cf1358d64bbbae05d6",
+      "duration": 2.025,
+      "graphemes": [
+        "wiped every tool clean"
+      ],
+      "phonemes": [
+        "wˈIpt ˈɛvəɹi tˈul klˈin"
+      ]
+    },
+    {
+      "src": "/audio/phrases/returning-borrowed-tool-back-in-the-box.mp3",
+      "text": "back in the box",
+      "textSha256": "e2b41066790792ac1430ec06410ca6e3a96e67af33156798124e735b8a5499ef",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9a73c3086d2513e9d3a44c2e89ad3c73a637396949a53d180ffc58d822a0206a",
+      "duration": 1.625,
+      "graphemes": [
+        "back in the box"
+      ],
+      "phonemes": [
+        "bˈæk ɪn ðə bˈɑks"
+      ]
+    },
+    {
+      "src": "/audio/phrases/returning-borrowed-tool-thank-you-very-much-for-your-kindness.mp3",
+      "text": "thank you very much for your kindness",
+      "textSha256": "c9e5f4453b2980f4d4819a587d709ea4c47b47c6e3b69dfe385822d2f8bd38df",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6314ea9cb2ff901e410cd9df4128cc6d78f08784389c8715d48e80c6164b877a",
+      "duration": 2.35,
+      "graphemes": [
+        "thank you very much for your kindness"
+      ],
+      "phonemes": [
+        "θˈæŋk ju vˈɛɹi mˈʌʧ fɔɹ jʊɹ kˈIndnəs"
+      ]
+    },
+    {
+      "src": "/audio/words/returning-borrowed-tool-tool.mp3",
+      "text": "tool",
+      "textSha256": "7c9bbe5ec9b3fb774e8fa0f54247e93c34ddf8e5d16fe3073420de0ae81a262d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "de65a645bb3e04c836e14f82093ab49e671bc92b3b853bafe00c2419b64a0047",
+      "duration": 1.325,
+      "graphemes": [
+        "tool"
+      ],
+      "phonemes": [
+        "tˈul"
+      ]
+    },
+    {
+      "src": "/audio/words/returning-borrowed-tool-neighbor.mp3",
+      "text": "neighbor",
+      "textSha256": "c65f1ed1c4f4bf1bc265e62b6cff6963111633a18b8fd798ee2a467150171750",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e96d9c15a19bfadc28bac2db974a9828adeb5b9812270fce8a024cb65b7c17b5",
+      "duration": 1.4,
+      "graphemes": [
+        "neighbor"
+      ],
+      "phonemes": [
+        "nˈAbəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/returning-borrowed-tool-thank.mp3",
+      "text": "thank",
+      "textSha256": "e67fd73a84918e64c84f082cdc04e34435eb98acc712c8e8384268a7e7c5e208",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e3995bf3e72735bbde8269a94c14e02edbe8d783125151d0b7d5b617d5aefa6b",
+      "duration": 1.275,
+      "graphemes": [
+        "thank"
+      ],
+      "phonemes": [
+        "θˈæŋk"
+      ]
+    },
+    {
+      "src": "/audio/words/returning-borrowed-tool-done.mp3",
+      "text": "done",
+      "textSha256": "a4c3ed04a95a3da14a9d235c83d868bed7c0f45cf7f3faa751ee8f50598d2211",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "977be13999a13b610286e57659dd8f187616421bead90912d3cc0a168242350e",
+      "duration": 1.325,
+      "graphemes": [
+        "done"
+      ],
+      "phonemes": [
+        "dˈʌn"
+      ]
+    },
+    {
+      "src": "/audio/words/returning-borrowed-tool-much.mp3",
+      "text": "much",
+      "textSha256": "543b1c4bd4f6b184ca2aef09ca8e5aeadb04907efa0ac7b81b00f8b9ea8133cd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f7824d840cd36cfd8b06a7937872de45b0e46348b5cfccace6d4ee9fba5a763a",
+      "duration": 1.25,
+      "graphemes": [
+        "much"
+      ],
+      "phonemes": [
+        "mˈʌʧ"
+      ]
+    },
+    {
+      "src": "/audio/words/returning-borrowed-tool-use.mp3",
+      "text": "use",
+      "textSha256": "a3b142af6e97cfc3bb23e409ab83467af7d16ded7dc0632be6a6a9023e49ce8b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8236a1f971be28d5bf6a50f374c7cc7d1a3f7eb458d008133c14001f6f65e132",
+      "duration": 1.35,
+      "graphemes": [
+        "use"
+      ],
+      "phonemes": [
+        "jˈus"
+      ]
+    }
+  ]
+}

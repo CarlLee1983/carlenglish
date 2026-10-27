@@ -1,0 +1,326 @@
+{
+  "id": "split-bill-takeout",
+  "title": "外帶打包與分開結帳",
+  "titleEn": "Splitting the Bill and Asking for Takeout",
+  "category": "飲食生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/split-bill-takeout.webp",
+    "alt": "在餐廳餐桌前，兩位顧客向店員要求分開付帳，店員拿著帳單與外帶紙盒前來協助。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "split-the-bill",
+      "english": "split the bill",
+      "translation": "分開付帳",
+      "audio": {
+        "src": "/audio/phrases/split-bill-takeout-split-the-bill.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3c76625529f33d956f103143e0ab51824bea424a2f09f02f073b86b36addbf68",
+        "sha256": "b504533135ab31fdf7fb02958b01cdd20f8bdb3c67607d5e2622daae81054b67"
+      }
+    },
+    {
+      "id": "pay-together",
+      "english": "pay together",
+      "translation": "一起付錢",
+      "audio": {
+        "src": "/audio/phrases/split-bill-takeout-pay-together.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c8196d045e9ea740ad306fe85ab58e14c2f36479e57c31c9fd3dfcd5199b565a",
+        "sha256": "8ab2f93f54dbe57383da3d11749fe4751422edfe4db3c9e4b0714adceed51a6d"
+      }
+    },
+    {
+      "id": "pay-separately",
+      "english": "pay separately",
+      "translation": "各自付款",
+      "audio": {
+        "src": "/audio/phrases/split-bill-takeout-pay-separately.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8dd5f634bd618616ab7cec510cb056ff3414c6ceecd9cd414587ca21ca45f524",
+        "sha256": "2998ac2250579c351aafec7aae1a024a07de202c2be12864626b1603cdbd7f42"
+      }
+    },
+    {
+      "id": "total-cost",
+      "english": "total cost",
+      "translation": "總計費用",
+      "audio": {
+        "src": "/audio/phrases/split-bill-takeout-total-cost.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "15b876237e8435f0df5183e01d729010b66c640bacd9feffe1d0eebcd8fcae7b",
+        "sha256": "bddb1c158bf492a271641d32cc0b48c09ea98aa4e84db0764a41e2979a39c6da"
+      }
+    },
+    {
+      "id": "leftover-pasta",
+      "english": "leftover pasta",
+      "translation": "吃剩的義大利麵",
+      "audio": {
+        "src": "/audio/phrases/split-bill-takeout-leftover-pasta.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f4e350d0b4dfa21313845e857e3c6ea75a62578d3adf6468177705708e23cc42",
+        "sha256": "1bafcd79298dbcc8a3f44b7307357ffa8d669e354fba2917133ff78d35e2ffe9"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "split",
+      "english": "split",
+      "translation": "分開、分擔",
+      "example": "Let us split the bill equally between us.",
+      "audio": {
+        "src": "/audio/words/split-bill-takeout-split.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ad1a64057f9ab34fecfe3f4ee78660bb0316dbda9370581ffbeb1e8bddf3d598",
+        "sha256": "14342b88a364ab1ea3f2f954aee1a3d08206486b41e0bcd21882847c1c9dccac"
+      }
+    },
+    {
+      "id": "bill",
+      "english": "bill",
+      "translation": "帳單",
+      "example": "Could you bring the bill, please?",
+      "audio": {
+        "src": "/audio/words/split-bill-takeout-bill.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "623210167553939c87ed8c5f2bfe0b3e0684e12c3a3dd2513613c4e67263b5a1",
+        "sha256": "fdcfc5bd5e28bd697fb7648156a08fca397bd5573e127116fcba8361c3d5866e"
+      }
+    },
+    {
+      "id": "separate",
+      "english": "separate",
+      "translation": "分開的、各自的",
+      "example": "Can we have separate checks for the table?",
+      "audio": {
+        "src": "/audio/words/split-bill-takeout-separate.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "80ed840f94f7d1bdf549226fd21c8d3927f38009f17539a1aa3a239c04afbd2f",
+        "sha256": "af0dc8bd65652f0de89fc040b73829db3057f00083f8c55998d91486d33e1b0b"
+      }
+    },
+    {
+      "id": "together",
+      "english": "together",
+      "translation": "一起",
+      "example": "We ate lunch together after class.",
+      "audio": {
+        "src": "/audio/words/split-bill-takeout-together.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0c24734d7bf5954f08e5bfe4820b0b2f63da8d658df37c9d50080485e034b721",
+        "sha256": "63cf9cff647591c756903aa9033b28f82c88fc25886622a9e4e8767aebf0a8da"
+      }
+    },
+    {
+      "id": "each",
+      "english": "each",
+      "translation": "每個、各自",
+      "example": "Each dish comes with a small bowl of rice.",
+      "audio": {
+        "src": "/audio/words/split-bill-takeout-each.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bec1687971e36be51a298f172aa898ab48a465012ae40e6292825c432d7d82b8",
+        "sha256": "93107def751b7825adf56ee48aa7fa2c96f425c526b08c8fc4fd853387e02e9f"
+      }
+    },
+    {
+      "id": "cost",
+      "english": "cost",
+      "translation": "花費、價錢為",
+      "example": "The cost of dinner was very reasonable.",
+      "audio": {
+        "src": "/audio/words/split-bill-takeout-cost.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9f82f7b375f4aa1bd7d50abe0f760c4ca5a8f0208aa68555489c39dd7c7aeeaa",
+        "sha256": "680d626b8bf190aeb829a3e83c16788bcdbc7c37d054ee1824cf7e88619f77bf"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Could we "
+        },
+        {
+          "text": "split",
+          "phraseIds": [
+            "split-the-bill"
+          ],
+          "wordIds": [
+            "split"
+          ]
+        },
+        {
+          "text": " the ",
+          "phraseIds": [
+            "split-the-bill"
+          ]
+        },
+        {
+          "text": "bill",
+          "phraseIds": [
+            "split-the-bill"
+          ],
+          "wordIds": [
+            "bill"
+          ]
+        },
+        {
+          "text": ", or do we have to "
+        },
+        {
+          "text": "pay ",
+          "phraseIds": [
+            "pay-together"
+          ]
+        },
+        {
+          "text": "together",
+          "phraseIds": [
+            "pay-together"
+          ],
+          "wordIds": [
+            "together"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "我們可以分開結帳，還是必須一起付？",
+      "audio": {
+        "src": "/audio/sentences/split-bill-takeout/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "616e4ab24fd5da9311f514e641c16ef1a3ec2056bfe6a922d31cb10974b01ee3",
+        "sha256": "56f91cd7573d726a1dd24c987c459a6a1331d4d6806a6cb7dfaa53a0fd043e09"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "You can "
+        },
+        {
+          "text": "pay ",
+          "phraseIds": [
+            "pay-separately"
+          ]
+        },
+        {
+          "text": "separately",
+          "phraseIds": [
+            "pay-separately"
+          ],
+          "wordIds": [
+            "separate"
+          ]
+        },
+        {
+          "text": " with cash or card."
+        }
+      ],
+      "translation": "你們可以分開用現金或刷卡結帳。",
+      "audio": {
+        "src": "/audio/sentences/split-bill-takeout/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b983444b749b6ba40ad9651ec6c501d1b55b7244bf13a34bdd6b1c049d6a4e2e",
+        "sha256": "d645105b861819a2a4e6bf518c931f05f8bd708bce3c0f44ce4c8b1e4dd93190"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Each",
+          "wordIds": [
+            "each"
+          ]
+        },
+        {
+          "text": " person will pay sixteen dollars for lunch."
+        }
+      ],
+      "translation": "每個人午餐的費用是十六元。",
+      "audio": {
+        "src": "/audio/sentences/split-bill-takeout/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "83cbfdf13b9871e0e3a296ac2a66b5c2ed4efdda1b25763ac8157bf2a0390e0b",
+        "sha256": "a83c4bba859fee7f888b263616efeb0797c02f615b2b0e8e179b7d0b726664bb"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "total ",
+          "phraseIds": [
+            "total-cost"
+          ]
+        },
+        {
+          "text": "cost",
+          "phraseIds": [
+            "total-cost"
+          ],
+          "wordIds": [
+            "cost"
+          ]
+        },
+        {
+          "text": " includes the soup and the side dishes."
+        }
+      ],
+      "translation": "總費用已經包含湯品和配菜。",
+      "audio": {
+        "src": "/audio/sentences/split-bill-takeout/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "17f7738f104d9b7cd9e9b023db9c7bb89944fd77f7095e04471f56f6be875075",
+        "sha256": "688d83bf7bc5db939f0f3c9b2c0db1622125a720aa617a8f770f9f813e973eec"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Could we also get a box for the "
+        },
+        {
+          "text": "leftover pasta",
+          "phraseIds": [
+            "leftover-pasta"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "我們也可以拿一個盒子打包剩下的義大利麵嗎？",
+      "audio": {
+        "src": "/audio/sentences/split-bill-takeout/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b46f3c8fd3bf356eb47ea22761134b06e3530abd78bbc4f68aae16850b0b6397",
+        "sha256": "a6ca15dd323e43a7ca1a4b0810cef19dbfbc71e85586e169252d49cbc4179034"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Sure, I will bring a clean paper box to your table right away."
+        }
+      ],
+      "translation": "好的，我馬上拿一個乾淨的紙盒到你們桌上。",
+      "audio": {
+        "src": "/audio/sentences/split-bill-takeout/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "92a1fdccd52e2ab0f27c7be9fd5243da8951b69d70f4c05d02334a768714ed46",
+        "sha256": "33dea0959a363b239fc3ab03e4a83aedbee5850518361c70ef848a5a612f5945"
+      }
+    }
+  ]
+}

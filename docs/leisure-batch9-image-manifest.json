@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "tool": "codex exec built-in imagegen",
+  "conversion": "1536x1024 landscape WebP, sharp quality 86; fit cover.",
+  "images": [
+    {
+      "id": "cinema-ticket-booking",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/cinema-ticket-booking.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "bd9db6e4ff7bda8656c157861452e2a62471392885319d6864c8d955fc7d047e"
+    },
+    {
+      "id": "travel-itinerary-planning",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/travel-itinerary-planning.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "a3253357093db100399f7c97ef7ccda41f4fe57b1a8e5d901e65fb508ccd08ad"
+    },
+    {
+      "id": "amusement-park-entry",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/amusement-park-entry.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d38a95be5e467d2183ef2f86270336785bece2d9b004d4ba3af6ec18198e931e"
+    },
+    {
+      "id": "museum-exhibition-audio-guide",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/museum-exhibition-audio-guide.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3cf8b47c33946978096653c38384d4245848e7e5166b343f3e721d446cd02f7d"
+    },
+    {
+      "id": "sports-match-cheering",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/sports-match-cheering.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3bcb49234f556ac9459308bbf627924555bafaf88282d40027b6afeda74cb416"
+    }
+  ]
+}

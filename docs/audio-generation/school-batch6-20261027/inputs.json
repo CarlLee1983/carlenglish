@@ -1,0 +1,446 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/project-role-sharing/1.mp3",
+      "text": "Our history presentation is next week, so we need to divide the roles today.",
+      "textSha256": "79afce65aa3f709f0bd3d12b757ede0ea74556557111d31d0a0fce67a14374b0"
+    },
+    {
+      "src": "/audio/sentences/project-role-sharing/2.mp3",
+      "text": "I can take the part of searching for old photos and facts online.",
+      "textSha256": "fe14ac09b5a9cbc703ded34b94b14d104978134cf8ebc067dab7ac86857b7806"
+    },
+    {
+      "src": "/audio/sentences/project-role-sharing/3.mp3",
+      "text": "Who wants to choose to make the presentation slides and design the layout?",
+      "textSha256": "45086b8692477810562af1d322237079bba2ca080efa6a25b3384114c7069d8e"
+    },
+    {
+      "src": "/audio/sentences/project-role-sharing/4.mp3",
+      "text": "I am good at drawing charts, so I will prepare the visual slides.",
+      "textSha256": "9eb039681a421ad6274b21749db68ec19e59d4d368dab5ba250b6b371e7e79a1"
+    },
+    {
+      "src": "/audio/sentences/project-role-sharing/5.mp3",
+      "text": "We all agree that to share the workload equally makes our team stronger.",
+      "textSha256": "b09bb8da498af3cc714c1777c1a30e960023a8f2595ff17c2fe91da19529038c"
+    },
+    {
+      "src": "/audio/sentences/project-role-sharing/6.mp3",
+      "text": "Let us start writing our outline together before leaving school.",
+      "textSha256": "3f147dc131e97d4e117dbde1838a3ca96d725d24c1c6ae59408abbf62c70250d"
+    },
+    {
+      "src": "/audio/phrases/project-role-sharing-divide-the-roles.mp3",
+      "text": "divide the roles",
+      "textSha256": "a953950b61af7b99ece935fb8b7ce19151bbdb1d7c2052ef11f0481c72ca1ee6"
+    },
+    {
+      "src": "/audio/phrases/project-role-sharing-take-the-part-of.mp3",
+      "text": "take the part of",
+      "textSha256": "5e0feaad0f88f3ab1cc7874da5b0b94e26a80c8a36135f96f778bd847ceaa6a1"
+    },
+    {
+      "src": "/audio/phrases/project-role-sharing-make-the-presentation-slides.mp3",
+      "text": "make the presentation slides",
+      "textSha256": "713060cd546c0f25f2158c4f881b1631ea65cad26ef8a0fbbce21af3ca079886"
+    },
+    {
+      "src": "/audio/phrases/project-role-sharing-we-all-agree.mp3",
+      "text": "we all agree",
+      "textSha256": "a09d7f61c7d71dc60fd28de7267cc680aa4a1435e2c9468629e87f8e3de13f4a"
+    },
+    {
+      "src": "/audio/phrases/project-role-sharing-share-the-workload.mp3",
+      "text": "share the workload",
+      "textSha256": "3a554752cf9517c5981d947c935350ee2be26fc6894b108b6b144ec76fe6a91d"
+    },
+    {
+      "src": "/audio/words/project-role-sharing-team.mp3",
+      "text": "team",
+      "textSha256": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432"
+    },
+    {
+      "src": "/audio/words/project-role-sharing-part.mp3",
+      "text": "part",
+      "textSha256": "37a680133bd09342f934afb8dd2c7d9e1b624da5f35e3a38adb103e37c055ed1"
+    },
+    {
+      "src": "/audio/words/project-role-sharing-share.mp3",
+      "text": "share",
+      "textSha256": "c3bc45ac352fe43ff8f0a1cc26d6cc29f71f536dc417906f8513ea44ed4bb161"
+    },
+    {
+      "src": "/audio/words/project-role-sharing-choose.mp3",
+      "text": "choose",
+      "textSha256": "725fed9d1ae909982052ec4fe91a5a140158b4349498c7ef020ed32d6f8a370d"
+    },
+    {
+      "src": "/audio/words/project-role-sharing-agree.mp3",
+      "text": "agree",
+      "textSha256": "94d5c9d96025716090f176f76e07c45b1296250fe9bfe1823f77f53881548690"
+    },
+    {
+      "src": "/audio/words/project-role-sharing-start.mp3",
+      "text": "start",
+      "textSha256": "cced28c6dc3f99c2396a5eaad732bf6b28142335892b1cd0e6af6cdb53f5ccfa"
+    },
+    {
+      "src": "/audio/sentences/discussing-due-deadline/1.mp3",
+      "text": "The teacher set the final deadline for our science report on Friday afternoon.",
+      "textSha256": "5fb690a75ea2b55940d7d7835d9dd07366ffe407425afb166fb289564417e82d"
+    },
+    {
+      "src": "/audio/sentences/discussing-due-deadline/2.mp3",
+      "text": "We should aim to finish our individual sections by tomorrow evening.",
+      "textSha256": "2b3067dbced51b4084e1984bdb064e865e182f9ad52bf09735b07d8db56a9b51"
+    },
+    {
+      "src": "/audio/sentences/discussing-due-deadline/3.mp3",
+      "text": "If everyone sends their draft tonight, I can combine them together.",
+      "textSha256": "973cc587ad42ce796c4baa479dbe16cc31286e6c5a8002566d726bcd7b156efe"
+    },
+    {
+      "src": "/audio/sentences/discussing-due-deadline/4.mp3",
+      "text": "Will that give us enough hours to review the sentences carefully?",
+      "textSha256": "183cc4ad8bbb59dc91787ee0eb81df80f3bb5eb99f87c12b15dec59228013217"
+    },
+    {
+      "src": "/audio/sentences/discussing-due-deadline/5.mp3",
+      "text": "Yes, having the report ready by Thursday leaves us time for corrections.",
+      "textSha256": "631cfcae3e4364b0b009004e265bf50caa4650b78aff9a1602ee40183e237307"
+    },
+    {
+      "src": "/audio/sentences/discussing-due-deadline/6.mp3",
+      "text": "Let us promise to submit the completed file two hours before the deadline.",
+      "textSha256": "127559e96de60d69ee07fade3f7e10fe0561089d587c4a37118363b855598331"
+    },
+    {
+      "src": "/audio/phrases/discussing-due-deadline-final-deadline.mp3",
+      "text": "final deadline",
+      "textSha256": "0f730df42df5d5b651e2a7c08bda484f9474ee32a0e0e06b1a4446d868b543e5"
+    },
+    {
+      "src": "/audio/phrases/discussing-due-deadline-by-tomorrow-evening.mp3",
+      "text": "by tomorrow evening",
+      "textSha256": "dd0468fe3e042a2404670c7a293eb2e4d9604fbce8a78e4bba0a0a61be0f704f"
+    },
+    {
+      "src": "/audio/phrases/discussing-due-deadline-combine-them-together.mp3",
+      "text": "combine them together",
+      "textSha256": "b4b9ceb688384f648eb36572f8d767b698fc236b2b1bc88355e16889c0cdf95e"
+    },
+    {
+      "src": "/audio/phrases/discussing-due-deadline-enough-hours-to-review.mp3",
+      "text": "enough hours to review",
+      "textSha256": "c05a36540613f09667009bd27c39cbd32177f1f1ca1cddce218a77f9ca3353f3"
+    },
+    {
+      "src": "/audio/phrases/discussing-due-deadline-before-the-deadline.mp3",
+      "text": "before the deadline",
+      "textSha256": "f7e2269bc27821fedffe99877f1b4fcdfba603b6f65581570205c2a1d7b79bf0"
+    },
+    {
+      "src": "/audio/words/discussing-due-deadline-finish.mp3",
+      "text": "finish",
+      "textSha256": "42af43e3616eba4a133a755540a88e6c61085dfe66c6e49e6ab8eaf9daf0c0da"
+    },
+    {
+      "src": "/audio/words/discussing-due-deadline-send.mp3",
+      "text": "send",
+      "textSha256": "27ce1d1bf4270020e1799f12e647f5cbabda2b9eafd7202c43012a539986916b"
+    },
+    {
+      "src": "/audio/words/discussing-due-deadline-ready.mp3",
+      "text": "ready",
+      "textSha256": "b24d6d33736ecd5604a4b17bc9c6481039fac362bb7df044ef1c10a2bfd21db6"
+    },
+    {
+      "src": "/audio/words/discussing-due-deadline-tonight.mp3",
+      "text": "tonight",
+      "textSha256": "2769fc20451b51737baa457ef96532b84370d3664150af08b3f310f30448921f"
+    },
+    {
+      "src": "/audio/words/discussing-due-deadline-tomorrow.mp3",
+      "text": "tomorrow",
+      "textSha256": "bafd151a86f9a573b153e76e3a8a0053b3340ce304a301a5354288fb18bce848"
+    },
+    {
+      "src": "/audio/words/discussing-due-deadline-complete.mp3",
+      "text": "complete",
+      "textSha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d"
+    },
+    {
+      "src": "/audio/sentences/sharing-alternative-idea/1.mp3",
+      "text": "Selling fried food sounds fun, but maybe there is a better option.",
+      "textSha256": "7c9235eaf692c5cf98517935624b2976d6d40a3f8042d0ac05aef341a4aa2705"
+    },
+    {
+      "src": "/audio/sentences/sharing-alternative-idea/2.mp3",
+      "text": "What is your main point and reason against that plan?",
+      "textSha256": "20eb9495312108705d03d8edf923b85bb0331de8b28c9621c6b1f9171393cecf"
+    },
+    {
+      "src": "/audio/sentences/sharing-alternative-idea/3.mp3",
+      "text": "I think buying oil and heavy cooking pots costs too much money.",
+      "textSha256": "d606c9e0f088c2995d3817d3f42ff25d49f1d8a6a892b84d44293df6502b760a"
+    },
+    {
+      "src": "/audio/sentences/sharing-alternative-idea/4.mp3",
+      "text": "Even though hot food is popular, creating less waste is also important.",
+      "textSha256": "7a491d31748eb198ec2cfba7c8f234685e988fd8cb371ef4dba13fe9f91e02ed"
+    },
+    {
+      "src": "/audio/sentences/sharing-alternative-idea/5.mp3",
+      "text": "My alternative idea is setting up an interactive ring toss game booth.",
+      "textSha256": "3b98baffa8dede6d9612ee5a01da4f9eb62ae08657f5f89be31407cef30d799e"
+    },
+    {
+      "src": "/audio/sentences/sharing-alternative-idea/6.mp3",
+      "text": "We all believe your point makes great sense for our budget.",
+      "textSha256": "97a2fddc13039673dd6b0808366e8ff72f41f121e52dd7b4651a45ee5a00dfef"
+    },
+    {
+      "src": "/audio/phrases/sharing-alternative-idea-sounds-fun.mp3",
+      "text": "sounds fun",
+      "textSha256": "edd67a2ef151c92e7155440a0a12f1839d1b91e5b639800a4d0a7bd67ad3635b"
+    },
+    {
+      "src": "/audio/phrases/sharing-alternative-idea-a-better-option.mp3",
+      "text": "a better option",
+      "textSha256": "e69e353955a8202fc4d43b95e839348b56ca80fbfb6313371a2b16d84b698738"
+    },
+    {
+      "src": "/audio/phrases/sharing-alternative-idea-main-point.mp3",
+      "text": "main point",
+      "textSha256": "06fdcb3ddf5018755b0f5c83bcb03776806fbc885f1a8812337b43d76d76bede"
+    },
+    {
+      "src": "/audio/phrases/sharing-alternative-idea-even-though.mp3",
+      "text": "even though",
+      "textSha256": "4d462926fa665796f2992a75f4009ff833b8711a6097ecbe0a771b0d6acc64f8"
+    },
+    {
+      "src": "/audio/phrases/sharing-alternative-idea-makes-great-sense.mp3",
+      "text": "makes great sense",
+      "textSha256": "b794f7af64f93c653b6e5f177003dfcf4dafcec4c797359fa426c09889212a31"
+    },
+    {
+      "src": "/audio/words/sharing-alternative-idea-idea.mp3",
+      "text": "idea",
+      "textSha256": "ae0a9ad3227c5420c07dd79abe119876db3d234a066344bd4c90b8f189cd2606"
+    },
+    {
+      "src": "/audio/words/sharing-alternative-idea-better.mp3",
+      "text": "better",
+      "textSha256": "d7d5dcc369426e2e5f8dcb89af4308b0daed6e55910d53395ce38bd6dd1a9456"
+    },
+    {
+      "src": "/audio/words/sharing-alternative-idea-point.mp3",
+      "text": "point",
+      "textSha256": "251fecd592e56e6c4a95121752f4a73bb802dffc1cc4bce6100206ee2b7cb650"
+    },
+    {
+      "src": "/audio/words/sharing-alternative-idea-believe.mp3",
+      "text": "believe",
+      "textSha256": "f078209dfece953500ee03333012e3c8ada6c36df35a053f00031becab3cf620"
+    },
+    {
+      "src": "/audio/words/sharing-alternative-idea-though.mp3",
+      "text": "though",
+      "textSha256": "a9bbc0222075becade1088ce1e976ae12e2411c4e7e9ebb2a0e82a0d1d73178f"
+    },
+    {
+      "src": "/audio/words/sharing-alternative-idea-waste.mp3",
+      "text": "waste",
+      "textSha256": "0bb5e9329f190a4fa67fbd493b61a9257f35585e460a8be13a50a9cdf1823636"
+    },
+    {
+      "src": "/audio/sentences/asking-teacher-clarification/1.mp3",
+      "text": "Pardon me teacher, could you please repeat once more for our class?",
+      "textSha256": "387cf9f0a54f0e62866ceb977dfdbe89c69025fecc1ae9ebd4d3f7936fc69bda"
+    },
+    {
+      "src": "/audio/sentences/asking-teacher-clarification/2.mp3",
+      "text": "I did not hear clearly because there was some outside street noise.",
+      "textSha256": "dc77711339de6ccc4a3db0c771811873b1c02c3cc729b1e7506437f16f9436cc"
+    },
+    {
+      "src": "/audio/sentences/asking-teacher-clarification/3.mp3",
+      "text": "Of course Leo, it is good to raise your hand to ask questions.",
+      "textSha256": "303f8b917732d3a8757a2204538c9f61435a5e2ddb420a2f8455d9dfdd2ce140"
+    },
+    {
+      "src": "/audio/sentences/asking-teacher-clarification/4.mp3",
+      "text": "Could you explain step three a bit more slowly with a clear example?",
+      "textSha256": "f2c7f3066f1470b26d0a447bc104c049f838067f9f28adb544472263b0af200a"
+    },
+    {
+      "src": "/audio/sentences/asking-teacher-clarification/5.mp3",
+      "text": "For example, when mixing the two liquids, stir them gently for one minute.",
+      "textSha256": "9ed8ab8e5579febab52573354e7ee861760e63138381c6bebcf89abf20cab55b"
+    },
+    {
+      "src": "/audio/sentences/asking-teacher-clarification/6.mp3",
+      "text": "Now I completely understand what you mean, thank you very much.",
+      "textSha256": "27beacc1c6ba8bf1d93e7846d3b710dc3a4ba77b9502ad8bd846932a6cbf8ffd"
+    },
+    {
+      "src": "/audio/phrases/asking-teacher-clarification-pardon-me.mp3",
+      "text": "pardon me",
+      "textSha256": "7ac8c1dd8209109f8020d302128eb7c889290f076152cc395d9800c2c0cf3f8d"
+    },
+    {
+      "src": "/audio/phrases/asking-teacher-clarification-repeat-once-more.mp3",
+      "text": "repeat once more",
+      "textSha256": "72c2c29fdcf0ce744663a18d7ac044bd7b51ab8382b90da64ea5875ef09f77bc"
+    },
+    {
+      "src": "/audio/phrases/asking-teacher-clarification-raise-your-hand.mp3",
+      "text": "raise your hand",
+      "textSha256": "7788843c635ef185ad725c45f84111da9b09ed183b07e52221c23029012b8305"
+    },
+    {
+      "src": "/audio/phrases/asking-teacher-clarification-for-example.mp3",
+      "text": "for example",
+      "textSha256": "e67a8d131efbc2aeafb3dc338b7c48a3841cd0a424e3a7558932c9ae9d27d7b7"
+    },
+    {
+      "src": "/audio/phrases/asking-teacher-clarification-what-you-mean.mp3",
+      "text": "what you mean",
+      "textSha256": "9cc06988fd1f3e2ca49f72b5976a2d8a1f66d5136664ef0833680badf2c2d9c7"
+    },
+    {
+      "src": "/audio/words/asking-teacher-clarification-repeat.mp3",
+      "text": "repeat",
+      "textSha256": "25e2b6b106523880e27763084ffa6a0756335be0d7106022535365b9ad39b4b1"
+    },
+    {
+      "src": "/audio/words/asking-teacher-clarification-hear.mp3",
+      "text": "hear",
+      "textSha256": "49000c4444d51233fa10ad2015daccdef4ca48f3e5d1c99b98b295ea22071532"
+    },
+    {
+      "src": "/audio/words/asking-teacher-clarification-example.mp3",
+      "text": "example",
+      "textSha256": "50d858e0985ecc7f60418aaf0cc5ab587f42c2570a884095a9e8ccacd0f6545c"
+    },
+    {
+      "src": "/audio/words/asking-teacher-clarification-slowly.mp3",
+      "text": "slowly",
+      "textSha256": "793080bb3a187fcaeac15b1797045cda6103b8fbc8836642def618ccc41cf96a"
+    },
+    {
+      "src": "/audio/words/asking-teacher-clarification-understand.mp3",
+      "text": "understand",
+      "textSha256": "f9dc689e6d50ad6f35cc97059375b37b8149225f4fb7a192f4ea40051da5416a"
+    },
+    {
+      "src": "/audio/words/asking-teacher-clarification-clear.mp3",
+      "text": "clear",
+      "textSha256": "913a4cb91be20332f3559f8070255d7ac3e6228bb423f4441551d3f783e7d4f4"
+    },
+    {
+      "src": "/audio/sentences/borrowing-sports-gear/1.mp3",
+      "text": "Excuse me coach, may our class borrow equipment for afternoon practice?",
+      "textSha256": "27ea02cbf78192190a5e7d4fa454f7ef91386620d248db48db77e1e44380e7f3"
+    },
+    {
+      "src": "/audio/sentences/borrowing-sports-gear/2.mp3",
+      "text": "Please write down your grade and sign your name in the gym logbook.",
+      "textSha256": "2dc474da18dcf2d3671ad11cbe7add12cfd212d034442b8c05997f73d9789f0d"
+    },
+    {
+      "src": "/audio/sentences/borrowing-sports-gear/3.mp3",
+      "text": "Are we allowed to use the outdoor volleyball court behind the cafeteria?",
+      "textSha256": "9caaf468a15d17ead0c8a0fd699cfe20b66d378bc01084914f7d6b6692cdc66e"
+    },
+    {
+      "src": "/audio/sentences/borrowing-sports-gear/4.mp3",
+      "text": "Yes, but remember that another class booked the court after four.",
+      "textSha256": "7694ae41aae841a70cd99f15a64f62c36c3f11c9d430bfd52fd69947dc8b1ab7"
+    },
+    {
+      "src": "/audio/sentences/borrowing-sports-gear/5.mp3",
+      "text": "We promise to return all sports balls ten minutes before the final bell.",
+      "textSha256": "de9bc211ae1e6ccc2169ea4d9d8aa267ac7b6a10fda299757fb771ba31333ff0"
+    },
+    {
+      "src": "/audio/sentences/borrowing-sports-gear/6.mp3",
+      "text": "Make sure to wipe the balls clean and put the air pump back on its shelf.",
+      "textSha256": "bdd1b2ae33ed3e3d7d7a8d04846f1e6bef4958d99dc7b30613796df9457403de"
+    },
+    {
+      "src": "/audio/phrases/borrowing-sports-gear-borrow-equipment.mp3",
+      "text": "borrow equipment",
+      "textSha256": "df05b26adb1eba589eeaf654af32224eeaf249c28dc756e9a76f30c756b0ee39"
+    },
+    {
+      "src": "/audio/phrases/borrowing-sports-gear-sign-your-name.mp3",
+      "text": "sign your name",
+      "textSha256": "b0605486a7293cf24d153106b6e414a541e00eb0dd6c61a310709fc49e1e445d"
+    },
+    {
+      "src": "/audio/phrases/borrowing-sports-gear-volleyball-court.mp3",
+      "text": "volleyball court",
+      "textSha256": "fc71c179cd787468d7defb9ab3237c45ff8593267b4420d2e52a55b48c508a50"
+    },
+    {
+      "src": "/audio/phrases/borrowing-sports-gear-before-the-final-bell.mp3",
+      "text": "before the final bell",
+      "textSha256": "c8894941f2e512af23dbab18f5a823b273ba6a6f8e20412afb07a969e67afcc1"
+    },
+    {
+      "src": "/audio/phrases/borrowing-sports-gear-back-on-its-shelf.mp3",
+      "text": "back on its shelf",
+      "textSha256": "255e24eafcc1d0941f50b28e2ce95ea3bcca97377fbcdbcc68f9b62ad51d6a2d"
+    },
+    {
+      "src": "/audio/words/borrowing-sports-gear-gym.mp3",
+      "text": "gym",
+      "textSha256": "e326cff641fb950a5bdb458e0d52ec6809f041c1618e70bfd22dd61165882aad"
+    },
+    {
+      "src": "/audio/words/borrowing-sports-gear-court.mp3",
+      "text": "court",
+      "textSha256": "a2f89e6fe92debe338cf2e2ff6f5e24c1183cbc24040caf377dbf85522cb2ce4"
+    },
+    {
+      "src": "/audio/words/borrowing-sports-gear-borrow.mp3",
+      "text": "borrow",
+      "textSha256": "d106ccb1fe638b61e4cfbeb00c96818ecf8245918cb478d6bdc249eac33fe353"
+    },
+    {
+      "src": "/audio/words/borrowing-sports-gear-bell.mp3",
+      "text": "bell",
+      "textSha256": "f683740cded6680d9d94dfe6a258e44c96a27278a89e15acb52c0b8f32453d38"
+    },
+    {
+      "src": "/audio/words/borrowing-sports-gear-clean.mp3",
+      "text": "clean",
+      "textSha256": "3b066804f6d1d077173cfe4d06002e6a61e6f21c2b2e648417962115f1afcd8e"
+    },
+    {
+      "src": "/audio/words/borrowing-sports-gear-before.mp3",
+      "text": "before",
+      "textSha256": "6db7d803e74f1ffa7d8f5adc0bf95b3e15bf4c8373fffadf546227cc6c6742cb"
+    }
+  ]
+}

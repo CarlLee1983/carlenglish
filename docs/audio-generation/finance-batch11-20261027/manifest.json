@@ -1,0 +1,1211 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/using-atm-cash-withdrawal/1.mp3",
+      "text": "I need to stop by the bank ATM to withdraw cash before going to the market.",
+      "textSha256": "c736d1d5a3e80fc4ee24dc1723fb48e4a8e22acd0828a19cc58aec89af3e51f4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b4f5d2ad3d7a6774096d0a72100096c90beb35353740836f4412bcad62cb9a95",
+      "duration": 5.45,
+      "graphemes": [
+        "I need to stop by the bank ATM to withdraw cash before going to the market."
+      ],
+      "phonemes": [
+        "ˌI nˈid tə stˈɑp bI ðə bˈæŋk ˌAtˌiˈɛm tə wɪðdɹˈɔ kˈæʃ bəfˈɔɹ ɡˈOɪŋ tə ðə mˈɑɹkət."
+      ]
+    },
+    {
+      "src": "/audio/sentences/using-atm-cash-withdrawal/2.mp3",
+      "text": "Insert your debit card into the slot and choose your language on the screen.",
+      "textSha256": "e730ad6d3f54c11bd892aeba84b53fb416db7d85db463fef35695e3ff062567b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a9c1acb25f0daabbb0817a1e359f26a89903c3ff492f0fb027600bae34b7ec3c",
+      "duration": 4.775,
+      "graphemes": [
+        "Insert your debit card into the slot and choose your language on the screen."
+      ],
+      "phonemes": [
+        "ˈɪnsˌɜɹt jʊɹ dˈɛbɪt kˈɑɹd ˈɪntu ðə slˈɑt ænd ʧˈuz jʊɹ lˈæŋɡwɪʤ ˌɔn ðə skɹˈin."
+      ]
+    },
+    {
+      "src": "/audio/sentences/using-atm-cash-withdrawal/3.mp3",
+      "text": "Please enter your secret six-digit security code carefully on the keypad.",
+      "textSha256": "1d0c8b192509db288c3b9b70d0e848620aa6cbd42a8c5d2f58001c56fca85259",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1b6b7f4f83299db6ed9e5726363e36b2e450d2833b3b7117ded352710fc314d1",
+      "duration": 4.95,
+      "graphemes": [
+        "Please enter your secret six-digit security code carefully on the keypad."
+      ],
+      "phonemes": [
+        "plˈiz ˈɛntəɹ jʊɹ sˈikɹət sˌɪksdˈɪʤət səkjˈʊɹəTi kˈOd kˈɛɹfᵊli ˌɔn ðə kˈipˌæd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/using-atm-cash-withdrawal/4.mp3",
+      "text": "Press the button to withdraw two thousand dollars from your savings account.",
+      "textSha256": "ed4449de2ab91d0e1fe52873d99d444361c7fee3923f1f9c9c6246bf42c0616c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b5abeedaaab98cd5c9fcbac021d762a0744cedeacfd1a934c9f96d183b79d985",
+      "duration": 4.65,
+      "graphemes": [
+        "Press the button to withdraw two thousand dollars from your savings account."
+      ],
+      "phonemes": [
+        "pɹˈɛs ðə bˈʌtn tə wɪðdɹˈɔ tˈu θˈWzᵊnd dˈɑləɹz fɹʌm jʊɹ sˈAvɪŋz əkˈWnt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/using-atm-cash-withdrawal/5.mp3",
+      "text": "Do not forget to take your bank card before the machine dispenses the paper money.",
+      "textSha256": "3396ca8e4fb86360ad3e420d4b5d8c12315171de1835ba83cd1f59b02db709dd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2e32742dc979d9fa0f2719687d10b5d1f12b50c6f8b8561d4e74efb25b37ab5d",
+      "duration": 5.225,
+      "graphemes": [
+        "Do not forget to take your bank card before the machine dispenses the paper money."
+      ],
+      "phonemes": [
+        "dˈu nˌɑt fəɹɡˈɛt tə tˈAk jʊɹ bˈæŋk kˈɑɹd bəfˈɔɹ ðə məʃˈin dəspˈɛnsᵻz ðə pˈApəɹ mˈʌni."
+      ]
+    },
+    {
+      "src": "/audio/sentences/using-atm-cash-withdrawal/6.mp3",
+      "text": "The printed transaction receipt shows your remaining account balance accurately.",
+      "textSha256": "99f376824307e3398f22a78433ceefcb933e8f6fd228177d6bc6ca7fa59866a8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0c2df489aea399bacd711bf56e15b4089b99f48e407207316dd7408fd287d205",
+      "duration": 4.925,
+      "graphemes": [
+        "The printed transaction receipt shows your remaining account balance accurately."
+      ],
+      "phonemes": [
+        "ðə pɹˈɪntᵻd tɹænzˈækʃən ɹəsˈit ʃˈOz jʊɹ ɹəmˈAnɪŋ əkˈWnt bˈæləns ˈækjəɹətli."
+      ]
+    },
+    {
+      "src": "/audio/phrases/using-atm-cash-withdrawal-withdraw-cash.mp3",
+      "text": "withdraw cash",
+      "textSha256": "2de0bad9482e06378d928b1673a17d78ac635d3c775dc1e6db52d6e6405917f8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "41563a7fd3bfed97b935b5cfd7f6d3756b5f0c1067677a58eddab95b0ec5d915",
+      "duration": 1.7,
+      "graphemes": [
+        "withdraw cash"
+      ],
+      "phonemes": [
+        "wɪðdɹˈɔ kˈæʃ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/using-atm-cash-withdrawal-insert-your-debit-card.mp3",
+      "text": "Insert your debit card",
+      "textSha256": "6d8916dc4b6ef122bdf85f9b30b50c8fa6b08f1bb3ec2534567e0ead16ecbdbe",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "296d2a705bb0b890dd0937ea177ec58cd1ba1abd1d02412757ac562fdb782c0e",
+      "duration": 1.975,
+      "graphemes": [
+        "Insert your debit card"
+      ],
+      "phonemes": [
+        "ˈɪnsˌɜɹt jʊɹ dˈɛbɪt kˈɑɹd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/using-atm-cash-withdrawal-security-code.mp3",
+      "text": "security code",
+      "textSha256": "65e4d49ff84acb1ad03719a46627eb72085f7c8360fb3366d9c272690564b8a4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4ccdc2f8f07fc3b4d06e03baa39db93f8b6922f8a94695e136985f76627032a7",
+      "duration": 1.625,
+      "graphemes": [
+        "security code"
+      ],
+      "phonemes": [
+        "səkjˈʊɹəTi kˈOd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/using-atm-cash-withdrawal-from-your-savings-account.mp3",
+      "text": "from your savings account",
+      "textSha256": "a260687e56768ce8da4d548591b6a7b6882b4811826bb4f98cfa9e8d55eff9db",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dcc7784f5c8a15c63fb88378222bab0784c206834991e553256c1a77a6a2fe30",
+      "duration": 1.875,
+      "graphemes": [
+        "from your savings account"
+      ],
+      "phonemes": [
+        "fɹʌm jʊɹ sˈAvɪŋz əkˈWnt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/using-atm-cash-withdrawal-account-balance.mp3",
+      "text": "account balance",
+      "textSha256": "abc64653a6a1df0883b31baba33054aa2c4e146b2d38208d124480c055ef8c81",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "20570d801cdf59018cedfecf567b02c03f5f90383fa65960a956707a50995794",
+      "duration": 1.725,
+      "graphemes": [
+        "account balance"
+      ],
+      "phonemes": [
+        "əkˈWnt bˈæləns"
+      ]
+    },
+    {
+      "src": "/audio/words/using-atm-cash-withdrawal-cash.mp3",
+      "text": "cash",
+      "textSha256": "ab0fcec08e18a7bccda1e81df4974e3434fcd36000518f7e776fb85495b5a494",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0451b9d57a783e6642b16e516ff3f5245a927479dde5c4814e710735ea4b61ac",
+      "duration": 1.35,
+      "graphemes": [
+        "cash"
+      ],
+      "phonemes": [
+        "kˈæʃ"
+      ]
+    },
+    {
+      "src": "/audio/words/using-atm-cash-withdrawal-account.mp3",
+      "text": "account",
+      "textSha256": "9af211329b2fc82e5efe906062c730082819b23fe8394bc435e0b1bf0458eb54",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2747d9d5e928f1c361f0669c89492233f7e7160dc09c3ae9d1726ea25396b652",
+      "duration": 1.425,
+      "graphemes": [
+        "account"
+      ],
+      "phonemes": [
+        "əkˈWnt"
+      ]
+    },
+    {
+      "src": "/audio/words/using-atm-cash-withdrawal-balance.mp3",
+      "text": "balance",
+      "textSha256": "5751e048eb6fee3eb9bb4ea70f107f19c35863766bee5100044e52ab60d9edcf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0fbd5b5c49d6448dbbd18547cfc4d0dda11ae1b057163c16fc344e164f2120a7",
+      "duration": 1.4,
+      "graphemes": [
+        "balance"
+      ],
+      "phonemes": [
+        "bˈæləns"
+      ]
+    },
+    {
+      "src": "/audio/words/using-atm-cash-withdrawal-money.mp3",
+      "text": "money",
+      "textSha256": "8d2ac8b58ead9744d77286de9b0bcb7a894f238c3149fc9f3b1e3caff36330fe",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4c36209350eb0b105d84ad326e1eeb61be458939f402c1dd1e70974b66334fab",
+      "duration": 1.375,
+      "graphemes": [
+        "money"
+      ],
+      "phonemes": [
+        "mˈʌni"
+      ]
+    },
+    {
+      "src": "/audio/words/using-atm-cash-withdrawal-thousand.mp3",
+      "text": "thousand",
+      "textSha256": "a0af3a48cfad1fc07404057448c003c6ee6b7b0bba6f39d6775752486baf35de",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e4ea19b1492c21a41754c4f5bc4697eab09ea300beada3cfa78a6aac977d7e96",
+      "duration": 1.475,
+      "graphemes": [
+        "thousand"
+      ],
+      "phonemes": [
+        "θˈWzᵊnd"
+      ]
+    },
+    {
+      "src": "/audio/words/using-atm-cash-withdrawal-enter.mp3",
+      "text": "enter",
+      "textSha256": "e08d706b3e4ce964b632746cf568913cb93f1ed36476fbb0494b80ed17c5975c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d4caf7c20d26c45dfb3e37c885636db2b2403d9165968831bdfc189269b0c25f",
+      "duration": 1.4,
+      "graphemes": [
+        "enter"
+      ],
+      "phonemes": [
+        "ˈɛntəɹ"
+      ]
+    },
+    {
+      "src": "/audio/sentences/asking-for-change-at-counter/1.mp3",
+      "text": "Excuse me counter clerk, could you please break this thousand-dollar bill for me?",
+      "textSha256": "293ef1637fc34d91c0afa7224ce65b9452ad42024759704ffe0d83ec53969f62",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ef645fd33d4fc0c211af2dde44e90e85cde6114d5399ff9b089409cca35669d5",
+      "duration": 4.8,
+      "graphemes": [
+        "Excuse me counter clerk, could you please break this thousand-dollar bill for me?"
+      ],
+      "phonemes": [
+        "ɪkskjˈuz mˌi kˈWntəɹ klˈɜɹk, kʊd ju plˈiz bɹˈAk ðɪs θˈWzᵊnddˌɑləɹ bˈɪl fɔɹ mˌi?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/asking-for-change-at-counter/2.mp3",
+      "text": "I need small coins to use the self-service laundry machines down the street.",
+      "textSha256": "ffe750bf3c749145c005714d139045c427599c871d77412fd49af821543f5a7b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bff357e25bb70de0505ec56f402793332b209a1e2d12f6d0589956c1cff47407",
+      "duration": 5.1,
+      "graphemes": [
+        "I need small coins to use the self-service laundry machines down the street."
+      ],
+      "phonemes": [
+        "ˌI nˈid smˈɔl kˈYnz tə jˈuz ðə sˌɛlfsˈɜɹvəs lˈɔndɹi məʃˈinz dˌWn ðə stɹˈit."
+      ]
+    },
+    {
+      "src": "/audio/sentences/asking-for-change-at-counter/3.mp3",
+      "text": "Certainly, how would you like your change divided today?",
+      "textSha256": "09657885cf863e989a2fec4df09e66fb0a88d23803415ad8a2571a1f1eb70444",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "79e4131d60b3f551e050b8f44bf1ee5ad36affcbdf0e3d8eaf7f2dff8098b7cd",
+      "duration": 3.325,
+      "graphemes": [
+        "Certainly, how would you like your change divided today?"
+      ],
+      "phonemes": [
+        "sˈɜɹtnli, hˌW wʊd ju lˈIk jʊɹ ʧˈAnʤ dəvˈIdᵻd tədˈA?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/asking-for-change-at-counter/4.mp3",
+      "text": "Could I have nine hundred-dollar bills and twenty ten-dollar coins, please?",
+      "textSha256": "4fd190ed70c2edf7fd1103bc21474d8bef67a6dc59ddba31c2267b05565a2062",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3941260b6aadfeee200abf3101ba6bbcfeb7926daa47d9513ca4ab3f11272735",
+      "duration": 4.725,
+      "graphemes": [
+        "Could I have nine hundred-dollar bills and twenty ten-dollar coins, please?"
+      ],
+      "phonemes": [
+        "kˌʊd ˌI hæv nˈIn hˈʌndɹəddˌɑləɹ bˈɪlz ænd twˈɛnti tˌɛndˈɑləɹ kˈYnz, plˈiz?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/asking-for-change-at-counter/5.mp3",
+      "text": "The friendly clerk counted each coin out loud on the glass counter.",
+      "textSha256": "bc2dddb7c5fa80af402e6db32af697205fed978c26121b36257dbb6870f13c35",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "482134c3e3225fe4c911bb0a0b5b0e026b0dc8348967a637f031006596c657bd",
+      "duration": 4.15,
+      "graphemes": [
+        "The friendly clerk counted each coin out loud on the glass counter."
+      ],
+      "phonemes": [
+        "ðə fɹˈɛndli klˈɜɹk kˈWntᵻd ˈiʧ kˈYn ˈWt lˈWd ˌɔn ðə ɡlˈæs kˈWntəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/asking-for-change-at-counter/6.mp3",
+      "text": "Everything is exact and correct, thank you so much for your kind assistance!",
+      "textSha256": "036e648ed8858264a983f81078dd9c7e0dba14235c52d793be2568c2ce963ac3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "de2345cd421b1a0db1970f617c8247931c7da4fb28ee009837d2e88bb66fd13a",
+      "duration": 4.9,
+      "graphemes": [
+        "Everything is exact and correct, thank you so much for your kind assistance!"
+      ],
+      "phonemes": [
+        "ˈɛvəɹiθˌɪŋ ɪz ɪɡzˈækt ænd kəɹˈɛkt, θˈæŋk ju sˌO mˈʌʧ fɔɹ jʊɹ kˈInd əsˈɪstᵊns!"
+      ]
+    },
+    {
+      "src": "/audio/phrases/asking-for-change-at-counter-break-this-thousand-dollar-bill.mp3",
+      "text": "break this thousand-dollar bill",
+      "textSha256": "e0272412d7a3d5e9f53142641c60d802740296ff7d87ce77d13d15a396512e1a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2930833ab8b23468653668d97377a69a2b7b47072b34b2a042dc671ffc113919",
+      "duration": 2.225,
+      "graphemes": [
+        "break this thousand-dollar bill"
+      ],
+      "phonemes": [
+        "bɹˈAk ðɪs θˈWzᵊnddˌɑləɹ bˈɪl"
+      ]
+    },
+    {
+      "src": "/audio/phrases/asking-for-change-at-counter-self-service-laundry.mp3",
+      "text": "self-service laundry",
+      "textSha256": "84b833560376d5686211e74a52d8bbde8721431aeb925a77e4464a2e00bb4bd5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5f2a21ae297d62552573cfba9d4ea760ad78b5fbaa8871218231b9ac9b6a3816",
+      "duration": 1.925,
+      "graphemes": [
+        "self-service laundry"
+      ],
+      "phonemes": [
+        "sˌɛlfsˈɜɹvəs lˈɔndɹi"
+      ]
+    },
+    {
+      "src": "/audio/phrases/asking-for-change-at-counter-how-would-you-like-your-change.mp3",
+      "text": "how would you like your change",
+      "textSha256": "10df07fe8265e981dadde96f3dfbca99c13b7205cd21cc7ee2c0cb75eac62584",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dee08d664193f5753e565d8cc88a41f30c3ae33e1b17a51fe60e8c85f60ea8b4",
+      "duration": 1.95,
+      "graphemes": [
+        "how would you like your change"
+      ],
+      "phonemes": [
+        "hˌW wʊd ju lˈIk jʊɹ ʧˈAnʤ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/asking-for-change-at-counter-hundred-dollar-bills.mp3",
+      "text": "hundred-dollar bills",
+      "textSha256": "3a68f16e3c0e3bd044bf0eac20374ffc65df2f7de979d0119758c82cb913d602",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "82ebbf65c51fa33ee5f042a3b47ef34144b541ec7c343999d2c5b05201c869b7",
+      "duration": 1.875,
+      "graphemes": [
+        "hundred-dollar bills"
+      ],
+      "phonemes": [
+        "hˈʌndɹəddˌɑləɹ bˈɪlz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/asking-for-change-at-counter-counted-each-coin-out-loud.mp3",
+      "text": "counted each coin out loud",
+      "textSha256": "924730c4a3e68f6b5237aefa3d23ed402c27df832b8b27ad6c4a4f892db2045b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ba7445c4733a8cf3708176d5ebba38e298ecaebe02a69fa199ed5c171fbc086e",
+      "duration": 2.125,
+      "graphemes": [
+        "counted each coin out loud"
+      ],
+      "phonemes": [
+        "kˈWntᵻd ˈiʧ kˈYn ˈWt lˈWd"
+      ]
+    },
+    {
+      "src": "/audio/words/asking-for-change-at-counter-bill.mp3",
+      "text": "bill",
+      "textSha256": "623210167553939c87ed8c5f2bfe0b3e0684e12c3a3dd2513613c4e67263b5a1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "72157a2a3981d7206329eb44f8b797d50d1b23046810a58a0eaec386fc43ee42",
+      "duration": 1.3,
+      "graphemes": [
+        "bill"
+      ],
+      "phonemes": [
+        "bˈɪl"
+      ]
+    },
+    {
+      "src": "/audio/words/asking-for-change-at-counter-coin.mp3",
+      "text": "coin",
+      "textSha256": "b3a1984ba0b1d8ad7f9dc881dfd9c9dc78c76c647a7692fbbfd6fcdcb9d9a121",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2577b92134043fbd4330f1b7ce378eb237c6000eb53b0bf1ad859d28fea141b2",
+      "duration": 1.35,
+      "graphemes": [
+        "coin"
+      ],
+      "phonemes": [
+        "kˈYn"
+      ]
+    },
+    {
+      "src": "/audio/words/asking-for-change-at-counter-hundred.mp3",
+      "text": "hundred",
+      "textSha256": "97fe8a374906993133a2a9f4c9667ce253c107760d79c049cdf95788b0b7a83a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5ac395351630bda726985e105c33d63a46d3ff4f4a7b5d573d745faafb4c3fb2",
+      "duration": 1.4,
+      "graphemes": [
+        "hundred"
+      ],
+      "phonemes": [
+        "hˈʌndɹəd"
+      ]
+    },
+    {
+      "src": "/audio/words/asking-for-change-at-counter-twenty.mp3",
+      "text": "twenty",
+      "textSha256": "7c2c4df740f720b0c861920dc27692c4d4b5daa65d6330a593c931d35f8ac737",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "102de5175ad718beac885f1515a2b3f7a5f50a2079298056efe74ddc4082d192",
+      "duration": 1.525,
+      "graphemes": [
+        "twenty"
+      ],
+      "phonemes": [
+        "twˈɛnti"
+      ]
+    },
+    {
+      "src": "/audio/words/asking-for-change-at-counter-counter.mp3",
+      "text": "counter",
+      "textSha256": "efe899c74558f20b08bbc19bf0228c0c25bddb7871d80bd34ac8b33c030b3698",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "128cd55a0606eb2aef62dd16573fc36646b9e669fe4182b9e48183a7499719e7",
+      "duration": 1.4,
+      "graphemes": [
+        "counter"
+      ],
+      "phonemes": [
+        "kˈWntəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/asking-for-change-at-counter-clerk.mp3",
+      "text": "clerk",
+      "textSha256": "c40dc72b0228e5850d8b173ff861a48acfb4a15b37b2849cbb6584bbadbc7907",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b35dcbe9f6d0107108ffadaaddda118520fd5a8537d0c0a8fe7d0c5ded29f9fe",
+      "duration": 1.275,
+      "graphemes": [
+        "clerk"
+      ],
+      "phonemes": [
+        "klˈɜɹk"
+      ]
+    },
+    {
+      "src": "/audio/sentences/tracking-daily-budget/1.mp3",
+      "text": "Let us sit down together and review our total budget for the weekend camping trip.",
+      "textSha256": "f531a5185e7b38ef43fe813e070c041ce65ac7d670e40792eb1f21bb09515ef8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8be8595c1cc6fd03ffa3abcc7fe429c533948cb948264c939a329d248948aad1",
+      "duration": 5,
+      "graphemes": [
+        "Let us sit down together and review our total budget for the weekend camping trip."
+      ],
+      "phonemes": [
+        "lˈɛt ˌʌs sˈɪt dˌWn təɡˈɛðəɹ ænd ɹəvjˈu ˌWəɹ tˈOTᵊl bˈʌʤət fɔɹ ðə wˈikˌɛnd kˈæmpɪŋ tɹˈɪp."
+      ]
+    },
+    {
+      "src": "/audio/sentences/tracking-daily-budget/2.mp3",
+      "text": "We spent money on fresh food and fifty dollars on tent rental equipment.",
+      "textSha256": "b332a4930b4a5b4f5449dbb4f7539f1cf4fc53ba35545f2d33c7cbf5fb52d2f8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4d9be31bab2813ddc487a719334ca6bc932d45f870f3ecd474077167dfaa70d7",
+      "duration": 4.8,
+      "graphemes": [
+        "We spent money on fresh food and fifty dollars on tent rental equipment."
+      ],
+      "phonemes": [
+        "wˌi spˈɛnt mˈʌni ˌɔn fɹˈɛʃ fˈud ænd fˈɪfti dˈɑləɹz ˌɔn tˈɛnt ɹˈɛntᵊl əkwˈɪpmənt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/tracking-daily-budget/3.mp3",
+      "text": "Buying the cooking charcoal in a bundle deal saved us twenty dollars.",
+      "textSha256": "57e7b25d0e15ed53d0f7e463c34a382cad3c3fd2a932f83a4b5d64f1ca54ecfb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "692fbb5a0b675873047a332d1919730793455ca20322a6e0d9f89f409a4d6921",
+      "duration": 4.45,
+      "graphemes": [
+        "Buying the cooking charcoal in a bundle deal saved us twenty dollars."
+      ],
+      "phonemes": [
+        "bˈIɪŋ ðə kˈʊkɪŋ ʧˈɑɹkˌOl ɪn ɐ bˈʌndᵊl dˈil sˈAvd ˌʌs twˈɛnti dˈɑləɹz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/tracking-daily-budget/4.mp3",
+      "text": "What was the final total cost when we combine all the receipts together?",
+      "textSha256": "0218513c8f2c336fa83a97d795b423d4c3ebb09e5ac11a2242daeeb09cd2b0a4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ad989dc24d7feac7bb00a83c1fd4909c87bcc05280d4f3f0fbdf1abed4ed2356",
+      "duration": 4.575,
+      "graphemes": [
+        "What was the final total cost when we combine all the receipts together?"
+      ],
+      "phonemes": [
+        "wˌʌt wʌz ðə fˈInᵊl tˈOTᵊl kˈɔst wˌɛn wi kəmbˈIn ˈɔl ðə ɹəsˈits təɡˈɛðəɹ?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/tracking-daily-budget/5.mp3",
+      "text": "The total comes to two hundred dollars, so each person pays fifty dollars.",
+      "textSha256": "b12b1b952e749654fd1bf73a0604a2891b3e4f9e3cdf74beee3518a6de42d13c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d027bdc85fef831ce99684fdaffdbe147d85102360fabd33f67b658c8eda8b0f",
+      "duration": 4.8,
+      "graphemes": [
+        "The total comes to two hundred dollars, so each person pays fifty dollars."
+      ],
+      "phonemes": [
+        "ðə tˈOTᵊl kˈʌmz tə tˈu hˈʌndɹəd dˈɑləɹz, sˌO ˈiʧ pˈɜɹsᵊn pˈAz fˈɪfti dˈɑləɹz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/tracking-daily-budget/6.mp3",
+      "text": "We share the expenses equally and it was worth every single dollar we spent.",
+      "textSha256": "ee30e07f3170ad3bb943c66abaf92379ce24bc653294782c8792034791c08f29",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a8b8195100e662cfe20c8accfffba80267de17a478908e56c4895d4e8bba6f91",
+      "duration": 5.125,
+      "graphemes": [
+        "We share the expenses equally and it was worth every single dollar we spent."
+      ],
+      "phonemes": [
+        "wˌi ʃˈɛɹ ði ɪkspˈɛnsᵻz ˈikwəli ænd ɪt wʌz wˈɜɹθ ˈɛvəɹi sˈɪŋɡᵊl dˈɑləɹ wi spˈɛnt."
+      ]
+    },
+    {
+      "src": "/audio/phrases/tracking-daily-budget-review-our-total-budget.mp3",
+      "text": "review our total budget",
+      "textSha256": "c1384f81363d8829a9348a19ebb5da9fc4116e0aa80ffe8a6e51794a2db25533",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d0e9730c3b698a82a9c7edd018196cd405690b2efb8e32a31bdec2a3d3ca0379",
+      "duration": 2.025,
+      "graphemes": [
+        "review our total budget"
+      ],
+      "phonemes": [
+        "ɹəvjˈu ˌWəɹ tˈOTᵊl bˈʌʤət"
+      ]
+    },
+    {
+      "src": "/audio/phrases/tracking-daily-budget-spent-money-on.mp3",
+      "text": "spent money on",
+      "textSha256": "90081cd4b49df16e10328955ea80e5049cd42de01425a3923359e5dd617127c2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6a9f90f5737f1ecaba2b48e119c0f1a0b75b2cacaee81cfbc97e2fba207e16ef",
+      "duration": 1.625,
+      "graphemes": [
+        "spent money on"
+      ],
+      "phonemes": [
+        "spˈɛnt mˈʌni ˌɔn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/tracking-daily-budget-bundle-deal.mp3",
+      "text": "bundle deal",
+      "textSha256": "05f440049c68adf21771ddb184be88180b20b398124923a6e595da3bb29d1ff4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "626c79e23272763e33586444a6cc9a54af6f8d7ee69707277c6131546532c797",
+      "duration": 1.65,
+      "graphemes": [
+        "bundle deal"
+      ],
+      "phonemes": [
+        "bˈʌndᵊl dˈil"
+      ]
+    },
+    {
+      "src": "/audio/phrases/tracking-daily-budget-final-total-cost.mp3",
+      "text": "final total cost",
+      "textSha256": "cf85fb17e5a1545d421c27b8051c2ed42c0ed8bb31a0b9174edc65f12dbabbc8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8ff929cabe6aa04b213b56fb21e348c40f7da1954334c99360d6e8bf4c3ab14f",
+      "duration": 2,
+      "graphemes": [
+        "final total cost"
+      ],
+      "phonemes": [
+        "fˈInᵊl tˈOTᵊl kˈɔst"
+      ]
+    },
+    {
+      "src": "/audio/phrases/tracking-daily-budget-each-person-pays.mp3",
+      "text": "each person pays",
+      "textSha256": "e1e23b2544566ab0a0720dc0b15828a33fa460b7c97d97a30694c73ef99ca3a1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "412a414a3d50768d32b674aad7c114377fededf17d5dd369bf5adc58e586042f",
+      "duration": 1.85,
+      "graphemes": [
+        "each person pays"
+      ],
+      "phonemes": [
+        "ˈiʧ pˈɜɹsᵊn pˈAz"
+      ]
+    },
+    {
+      "src": "/audio/words/tracking-daily-budget-budget.mp3",
+      "text": "budget",
+      "textSha256": "0af96a8ed622a394e8b2a239284ee46e9a7a7b0ec38191bbd08571b171118dd6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "20ab1409048cd1c2a2bf8232501fa171adfb463ed2aa7e638272051606ca4c29",
+      "duration": 1.325,
+      "graphemes": [
+        "budget"
+      ],
+      "phonemes": [
+        "bˈʌʤət"
+      ]
+    },
+    {
+      "src": "/audio/words/tracking-daily-budget-spend.mp3",
+      "text": "spend",
+      "textSha256": "f64a33ff88c38111769d86b2679168f7cdabcaa7c9c20cbb51aa0a3a506a8717",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "af6df4b3b597262e4e6e1732eac179fdafb933d1ae6ed08761c7daada031aa33",
+      "duration": 1.425,
+      "graphemes": [
+        "spend"
+      ],
+      "phonemes": [
+        "spˈɛnd"
+      ]
+    },
+    {
+      "src": "/audio/words/tracking-daily-budget-total.mp3",
+      "text": "total",
+      "textSha256": "11239872d178729acc9e5aeaf7fc001a0ffd878c922330be43712b9b3be043a7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "289962986fcd035d60a182284c019aa9f379936ee7fd911eaeb51788a6f08837",
+      "duration": 1.325,
+      "graphemes": [
+        "total"
+      ],
+      "phonemes": [
+        "tˈOTᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/tracking-daily-budget-deal.mp3",
+      "text": "deal",
+      "textSha256": "f96c94f287038f69433b5a9a759654085e09564156ec90b1c8c754c8c001dc18",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "af87ead47d6f02b62f9f29e928f7c55ce43df331336c557b336a3cff4abbafca",
+      "duration": 1.275,
+      "graphemes": [
+        "deal"
+      ],
+      "phonemes": [
+        "dˈil"
+      ]
+    },
+    {
+      "src": "/audio/words/tracking-daily-budget-share.mp3",
+      "text": "share",
+      "textSha256": "c3bc45ac352fe43ff8f0a1cc26d6cc29f71f536dc417906f8513ea44ed4bb161",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "88ce7e30cea231045d8fa9f755eb395cef026e970322a983d3199afce5d4c883",
+      "duration": 1.3,
+      "graphemes": [
+        "share"
+      ],
+      "phonemes": [
+        "ʃˈɛɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/tracking-daily-budget-worth.mp3",
+      "text": "worth",
+      "textSha256": "c0a6eb55b12b7dfe01d9e55f4563eeefe13bd7ef7d7d576fdd8a9977d7a09f5d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6afd8a26163c0442c5dcda6a49233f1e24968ed397a015b8f206e8cfb2af4fc4",
+      "duration": 1.3,
+      "graphemes": [
+        "worth"
+      ],
+      "phonemes": [
+        "wˈɜɹθ"
+      ]
+    },
+    {
+      "src": "/audio/sentences/mobile-payment-help/1.mp3",
+      "text": "I am trying to pay for my breakfast sandwich using the mobile payment app.",
+      "textSha256": "12ede15f57087c3382e0d4ccf2db86e2422f4be5457939bab0e4450aa34c2b1c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1fdcccd91025433add6baad2d6d150e1d6e2de4b4eea8233993070eca063faaa",
+      "duration": 4.475,
+      "graphemes": [
+        "I am trying to pay for my breakfast sandwich using the mobile payment app."
+      ],
+      "phonemes": [
+        "ˌI ɐm tɹˈIɪŋ tə pˈA fɔɹ mI bɹˈɛkfəst sˈændwˌɪʧ jˈuzɪŋ ðə mˈObᵊl pˈAmᵊnt ˈæp."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mobile-payment-help/2.mp3",
+      "text": "The scanner beeped twice with an error message because the screen brightness was too low.",
+      "textSha256": "783342607f1b0e0e707ce8b5346af2947baaa0e98f2edae5acd1ce9b19837b45",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dde8177277a38e0623508e2bb68e209defd20a4a17a329429dc71e6f20b79b4e",
+      "duration": 5.3,
+      "graphemes": [
+        "The scanner beeped twice with an error message because the screen brightness was too low."
+      ],
+      "phonemes": [
+        "ðə skˈænəɹ bˈipt twˈIs wɪð ɐn ˈɛɹəɹ mˈɛsɪʤ bəkˈʌz ðə skɹˈin bɹˈItnəs wʌz tˈu lˈO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mobile-payment-help/3.mp3",
+      "text": "Let me refresh the payment barcode and try scanning it one more time.",
+      "textSha256": "a1d3e8f47ec4d22e7335b234618279080d23d2be13aa619242544fc6ca3cb779",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9601d007b0afedb7991746606071e649b9b0c8d8874cdf0eda51c789d09961d3",
+      "duration": 4.475,
+      "graphemes": [
+        "Let me refresh the payment barcode and try scanning it one more time."
+      ],
+      "phonemes": [
+        "lˈɛt mˌi ɹəfɹˈɛʃ ðə pˈAmᵊnt bˈɑɹkˌOd ænd tɹˈI skˈænɪŋ ɪt wˈʌn mˈɔɹ tˈIm."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mobile-payment-help/4.mp3",
+      "text": "It still shows a connection timeout error on the cash register system.",
+      "textSha256": "f03f54ca8f5fb2655c56bed0cf58b6b0b6cba918d42338f6540ac8d7547a245b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4cd496b0fe62e8ecf42fc32aed06aa30b3a2a314ed416634733893bd47c9ad59",
+      "duration": 4.55,
+      "graphemes": [
+        "It still shows a connection timeout error on the cash register system."
+      ],
+      "phonemes": [
+        "ˌɪt stˈɪl ʃˈOz ɐ kənˈɛkʃən tˈImWt ˈɛɹəɹ ˌɔn ðə kˈæʃ ɹˈɛʤəstəɹ sˈɪstəm."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mobile-payment-help/5.mp3",
+      "text": "No problem at all, I have exact cash inside my pocket wallet.",
+      "textSha256": "db1875f54549a9b9a0e80fe55302d7dfe7727b644731d5a13908c69e2767618c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f5cc5a0e5e2685f66b73bb9a288193b7d7b595fd0a1e4e2a4ed581ebb8ccfcb1",
+      "duration": 4.35,
+      "graphemes": [
+        "No problem at all, I have exact cash inside my pocket wallet."
+      ],
+      "phonemes": [
+        "nˈO pɹˈɑbləm æt ˈɔl, ˌI hæv ɪɡzˈækt kˈæʃ ɪnsˈId mI pˈɑkət wˈɑlət."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mobile-payment-help/6.mp3",
+      "text": "Here is seventy dollars in cash, thank you for being patient while I tried.",
+      "textSha256": "3faa3a0207e5c1b418eafc170ae1d41da6013e46af54a87640c10895a82ad8b1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fbdd79e460c1ab6571a1011b04becf1d7e759730fa4010cf79defd2e0e3dc5c6",
+      "duration": 4.875,
+      "graphemes": [
+        "Here is seventy dollars in cash, thank you for being patient while I tried."
+      ],
+      "phonemes": [
+        "hˈɪɹ ɪz sˈɛvənti dˈɑləɹz ɪn kˈæʃ, θˈæŋk ju fɔɹ bˈiɪŋ pˈAʃənt wˌIl ˌI tɹˈId."
+      ]
+    },
+    {
+      "src": "/audio/phrases/mobile-payment-help-mobile-payment-app.mp3",
+      "text": "mobile payment app",
+      "textSha256": "175f1d2bffaec0a30797741ddc46669ca68042847dfb8372c6db75be4ea2cbd5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a2e78d24fd6e83d82b03db906d3a331c3fd18f1e04b2f40144e1679f6773f1d6",
+      "duration": 1.8,
+      "graphemes": [
+        "mobile payment app"
+      ],
+      "phonemes": [
+        "mˈObᵊl pˈAmᵊnt ˈæp"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mobile-payment-help-error-message.mp3",
+      "text": "error message",
+      "textSha256": "3e61f0fc7c138fb1f52d506281f92460a351a487148518b310a2f13773215c84",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bb0c16c6636a9f53f7171e2d3f0b465a95aaf0ff2f2467228acaf2f198a4e826",
+      "duration": 1.675,
+      "graphemes": [
+        "error message"
+      ],
+      "phonemes": [
+        "ˈɛɹəɹ mˈɛsɪʤ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mobile-payment-help-screen-brightness.mp3",
+      "text": "screen brightness",
+      "textSha256": "dcb1aa9ca3220342d69d96c2c0845465bfe0407b0795ae58052c46dfc9304880",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7b0eb8d94176008b5691bd33edad196f18bd7f0fbfc549df60bfa751c90d785c",
+      "duration": 1.725,
+      "graphemes": [
+        "screen brightness"
+      ],
+      "phonemes": [
+        "skɹˈin bɹˈItnəs"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mobile-payment-help-exact-cash.mp3",
+      "text": "exact cash",
+      "textSha256": "108c95c1cf6ee97486b26fde9d3f30ba600bec4e75c0dd36cc67f1582070f5d0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7274d8ebc33e93f190e3846501a45f7030b3616767a1adff368a11c36589172f",
+      "duration": 1.75,
+      "graphemes": [
+        "exact cash"
+      ],
+      "phonemes": [
+        "ɪɡzˈækt kˈæʃ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mobile-payment-help-thank-you-for-being-patient.mp3",
+      "text": "thank you for being patient",
+      "textSha256": "e1f2abdca7d3af6f45d1afa1366b6593f7f81f0ea383e120e7a8a3e7fe45346b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "eac60654b55ef4701fa47718e7b1ce0005e3ddd8d6f63b9eaad04601574933cb",
+      "duration": 2.05,
+      "graphemes": [
+        "thank you for being patient"
+      ],
+      "phonemes": [
+        "θˈæŋk ju fɔɹ bˈiɪŋ pˈAʃənt"
+      ]
+    },
+    {
+      "src": "/audio/words/mobile-payment-help-wallet.mp3",
+      "text": "wallet",
+      "textSha256": "e8d44050873dba865aa7c170ab4cce64d90839a34dcfd6cf71d14e0205443b1b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fa42012abe9688a6a3825c3496d3ae602c06b743f7052de9f28db0900679055b",
+      "duration": 1.325,
+      "graphemes": [
+        "wallet"
+      ],
+      "phonemes": [
+        "wˈɑlət"
+      ]
+    },
+    {
+      "src": "/audio/words/mobile-payment-help-error.mp3",
+      "text": "error",
+      "textSha256": "ca00fccfb408989eddc401062c4d1219a6aceb6b9b55412357f1790862e8f178",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2e463951029e3ac99bee18bd1ef1559bbfc2f4d58e9ae70a81a44c2d849f6d2c",
+      "duration": 1.375,
+      "graphemes": [
+        "error"
+      ],
+      "phonemes": [
+        "ˈɛɹəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/mobile-payment-help-pay.mp3",
+      "text": "pay",
+      "textSha256": "9350872d712a127c494d7dc35e46b0bc9e62e288239708e581dfc3a1400154a4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "17f1a6fc8b02a525cf1ecc9a96cf5dbe3e4c75aa32b661dd2d1d8158e1dd311d",
+      "duration": 1.3,
+      "graphemes": [
+        "pay"
+      ],
+      "phonemes": [
+        "pˈA"
+      ]
+    },
+    {
+      "src": "/audio/words/mobile-payment-help-system.mp3",
+      "text": "system",
+      "textSha256": "bbc5e661e106c6dcd8dc6dd186454c2fcba3c710fb4d8e71a60c93eaf077f073",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0d35ba0f38c45488ffa5a9d002a46f9c953b1779d306c414fa7a5bbf8409dc9e",
+      "duration": 1.45,
+      "graphemes": [
+        "system"
+      ],
+      "phonemes": [
+        "sˈɪstəm"
+      ]
+    },
+    {
+      "src": "/audio/words/mobile-payment-help-try.mp3",
+      "text": "try",
+      "textSha256": "1e262cd7d110812f5726055a6e672b92cde43648b76adff51a12441fbdf7e667",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9c110b3e87d4ac616f0b4cbc33120971794bca256b31cb24dffddb1e2bdf9f79",
+      "duration": 1.4,
+      "graphemes": [
+        "try"
+      ],
+      "phonemes": [
+        "tɹˈI"
+      ]
+    },
+    {
+      "src": "/audio/words/mobile-payment-help-cash.mp3",
+      "text": "cash",
+      "textSha256": "ab0fcec08e18a7bccda1e81df4974e3434fcd36000518f7e776fb85495b5a494",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6141e2aca8ffcc2f668bb2ab79e4931eac6bb5de4d08baa059f249f11472e667",
+      "duration": 1.35,
+      "graphemes": [
+        "cash"
+      ],
+      "phonemes": [
+        "kˈæʃ"
+      ]
+    },
+    {
+      "src": "/audio/sentences/opening-student-bank-account/1.mp3",
+      "text": "Good morning, I want to open a student savings account to save money today.",
+      "textSha256": "8344d9d2252be06f506b83638e24a36f3c06d9bde2e7e42ce84aba1f3304ce69",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "62d5f14cccf1b1cb67348239edc49e852f93bab7bf6b9487381b762cc0240e3f",
+      "duration": 4.7,
+      "graphemes": [
+        "Good morning, I want to open a student savings account to save money today."
+      ],
+      "phonemes": [
+        "ɡˈʊd mˈɔɹnɪŋ, ˌI wˈɑnt tʊ ˈOpᵊn ɐ stˈudᵊnt sˈAvɪŋz əkˈWnt tə sˈAv mˈʌni tədˈA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/opening-student-bank-account/2.mp3",
+      "text": "Please provide your photo identification card and a written signature consent form from your parents.",
+      "textSha256": "ff00e8f1df20952f731a66a6c912d6dd07328aa4bb2f8b742a564eab34bfb7af",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f3cf3474ee2665d5d83eb93846f24e1c42409dd82c49dd01f88dfe845db9101d",
+      "duration": 6.375,
+      "graphemes": [
+        "Please provide your photo identification card and a written signature consent form from your parents."
+      ],
+      "phonemes": [
+        "plˈiz pɹəvˈId jʊɹ fˈOTO IdˌɛntəfəkˈAʃən kˈɑɹd ænd ɐ ɹˈɪtn sˈɪɡnəʧəɹ kənsˈɛnt fˈɔɹm fɹʌm jʊɹ pˈɛɹᵊnts."
+      ]
+    },
+    {
+      "src": "/audio/sentences/opening-student-bank-account/3.mp3",
+      "text": "Here are all the legal documents and our family household certificate.",
+      "textSha256": "731c0baa1765b7ac5b6eff529cd6ea0ee08fbc496ad05f66a67e1477e08a95e9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "75c7c1e7b0fb23a3c97c9a4ee91cc2dd1c4169bca51edc13803cdfe6f4ff7adf",
+      "duration": 4.55,
+      "graphemes": [
+        "Here are all the legal documents and our family household certificate."
+      ],
+      "phonemes": [
+        "hˈɪɹ ɑɹ ˈɔl ðə lˈiɡəl dˈɑkjəmənts ænd ˌWəɹ fˈæmᵊli hˈWshˌOld səɹtˈɪfəkət."
+      ]
+    },
+    {
+      "src": "/audio/sentences/opening-student-bank-account/4.mp3",
+      "text": "The bank staff helped me fill out the registration form line by line.",
+      "textSha256": "c09f5f4679f6775e7faa0650530c9558cbaa25ee8c7c9532c9ba511c793a27b5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "97c8ee7a3a6d64f44ff610b18fff5691b7c43cf07f37bc1de84135f07c339b3e",
+      "duration": 4.5,
+      "graphemes": [
+        "The bank staff helped me fill out the registration form line by line."
+      ],
+      "phonemes": [
+        "ðə bˈæŋk stˈæf hˈɛlpt mˌi fˈɪl ˈWt ðə ɹˌɛʤəstɹˈAʃən fˈɔɹm lˈIn bI lˈIn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/opening-student-bank-account/5.mp3",
+      "text": "You can make an initial deposit of five hundred dollars into your new account.",
+      "textSha256": "3feb0f29dfbc3a9ceed054bb16002dbeccc9d38f5b1abf9c9e1b5fd024d63a45",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "415d52c4f945e530900bd9c727d1d5ce41b4422369930594af8a9728d4c07090",
+      "duration": 4.9,
+      "graphemes": [
+        "You can make an initial deposit of five hundred dollars into your new account."
+      ],
+      "phonemes": [
+        "jˌu kæn mˌAk ɐn ɪnˈɪʃᵊl dəpˈɑzət ʌv fˈIv hˈʌndɹəd dˈɑləɹz ˈɪntu jʊɹ nˈu əkˈWnt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/opening-student-bank-account/6.mp3",
+      "text": "This savings account earns yearly interest and includes a debit card for payments.",
+      "textSha256": "566f1c8ca27c1edd552742b49dfcc1684a94d353f4895b6e3613c390d6a2b170",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cb0ed779153c0f2d80009ffa7319ec3ff9cd76f5f5222f60895c539e37bc4071",
+      "duration": 5.3,
+      "graphemes": [
+        "This savings account earns yearly interest and includes a debit card for payments."
+      ],
+      "phonemes": [
+        "ðˌɪs sˈAvɪŋz əkˈWnt ˈɜɹnz jˈɪɹli ˈɪntɹəst ænd ɪnklˈudz ɐ dˈɛbɪt kˈɑɹd fɔɹ pˈAmᵊnts."
+      ]
+    },
+    {
+      "src": "/audio/phrases/opening-student-bank-account-student-savings-account.mp3",
+      "text": "student savings account",
+      "textSha256": "4c12ba9bbbf3102ec4e4369fe624ca2d9937d906cbce77b12c81a9d719fc7858",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6fc28f4e1854e5a298eb588542a210c99492d5b82408798b7f790b031d90b9b0",
+      "duration": 1.9,
+      "graphemes": [
+        "student savings account"
+      ],
+      "phonemes": [
+        "stˈudᵊnt sˈAvɪŋz əkˈWnt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/opening-student-bank-account-photo-identification-card.mp3",
+      "text": "photo identification card",
+      "textSha256": "b26508ce2471b9aa623e337f34313dfd1d228310762ede59d1f6e179958876a2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0750f220b1d0fbe7bf5ec66f1f47f47fb481af3eea8d76a570cc17da56e90898",
+      "duration": 2.425,
+      "graphemes": [
+        "photo identification card"
+      ],
+      "phonemes": [
+        "fˈOTO IdˌɛntəfəkˈAʃən kˈɑɹd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/opening-student-bank-account-written-signature.mp3",
+      "text": "written signature",
+      "textSha256": "a7cae43308037f44e9b3b9b54499416bbcdaefd38045570055d2ad012bef8817",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c3918f0d9e793b025e9113c81217331c6c275c0a22ad81d96c6b288f5996caaf",
+      "duration": 1.75,
+      "graphemes": [
+        "written signature"
+      ],
+      "phonemes": [
+        "ɹˈɪtn sˈɪɡnəʧəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/opening-student-bank-account-bank-staff.mp3",
+      "text": "bank staff",
+      "textSha256": "27937654f1f87d908eabf73cc90039d59746db29fbe7001987607147bfbff36f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d1a23ab43d90e8c5519441fb9bbff446de72f8708acd3f57cf154e49c5460f5b",
+      "duration": 1.5,
+      "graphemes": [
+        "bank staff"
+      ],
+      "phonemes": [
+        "bˈæŋk stˈæf"
+      ]
+    },
+    {
+      "src": "/audio/phrases/opening-student-bank-account-initial-deposit.mp3",
+      "text": "initial deposit",
+      "textSha256": "f98be4f73d890b29364709f488dad46944408f8a734f917dd567ccfd30f954ba",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2cbfc1e27ab4c65de084aa81fbd0385885f5d0b80adb6d3909a3a19058ffc4b7",
+      "duration": 1.825,
+      "graphemes": [
+        "initial deposit"
+      ],
+      "phonemes": [
+        "ɪnˈɪʃᵊl dəpˈɑzət"
+      ]
+    },
+    {
+      "src": "/audio/words/opening-student-bank-account-bank.mp3",
+      "text": "bank",
+      "textSha256": "4381dc2ab14285160c808659aee005d51255add7264b318d07c7417292c7442c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7623edb75c2aad57bd3dec1921bf72cbf310be38946959b37ec343e352ec9cf0",
+      "duration": 1.25,
+      "graphemes": [
+        "bank"
+      ],
+      "phonemes": [
+        "bˈæŋk"
+      ]
+    },
+    {
+      "src": "/audio/words/opening-student-bank-account-save.mp3",
+      "text": "save",
+      "textSha256": "157dca92e4250458339d4b835250d44c238f3355e1b7986195188ee434e9baff",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2f1384acd2808200eb002b95c1a64febbe59e3725c2bf62497bbbefc49cf3068",
+      "duration": 1.375,
+      "graphemes": [
+        "save"
+      ],
+      "phonemes": [
+        "sˈAv"
+      ]
+    },
+    {
+      "src": "/audio/words/opening-student-bank-account-parent.mp3",
+      "text": "parent",
+      "textSha256": "e47125968b3b71049fbc4802d1e40a71ea1359decfabacf70b34588037d4ff0c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a72d13c6324b0d4ce451355d43643723157990b3e1067930054a04d4f3aedc3f",
+      "duration": 1.35,
+      "graphemes": [
+        "parent"
+      ],
+      "phonemes": [
+        "pˈɛɹᵊnt"
+      ]
+    },
+    {
+      "src": "/audio/words/opening-student-bank-account-staff.mp3",
+      "text": "staff",
+      "textSha256": "1562206543da764123c21bd524674f0a8aaf49c8a89744c97352fe677f7e4006",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "090726bd9385514a43eba1c93ee628b213726742cb859108b0f2edb44cacf615",
+      "duration": 1.275,
+      "graphemes": [
+        "staff"
+      ],
+      "phonemes": [
+        "stˈæf"
+      ]
+    },
+    {
+      "src": "/audio/words/opening-student-bank-account-deposit.mp3",
+      "text": "deposit",
+      "textSha256": "c3b9fb78a452ce2fc90cff1608510235503e3b727683b71c7fefee54198bad63",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b3c5382e92001fbb6be6e4bca70ae1334f5efc6cdd2e5c2118d53256add92375",
+      "duration": 1.5,
+      "graphemes": [
+        "deposit"
+      ],
+      "phonemes": [
+        "dəpˈɑzət"
+      ]
+    },
+    {
+      "src": "/audio/words/opening-student-bank-account-interest.mp3",
+      "text": "interest",
+      "textSha256": "828408e40d4fe651488b14696b60b613c9683ab9862e03f4e72aec7c1fda7635",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ecd9630f580585a9515575fdfe6ea92efead97c0bb62936171a2eea998df0c37",
+      "duration": 1.45,
+      "graphemes": [
+        "interest"
+      ],
+      "phonemes": [
+        "ˈɪntɹəst"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "ice-pack-for-sprain",
+  "title": "運動扭傷尋求冰敷",
+  "titleEn": "Asking for an Ice Pack for a Sprain",
+  "category": "健康生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/ice-pack-for-sprain.webp",
+    "alt": "在學校健康中心，護理師拿著冰敷袋與乾淨毛巾，親切指導扭傷腳踝的同學冰敷休息。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "take-a-deep-breath",
+      "english": "take a deep breath",
+      "translation": "深吸一口氣",
+      "audio": {
+        "src": "/audio/phrases/ice-pack-for-sprain-take-a-deep-breath.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3732f5cea908b060b6e34a41e6f121845b55b55a49d2cc8f6b2b90a02ef0e70f",
+        "sha256": "08dfa5b6b95d06df5642261f5d6ad1b1b18706de92e8a61ddcba7fc384716f46"
+      }
+    },
+    {
+      "id": "put-weight-on-that-foot",
+      "english": "put weight on that foot",
+      "translation": "把重量壓在那隻腳上",
+      "audio": {
+        "src": "/audio/phrases/ice-pack-for-sprain-put-weight-on-that-foot.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ef4073ba4fc91f6e55704f7963e8dd0db328a1b6ccb9b27e038125a1065be8f4",
+        "sha256": "6850478031585ff4c2707a23a80eeae44deb655455877bcc22ea53bca93eec1c"
+      }
+    },
+    {
+      "id": "look-swollen",
+      "english": "look swollen",
+      "translation": "看起來腫腫的",
+      "audio": {
+        "src": "/audio/phrases/ice-pack-for-sprain-look-swollen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "73334d74117fe7cac67cac2222d930e3ffdb79ece94dbf0dfd0f46613a377151",
+        "sha256": "b7f86b94165db92b3ab6ecc35ef49f66795377b52800c9beb66d109ba0e8d2e3"
+      }
+    },
+    {
+      "id": "cold-ice-pack",
+      "english": "cold ice pack",
+      "translation": "冰冷的冰敷袋",
+      "audio": {
+        "src": "/audio/phrases/ice-pack-for-sprain-cold-ice-pack.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dae44c374a8512452724228aac7a0e5ea1d4ba905e979fa8a695dddab447f59a",
+        "sha256": "c3b8ba48e9a171db04a5f8a2248b6752aa5fda74f0bb5feac6362f97f2920f62"
+      }
+    },
+    {
+      "id": "wrap-a-clean-towel-around",
+      "english": "wrap a clean towel around",
+      "translation": "用乾淨毛巾包在周圍",
+      "audio": {
+        "src": "/audio/phrases/ice-pack-for-sprain-wrap-a-clean-towel-around.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "865248ce6c1eb1e859645a6cfa7a30207fc940249ab4c58d5e11c7635bcec487",
+        "sha256": "89b3345d6856d31b97bc71b3a2e56c57815ba55fdca19b159ee5dfcc7013dc97"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "fall",
+      "english": "fall",
+      "translation": "掉落；跌倒",
+      "example": "Be careful not to fall on the wet grass.",
+      "audio": {
+        "src": "/audio/words/ice-pack-for-sprain-fall.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2dc46af1b78c32dfe99dedfbdff6ca7f33e0f652716482f55b03622b67c06dea",
+        "sha256": "d4f4f17044305e68b3c0b0536e8bfa5d5f2d9642c943b830a15c8f473096c5a9"
+      }
+    },
+    {
+      "id": "foot",
+      "english": "foot",
+      "translation": "腳",
+      "example": "He hurt his left foot during running practice.",
+      "audio": {
+        "src": "/audio/words/ice-pack-for-sprain-foot.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "22e4f6912a6980d6fd59e0c5409247407491282cc8dbd009734066b8393a5761",
+        "sha256": "04d19d74d10b21ac21e98222ce19ca8dbe25b95c3f126a6917596859212f301d"
+      }
+    },
+    {
+      "id": "breath",
+      "english": "breath",
+      "translation": "呼吸、一口氣",
+      "example": "Take a slow, deep breath to stay calm.",
+      "audio": {
+        "src": "/audio/words/ice-pack-for-sprain-breath.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "367a1c592458c1b0ab948e37f993feeda943b0a03b70ee6633c51beb78de8ed8",
+        "sha256": "00ac502699fa7fb78013ee4dc295efca1873a29cf9836475a935ce249a72bc5e"
+      }
+    },
+    {
+      "id": "careful",
+      "english": "careful",
+      "translation": "小心的；謹慎的",
+      "example": "Be careful when you walk down the steep stairs.",
+      "audio": {
+        "src": "/audio/words/ice-pack-for-sprain-careful.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "191c415261817259c49f435b1a380bac5cc31c3dfdd3cf0f8bcce446d9992387",
+        "sha256": "c4ea22673f0deb149e936705865ab675d0ffc45f24ff4be3ce2ac9fc04841921"
+      }
+    },
+    {
+      "id": "cold",
+      "english": "cold",
+      "translation": "冷、感冒",
+      "example": "Apply a cold cloth to reduce the swelling.",
+      "audio": {
+        "src": "/audio/words/ice-pack-for-sprain-cold.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e272deecde720ffc773d7a6a81adabbc366ccbb64da5abdb6b26f52cd3f952cb",
+        "sha256": "4bfe760f885dd40817744a73fd943ee9e48d8a862dcf44de46e6ec20bb63aaa2"
+      }
+    },
+    {
+      "id": "help",
+      "english": "help",
+      "translation": "幫忙",
+      "example": "Thank you for your timely help on the playground.",
+      "audio": {
+        "src": "/audio/words/ice-pack-for-sprain-help.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "106a5842fc5fce6f663176285ed1516dbb1e3d15c05abab12fdca46d60b539b7",
+        "sha256": "81f55c76221ec701b3415fc54b3c4319b851e3c92e08c3407f6a0c92cee4a93d"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Teacher, I "
+        },
+        {
+          "text": "fell",
+          "wordIds": [
+            "fall"
+          ]
+        },
+        {
+          "text": " while playing soccer and twisted my right ankle."
+        }
+      ],
+      "translation": "老師，我踢足球時摔倒，扭傷了右腳踝。",
+      "audio": {
+        "src": "/audio/sentences/ice-pack-for-sprain/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "57f70e04f3ab58ce4537263238f9a273384ade089c0d80bb1928468b57cabbc8",
+        "sha256": "7362207114382b923b47522d583c13b11824dffa8357de44030c60400ed2f32e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Sit down right here, be "
+        },
+        {
+          "text": "careful",
+          "wordIds": [
+            "careful"
+          ]
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "take a deep ",
+          "phraseIds": [
+            "take-a-deep-breath"
+          ]
+        },
+        {
+          "text": "breath",
+          "phraseIds": [
+            "take-a-deep-breath"
+          ],
+          "wordIds": [
+            "breath"
+          ]
+        },
+        {
+          "text": ", and do not "
+        },
+        {
+          "text": "put weight on that ",
+          "phraseIds": [
+            "put-weight-on-that-foot"
+          ]
+        },
+        {
+          "text": "foot",
+          "phraseIds": [
+            "put-weight-on-that-foot"
+          ],
+          "wordIds": [
+            "foot"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "先在這裡坐下，小心一點，深呼吸一口氣，那隻腳千萬不要受力踩地。",
+      "audio": {
+        "src": "/audio/sentences/ice-pack-for-sprain/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "436b948ddf7decd911968faeb3a219b2d3752b2a483ed7375abf2c12d3cd910c",
+        "sha256": "76658d4c3f94c82114331d06158dadf517f617fd35cbc3c61fe846b09c2c9373"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Is the skin around the ankle joint starting to "
+        },
+        {
+          "text": "look swollen",
+          "phraseIds": [
+            "look-swollen"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "腳踝關節周圍的皮膚是不是已經開始腫起來了？",
+      "audio": {
+        "src": "/audio/sentences/ice-pack-for-sprain/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2026a7a01bb8356894e90997690aeb8c1b95088186cd4d18ce37940addd9a19a",
+        "sha256": "7706f98faf18e37d1128834207a750705af65d02ef0a45e94e827c8cd379a99d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yes, it looks red and feels very warm and painful."
+        }
+      ],
+      "translation": "是的，看起來紅紅的，而且摸起來熱熱的非常痛。",
+      "audio": {
+        "src": "/audio/sentences/ice-pack-for-sprain/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0e9fb123b223dd4ef2c6a195bd447a905477969c80a05bcd9f88f1c4d95b7894",
+        "sha256": "4d4eab70bcae1aaf29a6b1944a2f211285f859644743cbeef8c7836b106c8ff6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We need to put a "
+        },
+        {
+          "text": "cold",
+          "phraseIds": [
+            "cold-ice-pack"
+          ],
+          "wordIds": [
+            "cold"
+          ]
+        },
+        {
+          "text": " ice pack",
+          "phraseIds": [
+            "cold-ice-pack"
+          ]
+        },
+        {
+          "text": " on it for fifteen minutes."
+        }
+      ],
+      "translation": "我們需要用冰袋在上面冰敷十五分鐘。",
+      "audio": {
+        "src": "/audio/sentences/ice-pack-for-sprain/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "027d18d2948a58981a9fe01913a25a63fe7079a534827cddd98360eb4d5b000f",
+        "sha256": "ee78420f53c6bd7c880c2e1f3ec4c1db91f6893553ecab5326afa70f25bdc51a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Wrap a clean towel around",
+          "phraseIds": [
+            "wrap-a-clean-towel-around"
+          ]
+        },
+        {
+          "text": " the ice to protect your skin, and I will "
+        },
+        {
+          "text": "help",
+          "wordIds": [
+            "help"
+          ]
+        },
+        {
+          "text": " you."
+        }
+      ],
+      "translation": "用乾淨毛巾包在冰塊外面以保護皮膚，我會幫你。",
+      "audio": {
+        "src": "/audio/sentences/ice-pack-for-sprain/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e841ce8e7f9da935bca3ba03de5826fc0531990f4a5161c4dba4396332970197",
+        "sha256": "2204bf68b783a3c5dc8b3b6256fc951aa29e2aa5f6550724ef36cd2d186880b8"
+      }
+    }
+  ]
+}

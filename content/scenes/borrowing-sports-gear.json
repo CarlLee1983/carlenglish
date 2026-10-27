@@ -1,0 +1,338 @@
+{
+  "id": "borrowing-sports-gear",
+  "title": "借用學校運動器材",
+  "titleEn": "Borrowing Equipment from the School Gym",
+  "category": "校園生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/borrowing-sports-gear.webp",
+    "alt": "在學校體育器材室櫃檯前，學生向體育老師登記借用排球，並承諾在下課放學鐘聲前清潔擦拭歸還。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "borrow-equipment",
+      "english": "borrow equipment",
+      "translation": "借用器材",
+      "audio": {
+        "src": "/audio/phrases/borrowing-sports-gear-borrow-equipment.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "df05b26adb1eba589eeaf654af32224eeaf249c28dc756e9a76f30c756b0ee39",
+        "sha256": "119b880a8159a97b6bcff2a09be23504be31d68e238cdeab665c99ce4f37ddc1"
+      }
+    },
+    {
+      "id": "sign-your-name",
+      "english": "sign your name",
+      "translation": "簽上你的名字",
+      "audio": {
+        "src": "/audio/phrases/borrowing-sports-gear-sign-your-name.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b0605486a7293cf24d153106b6e414a541e00eb0dd6c61a310709fc49e1e445d",
+        "sha256": "77df8f58028f7d281ea811a5f5c2f5c22b34df26ade7f62ea30bf385ea63890c"
+      }
+    },
+    {
+      "id": "volleyball-court",
+      "english": "volleyball court",
+      "translation": "排球場",
+      "audio": {
+        "src": "/audio/phrases/borrowing-sports-gear-volleyball-court.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fc71c179cd787468d7defb9ab3237c45ff8593267b4420d2e52a55b48c508a50",
+        "sha256": "453c51f8c96a9b8b205a545688e0626d7ef60aa964fd8c2f9a6a42125043b5a5"
+      }
+    },
+    {
+      "id": "before-the-final-bell",
+      "english": "before the final bell",
+      "translation": "在最後的鐘聲響起之前",
+      "audio": {
+        "src": "/audio/phrases/borrowing-sports-gear-before-the-final-bell.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c8894941f2e512af23dbab18f5a823b273ba6a6f8e20412afb07a969e67afcc1",
+        "sha256": "01206585ea52706ca9e3cd616b311ecd957ba900315571600ecd27ef7e2a78ad"
+      }
+    },
+    {
+      "id": "back-on-its-shelf",
+      "english": "back on its shelf",
+      "translation": "放回原本架上",
+      "audio": {
+        "src": "/audio/phrases/borrowing-sports-gear-back-on-its-shelf.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "255e24eafcc1d0941f50b28e2ce95ea3bcca97377fbcdbcc68f9b62ad51d6a2d",
+        "sha256": "969e8b8414d4ee3d2f5ff7787a70164ad6d8e9dd4edead52b1fed5a61c842496"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "gym",
+      "english": "gym",
+      "translation": "體育館；健身房",
+      "example": "We practice basketball in the indoor gym when it rains.",
+      "audio": {
+        "src": "/audio/words/borrowing-sports-gear-gym.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e326cff641fb950a5bdb458e0d52ec6809f041c1618e70bfd22dd61165882aad",
+        "sha256": "b2711242ec2fdefd9adb8e22fed6417117d72a9979f1876e2871915054555a00"
+      }
+    },
+    {
+      "id": "court",
+      "english": "court",
+      "translation": "球場；場地",
+      "example": "The school tennis court was freshly painted.",
+      "audio": {
+        "src": "/audio/words/borrowing-sports-gear-court.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a2f89e6fe92debe338cf2e2ff6f5e24c1183cbc24040caf377dbf85522cb2ce4",
+        "sha256": "3bb237aba521d3391fdb740726f340f65867a37d506ad9b2140494b7c130a535"
+      }
+    },
+    {
+      "id": "borrow",
+      "english": "borrow",
+      "translation": "借入；借用",
+      "example": "You can borrow up to five books at a time.",
+      "audio": {
+        "src": "/audio/words/borrowing-sports-gear-borrow.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d106ccb1fe638b61e4cfbeb00c96818ecf8245918cb478d6bdc249eac33fe353",
+        "sha256": "99f609c6cbe236948857a08d1fe6d1f941c2ff2ff25402457c49d1b5f3b27bca"
+      }
+    },
+    {
+      "id": "bell",
+      "english": "bell",
+      "translation": "鐘聲；鈴聲",
+      "example": "The morning bell rings at precisely eight.",
+      "audio": {
+        "src": "/audio/words/borrowing-sports-gear-bell.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f683740cded6680d9d94dfe6a258e44c96a27278a89e15acb52c0b8f32453d38",
+        "sha256": "3484a7987c767b45f15ec9d62c9efcd1f8b501faa7164f7dbce2431b98280e23"
+      }
+    },
+    {
+      "id": "clean",
+      "english": "clean",
+      "translation": "乾淨的；打掃",
+      "example": "Keep your study desk tidy and clean.",
+      "audio": {
+        "src": "/audio/words/borrowing-sports-gear-clean.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3b066804f6d1d077173cfe4d06002e6a61e6f21c2b2e648417962115f1afcd8e",
+        "sha256": "116fab20e95124ca48d546926e96dcd8d2e3b55f67875004e775f069bb8b5b61"
+      }
+    },
+    {
+      "id": "before",
+      "english": "before",
+      "translation": "在……之前",
+      "example": "Wash your hands before eating dinner.",
+      "audio": {
+        "src": "/audio/words/borrowing-sports-gear-before.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6db7d803e74f1ffa7d8f5adc0bf95b3e15bf4c8373fffadf546227cc6c6742cb",
+        "sha256": "c2f6fdb7469c36abf46e7e0c06fdd096e797d80b473356c1ce6b3feca8c38009"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Excuse me coach, may our class "
+        },
+        {
+          "text": "borrow",
+          "phraseIds": [
+            "borrow-equipment"
+          ],
+          "wordIds": [
+            "borrow"
+          ]
+        },
+        {
+          "text": " equipment",
+          "phraseIds": [
+            "borrow-equipment"
+          ]
+        },
+        {
+          "text": " for afternoon practice?"
+        }
+      ],
+      "translation": "教練不好意思，我們班下午練習可以借用運動器材嗎？",
+      "audio": {
+        "src": "/audio/sentences/borrowing-sports-gear/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27ea02cbf78192190a5e7d4fa454f7ef91386620d248db48db77e1e44380e7f3",
+        "sha256": "e24d92bdb097698a2632b6bf46b551841ff631de10b467593c42d717c1020ad8"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Please write down your grade and "
+        },
+        {
+          "text": "sign your name",
+          "phraseIds": [
+            "sign-your-name"
+          ]
+        },
+        {
+          "text": " in the "
+        },
+        {
+          "text": "gym",
+          "wordIds": [
+            "gym"
+          ]
+        },
+        {
+          "text": " logbook."
+        }
+      ],
+      "translation": "請在體育室登記簿上寫下你的班級並簽上你的名字。",
+      "audio": {
+        "src": "/audio/sentences/borrowing-sports-gear/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2dc474da18dcf2d3671ad11cbe7add12cfd212d034442b8c05997f73d9789f0d",
+        "sha256": "e77aecf981e0c54159acefe283a79f63e4a4c0b6976a0b7f61c1b53e44c5e706"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Are we allowed to use the outdoor "
+        },
+        {
+          "text": "volleyball ",
+          "phraseIds": [
+            "volleyball-court"
+          ]
+        },
+        {
+          "text": "court",
+          "phraseIds": [
+            "volleyball-court"
+          ],
+          "wordIds": [
+            "court"
+          ]
+        },
+        {
+          "text": " behind the cafeteria?"
+        }
+      ],
+      "translation": "我們可以使用餐廳後面的戶外排球場嗎？",
+      "audio": {
+        "src": "/audio/sentences/borrowing-sports-gear/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9caaf468a15d17ead0c8a0fd699cfe20b66d378bc01084914f7d6b6692cdc66e",
+        "sha256": "1205d0eb3f06e20a546b405eab619fc9b398ecc5995b7272076df905cb4c4c42"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yes, but remember that another class booked the "
+        },
+        {
+          "text": "court",
+          "wordIds": [
+            "court"
+          ]
+        },
+        {
+          "text": " after four."
+        }
+      ],
+      "translation": "可以，但請記得四點之後有另一個班級預約了那個球場。",
+      "audio": {
+        "src": "/audio/sentences/borrowing-sports-gear/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7694ae41aae841a70cd99f15a64f62c36c3f11c9d430bfd52fd69947dc8b1ab7",
+        "sha256": "c11a70ccd99269d5aa6957e5b17e9c2965a3141d683309cef5e1587dfbb7d4a5"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We promise to return all sports balls ten minutes "
+        },
+        {
+          "text": "before",
+          "phraseIds": [
+            "before-the-final-bell"
+          ],
+          "wordIds": [
+            "before"
+          ]
+        },
+        {
+          "text": " the final ",
+          "phraseIds": [
+            "before-the-final-bell"
+          ]
+        },
+        {
+          "text": "bell",
+          "phraseIds": [
+            "before-the-final-bell"
+          ],
+          "wordIds": [
+            "bell"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我們保證在放學最後一響鐘聲前十分鐘，把所有運動球具歸還。",
+      "audio": {
+        "src": "/audio/sentences/borrowing-sports-gear/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "de9bc211ae1e6ccc2169ea4d9d8aa267ac7b6a10fda299757fb771ba31333ff0",
+        "sha256": "f4e9dede4747a1674aae595c6fbc545df591655d2bc78b6e748701589634c7e3"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Make sure to wipe the balls "
+        },
+        {
+          "text": "clean",
+          "wordIds": [
+            "clean"
+          ]
+        },
+        {
+          "text": " and put the air pump "
+        },
+        {
+          "text": "back on its shelf",
+          "phraseIds": [
+            "back-on-its-shelf"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "記得要把球擦拭乾淨，並把打氣筒放回原本的架子上。",
+      "audio": {
+        "src": "/audio/sentences/borrowing-sports-gear/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bdd1b2ae33ed3e3d7d7a8d04846f1e6bef4958d99dc7b30613796df9457403de",
+        "sha256": "1a60b8c7cafc7208dea52165fa3d90142eb7d0bc16737d8e9a243f6879bce9d8"
+      }
+    }
+  ]
+}

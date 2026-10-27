@@ -1,0 +1,335 @@
+{
+  "id": "device-connection-trouble",
+  "title": "設備無法連線請教店員",
+  "titleEn": "Troubleshooting Device Connection with Store Staff",
+  "category": "數位生活",
+  "level": "初級至初中級",
+  "image": {
+    "src": "/images/scenes/device-connection-trouble.webp",
+    "alt": "在速食餐廳的直立式觸控點餐機前，店員蹲下打開機身底櫃關閉電源開關，協助顧客排解觸控螢幕當機連線異常。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "technical-trouble",
+      "english": "technical trouble",
+      "translation": "技術問題／障礙",
+      "audio": {
+        "src": "/audio/phrases/device-connection-trouble-technical-trouble.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d796d13a6e70639e7aa5fa0ff9fb697b49f0f0aeb87395b4d5e67964a4f19010",
+        "sha256": "f7c87a2b6bef7c256fd2e4c3955cf4e441510bcf2539eb60cbf06dc972221adb"
+      }
+    },
+    {
+      "id": "touch-screen",
+      "english": "touch screen",
+      "translation": "觸控螢幕",
+      "audio": {
+        "src": "/audio/phrases/device-connection-trouble-touch-screen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1ffecb0915f774a8782ceee1597adf65247ed413cd76805824d9884a9ec845ed",
+        "sha256": "96aaba8025d1df9abed1aaf26b41149d79090e13f44f3b69bf0a1a67226baba8"
+      }
+    },
+    {
+      "id": "completely-froze",
+      "english": "completely froze",
+      "translation": "整個凍結卡住",
+      "audio": {
+        "src": "/audio/phrases/device-connection-trouble-completely-froze.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "01eb9ebf3bf90a49d454d166fb154f0bd409d14faae319efbb0a7141e54b8c29",
+        "sha256": "a64cf7322771dab4bdf677145857d282b5206bd58172c13a2996cd3a04f11c22"
+      }
+    },
+    {
+      "id": "turn-off-the-power-switch",
+      "english": "turn off the power switch",
+      "translation": "關閉主電源開關",
+      "audio": {
+        "src": "/audio/phrases/device-connection-trouble-turn-off-the-power-switch.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "96b2423458d59b4b284983eaf96969a40d58dd3b8f585410577de69e46f66986",
+        "sha256": "4ea2e9a732a4a967b4d9832c9e6cc6c5b7966986639b5d15de0056166db0ffda"
+      }
+    },
+    {
+      "id": "restart-button",
+      "english": "restart button",
+      "translation": "重啟按鈕",
+      "audio": {
+        "src": "/audio/phrases/device-connection-trouble-restart-button.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9350fcb9f08ce9299d0e992907e0f2a1eb60f511c38040d7f749084065c001c6",
+        "sha256": "734a31b79d7785ab2d94fc247b09f957d6be730f407c06e6beab2afd6b7264a0"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "trouble",
+      "english": "trouble",
+      "translation": "麻煩",
+      "example": "He had some trouble starting his old motorcycle.",
+      "audio": {
+        "src": "/audio/words/device-connection-trouble-trouble.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7130df43355ec25b38bac55351d4bdf2c965da2847b8824b5e7760adb7ef7cd1",
+        "sha256": "be3c26abded011d06c8325a43a7d97596b9a142df51f1c43a39ce15c273d4e88"
+      }
+    },
+    {
+      "id": "screen",
+      "english": "screen",
+      "translation": "螢幕；顯示屏",
+      "example": "Show the ticket barcode clearly on your screen.",
+      "audio": {
+        "src": "/audio/words/device-connection-trouble-screen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4cd6c2914887dd4a68e4c9ffbed8b077f048cf795d6cfa0b801d43e0ea5a1560",
+        "sha256": "c93a6087c44bc2f28dfb4a750743282f64d7420a5794dcff1ae9faa98cebc67c"
+      }
+    },
+    {
+      "id": "turn",
+      "english": "turn",
+      "translation": "輪流；順序",
+      "example": "Turn off the lights before leaving the classroom.",
+      "audio": {
+        "src": "/audio/words/device-connection-trouble-turn.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9b473845f684444f80a26586ae298d2ba491752cc70b893cc653d943b6fa2ac2",
+        "sha256": "40e981b23f1051f800b9c9110a12e4a49fc7bd1a7926e69d024f53391aad0276"
+      }
+    },
+    {
+      "id": "button",
+      "english": "button",
+      "translation": "按鈕；按鍵",
+      "example": "Press the red button in case of an emergency.",
+      "audio": {
+        "src": "/audio/words/device-connection-trouble-button.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c3e2d78f3ff335724b4029f06505b511e4f8f01e258828de29849b36b40b55d0",
+        "sha256": "e879a369c5395096d8f4492712458a9bcec7174486f05d1016a2524fa563f055"
+      }
+    },
+    {
+      "id": "restart",
+      "english": "restart",
+      "translation": "重新啟動；重開機",
+      "example": "Restart your computer if the application stops responding.",
+      "audio": {
+        "src": "/audio/words/device-connection-trouble-restart.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3ace60b0a0c1b6c9345e31494142947aa97d4ef4912e895d8795663393819759",
+        "sha256": "52193b5283aeed672fa75fce083eef4b585f1d0768ac755f2efe1c5d0ac58fe5"
+      }
+    },
+    {
+      "id": "try",
+      "english": "try",
+      "translation": "嘗試、試試看",
+      "example": "Try to drink plenty of warm water today.",
+      "audio": {
+        "src": "/audio/words/device-connection-trouble-try.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1e262cd7d110812f5726055a6e672b92cde43648b76adff51a12441fbdf7e667",
+        "sha256": "c1a3b00f8b62e5cb8b230688bcc0fbe447bbf724acfefc6341826b4d4a5c276c"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Excuse me, I am having some "
+        },
+        {
+          "text": "technical ",
+          "phraseIds": [
+            "technical-trouble"
+          ]
+        },
+        {
+          "text": "trouble",
+          "phraseIds": [
+            "technical-trouble"
+          ],
+          "wordIds": [
+            "trouble"
+          ]
+        },
+        {
+          "text": " with this self-ordering kiosk."
+        }
+      ],
+      "translation": "不好意思，我使用這台自助點餐機時遇到了一些技術上的問題。",
+      "audio": {
+        "src": "/audio/sentences/device-connection-trouble/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ace6e41a13372e7d7b6d041e6421a3e601cd696b4f7847a7727537ac3ad6e4de",
+        "sha256": "7d40df3498776b8814740d674e8aa701001481e0867dcc2a0e611445a4a0278a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "What happened on the "
+        },
+        {
+          "text": "touch ",
+          "phraseIds": [
+            "touch-screen"
+          ]
+        },
+        {
+          "text": "screen",
+          "phraseIds": [
+            "touch-screen"
+          ],
+          "wordIds": [
+            "screen"
+          ]
+        },
+        {
+          "text": " while you were selecting your items?"
+        }
+      ],
+      "translation": "在您剛才選取商品項目的時候，觸控螢幕上發生了什麼事呢？",
+      "audio": {
+        "src": "/audio/sentences/device-connection-trouble/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "006d222b6f5276dea5e43713f3f3ab8369b7143e066b4efccc5d9a9a898e7998",
+        "sha256": "387a3697f01a9344b392a795e473e8f4dcbbeb846a248f6fcbb84c647412b308"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "screen",
+          "wordIds": [
+            "screen"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "completely froze",
+          "phraseIds": [
+            "completely-froze"
+          ]
+        },
+        {
+          "text": " and keeps displaying a network connection error."
+        }
+      ],
+      "translation": "螢幕整個凍結卡住了，而且一直顯示網路連線錯誤的提示。",
+      "audio": {
+        "src": "/audio/sentences/device-connection-trouble/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b99d1c1c1e61c11b78b9c915843760d54b82f7c18db0adf9961e4d8b485fcb92",
+        "sha256": "07fb614097d878edf0d0f6c2361c5f8348df6df3290b56e59c01d8665b07cd11"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Let me open the lower cabinet and "
+        },
+        {
+          "text": "turn",
+          "phraseIds": [
+            "turn-off-the-power-switch"
+          ],
+          "wordIds": [
+            "turn"
+          ]
+        },
+        {
+          "text": " off the power switch",
+          "phraseIds": [
+            "turn-off-the-power-switch"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "讓我把下方底櫃打開，把主電源開關關掉。",
+      "audio": {
+        "src": "/audio/sentences/device-connection-trouble/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "43b07a8efda4c47dadbfae9668456aa50cb443ad901d52170080d5f7dd6fe527",
+        "sha256": "8bc61efc16d3a9eefc7bc16b6c59e1c4d5617841864f3deceb4ad2542e6aa418"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We will wait ten seconds before pressing the "
+        },
+        {
+          "text": "restart",
+          "phraseIds": [
+            "restart-button"
+          ],
+          "wordIds": [
+            "restart"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "button",
+          "phraseIds": [
+            "restart-button"
+          ],
+          "wordIds": [
+            "button"
+          ]
+        },
+        {
+          "text": " again."
+        }
+      ],
+      "translation": "我們先等待十秒鐘，然後再重新按下重新開機鍵。",
+      "audio": {
+        "src": "/audio/sentences/device-connection-trouble/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f89d0ca6a6fd3e07ced2ed7d730c85e62cf0686f9a363f79a4c6da5945aea4ce",
+        "sha256": "97b107d3279c7219f5f7126fcb61b3a200225780336b77c4f5027fabd3cccfb8"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The system rebooted successfully, please "
+        },
+        {
+          "text": "try",
+          "wordIds": [
+            "try"
+          ]
+        },
+        {
+          "text": " tapping your card now."
+        }
+      ],
+      "translation": "系統已經成功重啟完成了，請您現在再次嘗試刷卡感應。",
+      "audio": {
+        "src": "/audio/sentences/device-connection-trouble/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1303bc97e077a73e2cff127980cf9817190d106ed28b2ba5a27e7665afa719e8",
+        "sha256": "6eadef6e373a562e4d355892def8c64042e0836807f02d6cfcde996110fa237d"
+      }
+    }
+  ]
+}

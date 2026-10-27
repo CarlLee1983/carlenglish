@@ -1,0 +1,446 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/cafe-wifi-password/1.mp3",
+      "text": "Excuse me, do you provide free customer Wi-Fi access in this coffee shop?",
+      "textSha256": "b947f0d39a2134e9f99e589a5253938fbed79cf328ef5d0d3c5cd406c6b9960f"
+    },
+    {
+      "src": "/audio/sentences/cafe-wifi-password/2.mp3",
+      "text": "Yes, look for the network name printed on your payment receipt.",
+      "textSha256": "8be4da9b6bb7baba80d440cfce64b54e9ecf8ca6536e872fe186223af04539fd"
+    },
+    {
+      "src": "/audio/sentences/cafe-wifi-password/3.mp3",
+      "text": "What is the password to connect my laptop to the internet?",
+      "textSha256": "361420dcf97d48467115272eeab1e352e04cb764eb1fc6efd04f09eb8df2400a"
+    },
+    {
+      "src": "/audio/sentences/cafe-wifi-password/4.mp3",
+      "text": "Type in the word coffee followed by the four digits 2026.",
+      "textSha256": "8655fa22fcee210eff21b52251f2fac8cc3c5bd90c589f9925a78b7eb313805b"
+    },
+    {
+      "src": "/audio/sentences/cafe-wifi-password/5.mp3",
+      "text": "Remember that the first letter must be entered in lowercase.",
+      "textSha256": "948ac9e698be96dfefaec27f1f51af1130df325e4cee352917f20f4268209bea"
+    },
+    {
+      "src": "/audio/sentences/cafe-wifi-password/6.mp3",
+      "text": "The Wi-Fi signal is very strong and works throughout the entire seating area.",
+      "textSha256": "79d2af7fd6a6b1404a0b8e117cd0e956400a0583ea58b5219475578614653fc3"
+    },
+    {
+      "src": "/audio/phrases/cafe-wifi-password-customer-wifi.mp3",
+      "text": "customer Wi-Fi",
+      "textSha256": "d892269884a159b17881261f8af9273c5f6c86f62af003bd0f1e47043f20f116"
+    },
+    {
+      "src": "/audio/phrases/cafe-wifi-password-network-name.mp3",
+      "text": "network name",
+      "textSha256": "c3de37ef574481567365d305064de1c01ffd03fe26b1ff26ac8d4804f134e999"
+    },
+    {
+      "src": "/audio/phrases/cafe-wifi-password-password-to-connect.mp3",
+      "text": "password to connect",
+      "textSha256": "c4608aa9f61d2d5691de2f65af6bb231548edf549729e48e2b495175893425d5"
+    },
+    {
+      "src": "/audio/phrases/cafe-wifi-password-type-in-the-word.mp3",
+      "text": "type in the word",
+      "textSha256": "57d96bd17e8e01511ee6750748e63ebd10055b895ad67629312c419acc843c60"
+    },
+    {
+      "src": "/audio/phrases/cafe-wifi-password-signal-is-very-strong.mp3",
+      "text": "signal is very strong",
+      "textSha256": "88de3a0f5b855e3fa51734aa80d623012c732e21e6490a57901dc8285bc2da59"
+    },
+    {
+      "src": "/audio/words/cafe-wifi-password-password.mp3",
+      "text": "password",
+      "textSha256": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
+    },
+    {
+      "src": "/audio/words/cafe-wifi-password-connect.mp3",
+      "text": "connect",
+      "textSha256": "5a638a128ca67348f1073ba0aed26d85905a29128cbd71b250c9cf4e598c7f0d"
+    },
+    {
+      "src": "/audio/words/cafe-wifi-password-signal.mp3",
+      "text": "signal",
+      "textSha256": "d041924c15885af6d06530a425c6dbffc80520150c4dd264f40b4364b12421a8"
+    },
+    {
+      "src": "/audio/words/cafe-wifi-password-letter.mp3",
+      "text": "letter",
+      "textSha256": "f80105efab6d863fd8fc243d269094469e2277e8f12e5a0a9f401e88494f7b4b"
+    },
+    {
+      "src": "/audio/words/cafe-wifi-password-strong.mp3",
+      "text": "strong",
+      "textSha256": "eda15ce4834ac303532bc6973df5ff8a5deb75d7dfceb9fc2cdf1bb450a01cf5"
+    },
+    {
+      "src": "/audio/words/cafe-wifi-password-work.mp3",
+      "text": "work",
+      "textSha256": "00e13ed7af55b27622f1d6eab5bec0147e68efe28dc2b12461117afa1a5ed40e"
+    },
+    {
+      "src": "/audio/sentences/borrowing-power-bank/1.mp3",
+      "text": "My phone battery is extremely low and down to three percent right now.",
+      "textSha256": "6c6fa305871d21816fab20fdc5d7bd9c2e6436464f0aa3c30ed4540f830e1767"
+    },
+    {
+      "src": "/audio/sentences/borrowing-power-bank/2.mp3",
+      "text": "If my phone dies, I will not be able to contact my parents.",
+      "textSha256": "a1f334829b5562e71ad12fbbc3d7d81aee3e02d2cdd5fdab9eb6ebd526ce663d"
+    },
+    {
+      "src": "/audio/sentences/borrowing-power-bank/3.mp3",
+      "text": "Do not panic, I have a fully charged portable power bank with me.",
+      "textSha256": "ce6a1c9bb0f3fe5b76adbcbd89a5fe4a5749210a22aa8f3de88dfd6b9ddb9260"
+    },
+    {
+      "src": "/audio/sentences/borrowing-power-bank/4.mp3",
+      "text": "Do you have a charging cable that matches my phone socket?",
+      "textSha256": "3622b20b3a462f5bbcce7067429a967a5b5c76631a6f290329645c80377b7c65"
+    },
+    {
+      "src": "/audio/sentences/borrowing-power-bank/5.mp3",
+      "text": "Yes, plug this white cable into the bottom port of your phone.",
+      "textSha256": "fe550df1e95b11e3c503c09097adaa276be975cd460eabc3d45af32df312da8c"
+    },
+    {
+      "src": "/audio/sentences/borrowing-power-bank/6.mp3",
+      "text": "The charging lightning icon appeared, thank you for saving my day!",
+      "textSha256": "768ba9c7acc4837a3e4b70c912e7b47026af9c448437eff2cfa2ab50659aa4a6"
+    },
+    {
+      "src": "/audio/phrases/borrowing-power-bank-down-to-three-percent.mp3",
+      "text": "down to three percent",
+      "textSha256": "ce7b6af1ea0b6d1dcb12f62630be904a04795378314886d524a25b38a6d1f85c"
+    },
+    {
+      "src": "/audio/phrases/borrowing-power-bank-phone-dies.mp3",
+      "text": "phone dies",
+      "textSha256": "0f40d687e82679727f9bbeaf8386aae6c894da5b1b633a8a6445a687d979d7b2"
+    },
+    {
+      "src": "/audio/phrases/borrowing-power-bank-portable-power-bank.mp3",
+      "text": "portable power bank",
+      "textSha256": "99dc5bf772f61072f51b8d1ba3a90a336b90c397bb75cfeac09dbc40413fee68"
+    },
+    {
+      "src": "/audio/phrases/borrowing-power-bank-charging-cable.mp3",
+      "text": "charging cable",
+      "textSha256": "c3e40e60dc40c2f2738b0593a995a6ae3197460d0f43864f8778f84e7bb9b801"
+    },
+    {
+      "src": "/audio/phrases/borrowing-power-bank-plug-this-white-cable-into.mp3",
+      "text": "plug this white cable into",
+      "textSha256": "56318df116389e76434ef05289a251a5ec3b6b16815fc7be82570cda99749ca4"
+    },
+    {
+      "src": "/audio/words/borrowing-power-bank-battery.mp3",
+      "text": "battery",
+      "textSha256": "f3d1701e1d575e1294786989517866986bc97343e07af63e201f46ba0be5806a"
+    },
+    {
+      "src": "/audio/words/borrowing-power-bank-power.mp3",
+      "text": "power",
+      "textSha256": "07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d"
+    },
+    {
+      "src": "/audio/words/borrowing-power-bank-cable.mp3",
+      "text": "cable",
+      "textSha256": "7d6e18d0ff4bed3b1d1f3afc82ffa124f83ff2b43c83bf14a69562c8e22f0b2c"
+    },
+    {
+      "src": "/audio/words/borrowing-power-bank-plug.mp3",
+      "text": "plug",
+      "textSha256": "0daf0c9ca37fec6e1d5a340073fb43a19c89c50c02827c9991295f89987c7c90"
+    },
+    {
+      "src": "/audio/words/borrowing-power-bank-charge.mp3",
+      "text": "charge",
+      "textSha256": "97488fbab3282166738a47c2f619037228568494475d4ac107c46c02678cb728"
+    },
+    {
+      "src": "/audio/words/borrowing-power-bank-low.mp3",
+      "text": "low",
+      "textSha256": "6c1ff09db3a73dc4a854f695d20d174a848d55f2d743bab2ee1f8fc75be454f3"
+    },
+    {
+      "src": "/audio/sentences/resending-verification-code/1.mp3",
+      "text": "I am registering a new online account, but I have not received the text message.",
+      "textSha256": "86f0355f7159102d4b6b61c3bc6f803d336e66f06ff4e6a44eb3e38f2edffd24"
+    },
+    {
+      "src": "/audio/sentences/resending-verification-code/2.mp3",
+      "text": "Please check if the phone number you entered is completely correct.",
+      "textSha256": "4cb0a5d3f464360ae13637524fe2867b309129cdf6f5ce814cb0b2d29a160c48"
+    },
+    {
+      "src": "/audio/sentences/resending-verification-code/3.mp3",
+      "text": "I double checked every single digit, and the mobile number is right.",
+      "textSha256": "e397a58068568eb48d5b89975feb9d55bdc1201cfc81084c67fb6b228de079ec"
+    },
+    {
+      "src": "/audio/sentences/resending-verification-code/4.mp3",
+      "text": "Sometimes the automated verification system takes up to sixty seconds.",
+      "textSha256": "e9c7fd1d9c1805b28e5a9c2ae21533a9412a44a0bfa7ecbbf47d3036a73caa8a"
+    },
+    {
+      "src": "/audio/sentences/resending-verification-code/5.mp3",
+      "text": "The countdown timer just reached zero, so I can click the resend button.",
+      "textSha256": "c3e03e86ab2c0af97b873ec9631d781d0241aa6d9587ea9d3f5443b1a8767bdc"
+    },
+    {
+      "src": "/audio/sentences/resending-verification-code/6.mp3",
+      "text": "The new six-digit code arrived instantly on my phone screen.",
+      "textSha256": "a030315d54d10c29b04bc0866371379642bb891aa004854c8204730a48b8b97c"
+    },
+    {
+      "src": "/audio/phrases/resending-verification-code-text-message.mp3",
+      "text": "text message",
+      "textSha256": "40c30d9bbe9c8509c2597f8e5f64be783981bedfabf1c52f12f8b12a5b4d3657"
+    },
+    {
+      "src": "/audio/phrases/resending-verification-code-double-checked.mp3",
+      "text": "double checked",
+      "textSha256": "f7b6531aa5c0b5bd029f2709da12e36ec8cf80c44546b68e40997341e7f23589"
+    },
+    {
+      "src": "/audio/phrases/resending-verification-code-verification-system.mp3",
+      "text": "verification system",
+      "textSha256": "70a7cce75fc39643c779ecbcf63bcdb9212d30405a24117e85d12eed54c9b2b3"
+    },
+    {
+      "src": "/audio/phrases/resending-verification-code-countdown-timer.mp3",
+      "text": "countdown timer",
+      "textSha256": "f6e643b31fbd585bee7d7626ed37271dcc3a3a28cefa1d3b23addcaed44c2ee5"
+    },
+    {
+      "src": "/audio/phrases/resending-verification-code-click-the-resend-button.mp3",
+      "text": "click the resend button",
+      "textSha256": "be513d9b501934b378837b62cce15cc0c6079e47853d6f8673d0148fcc7135b9"
+    },
+    {
+      "src": "/audio/words/resending-verification-code-message.mp3",
+      "text": "message",
+      "textSha256": "ab530a13e45914982b79f9b7e3fba994cfd1f3fb22f71cea1afbf02b460c6d1d"
+    },
+    {
+      "src": "/audio/words/resending-verification-code-receive.mp3",
+      "text": "receive",
+      "textSha256": "95100519be0342216c9c23348de6ab31630e6bd1c5c0b5b95e03f15c6b52a00b"
+    },
+    {
+      "src": "/audio/words/resending-verification-code-code.mp3",
+      "text": "code",
+      "textSha256": "5694d08a2e53ffcae0c3103e5ad6f6076abd960eb1f8a56577040bc1028f702b"
+    },
+    {
+      "src": "/audio/words/resending-verification-code-click.mp3",
+      "text": "click",
+      "textSha256": "e5c7ffac26fed654fe62045898f55b551a0dc120badf3d116bcd364418f3ec16"
+    },
+    {
+      "src": "/audio/words/resending-verification-code-system.mp3",
+      "text": "system",
+      "textSha256": "bbc5e661e106c6dcd8dc6dd186454c2fcba3c710fb4d8e71a60c93eaf077f073"
+    },
+    {
+      "src": "/audio/words/resending-verification-code-check.mp3",
+      "text": "check",
+      "textSha256": "20f65c28671b40937c5bf23acc7c6f37e5a5ec0622e347b57685725df5ba9e50"
+    },
+    {
+      "src": "/audio/sentences/device-connection-trouble/1.mp3",
+      "text": "Excuse me, I am having some technical trouble with this self-ordering kiosk.",
+      "textSha256": "ace6e41a13372e7d7b6d041e6421a3e601cd696b4f7847a7727537ac3ad6e4de"
+    },
+    {
+      "src": "/audio/sentences/device-connection-trouble/2.mp3",
+      "text": "What happened on the touch screen while you were selecting your items?",
+      "textSha256": "006d222b6f5276dea5e43713f3f3ab8369b7143e066b4efccc5d9a9a898e7998"
+    },
+    {
+      "src": "/audio/sentences/device-connection-trouble/3.mp3",
+      "text": "The screen completely froze and keeps displaying a network connection error.",
+      "textSha256": "b99d1c1c1e61c11b78b9c915843760d54b82f7c18db0adf9961e4d8b485fcb92"
+    },
+    {
+      "src": "/audio/sentences/device-connection-trouble/4.mp3",
+      "text": "Let me open the lower cabinet and turn off the power switch.",
+      "textSha256": "43b07a8efda4c47dadbfae9668456aa50cb443ad901d52170080d5f7dd6fe527"
+    },
+    {
+      "src": "/audio/sentences/device-connection-trouble/5.mp3",
+      "text": "We will wait ten seconds before pressing the restart button again.",
+      "textSha256": "f89d0ca6a6fd3e07ced2ed7d730c85e62cf0686f9a363f79a4c6da5945aea4ce"
+    },
+    {
+      "src": "/audio/sentences/device-connection-trouble/6.mp3",
+      "text": "The system rebooted successfully, please try tapping your card now.",
+      "textSha256": "1303bc97e077a73e2cff127980cf9817190d106ed28b2ba5a27e7665afa719e8"
+    },
+    {
+      "src": "/audio/phrases/device-connection-trouble-technical-trouble.mp3",
+      "text": "technical trouble",
+      "textSha256": "d796d13a6e70639e7aa5fa0ff9fb697b49f0f0aeb87395b4d5e67964a4f19010"
+    },
+    {
+      "src": "/audio/phrases/device-connection-trouble-touch-screen.mp3",
+      "text": "touch screen",
+      "textSha256": "1ffecb0915f774a8782ceee1597adf65247ed413cd76805824d9884a9ec845ed"
+    },
+    {
+      "src": "/audio/phrases/device-connection-trouble-completely-froze.mp3",
+      "text": "completely froze",
+      "textSha256": "01eb9ebf3bf90a49d454d166fb154f0bd409d14faae319efbb0a7141e54b8c29"
+    },
+    {
+      "src": "/audio/phrases/device-connection-trouble-turn-off-the-power-switch.mp3",
+      "text": "turn off the power switch",
+      "textSha256": "96b2423458d59b4b284983eaf96969a40d58dd3b8f585410577de69e46f66986"
+    },
+    {
+      "src": "/audio/phrases/device-connection-trouble-restart-button.mp3",
+      "text": "restart button",
+      "textSha256": "9350fcb9f08ce9299d0e992907e0f2a1eb60f511c38040d7f749084065c001c6"
+    },
+    {
+      "src": "/audio/words/device-connection-trouble-trouble.mp3",
+      "text": "trouble",
+      "textSha256": "7130df43355ec25b38bac55351d4bdf2c965da2847b8824b5e7760adb7ef7cd1"
+    },
+    {
+      "src": "/audio/words/device-connection-trouble-screen.mp3",
+      "text": "screen",
+      "textSha256": "4cd6c2914887dd4a68e4c9ffbed8b077f048cf795d6cfa0b801d43e0ea5a1560"
+    },
+    {
+      "src": "/audio/words/device-connection-trouble-turn.mp3",
+      "text": "turn",
+      "textSha256": "9b473845f684444f80a26586ae298d2ba491752cc70b893cc653d943b6fa2ac2"
+    },
+    {
+      "src": "/audio/words/device-connection-trouble-button.mp3",
+      "text": "button",
+      "textSha256": "c3e2d78f3ff335724b4029f06505b511e4f8f01e258828de29849b36b40b55d0"
+    },
+    {
+      "src": "/audio/words/device-connection-trouble-restart.mp3",
+      "text": "restart",
+      "textSha256": "3ace60b0a0c1b6c9345e31494142947aa97d4ef4912e895d8795663393819759"
+    },
+    {
+      "src": "/audio/words/device-connection-trouble-try.mp3",
+      "text": "try",
+      "textSha256": "1e262cd7d110812f5726055a6e672b92cde43648b76adff51a12441fbdf7e667"
+    },
+    {
+      "src": "/audio/sentences/confirming-online-booking/1.mp3",
+      "text": "Good evening, we made an advance reservation for a private game room tonight.",
+      "textSha256": "1c5c8f6bb16cc9e331853fe6a1bebe18f3956cd9470e94bef3d93ea85f165579"
+    },
+    {
+      "src": "/audio/sentences/confirming-online-booking/2.mp3",
+      "text": "Welcome, could you please provide your booking confirmation number?",
+      "textSha256": "7de5230910ce67008d603430e8da775d57b3d06591a6b0bf73b2ea32b4fae385"
+    },
+    {
+      "src": "/audio/sentences/confirming-online-booking/3.mp3",
+      "text": "Here is the confirmation email on my smartphone screen.",
+      "textSha256": "4acfafd21122ef66cd88a66893266ac2e0346ea5849f1422967fb4095a393a74"
+    },
+    {
+      "src": "/audio/sentences/confirming-online-booking/4.mp3",
+      "text": "The reservation code is BK-920 under the name of Sarah Chen.",
+      "textSha256": "8889f395d7a559862d44ed067c6b7879e2b3579ce36585ea527d83299c5bf40d"
+    },
+    {
+      "src": "/audio/sentences/confirming-online-booking/5.mp3",
+      "text": "Our computer system confirms your table is clean and completely ready.",
+      "textSha256": "f185f79486f9ad19f88d297dbeb99c72d34a6291a63332914921902fd750bd86"
+    },
+    {
+      "src": "/audio/sentences/confirming-online-booking/6.mp3",
+      "text": "Please follow me to room three and enjoy your wonderful game night!",
+      "textSha256": "89cb118f7146e5d642208bfd8b969d9431100d531cd7924fb651a7f902519bae"
+    },
+    {
+      "src": "/audio/phrases/confirming-online-booking-advance-reservation.mp3",
+      "text": "advance reservation",
+      "textSha256": "aa7ae1432c86f35580568d6386933f97b742458a088ae71e0d8ade27067021fe"
+    },
+    {
+      "src": "/audio/phrases/confirming-online-booking-booking-confirmation-number.mp3",
+      "text": "booking confirmation number",
+      "textSha256": "dabe3e2d4a8028a533835c68ab861d518baa38b5182fa90271091729620e3c00"
+    },
+    {
+      "src": "/audio/phrases/confirming-online-booking-on-my-smartphone-screen.mp3",
+      "text": "on my smartphone screen",
+      "textSha256": "481adbb81a41abc3f59d14697ed716199066ea398fb717089f250c73b151cbef"
+    },
+    {
+      "src": "/audio/phrases/confirming-online-booking-under-the-name-of.mp3",
+      "text": "under the name of",
+      "textSha256": "62affaf170dafb6ec13ab63a69d7c90e29af1a0d498083ee2e70112220e0b1d2"
+    },
+    {
+      "src": "/audio/phrases/confirming-online-booking-completely-ready.mp3",
+      "text": "completely ready",
+      "textSha256": "36c6f7c57b371961706dd4c1c39a850575d63c85af413e1b2bcb7dc07a2b8880"
+    },
+    {
+      "src": "/audio/words/confirming-online-booking-confirm.mp3",
+      "text": "confirm",
+      "textSha256": "3f267c2ab422e502bad8e60ff9e55666ec59b725e561bf1629c48a1578a08c79"
+    },
+    {
+      "src": "/audio/words/confirming-online-booking-reservation.mp3",
+      "text": "reservation",
+      "textSha256": "9efa077f044e7a779c655f8d8e8760cacd16ce2347b6aa10e45b18fb5325fdd6"
+    },
+    {
+      "src": "/audio/words/confirming-online-booking-room.mp3",
+      "text": "room",
+      "textSha256": "1f1c5b2fad778434024f1537986346927917f4755a6e7d3fd91f22653b7c3132"
+    },
+    {
+      "src": "/audio/words/confirming-online-booking-ready.mp3",
+      "text": "ready",
+      "textSha256": "b24d6d33736ecd5604a4b17bc9c6481039fac362bb7df044ef1c10a2bfd21db6"
+    },
+    {
+      "src": "/audio/words/confirming-online-booking-number.mp3",
+      "text": "number",
+      "textSha256": "12886f9d00055adf24c40579e22d31b2b45f2023f892954ffd5567beb60825f8"
+    },
+    {
+      "src": "/audio/words/confirming-online-booking-name.mp3",
+      "text": "name",
+      "textSha256": "82a3537ff0dbce7eec35d69edc3a189ee6f17d82f353a553f9aa96cb0be3ce89"
+    }
+  ]
+}

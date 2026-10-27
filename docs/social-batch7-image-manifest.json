@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "tool": "codex exec built-in imagegen",
+  "conversion": "1536x1024 landscape WebP, sharp quality 86; fit cover.",
+  "images": [
+    {
+      "id": "setting-meeting-time",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/setting-meeting-time.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6360c82fdde9017feb99f93d594ca2598754b6e4d22794726681649d36ff1e52"
+    },
+    {
+      "id": "apologizing-for-being-late",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/apologizing-for-being-late.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8796baedad06d6bf57c8710c37a8c4ececfb3a7db112be7aa308d17197933005"
+    },
+    {
+      "id": "declining-an-invitation",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/declining-an-invitation.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "e320bc38602c8b5b7fc0d380417d381a181af0dcba489c7f066f4430bee3e60f"
+    },
+    {
+      "id": "neighbor-elevator-chat",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/neighbor-elevator-chat.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f1d789c8c26395318f19b2efa923385d0918424779f2bab923eab6d4667eb8a0"
+    },
+    {
+      "id": "returning-borrowed-tool",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/returning-borrowed-tool.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "6b934300b065a37cf69616e1ae851e89f3b7a72f9236c80fe403b999a13982db"
+    }
+  ]
+}

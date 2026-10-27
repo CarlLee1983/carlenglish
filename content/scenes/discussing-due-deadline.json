@@ -1,0 +1,335 @@
+{
+  "id": "discussing-due-deadline",
+  "title": "協商作業繳交期限",
+  "titleEn": "Negotiating Deadlines for an Assignment",
+  "category": "校園生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/discussing-due-deadline.webp",
+    "alt": "在學校圖書館討論區裡，學生們圍著筆記型電腦協商小組科學報告各自繳交與統整校對的截止時間。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "final-deadline",
+      "english": "final deadline",
+      "translation": "最後截止時間",
+      "audio": {
+        "src": "/audio/phrases/discussing-due-deadline-final-deadline.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f730df42df5d5b651e2a7c08bda484f9474ee32a0e0e06b1a4446d868b543e5",
+        "sha256": "6c1117ac65066996138c287c37ea8f0330b3d0e8e8133f8221d5868431cd2b16"
+      }
+    },
+    {
+      "id": "by-tomorrow-evening",
+      "english": "by tomorrow evening",
+      "translation": "明天傍晚之前",
+      "audio": {
+        "src": "/audio/phrases/discussing-due-deadline-by-tomorrow-evening.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dd0468fe3e042a2404670c7a293eb2e4d9604fbce8a78e4bba0a0a61be0f704f",
+        "sha256": "b5bac9196e0a26f98c08fb6624d75603f9420b1ea3a0bea0af312c88614ddc1d"
+      }
+    },
+    {
+      "id": "combine-them-together",
+      "english": "combine them together",
+      "translation": "把它們統整在一起",
+      "audio": {
+        "src": "/audio/phrases/discussing-due-deadline-combine-them-together.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b4b9ceb688384f648eb36572f8d767b698fc236b2b1bc88355e16889c0cdf95e",
+        "sha256": "aee222fe83b45ae0357b16df784c2cec50cb1cf6c0fc41d17c3992f121dace88"
+      }
+    },
+    {
+      "id": "enough-hours-to-review",
+      "english": "enough hours to review",
+      "translation": "有足夠時間檢查",
+      "audio": {
+        "src": "/audio/phrases/discussing-due-deadline-enough-hours-to-review.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c05a36540613f09667009bd27c39cbd32177f1f1ca1cddce218a77f9ca3353f3",
+        "sha256": "b843041e14dec8bb66a36edd9cece539211174c681ca080d2551813aabc04a99"
+      }
+    },
+    {
+      "id": "before-the-deadline",
+      "english": "before the deadline",
+      "translation": "在截止之前",
+      "audio": {
+        "src": "/audio/phrases/discussing-due-deadline-before-the-deadline.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f7e2269bc27821fedffe99877f1b4fcdfba603b6f65581570205c2a1d7b79bf0",
+        "sha256": "0e69451f8011d91ba3b7fd16bb671b2ccafd6e62c76875a7de6563f2c90f7f46"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "finish",
+      "english": "finish",
+      "translation": "完成、結束",
+      "example": "Did you finish your math homework before dinner?",
+      "audio": {
+        "src": "/audio/words/discussing-due-deadline-finish.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "42af43e3616eba4a133a755540a88e6c61085dfe66c6e49e6ab8eaf9daf0c0da",
+        "sha256": "38f9f9df0d4cfc94a01528e1442cdfc28e8390243fe2f42053205ef5ce7366a3"
+      }
+    },
+    {
+      "id": "send",
+      "english": "send",
+      "translation": "寄、傳送",
+      "example": "Please send the file as a PDF attachment.",
+      "audio": {
+        "src": "/audio/words/discussing-due-deadline-send.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27ce1d1bf4270020e1799f12e647f5cbabda2b9eafd7202c43012a539986916b",
+        "sha256": "6b87ef010613ee0dd825a7be894063bed85cb7a8151ba7683f1a67f5aea35ec1"
+      }
+    },
+    {
+      "id": "ready",
+      "english": "ready",
+      "translation": "準備好的",
+      "example": "The players are ready on the basketball court.",
+      "audio": {
+        "src": "/audio/words/discussing-due-deadline-ready.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b24d6d33736ecd5604a4b17bc9c6481039fac362bb7df044ef1c10a2bfd21db6",
+        "sha256": "bfa5b5bca285e7225ed33eeca8c876708d6c218f6cb623313e17266bce039e1e"
+      }
+    },
+    {
+      "id": "tonight",
+      "english": "tonight",
+      "translation": "今晚",
+      "example": "There is a bright full moon in the sky tonight.",
+      "audio": {
+        "src": "/audio/words/discussing-due-deadline-tonight.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2769fc20451b51737baa457ef96532b84370d3664150af08b3f310f30448921f",
+        "sha256": "ff786712ce893c3645f670fcc729c9c3455b62cf5a3a904c10aacfe86aa0b0cd"
+      }
+    },
+    {
+      "id": "tomorrow",
+      "english": "tomorrow",
+      "translation": "明天",
+      "example": "Tomorrow is a public school holiday.",
+      "audio": {
+        "src": "/audio/words/discussing-due-deadline-tomorrow.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bafd151a86f9a573b153e76e3a8a0053b3340ce304a301a5354288fb18bce848",
+        "sha256": "387f7734cce797e1c501d978ab529872552be7ccd679d9e21944763b25e3ccf1"
+      }
+    },
+    {
+      "id": "complete",
+      "english": "complete",
+      "translation": "完整的；完成",
+      "example": "Fill out the complete registration form.",
+      "audio": {
+        "src": "/audio/words/discussing-due-deadline-complete.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "eebbf6457e46a7f63acdf9b97390f790ba443d60cfa44b607da7e5c40aa1cc1d",
+        "sha256": "36a50601a46cd01879584a9cbbb20e976a4c43c1ddc18ab91c8f54e2a5e96fbb"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "The teacher set the "
+        },
+        {
+          "text": "final deadline",
+          "phraseIds": [
+            "final-deadline"
+          ]
+        },
+        {
+          "text": " for our science report on Friday afternoon."
+        }
+      ],
+      "translation": "老師把我們自然科學報告的最終繳交截止時間設在週五下午。",
+      "audio": {
+        "src": "/audio/sentences/discussing-due-deadline/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5fb690a75ea2b55940d7d7835d9dd07366ffe407425afb166fb289564417e82d",
+        "sha256": "e488c918c94f156de46b290491ac01a76193a9cfc1e4fd379b876b33e2069cb1"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We should aim to "
+        },
+        {
+          "text": "finish",
+          "wordIds": [
+            "finish"
+          ]
+        },
+        {
+          "text": " our individual sections "
+        },
+        {
+          "text": "by ",
+          "phraseIds": [
+            "by-tomorrow-evening"
+          ]
+        },
+        {
+          "text": "tomorrow",
+          "phraseIds": [
+            "by-tomorrow-evening"
+          ],
+          "wordIds": [
+            "tomorrow"
+          ]
+        },
+        {
+          "text": " evening",
+          "phraseIds": [
+            "by-tomorrow-evening"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我們應該以明天傍晚前完成各自負責的章節段落為目標。",
+      "audio": {
+        "src": "/audio/sentences/discussing-due-deadline/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2b3067dbced51b4084e1984bdb064e865e182f9ad52bf09735b07d8db56a9b51",
+        "sha256": "ae29d3102b89c4bca663573eec34223d6d9122e14c8849e92f189bd2a7c1c29c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "If everyone "
+        },
+        {
+          "text": "sends",
+          "wordIds": [
+            "send"
+          ]
+        },
+        {
+          "text": " their draft "
+        },
+        {
+          "text": "tonight",
+          "wordIds": [
+            "tonight"
+          ]
+        },
+        {
+          "text": ", I can "
+        },
+        {
+          "text": "combine them together",
+          "phraseIds": [
+            "combine-them-together"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "如果大家今晚把各自的草稿寄給我，我可以把它們統整在一起。",
+      "audio": {
+        "src": "/audio/sentences/discussing-due-deadline/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "973cc587ad42ce796c4baa479dbe16cc31286e6c5a8002566d726bcd7b156efe",
+        "sha256": "c8bb8d03b63b728f0a2e79480cb76849f5dba2ec2462f1ade3b7f075a4292256"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Will that give us "
+        },
+        {
+          "text": "enough hours to review",
+          "phraseIds": [
+            "enough-hours-to-review"
+          ]
+        },
+        {
+          "text": " the sentences carefully?"
+        }
+      ],
+      "translation": "那樣會有足夠的時間讓我們仔細檢查修飾每一句話嗎？",
+      "audio": {
+        "src": "/audio/sentences/discussing-due-deadline/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "183cc4ad8bbb59dc91787ee0eb81df80f3bb5eb99f87c12b15dec59228013217",
+        "sha256": "002d0b7c298ead9a2f5ea4f54734a945a75a67b4b462f01d98bdd97d0d57c35b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yes, having the report "
+        },
+        {
+          "text": "ready",
+          "wordIds": [
+            "ready"
+          ]
+        },
+        {
+          "text": " by Thursday leaves us time for corrections."
+        }
+      ],
+      "translation": "有的，週四就把報告準備好，能留給我們充分的時間做修正。",
+      "audio": {
+        "src": "/audio/sentences/discussing-due-deadline/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "631cfcae3e4364b0b009004e265bf50caa4650b78aff9a1602ee40183e237307",
+        "sha256": "c5737f7321ddb283c064767c5a5e319766ba98128a88f61082830bc3080fdf66"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Let us promise to submit the "
+        },
+        {
+          "text": "completed",
+          "wordIds": [
+            "complete"
+          ]
+        },
+        {
+          "text": " file two hours "
+        },
+        {
+          "text": "before the deadline",
+          "phraseIds": [
+            "before-the-deadline"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我們約定在截止時間前兩小時，就把完成的檔案正式送出。",
+      "audio": {
+        "src": "/audio/sentences/discussing-due-deadline/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "127559e96de60d69ee07fade3f7e10fe0561089d587c4a37118363b855598331",
+        "sha256": "54cc4ebeb2c0786281cf0d47b99a383a1048c9d4982f2f9f4ba601c9f365429b"
+      }
+    }
+  ]
+}

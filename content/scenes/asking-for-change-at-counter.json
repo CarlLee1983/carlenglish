@@ -1,0 +1,356 @@
+{
+  "id": "asking-for-change-at-counter",
+  "title": "商店櫃檯換大鈔與硬幣",
+  "titleEn": "Asking for Change at the Counter",
+  "category": "金融生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/asking-for-change-at-counter.webp",
+    "alt": "在便利商店明亮的收銀櫃檯前，親切的店員面帶微笑，將一張千元大鈔找開，把百元紙鈔與十元硬幣整齊排在玻璃檯面上清點。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "break-this-thousand-dollar-bill",
+      "english": "break this thousand-dollar bill",
+      "translation": "把千元大鈔找開",
+      "audio": {
+        "src": "/audio/phrases/asking-for-change-at-counter-break-this-thousand-dollar-bill.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e0272412d7a3d5e9f53142641c60d802740296ff7d87ce77d13d15a396512e1a",
+        "sha256": "2930833ab8b23468653668d97377a69a2b7b47072b34b2a042dc671ffc113919"
+      }
+    },
+    {
+      "id": "self-service-laundry",
+      "english": "self-service laundry",
+      "translation": "自助洗衣店",
+      "audio": {
+        "src": "/audio/phrases/asking-for-change-at-counter-self-service-laundry.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "84b833560376d5686211e74a52d8bbde8721431aeb925a77e4464a2e00bb4bd5",
+        "sha256": "5f2a21ae297d62552573cfba9d4ea760ad78b5fbaa8871218231b9ac9b6a3816"
+      }
+    },
+    {
+      "id": "how-would-you-like-your-change",
+      "english": "how would you like your change",
+      "translation": "你想怎麼找開零錢",
+      "audio": {
+        "src": "/audio/phrases/asking-for-change-at-counter-how-would-you-like-your-change.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "10df07fe8265e981dadde96f3dfbca99c13b7205cd21cc7ee2c0cb75eac62584",
+        "sha256": "dee08d664193f5753e565d8cc88a41f30c3ae33e1b17a51fe60e8c85f60ea8b4"
+      }
+    },
+    {
+      "id": "hundred-dollar-bills",
+      "english": "hundred-dollar bills",
+      "translation": "百元紙鈔",
+      "audio": {
+        "src": "/audio/phrases/asking-for-change-at-counter-hundred-dollar-bills.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3a68f16e3c0e3bd044bf0eac20374ffc65df2f7de979d0119758c82cb913d602",
+        "sha256": "82ebbf65c51fa33ee5f042a3b47ef34144b541ec7c343999d2c5b05201c869b7"
+      }
+    },
+    {
+      "id": "counted-each-coin-out-loud",
+      "english": "counted each coin out loud",
+      "translation": "大聲清點每枚硬幣",
+      "audio": {
+        "src": "/audio/phrases/asking-for-change-at-counter-counted-each-coin-out-loud.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "924730c4a3e68f6b5237aefa3d23ed402c27df832b8b27ad6c4a4f892db2045b",
+        "sha256": "ba7445c4733a8cf3708176d5ebba38e298ecaebe02a69fa199ed5c171fbc086e"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "bill",
+      "english": "bill",
+      "translation": "紙鈔；帳單",
+      "example": "He paid for the apples with a twenty-dollar bill.",
+      "audio": {
+        "src": "/audio/words/asking-for-change-at-counter-bill.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "623210167553939c87ed8c5f2bfe0b3e0684e12c3a3dd2513613c4e67263b5a1",
+        "sha256": "72157a2a3981d7206329eb44f8b797d50d1b23046810a58a0eaec386fc43ee42"
+      }
+    },
+    {
+      "id": "coin",
+      "english": "coin",
+      "translation": "硬幣；錢幣",
+      "example": "Drop two coins into the vending machine.",
+      "audio": {
+        "src": "/audio/words/asking-for-change-at-counter-coin.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b3a1984ba0b1d8ad7f9dc881dfd9c9dc78c76c647a7692fbbfd6fcdcb9d9a121",
+        "sha256": "2577b92134043fbd4330f1b7ce378eb237c6000eb53b0bf1ad859d28fea141b2"
+      }
+    },
+    {
+      "id": "hundred",
+      "english": "hundred",
+      "translation": "百；一百",
+      "example": "The recipe calls for one hundred grams of sugar.",
+      "audio": {
+        "src": "/audio/words/asking-for-change-at-counter-hundred.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "97fe8a374906993133a2a9f4c9667ce253c107760d79c049cdf95788b0b7a83a",
+        "sha256": "5ac395351630bda726985e105c33d63a46d3ff4f4a7b5d573d745faafb4c3fb2"
+      }
+    },
+    {
+      "id": "twenty",
+      "english": "twenty",
+      "translation": "二十",
+      "example": "She read twenty pages of the novel before sleep.",
+      "audio": {
+        "src": "/audio/words/asking-for-change-at-counter-twenty.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7c2c4df740f720b0c861920dc27692c4d4b5daa65d6330a593c931d35f8ac737",
+        "sha256": "102de5175ad718beac885f1515a2b3f7a5f50a2079298056efe74ddc4082d192"
+      }
+    },
+    {
+      "id": "counter",
+      "english": "counter",
+      "translation": "櫃檯；服務台",
+      "example": "Leave your order ticket at the pickup counter.",
+      "audio": {
+        "src": "/audio/words/asking-for-change-at-counter-counter.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "efe899c74558f20b08bbc19bf0228c0c25bddb7871d80bd34ac8b33c030b3698",
+        "sha256": "128cd55a0606eb2aef62dd16573fc36646b9e669fe4182b9e48183a7499719e7"
+      }
+    },
+    {
+      "id": "clerk",
+      "english": "clerk",
+      "translation": "店員；辦事員",
+      "example": "The bookstore clerk helped me find the English dictionary.",
+      "audio": {
+        "src": "/audio/words/asking-for-change-at-counter-clerk.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c40dc72b0228e5850d8b173ff861a48acfb4a15b37b2849cbb6584bbadbc7907",
+        "sha256": "b35dcbe9f6d0107108ffadaaddda118520fd5a8537d0c0a8fe7d0c5ded29f9fe"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Excuse me "
+        },
+        {
+          "text": "counter",
+          "wordIds": [
+            "counter"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "clerk",
+          "wordIds": [
+            "clerk"
+          ]
+        },
+        {
+          "text": ", could you please "
+        },
+        {
+          "text": "break this thousand-dollar ",
+          "phraseIds": [
+            "break-this-thousand-dollar-bill"
+          ]
+        },
+        {
+          "text": "bill",
+          "phraseIds": [
+            "break-this-thousand-dollar-bill"
+          ],
+          "wordIds": [
+            "bill"
+          ]
+        },
+        {
+          "text": " for me?"
+        }
+      ],
+      "translation": "櫃檯店員不好意思，可以請您幫我把這張一千元大鈔找開換零錢嗎？",
+      "audio": {
+        "src": "/audio/sentences/asking-for-change-at-counter/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "293ef1637fc34d91c0afa7224ce65b9452ad42024759704ffe0d83ec53969f62",
+        "sha256": "ef645fd33d4fc0c211af2dde44e90e85cde6114d5399ff9b089409cca35669d5"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I need small "
+        },
+        {
+          "text": "coins",
+          "wordIds": [
+            "coin"
+          ]
+        },
+        {
+          "text": " to use the "
+        },
+        {
+          "text": "self-service laundry",
+          "phraseIds": [
+            "self-service-laundry"
+          ]
+        },
+        {
+          "text": " machines down the street."
+        }
+      ],
+      "translation": "我需要一些小硬幣，好去街尾使用自助洗衣店的機器投幣。",
+      "audio": {
+        "src": "/audio/sentences/asking-for-change-at-counter/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ffe750bf3c749145c005714d139045c427599c871d77412fd49af821543f5a7b",
+        "sha256": "bff357e25bb70de0505ec56f402793332b209a1e2d12f6d0589956c1cff47407"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Certainly, "
+        },
+        {
+          "text": "how would you like your change",
+          "phraseIds": [
+            "how-would-you-like-your-change"
+          ]
+        },
+        {
+          "text": " divided today?"
+        }
+      ],
+      "translation": "沒問題，請問今天想怎麼分配您換開的零錢呢？",
+      "audio": {
+        "src": "/audio/sentences/asking-for-change-at-counter/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "09657885cf863e989a2fec4df09e66fb0a88d23803415ad8a2571a1f1eb70444",
+        "sha256": "79e4131d60b3f551e050b8f44bf1ee5ad36affcbdf0e3d8eaf7f2dff8098b7cd"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Could I have nine "
+        },
+        {
+          "text": "hundred",
+          "phraseIds": [
+            "hundred-dollar-bills"
+          ],
+          "wordIds": [
+            "hundred"
+          ]
+        },
+        {
+          "text": "-dollar bills",
+          "phraseIds": [
+            "hundred-dollar-bills"
+          ]
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "twenty",
+          "wordIds": [
+            "twenty"
+          ]
+        },
+        {
+          "text": " ten-dollar "
+        },
+        {
+          "text": "coins",
+          "wordIds": [
+            "coin"
+          ]
+        },
+        {
+          "text": ", please?"
+        }
+      ],
+      "translation": "可以給我九張一百元紙鈔，以及二十枚十元硬幣嗎？",
+      "audio": {
+        "src": "/audio/sentences/asking-for-change-at-counter/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4fd190ed70c2edf7fd1103bc21474d8bef67a6dc59ddba31c2267b05565a2062",
+        "sha256": "3941260b6aadfeee200abf3101ba6bbcfeb7926daa47d9513ca4ab3f11272735"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The friendly "
+        },
+        {
+          "text": "clerk",
+          "wordIds": [
+            "clerk"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "counted each coin out loud",
+          "phraseIds": [
+            "counted-each-coin-out-loud"
+          ]
+        },
+        {
+          "text": " on the glass "
+        },
+        {
+          "text": "counter",
+          "wordIds": [
+            "counter"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "親切的店員在玻璃櫃檯上大聲清楚地把每枚硬幣清點了一遍。",
+      "audio": {
+        "src": "/audio/sentences/asking-for-change-at-counter/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bc2dddb7c5fa80af402e6db32af697205fed978c26121b36257dbb6870f13c35",
+        "sha256": "482134c3e3225fe4c911bb0a0b5b0e026b0dc8348967a637f031006596c657bd"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Everything is exact and correct, thank you so much for your kind assistance!"
+        }
+      ],
+      "translation": "金額完全精確無誤，非常謝謝您熱心的幫忙！",
+      "audio": {
+        "src": "/audio/sentences/asking-for-change-at-counter/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "036e648ed8858264a983f81078dd9c7e0dba14235c52d793be2568c2ce963ac3",
+        "sha256": "de2345cd421b1a0db1970f617c8247931c7da4fb28ee009837d2e88bb66fd13a"
+      }
+    }
+  ]
+}

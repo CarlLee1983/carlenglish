@@ -1,0 +1,1211 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/bakery-fresh-batch/1.mp3",
+      "text": "The whole store smells wonderful like warm butter.",
+      "textSha256": "40cd0e6802b82789b3d395dbab50cfcdced30d3eea057ea096e0a3d0014c5adf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "27cf23a154b5ffbe68bd1bb8ea3b5009121e6bf1eca26f55ee06a4991e0538d0",
+      "duration": 3.275,
+      "graphemes": [
+        "The whole store smells wonderful like warm butter."
+      ],
+      "phonemes": [
+        "ðə hˈOl stˈɔɹ smˈɛlz wˈʌndəɹfᵊl lˈIk wˈɔɹm bˈʌTəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bakery-fresh-batch/2.mp3",
+      "text": "Are the cheese rolls fresh out of the oven right now?",
+      "textSha256": "c662192626817d64b127f9df70d498661c62c95481e89b98c3856483bd209dea",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2fa4f89937e0ac0b97806136b2536b0c7e6e1545982f2b44ed522202dc232e28",
+      "duration": 3.2,
+      "graphemes": [
+        "Are the cheese rolls fresh out of the oven right now?"
+      ],
+      "phonemes": [
+        "ˌɑɹ ðə ʧˈiz ɹˈOlz fɹˈɛʃ ˈWt ʌv ði ˈʌvᵊn ɹˈIt nˈW?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/bakery-fresh-batch/3.mp3",
+      "text": "Yes, this hot batch just came out two minutes ago.",
+      "textSha256": "7ec2a2df3c525b1b0193f79b6f4e8e2a62862b7cda0fd0f0fb9b937a3c76b453",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "13fdf2f56b7e2b947d56c70e0a77548fff2e9f894420d52ee589b63d2ab2d517",
+      "duration": 3.25,
+      "graphemes": [
+        "Yes, this hot batch just came out two minutes ago."
+      ],
+      "phonemes": [
+        "jˈɛs, ðɪs hˈɑt bˈæʧ ʤˈʌst kˈAm ˈWt tˈu mˈɪnəts əɡˈO."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bakery-fresh-batch/4.mp3",
+      "text": "When will the chocolate croissants be ready?",
+      "textSha256": "4acc21529f70c8c275666ae1b2bff273b6b6d5dc0a97f9877d5ff1f1f0441312",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4e47e355f7bd18e44df4b49bbcb463372129082e331c543b377592a6aff2a853",
+      "duration": 2.925,
+      "graphemes": [
+        "When will the chocolate croissants be ready?"
+      ],
+      "phonemes": [
+        "wˌɛn wɪl ðə ʧˈɑkᵊlət kɹwˌɑsˈɑnts bi ɹˈɛdi?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/bakery-fresh-batch/5.mp3",
+      "text": "Another fresh batch will be ready in half an hour.",
+      "textSha256": "fd14e0133a2d5657dc7c698e5b1f4dc01a9ef3d12fbf30158e21d2124d73e072",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bd05561a7a3c31f5ebc0071ed908e87279c15ea58bc28b3fb779743fb3e8c08d",
+      "duration": 3.225,
+      "graphemes": [
+        "Another fresh batch will be ready in half an hour."
+      ],
+      "phonemes": [
+        "ənˈʌðəɹ fɹˈɛʃ bˈæʧ wɪl bi ɹˈɛdi ɪn hˈæf ɐn ˈWəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bakery-fresh-batch/6.mp3",
+      "text": "I am happy to wait nearby until they are ready.",
+      "textSha256": "662486be90ed7a99a9d552c6209eecda147ec7b56b67dbba8383c85d46a6df9c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5eb2b87670713aa1996faa5ffb7085dfa19a7b2865591b05a0da613203c9a580",
+      "duration": 3.15,
+      "graphemes": [
+        "I am happy to wait nearby until they are ready."
+      ],
+      "phonemes": [
+        "ˌI ɐm hˈæpi tə wˈAt nˌɪɹbˈI ˌʌntˈɪl ðA ɑɹ ɹˈɛdi."
+      ]
+    },
+    {
+      "src": "/audio/phrases/bakery-fresh-batch-smells-wonderful.mp3",
+      "text": "smells wonderful",
+      "textSha256": "d800817a1574544c40c19e4bd4158880d8d15b475f79ecfd36bb02087b5b6f56",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "efe8d132fc08b9c04fefb9d3845fbd5212b8f82dd28c30767d7f1238fcfdcea8",
+      "duration": 1.7,
+      "graphemes": [
+        "smells wonderful"
+      ],
+      "phonemes": [
+        "smˈɛlz wˈʌndəɹfᵊl"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bakery-fresh-batch-fresh-out-of-the-oven.mp3",
+      "text": "fresh out of the oven",
+      "textSha256": "0afb3b7556b131e66b04f9b9eee8d9200fca00e2dbbcc14c5172c4eeebcb7883",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "809ab59ea3bee0fc782b7f36e2ec8b9e6a313c2561ecf8be54200433fb974d47",
+      "duration": 1.75,
+      "graphemes": [
+        "fresh out of the oven"
+      ],
+      "phonemes": [
+        "fɹˈɛʃ ˈWt ʌv ði ˈʌvᵊn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bakery-fresh-batch-just-came-out.mp3",
+      "text": "just came out",
+      "textSha256": "02eccf3b3f47aa52ae65818e7e9867a2f3ca569cee68f83acf009f66d926f00c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7d8f54d9660278f73333b0711e6f3824bddf8b2204b52913191a023ab6570468",
+      "duration": 1.625,
+      "graphemes": [
+        "just came out"
+      ],
+      "phonemes": [
+        "ʤˈʌst kˈAm ˈWt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bakery-fresh-batch-half-an-hour.mp3",
+      "text": "half an hour",
+      "textSha256": "7f92b3b098631bda8082b4c0ea45a2a27b28ea1cf917367f97f28c1e74902b00",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7968ba76c8418bb03a8c76ae5918f8aeca0cfa700f96802713ff174710812a60",
+      "duration": 1.5,
+      "graphemes": [
+        "half an hour"
+      ],
+      "phonemes": [
+        "hˈæf ɐn ˈWəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bakery-fresh-batch-happy-to-wait.mp3",
+      "text": "happy to wait",
+      "textSha256": "743efa5e2c316901cc913709e0ab21ac0ada6055d7d7aab4f54668d6891991f4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "46eb49a05721c24959ca6750d698a1ae53fe3d90f3f6f50ee88e3c1cc6368406",
+      "duration": 1.6,
+      "graphemes": [
+        "happy to wait"
+      ],
+      "phonemes": [
+        "hˈæpi tə wˈAt"
+      ]
+    },
+    {
+      "src": "/audio/words/bakery-fresh-batch-fresh.mp3",
+      "text": "fresh",
+      "textSha256": "d098ab5e44b9aabb755f76d806598f43573c662b35e4a2eab1e312ec9ad195e2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "26ad8961b83719dade90a3a0cb3b6c4c4f601cbc0a7079f1977c5ae797f63adb",
+      "duration": 1.375,
+      "graphemes": [
+        "fresh"
+      ],
+      "phonemes": [
+        "fɹˈɛʃ"
+      ]
+    },
+    {
+      "src": "/audio/words/bakery-fresh-batch-hot.mp3",
+      "text": "hot",
+      "textSha256": "7f5d1618e7d28cc7bf32788672be04c24877d9a8911f65fef8e3e013c9cbc373",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "930b63ed92b09b3b90b0134a4a0c237a296914452b99220428fcba87f240cf15",
+      "duration": 1.2,
+      "graphemes": [
+        "hot"
+      ],
+      "phonemes": [
+        "hˈɑt"
+      ]
+    },
+    {
+      "src": "/audio/words/bakery-fresh-batch-ready.mp3",
+      "text": "ready",
+      "textSha256": "b24d6d33736ecd5604a4b17bc9c6481039fac362bb7df044ef1c10a2bfd21db6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6015a4b8ad68e4bb77332c4465a7b1c0a8214e54210bcd41646f123c709549ea",
+      "duration": 1.35,
+      "graphemes": [
+        "ready"
+      ],
+      "phonemes": [
+        "ɹˈɛdi"
+      ]
+    },
+    {
+      "src": "/audio/words/bakery-fresh-batch-smell.mp3",
+      "text": "smell",
+      "textSha256": "8fca2d48e1ee96c1193ac41b8baff2f8b83738e79d99cd4e8ce86df1a712be97",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f61a80eaf6c7a5d9a698f2139d50d3f67c5668fc27ec8fa3119de3ef9084ef51",
+      "duration": 1.4,
+      "graphemes": [
+        "smell"
+      ],
+      "phonemes": [
+        "smˈɛl"
+      ]
+    },
+    {
+      "src": "/audio/words/bakery-fresh-batch-another.mp3",
+      "text": "another",
+      "textSha256": "ae448ac86c4e8e4dec645729708ef41873ae79c6dff84eff73360989487f08e5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8a75033285ef942aef66c58769291177c0bcb3a34d9332dfee2e1622c6c72494",
+      "duration": 0.925,
+      "graphemes": [
+        "another"
+      ],
+      "phonemes": [
+        "ənˈʌðəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/bakery-fresh-batch-hour.mp3",
+      "text": "hour",
+      "textSha256": "9ac0add475dd38e6ab3a3fb5ab4579c886eb654f57764210a352fd62e9dd9706",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "30f2354d47affa30eccdadc6cde12a6db0fc52d6ba7e2b63762bae5d96dbced3",
+      "duration": 1.35,
+      "graphemes": [
+        "hour"
+      ],
+      "phonemes": [
+        "ˈWəɹ"
+      ]
+    },
+    {
+      "src": "/audio/sentences/mrt-transfer-help/1.mp3",
+      "text": "Excuse me, which line goes to the central park station?",
+      "textSha256": "8d36bb97d2d8d95f608f838b0cdd60121c660d46613a88b68b668b6c85a4d5e4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e3c112c285b03ba12e05a41a7db10728db974bb52c24c841d64d08ad29a0acaa",
+      "duration": 3.9,
+      "graphemes": [
+        "Excuse me, which line goes to the central park station?"
+      ],
+      "phonemes": [
+        "ɪkskjˈuz mˌi, wˌɪʧ lˈIn ɡˈOz tə ðə sˈɛntɹəl pˈɑɹk stˈAʃən?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/mrt-transfer-help/2.mp3",
+      "text": "You need to take the red line and transfer at Taipei Main Station.",
+      "textSha256": "645de6453078b8d6878fc2a2b198190ed46c2f8420268d30eeffea2614aa4a66",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "329d8329ea685c6f7c28f90cd21551de825127c39aa37a49dfa9f5121e5770b4",
+      "duration": 4.45,
+      "graphemes": [
+        "You need to take the red line and transfer at Taipei Main Station."
+      ],
+      "phonemes": [
+        "jˌu nˈid tə tˈAk ðə ɹˈɛd lˈIn ænd tɹˈænsfəɹ æt tˌIpˈA mˈAn stˈAʃən."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mrt-transfer-help/3.mp3",
+      "text": "Is the transfer on this floor or downstairs?",
+      "textSha256": "b6b5a75b8652964f424b0a41928606796cbc967af873b30a4666391478aa8fdb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "da9800a681a2f3f5aa1900f1a9f8af75eea98747dec2bb1e4a76b7ac0ad1ef7d",
+      "duration": 2.9,
+      "graphemes": [
+        "Is the transfer on this floor or downstairs?"
+      ],
+      "phonemes": [
+        "ˌɪz ðə tɹˈænsfəɹ ˌɔn ðɪs flˈɔɹ ɔɹ dˌWnstˈɛɹz?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/mrt-transfer-help/4.mp3",
+      "text": "Go downstairs and follow the blue arrows on the floor.",
+      "textSha256": "4aa13dfeb7697c0ae214dd1ca2b644ea128ca63731f353f96c24d7f1e81cc23b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b9f9f858fdcba51a2b86f5b50b480646b4c9699e2864a3c7f490667566991a0c",
+      "duration": 3.625,
+      "graphemes": [
+        "Go downstairs and follow the blue arrows on the floor."
+      ],
+      "phonemes": [
+        "ɡˌO dˌWnstˈɛɹz ænd fˈɑlO ðə blˈu ˈɛɹOz ˌɔn ðə flˈɔɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mrt-transfer-help/5.mp3",
+      "text": "Which direction should I look for on the platform?",
+      "textSha256": "a17f81610a7cf8d8c50a3d42e0c446d332acb031ce8f831c0ff1f5b0a338ed01",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c789fd7d94053c3591775327e89ba27f7431e241fc07719e8965611dece65cba",
+      "duration": 3.025,
+      "graphemes": [
+        "Which direction should I look for on the platform?"
+      ],
+      "phonemes": [
+        "wˌɪʧ dəɹˈɛkʃən ʃˌʊd ˌI lˈʊk fɔɹ ˌɔn ðə plˈætfˌɔɹm?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/mrt-transfer-help/6.mp3",
+      "text": "Follow the signs pointing toward the north terminal.",
+      "textSha256": "71b5b2bb004f2d355d98bab7dba016959a3392c322b1a3ab4ea6441e68d7beb9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "67096027361039ae22576b42bc610a5d2d41a4ee662e13f2112e4c27cacbc950",
+      "duration": 3.125,
+      "graphemes": [
+        "Follow the signs pointing toward the north terminal."
+      ],
+      "phonemes": [
+        "fˈɑlO ðə sˈInz pˈYntɪŋ tˈɔɹd ðə nˈɔɹθ tˈɜɹmənəl."
+      ]
+    },
+    {
+      "src": "/audio/phrases/mrt-transfer-help-which-line-goes-to.mp3",
+      "text": "which line goes to",
+      "textSha256": "5d97424f32f286fe4d8e20a9ad397ec1cba86b48332ab496e5a0db73086c697e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "37738257c4df526aff5451c684042e2c28d0d9a2b1c6142ac665c98909826878",
+      "duration": 2,
+      "graphemes": [
+        "which line goes to"
+      ],
+      "phonemes": [
+        "wˌɪʧ lˈIn ɡˈOz tu"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mrt-transfer-help-transfer-at.mp3",
+      "text": "transfer at",
+      "textSha256": "30b31d5ae3a2ee4f5309f9bdad7950403fe589b5f8e6126b22bc950aca4cde89",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "95a1944367f6e57008384297b3e4295df7e4f07c9f5acff087aed0c8d4dd3187",
+      "duration": 1.575,
+      "graphemes": [
+        "transfer at"
+      ],
+      "phonemes": [
+        "tɹˈænsfəɹ æt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mrt-transfer-help-on-this-floor.mp3",
+      "text": "on this floor",
+      "textSha256": "862fbd4a4034904839a93aff35ceb2f4054ae6764ef41f36967427742c7156e7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "50c8fc943bd9bf4c023258f2a5d3bdf6a751db2138d42c0a819c5355a92f86ab",
+      "duration": 1.625,
+      "graphemes": [
+        "on this floor"
+      ],
+      "phonemes": [
+        "ˌɔn ðɪs flˈɔɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mrt-transfer-help-follow-the-signs.mp3",
+      "text": "follow the signs",
+      "textSha256": "d177ce8b5a79ee5c9539b429366c33a524de23fd21af54cf94b7942bbf390abe",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2006d9c707222e10f1c17816fd61169a39e37fe5c875b282fe13b2a9056adbd1",
+      "duration": 1.775,
+      "graphemes": [
+        "follow the signs"
+      ],
+      "phonemes": [
+        "fˈɑlO ðə sˈInz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mrt-transfer-help-which-direction.mp3",
+      "text": "which direction",
+      "textSha256": "5ba98c1e9c984d168c5f4ff9a82db98d39a80248d5c97499aaed62a47fb104eb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c48da703a5f09eeec8cbe6ecf62094577b3571f43b4b67957e2bb4cae6f80dc9",
+      "duration": 1.625,
+      "graphemes": [
+        "which direction"
+      ],
+      "phonemes": [
+        "wˌɪʧ dəɹˈɛkʃən"
+      ]
+    },
+    {
+      "src": "/audio/words/mrt-transfer-help-line.mp3",
+      "text": "line",
+      "textSha256": "38a9c1e721584da284b90ceea4ed7eb8db15ac4ea86c2c75ec925d5f8799fcf0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c6203bb67c2df8777b5e8b573b192a7706684483fe713fd8afa26f0a06c04218",
+      "duration": 1.375,
+      "graphemes": [
+        "line"
+      ],
+      "phonemes": [
+        "lˈIn"
+      ]
+    },
+    {
+      "src": "/audio/words/mrt-transfer-help-transfer.mp3",
+      "text": "transfer",
+      "textSha256": "27f576cafbb263ed44be8bd094f66114da26877706f96c4c31d5a97ffebf2e29",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b4361788bd2c7e2ca3dfc39ab10ccaedabe93e8e4540efbe46f898bfd53205de",
+      "duration": 1.475,
+      "graphemes": [
+        "transfer"
+      ],
+      "phonemes": [
+        "tɹˈænsfəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/mrt-transfer-help-direction.mp3",
+      "text": "direction",
+      "textSha256": "93c4abe27cf1696102534bb60b3795f41f60f52fa806cd5d0feadfc8bd2b8170",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fb825fe96613147118ec471c1a8a5c3d8013006e1c7f5b3691cdf8dc70e99a88",
+      "duration": 1.475,
+      "graphemes": [
+        "direction"
+      ],
+      "phonemes": [
+        "dəɹˈɛkʃən"
+      ]
+    },
+    {
+      "src": "/audio/words/mrt-transfer-help-follow.mp3",
+      "text": "follow",
+      "textSha256": "a3ce0b6106cdb3982d7b2bd5c7be5e1e74d973c4a3018b03beb01fc5dc3ec6f5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6617d2fa17cd4f2f544f3e8097c3abbfb010f929e996e12c35897c8a70be0dd3",
+      "duration": 1.35,
+      "graphemes": [
+        "follow"
+      ],
+      "phonemes": [
+        "fˈɑlO"
+      ]
+    },
+    {
+      "src": "/audio/words/mrt-transfer-help-sign.mp3",
+      "text": "sign",
+      "textSha256": "0b6f395ca14ac202374d5cff678b71157d0bef7e00c3045e9b80aab4ffb85276",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "105a74605d477af73af46a1f8e8f6d271cda480036cd57ea1e16dde57d9fcab2",
+      "duration": 1.375,
+      "graphemes": [
+        "sign"
+      ],
+      "phonemes": [
+        "sˈIn"
+      ]
+    },
+    {
+      "src": "/audio/words/mrt-transfer-help-floor.mp3",
+      "text": "floor",
+      "textSha256": "a3e1f4935b0919b346c2caf4da18078a1ebaf6451eb7f7b5dc79c11629b6368c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3486d0504b14a116d57ef32c32926b2bc56183ca901ce3ded21b0f33e7e6f2c1",
+      "duration": 1.325,
+      "graphemes": [
+        "floor"
+      ],
+      "phonemes": [
+        "flˈɔɹ"
+      ]
+    },
+    {
+      "src": "/audio/sentences/taking-a-taxi/1.mp3",
+      "text": "Good morning, I am in a hurry to catch my train.",
+      "textSha256": "6e81bc6f35beaa5208cb6930c2a663d0125a6974ef7aad586cd4f657197bf48a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a8f88f758809830d7b805f44778f2cf9d065d034cb49ef73a49833c42c86ed0e",
+      "duration": 3.25,
+      "graphemes": [
+        "Good morning, I am in a hurry to catch my train."
+      ],
+      "phonemes": [
+        "ɡˈʊd mˈɔɹnɪŋ, ˌI ɐm ɪn ɐ hˈɜɹi tə kˈɛʧ mI tɹˈAn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/taking-a-taxi/2.mp3",
+      "text": "Could you please take me to the high-speed rail station?",
+      "textSha256": "3edbc6dc3fba33a39bd7a7c43de2a947336c48f42b4d53f3b9b6ec2eca830066",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ae87da67572f8e496c574df958615113bc965ca274f3a61a66c47bc168e0dc0d",
+      "duration": 3.15,
+      "graphemes": [
+        "Could you please take me to the high-speed rail station?"
+      ],
+      "phonemes": [
+        "kˌʊd ju plˈiz tˈAk mˌi tə ðə hˈIspˌid ɹˈAl stˈAʃən?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/taking-a-taxi/3.mp3",
+      "text": "The main avenue ahead has heavy traffic today.",
+      "textSha256": "874fefe4a00fc25cb33d941737ed46fd4439f166038c2ec00ded711aed4632f4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6cb421185849fff284517406c84e1efe4a7ee5a867a19758f7cc07152a118245",
+      "duration": 3.225,
+      "graphemes": [
+        "The main avenue ahead has heavy traffic today."
+      ],
+      "phonemes": [
+        "ðə mˈAn ˈævənˌu əhˈɛd hæz hˈɛvi tɹˈæfɪk tədˈA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/taking-a-taxi/4.mp3",
+      "text": "Can you turn right into the smaller road to save time?",
+      "textSha256": "415da777f3912dc879e7ae8ebf914df887362f21f77feac30d3f953174368ce9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3597b9e873dbf57cb9e3d3a1f98924d844a04c809118853e6423b1d1605d726c",
+      "duration": 3.325,
+      "graphemes": [
+        "Can you turn right into the smaller road to save time?"
+      ],
+      "phonemes": [
+        "kˌæn ju tˈɜɹn ɹˈIt ˈɪntu ðə smˈɔləɹ ɹˈOd tə sˈAv tˈIm?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/taking-a-taxi/5.mp3",
+      "text": "Do not worry, I will drive carefully and take the fastest route.",
+      "textSha256": "7cd2ef12416e932efd9afacab054a6406f0b365e921383f75064649d5abbe42b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "81f3d06a71b0b8f6c3411c186934409d7785f5cfc5609ab24133c5d0216324cf",
+      "duration": 4.125,
+      "graphemes": [
+        "Do not worry, I will drive carefully and take the fastest route."
+      ],
+      "phonemes": [
+        "dˈu nˌɑt wˈɜɹi, ˌI wɪl dɹˈIv kˈɛɹfᵊli ænd tˈAk ðə fˈæstᵻst ɹˈut."
+      ]
+    },
+    {
+      "src": "/audio/sentences/taking-a-taxi/6.mp3",
+      "text": "Please drop me off right at the main entrance drop point.",
+      "textSha256": "965049093b8e52d8dd611bf286092d1c2ecd54e16e0762684a25a08caabf5d64",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7a17b42ab22320ec8e6ffe3e0ba9da1b906ac36354d432e59b5cd04c9c297066",
+      "duration": 3.525,
+      "graphemes": [
+        "Please drop me off right at the main entrance drop point."
+      ],
+      "phonemes": [
+        "plˈiz dɹˈɑp mˌi ˈɔf ɹˈIt æt ðə mˈAn ˈɛntɹəns dɹˈɑp pˈYnt."
+      ]
+    },
+    {
+      "src": "/audio/phrases/taking-a-taxi-in-a-hurry.mp3",
+      "text": "in a hurry",
+      "textSha256": "9ccdb1c977dc99f2bde3b0f12c1d9d19d350aa23c471adc2b34bac7fef02d7ab",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dcdd8d455dfcb0d580a4b137e8ff123fb9ea6f232814b19c6ca15e920c8b641b",
+      "duration": 1.5,
+      "graphemes": [
+        "in a hurry"
+      ],
+      "phonemes": [
+        "ɪn ɐ hˈɜɹi"
+      ]
+    },
+    {
+      "src": "/audio/phrases/taking-a-taxi-heavy-traffic.mp3",
+      "text": "heavy traffic",
+      "textSha256": "6036b19da5328d8ff1d7e4e0f7850e4a1763cd360c0489caf8d74dc7603d4fbb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3f1e5a30bf21bb0f68233b6ad5c533b0ac1b3a5bcd990b092de52c1cd4db11a6",
+      "duration": 1.625,
+      "graphemes": [
+        "heavy traffic"
+      ],
+      "phonemes": [
+        "hˈɛvi tɹˈæfɪk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/taking-a-taxi-save-time.mp3",
+      "text": "save time",
+      "textSha256": "e3a8224eb1fb6f6f33db9fdb76340e84b8dec1de4bd38f053089aec4e1210e43",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a2fba5f6c8b5e83b0c49c32e97eef9141a0df9e33c96eb763ec751c6c5b572b2",
+      "duration": 1.65,
+      "graphemes": [
+        "save time"
+      ],
+      "phonemes": [
+        "sˈAv tˈIm"
+      ]
+    },
+    {
+      "src": "/audio/phrases/taking-a-taxi-the-fastest-route.mp3",
+      "text": "the fastest route",
+      "textSha256": "0a03853b6c8aa6bd84b5caae4f9c0f03cfbe647860e42f2ede0fdab1dc29c1fb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "686dfc601e36da23101cc13f0555d5190b54093832743dd56a6c85d385f51693",
+      "duration": 1.75,
+      "graphemes": [
+        "the fastest route"
+      ],
+      "phonemes": [
+        "ðə fˈæstᵻst ɹˈut"
+      ]
+    },
+    {
+      "src": "/audio/phrases/taking-a-taxi-drop-me-off.mp3",
+      "text": "drop me off",
+      "textSha256": "361e0503bb194964f96f634390308b1b8a87095626be37c210b2f251bb53560f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f07cbdac53c5824eaa74081799036ca538b295416bb2f50436f0ea890041f7d6",
+      "duration": 1.45,
+      "graphemes": [
+        "drop me off"
+      ],
+      "phonemes": [
+        "dɹˈɑp mˌi ˈɔf"
+      ]
+    },
+    {
+      "src": "/audio/words/taking-a-taxi-hurry.mp3",
+      "text": "hurry",
+      "textSha256": "f6002cbceb8c0327d974714b8f7a4ba28e25f0b7cbe216a719c35ced1fe9647f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f3079feb621315a43ddf1979ac020f65792ebd5a46f2ccfaf3c85e48e0363939",
+      "duration": 1.35,
+      "graphemes": [
+        "hurry"
+      ],
+      "phonemes": [
+        "hˈɜɹi"
+      ]
+    },
+    {
+      "src": "/audio/words/taking-a-taxi-traffic.mp3",
+      "text": "traffic",
+      "textSha256": "075f4ab854e2a33c8ac11c0758796af4ae994ec4e37e36b6f11b503492c68289",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ed73f4b55259fe71d7c1d866ceb362acad04992f7a3258c0e6b16095016aea35",
+      "duration": 1.425,
+      "graphemes": [
+        "traffic"
+      ],
+      "phonemes": [
+        "tɹˈæfɪk"
+      ]
+    },
+    {
+      "src": "/audio/words/taking-a-taxi-ahead.mp3",
+      "text": "ahead",
+      "textSha256": "d0b4034c6ca7ee87f65ccb76f6c7a8ca0c5559db19314e525b3b906b57f301aa",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "759e042d67f8b44f51fdc097dccc62a121b6649974508f7acf46953b3ef40ef9",
+      "duration": 1.325,
+      "graphemes": [
+        "ahead"
+      ],
+      "phonemes": [
+        "əhˈɛd"
+      ]
+    },
+    {
+      "src": "/audio/words/taking-a-taxi-drive.mp3",
+      "text": "drive",
+      "textSha256": "7062520c5a0ea9deac825278c9f4f0cbad48864b2c7d0c7f1ebccdb752afb058",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3f5805e61d9e1e3e64f4a641b50a676d642825a6d66e718d314144b0a9734cd2",
+      "duration": 1.375,
+      "graphemes": [
+        "drive"
+      ],
+      "phonemes": [
+        "dɹˈIv"
+      ]
+    },
+    {
+      "src": "/audio/words/taking-a-taxi-drop.mp3",
+      "text": "drop",
+      "textSha256": "d90ee9ccf6bea1d2942a7b21319338198dec2a746f8a0d0771621f00da2e0864",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e595ad565ff0323fb3659fb0adf11acfbda6d6e245664e76d204112bbf2b73ea",
+      "duration": 1.25,
+      "graphemes": [
+        "drop"
+      ],
+      "phonemes": [
+        "dɹˈɑp"
+      ]
+    },
+    {
+      "src": "/audio/words/taking-a-taxi-road.mp3",
+      "text": "road",
+      "textSha256": "362a284952d3a7250e4bdd72a659ea78e8ec79804e0e6a2053dfe4c10e7d79f1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bb337faa918b468920b6eb10d59f86d7e9c6d488aaac18ef36e3e1fc346f8fd1",
+      "duration": 1.325,
+      "graphemes": [
+        "road"
+      ],
+      "phonemes": [
+        "ɹˈOd"
+      ]
+    },
+    {
+      "src": "/audio/sentences/bus-delay-inquiry/1.mp3",
+      "text": "Excuse me, bus number 302 was scheduled to arrive at nine.",
+      "textSha256": "bbe386ed37d355fa4f7e852d6d70e379d84de1a15a76135553ee9b07230a607f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "22ded7f426fecf40280184e4d76a00c395c3f707e2434f866d3aa64b386f74b6",
+      "duration": 4.9,
+      "graphemes": [
+        "Excuse me, bus number 302 was scheduled to arrive at nine."
+      ],
+      "phonemes": [
+        "ɪkskjˈuz mˌi, bˈʌs nˈʌmbəɹ θɹˈi hˈʌndɹəd tˈu wʌz skˈɛʤˌuld tʊ əɹˈIv æt nˈIn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bus-delay-inquiry/2.mp3",
+      "text": "It is already twenty minutes late, do you know what happened on the road?",
+      "textSha256": "954fdf37bcd64cb00e45afbc2c0c67edf4e552e1fe5aa22ddc40b758487319d8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "13ed75c6685d3bb754cd6e0b40a8b3d06839ee43401d880dd7984daa821c7da4",
+      "duration": 4.1,
+      "graphemes": [
+        "It is already twenty minutes late, do you know what happened on the road?"
+      ],
+      "phonemes": [
+        "ˌɪt ɪz ˌɔlɹˈɛdi twˈɛnti mˈɪnəts lˈAt, dˈu ju nˈO wˌʌt hˈæpənd ˌɔn ðə ɹˈOd?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/bus-delay-inquiry/3.mp3",
+      "text": "There was a small car accident that caused a long delay.",
+      "textSha256": "c52f297a3fbf9064e656a95c7f62157c37d41e4f9b15e0ee059de38c1ebbb5b3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "55a852512757576c148b0366f81bb0c543245412b45f248c561ee68b8f51ba4d",
+      "duration": 3.575,
+      "graphemes": [
+        "There was a small car accident that caused a long delay."
+      ],
+      "phonemes": [
+        "ðˌɛɹ wʌz ɐ smˈɔl kˈɑɹ ˈæksədᵊnt ðæt kˈɔzd ɐ lˈɔŋ dəlˈA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bus-delay-inquiry/4.mp3",
+      "text": "Is the bus still coming, or will we miss our transfer?",
+      "textSha256": "328497f0b3202312b6b760240894b587e90e94853e90e0a78310b725850472b0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7a48b4fdc1de0ad2f7ba3b0ef09914758e32c95db0239fe07b74818ac452607b",
+      "duration": 3.475,
+      "graphemes": [
+        "Is the bus still coming, or will we miss our transfer?"
+      ],
+      "phonemes": [
+        "ˌɪz ðə bˈʌs stˈɪl kˈʌmɪŋ, ɔɹ wɪl wi mˈɪs ˌWəɹ tɹˈænsfəɹ?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/bus-delay-inquiry/5.mp3",
+      "text": "The GPS system shows it will probably arrive in six minutes.",
+      "textSha256": "c1e2ac0f79313810c30d84e950d9ea58d3c3307ff431a553551bf61521620b38",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "748193b605c3626f96ca7b3d90f378f22119b5c5a983b8d24c97b19ee875c7fa",
+      "duration": 4.375,
+      "graphemes": [
+        "The GPS system shows it will probably arrive in six minutes."
+      ],
+      "phonemes": [
+        "ðə ʤˌipˌiˈɛs sˈɪstəm ʃˈOz ɪt wɪl pɹˈɑbəbli əɹˈIv ɪn sˈɪks mˈɪnəts."
+      ]
+    },
+    {
+      "src": "/audio/sentences/bus-delay-inquiry/6.mp3",
+      "text": "It seems the delay will not be much longer, thank you.",
+      "textSha256": "a5500265ac9971e4d5d0cf064d78933eea57f1842fef03558661b777f6e23896",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "acebc82e18c9145d331c1a8b32a879726c80fa87c01ed46a7ed7d9c8dfc201e2",
+      "duration": 3.575,
+      "graphemes": [
+        "It seems the delay will not be much longer, thank you."
+      ],
+      "phonemes": [
+        "ˌɪt sˈimz ðə dəlˈA wɪl nˌɑt bi mˈʌʧ lˈɔŋɡəɹ, θˈæŋk ju."
+      ]
+    },
+    {
+      "src": "/audio/phrases/bus-delay-inquiry-scheduled-to-arrive.mp3",
+      "text": "scheduled to arrive",
+      "textSha256": "10329888ae26cdf2c26654d1a52c1d1bb70e1667ddd4fe16a0f54c18d9650397",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2d80c1ffdb9db13adb43d14532ade7a1359774830bf8ecc52ed4b4a9564a5fb6",
+      "duration": 1.85,
+      "graphemes": [
+        "scheduled to arrive"
+      ],
+      "phonemes": [
+        "skˈɛʤˌuld tʊ əɹˈIv"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bus-delay-inquiry-twenty-minutes-late.mp3",
+      "text": "twenty minutes late",
+      "textSha256": "747cd84b8deef940e7b652dccfd545b01d88c207d1f57c782fa086146e44bf14",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ff1a2a828e6a46c2f02e0aa87fed933a7344c55a324540f60dd08ce30c8a7025",
+      "duration": 1.675,
+      "graphemes": [
+        "twenty minutes late"
+      ],
+      "phonemes": [
+        "twˈɛnti mˈɪnəts lˈAt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bus-delay-inquiry-what-happened.mp3",
+      "text": "what happened",
+      "textSha256": "bc3f7f7fd709c9072c5253f143df0964e4e7c7f8cb7bc80e39858ea9b3d0e2f0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1800e40e82460a5a6ea4a12fcab5a4c4affedf37be71846b8a6860a38f77bdaa",
+      "duration": 1.45,
+      "graphemes": [
+        "what happened"
+      ],
+      "phonemes": [
+        "wˌʌt hˈæpənd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bus-delay-inquiry-caused-a-long-delay.mp3",
+      "text": "caused a long delay",
+      "textSha256": "4f3ca412e054bf0399db78ac9cf6d5adf1cdc238ef62e342e8a3d2685a12f00c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "90103e84ad61e5725b36df3b7810dfec2a0353f8267651ba4f0af68c8d53994e",
+      "duration": 2,
+      "graphemes": [
+        "caused a long delay"
+      ],
+      "phonemes": [
+        "kˈɔzd ɐ lˈɔŋ dəlˈA"
+      ]
+    },
+    {
+      "src": "/audio/phrases/bus-delay-inquiry-probably-arrive-in.mp3",
+      "text": "probably arrive in",
+      "textSha256": "7f8af094251451ac528e185efaf331d29313d8f8bc66a29d57d24eb83aa81dcc",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "225d81455a57a39e63541325998688b1c52e4cd6b1c547afbbfea72ff564de27",
+      "duration": 1.95,
+      "graphemes": [
+        "probably arrive in"
+      ],
+      "phonemes": [
+        "pɹˈɑbəbli əɹˈIv ˈɪn"
+      ]
+    },
+    {
+      "src": "/audio/words/bus-delay-inquiry-schedule.mp3",
+      "text": "schedule",
+      "textSha256": "5f72005e81c4ecbd5aa3588e80e3daf0df068ce0cf5638944508a0165fea609a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "47d9d1f1b4f00834be6146f9a8051a519d63b547c2c26a74dbf09698c234a6dd",
+      "duration": 1.4,
+      "graphemes": [
+        "schedule"
+      ],
+      "phonemes": [
+        "skˈɛʤˌul"
+      ]
+    },
+    {
+      "src": "/audio/words/bus-delay-inquiry-delay.mp3",
+      "text": "delay",
+      "textSha256": "6e16db102267e6e7de7f08f9c28836861561b6ac5a9aec0d26e263c37267f54e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d7e332d0d11ec8562bafc279c647287ce815f8461593230a893bbddc0ad4d050",
+      "duration": 1.425,
+      "graphemes": [
+        "delay"
+      ],
+      "phonemes": [
+        "dəlˈA"
+      ]
+    },
+    {
+      "src": "/audio/words/bus-delay-inquiry-arrive.mp3",
+      "text": "arrive",
+      "textSha256": "6dc09a300747b82d8bfe9d509ede4fb228e3c27204185e8c5e6188340904d9e0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1b0adf963ee3439fd26ee1c24c7ce66eee3f1ca7b508a3b4af2c8c5caa33fe94",
+      "duration": 1.425,
+      "graphemes": [
+        "arrive"
+      ],
+      "phonemes": [
+        "əɹˈIv"
+      ]
+    },
+    {
+      "src": "/audio/words/bus-delay-inquiry-happen.mp3",
+      "text": "happen",
+      "textSha256": "9ecfb3a042a271f4389ef89922337bc9488f865d394eafa445d55db0be4e828d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "da299d42e95a08207aa7ec236292791152e99817a0f81b736584ca473e4fd905",
+      "duration": 1.35,
+      "graphemes": [
+        "happen"
+      ],
+      "phonemes": [
+        "hˈæpən"
+      ]
+    },
+    {
+      "src": "/audio/words/bus-delay-inquiry-cause.mp3",
+      "text": "cause",
+      "textSha256": "6a7ef1ed9f15c2f59ab7bfaf50f5b51f695d736a7f2e5ada6470e695190b8f83",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "57bdb8955f47509cb964e2adc82bbef9668a6a74a712f439515cf21cdd14b559",
+      "duration": 1.425,
+      "graphemes": [
+        "cause"
+      ],
+      "phonemes": [
+        "kˈɔz"
+      ]
+    },
+    {
+      "src": "/audio/words/bus-delay-inquiry-probably.mp3",
+      "text": "probably",
+      "textSha256": "a8ef01283d653e4638daca3fae06abf52711122b2701dddb349310a574c263b9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6724d37604fde166e1df103957cceb10df7b56ce1e88490a7e283fafa167aa50",
+      "duration": 1.45,
+      "graphemes": [
+        "probably"
+      ],
+      "phonemes": [
+        "pɹˈɑbəbli"
+      ]
+    },
+    {
+      "src": "/audio/sentences/renting-public-bike/1.mp3",
+      "text": "I want to rent a bike to ride around the lake.",
+      "textSha256": "d40d0340f5b39defc7987863bd8beece258ce7d86b870dbb0ac98998e9cf0bd2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "de9bb7022d9faab5c4da187577ed756ba9ee55d746919cc8f1ed80c6ba6439b0",
+      "duration": 2.75,
+      "graphemes": [
+        "I want to rent a bike to ride around the lake."
+      ],
+      "phonemes": [
+        "ˌI wˈɑnt tə ɹˈɛnt ɐ bˈIk tə ɹˈId əɹˈWnd ðə lˈAk."
+      ]
+    },
+    {
+      "src": "/audio/sentences/renting-public-bike/2.mp3",
+      "text": "Tap your card on the sensor right beside the bike.",
+      "textSha256": "bfabed9558da6da42ee867564eafe615a2d1cb82c58c588ed784025192a15963",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4bb2a35fbb4f070cea0227120fee472f3f9dce219f6958e409358eb937987c8c",
+      "duration": 3.075,
+      "graphemes": [
+        "Tap your card on the sensor right beside the bike."
+      ],
+      "phonemes": [
+        "tˈæp jʊɹ kˈɑɹd ˌɔn ðə sˈɛnsəɹ ɹˈIt bəsˈId ðə bˈIk."
+      ]
+    },
+    {
+      "src": "/audio/sentences/renting-public-bike/3.mp3",
+      "text": "When the green light turns on, pull the lock firmly.",
+      "textSha256": "be6fcdc87c10ea0df27048b47c3db856a0b0b6e505375acfe4e1a0dcc99a133f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4759e6a55d8f68c6c38f2ebe07b474aefa0d335d45181bfe35477b63624484bc",
+      "duration": 3.225,
+      "graphemes": [
+        "When the green light turns on, pull the lock firmly."
+      ],
+      "phonemes": [
+        "wˌɛn ðə ɡɹˈin lˈIt tˈɜɹnz ˌɔn, pˈʊl ðə lˈɑk fˈɜɹmli."
+      ]
+    },
+    {
+      "src": "/audio/sentences/renting-public-bike/4.mp3",
+      "text": "Remember to check the tires before you start your ride.",
+      "textSha256": "f9d5b50180ee6fdaff125890ae2c31c06bce1b27a7335309bfe498da3015b59c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b90ba965594ac7a2171571305a20de8f3a2a48cfd4713c36a0509a88bd051d6e",
+      "duration": 3.45,
+      "graphemes": [
+        "Remember to check the tires before you start your ride."
+      ],
+      "phonemes": [
+        "ɹəmˈɛmbəɹ tə ʧˈɛk ðə tˈIəɹz bəfˈɔɹ ju stˈɑɹt jʊɹ ɹˈId."
+      ]
+    },
+    {
+      "src": "/audio/sentences/renting-public-bike/5.mp3",
+      "text": "You can adjust the seat height by pressing the metal lever.",
+      "textSha256": "9da6a1fa28da9b5b32c3362f051af3c911e7788d11f67e2efc6214aed6812c3f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "866ea2390bf8bb425f2563348258e72e0a967b8692e6c2e79e4644c1dad7e21b",
+      "duration": 3.575,
+      "graphemes": [
+        "You can adjust the seat height by pressing the metal lever."
+      ],
+      "phonemes": [
+        "jˌu kæn əʤˈʌst ðə sˈit hˈIt bI pɹˈɛsɪŋ ðə mˈɛTᵊl lˈɛvəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/renting-public-bike/6.mp3",
+      "text": "The first thirty minutes are completely free for registered members.",
+      "textSha256": "ee21f3aab2657d45be2f7e936cc6d96f4a1b3de7f04a2f038d81d04ce8451ccf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4b1fa088cb88138da02b0008585de8f9c5a92beb1e9269d7de23164d7d4edc97",
+      "duration": 4.45,
+      "graphemes": [
+        "The first thirty minutes are completely free for registered members."
+      ],
+      "phonemes": [
+        "ðə fˈɜɹst θˈɜɹTi mˈɪnəts ɑɹ kəmplˈitli fɹˈi fɔɹ ɹˈɛʤəstəɹd mˈɛmbəɹz."
+      ]
+    },
+    {
+      "src": "/audio/phrases/renting-public-bike-rent-a-bike.mp3",
+      "text": "rent a bike",
+      "textSha256": "9a72af4141f8f68104879ac05c8f5d25abee8cf9978a6cb3f4924138df378b2d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8808aa4d2432822d84f993c24ba32086aa540d1c40aac4e393e8e943c8415037",
+      "duration": 1.55,
+      "graphemes": [
+        "rent a bike"
+      ],
+      "phonemes": [
+        "ɹˈɛnt ɐ bˈIk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/renting-public-bike-tap-your-card.mp3",
+      "text": "tap your card",
+      "textSha256": "06f4933c160587563d45050799b52322921cf9984f7fc82ff18c5b30fcf46d65",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cacc845fa664ee7ea6683333ebc3df2fccf2d9c974dc821a5e597a57ba720461",
+      "duration": 1.525,
+      "graphemes": [
+        "tap your card"
+      ],
+      "phonemes": [
+        "tˈæp jʊɹ kˈɑɹd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/renting-public-bike-adjust-the-seat.mp3",
+      "text": "adjust the seat",
+      "textSha256": "58431374abc588e89cdeb66396c8a444b50645d885c9fe4c762c8258bfa02561",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "152ed6234579ba269009566d054d98ec48e2c22716463923d287bc014f984a57",
+      "duration": 1.675,
+      "graphemes": [
+        "adjust the seat"
+      ],
+      "phonemes": [
+        "əʤˈʌst ðə sˈit"
+      ]
+    },
+    {
+      "src": "/audio/phrases/renting-public-bike-check-the-tires.mp3",
+      "text": "check the tires",
+      "textSha256": "898f49fccbbf912c2a58c91c803f25127a9f7a56e157231064d947ba031be482",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ad2321826f0d33dd5af91093dee59361b061d89ebf93a2e97bf441722d36cfcb",
+      "duration": 1.7,
+      "graphemes": [
+        "check the tires"
+      ],
+      "phonemes": [
+        "ʧˈɛk ðə tˈIəɹz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/renting-public-bike-completely-free.mp3",
+      "text": "completely free",
+      "textSha256": "b244c0d9f34439a1686ecb8d9e81ec64bfe35d40e2a84413b6d78bb4b9c1463c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6175d16aa8a364a4c2ab634642e56dc1b4929b031ba5b5003a46107360ba46cc",
+      "duration": 1.775,
+      "graphemes": [
+        "completely free"
+      ],
+      "phonemes": [
+        "kəmplˈitli fɹˈi"
+      ]
+    },
+    {
+      "src": "/audio/words/renting-public-bike-rent.mp3",
+      "text": "rent",
+      "textSha256": "0e9fd1596c4b1dfca8ddcd36c567f11da43cf17968a5b912f0e67c5198f643f1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fcda70b22799938c937146708251d7a9869dd69d7cc0bd9be9e4809ea86b917e",
+      "duration": 1.3,
+      "graphemes": [
+        "rent"
+      ],
+      "phonemes": [
+        "ɹˈɛnt"
+      ]
+    },
+    {
+      "src": "/audio/words/renting-public-bike-lock.mp3",
+      "text": "lock",
+      "textSha256": "0c030586945fe504b604ecc2e875c38ede400cd5cd73da9730302162e6b02c6f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "389acb9c3561f15f0b72fe72bf87903019064db3e41d2ec904dc73458be830b0",
+      "duration": 1.25,
+      "graphemes": [
+        "lock"
+      ],
+      "phonemes": [
+        "lˈɑk"
+      ]
+    },
+    {
+      "src": "/audio/words/renting-public-bike-ride.mp3",
+      "text": "ride",
+      "textSha256": "e049bd056f936d1b39b704abcf824eaef39bd8877fcbb82b2a213ceec82bdf26",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2eea57d91ea629258b06297c24c953a73cbd0a433ff4efa57cee1160db92740a",
+      "duration": 1.325,
+      "graphemes": [
+        "ride"
+      ],
+      "phonemes": [
+        "ɹˈId"
+      ]
+    },
+    {
+      "src": "/audio/words/renting-public-bike-adjust.mp3",
+      "text": "adjust",
+      "textSha256": "2549c096fc692b123129bd12e6536ce3e34017bebcf81bdccd4bce705cc16e6a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5a020da1039cae5fd4c520b7c1517246a3f182f558a5530cc89370ced9d2a25e",
+      "duration": 1.4,
+      "graphemes": [
+        "adjust"
+      ],
+      "phonemes": [
+        "əʤˈʌst"
+      ]
+    },
+    {
+      "src": "/audio/words/renting-public-bike-press.mp3",
+      "text": "press",
+      "textSha256": "842fcb5e60989a03d08ee07f9bea0a0a4a824d991fe8cc055f3a89e05c5c392e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c0e92ba6ecf74c58131cd2d930c61fd08fadb3eed8432be2fe3d9dbc86e3c008",
+      "duration": 1.35,
+      "graphemes": [
+        "press"
+      ],
+      "phonemes": [
+        "pɹˈɛs"
+      ]
+    },
+    {
+      "src": "/audio/words/renting-public-bike-free.mp3",
+      "text": "free",
+      "textSha256": "ad95d5fa651ba86d8923fe1238d24a4f1988a752acfe426ac72ac7c04471bc17",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3af2fe80a3179da620412672f6f836270926f6861ee3db42c7fad01ed14d9215",
+      "duration": 1.35,
+      "graphemes": [
+        "free"
+      ],
+      "phonemes": [
+        "fɹˈi"
+      ]
+    }
+  ]
+}

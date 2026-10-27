@@ -1,0 +1,353 @@
+{
+  "id": "mailing-registered-letter",
+  "title": "郵局秤重寄掛號信",
+  "titleEn": "Mailing a Registered Letter at the Post Office",
+  "category": "公共服務",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/mailing-registered-letter.webp",
+    "alt": "在郵局櫃檯前，顧客將裝有重要文件的信封放在電子秤上秤重，向郵局行員確認快捷掛號郵資與送達天數。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "send-an-important-document",
+      "english": "send an important document",
+      "translation": "寄送重要文件",
+      "audio": {
+        "src": "/audio/phrases/mailing-registered-letter-send-an-important-document.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9e211f8dc017221aab7ddf6649dafd0b03bbbc590955806668d1ba27153d4b85",
+        "sha256": "e5a4c1984b14c5f212c8d3520a6849b3d32f5d6d413f3097e3c567ca15bc3c1d"
+      }
+    },
+    {
+      "id": "check-the-weight",
+      "english": "check the weight",
+      "translation": "檢查重量",
+      "audio": {
+        "src": "/audio/phrases/mailing-registered-letter-check-the-weight.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0d533ed0843515085bff917493b9c15bf6d012117b4d6491d7a146a74209ffe4",
+        "sha256": "9700f7925e8b02a992f23e6de710dd591a208c995369e957f4774be8eecc5faf"
+      }
+    },
+    {
+      "id": "air-mail",
+      "english": "air mail",
+      "translation": "航空郵件",
+      "audio": {
+        "src": "/audio/phrases/mailing-registered-letter-air-mail.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "08d8195908cd744110a09e268860986a7b99d2ac427e54731e77cb3e5ee30a34",
+        "sha256": "69c3a5a700fd5d905072389ec1463b6c3d1d98b582069e22e8b93e92ee9a0c91"
+      }
+    },
+    {
+      "id": "express-post",
+      "english": "express post",
+      "translation": "快捷郵件",
+      "audio": {
+        "src": "/audio/phrases/mailing-registered-letter-express-post.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "73f64d22f13417ff86b77ab322fc4d11056124f26840f54966cb3c7a22ae32a2",
+        "sha256": "747d2acdc72f362e94ed6ee085bffe50dd58bc8d401885fd778c56ccb445e07c"
+      }
+    },
+    {
+      "id": "within-four-business-days",
+      "english": "within four business days",
+      "translation": "在四個工作天之內",
+      "audio": {
+        "src": "/audio/phrases/mailing-registered-letter-within-four-business-days.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "04fbd9027d7db9ff4c76660582f5aaa47cf886fec0b06f1fdc9e80ceee58a225",
+        "sha256": "a3ba5cde95ed0e91f9816c39118907130a9844a4d365873bf41186e3f56723fb"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "post",
+      "english": "post",
+      "translation": "郵寄；郵政",
+      "example": "He went to the post office to buy stamps.",
+      "audio": {
+        "src": "/audio/words/mailing-registered-letter-post.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "72231043bc1807e6f740b235eb7511ecb33255a6a375435631196de8a9750d4b",
+        "sha256": "8ab0377ed7247a366c8c73e3523a573517133efee07af79b994696410d35f8b1"
+      }
+    },
+    {
+      "id": "send",
+      "english": "send",
+      "translation": "寄出；派遣",
+      "example": "I will send you an email with the file attached.",
+      "audio": {
+        "src": "/audio/words/mailing-registered-letter-send.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27ce1d1bf4270020e1799f12e647f5cbabda2b9eafd7202c43012a539986916b",
+        "sha256": "cbe1fcb6750c08efd47209b1c14ad266c0120672d05a3961ddcfe0569334d041"
+      }
+    },
+    {
+      "id": "weight",
+      "english": "weight",
+      "translation": "重量；分量",
+      "example": "The maximum luggage weight is twenty kilograms.",
+      "audio": {
+        "src": "/audio/words/mailing-registered-letter-weight.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0844df8fee9eeadaa344bc7e1a7ae769602eba35e773c2093c8fb9c3e5ead14e",
+        "sha256": "4421510f8ad0a7ced80488c6fabfdba8d06b9205bdf7c87565621d475fe19e07"
+      }
+    },
+    {
+      "id": "letter",
+      "english": "letter",
+      "translation": "信件；字母",
+      "example": "She received a handwritten letter from her pen pal.",
+      "audio": {
+        "src": "/audio/words/mailing-registered-letter-letter.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f80105efab6d863fd8fc243d269094469e2277e8f12e5a0a9f401e88494f7b4b",
+        "sha256": "124329f7801d15a4bb3891e873fffbef2d8beafed13e623698c1471a7ebb3295"
+      }
+    },
+    {
+      "id": "address",
+      "english": "address",
+      "translation": "地址",
+      "example": "Write your return address clearly on the envelope.",
+      "audio": {
+        "src": "/audio/words/mailing-registered-letter-address.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d80c9bf910f144738ef983724bc04bd6bd3f17c5c83ed57bedee1b1b9278e811",
+        "sha256": "45cbfa7791b06b2f83865518ecc803e6b4057711dc221445a968b3ffeae414dd"
+      }
+    },
+    {
+      "id": "fast",
+      "english": "fast",
+      "translation": "快速的；敏捷地",
+      "example": "The fast train gets you to Kaohsiung in two hours.",
+      "audio": {
+        "src": "/audio/words/mailing-registered-letter-fast.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "115dc3606fbf8691fb69f2aefec86f2ecd302362a0502b3a9648bf2c4dc8290f",
+        "sha256": "ac0ccd6b71372e7cbc5c4caa5bbe2b045bc6b1c2817de373c7cb4d16c4c24b29"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Good morning, I need to "
+        },
+        {
+          "text": "send",
+          "phraseIds": [
+            "send-an-important-document"
+          ],
+          "wordIds": [
+            "send"
+          ]
+        },
+        {
+          "text": " an important document",
+          "phraseIds": [
+            "send-an-important-document"
+          ]
+        },
+        {
+          "text": " to this overseas "
+        },
+        {
+          "text": "address",
+          "wordIds": [
+            "address"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "早安，我需要把一份重要文件寄到這個海外地址。",
+      "audio": {
+        "src": "/audio/sentences/mailing-registered-letter/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7453e9d7b204168f2fd88a6c8c79180586eb72053243c3016d250a17d10e7ada",
+        "sha256": "d488e3c22f760986501bdd819b91f6441b8d26bdf01fb4a36c05415ffd1dddde"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Please place the envelope on the electronic scale to "
+        },
+        {
+          "text": "check the ",
+          "phraseIds": [
+            "check-the-weight"
+          ]
+        },
+        {
+          "text": "weight",
+          "phraseIds": [
+            "check-the-weight"
+          ],
+          "wordIds": [
+            "weight"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "請把信封放在電子秤上以檢查重量。",
+      "audio": {
+        "src": "/audio/sentences/mailing-registered-letter/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "50b84ea3ba465b2bbb6e6e70b1aa3b7eda24eb7715857352b434523ef57eb7ae",
+        "sha256": "565588232d2fd5b570a4497f578439baf4d636b81453df43bd51c142cac2ad49"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do you want to "
+        },
+        {
+          "text": "send",
+          "wordIds": [
+            "send"
+          ]
+        },
+        {
+          "text": " it by regular "
+        },
+        {
+          "text": "air mail",
+          "phraseIds": [
+            "air-mail"
+          ]
+        },
+        {
+          "text": " or "
+        },
+        {
+          "text": "express ",
+          "phraseIds": [
+            "express-post"
+          ]
+        },
+        {
+          "text": "post",
+          "phraseIds": [
+            "express-post"
+          ],
+          "wordIds": [
+            "post"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "您希望用一般航空平信寄出，還是使用快捷快遞呢？",
+      "audio": {
+        "src": "/audio/sentences/mailing-registered-letter/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e48bee3cd9a20bd69312581f841dd248ad67120b544d9215c5d3f5ac6cca7f0f",
+        "sha256": "53e14119deaa1424e9e70b09e3589ee87356be8953d6433c268691dc774f887b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Express ",
+          "phraseIds": [
+            "express-post"
+          ]
+        },
+        {
+          "text": "post",
+          "phraseIds": [
+            "express-post"
+          ],
+          "wordIds": [
+            "post"
+          ]
+        },
+        {
+          "text": " is very "
+        },
+        {
+          "text": "fast",
+          "wordIds": [
+            "fast"
+          ]
+        },
+        {
+          "text": " and provides an online tracking number."
+        }
+      ],
+      "translation": "快捷郵件速度非常快，而且會提供線上郵件追蹤號碼。",
+      "audio": {
+        "src": "/audio/sentences/mailing-registered-letter/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f7d2d2300becdcc5d8798aa0b1e94bcbd56456da3ac00e69ef7978adc9c17dc1",
+        "sha256": "e9dca9fad3ad5c86de3fda4a17cee64b31bad86e432b728b096230fb0e2a5e2e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "How much does the express registered stamp cost for this "
+        },
+        {
+          "text": "letter",
+          "wordIds": [
+            "letter"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "這封信寄快捷掛號的郵資費用是多少錢？",
+      "audio": {
+        "src": "/audio/sentences/mailing-registered-letter/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9e1380c1edf632493b25326789b6b122c45ea0ab3564c79be5c26b17fe77bf22",
+        "sha256": "b58cebd3ec102ff36810db0f7141fd414e0d66c233fb680cee9b09745aa7caff"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "It costs eighty dollars, and it will arrive "
+        },
+        {
+          "text": "within four business days",
+          "phraseIds": [
+            "within-four-business-days"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "費用是八十元，在四個工作天內就會送達。",
+      "audio": {
+        "src": "/audio/sentences/mailing-registered-letter/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "10e6be94c3983aa61ff074e149740b0a721a0954713fff6068d448f781c190a9",
+        "sha256": "a4370c0a4f9792d9816f8d639c7ae683765005f8edbca51ae46f38e36a1a82aa"
+      }
+    }
+  ]
+}

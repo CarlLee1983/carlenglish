@@ -94,7 +94,7 @@ test('home offers the three learning levels without listing scenes', async ({ pa
 
 for (const level of learningLevels) {
   test(`home enters the ${level.id} level and its page discovers official scenes`, async ({ page }) => {
-    test.setTimeout(120_000);
+    test.setTimeout(240_000);
     await page.goto('/');
     const entry = page.getByRole('link', { name: `進入${level.name}` });
     await expect(entry).toHaveAttribute('href', `/levels/${level.id}/`);
@@ -107,7 +107,7 @@ for (const level of learningLevels) {
     await expect(sceneLinks(page)).toHaveCount(tierScenes.length);
     assert.deepEqual(await sceneLinks(page).evaluateAll((links) => links.map((link) => link.getAttribute('href'))), tierScenes.map(scenePath));
     for (const scene of tierScenes) {
-      const link = page.getByRole('link', { name: `閱讀${scene.title}` });
+      const link = page.getByRole('link', { name: `閱讀${scene.title}`, exact: true });
       await expect(link).toHaveAttribute('href', scenePath(scene));
       await expect(link).toContainText(scene.titleEn);
       await expect(link).toContainText(scene.category);
@@ -370,7 +370,7 @@ test('level pages remain readable without JavaScript and links work by keyboard'
 for (const scene of selectScenes(scenes)) {
   test(`${scene.id}: level journey, exact content, translation, direct URL, and reload`, { tag: '@content' }, async ({ page }) => {
     await page.goto(levelPath(scene));
-    await page.getByRole('link', { name: `閱讀${scene.title}` }).click();
+    await page.getByRole('link', { name: `閱讀${scene.title}`, exact: true }).click();
     await expect(page).toHaveURL(new RegExp(`${scenePath(scene)}$`));
     await expectSceneContent(page, scene);
     const jump = page.getByRole('navigation', { name: '本篇內容' });

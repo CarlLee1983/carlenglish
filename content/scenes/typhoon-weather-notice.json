@@ -1,0 +1,332 @@
+{
+  "id": "typhoon-weather-notice",
+  "title": "颱風警報停班停課與活動改期",
+  "titleEn": "Typhoon Warning and Rescheduling an Event",
+  "category": "安全生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/typhoon-weather-notice.webp",
+    "alt": "在客廳窗邊，家人看著電視新聞播報陸上強烈颱風警報，大片玻璃窗已用黃色膠帶貼妥固定，外頭風雨呼嘯，室內溫暖平安。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "typhoon-warning",
+      "english": "typhoon warning",
+      "translation": "颱風警報",
+      "audio": {
+        "src": "/audio/phrases/typhoon-weather-notice-typhoon-warning.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f3da22582764ac362fc8d91603d5bd2b2ab1cf4be873a31fb2510b0a4510664c",
+        "sha256": "4b6d4defc45e1f746ce457e6a80d022b3376b55b2d183c30536572982e00e977"
+      }
+    },
+    {
+      "id": "heavy-rain-and-winds",
+      "english": "Heavy rain and winds",
+      "translation": "強風豪雨",
+      "audio": {
+        "src": "/audio/phrases/typhoon-weather-notice-heavy-rain-and-winds.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "35fe32792acc37f46c9ec663e3bc55a90bdb2619f78d9f7aaf9a6103162dbb2d",
+        "sha256": "ec8efbcdec79215eda4647e65a0560228ad403f1b8ddc237072c21a4691fde8b"
+      }
+    },
+    {
+      "id": "official-notice",
+      "english": "official notice",
+      "translation": "正式通報",
+      "audio": {
+        "src": "/audio/phrases/typhoon-weather-notice-official-notice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2c6a622b3d0cf7cbb4bc0fa05ccc30869de90052d57c2dbcadbba23adc9ba880",
+        "sha256": "e1a2a886a3adfdc532e2f23ba7a6fe2e8d1cb2733ceb638bc6ab875edc98ce17"
+      }
+    },
+    {
+      "id": "for-safety-reasons",
+      "english": "for safety reasons",
+      "translation": "出於安全考量",
+      "audio": {
+        "src": "/audio/phrases/typhoon-weather-notice-for-safety-reasons.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c88879eb28f96baa86433cc2a9190e2cc7bc26813b0bd776e13195324a6da206",
+        "sha256": "1d39b3ac0da23ebfde24a3705c156c3739dfb7137eab3beee5302eaeefe906c9"
+      }
+    },
+    {
+      "id": "stay-safely-at-home",
+      "english": "stay safely at home",
+      "translation": "平安待在家裡",
+      "audio": {
+        "src": "/audio/phrases/typhoon-weather-notice-stay-safely-at-home.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27c77703e362b5bc9c6726b1b3cae2d077efa203fc62b373f14ca819c788cafd",
+        "sha256": "0fb85404d8c51bd9cce5bd42f0fd0dcdae8b5a887747be7169827d006f603685"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "storm",
+      "english": "storm",
+      "translation": "暴風雨；風暴",
+      "example": "The violent storm knocked down trees in the park.",
+      "audio": {
+        "src": "/audio/words/typhoon-weather-notice-storm.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9a105749cfcbac2e07d7640697861f62dfcc7c02bc24519e9c287431bc493f9d",
+        "sha256": "1cb461ceeccce9cdd3523f27ed52b70831766bd4e25771d4a62c9050100b09a3"
+      }
+    },
+    {
+      "id": "wind",
+      "english": "wind",
+      "translation": "風；氣流",
+      "example": "A cool autumn wind blew across the lake.",
+      "audio": {
+        "src": "/audio/words/typhoon-weather-notice-wind.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9b58e68145a79ca0e19957f3e5c88fd92ff2e28a7bd09ed30ee365fc4f9aafe0",
+        "sha256": "b9e124d7e3b963bc7f5b73741bf552486a6476155d9f716ea5fa476f15a7bf62"
+      }
+    },
+    {
+      "id": "rain",
+      "english": "rain",
+      "translation": "雨；下雨",
+      "example": "Take an umbrella because heavy rain is coming.",
+      "audio": {
+        "src": "/audio/words/typhoon-weather-notice-rain.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "319b44c570a417ff3444896cd4aa77f052b6781773fc2f9aa1f1180ac745005c",
+        "sha256": "2fd716b22854c9d06c0f131a26500fabbb7732260dce4310bf4f570368e4831d"
+      }
+    },
+    {
+      "id": "notice",
+      "english": "notice",
+      "translation": "通報；注意",
+      "example": "The teacher posted a field trip notice on the board.",
+      "audio": {
+        "src": "/audio/words/typhoon-weather-notice-notice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9368a7d21e018f64ae3327d2f25cd4d7693b2d85328e4bb680bcfcbd4c26b90e",
+        "sha256": "1ce4b0f25ca131bfd2facbce2da3b5882aec6419d394d16137159700881cf53c"
+      }
+    },
+    {
+      "id": "cancel",
+      "english": "cancel",
+      "translation": "取消；廢除",
+      "example": "They had to cancel the outdoor concert due to rain.",
+      "audio": {
+        "src": "/audio/words/typhoon-weather-notice-cancel.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2374d91794b79f4fb4ec9587d2cf00aecc4f9953fab3ed1dd12ab147a0b721f9",
+        "sha256": "1c7725967265e0627eb70bd115974f155a95a43ca6ae603fcb9eb81518712fe3"
+      }
+    },
+    {
+      "id": "change",
+      "english": "change",
+      "translation": "改變；更動",
+      "example": "Did you change your mind about dinner?",
+      "audio": {
+        "src": "/audio/words/typhoon-weather-notice-change.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51",
+        "sha256": "b9aa939c06050921aed2737589a9c9974fa82ea299a9b2d46a84cd6b5d3a0b43"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "The government weather bureau issued a strong land "
+        },
+        {
+          "text": "typhoon warning",
+          "phraseIds": [
+            "typhoon-warning"
+          ]
+        },
+        {
+          "text": " this morning."
+        }
+      ],
+      "translation": "政府氣象局今天早上發布了強烈陸上颱風警報。",
+      "audio": {
+        "src": "/audio/sentences/typhoon-weather-notice/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6cc4dab702f2a66a25d35869cbc8e414b9ef353a066c6723830996431194da1c",
+        "sha256": "ec6d3e87ae37612c017b451403c5c2d1f33815d6a65e747cfe860718ff5be6aa"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Heavy ",
+          "phraseIds": [
+            "heavy-rain-and-winds"
+          ]
+        },
+        {
+          "text": "rain",
+          "phraseIds": [
+            "heavy-rain-and-winds"
+          ],
+          "wordIds": [
+            "rain"
+          ]
+        },
+        {
+          "text": " and ",
+          "phraseIds": [
+            "heavy-rain-and-winds"
+          ]
+        },
+        {
+          "text": "winds",
+          "phraseIds": [
+            "heavy-rain-and-winds"
+          ],
+          "wordIds": [
+            "wind"
+          ]
+        },
+        {
+          "text": " are expected across the entire city tonight."
+        }
+      ],
+      "translation": "預計今晚整座城市都會出現豪大雨與強烈陣風。",
+      "audio": {
+        "src": "/audio/sentences/typhoon-weather-notice/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6a68895ef3cb8cd0131eba7f233b5f9d02884b9349d00335d8d886293d8e843f",
+        "sha256": "e8d243cc411d877b277642c4ad6fb721f46e1c9b21ca06f448bc845c8c85723b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "All schools and public offices received an "
+        },
+        {
+          "text": "official ",
+          "phraseIds": [
+            "official-notice"
+          ]
+        },
+        {
+          "text": "notice",
+          "phraseIds": [
+            "official-notice"
+          ],
+          "wordIds": [
+            "notice"
+          ]
+        },
+        {
+          "text": " to close tomorrow."
+        }
+      ],
+      "translation": "所有學校與公家機關都收到了明天全面停班停課的正式通報。",
+      "audio": {
+        "src": "/audio/sentences/typhoon-weather-notice/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f278678d9ddc436738c71674c54d5688301c6dd7c681a72e44897138cd9ae9d7",
+        "sha256": "558bbc60c89b41ae60f7eadb11d0a2abf51f20a9758868aec3fa2e2943f4dafe"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We must "
+        },
+        {
+          "text": "cancel",
+          "wordIds": [
+            "cancel"
+          ]
+        },
+        {
+          "text": " our outdoor soccer match "
+        },
+        {
+          "text": "for safety reasons",
+          "phraseIds": [
+            "for-safety-reasons"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "出於安全考量，我們必須取消原定舉辦的戶外足球比賽。",
+      "audio": {
+        "src": "/audio/sentences/typhoon-weather-notice/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c59b446dd36842c97415e662a02dc81f0f56dbaae772b2197dee6aec31e54ece",
+        "sha256": "6b81c03bfb53f62d4ec41d4ef3fc4c877cc57c06059fd274efe27d26bf397afb"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Let us "
+        },
+        {
+          "text": "change",
+          "wordIds": [
+            "change"
+          ]
+        },
+        {
+          "text": " the tournament date to next Saturday when the "
+        },
+        {
+          "text": "storm",
+          "wordIds": [
+            "storm"
+          ]
+        },
+        {
+          "text": " clears."
+        }
+      ],
+      "translation": "我們把錦標賽日期改到下週六，等暴風雨遠離天晴之後再舉行。",
+      "audio": {
+        "src": "/audio/sentences/typhoon-weather-notice/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "999561eefe9cc7279d9750c63f1bd1f7b02ceaa7f44694e8894736e82c693049",
+        "sha256": "4fae15a24af7db9141b81bc10c45ae8f2a0d7b77162326c8f6520d47f8e1b8a9"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Remember to "
+        },
+        {
+          "text": "stay safely at home",
+          "phraseIds": [
+            "stay-safely-at-home"
+          ]
+        },
+        {
+          "text": " and tape the large glass windows securely."
+        }
+      ],
+      "translation": "請大家務必平安待在家裡，並用膠帶把大片玻璃窗戶貼牢固定。",
+      "audio": {
+        "src": "/audio/sentences/typhoon-weather-notice/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7b1de742809e2ddbd85ca48dd8456d9506d85abbe4200ba5fbad950721d51886",
+        "sha256": "b7a617011c6f7061dc1a6df628af4cf9bd744bc2eb4b9e949071c25173b05ca7"
+      }
+    }
+  ]
+}

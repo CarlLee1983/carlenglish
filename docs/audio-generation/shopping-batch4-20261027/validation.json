@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "clips": 85,
+  "bytes": 1598180,
+  "durationSeconds": 193.425,
+  "checks": {
+    "textSha256": true,
+    "fileSha256": true,
+    "voiceId": true,
+    "completeGraphemes": true,
+    "ffmpegDecode": true
+  },
+  "scope": [
+    "clothing-fitting-room",
+    "asking-store-discount",
+    "exchanging-damaged-item",
+    "convenience-store-items",
+    "checkout-carrier-bag"
+  ]
+}

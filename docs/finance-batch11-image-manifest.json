@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "tool": "codex exec built-in imagegen",
+  "conversion": "1536x1024 landscape WebP, sharp quality 86; fit cover.",
+  "images": [
+    {
+      "id": "using-atm-cash-withdrawal",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/using-atm-cash-withdrawal.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ba59bc92a6723baf5b41e1ad213dc2fe1d11866229533d22e0e10554d6ebfc4f"
+    },
+    {
+      "id": "asking-for-change-at-counter",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/asking-for-change-at-counter.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "193380725376071cda1bcd9569a27b81873c0424c91f7c51597953aa7480bcfe"
+    },
+    {
+      "id": "tracking-daily-budget",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/tracking-daily-budget.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "eabb216f13fa8b90a0fb45499ca8ec1b3d2411d70badd9b241512720d9e98ced"
+    },
+    {
+      "id": "mobile-payment-help",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/mobile-payment-help.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "14f20b5292f8baee759b4ebcfdd6755b381fbaa135dd88ab2566bdc445f358d8"
+    },
+    {
+      "id": "opening-student-bank-account",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/opening-student-bank-account.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5703d6bedb2ea2d5d16edb7e76f25eeda991f627e0ab2017ff718cba4066bd33"
+    }
+  ]
+}

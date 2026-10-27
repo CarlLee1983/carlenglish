@@ -1,0 +1,365 @@
+{
+  "id": "tracking-daily-budget",
+  "title": "和朋友計算活動預算分攤",
+  "titleEn": "Calculating and Splitting an Activity Budget",
+  "category": "金融生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/tracking-daily-budget.webp",
+    "alt": "在露營地的戶外木桌旁，幾位好友拿著計算機與筆記本，開心地核對各項食材與租借帳篷收據，平均分攤週末活動花費。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "review-our-total-budget",
+      "english": "review our total budget",
+      "translation": "檢視我們的總預算",
+      "audio": {
+        "src": "/audio/phrases/tracking-daily-budget-review-our-total-budget.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c1384f81363d8829a9348a19ebb5da9fc4116e0aa80ffe8a6e51794a2db25533",
+        "sha256": "d0e9730c3b698a82a9c7edd018196cd405690b2efb8e32a31bdec2a3d3ca0379"
+      }
+    },
+    {
+      "id": "spent-money-on",
+      "english": "spent money on",
+      "translation": "在...上花了錢",
+      "audio": {
+        "src": "/audio/phrases/tracking-daily-budget-spent-money-on.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "90081cd4b49df16e10328955ea80e5049cd42de01425a3923359e5dd617127c2",
+        "sha256": "6a9f90f5737f1ecaba2b48e119c0f1a0b75b2cacaee81cfbc97e2fba207e16ef"
+      }
+    },
+    {
+      "id": "bundle-deal",
+      "english": "bundle deal",
+      "translation": "特惠組合",
+      "audio": {
+        "src": "/audio/phrases/tracking-daily-budget-bundle-deal.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "05f440049c68adf21771ddb184be88180b20b398124923a6e595da3bb29d1ff4",
+        "sha256": "626c79e23272763e33586444a6cc9a54af6f8d7ee69707277c6131546532c797"
+      }
+    },
+    {
+      "id": "final-total-cost",
+      "english": "final total cost",
+      "translation": "最終總費用",
+      "audio": {
+        "src": "/audio/phrases/tracking-daily-budget-final-total-cost.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cf85fb17e5a1545d421c27b8051c2ed42c0ed8bb31a0b9174edc65f12dbabbc8",
+        "sha256": "8ff929cabe6aa04b213b56fb21e348c40f7da1954334c99360d6e8bf4c3ab14f"
+      }
+    },
+    {
+      "id": "each-person-pays",
+      "english": "each person pays",
+      "translation": "每個人分攤支付",
+      "audio": {
+        "src": "/audio/phrases/tracking-daily-budget-each-person-pays.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e1e23b2544566ab0a0720dc0b15828a33fa460b7c97d97a30694c73ef99ca3a1",
+        "sha256": "412a414a3d50768d32b674aad7c114377fededf17d5dd369bf5adc58e586042f"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "budget",
+      "english": "budget",
+      "translation": "預算；開銷規劃",
+      "example": "They managed their holiday trip on a tight budget.",
+      "audio": {
+        "src": "/audio/words/tracking-daily-budget-budget.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0af96a8ed622a394e8b2a239284ee46e9a7a7b0ec38191bbd08571b171118dd6",
+        "sha256": "20ab1409048cd1c2a2bf8232501fa171adfb463ed2aa7e638272051606ca4c29"
+      }
+    },
+    {
+      "id": "spend",
+      "english": "spend",
+      "translation": "花費；度過",
+      "example": "Do not spend all your allowance in one day.",
+      "audio": {
+        "src": "/audio/words/tracking-daily-budget-spend.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f64a33ff88c38111769d86b2679168f7cdabcaa7c9c20cbb51aa0a3a506a8717",
+        "sha256": "af6df4b3b597262e4e6e1732eac179fdafb933d1ae6ed08761c7daada031aa33"
+      }
+    },
+    {
+      "id": "total",
+      "english": "total",
+      "translation": "總計；總額",
+      "example": "The total number of students in the class is thirty.",
+      "audio": {
+        "src": "/audio/words/tracking-daily-budget-total.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "11239872d178729acc9e5aeaf7fc001a0ffd878c922330be43712b9b3be043a7",
+        "sha256": "289962986fcd035d60a182284c019aa9f379936ee7fd911eaeb51788a6f08837"
+      }
+    },
+    {
+      "id": "deal",
+      "english": "deal",
+      "translation": "划算的交易；處理",
+      "example": "Getting two shirts for twenty dollars is a great deal.",
+      "audio": {
+        "src": "/audio/words/tracking-daily-budget-deal.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f96c94f287038f69433b5a9a759654085e09564156ec90b1c8c754c8c001dc18",
+        "sha256": "af87ead47d6f02b62f9f29e928f7c55ce43df331336c557b336a3cff4abbafca"
+      }
+    },
+    {
+      "id": "share",
+      "english": "share",
+      "translation": "分攤；分享",
+      "example": "They share the cost of the apartment rent.",
+      "audio": {
+        "src": "/audio/words/tracking-daily-budget-share.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c3bc45ac352fe43ff8f0a1cc26d6cc29f71f536dc417906f8513ea44ed4bb161",
+        "sha256": "88ce7e30cea231045d8fa9f755eb395cef026e970322a983d3199afce5d4c883"
+      }
+    },
+    {
+      "id": "worth",
+      "english": "worth",
+      "translation": "值得；有價值的",
+      "example": "A healthy body is worth more than all the gold.",
+      "audio": {
+        "src": "/audio/words/tracking-daily-budget-worth.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c0a6eb55b12b7dfe01d9e55f4563eeefe13bd7ef7d7d576fdd8a9977d7a09f5d",
+        "sha256": "6afd8a26163c0442c5dcda6a49233f1e24968ed397a015b8f206e8cfb2af4fc4"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Let us sit down together and "
+        },
+        {
+          "text": "review our ",
+          "phraseIds": [
+            "review-our-total-budget"
+          ]
+        },
+        {
+          "text": "total",
+          "phraseIds": [
+            "review-our-total-budget"
+          ],
+          "wordIds": [
+            "total"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "budget",
+          "phraseIds": [
+            "review-our-total-budget"
+          ],
+          "wordIds": [
+            "budget"
+          ]
+        },
+        {
+          "text": " for the weekend camping trip."
+        }
+      ],
+      "translation": "我們大家一起坐下來，檢視一下我們這次週末露營的總預算開銷吧。",
+      "audio": {
+        "src": "/audio/sentences/tracking-daily-budget/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f531a5185e7b38ef43fe813e070c041ce65ac7d670e40792eb1f21bb09515ef8",
+        "sha256": "8be8595c1cc6fd03ffa3abcc7fe429c533948cb948264c939a329d248948aad1"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We "
+        },
+        {
+          "text": "spent",
+          "phraseIds": [
+            "spent-money-on"
+          ],
+          "wordIds": [
+            "spend"
+          ]
+        },
+        {
+          "text": " money on",
+          "phraseIds": [
+            "spent-money-on"
+          ]
+        },
+        {
+          "text": " fresh food and fifty dollars on tent rental equipment."
+        }
+      ],
+      "translation": "我們買新鮮食材花了錢，租借帳篷等設備花了五十元。",
+      "audio": {
+        "src": "/audio/sentences/tracking-daily-budget/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b332a4930b4a5b4f5449dbb4f7539f1cf4fc53ba35545f2d33c7cbf5fb52d2f8",
+        "sha256": "4d9be31bab2813ddc487a719334ca6bc932d45f870f3ecd474077167dfaa70d7"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Buying the cooking charcoal in a "
+        },
+        {
+          "text": "bundle ",
+          "phraseIds": [
+            "bundle-deal"
+          ]
+        },
+        {
+          "text": "deal",
+          "phraseIds": [
+            "bundle-deal"
+          ],
+          "wordIds": [
+            "deal"
+          ]
+        },
+        {
+          "text": " saved us twenty dollars."
+        }
+      ],
+      "translation": "用套裝組合特惠購買烤肉木炭，替我們省下了二十元。",
+      "audio": {
+        "src": "/audio/sentences/tracking-daily-budget/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "57e7b25d0e15ed53d0f7e463c34a382cad3c3fd2a932f83a4b5d64f1ca54ecfb",
+        "sha256": "692fbb5a0b675873047a332d1919730793455ca20322a6e0d9f89f409a4d6921"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "What was the "
+        },
+        {
+          "text": "final ",
+          "phraseIds": [
+            "final-total-cost"
+          ]
+        },
+        {
+          "text": "total",
+          "phraseIds": [
+            "final-total-cost"
+          ],
+          "wordIds": [
+            "total"
+          ]
+        },
+        {
+          "text": " cost",
+          "phraseIds": [
+            "final-total-cost"
+          ]
+        },
+        {
+          "text": " when we combine all the receipts together?"
+        }
+      ],
+      "translation": "當我們把所有發票單據加在一起時，最後的總費用是多少錢？",
+      "audio": {
+        "src": "/audio/sentences/tracking-daily-budget/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0218513c8f2c336fa83a97d795b423d4c3ebb09e5ac11a2242daeeb09cd2b0a4",
+        "sha256": "ad989dc24d7feac7bb00a83c1fd4909c87bcc05280d4f3f0fbdf1abed4ed2356"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "total",
+          "wordIds": [
+            "total"
+          ]
+        },
+        {
+          "text": " comes to two hundred dollars, so "
+        },
+        {
+          "text": "each person pays",
+          "phraseIds": [
+            "each-person-pays"
+          ]
+        },
+        {
+          "text": " fifty dollars."
+        }
+      ],
+      "translation": "總共算下來是兩百元，所以每個人只要分攤支付五十元。",
+      "audio": {
+        "src": "/audio/sentences/tracking-daily-budget/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b12b1b952e749654fd1bf73a0604a2891b3e4f9e3cdf74beee3518a6de42d13c",
+        "sha256": "d027bdc85fef831ce99684fdaffdbe147d85102360fabd33f67b658c8eda8b0f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We "
+        },
+        {
+          "text": "share",
+          "wordIds": [
+            "share"
+          ]
+        },
+        {
+          "text": " the expenses equally and it was "
+        },
+        {
+          "text": "worth",
+          "wordIds": [
+            "worth"
+          ]
+        },
+        {
+          "text": " every single dollar we "
+        },
+        {
+          "text": "spent",
+          "wordIds": [
+            "spend"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我們大家平均分攤花費，這完全值得我們花下去的每一分錢。",
+      "audio": {
+        "src": "/audio/sentences/tracking-daily-budget/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ee30e07f3170ad3bb943c66abaf92379ce24bc653294782c8792034791c08f29",
+        "sha256": "a8b8195100e662cfe20c8accfffba80267de17a478908e56c4895d4e8bba6f91"
+      }
+    }
+  ]
+}

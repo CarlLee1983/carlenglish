@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "tool": "codex exec built-in imagegen",
+  "conversion": "1536x1024 landscape WebP, sharp quality 86; fit cover.",
+  "images": [
+    {
+      "id": "fire-alarm-drill-response",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/fire-alarm-drill-response.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "460569cd7f5f779bdd32444fcc437a2ba713796295df1fee87196f325d0aa133"
+    },
+    {
+      "id": "asking-police-for-help",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/asking-police-for-help.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fa89b10606f7c2f38917fb426c13cb290a85ad030c89b43690d9b5e4db39fe0a"
+    },
+    {
+      "id": "typhoon-weather-notice",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/typhoon-weather-notice.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "0cbf14b5bcfd4ca05bfeb26a09b1f4133cc529f9c7c021209b2dbb7ec6ead9d4"
+    },
+    {
+      "id": "first-aid-for-minor-cut",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/first-aid-for-minor-cut.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5c88d6ac2751df6630cbcab76383f8b176e26627bb39a53871c97e55c17d8a40"
+    },
+    {
+      "id": "seeking-lost-pet-notice",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/seeking-lost-pet-notice.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5c0be6db4ecfbb6a95630b4f2e1be3750af50b66de42110041afdb1301ff39d2"
+    }
+  ]
+}

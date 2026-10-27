@@ -1,0 +1,329 @@
+{
+  "id": "resending-verification-code",
+  "title": "沒收到驗證簡訊請求重發",
+  "titleEn": "Requesting a Resend of the Verification Code",
+  "category": "數位生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/resending-verification-code.webp",
+    "alt": "在書桌前，使用者看著平板上的註冊頁面倒數計時器歸零後，點擊重新發送，手機螢幕隨即彈出六位數簡訊驗證碼。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "text-message",
+      "english": "text message",
+      "translation": "文字簡訊",
+      "audio": {
+        "src": "/audio/phrases/resending-verification-code-text-message.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "40c30d9bbe9c8509c2597f8e5f64be783981bedfabf1c52f12f8b12a5b4d3657",
+        "sha256": "4e60ed06b5544094311f3b148e0a4d995106b5976dc8dc40663947f81ac55a88"
+      }
+    },
+    {
+      "id": "double-checked",
+      "english": "double checked",
+      "translation": "重複仔細核對",
+      "audio": {
+        "src": "/audio/phrases/resending-verification-code-double-checked.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f7b6531aa5c0b5bd029f2709da12e36ec8cf80c44546b68e40997341e7f23589",
+        "sha256": "3c1fc24020c0bc28c134ab9c1a81a41324119cd79cadef4388c1522bb8b5d609"
+      }
+    },
+    {
+      "id": "verification-system",
+      "english": "verification system",
+      "translation": "驗證系統",
+      "audio": {
+        "src": "/audio/phrases/resending-verification-code-verification-system.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "70a7cce75fc39643c779ecbcf63bcdb9212d30405a24117e85d12eed54c9b2b3",
+        "sha256": "112debf309f6711387746c7bdf27022150bd2be48b27554284fe50b13634ef89"
+      }
+    },
+    {
+      "id": "countdown-timer",
+      "english": "countdown timer",
+      "translation": "倒數計時器",
+      "audio": {
+        "src": "/audio/phrases/resending-verification-code-countdown-timer.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f6e643b31fbd585bee7d7626ed37271dcc3a3a28cefa1d3b23addcaed44c2ee5",
+        "sha256": "9a43d6d4eaec6e5a132846807da44f51822702b1986fa1f56f21b270492ef769"
+      }
+    },
+    {
+      "id": "click-the-resend-button",
+      "english": "click the resend button",
+      "translation": "點擊重新發送按鈕",
+      "audio": {
+        "src": "/audio/phrases/resending-verification-code-click-the-resend-button.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "be513d9b501934b378837b62cce15cc0c6079e47853d6f8673d0148fcc7135b9",
+        "sha256": "436652e96a8bb0b44efa8c7d7625d35f8dd08435d4f42e774b2f329b6621205a"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "message",
+      "english": "message",
+      "translation": "訊息；簡訊",
+      "example": "Leave a brief voice message if I do not answer.",
+      "audio": {
+        "src": "/audio/words/resending-verification-code-message.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ab530a13e45914982b79f9b7e3fba994cfd1f3fb22f71cea1afbf02b460c6d1d",
+        "sha256": "25aa531834831e49bb0d0e3e91b95562003e0834abb329fcaeed48d949763160"
+      }
+    },
+    {
+      "id": "receive",
+      "english": "receive",
+      "translation": "收到",
+      "example": "Did you receive my birthday postcard yesterday?",
+      "audio": {
+        "src": "/audio/words/resending-verification-code-receive.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "95100519be0342216c9c23348de6ab31630e6bd1c5c0b5b95e03f15c6b52a00b",
+        "sha256": "c4f7bfccb5f81166f72cbbbee6cd58e61ca43e69961170607cf37552d1f3567f"
+      }
+    },
+    {
+      "id": "code",
+      "english": "code",
+      "translation": "代碼；驗證碼",
+      "example": "Enter the four-digit security code to open the gate.",
+      "audio": {
+        "src": "/audio/words/resending-verification-code-code.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5694d08a2e53ffcae0c3103e5ad6f6076abd960eb1f8a56577040bc1028f702b",
+        "sha256": "49af2133f8cf97f9681e919f7df3f0ba7fdce56c4b27e7deb913e978c7e5e6b9"
+      }
+    },
+    {
+      "id": "click",
+      "english": "click",
+      "translation": "點擊；按壓",
+      "example": "Click the blue icon to download the document.",
+      "audio": {
+        "src": "/audio/words/resending-verification-code-click.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e5c7ffac26fed654fe62045898f55b551a0dc120badf3d116bcd364418f3ec16",
+        "sha256": "2e178b835981b468fd3668278f3c5a8a8f044ff39b8c5443c7ced2f9fd06d28e"
+      }
+    },
+    {
+      "id": "system",
+      "english": "system",
+      "translation": "系統",
+      "example": "The subway transit system operates smoothly every day.",
+      "audio": {
+        "src": "/audio/words/resending-verification-code-system.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bbc5e661e106c6dcd8dc6dd186454c2fcba3c710fb4d8e71a60c93eaf077f073",
+        "sha256": "c4384d0fa1a0b03400960e22832cbe0edf4046d0f50ce6c6e55d7f8b681150fc"
+      }
+    },
+    {
+      "id": "check",
+      "english": "check",
+      "translation": "檢查、確認",
+      "example": "Please check your answers before turning in the test.",
+      "audio": {
+        "src": "/audio/words/resending-verification-code-check.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "20f65c28671b40937c5bf23acc7c6f37e5a5ec0622e347b57685725df5ba9e50",
+        "sha256": "cb04aa05e6808e4268f2504656bddcdf792a008a33be7c27214c78a37af6ecdb"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "I am registering a new online account, but I have not "
+        },
+        {
+          "text": "received",
+          "wordIds": [
+            "receive"
+          ]
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "text ",
+          "phraseIds": [
+            "text-message"
+          ]
+        },
+        {
+          "text": "message",
+          "phraseIds": [
+            "text-message"
+          ],
+          "wordIds": [
+            "message"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我正在註冊一個新的線上帳號，但我一直沒有收到驗證簡訊。",
+      "audio": {
+        "src": "/audio/sentences/resending-verification-code/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "86f0355f7159102d4b6b61c3bc6f803d336e66f06ff4e6a44eb3e38f2edffd24",
+        "sha256": "0f10f2290a9ce7479aa91fb36688e9a5735ed364bd9bab01ea40dc65832e7921"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "check",
+          "wordIds": [
+            "check"
+          ]
+        },
+        {
+          "text": " if the phone number you entered is completely correct."
+        }
+      ],
+      "translation": "請檢查看看剛才輸入的手機號碼是不是完全正確無誤。",
+      "audio": {
+        "src": "/audio/sentences/resending-verification-code/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4cb0a5d3f464360ae13637524fe2867b309129cdf6f5ce814cb0b2d29a160c48",
+        "sha256": "f724f4cd0abebbb730b2b4dc3b69b432462e1925392b5e960fb7b1fc3f40d328"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I "
+        },
+        {
+          "text": "double checked",
+          "phraseIds": [
+            "double-checked"
+          ]
+        },
+        {
+          "text": " every single digit, and the mobile number is right."
+        }
+      ],
+      "translation": "我每個數字都重複檢查過了，手機號碼是完全正確的。",
+      "audio": {
+        "src": "/audio/sentences/resending-verification-code/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e397a58068568eb48d5b89975feb9d55bdc1201cfc81084c67fb6b228de079ec",
+        "sha256": "1752738d7bad0d02dfaedeb23e41df6c696f39ce383222c18a0a00a3ae1720e7"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Sometimes the automated "
+        },
+        {
+          "text": "verification ",
+          "phraseIds": [
+            "verification-system"
+          ]
+        },
+        {
+          "text": "system",
+          "phraseIds": [
+            "verification-system"
+          ],
+          "wordIds": [
+            "system"
+          ]
+        },
+        {
+          "text": " takes up to sixty seconds."
+        }
+      ],
+      "translation": "有時候自動發送的驗證系統最多需要等上六十秒的時間。",
+      "audio": {
+        "src": "/audio/sentences/resending-verification-code/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e9c7fd1d9c1805b28e5a9c2ae21533a9412a44a0bfa7ecbbf47d3036a73caa8a",
+        "sha256": "3583bb7112fab01c50245d9bf288aa8e06c300f78026c1de130838e9d8c4588e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "countdown timer",
+          "phraseIds": [
+            "countdown-timer"
+          ]
+        },
+        {
+          "text": " just reached zero, so I can "
+        },
+        {
+          "text": "click",
+          "phraseIds": [
+            "click-the-resend-button"
+          ],
+          "wordIds": [
+            "click"
+          ]
+        },
+        {
+          "text": " the resend button",
+          "phraseIds": [
+            "click-the-resend-button"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "倒數計時器剛好歸零了，所以我現在可以點擊重新發送的按鈕。",
+      "audio": {
+        "src": "/audio/sentences/resending-verification-code/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c3e03e86ab2c0af97b873ec9631d781d0241aa6d9587ea9d3f5443b1a8767bdc",
+        "sha256": "a8f345c9e99a8b92eb282214e689f0587c9777e05c88309200e7f5c4d19bb2bb"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The new six-digit "
+        },
+        {
+          "text": "code",
+          "wordIds": [
+            "code"
+          ]
+        },
+        {
+          "text": " arrived instantly on my phone screen."
+        }
+      ],
+      "translation": "新的六位數驗證碼立刻跳出顯示在我手機螢幕上了。",
+      "audio": {
+        "src": "/audio/sentences/resending-verification-code/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a030315d54d10c29b04bc0866371379642bb891aa004854c8204730a48b8b97c",
+        "sha256": "17945bc0cbf94c4c72b9e51d880a1d72dc85db34051da3ac0987a984fcf872ff"
+      }
+    }
+  ]
+}

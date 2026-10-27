@@ -1,0 +1,338 @@
+{
+  "id": "taking-a-taxi",
+  "title": "趕時間搭計程車",
+  "titleEn": "Taking a Taxi in a Hurry",
+  "category": "交通出行",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/taking-a-taxi.webp",
+    "alt": "在城市路旁，計程車後座的乘客禮貌與司機交談，希望能走最快的路線趕往車站。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "in-a-hurry",
+      "english": "in a hurry",
+      "translation": "趕時間",
+      "audio": {
+        "src": "/audio/phrases/taking-a-taxi-in-a-hurry.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9ccdb1c977dc99f2bde3b0f12c1d9d19d350aa23c471adc2b34bac7fef02d7ab",
+        "sha256": "dcdd8d455dfcb0d580a4b137e8ff123fb9ea6f232814b19c6ca15e920c8b641b"
+      }
+    },
+    {
+      "id": "heavy-traffic",
+      "english": "heavy traffic",
+      "translation": "交通擁擠／塞車",
+      "audio": {
+        "src": "/audio/phrases/taking-a-taxi-heavy-traffic.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6036b19da5328d8ff1d7e4e0f7850e4a1763cd360c0489caf8d74dc7603d4fbb",
+        "sha256": "3f1e5a30bf21bb0f68233b6ad5c533b0ac1b3a5bcd990b092de52c1cd4db11a6"
+      }
+    },
+    {
+      "id": "save-time",
+      "english": "save time",
+      "translation": "節省時間",
+      "audio": {
+        "src": "/audio/phrases/taking-a-taxi-save-time.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e3a8224eb1fb6f6f33db9fdb76340e84b8dec1de4bd38f053089aec4e1210e43",
+        "sha256": "a2fba5f6c8b5e83b0c49c32e97eef9141a0df9e33c96eb763ec751c6c5b572b2"
+      }
+    },
+    {
+      "id": "the-fastest-route",
+      "english": "the fastest route",
+      "translation": "最快路線",
+      "audio": {
+        "src": "/audio/phrases/taking-a-taxi-the-fastest-route.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0a03853b6c8aa6bd84b5caae4f9c0f03cfbe647860e42f2ede0fdab1dc29c1fb",
+        "sha256": "686dfc601e36da23101cc13f0555d5190b54093832743dd56a6c85d385f51693"
+      }
+    },
+    {
+      "id": "drop-me-off",
+      "english": "drop me off",
+      "translation": "讓我在...下車",
+      "audio": {
+        "src": "/audio/phrases/taking-a-taxi-drop-me-off.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "361e0503bb194964f96f634390308b1b8a87095626be37c210b2f251bb53560f",
+        "sha256": "f07cbdac53c5824eaa74081799036ca538b295416bb2f50436f0ea890041f7d6"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "hurry",
+      "english": "hurry",
+      "translation": "匆忙",
+      "example": "There is no need to hurry, we have thirty minutes.",
+      "audio": {
+        "src": "/audio/words/taking-a-taxi-hurry.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f6002cbceb8c0327d974714b8f7a4ba28e25f0b7cbe216a719c35ced1fe9647f",
+        "sha256": "f3079feb621315a43ddf1979ac020f65792ebd5a46f2ccfaf3c85e48e0363939"
+      }
+    },
+    {
+      "id": "traffic",
+      "english": "traffic",
+      "translation": "交通",
+      "example": "Evening traffic on the bridge is always slow.",
+      "audio": {
+        "src": "/audio/words/taking-a-taxi-traffic.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "075f4ab854e2a33c8ac11c0758796af4ae994ec4e37e36b6f11b503492c68289",
+        "sha256": "ed73f4b55259fe71d7c1d866ceb362acad04992f7a3258c0e6b16095016aea35"
+      }
+    },
+    {
+      "id": "ahead",
+      "english": "ahead",
+      "translation": "在前方；往前",
+      "example": "Watch out for the red traffic light ahead.",
+      "audio": {
+        "src": "/audio/words/taking-a-taxi-ahead.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d0b4034c6ca7ee87f65ccb76f6c7a8ca0c5559db19314e525b3b906b57f301aa",
+        "sha256": "759e042d67f8b44f51fdc097dccc62a121b6649974508f7acf46953b3ef40ef9"
+      }
+    },
+    {
+      "id": "drive",
+      "english": "drive",
+      "translation": "開車",
+      "example": "My father drives to work every morning.",
+      "audio": {
+        "src": "/audio/words/taking-a-taxi-drive.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7062520c5a0ea9deac825278c9f4f0cbad48864b2c7d0c7f1ebccdb752afb058",
+        "sha256": "3f5805e61d9e1e3e64f4a641b50a676d642825a6d66e718d314144b0a9734cd2"
+      }
+    },
+    {
+      "id": "drop",
+      "english": "drop",
+      "translation": "掉落；放下",
+      "example": "The driver will drop you at the school gate.",
+      "audio": {
+        "src": "/audio/words/taking-a-taxi-drop.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d90ee9ccf6bea1d2942a7b21319338198dec2a746f8a0d0771621f00da2e0864",
+        "sha256": "e595ad565ff0323fb3659fb0adf11acfbda6d6e245664e76d204112bbf2b73ea"
+      }
+    },
+    {
+      "id": "road",
+      "english": "road",
+      "translation": "道路",
+      "example": "This quiet country road has very few cars.",
+      "audio": {
+        "src": "/audio/words/taking-a-taxi-road.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "362a284952d3a7250e4bdd72a659ea78e8ec79804e0e6a2053dfe4c10e7d79f1",
+        "sha256": "bb337faa918b468920b6eb10d59f86d7e9c6d488aaac18ef36e3e1fc346f8fd1"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Good morning, I am "
+        },
+        {
+          "text": "in a ",
+          "phraseIds": [
+            "in-a-hurry"
+          ]
+        },
+        {
+          "text": "hurry",
+          "phraseIds": [
+            "in-a-hurry"
+          ],
+          "wordIds": [
+            "hurry"
+          ]
+        },
+        {
+          "text": " to catch my train."
+        }
+      ],
+      "translation": "早安司機先生，我有點趕時間要去搭火車。",
+      "audio": {
+        "src": "/audio/sentences/taking-a-taxi/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6e81bc6f35beaa5208cb6930c2a663d0125a6974ef7aad586cd4f657197bf48a",
+        "sha256": "a8f88f758809830d7b805f44778f2cf9d065d034cb49ef73a49833c42c86ed0e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Could you please take me to the high-speed rail station?"
+        }
+      ],
+      "translation": "可以請您載我到高鐵車站嗎？",
+      "audio": {
+        "src": "/audio/sentences/taking-a-taxi/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3edbc6dc3fba33a39bd7a7c43de2a947336c48f42b4d53f3b9b6ec2eca830066",
+        "sha256": "ae87da67572f8e496c574df958615113bc965ca274f3a61a66c47bc168e0dc0d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The main avenue "
+        },
+        {
+          "text": "ahead",
+          "wordIds": [
+            "ahead"
+          ]
+        },
+        {
+          "text": " has "
+        },
+        {
+          "text": "heavy ",
+          "phraseIds": [
+            "heavy-traffic"
+          ]
+        },
+        {
+          "text": "traffic",
+          "phraseIds": [
+            "heavy-traffic"
+          ],
+          "wordIds": [
+            "traffic"
+          ]
+        },
+        {
+          "text": " today."
+        }
+      ],
+      "translation": "前面那條主要大道今天早上的車流量非常大。",
+      "audio": {
+        "src": "/audio/sentences/taking-a-taxi/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "874fefe4a00fc25cb33d941737ed46fd4439f166038c2ec00ded711aed4632f4",
+        "sha256": "6cb421185849fff284517406c84e1efe4a7ee5a867a19758f7cc07152a118245"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Can you turn right into the smaller "
+        },
+        {
+          "text": "road",
+          "wordIds": [
+            "road"
+          ]
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "save time",
+          "phraseIds": [
+            "save-time"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "您可以右轉走那條小路來節省時間嗎？",
+      "audio": {
+        "src": "/audio/sentences/taking-a-taxi/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "415da777f3912dc879e7ae8ebf914df887362f21f77feac30d3f953174368ce9",
+        "sha256": "3597b9e873dbf57cb9e3d3a1f98924d844a04c809118853e6423b1d1605d726c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do not worry, I will "
+        },
+        {
+          "text": "drive",
+          "wordIds": [
+            "drive"
+          ]
+        },
+        {
+          "text": " carefully and take "
+        },
+        {
+          "text": "the fastest route",
+          "phraseIds": [
+            "the-fastest-route"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "別擔心，我會安全駕駛並走最快的路線。",
+      "audio": {
+        "src": "/audio/sentences/taking-a-taxi/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7cd2ef12416e932efd9afacab054a6406f0b365e921383f75064649d5abbe42b",
+        "sha256": "81f3d06a71b0b8f6c3411c186934409d7785f5cfc5609ab24133c5d0216324cf"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "drop",
+          "phraseIds": [
+            "drop-me-off"
+          ],
+          "wordIds": [
+            "drop"
+          ]
+        },
+        {
+          "text": " me off",
+          "phraseIds": [
+            "drop-me-off"
+          ]
+        },
+        {
+          "text": " right at the main entrance "
+        },
+        {
+          "text": "drop",
+          "wordIds": [
+            "drop"
+          ]
+        },
+        {
+          "text": " point."
+        }
+      ],
+      "translation": "請在正大門的下車處讓我下車就好。",
+      "audio": {
+        "src": "/audio/sentences/taking-a-taxi/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "965049093b8e52d8dd611bf286092d1c2ecd54e16e0762684a25a08caabf5d64",
+        "sha256": "7a17b42ab22320ec8e6ffe3e0ba9da1b906ac36354d432e59b5cd04c9c297066"
+      }
+    }
+  ]
+}

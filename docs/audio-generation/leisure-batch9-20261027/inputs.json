@@ -1,0 +1,446 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/cinema-ticket-booking/1.mp3",
+      "text": "Good afternoon, we want to buy student tickets for the afternoon animated movie.",
+      "textSha256": "42f87cd936c008451317bf197fecb0ad25e3084a21b4c0d5d5cc79652a491fcb"
+    },
+    {
+      "src": "/audio/sentences/cinema-ticket-booking/2.mp3",
+      "text": "Which screening time would you prefer, the two o'clock or the four thirty show?",
+      "textSha256": "888eeef9639ffc8f807074b38951f7c046eff8a07a4f4bfd0022a5fb8a19b456"
+    },
+    {
+      "src": "/audio/sentences/cinema-ticket-booking/3.mp3",
+      "text": "The four thirty show fits our schedule, and are there good seats available in the middle row?",
+      "textSha256": "9594da32d2072dba74832776a25a144c1d1a1b7c73f9678faefd3acbf75a6e6d"
+    },
+    {
+      "src": "/audio/sentences/cinema-ticket-booking/4.mp3",
+      "text": "Row F and row G in the center have a fairly clear view of the big screen.",
+      "textSha256": "8051507ba7d23c9ba748d9c2ad105ccaf20d95c2f56f9dab73334a3b4a52f3bb"
+    },
+    {
+      "src": "/audio/sentences/cinema-ticket-booking/5.mp3",
+      "text": "I really hate sitting too close to the front because the sound is too loud.",
+      "textSha256": "584ef4d24ec754f49331bbebef34e21b5e2ddd817e085fb19a9e8dc82dd5718b"
+    },
+    {
+      "src": "/audio/sentences/cinema-ticket-booking/6.mp3",
+      "text": "The background score and musical soundtrack in this film are wonderful to enjoy.",
+      "textSha256": "adbef5148e6fcd886436e95969c76a772625de7920557f749fdeeec3867c43ec"
+    },
+    {
+      "src": "/audio/phrases/cinema-ticket-booking-buy-student-tickets.mp3",
+      "text": "buy student tickets",
+      "textSha256": "c69a68fbba18c3f24561757c3a15e8d918310c3bd70da4ed9f7abf4b6a8cabae"
+    },
+    {
+      "src": "/audio/phrases/cinema-ticket-booking-in-the-middle-row.mp3",
+      "text": "in the middle row",
+      "textSha256": "7a0724ab5fa3f4cb2dfb4bd5808c7dcc27c5ed8adfe26f809723460a9dd11c0c"
+    },
+    {
+      "src": "/audio/phrases/cinema-ticket-booking-a-fairly-clear-view.mp3",
+      "text": "a fairly clear view",
+      "textSha256": "d08b29dcbdd031bb6913ddc58bc66dfa5edff8926a0c79a00cf689c47f778be6"
+    },
+    {
+      "src": "/audio/phrases/cinema-ticket-booking-too-close-to-the-front.mp3",
+      "text": "too close to the front",
+      "textSha256": "df64ea84cd6ae61240e7fc5982320006b008d79fc4c10c69bf57a63d286c3e8d"
+    },
+    {
+      "src": "/audio/phrases/cinema-ticket-booking-wonderful-to-enjoy.mp3",
+      "text": "wonderful to enjoy",
+      "textSha256": "837d277d9991b8ce8c5f0ef0180d5e1926362dd3cca4f1a2ebc61780b8cfa4f0"
+    },
+    {
+      "src": "/audio/words/cinema-ticket-booking-movie.mp3",
+      "text": "movie",
+      "textSha256": "8a6ba32c9bed6ce703f999f9af6ec23686d44e144e4da572d94c8daca4a9cbab"
+    },
+    {
+      "src": "/audio/words/cinema-ticket-booking-ticket.mp3",
+      "text": "ticket",
+      "textSha256": "14069429150abcbf244c4c2fb2c4c46a49c93ca9457263ecd9ebb176de3a58bb"
+    },
+    {
+      "src": "/audio/words/cinema-ticket-booking-seat.mp3",
+      "text": "seat",
+      "textSha256": "5d2c13d6f9fa421125a9f55e56fd0e4df9319ef30087f8f4675cd6f05135f397"
+    },
+    {
+      "src": "/audio/words/cinema-ticket-booking-screen.mp3",
+      "text": "screen",
+      "textSha256": "4cd6c2914887dd4a68e4c9ffbed8b077f048cf795d6cfa0b801d43e0ea5a1560"
+    },
+    {
+      "src": "/audio/words/cinema-ticket-booking-hate.mp3",
+      "text": "hate",
+      "textSha256": "f2e9a23ac36c4b227b16387b4e0d37793e9459f3912942069981886d5bffe90e"
+    },
+    {
+      "src": "/audio/words/cinema-ticket-booking-enjoy.mp3",
+      "text": "enjoy",
+      "textSha256": "75fba329cb6ee8907a1f009b69353d8c0e9a8228b25a1095c7976efc1eaa259d"
+    },
+    {
+      "src": "/audio/sentences/travel-itinerary-planning/1.mp3",
+      "text": "Since summer holiday is beginning soon, let us travel somewhere peaceful this Saturday.",
+      "textSha256": "8a095e7ac9cbff7a19f0449bec4f697c6e317cef642788aef3a33decd7c6dc2c"
+    },
+    {
+      "src": "/audio/sentences/travel-itinerary-planning/2.mp3",
+      "text": "Do you want to explore an old historic town or walk through the quiet country hills?",
+      "textSha256": "92f5e59378a32f0ad425f92bcb53c3d2fc5fc4c75bd5c833c86bf761fda0ae82"
+    },
+    {
+      "src": "/audio/sentences/travel-itinerary-planning/3.mp3",
+      "text": "A walking tour through the mountain country would give us a breath of fresh life.",
+      "textSha256": "06693bbf74b225f050161d19edea9d32655125f5e646b497fc46869ad1c2dd06"
+    },
+    {
+      "src": "/audio/sentences/travel-itinerary-planning/4.mp3",
+      "text": "Is the scenic waterfall view really worth the two-hour train ride?",
+      "textSha256": "f41499c0aa57c2a51225edcea2152b9b2739ac425f4e72217bdd09e9071a7cd5"
+    },
+    {
+      "src": "/audio/sentences/travel-itinerary-planning/5.mp3",
+      "text": "It is definitely worth the trip because the forest nature trails are breathtaking.",
+      "textSha256": "c388df6163a5627742889b2972876b5fa2b660c1bb11406f0cd4bc40f9fc4784"
+    },
+    {
+      "src": "/audio/sentences/travel-itinerary-planning/6.mp3",
+      "text": "Let us pack simple sandwiches and visit the local tea farm in the afternoon.",
+      "textSha256": "c2808982f3b9a99b0251f25ff921634b0c291309c7756df064969ebc4df7a0fd"
+    },
+    {
+      "src": "/audio/phrases/travel-itinerary-planning-summer-holiday.mp3",
+      "text": "summer holiday",
+      "textSha256": "ff9fe265db45a7461f4c3318d99e660acdc97a23938efb70fb31251d393f484f"
+    },
+    {
+      "src": "/audio/phrases/travel-itinerary-planning-travel-somewhere-peaceful.mp3",
+      "text": "travel somewhere peaceful",
+      "textSha256": "024d806375edd1107aca0d7193424271d31296d85aa5a8038d670b96c30077c1"
+    },
+    {
+      "src": "/audio/phrases/travel-itinerary-planning-country-hills.mp3",
+      "text": "country hills",
+      "textSha256": "d5da3bf15878b5f51a6e43c30cd0f5281ffc4c534919d9b26ffa3814b9977ea9"
+    },
+    {
+      "src": "/audio/phrases/travel-itinerary-planning-worth-the-trip.mp3",
+      "text": "worth the trip",
+      "textSha256": "e2404fa2eefbcf1a733c8dfe2cc6ccf68b2bc729b1e7141e0746cbbdfef02da2"
+    },
+    {
+      "src": "/audio/phrases/travel-itinerary-planning-visit-the-local-tea-farm.mp3",
+      "text": "visit the local tea farm",
+      "textSha256": "bda15659104bee815e13ef991dffdba2058d0e9b1c3d13ff5abccefb74ef5e63"
+    },
+    {
+      "src": "/audio/words/travel-itinerary-planning-holiday.mp3",
+      "text": "holiday",
+      "textSha256": "81c16d337a1b73144ebf20b45661f2b02aa0b22e886a978d6b2ec929cdaaee9e"
+    },
+    {
+      "src": "/audio/words/travel-itinerary-planning-summer.mp3",
+      "text": "summer",
+      "textSha256": "e83664255c6963e962bb20f9fcfaad1b570ddf5da69f5444ed37e5260f3ef689"
+    },
+    {
+      "src": "/audio/words/travel-itinerary-planning-travel.mp3",
+      "text": "travel",
+      "textSha256": "0209442e115ad7bc79fd281d91423a86b619e3c711fe574b7cc198d2e3c461c4"
+    },
+    {
+      "src": "/audio/words/travel-itinerary-planning-town.mp3",
+      "text": "town",
+      "textSha256": "50ac81f970325a3e011f2437818adde426e1278dee5670dd359edfca43a72d79"
+    },
+    {
+      "src": "/audio/words/travel-itinerary-planning-country.mp3",
+      "text": "country",
+      "textSha256": "aff64e4fd520bd185cb01adab98d2d20060f621c62d5cad5204712cfa2294ef7"
+    },
+    {
+      "src": "/audio/words/travel-itinerary-planning-worth.mp3",
+      "text": "worth",
+      "textSha256": "c0a6eb55b12b7dfe01d9e55f4563eeefe13bd7ef7d7d576fdd8a9977d7a09f5d"
+    },
+    {
+      "src": "/audio/sentences/amusement-park-entry/1.mp3",
+      "text": "Welcome to Ocean World, how many adult and child tickets do you need?",
+      "textSha256": "ddfef13591806e5da574452ed381c0e15f536e8df789fd468e5ad238e79fcea6"
+    },
+    {
+      "src": "/audio/sentences/amusement-park-entry/2.mp3",
+      "text": "We need two adult day passes and one ticket for our young kid.",
+      "textSha256": "6735a97ff24309219dedd6c00b29275de7d57128d63e398bd7f8625b8f953871"
+    },
+    {
+      "src": "/audio/sentences/amusement-park-entry/3.mp3",
+      "text": "Children must be over one hundred and twenty centimeters in height for the big roller coaster.",
+      "textSha256": "d2dd8087dbb5e3c381988645da1ade0a04c899d59d8421b0b58a4c3cf92ef4f2"
+    },
+    {
+      "src": "/audio/sentences/amusement-park-entry/4.mp3",
+      "text": "The fair attendant measured him gently, and he passed the minimum requirement easily.",
+      "textSha256": "a5b69fddf903c7f62446790520f7ae0c9c80af79e25c55c7bf8c3061557f2cc2"
+    },
+    {
+      "src": "/audio/sentences/amusement-park-entry/5.mp3",
+      "text": "How long is the waiting line for the fast water splash ride right now?",
+      "textSha256": "4b4ec2077ba376b296b6802f8085bd986800c072d3cbfd97ba9b9829efd4c0e4"
+    },
+    {
+      "src": "/audio/sentences/amusement-park-entry/6.mp3",
+      "text": "The wait is only twenty minutes, so go ahead and have lots of fun!",
+      "textSha256": "9a8c753f2e22e77417b7b6debb560151d8e18d59dd9b5dabe682a5afeaf2aefe"
+    },
+    {
+      "src": "/audio/phrases/amusement-park-entry-adult-day-passes.mp3",
+      "text": "adult day passes",
+      "textSha256": "4248ba2e44bf2b72a0f4c78c1a75e9254ddb7f86f6f9a0c28f097827a10fc804"
+    },
+    {
+      "src": "/audio/phrases/amusement-park-entry-young-kid.mp3",
+      "text": "young kid",
+      "textSha256": "c5f2d9cfcc0cb4c2b9e9af6d1849ac48f0e29544623bbe01a856a733a46db62b"
+    },
+    {
+      "src": "/audio/phrases/amusement-park-entry-minimum-requirement.mp3",
+      "text": "minimum requirement",
+      "textSha256": "a85fd8df1a4d49296ddd4a7cca1e84f947afd9df1f2e24e365396e9bec4cbea4"
+    },
+    {
+      "src": "/audio/phrases/amusement-park-entry-waiting-line.mp3",
+      "text": "waiting line",
+      "textSha256": "85387e13b44741de484cc4a2b20094e5c5c582149ee2f30a1e681e5fd7b4bb28"
+    },
+    {
+      "src": "/audio/phrases/amusement-park-entry-have-lots-of-fun.mp3",
+      "text": "have lots of fun",
+      "textSha256": "643e5e069998a0767ceaf7db1e7fdf5a07c3649abde87e22d6aa71428b68b1cb"
+    },
+    {
+      "src": "/audio/words/amusement-park-entry-kid.mp3",
+      "text": "kid",
+      "textSha256": "5c77d7fd8f51ed0c2a913e46326ff6d2ea2e95c8ecf1667c72eb72ccc3fc2b46"
+    },
+    {
+      "src": "/audio/words/amusement-park-entry-child.mp3",
+      "text": "child",
+      "textSha256": "ddc9e669194254cef019a29d3619a2c16592e5d52e1a81e98b01bd52319149a3"
+    },
+    {
+      "src": "/audio/words/amusement-park-entry-ride.mp3",
+      "text": "ride",
+      "textSha256": "e049bd056f936d1b39b704abcf824eaef39bd8877fcbb82b2a213ceec82bdf26"
+    },
+    {
+      "src": "/audio/words/amusement-park-entry-pass.mp3",
+      "text": "pass",
+      "textSha256": "d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1"
+    },
+    {
+      "src": "/audio/words/amusement-park-entry-fair.mp3",
+      "text": "fair",
+      "textSha256": "1869c9d2a11e8ecde889aa06a811403308c819ea0a4289c50b90eb1d812c1338"
+    },
+    {
+      "src": "/audio/words/amusement-park-entry-fun.mp3",
+      "text": "fun",
+      "textSha256": "00c4285274fcc5d6fba2ee58daf0d8c2b9b825b68d35d65d0e90a9bb333a51b5"
+    },
+    {
+      "src": "/audio/sentences/museum-exhibition-audio-guide/1.mp3",
+      "text": "I would like to rent an audio guide device for the ancient history exhibit.",
+      "textSha256": "ad500af68f0360e56a768abe6489f0736a368a5065fd06418522a29abb086972"
+    },
+    {
+      "src": "/audio/sentences/museum-exhibition-audio-guide/2.mp3",
+      "text": "Which language would you like the audio commentary to play in?",
+      "textSha256": "72f3941d5782d356022fe4ec2204106d5c498fe393c540c69f5d49bc806ad4df"
+    },
+    {
+      "src": "/audio/sentences/museum-exhibition-audio-guide/3.mp3",
+      "text": "Please set it to English so I can practice listening to historical terms.",
+      "textSha256": "fa16ad7572e52fd84417e5dde4b3c6e02fe756829015920d4b5363ae03809d42"
+    },
+    {
+      "src": "/audio/sentences/museum-exhibition-audio-guide/4.mp3",
+      "text": "When you walk up to any display case, simply press the matching number on the keypad.",
+      "textSha256": "0e4d3710e74877c5c3699da555b8299cc87a7699e22c20f064992c6175380535"
+    },
+    {
+      "src": "/audio/sentences/museum-exhibition-audio-guide/5.mp3",
+      "text": "Each track explains the culture and daily life of people during that dynamic period.",
+      "textSha256": "63c53e9b4424ef61d554fdf3177f66fe4b3ef06dff622eada3ce76230d52862c"
+    },
+    {
+      "src": "/audio/sentences/museum-exhibition-audio-guide/6.mp3",
+      "text": "This handheld player really adds great interest to our afternoon museum tour.",
+      "textSha256": "5c8fc821e8cb1b81a6e65e0d5d1f83981bca1da257280df29cdfb2642ff09e1b"
+    },
+    {
+      "src": "/audio/phrases/museum-exhibition-audio-guide-audio-guide-device.mp3",
+      "text": "audio guide device",
+      "textSha256": "631c861f60b77fa5b155cdc12b23f5403a093814da6fde78e4d380b1ec19cbb1"
+    },
+    {
+      "src": "/audio/phrases/museum-exhibition-audio-guide-set-it-to-english.mp3",
+      "text": "set it to English",
+      "textSha256": "74272d765a9da7dee9f90a82a3ba5e0e930c02dcda2ccfa8aaa8c21f086bd942"
+    },
+    {
+      "src": "/audio/phrases/museum-exhibition-audio-guide-display-case.mp3",
+      "text": "display case",
+      "textSha256": "ac7b58e9d4192b0c46e73cb7c02cfa1e3d1fd9c0e4e49617389e553de7d286a4"
+    },
+    {
+      "src": "/audio/phrases/museum-exhibition-audio-guide-press-the-matching-number.mp3",
+      "text": "press the matching number",
+      "textSha256": "9ca031b64685b3a13f0a284a08706bff4b674e002b169e16a67aa3454b991893"
+    },
+    {
+      "src": "/audio/phrases/museum-exhibition-audio-guide-culture-and-daily-life.mp3",
+      "text": "culture and daily life",
+      "textSha256": "3542470f914350bc85db1e68a7dd90b900138c79840e2fb494f21bb9741ae6d9"
+    },
+    {
+      "src": "/audio/words/museum-exhibition-audio-guide-history.mp3",
+      "text": "history",
+      "textSha256": "259aa8ef98a8b91de574cd904138ef643240c23080cf24da4793a6f10a43fa9d"
+    },
+    {
+      "src": "/audio/words/museum-exhibition-audio-guide-language.mp3",
+      "text": "language",
+      "textSha256": "a4ef304ba42a200bafd78b046e0869af9183f6eee5524aead5dcb3a5ab5f8f3f"
+    },
+    {
+      "src": "/audio/words/museum-exhibition-audio-guide-period.mp3",
+      "text": "period",
+      "textSha256": "514cb13f603464f97849ba88d2d4f9698003a9323de9b7a3d162ef76f6998122"
+    },
+    {
+      "src": "/audio/words/museum-exhibition-audio-guide-interest.mp3",
+      "text": "interest",
+      "textSha256": "828408e40d4fe651488b14696b60b613c9683ab9862e03f4e72aec7c1fda7635"
+    },
+    {
+      "src": "/audio/words/museum-exhibition-audio-guide-culture.mp3",
+      "text": "culture",
+      "textSha256": "f1947f79fdfb8046150959ca09cdd05cb53672ad4c0f49a87bbc7cddf5c91293"
+    },
+    {
+      "src": "/audio/words/museum-exhibition-audio-guide-display.mp3",
+      "text": "display",
+      "textSha256": "dfbb889cf19bda82ed8deadf82de232979aa4ecc83238625c6453dc4c597b43a"
+    },
+    {
+      "src": "/audio/sentences/sports-match-cheering/1.mp3",
+      "text": "The basketball gym is completely packed with students cheering for our school match.",
+      "textSha256": "371924f5a5680f293bd66404e3a1a99f05c48c9904737c16d1f39c1e94085cda"
+    },
+    {
+      "src": "/audio/sentences/sports-match-cheering/2.mp3",
+      "text": "Our team is trailing by just two points on the electronic scoreboard.",
+      "textSha256": "7a523798ccc92be07b597e587380bd46fb29738ca3205a93544ac21283a526a4"
+    },
+    {
+      "src": "/audio/sentences/sports-match-cheering/3.mp3",
+      "text": "Number seven made a fantastic pass, and the center scored a thrilling goal!",
+      "textSha256": "13bc870b6d8c8ae0ac7760d4c852c17def16decc95799f1542592c4abae68d48"
+    },
+    {
+      "src": "/audio/sentences/sports-match-cheering/4.mp3",
+      "text": "Every player on the court showed incredible defensive action in the final minute.",
+      "textSha256": "8ad46ea319f312b7b64a5b8fd61b7091abac4ac6d9ec63bb9bd3bdbc865cf357"
+    },
+    {
+      "src": "/audio/sentences/sports-match-cheering/5.mp3",
+      "text": "Everyone stood up and shouted loud cheers as our team took the lead.",
+      "textSha256": "427df01072779206c4196b95394220fdd82c97e373fd122f8005fbb14250df32"
+    },
+    {
+      "src": "/audio/sentences/sports-match-cheering/6.mp3",
+      "text": "With great effort and collective determination, our classmates celebrated a proud win.",
+      "textSha256": "6616bf8ccb84cd298ccc2d0e0ea8a523042e0b59bc04ad0e3dad38cb813c12ec"
+    },
+    {
+      "src": "/audio/phrases/sports-match-cheering-school-match.mp3",
+      "text": "school match",
+      "textSha256": "300aa9bee02eaa7d68e969fb91511d0474a302fa2ae58cd6aab432237b2062fa"
+    },
+    {
+      "src": "/audio/phrases/sports-match-cheering-cheering-for-our-school.mp3",
+      "text": "cheering for our school",
+      "textSha256": "17372849ab9253f9afbe2ca373da975763ed6e29ae834552d6f5d9cb768d163b"
+    },
+    {
+      "src": "/audio/phrases/sports-match-cheering-on-the-electronic-scoreboard.mp3",
+      "text": "on the electronic scoreboard",
+      "textSha256": "d7797e7e90cbc90234bb54efcc3fb9d620f0bcc0fbf711f4a2c73df3b43fb821"
+    },
+    {
+      "src": "/audio/phrases/sports-match-cheering-took-the-lead.mp3",
+      "text": "took the lead",
+      "textSha256": "e28c1f9007351ade783684f1821c8e5dab94ecb0540e5e462ffb57ae0faca858"
+    },
+    {
+      "src": "/audio/phrases/sports-match-cheering-proud-win.mp3",
+      "text": "proud win",
+      "textSha256": "cee608ae2cac6b93a243253dd34093548b97208cc36190139c82d79192977b9f"
+    },
+    {
+      "src": "/audio/words/sports-match-cheering-match.mp3",
+      "text": "match",
+      "textSha256": "4945a70fa7f9c13fe1931a3372ac5798140d42eba74d0dd805a4a216ed3a8142"
+    },
+    {
+      "src": "/audio/words/sports-match-cheering-win.mp3",
+      "text": "win",
+      "textSha256": "823a3180dad3c9c3c4dea43ab2baf9f04bac9c3a7711745ff5f702551496d735"
+    },
+    {
+      "src": "/audio/words/sports-match-cheering-score.mp3",
+      "text": "score",
+      "textSha256": "a575b79868a2336db378ac89cb6c7d93272b4bb8e74d1096e8630765cf480ef5"
+    },
+    {
+      "src": "/audio/words/sports-match-cheering-lead.mp3",
+      "text": "lead",
+      "textSha256": "e3456bc1f4d270f4a97933758645fdc21e39642b31ca343c1818f7972ac27906"
+    },
+    {
+      "src": "/audio/words/sports-match-cheering-loud.mp3",
+      "text": "loud",
+      "textSha256": "db1a60bbff220d0910f017477df18cb7cd90892722985ac91dbfdaa1c955220f"
+    },
+    {
+      "src": "/audio/words/sports-match-cheering-action.mp3",
+      "text": "action",
+      "textSha256": "bd938c688f49b77c7fc537c6b9222e2c97ebddd63076b87f2feaec66fb9c05d0"
+    }
+  ]
+}

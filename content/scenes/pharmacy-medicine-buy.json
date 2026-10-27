@@ -1,0 +1,365 @@
+{
+  "id": "pharmacy-medicine-buy",
+  "title": "藥局購買成藥",
+  "titleEn": "Buying Over-the-Counter Medicine",
+  "category": "健康生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/pharmacy-medicine-buy.webp",
+    "alt": "在乾淨明亮的社區藥局櫃檯前，顧客向親切的藥師諮詢緩解感冒與喉嚨痛的成藥用法。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "sore-throat",
+      "english": "sore throat",
+      "translation": "喉嚨痛",
+      "audio": {
+        "src": "/audio/phrases/pharmacy-medicine-buy-sore-throat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6035d278aab61595edbd2127e54718988dde09c240ffbd636000749739817b8c",
+        "sha256": "8600ceb3e9a944350148fb017f3040ec16bb71a77953fa207e9af7701868284c"
+      }
+    },
+    {
+      "id": "slight-headache",
+      "english": "slight headache",
+      "translation": "輕微頭痛",
+      "audio": {
+        "src": "/audio/phrases/pharmacy-medicine-buy-slight-headache.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "84d68ca254882f66b205078300421f07af6cb621a71a4b7c4b94da352914c2ed",
+        "sha256": "5dd00e74b826f336d49393331e83e73390fc168c15047cd5b4390a54b16479f7"
+      }
+    },
+    {
+      "id": "pain-relief",
+      "english": "pain relief",
+      "translation": "緩解疼痛／止痛",
+      "audio": {
+        "src": "/audio/phrases/pharmacy-medicine-buy-pain-relief.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d1adb6227b07f5053d32eb9c9f52d79b4a39804ad10dea56a4b4737d17651270",
+        "sha256": "afe38ed69193584966d33fb14a72c1e1085d1e23b23c0dd6887d039d2c4e73f6"
+      }
+    },
+    {
+      "id": "three-times-a-day",
+      "english": "three times a day",
+      "translation": "一天三次",
+      "audio": {
+        "src": "/audio/phrases/pharmacy-medicine-buy-three-times-a-day.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fcab542f2587e3d9ca25cb2f85ca02f2e1a208939087711759e9152419040aad",
+        "sha256": "d46a47a8683c54f3672acbb267cad957c2859d55ca0b3742bcab664d1de48b18"
+      }
+    },
+    {
+      "id": "after-a-full-meal",
+      "english": "after a full meal",
+      "translation": "吃飽飯後",
+      "audio": {
+        "src": "/audio/phrases/pharmacy-medicine-buy-after-a-full-meal.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0a85a1edc116fab775e6ef10b9b35642ce3a465ea3a97789fd2c2959c9179956",
+        "sha256": "64af6317b988dada034d5059361adcf1db8cb06875e7192ab2077675f3a9ee1a"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "pain",
+      "english": "pain",
+      "translation": "疼痛",
+      "example": "He felt a sharp pain in his back.",
+      "audio": {
+        "src": "/audio/words/pharmacy-medicine-buy-pain.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5c78c8e7160e76ba9b6c41f74247bb7ba4887f5c06faecd6b9a009785b248c72",
+        "sha256": "b407b01cd37f89431784ef93a7afa91ce3bccdb41e452169ea5c8800fc28f06f"
+      }
+    },
+    {
+      "id": "hurt",
+      "english": "hurt",
+      "translation": "疼痛；傷害",
+      "example": "My legs hurt after running up the hill.",
+      "audio": {
+        "src": "/audio/words/pharmacy-medicine-buy-hurt.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "49002d515d1605d8e4928cdccea435328773268fb951e9dae201212284d374a5",
+        "sha256": "9bdc30cf787e85cf494ef744e8b6b657539fb0e7129a23c88577f2ad394c3868"
+      }
+    },
+    {
+      "id": "headache",
+      "english": "headache",
+      "translation": "頭痛",
+      "example": "I drank warm water to soothe my headache.",
+      "audio": {
+        "src": "/audio/words/pharmacy-medicine-buy-headache.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cfa9ac1e084975b5d6463e32652c85bad6355a5ab32399618f89f222e68dc335",
+        "sha256": "fc9dff10cb1c086124473a69612cf262b229527d7df669ec07038d0c1373254b"
+      }
+    },
+    {
+      "id": "throat",
+      "english": "throat",
+      "translation": "喉嚨",
+      "example": "A hot lemon tea helps a sore throat.",
+      "audio": {
+        "src": "/audio/words/pharmacy-medicine-buy-throat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "48cf13f481ae6828d98963f106d1e60961e8eec53971d98dd652c55e9403fc78",
+        "sha256": "0fa9593904436c7201f48f78594b3bf7e24190b46edbfe567e53487314a3c4e8"
+      }
+    },
+    {
+      "id": "medicine",
+      "english": "medicine",
+      "translation": "藥物；藥品",
+      "example": "Always keep your medicine in a cool dry place.",
+      "audio": {
+        "src": "/audio/words/pharmacy-medicine-buy-medicine.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a82ce870f999b01b17b9135b72d1f4b6d31217aec9cbee69d5bfc9659018ca06",
+        "sha256": "91d32f2e5fdd04e36eac3499b30c6527cff20acd6bf6a2d6e1045419b58acd32"
+      }
+    },
+    {
+      "id": "doctor",
+      "english": "doctor",
+      "translation": "醫生",
+      "example": "The doctor told him to take a full week of rest.",
+      "audio": {
+        "src": "/audio/words/pharmacy-medicine-buy-doctor.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "72f4be89d6ebab1496e21e38bcd7c8ca0a68928af3081ad7dff87e772eb350c2",
+        "sha256": "c7148c2b5255f6f4db62cb95047302d1c118acab0be736d9f71da240c8c0551f"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Hello, I have had a "
+        },
+        {
+          "text": "sore ",
+          "phraseIds": [
+            "sore-throat"
+          ]
+        },
+        {
+          "text": "throat",
+          "phraseIds": [
+            "sore-throat"
+          ],
+          "wordIds": [
+            "throat"
+          ]
+        },
+        {
+          "text": " and a "
+        },
+        {
+          "text": "slight ",
+          "phraseIds": [
+            "slight-headache"
+          ]
+        },
+        {
+          "text": "headache",
+          "phraseIds": [
+            "slight-headache"
+          ],
+          "wordIds": [
+            "headache"
+          ]
+        },
+        {
+          "text": " since yesterday."
+        }
+      ],
+      "translation": "你好，我從昨天開始喉嚨痛，還有點輕微頭痛。",
+      "audio": {
+        "src": "/audio/sentences/pharmacy-medicine-buy/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ca69d23c65baabc43538508e198501f547fcecd033ff7a6f846df398de9c9e33",
+        "sha256": "f29c49ed50536baed076e2f4ab373c46c73dff0093b41533526e5068b5503f2e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do you have any good "
+        },
+        {
+          "text": "medicine",
+          "wordIds": [
+            "medicine"
+          ]
+        },
+        {
+          "text": " for cold symptoms?"
+        }
+      ],
+      "translation": "請問有推薦治療感冒症狀的成藥嗎？",
+      "audio": {
+        "src": "/audio/sentences/pharmacy-medicine-buy/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5519cf1095011db804f585477f93f21b2719e5d007aa6701f62dbf84b4d4bc30",
+        "sha256": "2df5fde5469eaaebcae868226c5788adc27e7728074252359d90a72f02f9b42d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "This "
+        },
+        {
+          "text": "pain",
+          "phraseIds": [
+            "pain-relief"
+          ],
+          "wordIds": [
+            "pain"
+          ]
+        },
+        {
+          "text": " relief",
+          "phraseIds": [
+            "pain-relief"
+          ]
+        },
+        {
+          "text": " pill will help with your "
+        },
+        {
+          "text": "headache",
+          "wordIds": [
+            "headache"
+          ]
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "throat",
+          "wordIds": [
+            "throat"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "這款止痛錠能有效緩解你的頭痛與喉嚨不適。",
+      "audio": {
+        "src": "/audio/sentences/pharmacy-medicine-buy/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d872dd86c5a1ae69f357c8fd3bb95ad0dea3fd7351c90b751fadca6f487c65cc",
+        "sha256": "e9eb51b159eac43b749fba18ccb32a343ae0bcdbba9c970ad227f4d41be7e569"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "How many times a day should I take this "
+        },
+        {
+          "text": "medicine",
+          "wordIds": [
+            "medicine"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "請問這種藥我一天應該吃幾次呢？",
+      "audio": {
+        "src": "/audio/sentences/pharmacy-medicine-buy/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1049831ac1031a9f8792bec147c9b3cd422d90b66307feb7170be912ea6edc2b",
+        "sha256": "46a64709a4a6e86da8cf8106d70fd24ac33519e34734ee7b37ced96ddfd94214"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Take one tablet "
+        },
+        {
+          "text": "three times a day",
+          "phraseIds": [
+            "three-times-a-day"
+          ]
+        },
+        {
+          "text": ", always "
+        },
+        {
+          "text": "after a full meal",
+          "phraseIds": [
+            "after-a-full-meal"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "一天吃三次，每次一顆，一定要在吃飽飯後服用。",
+      "audio": {
+        "src": "/audio/sentences/pharmacy-medicine-buy/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7e76d1cc97e61b7a7de0014279d48496fdf98ca459911fdacede4dd80a986c94",
+        "sha256": "c01507f5ce964863e0f3d7a66e4a894ec2ec45e915a9c2a2910038f25351bbfc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "If your "
+        },
+        {
+          "text": "throat",
+          "wordIds": [
+            "throat"
+          ]
+        },
+        {
+          "text": " still "
+        },
+        {
+          "text": "hurts",
+          "wordIds": [
+            "hurt"
+          ]
+        },
+        {
+          "text": " after three days, please see a "
+        },
+        {
+          "text": "doctor",
+          "wordIds": [
+            "doctor"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "如果三天後喉嚨還是會痛，請務必去看醫生。",
+      "audio": {
+        "src": "/audio/sentences/pharmacy-medicine-buy/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9b8e9e7ca2b5a7bb6c8638983a5d691108b8597cf9d3000719b06cb0c510a66a",
+        "sha256": "c9aebcd1ec0e44944d0c60531a81ad237ed108df0581e9b1982e1745c2e794e9"
+      }
+    }
+  ]
+}

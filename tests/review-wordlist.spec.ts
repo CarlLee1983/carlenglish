@@ -158,6 +158,7 @@ test.describe('word list subscription', () => {
   });
 
   test('the next day hands out the following words once today\'s are learned', async ({ page }) => {
+    test.setTimeout(60_000);
     await page.clock.install({ time: startTime });
     await page.goto('/review/');
     await limitInput(page).fill('2');

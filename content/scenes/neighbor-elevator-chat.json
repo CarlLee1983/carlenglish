@@ -1,0 +1,326 @@
+{
+  "id": "neighbor-elevator-chat",
+  "title": "與鄰居打招呼寒暄",
+  "titleEn": "Small Talk with a Neighbor in the Elevator",
+  "category": "社交生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/neighbor-elevator-chat.webp",
+    "alt": "在乾淨明亮的社區大樓電梯裡，學生背著運動球袋遇見鄰居長輩，兩人微笑寒暄今天雨過天晴的涼爽好天氣。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "heading-out",
+      "english": "heading out",
+      "translation": "準備出門前往",
+      "audio": {
+        "src": "/audio/phrases/neighbor-elevator-chat-heading-out.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f4b965b5c6bfd1d075d0534d0aed814e65ef917b6a3dbfb38775dad4e0980b24",
+        "sha256": "00b4c26bd879986b6089588be6e5b61b642cdf273681772b9f281cda2fc28291"
+      }
+    },
+    {
+      "id": "nice-and-cool",
+      "english": "nice and cool",
+      "translation": "涼爽宜人",
+      "audio": {
+        "src": "/audio/phrases/neighbor-elevator-chat-nice-and-cool.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "928dd071c6370af6e8edf2c5174bb95f3c837fdd89422bc62e063cf708b92c9c",
+        "sha256": "53d44fe10324ff9ea6a1bf7bba2d01ddd08f9530d0a5eccbdded7248df20aa68"
+      }
+    },
+    {
+      "id": "after-several-days-of-rain",
+      "english": "after several days of rain",
+      "translation": "在下了幾天雨之後",
+      "audio": {
+        "src": "/audio/phrases/neighbor-elevator-chat-after-several-days-of-rain.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2b9d2a34fedf6af0f3646280e91893b510c9318ad905a004aaf313800bb225c4",
+        "sha256": "790a42790468dd9901a5b35fb4f9e0e2fd68a62f427a8d3471872b974dfd5350"
+      }
+    },
+    {
+      "id": "heading-off-to-school",
+      "english": "heading off to school",
+      "translation": "出發去學校",
+      "audio": {
+        "src": "/audio/phrases/neighbor-elevator-chat-heading-off-to-school.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1bd4a570795866e13edbecbf882a2da32c8d53adb2469bb6c83033e008c1a4df",
+        "sha256": "ce6572e00ccaff60b4900c962ab073d65e055af100aa21c37eee83ebb5e420e8"
+      }
+    },
+    {
+      "id": "lovely-sunny-weekend",
+      "english": "lovely sunny weekend",
+      "translation": "愉快陽光的週末",
+      "audio": {
+        "src": "/audio/phrases/neighbor-elevator-chat-lovely-sunny-weekend.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "22e99e8a8f5472fed3d1c4c336a633745504a2319fabce523c8b20c9307729c8",
+        "sha256": "9ce3a8a75aea2f7fb641fee61c4c6b63c7a5d324887110761e0c910a24e62368"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "weather",
+      "english": "weather",
+      "translation": "天氣",
+      "example": "The weather forecast predicts clear skies tomorrow.",
+      "audio": {
+        "src": "/audio/words/neighbor-elevator-chat-weather.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e5e72beb4e3c6926d3dc9e3e2ef7833ba50cd919c2460a782b244fd071e920de",
+        "sha256": "2772584fff3965d9d9686338c6a39aef442dd97de2b1c3bc5978ceaaafd663c5"
+      }
+    },
+    {
+      "id": "sunny",
+      "english": "sunny",
+      "translation": "陽光明媚的；晴朗的",
+      "example": "We had lunch in the sunny school garden.",
+      "audio": {
+        "src": "/audio/words/neighbor-elevator-chat-sunny.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c2333a7e3a607935c67c1e6f6810395decc9f66f592b812aaada7db94ba215d6",
+        "sha256": "b0219cd0c0c2fb59be62005b6daa8019870140ad5a3330795b7df9b86ce7f293"
+      }
+    },
+    {
+      "id": "weekend",
+      "english": "weekend",
+      "translation": "週末",
+      "example": "What do you usually do on the weekend?",
+      "audio": {
+        "src": "/audio/words/neighbor-elevator-chat-weekend.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1197a20df1b4c87b10c868648eba70eac619e18ab6a6772e32bc9c701c315e41",
+        "sha256": "e89b4bbb168dcebfd0a1f2df0a5a01d9661e03332605a94c0b085695acc0aa69"
+      }
+    },
+    {
+      "id": "nice",
+      "english": "nice",
+      "translation": "好的、友善的",
+      "example": "It was very nice of you to help the lost puppy.",
+      "audio": {
+        "src": "/audio/words/neighbor-elevator-chat-nice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e186022d0931afe9fe0690857e32f85e50165e7fbe0966d49609ef1981f920c6",
+        "sha256": "34bf99943c3e451026d2c093b4a669f9bdb4867d9f23e969a80a97e475f1ed20"
+      }
+    },
+    {
+      "id": "smile",
+      "english": "smile",
+      "translation": "微笑",
+      "example": "She greeted every guest with a warm smile.",
+      "audio": {
+        "src": "/audio/words/neighbor-elevator-chat-smile.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fa1eadc4c6995667412681c69ce33adfc9302a2965f521c40908549e670e2e4e",
+        "sha256": "af028a3cb0ddcd0a7c92752457a8ad0185a4f43ec3e6028340fe05a38ed55efa"
+      }
+    },
+    {
+      "id": "lovely",
+      "english": "lovely",
+      "translation": "可愛的、很棒的",
+      "example": "They planted lovely pink flowers along the fence.",
+      "audio": {
+        "src": "/audio/words/neighbor-elevator-chat-lovely.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f85b43067a280d4cc40f89cb78d8efff6e908727bc3cb43a9ae72b400d2eecc5",
+        "sha256": "d54871e7e6841bf05c32c7dfce01814fa69df286dddd981b1fd7ed7132c10455"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Good morning Mrs. Chen, are you "
+        },
+        {
+          "text": "heading out",
+          "phraseIds": [
+            "heading-out"
+          ]
+        },
+        {
+          "text": " for a morning walk?"
+        }
+      ],
+      "translation": "陳太太早安，您正準備出門晨間散步嗎？",
+      "audio": {
+        "src": "/audio/sentences/neighbor-elevator-chat/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "743c8672fc081ad22a8cd1ef5af246dafad4876852d829deed4507b35c3d1956",
+        "sha256": "944a470fa8021dfda2dee0ed3b75c91b88bae42b9c690c23f47694b1270c6bac"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Good morning Leo, yes, the "
+        },
+        {
+          "text": "weather",
+          "wordIds": [
+            "weather"
+          ]
+        },
+        {
+          "text": " is so "
+        },
+        {
+          "text": "nice",
+          "phraseIds": [
+            "nice-and-cool"
+          ],
+          "wordIds": [
+            "nice"
+          ]
+        },
+        {
+          "text": " and cool",
+          "phraseIds": [
+            "nice-and-cool"
+          ]
+        },
+        {
+          "text": " today."
+        }
+      ],
+      "translation": "Leo 早安，是呀，今天的天氣真的非常舒服涼爽。",
+      "audio": {
+        "src": "/audio/sentences/neighbor-elevator-chat/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7df35d0be4ee6c74a43b10d88d3b1b96a1e28a242673449ccb5fb2261082565d",
+        "sha256": "9977bdd0211b9ef5efb8fe12696b93ea6a6759544056b46c79faa366fc9f9e04"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "After several days of rain",
+          "phraseIds": [
+            "after-several-days-of-rain"
+          ]
+        },
+        {
+          "text": ", it is wonderful to see the bright sun."
+        }
+      ],
+      "translation": "在下了好幾天雨之後，能看到明亮的陽光真是太棒了。",
+      "audio": {
+        "src": "/audio/sentences/neighbor-elevator-chat/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c84568b889f2b314ed2a8be83d8a0828f0566a559fc07d644cc8498a948d140b",
+        "sha256": "685f4476bb85315ad8ec54ada3e8fc5cc1703db40f754769808d69e1645080b0"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Are you "
+        },
+        {
+          "text": "heading off to school",
+          "phraseIds": [
+            "heading-off-to-school"
+          ]
+        },
+        {
+          "text": " or do you have sports practice?"
+        }
+      ],
+      "translation": "你現在是要去學校上課，還是有運動隊伍的練習呢？",
+      "audio": {
+        "src": "/audio/sentences/neighbor-elevator-chat/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1eea1bfebbd65b4e903fa6c454a77db10c4e65c7a72a81670659a69f38391aa1",
+        "sha256": "083e851f2b257ec434380ec87aeb4d9077f1823ca9b38c2549bd52c31e99cc8d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I have soccer training with my school teammates on the grass field."
+        }
+      ],
+      "translation": "我和我學校的隊友們在草地上有足球訓練課。",
+      "audio": {
+        "src": "/audio/sentences/neighbor-elevator-chat/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2ad7e2c67a99849a6ad31c34d5b4ed2382dfd8f1764f935b3cddc8ad6aa4a865",
+        "sha256": "c7a28e733f09a53ac6b9d0e1039c1cd191835c7001d8f1a017a7203a968bb9b3"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "With a warm "
+        },
+        {
+          "text": "smile",
+          "wordIds": [
+            "smile"
+          ]
+        },
+        {
+          "text": ", she wished me a "
+        },
+        {
+          "text": "lovely",
+          "phraseIds": [
+            "lovely-sunny-weekend"
+          ],
+          "wordIds": [
+            "lovely"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "sunny",
+          "phraseIds": [
+            "lovely-sunny-weekend"
+          ],
+          "wordIds": [
+            "sunny"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "weekend",
+          "phraseIds": [
+            "lovely-sunny-weekend"
+          ],
+          "wordIds": [
+            "weekend"
+          ]
+        },
+        {
+          "text": "!"
+        }
+      ],
+      "translation": "她帶著溫暖的微笑，祝我有個愉快陽光的週末！",
+      "audio": {
+        "src": "/audio/sentences/neighbor-elevator-chat/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c96a95e34bde87b2c484b41fbeaadf57ed16ee70419f2d883de1306483df6039",
+        "sha256": "1d379a43f1bc9bea71ea3c887f8bbcb7cf111f6b1d8c2e324a5ed863dbaf7833"
+      }
+    }
+  ]
+}

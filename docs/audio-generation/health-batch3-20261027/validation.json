@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "clips": 85,
+  "bytes": 1673204,
+  "durationSeconds": 201.325,
+  "checks": {
+    "textSha256": true,
+    "fileSha256": true,
+    "voiceId": true,
+    "completeGraphemes": true,
+    "ffmpegDecode": true
+  },
+  "scope": [
+    "lost-at-intersection",
+    "pharmacy-medicine-buy",
+    "clinic-check-in",
+    "calling-in-sick",
+    "ice-pack-for-sprain"
+  ]
+}

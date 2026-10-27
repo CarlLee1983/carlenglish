@@ -1,0 +1,446 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/bakery-fresh-batch/1.mp3",
+      "text": "The whole store smells wonderful like warm butter.",
+      "textSha256": "40cd0e6802b82789b3d395dbab50cfcdced30d3eea057ea096e0a3d0014c5adf"
+    },
+    {
+      "src": "/audio/sentences/bakery-fresh-batch/2.mp3",
+      "text": "Are the cheese rolls fresh out of the oven right now?",
+      "textSha256": "c662192626817d64b127f9df70d498661c62c95481e89b98c3856483bd209dea"
+    },
+    {
+      "src": "/audio/sentences/bakery-fresh-batch/3.mp3",
+      "text": "Yes, this hot batch just came out two minutes ago.",
+      "textSha256": "7ec2a2df3c525b1b0193f79b6f4e8e2a62862b7cda0fd0f0fb9b937a3c76b453"
+    },
+    {
+      "src": "/audio/sentences/bakery-fresh-batch/4.mp3",
+      "text": "When will the chocolate croissants be ready?",
+      "textSha256": "4acc21529f70c8c275666ae1b2bff273b6b6d5dc0a97f9877d5ff1f1f0441312"
+    },
+    {
+      "src": "/audio/sentences/bakery-fresh-batch/5.mp3",
+      "text": "Another fresh batch will be ready in half an hour.",
+      "textSha256": "fd14e0133a2d5657dc7c698e5b1f4dc01a9ef3d12fbf30158e21d2124d73e072"
+    },
+    {
+      "src": "/audio/sentences/bakery-fresh-batch/6.mp3",
+      "text": "I am happy to wait nearby until they are ready.",
+      "textSha256": "662486be90ed7a99a9d552c6209eecda147ec7b56b67dbba8383c85d46a6df9c"
+    },
+    {
+      "src": "/audio/phrases/bakery-fresh-batch-smells-wonderful.mp3",
+      "text": "smells wonderful",
+      "textSha256": "d800817a1574544c40c19e4bd4158880d8d15b475f79ecfd36bb02087b5b6f56"
+    },
+    {
+      "src": "/audio/phrases/bakery-fresh-batch-fresh-out-of-the-oven.mp3",
+      "text": "fresh out of the oven",
+      "textSha256": "0afb3b7556b131e66b04f9b9eee8d9200fca00e2dbbcc14c5172c4eeebcb7883"
+    },
+    {
+      "src": "/audio/phrases/bakery-fresh-batch-just-came-out.mp3",
+      "text": "just came out",
+      "textSha256": "02eccf3b3f47aa52ae65818e7e9867a2f3ca569cee68f83acf009f66d926f00c"
+    },
+    {
+      "src": "/audio/phrases/bakery-fresh-batch-half-an-hour.mp3",
+      "text": "half an hour",
+      "textSha256": "7f92b3b098631bda8082b4c0ea45a2a27b28ea1cf917367f97f28c1e74902b00"
+    },
+    {
+      "src": "/audio/phrases/bakery-fresh-batch-happy-to-wait.mp3",
+      "text": "happy to wait",
+      "textSha256": "743efa5e2c316901cc913709e0ab21ac0ada6055d7d7aab4f54668d6891991f4"
+    },
+    {
+      "src": "/audio/words/bakery-fresh-batch-fresh.mp3",
+      "text": "fresh",
+      "textSha256": "d098ab5e44b9aabb755f76d806598f43573c662b35e4a2eab1e312ec9ad195e2"
+    },
+    {
+      "src": "/audio/words/bakery-fresh-batch-hot.mp3",
+      "text": "hot",
+      "textSha256": "7f5d1618e7d28cc7bf32788672be04c24877d9a8911f65fef8e3e013c9cbc373"
+    },
+    {
+      "src": "/audio/words/bakery-fresh-batch-ready.mp3",
+      "text": "ready",
+      "textSha256": "b24d6d33736ecd5604a4b17bc9c6481039fac362bb7df044ef1c10a2bfd21db6"
+    },
+    {
+      "src": "/audio/words/bakery-fresh-batch-smell.mp3",
+      "text": "smell",
+      "textSha256": "8fca2d48e1ee96c1193ac41b8baff2f8b83738e79d99cd4e8ce86df1a712be97"
+    },
+    {
+      "src": "/audio/words/bakery-fresh-batch-another.mp3",
+      "text": "another",
+      "textSha256": "ae448ac86c4e8e4dec645729708ef41873ae79c6dff84eff73360989487f08e5"
+    },
+    {
+      "src": "/audio/words/bakery-fresh-batch-hour.mp3",
+      "text": "hour",
+      "textSha256": "9ac0add475dd38e6ab3a3fb5ab4579c886eb654f57764210a352fd62e9dd9706"
+    },
+    {
+      "src": "/audio/sentences/mrt-transfer-help/1.mp3",
+      "text": "Excuse me, which line goes to the central park station?",
+      "textSha256": "8d36bb97d2d8d95f608f838b0cdd60121c660d46613a88b68b668b6c85a4d5e4"
+    },
+    {
+      "src": "/audio/sentences/mrt-transfer-help/2.mp3",
+      "text": "You need to take the red line and transfer at Taipei Main Station.",
+      "textSha256": "645de6453078b8d6878fc2a2b198190ed46c2f8420268d30eeffea2614aa4a66"
+    },
+    {
+      "src": "/audio/sentences/mrt-transfer-help/3.mp3",
+      "text": "Is the transfer on this floor or downstairs?",
+      "textSha256": "b6b5a75b8652964f424b0a41928606796cbc967af873b30a4666391478aa8fdb"
+    },
+    {
+      "src": "/audio/sentences/mrt-transfer-help/4.mp3",
+      "text": "Go downstairs and follow the blue arrows on the floor.",
+      "textSha256": "4aa13dfeb7697c0ae214dd1ca2b644ea128ca63731f353f96c24d7f1e81cc23b"
+    },
+    {
+      "src": "/audio/sentences/mrt-transfer-help/5.mp3",
+      "text": "Which direction should I look for on the platform?",
+      "textSha256": "a17f81610a7cf8d8c50a3d42e0c446d332acb031ce8f831c0ff1f5b0a338ed01"
+    },
+    {
+      "src": "/audio/sentences/mrt-transfer-help/6.mp3",
+      "text": "Follow the signs pointing toward the north terminal.",
+      "textSha256": "71b5b2bb004f2d355d98bab7dba016959a3392c322b1a3ab4ea6441e68d7beb9"
+    },
+    {
+      "src": "/audio/phrases/mrt-transfer-help-which-line-goes-to.mp3",
+      "text": "which line goes to",
+      "textSha256": "5d97424f32f286fe4d8e20a9ad397ec1cba86b48332ab496e5a0db73086c697e"
+    },
+    {
+      "src": "/audio/phrases/mrt-transfer-help-transfer-at.mp3",
+      "text": "transfer at",
+      "textSha256": "30b31d5ae3a2ee4f5309f9bdad7950403fe589b5f8e6126b22bc950aca4cde89"
+    },
+    {
+      "src": "/audio/phrases/mrt-transfer-help-on-this-floor.mp3",
+      "text": "on this floor",
+      "textSha256": "862fbd4a4034904839a93aff35ceb2f4054ae6764ef41f36967427742c7156e7"
+    },
+    {
+      "src": "/audio/phrases/mrt-transfer-help-follow-the-signs.mp3",
+      "text": "follow the signs",
+      "textSha256": "d177ce8b5a79ee5c9539b429366c33a524de23fd21af54cf94b7942bbf390abe"
+    },
+    {
+      "src": "/audio/phrases/mrt-transfer-help-which-direction.mp3",
+      "text": "which direction",
+      "textSha256": "5ba98c1e9c984d168c5f4ff9a82db98d39a80248d5c97499aaed62a47fb104eb"
+    },
+    {
+      "src": "/audio/words/mrt-transfer-help-line.mp3",
+      "text": "line",
+      "textSha256": "38a9c1e721584da284b90ceea4ed7eb8db15ac4ea86c2c75ec925d5f8799fcf0"
+    },
+    {
+      "src": "/audio/words/mrt-transfer-help-transfer.mp3",
+      "text": "transfer",
+      "textSha256": "27f576cafbb263ed44be8bd094f66114da26877706f96c4c31d5a97ffebf2e29"
+    },
+    {
+      "src": "/audio/words/mrt-transfer-help-direction.mp3",
+      "text": "direction",
+      "textSha256": "93c4abe27cf1696102534bb60b3795f41f60f52fa806cd5d0feadfc8bd2b8170"
+    },
+    {
+      "src": "/audio/words/mrt-transfer-help-follow.mp3",
+      "text": "follow",
+      "textSha256": "a3ce0b6106cdb3982d7b2bd5c7be5e1e74d973c4a3018b03beb01fc5dc3ec6f5"
+    },
+    {
+      "src": "/audio/words/mrt-transfer-help-sign.mp3",
+      "text": "sign",
+      "textSha256": "0b6f395ca14ac202374d5cff678b71157d0bef7e00c3045e9b80aab4ffb85276"
+    },
+    {
+      "src": "/audio/words/mrt-transfer-help-floor.mp3",
+      "text": "floor",
+      "textSha256": "a3e1f4935b0919b346c2caf4da18078a1ebaf6451eb7f7b5dc79c11629b6368c"
+    },
+    {
+      "src": "/audio/sentences/taking-a-taxi/1.mp3",
+      "text": "Good morning, I am in a hurry to catch my train.",
+      "textSha256": "6e81bc6f35beaa5208cb6930c2a663d0125a6974ef7aad586cd4f657197bf48a"
+    },
+    {
+      "src": "/audio/sentences/taking-a-taxi/2.mp3",
+      "text": "Could you please take me to the high-speed rail station?",
+      "textSha256": "3edbc6dc3fba33a39bd7a7c43de2a947336c48f42b4d53f3b9b6ec2eca830066"
+    },
+    {
+      "src": "/audio/sentences/taking-a-taxi/3.mp3",
+      "text": "The main avenue ahead has heavy traffic today.",
+      "textSha256": "874fefe4a00fc25cb33d941737ed46fd4439f166038c2ec00ded711aed4632f4"
+    },
+    {
+      "src": "/audio/sentences/taking-a-taxi/4.mp3",
+      "text": "Can you turn right into the smaller road to save time?",
+      "textSha256": "415da777f3912dc879e7ae8ebf914df887362f21f77feac30d3f953174368ce9"
+    },
+    {
+      "src": "/audio/sentences/taking-a-taxi/5.mp3",
+      "text": "Do not worry, I will drive carefully and take the fastest route.",
+      "textSha256": "7cd2ef12416e932efd9afacab054a6406f0b365e921383f75064649d5abbe42b"
+    },
+    {
+      "src": "/audio/sentences/taking-a-taxi/6.mp3",
+      "text": "Please drop me off right at the main entrance drop point.",
+      "textSha256": "965049093b8e52d8dd611bf286092d1c2ecd54e16e0762684a25a08caabf5d64"
+    },
+    {
+      "src": "/audio/phrases/taking-a-taxi-in-a-hurry.mp3",
+      "text": "in a hurry",
+      "textSha256": "9ccdb1c977dc99f2bde3b0f12c1d9d19d350aa23c471adc2b34bac7fef02d7ab"
+    },
+    {
+      "src": "/audio/phrases/taking-a-taxi-heavy-traffic.mp3",
+      "text": "heavy traffic",
+      "textSha256": "6036b19da5328d8ff1d7e4e0f7850e4a1763cd360c0489caf8d74dc7603d4fbb"
+    },
+    {
+      "src": "/audio/phrases/taking-a-taxi-save-time.mp3",
+      "text": "save time",
+      "textSha256": "e3a8224eb1fb6f6f33db9fdb76340e84b8dec1de4bd38f053089aec4e1210e43"
+    },
+    {
+      "src": "/audio/phrases/taking-a-taxi-the-fastest-route.mp3",
+      "text": "the fastest route",
+      "textSha256": "0a03853b6c8aa6bd84b5caae4f9c0f03cfbe647860e42f2ede0fdab1dc29c1fb"
+    },
+    {
+      "src": "/audio/phrases/taking-a-taxi-drop-me-off.mp3",
+      "text": "drop me off",
+      "textSha256": "361e0503bb194964f96f634390308b1b8a87095626be37c210b2f251bb53560f"
+    },
+    {
+      "src": "/audio/words/taking-a-taxi-hurry.mp3",
+      "text": "hurry",
+      "textSha256": "f6002cbceb8c0327d974714b8f7a4ba28e25f0b7cbe216a719c35ced1fe9647f"
+    },
+    {
+      "src": "/audio/words/taking-a-taxi-traffic.mp3",
+      "text": "traffic",
+      "textSha256": "075f4ab854e2a33c8ac11c0758796af4ae994ec4e37e36b6f11b503492c68289"
+    },
+    {
+      "src": "/audio/words/taking-a-taxi-ahead.mp3",
+      "text": "ahead",
+      "textSha256": "d0b4034c6ca7ee87f65ccb76f6c7a8ca0c5559db19314e525b3b906b57f301aa"
+    },
+    {
+      "src": "/audio/words/taking-a-taxi-drive.mp3",
+      "text": "drive",
+      "textSha256": "7062520c5a0ea9deac825278c9f4f0cbad48864b2c7d0c7f1ebccdb752afb058"
+    },
+    {
+      "src": "/audio/words/taking-a-taxi-drop.mp3",
+      "text": "drop",
+      "textSha256": "d90ee9ccf6bea1d2942a7b21319338198dec2a746f8a0d0771621f00da2e0864"
+    },
+    {
+      "src": "/audio/words/taking-a-taxi-road.mp3",
+      "text": "road",
+      "textSha256": "362a284952d3a7250e4bdd72a659ea78e8ec79804e0e6a2053dfe4c10e7d79f1"
+    },
+    {
+      "src": "/audio/sentences/bus-delay-inquiry/1.mp3",
+      "text": "Excuse me, bus number 302 was scheduled to arrive at nine.",
+      "textSha256": "bbe386ed37d355fa4f7e852d6d70e379d84de1a15a76135553ee9b07230a607f"
+    },
+    {
+      "src": "/audio/sentences/bus-delay-inquiry/2.mp3",
+      "text": "It is already twenty minutes late, do you know what happened on the road?",
+      "textSha256": "954fdf37bcd64cb00e45afbc2c0c67edf4e552e1fe5aa22ddc40b758487319d8"
+    },
+    {
+      "src": "/audio/sentences/bus-delay-inquiry/3.mp3",
+      "text": "There was a small car accident that caused a long delay.",
+      "textSha256": "c52f297a3fbf9064e656a95c7f62157c37d41e4f9b15e0ee059de38c1ebbb5b3"
+    },
+    {
+      "src": "/audio/sentences/bus-delay-inquiry/4.mp3",
+      "text": "Is the bus still coming, or will we miss our transfer?",
+      "textSha256": "328497f0b3202312b6b760240894b587e90e94853e90e0a78310b725850472b0"
+    },
+    {
+      "src": "/audio/sentences/bus-delay-inquiry/5.mp3",
+      "text": "The GPS system shows it will probably arrive in six minutes.",
+      "textSha256": "c1e2ac0f79313810c30d84e950d9ea58d3c3307ff431a553551bf61521620b38"
+    },
+    {
+      "src": "/audio/sentences/bus-delay-inquiry/6.mp3",
+      "text": "It seems the delay will not be much longer, thank you.",
+      "textSha256": "a5500265ac9971e4d5d0cf064d78933eea57f1842fef03558661b777f6e23896"
+    },
+    {
+      "src": "/audio/phrases/bus-delay-inquiry-scheduled-to-arrive.mp3",
+      "text": "scheduled to arrive",
+      "textSha256": "10329888ae26cdf2c26654d1a52c1d1bb70e1667ddd4fe16a0f54c18d9650397"
+    },
+    {
+      "src": "/audio/phrases/bus-delay-inquiry-twenty-minutes-late.mp3",
+      "text": "twenty minutes late",
+      "textSha256": "747cd84b8deef940e7b652dccfd545b01d88c207d1f57c782fa086146e44bf14"
+    },
+    {
+      "src": "/audio/phrases/bus-delay-inquiry-what-happened.mp3",
+      "text": "what happened",
+      "textSha256": "bc3f7f7fd709c9072c5253f143df0964e4e7c7f8cb7bc80e39858ea9b3d0e2f0"
+    },
+    {
+      "src": "/audio/phrases/bus-delay-inquiry-caused-a-long-delay.mp3",
+      "text": "caused a long delay",
+      "textSha256": "4f3ca412e054bf0399db78ac9cf6d5adf1cdc238ef62e342e8a3d2685a12f00c"
+    },
+    {
+      "src": "/audio/phrases/bus-delay-inquiry-probably-arrive-in.mp3",
+      "text": "probably arrive in",
+      "textSha256": "7f8af094251451ac528e185efaf331d29313d8f8bc66a29d57d24eb83aa81dcc"
+    },
+    {
+      "src": "/audio/words/bus-delay-inquiry-schedule.mp3",
+      "text": "schedule",
+      "textSha256": "5f72005e81c4ecbd5aa3588e80e3daf0df068ce0cf5638944508a0165fea609a"
+    },
+    {
+      "src": "/audio/words/bus-delay-inquiry-delay.mp3",
+      "text": "delay",
+      "textSha256": "6e16db102267e6e7de7f08f9c28836861561b6ac5a9aec0d26e263c37267f54e"
+    },
+    {
+      "src": "/audio/words/bus-delay-inquiry-arrive.mp3",
+      "text": "arrive",
+      "textSha256": "6dc09a300747b82d8bfe9d509ede4fb228e3c27204185e8c5e6188340904d9e0"
+    },
+    {
+      "src": "/audio/words/bus-delay-inquiry-happen.mp3",
+      "text": "happen",
+      "textSha256": "9ecfb3a042a271f4389ef89922337bc9488f865d394eafa445d55db0be4e828d"
+    },
+    {
+      "src": "/audio/words/bus-delay-inquiry-cause.mp3",
+      "text": "cause",
+      "textSha256": "6a7ef1ed9f15c2f59ab7bfaf50f5b51f695d736a7f2e5ada6470e695190b8f83"
+    },
+    {
+      "src": "/audio/words/bus-delay-inquiry-probably.mp3",
+      "text": "probably",
+      "textSha256": "a8ef01283d653e4638daca3fae06abf52711122b2701dddb349310a574c263b9"
+    },
+    {
+      "src": "/audio/sentences/renting-public-bike/1.mp3",
+      "text": "I want to rent a bike to ride around the lake.",
+      "textSha256": "d40d0340f5b39defc7987863bd8beece258ce7d86b870dbb0ac98998e9cf0bd2"
+    },
+    {
+      "src": "/audio/sentences/renting-public-bike/2.mp3",
+      "text": "Tap your card on the sensor right beside the bike.",
+      "textSha256": "bfabed9558da6da42ee867564eafe615a2d1cb82c58c588ed784025192a15963"
+    },
+    {
+      "src": "/audio/sentences/renting-public-bike/3.mp3",
+      "text": "When the green light turns on, pull the lock firmly.",
+      "textSha256": "be6fcdc87c10ea0df27048b47c3db856a0b0b6e505375acfe4e1a0dcc99a133f"
+    },
+    {
+      "src": "/audio/sentences/renting-public-bike/4.mp3",
+      "text": "Remember to check the tires before you start your ride.",
+      "textSha256": "f9d5b50180ee6fdaff125890ae2c31c06bce1b27a7335309bfe498da3015b59c"
+    },
+    {
+      "src": "/audio/sentences/renting-public-bike/5.mp3",
+      "text": "You can adjust the seat height by pressing the metal lever.",
+      "textSha256": "9da6a1fa28da9b5b32c3362f051af3c911e7788d11f67e2efc6214aed6812c3f"
+    },
+    {
+      "src": "/audio/sentences/renting-public-bike/6.mp3",
+      "text": "The first thirty minutes are completely free for registered members.",
+      "textSha256": "ee21f3aab2657d45be2f7e936cc6d96f4a1b3de7f04a2f038d81d04ce8451ccf"
+    },
+    {
+      "src": "/audio/phrases/renting-public-bike-rent-a-bike.mp3",
+      "text": "rent a bike",
+      "textSha256": "9a72af4141f8f68104879ac05c8f5d25abee8cf9978a6cb3f4924138df378b2d"
+    },
+    {
+      "src": "/audio/phrases/renting-public-bike-tap-your-card.mp3",
+      "text": "tap your card",
+      "textSha256": "06f4933c160587563d45050799b52322921cf9984f7fc82ff18c5b30fcf46d65"
+    },
+    {
+      "src": "/audio/phrases/renting-public-bike-adjust-the-seat.mp3",
+      "text": "adjust the seat",
+      "textSha256": "58431374abc588e89cdeb66396c8a444b50645d885c9fe4c762c8258bfa02561"
+    },
+    {
+      "src": "/audio/phrases/renting-public-bike-check-the-tires.mp3",
+      "text": "check the tires",
+      "textSha256": "898f49fccbbf912c2a58c91c803f25127a9f7a56e157231064d947ba031be482"
+    },
+    {
+      "src": "/audio/phrases/renting-public-bike-completely-free.mp3",
+      "text": "completely free",
+      "textSha256": "b244c0d9f34439a1686ecb8d9e81ec64bfe35d40e2a84413b6d78bb4b9c1463c"
+    },
+    {
+      "src": "/audio/words/renting-public-bike-rent.mp3",
+      "text": "rent",
+      "textSha256": "0e9fd1596c4b1dfca8ddcd36c567f11da43cf17968a5b912f0e67c5198f643f1"
+    },
+    {
+      "src": "/audio/words/renting-public-bike-lock.mp3",
+      "text": "lock",
+      "textSha256": "0c030586945fe504b604ecc2e875c38ede400cd5cd73da9730302162e6b02c6f"
+    },
+    {
+      "src": "/audio/words/renting-public-bike-ride.mp3",
+      "text": "ride",
+      "textSha256": "e049bd056f936d1b39b704abcf824eaef39bd8877fcbb82b2a213ceec82bdf26"
+    },
+    {
+      "src": "/audio/words/renting-public-bike-adjust.mp3",
+      "text": "adjust",
+      "textSha256": "2549c096fc692b123129bd12e6536ce3e34017bebcf81bdccd4bce705cc16e6a"
+    },
+    {
+      "src": "/audio/words/renting-public-bike-press.mp3",
+      "text": "press",
+      "textSha256": "842fcb5e60989a03d08ee07f9bea0a0a4a824d991fe8cc055f3a89e05c5c392e"
+    },
+    {
+      "src": "/audio/words/renting-public-bike-free.mp3",
+      "text": "free",
+      "textSha256": "ad95d5fa651ba86d8923fe1238d24a4f1988a752acfe426ac72ac7c04471bc17"
+    }
+  ]
+}

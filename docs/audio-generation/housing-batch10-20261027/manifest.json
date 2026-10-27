@@ -1,0 +1,1211 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/reporting-water-leak/1.mp3",
+      "text": "Hello Mr. Chang, I live in apartment 4B and I am calling about a plumbing issue.",
+      "textSha256": "1eefc1167824c0a65037b919cc09a8f6d75a24f288ae253b365d096c67f69b68",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1c6ca635484e712aa5303e33bbc012abfd12cbacb0e9430577c073acd8ac9542",
+      "duration": 5.7,
+      "graphemes": [
+        "Hello Mr. Chang, I live in apartment 4B and I am calling about a plumbing issue."
+      ],
+      "phonemes": [
+        "həlˈO mˈɪstəɹ ʧˈæŋ, ˌI lˈɪv ɪn əpˈɑɹtmənt fˈɔɹ bˈi ænd ˌI ɐm kˈɔlɪŋ əbˈWt ɐ plˈʌmɪŋ ˈɪʃu."
+      ]
+    },
+    {
+      "src": "/audio/sentences/reporting-water-leak/2.mp3",
+      "text": "The metal pipe beneath the bathroom sink has started to leak clean water.",
+      "textSha256": "5abbee64e268861d09ac6ecde1835e16325d1ac139ecbfe13d452c7a506eb5a0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "87bd8c4c4c37644e650c8a344b92dcd2d3706350a029af16e61e01b5d2afe61e",
+      "duration": 4.65,
+      "graphemes": [
+        "The metal pipe beneath the bathroom sink has started to leak clean water."
+      ],
+      "phonemes": [
+        "ðə mˈɛTᵊl pˈIp bənˈiθ ðə bˈæθɹˌum sˈɪŋk hæz stˈɑɹTᵻd tə lˈik klˈin wˈɔTəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/reporting-water-leak/3.mp3",
+      "text": "Is the dripping water bothering the floor or causing puddles in the room?",
+      "textSha256": "471e333326fc13c95176f66d22cecf501595b356248f57dfb82b9cb52495e86e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d76d625e498ede93e4c8282aa19626ea1716b0b8e145e63882aba294a17dcffc",
+      "duration": 4.45,
+      "graphemes": [
+        "Is the dripping water bothering the floor or causing puddles in the room?"
+      ],
+      "phonemes": [
+        "ˌɪz ðə dɹˈɪpɪŋ wˈɔTəɹ bˈɑðəɹɪŋ ðə flˈɔɹ ɔɹ kˈɔzɪŋ pˈʌdᵊlz ɪn ðə ɹˈum?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/reporting-water-leak/4.mp3",
+      "text": "Yes, I placed a plastic bucket underneath, but it fills up every four hours.",
+      "textSha256": "27a42df6a2a4b430e2b380b77529ff94392c190085614156f48c168320b8bad2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e7fb36fcd7dcae4ad0263dfaa0429e222ae60519fe479faec00a212c89492576",
+      "duration": 5.075,
+      "graphemes": [
+        "Yes, I placed a plastic bucket underneath, but it fills up every four hours."
+      ],
+      "phonemes": [
+        "jˈɛs, ˌI plˈAst ɐ plˈæstɪk bˈʌkət ˌʌndəɹnˈiθ, bˌʌt ɪt fˈɪlz ˌʌp ˈɛvəɹi fˈɔɹ ˈWəɹz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/reporting-water-leak/5.mp3",
+      "text": "I am sorry for the trouble, I will call a plumber to fix it this afternoon.",
+      "textSha256": "05f5bfe0173d452d98fe00fc6d116b89b46f3058dea07c2abebdc85546f7cf60",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "48fb209f6eaf2ca234583a90825ad824647158f6e599b73a321a57931d69bed7",
+      "duration": 4.625,
+      "graphemes": [
+        "I am sorry for the trouble, I will call a plumber to fix it this afternoon."
+      ],
+      "phonemes": [
+        "ˌI ɐm sˈɔɹi fɔɹ ðə tɹˈʌbᵊl, ˌI wɪl kˈɔl ɐ plˈʌməɹ tə fˈɪks ɪt ðɪs ˌæftəɹnˈun."
+      ]
+    },
+    {
+      "src": "/audio/sentences/reporting-water-leak/6.mp3",
+      "text": "Thank you very much, I will stay inside to let the repair technician in.",
+      "textSha256": "9596d7c86f549178f20fd5ddf0c86404c1b4d35a600c955606d973b2e3553a7b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "54892298ee0c06192f2ca7b7a196e28bca02e87d0f470d9f51aa89c9359b3155",
+      "duration": 4.725,
+      "graphemes": [
+        "Thank you very much, I will stay inside to let the repair technician in."
+      ],
+      "phonemes": [
+        "θˈæŋk ju vˈɛɹi mˈʌʧ, ˌI wɪl stˈA ɪnsˈId tə lˈɛt ðə ɹəpˈɛɹ tɛknˈɪʃən ˈɪn."
+      ]
+    },
+    {
+      "src": "/audio/phrases/reporting-water-leak-calling-about-a-plumbing-issue.mp3",
+      "text": "calling about a plumbing issue",
+      "textSha256": "6c24a96bc0b105b9cb2ac0830c8940cf4316fcfd0e8c547e42264296fd629229",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "38ac0f30f628a0fdda5476e3acd2c036dca699019a7f591e7ae70a7aaa516a90",
+      "duration": 2.075,
+      "graphemes": [
+        "calling about a plumbing issue"
+      ],
+      "phonemes": [
+        "kˈɔlɪŋ əbˈWt ɐ plˈʌmɪŋ ˈɪʃu"
+      ]
+    },
+    {
+      "src": "/audio/phrases/reporting-water-leak-beneath-the-bathroom-sink.mp3",
+      "text": "beneath the bathroom sink",
+      "textSha256": "f7058e325ed6c476c32d68ce684f5227b11c01c732a94288ef445f06756aebcf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ed8e5d3320aab6ad08d8107dacf4b5fe3240a80415616d885bc3ee1f059860aa",
+      "duration": 1.975,
+      "graphemes": [
+        "beneath the bathroom sink"
+      ],
+      "phonemes": [
+        "bənˈiθ ðə bˈæθɹˌum sˈɪŋk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/reporting-water-leak-started-to-leak-clean-water.mp3",
+      "text": "started to leak clean water",
+      "textSha256": "c5d0679215b57e0c7d04a1275cddf86e4e7898741f8a306d492b6620effc0530",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "88e70f6ec27bfb18d2f4b059376ddf2c9efd07b21220008e01b9f81daa895cbf",
+      "duration": 2.05,
+      "graphemes": [
+        "started to leak clean water"
+      ],
+      "phonemes": [
+        "stˈɑɹTᵻd tə lˈik klˈin wˈɔTəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/reporting-water-leak-placed-a-plastic-bucket.mp3",
+      "text": "placed a plastic bucket",
+      "textSha256": "df26903070acbb863078e34800f49075580be49cefd704a3acf5a14305b3e289",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bc9536c465e02c333d6a5bbe165cf88eefdf7da541dac9daf845cfc142d394f8",
+      "duration": 2,
+      "graphemes": [
+        "placed a plastic bucket"
+      ],
+      "phonemes": [
+        "plˈAst ɐ plˈæstɪk bˈʌkət"
+      ]
+    },
+    {
+      "src": "/audio/phrases/reporting-water-leak-fix-it-this-afternoon.mp3",
+      "text": "fix it this afternoon",
+      "textSha256": "8e74c979e37b7c61c5d5c8c4d04ebb736a6b242bcbc6e53928fe7000e995b957",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4ccb92be4a17c9938a85efb511bc852b00b9a5ab5a27c14e670082ef955263f9",
+      "duration": 1.85,
+      "graphemes": [
+        "fix it this afternoon"
+      ],
+      "phonemes": [
+        "fˈɪks ɪt ðɪs ˌæftəɹnˈun"
+      ]
+    },
+    {
+      "src": "/audio/words/reporting-water-leak-live.mp3",
+      "text": "live",
+      "textSha256": "247610f4dedd4ab7247d07dbda19c81ca9817f85820742cad49d407ffae9e4ed",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "df535ccb859330ef2216841399045412a7ce05b115a7eb33a3e28e66b7e59058",
+      "duration": 1.325,
+      "graphemes": [
+        "live"
+      ],
+      "phonemes": [
+        "lˈIv"
+      ]
+    },
+    {
+      "src": "/audio/words/reporting-water-leak-pipe.mp3",
+      "text": "pipe",
+      "textSha256": "4008294739162e8f0119134dd262e35165d4a3bda08f59f97b6fdb9c5b4e655d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6a9efffffba0642a8e8faef36b72eec1277bb381e9e85e9cbc1a6a3ce2c5b904",
+      "duration": 1.275,
+      "graphemes": [
+        "pipe"
+      ],
+      "phonemes": [
+        "pˈIp"
+      ]
+    },
+    {
+      "src": "/audio/words/reporting-water-leak-leak.mp3",
+      "text": "leak",
+      "textSha256": "5f537b80f1f2b7d1cc179dba8d36aa88463eda6ac11cb8e60a4583e1bd16aa3c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f637d0a05c33681df5db6f9dae4812f29aeca0b818f1e743fdd01362177af383",
+      "duration": 1.2,
+      "graphemes": [
+        "leak"
+      ],
+      "phonemes": [
+        "lˈik"
+      ]
+    },
+    {
+      "src": "/audio/words/reporting-water-leak-sink.mp3",
+      "text": "sink",
+      "textSha256": "1978baf2c153fd3bf3633f3a4b12fa6782507dc6056bbaf16909a6597f4a2548",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "faecf6a5d0c8ac13511e4619ac91ab23ce0568fac1cdbeb1c6db2881e4860cff",
+      "duration": 1.325,
+      "graphemes": [
+        "sink"
+      ],
+      "phonemes": [
+        "sˈɪŋk"
+      ]
+    },
+    {
+      "src": "/audio/words/reporting-water-leak-fix.mp3",
+      "text": "fix",
+      "textSha256": "1c6e6c4c02e55178e85890fc9bbed4ce046415ec8122bf38f711b779184ae2a0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "efe87ade93412471cac3673a8c29b2891c23c4ed04148c57bfcfcb8e85b29138",
+      "duration": 1.275,
+      "graphemes": [
+        "fix"
+      ],
+      "phonemes": [
+        "fˈɪks"
+      ]
+    },
+    {
+      "src": "/audio/words/reporting-water-leak-bother.mp3",
+      "text": "bother",
+      "textSha256": "56568d25931009bd526de599fa8be63eb2f3b9df624ac7f3c48ccf1d57f9e0b2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bb000c737ed1e66481b24686f3b987643e336427eaa0c875a823f3b6bf186c68",
+      "duration": 1.3,
+      "graphemes": [
+        "bother"
+      ],
+      "phonemes": [
+        "bˈɑðəɹ"
+      ]
+    },
+    {
+      "src": "/audio/sentences/trash-recycling-sorting/1.mp3",
+      "text": "Our building community follows a strict environmental policy for household waste.",
+      "textSha256": "e22b183a96a83de924ea19750d6e8c5748cbb1cb18fecfdc6e93220d8288f660",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dd97df0a9e93819295d3c80b0eefc963ec7039284114831d98fba584d7bca3b4",
+      "duration": 5.4,
+      "graphemes": [
+        "Our building community follows a strict environmental policy for household waste."
+      ],
+      "phonemes": [
+        "ˌWəɹ bˈɪldɪŋ kəmjˈunəTi fˈɑlOz ɐ stɹˈɪkt ənvˌIɹənmˈɛntᵊl pˈɑləsi fɔɹ hˈWshˌOld wˈAst."
+      ]
+    },
+    {
+      "src": "/audio/sentences/trash-recycling-sorting/2.mp3",
+      "text": "Residents must sort their daily garbage into general trash and recyclable materials.",
+      "textSha256": "8f79ea0e15fad83216f4084cb88623f96bff5d1dbcea4943a50a7bb6650f53ad",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f84db20500439251d49b271d09ce53d25fd2caf39553547d1df1beaced699b6f",
+      "duration": 5.675,
+      "graphemes": [
+        "Residents must sort their daily garbage into general trash and recyclable materials."
+      ],
+      "phonemes": [
+        "ɹˈɛzədᵊnts mˈʌst sˈɔɹt ðɛɹ dˈAli ɡˈɑɹbɪʤ ˈɪntu ʤˈɛnəɹəl tɹˈæʃ ænd ɹisˈIkləbᵊl mətˈɪɹiəlz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/trash-recycling-sorting/3.mp3",
+      "text": "Flatten all paper boxes and wash used plastic drink bottles before putting them in the bins.",
+      "textSha256": "45310fa4e4884bb88a867608a888549aa0cb4bb7de35f2a38f24ff05c1337933",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bb761639e33a7800c5856348daa176848c028ce65d93a83e3290318c6b77306a",
+      "duration": 6.25,
+      "graphemes": [
+        "Flatten all paper boxes and wash used plastic drink bottles before putting them in the bins."
+      ],
+      "phonemes": [
+        "flˈætn ˈɔl pˈApəɹ bˈɑksᵻz ænd wˈɔʃ jˈuzd plˈæstɪk dɹˈɪŋk bˈɑTəlz bəfˈɔɹ pˈʊTɪŋ ðˌɛm ɪn ðə bˈɪnz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/trash-recycling-sorting/4.mp3",
+      "text": "Which colored bin is meant for aluminum soda cans and metal food tins?",
+      "textSha256": "9f6f26f57d2db1951e5d11c9ca2e12c2ae2dd646d13ed68bd3fb55beb64eca2b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "df409d1c692ebbd2edb33677544c15fa1f54652da9089960c42062c269fe5aa7",
+      "duration": 4.975,
+      "graphemes": [
+        "Which colored bin is meant for aluminum soda cans and metal food tins?"
+      ],
+      "phonemes": [
+        "wˌɪʧ kˈʌləɹd bˈɪn ɪz mˈɛnt fɔɹ əlˈumənəm sˈOdə kænz ænd mˈɛTᵊl fˈud tˈɪnz?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/trash-recycling-sorting/5.mp3",
+      "text": "Toss clean metal cans into the yellow bin marked with the circular recycle symbol.",
+      "textSha256": "e9db0560d343b3db36648c34005691e84fb014712a6a65f30c53ddaea1d36b3c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0d673068a823d8cce5cf61846bdb126b9d406bef4372bc084dde79f03466615d",
+      "duration": 5.725,
+      "graphemes": [
+        "Toss clean metal cans into the yellow bin marked with the circular recycle symbol."
+      ],
+      "phonemes": [
+        "tˈɔs klˈin mˈɛTᵊl kænz ˈɪntu ðə jˈɛlO bˈɪn mˈɑɹkt wɪð ðə sˈɜɹkjələɹ ɹisˈIkᵊl sˈɪmbᵊl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/trash-recycling-sorting/6.mp3",
+      "text": "Following these simple sorting rules helps keep our neighborhood clean and green.",
+      "textSha256": "97149df15860a4dd8e9977a1becf73e1630ee458c0c0f8e9084f7fcb44534304",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "533713a1fdf0b9202c31ba777336d914c77eeb76e5b41a19309d7b3da47f3e63",
+      "duration": 4.825,
+      "graphemes": [
+        "Following these simple sorting rules helps keep our neighborhood clean and green."
+      ],
+      "phonemes": [
+        "fˈɑlOɪŋ ðiz sˈɪmpəl sˈɔɹTɪŋ ɹˈulz hˈɛlps kˈip ˌWəɹ nˈAbəɹhˌʊd klˈin ænd ɡɹˈin."
+      ]
+    },
+    {
+      "src": "/audio/phrases/trash-recycling-sorting-household-waste.mp3",
+      "text": "household waste",
+      "textSha256": "a944549ebb319d05c5a5db1a99cc586d780a5c14a92fcf38c4898365c0404c74",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "892f33f58a3028a1930357d8e4bff4b01d71032bb3c7d81fcd063847e64bdc2b",
+      "duration": 1.775,
+      "graphemes": [
+        "household waste"
+      ],
+      "phonemes": [
+        "hˈWshˌOld wˈAst"
+      ]
+    },
+    {
+      "src": "/audio/phrases/trash-recycling-sorting-daily-garbage.mp3",
+      "text": "daily garbage",
+      "textSha256": "bfc45f2cfde8d233a13267492491348adb2bf38eb555ae704cb7470e861a4222",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "da54e5685612e0111c9d5a5d45d8083e70a2adb33a4b7b1b7099cac73ed55783",
+      "duration": 1.725,
+      "graphemes": [
+        "daily garbage"
+      ],
+      "phonemes": [
+        "dˈAli ɡˈɑɹbɪʤ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/trash-recycling-sorting-flatten-all-paper-boxes.mp3",
+      "text": "Flatten all paper boxes",
+      "textSha256": "8e3eeee864416a3084ae167d041e7af47823987516be3779ee865d8417cc63bb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9bf3fe083bab6785b014b64250fb160a4f45c3149290dd10a4b5e9614011deb7",
+      "duration": 2.2,
+      "graphemes": [
+        "Flatten all paper boxes"
+      ],
+      "phonemes": [
+        "flˈætn ˈɔl pˈApəɹ bˈɑksᵻz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/trash-recycling-sorting-aluminum-soda-cans.mp3",
+      "text": "aluminum soda cans",
+      "textSha256": "e3680e3c9762c774196344be6b2cbbda4b76b4a7c874894483bec669d273c6d8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dbeb4d83e5c954c2d4544fd60f95c9ad95bb991a34879c450fb3213843bcddc6",
+      "duration": 2.025,
+      "graphemes": [
+        "aluminum soda cans"
+      ],
+      "phonemes": [
+        "əlˈumənəm sˈOdə kˈænz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/trash-recycling-sorting-recycle-symbol.mp3",
+      "text": "recycle symbol",
+      "textSha256": "4e0205c2918d4a15da5ca577a61ad7d6e73d7043a0438ee921d66dfdd3aaa753",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "eb1f4868631efbd8874fb6129a6f727b08f815625256630adf7930f9ed7b597c",
+      "duration": 1.65,
+      "graphemes": [
+        "recycle symbol"
+      ],
+      "phonemes": [
+        "ɹisˈIkᵊl sˈɪmbᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/trash-recycling-sorting-trash.mp3",
+      "text": "trash",
+      "textSha256": "e06da30434b904a063a13413df8e2f14d71645168515d4e0bf3b46807df3bb7d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2e26bd1154e5fd302e4b66ad4e3fa18669959b88fb32ea051ed0c969989a2f63",
+      "duration": 1.35,
+      "graphemes": [
+        "trash"
+      ],
+      "phonemes": [
+        "tɹˈæʃ"
+      ]
+    },
+    {
+      "src": "/audio/words/trash-recycling-sorting-garbage.mp3",
+      "text": "garbage",
+      "textSha256": "795b6904e54f82411df4b0e27a373a55eea3f9d66dac5a9bce1dd92f7b401da5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b74e910c99ee6fa0ed499b3e5b09b19b6a1c7c63ca7172017439469b980eaea5",
+      "duration": 1.475,
+      "graphemes": [
+        "garbage"
+      ],
+      "phonemes": [
+        "ɡˈɑɹbɪʤ"
+      ]
+    },
+    {
+      "src": "/audio/words/trash-recycling-sorting-recycle.mp3",
+      "text": "recycle",
+      "textSha256": "ef5988103d7b93b73646abbb5aed1a42975d3c3885c264826fff7ca9b7fee6f6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e1e0f57d75544d81081e7ec48cdc39fa461dde9caeba23da422663b9c0bc4421",
+      "duration": 1.625,
+      "graphemes": [
+        "recycle"
+      ],
+      "phonemes": [
+        "ɹisˈIkᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/trash-recycling-sorting-sort.mp3",
+      "text": "sort",
+      "textSha256": "646964943fd2271187dbe29287f57e0238491c029cc6d8ce76f25ae240474294",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "68b4dee2b98b9188fa60b5d53432968065ab10e6b8963ee69a7437a09182f590",
+      "duration": 1.25,
+      "graphemes": [
+        "sort"
+      ],
+      "phonemes": [
+        "sˈɔɹt"
+      ]
+    },
+    {
+      "src": "/audio/words/trash-recycling-sorting-bin.mp3",
+      "text": "bin",
+      "textSha256": "51a1f05af85e342e3c849b47d387086476282d5f50dc240c19216d6edfb1eb5a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "398fd6804389d7a0114933a73a5e5cbc217966a4ab29dad1d16941284357516a",
+      "duration": 1.35,
+      "graphemes": [
+        "bin"
+      ],
+      "phonemes": [
+        "bˈɪn"
+      ]
+    },
+    {
+      "src": "/audio/words/trash-recycling-sorting-policy.mp3",
+      "text": "policy",
+      "textSha256": "823412d1eacb67956220e532959f0104603057c88704863ca38e7cd188fda812",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fac9a0e2d87198d980061153d0a2d3f8b401fbde6c2d7c75869be9e4815aa8f6",
+      "duration": 1.5,
+      "graphemes": [
+        "policy"
+      ],
+      "phonemes": [
+        "pˈɑləsi"
+      ]
+    },
+    {
+      "src": "/audio/sentences/neighbor-noise-complaint/1.mp3",
+      "text": "Good evening neighbor, could I have a brief word with you about last night?",
+      "textSha256": "ce05f76e516de0123465851ee2e72d2332495b023dddbbcf74e2f614c18f2d7d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "63ffbb332f05953fb08310420cc213bb66f11c01f05c4269bcee63d3aef06cef",
+      "duration": 4.225,
+      "graphemes": [
+        "Good evening neighbor, could I have a brief word with you about last night?"
+      ],
+      "phonemes": [
+        "ɡˈʊd ˈivnɪŋ nˈAbəɹ, kʊd ˌI hæv ɐ bɹˈif wˈɜɹd wɪð ju əbˈWt lˈæst nˈIt?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/neighbor-noise-complaint/2.mp3",
+      "text": "Of course, did something unusual happen that disturbed your evening?",
+      "textSha256": "3926bddacddf78c5a37b5284440213cbec98603a24228e3dd8968519ace9ae3d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "46aa10756ce9f329806ef28444d2aeea5198fe5a56801d0d1baa27f67d902476",
+      "duration": 4.375,
+      "graphemes": [
+        "Of course, did something unusual happen that disturbed your evening?"
+      ],
+      "phonemes": [
+        "ˌʌv kˈɔɹs, dˈɪd sˈʌmθˌɪŋ ˌʌnjˈuʒəwəl hˈæpən ðæt dəstˈɜɹbd jʊɹ ˈivnɪŋ?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/neighbor-noise-complaint/3.mp3",
+      "text": "There was loud footsteps and heavy furniture dragging downstairs around midnight.",
+      "textSha256": "c39b17aa014d04757e7b238d65fdb8ca8e3121c1163aec6a355ef7ca1fc0c9a8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ad45f4bfa1df9672da81309527b73296f8d271f632b0b15b873015aa54e600d7",
+      "duration": 4.975,
+      "graphemes": [
+        "There was loud footsteps and heavy furniture dragging downstairs around midnight."
+      ],
+      "phonemes": [
+        "ðˌɛɹ wʌz lˈWd fˈʊtstˌɛps ænd hˈɛvi fˈɜɹnəʧəɹ dɹˈæɡɪŋ dˌWnstˈɛɹz əɹˈWnd mˈɪdnˌIt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/neighbor-noise-complaint/4.mp3",
+      "text": "The noise made it difficult to fall asleep and get good sleep.",
+      "textSha256": "5f2f54cf8665d9c4d519bae9d03f29129d042e25518d743377e5ca7493123140",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "97013c8782d94ebf649e7557abd5287cf3103d4fd425c055bbf31587009e5c22",
+      "duration": 3.9,
+      "graphemes": [
+        "The noise made it difficult to fall asleep and get good sleep."
+      ],
+      "phonemes": [
+        "ðə nˈYz mˌAd ɪt dˈɪfəkəlt tə fˈɔl əslˈip ænd ɡɛt ɡˈʊd slˈip."
+      ]
+    },
+    {
+      "src": "/audio/sentences/neighbor-noise-complaint/5.mp3",
+      "text": "I am so sorry about that, my friends helped me rearrange heavy bookshelves late at night.",
+      "textSha256": "14ef799bb77453695702a4cfa91268ab512cb3a1f1771495ae6e5b5f8a248564",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "810cb6302919d0ce98f74bb987c33ad1581b89d7801695e77363aff4e5777607",
+      "duration": 5.475,
+      "graphemes": [
+        "I am so sorry about that, my friends helped me rearrange heavy bookshelves late at night."
+      ],
+      "phonemes": [
+        "ˌI ɐm sˌO sˈɔɹi əbˈWt ðˈæt, mI fɹˈɛndz hˈɛlpt mˌi ɹˌiəɹˈAnʤ hˈɛvi bˈʊkʃɛlvz lˈAt æt nˈIt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/neighbor-noise-complaint/6.mp3",
+      "text": "We promise to keep things completely quiet and in peace after ten o'clock from now on.",
+      "textSha256": "e3760d8d47112be7e7efb1b75bd11379d9e0113082969e1137375f84cd3c5698",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "29362297712299ccd7bc8c668756658989282307801a0bc2c389db80ae3c4961",
+      "duration": 5.7,
+      "graphemes": [
+        "We promise to keep things completely quiet and in peace after ten o'clock from now on."
+      ],
+      "phonemes": [
+        "wˌi pɹˈɑməs tə kˈip θˈɪŋz kəmplˈitli kwˈIət ænd ɪn pˈis ˈæftəɹ tˈɛn əklˈɑk fɹʌm nˈW ˌɔn."
+      ]
+    },
+    {
+      "src": "/audio/phrases/neighbor-noise-complaint-have-a-brief-word.mp3",
+      "text": "have a brief word",
+      "textSha256": "fc566340e96657a7caa238384ac99bece65e0b3f76fe17adcec295cc3d17f664",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b162df94144de7c710876be4250866dc81895ec535213fb2360ee862aacab6d8",
+      "duration": 1.675,
+      "graphemes": [
+        "have a brief word"
+      ],
+      "phonemes": [
+        "hæv ɐ bɹˈif wˈɜɹd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/neighbor-noise-complaint-around-midnight.mp3",
+      "text": "around midnight",
+      "textSha256": "1420ce1a8fd1b8223b9bd6e810e4097e24b87931ee24f1ad1678751ef1bc236b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f5814b5a741703fd53b69ce3a8009d7c7f4db3459f8336eb26ce84ebab99defb",
+      "duration": 1.65,
+      "graphemes": [
+        "around midnight"
+      ],
+      "phonemes": [
+        "əɹˈWnd mˈɪdnˌIt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/neighbor-noise-complaint-difficult-to-fall-asleep.mp3",
+      "text": "difficult to fall asleep",
+      "textSha256": "8f2cb46a6d1b89ccafb2009a15f8f027419707c9ebe526606857b5ab2cec346a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a46dc0f9052ec5626e97dc6b8a526a45ce11be2f91929d96a3b1cedc943b4809",
+      "duration": 1.95,
+      "graphemes": [
+        "difficult to fall asleep"
+      ],
+      "phonemes": [
+        "dˈɪfəkəlt tə fˈɔl əslˈip"
+      ]
+    },
+    {
+      "src": "/audio/phrases/neighbor-noise-complaint-so-sorry-about-that.mp3",
+      "text": "so sorry about that",
+      "textSha256": "a3c4da9e92ed38f90cd2269a270ac5a026d55a551416414672efb869f26deac5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c9be582551bcff6b2ed4e33e200251b3d164eefab77cadbd251a009838ac99a9",
+      "duration": 1.8,
+      "graphemes": [
+        "so sorry about that"
+      ],
+      "phonemes": [
+        "sˌO sˈɔɹi əbˈWt ðˈæt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/neighbor-noise-complaint-keep-things-completely-quiet.mp3",
+      "text": "keep things completely quiet",
+      "textSha256": "c6f4bc90de6882fe62fa3b77a74a940abee42ffda2abb98235cbb2ed034786f9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3940c76b9162e32276626df307f450e1ae0f69592fd07f6c1231694b1bf16fd2",
+      "duration": 2.2,
+      "graphemes": [
+        "keep things completely quiet"
+      ],
+      "phonemes": [
+        "kˈip θˈɪŋz kəmplˈitli kwˈIət"
+      ]
+    },
+    {
+      "src": "/audio/words/neighbor-noise-complaint-noise.mp3",
+      "text": "noise",
+      "textSha256": "efe2a5c09e6d49d7eb735c9875f77404be5b887bb3f56378038968d4e3ff8198",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d13cb9f53415515ff662e553480b8769ba141df527f06e6d220e1658330613f1",
+      "duration": 1.425,
+      "graphemes": [
+        "noise"
+      ],
+      "phonemes": [
+        "nˈYz"
+      ]
+    },
+    {
+      "src": "/audio/words/neighbor-noise-complaint-loud.mp3",
+      "text": "loud",
+      "textSha256": "db1a60bbff220d0910f017477df18cb7cd90892722985ac91dbfdaa1c955220f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f4735b8c6a9d68c40ccc992f8aee0ba1f77994d1975aef4b37ee37bd6ecb70b5",
+      "duration": 1.3,
+      "graphemes": [
+        "loud"
+      ],
+      "phonemes": [
+        "lˈWd"
+      ]
+    },
+    {
+      "src": "/audio/words/neighbor-noise-complaint-sleep.mp3",
+      "text": "sleep",
+      "textSha256": "0afa5bb5d5f1787945e555e91474675beb6f34dd9a490423c4d0460e4d454885",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0c4ed0a11842845c9cf49e5c9b5272af6af6188603602703812e3e725a6615b6",
+      "duration": 1.3,
+      "graphemes": [
+        "sleep"
+      ],
+      "phonemes": [
+        "slˈip"
+      ]
+    },
+    {
+      "src": "/audio/words/neighbor-noise-complaint-quiet.mp3",
+      "text": "quiet",
+      "textSha256": "008f0747f4e27c8462baa991a538025bcc2dd143e78422f1afbdfcd9e757a20f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "210cb236aa890c1b9657d8d7896e9ba17a440b4e9b7f63b689031218d3312725",
+      "duration": 1.3,
+      "graphemes": [
+        "quiet"
+      ],
+      "phonemes": [
+        "kwˈIət"
+      ]
+    },
+    {
+      "src": "/audio/words/neighbor-noise-complaint-peace.mp3",
+      "text": "peace",
+      "textSha256": "c2e10c20bf46daf0ba03f725218b012544a3d0d3b37334eeb1d4d81e5406e478",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "46d6a7cd5891053026f19e8f3cfc9ea7b992c905d37e36fb22b452e99b84ac8a",
+      "duration": 1.35,
+      "graphemes": [
+        "peace"
+      ],
+      "phonemes": [
+        "pˈis"
+      ]
+    },
+    {
+      "src": "/audio/words/neighbor-noise-complaint-night.mp3",
+      "text": "night",
+      "textSha256": "176473d7313395b6e209bc6b1d57aa160b628706860aa0554d7af60a1d40ab87",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bca9e7d6d6bceb88bf3ef39e141ca199e22e04ea53ac6b54e83036d1546fe38f",
+      "duration": 1.225,
+      "graphemes": [
+        "night"
+      ],
+      "phonemes": [
+        "nˈIt"
+      ]
+    },
+    {
+      "src": "/audio/sentences/locked-out-of-room/1.mp3",
+      "text": "Excuse me security guard, the wind just slammed my apartment door shut.",
+      "textSha256": "3ecff371e7f8e9e8f2d94b529bc1336881330771b3e72d4a621858e0c3778702",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a7518311e8119f5c81ace0de69f1c76cad5d5c368f1c48f5a34bd56380b2449e",
+      "duration": 4.85,
+      "graphemes": [
+        "Excuse me security guard, the wind just slammed my apartment door shut."
+      ],
+      "phonemes": [
+        "ɪkskjˈuz mˌi səkjˈʊɹəTi ɡˈɑɹd, ðə wˈɪnd ʤˈʌst slˈæmd mI əpˈɑɹtmənt dˈɔɹ ʃˈʌt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/locked-out-of-room/2.mp3",
+      "text": "I stepped outside to throw away the trash and forgot my keys inside on the table.",
+      "textSha256": "5279fa90c9e104fe1083da5e0a19e9929036986c2cf692ef34ffea0e71151182",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "98f630273b92117128ee9d0b6cdc73e87573907334249e27f737848e4b9cbc0f",
+      "duration": 5.3,
+      "graphemes": [
+        "I stepped outside to throw away the trash and forgot my keys inside on the table."
+      ],
+      "phonemes": [
+        "ˌI stˈɛpt ˌWtsˈId tə θɹˈO əwˈA ðə tɹˈæʃ ænd fəɹɡˈɑt mI kˈiz ɪnsˈId ˌɔn ðə tˈAbᵊl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/locked-out-of-room/3.mp3",
+      "text": "Do not worry young man, could you borrow our security office phone to call your family?",
+      "textSha256": "e933091032a1b5c53da744076c7726c12803e2e7f93f2214d6a4d1282bc3322b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e4d5095f1495da3d901f700b5182b2054be8874e721f6d3970b8933bca494a18",
+      "duration": 5.325,
+      "graphemes": [
+        "Do not worry young man, could you borrow our security office phone to call your family?"
+      ],
+      "phonemes": [
+        "dˈu nˌɑt wˈɜɹi jˈʌŋ mˈæn, kʊd ju bˈɑɹO ˌWəɹ səkjˈʊɹəTi ˈɔfəs fˈOn tə kˈɔl jʊɹ fˈæmᵊli?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/locked-out-of-room/4.mp3",
+      "text": "My father is at work, but my sister carries a spare key in her bag.",
+      "textSha256": "ed30aa8d3c2bb7c90fef2d412a5848e671a91686aa4653d502eacaf95088e58c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6e57c736638a231c870707d50d65700f3025d07ad25080a0e5fe760812d3a2c5",
+      "duration": 4.45,
+      "graphemes": [
+        "My father is at work, but my sister carries a spare key in her bag."
+      ],
+      "phonemes": [
+        "mˌI fˈɑðəɹ ɪz æt wˈɜɹk, bˌʌt mI sˈɪstəɹ kˈɛɹiz ɐ spˈɛɹ kˈi ɪn hɜɹ bˈæɡ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/locked-out-of-room/5.mp3",
+      "text": "She said she will take the subway home and be here within twenty minutes.",
+      "textSha256": "4bdbe51f208195376704cf010334b4a51ef8977bf0d5a2f23589029ebd8ec311",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e6cae82b726464392e7a84f6c05b971c895dcc08c9da0c90dd490ccc70a00a61",
+      "duration": 4.425,
+      "graphemes": [
+        "She said she will take the subway home and be here within twenty minutes."
+      ],
+      "phonemes": [
+        "ʃˌi sˈɛd ʃi wɪl tˈAk ðə sˈʌbwˌA hˈOm ænd bi hˈɪɹ wɪðˈɪn twˈɛnti mˈɪnəts."
+      ]
+    },
+    {
+      "src": "/audio/sentences/locked-out-of-room/6.mp3",
+      "text": "You can sit inside our warm office lobby while you wait for the door to open.",
+      "textSha256": "cbd1e86aa5285b7ab09da5411744ed3413e9442aafe3050730848e8b096e6b79",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "de9f7211875f4e0ac29b7c3fb244a71455c94fabef5cd7b44c10b5f79e94f389",
+      "duration": 4.775,
+      "graphemes": [
+        "You can sit inside our warm office lobby while you wait for the door to open."
+      ],
+      "phonemes": [
+        "jˌu kæn sˈɪt ɪnsˈId ˌWəɹ wˈɔɹm ˈɔfəs lˈɑbi wˌIl ju wˈAt fɔɹ ðə dˈɔɹ tʊ ˈOpᵊn."
+      ]
+    },
+    {
+      "src": "/audio/phrases/locked-out-of-room-slammed-my-apartment-door-shut.mp3",
+      "text": "slammed my apartment door shut",
+      "textSha256": "8e2eab0d0b80aac51ff52d60a3814e7c53f23cc2307ac8d97c60dd8c82b5e712",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "66164737cf967ba3d28d45bdaf6e1f1fa971e80f0e50f3a2b4e8f44b5a6f82c6",
+      "duration": 2.225,
+      "graphemes": [
+        "slammed my apartment door shut"
+      ],
+      "phonemes": [
+        "slˈæmd mI əpˈɑɹtmənt dˈɔɹ ʃˈʌt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/locked-out-of-room-forgot-my-keys-inside.mp3",
+      "text": "forgot my keys inside",
+      "textSha256": "043e06facbe98d1ae78b70885642186ef758abc335ff7f596d52f2764b54e4ca",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "106e43a5fd86b9f8e6339bd3bb948fb5ed0756480acdeaf1f8b742fb253e79c4",
+      "duration": 2.05,
+      "graphemes": [
+        "forgot my keys inside"
+      ],
+      "phonemes": [
+        "fəɹɡˈɑt mI kˈiz ɪnsˈId"
+      ]
+    },
+    {
+      "src": "/audio/phrases/locked-out-of-room-borrow-our-security-office-phone.mp3",
+      "text": "borrow our security office phone",
+      "textSha256": "a324522ffb23bae9dc6e171407194a441dc1067dd6dd2a84a764738fb4f668bb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "51ad21fe3f5666801c316470d43d86b18aafdc7443ee96e8613dacd2408619c6",
+      "duration": 2.3,
+      "graphemes": [
+        "borrow our security office phone"
+      ],
+      "phonemes": [
+        "bˈɑɹO ˌWəɹ səkjˈʊɹəTi ˈɔfəs fˈOn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/locked-out-of-room-spare-key.mp3",
+      "text": "spare key",
+      "textSha256": "f23443d21343e15c26a61083817886d6460a99139bd5f4ea6d37b3e06da13461",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "68d68d3e949e728429e544b7a18439d60d4e181993525a12c3e407fd0303862d",
+      "duration": 1.5,
+      "graphemes": [
+        "spare key"
+      ],
+      "phonemes": [
+        "spˈɛɹ kˈi"
+      ]
+    },
+    {
+      "src": "/audio/phrases/locked-out-of-room-wait-for-the-door-to-open.mp3",
+      "text": "wait for the door to open",
+      "textSha256": "a843be89cf4d35385cb65803c0acc6dd5f10e76de5c82d1ce7e6f14883696390",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5b3a70f5d2463211e838f1447ee6bfa3f7469e8bb2d1ad620c3b538012036a16",
+      "duration": 1.95,
+      "graphemes": [
+        "wait for the door to open"
+      ],
+      "phonemes": [
+        "wˈAt fɔɹ ðə dˈɔɹ tʊ ˈOpᵊn"
+      ]
+    },
+    {
+      "src": "/audio/words/locked-out-of-room-door.mp3",
+      "text": "door",
+      "textSha256": "2534e2de1dec24fedab4c00266b55ba9ba60dde03a349c5b5662189dd561ba9e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "41f4de72a6e55d77e2e0d45a129dfcd3fe7763b4e26eb8d7b32cbc0f2004c462",
+      "duration": 1.275,
+      "graphemes": [
+        "door"
+      ],
+      "phonemes": [
+        "dˈɔɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/locked-out-of-room-key.mp3",
+      "text": "key",
+      "textSha256": "2c70e12b7a0646f92279f427c7b38e7334d8e5389cff167a1dc30e73f826b683",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "22c66e93ae729daad3df1fb77704fec54879d08150c9f1824e50888871c19bc5",
+      "duration": 1.275,
+      "graphemes": [
+        "key"
+      ],
+      "phonemes": [
+        "kˈi"
+      ]
+    },
+    {
+      "src": "/audio/words/locked-out-of-room-forget.mp3",
+      "text": "forget",
+      "textSha256": "babc1bd8ec812c742b4598d05a104f582c7d9b824022f4972aa0c2d4a3b0c85e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4afb664477217251a6b96ec9701de5e309292ac4c2f451332bcd557abfbcc722",
+      "duration": 1.375,
+      "graphemes": [
+        "forget"
+      ],
+      "phonemes": [
+        "fəɹɡˈɛt"
+      ]
+    },
+    {
+      "src": "/audio/words/locked-out-of-room-inside.mp3",
+      "text": "inside",
+      "textSha256": "106b086224a4d945eae25f7be3805a931a873270326dd868b0e41f71ee9fff72",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fd675d09cc607b7f82b67ea0a21147a63f36495e8b903e21d74e79acff8d5868",
+      "duration": 1.5,
+      "graphemes": [
+        "inside"
+      ],
+      "phonemes": [
+        "ɪnsˈId"
+      ]
+    },
+    {
+      "src": "/audio/words/locked-out-of-room-outside.mp3",
+      "text": "outside",
+      "textSha256": "31207a2065f46a5b948fce6fe5c13e85abaf5631e2f894b47dcd4fce14f6c57b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8ae88f5d6f7578dbf32f698d00e7d60069c65b630ff2d5fe33922a606fe418d4",
+      "duration": 1.5,
+      "graphemes": [
+        "outside"
+      ],
+      "phonemes": [
+        "ˌWtsˈId"
+      ]
+    },
+    {
+      "src": "/audio/words/locked-out-of-room-open.mp3",
+      "text": "open",
+      "textSha256": "2348f998744212575d85959674f9607ab26f67708a917157472832386337c904",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9409f12f3e5f117c4135bf1031a18596e500308792b4f4db21230960796733f9",
+      "duration": 1.4,
+      "graphemes": [
+        "open"
+      ],
+      "phonemes": [
+        "ˈOpᵊn"
+      ]
+    },
+    {
+      "src": "/audio/sentences/replacing-burnt-out-bulb/1.mp3",
+      "text": "The main ceiling light in my study room suddenly went dark last night.",
+      "textSha256": "8d8a993ec9e5b7bae39a3480654020377312335cef59c9d9f882253c27362270",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6565aa03ebeeb2b6fe75ced71751ec6918dac135e1274a95b35433b16b617e8e",
+      "duration": 4.575,
+      "graphemes": [
+        "The main ceiling light in my study room suddenly went dark last night."
+      ],
+      "phonemes": [
+        "ðə mˈAn sˈilɪŋ lˈIt ɪn mI stˈʌdi ɹˈum sˈʌdᵊnli wˈɛnt dˈɑɹk lˈæst nˈIt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/replacing-burnt-out-bulb/2.mp3",
+      "text": "I brought the old burnt-out bulb to the hardware store to find an exact match.",
+      "textSha256": "30009499399bb5d224feb86891823a4ab9877d9706010bf5f047ba5335f4120d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fc0135ea55bc85d3dd9a89357b5193a4776a21f6eb7b7708f6498b1984854634",
+      "duration": 4.925,
+      "graphemes": [
+        "I brought the old burnt-out bulb to the hardware store to find an exact match."
+      ],
+      "phonemes": [
+        "ˌI bɹˈɔt ði ˈOld bˈɜɹntˌWt bˈʌlb tə ðə hˈɑɹdwˌɛɹ stˈɔɹ tə fˈInd ɐn ɪɡzˈækt mˈæʧ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/replacing-burnt-out-bulb/3.mp3",
+      "text": "This energy-saving LED bulb fits the standard screw socket perfectly.",
+      "textSha256": "f6e0cd95ce7ea3b08da9a44058006ec4ef8a217ce3f1b63991fd5eca4e7814b1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5a2d405b96c2f0dff80eaf4d2ba91fc7240b570522febbf785c81ef0247aea26",
+      "duration": 5.125,
+      "graphemes": [
+        "This energy-saving LED bulb fits the standard screw socket perfectly."
+      ],
+      "phonemes": [
+        "ðˌɪs ˈɛnəɹʤisˌAvɪŋ ˌɛlˌidˈi bˈʌlb fˈɪts ðə stˈændəɹd skɹˈu sˈɑkət pˈɜɹfəktli."
+      ]
+    },
+    {
+      "src": "/audio/sentences/replacing-burnt-out-bulb/4.mp3",
+      "text": "Before replacing the bulb on the ceiling, always turn off the wall power switch.",
+      "textSha256": "a142767778ba86115ee97168dabfb995c2bca024f3a8d73d7bb10e8e390eb727",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "eec5d09da53a8eb17146c65918678fee8401c8ed8b5b999da257995f6471f2be",
+      "duration": 5,
+      "graphemes": [
+        "Before replacing the bulb on the ceiling, always turn off the wall power switch."
+      ],
+      "phonemes": [
+        "bəfˈɔɹ ɹᵻplˈAsɪŋ ðə bˈʌlb ˌɔn ðə sˈilɪŋ, ˈɔlwˌAz tˈɜɹn ˈɔf ðə wˈɔl pˈWəɹ swˈɪʧ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/replacing-burnt-out-bulb/5.mp3",
+      "text": "Wait five minutes to make sure the glass fixture is completely cool to the touch.",
+      "textSha256": "ea84060bc16d09919766b1b9249632fdd388a817b2f03fe30770b98167f721e9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "11a5addb9b221c68f2d0d15eb050d1d4a5c2bd23124a1bd792957c37befcbc20",
+      "duration": 4.9,
+      "graphemes": [
+        "Wait five minutes to make sure the glass fixture is completely cool to the touch."
+      ],
+      "phonemes": [
+        "wˈAt fˈIv mˈɪnəts tə mˌAk ʃˈʊɹ ðə ɡlˈæs fˈɪksʧəɹ ɪz kəmplˈitli kˈul tə ðə tˈʌʧ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/replacing-burnt-out-bulb/6.mp3",
+      "text": "Turn the new bulb clockwise gently until it sits securely in place.",
+      "textSha256": "b7dfc4e160a096064c28b12666fbb08860d5caf678635be291aae531ee2e2a61",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a46cc31af9c0f718643e4c137b33fa85a6ca006ff87cd4b7b423b930867fdb2a",
+      "duration": 4.5,
+      "graphemes": [
+        "Turn the new bulb clockwise gently until it sits securely in place."
+      ],
+      "phonemes": [
+        "tˈɜɹn ðə nˈu bˈʌlb klˈɑkwˌIz ʤˈɛntli ˌʌntˈɪl ɪt sˈɪts səkjˈʊɹli ɪn plˈAs."
+      ]
+    },
+    {
+      "src": "/audio/phrases/replacing-burnt-out-bulb-went-dark.mp3",
+      "text": "went dark",
+      "textSha256": "18d0f1d82282f35f31ab949ace026f4dccd84ac572367b5b82cd62997bcafc80",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3a1c5c71a7e5eca5c09b1807fbc02074f9bf0521fa69ce1caaa77325ceafb0a3",
+      "duration": 1.475,
+      "graphemes": [
+        "went dark"
+      ],
+      "phonemes": [
+        "wˈɛnt dˈɑɹk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/replacing-burnt-out-bulb-burnt-out-bulb.mp3",
+      "text": "burnt-out bulb",
+      "textSha256": "f2d6ef5a40e5c0126169cd90dcd2c7fbb90a4cd883fbceb0cca9231818295801",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d83fa8c4e84bb19b51d3465cfc7dd451fc065d66fec81f19e9aaebf3a1a13b8e",
+      "duration": 1.65,
+      "graphemes": [
+        "burnt-out bulb"
+      ],
+      "phonemes": [
+        "bˈɜɹntˌWt bˈʌlb"
+      ]
+    },
+    {
+      "src": "/audio/phrases/replacing-burnt-out-bulb-find-an-exact-match.mp3",
+      "text": "find an exact match",
+      "textSha256": "2584ceecc1b46b10d8f8e8d46be2600a5d0693bd16bbe977a227e1200f7d3c0d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8c537cf99089d2ae62640d02848e74d20d370c13bac6d8f863a3c2286f494229",
+      "duration": 1.875,
+      "graphemes": [
+        "find an exact match"
+      ],
+      "phonemes": [
+        "fˈInd ɐn ɪɡzˈækt mˈæʧ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/replacing-burnt-out-bulb-turn-off-the-wall-power-switch.mp3",
+      "text": "turn off the wall power switch",
+      "textSha256": "7cb3ee130955b5ad9a986e4b87897a736033eb1f818da5090c1420843f0ec094",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fefd70b783594aaf24745197cadfe8223b6ec1c229e0fa342cea2af5ae48c6d8",
+      "duration": 2.2,
+      "graphemes": [
+        "turn off the wall power switch"
+      ],
+      "phonemes": [
+        "tˈɜɹn ˈɔf ðə wˈɔl pˈWəɹ swˈɪʧ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/replacing-burnt-out-bulb-standard-screw-socket.mp3",
+      "text": "standard screw socket",
+      "textSha256": "f3f7fa485fa86a5bbe124ad40d9cd63a96cd4df471cef02c52029bb6f7b7244a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ac34ffd70998f436a24b05c5d154b7d1475cbd77b42ba5f522cbb49476198793",
+      "duration": 1.9,
+      "graphemes": [
+        "standard screw socket"
+      ],
+      "phonemes": [
+        "stˈændəɹd skɹˈu sˈɑkət"
+      ]
+    },
+    {
+      "src": "/audio/words/replacing-burnt-out-bulb-light.mp3",
+      "text": "light",
+      "textSha256": "99a7026172d42714d0293e5598ec1c8e8260d7d0c4b8582ad002c1883494e216",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "32ae26483559118fb099761ee580d23a57821bfb2cca85ef58448cf15aacc70b",
+      "duration": 1.225,
+      "graphemes": [
+        "light"
+      ],
+      "phonemes": [
+        "lˈIt"
+      ]
+    },
+    {
+      "src": "/audio/words/replacing-burnt-out-bulb-bulb.mp3",
+      "text": "bulb",
+      "textSha256": "b4942fb4e8b58995227b2362409e50d65f3cd8cc197f3bcd1a0fe92e2c2a459c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9f7e258667e6905f55153be7a637818d8038b6d2ac291ee8e19a66009cdb0ed4",
+      "duration": 0.925,
+      "graphemes": [
+        "bulb"
+      ],
+      "phonemes": [
+        "bˈʌlb"
+      ]
+    },
+    {
+      "src": "/audio/words/replacing-burnt-out-bulb-dark.mp3",
+      "text": "dark",
+      "textSha256": "e6bb5689beec52c4672bd4df92c3613d128d30cdc2b704f76953fe43d89c4ae8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5bd5289e613a52452bea8e3aa070f6e62ca5059ec549610eff49656f61f1b419",
+      "duration": 1.2,
+      "graphemes": [
+        "dark"
+      ],
+      "phonemes": [
+        "dˈɑɹk"
+      ]
+    },
+    {
+      "src": "/audio/words/replacing-burnt-out-bulb-ceiling.mp3",
+      "text": "ceiling",
+      "textSha256": "96f16e929047d5fa07f1a824858e3d7c101ef56562ae7c8e801f924882e41ed8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "81a241a1517ccea4b68209108791fa1facd1170f75ec68a15ffc016542891f20",
+      "duration": 1.375,
+      "graphemes": [
+        "ceiling"
+      ],
+      "phonemes": [
+        "sˈilɪŋ"
+      ]
+    },
+    {
+      "src": "/audio/words/replacing-burnt-out-bulb-switch.mp3",
+      "text": "switch",
+      "textSha256": "78b49fb2cc2d2ed6c1bb8383b3d267b3bc623a8a0fb4aff4aa5d3db74c3b4967",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b3e8bb2acb77ed1189ec9c4871b842e77785da2a9f2502d9ed094ab94fd08731",
+      "duration": 1.375,
+      "graphemes": [
+        "switch"
+      ],
+      "phonemes": [
+        "swˈɪʧ"
+      ]
+    },
+    {
+      "src": "/audio/words/replacing-burnt-out-bulb-power.mp3",
+      "text": "power",
+      "textSha256": "07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0bd65e1a981d8509a8380abe790928bb1491491c31e5ee1978a77582edfac631",
+      "duration": 1.35,
+      "graphemes": [
+        "power"
+      ],
+      "phonemes": [
+        "pˈWəɹ"
+      ]
+    }
+  ]
+}
