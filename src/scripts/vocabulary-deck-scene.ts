@@ -13,13 +13,15 @@ export interface VocabularyDeckScene {
 
 interface MotionValue { value: number; from: number; to: number; animation: Animation | null }
 interface Card { face: HTMLElement; rotor: HTMLElement; slide: HTMLElement; angle: MotionValue }
-const distance = 800;
-// A flip needs several edge-on frames and a slight settle to read as rotation instead of a cut.
-const flipDuration = 560;
-const flipEasing = 'cubic-bezier(.45, 0, .2, 1.2)';
-// Sinking by most of the half-width keeps the near edge inside the stage while the far edge recedes.
-const flipSink = .8;
 const gutter = 28;
+// Tilts the top edge back while edge-on, which adds depth without bringing that edge toward the viewer.
+const flipLean = .06;
+
+// CSS minifiers may rewrite `560ms` as `.56s`.
+function milliseconds(value: string) {
+  const time = value.trim();
+  return time.endsWith('ms') ? parseFloat(time) : parseFloat(time) * 1000;
+}
 
 /** WebGL owns paper and light. DOM owns content, focus and native gestures. */
 export function createVocabularyDeckScene(main: HTMLElement, track: HTMLElement, enter: boolean, failed: () => void): VocabularyDeckScene {
@@ -32,6 +34,11 @@ export function createVocabularyDeckScene(main: HTMLElement, track: HTMLElement,
   canvas.className = 'vocabulary-deck-canvas';
   canvas.dataset.vocabularyDeck = '';
   canvas.setAttribute('aria-hidden', 'true');
+  const tokens = getComputedStyle(main);
+  // Shared with CSS so the WebGL camera and the DOM text use one perspective and one flip timing.
+  const distance = parseFloat(tokens.getPropertyValue('--deck-distance'));
+  const flipDuration = milliseconds(tokens.getPropertyValue('--flip-duration'));
+  const flipEasing = tokens.getPropertyValue('--flip-easing').trim();
   const scene = new Scene();
   const camera = new PerspectiveCamera(35, 1, 1, 4000);
   camera.position.z = distance;
@@ -45,7 +52,6 @@ export function createVocabularyDeckScene(main: HTMLElement, track: HTMLElement,
   const rim = new DirectionalLight(0xffffff, .6);
   rim.position.set(400, -150, 200);
   scene.add(rim);
-  const tokens = getComputedStyle(main);
   const easing = tokens.getPropertyValue('--ease-spring').trim();
   const paper = new MeshStandardMaterial({ color: new Color(tokens.getPropertyValue('--surface-raised').trim()), roughness: .8, metalness: 0 });
   const edge = new MeshStandardMaterial({ color: new Color(tokens.getPropertyValue('--control-border').trim()), roughness: .6 });
@@ -140,6 +146,7 @@ export function createVocabularyDeckScene(main: HTMLElement, track: HTMLElement,
     geometry.translate(0, 0, -3);
     faceMesh.geometry = geometry;
     backs.forEach((back) => { back.geometry = geometry!; });
+    shadow.scale.set(width + 64, height + 64, 1);
   }
 
   function draw() {
@@ -169,25 +176,22 @@ export function createVocabularyDeckScene(main: HTMLElement, track: HTMLElement,
         resizeGeometry(rect.width, rect.height);
         const relative = Math.max(-1, Math.min(1, (slide.left - trackBounds.left) / trackBounds.width));
         const angle = sample(card.angle);
-        // The card sinks into the deck while edge-on, then settles back to the surface.
         const arc = Math.abs(Math.sin(angle));
         const turn = angle + relative * .16;
-        const lean = (1 - entry) * .15 + arc * .06;
+        const tilt = arc * flipLean;
+        const lean = (1 - entry) * .15 + tilt;
         const roll = relative * .035 - (1 - entry) * .07;
         const lift = -Math.abs(relative) * 8 + (1 - entry) * 20;
-        const depth = -Math.abs(relative) * 60 + (1 - entry) * 16 - arc * flipSink * rect.width / 2;
+        // Sinking by the near edge's travel keeps every corner behind the resting plane, so the stage never clips it.
+        const depth = -Math.abs(relative) * 60 + (1 - entry) * 16 - arc * rect.width / 2 - Math.sin(tilt) * rect.height / 2;
         const scale = .94 + entry * .06;
         card.rotor.style.transform = `translate3d(0, ${lift}px, ${depth}px) rotateZ(${roll}rad) rotateX(${lean}rad) rotateY(${turn}rad) scale(${scale})`;
         card.face.dataset.deckSide = Math.cos(turn) >= 0 ? 'front' : 'back';
         top.position.set(0, -lift, depth);
         top.rotation.set(-lean, turn, -roll, 'ZXY');
         top.scale.setScalar(scale);
-        // The stack recedes past the turning card's far edge, so the card reads as lifted off it.
-        const floor = Math.min(0, depth) - arc * rect.width / 2;
-        shadow.position.z = floor - 48;
-        shadow.scale.set((rect.width + 64) * (1 - arc * .08), (rect.height + 64) * (1 - arc * .08), 1);
         backs.forEach((back, n) => {
-          back.position.set((n + 1) * 3, -(n + 1) * 7, floor - (n + 1) * 14);
+          back.position.set((n + 1) * 3, -(n + 1) * 7, -(n + 1) * 14);
           back.rotation.z = (n + 1) * .025;
           back.scale.setScalar(1 - (n + 1) * .012);
         });
@@ -200,13 +204,25 @@ export function createVocabularyDeckScene(main: HTMLElement, track: HTMLElement,
         const left = Math.max(bounds.left, trackBounds.left, slide.left);
         const right = Math.min(bounds.right, trackBounds.right, slide.right);
         renderer.setScissor(left - bounds.left, 0, Math.max(0, right - left), canvasHeight);
+        // The stack stays put; drawing the card in a second pass keeps a sunken card above it.
         renderer.clearDepth();
+        top.visible = false;
         renderer.render(scene, camera);
+        renderer.clearDepth();
+        top.visible = true;
+        setStackVisible(false);
+        renderer.render(scene, camera);
+        setStackVisible(true);
         // Keep the back content during a return flip, then remove its visual exposure.
         card.face.dataset.deckTurning = card.angle.animation ? 'true' : 'false';
       }
       if (entrance.animation || cards.some((card) => card.angle.animation)) invalidate();
     } catch (error) { if (!mounted) throw error; failed(); }
+  }
+
+  function setStackVisible(visible: boolean) {
+    shadow.visible = visible;
+    backs.forEach((back) => { back.visible = visible; });
   }
 
   function invalidate() { if (!frame && !paused && !disposed) frame = requestAnimationFrame(draw); }
@@ -276,7 +292,10 @@ export function createVocabularyDeckScene(main: HTMLElement, track: HTMLElement,
       const card = cards.find((card) => card.face === face);
       if (!card) return;
       finish(entrance);
-      tween(card.angle, show ? Math.PI : 0, animate, flipDuration, flipEasing);
+      const target = show ? Math.PI : 0;
+      // A reversal mid-flip covers less angle, so it takes proportionally less time.
+      const remaining = Math.abs(target - sample(card.angle)) / Math.PI;
+      tween(card.angle, target, animate, flipDuration * Math.max(.4, remaining), flipEasing);
       if (!animate) draw();
     },
     pause,

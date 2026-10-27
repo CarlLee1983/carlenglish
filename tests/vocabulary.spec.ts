@@ -389,27 +389,45 @@ test('pointer reveal has a reversible flip animation @motion', async ({ page }) 
     const click = () => element.dispatchEvent(new MouseEvent('click', { bubbles: true, detail: 1 }));
     const depth = () => Number(rotor.style.transform.match(/translate3d\([^,]+,[^,]+, ([-\d.]+)px\)/)?.[1] ?? 0);
     const rest = depth();
+    const stage = element.closest('[data-vocabulary-practice-main]')!.getBoundingClientRect();
+    const box = element.getBoundingClientRect();
+    const distance = parseFloat(getComputedStyle(element).perspective);
+    // Project the rotor's corners like the camera does; WebKit underreports bounding rects of 3D elements.
+    let overflow = 0;
+    const project = () => {
+      const matrix = new DOMMatrix(rotor.style.transform);
+      for (const [x, y] of [[-1, -1], [1, -1], [-1, 1], [1, 1]]) {
+        const point = matrix.transformPoint(new DOMPoint(x * box.width / 2, y * box.height / 2, 0));
+        const scale = distance / (distance - point.z);
+        const top = box.top + box.height / 2 + point.y * scale;
+        overflow = Math.max(overflow, stage.top - top, top - stage.bottom);
+      }
+    };
     const start = performance.now();
     click();
     const forward: number[] = [];
     const depths: number[] = [];
-    for (let n = 0; n < 4; n++) { await new Promise(requestAnimationFrame); forward.push(turn()); depths.push(depth()); }
+    for (let n = 0; n < 4; n++) { await new Promise(requestAnimationFrame); forward.push(turn()); depths.push(depth()); project(); }
     // Time spent before passing 150° is what makes a flip read as rotation instead of a cut; frame counts vary with load.
     let sweep = 0;
     for (let n = 0; n < 120 && !sweep; n++) {
       await new Promise(requestAnimationFrame);
       depths.push(depth());
+      project();
       if (turn() > Math.PI * 5 / 6) sweep = performance.now() - start;
     }
+    const back = performance.now();
     click();
-    const reverse: number[] = [];
-    for (let n = 0; n < 60; n++) { await new Promise(requestAnimationFrame); reverse.push(turn()); }
-    return { forward, reverse, sweep, rest, depths };
+    const reverse: number[] = [turn()];
+    // Wait by time rather than frames so high refresh rates do not stop inside the settle.
+    while (performance.now() - back < 1000) { await new Promise(requestAnimationFrame); reverse.push(turn()); project(); }
+    return { forward, reverse, sweep, rest, depths, overflow };
   });
   expect(trace.forward.some((angle) => angle > 0 && angle < Math.PI)).toBe(true);
   expect(trace.sweep).toBeGreaterThanOrEqual(150);
   expect(Math.max(...trace.depths.map((value) => Math.abs(value - trace.rest)))).toBeGreaterThan(20);
-  expect(trace.reverse.some((angle) => angle > 0 && angle < trace.forward.at(-1)!)).toBe(true);
+  expect(trace.overflow).toBeLessThanOrEqual(1);
+  expect(trace.reverse.some((angle) => angle > 0 && angle < trace.reverse[0] * .9)).toBe(true);
   expect(trace.reverse.at(-1)).toBeCloseTo(0, 2);
   await expect(face).toHaveAttribute('aria-expanded', 'false');
   await expect(face).toHaveAttribute('data-deck-side', 'front');
