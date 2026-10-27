@@ -1,0 +1,347 @@
+{
+  "id": "library-overdue-fee",
+  "title": "圖書館借書逾期繳費",
+  "titleEn": "Paying an Overdue Fee at the Library",
+  "category": "公共服務",
+  "level": "初級至初中級",
+  "image": {
+    "src": "/images/scenes/library-overdue-fee.webp",
+    "alt": "在安靜寬敞的圖書館借還書櫃檯前，讀者歸還逾期五天的書籍，並向館員繳清微額罰金以恢復借書權限。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "return-books",
+      "english": "return books",
+      "translation": "歸還書籍",
+      "audio": {
+        "src": "/audio/phrases/library-overdue-fee-return-books.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ca2597a1e5bd1959ce535185895bc23e95ed06e0d97e29a3c016c799517af2fe",
+        "sha256": "73cd0064ac7a82c629400040a1beca63fb4ece56bf976948c99359cf27015981"
+      }
+    },
+    {
+      "id": "system-record",
+      "english": "system record",
+      "translation": "系統紀錄",
+      "audio": {
+        "src": "/audio/phrases/library-overdue-fee-system-record.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "10c383c416b3591d393b3209f4291a101dae3325e6c525313501b8fb3fc1642d",
+        "sha256": "dcbc73f0948b71b7e705f064d750367ffa3899a054200927cc3d5197cd8905cb"
+      }
+    },
+    {
+      "id": "five-days-overdue",
+      "english": "five days overdue",
+      "translation": "逾期了五天",
+      "audio": {
+        "src": "/audio/phrases/library-overdue-fee-five-days-overdue.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "48fabcb23e0d490ca706fc5e5d5627812d9a0e37f7ec09d76bf036c2958794f2",
+        "sha256": "5e4a5c788337981a8485b3396d6eb911b141885a581c84d89f06843fb1198c2f"
+      }
+    },
+    {
+      "id": "library-rule",
+      "english": "library rule",
+      "translation": "圖書館規定",
+      "audio": {
+        "src": "/audio/phrases/library-overdue-fee-library-rule.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5f0b5dc431c8cdc732548198801ee1894fa85f9049371c5df5f0e839dba7009a",
+        "sha256": "7fb170e075836f518ac09e0e6be3f9f1fd89c81bb25e5ddb72f009b539b513a8"
+      }
+    },
+    {
+      "id": "due-date",
+      "english": "due date",
+      "translation": "到期日",
+      "audio": {
+        "src": "/audio/phrases/library-overdue-fee-due-date.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "71bdd372fc935798c541d14a7cb9bd820c7b81c0238913c9163591b6a06e23da",
+        "sha256": "9da6efefc98b563bb63180116b4dcbbf8f51124d547df056937a6a4d04d93688"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "rule",
+      "english": "rule",
+      "translation": "規定；規則",
+      "example": "Follow the swimming pool rules for your safety.",
+      "audio": {
+        "src": "/audio/words/library-overdue-fee-rule.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7369949b47ef2c6ba26fbbee659cedc76123a75c17d321a52d8d1ef35e948042",
+        "sha256": "774d39ee518bb0493c1574cc799cb474e7dae9e0f6065c0aadab8101ae95cfba"
+      }
+    },
+    {
+      "id": "fee",
+      "english": "fee",
+      "translation": "費用；罰金",
+      "example": "There is no admission fee for children under six.",
+      "audio": {
+        "src": "/audio/words/library-overdue-fee-fee.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b80cdaae9b322bba2a38fd396299782a4cc6b4a0ccf67fccbbcc617c94a46026",
+        "sha256": "8041a31c6f7ffaffec389f59f6b04c7fe7fc2b03aab724082f6166661b771806"
+      }
+    },
+    {
+      "id": "borrow",
+      "english": "borrow",
+      "translation": "借入；借用",
+      "example": "May I borrow your ruler for one minute?",
+      "audio": {
+        "src": "/audio/words/library-overdue-fee-borrow.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d106ccb1fe638b61e4cfbeb00c96818ecf8245918cb478d6bdc249eac33fe353",
+        "sha256": "970c0cd56b6cf2c30688320b0fe2bf5926f125d84328dfab98fd2c5167ddd0fc"
+      }
+    },
+    {
+      "id": "return",
+      "english": "return",
+      "translation": "歸還；送回",
+      "example": "Remember to return the tools after class.",
+      "audio": {
+        "src": "/audio/words/library-overdue-fee-return.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7187f0675eb3827939741acf7342ba78836ecec21a31ecf3f34a55309d3bee8a",
+        "sha256": "211b03808833f9bb912a596e683104b55792a2b3f167556fd3952e3b2cf34af3"
+      }
+    },
+    {
+      "id": "date",
+      "english": "date",
+      "translation": "日期；約定時間",
+      "example": "What is the expiration date on this yogurt?",
+      "audio": {
+        "src": "/audio/words/library-overdue-fee-date.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0e87632cd46bd4907c516317eb6d81fe0f921a23c7643018f21292894b470681",
+        "sha256": "0916cd663f69ec01bcc1a0c88e52fbfd0658dd941d400aa0de6fe89d8d2d096a"
+      }
+    },
+    {
+      "id": "record",
+      "english": "record",
+      "translation": "紀錄；記載",
+      "example": "The nurse keeps a careful record of patient temperatures.",
+      "audio": {
+        "src": "/audio/words/library-overdue-fee-record.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "70ce871f8a3d3fb449bc3c3ace6547cef02dfc74ffe48d912532a724bfdbe5b9",
+        "sha256": "4ccaf969a76a6d251044a71ca14a7ff95147706677f0b17016b7cfca8fa7cff4"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "I am here to "
+        },
+        {
+          "text": "return",
+          "phraseIds": [
+            "return-books"
+          ],
+          "wordIds": [
+            "return"
+          ]
+        },
+        {
+          "text": " books",
+          "phraseIds": [
+            "return-books"
+          ]
+        },
+        {
+          "text": " to the front desk today."
+        }
+      ],
+      "translation": "我今天是來櫃檯歸還書籍的。",
+      "audio": {
+        "src": "/audio/sentences/library-overdue-fee/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f2bda1390bf7739e82d791b1eb694cb996587f210485d8d2ab1487d94c10cde8",
+        "sha256": "4a1427b8cdb03932a1f8b181b474e3f3d9d870da8eb0087a3e0ba20f445b7cca"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Let me scan the barcode on your student library card first."
+        }
+      ],
+      "translation": "讓我先掃描您學生借書證上的條碼。",
+      "audio": {
+        "src": "/audio/sentences/library-overdue-fee/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "76934a92031767b2d7a6f9fb67e4a6b04c636bc2cf663776605a35913240f7ee",
+        "sha256": "efb1015c0fe1108b684263008443764ae5358a84447d0330be9f638da1b68aa7"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Our "
+        },
+        {
+          "text": "system ",
+          "phraseIds": [
+            "system-record"
+          ]
+        },
+        {
+          "text": "record",
+          "phraseIds": [
+            "system-record"
+          ],
+          "wordIds": [
+            "record"
+          ]
+        },
+        {
+          "text": " shows that both books are "
+        },
+        {
+          "text": "five days overdue",
+          "phraseIds": [
+            "five-days-overdue"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我們的系統紀錄顯示，這兩本書都已經逾期了五天。",
+      "audio": {
+        "src": "/audio/sentences/library-overdue-fee/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d2fc391ca3483bdc3b6a102c130b015b564311cce1dba0e95fee44fd5e096307",
+        "sha256": "c78b44ec8693d53c63019dd72212ec6afa6fd525ba9cff850c504bdd25b8c8f6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "According to the "
+        },
+        {
+          "text": "library ",
+          "phraseIds": [
+            "library-rule"
+          ]
+        },
+        {
+          "text": "rule",
+          "phraseIds": [
+            "library-rule"
+          ],
+          "wordIds": [
+            "rule"
+          ]
+        },
+        {
+          "text": ", there is a small "
+        },
+        {
+          "text": "fee",
+          "wordIds": [
+            "fee"
+          ]
+        },
+        {
+          "text": " of two dollars per day."
+        }
+      ],
+      "translation": "依照圖書館規定，每本書每天需要收取兩元的小額滯納費。",
+      "audio": {
+        "src": "/audio/sentences/library-overdue-fee/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "431200640164478809998ca8b525e6de5c4bfac92140ffcc23a020e3a50407c5",
+        "sha256": "31f7e95e3aee5cc4f25681b822a9d638e58d5250c10417ed1c6f24f936421299"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I am really sorry about forgetting the "
+        },
+        {
+          "text": "return",
+          "wordIds": [
+            "return"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "due ",
+          "phraseIds": [
+            "due-date"
+          ]
+        },
+        {
+          "text": "date",
+          "phraseIds": [
+            "due-date"
+          ],
+          "wordIds": [
+            "date"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我真的非常抱歉忘記了原本的還書期限。",
+      "audio": {
+        "src": "/audio/sentences/library-overdue-fee/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "94120fe3628459647a5c4818a5067f18a4338499154e77a8b9fea6c7be717a2c",
+        "sha256": "b4a58022a81738bfa37c463d87106f5aa1aa79b00a0304e09725197e1fd335ca"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Once you pay the twenty dollar "
+        },
+        {
+          "text": "fee",
+          "wordIds": [
+            "fee"
+          ]
+        },
+        {
+          "text": ", you can "
+        },
+        {
+          "text": "borrow",
+          "wordIds": [
+            "borrow"
+          ]
+        },
+        {
+          "text": " books again."
+        }
+      ],
+      "translation": "只要您繳清二十元的費用，您就可以再次借書了。",
+      "audio": {
+        "src": "/audio/sentences/library-overdue-fee/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "028672ba564015113787e7bcb502ca25373dee4210947a87cd6a041e4c3b5c4e",
+        "sha256": "01ce9a50c650b8448f2ac8142ce64960d7ce96ad93bc961b7e88a309271b5b38"
+      }
+    }
+  ]
+}

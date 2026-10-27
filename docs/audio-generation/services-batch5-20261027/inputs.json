@@ -1,0 +1,446 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/pickup-delivery-parcel/1.mp3",
+      "text": "Hello, I came here to pick up a parcel from online shopping.",
+      "textSha256": "cc28a8a37878a87c8413c763a9ead8b7f729bad3aca41c9acaa0cfe675fbdd07"
+    },
+    {
+      "src": "/audio/sentences/pickup-delivery-parcel/2.mp3",
+      "text": "Could you please tell me your full name and phone number?",
+      "textSha256": "b18c48c82ae94b52599825e36cf5b74cad268c41a2b1ba0a84a7a711100d5a20"
+    },
+    {
+      "src": "/audio/sentences/pickup-delivery-parcel/3.mp3",
+      "text": "My name is Eric Lin, and the last three digits are 508.",
+      "textSha256": "bc14ef4343d410fd0238696242a3b02e0dafcf9449df65aac0451bda5405ca51"
+    },
+    {
+      "src": "/audio/sentences/pickup-delivery-parcel/4.mp3",
+      "text": "Please show a photo ID card to verify before taking the package.",
+      "textSha256": "e6e78a6c3596bfec3aa972f7a9ceda305f9c45dab7980993e56e0a88fcb27485"
+    },
+    {
+      "src": "/audio/sentences/pickup-delivery-parcel/5.mp3",
+      "text": "Here is my student ID card with my official name on it.",
+      "textSha256": "610fc1653e875b1592160cb99133d04662588dcecf745ca021ae679ce03523e4"
+    },
+    {
+      "src": "/audio/sentences/pickup-delivery-parcel/6.mp3",
+      "text": "Everything matches, please sign on the screen to confirm.",
+      "textSha256": "d984c417f97783206fd8bb0ce2b81ba1ffeec520fa1cc25f75829bf37cad7073"
+    },
+    {
+      "src": "/audio/phrases/pickup-delivery-parcel-pick-up-a-parcel.mp3",
+      "text": "pick up a parcel",
+      "textSha256": "9898e2fc7410f2e2f173b29230100898325485aa140b4db6cf031c6050cf2a25"
+    },
+    {
+      "src": "/audio/phrases/pickup-delivery-parcel-the-last-three-digits.mp3",
+      "text": "the last three digits",
+      "textSha256": "0f3110301b5d482e56186691b7fc3671bd0d6044cbd3368e27d07e370abda503"
+    },
+    {
+      "src": "/audio/phrases/pickup-delivery-parcel-photo-id-card.mp3",
+      "text": "photo ID card",
+      "textSha256": "9a9c37dd3a1810b26ff0b5caea810e9b34701898c00387111bd102e0e8affdba"
+    },
+    {
+      "src": "/audio/phrases/pickup-delivery-parcel-everything-matches.mp3",
+      "text": "everything matches",
+      "textSha256": "7b0eadee2d6c15fbe86478140cc975b1aef3db5d8700b6e4dd8481de81e3681f"
+    },
+    {
+      "src": "/audio/phrases/pickup-delivery-parcel-sign-on-the-screen.mp3",
+      "text": "sign on the screen",
+      "textSha256": "c96b78def1fdd886223e63095658fda0af74317ba6aa7a58a04769594ac7e028"
+    },
+    {
+      "src": "/audio/words/pickup-delivery-parcel-package.mp3",
+      "text": "package",
+      "textSha256": "bc4a71180870f7945155fbb02f4b0a2e3faa2a62d6d31b7039013055ed19869a"
+    },
+    {
+      "src": "/audio/words/pickup-delivery-parcel-sign.mp3",
+      "text": "sign",
+      "textSha256": "0b6f395ca14ac202374d5cff678b71157d0bef7e00c3045e9b80aab4ffb85276"
+    },
+    {
+      "src": "/audio/words/pickup-delivery-parcel-pick.mp3",
+      "text": "pick",
+      "textSha256": "8ce33c6c86e991f7b4993479d63cd73039fc874227fd64a5e1f2b4fdcd31d7a9"
+    },
+    {
+      "src": "/audio/words/pickup-delivery-parcel-show.mp3",
+      "text": "show",
+      "textSha256": "1c6333509debf060200eb6bbe28db307508da67c0e3c58088393e4cf09de596d"
+    },
+    {
+      "src": "/audio/words/pickup-delivery-parcel-last.mp3",
+      "text": "last",
+      "textSha256": "3547cb112ac4489af2310c0626cdba6f3097a2ad5a3b42ddd3b59c76c7a079a3"
+    },
+    {
+      "src": "/audio/words/pickup-delivery-parcel-phone.mp3",
+      "text": "phone",
+      "textSha256": "45569da57f4b7bf472d7a864ef4781451cae6383fee9fb0ae40c59aa1ce475b7"
+    },
+    {
+      "src": "/audio/sentences/mailing-registered-letter/1.mp3",
+      "text": "Good morning, I need to send an important document to this overseas address.",
+      "textSha256": "7453e9d7b204168f2fd88a6c8c79180586eb72053243c3016d250a17d10e7ada"
+    },
+    {
+      "src": "/audio/sentences/mailing-registered-letter/2.mp3",
+      "text": "Please place the envelope on the electronic scale to check the weight.",
+      "textSha256": "50b84ea3ba465b2bbb6e6e70b1aa3b7eda24eb7715857352b434523ef57eb7ae"
+    },
+    {
+      "src": "/audio/sentences/mailing-registered-letter/3.mp3",
+      "text": "Do you want to send it by regular air mail or express post?",
+      "textSha256": "e48bee3cd9a20bd69312581f841dd248ad67120b544d9215c5d3f5ac6cca7f0f"
+    },
+    {
+      "src": "/audio/sentences/mailing-registered-letter/4.mp3",
+      "text": "Express post is very fast and provides an online tracking number.",
+      "textSha256": "f7d2d2300becdcc5d8798aa0b1e94bcbd56456da3ac00e69ef7978adc9c17dc1"
+    },
+    {
+      "src": "/audio/sentences/mailing-registered-letter/5.mp3",
+      "text": "How much does the express registered stamp cost for this letter?",
+      "textSha256": "9e1380c1edf632493b25326789b6b122c45ea0ab3564c79be5c26b17fe77bf22"
+    },
+    {
+      "src": "/audio/sentences/mailing-registered-letter/6.mp3",
+      "text": "It costs eighty dollars, and it will arrive within four business days.",
+      "textSha256": "10e6be94c3983aa61ff074e149740b0a721a0954713fff6068d448f781c190a9"
+    },
+    {
+      "src": "/audio/phrases/mailing-registered-letter-send-an-important-document.mp3",
+      "text": "send an important document",
+      "textSha256": "9e211f8dc017221aab7ddf6649dafd0b03bbbc590955806668d1ba27153d4b85"
+    },
+    {
+      "src": "/audio/phrases/mailing-registered-letter-check-the-weight.mp3",
+      "text": "check the weight",
+      "textSha256": "0d533ed0843515085bff917493b9c15bf6d012117b4d6491d7a146a74209ffe4"
+    },
+    {
+      "src": "/audio/phrases/mailing-registered-letter-air-mail.mp3",
+      "text": "air mail",
+      "textSha256": "08d8195908cd744110a09e268860986a7b99d2ac427e54731e77cb3e5ee30a34"
+    },
+    {
+      "src": "/audio/phrases/mailing-registered-letter-express-post.mp3",
+      "text": "express post",
+      "textSha256": "73f64d22f13417ff86b77ab322fc4d11056124f26840f54966cb3c7a22ae32a2"
+    },
+    {
+      "src": "/audio/phrases/mailing-registered-letter-within-four-business-days.mp3",
+      "text": "within four business days",
+      "textSha256": "04fbd9027d7db9ff4c76660582f5aaa47cf886fec0b06f1fdc9e80ceee58a225"
+    },
+    {
+      "src": "/audio/words/mailing-registered-letter-post.mp3",
+      "text": "post",
+      "textSha256": "72231043bc1807e6f740b235eb7511ecb33255a6a375435631196de8a9750d4b"
+    },
+    {
+      "src": "/audio/words/mailing-registered-letter-send.mp3",
+      "text": "send",
+      "textSha256": "27ce1d1bf4270020e1799f12e647f5cbabda2b9eafd7202c43012a539986916b"
+    },
+    {
+      "src": "/audio/words/mailing-registered-letter-weight.mp3",
+      "text": "weight",
+      "textSha256": "0844df8fee9eeadaa344bc7e1a7ae769602eba35e773c2093c8fb9c3e5ead14e"
+    },
+    {
+      "src": "/audio/words/mailing-registered-letter-letter.mp3",
+      "text": "letter",
+      "textSha256": "f80105efab6d863fd8fc243d269094469e2277e8f12e5a0a9f401e88494f7b4b"
+    },
+    {
+      "src": "/audio/words/mailing-registered-letter-address.mp3",
+      "text": "address",
+      "textSha256": "d80c9bf910f144738ef983724bc04bd6bd3f17c5c83ed57bedee1b1b9278e811"
+    },
+    {
+      "src": "/audio/words/mailing-registered-letter-fast.mp3",
+      "text": "fast",
+      "textSha256": "115dc3606fbf8691fb69f2aefec86f2ecd302362a0502b3a9648bf2c4dc8290f"
+    },
+    {
+      "src": "/audio/sentences/library-overdue-fee/1.mp3",
+      "text": "I am here to return books to the front desk today.",
+      "textSha256": "f2bda1390bf7739e82d791b1eb694cb996587f210485d8d2ab1487d94c10cde8"
+    },
+    {
+      "src": "/audio/sentences/library-overdue-fee/2.mp3",
+      "text": "Let me scan the barcode on your student library card first.",
+      "textSha256": "76934a92031767b2d7a6f9fb67e4a6b04c636bc2cf663776605a35913240f7ee"
+    },
+    {
+      "src": "/audio/sentences/library-overdue-fee/3.mp3",
+      "text": "Our system record shows that both books are five days overdue.",
+      "textSha256": "d2fc391ca3483bdc3b6a102c130b015b564311cce1dba0e95fee44fd5e096307"
+    },
+    {
+      "src": "/audio/sentences/library-overdue-fee/4.mp3",
+      "text": "According to the library rule, there is a small fee of two dollars per day.",
+      "textSha256": "431200640164478809998ca8b525e6de5c4bfac92140ffcc23a020e3a50407c5"
+    },
+    {
+      "src": "/audio/sentences/library-overdue-fee/5.mp3",
+      "text": "I am really sorry about forgetting the return due date.",
+      "textSha256": "94120fe3628459647a5c4818a5067f18a4338499154e77a8b9fea6c7be717a2c"
+    },
+    {
+      "src": "/audio/sentences/library-overdue-fee/6.mp3",
+      "text": "Once you pay the twenty dollar fee, you can borrow books again.",
+      "textSha256": "028672ba564015113787e7bcb502ca25373dee4210947a87cd6a041e4c3b5c4e"
+    },
+    {
+      "src": "/audio/phrases/library-overdue-fee-return-books.mp3",
+      "text": "return books",
+      "textSha256": "ca2597a1e5bd1959ce535185895bc23e95ed06e0d97e29a3c016c799517af2fe"
+    },
+    {
+      "src": "/audio/phrases/library-overdue-fee-system-record.mp3",
+      "text": "system record",
+      "textSha256": "10c383c416b3591d393b3209f4291a101dae3325e6c525313501b8fb3fc1642d"
+    },
+    {
+      "src": "/audio/phrases/library-overdue-fee-five-days-overdue.mp3",
+      "text": "five days overdue",
+      "textSha256": "48fabcb23e0d490ca706fc5e5d5627812d9a0e37f7ec09d76bf036c2958794f2"
+    },
+    {
+      "src": "/audio/phrases/library-overdue-fee-library-rule.mp3",
+      "text": "library rule",
+      "textSha256": "5f0b5dc431c8cdc732548198801ee1894fa85f9049371c5df5f0e839dba7009a"
+    },
+    {
+      "src": "/audio/phrases/library-overdue-fee-due-date.mp3",
+      "text": "due date",
+      "textSha256": "71bdd372fc935798c541d14a7cb9bd820c7b81c0238913c9163591b6a06e23da"
+    },
+    {
+      "src": "/audio/words/library-overdue-fee-rule.mp3",
+      "text": "rule",
+      "textSha256": "7369949b47ef2c6ba26fbbee659cedc76123a75c17d321a52d8d1ef35e948042"
+    },
+    {
+      "src": "/audio/words/library-overdue-fee-fee.mp3",
+      "text": "fee",
+      "textSha256": "b80cdaae9b322bba2a38fd396299782a4cc6b4a0ccf67fccbbcc617c94a46026"
+    },
+    {
+      "src": "/audio/words/library-overdue-fee-borrow.mp3",
+      "text": "borrow",
+      "textSha256": "d106ccb1fe638b61e4cfbeb00c96818ecf8245918cb478d6bdc249eac33fe353"
+    },
+    {
+      "src": "/audio/words/library-overdue-fee-return.mp3",
+      "text": "return",
+      "textSha256": "7187f0675eb3827939741acf7342ba78836ecec21a31ecf3f34a55309d3bee8a"
+    },
+    {
+      "src": "/audio/words/library-overdue-fee-date.mp3",
+      "text": "date",
+      "textSha256": "0e87632cd46bd4907c516317eb6d81fe0f921a23c7643018f21292894b470681"
+    },
+    {
+      "src": "/audio/words/library-overdue-fee-record.mp3",
+      "text": "record",
+      "textSha256": "70ce871f8a3d3fb449bc3c3ace6547cef02dfc74ffe48d912532a724bfdbe5b9"
+    },
+    {
+      "src": "/audio/sentences/lost-bag-inquiry/1.mp3",
+      "text": "Hello, I think I left my bag inside the concert hall.",
+      "textSha256": "e4e7ae40711a5a2dcbfb0971a5e9b5747547b11459090c71b45740ee9189f28d"
+    },
+    {
+      "src": "/audio/sentences/lost-bag-inquiry/2.mp3",
+      "text": "Can you remember the color and what material it was made of?",
+      "textSha256": "194f26feae55cbc3fa53e929b55a4eae6347994d60bc5cd201cc7e861afeb430"
+    },
+    {
+      "src": "/audio/sentences/lost-bag-inquiry/3.mp3",
+      "text": "It is a small black leather bag with a metal zipper.",
+      "textSha256": "e1a8dc539d2b9c9e387f2efee5ad8a5e58a52f18674c6fc515abf80daafc2288"
+    },
+    {
+      "src": "/audio/sentences/lost-bag-inquiry/4.mp3",
+      "text": "Can you tell me what was inside the main pocket?",
+      "textSha256": "927afeb2cb8204f50e7f1281f2129eb170661ef3e6dcde33e7a3879ab22034dd"
+    },
+    {
+      "src": "/audio/sentences/lost-bag-inquiry/5.mp3",
+      "text": "There are house keys, an umbrella, and a blue student notebook.",
+      "textSha256": "6ec2f0ed10392ffb09bde4e96a7db4af4dcb731834168c1a9c2d8c68b4ade7d6"
+    },
+    {
+      "src": "/audio/sentences/lost-bag-inquiry/6.mp3",
+      "text": "A cleaner just found that exact bag, please sign the contact form to claim it.",
+      "textSha256": "2c0eb682a8592d8b8406996ce835c68807131dd9f961c11ace8fc9c4b2af2362"
+    },
+    {
+      "src": "/audio/phrases/lost-bag-inquiry-left-my-bag-inside.mp3",
+      "text": "left my bag inside",
+      "textSha256": "b041c4ae70849ec771b8455473529e1e4961eecc3b0d474dfaa4cf430b59adba"
+    },
+    {
+      "src": "/audio/phrases/lost-bag-inquiry-black-leather-bag.mp3",
+      "text": "black leather bag",
+      "textSha256": "e6d2f6d3ef0bd765c36e02a92c9069ca33b4a4da1a12f85d9d89fb5891cd6b76"
+    },
+    {
+      "src": "/audio/phrases/lost-bag-inquiry-what-was-inside.mp3",
+      "text": "what was inside",
+      "textSha256": "1c5c45b1122c9013eb069c9776b1e7e3e692778f6eed63a6fd1aa429b86f35a6"
+    },
+    {
+      "src": "/audio/phrases/lost-bag-inquiry-house-keys.mp3",
+      "text": "house keys",
+      "textSha256": "dfb706eeb53324076ad23742f62f50db28260c627f023442f8e9190e9969b508"
+    },
+    {
+      "src": "/audio/phrases/lost-bag-inquiry-sign-the-contact-form.mp3",
+      "text": "sign the contact form",
+      "textSha256": "275991587e398155cf5a35a53db37c6fc8ad1fcebaa815f8ec5cad26f4c04e1e"
+    },
+    {
+      "src": "/audio/words/lost-bag-inquiry-leave.mp3",
+      "text": "leave",
+      "textSha256": "af193190b8d3cd14103e20e900378a2b76414ff6428065f3f8539b3577b22fdf"
+    },
+    {
+      "src": "/audio/words/lost-bag-inquiry-remember.mp3",
+      "text": "remember",
+      "textSha256": "35379d9c009e290d702b72abf3f5f9bdbaa7e00a63fc37b5174fc3825c8095e3"
+    },
+    {
+      "src": "/audio/words/lost-bag-inquiry-black.mp3",
+      "text": "black",
+      "textSha256": "c006c7e3ab14d686f63524136f1ec7c5e553d839bc01c851e4dc9de2bdbfc589"
+    },
+    {
+      "src": "/audio/words/lost-bag-inquiry-inside.mp3",
+      "text": "inside",
+      "textSha256": "106b086224a4d945eae25f7be3805a931a873270326dd868b0e41f71ee9fff72"
+    },
+    {
+      "src": "/audio/words/lost-bag-inquiry-contact.mp3",
+      "text": "contact",
+      "textSha256": "093e7d5fdbaacfa92448861b11075b3fba532a07d945b49a44919252f5e830ad"
+    },
+    {
+      "src": "/audio/words/lost-bag-inquiry-key.mp3",
+      "text": "key",
+      "textSha256": "2c70e12b7a0646f92279f427c7b38e7334d8e5389cff167a1dc30e73f826b683"
+    },
+    {
+      "src": "/audio/sentences/information-desk-map/1.mp3",
+      "text": "Good afternoon, could I get an English guide map of the building?",
+      "textSha256": "f2aabda782696af8bfdb643e373cc7a82b01d30a6c41bef9f218272a3aa914b5"
+    },
+    {
+      "src": "/audio/sentences/information-desk-map/2.mp3",
+      "text": "Here is our free visitor guide with every exhibition hall.",
+      "textSha256": "57c569146988d5dd708ceec4bab176d7f7e1e919a5ef776cbf56cf7992f22804"
+    },
+    {
+      "src": "/audio/sentences/information-desk-map/3.mp3",
+      "text": "Where are the public restrooms and the drinking water fountains located?",
+      "textSha256": "a1b329c48ea5c25212d3a9e2cfff55e3d75593b0613898107e0ab1c8fd4af370"
+    },
+    {
+      "src": "/audio/sentences/information-desk-map/4.mp3",
+      "text": "Restrooms are on every floor right next to the elevator.",
+      "textSha256": "aa504785f7ceb74e109f7f70f58686e39110f226bf708d51728c6f0f752100d4"
+    },
+    {
+      "src": "/audio/sentences/information-desk-map/5.mp3",
+      "text": "Can you show me where the special dinosaur hall is on this level?",
+      "textSha256": "9c11d3d49b73fdb57a4b5aa87637e15f948383ef245b3fc7fc7719a0347462ab"
+    },
+    {
+      "src": "/audio/sentences/information-desk-map/6.mp3",
+      "text": "It is straight down this corridor behind the gift shop.",
+      "textSha256": "4998d1d32a34abd1e3d769c78e90d24fb51290f37111e42a4b63086035fa997c"
+    },
+    {
+      "src": "/audio/phrases/information-desk-map-guide-map.mp3",
+      "text": "guide map",
+      "textSha256": "03212e8acb8535359e8cb11522837e28764da57cbe153b77f74975dc723579a0"
+    },
+    {
+      "src": "/audio/phrases/information-desk-map-free-visitor-guide.mp3",
+      "text": "free visitor guide",
+      "textSha256": "2cf3c5aba948639c4a448d84a801d6171a647cd7be26e40fcf75adb377bbc76b"
+    },
+    {
+      "src": "/audio/phrases/information-desk-map-public-restrooms.mp3",
+      "text": "public restrooms",
+      "textSha256": "fba484a9106f42ea1985a772659a5a5df9036f91f122eafe1178ba923107320f"
+    },
+    {
+      "src": "/audio/phrases/information-desk-map-next-to-the-elevator.mp3",
+      "text": "next to the elevator",
+      "textSha256": "04a305f916838cbea8811ea2dd3f6dabb2d1d1579945d1dbee83a1cda490dda0"
+    },
+    {
+      "src": "/audio/phrases/information-desk-map-straight-down-this-corridor.mp3",
+      "text": "straight down this corridor",
+      "textSha256": "9a0b1f53c580a5d5e5ff8989893f47a730ed3dd358eb86b3e1aa21974e026a0d"
+    },
+    {
+      "src": "/audio/words/information-desk-map-guide.mp3",
+      "text": "guide",
+      "textSha256": "83ca68be6227af2feb15f227485ed18aff8ecae99416a4bd6df3be1b5e8059b4"
+    },
+    {
+      "src": "/audio/words/information-desk-map-map.mp3",
+      "text": "map",
+      "textSha256": "60be9861750facbfad8758254a2f76c0cfe78d54459a3bc187d49b1401fcd8e8"
+    },
+    {
+      "src": "/audio/words/information-desk-map-elevator.mp3",
+      "text": "elevator",
+      "textSha256": "41762bcf88c5e7148181df374b2e9ecff9bc9e64d67e032ebeea1a6d5a26eda8"
+    },
+    {
+      "src": "/audio/words/information-desk-map-level.mp3",
+      "text": "level",
+      "textSha256": "0081779c287d567d9ca622f4c0cc2ede819b0cc7f286a5f01d8c3c0178191ad6"
+    },
+    {
+      "src": "/audio/words/information-desk-map-show.mp3",
+      "text": "show",
+      "textSha256": "1c6333509debf060200eb6bbe28db307508da67c0e3c58088393e4cf09de596d"
+    },
+    {
+      "src": "/audio/words/information-desk-map-free.mp3",
+      "text": "free",
+      "textSha256": "ad95d5fa651ba86d8923fe1238d24a4f1988a752acfe426ac72ac7c04471bc17"
+    }
+  ]
+}

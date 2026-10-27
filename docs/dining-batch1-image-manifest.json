@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "tool": "image-generator subagent",
+  "conversion": "1536x1024 landscape WebP, sharp quality 86; fit cover.",
+  "images": [
+    {
+      "id": "ordering-custom-drink",
+      "generatedFile": "/Users/carl/.gemini/antigravity-cli/brain/9c24047f-b840-4b1f-ad38-4f01d6cff305/ordering_custom_drink_1793064991865.jpg",
+      "src": "/images/scenes/ordering-custom-drink.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "851b89b6d8c1848aa7cd684ad9ec6ac658d4201426e07357087ae9f2be3359f9"
+    },
+    {
+      "id": "checking-food-allergens",
+      "generatedFile": "/Users/carl/.gemini/antigravity-cli/brain/9c24047f-b840-4b1f-ad38-4f01d6cff305/checking_food_allergens_1793065010594.jpg",
+      "src": "/images/scenes/checking-food-allergens.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ad2fe1992736c5c5ebbe21ea66b63afab6f04462b5ca41a86ee0d5472b8e512e"
+    },
+    {
+      "id": "split-bill-takeout",
+      "generatedFile": "/Users/carl/.gemini/antigravity-cli/brain/9c24047f-b840-4b1f-ad38-4f01d6cff305/split_bill_takeout_1793065047636.jpg",
+      "src": "/images/scenes/split-bill-takeout.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "523c2bb88a09742212cfa75df2ea27d7698483551db8f89d969239ffbc22173b"
+    },
+    {
+      "id": "wrong-order-at-restaurant",
+      "generatedFile": "/Users/carl/.gemini/antigravity-cli/brain/9c24047f-b840-4b1f-ad38-4f01d6cff305/wrong_order_at_restaurant_1793065065131.jpg",
+      "src": "/images/scenes/wrong-order-at-restaurant.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d7dbe7899fd4ff43a8fa524ff5d94256adfe71013b17a31992c4937b544523fd"
+    },
+    {
+      "id": "fast-food-combo",
+      "generatedFile": "/Users/carl/.gemini/antigravity-cli/brain/9c24047f-b840-4b1f-ad38-4f01d6cff305/fast_food_combo_1793065083046.jpg",
+      "src": "/images/scenes/fast-food-combo.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "f4b74c83d789f1edd97081dae3399ba5cd708ab7661cc296b2e1c17ecfdade9f"
+    }
+  ]
+}

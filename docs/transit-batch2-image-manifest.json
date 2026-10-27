@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "tool": "image-generator subagent",
+  "conversion": "1536x1024 landscape WebP, sharp quality 86; fit cover.",
+  "images": [
+    {
+      "id": "bakery-fresh-batch",
+      "generatedFile": "/Users/carl/.gemini/antigravity-cli/brain/9c24047f-b840-4b1f-ad38-4f01d6cff305/bakery_fresh_batch_clean_1793068088048.jpg",
+      "src": "/images/scenes/bakery-fresh-batch.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "df2c975ff657bc9be88214d875b7a26302fb6613e94b04324cd8349a6ee2a3a9"
+    },
+    {
+      "id": "mrt-transfer-help",
+      "generatedFile": "/Users/carl/.gemini/antigravity-cli/brain/9c24047f-b840-4b1f-ad38-4f01d6cff305/mrt_transfer_help_1793068109577.jpg",
+      "src": "/images/scenes/mrt-transfer-help.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7324079681b672bcdb518210eeba7cbe64a9c1f23b02a47d9915e54c25579113"
+    },
+    {
+      "id": "taking-a-taxi",
+      "generatedFile": "/Users/carl/.gemini/antigravity-cli/brain/9c24047f-b840-4b1f-ad38-4f01d6cff305/taking_a_taxi_clean_1793068150759.jpg",
+      "src": "/images/scenes/taking-a-taxi.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b8c0975803504832ad54aea1713f303824007643b10458c8d6caa2a72f1528f9"
+    },
+    {
+      "id": "bus-delay-inquiry",
+      "generatedFile": "/Users/carl/.gemini/antigravity-cli/brain/9c24047f-b840-4b1f-ad38-4f01d6cff305/bus_delay_inquiry_1793068170960.jpg",
+      "src": "/images/scenes/bus-delay-inquiry.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "9febd64d6ebebaf713ca2be4237aeef3e7436d2ab398fcca93269c270e4fe420"
+    },
+    {
+      "id": "renting-public-bike",
+      "generatedFile": "/Users/carl/.gemini/antigravity-cli/brain/9c24047f-b840-4b1f-ad38-4f01d6cff305/renting_public_bike_1793068192963.jpg",
+      "src": "/images/scenes/renting-public-bike.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "1592a9a160120ee76f3ced5ecd74230a682829aa1a1b8de0f3f03b862d6ea0a9"
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/clothing-fitting-room/1.mp3",
+      "text": "Excuse me, can I try on this blue jacket in the fitting room?",
+      "textSha256": "552686e4f6138d72b22403b72d664cd3445924cd14d6d9eff1e48e439743b8b5"
+    },
+    {
+      "src": "/audio/sentences/clothing-fitting-room/2.mp3",
+      "text": "The fitting rooms are straight ahead on the right hand side.",
+      "textSha256": "92d6f9045395ea1bb3bd729e66f6444b5e2f56beb833c4bd9ce98095f5bc5975"
+    },
+    {
+      "src": "/audio/sentences/clothing-fitting-room/3.mp3",
+      "text": "I tried it on, but the shoulders feel a bit too tight for me.",
+      "textSha256": "0e5fc8f78e924a51a06115a197c8ae12df61a5fb4bb410d858dd469253fe9099"
+    },
+    {
+      "src": "/audio/sentences/clothing-fitting-room/4.mp3",
+      "text": "Do you have this exact jacket in one size bigger?",
+      "textSha256": "5745d59deb6d9e5af078f7e25f4c06222782db2ebc840c5b8be6ddc241dcda85"
+    },
+    {
+      "src": "/audio/sentences/clothing-fitting-room/5.mp3",
+      "text": "Let me look on the storage rack to see if we have medium.",
+      "textSha256": "856af93640bec2c0976cb153c66705ddb1d43322dec63428b712d17bae920214"
+    },
+    {
+      "src": "/audio/sentences/clothing-fitting-room/6.mp3",
+      "text": "This size fits you much better and you can wear it today.",
+      "textSha256": "bde66b14b7df766889ad318e75435fa62292e7920511d617d8c34683dc2e608e"
+    },
+    {
+      "src": "/audio/phrases/clothing-fitting-room-try-on.mp3",
+      "text": "try on",
+      "textSha256": "bcc60fc727ad793695278ff82ccb9267abba14168e8aa1092cd3149f3e2ebd8e"
+    },
+    {
+      "src": "/audio/phrases/clothing-fitting-room-fitting-room.mp3",
+      "text": "fitting room",
+      "textSha256": "d835f39a99ee4cc0514d8871192eccfe278cb0ff1e1dfe0e09af5c079fec17f2"
+    },
+    {
+      "src": "/audio/phrases/clothing-fitting-room-too-tight-for-me.mp3",
+      "text": "too tight for me",
+      "textSha256": "f7fa26dde64e4591eeae4fd665bd4980cbc3eed6310c516c5dc205c66ad8cb7f"
+    },
+    {
+      "src": "/audio/phrases/clothing-fitting-room-one-size-bigger.mp3",
+      "text": "one size bigger",
+      "textSha256": "86912ff5aa44ceaaf52257c52426fd88e22099b24a4751f08f1016f007a8efc1"
+    },
+    {
+      "src": "/audio/phrases/clothing-fitting-room-fits-you-much-better.mp3",
+      "text": "fits you much better",
+      "textSha256": "db46c76fe7fb4aadb4f8d3a1b57040658d1b509b02221c57d5f830d9e99529ed"
+    },
+    {
+      "src": "/audio/words/clothing-fitting-room-fit.mp3",
+      "text": "fit",
+      "textSha256": "da4270e3735a3418c9d462af2e17d045132dede43df058e85b1f0399fcf96f1b"
+    },
+    {
+      "src": "/audio/words/clothing-fitting-room-size.mp3",
+      "text": "size",
+      "textSha256": "ccdcbe846f3da4eb044fbdf64bf6b57902388ab72fb0c852ba72280f8d478b40"
+    },
+    {
+      "src": "/audio/words/clothing-fitting-room-try.mp3",
+      "text": "try",
+      "textSha256": "1e262cd7d110812f5726055a6e672b92cde43648b76adff51a12441fbdf7e667"
+    },
+    {
+      "src": "/audio/words/clothing-fitting-room-room.mp3",
+      "text": "room",
+      "textSha256": "1f1c5b2fad778434024f1537986346927917f4755a6e7d3fd91f22653b7c3132"
+    },
+    {
+      "src": "/audio/words/clothing-fitting-room-tight.mp3",
+      "text": "tight",
+      "textSha256": "922b53ea837e15ffe640f2e755e3d2f379fb34d103c8d69f99ec32025434f020"
+    },
+    {
+      "src": "/audio/words/clothing-fitting-room-wear.mp3",
+      "text": "wear",
+      "textSha256": "c47fbc5d87a1298121ddf52ba9ad2b27986f8738b19a6df23973064863848904"
+    },
+    {
+      "src": "/audio/sentences/asking-store-discount/1.mp3",
+      "text": "Is this winter backpack currently on sale this week?",
+      "textSha256": "e3f5f5b75d50c40b5c2bfce186039b133d6c1ba898f257de38e1dcd4e04ab69a"
+    },
+    {
+      "src": "/audio/sentences/asking-store-discount/2.mp3",
+      "text": "Yes, all items with red stickers have a special twenty percent discount.",
+      "textSha256": "a2509a1ffc298e009dd754c724e0079660d52e17adc0c810b9c9473dd8e2147d"
+    },
+    {
+      "src": "/audio/sentences/asking-store-discount/3.mp3",
+      "text": "If I am a store member, can I save more money?",
+      "textSha256": "fda83ad38abc83a1792c1ffcd8d62eacfa4b233cb25bd3c58cce4e334d93bbd4"
+    },
+    {
+      "src": "/audio/sentences/asking-store-discount/4.mp3",
+      "text": "Members get an extra five percent off the regular price.",
+      "textSha256": "6dd9a0b89f330c04767f9dda8369538aef975bc80d8cf3d1c8570ae861817744"
+    },
+    {
+      "src": "/audio/sentences/asking-store-discount/5.mp3",
+      "text": "That makes the total price very cheap for such good quality.",
+      "textSha256": "eb2e25f5f9ae58d9ca12925c07381f76cd5d8caf0d6bc886ae3819ac4c402973"
+    },
+    {
+      "src": "/audio/sentences/asking-store-discount/6.mp3",
+      "text": "Just scan the barcode on your phone app before you pay the bill.",
+      "textSha256": "9f974eb28b3fdd0ffa8482dfd63f4847517ed66429209d84b2f8a049912b8b12"
+    },
+    {
+      "src": "/audio/phrases/asking-store-discount-on-sale-this-week.mp3",
+      "text": "on sale this week",
+      "textSha256": "259b0cf442b69c3e84842b92f2f1a107a1e08ff65da32f73befd833a5e66b431"
+    },
+    {
+      "src": "/audio/phrases/asking-store-discount-twenty-percent-discount.mp3",
+      "text": "twenty percent discount",
+      "textSha256": "8d96d427a8ea7bf020c808e2f636538ca42ccb1b8d3bff103d76c36b0b761c24"
+    },
+    {
+      "src": "/audio/phrases/asking-store-discount-save-more-money.mp3",
+      "text": "save more money",
+      "textSha256": "6f3a864ae1edd25ea5e404e52b36001f115e4ccb7ffcf6add82aeb49635f3178"
+    },
+    {
+      "src": "/audio/phrases/asking-store-discount-total-price.mp3",
+      "text": "total price",
+      "textSha256": "92fed3c4a4322e023fc10d286279e2305d89869ee6df41ea0484c0f41752975d"
+    },
+    {
+      "src": "/audio/phrases/asking-store-discount-scan-the-barcode.mp3",
+      "text": "scan the barcode",
+      "textSha256": "968a8e48fa1b94052d4e2ec454e63efd5569f8f71c23599efdbf455b74d940be"
+    },
+    {
+      "src": "/audio/words/asking-store-discount-sale.mp3",
+      "text": "sale",
+      "textSha256": "1f7101fe71011ba0872a2e069e8f26c98d6af9ebf8e67bb0c1a559fa9569aa6b"
+    },
+    {
+      "src": "/audio/words/asking-store-discount-price.mp3",
+      "text": "price",
+      "textSha256": "683b531f41ec88a2f345b727afe59757b73162a340a65c86bba62866f8fe556c"
+    },
+    {
+      "src": "/audio/words/asking-store-discount-member.mp3",
+      "text": "member",
+      "textSha256": "e31ab643c44f7a0ec824b59d1194d60dac334200d845e61d2d289daa0f087ea4"
+    },
+    {
+      "src": "/audio/words/asking-store-discount-special.mp3",
+      "text": "special",
+      "textSha256": "7d4c5c8894e016e772e9b7acab04d2b775ad4e7861d162ca5a48de7a7151a6a2"
+    },
+    {
+      "src": "/audio/words/asking-store-discount-cheap.mp3",
+      "text": "cheap",
+      "textSha256": "c6f556046e0c00469fe2824aa5fb9fd02c66d154aafc80fdc0f365841c271e12"
+    },
+    {
+      "src": "/audio/words/asking-store-discount-save.mp3",
+      "text": "save",
+      "textSha256": "157dca92e4250458339d4b835250d44c238f3355e1b7986195188ee434e9baff"
+    },
+    {
+      "src": "/audio/sentences/exchanging-damaged-item/1.mp3",
+      "text": "Hello, I bought this desk lamp yesterday, but there is a problem.",
+      "textSha256": "a65845b1ef0d9c52be5a908356eb924eed049f1fa71ce0f179babd6899717243"
+    },
+    {
+      "src": "/audio/sentences/exchanging-damaged-item/2.mp3",
+      "text": "When I plugged it into the wall socket, the switch was not working.",
+      "textSha256": "f9b124e5621bb0f825b834071e7046b8a0ba8b20af47cd19c274909e2402ab73"
+    },
+    {
+      "src": "/audio/sentences/exchanging-damaged-item/3.mp3",
+      "text": "Did you bring the purchase receipt and the original box?",
+      "textSha256": "06a3eccc379ecdb14227bb58ad421e6771c681ab471933c8490548f97982709c"
+    },
+    {
+      "src": "/audio/sentences/exchanging-damaged-item/4.mp3",
+      "text": "Yes, here is the paper receipt and all the accessories inside the box.",
+      "textSha256": "6a9804556498229398c6b7c3ccd3a1f41c69575127645ae3b82fd5b0f9a47d9c"
+    },
+    {
+      "src": "/audio/sentences/exchanging-damaged-item/5.mp3",
+      "text": "We can exchange for a new one immediately for you.",
+      "textSha256": "d6787014a6e7d05be37875ec420ef6ce5fa3ed2aeb8cd7d1aad09a3fb8c46944"
+    },
+    {
+      "src": "/audio/sentences/exchanging-damaged-item/6.mp3",
+      "text": "Let me replace the unit and test it right here to be sure.",
+      "textSha256": "a523c4993f4f4831af44ca7675138da8cae8a100380e723c5169722b6ecc2a0f"
+    },
+    {
+      "src": "/audio/phrases/exchanging-damaged-item-not-working.mp3",
+      "text": "not working",
+      "textSha256": "df19064d96673a4c6aa65516690233cb04499cc829d0db538e2256382146aa96"
+    },
+    {
+      "src": "/audio/phrases/exchanging-damaged-item-purchase-receipt.mp3",
+      "text": "purchase receipt",
+      "textSha256": "2f77aa680d3504dc6f91927a97d205ebacb9fe992498ee8cc18b122c87a2e6a9"
+    },
+    {
+      "src": "/audio/phrases/exchanging-damaged-item-inside-the-box.mp3",
+      "text": "inside the box",
+      "textSha256": "80245b35b9e93114479f81fbf2413369d525a4443abf862be84dda4d2ee1c3f5"
+    },
+    {
+      "src": "/audio/phrases/exchanging-damaged-item-exchange-for-a-new-one.mp3",
+      "text": "exchange for a new one",
+      "textSha256": "0de1cefe610ed31a5ac38d656518ea9242d5a3614e232c472cefecefc2dd96c1"
+    },
+    {
+      "src": "/audio/phrases/exchanging-damaged-item-test-it-right-here.mp3",
+      "text": "test it right here",
+      "textSha256": "bff63b0a7a11a78097ed88be95891c3bff5167a3a3808c91ea9f2547547cbc53"
+    },
+    {
+      "src": "/audio/words/exchanging-damaged-item-problem.mp3",
+      "text": "problem",
+      "textSha256": "47a49356720831b66f38bbe12c06e6cf71a67277b1f5e6a28593e73afde6f226"
+    },
+    {
+      "src": "/audio/words/exchanging-damaged-item-receipt.mp3",
+      "text": "receipt",
+      "textSha256": "6f32860910ca0fb2a20c7fda143666b09dbf8db5238195c90a586fb542ff0cad"
+    },
+    {
+      "src": "/audio/words/exchanging-damaged-item-exchange.mp3",
+      "text": "exchange",
+      "textSha256": "ab27b729d9cc4cb1c00960700446924159e9298d0f952aee3d55408b8e0b1b71"
+    },
+    {
+      "src": "/audio/words/exchanging-damaged-item-replace.mp3",
+      "text": "replace",
+      "textSha256": "7ab3778776cde4fa728a162a53ad3abcc967d1bd7361039e0942888240c4ce86"
+    },
+    {
+      "src": "/audio/words/exchanging-damaged-item-new.mp3",
+      "text": "new",
+      "textSha256": "11507a0e2f5e69d5dfa40a62a1bd7b6ee57e6bcd85c67c9b8431b36fff21c437"
+    },
+    {
+      "src": "/audio/words/exchanging-damaged-item-bring.mp3",
+      "text": "bring",
+      "textSha256": "4311902217ad5aa4d9664f8dbacaa8bf6fe6b78ff9b5b512599f0b62da19d8d6"
+    },
+    {
+      "src": "/audio/sentences/convenience-store-items/1.mp3",
+      "text": "Excuse me, I am looking for batteries for my remote control.",
+      "textSha256": "cf4883ea500916c3ea1afd650875515357ba2189b46879c4329b6d65527533cb"
+    },
+    {
+      "src": "/audio/sentences/convenience-store-items/2.mp3",
+      "text": "Batteries are placed in aisle three, right behind the counter.",
+      "textSha256": "ec27ff9d651c3dd1389fb6919fca9b41a4e500464aada812e245b472754d1aa6"
+    },
+    {
+      "src": "/audio/sentences/convenience-store-items/3.mp3",
+      "text": "Are they on the top shelf or down at the bottom?",
+      "textSha256": "1f352b4de513b1568c7f62ce80e473402a5e87f10ce4b04820985cef721f2d50"
+    },
+    {
+      "src": "/audio/sentences/convenience-store-items/4.mp3",
+      "text": "They are located right in the middle shelf at eye level.",
+      "textSha256": "57c30c96986d3576be930330e5ad2dfdaa4d772ff8ac22a6ae810f89e4d0b673"
+    },
+    {
+      "src": "/audio/sentences/convenience-store-items/5.mp3",
+      "text": "Do you also need to find any small household items today?",
+      "textSha256": "29d24e4721475d7efb97e306d6a2e424c0de01f2796236e0aaceec8032b7244a"
+    },
+    {
+      "src": "/audio/sentences/convenience-store-items/6.mp3",
+      "text": "No thanks, I found exactly what I needed right here.",
+      "textSha256": "53f7970462634619bc7e7dda33735fa76bc881b28242ae723b4e596c034b1bf9"
+    },
+    {
+      "src": "/audio/phrases/convenience-store-items-looking-for.mp3",
+      "text": "looking for",
+      "textSha256": "b506f09dbc28a11fdcf8a84956b615bac5ba25da226073fabe827d8f5a3001bc"
+    },
+    {
+      "src": "/audio/phrases/convenience-store-items-behind-the-counter.mp3",
+      "text": "behind the counter",
+      "textSha256": "0f88a0c6a00c0ba1ea8dec97a3f6e9d7ec2870068eb682d5bf26bf3b4d069d92"
+    },
+    {
+      "src": "/audio/phrases/convenience-store-items-on-the-top-shelf.mp3",
+      "text": "on the top shelf",
+      "textSha256": "f194b6d29c7d49332680b57f8b8d6b6ebf6eea05a1e88253382f6e9ef5896262"
+    },
+    {
+      "src": "/audio/phrases/convenience-store-items-at-the-bottom.mp3",
+      "text": "at the bottom",
+      "textSha256": "69d5a75e68a2a7c188e72ce1f0b3775f6f23d4988aa362fec7986e065474ff78"
+    },
+    {
+      "src": "/audio/phrases/convenience-store-items-at-eye-level.mp3",
+      "text": "at eye level",
+      "textSha256": "88b36e8251dc93b48f39af84d09a884105cbd0bdb15dcfcebb4ac389304fc389"
+    },
+    {
+      "src": "/audio/words/convenience-store-items-item.mp3",
+      "text": "item",
+      "textSha256": "4a33eacd5fa65f2b2e2871cd131286b53c415b131666d71173bb6e3fe59361b3"
+    },
+    {
+      "src": "/audio/words/convenience-store-items-shelf.mp3",
+      "text": "shelf",
+      "textSha256": "3eefa42d52064c480030a45d5813c250a9d15aeb1e6296eae68ca401e6bb1e6f"
+    },
+    {
+      "src": "/audio/words/convenience-store-items-behind.mp3",
+      "text": "behind",
+      "textSha256": "b1b886ce5f5750a00ae3dd003702a16e4916e6830987e03094cbbf699cb0fae1"
+    },
+    {
+      "src": "/audio/words/convenience-store-items-bottom.mp3",
+      "text": "bottom",
+      "textSha256": "be9b7607e070383c083b082c9c32d5509931bf9b297caf90bfdb7a692424c158"
+    },
+    {
+      "src": "/audio/words/convenience-store-items-middle.mp3",
+      "text": "middle",
+      "textSha256": "a4888af4e46c129c695ee32775a8c233f113c82e7cd4e6fd3cbb1fda5659f36a"
+    },
+    {
+      "src": "/audio/words/convenience-store-items-find.mp3",
+      "text": "find",
+      "textSha256": "e6640de835ad09fb0a7367ee2e0ba99d0142c139db0272146e35538bd07479fc"
+    },
+    {
+      "src": "/audio/sentences/checkout-carrier-bag/1.mp3",
+      "text": "Would you like to purchase a plastic bag for two dollars?",
+      "textSha256": "1e35305bb1943e2d0caa2fec018909c277c50b2de5268b519f6c7d481ba8899f"
+    },
+    {
+      "src": "/audio/sentences/checkout-carrier-bag/2.mp3",
+      "text": "No thank you, I brought my own bag today.",
+      "textSha256": "d53be61321d6d8a4609d1c88516d7f553b98d982ff614a965af85ee96a24ff1f"
+    },
+    {
+      "src": "/audio/sentences/checkout-carrier-bag/3.mp3",
+      "text": "Do you want to print out the receipt with your purchase?",
+      "textSha256": "1f5698d64182d4b1b2cf72e8b3cb1e4d4c9297fb06c2c0832369b81dd388f8f2"
+    },
+    {
+      "src": "/audio/sentences/checkout-carrier-bag/4.mp3",
+      "text": "Please scan the barcode on my phone screen instead.",
+      "textSha256": "846f09269c71d1569b0ffc46f4d7ac5f7e2b880aa23f0a77b8ae8b6502b27bf7"
+    },
+    {
+      "src": "/audio/sentences/checkout-carrier-bag/5.mp3",
+      "text": "That is great because saving paper is much better for nature.",
+      "textSha256": "399372714278fcf1f2117fa24adbf785061b32692a48556173ac94b726a22d7f"
+    },
+    {
+      "src": "/audio/sentences/checkout-carrier-bag/6.mp3",
+      "text": "Keep your receipt card, and have a wonderful sunny day!",
+      "textSha256": "e4164a9f51fc4d53abfe876fbd5e344c8b6122c24312201590fef7f40dbc2685"
+    },
+    {
+      "src": "/audio/phrases/checkout-carrier-bag-purchase-a-plastic-bag.mp3",
+      "text": "purchase a plastic bag",
+      "textSha256": "5f91f118b0a2e8a73502a835b6a77b130a816c3862de97c6c9e6bed0862fd22a"
+    },
+    {
+      "src": "/audio/phrases/checkout-carrier-bag-brought-my-own-bag.mp3",
+      "text": "brought my own bag",
+      "textSha256": "fc86389a9365654378abe73bc87fde166c9a277880bc4cb9305291bd3933b87a"
+    },
+    {
+      "src": "/audio/phrases/checkout-carrier-bag-print-out-the-receipt.mp3",
+      "text": "print out the receipt",
+      "textSha256": "c9004f1e76fadc90c8024bbd166e0c8f3d3f7d192c6afb34d56ef148f9ee7ee7"
+    },
+    {
+      "src": "/audio/phrases/checkout-carrier-bag-scan-the-barcode.mp3",
+      "text": "scan the barcode",
+      "textSha256": "968a8e48fa1b94052d4e2ec454e63efd5569f8f71c23599efdbf455b74d940be"
+    },
+    {
+      "src": "/audio/phrases/checkout-carrier-bag-saving-paper.mp3",
+      "text": "saving paper",
+      "textSha256": "100764a832e5f3bb2b91c86d6070a870cff8c0226bd56af61d02419782da2ed2"
+    },
+    {
+      "src": "/audio/words/checkout-carrier-bag-own.mp3",
+      "text": "own",
+      "textSha256": "5b3975651c3cab92d044c096dc30a1c2d9525497457472de48c51ecb363d1f4a"
+    },
+    {
+      "src": "/audio/words/checkout-carrier-bag-plastic.mp3",
+      "text": "plastic",
+      "textSha256": "72f7c894ad6c4ce2ef5483c768bb24bb83cc671b013d896e036ae64a8cbc35c1"
+    },
+    {
+      "src": "/audio/words/checkout-carrier-bag-keep.mp3",
+      "text": "keep",
+      "textSha256": "6ca7ea2feefc88ecb5ed6356ed963f47dc9137f82526fdd25d618ea626d0803f"
+    },
+    {
+      "src": "/audio/words/checkout-carrier-bag-save.mp3",
+      "text": "save",
+      "textSha256": "157dca92e4250458339d4b835250d44c238f3355e1b7986195188ee434e9baff"
+    },
+    {
+      "src": "/audio/words/checkout-carrier-bag-screen.mp3",
+      "text": "screen",
+      "textSha256": "4cd6c2914887dd4a68e4c9ffbed8b077f048cf795d6cfa0b801d43e0ea5a1560"
+    },
+    {
+      "src": "/audio/words/checkout-carrier-bag-wonderful.mp3",
+      "text": "wonderful",
+      "textSha256": "ee04228c5c6d8b083f6ce93fb7d7dbe487e04a96b29d13f627b01f9ad53dd3a4"
+    }
+  ]
+}

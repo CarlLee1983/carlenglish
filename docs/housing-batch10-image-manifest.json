@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "tool": "codex exec built-in imagegen",
+  "conversion": "1536x1024 landscape WebP, sharp quality 86; fit cover.",
+  "images": [
+    {
+      "id": "reporting-water-leak",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/reporting-water-leak.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7e2e64ea16bf05ca062c56ba4352ddaafd790ffa814f561dd4f9a73b874678e3"
+    },
+    {
+      "id": "trash-recycling-sorting",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/trash-recycling-sorting.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2d8021d9009d5fe960f41e81739eef160fd7a389d915aae21fc0e3a9f2cd9d56"
+    },
+    {
+      "id": "neighbor-noise-complaint",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/neighbor-noise-complaint.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "edb21ca58b54c3c6dd2daff0ca6287333c6344052ab6f7be0dedc0c005f21106"
+    },
+    {
+      "id": "locked-out-of-room",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/locked-out-of-room.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "fc76c205851e943fbcaba73a87c5278c4d82e3ea875eaeab0beda24d3d1250a7"
+    },
+    {
+      "id": "replacing-burnt-out-bulb",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/replacing-burnt-out-bulb.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8cf475a6a57c4f480e9a0441afe79d3f7e8c794309605f708e88b72d9d9a683f"
+    }
+  ]
+}

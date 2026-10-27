@@ -1,0 +1,365 @@
+{
+  "id": "mrt-transfer-help",
+  "title": "搭乘捷運詢問轉乘",
+  "titleEn": "Asking for MRT Transfer Directions",
+  "category": "交通出行",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/mrt-transfer-help.webp",
+    "alt": "在寬敞明亮的捷運車站大廳，年輕乘客禮貌向站務人員詢問轉乘路線與月台方向。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "which-line-goes-to",
+      "english": "which line goes to",
+      "translation": "哪一條路線開往...",
+      "audio": {
+        "src": "/audio/phrases/mrt-transfer-help-which-line-goes-to.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5d97424f32f286fe4d8e20a9ad397ec1cba86b48332ab496e5a0db73086c697e",
+        "sha256": "37738257c4df526aff5451c684042e2c28d0d9a2b1c6142ac665c98909826878"
+      }
+    },
+    {
+      "id": "transfer-at",
+      "english": "transfer at",
+      "translation": "在...轉乘",
+      "audio": {
+        "src": "/audio/phrases/mrt-transfer-help-transfer-at.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "30b31d5ae3a2ee4f5309f9bdad7950403fe589b5f8e6126b22bc950aca4cde89",
+        "sha256": "95a1944367f6e57008384297b3e4295df7e4f07c9f5acff087aed0c8d4dd3187"
+      }
+    },
+    {
+      "id": "on-this-floor",
+      "english": "on this floor",
+      "translation": "在這一層樓",
+      "audio": {
+        "src": "/audio/phrases/mrt-transfer-help-on-this-floor.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "862fbd4a4034904839a93aff35ceb2f4054ae6764ef41f36967427742c7156e7",
+        "sha256": "50c8fc943bd9bf4c023258f2a5d3bdf6a751db2138d42c0a819c5355a92f86ab"
+      }
+    },
+    {
+      "id": "follow-the-signs",
+      "english": "follow the signs",
+      "translation": "順著指標走",
+      "audio": {
+        "src": "/audio/phrases/mrt-transfer-help-follow-the-signs.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d177ce8b5a79ee5c9539b429366c33a524de23fd21af54cf94b7942bbf390abe",
+        "sha256": "2006d9c707222e10f1c17816fd61169a39e37fe5c875b282fe13b2a9056adbd1"
+      }
+    },
+    {
+      "id": "which-direction",
+      "english": "which direction",
+      "translation": "哪個方向",
+      "audio": {
+        "src": "/audio/phrases/mrt-transfer-help-which-direction.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5ba98c1e9c984d168c5f4ff9a82db98d39a80248d5c97499aaed62a47fb104eb",
+        "sha256": "c48da703a5f09eeec8cbe6ecf62094577b3571f43b4b67957e2bb4cae6f80dc9"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "line",
+      "english": "line",
+      "translation": "路線；捷運線",
+      "example": "The blue line is very convenient for tourists.",
+      "audio": {
+        "src": "/audio/words/mrt-transfer-help-line.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "38a9c1e721584da284b90ceea4ed7eb8db15ac4ea86c2c75ec925d5f8799fcf0",
+        "sha256": "c6203bb67c2df8777b5e8b573b192a7706684483fe713fd8afa26f0a06c04218"
+      }
+    },
+    {
+      "id": "transfer",
+      "english": "transfer",
+      "translation": "轉乘；換車",
+      "example": "Passengers must transfer to another train here.",
+      "audio": {
+        "src": "/audio/words/mrt-transfer-help-transfer.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27f576cafbb263ed44be8bd094f66114da26877706f96c4c31d5a97ffebf2e29",
+        "sha256": "b4361788bd2c7e2ca3dfc39ab10ccaedabe93e8e4540efbe46f898bfd53205de"
+      }
+    },
+    {
+      "id": "direction",
+      "english": "direction",
+      "translation": "方向",
+      "example": "He walked in the wrong direction.",
+      "audio": {
+        "src": "/audio/words/mrt-transfer-help-direction.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "93c4abe27cf1696102534bb60b3795f41f60f52fa806cd5d0feadfc8bd2b8170",
+        "sha256": "fb825fe96613147118ec471c1a8a5c3d8013006e1c7f5b3691cdf8dc70e99a88"
+      }
+    },
+    {
+      "id": "follow",
+      "english": "follow",
+      "translation": "跟隨；沿著",
+      "example": "Follow this yellow line to the airport train.",
+      "audio": {
+        "src": "/audio/words/mrt-transfer-help-follow.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a3ce0b6106cdb3982d7b2bd5c7be5e1e74d973c4a3018b03beb01fc5dc3ec6f5",
+        "sha256": "6617d2fa17cd4f2f544f3e8097c3abbfb010f929e996e12c35897c8a70be0dd3"
+      }
+    },
+    {
+      "id": "sign",
+      "english": "sign",
+      "translation": "告示牌；指標",
+      "example": "The exit sign is clearly visible in the dark.",
+      "audio": {
+        "src": "/audio/words/mrt-transfer-help-sign.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0b6f395ca14ac202374d5cff678b71157d0bef7e00c3045e9b80aab4ffb85276",
+        "sha256": "105a74605d477af73af46a1f8e8f6d271cda480036cd57ea1e16dde57d9fcab2"
+      }
+    },
+    {
+      "id": "floor",
+      "english": "floor",
+      "translation": "樓層；地板",
+      "example": "The ticket machines are on the second floor.",
+      "audio": {
+        "src": "/audio/words/mrt-transfer-help-floor.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a3e1f4935b0919b346c2caf4da18078a1ebaf6451eb7f7b5dc79c11629b6368c",
+        "sha256": "3486d0504b14a116d57ef32c32926b2bc56183ca901ce3ded21b0f33e7e6f2c1"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Excuse me, "
+        },
+        {
+          "text": "which ",
+          "phraseIds": [
+            "which-line-goes-to"
+          ]
+        },
+        {
+          "text": "line",
+          "phraseIds": [
+            "which-line-goes-to"
+          ],
+          "wordIds": [
+            "line"
+          ]
+        },
+        {
+          "text": " goes to",
+          "phraseIds": [
+            "which-line-goes-to"
+          ]
+        },
+        {
+          "text": " the central park station?"
+        }
+      ],
+      "translation": "不好意思，請問哪一條捷運線是開往中央公園站的？",
+      "audio": {
+        "src": "/audio/sentences/mrt-transfer-help/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8d36bb97d2d8d95f608f838b0cdd60121c660d46613a88b68b668b6c85a4d5e4",
+        "sha256": "e3c112c285b03ba12e05a41a7db10728db974bb52c24c841d64d08ad29a0acaa"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "You need to take the red "
+        },
+        {
+          "text": "line",
+          "wordIds": [
+            "line"
+          ]
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "transfer",
+          "phraseIds": [
+            "transfer-at"
+          ],
+          "wordIds": [
+            "transfer"
+          ]
+        },
+        {
+          "text": " at",
+          "phraseIds": [
+            "transfer-at"
+          ]
+        },
+        {
+          "text": " Taipei Main Station."
+        }
+      ],
+      "translation": "你需要先搭紅線，然後在台北車站轉乘。",
+      "audio": {
+        "src": "/audio/sentences/mrt-transfer-help/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "645de6453078b8d6878fc2a2b198190ed46c2f8420268d30eeffea2614aa4a66",
+        "sha256": "329d8329ea685c6f7c28f90cd21551de825127c39aa37a49dfa9f5121e5770b4"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Is the "
+        },
+        {
+          "text": "transfer",
+          "wordIds": [
+            "transfer"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "on this ",
+          "phraseIds": [
+            "on-this-floor"
+          ]
+        },
+        {
+          "text": "floor",
+          "phraseIds": [
+            "on-this-floor"
+          ],
+          "wordIds": [
+            "floor"
+          ]
+        },
+        {
+          "text": " or downstairs?"
+        }
+      ],
+      "translation": "轉乘是在這一層樓還是要下樓呢？",
+      "audio": {
+        "src": "/audio/sentences/mrt-transfer-help/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b6b5a75b8652964f424b0a41928606796cbc967af873b30a4666391478aa8fdb",
+        "sha256": "da9800a681a2f3f5aa1900f1a9f8af75eea98747dec2bb1e4a76b7ac0ad1ef7d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Go downstairs and "
+        },
+        {
+          "text": "follow",
+          "wordIds": [
+            "follow"
+          ]
+        },
+        {
+          "text": " the blue arrows on the "
+        },
+        {
+          "text": "floor",
+          "wordIds": [
+            "floor"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "走下樓梯，沿著地板上的藍色箭頭方向走。",
+      "audio": {
+        "src": "/audio/sentences/mrt-transfer-help/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4aa13dfeb7697c0ae214dd1ca2b644ea128ca63731f353f96c24d7f1e81cc23b",
+        "sha256": "b9f9f858fdcba51a2b86f5b50b480646b4c9699e2864a3c7f490667566991a0c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Which ",
+          "phraseIds": [
+            "which-direction"
+          ]
+        },
+        {
+          "text": "direction",
+          "phraseIds": [
+            "which-direction"
+          ],
+          "wordIds": [
+            "direction"
+          ]
+        },
+        {
+          "text": " should I look for on the platform?"
+        }
+      ],
+      "translation": "到了月台之後我應該看哪一個行車方向？",
+      "audio": {
+        "src": "/audio/sentences/mrt-transfer-help/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a17f81610a7cf8d8c50a3d42e0c446d332acb031ce8f831c0ff1f5b0a338ed01",
+        "sha256": "c789fd7d94053c3591775327e89ba27f7431e241fc07719e8965611dece65cba"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Follow",
+          "phraseIds": [
+            "follow-the-signs"
+          ],
+          "wordIds": [
+            "follow"
+          ]
+        },
+        {
+          "text": " the ",
+          "phraseIds": [
+            "follow-the-signs"
+          ]
+        },
+        {
+          "text": "signs",
+          "phraseIds": [
+            "follow-the-signs"
+          ],
+          "wordIds": [
+            "sign"
+          ]
+        },
+        {
+          "text": " pointing toward the north terminal."
+        }
+      ],
+      "translation": "順著指標走，找指向往北端終點站的告示牌。",
+      "audio": {
+        "src": "/audio/sentences/mrt-transfer-help/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "71b5b2bb004f2d355d98bab7dba016959a3392c322b1a3ab4ea6441e68d7beb9",
+        "sha256": "67096027361039ae22576b42bc610a5d2d41a4ee662e13f2112e4c27cacbc950"
+      }
+    }
+  ]
+}

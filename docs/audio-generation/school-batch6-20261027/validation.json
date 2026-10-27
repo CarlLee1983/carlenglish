@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "clips": 85,
+  "bytes": 1807172,
+  "durationSeconds": 214.2,
+  "checks": {
+    "textSha256": true,
+    "fileSha256": true,
+    "voiceId": true,
+    "completeGraphemes": true,
+    "ffmpegDecode": true
+  },
+  "scope": [
+    "project-role-sharing",
+    "discussing-due-deadline",
+    "sharing-alternative-idea",
+    "asking-teacher-clarification",
+    "borrowing-sports-gear"
+  ]
+}

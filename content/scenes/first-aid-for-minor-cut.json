@@ -1,0 +1,365 @@
+{
+  "id": "first-aid-for-minor-cut",
+  "title": "手指小割傷使用急救箱消毒包紮",
+  "titleEn": "Cleaning and Bandaging a Minor Finger Cut",
+  "category": "安全生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/first-aid-for-minor-cut.webp",
+    "alt": "在學校健康保健中心桌旁，一位學生在水龍頭下洗淨手指的小擦傷後，護理老師打開綠色十字急救箱，細心貼上透氣防水的 OK 繃。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "minor-paper-cut",
+      "english": "minor paper cut",
+      "translation": "輕微紙張割傷",
+      "audio": {
+        "src": "/audio/phrases/first-aid-for-minor-cut-minor-paper-cut.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3e594b4df8c9e643ca3b7e3a456a95897864d6fac5f64f77971552aaa17265fe",
+        "sha256": "e30d90ce355513f747344621a1d5068ae25bdd5ffb611ee8e0c2a2f3198213b4"
+      }
+    },
+    {
+      "id": "running-clean-water",
+      "english": "running clean water",
+      "translation": "流動清水",
+      "audio": {
+        "src": "/audio/phrases/first-aid-for-minor-cut-running-clean-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "81d77113a2df0f2f3c44b7f1bccdd18a1f70185cdea2eea45b556fac42568acc",
+        "sha256": "34ca9582943141f40338029b0a9abbc1a33e988f9eba8f774d6006ebee56d255"
+      }
+    },
+    {
+      "id": "first-aid-kit",
+      "english": "first aid kit",
+      "translation": "急救箱",
+      "audio": {
+        "src": "/audio/phrases/first-aid-for-minor-cut-first-aid-kit.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "33a9e04fb096470d36dd0b4af519ef7d9205c2009b8af463159a181431f8c521",
+        "sha256": "22a76bfdfb203eccf307086baaa9adc44130033da7ef9dd639671c8ded53834c"
+      }
+    },
+    {
+      "id": "adhesive-bandage",
+      "english": "adhesive bandage",
+      "translation": "透氣繃帶；OK繃",
+      "audio": {
+        "src": "/audio/phrases/first-aid-for-minor-cut-adhesive-bandage.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4e82e1c03b1e0387091978bed2d17b5a67ef4c79ee9bc97d37eb2d5d985ac4ae",
+        "sha256": "789f5e1724fb6eb1ce2576a67e1edd002dad4b81e805a642dfc23be94ff1f696"
+      }
+    },
+    {
+      "id": "bleeding-stopped",
+      "english": "bleeding stopped",
+      "translation": "停止流血了",
+      "audio": {
+        "src": "/audio/phrases/first-aid-for-minor-cut-bleeding-stopped.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3661248c0a52c085fe75e74d1dc603256c1519a90c49949b0248edf48cf7e883",
+        "sha256": "c4140aa79b140caa4dcdd367b4159afcd6aa8549622dda3224ce65a967223ec3"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "cut",
+      "english": "cut",
+      "translation": "割傷；切口",
+      "example": "Put an adhesive bandage over the small paper cut.",
+      "audio": {
+        "src": "/audio/words/first-aid-for-minor-cut-cut.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "378bfce5cda2599a6cda399f1cacef861e4e575ec794744dcf0e55e9c4780633",
+        "sha256": "30b99ab63f5f0526576b7a9b362f02cb8d90e46c7aeeb05dfd34058441b153f5"
+      }
+    },
+    {
+      "id": "finger",
+      "english": "finger",
+      "translation": "手指",
+      "example": "He wears a silver ring on his middle finger.",
+      "audio": {
+        "src": "/audio/words/first-aid-for-minor-cut-finger.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "400b181c878493867e7293db108d505116fe8e4d35686579769cca43008a272a",
+        "sha256": "393ebbe2a4aeb08e10a1961df1077de409fd16e444471259731e66528bda27df"
+      }
+    },
+    {
+      "id": "bandage",
+      "english": "bandage",
+      "translation": "繃帶；OK繃",
+      "example": "The school nurse put a clean bandage on his elbow.",
+      "audio": {
+        "src": "/audio/words/first-aid-for-minor-cut-bandage.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fe4190c0bc0ee116b11c2bf751e652e3a1957ebcbad939dbd0dd98bee57ba89e",
+        "sha256": "e191b6355cfdfa03b44760148d444c4069bc0a7a592f03ecc6c747ef954f2e84"
+      }
+    },
+    {
+      "id": "wash",
+      "english": "wash",
+      "translation": "清洗；沖洗",
+      "example": "Wash your hands thoroughly before preparing lunch.",
+      "audio": {
+        "src": "/audio/words/first-aid-for-minor-cut-wash.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "476994559e873a621c524b49c195ad4d14876ac168022ae43c0b3fe2868d82ef",
+        "sha256": "1b8033676eabf9c9a9f5abf25dd1643b38609c27579db17c35d596e24b6b62a8"
+      }
+    },
+    {
+      "id": "careful",
+      "english": "careful",
+      "translation": "小心的；留意的",
+      "example": "Be very careful when holding sharp scissors.",
+      "audio": {
+        "src": "/audio/words/first-aid-for-minor-cut-careful.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "191c415261817259c49f435b1a380bac5cc31c3dfdd3cf0f8bcce446d9992387",
+        "sha256": "99c0cf175ce0142d8a067a522bbbf32b3532f8e00b9468e1d4da0e5875f71038"
+      }
+    },
+    {
+      "id": "box",
+      "english": "box",
+      "translation": "箱子；盒子",
+      "example": "The first aid box should be kept within easy reach.",
+      "audio": {
+        "src": "/audio/words/first-aid-for-minor-cut-box.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "26f8567f2569182294c3fa5b9f9cb2270b554eef628b4c149cf82a42888ff4ae",
+        "sha256": "69a23cbcde8d267d263f0a8dd6a282db162b8c600b85b2ddd77601a0cae3eaad"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "The sharp edge of the cardboard "
+        },
+        {
+          "text": "box",
+          "wordIds": [
+            "box"
+          ]
+        },
+        {
+          "text": " gave me a "
+        },
+        {
+          "text": "minor paper ",
+          "phraseIds": [
+            "minor-paper-cut"
+          ]
+        },
+        {
+          "text": "cut",
+          "phraseIds": [
+            "minor-paper-cut"
+          ],
+          "wordIds": [
+            "cut"
+          ]
+        },
+        {
+          "text": " on my "
+        },
+        {
+          "text": "finger",
+          "wordIds": [
+            "finger"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "鋒利的紙箱邊緣劃破了我的手指，造成了一道小小的紙張割傷。",
+      "audio": {
+        "src": "/audio/sentences/first-aid-for-minor-cut/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "43f64cb273d6efe3efc7333c8df473c0714c7da71fc34e3d83d3df64b537cc43",
+        "sha256": "029da3f0de22807a12b8f9c5fa6d1691e3d18a95370c1171824346a758b6726e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "It bleeds a little bit and hurts whenever I bend my index "
+        },
+        {
+          "text": "finger",
+          "wordIds": [
+            "finger"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "只要我一彎曲食指，傷口就會流一點點血而且隱隱作痛。",
+      "audio": {
+        "src": "/audio/sentences/first-aid-for-minor-cut/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b7d002d45873403d5e3b60689fda6082a404fd76f5ef7f8eeafc7f94ee07c337",
+        "sha256": "80e3930da3b10dc5f791ae04e706a9cb39d95e6d141e98a4c5c6f89f03e51a3f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "First, "
+        },
+        {
+          "text": "wash",
+          "wordIds": [
+            "wash"
+          ]
+        },
+        {
+          "text": " the small "
+        },
+        {
+          "text": "cut",
+          "wordIds": [
+            "cut"
+          ]
+        },
+        {
+          "text": " gently under "
+        },
+        {
+          "text": "running clean water",
+          "phraseIds": [
+            "running-clean-water"
+          ]
+        },
+        {
+          "text": " and soap."
+        }
+      ],
+      "translation": "首先，用流動的乾淨自來水和肥皂輕輕清洗那道小傷口。",
+      "audio": {
+        "src": "/audio/sentences/first-aid-for-minor-cut/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "217722e354d065bd764e6cefc9483e7743178f0efc07f2b7f0ed66970dd119e8",
+        "sha256": "f2f27881302c624eb6b4e018233f2a7bf798bb0f800be535c0d27177fac08c8e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Open the green "
+        },
+        {
+          "text": "first aid kit",
+          "phraseIds": [
+            "first-aid-kit"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "box",
+          "wordIds": [
+            "box"
+          ]
+        },
+        {
+          "text": " kept in the medicine cabinet."
+        }
+      ],
+      "translation": "把放在醫藥櫃裡的綠色急救箱打開。",
+      "audio": {
+        "src": "/audio/sentences/first-aid-for-minor-cut/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c4c0e6cc73c293ddd6e9ba73d78cbfc8ada3985eb57156de3f724e4bd974280f",
+        "sha256": "21c8f1c1ff331d7fe2133a4f406d68409581dc6de67ce1aee7b1061cc9910021"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Be "
+        },
+        {
+          "text": "careful",
+          "wordIds": [
+            "careful"
+          ]
+        },
+        {
+          "text": " and wrap a breathable "
+        },
+        {
+          "text": "adhesive ",
+          "phraseIds": [
+            "adhesive-bandage"
+          ]
+        },
+        {
+          "text": "bandage",
+          "phraseIds": [
+            "adhesive-bandage"
+          ],
+          "wordIds": [
+            "bandage"
+          ]
+        },
+        {
+          "text": " around the wound."
+        }
+      ],
+      "translation": "要小心，並用透氣的繃帶貼布緊緊包紮在傷口周圍。",
+      "audio": {
+        "src": "/audio/sentences/first-aid-for-minor-cut/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "897ff963ae6a5f00a935eeeedc00616dd659d1c8b832b12b233d0361626fc9bd",
+        "sha256": "bb0fe3b751565aa17a07864ff2e482cafb7dcbc290529b2ce0fab8a914859b08"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "bleeding stopped",
+          "phraseIds": [
+            "bleeding-stopped"
+          ]
+        },
+        {
+          "text": " immediately, and the "
+        },
+        {
+          "text": "finger",
+          "wordIds": [
+            "finger"
+          ]
+        },
+        {
+          "text": " is well protected now."
+        }
+      ],
+      "translation": "血立刻止住了，現在手指受到了很好的保護。",
+      "audio": {
+        "src": "/audio/sentences/first-aid-for-minor-cut/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "33a852080bea4bf524c7e8991e382195980d3e4c316212b7b4696bca9e8e6ec2",
+        "sha256": "e645982d6b105535e7b0bbaa37d7e1745bb74c180b179155b29aa8a509e2e18f"
+      }
+    }
+  ]
+}

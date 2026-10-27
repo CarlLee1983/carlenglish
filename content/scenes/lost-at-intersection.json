@@ -1,0 +1,320 @@
+{
+  "id": "lost-at-intersection",
+  "title": "在不熟悉的路口問路",
+  "titleEn": "Getting Lost at an Intersection",
+  "category": "交通出行",
+  "level": "初級至初中級",
+  "image": {
+    "src": "/images/scenes/lost-at-intersection.webp",
+    "alt": "在寬闊的城市十字路口角，迷路的旅客有禮貌地向在地路人詢問美術館的步行路線。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "completely-lost",
+      "english": "completely lost",
+      "translation": "徹底迷路",
+      "audio": {
+        "src": "/audio/phrases/lost-at-intersection-completely-lost.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d6d546890a9384fa3712c990ad96991b2e567d67a215673114187459ab2398f0",
+        "sha256": "b2ad39a8e1458aa8b158eaa646ed96b1209e7d2d00c62ce4950d9338c8dab334"
+      }
+    },
+    {
+      "id": "how-to-get-to",
+      "english": "how to get to",
+      "translation": "如何前往...",
+      "audio": {
+        "src": "/audio/phrases/lost-at-intersection-how-to-get-to.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "556f15b18307f1af2acea060cb6e7bb9c7565e90daf706e1c3680e70aeb70924",
+        "sha256": "1cf9f8cd9acaf169f88dba21846964f4f7a456781cbd5f804b4248e3aa57c956"
+      }
+    },
+    {
+      "id": "half-a-mile-away",
+      "english": "half a mile away",
+      "translation": "半英里遠",
+      "audio": {
+        "src": "/audio/phrases/lost-at-intersection-half-a-mile-away.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3cea80b1b81aaca2bb85769d1827a2bef87fba50c8c5c40e28a97dca3e714573",
+        "sha256": "642a419ace5df26c73ee1fee5287ffbda4aaa7f3f0bbcacfe32b1bac7407d658"
+      }
+    },
+    {
+      "id": "walk-straight-along",
+      "english": "walk straight along",
+      "translation": "筆直往前走",
+      "audio": {
+        "src": "/audio/phrases/lost-at-intersection-walk-straight-along.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9b5a2fde5fd11d7d1bb9e775ea6fcfd6ad1cec2831b55328d15d1120a1bf34d4",
+        "sha256": "f1bf44cd42e977a6dd4681150e67546eb5ac646c3217d5b3e15f1a5fdc4f05f4"
+      }
+    },
+    {
+      "id": "cross-the-street",
+      "english": "cross the street",
+      "translation": "過馬路",
+      "audio": {
+        "src": "/audio/phrases/lost-at-intersection-cross-the-street.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6aaf2c76677a7c3f24868ebddda1106f6777dbea3a741f570340844360ab420c",
+        "sha256": "d04e0a1b975e9661451423c9484a04e3b2a4fbb5e23658a41265f3b1ba59bf72"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "excuse",
+      "english": "excuse",
+      "translation": "藉口、原諒",
+      "example": "Excuse me, is this seat taken?",
+      "audio": {
+        "src": "/audio/words/lost-at-intersection-excuse.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b76c1db1f24b29fe617bf3cf4d9bca1301a3ce446f85e32aa7302bbcc57a3df6",
+        "sha256": "62bb24185a79349d657c45ad02e104ac93732f7d1fde1cd64ca2c69ccc63cb1e"
+      }
+    },
+    {
+      "id": "lost",
+      "english": "lost",
+      "translation": "迷路的",
+      "example": "The little boy was lost in the shopping mall.",
+      "audio": {
+        "src": "/audio/words/lost-at-intersection-lost.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "76f75e6129fe30135bd44d80ab7cc46fdba81907758dc808f3e2517beef2b1e9",
+        "sha256": "d53d60915c72d06a17e33eb1ae1ec6cc08571a0314b2f536fa071faf17ee251b"
+      }
+    },
+    {
+      "id": "far",
+      "english": "far",
+      "translation": "遠",
+      "example": "The subway station is not very far from my hotel.",
+      "audio": {
+        "src": "/audio/words/lost-at-intersection-far.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "512eea46ceb3921dff4363c7069d89d4964d1d9fccaa0f411851a7aa60a5c868",
+        "sha256": "b9bd3865d3412885abaa0563ea2e449388b1ad1aab830a6bb709ff5bd7cc9be4"
+      }
+    },
+    {
+      "id": "cross",
+      "english": "cross",
+      "translation": "穿過；越過",
+      "example": "Be careful when you cross the busy street.",
+      "audio": {
+        "src": "/audio/words/lost-at-intersection-cross.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b3986952b145da5f0e4bd416f3b948e9864b57895675886c1deb83c16a9beadc",
+        "sha256": "49393dc9a669ea85f24cdaa5a7e6e206a39f88d6220c81bf606bf72c0c0d23c8"
+      }
+    },
+    {
+      "id": "past",
+      "english": "past",
+      "translation": "經過",
+      "example": "Walk past the post office and you will see it.",
+      "audio": {
+        "src": "/audio/words/lost-at-intersection-past.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "84ccdf8a849ffbc98d3a8a4bfb0999eda9254015f75a1c6cc7f68338d61c00b0",
+        "sha256": "88a35157fcbcfeaccedf27d7db955eed0a35dcca8b96927749563cf00c5fef77"
+      }
+    },
+    {
+      "id": "building",
+      "english": "building",
+      "translation": "建築物",
+      "example": "The office building has twenty floors.",
+      "audio": {
+        "src": "/audio/words/lost-at-intersection-building.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5167e9677e1fbc500ecb1751eec3b2a6fc24cd378b934b14b2544dfcd1228be1",
+        "sha256": "3af80bb1b354712d93e2dbbd854029fac67c17b61159b6eef38cd04f5c93a5a4"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Excuse",
+          "wordIds": [
+            "excuse"
+          ]
+        },
+        {
+          "text": " me sir, I think I am "
+        },
+        {
+          "text": "completely ",
+          "phraseIds": [
+            "completely-lost"
+          ]
+        },
+        {
+          "text": "lost",
+          "phraseIds": [
+            "completely-lost"
+          ],
+          "wordIds": [
+            "lost"
+          ]
+        },
+        {
+          "text": " at this crossroads."
+        }
+      ],
+      "translation": "不好意思先生，我想我在這個十字路口完全迷路了。",
+      "audio": {
+        "src": "/audio/sentences/lost-at-intersection/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0d04796be88e4b14481a8ba6295c1bd8d6956978ad871198136d6663b7d12ce7",
+        "sha256": "12bf1838f489a3417e0bcbaa48617333dfb0dd32f1609dbfd7a8d4d3a4c99a2b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Can you tell me "
+        },
+        {
+          "text": "how to get to",
+          "phraseIds": [
+            "how-to-get-to"
+          ]
+        },
+        {
+          "text": " the modern art museum?"
+        }
+      ],
+      "translation": "您可以告訴我怎麼去當代美術館嗎？",
+      "audio": {
+        "src": "/audio/sentences/lost-at-intersection/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e9714022319287fe79a8042381920631aa1702f8cabc33554de75ece7ed4581a",
+        "sha256": "7a64a7cf47cd067bfe8b5576824f3082a1ab9b88e9ff72c57ca7ad6459f5f287"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do not worry, it is not too "
+        },
+        {
+          "text": "far",
+          "wordIds": [
+            "far"
+          ]
+        },
+        {
+          "text": ", only "
+        },
+        {
+          "text": "half a mile away",
+          "phraseIds": [
+            "half-a-mile-away"
+          ]
+        },
+        {
+          "text": " from here."
+        }
+      ],
+      "translation": "別擔心，離這裡不會太遠，只有大概半英里遠而已。",
+      "audio": {
+        "src": "/audio/sentences/lost-at-intersection/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "846385fe287c2be57df78c4bec8d9c53af61c935d52465db709400204f3f3694",
+        "sha256": "ebe117cc2a27eb3c6a6c881fd051f104c8fb589562954a994c8a70c93f037550"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Walk straight along",
+          "phraseIds": [
+            "walk-straight-along"
+          ]
+        },
+        {
+          "text": " this avenue and walk "
+        },
+        {
+          "text": "past",
+          "wordIds": [
+            "past"
+          ]
+        },
+        {
+          "text": " the tall white "
+        },
+        {
+          "text": "building",
+          "wordIds": [
+            "building"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "沿著這條大道一直往前走，經過那棟白色高樓。",
+      "audio": {
+        "src": "/audio/sentences/lost-at-intersection/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bd84a2e07029bb39d9c212ba3b7be10a25ecb25fd34b8f06fdb3691660fcc9c1",
+        "sha256": "dccbb098022e5107e75b8bb41391c09f21dbf08f4e8a25fb7a5fa8521ca0d2fe"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Cross",
+          "phraseIds": [
+            "cross-the-street"
+          ],
+          "wordIds": [
+            "cross"
+          ]
+        },
+        {
+          "text": " the street",
+          "phraseIds": [
+            "cross-the-street"
+          ]
+        },
+        {
+          "text": " at the pedestrian light and turn right at the corner."
+        }
+      ],
+      "translation": "在行人號誌燈處過馬路，然後在轉角處右轉。",
+      "audio": {
+        "src": "/audio/sentences/lost-at-intersection/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ed6266b4d78cc2799d4e008ada22423b203e9f45e06bc084e304a0fe6d707ade",
+        "sha256": "12e15295cb7461056bdfc9006f7fe1508f2e653d4bc819a994b89c57ea1a206d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "You will see the museum entrance right on your left hand side."
+        }
+      ],
+      "translation": "你就會在左手邊看到美術館的正門入口了。",
+      "audio": {
+        "src": "/audio/sentences/lost-at-intersection/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "249586865f27e518f2f88f25cda89fe91812ef5f4d87b4314e13e9fc5417c879",
+        "sha256": "c45d48fe8e816292228cdc7fc2c5b33e3d0fad8b2434b29d6680329bad9431a9"
+      }
+    }
+  ]
+}

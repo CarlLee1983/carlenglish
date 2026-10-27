@@ -1,0 +1,326 @@
+{
+  "id": "wrong-order-at-restaurant",
+  "title": "送錯餐點時的反應",
+  "titleEn": "Reacting to a Wrong Order",
+  "category": "飲食生活",
+  "level": "初級至初中級",
+  "image": {
+    "src": "/images/scenes/wrong-order-at-restaurant.webp",
+    "alt": "在餐廳裡，顧客看著桌上送錯的漢堡向服務生禮貌反應，服務生拿著點餐單道歉並核對。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "a-small-mistake",
+      "english": "a small mistake",
+      "translation": "一點小差錯",
+      "audio": {
+        "src": "/audio/phrases/wrong-order-at-restaurant-a-small-mistake.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "59fc33028c0447215620397cda0a72db0e354e022d3ebe3e47263eb571410642",
+        "sha256": "dc04be0377f0ea63d642253005093e05ac3c27309995b0df574402ad42f26271"
+      }
+    },
+    {
+      "id": "what-i-ordered",
+      "english": "what I ordered",
+      "translation": "我原本點的東西",
+      "audio": {
+        "src": "/audio/phrases/wrong-order-at-restaurant-what-i-ordered.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e5e136bfe48aaec391c4ea108f4c38244f279aacdb3adbebcbfccb173339d552",
+        "sha256": "ee8a7b43c128455e1ee1c738f6d1b9538d164f1daca0b0659e7db95e16915a8e"
+      }
+    },
+    {
+      "id": "sorry-about-that",
+      "english": "sorry about that",
+      "translation": "對那件事感到抱歉",
+      "audio": {
+        "src": "/audio/phrases/wrong-order-at-restaurant-sorry-about-that.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "521666a0268bb99e3675455617f9c8c347f707231a02a79cb0f76499de8f74ed",
+        "sha256": "6668169bb23d4a8e1b0bf4c393329f6c708d4fab1a6a3dd1530c0f279bc0f0dc"
+      }
+    },
+    {
+      "id": "in-just-five-minutes",
+      "english": "in just five minutes",
+      "translation": "只要五分鐘內",
+      "audio": {
+        "src": "/audio/phrases/wrong-order-at-restaurant-in-just-five-minutes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "916d636a7b67c068bdaf2e5f25efef9a92827470f673767150aed315522fd921",
+        "sha256": "f676624a3d54c668d49e75a99185dcc5e2a36746438d3a641543e3916f313aeb"
+      }
+    },
+    {
+      "id": "of-course",
+      "english": "of course",
+      "translation": "當然",
+      "audio": {
+        "src": "/audio/phrases/wrong-order-at-restaurant-of-course.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "19e240f3698d3fd5828bd03a1724baec797c2e3b50855690d8e67cb9bec96c8a",
+        "sha256": "b73fd52187ba1b46452828adb043269b9ca66463e9865de79cf95ff05ebe20fc"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "mistake",
+      "english": "mistake",
+      "translation": "錯誤、差錯",
+      "example": "There was an honest mistake on my food receipt.",
+      "audio": {
+        "src": "/audio/words/wrong-order-at-restaurant-mistake.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1b34ffb5e8ddb2c95579f505568bc5dfd2298df81097748ac79f0d7e8c563a58",
+        "sha256": "69bdd22b4ff9d7099c2acc063b82b74b8ca48e402842d53393a2c00fe99c4337"
+      }
+    },
+    {
+      "id": "wrong",
+      "english": "wrong",
+      "translation": "錯的",
+      "example": "The waiter brought the wrong plate to our table.",
+      "audio": {
+        "src": "/audio/words/wrong-order-at-restaurant-wrong.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8810ad581e59f2bc3928b261707a71308f7e139eb04820366dc4d5c18d980225",
+        "sha256": "72dfb6e8cc72939cfa143737ddba1008d039cf72ce18d096bd62c8b6c3c12025"
+      }
+    },
+    {
+      "id": "order",
+      "english": "order",
+      "translation": "點（餐）、訂購",
+      "example": "Are you ready to place your lunch order?",
+      "audio": {
+        "src": "/audio/words/wrong-order-at-restaurant-order.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3eeb7e96e59ce40f9cb1a089daba079fd699f6867a30f6634af8570967b2375a",
+        "sha256": "bef9525be50467578ad1e80648379e55806b3ab76db41c550e391804a3300643"
+      }
+    },
+    {
+      "id": "minute",
+      "english": "minute",
+      "translation": "分鐘",
+      "example": "Your tea will be ready in two minutes.",
+      "audio": {
+        "src": "/audio/words/wrong-order-at-restaurant-minute.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "28cdd20eaf134a05f18369414cb2df5e36c6a4e4f551b8c9cff8548029c41d6c",
+        "sha256": "9d3468cbdb88761c67f9bf321d2c85dfd6a708a34322b60e442c83add4f3aefb"
+      }
+    },
+    {
+      "id": "check",
+      "english": "check",
+      "translation": "檢查、確認",
+      "example": "Let me check the menu again to be sure.",
+      "audio": {
+        "src": "/audio/words/wrong-order-at-restaurant-check.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "20f65c28671b40937c5bf23acc7c6f37e5a5ec0622e347b57685725df5ba9e50",
+        "sha256": "bed46aaa72be7e72891e31b7ccaa8d19e31ee82dd1b0e1f6e0648aea23dad406"
+      }
+    },
+    {
+      "id": "course",
+      "english": "course",
+      "translation": "當然（of course）",
+      "example": "Of course we can change the order for you.",
+      "audio": {
+        "src": "/audio/words/wrong-order-at-restaurant-course.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a908043ed469f361cd516f3bdd781341912b731a6ea3a5385af8514ec9ec02cc",
+        "sha256": "8ef49db2b92377a41893445a1b5a9f5ee7438714bb1d332db98a75da861427a2"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Excuse me, I think there is "
+        },
+        {
+          "text": "a small ",
+          "phraseIds": [
+            "a-small-mistake"
+          ]
+        },
+        {
+          "text": "mistake",
+          "phraseIds": [
+            "a-small-mistake"
+          ],
+          "wordIds": [
+            "mistake"
+          ]
+        },
+        {
+          "text": " here; this is not "
+        },
+        {
+          "text": "what I ordered",
+          "phraseIds": [
+            "what-i-ordered"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "不好意思，我想這裡有點小差錯，這不是我點的餐點。",
+      "audio": {
+        "src": "/audio/sentences/wrong-order-at-restaurant/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4bc81d7fdfb33d7fc93efca40c27a9e036b69e39ebd34153c025244489c54064",
+        "sha256": "aa13dcae7c5e46c24acb59bb12bf541e999cbdec8ef020cf625ebf30074d5cf2"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "This "
+        },
+        {
+          "text": "wrong",
+          "wordIds": [
+            "wrong"
+          ]
+        },
+        {
+          "text": " plate is a beef burger, but my "
+        },
+        {
+          "text": "order",
+          "wordIds": [
+            "order"
+          ]
+        },
+        {
+          "text": " was the chicken sandwich."
+        }
+      ],
+      "translation": "這份送錯的盤子是牛肉漢堡，但我點的是雞肉三明治。",
+      "audio": {
+        "src": "/audio/sentences/wrong-order-at-restaurant/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e1d1483c56a5910cc1fff66b4191aea97142afb3769c6347f2d6e1fe9090f974",
+        "sha256": "7d40e9b584a972d2367a1270d384574f2966a10995de2ee14789fe5750fb787f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Oh, I am really "
+        },
+        {
+          "text": "sorry about that",
+          "phraseIds": [
+            "sorry-about-that"
+          ]
+        },
+        {
+          "text": " confusion."
+        }
+      ],
+      "translation": "噢，真的非常抱歉造成混淆。",
+      "audio": {
+        "src": "/audio/sentences/wrong-order-at-restaurant/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "68514b65a6f3c006c001697a32caba0807e044ae21b12fb73e1357dd1f25d089",
+        "sha256": "71f2bcd13c7fc182351f6853252c1d8b530188fc3de18dff64ae0bc6f9f4f965"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Let me "
+        },
+        {
+          "text": "check",
+          "wordIds": [
+            "check"
+          ]
+        },
+        {
+          "text": " your ticket with the kitchen staff right now."
+        }
+      ],
+      "translation": "我現在立刻拿您的點菜單去和廚房人員核對。",
+      "audio": {
+        "src": "/audio/sentences/wrong-order-at-restaurant/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c01f15ea85c5f5d93d8ec5dcb5f73e6c9f077a61cfe820641c02fadd64a5b006",
+        "sha256": "f669f1da0981f75c3d6a466df7b271dbb02b1f15ca98f5f4c1e085dc011d40ab"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We will bring you the correct chicken sandwich "
+        },
+        {
+          "text": "in just five ",
+          "phraseIds": [
+            "in-just-five-minutes"
+          ]
+        },
+        {
+          "text": "minutes",
+          "phraseIds": [
+            "in-just-five-minutes"
+          ],
+          "wordIds": [
+            "minute"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我們會在五分鐘內把正確的雞肉三明治端給您。",
+      "audio": {
+        "src": "/audio/sentences/wrong-order-at-restaurant/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d7011b1b076b4fc5f92bca33b124446271fe5ab180be65b7bfd3970c84cc88d4",
+        "sha256": "ce53f840ace0305fd7e1f005c7d22da8d22df89003d25314d697fc52436b607c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Of ",
+          "phraseIds": [
+            "of-course"
+          ]
+        },
+        {
+          "text": "course",
+          "phraseIds": [
+            "of-course"
+          ],
+          "wordIds": [
+            "course"
+          ]
+        },
+        {
+          "text": ", please keep your drink while you wait."
+        }
+      ],
+      "translation": "當然，等候的時候請先享用您的飲料。",
+      "audio": {
+        "src": "/audio/sentences/wrong-order-at-restaurant/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "975e67f0f58c0b19c716bd343cac25f4ab97e67b77544e47c18e973f0661b024",
+        "sha256": "e68dadb601c8959ab4810f334161538ee4187683c5d18e9345a296d2efd30a6f"
+      }
+    }
+  ]
+}

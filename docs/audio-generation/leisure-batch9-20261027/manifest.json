@@ -1,0 +1,1211 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/cinema-ticket-booking/1.mp3",
+      "text": "Good afternoon, we want to buy student tickets for the afternoon animated movie.",
+      "textSha256": "42f87cd936c008451317bf197fecb0ad25e3084a21b4c0d5d5cc79652a491fcb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "028c65bd1df0fec423488aa11b413472c0638b00d7241b0246be1d6cc47b1f48",
+      "duration": 5.2,
+      "graphemes": [
+        "Good afternoon, we want to buy student tickets for the afternoon animated movie."
+      ],
+      "phonemes": [
+        "ɡˈʊd ˌæftəɹnˈun, wi wˈɑnt tə bˈI stˈudᵊnt tˈɪkəts fɔɹ ði ˌæftəɹnˈun ˈænəmˌATᵻd mˈuvi."
+      ]
+    },
+    {
+      "src": "/audio/sentences/cinema-ticket-booking/2.mp3",
+      "text": "Which screening time would you prefer, the two o'clock or the four thirty show?",
+      "textSha256": "888eeef9639ffc8f807074b38951f7c046eff8a07a4f4bfd0022a5fb8a19b456",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "76772f35ae6911e27fa36a067e3bd3e446a7bf1afff60d859b73cfc30fc75a92",
+      "duration": 4.5,
+      "graphemes": [
+        "Which screening time would you prefer, the two o'clock or the four thirty show?"
+      ],
+      "phonemes": [
+        "wˌɪʧ skɹˈinɪŋ tˈIm wʊd ju pɹifˈɜɹ, ðə tˈu əklˈɑk ɔɹ ðə fˈɔɹ θˈɜɹTi ʃˈO?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/cinema-ticket-booking/3.mp3",
+      "text": "The four thirty show fits our schedule, and are there good seats available in the middle row?",
+      "textSha256": "9594da32d2072dba74832776a25a144c1d1a1b7c73f9678faefd3acbf75a6e6d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "915132c241e96d82b8b8c2b8ad57feae6f84df565210a979cf8ec5d722e15442",
+      "duration": 5.35,
+      "graphemes": [
+        "The four thirty show fits our schedule, and are there good seats available in the middle row?"
+      ],
+      "phonemes": [
+        "ðə fˈɔɹ θˈɜɹTi ʃˈO fˈɪts ˌWəɹ skˈɛʤˌul, ænd ɑɹ ðɛɹ ɡˈʊd sˈits əvˈAləbᵊl ɪn ðə mˈɪdᵊl ɹˈO?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/cinema-ticket-booking/4.mp3",
+      "text": "Row F and row G in the center have a fairly clear view of the big screen.",
+      "textSha256": "8051507ba7d23c9ba748d9c2ad105ccaf20d95c2f56f9dab73334a3b4a52f3bb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "69d9ecd9b1fe5cc1db618dcf4f2914dab83181d58beb55fe2288263533362528",
+      "duration": 5.05,
+      "graphemes": [
+        "Row F and row G in the center have a fairly clear view of the big screen."
+      ],
+      "phonemes": [
+        "ɹˈO ˈɛf ænd ɹˈO ʤˈi ɪn ðə sˈɛntəɹ hæv ɐ fˈɛɹli klˈɪɹ vjˈu ʌv ðə bˈɪɡ skɹˈin."
+      ]
+    },
+    {
+      "src": "/audio/sentences/cinema-ticket-booking/5.mp3",
+      "text": "I really hate sitting too close to the front because the sound is too loud.",
+      "textSha256": "584ef4d24ec754f49331bbebef34e21b5e2ddd817e085fb19a9e8dc82dd5718b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a4eb9bc2ca6e2b81cf72044c5e301eefd906f095f6d349fd9b8e9fd2f3fd42aa",
+      "duration": 4.825,
+      "graphemes": [
+        "I really hate sitting too close to the front because the sound is too loud."
+      ],
+      "phonemes": [
+        "ˌI ɹˈiᵊli hˈAt sˈɪTɪŋ tˈu klˈOs tə ðə fɹˈʌnt bəkˈʌz ðə sˈWnd ɪz tˈu lˈWd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/cinema-ticket-booking/6.mp3",
+      "text": "The background score and musical soundtrack in this film are wonderful to enjoy.",
+      "textSha256": "adbef5148e6fcd886436e95969c76a772625de7920557f749fdeeec3867c43ec",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2438237265ec482ce691789a044ba20ff299c59c9905efd7de82cb0232b540d8",
+      "duration": 5.15,
+      "graphemes": [
+        "The background score and musical soundtrack in this film are wonderful to enjoy."
+      ],
+      "phonemes": [
+        "ðə bˈækɡɹˌWnd skˈɔɹ ænd mjˈuzəkᵊl sˈWndtɹˌæk ɪn ðɪs fˈɪlm ɑɹ wˈʌndəɹfᵊl tʊ ɪnʤˈY."
+      ]
+    },
+    {
+      "src": "/audio/phrases/cinema-ticket-booking-buy-student-tickets.mp3",
+      "text": "buy student tickets",
+      "textSha256": "c69a68fbba18c3f24561757c3a15e8d918310c3bd70da4ed9f7abf4b6a8cabae",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6ffc30257c254f1f8c936a37c3cc8a0b3fcd6539bf39906d4f0b7ef00a27839a",
+      "duration": 1.75,
+      "graphemes": [
+        "buy student tickets"
+      ],
+      "phonemes": [
+        "bˈI stˈudᵊnt tˈɪkəts"
+      ]
+    },
+    {
+      "src": "/audio/phrases/cinema-ticket-booking-in-the-middle-row.mp3",
+      "text": "in the middle row",
+      "textSha256": "7a0724ab5fa3f4cb2dfb4bd5808c7dcc27c5ed8adfe26f809723460a9dd11c0c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bfc77870bbaf71b02a6cb3ee0839b5ba24dd6d31ed4f926f1390ab4b1dc74e66",
+      "duration": 1.65,
+      "graphemes": [
+        "in the middle row"
+      ],
+      "phonemes": [
+        "ɪn ðə mˈɪdᵊl ɹˈO"
+      ]
+    },
+    {
+      "src": "/audio/phrases/cinema-ticket-booking-a-fairly-clear-view.mp3",
+      "text": "a fairly clear view",
+      "textSha256": "d08b29dcbdd031bb6913ddc58bc66dfa5edff8926a0c79a00cf689c47f778be6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "82d6bed139eda67aeeee53e6bdb6413def460bb5684cad1e5c0969c0d4ac0055",
+      "duration": 1.95,
+      "graphemes": [
+        "a fairly clear view"
+      ],
+      "phonemes": [
+        "ɐ fˈɛɹli klˈɪɹ vjˈu"
+      ]
+    },
+    {
+      "src": "/audio/phrases/cinema-ticket-booking-too-close-to-the-front.mp3",
+      "text": "too close to the front",
+      "textSha256": "df64ea84cd6ae61240e7fc5982320006b008d79fc4c10c69bf57a63d286c3e8d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7585cb4c4b0ff6a41357f9482c0dffa5a7912b2486eb4f2088fa89134a658e1b",
+      "duration": 1.85,
+      "graphemes": [
+        "too close to the front"
+      ],
+      "phonemes": [
+        "tˈu klˈOs tə ðə fɹˈʌnt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/cinema-ticket-booking-wonderful-to-enjoy.mp3",
+      "text": "wonderful to enjoy",
+      "textSha256": "837d277d9991b8ce8c5f0ef0180d5e1926362dd3cca4f1a2ebc61780b8cfa4f0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "226d5ccf5236ab246d92f43e9caa475cfb1b7d5d220897b0e60533cd38bfcf2d",
+      "duration": 1.725,
+      "graphemes": [
+        "wonderful to enjoy"
+      ],
+      "phonemes": [
+        "wˈʌndəɹfᵊl tʊ ɪnʤˈY"
+      ]
+    },
+    {
+      "src": "/audio/words/cinema-ticket-booking-movie.mp3",
+      "text": "movie",
+      "textSha256": "8a6ba32c9bed6ce703f999f9af6ec23686d44e144e4da572d94c8daca4a9cbab",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5b96c4c8becd48d6bdfbbc6a3952b8b7faadfb7cd23efaa3ae0371ffedc0d2ce",
+      "duration": 1.375,
+      "graphemes": [
+        "movie"
+      ],
+      "phonemes": [
+        "mˈuvi"
+      ]
+    },
+    {
+      "src": "/audio/words/cinema-ticket-booking-ticket.mp3",
+      "text": "ticket",
+      "textSha256": "14069429150abcbf244c4c2fb2c4c46a49c93ca9457263ecd9ebb176de3a58bb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a3e28c2a01b561a45e0b3200aa5664978d225582c89bce3d90de67e88f258b14",
+      "duration": 1.35,
+      "graphemes": [
+        "ticket"
+      ],
+      "phonemes": [
+        "tˈɪkət"
+      ]
+    },
+    {
+      "src": "/audio/words/cinema-ticket-booking-seat.mp3",
+      "text": "seat",
+      "textSha256": "5d2c13d6f9fa421125a9f55e56fd0e4df9319ef30087f8f4675cd6f05135f397",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "634197eb38b7b40f6f000b3173cda96619e0185a7707f445068d1bb287c773b8",
+      "duration": 1.2,
+      "graphemes": [
+        "seat"
+      ],
+      "phonemes": [
+        "sˈit"
+      ]
+    },
+    {
+      "src": "/audio/words/cinema-ticket-booking-screen.mp3",
+      "text": "screen",
+      "textSha256": "4cd6c2914887dd4a68e4c9ffbed8b077f048cf795d6cfa0b801d43e0ea5a1560",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fd3b2c2ae3266136af8e79e01d2b9f2bf6329c5d9503047f7104fecdce6bdd44",
+      "duration": 1.475,
+      "graphemes": [
+        "screen"
+      ],
+      "phonemes": [
+        "skɹˈin"
+      ]
+    },
+    {
+      "src": "/audio/words/cinema-ticket-booking-hate.mp3",
+      "text": "hate",
+      "textSha256": "f2e9a23ac36c4b227b16387b4e0d37793e9459f3912942069981886d5bffe90e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d3cb6e4c327c2a6db3f2ff13b36ac4cf3606880f359c05466a2a7261f847ef1c",
+      "duration": 1.225,
+      "graphemes": [
+        "hate"
+      ],
+      "phonemes": [
+        "hˈAt"
+      ]
+    },
+    {
+      "src": "/audio/words/cinema-ticket-booking-enjoy.mp3",
+      "text": "enjoy",
+      "textSha256": "75fba329cb6ee8907a1f009b69353d8c0e9a8228b25a1095c7976efc1eaa259d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6b1deefa41312e15080b24acc204bf09ab5ad1878872fe459d9d100b505a9d67",
+      "duration": 1.55,
+      "graphemes": [
+        "enjoy"
+      ],
+      "phonemes": [
+        "ɪnʤˈY"
+      ]
+    },
+    {
+      "src": "/audio/sentences/travel-itinerary-planning/1.mp3",
+      "text": "Since summer holiday is beginning soon, let us travel somewhere peaceful this Saturday.",
+      "textSha256": "8a095e7ac9cbff7a19f0449bec4f697c6e317cef642788aef3a33decd7c6dc2c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b253e0f4dc04c94bf9d1bdd4a60500059ed28ae50a86a4f170b73185465098dc",
+      "duration": 5.3,
+      "graphemes": [
+        "Since summer holiday is beginning soon, let us travel somewhere peaceful this Saturday."
+      ],
+      "phonemes": [
+        "sˈɪns sˈʌməɹ hˈɑlədˌA ɪz bəɡˈɪnɪŋ sˈun, lˈɛt ˌʌs tɹˈævᵊl sˈʌmhwˌɛɹ pˈisfᵊl ðɪs sˈæTəɹdˌA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/travel-itinerary-planning/2.mp3",
+      "text": "Do you want to explore an old historic town or walk through the quiet country hills?",
+      "textSha256": "92f5e59378a32f0ad425f92bcb53c3d2fc5fc4c75bd5c833c86bf761fda0ae82",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "618f46ad4627305805fdf375abe9b3662965fdba63d2bfceb3af47ce5738621e",
+      "duration": 5.025,
+      "graphemes": [
+        "Do you want to explore an old historic town or walk through the quiet country hills?"
+      ],
+      "phonemes": [
+        "dˈu ju wˈɑnt tʊ ɪksplˈɔɹ ɐn ˈOld hɪstˈɔɹɪk tˈWn ɔɹ wˈɔk θɹu ðə kwˈIət kˈʌntɹi hˈɪlz?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/travel-itinerary-planning/3.mp3",
+      "text": "A walking tour through the mountain country would give us a breath of fresh life.",
+      "textSha256": "06693bbf74b225f050161d19edea9d32655125f5e646b497fc46869ad1c2dd06",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8aaf2f5727a3dd43780389dc19e39d9bc7e3d4183b8982843630362eae49e961",
+      "duration": 4.825,
+      "graphemes": [
+        "A walking tour through the mountain country would give us a breath of fresh life."
+      ],
+      "phonemes": [
+        "ɐ wˈɔkɪŋ tˈʊɹ θɹu ðə mˈWntᵊn kˈʌntɹi wʊd ɡˈɪv ˌʌs ɐ bɹˈɛθ ʌv fɹˈɛʃ lˈIf."
+      ]
+    },
+    {
+      "src": "/audio/sentences/travel-itinerary-planning/4.mp3",
+      "text": "Is the scenic waterfall view really worth the two-hour train ride?",
+      "textSha256": "f41499c0aa57c2a51225edcea2152b9b2739ac425f4e72217bdd09e9071a7cd5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ce27a559df00fb58506e8bc8ea233dd4651c7e86906e4ee76324c8b9fba1dc03",
+      "duration": 4.275,
+      "graphemes": [
+        "Is the scenic waterfall view really worth the two-hour train ride?"
+      ],
+      "phonemes": [
+        "ˌɪz ðə sˈinɪk wˈɔTəɹfˌɔl vjˈu ɹˈiᵊli wˈɜɹθ ðə tˌuˈWəɹ tɹˈAn ɹˈId?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/travel-itinerary-planning/5.mp3",
+      "text": "It is definitely worth the trip because the forest nature trails are breathtaking.",
+      "textSha256": "c388df6163a5627742889b2972876b5fa2b660c1bb11406f0cd4bc40f9fc4784",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4beea56745175ace449cb564638f263bc83aef38645b8891905d0b731138ec81",
+      "duration": 5.075,
+      "graphemes": [
+        "It is definitely worth the trip because the forest nature trails are breathtaking."
+      ],
+      "phonemes": [
+        "ˌɪt ɪz dˈɛfᵊnətli wˈɜɹθ ðə tɹˈɪp bəkˈʌz ðə fˈɔɹəst nˈAʧəɹ tɹˈAlz ɑɹ bɹˈɛθtˌAkɪŋ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/travel-itinerary-planning/6.mp3",
+      "text": "Let us pack simple sandwiches and visit the local tea farm in the afternoon.",
+      "textSha256": "c2808982f3b9a99b0251f25ff921634b0c291309c7756df064969ebc4df7a0fd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3031543c9f9b83bb4163d93d999f38d4778ed3f9ded2fc2a214e0dfcce272251",
+      "duration": 5.05,
+      "graphemes": [
+        "Let us pack simple sandwiches and visit the local tea farm in the afternoon."
+      ],
+      "phonemes": [
+        "lˈɛt ˌʌs pˈæk sˈɪmpəl sˈændwˌɪʧᵻz ænd vˈɪzət ðə lˈOkəl tˈi fˈɑɹm ɪn ði ˌæftəɹnˈun."
+      ]
+    },
+    {
+      "src": "/audio/phrases/travel-itinerary-planning-summer-holiday.mp3",
+      "text": "summer holiday",
+      "textSha256": "ff9fe265db45a7461f4c3318d99e660acdc97a23938efb70fb31251d393f484f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4dfdd80149fcb71d61c82553ea162412792096b10dca8f4ebec9a6aafc56ca3c",
+      "duration": 1.675,
+      "graphemes": [
+        "summer holiday"
+      ],
+      "phonemes": [
+        "sˈʌməɹ hˈɑlədˌA"
+      ]
+    },
+    {
+      "src": "/audio/phrases/travel-itinerary-planning-travel-somewhere-peaceful.mp3",
+      "text": "travel somewhere peaceful",
+      "textSha256": "024d806375edd1107aca0d7193424271d31296d85aa5a8038d670b96c30077c1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "97fe58e507596ac31d57ed6a3681f57096648a0f56329c9a631a386cb22014e3",
+      "duration": 1.9,
+      "graphemes": [
+        "travel somewhere peaceful"
+      ],
+      "phonemes": [
+        "tɹˈævᵊl sˈʌmhwˌɛɹ pˈisfᵊl"
+      ]
+    },
+    {
+      "src": "/audio/phrases/travel-itinerary-planning-country-hills.mp3",
+      "text": "country hills",
+      "textSha256": "d5da3bf15878b5f51a6e43c30cd0f5281ffc4c534919d9b26ffa3814b9977ea9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e17219674e746d1b4dd39f06c201dd0c7f8c3db646347579abb1025313f35f9b",
+      "duration": 1.625,
+      "graphemes": [
+        "country hills"
+      ],
+      "phonemes": [
+        "kˈʌntɹi hˈɪlz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/travel-itinerary-planning-worth-the-trip.mp3",
+      "text": "worth the trip",
+      "textSha256": "e2404fa2eefbcf1a733c8dfe2cc6ccf68b2bc729b1e7141e0746cbbdfef02da2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d09d6207474301a6f0badb3bd012d4de331ec24db5d75990895a4948b9272a55",
+      "duration": 1.475,
+      "graphemes": [
+        "worth the trip"
+      ],
+      "phonemes": [
+        "wˈɜɹθ ðə tɹˈɪp"
+      ]
+    },
+    {
+      "src": "/audio/phrases/travel-itinerary-planning-visit-the-local-tea-farm.mp3",
+      "text": "visit the local tea farm",
+      "textSha256": "bda15659104bee815e13ef991dffdba2058d0e9b1c3d13ff5abccefb74ef5e63",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d389a7c68f571db38b9d30d2c0221f1ac44cdc04ecf3ab4b7e3c6fec57904fc7",
+      "duration": 2.125,
+      "graphemes": [
+        "visit the local tea farm"
+      ],
+      "phonemes": [
+        "vˈɪzət ðə lˈOkəl tˈi fˈɑɹm"
+      ]
+    },
+    {
+      "src": "/audio/words/travel-itinerary-planning-holiday.mp3",
+      "text": "holiday",
+      "textSha256": "81c16d337a1b73144ebf20b45661f2b02aa0b22e886a978d6b2ec929cdaaee9e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6acf4d8a15727da1508ef41d6fa3a3a34a4fce2390838bde99af4f1108776562",
+      "duration": 1.475,
+      "graphemes": [
+        "holiday"
+      ],
+      "phonemes": [
+        "hˈɑlədˌA"
+      ]
+    },
+    {
+      "src": "/audio/words/travel-itinerary-planning-summer.mp3",
+      "text": "summer",
+      "textSha256": "e83664255c6963e962bb20f9fcfaad1b570ddf5da69f5444ed37e5260f3ef689",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "00397953616056dc7c95f417eb701917cbf0b638bbea7c16c73807cf1d06cef4",
+      "duration": 1.325,
+      "graphemes": [
+        "summer"
+      ],
+      "phonemes": [
+        "sˈʌməɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/travel-itinerary-planning-travel.mp3",
+      "text": "travel",
+      "textSha256": "0209442e115ad7bc79fd281d91423a86b619e3c711fe574b7cc198d2e3c461c4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "aefdea1bd4a9e942e44db6634ff7f9e30f83f6d782423e9c60bc98aad6baf214",
+      "duration": 1.375,
+      "graphemes": [
+        "travel"
+      ],
+      "phonemes": [
+        "tɹˈævᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/travel-itinerary-planning-town.mp3",
+      "text": "town",
+      "textSha256": "50ac81f970325a3e011f2437818adde426e1278dee5670dd359edfca43a72d79",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6a5268515ae397e96e69fcb0090a08ef461bd261175c72231ddf500c3be30b6d",
+      "duration": 1.4,
+      "graphemes": [
+        "town"
+      ],
+      "phonemes": [
+        "tˈWn"
+      ]
+    },
+    {
+      "src": "/audio/words/travel-itinerary-planning-country.mp3",
+      "text": "country",
+      "textSha256": "aff64e4fd520bd185cb01adab98d2d20060f621c62d5cad5204712cfa2294ef7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "aad481e000a15277709d6a4e137b06403ccf97a76a2e251fb5abbc6c03684929",
+      "duration": 1.5,
+      "graphemes": [
+        "country"
+      ],
+      "phonemes": [
+        "kˈʌntɹi"
+      ]
+    },
+    {
+      "src": "/audio/words/travel-itinerary-planning-worth.mp3",
+      "text": "worth",
+      "textSha256": "c0a6eb55b12b7dfe01d9e55f4563eeefe13bd7ef7d7d576fdd8a9977d7a09f5d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9b86492879d76ff6632aa8253a51431e7bd3b284eba6135da28f787249236e38",
+      "duration": 1.3,
+      "graphemes": [
+        "worth"
+      ],
+      "phonemes": [
+        "wˈɜɹθ"
+      ]
+    },
+    {
+      "src": "/audio/sentences/amusement-park-entry/1.mp3",
+      "text": "Welcome to Ocean World, how many adult and child tickets do you need?",
+      "textSha256": "ddfef13591806e5da574452ed381c0e15f536e8df789fd468e5ad238e79fcea6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2369a20e5054fa6d93e81e70371d911f52ecf39072b22200779136dbd42d4d21",
+      "duration": 4.55,
+      "graphemes": [
+        "Welcome to Ocean World, how many adult and child tickets do you need?"
+      ],
+      "phonemes": [
+        "wˈɛlkəm tʊ ˈOʃən wˈɜɹld, hˌW mˈɛni ədˈʌlt ænd ʧˈIld tˈɪkəts dˈu ju nˈid?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/amusement-park-entry/2.mp3",
+      "text": "We need two adult day passes and one ticket for our young kid.",
+      "textSha256": "6735a97ff24309219dedd6c00b29275de7d57128d63e398bd7f8625b8f953871",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "167c1ab728887a7a8c0f0797bbc1da48e1a9a9a9b9ec6c74c30bf1081d331608",
+      "duration": 4.225,
+      "graphemes": [
+        "We need two adult day passes and one ticket for our young kid."
+      ],
+      "phonemes": [
+        "wˌi nˈid tˈu ədˈʌlt dˈA pˈæsᵻz ænd wˈʌn tˈɪkət fɔɹ ˌWəɹ jˈʌŋ kˈɪd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/amusement-park-entry/3.mp3",
+      "text": "Children must be over one hundred and twenty centimeters in height for the big roller coaster.",
+      "textSha256": "d2dd8087dbb5e3c381988645da1ade0a04c899d59d8421b0b58a4c3cf92ef4f2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8cbd1908b4a4f8745c7fffa8570d8a71643e60c046bf3504f93a6ecc798e0532",
+      "duration": 5.925,
+      "graphemes": [
+        "Children must be over one hundred and twenty centimeters in height for the big roller coaster."
+      ],
+      "phonemes": [
+        "ʧˈɪldɹᵊn mˈʌst bi ˈOvəɹ wˈʌn hˈʌndɹəd ænd twˈɛnti sˈɛntəmˌiTəɹz ɪn hˈIt fɔɹ ðə bˈɪɡ ɹˈOləɹ kˈOstəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/amusement-park-entry/4.mp3",
+      "text": "The fair attendant measured him gently, and he passed the minimum requirement easily.",
+      "textSha256": "a5b69fddf903c7f62446790520f7ae0c9c80af79e25c55c7bf8c3061557f2cc2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "99302cd599537cb5e3dd3cab4f1c62d46d5420e9a846bca2ccf46e6c01039ec3",
+      "duration": 5.425,
+      "graphemes": [
+        "The fair attendant measured him gently, and he passed the minimum requirement easily."
+      ],
+      "phonemes": [
+        "ðə fˈɛɹ ətˈɛndᵊnt mˈɛʒəɹd hˌɪm ʤˈɛntli, ænd hi pˈæst ðə mˈɪnəməm ɹəkwˈIəɹmᵊnt ˈizᵊli."
+      ]
+    },
+    {
+      "src": "/audio/sentences/amusement-park-entry/5.mp3",
+      "text": "How long is the waiting line for the fast water splash ride right now?",
+      "textSha256": "4b4ec2077ba376b296b6802f8085bd986800c072d3cbfd97ba9b9829efd4c0e4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7881f31589f559258196b54c4ce2b7a995f45884562a5ed11ebb7b8ef0457aa1",
+      "duration": 4.5,
+      "graphemes": [
+        "How long is the waiting line for the fast water splash ride right now?"
+      ],
+      "phonemes": [
+        "hˌW lˈɔŋ ɪz ðə wˈATɪŋ lˈIn fɔɹ ðə fˈæst wˈɔTəɹ splˈæʃ ɹˈId ɹˈIt nˈW?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/amusement-park-entry/6.mp3",
+      "text": "The wait is only twenty minutes, so go ahead and have lots of fun!",
+      "textSha256": "9a8c753f2e22e77417b7b6debb560151d8e18d59dd9b5dabe682a5afeaf2aefe",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5d48cfe58279a351b56f2be4b75f27fa4a747fdfdd8494144b55564a3ff6ea2e",
+      "duration": 4.45,
+      "graphemes": [
+        "The wait is only twenty minutes, so go ahead and have lots of fun!"
+      ],
+      "phonemes": [
+        "ðə wˈAt ɪz ˈOnli twˈɛnti mˈɪnəts, sˌO ɡˌO əhˈɛd ænd hæv lˈɑts ʌv fˈʌn!"
+      ]
+    },
+    {
+      "src": "/audio/phrases/amusement-park-entry-adult-day-passes.mp3",
+      "text": "adult day passes",
+      "textSha256": "4248ba2e44bf2b72a0f4c78c1a75e9254ddb7f86f6f9a0c28f097827a10fc804",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d8b508fcf204ff514e6942e12c84a465c15ea984b10b05bed89d1e270bb0f143",
+      "duration": 1.975,
+      "graphemes": [
+        "adult day passes"
+      ],
+      "phonemes": [
+        "ədˈʌlt dˈA pˈæsᵻz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/amusement-park-entry-young-kid.mp3",
+      "text": "young kid",
+      "textSha256": "c5f2d9cfcc0cb4c2b9e9af6d1849ac48f0e29544623bbe01a856a733a46db62b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "03b2320924d3817fcde977c4fd94a14c7bdca80e3e769f287bf6ca0e9bcad34e",
+      "duration": 1.525,
+      "graphemes": [
+        "young kid"
+      ],
+      "phonemes": [
+        "jˈʌŋ kˈɪd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/amusement-park-entry-minimum-requirement.mp3",
+      "text": "minimum requirement",
+      "textSha256": "a85fd8df1a4d49296ddd4a7cca1e84f947afd9df1f2e24e365396e9bec4cbea4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "57ae643e0915ffd64a976b054f5579a5b4c3966de803d3a42600c5ac8de90d42",
+      "duration": 1.825,
+      "graphemes": [
+        "minimum requirement"
+      ],
+      "phonemes": [
+        "mˈɪnəməm ɹəkwˈIəɹmᵊnt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/amusement-park-entry-waiting-line.mp3",
+      "text": "waiting line",
+      "textSha256": "85387e13b44741de484cc4a2b20094e5c5c582149ee2f30a1e681e5fd7b4bb28",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "67356d186eac2022a2ed946aadb3c4c86794cde474c11a6f6e48f09ff6c53838",
+      "duration": 1.35,
+      "graphemes": [
+        "waiting line"
+      ],
+      "phonemes": [
+        "wˈATɪŋ lˈIn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/amusement-park-entry-have-lots-of-fun.mp3",
+      "text": "have lots of fun",
+      "textSha256": "643e5e069998a0767ceaf7db1e7fdf5a07c3649abde87e22d6aa71428b68b1cb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2956d1ce1938a4cc86059029716186139993ae5c7afa77419112ce12f4a0e8e8",
+      "duration": 1.825,
+      "graphemes": [
+        "have lots of fun"
+      ],
+      "phonemes": [
+        "hæv lˈɑts ʌv fˈʌn"
+      ]
+    },
+    {
+      "src": "/audio/words/amusement-park-entry-kid.mp3",
+      "text": "kid",
+      "textSha256": "5c77d7fd8f51ed0c2a913e46326ff6d2ea2e95c8ecf1667c72eb72ccc3fc2b46",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ae3fa5537a8e57ffc6cf0099ebf39ab15396653fd48d5a9032e08d0403f36d73",
+      "duration": 1.325,
+      "graphemes": [
+        "kid"
+      ],
+      "phonemes": [
+        "kˈɪd"
+      ]
+    },
+    {
+      "src": "/audio/words/amusement-park-entry-child.mp3",
+      "text": "child",
+      "textSha256": "ddc9e669194254cef019a29d3619a2c16592e5d52e1a81e98b01bd52319149a3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "82dde9ee962d5de3aadb8dc9a6424483d4d12ba7a050d47c3effa02c66114b33",
+      "duration": 1.325,
+      "graphemes": [
+        "child"
+      ],
+      "phonemes": [
+        "ʧˈIld"
+      ]
+    },
+    {
+      "src": "/audio/words/amusement-park-entry-ride.mp3",
+      "text": "ride",
+      "textSha256": "e049bd056f936d1b39b704abcf824eaef39bd8877fcbb82b2a213ceec82bdf26",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e0dcee5fe3463b9382e444e824950f92564f2c7227eff71ffc39ced472555894",
+      "duration": 1.325,
+      "graphemes": [
+        "ride"
+      ],
+      "phonemes": [
+        "ɹˈId"
+      ]
+    },
+    {
+      "src": "/audio/words/amusement-park-entry-pass.mp3",
+      "text": "pass",
+      "textSha256": "d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8ea6a991023005bd4a3d817f8578f41fd2f9b206ce8960dfb931b6c2787f6828",
+      "duration": 1.3,
+      "graphemes": [
+        "pass"
+      ],
+      "phonemes": [
+        "pˈæs"
+      ]
+    },
+    {
+      "src": "/audio/words/amusement-park-entry-fair.mp3",
+      "text": "fair",
+      "textSha256": "1869c9d2a11e8ecde889aa06a811403308c819ea0a4289c50b90eb1d812c1338",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c9b8e8ca7a53919c3c3ac8721f0ce546151302385e34ac2d52b9f6c125d81b94",
+      "duration": 1.25,
+      "graphemes": [
+        "fair"
+      ],
+      "phonemes": [
+        "fˈɛɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/amusement-park-entry-fun.mp3",
+      "text": "fun",
+      "textSha256": "00c4285274fcc5d6fba2ee58daf0d8c2b9b825b68d35d65d0e90a9bb333a51b5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "61b55c10d0e1361b5e85664e314a46794f8ac0e25834bb1f08a7ef0c8d4384cf",
+      "duration": 1.325,
+      "graphemes": [
+        "fun"
+      ],
+      "phonemes": [
+        "fˈʌn"
+      ]
+    },
+    {
+      "src": "/audio/sentences/museum-exhibition-audio-guide/1.mp3",
+      "text": "I would like to rent an audio guide device for the ancient history exhibit.",
+      "textSha256": "ad500af68f0360e56a768abe6489f0736a368a5065fd06418522a29abb086972",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5c785e3b13df7ba8204c67291eaf753b8cd89cb714c74dc75f7d4e1668d169a2",
+      "duration": 4.8,
+      "graphemes": [
+        "I would like to rent an audio guide device for the ancient history exhibit."
+      ],
+      "phonemes": [
+        "ˌI wʊd lˈIk tə ɹˈɛnt ɐn ˈɔdiO ɡˈId dəvˈIs fɔɹ ði ˈAnʧənt hˈɪstəɹi ɪɡzˈɪbət."
+      ]
+    },
+    {
+      "src": "/audio/sentences/museum-exhibition-audio-guide/2.mp3",
+      "text": "Which language would you like the audio commentary to play in?",
+      "textSha256": "72f3941d5782d356022fe4ec2204106d5c498fe393c540c69f5d49bc806ad4df",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "68505fd84776bd2ae408eb4d8de0e7de604bf27ed0b3bad007a25344fd03446c",
+      "duration": 3.8,
+      "graphemes": [
+        "Which language would you like the audio commentary to play in?"
+      ],
+      "phonemes": [
+        "wˌɪʧ lˈæŋɡwɪʤ wʊd ju lˈIk ði ˈɔdiO kˈɑməntˌɛɹi tə plˈA ˈɪn?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/museum-exhibition-audio-guide/3.mp3",
+      "text": "Please set it to English so I can practice listening to historical terms.",
+      "textSha256": "fa16ad7572e52fd84417e5dde4b3c6e02fe756829015920d4b5363ae03809d42",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2565847fdc7d262ce90b9678ba920407ea1dd857a785a6c2a97627ee46daa5a3",
+      "duration": 4.75,
+      "graphemes": [
+        "Please set it to English so I can practice listening to historical terms."
+      ],
+      "phonemes": [
+        "plˈiz sˈɛt ɪt tʊ ˈɪŋɡlɪʃ sˌO ˌI kæn pɹˈæktəs lˈɪsənɪŋ tə hɪstˈɔɹəkᵊl tˈɜɹmz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/museum-exhibition-audio-guide/4.mp3",
+      "text": "When you walk up to any display case, simply press the matching number on the keypad.",
+      "textSha256": "0e4d3710e74877c5c3699da555b8299cc87a7699e22c20f064992c6175380535",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ca8bb98281a5c5c3e75712e70027d893ec7494a2959bd3ecda1b864bf53cb666",
+      "duration": 5.05,
+      "graphemes": [
+        "When you walk up to any display case, simply press the matching number on the keypad."
+      ],
+      "phonemes": [
+        "wˌɛn ju wˈɔk ˌʌp tʊ ˈɛni dəsplˈA kˈAs, sˈɪmpli pɹˈɛs ðə mˈæʧɪŋ nˈʌmbəɹ ˌɔn ðə kˈipˌæd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/museum-exhibition-audio-guide/5.mp3",
+      "text": "Each track explains the culture and daily life of people during that dynamic period.",
+      "textSha256": "63c53e9b4424ef61d554fdf3177f66fe4b3ef06dff622eada3ce76230d52862c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "670fc953b8eaa6853c5b03c816b8138226958018d618dac10f69660113a0ab5a",
+      "duration": 5.65,
+      "graphemes": [
+        "Each track explains the culture and daily life of people during that dynamic period."
+      ],
+      "phonemes": [
+        "ˈiʧ tɹˈæk ɪksplˈAnz ðə kˈʌlʧəɹ ænd dˈAli lˈIf ʌv pˈipᵊl dˈʊɹɪŋ ðˈæt dInˈæmɪk pˈɪɹiəd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/museum-exhibition-audio-guide/6.mp3",
+      "text": "This handheld player really adds great interest to our afternoon museum tour.",
+      "textSha256": "5c8fc821e8cb1b81a6e65e0d5d1f83981bca1da257280df29cdfb2642ff09e1b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c27db69923d37cf321f56700bc74797efaa72be5f388a88d54f2d1edd5891747",
+      "duration": 5.05,
+      "graphemes": [
+        "This handheld player really adds great interest to our afternoon museum tour."
+      ],
+      "phonemes": [
+        "ðˌɪs hˈændhˌɛld plˈAəɹ ɹˈiᵊli ˈædz ɡɹˈAt ˈɪntɹəst tʊ ˌWəɹ ˌæftəɹnˈun mjuzˈiəm tˈʊɹ."
+      ]
+    },
+    {
+      "src": "/audio/phrases/museum-exhibition-audio-guide-audio-guide-device.mp3",
+      "text": "audio guide device",
+      "textSha256": "631c861f60b77fa5b155cdc12b23f5403a093814da6fde78e4d380b1ec19cbb1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "524be08b0cad538132dba6e87a641c9362837ab6fd98b6e9038be0f5566f8c94",
+      "duration": 1.85,
+      "graphemes": [
+        "audio guide device"
+      ],
+      "phonemes": [
+        "ˈɔdiO ɡˈId dəvˈIs"
+      ]
+    },
+    {
+      "src": "/audio/phrases/museum-exhibition-audio-guide-set-it-to-english.mp3",
+      "text": "set it to English",
+      "textSha256": "74272d765a9da7dee9f90a82a3ba5e0e930c02dcda2ccfa8aaa8c21f086bd942",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2cebe14547d529e277a929c675942db732e9b0b3b297fb0823c20f161fbeaea8",
+      "duration": 1.675,
+      "graphemes": [
+        "set it to English"
+      ],
+      "phonemes": [
+        "sˈɛt ɪt tʊ ˈɪŋɡlɪʃ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/museum-exhibition-audio-guide-display-case.mp3",
+      "text": "display case",
+      "textSha256": "ac7b58e9d4192b0c46e73cb7c02cfa1e3d1fd9c0e4e49617389e553de7d286a4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "334804330737762a6dbf2223adc13dbabc0cc88f126cbb9ce302853623e2dca6",
+      "duration": 1.7,
+      "graphemes": [
+        "display case"
+      ],
+      "phonemes": [
+        "dəsplˈA kˈAs"
+      ]
+    },
+    {
+      "src": "/audio/phrases/museum-exhibition-audio-guide-press-the-matching-number.mp3",
+      "text": "press the matching number",
+      "textSha256": "9ca031b64685b3a13f0a284a08706bff4b674e002b169e16a67aa3454b991893",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "92e18b7fc68d3d780a0a6cd6b272e6e67035c237a62c51416cd5aedb1d8c5b53",
+      "duration": 1.9,
+      "graphemes": [
+        "press the matching number"
+      ],
+      "phonemes": [
+        "pɹˈɛs ðə mˈæʧɪŋ nˈʌmbəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/museum-exhibition-audio-guide-culture-and-daily-life.mp3",
+      "text": "culture and daily life",
+      "textSha256": "3542470f914350bc85db1e68a7dd90b900138c79840e2fb494f21bb9741ae6d9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1c4c7665bbe509b2da7e78ccb4f2318d8e72afdf90c281be37a9ae250b6993be",
+      "duration": 1.925,
+      "graphemes": [
+        "culture and daily life"
+      ],
+      "phonemes": [
+        "kˈʌlʧəɹ ænd dˈAli lˈIf"
+      ]
+    },
+    {
+      "src": "/audio/words/museum-exhibition-audio-guide-history.mp3",
+      "text": "history",
+      "textSha256": "259aa8ef98a8b91de574cd904138ef643240c23080cf24da4793a6f10a43fa9d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9665cba9c228d930caa1f04236f4a75909858008596b4dc8bcfb88d423be610b",
+      "duration": 1.475,
+      "graphemes": [
+        "history"
+      ],
+      "phonemes": [
+        "hˈɪstəɹi"
+      ]
+    },
+    {
+      "src": "/audio/words/museum-exhibition-audio-guide-language.mp3",
+      "text": "language",
+      "textSha256": "a4ef304ba42a200bafd78b046e0869af9183f6eee5524aead5dcb3a5ab5f8f3f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4c2de4d219447a003c25a98f43173117339cffdcb94c817fdcc8e77da20da07f",
+      "duration": 1.475,
+      "graphemes": [
+        "language"
+      ],
+      "phonemes": [
+        "lˈæŋɡwɪʤ"
+      ]
+    },
+    {
+      "src": "/audio/words/museum-exhibition-audio-guide-period.mp3",
+      "text": "period",
+      "textSha256": "514cb13f603464f97849ba88d2d4f9698003a9323de9b7a3d162ef76f6998122",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7d471b7acc33de76153f7155cf657ec97545ca5db53c43908e32634ccdb67530",
+      "duration": 1.35,
+      "graphemes": [
+        "period"
+      ],
+      "phonemes": [
+        "pˈɪɹiəd"
+      ]
+    },
+    {
+      "src": "/audio/words/museum-exhibition-audio-guide-interest.mp3",
+      "text": "interest",
+      "textSha256": "828408e40d4fe651488b14696b60b613c9683ab9862e03f4e72aec7c1fda7635",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f8bbbcdf6520dac95ee5d10ba455ba85248d6392ab6cb06e9697201762d901e1",
+      "duration": 1.45,
+      "graphemes": [
+        "interest"
+      ],
+      "phonemes": [
+        "ˈɪntɹəst"
+      ]
+    },
+    {
+      "src": "/audio/words/museum-exhibition-audio-guide-culture.mp3",
+      "text": "culture",
+      "textSha256": "f1947f79fdfb8046150959ca09cdd05cb53672ad4c0f49a87bbc7cddf5c91293",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4a3005bf677bc4b2936dd48492b4f6d6b71c584cf694f42046b9f65ace280409",
+      "duration": 1.4,
+      "graphemes": [
+        "culture"
+      ],
+      "phonemes": [
+        "kˈʌlʧəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/museum-exhibition-audio-guide-display.mp3",
+      "text": "display",
+      "textSha256": "dfbb889cf19bda82ed8deadf82de232979aa4ecc83238625c6453dc4c597b43a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3bbcdf9d5727b55455a7b1289143b8d596521690079fb63dc1cb672e5d05942e",
+      "duration": 1.55,
+      "graphemes": [
+        "display"
+      ],
+      "phonemes": [
+        "dəsplˈA"
+      ]
+    },
+    {
+      "src": "/audio/sentences/sports-match-cheering/1.mp3",
+      "text": "The basketball gym is completely packed with students cheering for our school match.",
+      "textSha256": "371924f5a5680f293bd66404e3a1a99f05c48c9904737c16d1f39c1e94085cda",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b90af2ec858f64c70e47a10c7e14d30e4ef02f4a29673f9eed34b0a559db34f9",
+      "duration": 5.15,
+      "graphemes": [
+        "The basketball gym is completely packed with students cheering for our school match."
+      ],
+      "phonemes": [
+        "ðə bˈæskətbˌɔl ʤˈɪm ɪz kəmplˈitli pˈækt wɪð stˈudᵊnts ʧˈɪɹɪŋ fɔɹ ˌWəɹ skˈul mˈæʧ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/sports-match-cheering/2.mp3",
+      "text": "Our team is trailing by just two points on the electronic scoreboard.",
+      "textSha256": "7a523798ccc92be07b597e587380bd46fb29738ca3205a93544ac21283a526a4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "18dc2d1f56c49d036bf0210c5ff547750d4f90e58e3aabf78c1eb32d25b57aeb",
+      "duration": 4.15,
+      "graphemes": [
+        "Our team is trailing by just two points on the electronic scoreboard."
+      ],
+      "phonemes": [
+        "ˌWəɹ tˈim ɪz tɹˈAlɪŋ bI ʤˈʌst tˈu pˈYnts ˌɔn ði əlˌɛktɹˈɑnɪk skˈɔɹbˌɔɹd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/sports-match-cheering/3.mp3",
+      "text": "Number seven made a fantastic pass, and the center scored a thrilling goal!",
+      "textSha256": "13bc870b6d8c8ae0ac7760d4c852c17def16decc95799f1542592c4abae68d48",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f133fcb00349d4b0c8a4647896a32292c68091b78c6da1aa8ecf00a84c03ff72",
+      "duration": 4.925,
+      "graphemes": [
+        "Number seven made a fantastic pass, and the center scored a thrilling goal!"
+      ],
+      "phonemes": [
+        "nˈʌmbəɹ sˈɛvən mˌAd ɐ fæntˈæstɪk pˈæs, ænd ðə sˈɛntəɹ skˈɔɹd ɐ θɹˈɪlɪŋ ɡˈOl!"
+      ]
+    },
+    {
+      "src": "/audio/sentences/sports-match-cheering/4.mp3",
+      "text": "Every player on the court showed incredible defensive action in the final minute.",
+      "textSha256": "8ad46ea319f312b7b64a5b8fd61b7091abac4ac6d9ec63bb9bd3bdbc865cf357",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "970d66e30d914727e95d6cdba6f1de5ec45bfc83b087e748f6711042230478c4",
+      "duration": 5.275,
+      "graphemes": [
+        "Every player on the court showed incredible defensive action in the final minute."
+      ],
+      "phonemes": [
+        "ˈɛvəɹi plˈAəɹ ˌɔn ðə kˈɔɹt ʃˈOd ɪnkɹˈɛdəbᵊl dəfˈɛnsɪv ˈækʃən ɪn ðə fˈInᵊl mˈɪnət."
+      ]
+    },
+    {
+      "src": "/audio/sentences/sports-match-cheering/5.mp3",
+      "text": "Everyone stood up and shouted loud cheers as our team took the lead.",
+      "textSha256": "427df01072779206c4196b95394220fdd82c97e373fd122f8005fbb14250df32",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "980f9aa1764ac942c06e21991b5fcf7e1f998b431fddfe085a90e62509ada092",
+      "duration": 4.45,
+      "graphemes": [
+        "Everyone stood up and shouted loud cheers as our team took the lead."
+      ],
+      "phonemes": [
+        "ˈɛvɹiwən stˈʊd ˌʌp ænd ʃˈWTᵻd lˈWd ʧˈɪɹz æz ˌWəɹ tˈim tˈʊk ðə lˈid."
+      ]
+    },
+    {
+      "src": "/audio/sentences/sports-match-cheering/6.mp3",
+      "text": "With great effort and collective determination, our classmates celebrated a proud win.",
+      "textSha256": "6616bf8ccb84cd298ccc2d0e0ea8a523042e0b59bc04ad0e3dad38cb813c12ec",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "021b4c282c28810873d891ccb1705038ad37eb352244af158ede2d2e2d97093f",
+      "duration": 5.6,
+      "graphemes": [
+        "With great effort and collective determination, our classmates celebrated a proud win."
+      ],
+      "phonemes": [
+        "wˌɪð ɡɹˈAt ˈɛfəɹt ænd kəlˈɛktɪv dətˌɜɹmənˈAʃən, ˌWəɹ klˈæsmˌAts sˈɛləbɹˌATᵻd ɐ pɹˈWd wˈɪn."
+      ]
+    },
+    {
+      "src": "/audio/phrases/sports-match-cheering-school-match.mp3",
+      "text": "school match",
+      "textSha256": "300aa9bee02eaa7d68e969fb91511d0474a302fa2ae58cd6aab432237b2062fa",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1169c810ea0acf69afa2960f8abdfa4991de8cbdc8bf0090f7b953dbbdf8a978",
+      "duration": 1.625,
+      "graphemes": [
+        "school match"
+      ],
+      "phonemes": [
+        "skˈul mˈæʧ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/sports-match-cheering-cheering-for-our-school.mp3",
+      "text": "cheering for our school",
+      "textSha256": "17372849ab9253f9afbe2ca373da975763ed6e29ae834552d6f5d9cb768d163b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9bb6ca46a8a27d2063c2878c463c7aa50acdc003cc0031b891ba09fd016ebef9",
+      "duration": 1.775,
+      "graphemes": [
+        "cheering for our school"
+      ],
+      "phonemes": [
+        "ʧˈɪɹɪŋ fɔɹ ˌWəɹ skˈul"
+      ]
+    },
+    {
+      "src": "/audio/phrases/sports-match-cheering-on-the-electronic-scoreboard.mp3",
+      "text": "on the electronic scoreboard",
+      "textSha256": "d7797e7e90cbc90234bb54efcc3fb9d620f0bcc0fbf711f4a2c73df3b43fb821",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f12b1a522ea8c8d86eec569ff3c352c5c5fab53273e310892be1937676d31a57",
+      "duration": 1.975,
+      "graphemes": [
+        "on the electronic scoreboard"
+      ],
+      "phonemes": [
+        "ˌɔn ði əlˌɛktɹˈɑnɪk skˈɔɹbˌɔɹd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/sports-match-cheering-took-the-lead.mp3",
+      "text": "took the lead",
+      "textSha256": "e28c1f9007351ade783684f1821c8e5dab94ecb0540e5e462ffb57ae0faca858",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a3a7a1647ea3fc2dd6745439586f27755f8fcb81b78c8079c54d0de8661eebf6",
+      "duration": 1.55,
+      "graphemes": [
+        "took the lead"
+      ],
+      "phonemes": [
+        "tˈʊk ðə lˈid"
+      ]
+    },
+    {
+      "src": "/audio/phrases/sports-match-cheering-proud-win.mp3",
+      "text": "proud win",
+      "textSha256": "cee608ae2cac6b93a243253dd34093548b97208cc36190139c82d79192977b9f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "994bdcc1392df7a511cfa2aaabe78a1d6f8add1561748505a20c20117ce3850b",
+      "duration": 1.55,
+      "graphemes": [
+        "proud win"
+      ],
+      "phonemes": [
+        "pɹˈWd wˈɪn"
+      ]
+    },
+    {
+      "src": "/audio/words/sports-match-cheering-match.mp3",
+      "text": "match",
+      "textSha256": "4945a70fa7f9c13fe1931a3372ac5798140d42eba74d0dd805a4a216ed3a8142",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c23ad4866937944db5974a9bddba3aaf839feddb7c49b12748f0ffe3716aa8a8",
+      "duration": 1.3,
+      "graphemes": [
+        "match"
+      ],
+      "phonemes": [
+        "mˈæʧ"
+      ]
+    },
+    {
+      "src": "/audio/words/sports-match-cheering-win.mp3",
+      "text": "win",
+      "textSha256": "823a3180dad3c9c3c4dea43ab2baf9f04bac9c3a7711745ff5f702551496d735",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "302a53f91f38e6c8e411598405674beab57469455ad6bc22f0f781c80f8fcd7d",
+      "duration": 1.3,
+      "graphemes": [
+        "win"
+      ],
+      "phonemes": [
+        "wˈɪn"
+      ]
+    },
+    {
+      "src": "/audio/words/sports-match-cheering-score.mp3",
+      "text": "score",
+      "textSha256": "a575b79868a2336db378ac89cb6c7d93272b4bb8e74d1096e8630765cf480ef5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e1f63c75da2297a1a6afbd27870f8a2d2055b39e5fe870dd04040fe4c0ca1b4a",
+      "duration": 1.375,
+      "graphemes": [
+        "score"
+      ],
+      "phonemes": [
+        "skˈɔɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/sports-match-cheering-lead.mp3",
+      "text": "lead",
+      "textSha256": "e3456bc1f4d270f4a97933758645fdc21e39642b31ca343c1818f7972ac27906",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c69660c9bb1d0c7ec11c3d49a3c8f615ca4570452950d19a78b3ffe5c9d274eb",
+      "duration": 1.325,
+      "graphemes": [
+        "lead"
+      ],
+      "phonemes": [
+        "lˈid"
+      ]
+    },
+    {
+      "src": "/audio/words/sports-match-cheering-loud.mp3",
+      "text": "loud",
+      "textSha256": "db1a60bbff220d0910f017477df18cb7cd90892722985ac91dbfdaa1c955220f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "db4309b8716d4cea2f5e0804d9c12fc56ce0c1e383286413cd3a15e09f2fc09f",
+      "duration": 1.3,
+      "graphemes": [
+        "loud"
+      ],
+      "phonemes": [
+        "lˈWd"
+      ]
+    },
+    {
+      "src": "/audio/words/sports-match-cheering-action.mp3",
+      "text": "action",
+      "textSha256": "bd938c688f49b77c7fc537c6b9222e2c97ebddd63076b87f2feaec66fb9c05d0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c1dc3f59fcbaf5cc628bfadbbbe2354ff6418deea43e132d0788710e59e966f4",
+      "duration": 1.425,
+      "graphemes": [
+        "action"
+      ],
+      "phonemes": [
+        "ˈækʃən"
+      ]
+    }
+  ]
+}

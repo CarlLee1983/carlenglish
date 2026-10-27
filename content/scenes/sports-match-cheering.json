@@ -1,0 +1,330 @@
+{
+  "id": "sports-match-cheering",
+  "title": "觀看校際體育比賽為同學加油",
+  "titleEn": "Cheering at an Inter-school Sports Match",
+  "category": "休閒生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/sports-match-cheering.webp",
+    "alt": "在燈光明亮的體育館看台上，穿著校隊應援服的學生們高舉加油橫幅，為場上投進致勝一球的籃球隊員熱烈歡呼鼓掌。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "school-match",
+      "english": "school match",
+      "translation": "校際比賽",
+      "audio": {
+        "src": "/audio/phrases/sports-match-cheering-school-match.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "300aa9bee02eaa7d68e969fb91511d0474a302fa2ae58cd6aab432237b2062fa",
+        "sha256": "1169c810ea0acf69afa2960f8abdfa4991de8cbdc8bf0090f7b953dbbdf8a978"
+      }
+    },
+    {
+      "id": "cheering-for-our-school",
+      "english": "cheering for our school",
+      "translation": "為我們學校加油",
+      "audio": {
+        "src": "/audio/phrases/sports-match-cheering-cheering-for-our-school.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "17372849ab9253f9afbe2ca373da975763ed6e29ae834552d6f5d9cb768d163b",
+        "sha256": "9bb6ca46a8a27d2063c2878c463c7aa50acdc003cc0031b891ba09fd016ebef9"
+      }
+    },
+    {
+      "id": "on-the-electronic-scoreboard",
+      "english": "on the electronic scoreboard",
+      "translation": "在電子記分板上",
+      "audio": {
+        "src": "/audio/phrases/sports-match-cheering-on-the-electronic-scoreboard.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d7797e7e90cbc90234bb54efcc3fb9d620f0bcc0fbf711f4a2c73df3b43fb821",
+        "sha256": "f12b1a522ea8c8d86eec569ff3c352c5c5fab53273e310892be1937676d31a57"
+      }
+    },
+    {
+      "id": "took-the-lead",
+      "english": "took the lead",
+      "translation": "取得領先",
+      "audio": {
+        "src": "/audio/phrases/sports-match-cheering-took-the-lead.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e28c1f9007351ade783684f1821c8e5dab94ecb0540e5e462ffb57ae0faca858",
+        "sha256": "a3a7a1647ea3fc2dd6745439586f27755f8fcb81b78c8079c54d0de8661eebf6"
+      }
+    },
+    {
+      "id": "proud-win",
+      "english": "proud win",
+      "translation": "驕傲的勝利",
+      "audio": {
+        "src": "/audio/phrases/sports-match-cheering-proud-win.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cee608ae2cac6b93a243253dd34093548b97208cc36190139c82d79192977b9f",
+        "sha256": "994bdcc1392df7a511cfa2aaabe78a1d6f8add1561748505a20c20117ce3850b"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "match",
+      "english": "match",
+      "translation": "比賽；競賽",
+      "example": "We watched an exciting soccer match after school.",
+      "audio": {
+        "src": "/audio/words/sports-match-cheering-match.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4945a70fa7f9c13fe1931a3372ac5798140d42eba74d0dd805a4a216ed3a8142",
+        "sha256": "c23ad4866937944db5974a9bddba3aaf839feddb7c49b12748f0ffe3716aa8a8"
+      }
+    },
+    {
+      "id": "win",
+      "english": "win",
+      "translation": "獲勝；贏得",
+      "example": "They practiced hard to win the championship trophy.",
+      "audio": {
+        "src": "/audio/words/sports-match-cheering-win.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "823a3180dad3c9c3c4dea43ab2baf9f04bac9c3a7711745ff5f702551496d735",
+        "sha256": "302a53f91f38e6c8e411598405674beab57469455ad6bc22f0f781c80f8fcd7d"
+      }
+    },
+    {
+      "id": "score",
+      "english": "score",
+      "translation": "得分；分數",
+      "example": "What was the final score of the baseball game?",
+      "audio": {
+        "src": "/audio/words/sports-match-cheering-score.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a575b79868a2336db378ac89cb6c7d93272b4bb8e74d1096e8630765cf480ef5",
+        "sha256": "e1f63c75da2297a1a6afbd27870f8a2d2055b39e5fe870dd04040fe4c0ca1b4a"
+      }
+    },
+    {
+      "id": "lead",
+      "english": "lead",
+      "translation": "領先；引導",
+      "example": "Our school team took the lead in the third quarter.",
+      "audio": {
+        "src": "/audio/words/sports-match-cheering-lead.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e3456bc1f4d270f4a97933758645fdc21e39642b31ca343c1818f7972ac27906",
+        "sha256": "c69660c9bb1d0c7ec11c3d49a3c8f615ca4570452950d19a78b3ffe5c9d274eb"
+      }
+    },
+    {
+      "id": "loud",
+      "english": "loud",
+      "translation": "響亮的；大聲的",
+      "example": "The crowd gave a loud round of applause.",
+      "audio": {
+        "src": "/audio/words/sports-match-cheering-loud.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "db1a60bbff220d0910f017477df18cb7cd90892722985ac91dbfdaa1c955220f",
+        "sha256": "db4309b8716d4cea2f5e0804d9c12fc56ce0c1e383286413cd3a15e09f2fc09f"
+      }
+    },
+    {
+      "id": "action",
+      "english": "action",
+      "translation": "動作；行動",
+      "example": "The movie was full of thrilling superhero action.",
+      "audio": {
+        "src": "/audio/words/sports-match-cheering-action.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bd938c688f49b77c7fc537c6b9222e2c97ebddd63076b87f2feaec66fb9c05d0",
+        "sha256": "c1dc3f59fcbaf5cc628bfadbbbe2354ff6418deea43e132d0788710e59e966f4"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "The basketball gym is completely packed with students "
+        },
+        {
+          "text": "cheering for our ",
+          "phraseIds": [
+            "cheering-for-our-school"
+          ]
+        },
+        {
+          "text": "school",
+          "phraseIds": [
+            "school-match",
+            "cheering-for-our-school"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "match",
+          "phraseIds": [
+            "school-match"
+          ],
+          "wordIds": [
+            "match"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "整個籃球體育館擠滿了為我們學校校際比賽熱烈加油的學生。",
+      "audio": {
+        "src": "/audio/sentences/sports-match-cheering/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "371924f5a5680f293bd66404e3a1a99f05c48c9904737c16d1f39c1e94085cda",
+        "sha256": "b90af2ec858f64c70e47a10c7e14d30e4ef02f4a29673f9eed34b0a559db34f9"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Our team is trailing by just two points "
+        },
+        {
+          "text": "on the electronic scoreboard",
+          "phraseIds": [
+            "on-the-electronic-scoreboard"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "在電子記分板上，我們隊伍只落後僅僅兩分而已。",
+      "audio": {
+        "src": "/audio/sentences/sports-match-cheering/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7a523798ccc92be07b597e587380bd46fb29738ca3205a93544ac21283a526a4",
+        "sha256": "18dc2d1f56c49d036bf0210c5ff547750d4f90e58e3aabf78c1eb32d25b57aeb"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Number seven made a fantastic pass, and the center "
+        },
+        {
+          "text": "scored",
+          "wordIds": [
+            "score"
+          ]
+        },
+        {
+          "text": " a thrilling goal!"
+        }
+      ],
+      "translation": "七號球員做出了絕妙的傳球，中鋒隨即投進了激動人心的一球！",
+      "audio": {
+        "src": "/audio/sentences/sports-match-cheering/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "13bc870b6d8c8ae0ac7760d4c852c17def16decc95799f1542592c4abae68d48",
+        "sha256": "f133fcb00349d4b0c8a4647896a32292c68091b78c6da1aa8ecf00a84c03ff72"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Every player on the court showed incredible defensive "
+        },
+        {
+          "text": "action",
+          "wordIds": [
+            "action"
+          ]
+        },
+        {
+          "text": " in the final minute."
+        }
+      ],
+      "translation": "場上的每一位球員在最後一分鐘都展現了驚人的防守行動。",
+      "audio": {
+        "src": "/audio/sentences/sports-match-cheering/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8ad46ea319f312b7b64a5b8fd61b7091abac4ac6d9ec63bb9bd3bdbc865cf357",
+        "sha256": "970d66e30d914727e95d6cdba6f1de5ec45bfc83b087e748f6711042230478c4"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Everyone stood up and shouted "
+        },
+        {
+          "text": "loud",
+          "wordIds": [
+            "loud"
+          ]
+        },
+        {
+          "text": " cheers as our team "
+        },
+        {
+          "text": "took the ",
+          "phraseIds": [
+            "took-the-lead"
+          ]
+        },
+        {
+          "text": "lead",
+          "phraseIds": [
+            "took-the-lead"
+          ],
+          "wordIds": [
+            "lead"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "當我們隊伍取得領先時，全場所有人都站了起來發出響亮的歡呼！",
+      "audio": {
+        "src": "/audio/sentences/sports-match-cheering/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "427df01072779206c4196b95394220fdd82c97e373fd122f8005fbb14250df32",
+        "sha256": "980f9aa1764ac942c06e21991b5fcf7e1f998b431fddfe085a90e62509ada092"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "With great effort and collective determination, our classmates celebrated a "
+        },
+        {
+          "text": "proud ",
+          "phraseIds": [
+            "proud-win"
+          ]
+        },
+        {
+          "text": "win",
+          "phraseIds": [
+            "proud-win"
+          ],
+          "wordIds": [
+            "win"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "憑藉著巨大的努力與團隊決心，同學們歡欣慶祝了一場驕傲的勝利。",
+      "audio": {
+        "src": "/audio/sentences/sports-match-cheering/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6616bf8ccb84cd298ccc2d0e0ea8a523042e0b59bc04ad0e3dad38cb813c12ec",
+        "sha256": "021b4c282c28810873d891ccb1705038ad37eb352244af158ede2d2e2d97093f"
+      }
+    }
+  ]
+}

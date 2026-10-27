@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "tool": "codex exec built-in imagegen",
+  "conversion": "1536x1024 landscape WebP, sharp quality 86; fit cover.",
+  "images": [
+    {
+      "id": "clothing-fitting-room",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/clothing-fitting-room.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "323ff63e5f274f94cfd4205ffb4dfc2fc186fda708def42c47afa28fce9daa22"
+    },
+    {
+      "id": "asking-store-discount",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/asking-store-discount.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "82ac2fa70fc355c7d1683d768f18b870d04aff0e874d68699dc78440119c196b"
+    },
+    {
+      "id": "exchanging-damaged-item",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/exchanging-damaged-item.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d3abf6954d8e9013a294a4eb843bed16b1586a68c4372a7ddf6649854cc3cb6f"
+    },
+    {
+      "id": "convenience-store-items",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/convenience-store-items.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "d570a21128ee11f0a9ef3d4eeb50bceb47b162a75aacbe05f7432c1620d8ebce"
+    },
+    {
+      "id": "checkout-carrier-bag",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/checkout-carrier-bag.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "8d37104afcf295aaf6f1300b48643cc15530b881a9be5151a0fd60a9501565bc"
+    }
+  ]
+}

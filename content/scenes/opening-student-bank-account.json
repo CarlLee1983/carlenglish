@@ -1,0 +1,326 @@
+{
+  "id": "opening-student-bank-account",
+  "title": "在銀行櫃檯開立學生儲蓄帳戶",
+  "titleEn": "Opening a Student Savings Account at the Bank",
+  "category": "金融生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/opening-student-bank-account.webp",
+    "alt": "在明亮整潔的銀行臨櫃服務台前，親切的銀行行員協助學生填寫開戶申請表單，桌上整齊放置著學生證與開戶存摺。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "student-savings-account",
+      "english": "student savings account",
+      "translation": "學生儲蓄帳戶",
+      "audio": {
+        "src": "/audio/phrases/opening-student-bank-account-student-savings-account.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4c12ba9bbbf3102ec4e4369fe624ca2d9937d906cbce77b12c81a9d719fc7858",
+        "sha256": "6fc28f4e1854e5a298eb588542a210c99492d5b82408798b7f790b031d90b9b0"
+      }
+    },
+    {
+      "id": "photo-identification-card",
+      "english": "photo identification card",
+      "translation": "照片身分證件",
+      "audio": {
+        "src": "/audio/phrases/opening-student-bank-account-photo-identification-card.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b26508ce2471b9aa623e337f34313dfd1d228310762ede59d1f6e179958876a2",
+        "sha256": "0750f220b1d0fbe7bf5ec66f1f47f47fb481af3eea8d76a570cc17da56e90898"
+      }
+    },
+    {
+      "id": "written-signature",
+      "english": "written signature",
+      "translation": "親筆簽名",
+      "audio": {
+        "src": "/audio/phrases/opening-student-bank-account-written-signature.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a7cae43308037f44e9b3b9b54499416bbcdaefd38045570055d2ad012bef8817",
+        "sha256": "c3918f0d9e793b025e9113c81217331c6c275c0a22ad81d96c6b288f5996caaf"
+      }
+    },
+    {
+      "id": "bank-staff",
+      "english": "bank staff",
+      "translation": "銀行行員",
+      "audio": {
+        "src": "/audio/phrases/opening-student-bank-account-bank-staff.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27937654f1f87d908eabf73cc90039d59746db29fbe7001987607147bfbff36f",
+        "sha256": "d1a23ab43d90e8c5519441fb9bbff446de72f8708acd3f57cf154e49c5460f5b"
+      }
+    },
+    {
+      "id": "initial-deposit",
+      "english": "initial deposit",
+      "translation": "第一筆開戶存款",
+      "audio": {
+        "src": "/audio/phrases/opening-student-bank-account-initial-deposit.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f98be4f73d890b29364709f488dad46944408f8a734f917dd567ccfd30f954ba",
+        "sha256": "2cbfc1e27ab4c65de084aa81fbd0385885f5d0b80adb6d3909a3a19058ffc4b7"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "bank",
+      "english": "bank",
+      "translation": "銀行；金融機構",
+      "example": "He walked to the corner bank to cash his check.",
+      "audio": {
+        "src": "/audio/words/opening-student-bank-account-bank.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4381dc2ab14285160c808659aee005d51255add7264b318d07c7417292c7442c",
+        "sha256": "7623edb75c2aad57bd3dec1921bf72cbf310be38946959b37ec343e352ec9cf0"
+      }
+    },
+    {
+      "id": "save",
+      "english": "save",
+      "translation": "儲蓄；存錢",
+      "example": "Putting coins in a piggy bank helps children save.",
+      "audio": {
+        "src": "/audio/words/opening-student-bank-account-save.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "157dca92e4250458339d4b835250d44c238f3355e1b7986195188ee434e9baff",
+        "sha256": "2f1384acd2808200eb002b95c1a64febbe59e3725c2bf62497bbbefc49cf3068"
+      }
+    },
+    {
+      "id": "parent",
+      "english": "parent",
+      "translation": "家長；雙親",
+      "example": "Her parents were proud of her graduation ceremony.",
+      "audio": {
+        "src": "/audio/words/opening-student-bank-account-parent.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e47125968b3b71049fbc4802d1e40a71ea1359decfabacf70b34588037d4ff0c",
+        "sha256": "a72d13c6324b0d4ce451355d43643723157990b3e1067930054a04d4f3aedc3f"
+      }
+    },
+    {
+      "id": "staff",
+      "english": "staff",
+      "translation": "員工；行員",
+      "example": "The hotel staff greeted us with warm smiles.",
+      "audio": {
+        "src": "/audio/words/opening-student-bank-account-staff.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1562206543da764123c21bd524674f0a8aaf49c8a89744c97352fe677f7e4006",
+        "sha256": "090726bd9385514a43eba1c93ee628b213726742cb859108b0f2edb44cacf615"
+      }
+    },
+    {
+      "id": "deposit",
+      "english": "deposit",
+      "translation": "存款；押金",
+      "example": "Make a deposit into your account every month.",
+      "audio": {
+        "src": "/audio/words/opening-student-bank-account-deposit.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c3b9fb78a452ce2fc90cff1608510235503e3b727683b71c7fefee54198bad63",
+        "sha256": "b3c5382e92001fbb6be6e4bca70ae1334f5efc6cdd2e5c2118d53256add92375"
+      }
+    },
+    {
+      "id": "interest",
+      "english": "interest",
+      "translation": "利息；收益",
+      "example": "Money in the savings account earns small interest.",
+      "audio": {
+        "src": "/audio/words/opening-student-bank-account-interest.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "828408e40d4fe651488b14696b60b613c9683ab9862e03f4e72aec7c1fda7635",
+        "sha256": "ecd9630f580585a9515575fdfe6ea92efead97c0bb62936171a2eea998df0c37"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Good morning, I want to open a "
+        },
+        {
+          "text": "student savings account",
+          "phraseIds": [
+            "student-savings-account"
+          ]
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "save",
+          "wordIds": [
+            "save"
+          ]
+        },
+        {
+          "text": " money today."
+        }
+      ],
+      "translation": "早安，我今天想要開立一個學生儲蓄帳戶來存錢。",
+      "audio": {
+        "src": "/audio/sentences/opening-student-bank-account/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8344d9d2252be06f506b83638e24a36f3c06d9bde2e7e42ce84aba1f3304ce69",
+        "sha256": "62d5f14cccf1b1cb67348239edc49e852f93bab7bf6b9487381b762cc0240e3f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Please provide your "
+        },
+        {
+          "text": "photo identification card",
+          "phraseIds": [
+            "photo-identification-card"
+          ]
+        },
+        {
+          "text": " and a "
+        },
+        {
+          "text": "written signature",
+          "phraseIds": [
+            "written-signature"
+          ]
+        },
+        {
+          "text": " consent form from your "
+        },
+        {
+          "text": "parents",
+          "wordIds": [
+            "parent"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "請出示您的照片身分證件，以及一份有父母親親筆簽名的同意書。",
+      "audio": {
+        "src": "/audio/sentences/opening-student-bank-account/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ff00e8f1df20952f731a66a6c912d6dd07328aa4bb2f8b742a564eab34bfb7af",
+        "sha256": "f3cf3474ee2665d5d83eb93846f24e1c42409dd82c49dd01f88dfe845db9101d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Here are all the legal documents and our family household certificate."
+        }
+      ],
+      "translation": "這些是所有的法定證件文件，還有我們家的戶口名簿。",
+      "audio": {
+        "src": "/audio/sentences/opening-student-bank-account/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "731c0baa1765b7ac5b6eff529cd6ea0ee08fbc496ad05f66a67e1477e08a95e9",
+        "sha256": "75c7c1e7b0fb23a3c97c9a4ee91cc2dd1c4169bca51edc13803cdfe6f4ff7adf"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "bank",
+          "phraseIds": [
+            "bank-staff"
+          ],
+          "wordIds": [
+            "bank"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "staff",
+          "phraseIds": [
+            "bank-staff"
+          ],
+          "wordIds": [
+            "staff"
+          ]
+        },
+        {
+          "text": " helped me fill out the registration form line by line."
+        }
+      ],
+      "translation": "銀行行員非常親切地協助我一行一行填寫開戶登記表單。",
+      "audio": {
+        "src": "/audio/sentences/opening-student-bank-account/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c09f5f4679f6775e7faa0650530c9558cbaa25ee8c7c9532c9ba511c793a27b5",
+        "sha256": "97c8ee7a3a6d64f44ff610b18fff5691b7c43cf07f37bc1de84135f07c339b3e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "You can make an "
+        },
+        {
+          "text": "initial ",
+          "phraseIds": [
+            "initial-deposit"
+          ]
+        },
+        {
+          "text": "deposit",
+          "phraseIds": [
+            "initial-deposit"
+          ],
+          "wordIds": [
+            "deposit"
+          ]
+        },
+        {
+          "text": " of five hundred dollars into your new account."
+        }
+      ],
+      "translation": "您可以在您剛辦好的新帳戶中存入第一筆五百元的開戶存款。",
+      "audio": {
+        "src": "/audio/sentences/opening-student-bank-account/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3feb0f29dfbc3a9ceed054bb16002dbeccc9d38f5b1abf9c9e1b5fd024d63a45",
+        "sha256": "415d52c4f945e530900bd9c727d1d5ce41b4422369930594af8a9728d4c07090"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "This savings account earns yearly "
+        },
+        {
+          "text": "interest",
+          "wordIds": [
+            "interest"
+          ]
+        },
+        {
+          "text": " and includes a debit card for payments."
+        }
+      ],
+      "translation": "這個儲蓄帳戶每年可以賺取利息收益，並且附帶一張可消費付款的金融卡。",
+      "audio": {
+        "src": "/audio/sentences/opening-student-bank-account/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "566f1c8ca27c1edd552742b49dfcc1684a94d353f4895b6e3613c390d6a2b170",
+        "sha256": "cb0ed779153c0f2d80009ffa7319ec3ff9cd76f5f5222f60895c539e37bc4071"
+      }
+    }
+  ]
+}

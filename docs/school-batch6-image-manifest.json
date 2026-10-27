@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "tool": "codex exec built-in imagegen",
+  "conversion": "1536x1024 landscape WebP, sharp quality 86; fit cover.",
+  "images": [
+    {
+      "id": "project-role-sharing",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/project-role-sharing.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "94354f673b3086ada7b6baf819d400bc6e4877c37dc2e647cd2dc8e1c5fb9e28"
+    },
+    {
+      "id": "discussing-due-deadline",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/discussing-due-deadline.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7d260b43bc5aec3e1f9ef172766d262ba05ec71706f2ec27ee48fe2a0261ca3f"
+    },
+    {
+      "id": "sharing-alternative-idea",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/sharing-alternative-idea.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "370d710a46e20a9e63210e2534c02517d723bf3487c4cf59ee2be29cb0efe6c4"
+    },
+    {
+      "id": "asking-teacher-clarification",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/asking-teacher-clarification.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "301802b09682fa624c51f930508c5265e0520672c3a3559ef7fca2ae10117ea9"
+    },
+    {
+      "id": "borrowing-sports-gear",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/borrowing-sports-gear.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "697192ec4f24c24ab8b3f8c34ec9662433773f3703154b1612fadf70ee30c59e"
+    }
+  ]
+}

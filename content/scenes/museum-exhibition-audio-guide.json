@@ -1,0 +1,329 @@
+{
+  "id": "museum-exhibition-audio-guide",
+  "title": "博物館租借語音導覽機",
+  "titleEn": "Renting an Audio Guide for a Museum Exhibition",
+  "category": "休閒生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/museum-exhibition-audio-guide.webp",
+    "alt": "在挑高寬敞的博物館大廳語音導覽櫃檯前，參觀者出示證件租借手持導覽機，服務人員示範如何按下號碼聆聽展品說明。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "audio-guide-device",
+      "english": "audio guide device",
+      "translation": "語音導覽機",
+      "audio": {
+        "src": "/audio/phrases/museum-exhibition-audio-guide-audio-guide-device.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "631c861f60b77fa5b155cdc12b23f5403a093814da6fde78e4d380b1ec19cbb1",
+        "sha256": "524be08b0cad538132dba6e87a641c9362837ab6fd98b6e9038be0f5566f8c94"
+      }
+    },
+    {
+      "id": "set-it-to-english",
+      "english": "set it to English",
+      "translation": "設定成英文",
+      "audio": {
+        "src": "/audio/phrases/museum-exhibition-audio-guide-set-it-to-english.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "74272d765a9da7dee9f90a82a3ba5e0e930c02dcda2ccfa8aaa8c21f086bd942",
+        "sha256": "2cebe14547d529e277a929c675942db732e9b0b3b297fb0823c20f161fbeaea8"
+      }
+    },
+    {
+      "id": "display-case",
+      "english": "display case",
+      "translation": "展示櫥窗",
+      "audio": {
+        "src": "/audio/phrases/museum-exhibition-audio-guide-display-case.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ac7b58e9d4192b0c46e73cb7c02cfa1e3d1fd9c0e4e49617389e553de7d286a4",
+        "sha256": "334804330737762a6dbf2223adc13dbabc0cc88f126cbb9ce302853623e2dca6"
+      }
+    },
+    {
+      "id": "press-the-matching-number",
+      "english": "press the matching number",
+      "translation": "按下對應號碼",
+      "audio": {
+        "src": "/audio/phrases/museum-exhibition-audio-guide-press-the-matching-number.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9ca031b64685b3a13f0a284a08706bff4b674e002b169e16a67aa3454b991893",
+        "sha256": "92e18b7fc68d3d780a0a6cd6b272e6e67035c237a62c51416cd5aedb1d8c5b53"
+      }
+    },
+    {
+      "id": "culture-and-daily-life",
+      "english": "culture and daily life",
+      "translation": "文化與日常生活",
+      "audio": {
+        "src": "/audio/phrases/museum-exhibition-audio-guide-culture-and-daily-life.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3542470f914350bc85db1e68a7dd90b900138c79840e2fb494f21bb9741ae6d9",
+        "sha256": "1c4c7665bbe509b2da7e78ccb4f2318d8e72afdf90c281be37a9ae250b6993be"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "history",
+      "english": "history",
+      "translation": "歷史；歷史學",
+      "example": "We study ancient world history in seventh grade.",
+      "audio": {
+        "src": "/audio/words/museum-exhibition-audio-guide-history.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "259aa8ef98a8b91de574cd904138ef643240c23080cf24da4793a6f10a43fa9d",
+        "sha256": "9665cba9c228d930caa1f04236f4a75909858008596b4dc8bcfb88d423be610b"
+      }
+    },
+    {
+      "id": "language",
+      "english": "language",
+      "translation": "語言；語文",
+      "example": "English is a universal language used across the world.",
+      "audio": {
+        "src": "/audio/words/museum-exhibition-audio-guide-language.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a4ef304ba42a200bafd78b046e0869af9183f6eee5524aead5dcb3a5ab5f8f3f",
+        "sha256": "4c2de4d219447a003c25a98f43173117339cffdcb94c817fdcc8e77da20da07f"
+      }
+    },
+    {
+      "id": "period",
+      "english": "period",
+      "translation": "時期；時代",
+      "example": "The museum preserves pottery from the prehistoric period.",
+      "audio": {
+        "src": "/audio/words/museum-exhibition-audio-guide-period.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "514cb13f603464f97849ba88d2d4f9698003a9323de9b7a3d162ef76f6998122",
+        "sha256": "7d471b7acc33de76153f7155cf657ec97545ca5db53c43908e32634ccdb67530"
+      }
+    },
+    {
+      "id": "interest",
+      "english": "interest",
+      "translation": "興趣；吸引力",
+      "example": "He showed a keen interest in painting stars.",
+      "audio": {
+        "src": "/audio/words/museum-exhibition-audio-guide-interest.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "828408e40d4fe651488b14696b60b613c9683ab9862e03f4e72aec7c1fda7635",
+        "sha256": "f8bbbcdf6520dac95ee5d10ba455ba85248d6392ab6cb06e9697201762d901e1"
+      }
+    },
+    {
+      "id": "culture",
+      "english": "culture",
+      "translation": "文化；文明",
+      "example": "Food is an important part of Taiwanese culture.",
+      "audio": {
+        "src": "/audio/words/museum-exhibition-audio-guide-culture.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f1947f79fdfb8046150959ca09cdd05cb53672ad4c0f49a87bbc7cddf5c91293",
+        "sha256": "4a3005bf677bc4b2936dd48492b4f6d6b71c584cf694f42046b9f65ace280409"
+      }
+    },
+    {
+      "id": "display",
+      "english": "display",
+      "translation": "展示；陳列",
+      "example": "The glass display holds ancient gold coins.",
+      "audio": {
+        "src": "/audio/words/museum-exhibition-audio-guide-display.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dfbb889cf19bda82ed8deadf82de232979aa4ecc83238625c6453dc4c597b43a",
+        "sha256": "3bbcdf9d5727b55455a7b1289143b8d596521690079fb63dc1cb672e5d05942e"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "I would like to rent an "
+        },
+        {
+          "text": "audio guide device",
+          "phraseIds": [
+            "audio-guide-device"
+          ]
+        },
+        {
+          "text": " for the ancient "
+        },
+        {
+          "text": "history",
+          "wordIds": [
+            "history"
+          ]
+        },
+        {
+          "text": " exhibit."
+        }
+      ],
+      "translation": "我想租借一台參觀古代歷史特展用的語音導覽機。",
+      "audio": {
+        "src": "/audio/sentences/museum-exhibition-audio-guide/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ad500af68f0360e56a768abe6489f0736a368a5065fd06418522a29abb086972",
+        "sha256": "5c785e3b13df7ba8204c67291eaf753b8cd89cb714c74dc75f7d4e1668d169a2"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Which "
+        },
+        {
+          "text": "language",
+          "wordIds": [
+            "language"
+          ]
+        },
+        {
+          "text": " would you like the audio commentary to play in?"
+        }
+      ],
+      "translation": "請問您希望語音解說以哪一種語言播放呢？",
+      "audio": {
+        "src": "/audio/sentences/museum-exhibition-audio-guide/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "72f3941d5782d356022fe4ec2204106d5c498fe393c540c69f5d49bc806ad4df",
+        "sha256": "68505fd84776bd2ae408eb4d8de0e7de604bf27ed0b3bad007a25344fd03446c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "set it to English",
+          "phraseIds": [
+            "set-it-to-english"
+          ]
+        },
+        {
+          "text": " so I can practice listening to historical terms."
+        }
+      ],
+      "translation": "請幫我設定成英文，這樣我可以順便練習聽歷史相關用語。",
+      "audio": {
+        "src": "/audio/sentences/museum-exhibition-audio-guide/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fa16ad7572e52fd84417e5dde4b3c6e02fe756829015920d4b5363ae03809d42",
+        "sha256": "2565847fdc7d262ce90b9678ba920407ea1dd857a785a6c2a97627ee46daa5a3"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "When you walk up to any "
+        },
+        {
+          "text": "display",
+          "phraseIds": [
+            "display-case"
+          ],
+          "wordIds": [
+            "display"
+          ]
+        },
+        {
+          "text": " case",
+          "phraseIds": [
+            "display-case"
+          ]
+        },
+        {
+          "text": ", simply "
+        },
+        {
+          "text": "press the matching number",
+          "phraseIds": [
+            "press-the-matching-number"
+          ]
+        },
+        {
+          "text": " on the keypad."
+        }
+      ],
+      "translation": "當你走到任何展品櫥窗前時，只要在數字鍵盤上按下對應的號碼即可。",
+      "audio": {
+        "src": "/audio/sentences/museum-exhibition-audio-guide/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0e4d3710e74877c5c3699da555b8299cc87a7699e22c20f064992c6175380535",
+        "sha256": "ca8bb98281a5c5c3e75712e70027d893ec7494a2959bd3ecda1b864bf53cb666"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Each track explains the "
+        },
+        {
+          "text": "culture",
+          "phraseIds": [
+            "culture-and-daily-life"
+          ],
+          "wordIds": [
+            "culture"
+          ]
+        },
+        {
+          "text": " and daily life",
+          "phraseIds": [
+            "culture-and-daily-life"
+          ]
+        },
+        {
+          "text": " of people during that dynamic "
+        },
+        {
+          "text": "period",
+          "wordIds": [
+            "period"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "每一段解說音軌都會介紹那個輝煌歷史時期人們的文化與日常生活。",
+      "audio": {
+        "src": "/audio/sentences/museum-exhibition-audio-guide/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "63c53e9b4424ef61d554fdf3177f66fe4b3ef06dff622eada3ce76230d52862c",
+        "sha256": "670fc953b8eaa6853c5b03c816b8138226958018d618dac10f69660113a0ab5a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "This handheld player really adds great "
+        },
+        {
+          "text": "interest",
+          "wordIds": [
+            "interest"
+          ]
+        },
+        {
+          "text": " to our afternoon museum tour."
+        }
+      ],
+      "translation": "這台手持播放器真的為我們下午的博物館參觀增添了許多趣味。",
+      "audio": {
+        "src": "/audio/sentences/museum-exhibition-audio-guide/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5c8fc821e8cb1b81a6e65e0d5d1f83981bca1da257280df29cdfb2642ff09e1b",
+        "sha256": "c27db69923d37cf321f56700bc74797efaa72be5f388a88d54f2d1edd5891747"
+      }
+    }
+  ]
+}

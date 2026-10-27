@@ -1,0 +1,1211 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/pickup-delivery-parcel/1.mp3",
+      "text": "Hello, I came here to pick up a parcel from online shopping.",
+      "textSha256": "cc28a8a37878a87c8413c763a9ead8b7f729bad3aca41c9acaa0cfe675fbdd07",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b9d095cfd39f0c0e56c545a46963c3bc3c497f9dbd76fec029259681fb3ce603",
+      "duration": 4.05,
+      "graphemes": [
+        "Hello, I came here to pick up a parcel from online shopping."
+      ],
+      "phonemes": [
+        "həlˈO, ˌI kˈAm hˈɪɹ tə pˈɪk ˌʌp ɐ pˈɑɹsᵊl fɹʌm ˌɑnlˈIn ʃˈɑpɪŋ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/pickup-delivery-parcel/2.mp3",
+      "text": "Could you please tell me your full name and phone number?",
+      "textSha256": "b18c48c82ae94b52599825e36cf5b74cad268c41a2b1ba0a84a7a711100d5a20",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "538ea62960af0afb5aa7e2a9d6f5c9de24ee0deda384e5ec164a89d976bbe164",
+      "duration": 3.225,
+      "graphemes": [
+        "Could you please tell me your full name and phone number?"
+      ],
+      "phonemes": [
+        "kˌʊd ju plˈiz tˈɛl mˌi jʊɹ fˈʊl nˈAm ænd fˈOn nˈʌmbəɹ?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/pickup-delivery-parcel/3.mp3",
+      "text": "My name is Eric Lin, and the last three digits are 508.",
+      "textSha256": "bc14ef4343d410fd0238696242a3b02e0dafcf9449df65aac0451bda5405ca51",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fbcd24a9564061b15f04450194e8ecd193d9bbf4df777aa30bea302f9332a5ee",
+      "duration": 4.475,
+      "graphemes": [
+        "My name is Eric Lin, and the last three digits are 508."
+      ],
+      "phonemes": [
+        "mˌI nˈAm ɪz ˈɛɹɪk lˈɪn, ænd ðə lˈæst θɹˈi dˈɪʤəts ɑɹ fˈIv hˈʌndɹəd ˈAt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/pickup-delivery-parcel/4.mp3",
+      "text": "Please show a photo ID card to verify before taking the package.",
+      "textSha256": "e6e78a6c3596bfec3aa972f7a9ceda305f9c45dab7980993e56e0a88fcb27485",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "292c49702940800b4bce2b7138a7c15f9042fe9f4965d5a9dcd06bdadac4bca0",
+      "duration": 4.575,
+      "graphemes": [
+        "Please show a photo ID card to verify before taking the package."
+      ],
+      "phonemes": [
+        "plˈiz ʃˈO ɐ fˈOTO ˌIdˈi kˈɑɹd tə vˈɛɹəfˌI bəfˈɔɹ tˈAkɪŋ ðə pˈækɪʤ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/pickup-delivery-parcel/5.mp3",
+      "text": "Here is my student ID card with my official name on it.",
+      "textSha256": "610fc1653e875b1592160cb99133d04662588dcecf745ca021ae679ce03523e4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "484a98e8cfcf32ad36c506a0c7a6b7c8e647acbbdf38aec2a0ccb3cb51fb81bd",
+      "duration": 3.825,
+      "graphemes": [
+        "Here is my student ID card with my official name on it."
+      ],
+      "phonemes": [
+        "hˈɪɹ ɪz mI stˈudᵊnt ˌIdˈi kˈɑɹd wɪð mI əfˈɪʃᵊl nˈAm ˌɔn ɪt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/pickup-delivery-parcel/6.mp3",
+      "text": "Everything matches, please sign on the screen to confirm.",
+      "textSha256": "d984c417f97783206fd8bb0ce2b81ba1ffeec520fa1cc25f75829bf37cad7073",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "73cff7c1a1f38f678abf3e0265cfcec1bd3e2ef68b58ef28e5029e63645c3949",
+      "duration": 3.7,
+      "graphemes": [
+        "Everything matches, please sign on the screen to confirm."
+      ],
+      "phonemes": [
+        "ˈɛvəɹiθˌɪŋ mˈæʧᵻz, plˈiz sˈIn ˌɔn ðə skɹˈin tə kənfˈɜɹm."
+      ]
+    },
+    {
+      "src": "/audio/phrases/pickup-delivery-parcel-pick-up-a-parcel.mp3",
+      "text": "pick up a parcel",
+      "textSha256": "9898e2fc7410f2e2f173b29230100898325485aa140b4db6cf031c6050cf2a25",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6579e7fe0808f146b058e6e9ae33c15340e55a8b243d57168960ed8e8fde931c",
+      "duration": 1.625,
+      "graphemes": [
+        "pick up a parcel"
+      ],
+      "phonemes": [
+        "pˈɪk ˌʌp ɐ pˈɑɹsᵊl"
+      ]
+    },
+    {
+      "src": "/audio/phrases/pickup-delivery-parcel-the-last-three-digits.mp3",
+      "text": "the last three digits",
+      "textSha256": "0f3110301b5d482e56186691b7fc3671bd0d6044cbd3368e27d07e370abda503",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "58e4170faaf809aa8f97639dc834e0dfe4b70ea87c9da893303490f9b7097f11",
+      "duration": 1.775,
+      "graphemes": [
+        "the last three digits"
+      ],
+      "phonemes": [
+        "ðə lˈæst θɹˈi dˈɪʤəts"
+      ]
+    },
+    {
+      "src": "/audio/phrases/pickup-delivery-parcel-photo-id-card.mp3",
+      "text": "photo ID card",
+      "textSha256": "9a9c37dd3a1810b26ff0b5caea810e9b34701898c00387111bd102e0e8affdba",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4aabd679bf6d240a4b91cc8ac79dc6a2c869a5192ea5e09a974de6141488ec91",
+      "duration": 1.925,
+      "graphemes": [
+        "photo ID card"
+      ],
+      "phonemes": [
+        "fˈOTO ˌIdˈi kˈɑɹd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/pickup-delivery-parcel-everything-matches.mp3",
+      "text": "everything matches",
+      "textSha256": "7b0eadee2d6c15fbe86478140cc975b1aef3db5d8700b6e4dd8481de81e3681f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9e241e92473d7923959670f2a0bd31f92a6e5b87f46bad75629f6c4d808a652b",
+      "duration": 1.85,
+      "graphemes": [
+        "everything matches"
+      ],
+      "phonemes": [
+        "ˈɛvəɹiθˌɪŋ mˈæʧᵻz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/pickup-delivery-parcel-sign-on-the-screen.mp3",
+      "text": "sign on the screen",
+      "textSha256": "c96b78def1fdd886223e63095658fda0af74317ba6aa7a58a04769594ac7e028",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "532caae333bba566129e57f8041dd4b1956399111afe591b939a55d4210759d5",
+      "duration": 1.75,
+      "graphemes": [
+        "sign on the screen"
+      ],
+      "phonemes": [
+        "sˈIn ˌɔn ðə skɹˈin"
+      ]
+    },
+    {
+      "src": "/audio/words/pickup-delivery-parcel-package.mp3",
+      "text": "package",
+      "textSha256": "bc4a71180870f7945155fbb02f4b0a2e3faa2a62d6d31b7039013055ed19869a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1b327e8978ce7aee0b341d511d9b15205b20a644da3e71b1e11476072cc77bc0",
+      "duration": 1.425,
+      "graphemes": [
+        "package"
+      ],
+      "phonemes": [
+        "pˈækɪʤ"
+      ]
+    },
+    {
+      "src": "/audio/words/pickup-delivery-parcel-sign.mp3",
+      "text": "sign",
+      "textSha256": "0b6f395ca14ac202374d5cff678b71157d0bef7e00c3045e9b80aab4ffb85276",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "00847fd8022644639ba2904dfa535b711e7b17d92d12562b00a8e8e3a2834f82",
+      "duration": 1.375,
+      "graphemes": [
+        "sign"
+      ],
+      "phonemes": [
+        "sˈIn"
+      ]
+    },
+    {
+      "src": "/audio/words/pickup-delivery-parcel-pick.mp3",
+      "text": "pick",
+      "textSha256": "8ce33c6c86e991f7b4993479d63cd73039fc874227fd64a5e1f2b4fdcd31d7a9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "aa8214ca051ef4e0a8bd624bd878b4c4451d66a2367f19589bc309c233919484",
+      "duration": 1.2,
+      "graphemes": [
+        "pick"
+      ],
+      "phonemes": [
+        "pˈɪk"
+      ]
+    },
+    {
+      "src": "/audio/words/pickup-delivery-parcel-show.mp3",
+      "text": "show",
+      "textSha256": "1c6333509debf060200eb6bbe28db307508da67c0e3c58088393e4cf09de596d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e0801dfc74a3b12ebe2c30df71e0f86f107bc5ab30045554e9ca54e88c828878",
+      "duration": 1.3,
+      "graphemes": [
+        "show"
+      ],
+      "phonemes": [
+        "ʃˈO"
+      ]
+    },
+    {
+      "src": "/audio/words/pickup-delivery-parcel-last.mp3",
+      "text": "last",
+      "textSha256": "3547cb112ac4489af2310c0626cdba6f3097a2ad5a3b42ddd3b59c76c7a079a3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ce261eb5e0838858fb891b36117fa79d2cc97ad3cafac620ca3c1c74e380245f",
+      "duration": 1.4,
+      "graphemes": [
+        "last"
+      ],
+      "phonemes": [
+        "lˈæst"
+      ]
+    },
+    {
+      "src": "/audio/words/pickup-delivery-parcel-phone.mp3",
+      "text": "phone",
+      "textSha256": "45569da57f4b7bf472d7a864ef4781451cae6383fee9fb0ae40c59aa1ce475b7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a5bb5be97c58d1bb47925e8e6811f25e3f94569c2d4340845aa06d52de89ed7d",
+      "duration": 1.4,
+      "graphemes": [
+        "phone"
+      ],
+      "phonemes": [
+        "fˈOn"
+      ]
+    },
+    {
+      "src": "/audio/sentences/mailing-registered-letter/1.mp3",
+      "text": "Good morning, I need to send an important document to this overseas address.",
+      "textSha256": "7453e9d7b204168f2fd88a6c8c79180586eb72053243c3016d250a17d10e7ada",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d488e3c22f760986501bdd819b91f6441b8d26bdf01fb4a36c05415ffd1dddde",
+      "duration": 4.925,
+      "graphemes": [
+        "Good morning, I need to send an important document to this overseas address."
+      ],
+      "phonemes": [
+        "ɡˈʊd mˈɔɹnɪŋ, ˌI nˈid tə sˈɛnd ɐn ɪmpˈɔɹtᵊnt dˈɑkjəmənt tə ðɪs ˌOvəɹsˈiz ədɹˈɛs."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mailing-registered-letter/2.mp3",
+      "text": "Please place the envelope on the electronic scale to check the weight.",
+      "textSha256": "50b84ea3ba465b2bbb6e6e70b1aa3b7eda24eb7715857352b434523ef57eb7ae",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "565588232d2fd5b570a4497f578439baf4d636b81453df43bd51c142cac2ad49",
+      "duration": 4.25,
+      "graphemes": [
+        "Please place the envelope on the electronic scale to check the weight."
+      ],
+      "phonemes": [
+        "plˈiz plˈAs ði ˈɛnvəlˌOp ˌɔn ði əlˌɛktɹˈɑnɪk skˈAl tə ʧˈɛk ðə wˈAt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mailing-registered-letter/3.mp3",
+      "text": "Do you want to send it by regular air mail or express post?",
+      "textSha256": "e48bee3cd9a20bd69312581f841dd248ad67120b544d9215c5d3f5ac6cca7f0f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "53e14119deaa1424e9e70b09e3589ee87356be8953d6433c268691dc774f887b",
+      "duration": 3.725,
+      "graphemes": [
+        "Do you want to send it by regular air mail or express post?"
+      ],
+      "phonemes": [
+        "dˈu ju wˈɑnt tə sˈɛnd ɪt bI ɹˈɛɡjələɹ ˈɛɹ mˈAl ɔɹ ɪkspɹˈɛs pˈOst?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/mailing-registered-letter/4.mp3",
+      "text": "Express post is very fast and provides an online tracking number.",
+      "textSha256": "f7d2d2300becdcc5d8798aa0b1e94bcbd56456da3ac00e69ef7978adc9c17dc1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e9dca9fad3ad5c86de3fda4a17cee64b31bad86e432b728b096230fb0e2a5e2e",
+      "duration": 4.7,
+      "graphemes": [
+        "Express post is very fast and provides an online tracking number."
+      ],
+      "phonemes": [
+        "ɪkspɹˈɛs pˈOst ɪz vˈɛɹi fˈæst ænd pɹəvˈIdz ɐn ˌɑnlˈIn tɹˈækɪŋ nˈʌmbəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/mailing-registered-letter/5.mp3",
+      "text": "How much does the express registered stamp cost for this letter?",
+      "textSha256": "9e1380c1edf632493b25326789b6b122c45ea0ab3564c79be5c26b17fe77bf22",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b58cebd3ec102ff36810db0f7141fd414e0d66c233fb680cee9b09745aa7caff",
+      "duration": 4.3,
+      "graphemes": [
+        "How much does the express registered stamp cost for this letter?"
+      ],
+      "phonemes": [
+        "hˌW mˈʌʧ dˈʌz ði ɪkspɹˈɛs ɹˈɛʤəstəɹd stˈæmp kˈɔst fɔɹ ðɪs lˈɛTəɹ?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/mailing-registered-letter/6.mp3",
+      "text": "It costs eighty dollars, and it will arrive within four business days.",
+      "textSha256": "10e6be94c3983aa61ff074e149740b0a721a0954713fff6068d448f781c190a9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a4370c0a4f9792d9816f8d639c7ae683765005f8edbca51ae46f38e36a1a82aa",
+      "duration": 4.55,
+      "graphemes": [
+        "It costs eighty dollars, and it will arrive within four business days."
+      ],
+      "phonemes": [
+        "ˌɪt kˈɔsts ˈATi dˈɑləɹz, ænd ɪt wɪl əɹˈIv wɪðˈɪn fˈɔɹ bˈɪznəs dˈAz."
+      ]
+    },
+    {
+      "src": "/audio/phrases/mailing-registered-letter-send-an-important-document.mp3",
+      "text": "send an important document",
+      "textSha256": "9e211f8dc017221aab7ddf6649dafd0b03bbbc590955806668d1ba27153d4b85",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e5a4c1984b14c5f212c8d3520a6849b3d32f5d6d413f3097e3c567ca15bc3c1d",
+      "duration": 2.2,
+      "graphemes": [
+        "send an important document"
+      ],
+      "phonemes": [
+        "sˈɛnd ɐn ɪmpˈɔɹtᵊnt dˈɑkjəmənt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mailing-registered-letter-check-the-weight.mp3",
+      "text": "check the weight",
+      "textSha256": "0d533ed0843515085bff917493b9c15bf6d012117b4d6491d7a146a74209ffe4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9700f7925e8b02a992f23e6de710dd591a208c995369e957f4774be8eecc5faf",
+      "duration": 1.55,
+      "graphemes": [
+        "check the weight"
+      ],
+      "phonemes": [
+        "ʧˈɛk ðə wˈAt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mailing-registered-letter-air-mail.mp3",
+      "text": "air mail",
+      "textSha256": "08d8195908cd744110a09e268860986a7b99d2ac427e54731e77cb3e5ee30a34",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "69c3a5a700fd5d905072389ec1463b6c3d1d98b582069e22e8b93e92ee9a0c91",
+      "duration": 1.5,
+      "graphemes": [
+        "air mail"
+      ],
+      "phonemes": [
+        "ˈɛɹ mˈAl"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mailing-registered-letter-express-post.mp3",
+      "text": "express post",
+      "textSha256": "73f64d22f13417ff86b77ab322fc4d11056124f26840f54966cb3c7a22ae32a2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "747d2acdc72f362e94ed6ee085bffe50dd58bc8d401885fd778c56ccb445e07c",
+      "duration": 1.675,
+      "graphemes": [
+        "express post"
+      ],
+      "phonemes": [
+        "ɪkspɹˈɛs pˈOst"
+      ]
+    },
+    {
+      "src": "/audio/phrases/mailing-registered-letter-within-four-business-days.mp3",
+      "text": "within four business days",
+      "textSha256": "04fbd9027d7db9ff4c76660582f5aaa47cf886fec0b06f1fdc9e80ceee58a225",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a3ba5cde95ed0e91f9816c39118907130a9844a4d365873bf41186e3f56723fb",
+      "duration": 2.05,
+      "graphemes": [
+        "within four business days"
+      ],
+      "phonemes": [
+        "wɪðˈɪn fˈɔɹ bˈɪznəs dˈAz"
+      ]
+    },
+    {
+      "src": "/audio/words/mailing-registered-letter-post.mp3",
+      "text": "post",
+      "textSha256": "72231043bc1807e6f740b235eb7511ecb33255a6a375435631196de8a9750d4b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8ab0377ed7247a366c8c73e3523a573517133efee07af79b994696410d35f8b1",
+      "duration": 1.325,
+      "graphemes": [
+        "post"
+      ],
+      "phonemes": [
+        "pˈOst"
+      ]
+    },
+    {
+      "src": "/audio/words/mailing-registered-letter-send.mp3",
+      "text": "send",
+      "textSha256": "27ce1d1bf4270020e1799f12e647f5cbabda2b9eafd7202c43012a539986916b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cbe1fcb6750c08efd47209b1c14ad266c0120672d05a3961ddcfe0569334d041",
+      "duration": 1.325,
+      "graphemes": [
+        "send"
+      ],
+      "phonemes": [
+        "sˈɛnd"
+      ]
+    },
+    {
+      "src": "/audio/words/mailing-registered-letter-weight.mp3",
+      "text": "weight",
+      "textSha256": "0844df8fee9eeadaa344bc7e1a7ae769602eba35e773c2093c8fb9c3e5ead14e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4421510f8ad0a7ced80488c6fabfdba8d06b9205bdf7c87565621d475fe19e07",
+      "duration": 1.225,
+      "graphemes": [
+        "weight"
+      ],
+      "phonemes": [
+        "wˈAt"
+      ]
+    },
+    {
+      "src": "/audio/words/mailing-registered-letter-letter.mp3",
+      "text": "letter",
+      "textSha256": "f80105efab6d863fd8fc243d269094469e2277e8f12e5a0a9f401e88494f7b4b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "124329f7801d15a4bb3891e873fffbef2d8beafed13e623698c1471a7ebb3295",
+      "duration": 1.35,
+      "graphemes": [
+        "letter"
+      ],
+      "phonemes": [
+        "lˈɛTəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/mailing-registered-letter-address.mp3",
+      "text": "address",
+      "textSha256": "d80c9bf910f144738ef983724bc04bd6bd3f17c5c83ed57bedee1b1b9278e811",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "45cbfa7791b06b2f83865518ecc803e6b4057711dc221445a968b3ffeae414dd",
+      "duration": 1.425,
+      "graphemes": [
+        "address"
+      ],
+      "phonemes": [
+        "ədɹˈɛs"
+      ]
+    },
+    {
+      "src": "/audio/words/mailing-registered-letter-fast.mp3",
+      "text": "fast",
+      "textSha256": "115dc3606fbf8691fb69f2aefec86f2ecd302362a0502b3a9648bf2c4dc8290f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ac0ccd6b71372e7cbc5c4caa5bbe2b045bc6b1c2817de373c7cb4d16c4c24b29",
+      "duration": 1.375,
+      "graphemes": [
+        "fast"
+      ],
+      "phonemes": [
+        "fˈæst"
+      ]
+    },
+    {
+      "src": "/audio/sentences/library-overdue-fee/1.mp3",
+      "text": "I am here to return books to the front desk today.",
+      "textSha256": "f2bda1390bf7739e82d791b1eb694cb996587f210485d8d2ab1487d94c10cde8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4a1427b8cdb03932a1f8b181b474e3f3d9d870da8eb0087a3e0ba20f445b7cca",
+      "duration": 3.2,
+      "graphemes": [
+        "I am here to return books to the front desk today."
+      ],
+      "phonemes": [
+        "ˌI ɐm hˈɪɹ tə ɹətˈɜɹn bˈʊks tə ðə fɹˈʌnt dˈɛsk tədˈA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/library-overdue-fee/2.mp3",
+      "text": "Let me scan the barcode on your student library card first.",
+      "textSha256": "76934a92031767b2d7a6f9fb67e4a6b04c636bc2cf663776605a35913240f7ee",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "efb1015c0fe1108b684263008443764ae5358a84447d0330be9f638da1b68aa7",
+      "duration": 3.7,
+      "graphemes": [
+        "Let me scan the barcode on your student library card first."
+      ],
+      "phonemes": [
+        "lˈɛt mˌi skˈæn ðə bˈɑɹkˌOd ˌɔn jʊɹ stˈudᵊnt lˈIbɹˌɛɹi kˈɑɹd fˈɜɹst."
+      ]
+    },
+    {
+      "src": "/audio/sentences/library-overdue-fee/3.mp3",
+      "text": "Our system record shows that both books are five days overdue.",
+      "textSha256": "d2fc391ca3483bdc3b6a102c130b015b564311cce1dba0e95fee44fd5e096307",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c78b44ec8693d53c63019dd72212ec6afa6fd525ba9cff850c504bdd25b8c8f6",
+      "duration": 4.125,
+      "graphemes": [
+        "Our system record shows that both books are five days overdue."
+      ],
+      "phonemes": [
+        "ˌWəɹ sˈɪstəm ɹˈɛkəɹd ʃˈOz ðæt bˈOθ bˈʊks ɑɹ fˈIv dˈAz ˌOvəɹdˈu."
+      ]
+    },
+    {
+      "src": "/audio/sentences/library-overdue-fee/4.mp3",
+      "text": "According to the library rule, there is a small fee of two dollars per day.",
+      "textSha256": "431200640164478809998ca8b525e6de5c4bfac92140ffcc23a020e3a50407c5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "31f7e95e3aee5cc4f25681b822a9d638e58d5250c10417ed1c6f24f936421299",
+      "duration": 4.8,
+      "graphemes": [
+        "According to the library rule, there is a small fee of two dollars per day."
+      ],
+      "phonemes": [
+        "əkˈɔɹdɪŋ tə ðə lˈIbɹˌɛɹi ɹˈul, ðɛɹ ɪz ɐ smˈɔl fˈi ʌv tˈu dˈɑləɹz pɜɹ dˈA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/library-overdue-fee/5.mp3",
+      "text": "I am really sorry about forgetting the return due date.",
+      "textSha256": "94120fe3628459647a5c4818a5067f18a4338499154e77a8b9fea6c7be717a2c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b4a58022a81738bfa37c463d87106f5aa1aa79b00a0304e09725197e1fd335ca",
+      "duration": 3.525,
+      "graphemes": [
+        "I am really sorry about forgetting the return due date."
+      ],
+      "phonemes": [
+        "ˌI ɐm ɹˈiᵊli sˈɔɹi əbˈWt fəɹɡˈɛTɪŋ ðə ɹətˈɜɹn dˈu dˈAt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/library-overdue-fee/6.mp3",
+      "text": "Once you pay the twenty dollar fee, you can borrow books again.",
+      "textSha256": "028672ba564015113787e7bcb502ca25373dee4210947a87cd6a041e4c3b5c4e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "01ce9a50c650b8448f2ac8142ce64960d7ce96ad93bc961b7e88a309271b5b38",
+      "duration": 4.05,
+      "graphemes": [
+        "Once you pay the twenty dollar fee, you can borrow books again."
+      ],
+      "phonemes": [
+        "wˈʌns ju pˈA ðə twˈɛnti dˈɑləɹ fˈi, ju kæn bˈɑɹO bˈʊks əɡˈɛn."
+      ]
+    },
+    {
+      "src": "/audio/phrases/library-overdue-fee-return-books.mp3",
+      "text": "return books",
+      "textSha256": "ca2597a1e5bd1959ce535185895bc23e95ed06e0d97e29a3c016c799517af2fe",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "73cd0064ac7a82c629400040a1beca63fb4ece56bf976948c99359cf27015981",
+      "duration": 1.65,
+      "graphemes": [
+        "return books"
+      ],
+      "phonemes": [
+        "ɹətˈɜɹn bˈʊks"
+      ]
+    },
+    {
+      "src": "/audio/phrases/library-overdue-fee-system-record.mp3",
+      "text": "system record",
+      "textSha256": "10c383c416b3591d393b3209f4291a101dae3325e6c525313501b8fb3fc1642d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dcbc73f0948b71b7e705f064d750367ffa3899a054200927cc3d5197cd8905cb",
+      "duration": 1.65,
+      "graphemes": [
+        "system record"
+      ],
+      "phonemes": [
+        "sˈɪstəm ɹˈɛkəɹd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/library-overdue-fee-five-days-overdue.mp3",
+      "text": "five days overdue",
+      "textSha256": "48fabcb23e0d490ca706fc5e5d5627812d9a0e37f7ec09d76bf036c2958794f2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5e4a5c788337981a8485b3396d6eb911b141885a581c84d89f06843fb1198c2f",
+      "duration": 1.95,
+      "graphemes": [
+        "five days overdue"
+      ],
+      "phonemes": [
+        "fˈIv dˈAz ˌOvəɹdˈu"
+      ]
+    },
+    {
+      "src": "/audio/phrases/library-overdue-fee-library-rule.mp3",
+      "text": "library rule",
+      "textSha256": "5f0b5dc431c8cdc732548198801ee1894fa85f9049371c5df5f0e839dba7009a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7fb170e075836f518ac09e0e6be3f9f1fd89c81bb25e5ddb72f009b539b513a8",
+      "duration": 1.725,
+      "graphemes": [
+        "library rule"
+      ],
+      "phonemes": [
+        "lˈIbɹˌɛɹi ɹˈul"
+      ]
+    },
+    {
+      "src": "/audio/phrases/library-overdue-fee-due-date.mp3",
+      "text": "due date",
+      "textSha256": "71bdd372fc935798c541d14a7cb9bd820c7b81c0238913c9163591b6a06e23da",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9da6efefc98b563bb63180116b4dcbbf8f51124d547df056937a6a4d04d93688",
+      "duration": 1.45,
+      "graphemes": [
+        "due date"
+      ],
+      "phonemes": [
+        "dˈu dˈAt"
+      ]
+    },
+    {
+      "src": "/audio/words/library-overdue-fee-rule.mp3",
+      "text": "rule",
+      "textSha256": "7369949b47ef2c6ba26fbbee659cedc76123a75c17d321a52d8d1ef35e948042",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "774d39ee518bb0493c1574cc799cb474e7dae9e0f6065c0aadab8101ae95cfba",
+      "duration": 1.375,
+      "graphemes": [
+        "rule"
+      ],
+      "phonemes": [
+        "ɹˈul"
+      ]
+    },
+    {
+      "src": "/audio/words/library-overdue-fee-fee.mp3",
+      "text": "fee",
+      "textSha256": "b80cdaae9b322bba2a38fd396299782a4cc6b4a0ccf67fccbbcc617c94a46026",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8041a31c6f7ffaffec389f59f6b04c7fe7fc2b03aab724082f6166661b771806",
+      "duration": 1.3,
+      "graphemes": [
+        "fee"
+      ],
+      "phonemes": [
+        "fˈi"
+      ]
+    },
+    {
+      "src": "/audio/words/library-overdue-fee-borrow.mp3",
+      "text": "borrow",
+      "textSha256": "d106ccb1fe638b61e4cfbeb00c96818ecf8245918cb478d6bdc249eac33fe353",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "970c0cd56b6cf2c30688320b0fe2bf5926f125d84328dfab98fd2c5167ddd0fc",
+      "duration": 1.3,
+      "graphemes": [
+        "borrow"
+      ],
+      "phonemes": [
+        "bˈɑɹO"
+      ]
+    },
+    {
+      "src": "/audio/words/library-overdue-fee-return.mp3",
+      "text": "return",
+      "textSha256": "7187f0675eb3827939741acf7342ba78836ecec21a31ecf3f34a55309d3bee8a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "211b03808833f9bb912a596e683104b55792a2b3f167556fd3952e3b2cf34af3",
+      "duration": 1.525,
+      "graphemes": [
+        "return"
+      ],
+      "phonemes": [
+        "ɹətˈɜɹn"
+      ]
+    },
+    {
+      "src": "/audio/words/library-overdue-fee-date.mp3",
+      "text": "date",
+      "textSha256": "0e87632cd46bd4907c516317eb6d81fe0f921a23c7643018f21292894b470681",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0916cd663f69ec01bcc1a0c88e52fbfd0658dd941d400aa0de6fe89d8d2d096a",
+      "duration": 1.2,
+      "graphemes": [
+        "date"
+      ],
+      "phonemes": [
+        "dˈAt"
+      ]
+    },
+    {
+      "src": "/audio/words/library-overdue-fee-record.mp3",
+      "text": "record",
+      "textSha256": "70ce871f8a3d3fb449bc3c3ace6547cef02dfc74ffe48d912532a724bfdbe5b9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4ccaf969a76a6d251044a71ca14a7ff95147706677f0b17016b7cfca8fa7cff4",
+      "duration": 1.45,
+      "graphemes": [
+        "record"
+      ],
+      "phonemes": [
+        "ɹˈɛkəɹd"
+      ]
+    },
+    {
+      "src": "/audio/sentences/lost-bag-inquiry/1.mp3",
+      "text": "Hello, I think I left my bag inside the concert hall.",
+      "textSha256": "e4e7ae40711a5a2dcbfb0971a5e9b5747547b11459090c71b45740ee9189f28d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fef5c361883bf2a1e1998e8ead1cef0393cbc3249c9fcfea5cbfffea5020a0ce",
+      "duration": 3.775,
+      "graphemes": [
+        "Hello, I think I left my bag inside the concert hall."
+      ],
+      "phonemes": [
+        "həlˈO, ˌI θˈɪŋk ˌI lˈɛft mI bˈæɡ ɪnsˈId ðə kˈɑnsəɹt hˈɔl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/lost-bag-inquiry/2.mp3",
+      "text": "Can you remember the color and what material it was made of?",
+      "textSha256": "194f26feae55cbc3fa53e929b55a4eae6347994d60bc5cd201cc7e861afeb430",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2c5af5a0ebd15a67a22c657ccf4ec56804fe11f0c0175e0b07b94692087fc44d",
+      "duration": 3.725,
+      "graphemes": [
+        "Can you remember the color and what material it was made of?"
+      ],
+      "phonemes": [
+        "kˌæn ju ɹəmˈɛmbəɹ ðə kˈʌləɹ ænd wˌʌt mətˈɪɹiəl ɪt wʌz mˌAd ʌv?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/lost-bag-inquiry/3.mp3",
+      "text": "It is a small black leather bag with a metal zipper.",
+      "textSha256": "e1a8dc539d2b9c9e387f2efee5ad8a5e58a52f18674c6fc515abf80daafc2288",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7a8617cc2623140ba69921ea4d53b95257c1531f8a4f3fb5c8cb295e6f68bcad",
+      "duration": 3.425,
+      "graphemes": [
+        "It is a small black leather bag with a metal zipper."
+      ],
+      "phonemes": [
+        "ˌɪt ɪz ɐ smˈɔl blˈæk lˈɛðəɹ bˈæɡ wɪð ɐ mˈɛTᵊl zˈɪpəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/lost-bag-inquiry/4.mp3",
+      "text": "Can you tell me what was inside the main pocket?",
+      "textSha256": "927afeb2cb8204f50e7f1281f2129eb170661ef3e6dcde33e7a3879ab22034dd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8f81f84b6b3ad67f8a7a548712bd4c0fafaa2c6f4c6e9c9600d6281e0403d5e5",
+      "duration": 3.275,
+      "graphemes": [
+        "Can you tell me what was inside the main pocket?"
+      ],
+      "phonemes": [
+        "kˌæn ju tˈɛl mˌi wˌʌt wʌz ɪnsˈId ðə mˈAn pˈɑkət?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/lost-bag-inquiry/5.mp3",
+      "text": "There are house keys, an umbrella, and a blue student notebook.",
+      "textSha256": "6ec2f0ed10392ffb09bde4e96a7db4af4dcb731834168c1a9c2d8c68b4ade7d6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "499ed6ff923761b9fee145bd6a7692ee14e5f67c03c3d14f329045be58d2112a",
+      "duration": 3.85,
+      "graphemes": [
+        "There are house keys, an umbrella, and a blue student notebook."
+      ],
+      "phonemes": [
+        "ðˌɛɹ ɑɹ hˈWs kˈiz, ɐn ˌʌmbɹˈɛlə, ænd ɐ blˈu stˈudᵊnt nˈOtbˌʊk."
+      ]
+    },
+    {
+      "src": "/audio/sentences/lost-bag-inquiry/6.mp3",
+      "text": "A cleaner just found that exact bag, please sign the contact form to claim it.",
+      "textSha256": "2c0eb682a8592d8b8406996ce835c68807131dd9f961c11ace8fc9c4b2af2362",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0157f8721f2d6952fb0ae1b8529f6ebe4493d3f6b7d522546cfd47c32c819998",
+      "duration": 5.025,
+      "graphemes": [
+        "A cleaner just found that exact bag, please sign the contact form to claim it."
+      ],
+      "phonemes": [
+        "ɐ klˈinəɹ ʤˈʌst fˈWnd ðˈæt ɪɡzˈækt bˈæɡ, plˈiz sˈIn ðə kˈɑntækt fˈɔɹm tə klˈAm ɪt."
+      ]
+    },
+    {
+      "src": "/audio/phrases/lost-bag-inquiry-left-my-bag-inside.mp3",
+      "text": "left my bag inside",
+      "textSha256": "b041c4ae70849ec771b8455473529e1e4961eecc3b0d474dfaa4cf430b59adba",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9ce899bd66d9b70af3e962a41c99c7a6ec3bc164cf52c425facbad72074d409f",
+      "duration": 2,
+      "graphemes": [
+        "left my bag inside"
+      ],
+      "phonemes": [
+        "lˈɛft mI bˈæɡ ɪnsˈId"
+      ]
+    },
+    {
+      "src": "/audio/phrases/lost-bag-inquiry-black-leather-bag.mp3",
+      "text": "black leather bag",
+      "textSha256": "e6d2f6d3ef0bd765c36e02a92c9069ca33b4a4da1a12f85d9d89fb5891cd6b76",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "56144657efacb60a553cdf31be54fdce523368755c0b48bda9a99508e63bf0a0",
+      "duration": 1.525,
+      "graphemes": [
+        "black leather bag"
+      ],
+      "phonemes": [
+        "blˈæk lˈɛðəɹ bˈæɡ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/lost-bag-inquiry-what-was-inside.mp3",
+      "text": "what was inside",
+      "textSha256": "1c5c45b1122c9013eb069c9776b1e7e3e692778f6eed63a6fd1aa429b86f35a6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "10a4a4ca8235e58b08b6bdc2586217b115e3bc87264df7800bf5a4f13a63b9aa",
+      "duration": 1.65,
+      "graphemes": [
+        "what was inside"
+      ],
+      "phonemes": [
+        "wˌʌt wʌz ɪnsˈId"
+      ]
+    },
+    {
+      "src": "/audio/phrases/lost-bag-inquiry-house-keys.mp3",
+      "text": "house keys",
+      "textSha256": "dfb706eeb53324076ad23742f62f50db28260c627f023442f8e9190e9969b508",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4c55f3123a2d107a7a0926b71e7ea8c792be92fb53ebf81abc89066ea3d51b36",
+      "duration": 1.625,
+      "graphemes": [
+        "house keys"
+      ],
+      "phonemes": [
+        "hˈWs kˈiz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/lost-bag-inquiry-sign-the-contact-form.mp3",
+      "text": "sign the contact form",
+      "textSha256": "275991587e398155cf5a35a53db37c6fc8ad1fcebaa815f8ec5cad26f4c04e1e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "477ae50a50e19ebc760f4ba8814a345b1cefbc88b0b3c1a1f8fa082ad971c044",
+      "duration": 1.95,
+      "graphemes": [
+        "sign the contact form"
+      ],
+      "phonemes": [
+        "sˈIn ðə kˈɑntækt fˈɔɹm"
+      ]
+    },
+    {
+      "src": "/audio/words/lost-bag-inquiry-leave.mp3",
+      "text": "leave",
+      "textSha256": "af193190b8d3cd14103e20e900378a2b76414ff6428065f3f8539b3577b22fdf",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2a1f02d3eb352257e84774f462224dfbbaa19221f69ff1eca038a63fb0911915",
+      "duration": 1.375,
+      "graphemes": [
+        "leave"
+      ],
+      "phonemes": [
+        "lˈiv"
+      ]
+    },
+    {
+      "src": "/audio/words/lost-bag-inquiry-remember.mp3",
+      "text": "remember",
+      "textSha256": "35379d9c009e290d702b72abf3f5f9bdbaa7e00a63fc37b5174fc3825c8095e3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bd9f746a6311a2ecd520c0dcf10bdf72bdd76d8f72ccae32e5d4c3badd87e627",
+      "duration": 1.45,
+      "graphemes": [
+        "remember"
+      ],
+      "phonemes": [
+        "ɹəmˈɛmbəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/lost-bag-inquiry-black.mp3",
+      "text": "black",
+      "textSha256": "c006c7e3ab14d686f63524136f1ec7c5e553d839bc01c851e4dc9de2bdbfc589",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "61624855d02565829ec22738909a39863edeea6683f16fe029a551795cb452a7",
+      "duration": 1.25,
+      "graphemes": [
+        "black"
+      ],
+      "phonemes": [
+        "blˈæk"
+      ]
+    },
+    {
+      "src": "/audio/words/lost-bag-inquiry-inside.mp3",
+      "text": "inside",
+      "textSha256": "106b086224a4d945eae25f7be3805a931a873270326dd868b0e41f71ee9fff72",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8ef0a680361b0c049a29a6426f84474245a98d3aae981b9cbe145fa2aa430c19",
+      "duration": 1.5,
+      "graphemes": [
+        "inside"
+      ],
+      "phonemes": [
+        "ɪnsˈId"
+      ]
+    },
+    {
+      "src": "/audio/words/lost-bag-inquiry-contact.mp3",
+      "text": "contact",
+      "textSha256": "093e7d5fdbaacfa92448861b11075b3fba532a07d945b49a44919252f5e830ad",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "16ae5de03b877c42e247d60600fc46a71b10296f746d5468801efa3191d6228d",
+      "duration": 1.475,
+      "graphemes": [
+        "contact"
+      ],
+      "phonemes": [
+        "kˈɑntækt"
+      ]
+    },
+    {
+      "src": "/audio/words/lost-bag-inquiry-key.mp3",
+      "text": "key",
+      "textSha256": "2c70e12b7a0646f92279f427c7b38e7334d8e5389cff167a1dc30e73f826b683",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "eb7ca5cd56a5a0f480983c84135b95de8f0a2046fd9d97c94f61427870ddfc00",
+      "duration": 1.275,
+      "graphemes": [
+        "key"
+      ],
+      "phonemes": [
+        "kˈi"
+      ]
+    },
+    {
+      "src": "/audio/sentences/information-desk-map/1.mp3",
+      "text": "Good afternoon, could I get an English guide map of the building?",
+      "textSha256": "f2aabda782696af8bfdb643e373cc7a82b01d30a6c41bef9f218272a3aa914b5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b23ba731690e35aa410818aab865c3d589e0b500b3d5bdebd46cd5c76473f31d",
+      "duration": 3.975,
+      "graphemes": [
+        "Good afternoon, could I get an English guide map of the building?"
+      ],
+      "phonemes": [
+        "ɡˈʊd ˌæftəɹnˈun, kʊd ˌI ɡɛt ɐn ˈɪŋɡlɪʃ ɡˈId mˈæp ʌv ðə bˈɪldɪŋ?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/information-desk-map/2.mp3",
+      "text": "Here is our free visitor guide with every exhibition hall.",
+      "textSha256": "57c569146988d5dd708ceec4bab176d7f7e1e919a5ef776cbf56cf7992f22804",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "03eff858419afde2accc1a8c79320cda316a268913860e36690b6119ecfd3da6",
+      "duration": 3.85,
+      "graphemes": [
+        "Here is our free visitor guide with every exhibition hall."
+      ],
+      "phonemes": [
+        "hˈɪɹ ɪz ˌWəɹ fɹˈi vˈɪzəTəɹ ɡˈId wɪð ˈɛvəɹi ˌɛksəbˈɪʃən hˈɔl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/information-desk-map/3.mp3",
+      "text": "Where are the public restrooms and the drinking water fountains located?",
+      "textSha256": "a1b329c48ea5c25212d3a9e2cfff55e3d75593b0613898107e0ab1c8fd4af370",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6cc3fc661409e5dbdb97acc11b45f531f966762728862c9cac973c7a5cd47d48",
+      "duration": 4.5,
+      "graphemes": [
+        "Where are the public restrooms and the drinking water fountains located?"
+      ],
+      "phonemes": [
+        "wˌɛɹ ɑɹ ðə pˈʌblɪk ɹˈɛstɹˌumz ænd ðə dɹˈɪŋkɪŋ wˈɔTəɹ fˈWntᵊnz lˈOkˌATᵻd?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/information-desk-map/4.mp3",
+      "text": "Restrooms are on every floor right next to the elevator.",
+      "textSha256": "aa504785f7ceb74e109f7f70f58686e39110f226bf708d51728c6f0f752100d4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "97d195fae132f9eec2bbd5ee064df907cfb9ffab20e14281c2598d5bce2f8a8b",
+      "duration": 3.65,
+      "graphemes": [
+        "Restrooms are on every floor right next to the elevator."
+      ],
+      "phonemes": [
+        "ɹˈɛstɹˌumz ɑɹ ˌɔn ˈɛvəɹi flˈɔɹ ɹˈIt nˈɛkst tə ði ˈɛləvˌATəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/information-desk-map/5.mp3",
+      "text": "Can you show me where the special dinosaur hall is on this level?",
+      "textSha256": "9c11d3d49b73fdb57a4b5aa87637e15f948383ef245b3fc7fc7719a0347462ab",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "49793b8f2820d91ae308842e0ad2eb59363ba7768db70c369eba76a0d50877ee",
+      "duration": 4.125,
+      "graphemes": [
+        "Can you show me where the special dinosaur hall is on this level?"
+      ],
+      "phonemes": [
+        "kˌæn ju ʃˈO mˌi wˌɛɹ ðə spˈɛʃᵊl dˈInəsˌɔɹ hˈɔl ɪz ˌɔn ðɪs lˈɛvᵊl?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/information-desk-map/6.mp3",
+      "text": "It is straight down this corridor behind the gift shop.",
+      "textSha256": "4998d1d32a34abd1e3d769c78e90d24fb51290f37111e42a4b63086035fa997c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "98f3476026c6fbde59c89e54b7058ed5d9995958ab10f4036ed0209de821e340",
+      "duration": 3.275,
+      "graphemes": [
+        "It is straight down this corridor behind the gift shop."
+      ],
+      "phonemes": [
+        "ˌɪt ɪz stɹˈAt dˌWn ðɪs kˈɔɹədəɹ bəhˈInd ðə ɡˈɪft ʃˈɑp."
+      ]
+    },
+    {
+      "src": "/audio/phrases/information-desk-map-guide-map.mp3",
+      "text": "guide map",
+      "textSha256": "03212e8acb8535359e8cb11522837e28764da57cbe153b77f74975dc723579a0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c5bf1c8c2e4acf200c9b964b7ec763c91551bef5162a78af2171f43648c8db54",
+      "duration": 1.5,
+      "graphemes": [
+        "guide map"
+      ],
+      "phonemes": [
+        "ɡˈId mˈæp"
+      ]
+    },
+    {
+      "src": "/audio/phrases/information-desk-map-free-visitor-guide.mp3",
+      "text": "free visitor guide",
+      "textSha256": "2cf3c5aba948639c4a448d84a801d6171a647cd7be26e40fcf75adb377bbc76b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a4dc856b6263b36afef5e40b0b5a85a9d4bbde8c7985324077a50e17e7135da3",
+      "duration": 1.775,
+      "graphemes": [
+        "free visitor guide"
+      ],
+      "phonemes": [
+        "fɹˈi vˈɪzəTəɹ ɡˈId"
+      ]
+    },
+    {
+      "src": "/audio/phrases/information-desk-map-public-restrooms.mp3",
+      "text": "public restrooms",
+      "textSha256": "fba484a9106f42ea1985a772659a5a5df9036f91f122eafe1178ba923107320f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "74733b0daba6a3dcda682437ab37facdd40c42797bf961ba504580a1232b195a",
+      "duration": 1.8,
+      "graphemes": [
+        "public restrooms"
+      ],
+      "phonemes": [
+        "pˈʌblɪk ɹˈɛstɹˌumz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/information-desk-map-next-to-the-elevator.mp3",
+      "text": "next to the elevator",
+      "textSha256": "04a305f916838cbea8811ea2dd3f6dabb2d1d1579945d1dbee83a1cda490dda0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "69f148b01b82e6b9c682df4717fd5f3cca4437138ed6bdf5bf789cb3a16397c4",
+      "duration": 1.825,
+      "graphemes": [
+        "next to the elevator"
+      ],
+      "phonemes": [
+        "nˈɛkst tə ði ˈɛləvˌATəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/information-desk-map-straight-down-this-corridor.mp3",
+      "text": "straight down this corridor",
+      "textSha256": "9a0b1f53c580a5d5e5ff8989893f47a730ed3dd358eb86b3e1aa21974e026a0d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d15301752bf6998a3ce726b9609a0893f9bccd00f82aa755bdcf39816b483629",
+      "duration": 1.9,
+      "graphemes": [
+        "straight down this corridor"
+      ],
+      "phonemes": [
+        "stɹˈAt dˌWn ðɪs kˈɔɹədəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/information-desk-map-guide.mp3",
+      "text": "guide",
+      "textSha256": "83ca68be6227af2feb15f227485ed18aff8ecae99416a4bd6df3be1b5e8059b4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c69e4e197805bf06a0dcb008cfcbfa1e53131d49c7ba1a4a97eef46bdefc8c85",
+      "duration": 1.35,
+      "graphemes": [
+        "guide"
+      ],
+      "phonemes": [
+        "ɡˈId"
+      ]
+    },
+    {
+      "src": "/audio/words/information-desk-map-map.mp3",
+      "text": "map",
+      "textSha256": "60be9861750facbfad8758254a2f76c0cfe78d54459a3bc187d49b1401fcd8e8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cc82565463b5189103a225622c62f3688ac273ab867a1b8055a867f5874040b1",
+      "duration": 1.25,
+      "graphemes": [
+        "map"
+      ],
+      "phonemes": [
+        "mˈæp"
+      ]
+    },
+    {
+      "src": "/audio/words/information-desk-map-elevator.mp3",
+      "text": "elevator",
+      "textSha256": "41762bcf88c5e7148181df374b2e9ecff9bc9e64d67e032ebeea1a6d5a26eda8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0b1a86625c12f2d5da3bb1289861b22e5a638247c4f4481fe9d4af711336790b",
+      "duration": 1.5,
+      "graphemes": [
+        "elevator"
+      ],
+      "phonemes": [
+        "ˈɛləvˌATəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/information-desk-map-level.mp3",
+      "text": "level",
+      "textSha256": "0081779c287d567d9ca622f4c0cc2ede819b0cc7f286a5f01d8c3c0178191ad6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cf5e5b00bbdcb2a11cb2eaa078baf5a69e36c15794009c7ad42a162cc7949bc1",
+      "duration": 0.775,
+      "graphemes": [
+        "level"
+      ],
+      "phonemes": [
+        "lˈɛvᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/information-desk-map-show.mp3",
+      "text": "show",
+      "textSha256": "1c6333509debf060200eb6bbe28db307508da67c0e3c58088393e4cf09de596d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3fecc765b8dc6e1b872af53b6c6c1757364baa3b6ff2ecb9b7d7a1859acf0438",
+      "duration": 1.3,
+      "graphemes": [
+        "show"
+      ],
+      "phonemes": [
+        "ʃˈO"
+      ]
+    },
+    {
+      "src": "/audio/words/information-desk-map-free.mp3",
+      "text": "free",
+      "textSha256": "ad95d5fa651ba86d8923fe1238d24a4f1988a752acfe426ac72ac7c04471bc17",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "da2408780d77d1b7fc8bbb0989f844482844d94f8d40292479ec56e095b8cf94",
+      "duration": 1.35,
+      "graphemes": [
+        "free"
+      ],
+      "phonemes": [
+        "fɹˈi"
+      ]
+    }
+  ]
+}

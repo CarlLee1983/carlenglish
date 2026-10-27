@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "tool": "codex exec built-in imagegen",
+  "conversion": "1536x1024 landscape WebP, sharp quality 86; fit cover.",
+  "images": [
+    {
+      "id": "lost-at-intersection",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/lost-at-intersection.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "ac44b1c53112ca1339d429b76541795c8161ad48d68aee22a8df7846f7910d5c"
+    },
+    {
+      "id": "pharmacy-medicine-buy",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/pharmacy-medicine-buy.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "7edd9d233a339e50fa33d213bc78d94c53e49415fa7c67140b240c600607669f"
+    },
+    {
+      "id": "clinic-check-in",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/clinic-check-in.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "3235265c8cfb738d7d19d63072b4a392ef6ac1f89b517814defa0c014fcf4910"
+    },
+    {
+      "id": "calling-in-sick",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/calling-in-sick.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "34d37f2f1d2f69204f032f755209c733fab118a0b3a8434bacd8e3346302b119"
+    },
+    {
+      "id": "ice-pack-for-sprain",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/ice-pack-for-sprain.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2d825e9e53a582bcf34c109f11a8b36ae866f07f513a017cdd46699846efb13b"
+    }
+  ]
+}

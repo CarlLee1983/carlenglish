@@ -1,0 +1,344 @@
+{
+  "id": "setting-meeting-time",
+  "title": "約定碰面時間與地點",
+  "titleEn": "Arranging a Meeting Time and Place",
+  "category": "社交生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/setting-meeting-time.webp",
+    "alt": "在陽光明媚的週末早晨，兩位朋友各自手持手機通話，約定在麵包店時鐘塔旁的捷運出口會面討論作業。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "are-you-free",
+      "english": "are you free",
+      "translation": "你有空嗎",
+      "audio": {
+        "src": "/audio/phrases/setting-meeting-time-are-you-free.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "85626a3438f02f09fc41fec247957e5c5ad454e79285390b3dc61c7659f73499",
+        "sha256": "b9269d9ccf9ddcacd664ce1548eae3386c03b42dfe8ffd734d3d2d2f530ba8dd"
+      }
+    },
+    {
+      "id": "my-schedule-is-open",
+      "english": "my schedule is open",
+      "translation": "我的時間是空閒的",
+      "audio": {
+        "src": "/audio/phrases/setting-meeting-time-my-schedule-is-open.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f69f681c6ecb8ddc3b5d67d06a79216fc8d2a718e21daea325eb92fb798b6a30",
+        "sha256": "dd44f2bfe49dfe7998d528509b394fc0ac388555da47998e162b7dbeaab74d91"
+      }
+    },
+    {
+      "id": "suit-me-perfectly",
+      "english": "suit me perfectly",
+      "translation": "對我來說再合適不過",
+      "audio": {
+        "src": "/audio/phrases/setting-meeting-time-suit-me-perfectly.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7ca1f8330babf0b4648231a5bca3237f98dbc6f7ef0ce1b78d843a30ead5d6c3",
+        "sha256": "5159c8b1236a91c94f10c75f69d3f64442ca5cedf9304245ae7effc0fc1b57bc"
+      }
+    },
+    {
+      "id": "earlier-in-the-day",
+      "english": "earlier in the day",
+      "translation": "在一天當中早一點的時候",
+      "audio": {
+        "src": "/audio/phrases/setting-meeting-time-earlier-in-the-day.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ff013aa0802d3497869b77eb5ad3d0378a4ab9e8162ab2fc6355f5e21176ff62",
+        "sha256": "164852a908e943e12af02f6f14d7e786a3ab1caab02ecfc560b353ba3f616829"
+      }
+    },
+    {
+      "id": "outside-the-subway-exit",
+      "english": "outside the subway exit",
+      "translation": "在捷運出口外",
+      "audio": {
+        "src": "/audio/phrases/setting-meeting-time-outside-the-subway-exit.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "082464e068541773d1ceee860fbdfc196aa160a896c2bed40a745c740ac5cf8e",
+        "sha256": "a298aeac90da9a9346368478a13978c80e386b634d63ac5a64a0ec040e4b8a1d"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "free",
+      "english": "free",
+      "translation": "免費的；有空的",
+      "example": "Are you free for lunch tomorrow afternoon?",
+      "audio": {
+        "src": "/audio/words/setting-meeting-time-free.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ad95d5fa651ba86d8923fe1238d24a4f1988a752acfe426ac72ac7c04471bc17",
+        "sha256": "9fea9672ee0c808242a07d54171f52e691edc2fadfec052ffa6eb656535c7e14"
+      }
+    },
+    {
+      "id": "busy",
+      "english": "busy",
+      "translation": "忙碌的",
+      "example": "The chef is always busy during dinner hours.",
+      "audio": {
+        "src": "/audio/words/setting-meeting-time-busy.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c9bc072f4fa8189466c2a8f2c36a56a4ef1e60a2ffa4986ba2f155cd176c128b",
+        "sha256": "a838bc55091fe4f55e2a9012736ee2cafe9cb82e9e05086f1df4a3121b8c529b"
+      }
+    },
+    {
+      "id": "meet",
+      "english": "meet",
+      "translation": "碰面、集合",
+      "example": "Let us meet at the library front gate.",
+      "audio": {
+        "src": "/audio/words/setting-meeting-time-meet.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8ccb033c0e48b27ff91e1ab948367e3bbc6921487c97624ed7ad064025e3dc99",
+        "sha256": "eb4df228797aaf897eea874beab9b63eba20a55ae0777942fa0286d43d8fb75c"
+      }
+    },
+    {
+      "id": "convenient",
+      "english": "convenient",
+      "translation": "方便的；便利的",
+      "example": "Living near a bus stop is very convenient.",
+      "audio": {
+        "src": "/audio/words/setting-meeting-time-convenient.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3320956b836c53b726d123b3c7021f4d298b4bde1bfe8f277b327f29d22af931",
+        "sha256": "e45329abbf13a82c209343cf0632354792a8cc4eed365621eeac1e75b8b2a5ab"
+      }
+    },
+    {
+      "id": "plan",
+      "english": "plan",
+      "translation": "計畫",
+      "example": "What is your plan for the summer vacation?",
+      "audio": {
+        "src": "/audio/words/setting-meeting-time-plan.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "64879f7d6b960a01909762d911a32d4582c20010c5641ee90278b644a9e3b525",
+        "sha256": "cda2570837dba4b81cc4ba7eb91ff375d60e92f5bf66eab7a8a4dab2e1e0edd5"
+      }
+    },
+    {
+      "id": "early",
+      "english": "early",
+      "translation": "早的、提早",
+      "example": "He wakes up early to water the garden flowers.",
+      "audio": {
+        "src": "/audio/words/setting-meeting-time-early.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f408830bcc7fab370819172244aa32e3ba66a848835911c02629d9a4dff77992",
+        "sha256": "ca2d9217fad54874bcf58b5c5a7299da7f0ad8017a66ef5e3b0a2a063592446e"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Are you ",
+          "phraseIds": [
+            "are-you-free"
+          ]
+        },
+        {
+          "text": "free",
+          "phraseIds": [
+            "are-you-free"
+          ],
+          "wordIds": [
+            "free"
+          ]
+        },
+        {
+          "text": " this Saturday morning to discuss our science assignment?"
+        }
+      ],
+      "translation": "這個星期六早上你有空一起討論我們的自然科學作業嗎？",
+      "audio": {
+        "src": "/audio/sentences/setting-meeting-time/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8b5d30d9ab21a23b7e096b2fbdd7224744dae6858aab6d29dc0c5fbeb2757f37",
+        "sha256": "d7d4a842001b83c2ecd5cc39aa94fdcadcec153c17efcd8ad8ebf16ef2cd87f9"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I am quite "
+        },
+        {
+          "text": "busy",
+          "wordIds": [
+            "busy"
+          ]
+        },
+        {
+          "text": " until ten o'clock, but after that "
+        },
+        {
+          "text": "my schedule is open",
+          "phraseIds": [
+            "my-schedule-is-open"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我十點以前滿忙的，但十點過後我的時間就空出來了。",
+      "audio": {
+        "src": "/audio/sentences/setting-meeting-time/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ec9f2c1ebc4f6c167ea738510f554d1603944cce9031aa76cea213e0c46de519",
+        "sha256": "a73032fd1839bd2b24a062bfc1ee7edbe84177e860cac8a5e43280c49f847320"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Ten thirty would "
+        },
+        {
+          "text": "suit me perfectly",
+          "phraseIds": [
+            "suit-me-perfectly"
+          ]
+        },
+        {
+          "text": ", does that sound "
+        },
+        {
+          "text": "convenient",
+          "wordIds": [
+            "convenient"
+          ]
+        },
+        {
+          "text": " for you?"
+        }
+      ],
+      "translation": "十點半對我來說非常合適，這個時間對你來說方便嗎？",
+      "audio": {
+        "src": "/audio/sentences/setting-meeting-time/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "610eaf1bb63ff8cfcaaf90c30d8317d4e41e4b17a9f00ee599411848cb78ce66",
+        "sha256": "b2b1b21b95022f9f8b7a842b453e3ad30f988b71a65c6d8abc97b09be7ac8976"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yes, meeting "
+        },
+        {
+          "text": "earlier",
+          "phraseIds": [
+            "earlier-in-the-day"
+          ],
+          "wordIds": [
+            "early"
+          ]
+        },
+        {
+          "text": " in the day",
+          "phraseIds": [
+            "earlier-in-the-day"
+          ]
+        },
+        {
+          "text": " is much better before it gets too hot."
+        }
+      ],
+      "translation": "可以，在天氣變太熱之前早一點碰面好很多。",
+      "audio": {
+        "src": "/audio/sentences/setting-meeting-time/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d26bdb5b9adf5df44a1e8cceea6dddda4c1a4ecd6beb7551aaa3c2651521f0c3",
+        "sha256": "a7cd99aeab05917a3c76c82162e9610f012c9e4054311dcd33390a030ef92d3f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "What is your "
+        },
+        {
+          "text": "plan",
+          "wordIds": [
+            "plan"
+          ]
+        },
+        {
+          "text": " for where to "
+        },
+        {
+          "text": "meet",
+          "wordIds": [
+            "meet"
+          ]
+        },
+        {
+          "text": " so nobody gets lost along the "
+        },
+        {
+          "text": "busy",
+          "wordIds": [
+            "busy"
+          ]
+        },
+        {
+          "text": " road?"
+        }
+      ],
+      "translation": "對於要在哪裡碰面才不會有人在熱鬧的馬路上迷路，你有什麼計畫嗎？",
+      "audio": {
+        "src": "/audio/sentences/setting-meeting-time/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f65a997c2d30aa9f479c084cfa0150c46b760c0e68a02ebe3832474353b55e0b",
+        "sha256": "254428eb293f6acc74d3e8917dd028c101e1321576b5160e7462eb1783e3c15f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Let us "
+        },
+        {
+          "text": "meet",
+          "wordIds": [
+            "meet"
+          ]
+        },
+        {
+          "text": " right "
+        },
+        {
+          "text": "outside the subway exit",
+          "phraseIds": [
+            "outside-the-subway-exit"
+          ]
+        },
+        {
+          "text": " near the bakery clock tower."
+        }
+      ],
+      "translation": "我們就約在麵包店時鐘塔附近的捷運站出口正外面吧。",
+      "audio": {
+        "src": "/audio/sentences/setting-meeting-time/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "84e9a9f398a26fd09e260791a2315d7b54241ff0ba7792c6a3865b9fc75004a4",
+        "sha256": "9fdae959db16d2181bae7bedf97fa47087729c849991edd572c73194573641aa"
+      }
+    }
+  ]
+}

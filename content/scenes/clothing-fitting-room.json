@@ -1,0 +1,350 @@
+{
+  "id": "clothing-fitting-room",
+  "title": "服飾店試穿與換尺寸",
+  "titleEn": "Trying on Clothes in the Fitting Room",
+  "category": "購物生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/clothing-fitting-room.webp",
+    "alt": "在明亮的現代服飾店裡，顧客站在試衣間外向店員詢問是否有大一號的外套可試穿。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "try-on",
+      "english": "try on",
+      "translation": "試穿",
+      "audio": {
+        "src": "/audio/phrases/clothing-fitting-room-try-on.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bcc60fc727ad793695278ff82ccb9267abba14168e8aa1092cd3149f3e2ebd8e",
+        "sha256": "90bae75bfa4d274abe58fa28f28ca355eee5f92e57786149e2dbe57f873d3121"
+      }
+    },
+    {
+      "id": "fitting-room",
+      "english": "fitting room",
+      "translation": "試衣間",
+      "audio": {
+        "src": "/audio/phrases/clothing-fitting-room-fitting-room.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d835f39a99ee4cc0514d8871192eccfe278cb0ff1e1dfe0e09af5c079fec17f2",
+        "sha256": "2ea7c9770472bb5f9134bd17ecbd0dcc17d48af77bfdc52835ebbf8b149ef81e"
+      }
+    },
+    {
+      "id": "too-tight-for-me",
+      "english": "too tight for me",
+      "translation": "對我來說太緊了",
+      "audio": {
+        "src": "/audio/phrases/clothing-fitting-room-too-tight-for-me.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f7fa26dde64e4591eeae4fd665bd4980cbc3eed6310c516c5dc205c66ad8cb7f",
+        "sha256": "915c0d1bc9963b3e3154ee4a82ad637f31c53ce515f34d22c253d76ed9044fa6"
+      }
+    },
+    {
+      "id": "one-size-bigger",
+      "english": "one size bigger",
+      "translation": "大一號尺寸",
+      "audio": {
+        "src": "/audio/phrases/clothing-fitting-room-one-size-bigger.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "86912ff5aa44ceaaf52257c52426fd88e22099b24a4751f08f1016f007a8efc1",
+        "sha256": "7e72ccba1a1d66409bfb421d6065eeb4f7d425727fddf36a5f85debe1b4e6322"
+      }
+    },
+    {
+      "id": "fits-you-much-better",
+      "english": "fits you much better",
+      "translation": "合身許多",
+      "audio": {
+        "src": "/audio/phrases/clothing-fitting-room-fits-you-much-better.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "db46c76fe7fb4aadb4f8d3a1b57040658d1b509b02221c57d5f830d9e99529ed",
+        "sha256": "3687ae1d988b483eb09d5f4ecd14d87167ce942511843d1049e8389fc3ca90d2"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "fit",
+      "english": "fit",
+      "translation": "合身、適合",
+      "example": "These new shoes fit me perfectly.",
+      "audio": {
+        "src": "/audio/words/clothing-fitting-room-fit.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "da4270e3735a3418c9d462af2e17d045132dede43df058e85b1f0399fcf96f1b",
+        "sha256": "ee9ac0c731bccb45617c38decf517498c6b7ff62dd12ff9be5fd52da22594883"
+      }
+    },
+    {
+      "id": "size",
+      "english": "size",
+      "translation": "尺寸",
+      "example": "What shoe size do you wear?",
+      "audio": {
+        "src": "/audio/words/clothing-fitting-room-size.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ccdcbe846f3da4eb044fbdf64bf6b57902388ab72fb0c852ba72280f8d478b40",
+        "sha256": "065d66d2a3695c79c7cf363db45b47bbf978c747945083b39e190458676e24cd"
+      }
+    },
+    {
+      "id": "try",
+      "english": "try",
+      "translation": "嘗試、試試看",
+      "example": "Always try on a shirt before buying it.",
+      "audio": {
+        "src": "/audio/words/clothing-fitting-room-try.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1e262cd7d110812f5726055a6e672b92cde43648b76adff51a12441fbdf7e667",
+        "sha256": "051290ad234849ec24de00fbfc6633ecbe499473123d671bfce3a7cac5b04387"
+      }
+    },
+    {
+      "id": "room",
+      "english": "room",
+      "translation": "房間",
+      "example": "Is there enough room in your suitcase?",
+      "audio": {
+        "src": "/audio/words/clothing-fitting-room-room.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1f1c5b2fad778434024f1537986346927917f4755a6e7d3fd91f22653b7c3132",
+        "sha256": "dd762abf33ee9c9e3a1b412ee71b5703f29dc823b606c76ce14998f71cf3266b"
+      }
+    },
+    {
+      "id": "tight",
+      "english": "tight",
+      "translation": "緊的",
+      "example": "The collar feels too tight around my neck.",
+      "audio": {
+        "src": "/audio/words/clothing-fitting-room-tight.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "922b53ea837e15ffe640f2e755e3d2f379fb34d103c8d69f99ec32025434f020",
+        "sha256": "f55350d57a5103565b9fff10de5924a0ba9df643a09222144830f8ee72a0bdc2"
+      }
+    },
+    {
+      "id": "wear",
+      "english": "wear",
+      "translation": "穿、戴",
+      "example": "He likes to wear warm socks in winter.",
+      "audio": {
+        "src": "/audio/words/clothing-fitting-room-wear.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c47fbc5d87a1298121ddf52ba9ad2b27986f8738b19a6df23973064863848904",
+        "sha256": "b6e20799223ace28471f14a38d2c9b94c23822ceb32c401534e4ca8345f2388f"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Excuse me, can I "
+        },
+        {
+          "text": "try",
+          "phraseIds": [
+            "try-on"
+          ],
+          "wordIds": [
+            "try"
+          ]
+        },
+        {
+          "text": " on",
+          "phraseIds": [
+            "try-on"
+          ]
+        },
+        {
+          "text": " this blue jacket in the "
+        },
+        {
+          "text": "fitting ",
+          "phraseIds": [
+            "fitting-room"
+          ]
+        },
+        {
+          "text": "room",
+          "phraseIds": [
+            "fitting-room"
+          ],
+          "wordIds": [
+            "room"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "不好意思，我可以把這件藍色外套拿去試衣間試穿嗎？",
+      "audio": {
+        "src": "/audio/sentences/clothing-fitting-room/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "552686e4f6138d72b22403b72d664cd3445924cd14d6d9eff1e48e439743b8b5",
+        "sha256": "f5abdd276a46e942c59aa8d98a4f84f682e9a535e45a42cb57ccc388fc7c9ead"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The fitting rooms are straight ahead on the right hand side."
+        }
+      ],
+      "translation": "試衣間就在正前方右手邊。",
+      "audio": {
+        "src": "/audio/sentences/clothing-fitting-room/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "92d6f9045395ea1bb3bd729e66f6444b5e2f56beb833c4bd9ce98095f5bc5975",
+        "sha256": "a31951425542169521e4c506e19677448d9c24820212e51ca9338d855d3b82e2"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I tried it on, but the shoulders feel a bit "
+        },
+        {
+          "text": "too ",
+          "phraseIds": [
+            "too-tight-for-me"
+          ]
+        },
+        {
+          "text": "tight",
+          "phraseIds": [
+            "too-tight-for-me"
+          ],
+          "wordIds": [
+            "tight"
+          ]
+        },
+        {
+          "text": " for me",
+          "phraseIds": [
+            "too-tight-for-me"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我試穿過了，但肩膀部分對我來說感覺有點太緊。",
+      "audio": {
+        "src": "/audio/sentences/clothing-fitting-room/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0e5fc8f78e924a51a06115a197c8ae12df61a5fb4bb410d858dd469253fe9099",
+        "sha256": "b155e6f713df71239cf68d5ea5be6c863e92f177b9e807e42cb1f6c8253df90b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do you have this exact jacket in "
+        },
+        {
+          "text": "one ",
+          "phraseIds": [
+            "one-size-bigger"
+          ]
+        },
+        {
+          "text": "size",
+          "phraseIds": [
+            "one-size-bigger"
+          ],
+          "wordIds": [
+            "size"
+          ]
+        },
+        {
+          "text": " bigger",
+          "phraseIds": [
+            "one-size-bigger"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "請問這款外套有一樣顏色但大一號的尺寸嗎？",
+      "audio": {
+        "src": "/audio/sentences/clothing-fitting-room/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5745d59deb6d9e5af078f7e25f4c06222782db2ebc840c5b8be6ddc241dcda85",
+        "sha256": "3b7dc580e3dd0765fb12fb4553f064a830a0bdc9a2cf436cf8372928dc160f8e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Let me look on the storage rack to see if we have medium."
+        }
+      ],
+      "translation": "我幫您在庫存架上看一下有沒有 M 號的。",
+      "audio": {
+        "src": "/audio/sentences/clothing-fitting-room/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "856af93640bec2c0976cb153c66705ddb1d43322dec63428b712d17bae920214",
+        "sha256": "8c1386929b37f0fdf803e1a0ccc3d1947a72ae70cc2f4492e7f7b2dacea7fce5"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "This "
+        },
+        {
+          "text": "size",
+          "wordIds": [
+            "size"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "fits",
+          "phraseIds": [
+            "fits-you-much-better"
+          ],
+          "wordIds": [
+            "fit"
+          ]
+        },
+        {
+          "text": " you much better",
+          "phraseIds": [
+            "fits-you-much-better"
+          ]
+        },
+        {
+          "text": " and you can "
+        },
+        {
+          "text": "wear",
+          "wordIds": [
+            "wear"
+          ]
+        },
+        {
+          "text": " it today."
+        }
+      ],
+      "translation": "這個尺寸穿在您身上合身多了，您今天就可以穿出門。",
+      "audio": {
+        "src": "/audio/sentences/clothing-fitting-room/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bde66b14b7df766889ad318e75435fa62292e7920511d617d8c34683dc2e608e",
+        "sha256": "f019727ad755fe3785828200d9c003a8c79f631251fe3371c85f115422d1f1ed"
+      }
+    }
+  ]
+}

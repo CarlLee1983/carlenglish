@@ -1,0 +1,353 @@
+{
+  "id": "bakery-fresh-batch",
+  "title": "麵包店詢問出爐時間",
+  "titleEn": "Asking About Freshly Baked Bread",
+  "category": "飲食生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/bakery-fresh-batch.webp",
+    "alt": "在香氣四溢的社區麵包店裡，顧客看著剛出爐的起司麵包捲，麵包師傅端出熱騰騰的烤盤。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "smells-wonderful",
+      "english": "smells wonderful",
+      "translation": "聞起來好香／太棒了",
+      "audio": {
+        "src": "/audio/phrases/bakery-fresh-batch-smells-wonderful.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d800817a1574544c40c19e4bd4158880d8d15b475f79ecfd36bb02087b5b6f56",
+        "sha256": "efe8d132fc08b9c04fefb9d3845fbd5212b8f82dd28c30767d7f1238fcfdcea8"
+      }
+    },
+    {
+      "id": "fresh-out-of-the-oven",
+      "english": "fresh out of the oven",
+      "translation": "新鮮剛出爐",
+      "audio": {
+        "src": "/audio/phrases/bakery-fresh-batch-fresh-out-of-the-oven.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0afb3b7556b131e66b04f9b9eee8d9200fca00e2dbbcc14c5172c4eeebcb7883",
+        "sha256": "809ab59ea3bee0fc782b7f36e2ec8b9e6a313c2561ecf8be54200433fb974d47"
+      }
+    },
+    {
+      "id": "just-came-out",
+      "english": "just came out",
+      "translation": "剛出爐／剛出來",
+      "audio": {
+        "src": "/audio/phrases/bakery-fresh-batch-just-came-out.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "02eccf3b3f47aa52ae65818e7e9867a2f3ca569cee68f83acf009f66d926f00c",
+        "sha256": "7d8f54d9660278f73333b0711e6f3824bddf8b2204b52913191a023ab6570468"
+      }
+    },
+    {
+      "id": "half-an-hour",
+      "english": "half an hour",
+      "translation": "半小時",
+      "audio": {
+        "src": "/audio/phrases/bakery-fresh-batch-half-an-hour.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7f92b3b098631bda8082b4c0ea45a2a27b28ea1cf917367f97f28c1e74902b00",
+        "sha256": "7968ba76c8418bb03a8c76ae5918f8aeca0cfa700f96802713ff174710812a60"
+      }
+    },
+    {
+      "id": "happy-to-wait",
+      "english": "happy to wait",
+      "translation": "很樂意等候",
+      "audio": {
+        "src": "/audio/phrases/bakery-fresh-batch-happy-to-wait.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "743efa5e2c316901cc913709e0ab21ac0ada6055d7d7aab4f54668d6891991f4",
+        "sha256": "46eb49a05721c24959ca6750d698a1ae53fe3d90f3f6f50ee88e3c1cc6368406"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "fresh",
+      "english": "fresh",
+      "translation": "新鮮的",
+      "example": "We buy fresh fruit every morning.",
+      "audio": {
+        "src": "/audio/words/bakery-fresh-batch-fresh.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d098ab5e44b9aabb755f76d806598f43573c662b35e4a2eab1e312ec9ad195e2",
+        "sha256": "26ad8961b83719dade90a3a0cb3b6c4c4f601cbc0a7079f1977c5ae797f63adb"
+      }
+    },
+    {
+      "id": "hot",
+      "english": "hot",
+      "translation": "熱的",
+      "example": "Be careful with the hot baking tray.",
+      "audio": {
+        "src": "/audio/words/bakery-fresh-batch-hot.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7f5d1618e7d28cc7bf32788672be04c24877d9a8911f65fef8e3e013c9cbc373",
+        "sha256": "930b63ed92b09b3b90b0134a4a0c237a296914452b99220428fcba87f240cf15"
+      }
+    },
+    {
+      "id": "ready",
+      "english": "ready",
+      "translation": "準備好的",
+      "example": "Dinner will be ready in ten minutes.",
+      "audio": {
+        "src": "/audio/words/bakery-fresh-batch-ready.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b24d6d33736ecd5604a4b17bc9c6481039fac362bb7df044ef1c10a2bfd21db6",
+        "sha256": "6015a4b8ad68e4bb77332c4465a7b1c0a8214e54210bcd41646f123c709549ea"
+      }
+    },
+    {
+      "id": "smell",
+      "english": "smell",
+      "translation": "聞起來",
+      "example": "The flowers in the garden smell sweet.",
+      "audio": {
+        "src": "/audio/words/bakery-fresh-batch-smell.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8fca2d48e1ee96c1193ac41b8baff2f8b83738e79d99cd4e8ce86df1a712be97",
+        "sha256": "f61a80eaf6c7a5d9a698f2139d50d3f67c5668fc27ec8fa3119de3ef9084ef51"
+      }
+    },
+    {
+      "id": "another",
+      "english": "another",
+      "translation": "另一個",
+      "example": "Would you like another slice of bread?",
+      "audio": {
+        "src": "/audio/words/bakery-fresh-batch-another.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ae448ac86c4e8e4dec645729708ef41873ae79c6dff84eff73360989487f08e5",
+        "sha256": "8a75033285ef942aef66c58769291177c0bcb3a34d9332dfee2e1622c6c72494"
+      }
+    },
+    {
+      "id": "hour",
+      "english": "hour",
+      "translation": "小時",
+      "example": "The bakery opens one hour earlier on weekends.",
+      "audio": {
+        "src": "/audio/words/bakery-fresh-batch-hour.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9ac0add475dd38e6ab3a3fb5ab4579c886eb654f57764210a352fd62e9dd9706",
+        "sha256": "30f2354d47affa30eccdadc6cde12a6db0fc52d6ba7e2b63762bae5d96dbced3"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "The whole store "
+        },
+        {
+          "text": "smells",
+          "phraseIds": [
+            "smells-wonderful"
+          ],
+          "wordIds": [
+            "smell"
+          ]
+        },
+        {
+          "text": " wonderful",
+          "phraseIds": [
+            "smells-wonderful"
+          ]
+        },
+        {
+          "text": " like warm butter."
+        }
+      ],
+      "translation": "整間店聞起來都有溫暖濃郁的奶油香氣。",
+      "audio": {
+        "src": "/audio/sentences/bakery-fresh-batch/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "40cd0e6802b82789b3d395dbab50cfcdced30d3eea057ea096e0a3d0014c5adf",
+        "sha256": "27cf23a154b5ffbe68bd1bb8ea3b5009121e6bf1eca26f55ee06a4991e0538d0"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Are the cheese rolls "
+        },
+        {
+          "text": "fresh",
+          "phraseIds": [
+            "fresh-out-of-the-oven"
+          ],
+          "wordIds": [
+            "fresh"
+          ]
+        },
+        {
+          "text": " out of the oven",
+          "phraseIds": [
+            "fresh-out-of-the-oven"
+          ]
+        },
+        {
+          "text": " right now?"
+        }
+      ],
+      "translation": "起司麵包捲現在是剛出爐的嗎？",
+      "audio": {
+        "src": "/audio/sentences/bakery-fresh-batch/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c662192626817d64b127f9df70d498661c62c95481e89b98c3856483bd209dea",
+        "sha256": "2fa4f89937e0ac0b97806136b2536b0c7e6e1545982f2b44ed522202dc232e28"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yes, this "
+        },
+        {
+          "text": "hot",
+          "wordIds": [
+            "hot"
+          ]
+        },
+        {
+          "text": " batch "
+        },
+        {
+          "text": "just came out",
+          "phraseIds": [
+            "just-came-out"
+          ]
+        },
+        {
+          "text": " two minutes ago."
+        }
+      ],
+      "translation": "是的，這一批熱騰騰的兩分鐘前才剛烤好出爐。",
+      "audio": {
+        "src": "/audio/sentences/bakery-fresh-batch/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7ec2a2df3c525b1b0193f79b6f4e8e2a62862b7cda0fd0f0fb9b937a3c76b453",
+        "sha256": "13fdf2f56b7e2b947d56c70e0a77548fff2e9f894420d52ee589b63d2ab2d517"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "When will the chocolate croissants be "
+        },
+        {
+          "text": "ready",
+          "wordIds": [
+            "ready"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "那巧克力可頌大概什麼時候會烤好呢？",
+      "audio": {
+        "src": "/audio/sentences/bakery-fresh-batch/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4acc21529f70c8c275666ae1b2bff273b6b6d5dc0a97f9877d5ff1f1f0441312",
+        "sha256": "4e47e355f7bd18e44df4b49bbcb463372129082e331c543b377592a6aff2a853"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Another",
+          "wordIds": [
+            "another"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "fresh",
+          "wordIds": [
+            "fresh"
+          ]
+        },
+        {
+          "text": " batch will be "
+        },
+        {
+          "text": "ready",
+          "wordIds": [
+            "ready"
+          ]
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "half an ",
+          "phraseIds": [
+            "half-an-hour"
+          ]
+        },
+        {
+          "text": "hour",
+          "phraseIds": [
+            "half-an-hour"
+          ],
+          "wordIds": [
+            "hour"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "另一批新鮮的可頌再過半小時就會好。",
+      "audio": {
+        "src": "/audio/sentences/bakery-fresh-batch/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fd14e0133a2d5657dc7c698e5b1f4dc01a9ef3d12fbf30158e21d2124d73e072",
+        "sha256": "bd05561a7a3c31f5ebc0071ed908e87279c15ea58bc28b3fb779743fb3e8c08d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I am "
+        },
+        {
+          "text": "happy to wait",
+          "phraseIds": [
+            "happy-to-wait"
+          ]
+        },
+        {
+          "text": " nearby until they are "
+        },
+        {
+          "text": "ready",
+          "wordIds": [
+            "ready"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我很樂意在附近稍微等一下，直到它們烤好。",
+      "audio": {
+        "src": "/audio/sentences/bakery-fresh-batch/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "662486be90ed7a99a9d552c6209eecda147ec7b56b67dbba8383c85d46a6df9c",
+        "sha256": "5eb2b87670713aa1996faa5ffb7085dfa19a7b2865591b05a0da613203c9a580"
+      }
+    }
+  ]
+}

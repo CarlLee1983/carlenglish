@@ -1,0 +1,446 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/lost-at-intersection/1.mp3",
+      "text": "Excuse me sir, I think I am completely lost at this crossroads.",
+      "textSha256": "0d04796be88e4b14481a8ba6295c1bd8d6956978ad871198136d6663b7d12ce7"
+    },
+    {
+      "src": "/audio/sentences/lost-at-intersection/2.mp3",
+      "text": "Can you tell me how to get to the modern art museum?",
+      "textSha256": "e9714022319287fe79a8042381920631aa1702f8cabc33554de75ece7ed4581a"
+    },
+    {
+      "src": "/audio/sentences/lost-at-intersection/3.mp3",
+      "text": "Do not worry, it is not too far, only half a mile away from here.",
+      "textSha256": "846385fe287c2be57df78c4bec8d9c53af61c935d52465db709400204f3f3694"
+    },
+    {
+      "src": "/audio/sentences/lost-at-intersection/4.mp3",
+      "text": "Walk straight along this avenue and walk past the tall white building.",
+      "textSha256": "bd84a2e07029bb39d9c212ba3b7be10a25ecb25fd34b8f06fdb3691660fcc9c1"
+    },
+    {
+      "src": "/audio/sentences/lost-at-intersection/5.mp3",
+      "text": "Cross the street at the pedestrian light and turn right at the corner.",
+      "textSha256": "ed6266b4d78cc2799d4e008ada22423b203e9f45e06bc084e304a0fe6d707ade"
+    },
+    {
+      "src": "/audio/sentences/lost-at-intersection/6.mp3",
+      "text": "You will see the museum entrance right on your left hand side.",
+      "textSha256": "249586865f27e518f2f88f25cda89fe91812ef5f4d87b4314e13e9fc5417c879"
+    },
+    {
+      "src": "/audio/phrases/lost-at-intersection-completely-lost.mp3",
+      "text": "completely lost",
+      "textSha256": "d6d546890a9384fa3712c990ad96991b2e567d67a215673114187459ab2398f0"
+    },
+    {
+      "src": "/audio/phrases/lost-at-intersection-how-to-get-to.mp3",
+      "text": "how to get to",
+      "textSha256": "556f15b18307f1af2acea060cb6e7bb9c7565e90daf706e1c3680e70aeb70924"
+    },
+    {
+      "src": "/audio/phrases/lost-at-intersection-half-a-mile-away.mp3",
+      "text": "half a mile away",
+      "textSha256": "3cea80b1b81aaca2bb85769d1827a2bef87fba50c8c5c40e28a97dca3e714573"
+    },
+    {
+      "src": "/audio/phrases/lost-at-intersection-walk-straight-along.mp3",
+      "text": "walk straight along",
+      "textSha256": "9b5a2fde5fd11d7d1bb9e775ea6fcfd6ad1cec2831b55328d15d1120a1bf34d4"
+    },
+    {
+      "src": "/audio/phrases/lost-at-intersection-cross-the-street.mp3",
+      "text": "cross the street",
+      "textSha256": "6aaf2c76677a7c3f24868ebddda1106f6777dbea3a741f570340844360ab420c"
+    },
+    {
+      "src": "/audio/words/lost-at-intersection-excuse.mp3",
+      "text": "excuse",
+      "textSha256": "b76c1db1f24b29fe617bf3cf4d9bca1301a3ce446f85e32aa7302bbcc57a3df6"
+    },
+    {
+      "src": "/audio/words/lost-at-intersection-lost.mp3",
+      "text": "lost",
+      "textSha256": "76f75e6129fe30135bd44d80ab7cc46fdba81907758dc808f3e2517beef2b1e9"
+    },
+    {
+      "src": "/audio/words/lost-at-intersection-far.mp3",
+      "text": "far",
+      "textSha256": "512eea46ceb3921dff4363c7069d89d4964d1d9fccaa0f411851a7aa60a5c868"
+    },
+    {
+      "src": "/audio/words/lost-at-intersection-cross.mp3",
+      "text": "cross",
+      "textSha256": "b3986952b145da5f0e4bd416f3b948e9864b57895675886c1deb83c16a9beadc"
+    },
+    {
+      "src": "/audio/words/lost-at-intersection-past.mp3",
+      "text": "past",
+      "textSha256": "84ccdf8a849ffbc98d3a8a4bfb0999eda9254015f75a1c6cc7f68338d61c00b0"
+    },
+    {
+      "src": "/audio/words/lost-at-intersection-building.mp3",
+      "text": "building",
+      "textSha256": "5167e9677e1fbc500ecb1751eec3b2a6fc24cd378b934b14b2544dfcd1228be1"
+    },
+    {
+      "src": "/audio/sentences/pharmacy-medicine-buy/1.mp3",
+      "text": "Hello, I have had a sore throat and a slight headache since yesterday.",
+      "textSha256": "ca69d23c65baabc43538508e198501f547fcecd033ff7a6f846df398de9c9e33"
+    },
+    {
+      "src": "/audio/sentences/pharmacy-medicine-buy/2.mp3",
+      "text": "Do you have any good medicine for cold symptoms?",
+      "textSha256": "5519cf1095011db804f585477f93f21b2719e5d007aa6701f62dbf84b4d4bc30"
+    },
+    {
+      "src": "/audio/sentences/pharmacy-medicine-buy/3.mp3",
+      "text": "This pain relief pill will help with your headache and throat.",
+      "textSha256": "d872dd86c5a1ae69f357c8fd3bb95ad0dea3fd7351c90b751fadca6f487c65cc"
+    },
+    {
+      "src": "/audio/sentences/pharmacy-medicine-buy/4.mp3",
+      "text": "How many times a day should I take this medicine?",
+      "textSha256": "1049831ac1031a9f8792bec147c9b3cd422d90b66307feb7170be912ea6edc2b"
+    },
+    {
+      "src": "/audio/sentences/pharmacy-medicine-buy/5.mp3",
+      "text": "Take one tablet three times a day, always after a full meal.",
+      "textSha256": "7e76d1cc97e61b7a7de0014279d48496fdf98ca459911fdacede4dd80a986c94"
+    },
+    {
+      "src": "/audio/sentences/pharmacy-medicine-buy/6.mp3",
+      "text": "If your throat still hurts after three days, please see a doctor.",
+      "textSha256": "9b8e9e7ca2b5a7bb6c8638983a5d691108b8597cf9d3000719b06cb0c510a66a"
+    },
+    {
+      "src": "/audio/phrases/pharmacy-medicine-buy-sore-throat.mp3",
+      "text": "sore throat",
+      "textSha256": "6035d278aab61595edbd2127e54718988dde09c240ffbd636000749739817b8c"
+    },
+    {
+      "src": "/audio/phrases/pharmacy-medicine-buy-slight-headache.mp3",
+      "text": "slight headache",
+      "textSha256": "84d68ca254882f66b205078300421f07af6cb621a71a4b7c4b94da352914c2ed"
+    },
+    {
+      "src": "/audio/phrases/pharmacy-medicine-buy-pain-relief.mp3",
+      "text": "pain relief",
+      "textSha256": "d1adb6227b07f5053d32eb9c9f52d79b4a39804ad10dea56a4b4737d17651270"
+    },
+    {
+      "src": "/audio/phrases/pharmacy-medicine-buy-three-times-a-day.mp3",
+      "text": "three times a day",
+      "textSha256": "fcab542f2587e3d9ca25cb2f85ca02f2e1a208939087711759e9152419040aad"
+    },
+    {
+      "src": "/audio/phrases/pharmacy-medicine-buy-after-a-full-meal.mp3",
+      "text": "after a full meal",
+      "textSha256": "0a85a1edc116fab775e6ef10b9b35642ce3a465ea3a97789fd2c2959c9179956"
+    },
+    {
+      "src": "/audio/words/pharmacy-medicine-buy-pain.mp3",
+      "text": "pain",
+      "textSha256": "5c78c8e7160e76ba9b6c41f74247bb7ba4887f5c06faecd6b9a009785b248c72"
+    },
+    {
+      "src": "/audio/words/pharmacy-medicine-buy-hurt.mp3",
+      "text": "hurt",
+      "textSha256": "49002d515d1605d8e4928cdccea435328773268fb951e9dae201212284d374a5"
+    },
+    {
+      "src": "/audio/words/pharmacy-medicine-buy-headache.mp3",
+      "text": "headache",
+      "textSha256": "cfa9ac1e084975b5d6463e32652c85bad6355a5ab32399618f89f222e68dc335"
+    },
+    {
+      "src": "/audio/words/pharmacy-medicine-buy-throat.mp3",
+      "text": "throat",
+      "textSha256": "48cf13f481ae6828d98963f106d1e60961e8eec53971d98dd652c55e9403fc78"
+    },
+    {
+      "src": "/audio/words/pharmacy-medicine-buy-medicine.mp3",
+      "text": "medicine",
+      "textSha256": "a82ce870f999b01b17b9135b72d1f4b6d31217aec9cbee69d5bfc9659018ca06"
+    },
+    {
+      "src": "/audio/words/pharmacy-medicine-buy-doctor.mp3",
+      "text": "doctor",
+      "textSha256": "72f4be89d6ebab1496e21e38bcd7c8ca0a68928af3081ad7dff87e772eb350c2"
+    },
+    {
+      "src": "/audio/sentences/clinic-check-in/1.mp3",
+      "text": "Good afternoon, this is my first time visiting this local clinic.",
+      "textSha256": "5e7d9865fb0a6ee1e3742e39442ee9f6af8f0aeaa1b18547b0deb3cb9a880372"
+    },
+    {
+      "src": "/audio/sentences/clinic-check-in/2.mp3",
+      "text": "Please show your health card and fill out this form.",
+      "textSha256": "ff5cd023f2b5886e69f8534e67b872721803b5591b0f4b536c04ef5c2cd07c59"
+    },
+    {
+      "src": "/audio/sentences/clinic-check-in/3.mp3",
+      "text": "I have a mild fever and my body feels very tired.",
+      "textSha256": "efa62fccd0d0d110cc4b7ee0e014aa26fd19c71c3e8cacd5815b1c474a577d0c"
+    },
+    {
+      "src": "/audio/sentences/clinic-check-in/4.mp3",
+      "text": "Let me take your temperature with the forehead thermometer first.",
+      "textSha256": "c3b26a9a4a294632afee6eb936a8d4405483dcf202c41607543efaa32796c69e"
+    },
+    {
+      "src": "/audio/sentences/clinic-check-in/5.mp3",
+      "text": "Your waiting number is twenty-seven, please sit in the waiting room.",
+      "textSha256": "afaf549848693a81bbd7050c35d57762c82b4050d89ee2f32880d8aefb94f874"
+    },
+    {
+      "src": "/audio/sentences/clinic-check-in/6.mp3",
+      "text": "The nurse will call your name when the doctor is ready.",
+      "textSha256": "20bcdbbd9f496c3625fe97f93d772f3ae1719629585933bb2c3bb0f6c40269b4"
+    },
+    {
+      "src": "/audio/phrases/clinic-check-in-fill-out-this-form.mp3",
+      "text": "fill out this form",
+      "textSha256": "b598893c601cdc047d0ef200c60ddde588ed2dc6ece90069b908a47f915c7c28"
+    },
+    {
+      "src": "/audio/phrases/clinic-check-in-have-a-mild-fever.mp3",
+      "text": "have a mild fever",
+      "textSha256": "462436c1a45a3c96b8a110fa11a9c2bf0514f418ca136c40797e3f40a2dd28d1"
+    },
+    {
+      "src": "/audio/phrases/clinic-check-in-take-your-temperature.mp3",
+      "text": "take your temperature",
+      "textSha256": "a405c39349ac9f81f6ab932aff275907e4fa26b0b8a7601bd4ec1d10e019fcab"
+    },
+    {
+      "src": "/audio/phrases/clinic-check-in-waiting-number.mp3",
+      "text": "waiting number",
+      "textSha256": "6ccd230be9a5ddd7132ee42a8a1947e16193ef6bc65489cf4c4c6b8108bd317d"
+    },
+    {
+      "src": "/audio/phrases/clinic-check-in-call-your-name.mp3",
+      "text": "call your name",
+      "textSha256": "ddc8282fc985309c936786a3e2968e75033bbed349cdf038e542a827626e6cb3"
+    },
+    {
+      "src": "/audio/words/clinic-check-in-clinic.mp3",
+      "text": "clinic",
+      "textSha256": "bbfeb74a4b4216dfd0f7b10edf5743e6781e9f8ac7888a3392878a52c821a3b1"
+    },
+    {
+      "src": "/audio/words/clinic-check-in-fever.mp3",
+      "text": "fever",
+      "textSha256": "1e44a1c45388c81c1a4bba7c14aa8d54cf11d442c99efc62a68d103cfdd308b8"
+    },
+    {
+      "src": "/audio/words/clinic-check-in-form.mp3",
+      "text": "form",
+      "textSha256": "07397d633f25a7101990a75864ae03d5a3b9ac07c4ed6accbc52cbfd7d7c13b4"
+    },
+    {
+      "src": "/audio/words/clinic-check-in-fill.mp3",
+      "text": "fill",
+      "textSha256": "dcd32479a72e55b29a03a586d8a483a05be0ce87cc5c25c7bad23079fc0356b3"
+    },
+    {
+      "src": "/audio/words/clinic-check-in-number.mp3",
+      "text": "number",
+      "textSha256": "12886f9d00055adf24c40579e22d31b2b45f2023f892954ffd5567beb60825f8"
+    },
+    {
+      "src": "/audio/words/clinic-check-in-nurse.mp3",
+      "text": "nurse",
+      "textSha256": "781e5116a1e14a34eada50159d589e690c81ec4c5063115ea1f10b99441d5b94"
+    },
+    {
+      "src": "/audio/sentences/calling-in-sick/1.mp3",
+      "text": "Hello Mr. Davis, this is Leo calling from home this morning.",
+      "textSha256": "55f5a6c8c19f7bd5121b37df5317d72270a0fb7f85491b49505be7f2dbb70703"
+    },
+    {
+      "src": "/audio/sentences/calling-in-sick/2.mp3",
+      "text": "I feel very sick with stomach pain and cannot come to class today.",
+      "textSha256": "2ec8dade9cfefd04d6bed8e81e5325710b1288685d9285fbe6b28f8c69ffd7af"
+    },
+    {
+      "src": "/audio/sentences/calling-in-sick/3.mp3",
+      "text": "I am sorry for the short notice, but I need to stay home and rest.",
+      "textSha256": "24714de8f12e40eae398636404f26e0d59aff3a96f65f6587ed86db1758790cd"
+    },
+    {
+      "src": "/audio/sentences/calling-in-sick/4.mp3",
+      "text": "Have you seen a doctor yet to check the main reason?",
+      "textSha256": "a2d1e07950c1b7b2be96210f40c2772fe141ad66192e2aff49b588b53b95576b"
+    },
+    {
+      "src": "/audio/sentences/calling-in-sick/5.mp3",
+      "text": "My mother is taking me to the hospital clinic later this morning.",
+      "textSha256": "98bdfff362634f72a0d1fa7796e7615e1ba69aec382f60043b6181e6b5fc8ca1"
+    },
+    {
+      "src": "/audio/sentences/calling-in-sick/6.mp3",
+      "text": "I hope to get plenty of rest and be able to return tomorrow.",
+      "textSha256": "59e949f644bd90c43162e77f72da4d02f522244bf0a5cf34d78c1255e5f9fdff"
+    },
+    {
+      "src": "/audio/phrases/calling-in-sick-calling-from-home.mp3",
+      "text": "calling from home",
+      "textSha256": "015f6085043bd3ed3a8b16b78ce91263fd4dc00aefbddcbdb8d07fdafd0e326b"
+    },
+    {
+      "src": "/audio/phrases/calling-in-sick-feel-very-sick.mp3",
+      "text": "feel very sick",
+      "textSha256": "0f5024957970072a71332d916a421f9416f01319ee74e7c36d8c5aae47deeb4a"
+    },
+    {
+      "src": "/audio/phrases/calling-in-sick-short-notice.mp3",
+      "text": "short notice",
+      "textSha256": "b0f3ca3c244bf809dc69aac4595c1dfc6b4f5e2108a393a4ae56e4918d31857a"
+    },
+    {
+      "src": "/audio/phrases/calling-in-sick-stay-home-and-rest.mp3",
+      "text": "stay home and rest",
+      "textSha256": "a6fc5cf8938f87400b84bc9d0a04b31df409337f5a4878e416fa1c70ec0bf362"
+    },
+    {
+      "src": "/audio/phrases/calling-in-sick-be-able-to-return.mp3",
+      "text": "be able to return",
+      "textSha256": "92896ce5a17b4f54edd50a3abb882b275ebe9e51381040c47041d87b07c6b6aa"
+    },
+    {
+      "src": "/audio/words/calling-in-sick-sick.mp3",
+      "text": "sick",
+      "textSha256": "3b04837881bb07b621ae7dc7abae37f3b6981584bdf3e22ece731a5b91eaf395"
+    },
+    {
+      "src": "/audio/words/calling-in-sick-rest.mp3",
+      "text": "rest",
+      "textSha256": "2e09d5210db8417757b0f875c276d0cb877b22514e9a3583d2d8d7445368a027"
+    },
+    {
+      "src": "/audio/words/calling-in-sick-stay.mp3",
+      "text": "stay",
+      "textSha256": "39be15289c7942a8e7765d75584b0bce0a4a39c29a356fbaee44f63848ba6cb0"
+    },
+    {
+      "src": "/audio/words/calling-in-sick-able.mp3",
+      "text": "able",
+      "textSha256": "b0ad6bc1931197750fa85336ba8eb6ced10ca7b57eff09ecacf9f915a3b11365"
+    },
+    {
+      "src": "/audio/words/calling-in-sick-reason.mp3",
+      "text": "reason",
+      "textSha256": "8fcfccf675b1f0bfd39dcbb13015052fe82bc51c003c165a410945c913dbb2be"
+    },
+    {
+      "src": "/audio/words/calling-in-sick-hope.mp3",
+      "text": "hope",
+      "textSha256": "c29277f55fb31aeb8d4026132e53513a1fb755e5d9c13bf21405b72b9570373f"
+    },
+    {
+      "src": "/audio/sentences/ice-pack-for-sprain/1.mp3",
+      "text": "Teacher, I fell while playing soccer and twisted my right ankle.",
+      "textSha256": "57f70e04f3ab58ce4537263238f9a273384ade089c0d80bb1928468b57cabbc8"
+    },
+    {
+      "src": "/audio/sentences/ice-pack-for-sprain/2.mp3",
+      "text": "Sit down right here, be careful, take a deep breath, and do not put weight on that foot.",
+      "textSha256": "436b948ddf7decd911968faeb3a219b2d3752b2a483ed7375abf2c12d3cd910c"
+    },
+    {
+      "src": "/audio/sentences/ice-pack-for-sprain/3.mp3",
+      "text": "Is the skin around the ankle joint starting to look swollen?",
+      "textSha256": "2026a7a01bb8356894e90997690aeb8c1b95088186cd4d18ce37940addd9a19a"
+    },
+    {
+      "src": "/audio/sentences/ice-pack-for-sprain/4.mp3",
+      "text": "Yes, it looks red and feels very warm and painful.",
+      "textSha256": "0e9fb123b223dd4ef2c6a195bd447a905477969c80a05bcd9f88f1c4d95b7894"
+    },
+    {
+      "src": "/audio/sentences/ice-pack-for-sprain/5.mp3",
+      "text": "We need to put a cold ice pack on it for fifteen minutes.",
+      "textSha256": "027d18d2948a58981a9fe01913a25a63fe7079a534827cddd98360eb4d5b000f"
+    },
+    {
+      "src": "/audio/sentences/ice-pack-for-sprain/6.mp3",
+      "text": "Wrap a clean towel around the ice to protect your skin, and I will help you.",
+      "textSha256": "e841ce8e7f9da935bca3ba03de5826fc0531990f4a5161c4dba4396332970197"
+    },
+    {
+      "src": "/audio/phrases/ice-pack-for-sprain-take-a-deep-breath.mp3",
+      "text": "take a deep breath",
+      "textSha256": "3732f5cea908b060b6e34a41e6f121845b55b55a49d2cc8f6b2b90a02ef0e70f"
+    },
+    {
+      "src": "/audio/phrases/ice-pack-for-sprain-put-weight-on-that-foot.mp3",
+      "text": "put weight on that foot",
+      "textSha256": "ef4073ba4fc91f6e55704f7963e8dd0db328a1b6ccb9b27e038125a1065be8f4"
+    },
+    {
+      "src": "/audio/phrases/ice-pack-for-sprain-look-swollen.mp3",
+      "text": "look swollen",
+      "textSha256": "73334d74117fe7cac67cac2222d930e3ffdb79ece94dbf0dfd0f46613a377151"
+    },
+    {
+      "src": "/audio/phrases/ice-pack-for-sprain-cold-ice-pack.mp3",
+      "text": "cold ice pack",
+      "textSha256": "dae44c374a8512452724228aac7a0e5ea1d4ba905e979fa8a695dddab447f59a"
+    },
+    {
+      "src": "/audio/phrases/ice-pack-for-sprain-wrap-a-clean-towel-around.mp3",
+      "text": "wrap a clean towel around",
+      "textSha256": "865248ce6c1eb1e859645a6cfa7a30207fc940249ab4c58d5e11c7635bcec487"
+    },
+    {
+      "src": "/audio/words/ice-pack-for-sprain-fall.mp3",
+      "text": "fall",
+      "textSha256": "2dc46af1b78c32dfe99dedfbdff6ca7f33e0f652716482f55b03622b67c06dea"
+    },
+    {
+      "src": "/audio/words/ice-pack-for-sprain-foot.mp3",
+      "text": "foot",
+      "textSha256": "22e4f6912a6980d6fd59e0c5409247407491282cc8dbd009734066b8393a5761"
+    },
+    {
+      "src": "/audio/words/ice-pack-for-sprain-breath.mp3",
+      "text": "breath",
+      "textSha256": "367a1c592458c1b0ab948e37f993feeda943b0a03b70ee6633c51beb78de8ed8"
+    },
+    {
+      "src": "/audio/words/ice-pack-for-sprain-careful.mp3",
+      "text": "careful",
+      "textSha256": "191c415261817259c49f435b1a380bac5cc31c3dfdd3cf0f8bcce446d9992387"
+    },
+    {
+      "src": "/audio/words/ice-pack-for-sprain-cold.mp3",
+      "text": "cold",
+      "textSha256": "e272deecde720ffc773d7a6a81adabbc366ccbb64da5abdb6b26f52cd3f952cb"
+    },
+    {
+      "src": "/audio/words/ice-pack-for-sprain-help.mp3",
+      "text": "help",
+      "textSha256": "106a5842fc5fce6f663176285ed1516dbb1e3d15c05abab12fdca46d60b539b7"
+    }
+  ]
+}

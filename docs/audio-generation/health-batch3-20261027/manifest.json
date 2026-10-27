@@ -1,0 +1,1211 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/lost-at-intersection/1.mp3",
+      "text": "Excuse me sir, I think I am completely lost at this crossroads.",
+      "textSha256": "0d04796be88e4b14481a8ba6295c1bd8d6956978ad871198136d6663b7d12ce7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "12bf1838f489a3417e0bcbaa48617333dfb0dd32f1609dbfd7a8d4d3a4c99a2b",
+      "duration": 4.3,
+      "graphemes": [
+        "Excuse me sir, I think I am completely lost at this crossroads."
+      ],
+      "phonemes": [
+        "ɪkskjˈuz mˌi sˌɜɹ, ˌI θˈɪŋk ˌI ɐm kəmplˈitli lˈɔst æt ðɪs kɹˈɔsɹˌOdz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/lost-at-intersection/2.mp3",
+      "text": "Can you tell me how to get to the modern art museum?",
+      "textSha256": "e9714022319287fe79a8042381920631aa1702f8cabc33554de75ece7ed4581a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7a64a7cf47cd067bfe8b5576824f3082a1ab9b88e9ff72c57ca7ad6459f5f287",
+      "duration": 3.275,
+      "graphemes": [
+        "Can you tell me how to get to the modern art museum?"
+      ],
+      "phonemes": [
+        "kˌæn ju tˈɛl mˌi hˌW tə ɡɛt tə ðə mˈɑdəɹn ˈɑɹt mjuzˈiəm?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/lost-at-intersection/3.mp3",
+      "text": "Do not worry, it is not too far, only half a mile away from here.",
+      "textSha256": "846385fe287c2be57df78c4bec8d9c53af61c935d52465db709400204f3f3694",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ebe117cc2a27eb3c6a6c881fd051f104c8fb589562954a994c8a70c93f037550",
+      "duration": 4.3,
+      "graphemes": [
+        "Do not worry, it is not too far, only half a mile away from here."
+      ],
+      "phonemes": [
+        "dˈu nˌɑt wˈɜɹi, ɪt ɪz nˌɑt tˈu fˈɑɹ, ˈOnli hˈæf ɐ mˈIl əwˈA fɹʌm hˈɪɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/lost-at-intersection/4.mp3",
+      "text": "Walk straight along this avenue and walk past the tall white building.",
+      "textSha256": "bd84a2e07029bb39d9c212ba3b7be10a25ecb25fd34b8f06fdb3691660fcc9c1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dccbb098022e5107e75b8bb41391c09f21dbf08f4e8a25fb7a5fa8521ca0d2fe",
+      "duration": 4.35,
+      "graphemes": [
+        "Walk straight along this avenue and walk past the tall white building."
+      ],
+      "phonemes": [
+        "wˈɔk stɹˈAt əlˈɔŋ ðɪs ˈævənˌu ænd wˈɔk pˈæst ðə tˈɔl wˈIt bˈɪldɪŋ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/lost-at-intersection/5.mp3",
+      "text": "Cross the street at the pedestrian light and turn right at the corner.",
+      "textSha256": "ed6266b4d78cc2799d4e008ada22423b203e9f45e06bc084e304a0fe6d707ade",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "12e15295cb7461056bdfc9006f7fe1508f2e653d4bc819a994b89c57ea1a206d",
+      "duration": 4.225,
+      "graphemes": [
+        "Cross the street at the pedestrian light and turn right at the corner."
+      ],
+      "phonemes": [
+        "kɹˈɔs ðə stɹˈit æt ðə pədˈɛstɹiən lˈIt ænd tˈɜɹn ɹˈIt æt ðə kˈɔɹnəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/lost-at-intersection/6.mp3",
+      "text": "You will see the museum entrance right on your left hand side.",
+      "textSha256": "249586865f27e518f2f88f25cda89fe91812ef5f4d87b4314e13e9fc5417c879",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c45d48fe8e816292228cdc7fc2c5b33e3d0fad8b2434b29d6680329bad9431a9",
+      "duration": 3.8,
+      "graphemes": [
+        "You will see the museum entrance right on your left hand side."
+      ],
+      "phonemes": [
+        "jˌu wɪl sˈi ðə mjuzˈiəm ˈɛntɹəns ɹˈIt ˌɔn jʊɹ lˈɛft hˈænd sˈId."
+      ]
+    },
+    {
+      "src": "/audio/phrases/lost-at-intersection-completely-lost.mp3",
+      "text": "completely lost",
+      "textSha256": "d6d546890a9384fa3712c990ad96991b2e567d67a215673114187459ab2398f0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b2ad39a8e1458aa8b158eaa646ed96b1209e7d2d00c62ce4950d9338c8dab334",
+      "duration": 1.775,
+      "graphemes": [
+        "completely lost"
+      ],
+      "phonemes": [
+        "kəmplˈitli lˈɔst"
+      ]
+    },
+    {
+      "src": "/audio/phrases/lost-at-intersection-how-to-get-to.mp3",
+      "text": "how to get to",
+      "textSha256": "556f15b18307f1af2acea060cb6e7bb9c7565e90daf706e1c3680e70aeb70924",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1cf9f8cd9acaf169f88dba21846964f4f7a456781cbd5f804b4248e3aa57c956",
+      "duration": 1.7,
+      "graphemes": [
+        "how to get to"
+      ],
+      "phonemes": [
+        "hˌW tə ɡɛt tu"
+      ]
+    },
+    {
+      "src": "/audio/phrases/lost-at-intersection-half-a-mile-away.mp3",
+      "text": "half a mile away",
+      "textSha256": "3cea80b1b81aaca2bb85769d1827a2bef87fba50c8c5c40e28a97dca3e714573",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "642a419ace5df26c73ee1fee5287ffbda4aaa7f3f0bbcacfe32b1bac7407d658",
+      "duration": 1.725,
+      "graphemes": [
+        "half a mile away"
+      ],
+      "phonemes": [
+        "hˈæf ɐ mˈIl əwˈA"
+      ]
+    },
+    {
+      "src": "/audio/phrases/lost-at-intersection-walk-straight-along.mp3",
+      "text": "walk straight along",
+      "textSha256": "9b5a2fde5fd11d7d1bb9e775ea6fcfd6ad1cec2831b55328d15d1120a1bf34d4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f1bf44cd42e977a6dd4681150e67546eb5ac646c3217d5b3e15f1a5fdc4f05f4",
+      "duration": 1.75,
+      "graphemes": [
+        "walk straight along"
+      ],
+      "phonemes": [
+        "wˈɔk stɹˈAt əlˈɔŋ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/lost-at-intersection-cross-the-street.mp3",
+      "text": "cross the street",
+      "textSha256": "6aaf2c76677a7c3f24868ebddda1106f6777dbea3a741f570340844360ab420c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d04e0a1b975e9661451423c9484a04e3b2a4fbb5e23658a41265f3b1ba59bf72",
+      "duration": 1.65,
+      "graphemes": [
+        "cross the street"
+      ],
+      "phonemes": [
+        "kɹˈɔs ðə stɹˈit"
+      ]
+    },
+    {
+      "src": "/audio/words/lost-at-intersection-excuse.mp3",
+      "text": "excuse",
+      "textSha256": "b76c1db1f24b29fe617bf3cf4d9bca1301a3ce446f85e32aa7302bbcc57a3df6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "62bb24185a79349d657c45ad02e104ac93732f7d1fde1cd64ca2c69ccc63cb1e",
+      "duration": 1.625,
+      "graphemes": [
+        "excuse"
+      ],
+      "phonemes": [
+        "ɪkskjˈuz"
+      ]
+    },
+    {
+      "src": "/audio/words/lost-at-intersection-lost.mp3",
+      "text": "lost",
+      "textSha256": "76f75e6129fe30135bd44d80ab7cc46fdba81907758dc808f3e2517beef2b1e9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d53d60915c72d06a17e33eb1ae1ec6cc08571a0314b2f536fa071faf17ee251b",
+      "duration": 1.4,
+      "graphemes": [
+        "lost"
+      ],
+      "phonemes": [
+        "lˈɔst"
+      ]
+    },
+    {
+      "src": "/audio/words/lost-at-intersection-far.mp3",
+      "text": "far",
+      "textSha256": "512eea46ceb3921dff4363c7069d89d4964d1d9fccaa0f411851a7aa60a5c868",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b9bd3865d3412885abaa0563ea2e449388b1ad1aab830a6bb709ff5bd7cc9be4",
+      "duration": 1.3,
+      "graphemes": [
+        "far"
+      ],
+      "phonemes": [
+        "fˈɑɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/lost-at-intersection-cross.mp3",
+      "text": "cross",
+      "textSha256": "b3986952b145da5f0e4bd416f3b948e9864b57895675886c1deb83c16a9beadc",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "49393dc9a669ea85f24cdaa5a7e6e206a39f88d6220c81bf606bf72c0c0d23c8",
+      "duration": 1.35,
+      "graphemes": [
+        "cross"
+      ],
+      "phonemes": [
+        "kɹˈɔs"
+      ]
+    },
+    {
+      "src": "/audio/words/lost-at-intersection-past.mp3",
+      "text": "past",
+      "textSha256": "84ccdf8a849ffbc98d3a8a4bfb0999eda9254015f75a1c6cc7f68338d61c00b0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "88a35157fcbcfeaccedf27d7db955eed0a35dcca8b96927749563cf00c5fef77",
+      "duration": 1.375,
+      "graphemes": [
+        "past"
+      ],
+      "phonemes": [
+        "pˈæst"
+      ]
+    },
+    {
+      "src": "/audio/words/lost-at-intersection-building.mp3",
+      "text": "building",
+      "textSha256": "5167e9677e1fbc500ecb1751eec3b2a6fc24cd378b934b14b2544dfcd1228be1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3af80bb1b354712d93e2dbbd854029fac67c17b61159b6eef38cd04f5c93a5a4",
+      "duration": 1.425,
+      "graphemes": [
+        "building"
+      ],
+      "phonemes": [
+        "bˈɪldɪŋ"
+      ]
+    },
+    {
+      "src": "/audio/sentences/pharmacy-medicine-buy/1.mp3",
+      "text": "Hello, I have had a sore throat and a slight headache since yesterday.",
+      "textSha256": "ca69d23c65baabc43538508e198501f547fcecd033ff7a6f846df398de9c9e33",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f29c49ed50536baed076e2f4ab373c46c73dff0093b41533526e5068b5503f2e",
+      "duration": 4.25,
+      "graphemes": [
+        "Hello, I have had a sore throat and a slight headache since yesterday."
+      ],
+      "phonemes": [
+        "həlˈO, ˌI hæv hæd ɐ sˈɔɹ θɹˈOt ænd ɐ slˈIt hˈɛdˌAk sˈɪns jˈɛstəɹdˌA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/pharmacy-medicine-buy/2.mp3",
+      "text": "Do you have any good medicine for cold symptoms?",
+      "textSha256": "5519cf1095011db804f585477f93f21b2719e5d007aa6701f62dbf84b4d4bc30",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2df5fde5469eaaebcae868226c5788adc27e7728074252359d90a72f02f9b42d",
+      "duration": 3.125,
+      "graphemes": [
+        "Do you have any good medicine for cold symptoms?"
+      ],
+      "phonemes": [
+        "dˈu ju hæv ˈɛni ɡˈʊd mˈɛdəsᵊn fɔɹ kˈOld sˈɪmptəmz?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/pharmacy-medicine-buy/3.mp3",
+      "text": "This pain relief pill will help with your headache and throat.",
+      "textSha256": "d872dd86c5a1ae69f357c8fd3bb95ad0dea3fd7351c90b751fadca6f487c65cc",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e9eb51b159eac43b749fba18ccb32a343ae0bcdbba9c970ad227f4d41be7e569",
+      "duration": 3.775,
+      "graphemes": [
+        "This pain relief pill will help with your headache and throat."
+      ],
+      "phonemes": [
+        "ðˌɪs pˈAn ɹəlˈif pˈɪl wɪl hˈɛlp wɪð jʊɹ hˈɛdˌAk ænd θɹˈOt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/pharmacy-medicine-buy/4.mp3",
+      "text": "How many times a day should I take this medicine?",
+      "textSha256": "1049831ac1031a9f8792bec147c9b3cd422d90b66307feb7170be912ea6edc2b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "46a64709a4a6e86da8cf8106d70fd24ac33519e34734ee7b37ced96ddfd94214",
+      "duration": 3.15,
+      "graphemes": [
+        "How many times a day should I take this medicine?"
+      ],
+      "phonemes": [
+        "hˌW mˈɛni tˈImz ɐ dˈA ʃˌʊd ˌI tˈAk ðɪs mˈɛdəsᵊn?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/pharmacy-medicine-buy/5.mp3",
+      "text": "Take one tablet three times a day, always after a full meal.",
+      "textSha256": "7e76d1cc97e61b7a7de0014279d48496fdf98ca459911fdacede4dd80a986c94",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c01507f5ce964863e0f3d7a66e4a894ec2ec45e915a9c2a2910038f25351bbfc",
+      "duration": 4.2,
+      "graphemes": [
+        "Take one tablet three times a day, always after a full meal."
+      ],
+      "phonemes": [
+        "tˈAk wˈʌn tˈæblət θɹˈi tˈImz ɐ dˈA, ˈɔlwˌAz ˈæftəɹ ɐ fˈʊl mˈil."
+      ]
+    },
+    {
+      "src": "/audio/sentences/pharmacy-medicine-buy/6.mp3",
+      "text": "If your throat still hurts after three days, please see a doctor.",
+      "textSha256": "9b8e9e7ca2b5a7bb6c8638983a5d691108b8597cf9d3000719b06cb0c510a66a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c9aebcd1ec0e44944d0c60531a81ad237ed108df0581e9b1982e1745c2e794e9",
+      "duration": 4.1,
+      "graphemes": [
+        "If your throat still hurts after three days, please see a doctor."
+      ],
+      "phonemes": [
+        "ˌɪf jʊɹ θɹˈOt stˈɪl hˈɜɹts ˈæftəɹ θɹˈi dˈAz, plˈiz sˈi ɐ dˈɑktəɹ."
+      ]
+    },
+    {
+      "src": "/audio/phrases/pharmacy-medicine-buy-sore-throat.mp3",
+      "text": "sore throat",
+      "textSha256": "6035d278aab61595edbd2127e54718988dde09c240ffbd636000749739817b8c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8600ceb3e9a944350148fb017f3040ec16bb71a77953fa207e9af7701868284c",
+      "duration": 1.575,
+      "graphemes": [
+        "sore throat"
+      ],
+      "phonemes": [
+        "sˈɔɹ θɹˈOt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/pharmacy-medicine-buy-slight-headache.mp3",
+      "text": "slight headache",
+      "textSha256": "84d68ca254882f66b205078300421f07af6cb621a71a4b7c4b94da352914c2ed",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5dd00e74b826f336d49393331e83e73390fc168c15047cd5b4390a54b16479f7",
+      "duration": 1.575,
+      "graphemes": [
+        "slight headache"
+      ],
+      "phonemes": [
+        "slˈIt hˈɛdˌAk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/pharmacy-medicine-buy-pain-relief.mp3",
+      "text": "pain relief",
+      "textSha256": "d1adb6227b07f5053d32eb9c9f52d79b4a39804ad10dea56a4b4737d17651270",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "afe38ed69193584966d33fb14a72c1e1085d1e23b23c0dd6887d039d2c4e73f6",
+      "duration": 1.6,
+      "graphemes": [
+        "pain relief"
+      ],
+      "phonemes": [
+        "pˈAn ɹəlˈif"
+      ]
+    },
+    {
+      "src": "/audio/phrases/pharmacy-medicine-buy-three-times-a-day.mp3",
+      "text": "three times a day",
+      "textSha256": "fcab542f2587e3d9ca25cb2f85ca02f2e1a208939087711759e9152419040aad",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d46a47a8683c54f3672acbb267cad957c2859d55ca0b3742bcab664d1de48b18",
+      "duration": 1.825,
+      "graphemes": [
+        "three times a day"
+      ],
+      "phonemes": [
+        "θɹˈi tˈImz ɐ dˈA"
+      ]
+    },
+    {
+      "src": "/audio/phrases/pharmacy-medicine-buy-after-a-full-meal.mp3",
+      "text": "after a full meal",
+      "textSha256": "0a85a1edc116fab775e6ef10b9b35642ce3a465ea3a97789fd2c2959c9179956",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "64af6317b988dada034d5059361adcf1db8cb06875e7192ab2077675f3a9ee1a",
+      "duration": 1.375,
+      "graphemes": [
+        "after a full meal"
+      ],
+      "phonemes": [
+        "ˈæftəɹ ɐ fˈʊl mˈil"
+      ]
+    },
+    {
+      "src": "/audio/words/pharmacy-medicine-buy-pain.mp3",
+      "text": "pain",
+      "textSha256": "5c78c8e7160e76ba9b6c41f74247bb7ba4887f5c06faecd6b9a009785b248c72",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b407b01cd37f89431784ef93a7afa91ce3bccdb41e452169ea5c8800fc28f06f",
+      "duration": 1.4,
+      "graphemes": [
+        "pain"
+      ],
+      "phonemes": [
+        "pˈAn"
+      ]
+    },
+    {
+      "src": "/audio/words/pharmacy-medicine-buy-hurt.mp3",
+      "text": "hurt",
+      "textSha256": "49002d515d1605d8e4928cdccea435328773268fb951e9dae201212284d374a5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9bdc30cf787e85cf494ef744e8b6b657539fb0e7129a23c88577f2ad394c3868",
+      "duration": 1.225,
+      "graphemes": [
+        "hurt"
+      ],
+      "phonemes": [
+        "hˈɜɹt"
+      ]
+    },
+    {
+      "src": "/audio/words/pharmacy-medicine-buy-headache.mp3",
+      "text": "headache",
+      "textSha256": "cfa9ac1e084975b5d6463e32652c85bad6355a5ab32399618f89f222e68dc335",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fc9dff10cb1c086124473a69612cf262b229527d7df669ec07038d0c1373254b",
+      "duration": 1.325,
+      "graphemes": [
+        "headache"
+      ],
+      "phonemes": [
+        "hˈɛdˌAk"
+      ]
+    },
+    {
+      "src": "/audio/words/pharmacy-medicine-buy-throat.mp3",
+      "text": "throat",
+      "textSha256": "48cf13f481ae6828d98963f106d1e60961e8eec53971d98dd652c55e9403fc78",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0fa9593904436c7201f48f78594b3bf7e24190b46edbfe567e53487314a3c4e8",
+      "duration": 1.3,
+      "graphemes": [
+        "throat"
+      ],
+      "phonemes": [
+        "θɹˈOt"
+      ]
+    },
+    {
+      "src": "/audio/words/pharmacy-medicine-buy-medicine.mp3",
+      "text": "medicine",
+      "textSha256": "a82ce870f999b01b17b9135b72d1f4b6d31217aec9cbee69d5bfc9659018ca06",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "91d32f2e5fdd04e36eac3499b30c6527cff20acd6bf6a2d6e1045419b58acd32",
+      "duration": 1.475,
+      "graphemes": [
+        "medicine"
+      ],
+      "phonemes": [
+        "mˈɛdəsᵊn"
+      ]
+    },
+    {
+      "src": "/audio/words/pharmacy-medicine-buy-doctor.mp3",
+      "text": "doctor",
+      "textSha256": "72f4be89d6ebab1496e21e38bcd7c8ca0a68928af3081ad7dff87e772eb350c2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c7148c2b5255f6f4db62cb95047302d1c118acab0be736d9f71da240c8c0551f",
+      "duration": 1.45,
+      "graphemes": [
+        "doctor"
+      ],
+      "phonemes": [
+        "dˈɑktəɹ"
+      ]
+    },
+    {
+      "src": "/audio/sentences/clinic-check-in/1.mp3",
+      "text": "Good afternoon, this is my first time visiting this local clinic.",
+      "textSha256": "5e7d9865fb0a6ee1e3742e39442ee9f6af8f0aeaa1b18547b0deb3cb9a880372",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "68bf567d8dd700ec11f1c56dcd2b4cb27d30cb0f7b04f5ba4a40dcaf02d59d3c",
+      "duration": 4.375,
+      "graphemes": [
+        "Good afternoon, this is my first time visiting this local clinic."
+      ],
+      "phonemes": [
+        "ɡˈʊd ˌæftəɹnˈun, ðɪs ɪz mI fˈɜɹst tˈIm vˈɪzɪTɪŋ ðɪs lˈOkəl klˈɪnɪk."
+      ]
+    },
+    {
+      "src": "/audio/sentences/clinic-check-in/2.mp3",
+      "text": "Please show your health card and fill out this form.",
+      "textSha256": "ff5cd023f2b5886e69f8534e67b872721803b5591b0f4b536c04ef5c2cd07c59",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e541125f2aeb2e0e9c466e7170de4ad001adb3e69360839d980018223688547e",
+      "duration": 3.1,
+      "graphemes": [
+        "Please show your health card and fill out this form."
+      ],
+      "phonemes": [
+        "plˈiz ʃˈO jʊɹ hˈɛlθ kˈɑɹd ænd fˈɪl ˈWt ðɪs fˈɔɹm."
+      ]
+    },
+    {
+      "src": "/audio/sentences/clinic-check-in/3.mp3",
+      "text": "I have a mild fever and my body feels very tired.",
+      "textSha256": "efa62fccd0d0d110cc4b7ee0e014aa26fd19c71c3e8cacd5815b1c474a577d0c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1e4fd48ef5f4cdf8ed64be6a4b9ba04be61ace059249b18ad94e2459ef20a205",
+      "duration": 3.75,
+      "graphemes": [
+        "I have a mild fever and my body feels very tired."
+      ],
+      "phonemes": [
+        "ˌI hæv ɐ mˈIld fˈivəɹ ænd mI bˈɑdi fˈilz vˈɛɹi tˈIəɹd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/clinic-check-in/4.mp3",
+      "text": "Let me take your temperature with the forehead thermometer first.",
+      "textSha256": "c3b26a9a4a294632afee6eb936a8d4405483dcf202c41607543efaa32796c69e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b32f717be459c64fa2652ace828002c64b79135d9473935466a7eae9fb4d3871",
+      "duration": 3.775,
+      "graphemes": [
+        "Let me take your temperature with the forehead thermometer first."
+      ],
+      "phonemes": [
+        "lˈɛt mˌi tˈAk jʊɹ tˈɛmpɹəʧəɹ wɪð ðə fˈɔɹhˌɛd θəɹmˈɑməTəɹ fˈɜɹst."
+      ]
+    },
+    {
+      "src": "/audio/sentences/clinic-check-in/5.mp3",
+      "text": "Your waiting number is twenty-seven, please sit in the waiting room.",
+      "textSha256": "afaf549848693a81bbd7050c35d57762c82b4050d89ee2f32880d8aefb94f874",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "66fbd4b47094b1a5ac75f21c43e9d4e8a54d40d124f81f51528d042d15ba713d",
+      "duration": 4.1,
+      "graphemes": [
+        "Your waiting number is twenty-seven, please sit in the waiting room."
+      ],
+      "phonemes": [
+        "jˌʊɹ wˈATɪŋ nˈʌmbəɹ ɪz twˈɛntisˌɛvən, plˈiz sˈɪt ɪn ðə wˈATɪŋ ɹˈum."
+      ]
+    },
+    {
+      "src": "/audio/sentences/clinic-check-in/6.mp3",
+      "text": "The nurse will call your name when the doctor is ready.",
+      "textSha256": "20bcdbbd9f496c3625fe97f93d772f3ae1719629585933bb2c3bb0f6c40269b4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "36aaabdea1ca7fc9a1b0c2f0c546848b722af599a56c18bf3d4ceb1154d9b406",
+      "duration": 3.45,
+      "graphemes": [
+        "The nurse will call your name when the doctor is ready."
+      ],
+      "phonemes": [
+        "ðə nˈɜɹs wɪl kˈɔl jʊɹ nˈAm wˌɛn ðə dˈɑktəɹ ɪz ɹˈɛdi."
+      ]
+    },
+    {
+      "src": "/audio/phrases/clinic-check-in-fill-out-this-form.mp3",
+      "text": "fill out this form",
+      "textSha256": "b598893c601cdc047d0ef200c60ddde588ed2dc6ece90069b908a47f915c7c28",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0f0f3d4c5f77b80995986cdbeba79b36d8a992df22351e03d2103d9beb3c0651",
+      "duration": 1.725,
+      "graphemes": [
+        "fill out this form"
+      ],
+      "phonemes": [
+        "fˈɪl ˈWt ðɪs fˈɔɹm"
+      ]
+    },
+    {
+      "src": "/audio/phrases/clinic-check-in-have-a-mild-fever.mp3",
+      "text": "have a mild fever",
+      "textSha256": "462436c1a45a3c96b8a110fa11a9c2bf0514f418ca136c40797e3f40a2dd28d1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "da6d6d7f40bf32668e6a6ba235904cc325f7f06c0570c7f7c0cb7f8599a0abfd",
+      "duration": 1.8,
+      "graphemes": [
+        "have a mild fever"
+      ],
+      "phonemes": [
+        "hæv ɐ mˈIld fˈivəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/clinic-check-in-take-your-temperature.mp3",
+      "text": "take your temperature",
+      "textSha256": "a405c39349ac9f81f6ab932aff275907e4fa26b0b8a7601bd4ec1d10e019fcab",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "72c26b4897c8df1e6848091b82901b1b21bcd1b8013601011a1161b021ab17d3",
+      "duration": 1.725,
+      "graphemes": [
+        "take your temperature"
+      ],
+      "phonemes": [
+        "tˈAk jʊɹ tˈɛmpɹəʧəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/clinic-check-in-waiting-number.mp3",
+      "text": "waiting number",
+      "textSha256": "6ccd230be9a5ddd7132ee42a8a1947e16193ef6bc65489cf4c4c6b8108bd317d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5006c972d5a064732a79d98c9ecf9dcacc6a365d49e6c06e59b70eed5300066f",
+      "duration": 1.625,
+      "graphemes": [
+        "waiting number"
+      ],
+      "phonemes": [
+        "wˈATɪŋ nˈʌmbəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/clinic-check-in-call-your-name.mp3",
+      "text": "call your name",
+      "textSha256": "ddc8282fc985309c936786a3e2968e75033bbed349cdf038e542a827626e6cb3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d08bb1ebcd559c517861cee432406ee44457512a859d4b90005d84be31c00a0f",
+      "duration": 1.5,
+      "graphemes": [
+        "call your name"
+      ],
+      "phonemes": [
+        "kˈɔl jʊɹ nˈAm"
+      ]
+    },
+    {
+      "src": "/audio/words/clinic-check-in-clinic.mp3",
+      "text": "clinic",
+      "textSha256": "bbfeb74a4b4216dfd0f7b10edf5743e6781e9f8ac7888a3392878a52c821a3b1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e048b042f164e91d8ab01c3e7952aa6b34b688df4f596a43c13b61533dc99e51",
+      "duration": 1.3,
+      "graphemes": [
+        "clinic"
+      ],
+      "phonemes": [
+        "klˈɪnɪk"
+      ]
+    },
+    {
+      "src": "/audio/words/clinic-check-in-fever.mp3",
+      "text": "fever",
+      "textSha256": "1e44a1c45388c81c1a4bba7c14aa8d54cf11d442c99efc62a68d103cfdd308b8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "24431b4d96b4d9ca7c46ea91d35fdc91145bbab03df95cfaaa7dddfd4aecb4cf",
+      "duration": 1.375,
+      "graphemes": [
+        "fever"
+      ],
+      "phonemes": [
+        "fˈivəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/clinic-check-in-form.mp3",
+      "text": "form",
+      "textSha256": "07397d633f25a7101990a75864ae03d5a3b9ac07c4ed6accbc52cbfd7d7c13b4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "95bedba12613067cbef05aa0301b9bfca07a56a2ee720ba29d30b47e8a345b31",
+      "duration": 1.375,
+      "graphemes": [
+        "form"
+      ],
+      "phonemes": [
+        "fˈɔɹm"
+      ]
+    },
+    {
+      "src": "/audio/words/clinic-check-in-fill.mp3",
+      "text": "fill",
+      "textSha256": "dcd32479a72e55b29a03a586d8a483a05be0ce87cc5c25c7bad23079fc0356b3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b8a22a1eede6839627bf764d20bde59d4d1c67156fa7f89df189e3fd4d734471",
+      "duration": 1.35,
+      "graphemes": [
+        "fill"
+      ],
+      "phonemes": [
+        "fˈɪl"
+      ]
+    },
+    {
+      "src": "/audio/words/clinic-check-in-number.mp3",
+      "text": "number",
+      "textSha256": "12886f9d00055adf24c40579e22d31b2b45f2023f892954ffd5567beb60825f8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c73cbfd1f1880f9c3ef6394275252a7667d39909f8778bdbd0510d8d2a2695d6",
+      "duration": 1.35,
+      "graphemes": [
+        "number"
+      ],
+      "phonemes": [
+        "nˈʌmbəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/clinic-check-in-nurse.mp3",
+      "text": "nurse",
+      "textSha256": "781e5116a1e14a34eada50159d589e690c81ec4c5063115ea1f10b99441d5b94",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d673a1d9046a952e9bce8da870f4ef979a8cf6022056b7d26e484659e85b03d9",
+      "duration": 1.35,
+      "graphemes": [
+        "nurse"
+      ],
+      "phonemes": [
+        "nˈɜɹs"
+      ]
+    },
+    {
+      "src": "/audio/sentences/calling-in-sick/1.mp3",
+      "text": "Hello Mr. Davis, this is Leo calling from home this morning.",
+      "textSha256": "55f5a6c8c19f7bd5121b37df5317d72270a0fb7f85491b49505be7f2dbb70703",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f43dc2ba9cc76d34ed88f58789f12e5fadf76e780fdefc4a6a976d637139b037",
+      "duration": 4.25,
+      "graphemes": [
+        "Hello Mr. Davis, this is Leo calling from home this morning."
+      ],
+      "phonemes": [
+        "həlˈO mˈɪstəɹ dˈAvəs, ðɪs ɪz lˈiO kˈɔlɪŋ fɹʌm hˈOm ðɪs mˈɔɹnɪŋ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/calling-in-sick/2.mp3",
+      "text": "I feel very sick with stomach pain and cannot come to class today.",
+      "textSha256": "2ec8dade9cfefd04d6bed8e81e5325710b1288685d9285fbe6b28f8c69ffd7af",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d8a3e66d9c347a22b4b286afcaefb335158ae474c9db614ce929b56053df95af",
+      "duration": 4.3,
+      "graphemes": [
+        "I feel very sick with stomach pain and cannot come to class today."
+      ],
+      "phonemes": [
+        "ˌI fˈil vˈɛɹi sˈɪk wɪð stˈʌmək pˈAn ænd kənˈɑt kˈʌm tə klˈæs tədˈA."
+      ]
+    },
+    {
+      "src": "/audio/sentences/calling-in-sick/3.mp3",
+      "text": "I am sorry for the short notice, but I need to stay home and rest.",
+      "textSha256": "24714de8f12e40eae398636404f26e0d59aff3a96f65f6587ed86db1758790cd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2cfe2049d73e0d22a9f2b07711ed3b942ebb5c76f7c438cb0a992498d7cce033",
+      "duration": 4.225,
+      "graphemes": [
+        "I am sorry for the short notice, but I need to stay home and rest."
+      ],
+      "phonemes": [
+        "ˌI ɐm sˈɔɹi fɔɹ ðə ʃˈɔɹt nˈOTəs, bˌʌt ˌI nˈid tə stˈA hˈOm ænd ɹˈɛst."
+      ]
+    },
+    {
+      "src": "/audio/sentences/calling-in-sick/4.mp3",
+      "text": "Have you seen a doctor yet to check the main reason?",
+      "textSha256": "a2d1e07950c1b7b2be96210f40c2772fe141ad66192e2aff49b588b53b95576b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "be885d0a0deffbd5fc39f4016f5ced797bcb68ef9c549ef335d21c6ff72e91a4",
+      "duration": 3.375,
+      "graphemes": [
+        "Have you seen a doctor yet to check the main reason?"
+      ],
+      "phonemes": [
+        "hˌæv ju sˈin ɐ dˈɑktəɹ jˈɛt tə ʧˈɛk ðə mˈAn ɹˈizᵊn?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/calling-in-sick/5.mp3",
+      "text": "My mother is taking me to the hospital clinic later this morning.",
+      "textSha256": "98bdfff362634f72a0d1fa7796e7615e1ba69aec382f60043b6181e6b5fc8ca1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7ff1423a5d1ac5e2ffd82f6d3bc4dd76126d6cfdfdac60cc989c74753aef3129",
+      "duration": 4.35,
+      "graphemes": [
+        "My mother is taking me to the hospital clinic later this morning."
+      ],
+      "phonemes": [
+        "mˌI mˈʌðəɹ ɪz tˈAkɪŋ mˌi tə ðə hˈɑspˌɪTᵊl klˈɪnɪk lˈATəɹ ðɪs mˈɔɹnɪŋ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/calling-in-sick/6.mp3",
+      "text": "I hope to get plenty of rest and be able to return tomorrow.",
+      "textSha256": "59e949f644bd90c43162e77f72da4d02f522244bf0a5cf34d78c1255e5f9fdff",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "52524a7f4cf7c923a132f6cbb82751a94e5c1e63290bd93358182816d349c235",
+      "duration": 3.975,
+      "graphemes": [
+        "I hope to get plenty of rest and be able to return tomorrow."
+      ],
+      "phonemes": [
+        "ˌI hˈOp tə ɡɛt plˈɛnti ʌv ɹˈɛst ænd bi ˈAbᵊl tə ɹətˈɜɹn təmˈɑɹO."
+      ]
+    },
+    {
+      "src": "/audio/phrases/calling-in-sick-calling-from-home.mp3",
+      "text": "calling from home",
+      "textSha256": "015f6085043bd3ed3a8b16b78ce91263fd4dc00aefbddcbdb8d07fdafd0e326b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "77c3d43af2e20c6ef7b6a0e32546253ebb7c5ba2991abe91d01b69575afd3898",
+      "duration": 1.7,
+      "graphemes": [
+        "calling from home"
+      ],
+      "phonemes": [
+        "kˈɔlɪŋ fɹʌm hˈOm"
+      ]
+    },
+    {
+      "src": "/audio/phrases/calling-in-sick-feel-very-sick.mp3",
+      "text": "feel very sick",
+      "textSha256": "0f5024957970072a71332d916a421f9416f01319ee74e7c36d8c5aae47deeb4a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d738b3c96e1b855fbef6d03e2e4a9453dba74f487aa215c54f7ada163460fb14",
+      "duration": 1.675,
+      "graphemes": [
+        "feel very sick"
+      ],
+      "phonemes": [
+        "fˈil vˈɛɹi sˈɪk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/calling-in-sick-short-notice.mp3",
+      "text": "short notice",
+      "textSha256": "b0f3ca3c244bf809dc69aac4595c1dfc6b4f5e2108a393a4ae56e4918d31857a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ed335fd8522aa1c929b5741d5f972d323d48f4aaa580c62eecf2c5c159cb7ab4",
+      "duration": 1.575,
+      "graphemes": [
+        "short notice"
+      ],
+      "phonemes": [
+        "ʃˈɔɹt nˈOTəs"
+      ]
+    },
+    {
+      "src": "/audio/phrases/calling-in-sick-stay-home-and-rest.mp3",
+      "text": "stay home and rest",
+      "textSha256": "a6fc5cf8938f87400b84bc9d0a04b31df409337f5a4878e416fa1c70ec0bf362",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "39abdf0bd6ec941a39edf7157bc35af80d124428f650733a031844a2328e668f",
+      "duration": 1.8,
+      "graphemes": [
+        "stay home and rest"
+      ],
+      "phonemes": [
+        "stˈA hˈOm ænd ɹˈɛst"
+      ]
+    },
+    {
+      "src": "/audio/phrases/calling-in-sick-be-able-to-return.mp3",
+      "text": "be able to return",
+      "textSha256": "92896ce5a17b4f54edd50a3abb882b275ebe9e51381040c47041d87b07c6b6aa",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a825b253dbb82bbdb45a44c3bd30e55b38f02c68b049cf16ab72dc2ad6b2551b",
+      "duration": 1.8,
+      "graphemes": [
+        "be able to return"
+      ],
+      "phonemes": [
+        "bi ˈAbᵊl tə ɹətˈɜɹn"
+      ]
+    },
+    {
+      "src": "/audio/words/calling-in-sick-sick.mp3",
+      "text": "sick",
+      "textSha256": "3b04837881bb07b621ae7dc7abae37f3b6981584bdf3e22ece731a5b91eaf395",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8719c0b8585ae4152c2cf4287da6333337d0e43f47bce8443faf50515e67e0b5",
+      "duration": 1.225,
+      "graphemes": [
+        "sick"
+      ],
+      "phonemes": [
+        "sˈɪk"
+      ]
+    },
+    {
+      "src": "/audio/words/calling-in-sick-rest.mp3",
+      "text": "rest",
+      "textSha256": "2e09d5210db8417757b0f875c276d0cb877b22514e9a3583d2d8d7445368a027",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3bfbac30e4b6a5d1ab3e928def924fa7b8236e7d5c412c55880b29aa04de3272",
+      "duration": 1.375,
+      "graphemes": [
+        "rest"
+      ],
+      "phonemes": [
+        "ɹˈɛst"
+      ]
+    },
+    {
+      "src": "/audio/words/calling-in-sick-stay.mp3",
+      "text": "stay",
+      "textSha256": "39be15289c7942a8e7765d75584b0bce0a4a39c29a356fbaee44f63848ba6cb0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "daa41d00f30d6df548eb706229f3f0ec805811bc30bc82048121742f8b270c58",
+      "duration": 1.275,
+      "graphemes": [
+        "stay"
+      ],
+      "phonemes": [
+        "stˈA"
+      ]
+    },
+    {
+      "src": "/audio/words/calling-in-sick-able.mp3",
+      "text": "able",
+      "textSha256": "b0ad6bc1931197750fa85336ba8eb6ced10ca7b57eff09ecacf9f915a3b11365",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d32ce84c778be3fbfcbfe19e1c563800468c6d2c1903a55a5c41dbfe126447bb",
+      "duration": 1,
+      "graphemes": [
+        "able"
+      ],
+      "phonemes": [
+        "ˈAbᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/calling-in-sick-reason.mp3",
+      "text": "reason",
+      "textSha256": "8fcfccf675b1f0bfd39dcbb13015052fe82bc51c003c165a410945c913dbb2be",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "428c7a288ea17bf738bd6ea0d7242085ab05994785fa8bcb1c23730de9405354",
+      "duration": 1.45,
+      "graphemes": [
+        "reason"
+      ],
+      "phonemes": [
+        "ɹˈizᵊn"
+      ]
+    },
+    {
+      "src": "/audio/words/calling-in-sick-hope.mp3",
+      "text": "hope",
+      "textSha256": "c29277f55fb31aeb8d4026132e53513a1fb755e5d9c13bf21405b72b9570373f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6162b16432a361b58c88e8a6826403cd1e0c78ed71fcb2e0d0545dfb264b9ba4",
+      "duration": 1.225,
+      "graphemes": [
+        "hope"
+      ],
+      "phonemes": [
+        "hˈOp"
+      ]
+    },
+    {
+      "src": "/audio/sentences/ice-pack-for-sprain/1.mp3",
+      "text": "Teacher, I fell while playing soccer and twisted my right ankle.",
+      "textSha256": "57f70e04f3ab58ce4537263238f9a273384ade089c0d80bb1928468b57cabbc8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7362207114382b923b47522d583c13b11824dffa8357de44030c60400ed2f32e",
+      "duration": 4.35,
+      "graphemes": [
+        "Teacher, I fell while playing soccer and twisted my right ankle."
+      ],
+      "phonemes": [
+        "tˈiʧəɹ, ˌI fˈɛl wˌIl plˈAɪŋ sˈɑkəɹ ænd twˈɪstᵻd mI ɹˈIt ˈæŋkᵊl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/ice-pack-for-sprain/2.mp3",
+      "text": "Sit down right here, be careful, take a deep breath, and do not put weight on that foot.",
+      "textSha256": "436b948ddf7decd911968faeb3a219b2d3752b2a483ed7375abf2c12d3cd910c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "76658d4c3f94c82114331d06158dadf517f617fd35cbc3c61fe846b09c2c9373",
+      "duration": 5.15,
+      "graphemes": [
+        "Sit down right here, be careful, take a deep breath, and do not put weight on that foot."
+      ],
+      "phonemes": [
+        "sˈɪt dˌWn ɹˈIt hˈɪɹ, bi kˈɛɹfᵊl, tˈAk ɐ dˈip bɹˈɛθ, ænd dˈu nˌɑt pˌʊt wˈAt ˌɔn ðˈæt fˈʊt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/ice-pack-for-sprain/3.mp3",
+      "text": "Is the skin around the ankle joint starting to look swollen?",
+      "textSha256": "2026a7a01bb8356894e90997690aeb8c1b95088186cd4d18ce37940addd9a19a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7706f98faf18e37d1128834207a750705af65d02ef0a45e94e827c8cd379a99d",
+      "duration": 3.675,
+      "graphemes": [
+        "Is the skin around the ankle joint starting to look swollen?"
+      ],
+      "phonemes": [
+        "ˌɪz ðə skˈɪn əɹˈWnd ði ˈæŋkᵊl ʤˈYnt stˈɑɹTɪŋ tə lˈʊk swˈOlən?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/ice-pack-for-sprain/4.mp3",
+      "text": "Yes, it looks red and feels very warm and painful.",
+      "textSha256": "0e9fb123b223dd4ef2c6a195bd447a905477969c80a05bcd9f88f1c4d95b7894",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4d4eab70bcae1aaf29a6b1944a2f211285f859644743cbeef8c7836b106c8ff6",
+      "duration": 3.8,
+      "graphemes": [
+        "Yes, it looks red and feels very warm and painful."
+      ],
+      "phonemes": [
+        "jˈɛs, ɪt lˈʊks ɹˈɛd ænd fˈilz vˈɛɹi wˈɔɹm ænd pˈAnfᵊl."
+      ]
+    },
+    {
+      "src": "/audio/sentences/ice-pack-for-sprain/5.mp3",
+      "text": "We need to put a cold ice pack on it for fifteen minutes.",
+      "textSha256": "027d18d2948a58981a9fe01913a25a63fe7079a534827cddd98360eb4d5b000f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ee78420f53c6bd7c880c2e1f3ec4c1db91f6893553ecab5326afa70f25bdc51a",
+      "duration": 3.55,
+      "graphemes": [
+        "We need to put a cold ice pack on it for fifteen minutes."
+      ],
+      "phonemes": [
+        "wˌi nˈid tə pˌʊt ɐ kˈOld ˈIs pˈæk ˌɔn ɪt fɔɹ fˌɪftˈin mˈɪnəts."
+      ]
+    },
+    {
+      "src": "/audio/sentences/ice-pack-for-sprain/6.mp3",
+      "text": "Wrap a clean towel around the ice to protect your skin, and I will help you.",
+      "textSha256": "e841ce8e7f9da935bca3ba03de5826fc0531990f4a5161c4dba4396332970197",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2204bf68b783a3c5dc8b3b6256fc951aa29e2aa5f6550724ef36cd2d186880b8",
+      "duration": 4.7,
+      "graphemes": [
+        "Wrap a clean towel around the ice to protect your skin, and I will help you."
+      ],
+      "phonemes": [
+        "ɹˈæp ɐ klˈin tˈWᵊl əɹˈWnd ði ˈIs tə pɹətˈɛkt jʊɹ skˈɪn, ænd ˌI wɪl hˈɛlp ju."
+      ]
+    },
+    {
+      "src": "/audio/phrases/ice-pack-for-sprain-take-a-deep-breath.mp3",
+      "text": "take a deep breath",
+      "textSha256": "3732f5cea908b060b6e34a41e6f121845b55b55a49d2cc8f6b2b90a02ef0e70f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "08dfa5b6b95d06df5642261f5d6ad1b1b18706de92e8a61ddcba7fc384716f46",
+      "duration": 1.725,
+      "graphemes": [
+        "take a deep breath"
+      ],
+      "phonemes": [
+        "tˈAk ɐ dˈip bɹˈɛθ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/ice-pack-for-sprain-put-weight-on-that-foot.mp3",
+      "text": "put weight on that foot",
+      "textSha256": "ef4073ba4fc91f6e55704f7963e8dd0db328a1b6ccb9b27e038125a1065be8f4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6850478031585ff4c2707a23a80eeae44deb655455877bcc22ea53bca93eec1c",
+      "duration": 1.775,
+      "graphemes": [
+        "put weight on that foot"
+      ],
+      "phonemes": [
+        "pˌʊt wˈAt ˌɔn ðˈæt fˈʊt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/ice-pack-for-sprain-look-swollen.mp3",
+      "text": "look swollen",
+      "textSha256": "73334d74117fe7cac67cac2222d930e3ffdb79ece94dbf0dfd0f46613a377151",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b7f86b94165db92b3ab6ecc35ef49f66795377b52800c9beb66d109ba0e8d2e3",
+      "duration": 1.575,
+      "graphemes": [
+        "look swollen"
+      ],
+      "phonemes": [
+        "lˈʊk swˈOlən"
+      ]
+    },
+    {
+      "src": "/audio/phrases/ice-pack-for-sprain-cold-ice-pack.mp3",
+      "text": "cold ice pack",
+      "textSha256": "dae44c374a8512452724228aac7a0e5ea1d4ba905e979fa8a695dddab447f59a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c3b8ba48e9a171db04a5f8a2248b6752aa5fda74f0bb5feac6362f97f2920f62",
+      "duration": 1.7,
+      "graphemes": [
+        "cold ice pack"
+      ],
+      "phonemes": [
+        "kˈOld ˈIs pˈæk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/ice-pack-for-sprain-wrap-a-clean-towel-around.mp3",
+      "text": "wrap a clean towel around",
+      "textSha256": "865248ce6c1eb1e859645a6cfa7a30207fc940249ab4c58d5e11c7635bcec487",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "89b3345d6856d31b97bc71b3a2e56c57815ba55fdca19b159ee5dfcc7013dc97",
+      "duration": 2.075,
+      "graphemes": [
+        "wrap a clean towel around"
+      ],
+      "phonemes": [
+        "ɹˈæp ɐ klˈin tˈWᵊl əɹˈWnd"
+      ]
+    },
+    {
+      "src": "/audio/words/ice-pack-for-sprain-fall.mp3",
+      "text": "fall",
+      "textSha256": "2dc46af1b78c32dfe99dedfbdff6ca7f33e0f652716482f55b03622b67c06dea",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d4f4f17044305e68b3c0b0536e8bfa5d5f2d9642c943b830a15c8f473096c5a9",
+      "duration": 1.3,
+      "graphemes": [
+        "fall"
+      ],
+      "phonemes": [
+        "fˈɔl"
+      ]
+    },
+    {
+      "src": "/audio/words/ice-pack-for-sprain-foot.mp3",
+      "text": "foot",
+      "textSha256": "22e4f6912a6980d6fd59e0c5409247407491282cc8dbd009734066b8393a5761",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "04d19d74d10b21ac21e98222ce19ca8dbe25b95c3f126a6917596859212f301d",
+      "duration": 1.175,
+      "graphemes": [
+        "foot"
+      ],
+      "phonemes": [
+        "fˈʊt"
+      ]
+    },
+    {
+      "src": "/audio/words/ice-pack-for-sprain-breath.mp3",
+      "text": "breath",
+      "textSha256": "367a1c592458c1b0ab948e37f993feeda943b0a03b70ee6633c51beb78de8ed8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "00ac502699fa7fb78013ee4dc295efca1873a29cf9836475a935ce249a72bc5e",
+      "duration": 1.275,
+      "graphemes": [
+        "breath"
+      ],
+      "phonemes": [
+        "bɹˈɛθ"
+      ]
+    },
+    {
+      "src": "/audio/words/ice-pack-for-sprain-careful.mp3",
+      "text": "careful",
+      "textSha256": "191c415261817259c49f435b1a380bac5cc31c3dfdd3cf0f8bcce446d9992387",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c4ea22673f0deb149e936705865ab675d0ffc45f24ff4be3ce2ac9fc04841921",
+      "duration": 1.375,
+      "graphemes": [
+        "careful"
+      ],
+      "phonemes": [
+        "kˈɛɹfᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/ice-pack-for-sprain-cold.mp3",
+      "text": "cold",
+      "textSha256": "e272deecde720ffc773d7a6a81adabbc366ccbb64da5abdb6b26f52cd3f952cb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4bfe760f885dd40817744a73fd943ee9e48d8a862dcf44de46e6ec20bb63aaa2",
+      "duration": 1.325,
+      "graphemes": [
+        "cold"
+      ],
+      "phonemes": [
+        "kˈOld"
+      ]
+    },
+    {
+      "src": "/audio/words/ice-pack-for-sprain-help.mp3",
+      "text": "help",
+      "textSha256": "106a5842fc5fce6f663176285ed1516dbb1e3d15c05abab12fdca46d60b539b7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "81f55c76221ec701b3415fc54b3c4319b851e3c92e08c3407f6a0c92cee4a93d",
+      "duration": 1.15,
+      "graphemes": [
+        "help"
+      ],
+      "phonemes": [
+        "hˈɛlp"
+      ]
+    }
+  ]
+}

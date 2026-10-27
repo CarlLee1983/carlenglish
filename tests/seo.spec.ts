@@ -76,7 +76,7 @@ test('home and level pages publish matching metadata and data grounded in the vi
 });
 
 test('every reader has its own canonical, share image, and content-grounded LearningResource', async ({ page, request }) => {
-  test.setTimeout(120_000);
+  test.setTimeout(240_000);
   const descriptions = new Set<string>();
   for (const scene of scenes) {
     await page.goto(pathFor(scene));

@@ -1,0 +1,326 @@
+{
+  "id": "trash-recycling-sorting",
+  "title": "社區垃圾分類與資源回收",
+  "titleEn": "Sorting Trash and Recycling in the Community",
+  "category": "居家生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/trash-recycling-sorting.webp",
+    "alt": "在明亮整潔的社區垃圾集中室內，住戶將壓扁的紙箱與清洗乾淨的飲料鋁罐，分別投入標示清楚的黃色與藍色資源回收桶。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "household-waste",
+      "english": "household waste",
+      "translation": "家戶廢棄物",
+      "audio": {
+        "src": "/audio/phrases/trash-recycling-sorting-household-waste.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a944549ebb319d05c5a5db1a99cc586d780a5c14a92fcf38c4898365c0404c74",
+        "sha256": "892f33f58a3028a1930357d8e4bff4b01d71032bb3c7d81fcd063847e64bdc2b"
+      }
+    },
+    {
+      "id": "daily-garbage",
+      "english": "daily garbage",
+      "translation": "日常垃圾",
+      "audio": {
+        "src": "/audio/phrases/trash-recycling-sorting-daily-garbage.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bfc45f2cfde8d233a13267492491348adb2bf38eb555ae704cb7470e861a4222",
+        "sha256": "da54e5685612e0111c9d5a5d45d8083e70a2adb33a4b7b1b7099cac73ed55783"
+      }
+    },
+    {
+      "id": "flatten-all-paper-boxes",
+      "english": "Flatten all paper boxes",
+      "translation": "壓平所有紙箱",
+      "audio": {
+        "src": "/audio/phrases/trash-recycling-sorting-flatten-all-paper-boxes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8e3eeee864416a3084ae167d041e7af47823987516be3779ee865d8417cc63bb",
+        "sha256": "9bf3fe083bab6785b014b64250fb160a4f45c3149290dd10a4b5e9614011deb7"
+      }
+    },
+    {
+      "id": "aluminum-soda-cans",
+      "english": "aluminum soda cans",
+      "translation": "汽水鋁罐",
+      "audio": {
+        "src": "/audio/phrases/trash-recycling-sorting-aluminum-soda-cans.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e3680e3c9762c774196344be6b2cbbda4b76b4a7c874894483bec669d273c6d8",
+        "sha256": "dbeb4d83e5c954c2d4544fd60f95c9ad95bb991a34879c450fb3213843bcddc6"
+      }
+    },
+    {
+      "id": "recycle-symbol",
+      "english": "recycle symbol",
+      "translation": "資源回收標誌",
+      "audio": {
+        "src": "/audio/phrases/trash-recycling-sorting-recycle-symbol.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4e0205c2918d4a15da5ca577a61ad7d6e73d7043a0438ee921d66dfdd3aaa753",
+        "sha256": "eb1f4868631efbd8874fb6129a6f727b08f815625256630adf7930f9ed7b597c"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "trash",
+      "english": "trash",
+      "translation": "垃圾；廢棄物",
+      "example": "Please throw your food wrappers into the trash can.",
+      "audio": {
+        "src": "/audio/words/trash-recycling-sorting-trash.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e06da30434b904a063a13413df8e2f14d71645168515d4e0bf3b46807df3bb7d",
+        "sha256": "2e26bd1154e5fd302e4b66ad4e3fa18669959b88fb32ea051ed0c969989a2f63"
+      }
+    },
+    {
+      "id": "garbage",
+      "english": "garbage",
+      "translation": "垃圾；廢物",
+      "example": "The yellow garbage truck arrives every evening.",
+      "audio": {
+        "src": "/audio/words/trash-recycling-sorting-garbage.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "795b6904e54f82411df4b0e27a373a55eea3f9d66dac5a9bce1dd92f7b401da5",
+        "sha256": "b74e910c99ee6fa0ed499b3e5b09b19b6a1c7c63ca7172017439469b980eaea5"
+      }
+    },
+    {
+      "id": "recycle",
+      "english": "recycle",
+      "translation": "回收；循環利用",
+      "example": "We recycle glass jars to protect the environment.",
+      "audio": {
+        "src": "/audio/words/trash-recycling-sorting-recycle.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ef5988103d7b93b73646abbb5aed1a42975d3c3885c264826fff7ca9b7fee6f6",
+        "sha256": "e1e0f57d75544d81081e7ec48cdc39fa461dde9caeba23da422663b9c0bc4421"
+      }
+    },
+    {
+      "id": "sort",
+      "english": "sort",
+      "translation": "分類；整理",
+      "example": "Sort the colored pencils into separate pencil cases.",
+      "audio": {
+        "src": "/audio/words/trash-recycling-sorting-sort.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "646964943fd2271187dbe29287f57e0238491c029cc6d8ce76f25ae240474294",
+        "sha256": "68b4dee2b98b9188fa60b5d53432968065ab10e6b8963ee69a7437a09182f590"
+      }
+    },
+    {
+      "id": "bin",
+      "english": "bin",
+      "translation": "垃圾桶；分類箱",
+      "example": "Drop the scrap paper into the blue recycling bin.",
+      "audio": {
+        "src": "/audio/words/trash-recycling-sorting-bin.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "51a1f05af85e342e3c849b47d387086476282d5f50dc240c19216d6edfb1eb5a",
+        "sha256": "398fd6804389d7a0114933a73a5e5cbc217966a4ab29dad1d16941284357516a"
+      }
+    },
+    {
+      "id": "policy",
+      "english": "policy",
+      "translation": "政策；守則",
+      "example": "The library has a strict no-food policy.",
+      "audio": {
+        "src": "/audio/words/trash-recycling-sorting-policy.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "823412d1eacb67956220e532959f0104603057c88704863ca38e7cd188fda812",
+        "sha256": "fac9a0e2d87198d980061153d0a2d3f8b401fbde6c2d7c75869be9e4815aa8f6"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Our building community follows a strict environmental "
+        },
+        {
+          "text": "policy",
+          "wordIds": [
+            "policy"
+          ]
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "household waste",
+          "phraseIds": [
+            "household-waste"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我們大樓社區對於家戶廢棄物垃圾有著嚴格的環保規定政策。",
+      "audio": {
+        "src": "/audio/sentences/trash-recycling-sorting/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e22b183a96a83de924ea19750d6e8c5748cbb1cb18fecfdc6e93220d8288f660",
+        "sha256": "dd97df0a9e93819295d3c80b0eefc963ec7039284114831d98fba584d7bca3b4"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Residents must "
+        },
+        {
+          "text": "sort",
+          "wordIds": [
+            "sort"
+          ]
+        },
+        {
+          "text": " their "
+        },
+        {
+          "text": "daily ",
+          "phraseIds": [
+            "daily-garbage"
+          ]
+        },
+        {
+          "text": "garbage",
+          "phraseIds": [
+            "daily-garbage"
+          ],
+          "wordIds": [
+            "garbage"
+          ]
+        },
+        {
+          "text": " into general "
+        },
+        {
+          "text": "trash",
+          "wordIds": [
+            "trash"
+          ]
+        },
+        {
+          "text": " and recyclable materials."
+        }
+      ],
+      "translation": "住戶必須將日常垃圾確實分類成一般垃圾與可回收物料。",
+      "audio": {
+        "src": "/audio/sentences/trash-recycling-sorting/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8f79ea0e15fad83216f4084cb88623f96bff5d1dbcea4943a50a7bb6650f53ad",
+        "sha256": "f84db20500439251d49b271d09ce53d25fd2caf39553547d1df1beaced699b6f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Flatten all paper boxes",
+          "phraseIds": [
+            "flatten-all-paper-boxes"
+          ]
+        },
+        {
+          "text": " and wash used plastic drink bottles before putting them in the "
+        },
+        {
+          "text": "bins",
+          "wordIds": [
+            "bin"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "紙箱要壓平，用過的塑膠飲料瓶在丟入回收桶前要先沖洗乾淨。",
+      "audio": {
+        "src": "/audio/sentences/trash-recycling-sorting/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "45310fa4e4884bb88a867608a888549aa0cb4bb7de35f2a38f24ff05c1337933",
+        "sha256": "bb761639e33a7800c5856348daa176848c028ce65d93a83e3290318c6b77306a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Which colored bin is meant for "
+        },
+        {
+          "text": "aluminum soda cans",
+          "phraseIds": [
+            "aluminum-soda-cans"
+          ]
+        },
+        {
+          "text": " and metal food tins?"
+        }
+      ],
+      "translation": "請問哪一個顏色的桶子是用來裝汽水鋁罐和金屬食品鐵罐的？",
+      "audio": {
+        "src": "/audio/sentences/trash-recycling-sorting/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9f6f26f57d2db1951e5d11c9ca2e12c2ae2dd646d13ed68bd3fb55beb64eca2b",
+        "sha256": "df409d1c692ebbd2edb33677544c15fa1f54652da9089960c42062c269fe5aa7"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Toss clean metal cans into the yellow bin marked with the circular "
+        },
+        {
+          "text": "recycle",
+          "phraseIds": [
+            "recycle-symbol"
+          ],
+          "wordIds": [
+            "recycle"
+          ]
+        },
+        {
+          "text": " symbol",
+          "phraseIds": [
+            "recycle-symbol"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "把乾淨的金屬罐丟入印有圓形循環回收標誌的黃色桶子中。",
+      "audio": {
+        "src": "/audio/sentences/trash-recycling-sorting/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e9db0560d343b3db36648c34005691e84fb014712a6a65f30c53ddaea1d36b3c",
+        "sha256": "0d673068a823d8cce5cf61846bdb126b9d406bef4372bc084dde79f03466615d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Following these simple sorting rules helps keep our neighborhood clean and green."
+        }
+      ],
+      "translation": "遵守這些簡單的分類守則，能讓我們的社區保持潔淨與綠意盎然。",
+      "audio": {
+        "src": "/audio/sentences/trash-recycling-sorting/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "97149df15860a4dd8e9977a1becf73e1630ee458c0c0f8e9084f7fcb44534304",
+        "sha256": "533713a1fdf0b9202c31ba777336d914c77eeb76e5b41a19309d7b3da47f3e63"
+      }
+    }
+  ]
+}

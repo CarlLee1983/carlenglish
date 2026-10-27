@@ -1,0 +1,446 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/setting-meeting-time/1.mp3",
+      "text": "Are you free this Saturday morning to discuss our science assignment?",
+      "textSha256": "8b5d30d9ab21a23b7e096b2fbdd7224744dae6858aab6d29dc0c5fbeb2757f37"
+    },
+    {
+      "src": "/audio/sentences/setting-meeting-time/2.mp3",
+      "text": "I am quite busy until ten o'clock, but after that my schedule is open.",
+      "textSha256": "ec9f2c1ebc4f6c167ea738510f554d1603944cce9031aa76cea213e0c46de519"
+    },
+    {
+      "src": "/audio/sentences/setting-meeting-time/3.mp3",
+      "text": "Ten thirty would suit me perfectly, does that sound convenient for you?",
+      "textSha256": "610eaf1bb63ff8cfcaaf90c30d8317d4e41e4b17a9f00ee599411848cb78ce66"
+    },
+    {
+      "src": "/audio/sentences/setting-meeting-time/4.mp3",
+      "text": "Yes, meeting earlier in the day is much better before it gets too hot.",
+      "textSha256": "d26bdb5b9adf5df44a1e8cceea6dddda4c1a4ecd6beb7551aaa3c2651521f0c3"
+    },
+    {
+      "src": "/audio/sentences/setting-meeting-time/5.mp3",
+      "text": "What is your plan for where to meet so nobody gets lost along the busy road?",
+      "textSha256": "f65a997c2d30aa9f479c084cfa0150c46b760c0e68a02ebe3832474353b55e0b"
+    },
+    {
+      "src": "/audio/sentences/setting-meeting-time/6.mp3",
+      "text": "Let us meet right outside the subway exit near the bakery clock tower.",
+      "textSha256": "84e9a9f398a26fd09e260791a2315d7b54241ff0ba7792c6a3865b9fc75004a4"
+    },
+    {
+      "src": "/audio/phrases/setting-meeting-time-are-you-free.mp3",
+      "text": "are you free",
+      "textSha256": "85626a3438f02f09fc41fec247957e5c5ad454e79285390b3dc61c7659f73499"
+    },
+    {
+      "src": "/audio/phrases/setting-meeting-time-my-schedule-is-open.mp3",
+      "text": "my schedule is open",
+      "textSha256": "f69f681c6ecb8ddc3b5d67d06a79216fc8d2a718e21daea325eb92fb798b6a30"
+    },
+    {
+      "src": "/audio/phrases/setting-meeting-time-suit-me-perfectly.mp3",
+      "text": "suit me perfectly",
+      "textSha256": "7ca1f8330babf0b4648231a5bca3237f98dbc6f7ef0ce1b78d843a30ead5d6c3"
+    },
+    {
+      "src": "/audio/phrases/setting-meeting-time-earlier-in-the-day.mp3",
+      "text": "earlier in the day",
+      "textSha256": "ff013aa0802d3497869b77eb5ad3d0378a4ab9e8162ab2fc6355f5e21176ff62"
+    },
+    {
+      "src": "/audio/phrases/setting-meeting-time-outside-the-subway-exit.mp3",
+      "text": "outside the subway exit",
+      "textSha256": "082464e068541773d1ceee860fbdfc196aa160a896c2bed40a745c740ac5cf8e"
+    },
+    {
+      "src": "/audio/words/setting-meeting-time-free.mp3",
+      "text": "free",
+      "textSha256": "ad95d5fa651ba86d8923fe1238d24a4f1988a752acfe426ac72ac7c04471bc17"
+    },
+    {
+      "src": "/audio/words/setting-meeting-time-busy.mp3",
+      "text": "busy",
+      "textSha256": "c9bc072f4fa8189466c2a8f2c36a56a4ef1e60a2ffa4986ba2f155cd176c128b"
+    },
+    {
+      "src": "/audio/words/setting-meeting-time-meet.mp3",
+      "text": "meet",
+      "textSha256": "8ccb033c0e48b27ff91e1ab948367e3bbc6921487c97624ed7ad064025e3dc99"
+    },
+    {
+      "src": "/audio/words/setting-meeting-time-convenient.mp3",
+      "text": "convenient",
+      "textSha256": "3320956b836c53b726d123b3c7021f4d298b4bde1bfe8f277b327f29d22af931"
+    },
+    {
+      "src": "/audio/words/setting-meeting-time-plan.mp3",
+      "text": "plan",
+      "textSha256": "64879f7d6b960a01909762d911a32d4582c20010c5641ee90278b644a9e3b525"
+    },
+    {
+      "src": "/audio/words/setting-meeting-time-early.mp3",
+      "text": "early",
+      "textSha256": "f408830bcc7fab370819172244aa32e3ba66a848835911c02629d9a4dff77992"
+    },
+    {
+      "src": "/audio/sentences/apologizing-for-being-late/1.mp3",
+      "text": "Hi Kevin, I am calling because my bus is completely stuck in heavy traffic.",
+      "textSha256": "f1f5e8cfc71d14602b7018bb2cbca66171916902a47cd80947f2ab1ffc865948"
+    },
+    {
+      "src": "/audio/sentences/apologizing-for-being-late/2.mp3",
+      "text": "I am so sorry about that, but I will be fifteen minutes late.",
+      "textSha256": "ac65a293adb37ac371a87374d44cbf2d51a0c1cb649e248485b3c162da031e70"
+    },
+    {
+      "src": "/audio/sentences/apologizing-for-being-late/3.mp3",
+      "text": "Do not worry at all Leo, thank you for calling to let me know.",
+      "textSha256": "ce92ce62ddd3be353fb380689d8bc167255663cf5db47ba434413b23ae881062"
+    },
+    {
+      "src": "/audio/sentences/apologizing-for-being-late/4.mp3",
+      "text": "There was a broken delivery truck blocking two lanes on the bridge.",
+      "textSha256": "24e0803f9fe07712a1b4daedd512b3dffaf3e0461c5fcb5845d5845d3d0cbcda"
+    },
+    {
+      "src": "/audio/sentences/apologizing-for-being-late/5.mp3",
+      "text": "The traffic is starting to move again, so I should arrive very soon.",
+      "textSha256": "10297fc164180d2b46b6306bbfe40ca870dc36a66ffa51fa23214cfe9a892f9f"
+    },
+    {
+      "src": "/audio/sentences/apologizing-for-being-late/6.mp3",
+      "text": "Take your time and stay safe, I will wait for you inside the bookstore.",
+      "textSha256": "1e5e39dd764d20d6c9daeff5b1b7eb6a44c6363fefee3b223f2206724df2b65b"
+    },
+    {
+      "src": "/audio/phrases/apologizing-for-being-late-stuck-in-heavy-traffic.mp3",
+      "text": "stuck in heavy traffic",
+      "textSha256": "6873f0a6544684ca49300a348c59b883439ee5a9e5b95d77f214e8c1445acb1f"
+    },
+    {
+      "src": "/audio/phrases/apologizing-for-being-late-so-sorry-about-that.mp3",
+      "text": "so sorry about that",
+      "textSha256": "a3c4da9e92ed38f90cd2269a270ac5a026d55a551416414672efb869f26deac5"
+    },
+    {
+      "src": "/audio/phrases/apologizing-for-being-late-fifteen-minutes-late.mp3",
+      "text": "fifteen minutes late",
+      "textSha256": "64bb190a97e8b6188c46dc198d95c198fe2648f74b23827a37fe552ebc7e4f37"
+    },
+    {
+      "src": "/audio/phrases/apologizing-for-being-late-arrive-very-soon.mp3",
+      "text": "arrive very soon",
+      "textSha256": "e91a66f4d7f6f26fdb9ba6ee7f5253366c5c2527549f73256b645607f0902fa8"
+    },
+    {
+      "src": "/audio/phrases/apologizing-for-being-late-take-your-time.mp3",
+      "text": "take your time",
+      "textSha256": "0ca7da55239636e9f5dc6d5951dd0f413dd499d6c21edf3b0a8abaf7f9d654ee"
+    },
+    {
+      "src": "/audio/words/apologizing-for-being-late-sorry.mp3",
+      "text": "sorry",
+      "textSha256": "484aab2f2cd0f77b3c30f91521ba9a76c8c501112a53e100154a098c274f03d3"
+    },
+    {
+      "src": "/audio/words/apologizing-for-being-late-late.mp3",
+      "text": "late",
+      "textSha256": "089001a35679a33ef3db0ca350db9b9a2f0136e0e327577b04b3b98127470961"
+    },
+    {
+      "src": "/audio/words/apologizing-for-being-late-stuck.mp3",
+      "text": "stuck",
+      "textSha256": "9c05ce79d0bfe037953b11f168069e5af4ea2605b8534a188f64dee6c0b643fe"
+    },
+    {
+      "src": "/audio/words/apologizing-for-being-late-soon.mp3",
+      "text": "soon",
+      "textSha256": "4a754148b88a68e18df1a02489950666d187e904cd88d2dc0aa16c103b94045f"
+    },
+    {
+      "src": "/audio/words/apologizing-for-being-late-arrive.mp3",
+      "text": "arrive",
+      "textSha256": "6dc09a300747b82d8bfe9d509ede4fb228e3c27204185e8c5e6188340904d9e0"
+    },
+    {
+      "src": "/audio/words/apologizing-for-being-late-wait.mp3",
+      "text": "wait",
+      "textSha256": "716ecabb45ac6a88a049398fde2d3d5225c6dd3121ae9bbc5af457eb4baf056a"
+    },
+    {
+      "src": "/audio/sentences/declining-an-invitation/1.mp3",
+      "text": "Thank you for inviting me to join the seaside bike trip.",
+      "textSha256": "0a4774d9abbc73902dc5e9529961e9fc2b2e597cd0150ec7582387710a6dbb0a"
+    },
+    {
+      "src": "/audio/sentences/declining-an-invitation/2.mp3",
+      "text": "It sounds like wonderful fun, and I really wish I could come along.",
+      "textSha256": "c6e1994f42b19c76bd5b7096be534e53d16bce89dab954439eabadd40669e898"
+    },
+    {
+      "src": "/audio/sentences/declining-an-invitation/3.mp3",
+      "text": "However, I already made a promise to visit my grandparents this Sunday.",
+      "textSha256": "907c7beb85c3679ddbed0eb3c72b2d51ca6659777a016d8bfe2a0e700c0b7294"
+    },
+    {
+      "src": "/audio/sentences/declining-an-invitation/4.mp3",
+      "text": "My whole family is gathering together for grandpa's birthday dinner.",
+      "textSha256": "90a4e38a5204d0e8ea4ab4f7580d50deaad439b793e9aca8a0ff957291f99dc7"
+    },
+    {
+      "src": "/audio/sentences/declining-an-invitation/5.mp3",
+      "text": "That is completely fine, family celebrations should always come first.",
+      "textSha256": "8639b0ff186f3d579bc0c4dde60cfb42d7d2186a250326977cf9e2240852562e"
+    },
+    {
+      "src": "/audio/sentences/declining-an-invitation/6.mp3",
+      "text": "Let us definitely plan another exciting trip together next time.",
+      "textSha256": "d5595b71751b2e9e810230f692b7ca9b2b127307e0d041d23688b51d6b4e8f3f"
+    },
+    {
+      "src": "/audio/phrases/declining-an-invitation-thank-you-for-inviting-me.mp3",
+      "text": "thank you for inviting me",
+      "textSha256": "08bc17447a379f23ca10af89d76fe7ea4c09522ddabc540ef7bab9b25cd73a7c"
+    },
+    {
+      "src": "/audio/phrases/declining-an-invitation-wish-i-could-come.mp3",
+      "text": "wish I could come",
+      "textSha256": "44ce5e55a7ef90f4ef7cc2d31059e6ada94f2e9063d32a0db089ba53e9b15dac"
+    },
+    {
+      "src": "/audio/phrases/declining-an-invitation-made-a-promise.mp3",
+      "text": "made a promise",
+      "textSha256": "a58911a6b1c8e53cbb05b0b56aea3f7f8a4a0c94d4b41b5edf780228599d7794"
+    },
+    {
+      "src": "/audio/phrases/declining-an-invitation-come-first.mp3",
+      "text": "come first",
+      "textSha256": "53002f20d0ddd5e1e016011fe38b37f696c4787916b27b6085c45f2de0293c5a"
+    },
+    {
+      "src": "/audio/phrases/declining-an-invitation-next-time.mp3",
+      "text": "next time",
+      "textSha256": "6a5c4e174099631791718e4b1fc292612de4b0c8547d360fcbd68177fabcb253"
+    },
+    {
+      "src": "/audio/words/declining-an-invitation-invite.mp3",
+      "text": "invite",
+      "textSha256": "5014f9af3a684fdd64a775c1c4c532ee66b1b96cb56b1d02170d2249b6764f75"
+    },
+    {
+      "src": "/audio/words/declining-an-invitation-wish.mp3",
+      "text": "wish",
+      "textSha256": "091e606752615c91da70540d9951464cd898f7c2a420fc7181b4f6793772e723"
+    },
+    {
+      "src": "/audio/words/declining-an-invitation-could.mp3",
+      "text": "could",
+      "textSha256": "0e031e954a432055ace97e08d1a097013f562c021a1c3aa3ab4948dd56793b86"
+    },
+    {
+      "src": "/audio/words/declining-an-invitation-already.mp3",
+      "text": "already",
+      "textSha256": "ea53396caebc40d702a99967c8b6cea050267d7b7b229aa68a6929f9c5659878"
+    },
+    {
+      "src": "/audio/words/declining-an-invitation-family.mp3",
+      "text": "family",
+      "textSha256": "d34a569ab7aaa54dacd715ae64953455d86b768846cd0085ef4e9e7471489b7b"
+    },
+    {
+      "src": "/audio/words/declining-an-invitation-next.mp3",
+      "text": "next",
+      "textSha256": "c6c1c9a9c8543f1e4cd980064cf1625eeb61a90703b2464fff039f21682508b3"
+    },
+    {
+      "src": "/audio/sentences/neighbor-elevator-chat/1.mp3",
+      "text": "Good morning Mrs. Chen, are you heading out for a morning walk?",
+      "textSha256": "743c8672fc081ad22a8cd1ef5af246dafad4876852d829deed4507b35c3d1956"
+    },
+    {
+      "src": "/audio/sentences/neighbor-elevator-chat/2.mp3",
+      "text": "Good morning Leo, yes, the weather is so nice and cool today.",
+      "textSha256": "7df35d0be4ee6c74a43b10d88d3b1b96a1e28a242673449ccb5fb2261082565d"
+    },
+    {
+      "src": "/audio/sentences/neighbor-elevator-chat/3.mp3",
+      "text": "After several days of rain, it is wonderful to see the bright sun.",
+      "textSha256": "c84568b889f2b314ed2a8be83d8a0828f0566a559fc07d644cc8498a948d140b"
+    },
+    {
+      "src": "/audio/sentences/neighbor-elevator-chat/4.mp3",
+      "text": "Are you heading off to school or do you have sports practice?",
+      "textSha256": "1eea1bfebbd65b4e903fa6c454a77db10c4e65c7a72a81670659a69f38391aa1"
+    },
+    {
+      "src": "/audio/sentences/neighbor-elevator-chat/5.mp3",
+      "text": "I have soccer training with my school teammates on the grass field.",
+      "textSha256": "2ad7e2c67a99849a6ad31c34d5b4ed2382dfd8f1764f935b3cddc8ad6aa4a865"
+    },
+    {
+      "src": "/audio/sentences/neighbor-elevator-chat/6.mp3",
+      "text": "With a warm smile, she wished me a lovely sunny weekend!",
+      "textSha256": "c96a95e34bde87b2c484b41fbeaadf57ed16ee70419f2d883de1306483df6039"
+    },
+    {
+      "src": "/audio/phrases/neighbor-elevator-chat-heading-out.mp3",
+      "text": "heading out",
+      "textSha256": "f4b965b5c6bfd1d075d0534d0aed814e65ef917b6a3dbfb38775dad4e0980b24"
+    },
+    {
+      "src": "/audio/phrases/neighbor-elevator-chat-nice-and-cool.mp3",
+      "text": "nice and cool",
+      "textSha256": "928dd071c6370af6e8edf2c5174bb95f3c837fdd89422bc62e063cf708b92c9c"
+    },
+    {
+      "src": "/audio/phrases/neighbor-elevator-chat-after-several-days-of-rain.mp3",
+      "text": "after several days of rain",
+      "textSha256": "2b9d2a34fedf6af0f3646280e91893b510c9318ad905a004aaf313800bb225c4"
+    },
+    {
+      "src": "/audio/phrases/neighbor-elevator-chat-heading-off-to-school.mp3",
+      "text": "heading off to school",
+      "textSha256": "1bd4a570795866e13edbecbf882a2da32c8d53adb2469bb6c83033e008c1a4df"
+    },
+    {
+      "src": "/audio/phrases/neighbor-elevator-chat-lovely-sunny-weekend.mp3",
+      "text": "lovely sunny weekend",
+      "textSha256": "22e99e8a8f5472fed3d1c4c336a633745504a2319fabce523c8b20c9307729c8"
+    },
+    {
+      "src": "/audio/words/neighbor-elevator-chat-weather.mp3",
+      "text": "weather",
+      "textSha256": "e5e72beb4e3c6926d3dc9e3e2ef7833ba50cd919c2460a782b244fd071e920de"
+    },
+    {
+      "src": "/audio/words/neighbor-elevator-chat-sunny.mp3",
+      "text": "sunny",
+      "textSha256": "c2333a7e3a607935c67c1e6f6810395decc9f66f592b812aaada7db94ba215d6"
+    },
+    {
+      "src": "/audio/words/neighbor-elevator-chat-weekend.mp3",
+      "text": "weekend",
+      "textSha256": "1197a20df1b4c87b10c868648eba70eac619e18ab6a6772e32bc9c701c315e41"
+    },
+    {
+      "src": "/audio/words/neighbor-elevator-chat-nice.mp3",
+      "text": "nice",
+      "textSha256": "e186022d0931afe9fe0690857e32f85e50165e7fbe0966d49609ef1981f920c6"
+    },
+    {
+      "src": "/audio/words/neighbor-elevator-chat-smile.mp3",
+      "text": "smile",
+      "textSha256": "fa1eadc4c6995667412681c69ce33adfc9302a2965f521c40908549e670e2e4e"
+    },
+    {
+      "src": "/audio/words/neighbor-elevator-chat-lovely.mp3",
+      "text": "lovely",
+      "textSha256": "f85b43067a280d4cc40f89cb78d8efff6e908727bc3cb43a9ae72b400d2eecc5"
+    },
+    {
+      "src": "/audio/sentences/returning-borrowed-tool/1.mp3",
+      "text": "Hello Mr. Wang, I came by to return the metal toolbox you lent me.",
+      "textSha256": "c5d51c2071498b0834b1803ea311c83eb43b5375fbd03bed53382261fe01d0c8"
+    },
+    {
+      "src": "/audio/sentences/returning-borrowed-tool/2.mp3",
+      "text": "Did the tools you used help you fix your bedroom bookshelf?",
+      "textSha256": "1f6a2473be7f93f9f03ebc34852a7bfcdcecb7aa502aedfa959ca6b37c903db5"
+    },
+    {
+      "src": "/audio/sentences/returning-borrowed-tool/3.mp3",
+      "text": "Yes, having the proper tools made the work easy and my bookshelf is now done.",
+      "textSha256": "0f51d3014fa4b015c46170aa97a89eddbb7ed94239744a930618602fab72871b"
+    },
+    {
+      "src": "/audio/sentences/returning-borrowed-tool/4.mp3",
+      "text": "I wiped every tool clean and made sure each piece is back in the box.",
+      "textSha256": "3cae055c60afc69a90aaac5eabce871ed768d51d9bda2fb9991aaad32cc85e23"
+    },
+    {
+      "src": "/audio/sentences/returning-borrowed-tool/5.mp3",
+      "text": "Here is a small bag of homemade cookies to thank you very much for your kindness.",
+      "textSha256": "dbad878663e477ada57ae676e24dc45890b9fcedec7ff90bcf6df703a1e9945c"
+    },
+    {
+      "src": "/audio/sentences/returning-borrowed-tool/6.mp3",
+      "text": "That is so sweet of you Leo, you are always a thoughtful neighbor.",
+      "textSha256": "54c324faeb540424d8221db30940f15f185ea73dcf071978d2b315dae556cb1f"
+    },
+    {
+      "src": "/audio/phrases/returning-borrowed-tool-came-by-to-return.mp3",
+      "text": "came by to return",
+      "textSha256": "5c89aca3ae23ab30a0b89097f4d848d5a6991a3af8094605259be37299b03a4a"
+    },
+    {
+      "src": "/audio/phrases/returning-borrowed-tool-having-the-proper-tools.mp3",
+      "text": "having the proper tools",
+      "textSha256": "0d109d164868b7ae0c0472ae246aa04a73f5b609169b13a655ce555b06be7a3e"
+    },
+    {
+      "src": "/audio/phrases/returning-borrowed-tool-wiped-every-tool-clean.mp3",
+      "text": "wiped every tool clean",
+      "textSha256": "ecccf35232f676df062e1d1545b1f2faaffe19dbeee5d67f009bb7b2c326205b"
+    },
+    {
+      "src": "/audio/phrases/returning-borrowed-tool-back-in-the-box.mp3",
+      "text": "back in the box",
+      "textSha256": "e2b41066790792ac1430ec06410ca6e3a96e67af33156798124e735b8a5499ef"
+    },
+    {
+      "src": "/audio/phrases/returning-borrowed-tool-thank-you-very-much-for-your-kindness.mp3",
+      "text": "thank you very much for your kindness",
+      "textSha256": "c9e5f4453b2980f4d4819a587d709ea4c47b47c6e3b69dfe385822d2f8bd38df"
+    },
+    {
+      "src": "/audio/words/returning-borrowed-tool-tool.mp3",
+      "text": "tool",
+      "textSha256": "7c9bbe5ec9b3fb774e8fa0f54247e93c34ddf8e5d16fe3073420de0ae81a262d"
+    },
+    {
+      "src": "/audio/words/returning-borrowed-tool-neighbor.mp3",
+      "text": "neighbor",
+      "textSha256": "c65f1ed1c4f4bf1bc265e62b6cff6963111633a18b8fd798ee2a467150171750"
+    },
+    {
+      "src": "/audio/words/returning-borrowed-tool-thank.mp3",
+      "text": "thank",
+      "textSha256": "e67fd73a84918e64c84f082cdc04e34435eb98acc712c8e8384268a7e7c5e208"
+    },
+    {
+      "src": "/audio/words/returning-borrowed-tool-done.mp3",
+      "text": "done",
+      "textSha256": "a4c3ed04a95a3da14a9d235c83d868bed7c0f45cf7f3faa751ee8f50598d2211"
+    },
+    {
+      "src": "/audio/words/returning-borrowed-tool-much.mp3",
+      "text": "much",
+      "textSha256": "543b1c4bd4f6b184ca2aef09ca8e5aeadb04907efa0ac7b81b00f8b9ea8133cd"
+    },
+    {
+      "src": "/audio/words/returning-borrowed-tool-use.mp3",
+      "text": "use",
+      "textSha256": "a3b142af6e97cfc3bb23e409ab83467af7d16ded7dc0632be6a6a9023e49ce8b"
+    }
+  ]
+}

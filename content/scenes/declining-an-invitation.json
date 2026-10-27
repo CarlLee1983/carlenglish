@@ -1,0 +1,347 @@
+{
+  "id": "declining-an-invitation",
+  "title": "婉拒朋友週末聚會",
+  "titleEn": "Politely Declining a Weekend Invitation",
+  "category": "社交生活",
+  "level": "初級至初中級",
+  "image": {
+    "src": "/images/scenes/declining-an-invitation.webp",
+    "alt": "在校園長椅上，同學友善地向好友說明週末因全家已約定回鄉探望祖父母過生日，而有禮貌婉拒海邊單車出遊。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "thank-you-for-inviting-me",
+      "english": "thank you for inviting me",
+      "translation": "謝謝你邀請我",
+      "audio": {
+        "src": "/audio/phrases/declining-an-invitation-thank-you-for-inviting-me.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "08bc17447a379f23ca10af89d76fe7ea4c09522ddabc540ef7bab9b25cd73a7c",
+        "sha256": "bcf1cf546b1ccaf0dbe9c39c2a9b088f6735f3c2bac45e9c27a53c52994a2ece"
+      }
+    },
+    {
+      "id": "wish-i-could-come",
+      "english": "wish I could come",
+      "translation": "真希望我能去",
+      "audio": {
+        "src": "/audio/phrases/declining-an-invitation-wish-i-could-come.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "44ce5e55a7ef90f4ef7cc2d31059e6ada94f2e9063d32a0db089ba53e9b15dac",
+        "sha256": "30deb165daed0108412a08ff864d9c9d34168a0b4531d8c1f98b2d99046a6317"
+      }
+    },
+    {
+      "id": "made-a-promise",
+      "english": "made a promise",
+      "translation": "許下了承諾",
+      "audio": {
+        "src": "/audio/phrases/declining-an-invitation-made-a-promise.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a58911a6b1c8e53cbb05b0b56aea3f7f8a4a0c94d4b41b5edf780228599d7794",
+        "sha256": "f4619b387723778603fb0b07247db4915897d5c594da2c4cebfb14cb76ed2151"
+      }
+    },
+    {
+      "id": "come-first",
+      "english": "come first",
+      "translation": "擺在第一順位",
+      "audio": {
+        "src": "/audio/phrases/declining-an-invitation-come-first.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "53002f20d0ddd5e1e016011fe38b37f696c4787916b27b6085c45f2de0293c5a",
+        "sha256": "52e33beefa1318527fe73cd4c9bd21ef39c4fb360016e8e5ce3f5f7a7280dc06"
+      }
+    },
+    {
+      "id": "next-time",
+      "english": "next time",
+      "translation": "下一次",
+      "audio": {
+        "src": "/audio/phrases/declining-an-invitation-next-time.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6a5c4e174099631791718e4b1fc292612de4b0c8547d360fcbd68177fabcb253",
+        "sha256": "2a626a14ef2b1ecb218a12679e9c9aae23ee346ea5cc7395359b38e564890c56"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "invite",
+      "english": "invite",
+      "translation": "邀請；招致",
+      "example": "Did you invite Sarah to your birthday party?",
+      "audio": {
+        "src": "/audio/words/declining-an-invitation-invite.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5014f9af3a684fdd64a775c1c4c532ee66b1b96cb56b1d02170d2249b6764f75",
+        "sha256": "af38b0e0d996fa6271ed730eee5696b8343f29342a905b4fdd64abd11b8bf905"
+      }
+    },
+    {
+      "id": "wish",
+      "english": "wish",
+      "translation": "希望、但願",
+      "example": "I wish I could speak three different languages.",
+      "audio": {
+        "src": "/audio/words/declining-an-invitation-wish.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "091e606752615c91da70540d9951464cd898f7c2a420fc7181b4f6793772e723",
+        "sha256": "ce7a4ed938febd79e01b4e8eb6ec8a4ad57319e4f91d6815703282116b0947f7"
+      }
+    },
+    {
+      "id": "could",
+      "english": "could",
+      "translation": "能、可以（較客氣的說法）",
+      "example": "Could you pass me the bowl of soup?",
+      "audio": {
+        "src": "/audio/words/declining-an-invitation-could.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0e031e954a432055ace97e08d1a097013f562c021a1c3aa3ab4948dd56793b86",
+        "sha256": "fe7ee0e6bc68f39b3c40bac1f420442f43b57b2746944588668d2cfa543bdf3f"
+      }
+    },
+    {
+      "id": "already",
+      "english": "already",
+      "translation": "已經",
+      "example": "The students have already finished the exercise.",
+      "audio": {
+        "src": "/audio/words/declining-an-invitation-already.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ea53396caebc40d702a99967c8b6cea050267d7b7b229aa68a6929f9c5659878",
+        "sha256": "f7a52ef259b09c61de9cddfcb02e3d5e21e2053b7a829b7e652bf76b23b7c1b2"
+      }
+    },
+    {
+      "id": "family",
+      "english": "family",
+      "translation": "家庭、家人",
+      "example": "My family goes camping once every spring.",
+      "audio": {
+        "src": "/audio/words/declining-an-invitation-family.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d34a569ab7aaa54dacd715ae64953455d86b768846cd0085ef4e9e7471489b7b",
+        "sha256": "2b3f3f70cd0ceab2a34049c1cec4cf4eafddef3b0d83cdc4d248ca8166960d8d"
+      }
+    },
+    {
+      "id": "next",
+      "english": "next",
+      "translation": "下一個",
+      "example": "The next bus will leave in ten minutes.",
+      "audio": {
+        "src": "/audio/words/declining-an-invitation-next.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c6c1c9a9c8543f1e4cd980064cf1625eeb61a90703b2464fff039f21682508b3",
+        "sha256": "39056d4549ddc9b9cd0bc2abc19296b54d4953d80a2bbb06b19ee17d06bc6a27"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Thank you for ",
+          "phraseIds": [
+            "thank-you-for-inviting-me"
+          ]
+        },
+        {
+          "text": "inviting",
+          "phraseIds": [
+            "thank-you-for-inviting-me"
+          ],
+          "wordIds": [
+            "invite"
+          ]
+        },
+        {
+          "text": " me",
+          "phraseIds": [
+            "thank-you-for-inviting-me"
+          ]
+        },
+        {
+          "text": " to join the seaside bike trip."
+        }
+      ],
+      "translation": "非常謝謝你邀請我參加這個週末的海邊騎車出遊。",
+      "audio": {
+        "src": "/audio/sentences/declining-an-invitation/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0a4774d9abbc73902dc5e9529961e9fc2b2e597cd0150ec7582387710a6dbb0a",
+        "sha256": "14257f58861cd377df4150398c31e9e83fa7a1c5956ad2bafcbeb6a4fa6edc42"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "It sounds like wonderful fun, and I really "
+        },
+        {
+          "text": "wish",
+          "phraseIds": [
+            "wish-i-could-come"
+          ],
+          "wordIds": [
+            "wish"
+          ]
+        },
+        {
+          "text": " I ",
+          "phraseIds": [
+            "wish-i-could-come"
+          ]
+        },
+        {
+          "text": "could",
+          "phraseIds": [
+            "wish-i-could-come"
+          ],
+          "wordIds": [
+            "could"
+          ]
+        },
+        {
+          "text": " come",
+          "phraseIds": [
+            "wish-i-could-come"
+          ]
+        },
+        {
+          "text": " along."
+        }
+      ],
+      "translation": "聽起來非常好玩，我也真的好希望能跟你們一起去。",
+      "audio": {
+        "src": "/audio/sentences/declining-an-invitation/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c6e1994f42b19c76bd5b7096be534e53d16bce89dab954439eabadd40669e898",
+        "sha256": "16aa889ac4ebb2b1cafe9d5445ab0e77a8ac6a450d09ffbcc7a57d77077c5a75"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "However, I "
+        },
+        {
+          "text": "already",
+          "wordIds": [
+            "already"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "made a promise",
+          "phraseIds": [
+            "made-a-promise"
+          ]
+        },
+        {
+          "text": " to visit my grandparents this Sunday."
+        }
+      ],
+      "translation": "然而，我這個星期天已經先答應要去鄉下探望我的祖父母了。",
+      "audio": {
+        "src": "/audio/sentences/declining-an-invitation/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "907c7beb85c3679ddbed0eb3c72b2d51ca6659777a016d8bfe2a0e700c0b7294",
+        "sha256": "744a64364b000dc089d322107bca6e786c62e9dae8d62f4660e8eb046b108318"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "My whole "
+        },
+        {
+          "text": "family",
+          "wordIds": [
+            "family"
+          ]
+        },
+        {
+          "text": " is gathering together for grandpa's birthday dinner."
+        }
+      ],
+      "translation": "我們全家人都要聚在一起慶祝我爺爺的生日晚宴。",
+      "audio": {
+        "src": "/audio/sentences/declining-an-invitation/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "90a4e38a5204d0e8ea4ab4f7580d50deaad439b793e9aca8a0ff957291f99dc7",
+        "sha256": "2f7108a15ff0107229443935791e4a46c2cb44b2e25554aade3d59f6fb56bbed"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "That is completely fine, "
+        },
+        {
+          "text": "family",
+          "wordIds": [
+            "family"
+          ]
+        },
+        {
+          "text": " celebrations should always "
+        },
+        {
+          "text": "come first",
+          "phraseIds": [
+            "come-first"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "完全沒問題的，家人的重要慶祝本來就應該放在第一位。",
+      "audio": {
+        "src": "/audio/sentences/declining-an-invitation/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8639b0ff186f3d579bc0c4dde60cfb42d7d2186a250326977cf9e2240852562e",
+        "sha256": "a218829e426513e039df5d3bdf511154002ec16ae9575deba8421ddff062d819"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Let us definitely plan another exciting trip together "
+        },
+        {
+          "text": "next",
+          "phraseIds": [
+            "next-time"
+          ],
+          "wordIds": [
+            "next"
+          ]
+        },
+        {
+          "text": " time",
+          "phraseIds": [
+            "next-time"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我們下一次一定要再一起規劃一趟令人興奮的出遊！",
+      "audio": {
+        "src": "/audio/sentences/declining-an-invitation/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d5595b71751b2e9e810230f692b7ca9b2b127307e0d041d23688b51d6b4e8f3f",
+        "sha256": "b666c905479e386b6fd7d06ec47e86bb8af4fa2d925b48f70495518d2494df47"
+      }
+    }
+  ]
+}

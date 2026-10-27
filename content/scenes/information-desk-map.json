@@ -1,0 +1,335 @@
+{
+  "id": "information-desk-map",
+  "title": "服務台索取地圖與簡介",
+  "titleEn": "Asking for Maps at the Information Desk",
+  "category": "公共服務",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/information-desk-map.webp",
+    "alt": "在挑高明亮的博物館諮詢服務台前，參觀民眾向服務人員索取英文平面導覽地圖，服務人員親切指出電梯與各展廳方向。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "guide-map",
+      "english": "guide map",
+      "translation": "導覽地圖",
+      "audio": {
+        "src": "/audio/phrases/information-desk-map-guide-map.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "03212e8acb8535359e8cb11522837e28764da57cbe153b77f74975dc723579a0",
+        "sha256": "c5bf1c8c2e4acf200c9b964b7ec763c91551bef5162a78af2171f43648c8db54"
+      }
+    },
+    {
+      "id": "free-visitor-guide",
+      "english": "free visitor guide",
+      "translation": "免費參觀指南",
+      "audio": {
+        "src": "/audio/phrases/information-desk-map-free-visitor-guide.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2cf3c5aba948639c4a448d84a801d6171a647cd7be26e40fcf75adb377bbc76b",
+        "sha256": "a4dc856b6263b36afef5e40b0b5a85a9d4bbde8c7985324077a50e17e7135da3"
+      }
+    },
+    {
+      "id": "public-restrooms",
+      "english": "public restrooms",
+      "translation": "公共洗手間",
+      "audio": {
+        "src": "/audio/phrases/information-desk-map-public-restrooms.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fba484a9106f42ea1985a772659a5a5df9036f91f122eafe1178ba923107320f",
+        "sha256": "74733b0daba6a3dcda682437ab37facdd40c42797bf961ba504580a1232b195a"
+      }
+    },
+    {
+      "id": "next-to-the-elevator",
+      "english": "next to the elevator",
+      "translation": "在電梯旁邊",
+      "audio": {
+        "src": "/audio/phrases/information-desk-map-next-to-the-elevator.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "04a305f916838cbea8811ea2dd3f6dabb2d1d1579945d1dbee83a1cda490dda0",
+        "sha256": "69f148b01b82e6b9c682df4717fd5f3cca4437138ed6bdf5bf789cb3a16397c4"
+      }
+    },
+    {
+      "id": "straight-down-this-corridor",
+      "english": "straight down this corridor",
+      "translation": "順著這條走廊筆直走",
+      "audio": {
+        "src": "/audio/phrases/information-desk-map-straight-down-this-corridor.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9a0b1f53c580a5d5e5ff8989893f47a730ed3dd358eb86b3e1aa21974e026a0d",
+        "sha256": "d15301752bf6998a3ce726b9609a0893f9bccd00f82aa755bdcf39816b483629"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "guide",
+      "english": "guide",
+      "translation": "引導；導覽",
+      "example": "The city guide contains useful bus maps.",
+      "audio": {
+        "src": "/audio/words/information-desk-map-guide.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "83ca68be6227af2feb15f227485ed18aff8ecae99416a4bd6df3be1b5e8059b4",
+        "sha256": "c69e4e197805bf06a0dcb008cfcbfa1e53131d49c7ba1a4a97eef46bdefc8c85"
+      }
+    },
+    {
+      "id": "map",
+      "english": "map",
+      "translation": "地圖；路線圖",
+      "example": "Check the subway map to find your station.",
+      "audio": {
+        "src": "/audio/words/information-desk-map-map.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "60be9861750facbfad8758254a2f76c0cfe78d54459a3bc187d49b1401fcd8e8",
+        "sha256": "cc82565463b5189103a225622c62f3688ac273ab867a1b8055a867f5874040b1"
+      }
+    },
+    {
+      "id": "elevator",
+      "english": "elevator",
+      "translation": "電梯",
+      "example": "Take the elevator up to the tenth floor.",
+      "audio": {
+        "src": "/audio/words/information-desk-map-elevator.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "41762bcf88c5e7148181df374b2e9ecff9bc9e64d67e032ebeea1a6d5a26eda8",
+        "sha256": "0b1a86625c12f2d5da3bb1289861b22e5a638247c4f4481fe9d4af711336790b"
+      }
+    },
+    {
+      "id": "level",
+      "english": "level",
+      "translation": "樓層；水平",
+      "example": "The food court is located on the basement level.",
+      "audio": {
+        "src": "/audio/words/information-desk-map-level.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0081779c287d567d9ca622f4c0cc2ede819b0cc7f286a5f01d8c3c0178191ad6",
+        "sha256": "cf5e5b00bbdcb2a11cb2eaa078baf5a69e36c15794009c7ad42a162cc7949bc1"
+      }
+    },
+    {
+      "id": "show",
+      "english": "show",
+      "translation": "出示；展示",
+      "example": "Can you show me the way to the post office?",
+      "audio": {
+        "src": "/audio/words/information-desk-map-show.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1c6333509debf060200eb6bbe28db307508da67c0e3c58088393e4cf09de596d",
+        "sha256": "3fecc765b8dc6e1b872af53b6c6c1757364baa3b6ff2ecb9b7d7a1859acf0438"
+      }
+    },
+    {
+      "id": "free",
+      "english": "free",
+      "translation": "免費的；有空的",
+      "example": "Museum entry is free on Wednesday afternoons.",
+      "audio": {
+        "src": "/audio/words/information-desk-map-free.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ad95d5fa651ba86d8923fe1238d24a4f1988a752acfe426ac72ac7c04471bc17",
+        "sha256": "da2408780d77d1b7fc8bbb0989f844482844d94f8d40292479ec56e095b8cf94"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Good afternoon, could I get an English "
+        },
+        {
+          "text": "guide",
+          "phraseIds": [
+            "guide-map"
+          ],
+          "wordIds": [
+            "guide"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "map",
+          "phraseIds": [
+            "guide-map"
+          ],
+          "wordIds": [
+            "map"
+          ]
+        },
+        {
+          "text": " of the building?"
+        }
+      ],
+      "translation": "午安，我可以拿一份這棟建築物的英文導覽地圖嗎？",
+      "audio": {
+        "src": "/audio/sentences/information-desk-map/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f2aabda782696af8bfdb643e373cc7a82b01d30a6c41bef9f218272a3aa914b5",
+        "sha256": "b23ba731690e35aa410818aab865c3d589e0b500b3d5bdebd46cd5c76473f31d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Here is our "
+        },
+        {
+          "text": "free",
+          "phraseIds": [
+            "free-visitor-guide"
+          ],
+          "wordIds": [
+            "free"
+          ]
+        },
+        {
+          "text": " visitor ",
+          "phraseIds": [
+            "free-visitor-guide"
+          ]
+        },
+        {
+          "text": "guide",
+          "phraseIds": [
+            "free-visitor-guide"
+          ],
+          "wordIds": [
+            "guide"
+          ]
+        },
+        {
+          "text": " with every exhibition hall."
+        }
+      ],
+      "translation": "這份是我們的免費參觀指南，裡面標有每一個展覽廳。",
+      "audio": {
+        "src": "/audio/sentences/information-desk-map/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "57c569146988d5dd708ceec4bab176d7f7e1e919a5ef776cbf56cf7992f22804",
+        "sha256": "03eff858419afde2accc1a8c79320cda316a268913860e36690b6119ecfd3da6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Where are the "
+        },
+        {
+          "text": "public restrooms",
+          "phraseIds": [
+            "public-restrooms"
+          ]
+        },
+        {
+          "text": " and the drinking water fountains located?"
+        }
+      ],
+      "translation": "請問公共洗手間和飲水機位置在哪裡呢？",
+      "audio": {
+        "src": "/audio/sentences/information-desk-map/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a1b329c48ea5c25212d3a9e2cfff55e3d75593b0613898107e0ab1c8fd4af370",
+        "sha256": "6cc3fc661409e5dbdb97acc11b45f531f966762728862c9cac973c7a5cd47d48"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Restrooms are on every floor right "
+        },
+        {
+          "text": "next to the ",
+          "phraseIds": [
+            "next-to-the-elevator"
+          ]
+        },
+        {
+          "text": "elevator",
+          "phraseIds": [
+            "next-to-the-elevator"
+          ],
+          "wordIds": [
+            "elevator"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "每一層樓都有洗手間，就在電梯的正旁邊。",
+      "audio": {
+        "src": "/audio/sentences/information-desk-map/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "aa504785f7ceb74e109f7f70f58686e39110f226bf708d51728c6f0f752100d4",
+        "sha256": "97d195fae132f9eec2bbd5ee064df907cfb9ffab20e14281c2598d5bce2f8a8b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "show",
+          "wordIds": [
+            "show"
+          ]
+        },
+        {
+          "text": " me where the special dinosaur hall is on this "
+        },
+        {
+          "text": "level",
+          "wordIds": [
+            "level"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "您可以幫我指出恐龍特展廳在這一層的哪裡嗎？",
+      "audio": {
+        "src": "/audio/sentences/information-desk-map/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9c11d3d49b73fdb57a4b5aa87637e15f948383ef245b3fc7fc7719a0347462ab",
+        "sha256": "49793b8f2820d91ae308842e0ad2eb59363ba7768db70c369eba76a0d50877ee"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "It is "
+        },
+        {
+          "text": "straight down this corridor",
+          "phraseIds": [
+            "straight-down-this-corridor"
+          ]
+        },
+        {
+          "text": " behind the gift shop."
+        }
+      ],
+      "translation": "沿著這條走廊一直往前走，就在紀念品店的後方。",
+      "audio": {
+        "src": "/audio/sentences/information-desk-map/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4998d1d32a34abd1e3d769c78e90d24fb51290f37111e42a4b63086035fa997c",
+        "sha256": "98f3476026c6fbde59c89e54b7058ed5d9995958ab10f4036ed0209de821e340"
+      }
+    }
+  ]
+}

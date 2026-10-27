@@ -1,0 +1,1211 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/cafe-wifi-password/1.mp3",
+      "text": "Excuse me, do you provide free customer Wi-Fi access in this coffee shop?",
+      "textSha256": "b947f0d39a2134e9f99e589a5253938fbed79cf328ef5d0d3c5cd406c6b9960f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5e9cf3fcb7837d40233eccb676c32bf96e144fef8ae777236505ef96cde428ce",
+      "duration": 4.925,
+      "graphemes": [
+        "Excuse me, do you provide free customer Wi-Fi access in this coffee shop?"
+      ],
+      "phonemes": [
+        "ɪkskjˈuz mˌi, dˈu ju pɹəvˈId fɹˈi kˈʌstəməɹ wˈIfˌI ˈæksˌɛs ɪn ðɪs kˈɔfi ʃˈɑp?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/cafe-wifi-password/2.mp3",
+      "text": "Yes, look for the network name printed on your payment receipt.",
+      "textSha256": "8be4da9b6bb7baba80d440cfce64b54e9ecf8ca6536e872fe186223af04539fd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "045b8263b52b3ee0bf459d9f445c1488e6f4481614b517f8e405c77693010bbc",
+      "duration": 3.875,
+      "graphemes": [
+        "Yes, look for the network name printed on your payment receipt."
+      ],
+      "phonemes": [
+        "jˈɛs, lˈʊk fɔɹ ðə nˈɛtwˌɜɹk nˈAm pɹˈɪntᵻd ˌɔn jʊɹ pˈAmᵊnt ɹəsˈit."
+      ]
+    },
+    {
+      "src": "/audio/sentences/cafe-wifi-password/3.mp3",
+      "text": "What is the password to connect my laptop to the internet?",
+      "textSha256": "361420dcf97d48467115272eeab1e352e04cb764eb1fc6efd04f09eb8df2400a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b15b86ccc91490c971e3a33b1bca24f965d1512b1ce742f58825ac927cbc2e05",
+      "duration": 3.65,
+      "graphemes": [
+        "What is the password to connect my laptop to the internet?"
+      ],
+      "phonemes": [
+        "wˌʌt ɪz ðə pˈæswˌɜɹd tə kənˈɛkt mI lˈæptˌɑp tə ði ˈɪntəɹnˌɛt?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/cafe-wifi-password/4.mp3",
+      "text": "Type in the word coffee followed by the four digits 2026.",
+      "textSha256": "8655fa22fcee210eff21b52251f2fac8cc3c5bd90c589f9925a78b7eb313805b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "402fd7d70ed40c559667b5315f2828ca994c3cb473f488d5bfbbdad38b78daa2",
+      "duration": 4.525,
+      "graphemes": [
+        "Type in the word coffee followed by the four digits 2026."
+      ],
+      "phonemes": [
+        "tˈIp ɪn ðə wˈɜɹd kˈɔfi fˈɑlOd bI ðə fˈɔɹ dˈɪʤəts twˈɛnti twˈɛnti sˈɪks."
+      ]
+    },
+    {
+      "src": "/audio/sentences/cafe-wifi-password/5.mp3",
+      "text": "Remember that the first letter must be entered in lowercase.",
+      "textSha256": "948ac9e698be96dfefaec27f1f51af1130df325e4cee352917f20f4268209bea",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8b172c197fcbe7fe77055e204e07d282e5518c68cb5ceaafd51c56f25c14166c",
+      "duration": 3.95,
+      "graphemes": [
+        "Remember that the first letter must be entered in lowercase."
+      ],
+      "phonemes": [
+        "ɹəmˈɛmbəɹ ðæt ðə fˈɜɹst lˈɛTəɹ mˈʌst bi ˈɛntəɹd ɪn lˈOəɹkˌAs."
+      ]
+    },
+    {
+      "src": "/audio/sentences/cafe-wifi-password/6.mp3",
+      "text": "The Wi-Fi signal is very strong and works throughout the entire seating area.",
+      "textSha256": "79d2af7fd6a6b1404a0b8e117cd0e956400a0583ea58b5219475578614653fc3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8ec78d4f3ab0d55c79a5b8d2140f9462e2deeee1c7c53bd4a4b12e24119a47a9",
+      "duration": 5.05,
+      "graphemes": [
+        "The Wi-Fi signal is very strong and works throughout the entire seating area."
+      ],
+      "phonemes": [
+        "ðə wˈIfˌI sˈɪɡnᵊl ɪz vˈɛɹi stɹˈɔŋ ænd wˈɜɹks θɹuˈWt ði əntˈIəɹ sˈiTɪŋ ˈɛɹiə."
+      ]
+    },
+    {
+      "src": "/audio/phrases/cafe-wifi-password-customer-wifi.mp3",
+      "text": "customer Wi-Fi",
+      "textSha256": "d892269884a159b17881261f8af9273c5f6c86f62af003bd0f1e47043f20f116",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a8ad8402e65b4d577f85932e01ad43b60fdcf7542fd57b2bc49ea51857578e88",
+      "duration": 1.85,
+      "graphemes": [
+        "customer Wi-Fi"
+      ],
+      "phonemes": [
+        "kˈʌstəməɹ wˈIfˌI"
+      ]
+    },
+    {
+      "src": "/audio/phrases/cafe-wifi-password-network-name.mp3",
+      "text": "network name",
+      "textSha256": "c3de37ef574481567365d305064de1c01ffd03fe26b1ff26ac8d4804f134e999",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fadad3b5533457b3ae47695a01bd854aa7d2e97212f57c3abcdc63ed6531baa0",
+      "duration": 1.675,
+      "graphemes": [
+        "network name"
+      ],
+      "phonemes": [
+        "nˈɛtwˌɜɹk nˈAm"
+      ]
+    },
+    {
+      "src": "/audio/phrases/cafe-wifi-password-password-to-connect.mp3",
+      "text": "password to connect",
+      "textSha256": "c4608aa9f61d2d5691de2f65af6bb231548edf549729e48e2b495175893425d5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0463f2e218c52334a895f92bad32fff29bc204b5b9920f2a50fb92715a82078c",
+      "duration": 1.8,
+      "graphemes": [
+        "password to connect"
+      ],
+      "phonemes": [
+        "pˈæswˌɜɹd tə kənˈɛkt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/cafe-wifi-password-type-in-the-word.mp3",
+      "text": "type in the word",
+      "textSha256": "57d96bd17e8e01511ee6750748e63ebd10055b895ad67629312c419acc843c60",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cedd54d8c70c69b9a9d51a60bf00b9fac5b89ce4b78a8950eace0eb003a57e2e",
+      "duration": 1.65,
+      "graphemes": [
+        "type in the word"
+      ],
+      "phonemes": [
+        "tˈIp ɪn ðə wˈɜɹd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/cafe-wifi-password-signal-is-very-strong.mp3",
+      "text": "signal is very strong",
+      "textSha256": "88de3a0f5b855e3fa51734aa80d623012c732e21e6490a57901dc8285bc2da59",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bf77f346c9885c2f8ee78473f4cd9c97723e8fae655e6930c24606640996f506",
+      "duration": 2,
+      "graphemes": [
+        "signal is very strong"
+      ],
+      "phonemes": [
+        "sˈɪɡnᵊl ɪz vˈɛɹi stɹˈɔŋ"
+      ]
+    },
+    {
+      "src": "/audio/words/cafe-wifi-password-password.mp3",
+      "text": "password",
+      "textSha256": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "752769df1586c74c2ee430bf405442b65e5229ec2200bd033532412824dd16c9",
+      "duration": 1.5,
+      "graphemes": [
+        "password"
+      ],
+      "phonemes": [
+        "pˈæswˌɜɹd"
+      ]
+    },
+    {
+      "src": "/audio/words/cafe-wifi-password-connect.mp3",
+      "text": "connect",
+      "textSha256": "5a638a128ca67348f1073ba0aed26d85905a29128cbd71b250c9cf4e598c7f0d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1f4c997a5c75ad6f215457d7742202447c12e6f760695755850d8bcd369e960d",
+      "duration": 1.3,
+      "graphemes": [
+        "connect"
+      ],
+      "phonemes": [
+        "kənˈɛkt"
+      ]
+    },
+    {
+      "src": "/audio/words/cafe-wifi-password-signal.mp3",
+      "text": "signal",
+      "textSha256": "d041924c15885af6d06530a425c6dbffc80520150c4dd264f40b4364b12421a8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8076b93ae75ec9b8bbfaef9770969a763c6075ec42f850dffb0ddcd95c7fa8ae",
+      "duration": 1.4,
+      "graphemes": [
+        "signal"
+      ],
+      "phonemes": [
+        "sˈɪɡnᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/cafe-wifi-password-letter.mp3",
+      "text": "letter",
+      "textSha256": "f80105efab6d863fd8fc243d269094469e2277e8f12e5a0a9f401e88494f7b4b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "46dd6a95d253bffdb358b66b4f9ec415d6ce60a54f3d3e0820832ce1fdbc5944",
+      "duration": 1.35,
+      "graphemes": [
+        "letter"
+      ],
+      "phonemes": [
+        "lˈɛTəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/cafe-wifi-password-strong.mp3",
+      "text": "strong",
+      "textSha256": "eda15ce4834ac303532bc6973df5ff8a5deb75d7dfceb9fc2cdf1bb450a01cf5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ceb991019b9f28b84c274828426f0e39b2fff5058096a9c8f66d6f9ad026a492",
+      "duration": 1.45,
+      "graphemes": [
+        "strong"
+      ],
+      "phonemes": [
+        "stɹˈɔŋ"
+      ]
+    },
+    {
+      "src": "/audio/words/cafe-wifi-password-work.mp3",
+      "text": "work",
+      "textSha256": "00e13ed7af55b27622f1d6eab5bec0147e68efe28dc2b12461117afa1a5ed40e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "153818104f76261b12600963b8b833c0fa5a7f3936821474290c4378c6f5301a",
+      "duration": 1.275,
+      "graphemes": [
+        "work"
+      ],
+      "phonemes": [
+        "wˈɜɹk"
+      ]
+    },
+    {
+      "src": "/audio/sentences/borrowing-power-bank/1.mp3",
+      "text": "My phone battery is extremely low and down to three percent right now.",
+      "textSha256": "6c6fa305871d21816fab20fdc5d7bd9c2e6436464f0aa3c30ed4540f830e1767",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "52c5fd0699eaa5bec1bf1b9dff17495143c18a6f488231d17dd16d7126c53e99",
+      "duration": 4.9,
+      "graphemes": [
+        "My phone battery is extremely low and down to three percent right now."
+      ],
+      "phonemes": [
+        "mˌI fˈOn bˈæTəɹi ɪz ɪkstɹˈimli lˈO ænd dˌWn tə θɹˈi pəɹsˈɛnt ɹˈIt nˈW."
+      ]
+    },
+    {
+      "src": "/audio/sentences/borrowing-power-bank/2.mp3",
+      "text": "If my phone dies, I will not be able to contact my parents.",
+      "textSha256": "a1f334829b5562e71ad12fbbc3d7d81aee3e02d2cdd5fdab9eb6ebd526ce663d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "63a2e6faa65e78de4374bb5fb4bd109999ad011656d0faffff2a48538aaeb402",
+      "duration": 4.1,
+      "graphemes": [
+        "If my phone dies, I will not be able to contact my parents."
+      ],
+      "phonemes": [
+        "ˌɪf mI fˈOn dˈIz, ˌI wɪl nˌɑt bi ˈAbᵊl tə kˈɑntækt mI pˈɛɹᵊnts."
+      ]
+    },
+    {
+      "src": "/audio/sentences/borrowing-power-bank/3.mp3",
+      "text": "Do not panic, I have a fully charged portable power bank with me.",
+      "textSha256": "ce6a1c9bb0f3fe5b76adbcbd89a5fe4a5749210a22aa8f3de88dfd6b9ddb9260",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3f807e5514545c8788729018fb7b2be34b5585b370fc0d8c976eba95c551f717",
+      "duration": 4.35,
+      "graphemes": [
+        "Do not panic, I have a fully charged portable power bank with me."
+      ],
+      "phonemes": [
+        "dˈu nˌɑt pˈænɪk, ˌI hæv ɐ fˈʊli ʧˈɑɹʤd pˈɔɹTəbᵊl pˈWəɹ bˈæŋk wɪð mˌi."
+      ]
+    },
+    {
+      "src": "/audio/sentences/borrowing-power-bank/4.mp3",
+      "text": "Do you have a charging cable that matches my phone socket?",
+      "textSha256": "3622b20b3a462f5bbcce7067429a967a5b5c76631a6f290329645c80377b7c65",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d7595e9083fae3dd9d739b658d1730bf7f0f5344ddde00543d3006e22fce7e1b",
+      "duration": 3.625,
+      "graphemes": [
+        "Do you have a charging cable that matches my phone socket?"
+      ],
+      "phonemes": [
+        "dˈu ju hæv ɐ ʧˈɑɹʤɪŋ kˈAbᵊl ðæt mˈæʧᵻz mI fˈOn sˈɑkət?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/borrowing-power-bank/5.mp3",
+      "text": "Yes, plug this white cable into the bottom port of your phone.",
+      "textSha256": "fe550df1e95b11e3c503c09097adaa276be975cd460eabc3d45af32df312da8c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fcb7fb2841c4dedbdb4b69cb50eaa0c36e6ca65747fcf62aa05133402bd8aedc",
+      "duration": 3.925,
+      "graphemes": [
+        "Yes, plug this white cable into the bottom port of your phone."
+      ],
+      "phonemes": [
+        "jˈɛs, plˈʌɡ ðɪs wˈIt kˈAbᵊl ˈɪntu ðə bˈɑTəm pˈɔɹt ʌv jʊɹ fˈOn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/borrowing-power-bank/6.mp3",
+      "text": "The charging lightning icon appeared, thank you for saving my day!",
+      "textSha256": "768ba9c7acc4837a3e4b70c912e7b47026af9c448437eff2cfa2ab50659aa4a6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "de99da30c5009dbb615201f79b9bd660f7d913d525ad081df19d4ee919529ccf",
+      "duration": 4.15,
+      "graphemes": [
+        "The charging lightning icon appeared, thank you for saving my day!"
+      ],
+      "phonemes": [
+        "ðə ʧˈɑɹʤɪŋ lˈItnɪŋ ˈIkˌɑn əpˈɪɹd, θˈæŋk ju fɔɹ sˈAvɪŋ mI dˈA!"
+      ]
+    },
+    {
+      "src": "/audio/phrases/borrowing-power-bank-down-to-three-percent.mp3",
+      "text": "down to three percent",
+      "textSha256": "ce7b6af1ea0b6d1dcb12f62630be904a04795378314886d524a25b38a6d1f85c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2bcf0d3562b16e433ad4957bae190533ce666f035df72000fb8a0b58aaa2205d",
+      "duration": 1.9,
+      "graphemes": [
+        "down to three percent"
+      ],
+      "phonemes": [
+        "dˌWn tə θɹˈi pəɹsˈɛnt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/borrowing-power-bank-phone-dies.mp3",
+      "text": "phone dies",
+      "textSha256": "0f40d687e82679727f9bbeaf8386aae6c894da5b1b633a8a6445a687d979d7b2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8c39c560d3bb7a6cbb119b0b4026aa003733ea9fc8b18ee0945d49788d12ed8b",
+      "duration": 1.6,
+      "graphemes": [
+        "phone dies"
+      ],
+      "phonemes": [
+        "fˈOn dˈIz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/borrowing-power-bank-portable-power-bank.mp3",
+      "text": "portable power bank",
+      "textSha256": "99dc5bf772f61072f51b8d1ba3a90a336b90c397bb75cfeac09dbc40413fee68",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0142914187e7729e04b0d8d425707684d7035200bcede4074c0329ee73ac5aa6",
+      "duration": 1.8,
+      "graphemes": [
+        "portable power bank"
+      ],
+      "phonemes": [
+        "pˈɔɹTəbᵊl pˈWəɹ bˈæŋk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/borrowing-power-bank-charging-cable.mp3",
+      "text": "charging cable",
+      "textSha256": "c3e40e60dc40c2f2738b0593a995a6ae3197460d0f43864f8778f84e7bb9b801",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2805e63d19cec27ce3b6a9a8979010e73627577bf34bf476ba9e471db182976e",
+      "duration": 1.65,
+      "graphemes": [
+        "charging cable"
+      ],
+      "phonemes": [
+        "ʧˈɑɹʤɪŋ kˈAbᵊl"
+      ]
+    },
+    {
+      "src": "/audio/phrases/borrowing-power-bank-plug-this-white-cable-into.mp3",
+      "text": "plug this white cable into",
+      "textSha256": "56318df116389e76434ef05289a251a5ec3b6b16815fc7be82570cda99749ca4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b98065af5f8734b3b095d8fec64b36416ecca74ef39f976601b40d5d59509cb6",
+      "duration": 2.25,
+      "graphemes": [
+        "plug this white cable into"
+      ],
+      "phonemes": [
+        "plˈʌɡ ðɪs wˈIt kˈAbᵊl ˈɪntu"
+      ]
+    },
+    {
+      "src": "/audio/words/borrowing-power-bank-battery.mp3",
+      "text": "battery",
+      "textSha256": "f3d1701e1d575e1294786989517866986bc97343e07af63e201f46ba0be5806a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a1c6b4c89e654e8abb00fb0421e30737e14a95987966d18524f9792af4e96341",
+      "duration": 1.425,
+      "graphemes": [
+        "battery"
+      ],
+      "phonemes": [
+        "bˈæTəɹi"
+      ]
+    },
+    {
+      "src": "/audio/words/borrowing-power-bank-power.mp3",
+      "text": "power",
+      "textSha256": "07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "595ffc263d6599edbbba5110aea36e94d1d8957ddffd13ca841cab984bbc48f1",
+      "duration": 1.35,
+      "graphemes": [
+        "power"
+      ],
+      "phonemes": [
+        "pˈWəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/borrowing-power-bank-cable.mp3",
+      "text": "cable",
+      "textSha256": "7d6e18d0ff4bed3b1d1f3afc82ffa124f83ff2b43c83bf14a69562c8e22f0b2c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4221faabcf75ce73c9d91e65451f5a1aa3ec7b2185470f76769f5767aabc401a",
+      "duration": 1.35,
+      "graphemes": [
+        "cable"
+      ],
+      "phonemes": [
+        "kˈAbᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/borrowing-power-bank-plug.mp3",
+      "text": "plug",
+      "textSha256": "0daf0c9ca37fec6e1d5a340073fb43a19c89c50c02827c9991295f89987c7c90",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c3c572427804139e44d5b0bbabc92dbe352d659fe3d2a90ee82e9fda81a7ea83",
+      "duration": 1.3,
+      "graphemes": [
+        "plug"
+      ],
+      "phonemes": [
+        "plˈʌɡ"
+      ]
+    },
+    {
+      "src": "/audio/words/borrowing-power-bank-charge.mp3",
+      "text": "charge",
+      "textSha256": "97488fbab3282166738a47c2f619037228568494475d4ac107c46c02678cb728",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0dff22c901b0addbb18ff6df5348b834c1d166e6e483afda00f7e9bec2d3cc79",
+      "duration": 1.325,
+      "graphemes": [
+        "charge"
+      ],
+      "phonemes": [
+        "ʧˈɑɹʤ"
+      ]
+    },
+    {
+      "src": "/audio/words/borrowing-power-bank-low.mp3",
+      "text": "low",
+      "textSha256": "6c1ff09db3a73dc4a854f695d20d174a848d55f2d743bab2ee1f8fc75be454f3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a62d7a835047db1eb0be2d6a856a8491c16f2335e15eb73be5ebd31b036574e5",
+      "duration": 1.325,
+      "graphemes": [
+        "low"
+      ],
+      "phonemes": [
+        "lˈO"
+      ]
+    },
+    {
+      "src": "/audio/sentences/resending-verification-code/1.mp3",
+      "text": "I am registering a new online account, but I have not received the text message.",
+      "textSha256": "86f0355f7159102d4b6b61c3bc6f803d336e66f06ff4e6a44eb3e38f2edffd24",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0f10f2290a9ce7479aa91fb36688e9a5735ed364bd9bab01ea40dc65832e7921",
+      "duration": 5.325,
+      "graphemes": [
+        "I am registering a new online account, but I have not received the text message."
+      ],
+      "phonemes": [
+        "ˌI ɐm ɹˈɛʤɪstəɹɪŋ ɐ nˈu ˌɑnlˈIn əkˈWnt, bˌʌt ˌI hæv nˌɑt ɹəsˈivd ðə tˈɛkst mˈɛsɪʤ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/resending-verification-code/2.mp3",
+      "text": "Please check if the phone number you entered is completely correct.",
+      "textSha256": "4cb0a5d3f464360ae13637524fe2867b309129cdf6f5ce814cb0b2d29a160c48",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f724f4cd0abebbb730b2b4dc3b69b432462e1925392b5e960fb7b1fc3f40d328",
+      "duration": 4.325,
+      "graphemes": [
+        "Please check if the phone number you entered is completely correct."
+      ],
+      "phonemes": [
+        "plˈiz ʧˈɛk ɪf ðə fˈOn nˈʌmbəɹ ju ˈɛntəɹd ɪz kəmplˈitli kəɹˈɛkt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/resending-verification-code/3.mp3",
+      "text": "I double checked every single digit, and the mobile number is right.",
+      "textSha256": "e397a58068568eb48d5b89975feb9d55bdc1201cfc81084c67fb6b228de079ec",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1752738d7bad0d02dfaedeb23e41df6c696f39ce383222c18a0a00a3ae1720e7",
+      "duration": 4.325,
+      "graphemes": [
+        "I double checked every single digit, and the mobile number is right."
+      ],
+      "phonemes": [
+        "ˌI dˈʌbᵊl ʧˈɛkt ˈɛvəɹi sˈɪŋɡᵊl dˈɪʤət, ænd ðə mˈObᵊl nˈʌmbəɹ ɪz ɹˈIt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/resending-verification-code/4.mp3",
+      "text": "Sometimes the automated verification system takes up to sixty seconds.",
+      "textSha256": "e9c7fd1d9c1805b28e5a9c2ae21533a9412a44a0bfa7ecbbf47d3036a73caa8a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3583bb7112fab01c50245d9bf288aa8e06c300f78026c1de130838e9d8c4588e",
+      "duration": 5.15,
+      "graphemes": [
+        "Sometimes the automated verification system takes up to sixty seconds."
+      ],
+      "phonemes": [
+        "sˈʌmtˌImz ði ˈɔTəmˌATᵻd vˌɛɹəfəkˈAʃən sˈɪstəm tˈAks ˌʌp tə sˈɪksti sˈɛkəndz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/resending-verification-code/5.mp3",
+      "text": "The countdown timer just reached zero, so I can click the resend button.",
+      "textSha256": "c3e03e86ab2c0af97b873ec9631d781d0241aa6d9587ea9d3f5443b1a8767bdc",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a8f345c9e99a8b92eb282214e689f0587c9777e05c88309200e7f5c4d19bb2bb",
+      "duration": 4.55,
+      "graphemes": [
+        "The countdown timer just reached zero, so I can click the resend button."
+      ],
+      "phonemes": [
+        "ðə kˈWntdˌWn tˈIməɹ ʤˈʌst ɹˈiʧt zˈɪɹO, sˌO ˌI kæn klˈɪk ðə ɹˌisˈɛnd bˈʌtn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/resending-verification-code/6.mp3",
+      "text": "The new six-digit code arrived instantly on my phone screen.",
+      "textSha256": "a030315d54d10c29b04bc0866371379642bb891aa004854c8204730a48b8b97c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "17945bc0cbf94c4c72b9e51d880a1d72dc85db34051da3ac0987a984fcf872ff",
+      "duration": 4.1,
+      "graphemes": [
+        "The new six-digit code arrived instantly on my phone screen."
+      ],
+      "phonemes": [
+        "ðə nˈu sˌɪksdˈɪʤət kˈOd əɹˈIvd ˈɪnstəntli ˌɔn mI fˈOn skɹˈin."
+      ]
+    },
+    {
+      "src": "/audio/phrases/resending-verification-code-text-message.mp3",
+      "text": "text message",
+      "textSha256": "40c30d9bbe9c8509c2597f8e5f64be783981bedfabf1c52f12f8b12a5b4d3657",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4e60ed06b5544094311f3b148e0a4d995106b5976dc8dc40663947f81ac55a88",
+      "duration": 1.7,
+      "graphemes": [
+        "text message"
+      ],
+      "phonemes": [
+        "tˈɛkst mˈɛsɪʤ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/resending-verification-code-double-checked.mp3",
+      "text": "double checked",
+      "textSha256": "f7b6531aa5c0b5bd029f2709da12e36ec8cf80c44546b68e40997341e7f23589",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3c1fc24020c0bc28c134ab9c1a81a41324119cd79cadef4388c1522bb8b5d609",
+      "duration": 1.575,
+      "graphemes": [
+        "double checked"
+      ],
+      "phonemes": [
+        "dˈʌbᵊl ʧˈɛkt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/resending-verification-code-verification-system.mp3",
+      "text": "verification system",
+      "textSha256": "70a7cce75fc39643c779ecbcf63bcdb9212d30405a24117e85d12eed54c9b2b3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "112debf309f6711387746c7bdf27022150bd2be48b27554284fe50b13634ef89",
+      "duration": 2.025,
+      "graphemes": [
+        "verification system"
+      ],
+      "phonemes": [
+        "vˌɛɹəfəkˈAʃən sˈɪstəm"
+      ]
+    },
+    {
+      "src": "/audio/phrases/resending-verification-code-countdown-timer.mp3",
+      "text": "countdown timer",
+      "textSha256": "f6e643b31fbd585bee7d7626ed37271dcc3a3a28cefa1d3b23addcaed44c2ee5",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9a43d6d4eaec6e5a132846807da44f51822702b1986fa1f56f21b270492ef769",
+      "duration": 1.775,
+      "graphemes": [
+        "countdown timer"
+      ],
+      "phonemes": [
+        "kˈWntdˌWn tˈIməɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/resending-verification-code-click-the-resend-button.mp3",
+      "text": "click the resend button",
+      "textSha256": "be513d9b501934b378837b62cce15cc0c6079e47853d6f8673d0148fcc7135b9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "436652e96a8bb0b44efa8c7d7625d35f8dd08435d4f42e774b2f329b6621205a",
+      "duration": 2,
+      "graphemes": [
+        "click the resend button"
+      ],
+      "phonemes": [
+        "klˈɪk ðə ɹˌisˈɛnd bˈʌtn"
+      ]
+    },
+    {
+      "src": "/audio/words/resending-verification-code-message.mp3",
+      "text": "message",
+      "textSha256": "ab530a13e45914982b79f9b7e3fba994cfd1f3fb22f71cea1afbf02b460c6d1d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "25aa531834831e49bb0d0e3e91b95562003e0834abb329fcaeed48d949763160",
+      "duration": 1.45,
+      "graphemes": [
+        "message"
+      ],
+      "phonemes": [
+        "mˈɛsɪʤ"
+      ]
+    },
+    {
+      "src": "/audio/words/resending-verification-code-receive.mp3",
+      "text": "receive",
+      "textSha256": "95100519be0342216c9c23348de6ab31630e6bd1c5c0b5b95e03f15c6b52a00b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c4f7bfccb5f81166f72cbbbee6cd58e61ca43e69961170607cf37552d1f3567f",
+      "duration": 1.5,
+      "graphemes": [
+        "receive"
+      ],
+      "phonemes": [
+        "ɹəsˈiv"
+      ]
+    },
+    {
+      "src": "/audio/words/resending-verification-code-code.mp3",
+      "text": "code",
+      "textSha256": "5694d08a2e53ffcae0c3103e5ad6f6076abd960eb1f8a56577040bc1028f702b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "49af2133f8cf97f9681e919f7df3f0ba7fdce56c4b27e7deb913e978c7e5e6b9",
+      "duration": 1.325,
+      "graphemes": [
+        "code"
+      ],
+      "phonemes": [
+        "kˈOd"
+      ]
+    },
+    {
+      "src": "/audio/words/resending-verification-code-click.mp3",
+      "text": "click",
+      "textSha256": "e5c7ffac26fed654fe62045898f55b551a0dc120badf3d116bcd364418f3ec16",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2e178b835981b468fd3668278f3c5a8a8f044ff39b8c5443c7ced2f9fd06d28e",
+      "duration": 1.225,
+      "graphemes": [
+        "click"
+      ],
+      "phonemes": [
+        "klˈɪk"
+      ]
+    },
+    {
+      "src": "/audio/words/resending-verification-code-system.mp3",
+      "text": "system",
+      "textSha256": "bbc5e661e106c6dcd8dc6dd186454c2fcba3c710fb4d8e71a60c93eaf077f073",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c4384d0fa1a0b03400960e22832cbe0edf4046d0f50ce6c6e55d7f8b681150fc",
+      "duration": 1.45,
+      "graphemes": [
+        "system"
+      ],
+      "phonemes": [
+        "sˈɪstəm"
+      ]
+    },
+    {
+      "src": "/audio/words/resending-verification-code-check.mp3",
+      "text": "check",
+      "textSha256": "20f65c28671b40937c5bf23acc7c6f37e5a5ec0622e347b57685725df5ba9e50",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cb04aa05e6808e4268f2504656bddcdf792a008a33be7c27214c78a37af6ecdb",
+      "duration": 1.175,
+      "graphemes": [
+        "check"
+      ],
+      "phonemes": [
+        "ʧˈɛk"
+      ]
+    },
+    {
+      "src": "/audio/sentences/device-connection-trouble/1.mp3",
+      "text": "Excuse me, I am having some technical trouble with this self-ordering kiosk.",
+      "textSha256": "ace6e41a13372e7d7b6d041e6421a3e601cd696b4f7847a7727537ac3ad6e4de",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7d40df3498776b8814740d674e8aa701001481e0867dcc2a0e611445a4a0278a",
+      "duration": 5.05,
+      "graphemes": [
+        "Excuse me, I am having some technical trouble with this self-ordering kiosk."
+      ],
+      "phonemes": [
+        "ɪkskjˈuz mˌi, ˌI ɐm hˈævɪŋ sˌʌm tˈɛknəkᵊl tɹˈʌbᵊl wɪð ðɪs sˌɛlfˈɔɹdəɹɪŋ kˈiˌɑsk."
+      ]
+    },
+    {
+      "src": "/audio/sentences/device-connection-trouble/2.mp3",
+      "text": "What happened on the touch screen while you were selecting your items?",
+      "textSha256": "006d222b6f5276dea5e43713f3f3ab8369b7143e066b4efccc5d9a9a898e7998",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "387a3697f01a9344b392a795e473e8f4dcbbeb846a248f6fcbb84c647412b308",
+      "duration": 3.9,
+      "graphemes": [
+        "What happened on the touch screen while you were selecting your items?"
+      ],
+      "phonemes": [
+        "wˌʌt hˈæpənd ˌɔn ðə tˈʌʧ skɹˈin wˌIl ju wɜɹ sᵻlˈɛktɪŋ jʊɹ ˈITəmz?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/device-connection-trouble/3.mp3",
+      "text": "The screen completely froze and keeps displaying a network connection error.",
+      "textSha256": "b99d1c1c1e61c11b78b9c915843760d54b82f7c18db0adf9961e4d8b485fcb92",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "07fb614097d878edf0d0f6c2361c5f8348df6df3290b56e59c01d8665b07cd11",
+      "duration": 4.9,
+      "graphemes": [
+        "The screen completely froze and keeps displaying a network connection error."
+      ],
+      "phonemes": [
+        "ðə skɹˈin kəmplˈitli fɹˈOz ænd kˈips dɪsplˈAɪŋ ɐ nˈɛtwˌɜɹk kənˈɛkʃən ˈɛɹəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/device-connection-trouble/4.mp3",
+      "text": "Let me open the lower cabinet and turn off the power switch.",
+      "textSha256": "43b07a8efda4c47dadbfae9668456aa50cb443ad901d52170080d5f7dd6fe527",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8bc61efc16d3a9eefc7bc16b6c59e1c4d5617841864f3deceb4ad2542e6aa418",
+      "duration": 3.825,
+      "graphemes": [
+        "Let me open the lower cabinet and turn off the power switch."
+      ],
+      "phonemes": [
+        "lˈɛt mˌi ˈOpᵊn ðə lˈOəɹ kˈæbᵊnət ænd tˈɜɹn ˈɔf ðə pˈWəɹ swˈɪʧ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/device-connection-trouble/5.mp3",
+      "text": "We will wait ten seconds before pressing the restart button again.",
+      "textSha256": "f89d0ca6a6fd3e07ced2ed7d730c85e62cf0686f9a363f79a4c6da5945aea4ce",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "97b107d3279c7219f5f7126fcb61b3a200225780336b77c4f5027fabd3cccfb8",
+      "duration": 4.225,
+      "graphemes": [
+        "We will wait ten seconds before pressing the restart button again."
+      ],
+      "phonemes": [
+        "wˌi wɪl wˈAt tˈɛn sˈɛkəndz bəfˈɔɹ pɹˈɛsɪŋ ðə ɹˈistˌɑɹt bˈʌtn əɡˈɛn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/device-connection-trouble/6.mp3",
+      "text": "The system rebooted successfully, please try tapping your card now.",
+      "textSha256": "1303bc97e077a73e2cff127980cf9817190d106ed28b2ba5a27e7665afa719e8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6eadef6e373a562e4d355892def8c64042e0836807f02d6cfcde996110fa237d",
+      "duration": 4.425,
+      "graphemes": [
+        "The system rebooted successfully, please try tapping your card now."
+      ],
+      "phonemes": [
+        "ðə sˈɪstəm ɹˌibˈuTᵻd səksˈɛsfəli, plˈiz tɹˈI tˈæpɪŋ jʊɹ kˈɑɹd nˈW."
+      ]
+    },
+    {
+      "src": "/audio/phrases/device-connection-trouble-technical-trouble.mp3",
+      "text": "technical trouble",
+      "textSha256": "d796d13a6e70639e7aa5fa0ff9fb697b49f0f0aeb87395b4d5e67964a4f19010",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f7c87a2b6bef7c256fd2e4c3955cf4e441510bcf2539eb60cbf06dc972221adb",
+      "duration": 1.675,
+      "graphemes": [
+        "technical trouble"
+      ],
+      "phonemes": [
+        "tˈɛknəkᵊl tɹˈʌbᵊl"
+      ]
+    },
+    {
+      "src": "/audio/phrases/device-connection-trouble-touch-screen.mp3",
+      "text": "touch screen",
+      "textSha256": "1ffecb0915f774a8782ceee1597adf65247ed413cd76805824d9884a9ec845ed",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "96aaba8025d1df9abed1aaf26b41149d79090e13f44f3b69bf0a1a67226baba8",
+      "duration": 1.575,
+      "graphemes": [
+        "touch screen"
+      ],
+      "phonemes": [
+        "tˈʌʧ skɹˈin"
+      ]
+    },
+    {
+      "src": "/audio/phrases/device-connection-trouble-completely-froze.mp3",
+      "text": "completely froze",
+      "textSha256": "01eb9ebf3bf90a49d454d166fb154f0bd409d14faae319efbb0a7141e54b8c29",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a64cf7322771dab4bdf677145857d282b5206bd58172c13a2996cd3a04f11c22",
+      "duration": 1.825,
+      "graphemes": [
+        "completely froze"
+      ],
+      "phonemes": [
+        "kəmplˈitli fɹˈOz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/device-connection-trouble-turn-off-the-power-switch.mp3",
+      "text": "turn off the power switch",
+      "textSha256": "96b2423458d59b4b284983eaf96969a40d58dd3b8f585410577de69e46f66986",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4ea2e9a732a4a967b4d9832c9e6cc6c5b7966986639b5d15de0056166db0ffda",
+      "duration": 1.975,
+      "graphemes": [
+        "turn off the power switch"
+      ],
+      "phonemes": [
+        "tˈɜɹn ˈɔf ðə pˈWəɹ swˈɪʧ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/device-connection-trouble-restart-button.mp3",
+      "text": "restart button",
+      "textSha256": "9350fcb9f08ce9299d0e992907e0f2a1eb60f511c38040d7f749084065c001c6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "734a31b79d7785ab2d94fc247b09f957d6be730f407c06e6beab2afd6b7264a0",
+      "duration": 1.9,
+      "graphemes": [
+        "restart button"
+      ],
+      "phonemes": [
+        "ɹˈistˌɑɹt bˈʌtn"
+      ]
+    },
+    {
+      "src": "/audio/words/device-connection-trouble-trouble.mp3",
+      "text": "trouble",
+      "textSha256": "7130df43355ec25b38bac55351d4bdf2c965da2847b8824b5e7760adb7ef7cd1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "be3c26abded011d06c8325a43a7d97596b9a142df51f1c43a39ce15c273d4e88",
+      "duration": 1.35,
+      "graphemes": [
+        "trouble"
+      ],
+      "phonemes": [
+        "tɹˈʌbᵊl"
+      ]
+    },
+    {
+      "src": "/audio/words/device-connection-trouble-screen.mp3",
+      "text": "screen",
+      "textSha256": "4cd6c2914887dd4a68e4c9ffbed8b077f048cf795d6cfa0b801d43e0ea5a1560",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c93a6087c44bc2f28dfb4a750743282f64d7420a5794dcff1ae9faa98cebc67c",
+      "duration": 1.475,
+      "graphemes": [
+        "screen"
+      ],
+      "phonemes": [
+        "skɹˈin"
+      ]
+    },
+    {
+      "src": "/audio/words/device-connection-trouble-turn.mp3",
+      "text": "turn",
+      "textSha256": "9b473845f684444f80a26586ae298d2ba491752cc70b893cc653d943b6fa2ac2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "40e981b23f1051f800b9c9110a12e4a49fc7bd1a7926e69d024f53391aad0276",
+      "duration": 1.35,
+      "graphemes": [
+        "turn"
+      ],
+      "phonemes": [
+        "tˈɜɹn"
+      ]
+    },
+    {
+      "src": "/audio/words/device-connection-trouble-button.mp3",
+      "text": "button",
+      "textSha256": "c3e2d78f3ff335724b4029f06505b511e4f8f01e258828de29849b36b40b55d0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e879a369c5395096d8f4492712458a9bcec7174486f05d1016a2524fa563f055",
+      "duration": 1.4,
+      "graphemes": [
+        "button"
+      ],
+      "phonemes": [
+        "bˈʌtn"
+      ]
+    },
+    {
+      "src": "/audio/words/device-connection-trouble-restart.mp3",
+      "text": "restart",
+      "textSha256": "3ace60b0a0c1b6c9345e31494142947aa97d4ef4912e895d8795663393819759",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "52193b5283aeed672fa75fce083eef4b585f1d0768ac755f2efe1c5d0ac58fe5",
+      "duration": 1.525,
+      "graphemes": [
+        "restart"
+      ],
+      "phonemes": [
+        "ɹˈistˌɑɹt"
+      ]
+    },
+    {
+      "src": "/audio/words/device-connection-trouble-try.mp3",
+      "text": "try",
+      "textSha256": "1e262cd7d110812f5726055a6e672b92cde43648b76adff51a12441fbdf7e667",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c1a3b00f8b62e5cb8b230688bcc0fbe447bbf724acfefc6341826b4d4a5c276c",
+      "duration": 1.4,
+      "graphemes": [
+        "try"
+      ],
+      "phonemes": [
+        "tɹˈI"
+      ]
+    },
+    {
+      "src": "/audio/sentences/confirming-online-booking/1.mp3",
+      "text": "Good evening, we made an advance reservation for a private game room tonight.",
+      "textSha256": "1c5c8f6bb16cc9e331853fe6a1bebe18f3956cd9470e94bef3d93ea85f165579",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "33cbb4d2f5f7c91af0f7c918ae2653c0834a81633db79236467c886098a123e4",
+      "duration": 4.75,
+      "graphemes": [
+        "Good evening, we made an advance reservation for a private game room tonight."
+      ],
+      "phonemes": [
+        "ɡˈʊd ˈivnɪŋ, wi mˌAd ɐn ədvˈæns ɹˌɛzəɹvˈAʃən fɔɹ ɐ pɹˈIvət ɡˈAm ɹˈum tənˈIt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/confirming-online-booking/2.mp3",
+      "text": "Welcome, could you please provide your booking confirmation number?",
+      "textSha256": "7de5230910ce67008d603430e8da775d57b3d06591a6b0bf73b2ea32b4fae385",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "854a6bf5c1b21dfc2a6c0e22511f3835bebfd6ca10349a88c6662292e58e8cda",
+      "duration": 4,
+      "graphemes": [
+        "Welcome, could you please provide your booking confirmation number?"
+      ],
+      "phonemes": [
+        "wˈɛlkəm, kʊd ju plˈiz pɹəvˈId jʊɹ bˈʊkɪŋ kˌɑnfəɹmˈAʃən nˈʌmbəɹ?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/confirming-online-booking/3.mp3",
+      "text": "Here is the confirmation email on my smartphone screen.",
+      "textSha256": "4acfafd21122ef66cd88a66893266ac2e0346ea5849f1422967fb4095a393a74",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "18f59eaea6165d6c0ff3939344451041bc9ceb18a234524490541042066d6801",
+      "duration": 3.75,
+      "graphemes": [
+        "Here is the confirmation email on my smartphone screen."
+      ],
+      "phonemes": [
+        "hˈɪɹ ɪz ðə kˌɑnfəɹmˈAʃən ˈimˌAl ˌɔn mI smˈɑɹtfˌOn skɹˈin."
+      ]
+    },
+    {
+      "src": "/audio/sentences/confirming-online-booking/4.mp3",
+      "text": "The reservation code is BK-920 under the name of Sarah Chen.",
+      "textSha256": "8889f395d7a559862d44ed067c6b7879e2b3579ce36585ea527d83299c5bf40d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "57ff7be9a8d6b090af992642d1b949b830a4cb859168e8127fd02e04221d28f2",
+      "duration": 4.925,
+      "graphemes": [
+        "The reservation code is BK-920 under the name of Sarah Chen."
+      ],
+      "phonemes": [
+        "ðə ɹˌɛzəɹvˈAʃən kˈOd ɪz bˌikˈA nˈIn twˈɛnti ˈʌndəɹ ðə nˈAm ʌv sˈɛɹə ʧˈɛn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/confirming-online-booking/5.mp3",
+      "text": "Our computer system confirms your table is clean and completely ready.",
+      "textSha256": "f185f79486f9ad19f88d297dbeb99c72d34a6291a63332914921902fd750bd86",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "037c0412957a56cf0ec3afde5aafc58d12fc2ba39558a471359eeb5aa267f0a8",
+      "duration": 4.8,
+      "graphemes": [
+        "Our computer system confirms your table is clean and completely ready."
+      ],
+      "phonemes": [
+        "ˌWəɹ kəmpjˈuTəɹ sˈɪstəm kənfˈɜɹmz jʊɹ tˈAbᵊl ɪz klˈin ænd kəmplˈitli ɹˈɛdi."
+      ]
+    },
+    {
+      "src": "/audio/sentences/confirming-online-booking/6.mp3",
+      "text": "Please follow me to room three and enjoy your wonderful game night!",
+      "textSha256": "89cb118f7146e5d642208bfd8b969d9431100d531cd7924fb651a7f902519bae",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7405881dd5f0d1319640660ab4bee804391b9189031a0404418466a65c7d596f",
+      "duration": 4.225,
+      "graphemes": [
+        "Please follow me to room three and enjoy your wonderful game night!"
+      ],
+      "phonemes": [
+        "plˈiz fˈɑlO mˌi tə ɹˈum θɹˈi ænd ɪnʤˈY jʊɹ wˈʌndəɹfᵊl ɡˈAm nˈIt!"
+      ]
+    },
+    {
+      "src": "/audio/phrases/confirming-online-booking-advance-reservation.mp3",
+      "text": "advance reservation",
+      "textSha256": "aa7ae1432c86f35580568d6386933f97b742458a088ae71e0d8ade27067021fe",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "93f8f50ce61e5ed7b38b33007ef6241229cde08177148bafbb9d5c02210dbb3f",
+      "duration": 1.975,
+      "graphemes": [
+        "advance reservation"
+      ],
+      "phonemes": [
+        "ədvˈæns ɹˌɛzəɹvˈAʃən"
+      ]
+    },
+    {
+      "src": "/audio/phrases/confirming-online-booking-booking-confirmation-number.mp3",
+      "text": "booking confirmation number",
+      "textSha256": "dabe3e2d4a8028a533835c68ab861d518baa38b5182fa90271091729620e3c00",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "20162797a843fb93df0986e003beece559a92daf0db7e4ba4b0ff6da2a067a73",
+      "duration": 2.225,
+      "graphemes": [
+        "booking confirmation number"
+      ],
+      "phonemes": [
+        "bˈʊkɪŋ kˌɑnfəɹmˈAʃən nˈʌmbəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/confirming-online-booking-on-my-smartphone-screen.mp3",
+      "text": "on my smartphone screen",
+      "textSha256": "481adbb81a41abc3f59d14697ed716199066ea398fb717089f250c73b151cbef",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "408347e340ba0d20d28c77291eb6284e31f618a1da317ee6d697b080235fe358",
+      "duration": 1.925,
+      "graphemes": [
+        "on my smartphone screen"
+      ],
+      "phonemes": [
+        "ˌɔn mI smˈɑɹtfˌOn skɹˈin"
+      ]
+    },
+    {
+      "src": "/audio/phrases/confirming-online-booking-under-the-name-of.mp3",
+      "text": "under the name of",
+      "textSha256": "62affaf170dafb6ec13ab63a69d7c90e29af1a0d498083ee2e70112220e0b1d2",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e07117f8fa02484e6f0ee9aadfeefc15a97304ad3bfb6cf369e856d71955b16f",
+      "duration": 1.6,
+      "graphemes": [
+        "under the name of"
+      ],
+      "phonemes": [
+        "ˈʌndəɹ ðə nˈAm ʌv"
+      ]
+    },
+    {
+      "src": "/audio/phrases/confirming-online-booking-completely-ready.mp3",
+      "text": "completely ready",
+      "textSha256": "36c6f7c57b371961706dd4c1c39a850575d63c85af413e1b2bcb7dc07a2b8880",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "0d8de55227002faccf4e716ec17f42d88dc3a75976533b0649ab71f095a61271",
+      "duration": 1.825,
+      "graphemes": [
+        "completely ready"
+      ],
+      "phonemes": [
+        "kəmplˈitli ɹˈɛdi"
+      ]
+    },
+    {
+      "src": "/audio/words/confirming-online-booking-confirm.mp3",
+      "text": "confirm",
+      "textSha256": "3f267c2ab422e502bad8e60ff9e55666ec59b725e561bf1629c48a1578a08c79",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "3ff696c6b207f197fed73c34fd6cda98c7431ee0b48b46cb4d6ad926d05f971d",
+      "duration": 1.525,
+      "graphemes": [
+        "confirm"
+      ],
+      "phonemes": [
+        "kənfˈɜɹm"
+      ]
+    },
+    {
+      "src": "/audio/words/confirming-online-booking-reservation.mp3",
+      "text": "reservation",
+      "textSha256": "9efa077f044e7a779c655f8d8e8760cacd16ce2347b6aa10e45b18fb5325fdd6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "38692e588b73e3f59c92485956f59e5da4a49a8f733ebd1b8ec26c17ddef681e",
+      "duration": 1.775,
+      "graphemes": [
+        "reservation"
+      ],
+      "phonemes": [
+        "ɹˌɛzəɹvˈAʃən"
+      ]
+    },
+    {
+      "src": "/audio/words/confirming-online-booking-room.mp3",
+      "text": "room",
+      "textSha256": "1f1c5b2fad778434024f1537986346927917f4755a6e7d3fd91f22653b7c3132",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fcb9ec34e045157f9370acc772464bf672f30d82ddaf1bbf55b262d48485e9f6",
+      "duration": 1.35,
+      "graphemes": [
+        "room"
+      ],
+      "phonemes": [
+        "ɹˈum"
+      ]
+    },
+    {
+      "src": "/audio/words/confirming-online-booking-ready.mp3",
+      "text": "ready",
+      "textSha256": "b24d6d33736ecd5604a4b17bc9c6481039fac362bb7df044ef1c10a2bfd21db6",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ea4b4dd0bab82a47b6dc3332b0d9c818e67100a2c8d7edc221e710ad95089a22",
+      "duration": 1.35,
+      "graphemes": [
+        "ready"
+      ],
+      "phonemes": [
+        "ɹˈɛdi"
+      ]
+    },
+    {
+      "src": "/audio/words/confirming-online-booking-number.mp3",
+      "text": "number",
+      "textSha256": "12886f9d00055adf24c40579e22d31b2b45f2023f892954ffd5567beb60825f8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bdace3adbc800547dc7df4baf0daab91b53cf44ca914ee221d65d100543a8950",
+      "duration": 1.35,
+      "graphemes": [
+        "number"
+      ],
+      "phonemes": [
+        "nˈʌmbəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/confirming-online-booking-name.mp3",
+      "text": "name",
+      "textSha256": "82a3537ff0dbce7eec35d69edc3a189ee6f17d82f353a553f9aa96cb0be3ce89",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "19058dfb97a55d5a0711a7541532972729897109269c5066825099439661f3b5",
+      "duration": 1.375,
+      "graphemes": [
+        "name"
+      ],
+      "phonemes": [
+        "nˈAm"
+      ]
+    }
+  ]
+}

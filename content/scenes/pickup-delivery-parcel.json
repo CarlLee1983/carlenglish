@@ -1,0 +1,332 @@
+{
+  "id": "pickup-delivery-parcel",
+  "title": "超商寄送與領取包裹",
+  "titleEn": "Picking up and Sending Parcels at Convenience Store",
+  "category": "公共服務",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/pickup-delivery-parcel.webp",
+    "alt": "在明亮便利商店櫃檯前，顧客向店員報出手機號碼末三碼並出示學生證，準備在螢幕簽名領取網購包裹。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "pick-up-a-parcel",
+      "english": "pick up a parcel",
+      "translation": "領取包裹",
+      "audio": {
+        "src": "/audio/phrases/pickup-delivery-parcel-pick-up-a-parcel.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9898e2fc7410f2e2f173b29230100898325485aa140b4db6cf031c6050cf2a25",
+        "sha256": "6579e7fe0808f146b058e6e9ae33c15340e55a8b243d57168960ed8e8fde931c"
+      }
+    },
+    {
+      "id": "the-last-three-digits",
+      "english": "the last three digits",
+      "translation": "末三碼",
+      "audio": {
+        "src": "/audio/phrases/pickup-delivery-parcel-the-last-three-digits.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f3110301b5d482e56186691b7fc3671bd0d6044cbd3368e27d07e370abda503",
+        "sha256": "58e4170faaf809aa8f97639dc834e0dfe4b70ea87c9da893303490f9b7097f11"
+      }
+    },
+    {
+      "id": "photo-id-card",
+      "english": "photo ID card",
+      "translation": "有照片的證件",
+      "audio": {
+        "src": "/audio/phrases/pickup-delivery-parcel-photo-id-card.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9a9c37dd3a1810b26ff0b5caea810e9b34701898c00387111bd102e0e8affdba",
+        "sha256": "4aabd679bf6d240a4b91cc8ac79dc6a2c869a5192ea5e09a974de6141488ec91"
+      }
+    },
+    {
+      "id": "everything-matches",
+      "english": "everything matches",
+      "translation": "資料全部相符",
+      "audio": {
+        "src": "/audio/phrases/pickup-delivery-parcel-everything-matches.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7b0eadee2d6c15fbe86478140cc975b1aef3db5d8700b6e4dd8481de81e3681f",
+        "sha256": "9e241e92473d7923959670f2a0bd31f92a6e5b87f46bad75629f6c4d808a652b"
+      }
+    },
+    {
+      "id": "sign-on-the-screen",
+      "english": "sign on the screen",
+      "translation": "在螢幕上簽名",
+      "audio": {
+        "src": "/audio/phrases/pickup-delivery-parcel-sign-on-the-screen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c96b78def1fdd886223e63095658fda0af74317ba6aa7a58a04769594ac7e028",
+        "sha256": "532caae333bba566129e57f8041dd4b1956399111afe591b939a55d4210759d5"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "package",
+      "english": "package",
+      "translation": "包裹；包裝",
+      "example": "The delivery worker dropped the package at my door.",
+      "audio": {
+        "src": "/audio/words/pickup-delivery-parcel-package.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bc4a71180870f7945155fbb02f4b0a2e3faa2a62d6d31b7039013055ed19869a",
+        "sha256": "1b327e8978ce7aee0b341d511d9b15205b20a644da3e71b1e11476072cc77bc0"
+      }
+    },
+    {
+      "id": "sign",
+      "english": "sign",
+      "translation": "簽名",
+      "example": "Please sign your name on the dotted line.",
+      "audio": {
+        "src": "/audio/words/pickup-delivery-parcel-sign.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0b6f395ca14ac202374d5cff678b71157d0bef7e00c3045e9b80aab4ffb85276",
+        "sha256": "00847fd8022644639ba2904dfa535b711e7b17d92d12562b00a8e8e3a2834f82"
+      }
+    },
+    {
+      "id": "pick",
+      "english": "pick",
+      "translation": "挑選；撿起",
+      "example": "I will pick up my sister after school.",
+      "audio": {
+        "src": "/audio/words/pickup-delivery-parcel-pick.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8ce33c6c86e991f7b4993479d63cd73039fc874227fd64a5e1f2b4fdcd31d7a9",
+        "sha256": "aa8214ca051ef4e0a8bd624bd878b4c4451d66a2367f19589bc309c233919484"
+      }
+    },
+    {
+      "id": "show",
+      "english": "show",
+      "translation": "出示；展示",
+      "example": "Show your train ticket to the guard.",
+      "audio": {
+        "src": "/audio/words/pickup-delivery-parcel-show.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1c6333509debf060200eb6bbe28db307508da67c0e3c58088393e4cf09de596d",
+        "sha256": "e0801dfc74a3b12ebe2c30df71e0f86f107bc5ab30045554e9ca54e88c828878"
+      }
+    },
+    {
+      "id": "last",
+      "english": "last",
+      "translation": "最後的；末尾的",
+      "example": "December is the last month of the year.",
+      "audio": {
+        "src": "/audio/words/pickup-delivery-parcel-last.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3547cb112ac4489af2310c0626cdba6f3097a2ad5a3b42ddd3b59c76c7a079a3",
+        "sha256": "ce261eb5e0838858fb891b36117fa79d2cc97ad3cafac620ca3c1c74e380245f"
+      }
+    },
+    {
+      "id": "phone",
+      "english": "phone",
+      "translation": "電話；手機",
+      "example": "He answered the office phone on the second ring.",
+      "audio": {
+        "src": "/audio/words/pickup-delivery-parcel-phone.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "45569da57f4b7bf472d7a864ef4781451cae6383fee9fb0ae40c59aa1ce475b7",
+        "sha256": "a5bb5be97c58d1bb47925e8e6811f25e3f94569c2d4340845aa06d52de89ed7d"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Hello, I came here to "
+        },
+        {
+          "text": "pick",
+          "phraseIds": [
+            "pick-up-a-parcel"
+          ],
+          "wordIds": [
+            "pick"
+          ]
+        },
+        {
+          "text": " up a parcel",
+          "phraseIds": [
+            "pick-up-a-parcel"
+          ]
+        },
+        {
+          "text": " from online shopping."
+        }
+      ],
+      "translation": "你好，我來這裡領取一件網購的包裹。",
+      "audio": {
+        "src": "/audio/sentences/pickup-delivery-parcel/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cc28a8a37878a87c8413c763a9ead8b7f729bad3aca41c9acaa0cfe675fbdd07",
+        "sha256": "b9d095cfd39f0c0e56c545a46963c3bc3c497f9dbd76fec029259681fb3ce603"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Could you please tell me your full name and "
+        },
+        {
+          "text": "phone",
+          "wordIds": [
+            "phone"
+          ]
+        },
+        {
+          "text": " number?"
+        }
+      ],
+      "translation": "可以請您告訴我您的完整姓名和電話號碼嗎？",
+      "audio": {
+        "src": "/audio/sentences/pickup-delivery-parcel/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b18c48c82ae94b52599825e36cf5b74cad268c41a2b1ba0a84a7a711100d5a20",
+        "sha256": "538ea62960af0afb5aa7e2a9d6f5c9de24ee0deda384e5ec164a89d976bbe164"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "My name is Eric Lin, and "
+        },
+        {
+          "text": "the ",
+          "phraseIds": [
+            "the-last-three-digits"
+          ]
+        },
+        {
+          "text": "last",
+          "phraseIds": [
+            "the-last-three-digits"
+          ],
+          "wordIds": [
+            "last"
+          ]
+        },
+        {
+          "text": " three digits",
+          "phraseIds": [
+            "the-last-three-digits"
+          ]
+        },
+        {
+          "text": " are 508."
+        }
+      ],
+      "translation": "我叫 Eric Lin，手機末三碼是 508。",
+      "audio": {
+        "src": "/audio/sentences/pickup-delivery-parcel/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bc14ef4343d410fd0238696242a3b02e0dafcf9449df65aac0451bda5405ca51",
+        "sha256": "fbcd24a9564061b15f04450194e8ecd193d9bbf4df777aa30bea302f9332a5ee"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "show",
+          "wordIds": [
+            "show"
+          ]
+        },
+        {
+          "text": " a "
+        },
+        {
+          "text": "photo ID card",
+          "phraseIds": [
+            "photo-id-card"
+          ]
+        },
+        {
+          "text": " to verify before taking the "
+        },
+        {
+          "text": "package",
+          "wordIds": [
+            "package"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "在拿走包裹之前，請出示有照片的身分證件進行核對。",
+      "audio": {
+        "src": "/audio/sentences/pickup-delivery-parcel/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e6e78a6c3596bfec3aa972f7a9ceda305f9c45dab7980993e56e0a88fcb27485",
+        "sha256": "292c49702940800b4bce2b7138a7c15f9042fe9f4965d5a9dcd06bdadac4bca0"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Here is my student ID card with my official name on it."
+        }
+      ],
+      "translation": "這是我的學生證，上面有我的正式姓名。",
+      "audio": {
+        "src": "/audio/sentences/pickup-delivery-parcel/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "610fc1653e875b1592160cb99133d04662588dcecf745ca021ae679ce03523e4",
+        "sha256": "484a98e8cfcf32ad36c506a0c7a6b7c8e647acbbdf38aec2a0ccb3cb51fb81bd"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Everything matches",
+          "phraseIds": [
+            "everything-matches"
+          ]
+        },
+        {
+          "text": ", please "
+        },
+        {
+          "text": "sign",
+          "phraseIds": [
+            "sign-on-the-screen"
+          ],
+          "wordIds": [
+            "sign"
+          ]
+        },
+        {
+          "text": " on the screen",
+          "phraseIds": [
+            "sign-on-the-screen"
+          ]
+        },
+        {
+          "text": " to confirm."
+        }
+      ],
+      "translation": "資料全部相符，請在螢幕上簽名確認就可以囉。",
+      "audio": {
+        "src": "/audio/sentences/pickup-delivery-parcel/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d984c417f97783206fd8bb0ce2b81ba1ffeec520fa1cc25f75829bf37cad7073",
+        "sha256": "73cff7c1a1f38f678abf3e0265cfcec1bd3e2ef68b58ef28e5029e63645c3949"
+      }
+    }
+  ]
+}

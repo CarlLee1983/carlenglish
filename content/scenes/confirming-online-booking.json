@@ -1,0 +1,353 @@
+{
+  "id": "confirming-online-booking",
+  "title": "確認線上預約編號",
+  "titleEn": "Confirming an Online Booking Code at Check-in",
+  "category": "數位生活",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/confirming-online-booking.webp",
+    "alt": "在青年旅社溫馨的接待櫃檯前，旅客在手機螢幕上出示預約電子郵件代碼，服務人員在電腦前核對並遞出房間鑰匙。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "advance-reservation",
+      "english": "advance reservation",
+      "translation": "提前預約",
+      "audio": {
+        "src": "/audio/phrases/confirming-online-booking-advance-reservation.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "aa7ae1432c86f35580568d6386933f97b742458a088ae71e0d8ade27067021fe",
+        "sha256": "93f8f50ce61e5ed7b38b33007ef6241229cde08177148bafbb9d5c02210dbb3f"
+      }
+    },
+    {
+      "id": "booking-confirmation-number",
+      "english": "booking confirmation number",
+      "translation": "預約確認編號",
+      "audio": {
+        "src": "/audio/phrases/confirming-online-booking-booking-confirmation-number.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dabe3e2d4a8028a533835c68ab861d518baa38b5182fa90271091729620e3c00",
+        "sha256": "20162797a843fb93df0986e003beece559a92daf0db7e4ba4b0ff6da2a067a73"
+      }
+    },
+    {
+      "id": "on-my-smartphone-screen",
+      "english": "on my smartphone screen",
+      "translation": "在我智慧型手機螢幕上",
+      "audio": {
+        "src": "/audio/phrases/confirming-online-booking-on-my-smartphone-screen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "481adbb81a41abc3f59d14697ed716199066ea398fb717089f250c73b151cbef",
+        "sha256": "408347e340ba0d20d28c77291eb6284e31f618a1da317ee6d697b080235fe358"
+      }
+    },
+    {
+      "id": "under-the-name-of",
+      "english": "under the name of",
+      "translation": "在……的名字之下登記",
+      "audio": {
+        "src": "/audio/phrases/confirming-online-booking-under-the-name-of.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "62affaf170dafb6ec13ab63a69d7c90e29af1a0d498083ee2e70112220e0b1d2",
+        "sha256": "e07117f8fa02484e6f0ee9aadfeefc15a97304ad3bfb6cf369e856d71955b16f"
+      }
+    },
+    {
+      "id": "completely-ready",
+      "english": "completely ready",
+      "translation": "完全準備就緒",
+      "audio": {
+        "src": "/audio/phrases/confirming-online-booking-completely-ready.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "36c6f7c57b371961706dd4c1c39a850575d63c85af413e1b2bcb7dc07a2b8880",
+        "sha256": "0d8de55227002faccf4e716ec17f42d88dc3a75976533b0649ab71f095a61271"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "confirm",
+      "english": "confirm",
+      "translation": "確認；證實",
+      "example": "Please click the link to confirm your email address.",
+      "audio": {
+        "src": "/audio/words/confirming-online-booking-confirm.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3f267c2ab422e502bad8e60ff9e55666ec59b725e561bf1629c48a1578a08c79",
+        "sha256": "3ff696c6b207f197fed73c34fd6cda98c7431ee0b48b46cb4d6ad926d05f971d"
+      }
+    },
+    {
+      "id": "reservation",
+      "english": "reservation",
+      "translation": "預約；保留",
+      "example": "Did you make a dinner reservation at the restaurant?",
+      "audio": {
+        "src": "/audio/words/confirming-online-booking-reservation.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9efa077f044e7a779c655f8d8e8760cacd16ce2347b6aa10e45b18fb5325fdd6",
+        "sha256": "38692e588b73e3f59c92485956f59e5da4a49a8f733ebd1b8ec26c17ddef681e"
+      }
+    },
+    {
+      "id": "room",
+      "english": "room",
+      "translation": "房間",
+      "example": "They booked a quiet study room at the library.",
+      "audio": {
+        "src": "/audio/words/confirming-online-booking-room.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1f1c5b2fad778434024f1537986346927917f4755a6e7d3fd91f22653b7c3132",
+        "sha256": "fcb9ec34e045157f9370acc772464bf672f30d82ddaf1bbf55b262d48485e9f6"
+      }
+    },
+    {
+      "id": "ready",
+      "english": "ready",
+      "translation": "準備好的",
+      "example": "The hot meal is ready to be served.",
+      "audio": {
+        "src": "/audio/words/confirming-online-booking-ready.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b24d6d33736ecd5604a4b17bc9c6481039fac362bb7df044ef1c10a2bfd21db6",
+        "sha256": "ea4b4dd0bab82a47b6dc3332b0d9c818e67100a2c8d7edc221e710ad95089a22"
+      }
+    },
+    {
+      "id": "number",
+      "english": "number",
+      "translation": "號碼、數字",
+      "example": "Write your phone number on this paper slip.",
+      "audio": {
+        "src": "/audio/words/confirming-online-booking-number.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "12886f9d00055adf24c40579e22d31b2b45f2023f892954ffd5567beb60825f8",
+        "sha256": "bdace3adbc800547dc7df4baf0daab91b53cf44ca914ee221d65d100543a8950"
+      }
+    },
+    {
+      "id": "name",
+      "english": "name",
+      "translation": "名字；姓名",
+      "example": "Please spell your family name for the hotel record.",
+      "audio": {
+        "src": "/audio/words/confirming-online-booking-name.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "82a3537ff0dbce7eec35d69edc3a189ee6f17d82f353a553f9aa96cb0be3ce89",
+        "sha256": "19058dfb97a55d5a0711a7541532972729897109269c5066825099439661f3b5"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Good evening, we made an "
+        },
+        {
+          "text": "advance ",
+          "phraseIds": [
+            "advance-reservation"
+          ]
+        },
+        {
+          "text": "reservation",
+          "phraseIds": [
+            "advance-reservation"
+          ],
+          "wordIds": [
+            "reservation"
+          ]
+        },
+        {
+          "text": " for a private game "
+        },
+        {
+          "text": "room",
+          "wordIds": [
+            "room"
+          ]
+        },
+        {
+          "text": " tonight."
+        }
+      ],
+      "translation": "晚安，我們今天晚上有提前預約了一間獨立遊戲室。",
+      "audio": {
+        "src": "/audio/sentences/confirming-online-booking/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1c5c8f6bb16cc9e331853fe6a1bebe18f3956cd9470e94bef3d93ea85f165579",
+        "sha256": "33cbb4d2f5f7c91af0f7c918ae2653c0834a81633db79236467c886098a123e4"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Welcome, could you please provide your "
+        },
+        {
+          "text": "booking confirmation ",
+          "phraseIds": [
+            "booking-confirmation-number"
+          ]
+        },
+        {
+          "text": "number",
+          "phraseIds": [
+            "booking-confirmation-number"
+          ],
+          "wordIds": [
+            "number"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "歡迎光臨，可以請您提供您的預約確認編號嗎？",
+      "audio": {
+        "src": "/audio/sentences/confirming-online-booking/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7de5230910ce67008d603430e8da775d57b3d06591a6b0bf73b2ea32b4fae385",
+        "sha256": "854a6bf5c1b21dfc2a6c0e22511f3835bebfd6ca10349a88c6662292e58e8cda"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Here is the confirmation email "
+        },
+        {
+          "text": "on my smartphone screen",
+          "phraseIds": [
+            "on-my-smartphone-screen"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "這是我智慧型手機螢幕上收到的確認電子郵件。",
+      "audio": {
+        "src": "/audio/sentences/confirming-online-booking/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4acfafd21122ef66cd88a66893266ac2e0346ea5849f1422967fb4095a393a74",
+        "sha256": "18f59eaea6165d6c0ff3939344451041bc9ceb18a234524490541042066d6801"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "reservation",
+          "wordIds": [
+            "reservation"
+          ]
+        },
+        {
+          "text": " code is BK-920 "
+        },
+        {
+          "text": "under the ",
+          "phraseIds": [
+            "under-the-name-of"
+          ]
+        },
+        {
+          "text": "name",
+          "phraseIds": [
+            "under-the-name-of"
+          ],
+          "wordIds": [
+            "name"
+          ]
+        },
+        {
+          "text": " of",
+          "phraseIds": [
+            "under-the-name-of"
+          ]
+        },
+        {
+          "text": " Sarah Chen."
+        }
+      ],
+      "translation": "預約代碼是 BK-920，登記的姓名是 Sarah Chen。",
+      "audio": {
+        "src": "/audio/sentences/confirming-online-booking/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8889f395d7a559862d44ed067c6b7879e2b3579ce36585ea527d83299c5bf40d",
+        "sha256": "57ff7be9a8d6b090af992642d1b949b830a4cb859168e8127fd02e04221d28f2"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Our computer system "
+        },
+        {
+          "text": "confirms",
+          "wordIds": [
+            "confirm"
+          ]
+        },
+        {
+          "text": " your table is clean and "
+        },
+        {
+          "text": "completely ",
+          "phraseIds": [
+            "completely-ready"
+          ]
+        },
+        {
+          "text": "ready",
+          "phraseIds": [
+            "completely-ready"
+          ],
+          "wordIds": [
+            "ready"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我們的電腦系統確認您的桌位已經整理乾淨，隨時可以入座了。",
+      "audio": {
+        "src": "/audio/sentences/confirming-online-booking/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f185f79486f9ad19f88d297dbeb99c72d34a6291a63332914921902fd750bd86",
+        "sha256": "037c0412957a56cf0ec3afde5aafc58d12fc2ba39558a471359eeb5aa267f0a8"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Please follow me to "
+        },
+        {
+          "text": "room",
+          "wordIds": [
+            "room"
+          ]
+        },
+        {
+          "text": " three and enjoy your wonderful game night!"
+        }
+      ],
+      "translation": "請跟我到三號房間，祝大家今晚玩得愉快盡興！",
+      "audio": {
+        "src": "/audio/sentences/confirming-online-booking/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "89cb118f7146e5d642208bfd8b969d9431100d531cd7924fb651a7f902519bae",
+        "sha256": "7405881dd5f0d1319640660ab4bee804391b9189031a0404418466a65c7d596f"
+      }
+    }
+  ]
+}
