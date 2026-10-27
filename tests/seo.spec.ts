@@ -5,6 +5,7 @@ import type { Scene } from '../src/lib/scenes';
 import { getLearningLevel, learningLevels } from '../src/lib/catalog';
 import { trackLabels, type Article } from '../src/lib/articles';
 import { sceneSocialImage } from '../src/lib/seo';
+import { loadVocabularyCatalog } from '../src/lib/vocabulary';
 
 const site = 'https://carlenglish.gravito.dev';
 const scenes = readdirSync(join(process.cwd(), 'content/scenes')).filter((name) => name.endsWith('.json')).sort()
@@ -15,9 +16,9 @@ const classics = readdirSync(join(process.cwd(), 'content/classics')).filter((na
   .map((name) => JSON.parse(readFileSync(join(process.cwd(), 'content/classics', name), 'utf8')) as { id: string; parts: unknown[] });
 const pathFor = (scene: Scene) => `/scenes/${scene.id}/`;
 const articlePathFor = (article: Article) => `/articles/${article.id}/`;
-const paths = ['/', ...learningLevels.map((level) => `/levels/${level.id}/`), ...scenes.map(pathFor), ...articles.map(articlePathFor)];
+const paths = ['/', ...learningLevels.flatMap((level) => [`/levels/${level.id}/`, `/vocabulary/${level.id}/`]), ...scenes.map(pathFor), ...articles.map(articlePathFor)];
 const populated = learningLevels.filter((level) => scenes.some((scene) => getLearningLevel(scene).id === level.id));
-const indexed = ['/', ...populated.map((level) => `/levels/${level.id}/`), ...scenes.map(pathFor), ...articles.map(articlePathFor), ...classics.flatMap((classic) => [`/classics/${classic.id}/`, ...classic.parts.map((_, index) => `/classics/${classic.id}/${index + 1}/`)])];
+const indexed = ['/', ...populated.map((level) => `/levels/${level.id}/`), ...loadVocabularyCatalog().map(({ level }) => `/vocabulary/${level.id}/`), ...scenes.map(pathFor), ...articles.map(articlePathFor), ...classics.flatMap((classic) => [`/classics/${classic.id}/`, ...classic.parts.map((_, index) => `/classics/${classic.id}/${index + 1}/`)])];
 const meta = (page: Page, key: string, value: string) => page.locator(`head meta[${key}="${value}"]`);
 const jsonLd = async (page: Page) => (await page.locator('head script[type="application/ld+json"]').allTextContents())
   .flatMap((text) => {

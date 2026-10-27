@@ -205,6 +205,7 @@ test('a large mixed-level catalog builds and serves complete routes without chan
     const locs = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
     const expectedUrls = [
       `${site}/`, ...['beginner', 'intermediate', 'advanced'].map((id) => `${site}/levels/${id}/`),
+      ...['beginner', 'intermediate', 'advanced'].map((id) => `${site}/vocabulary/${id}/`),
       ...allScenes.map((scene) => `${site}/scenes/${scene.id}/`),
       ...readdirSync(join(tempRoot, 'content/articles')).filter((name) => name.endsWith('.json')).sort()
         .map((name) => `${site}/articles/${JSON.parse(readFileSync(join(tempRoot, 'content/articles', name), 'utf8')).id}/`),

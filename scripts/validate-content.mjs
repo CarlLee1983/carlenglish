@@ -3,6 +3,7 @@ import { join } from 'node:path';
 import { articleMetrics, loadArticles, stageWarnings } from '../src/lib/articles.ts';
 import { loadScenes } from '../src/lib/scenes.ts';
 import { loadWordLists } from '../src/lib/wordlists.ts';
+import { loadVocabularyCatalog } from '../src/lib/vocabulary.ts';
 import { classicWarnings, loadClassics } from '../src/lib/classics.ts';
 import { createCatalog, sceneCategories } from '../src/lib/catalog.ts';
 import { crossTypeDuplicateIds } from '../src/lib/validation.ts';
@@ -22,6 +23,7 @@ try {
   createCatalog(scenes);
   const articles = loadArticles();
   const wordLists = loadWordLists();
+  const vocabulary = loadVocabularyCatalog({ wordLists });
   const classics = loadClassics();
   const duplicates = crossTypeDuplicateIds(
     idsIn(join(process.cwd(), 'content', 'scenes')),
@@ -33,6 +35,7 @@ try {
   console.log(`Validated ${scenes.length} scene(s): ${scenes.map((scene) => scene.id).join(', ')}`);
   console.log(`Validated ${articles.length} article(s): ${articles.map((article) => article.id).join(', ')}`);
   console.log(`Validated ${wordLists.length} word list(s): ${wordLists.map((list) => `${list.id} (${list.entries.length} entries)`).join(', ')}`);
+  console.log(`Validated vocabulary banks: ${vocabulary.map((bank) => `${bank.level.id} (${bank.entries.length} entries)`).join(', ')}`);
   console.log(`Validated ${classics.length} classic(s): ${classics.map((classic) => classic.id).join(', ')}`);
   for (const article of articles) {
     const { words, averageSentenceLength } = articleMetrics(article);

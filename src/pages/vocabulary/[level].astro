@@ -1,0 +1,152 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { loadVocabularyCatalog, vocabularyLevels } from '../../lib/vocabulary';
+import { breadcrumbData } from '../../lib/seo';
+import '../../styles/vocabulary.css';
+
+export function getStaticPaths() {
+  return loadVocabularyCatalog().map((group) => ({ params: { level: group.level.id }, props: { group } }));
+}
+interface Props { group: ReturnType<typeof loadVocabularyCatalog>[number] }
+const { group: { level, entries, description: bankDescription, criteria, sources } } = Astro.props;
+const description = `${level.name}獨立單字庫，附中文解釋、例句與發音。可搜尋後列印，或在手機上滑動字卡練習。`;
+const structuredData = [breadcrumbData([
+  { name: 'CarlEnglish', path: '/' },
+  { name: `${level.name}單字庫`, path: `/vocabulary/${level.id}/` },
+], Astro.site)];
+---
+<Layout title={`${level.name}單字庫・列印與字卡`} description={description} structuredData={structuredData} noindex={entries.length === 0}>
+  <div class="page-shell vocabulary-page" data-vocabulary data-view="list">
+    <div class="vocabulary-intro">
+      <a class="back-link" href="/">返回首頁</a>
+      <h1>{level.name}單字庫</h1>
+      <p>{bankDescription}</p>
+      <p class="vocabulary-provenance">共 {entries.length} 筆 · 本站編選的學習分組，並非 CEFR 認證。</p>
+      <p class="vocabulary-provenance">編選原則：{criteria}</p>
+    </div>
+    <nav class="vocabulary-levels" aria-label="詞彙程度">
+      {vocabularyLevels.map((item) => <a href={`/vocabulary/${item.id}/`} aria-current={item.id === level.id ? 'page' : undefined}>{item.name}詞彙</a>)}
+    </nav>
+    {entries.length > 0 ? <>
+      <div class="vocabulary-list-tools" data-vocabulary-tools hidden>
+        <form role="search" aria-label="搜尋詞彙" data-vocabulary-form>
+          <label for="vocabulary-search">搜尋單字、中文或例句</label>
+          <div class="vocabulary-search-row">
+            <input id="vocabulary-search" type="search" name="q" placeholder="例如 coffee、咖啡" autocomplete="off" spellcheck="false" />
+            <button type="button" data-vocabulary-clear hidden>清除</button>
+          </div>
+        </form>
+        <div class="vocabulary-actions">
+          <button type="button" class="vocabulary-primary" data-vocabulary-start>用字卡練習</button>
+          <button type="button" data-vocabulary-print>列印詞彙表</button>
+        </div>
+      </div>
+      <div class="vocabulary-list-summary">
+        <p data-vocabulary-count role="status" aria-live="polite" aria-atomic="true">共 {entries.length} 筆詞彙 · 依英文字母排序</p>
+        <p class="vocabulary-print-hint">列印目前的搜尋結果，也可在列印視窗另存 PDF。</p>
+      </div>
+      <noscript><p class="section-hint">以下是完整詞彙，可使用瀏覽器選單列印。啟用 JavaScript 後可搜尋與練習字卡。</p></noscript>
+      <dialog class="vocabulary-practice" data-vocabulary-practice aria-label={`${level.name}單字卡練習`}>
+        <div class="vocabulary-practice-shell">
+          <header class="vocabulary-practice-header">
+            <div class="vocabulary-practice-toolbar">
+              <button type="button" class="vocabulary-practice-quiet" data-vocabulary-return aria-label="返回詞彙表">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m14 6-6 6 6 6" /></svg>
+                <span data-vocabulary-return-label>返回</span>
+              </button>
+              <div class="vocabulary-practice-heading">
+                <h2>{level.name}字卡</h2>
+                <p data-vocabulary-position role="status" aria-live="polite" aria-atomic="true"></p>
+              </div>
+              <button type="button" class="vocabulary-practice-quiet" data-vocabulary-info aria-label="查看來源與授權">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9" /><path d="M12 11v6M12 7h.01" /></svg>
+              </button>
+            </div>
+            <progress class="vocabulary-practice-progress" data-vocabulary-progress aria-label="目前字卡位置" value="0" max="1"></progress>
+          </header>
+          <div class="vocabulary-practice-main" data-vocabulary-practice-main>
+            <div class="vocabulary-track" data-vocabulary-track role="region" aria-label="左右滑動單字卡"></div>
+            <template data-vocabulary-card-template>
+              <div class="vocabulary-slide" data-card-slide>
+                <button type="button" class="vocabulary-flashcard" data-card-face>
+                  <span class="vocabulary-card-rotor" data-card-rotor>
+                    <span class="vocabulary-card-front" data-card-front>
+                      <span class="card-content vocabulary-card-content">
+                        <span class="vocabulary-card-label" data-card-label>先想想這個字的意思</span>
+                        <span class="vocabulary-card-word" lang="en" data-card-word></span>
+                        <span class="vocabulary-flip-hint" data-card-hint>點一下看中文與例句</span>
+                      </span>
+                    </span>
+                    <span class="vocabulary-card-back" data-card-back>
+                      <span class="card-content vocabulary-card-content">
+                        <span class="vocabulary-card-back-word" lang="en" data-card-back-word></span>
+                        <span class="vocabulary-answer" data-card-answer hidden>
+                          <span class="vocabulary-card-meaning" data-card-meaning></span>
+                          <span class="vocabulary-card-example" lang="en" data-card-example></span>
+                        </span>
+                        <span class="vocabulary-flip-hint" data-card-back-hint>點一下回到英文</span>
+                      </span>
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </template>
+            <section class="vocabulary-info-panel" data-vocabulary-info-panel hidden tabindex="-1" aria-labelledby="vocabulary-info-title">
+              <h3 id="vocabulary-info-title">來源與授權</h3>
+              <div data-vocabulary-attribution-host></div>
+            </section>
+          </div>
+          <footer class="vocabulary-practice-footer" data-vocabulary-practice-footer>
+            <audio data-vocabulary-audio hidden preload="none"></audio>
+            <nav class="vocabulary-card-navigation" aria-label="字卡操作">
+              <button type="button" data-vocabulary-previous aria-label="上一張">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m14 6-6 6 6 6" /></svg>
+              </button>
+              <button type="button" data-vocabulary-play aria-label="聽單字發音">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m11 5-6 4H2v6h3l6 4V5ZM15 8a6 6 0 0 1 0 8M18 5a10 10 0 0 1 0 14" /></svg>
+                <span data-vocabulary-play-label>聽發音</span>
+              </button>
+              <button type="button" class="vocabulary-primary" data-vocabulary-next aria-label="下一張">
+                <span>下一張</span>
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m10 6 6 6-6 6" /></svg>
+              </button>
+            </nav>
+            <p class="vocabulary-audio-status" data-vocabulary-audio-status role="status" aria-live="polite"></p>
+            <p class="vocabulary-card-source">詞彙來源 <a data-vocabulary-source></a></p>
+            <p class="vocabulary-gesture-hint">左右滑動換卡 · 點卡片看解答</p>
+            <div class="vocabulary-card-end" data-vocabulary-end hidden><p>已到最後一張。</p><button type="button" data-vocabulary-restart>從第一張再練一次</button></div>
+          </footer>
+        </div>
+      </dialog>
+      <div data-vocabulary-list-view>
+        <p class="vocabulary-no-results" data-vocabulary-empty hidden>沒有符合的詞彙。換個關鍵字，或清除搜尋再試一次。</p>
+        <table class="vocabulary-table">
+          <caption class="vocabulary-sr-only">{level.name}單字、中文解釋、例句及詞表來源</caption>
+          <thead><tr><th scope="col">單字</th><th scope="col">中文・例句</th></tr></thead>
+          <tbody>
+            {entries.map((entry) => <tr data-vocabulary-row data-english={entry.english} data-meaning={entry.meaning} data-example={entry.example} data-audio-src={entry.audioSrc} data-search={`${entry.english} ${entry.meaning} ${entry.example}`}>
+              <th scope="row"><span lang="en">{entry.english}</span><button type="button" class="vocabulary-row-practice" data-vocabulary-row-start hidden>練這個字</button></th>
+              <td>
+                <p class="vocabulary-meaning">{entry.meaning}</p>
+                <p class="vocabulary-example" lang="en">{entry.example}</p>
+                <p class="vocabulary-source">詞彙來源 <a href={entry.source.href} data-vocabulary-primary-source>{entry.source.title}</a></p>
+              </td>
+            </tr>)}
+          </tbody>
+        </table>
+      </div>
+      <section class="vocabulary-attribution" aria-labelledby="vocabulary-sources-title">
+        <h2 id="vocabulary-sources-title">詞表出處與授權</h2>
+        <p>本頁選字與分級由 CarlEnglish 編選，獨立於生活讀本維護；英文、中文、例句與錄音沿用下列詞表的本站改作。分級未經原作者認證，編選內容依原詞表授權釋出。</p>
+        {sources.map((list) => <div id={`source-${list.id}`}>
+          <h3>{list.name}</h3>
+          <p>{list.source.name} · {list.source.authors}</p>
+          <p><a href={list.source.url}>原詞表來源</a> · <a href={list.license.url}>{list.license.name}</a></p>
+          <p class="vocabulary-source-url">{list.source.url} · {list.license.url}</p>
+          <p>原詞表的本站改作說明：{list.source.adaptation}</p>
+        </div>)}
+      </section>
+    </> : <section class="catalog-empty"><h2>這個級別的詞彙正在準備中</h2><p>可以先切換到其他程度，或回首頁選一篇讀本。</p><a href="/vocabulary/beginner/">查看初級詞彙</a></section>}
+  </div>
+</Layout>
+<script>import '../../scripts/vocabulary';</script>
