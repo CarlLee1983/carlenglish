@@ -1,6 +1,9 @@
 import { expect, test } from '@playwright/test';
 import { loadVocabularyCatalog } from '../src/lib/vocabulary';
 
+// These cases render WebGL, which CI runs in software; one at a time per shard keeps them from starving parallel specs.
+test.describe.configure({ mode: 'default' });
+
 const groups = loadVocabularyCatalog();
 
 test('all levels expose content-grounded vocabulary, source links, and metadata @content', async ({ page }) => {
