@@ -4,7 +4,7 @@ import { articleMetrics, loadArticles, stageWarnings } from '../src/lib/articles
 import { loadScenes } from '../src/lib/scenes.ts';
 import { loadWordLists } from '../src/lib/wordlists.ts';
 import { classicWarnings, loadClassics } from '../src/lib/classics.ts';
-import { createCatalog } from '../src/lib/catalog.ts';
+import { createCatalog, sceneCategories } from '../src/lib/catalog.ts';
 import { crossTypeDuplicateIds } from '../src/lib/validation.ts';
 
 // 載入成功後各檔的 id 已通過驗證；這裡重讀 id 只為了找出跨類型重複並指出來源檔。
@@ -15,6 +15,10 @@ function idsIn(dir) {
 
 try {
   const scenes = loadScenes();
+  const invalidCategoryScenes = scenes.filter((scene) => !sceneCategories.includes(scene.category));
+  if (invalidCategoryScenes.length) {
+    throw new Error(`Invalid scene categories:\n${invalidCategoryScenes.map((scene) => `- scene "${scene.id}": "${scene.category}" is not in canonical categories (${sceneCategories.join('、')})`).join('\n')}`);
+  }
   createCatalog(scenes);
   const articles = loadArticles();
   const wordLists = loadWordLists();
