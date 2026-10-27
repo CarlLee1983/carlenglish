@@ -41,7 +41,7 @@ test('vocabulary is discoverable from home and each level, and supports level sw
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
 
-test('search filters the list and practice deck, survives reload, and recovers from no matches', async ({ page }) => {
+test('search filters the list and practice deck, survives reload, and recovers from no matches @content', async ({ page }) => {
   await page.goto('/vocabulary/beginner/');
   const query = '蘋果';
   const expected = groups[0].entries.filter((entry) => `${entry.english} ${entry.meaning} ${entry.example}`.includes(query));
@@ -64,7 +64,7 @@ test('search filters the list and practice deck, survives reload, and recovers f
   await expect(page.locator('[data-vocabulary-row]:visible')).toHaveCount(groups[0].entries.length);
 });
 
-test('cards reveal answers, reset on navigation, preserve keyboard control and stop audio', async ({ page }) => {
+test('cards reveal answers, reset on navigation, preserve keyboard control and stop audio @content', async ({ page }) => {
   await page.goto('/vocabulary/advanced/?view=cards');
   const entries = groups[2].entries;
   const flip = page.locator('[data-vocabulary-flip]');
@@ -145,7 +145,7 @@ test('native touch tracks before release, snaps, and permits a reverse gesture @
   await context.close();
 });
 
-test('viewing attribution and returning preserves the current card and answer', async ({ page }) => {
+test('viewing attribution and returning preserves the current card and answer @content', async ({ page }) => {
   await page.goto('/vocabulary/advanced/');
   await page.getByRole('button', { name: /練習字卡：/ }).nth(3).click();
   const flip = page.locator('[data-vocabulary-flip]');
@@ -164,7 +164,7 @@ test('viewing attribution and returning preserves the current card and answer', 
   await expect(flip).toHaveAttribute('aria-expanded', 'true');
 });
 
-test('last cards can restart and single result decks handle both ends', async ({ page }) => {
+test('last cards can restart and single result decks handle both ends @content', async ({ page }) => {
   await page.goto('/vocabulary/advanced/');
   const count = groups[2].entries.length;
   await page.getByRole('button', { name: /練習字卡：/ }).nth(count - 2).click();
@@ -189,7 +189,7 @@ test('last cards can restart and single result decks handle both ends', async ({
   await expect(page.locator('[data-vocabulary-answer]')).toBeHidden();
 });
 
-test('printing includes only matching rows even from card mode, in a plain readable layout', async ({ page }) => {
+test('printing includes only matching rows even from card mode, in a plain readable layout @content', async ({ page }) => {
   await page.goto('/vocabulary/beginner/?q=coffee');
   const matches = await page.locator('[data-vocabulary-row]:visible').count();
   expect(matches).toBeGreaterThan(0);
@@ -280,7 +280,7 @@ test('reduced motion and enlarged text retain navigation, readable scrolling and
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
 
-test('compact pronunciation control plays, stops on card change and recovers from media failure', async ({ page }) => {
+test('compact pronunciation control plays, stops on card change and recovers from media failure @content', async ({ page }) => {
   await page.goto('/vocabulary/beginner/?view=cards');
   await page.getByRole('button', { name: '聽單字發音', exact: true }).click();
   await expect(page.locator('[data-vocabulary-play]')).toHaveAttribute('data-state', 'playing');
@@ -302,7 +302,7 @@ test('compact pronunciation control plays, stops on card change and recovers fro
   await expect(page.locator('[data-vocabulary-play]')).toHaveAttribute('data-state', 'idle');
 });
 
-test('cancelled loading and a late failure never overwrite the next card audio state', async ({ page }) => {
+test('cancelled loading and a late failure never overwrite the next card audio state @content', async ({ page }) => {
   await page.goto('/vocabulary/beginner/?view=cards');
   await page.evaluate(() => {
     const audio = document.querySelector<HTMLAudioElement>('[data-vocabulary-audio]')!;
@@ -325,7 +325,7 @@ test('cancelled loading and a late failure never overwrite the next card audio s
   await expect(page.locator('[data-vocabulary-audio]')).toHaveAttribute('src', groups[0].entries[1].audioSrc);
 });
 
-test('leaving practice while print is open prevents a late print event from reopening it', async ({ page }) => {
+test('leaving practice while print is open prevents a late print event from reopening it @content', async ({ page }) => {
   await page.goto('/vocabulary/beginner/');
   await page.getByRole('button', { name: '用字卡練習', exact: true }).click();
   await page.evaluate(() => { window.dispatchEvent(new Event('beforeprint')); window.dispatchEvent(new Event('beforeprint')); });
@@ -336,7 +336,7 @@ test('leaving practice while print is open prevents a late print event from reop
   await expect(page.getByRole('searchbox')).toBeVisible();
 });
 
-test('a cancelled request failing late can retry on the same card immediately', async ({ page }) => {
+test('a cancelled request failing late can retry on the same card immediately @content', async ({ page }) => {
   await page.goto('/vocabulary/beginner/?view=cards');
   let requests = 0;
   let failRequest: (() => Promise<void>) | undefined;
@@ -357,7 +357,7 @@ test('a cancelled request failing late can retry on the same card immediately', 
   await expect(page.locator('[data-vocabulary-position]')).toHaveText('1 / 50');
 });
 
-test('button paging has intermediate frames instead of teleporting @motion', async ({ page }) => {
+test('button paging has intermediate frames instead of teleporting @motion @content', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   await page.goto('/vocabulary/beginner/?view=cards');
   // Start paging after deck setup and the entrance, so a slow first WebGL frame cannot swallow the scroll.
@@ -384,7 +384,7 @@ test('button paging has intermediate frames instead of teleporting @motion', asy
   await expect.poll(() => page.locator('[data-vocabulary-track]').evaluate((track) => track.scrollLeft / track.clientWidth)).toBeCloseTo(1, 2);
 });
 
-test('pointer reveal has a reversible flip animation @motion', async ({ page }) => {
+test('pointer reveal has a reversible flip animation @motion @content', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   await page.goto('/vocabulary/beginner/?view=cards');
   await expect(page.locator('[data-deck-scene="ready"]')).toBeVisible();
@@ -440,7 +440,7 @@ test('pointer reveal has a reversible flip animation @motion', async ({ page }) 
   await expect(page.locator('[data-vocabulary-answer]')).toBeHidden();
 });
 
-test('listening interrupts pending paging at a nonzero card without a late scroll cancelling it', async ({ page }) => {
+test('listening interrupts pending paging at a nonzero card without a late scroll cancelling it @content', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'no-preference' });
   await page.goto('/vocabulary/beginner/?view=cards');
   for (let n = 0; n < 5; n++) await page.getByRole('button', { name: '下一張', exact: true }).click();
