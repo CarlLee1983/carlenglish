@@ -1,46 +1,65 @@
 ---
 import Layout from '../../../layouts/Layout.astro';
 import { bridgeReadings, princePath } from '../../../data/little-prince-path';
+const chapters = Array.from({ length: 27 }, (_, index) => index + 1);
 ---
-<Layout title="第一個閱讀目標：讀懂《小王子》英文譯本" description="從短句、代名詞、因果到有證據的推論，以四篇原創短文開始，逐步銜接自己的《小王子》英文譯本。">
+<Layout title="第一個閱讀目標：讀懂《小王子》英文譯本" description="以自己的英文譯本從第一章讀到全書結尾；逐章閱讀、記錄線索與疑問，原創短文只在需要時補強。">
   <article class="page-shell goal-page">
     <a href="/">← 回首頁</a>
-    <p class="eyebrow">第一個閱讀目標 · 從這裡開始</p>
+    <p class="eyebrow">第一個閱讀目標 · 全書逐章閱讀路線</p>
     <h1>讀懂《小王子》<br />英文譯本</h1>
-    <p class="lead">不是把每個字翻成中文，而是能說出：誰做了什麼、為什麼，以及哪些想法有文字支持。</p>
-    <p>先讀下面四篇原創銜接練習。它們不是《小王子》的節選、翻譯或情節改寫，也不是程度測驗。你可以從第一篇開始，或依目前卡住的地方挑一篇；不按日期自動升級。</p>
+    <p class="lead">主線是從第一章一路讀到全書結尾。短文只是遇到困難時的訓練，不代替原書，也不是開始讀書前必須通過的關卡。</p>
+    <p>使用你持有或有合法閱讀權限的完整英文譯本，依書中章節順序讀。一次可以只讀一小段，不必一次讀完整章；也不按日期推定你已讀完或應該升級。</p>
     <section aria-labelledby="route-title">
-      <h2 id="route-title">一條可調整的閱讀路線</h2>
+      <h2 id="route-title">主路線：第一章 → 逐章接續 → 全書回顧</h2>
       <ol class="route">
-        <li><h3>找出人物與動作</h3><p>先讀主幹，再處理位置、時間與修飾語。能說出誰做了什麼，比查完全部生字重要。</p></li>
-        <li><h3>把句子連起來</h3><p>追蹤代名詞，用轉折與因果看出人物為何改變做法。讀者要能指出英文線索，而不是只記住中譯。</p></li>
-        <li><h3>分清事實與推論</h3><p>從行動理解感受，同時保留「文中沒說」的空間。接著可試讀本站 <a href="/classics/gift-of-the-magi-l1/">L1《麥琪的禮物》</a>；若篇幅太長，就先回來重讀短文。</p></li>
-        <li><h3>回到自己的英文譯本</h3><p>每次讀一小段，逐步連成完整一章。不同譯者的用字與句型不同，不用這批練習的字數推定你已能讀完整本書。</p></li>
+        <li><h3>從第一章開始，不必先做完短文</h3><p>打開自己的英文譯本，選第一章的一個短段落。先讀英文，記下人物與發生的事，再處理真正阻礙理解的字。</p></li>
+        <li><h3>讀完一章，再接下一章</h3><p>用兩三句自己的話概述本章，留下支持理解的段落位置與一個疑問。接下一章時，回看前章的疑問：哪些得到補充，哪些仍未知？不要求所有疑問立刻有答案。</p></li>
+        <li><h3>遇到卡點，才使用補強練習</h3><p>人物動作、代名詞、因果或推論哪一項不清楚，就挑對應短文。練完回到剛才的原書段落，不把四篇短文當成另一條必修主線。</p></li>
+        <li><h3>讀到結尾，再回看全書</h3><p>整理人物的經歷、你的理解如何改變，以及仍有不同解讀的地方。回到書中找線索，而不是背一份劇情摘要或逐句中譯。</p></li>
       </ol>
+      <p class="boundary">目前可用的是通用逐章閱讀方法與四篇補強短文；不是已完成的全書逐章精讀教材。確認你的英文譯本後，才能安排對應的章節範圍、用字與句型說明。此處不猜測某一譯本的字句、頁碼或答案。</p>
+    </section>
+    <section aria-labelledby="chapters-title">
+      <h2 id="chapters-title">全書 27 章：用自己的書逐章接續</h2>
+      <p>這是閱讀進程表，不是 27 篇已完成的章節解析。每章都使用下方通用方法；譯本對應詞句、章節問題與參考思路仍待版本確認及逐章查核。獻詞等前置材料不算第 1 章。</p>
+      <ol class="chapter-list" data-chapters>
+        {chapters.map((chapter) => <li><strong>第 {chapter} 章</strong><span>原書閱讀 · 專屬伴讀待製作</span></li>)}
+      </ol>
+      <p><a href="#book-title">從第 1 章開始：使用下方閱讀方法與記錄格式 ↓</a></p>
+      <p>章數依<a href="https://www.lepetitprince.com/en/new-products-from-our-licensees/the-little-prince-polyglot-edition-27-chapters-27-languages/">作品官方授權網站的 27 章說明</a>；不把分級刪節版的章節或頁碼套到完整譯本。</p>
+    </section>
+    <section aria-labelledby="book-title">
+      <h2 id="book-title">每一章都能用的閱讀步驟</h2>
+      <ol>
+        <li>開始前：寫下譯者、章號與這次的起訖位置。先讀一小段，不預看中文或解析。</li>
+        <li>第一遍：只問「誰在說話或行動？發生了什麼？」先容許少量不懂的字。</li>
+        <li>第二遍：追蹤代名詞、時間與轉折；只查妨礙理解的少量詞。把明說的事與自己的推論分開。</li>
+        <li>停下時：用自己的話概述，標記支持理解的位置與一個未解疑問。下次從記錄的位置接續，不必重頭查字。</li>
+        <li>章末：串起本章的變化，再進下一章。若主幹仍不清楚，先重讀相關小段或做對應補強，不以分數決定是否能往下讀。</li>
+      </ol>
+      <details data-reading-record><summary>展開通用章節記錄格式（不是本章標準答案）</summary><dl>
+        <dt>這次讀哪裡</dt><dd>譯者／章號／段落或頁碼／下次接續位置。</dd>
+        <dt>我讀懂的事</dt><dd>人物與事件，用兩三句自己的話整理。</dd>
+        <dt>文中明說的事</dt><dd>記下段落位置；不必把整段英文抄進筆記。</dd>
+        <dt>我的推論與線索</dt><dd>我認為……，因為在……位置看到……；還有哪些可能？</dd>
+        <dt>暫時不明白的地方</dt><dd>一個問題，以及下次準備回看的位置。</dd>
+      </dl></details>
+      <p>這裡不儲存閱讀進度，也不把開過頁面當成完成一章。記錄可留在自己的筆記；版本尚未確認時，不需要上傳整章或整本書。</p>
     </section>
     <section aria-labelledby="start-title">
-      <h2 id="start-title">首批練習：一次專心練一件事</h2>
-      <p>建議依序讀；每篇只列三個提示詞。先讀英文並回答，再打開中譯與參考思路。卡住時可以看一個提示，關起來再讀一次。</p>
+      <h2 id="start-title">按需補強：短文只是訓練</h2>
+      <p>不必依序或全部完成。依原書中卡住的能力挑一篇：人物與動作、代名詞、因果轉折，或有證據的推論。每篇三個提示詞；先讀英文並回答，再打開中譯與參考思路，最後回到原書。</p>
       <ol class="readings">
         {bridgeReadings.map((reading, index) => <li><a href={`${princePath}${reading.id}/`}><span>0{index + 1}</span><div><h3>{reading.title}</h3><p lang="en">{reading.titleEn}</p><p>{reading.focus}</p></div><span aria-hidden="true">→</span></a></li>)}
       </ol>
     </section>
-    <section aria-labelledby="evidence-title">
-      <h2 id="evidence-title">什麼時候試下一步？</h2>
-      <p>讀完先關掉解析，用自己的話說主旨，再指出支持答案的英文。若只能複述中文、代名詞仍混淆，或推論沒有線索，就回到該篇練習，不必趕進度。這是自我檢核，不是及格分數或 CEFR 認證。</p>
-      <p>這裡不記錄成績，也不因打開頁面就標成「學會」。你可以把一題答案與卡住的句子帶回對話，據此調整下一批教材。</p>
-    </section>
-    <section aria-labelledby="book-title">
-      <h2 id="book-title">開始讀原書時，這樣做</h2>
-      <ol>
-        <li>確認手上的英文譯本與譯者。第一次挑一個短段落，不必先查完所有字。</li>
-        <li>第一遍只記人物、事件與一個疑問。第二遍圈出連接詞、代名詞與支持理解的短語。</li>
-        <li>只查阻礙理解的少量詞，再用中文概述，不逐句翻譯。分開寫「文中明說」與「我的推論」。</li>
-        <li>若仍無法說出發生什麼，縮短閱讀範圍；若能帶著證據說明，再往下讀。讀完整章後回顧人物想法如何改變。</li>
-      </ol>
+    <section aria-labelledby="version-title">
+      <h2 id="version-title">版本確認後，才能做對應精讀</h2>
+      <p>你可以直接開始讀手上的第一章。本站後續章節伴讀須依所選譯本核對，再提供少量重點詞、句間關係與理解問題；不會把通用記錄格式標成已完成的逐章教材。</p>
       <details><summary>如何選版本，以及本頁的來源界線</summary><div>
         <p>《小王子》由 Antoine de Saint-Exupéry 以法文寫作；這裡的目標是讀英文譯本。出版社書目中的 Richard Howard 是其中一位英譯者，不代表所有版本都用相同文字。本站目前沒有收錄本書全文，也沒有針對某個譯本提供頁碼答案。</p>
-        <p>若完整譯本負擔太大，可先考慮正式分級改寫版。下列 Penguin Readers 版本由出版社標為 Level 2／A1+，但它是刪節改寫版，不能等同完整譯本的難度。開始這四篇不需要購書。</p>
+        <p>若完整譯本負擔太大，可先考慮正式分級改寫版。下列 Penguin Readers 版本由出版社標為 Level 2／A1+，但它是刪節改寫版，不能等同完整譯本的難度。分級版是可選輔助，不能冒充已讀完完整譯本；使用本站四篇原創練習不需要購書。</p>
         <ul>
           <li><a href="https://www.penguinrandomhouse.com/books/639583/the-little-prince-by-antoine-de-saint-exupery-translated-by-richard-howard/">PRH：Richard Howard 英譯本書目</a></li>
           <li><a href="https://www.penguin.co.uk/books/319185/penguin-readers-level-2-the-little-prince-elt-graded-reader/9780241463277">Penguin Readers：分級改寫版書目</a></li>
@@ -52,6 +71,10 @@ import { bridgeReadings, princePath } from '../../../data/little-prince-path';
   </article>
 </Layout>
 <style>
+  .chapter-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: .7rem; padding: 0; list-style: none; }
+  .chapter-list li { border: 1px solid var(--line); border-radius: 8px; padding: .7rem; }
+  .chapter-list strong, .chapter-list span { display: block; }
+  .chapter-list span { color: var(--muted); font-size: .9rem; }
   .goal-page { max-width: 850px; padding-block: 2rem 4rem; }
   h1 { font-size: clamp(2rem, 6vw, 3.8rem); line-height: 1.2; margin-block: 1rem; }
   .lead { font-size: 1.25rem; } section { margin-top: 3rem; } p, li { line-height: 1.85; }
