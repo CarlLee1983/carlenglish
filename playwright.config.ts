@@ -8,7 +8,7 @@ const layoutOnly = { grepInvert: /@content/ };
 
 export default defineConfig({
   testDir: './tests',
-  testMatch: ['vocabulary.spec.ts', 'browser.spec.ts', 'pronunciation.spec.ts', 'seo.spec.ts', 'articles.spec.ts', 'classics.spec.ts', 'classics-annotations.spec.ts', 'classics-happy-prince.spec.ts', 'classics-cards.spec.ts', 'classics-resume.spec.ts', 'classics-scandal.spec.ts', 'review.spec.ts', 'review-wordlist.spec.ts'],
+  testMatch: ['little-prince-path.spec.ts', 'vocabulary.spec.ts', 'browser.spec.ts', 'pronunciation.spec.ts', 'seo.spec.ts', 'articles.spec.ts', 'classics.spec.ts', 'classics-annotations.spec.ts', 'classics-happy-prince.spec.ts', 'classics-cards.spec.ts', 'classics-resume.spec.ts', 'classics-scandal.spec.ts', 'review.spec.ts', 'review-wordlist.spec.ts'],
   fullyParallel: true,
   workers: process.env.CI ? 4 : undefined,
   use: { baseURL, trace: 'retain-on-failure' },
