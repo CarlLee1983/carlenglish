@@ -7,11 +7,11 @@ const next = bridgeReadings[index + 1];
 const previous = bridgeReadings[index - 1];
 const words = reading.paragraphs.join(' ').split(/\s+/).length;
 ---
-<Layout title={`${reading.title}｜《小王子》閱讀準備`} description={reading.focus}>
+<Layout title={`${reading.title}｜《小王子》按需補強`} description={reading.focus}>
   <article class="page-shell bridge-page">
     <a href={princePath}>← 第一個閱讀目標</a>
     <header>
-      <p class="eyebrow">原創銜接練習 {index + 1} / {bridgeReadings.length} · 約 {words} 字</p>
+      <p class="eyebrow">按需補強短文 {index + 1} / {bridgeReadings.length} · 約 {words} 字</p>
       <h1 lang="en">{reading.titleEn}</h1>
       <p class="title-zh">{reading.title}</p>
       <p>{reading.focus}</p>
@@ -35,9 +35,10 @@ const words = reading.paragraphs.join(' ').split(/\s+/).length;
       <p>{reading.check}</p>
       <p>如果還需要中文，沒關係。只重讀相關段落，找出一個先前沒注意的線索。這個頁面不把「看過」算成「讀懂」，也不保存成績。</p>
     </section>
-    <nav class="reading-nav" aria-label="銜接練習順序">
+    <p><a href={`${princePath}#book-title`}>回到原書：接著讀剛才的章節 →</a></p>
+    <nav class="reading-nav" aria-label="其他補強練習">
       {previous && <a href={`${princePath}${previous.id}/`}>← 上一篇：{previous.title}</a>}
-      {next ? <a href={`${princePath}${next.id}/`}>試讀下一篇：{next.title} →</a> : <a href={`${princePath}#book-title`}>回到目標：準備讀自己的譯本 →</a>}
+      {next ? <a href={`${princePath}${next.id}/`}>其他補強：{next.title} →</a> : <a href={`${princePath}#book-title`}>回到主線：繼續讀自己的譯本 →</a>}
     </nav>
   </article>
 </Layout>

@@ -1,11 +1,16 @@
 import { test, expect } from '@playwright/test';
 import { bridgeReadings, princePath, princeGoalPaths } from '../src/data/little-prince-path';
 
-test('reading goal entry leads to an honest roadmap and four usable readings', async ({ page, request }) => {
+test('reading goal entry leads to a whole-book roadmap and optional drills', async ({ page, request }) => {
   await page.goto('/');
   await page.getByRole('link', { name: /讀懂《小王子》英文譯本/ }).click();
   await expect(page).toHaveURL(new RegExp(`${princePath}$`));
   await expect(page.getByRole('heading', { level: 1 })).toContainText('英文譯本');
+  await expect(page.locator('[data-chapters] > li')).toHaveCount(27);
+  await expect(page.locator('[data-chapters] > li').last()).toContainText('第 27 章');
+  await expect(page.locator('[data-reading-record]')).not.toHaveAttribute('open');
+  await expect(page.getByRole('heading', { name: '按需補強：短文只是訓練' })).toBeVisible();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   for (const reading of bridgeReadings) {
     const link = page.locator(`a[href="${princePath}${reading.id}/"]`);
     await expect(link).toBeVisible();
@@ -28,7 +33,7 @@ for (const [index, reading] of bridgeReadings.entries()) {
       await details.locator('summary').click();
       await expect(details).not.toHaveAttribute('open');
     }
-    await expect(page.getByRole('navigation', { name: '銜接練習順序' })).toBeVisible();
+    await expect(page.getByRole('navigation', { name: '其他補強練習' })).toBeVisible();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
     await page.reload();
     await expect(page.locator('details[data-answers]')).not.toHaveAttribute('open');

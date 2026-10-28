@@ -33,3 +33,16 @@ test('entry, sitemap and read-first disclosures use the actual goal paths', () =
   assert.doesNotMatch(reader, /<details[^>]*\bopen(?:\s|>)/);
   assert.match(reader, /不是《小王子》的原文、翻譯或改寫/);
 });
+
+
+test('whole-book reading is the main path and drills are not prerequisites', () => {
+  const goal = readFileSync(new URL('../src/pages/goals/little-prince/index.astro', import.meta.url), 'utf8');
+  assert.match(goal, /length: 27/);
+  assert.match(goal, /data-chapters/);
+  assert.ok(goal.indexOf('id="chapters-title"') < goal.indexOf('id="start-title"'));
+  assert.match(goal, /不是 27 篇已完成的章節解析/);
+  assert.match(goal, /不是開始讀書前必須通過的關卡/);
+  assert.match(goal, /專屬伴讀待製作/);
+  assert.match(goal, /<details data-reading-record>/);
+  assert.doesNotMatch(goal, /先讀下面四篇|建議依序讀|gift-of-the-magi-l1/);
+});
