@@ -1,0 +1,65 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { bridgeReadings, princePath } from '../../../data/little-prince-path';
+---
+<Layout title="第一個閱讀目標：讀懂《小王子》英文譯本" description="從短句、代名詞、因果到有證據的推論，以四篇原創短文開始，逐步銜接自己的《小王子》英文譯本。">
+  <article class="page-shell goal-page">
+    <a href="/">← 回首頁</a>
+    <p class="eyebrow">第一個閱讀目標 · 從這裡開始</p>
+    <h1>讀懂《小王子》<br />英文譯本</h1>
+    <p class="lead">不是把每個字翻成中文，而是能說出：誰做了什麼、為什麼，以及哪些想法有文字支持。</p>
+    <p>先讀下面四篇原創銜接練習。它們不是《小王子》的節選、翻譯或情節改寫，也不是程度測驗。你可以從第一篇開始，或依目前卡住的地方挑一篇；不按日期自動升級。</p>
+    <section aria-labelledby="route-title">
+      <h2 id="route-title">一條可調整的閱讀路線</h2>
+      <ol class="route">
+        <li><h3>找出人物與動作</h3><p>先讀主幹，再處理位置、時間與修飾語。能說出誰做了什麼，比查完全部生字重要。</p></li>
+        <li><h3>把句子連起來</h3><p>追蹤代名詞，用轉折與因果看出人物為何改變做法。讀者要能指出英文線索，而不是只記住中譯。</p></li>
+        <li><h3>分清事實與推論</h3><p>從行動理解感受，同時保留「文中沒說」的空間。接著可試讀本站 <a href="/classics/gift-of-the-magi-l1/">L1《麥琪的禮物》</a>；若篇幅太長，就先回來重讀短文。</p></li>
+        <li><h3>回到自己的英文譯本</h3><p>每次讀一小段，逐步連成完整一章。不同譯者的用字與句型不同，不用這批練習的字數推定你已能讀完整本書。</p></li>
+      </ol>
+    </section>
+    <section aria-labelledby="start-title">
+      <h2 id="start-title">首批練習：一次專心練一件事</h2>
+      <p>建議依序讀；每篇只列三個提示詞。先讀英文並回答，再打開中譯與參考思路。卡住時可以看一個提示，關起來再讀一次。</p>
+      <ol class="readings">
+        {bridgeReadings.map((reading, index) => <li><a href={`${princePath}${reading.id}/`}><span>0{index + 1}</span><div><h3>{reading.title}</h3><p lang="en">{reading.titleEn}</p><p>{reading.focus}</p></div><span aria-hidden="true">→</span></a></li>)}
+      </ol>
+    </section>
+    <section aria-labelledby="evidence-title">
+      <h2 id="evidence-title">什麼時候試下一步？</h2>
+      <p>讀完先關掉解析，用自己的話說主旨，再指出支持答案的英文。若只能複述中文、代名詞仍混淆，或推論沒有線索，就回到該篇練習，不必趕進度。這是自我檢核，不是及格分數或 CEFR 認證。</p>
+      <p>這裡不記錄成績，也不因打開頁面就標成「學會」。你可以把一題答案與卡住的句子帶回對話，據此調整下一批教材。</p>
+    </section>
+    <section aria-labelledby="book-title">
+      <h2 id="book-title">開始讀原書時，這樣做</h2>
+      <ol>
+        <li>確認手上的英文譯本與譯者。第一次挑一個短段落，不必先查完所有字。</li>
+        <li>第一遍只記人物、事件與一個疑問。第二遍圈出連接詞、代名詞與支持理解的短語。</li>
+        <li>只查阻礙理解的少量詞，再用中文概述，不逐句翻譯。分開寫「文中明說」與「我的推論」。</li>
+        <li>若仍無法說出發生什麼，縮短閱讀範圍；若能帶著證據說明，再往下讀。讀完整章後回顧人物想法如何改變。</li>
+      </ol>
+      <details><summary>如何選版本，以及本頁的來源界線</summary><div>
+        <p>《小王子》由 Antoine de Saint-Exupéry 以法文寫作；這裡的目標是讀英文譯本。出版社書目中的 Richard Howard 是其中一位英譯者，不代表所有版本都用相同文字。本站目前沒有收錄本書全文，也沒有針對某個譯本提供頁碼答案。</p>
+        <p>若完整譯本負擔太大，可先考慮正式分級改寫版。下列 Penguin Readers 版本由出版社標為 Level 2／A1+，但它是刪節改寫版，不能等同完整譯本的難度。開始這四篇不需要購書。</p>
+        <ul>
+          <li><a href="https://www.penguinrandomhouse.com/books/639583/the-little-prince-by-antoine-de-saint-exupery-translated-by-richard-howard/">PRH：Richard Howard 英譯本書目</a></li>
+          <li><a href="https://www.penguin.co.uk/books/319185/penguin-readers-level-2-the-little-prince-elt-graded-reader/9780241463277">Penguin Readers：分級改寫版書目</a></li>
+          <li><a href="https://learnenglish.britishcouncil.org/free-resources/reading/a1">British Council：初階閱讀活動參考</a></li>
+        </ul>
+        <p>本路線、短文、中文輔助與提問均為本站原創教學設計；官方書目不是全文重製授權。未引用書中段落、台詞或插畫。</p>
+      </div></details>
+    </section>
+  </article>
+</Layout>
+<style>
+  .goal-page { max-width: 850px; padding-block: 2rem 4rem; }
+  h1 { font-size: clamp(2rem, 6vw, 3.8rem); line-height: 1.2; margin-block: 1rem; }
+  .lead { font-size: 1.25rem; } section { margin-top: 3rem; } p, li { line-height: 1.85; }
+  .route { padding-left: 1.4rem; } .route li { padding-left: .5rem; margin-block: 1.3rem; }
+  h3 { margin-bottom: .3rem; } .route p { margin-top: 0; }
+  .readings { list-style: none; padding: 0; } .readings li { border-top: 1px solid var(--line); }
+  .readings a { display: flex; gap: 1rem; align-items: baseline; padding: 1.2rem .2rem; text-decoration: none; color: inherit; }
+  .readings a > div { flex: 1; min-width: 0; } .readings p, .readings h3 { margin: .2rem 0; }
+  details { border: 1px solid var(--line); border-radius: 12px; padding: 1rem; margin-block: 1rem; }
+  summary { cursor: pointer; font-weight: 700; } a { overflow-wrap: anywhere; }
+</style>
