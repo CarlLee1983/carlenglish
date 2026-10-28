@@ -46,3 +46,5 @@
 本機最後內容版本驗收：Astro check 103 檔 0 errors／0 warnings，197 項單元全通過，內容驗證與 production build 203 頁通過，含五個新網址。`git diff --check` 通過；repo 未設定獨立格式命令，未為格式化新增工具或重排無關檔案。
 
 本機 Playwright 官方安裝程式的 Chromium 下載回傳損壞 ZIP，內建嘗試耗盡後停止。新入口的 focused browser test 因缺 Chromium executable 無法執行，非頁面斷言結果；完整瀏覽器與 extension 由精確 PR head CI 補驗。雲端預覽第一次連線時 server 尚未 ready；ready 後同一 tab 的觀測遭 browser URL policy 拒絕，停止未改途徑，桌機／手機人工目視未完成。沒有提升 timeout、跳過既有測試或把未驗項稱通過。
+
+首次 PR CI `40611712291` 找出新增目標卡片擠壓首頁首屏的回歸（`browser.spec.ts:125`：mobile/narrow 的初級入口落在視窗下方）。修正為將目標卡片放在既有程度選單之後、新聞之前；保留原首頁首屏測試、viewport 與所有斷言，沒有放寬門檻。新 head 重新執行完整 CI。擴充驗證亦保持精確 sitemap 集合比對，只加入本批五條合法路由。

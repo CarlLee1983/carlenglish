@@ -38,13 +38,6 @@ const articleGroups = tracks.map((track) => ({
       </div>
       {previewScene && previewImage && <Image class="home-preview" src={previewImage} alt={previewScene.image.alt} width={360} widths={[240, 360, 480, 720]} sizes={`(max-width: 767px) ${160 * previewRatio}px, (max-width: 1000px) 36vw, ${Math.min(360, 240 * previewRatio)}px`} style={`--preview-width: ${240 * previewRatio}px; --preview-mobile-width: ${160 * previewRatio}px;`} format="webp" loading="eager" fetchpriority="high" />}
     </section>
-    <section class="articles-section" aria-labelledby="reading-goal-title">
-      <div class="collection-heading"><h2 id="reading-goal-title">第一個閱讀目標</h2></div>
-      <a class="article-card" href="/goals/little-prince/">
-        <h3>讀懂《小王子》英文譯本</h3>
-        <p>從四篇原創短文練習人物、句間關係與推論，再銜接自己的書。不是原著節選，也不按日期自動升級。</p>
-      </a>
-    </section>
     <section class="level-selection" aria-labelledby="levels-title">
       <div class="collection-heading"><h2 id="levels-title">選擇你的學習程度</h2><p>{scenes.length} 篇生活讀本</p></div>
       <ol class="level-list">
@@ -63,6 +56,13 @@ const articleGroups = tracks.map((track) => ({
     </section>
     <p class="level-help">剛開始讀英文？先從初級試讀，再依閱讀感受調整，隨時可以切換程度。</p>
     <p><a class="vocabulary-entry-link" href="/vocabulary/beginner/">分級單字庫・列印與手機字卡</a></p>
+    <section class="articles-section" aria-labelledby="reading-goal-title">
+      <div class="collection-heading"><h2 id="reading-goal-title">第一個閱讀目標</h2></div>
+      <a class="article-card" href="/goals/little-prince/">
+        <h3>讀懂《小王子》英文譯本</h3>
+        <p>從四篇原創短文練習人物、句間關係與推論，再銜接自己的書。不是原著節選，也不按日期自動升級。</p>
+      </a>
+    </section>
     <section class="articles-section" id="articles" aria-labelledby="articles-title">
       <div class="collection-heading">
         <h2 id="articles-title">新聞與貼文</h2>
