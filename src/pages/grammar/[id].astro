@@ -1,0 +1,22 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { grammarLessons } from '../../data/grammar';
+export function getStaticPaths() { return grammarLessons.map((lesson, index) => ({ params: { id: lesson.id }, props: { lesson, index } })); }
+const { lesson, index } = Astro.props;
+const next = grammarLessons[index + 1];
+---
+<Layout title={`${lesson.title}｜文法區`} description={lesson.focus}>
+  <article class="page-shell grammar-lesson">
+    <a href="/grammar/">← 文法區</a>
+    <header><p class="eyebrow">{lesson.category} · 第 {index + 1} 課 / {grammarLessons.length}</p><h1>{lesson.title}</h1><p class="lead">{lesson.focus}</p></header>
+    <section aria-labelledby="contrast-title"><h2 id="contrast-title">先比較意思</h2><p>{lesson.rule}</p><ol class="examples">{lesson.examples.map((example) => <li><p lang="en">{example.english}</p><details data-example-help><summary>看這一句的中文與差別</summary><p>{example.translation}</p><p>{example.note}</p></details></li>)}</ol><aside aria-label="不要過度套用"><h3>這次先別把規則套太廣</h3><p>{lesson.caution}</p></aside></section>
+    <section aria-labelledby="read-title"><h2 id="read-title">放回短段裡讀</h2><p>以下是本站原創情境，不是原書節選。先讀英文與作答，需要時才展開中文。</p><p class="story" lang="en">{lesson.story}</p><details data-translation><summary>讀過後再看中文輔助</summary><p>{lesson.translation}</p></details></section>
+    <section aria-labelledby="questions-title"><h2 id="questions-title">找線索，再說理由</h2><p>可以用中文回答。不要只填一個介系詞，試著說明它如何改變意思。</p><ol>{lesson.questions.map(({question}) => <li>{question}</li>)}</ol><details data-answers><summary>想過後，再看參考解析</summary><ol>{lesson.questions.map(({answer}) => <li>{answer}</li>)}</ol></details></section>
+    <section aria-labelledby="return-title"><h2 id="return-title">回到正在讀的文章</h2><p>{lesson.check}</p><p>不把這頁當作閱讀前的考試，也不保存成績。若仍分不清，重讀一組對比例句就好。</p></section>
+    <details data-sources><summary>教學依據與來源界線</summary><p>以下來源支持語法說明；例句、短段、中譯與問題由本站原創編寫，不是來源原文搬運。查核日期：2026-10-28。</p><ul>{lesson.sources.map((source) => <li><a href={source.url}>{source.title}</a></li>)}</ul></details>
+    <nav aria-label="文法課程導覽"><a href="/grammar/">回文法區，自選卡點</a>{next && <a href={`/grammar/${next.id}/`}>可選下一課：{next.title} →</a>}<a href="/goals/little-prince/">回全書閱讀目標</a></nav>
+  </article>
+</Layout>
+<style>
+  .grammar-lesson { max-width: 800px; padding-block: 2rem 4rem; } header { margin-block: 2rem; } h1 { font-size: clamp(1.9rem, 5vw, 3rem); line-height: 1.3; } .lead { font-size: 1.2rem; } p, li { line-height: 1.9; } li { margin-block: .8rem; } section { margin-top: 2.5rem; } .examples { padding-left: 1.4rem; } .examples p[lang="en"], .story { font-size: 1.2rem; } .story { padding-block: 1rem; } aside { border-left: 3px solid var(--line); padding-left: 1rem; } details { border: 1px solid var(--line); border-radius: 10px; padding: .9rem; margin-block: 1rem; } summary { font-weight: 700; cursor: pointer; min-height: 24px; } nav { display: flex; flex-wrap: wrap; gap: 1.3rem; margin-top: 2rem; } a { overflow-wrap: anywhere; }
+</style>

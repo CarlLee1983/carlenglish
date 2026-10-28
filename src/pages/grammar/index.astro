@@ -1,0 +1,19 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { grammarLessons } from '../../data/grammar';
+const planned = [['句子結構', '主詞與動作、片語範圍、長句拆讀'], ['時態與動詞', '事件時間、狀態與完成'], ['代詞與限定詞', 'it／they 指誰，a／the 如何指認事物'], ['連接詞與句間關係', 'because／but／although：理由、轉折與讓步'], ['常見搭配', '動詞與介系詞一起讀，辨識固定語塊']];
+---
+<Layout title="文法區：從小詞讀懂句子" description="以情境、對比例句與短篇練習理解英文文法。首批六課介系詞，可按閱讀卡點挑選。">
+  <main class="page-shell grammar-page">
+    <a href="/">← 回首頁</a>
+    <header><p class="eyebrow">閱讀基礎 · 獨立文法區</p><h1>小詞，也改變整句意思。</h1><p class="lead">先看情境，再比較句子。文法不是一張中文對照表，而是理解位置、時間、方法與人物關係的工具。</p></header>
+    <p>這裡獨立於任何一本書。可從第一課試讀，也可依卡點挑一課；練完回到正在讀的文章，不必先通關所有文法才能讀《小王子》。</p>
+    <section aria-labelledby="available-title"><h2 id="available-title">現在可學：介系詞六課</h2><p>建議由具體位置開始，再讀時間、方式與執行者。這是編排順序，不是程度認證或已完成紀錄。</p><ol class="lesson-list">{grammarLessons.map((lesson, index) => <li><a href={`/grammar/${lesson.id}/`}><span>0{index + 1}</span><div><h3>{lesson.title}</h3><p>{lesson.focus}</p></div><span aria-hidden="true">→</span></a></li>)}</ol></section>
+    <section aria-labelledby="method-title"><h2 id="method-title">一課怎麼讀</h2><ol><li>比較例句，只問這次的意思差在哪。</li><li>先讀英文短段，從上下文找出關係。</li><li>自己回答三題，再展開中譯與解析。</li><li>回到原來的閱讀，試著解釋一個相同語塊。</li></ol><p>沒有自動評分或進度保存。需要中文輔助不代表失敗，看過解析也不代表已學會。</p></section>
+    <section aria-labelledby="planned-title"><h2 id="planned-title">後續知識版圖 · 尚未製作課程</h2><ul>{planned.map(([title, focus]) => <li><h3>{title}</h3><p>{focus}。規劃中，尚無可進入的課程。</p></li>)}</ul><p>不因日期累積就自動增加難度；先依閱讀中真正卡住的地方調整下一批內容。</p></section>
+    <p><a href="/goals/little-prince/">回到全書閱讀目標：《小王子》英文譯本 →</a></p>
+  </main>
+</Layout>
+<style>
+  .grammar-page { max-width: 850px; padding-block: 2rem 4rem; } header { margin-block: 2rem; } h1 { font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.2; } .lead { font-size: 1.2rem; } p, li { line-height: 1.85; } section { margin-top: 2.8rem; } .lesson-list { list-style: none; padding: 0; } .lesson-list li { border-top: 1px solid var(--line); } .lesson-list a { display: flex; align-items: baseline; gap: 1rem; padding: 1.1rem .1rem; color: inherit; text-decoration: none; } .lesson-list a > div { flex: 1; min-width: 0; } h3, .lesson-list p { margin: .2rem 0; } a { overflow-wrap: anywhere; }
+</style>

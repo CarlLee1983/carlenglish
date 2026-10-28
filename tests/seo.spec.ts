@@ -1,3 +1,4 @@
+import { grammarPaths } from '../src/data/grammar';
 import { princeGoalPaths } from '../src/data/little-prince-path';
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
@@ -178,7 +179,7 @@ test('crawler endpoints reflect only indexable pages and real available media', 
   expect(sitemapResponse.ok()).toBe(true);
   const sitemap = await sitemapResponse.text();
   const locs = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
-  expect(locs).toEqual([...princeGoalPaths, ...indexed].map((path) => `${site}${path}`));
+  expect(locs).toEqual([...grammarPaths, ...princeGoalPaths, ...indexed].map((path) => `${site}${path}`));
   expect(sitemap).not.toMatch(/lastmod|\/404/);
   for (const loc of locs) expect(new URL(loc).search).toBe('');
   for (const level of learningLevels.filter((candidate) => !populated.includes(candidate))) {
