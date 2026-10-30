@@ -1,0 +1,72 @@
+{
+  "id": "wildlife-photo-positive-action-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "照片能說出保育的好消息嗎？",
+  "titleEn": "Wildlife photo contest adds a hopeful category",
+  "source": {
+    "outlet": "Natural History Museum",
+    "title": "Wildlife Photographer of the Year launches sixty-third competition with boosted prize pot and new category",
+    "url": "https://www.nhm.ac.uk/press-office/press-releases/wildlife-photographer-of-the-year-launches-sixty-third-competiti.html",
+    "publishedAt": "2026-10-19",
+    "accessedAt": "2026-10-27",
+    "eventDate": "2026-10-19",
+    "rewrittenAt": "2026-10-27"
+  },
+  "background": "建議先讀本篇，再讀「龍舌蘭開花前，為什麼要找花粉？」。閱讀目標：從例子理解 category，分辨活動目的與已證實的保育成效。N2 是教材設計級別，不代表讀者已達到此程度。倫敦自然史博物館於 2026 年 10 月 19 日公告徵件，當天也是本屆開放投稿日；本文於 10 月 27 日改寫，不是當日突發新聞。本文不附競賽照片，理解不需看圖。",
+  "paragraphs": [
+    {
+      "english": "A wildlife photography competition opened on October 19, 2026. The Natural History Museum in London announced its sixty-third Wildlife Photographer of the Year competition. Both professional and amateur photographers can take part. Entries close on December 3. One new category asks photographers to look for hopeful stories about nature.",
+      "translation": "一項野生生物攝影競賽於 2026 年 10 月 19 日開放投稿。倫敦自然史博物館宣布舉辦第六十三屆年度野生生物攝影師競賽，專業與業餘攝影者都能參加，投稿於 12 月 3 日截止。其中一個新增類別請攝影者尋找與自然有關、帶來希望的故事。"
+    },
+    {
+      "english": "The category is called Positive Action. According to the museum, pictures could show a conservation success or a connection between people and nature. The aim is to encourage hope and action. This gives photographers a theme, rather than a promise that every environmental problem has been solved.",
+      "translation": "這個類別名為 Positive Action（正向行動）。博物館表示，照片可以呈現保育成功的例子，或人與自然之間的連結，目的是鼓勵人們抱持希望並採取行動。這提供攝影者一個主題，而不是保證所有環境問題都已解決。"
+    },
+    {
+      "english": "However, a hopeful picture must still follow the competition rules. Photographers must put animal welfare first. They must not harm animals or damage their homes to get a picture. The rules also exclude AI-generated images. A strong story should respect both the subject and the truth.",
+      "translation": "不過，帶來希望的照片仍須遵守競賽規則。攝影者必須優先考量動物福祉，不得為了拍照而傷害動物或破壞牠們的棲地。規則也排除 AI 生成的影像。一個有力的故事應同時尊重拍攝對象與真實性。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "amateur",
+      "translation": "業餘的"
+    },
+    {
+      "english": "category",
+      "translation": "類別"
+    },
+    {
+      "english": "conservation",
+      "translation": "保育"
+    },
+    {
+      "english": "rather than",
+      "translation": "而不是"
+    },
+    {
+      "english": "welfare",
+      "translation": "福祉"
+    }
+  ],
+  "questions": [
+    {
+      "question": "用一句中文說出本文主旨。",
+      "answer": "野生生物攝影競賽新增呈現正向保育故事的類別，但參賽照片仍須遵守保護動物與忠於事實的規則。"
+    },
+    {
+      "question": "第二段與第一段是什麼關係？第三段的 However 加上了什麼限制？",
+      "answer": "第二段解釋第一段提到的新增類別；第三段轉而提醒：即使要呈現希望，也不能忽略拍攝倫理與競賽規則。"
+    },
+    {
+      "question": "不看關鍵詞翻譯，Positive Action 與 a theme 如何幫你猜 category 的意思？",
+      "answer": "Positive Action 是一個有名稱的投稿主題；由此可猜 category 是依主題區分的類別，不是某張得獎照片。"
+    },
+    {
+      "question": "新增這個類別，是否證明所有環境問題都已解決？哪一句支持你的答案？",
+      "answer": "不是。第二段的 rather than a promise that every environmental problem has been solved 明說主題並非這種保證；活動想鼓勵行動，也不等於已證實全球保育成效。"
+    }
+  ]
+}

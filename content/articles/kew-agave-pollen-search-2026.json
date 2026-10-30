@@ -1,0 +1,72 @@
+{
+  "id": "kew-agave-pollen-search-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "龍舌蘭開花前，為什麼要找花粉？",
+  "titleEn": "Kew seeks pollen for a flowering agave",
+  "source": {
+    "outlet": "Royal Botanic Gardens, Kew",
+    "title": "UK’s most eligible Agave seeks partner at Kew Gardens as ‘death bloom’ countdown looms",
+    "url": "https://www.kew.org/about-us/press-media/flowering-agave-montana-death-bloom",
+    "publishedAt": "2026-09-24",
+    "accessedAt": "2026-10-27",
+    "eventDate": "2026-09-24",
+    "rewrittenAt": "2026-10-27"
+  },
+  "background": "建議接著「照片能說出保育的好消息嗎？」閱讀，也可獨立閱讀。閱讀目標：分辨已觀察到的花莖與仍在期待的種子，留意希望和結果的差別。N2 是教材設計級別，不是能力測驗結果。本文取材自邱園 2026 年 9 月 24 日公告；事件日期採尋找花粉的公告日，不是確定的開花起始日。未確認截至 10 月 27 日是否已找到花粉、開花或結籽，因此只敘述公告當時的狀態。",
+  "paragraphs": [
+    {
+      "english": "On September 24, 2026, Kew Gardens in London announced an unusual search. Its gardeners wanted pollen from another mountain agave, a plant native to Mexico. Their own plant had grown a flower stalk more than two metres tall. They hoped to use the pollen to help it produce seeds.",
+      "translation": "2026 年 9 月 24 日，倫敦邱園宣布展開一項不尋常的尋找行動。園藝人員想取得另一株山地龍舌蘭的花粉，這種植物原生於墨西哥。園內那株龍舌蘭已長出超過兩公尺高的花莖，他們希望利用花粉幫助它產生種子。"
+    },
+    {
+      "english": "Why was this important? According to Kew, this plant had been planted about twenty years earlier. It was preparing for a single flowering cycle, after which it would die. The tall stalk was a sign of this change. Producing seeds could help start a new generation.",
+      "translation": "這為什麼重要？邱園表示，這株植物約在二十年前種下。它正在準備一生中唯一一次的開花週期，之後便會死亡。高高的花莖正是這項變化的徵兆。產生種子有機會帶來新一代植株。"
+    },
+    {
+      "english": "Gardeners can move pollen onto flowers by hand, using small brushes. Kew staff were looking for suitable pollen from another plant of the same species. But finding pollen and producing healthy seeds were still goals in the announcement. A growing stalk was something they had observed; successful seed production was not yet a reported result.",
+      "translation": "園藝人員可以用小刷子，親手將花粉移到花朵上。邱園人員當時正在尋找同種另一株植物的適用花粉。不過，在那份公告中，找到花粉和產生健康種子仍是目標。生長中的花莖是他們已觀察到的事；成功產生種子則還不是已公布的結果。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "pollen",
+      "translation": "花粉"
+    },
+    {
+      "english": "stalk",
+      "translation": "莖、花莖"
+    },
+    {
+      "english": "generation",
+      "translation": "世代"
+    },
+    {
+      "english": "species",
+      "translation": "物種"
+    },
+    {
+      "english": "observed",
+      "translation": "觀察到"
+    }
+  ],
+  "questions": [
+    {
+      "question": "本文的尋找行動是為了什麼？請分清目標與結果。",
+      "answer": "園藝人員尋找同種另一株龍舌蘭的花粉，希望幫助園內植株產生種子；本文沒有說這個目標已達成。"
+    },
+    {
+      "question": "第二段如何解釋第一段的尋找行動？第三段又補上什麼？",
+      "answer": "第二段說明這株植物將在一次開花週期後死亡，因此種子可延續下一代；第三段補充人工授粉的方法，以及當時尚未確認的結果。"
+    },
+    {
+      "question": "不看關鍵詞翻譯，new generation 在第二段指的是什麼？哪些文字能幫助判斷？",
+      "answer": "指由種子長出的下一代植株。Producing seeds 和前面提到原植株會死亡，提供了判斷線索。"
+    },
+    {
+      "question": "能否從本文推論邱園在 10 月 27 日已成功取得種子？請找出依據。",
+      "answer": "不能。本文描述 9 月 24 日公告，第三段明說成功產生種子當時還不是已公布的結果；本文沒有提供後續是否成功的證據。"
+    }
+  ]
+}
