@@ -1,0 +1,57 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import { bridgeReadings, princePath } from '../../../data/little-prince-path';
+export function getStaticPaths() { return bridgeReadings.map((reading, index) => ({ params: { id: reading.id }, props: { reading, index } })); }
+const { reading, index } = Astro.props;
+const next = bridgeReadings[index + 1];
+const previous = bridgeReadings[index - 1];
+const words = reading.paragraphs.join(' ').split(/\s+/).length;
+---
+<Layout title={`${reading.title}｜《小王子》按需補強`} description={reading.focus}>
+  <article class="page-shell bridge-page">
+    <a href={princePath}>← 第一個閱讀目標</a>
+    <header>
+      <p class="eyebrow">按需補強短文 {index + 1} / {bridgeReadings.length} · 約 {words} 字</p>
+      <h1 lang="en">{reading.titleEn}</h1>
+      <p class="title-zh">{reading.title}</p>
+      <p>{reading.focus}</p>
+      <p class="boundary">不是《小王子》的原文、翻譯或改寫。{reading.connection}</p>
+    </header>
+    <section aria-labelledby="story-title">
+      <h2 id="story-title">先讀英文</h2>
+      <p class="instruction">先抓大意，不急著查每個字。讀完試著回答下面的問題，再開提示與中譯。</p>
+      <div class="story" lang="en">{reading.paragraphs.map((paragraph) => <p>{paragraph}</p>)}</div>
+      <details data-hint><summary>需要時看三個提示詞</summary><dl>{reading.words.map((word) => <div><dt lang="en">{word.english}</dt><dd>{word.meaning}</dd></div>)}</dl></details>
+      <details data-translation><summary>讀過後再看中文輔助</summary><div>{reading.translations.map((translation) => <p>{translation}</p>)}</div></details>
+    </section>
+    <section aria-labelledby="questions-title">
+      <h2 id="questions-title">用文字支持你的理解</h2>
+      <p>可用中文回答。請先找一句或一個短語當線索，再說自己的理解；沒有標準措辭，也不自動評分。</p>
+      <ol class="questions">{reading.questions.map(({question}) => <li>{question}</li>)}</ol>
+      <details data-answers><summary>完成思考後，查看參考思路</summary><ol>{reading.questions.map(({answer}) => <li>{answer}</li>)}</ol></details>
+    </section>
+    <section class="self-check" aria-labelledby="check-title">
+      <h2 id="check-title">關掉解析，自己試一次</h2>
+      <p>{reading.check}</p>
+      <p>如果還需要中文，沒關係。只重讀相關段落，找出一個先前沒注意的線索。這個頁面不把「看過」算成「讀懂」，也不保存成績。</p>
+    </section>
+    <p><a href={`${princePath}#book-title`}>回到原書：接著讀剛才的章節 →</a></p>
+    <nav class="reading-nav" aria-label="其他補強練習">
+      {previous && <a href={`${princePath}${previous.id}/`}>← 上一篇：{previous.title}</a>}
+      {next ? <a href={`${princePath}${next.id}/`}>其他補強：{next.title} →</a> : <a href={`${princePath}#book-title`}>回到主線：繼續讀自己的譯本 →</a>}
+    </nav>
+  </article>
+</Layout>
+<style>
+  .bridge-page { max-width: 800px; padding-block: 2rem 4rem; }
+  header { margin-block: 2rem; } h1 { font-size: clamp(2rem, 6vw, 3.3rem); line-height: 1.2; margin-block: .6rem; }
+  .title-zh { font-size: 1.2rem; } p { margin-block: .8rem; line-height: 1.85; }
+  .boundary, .instruction { color: var(--muted); } section { margin-top: 2.5rem; }
+  .story { font-size: 1.2rem; line-height: 1.9; margin-block: 1.4rem; }
+  details { border: 1px solid var(--line); border-radius: 12px; padding: 1rem; margin-block: 1rem; }
+  summary { cursor: pointer; font-weight: 700; } li { line-height: 1.9; padding-left: .2rem; margin-block: .9rem; }
+  dl > div { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin-block: .5rem; } dt { font-weight: 700; } dd { margin: 0; }
+  .self-check { background: var(--panel); padding: 1.3rem; border-radius: 12px; }
+  .reading-nav { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1.4rem; margin-top: 2.5rem; }
+  a { overflow-wrap: anywhere; }
+</style>

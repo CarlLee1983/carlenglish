@@ -1,0 +1,344 @@
+{
+  "id": "exchanging-damaged-item",
+  "title": "商品瑕疵要求換貨",
+  "titleEn": "Exchanging a Defective Product",
+  "category": "購物消費",
+  "level": "初級至初中級",
+  "image": {
+    "src": "/images/scenes/exchanging-damaged-item.webp",
+    "alt": "在電器生活館服務台前，顧客出示發票與檯燈包裝盒，店員親切檢查並協助辦理換新品。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "not-working",
+      "english": "not working",
+      "translation": "無法運作／故障",
+      "audio": {
+        "src": "/audio/phrases/exchanging-damaged-item-not-working.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "df19064d96673a4c6aa65516690233cb04499cc829d0db538e2256382146aa96",
+        "sha256": "8533c30d3bf0a0a3f6131efeab4c6c7adeca21ba677abb8c4fb1ef9048479f41"
+      }
+    },
+    {
+      "id": "purchase-receipt",
+      "english": "purchase receipt",
+      "translation": "購買發票／收據",
+      "audio": {
+        "src": "/audio/phrases/exchanging-damaged-item-purchase-receipt.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2f77aa680d3504dc6f91927a97d205ebacb9fe992498ee8cc18b122c87a2e6a9",
+        "sha256": "d3d0bff6556c06baf545dd5c1c063d0b6d6596bc6953cf67294ec9e0868377f8"
+      }
+    },
+    {
+      "id": "inside-the-box",
+      "english": "inside the box",
+      "translation": "在盒子內部",
+      "audio": {
+        "src": "/audio/phrases/exchanging-damaged-item-inside-the-box.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "80245b35b9e93114479f81fbf2413369d525a4443abf862be84dda4d2ee1c3f5",
+        "sha256": "1d6a04f95738724cbfbb44e4d48e0ee9be5b49d2440aea653baf37c19dc2fa15"
+      }
+    },
+    {
+      "id": "exchange-for-a-new-one",
+      "english": "exchange for a new one",
+      "translation": "換一個全新的",
+      "audio": {
+        "src": "/audio/phrases/exchanging-damaged-item-exchange-for-a-new-one.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0de1cefe610ed31a5ac38d656518ea9242d5a3614e232c472cefecefc2dd96c1",
+        "sha256": "091c00c9af2eeddb952030a402efb68f8f70e7b31aa6ea95595c3156f319469c"
+      }
+    },
+    {
+      "id": "test-it-right-here",
+      "english": "test it right here",
+      "translation": "當場進行測試",
+      "audio": {
+        "src": "/audio/phrases/exchanging-damaged-item-test-it-right-here.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bff63b0a7a11a78097ed88be95891c3bff5167a3a3808c91ea9f2547547cbc53",
+        "sha256": "278b1afcd62027eafd099dfd3a2f05afff80274812868dc7057e6c1f339daf48"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "problem",
+      "english": "problem",
+      "translation": "問題；困難",
+      "example": "Tell me if you have any problem with the laptop.",
+      "audio": {
+        "src": "/audio/words/exchanging-damaged-item-problem.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "47a49356720831b66f38bbe12c06e6cf71a67277b1f5e6a28593e73afde6f226",
+        "sha256": "b9a9c6535d8444cb7645f5fe4ad9458721463d1d63d114ba72ce9cea3ab87655"
+      }
+    },
+    {
+      "id": "receipt",
+      "english": "receipt",
+      "translation": "收據；發票",
+      "example": "Keep your receipt in case you want to return the shoes.",
+      "audio": {
+        "src": "/audio/words/exchanging-damaged-item-receipt.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6f32860910ca0fb2a20c7fda143666b09dbf8db5238195c90a586fb542ff0cad",
+        "sha256": "a057c25f8b9cb88eb3f94a922f80a7dbfd68a71f80fcf2f4287010253fdccc6a"
+      }
+    },
+    {
+      "id": "exchange",
+      "english": "exchange",
+      "translation": "交換；換貨",
+      "example": "Can I exchange this sweater for a different size?",
+      "audio": {
+        "src": "/audio/words/exchanging-damaged-item-exchange.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ab27b729d9cc4cb1c00960700446924159e9298d0f952aee3d55408b8e0b1b71",
+        "sha256": "65bfb0cbb2b6306d9ef571c34b1e2802966f68941255c11a7b67747b8057238c"
+      }
+    },
+    {
+      "id": "replace",
+      "english": "replace",
+      "translation": "替換；更換",
+      "example": "The worker replaced the broken glass door.",
+      "audio": {
+        "src": "/audio/words/exchanging-damaged-item-replace.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7ab3778776cde4fa728a162a53ad3abcc967d1bd7361039e0942888240c4ce86",
+        "sha256": "8db50f76ae9df2614f227ab71a7caedad67d2696c917b206fcea91427ec106f0"
+      }
+    },
+    {
+      "id": "new",
+      "english": "new",
+      "translation": "新的",
+      "example": "He bought a brand new bicycle for school.",
+      "audio": {
+        "src": "/audio/words/exchanging-damaged-item-new.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "11507a0e2f5e69d5dfa40a62a1bd7b6ee57e6bcd85c67c9b8431b36fff21c437",
+        "sha256": "f1b7991883b7b27eea3de49df7ca44d1d4fd3716b6a83d37e8c31c128b07fbf5"
+      }
+    },
+    {
+      "id": "bring",
+      "english": "bring",
+      "translation": "攜帶；帶來",
+      "example": "Please bring an umbrella because it might rain.",
+      "audio": {
+        "src": "/audio/words/exchanging-damaged-item-bring.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4311902217ad5aa4d9664f8dbacaa8bf6fe6b78ff9b5b512599f0b62da19d8d6",
+        "sha256": "9b995c514641503841d5b8214996f33247ce2f8290c4921160fec8c0017ba3cc"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Hello, I bought this desk lamp yesterday, but there is a "
+        },
+        {
+          "text": "problem",
+          "wordIds": [
+            "problem"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "你好，我昨天買了這台檯燈，但它好像有點問題。",
+      "audio": {
+        "src": "/audio/sentences/exchanging-damaged-item/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a65845b1ef0d9c52be5a908356eb924eed049f1fa71ce0f179babd6899717243",
+        "sha256": "edfc26606d03645b5dfa578e7fb295f191c992131533a7cf2cef1cdb2cd817b4"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "When I plugged it into the wall socket, the switch was "
+        },
+        {
+          "text": "not working",
+          "phraseIds": [
+            "not-working"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "當我插上牆壁插座時，開關完全沒有反應壞掉了。",
+      "audio": {
+        "src": "/audio/sentences/exchanging-damaged-item/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f9b124e5621bb0f825b834071e7046b8a0ba8b20af47cd19c274909e2402ab73",
+        "sha256": "3beff09e55734c873988ae231257e276884e29eecb964ac9346664604bf60e56"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Did you "
+        },
+        {
+          "text": "bring",
+          "wordIds": [
+            "bring"
+          ]
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "purchase ",
+          "phraseIds": [
+            "purchase-receipt"
+          ]
+        },
+        {
+          "text": "receipt",
+          "phraseIds": [
+            "purchase-receipt"
+          ],
+          "wordIds": [
+            "receipt"
+          ]
+        },
+        {
+          "text": " and the original box?"
+        }
+      ],
+      "translation": "請問您有帶當初購買的原店發票和商品外盒嗎？",
+      "audio": {
+        "src": "/audio/sentences/exchanging-damaged-item/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "06a3eccc379ecdb14227bb58ad421e6771c681ab471933c8490548f97982709c",
+        "sha256": "d7c2d55bd2e455c6501ba7636960c9590e64912034b3d9799e6b006eef1f5ecc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yes, here is the paper "
+        },
+        {
+          "text": "receipt",
+          "wordIds": [
+            "receipt"
+          ]
+        },
+        {
+          "text": " and all the accessories "
+        },
+        {
+          "text": "inside the box",
+          "phraseIds": [
+            "inside-the-box"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "有的，紙本發票和盒子裡的所有配件都在這裡。",
+      "audio": {
+        "src": "/audio/sentences/exchanging-damaged-item/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6a9804556498229398c6b7c3ccd3a1f41c69575127645ae3b82fd5b0f9a47d9c",
+        "sha256": "801a1ed891eff4ce7f49a0ce963fba89c69709aab75ad5bb01e5402074e9e5c6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We can "
+        },
+        {
+          "text": "exchange",
+          "phraseIds": [
+            "exchange-for-a-new-one"
+          ],
+          "wordIds": [
+            "exchange"
+          ]
+        },
+        {
+          "text": " for a ",
+          "phraseIds": [
+            "exchange-for-a-new-one"
+          ]
+        },
+        {
+          "text": "new",
+          "phraseIds": [
+            "exchange-for-a-new-one"
+          ],
+          "wordIds": [
+            "new"
+          ]
+        },
+        {
+          "text": " one",
+          "phraseIds": [
+            "exchange-for-a-new-one"
+          ]
+        },
+        {
+          "text": " immediately for you."
+        }
+      ],
+      "translation": "我們可以立刻幫您換一台全新同款的檯燈。",
+      "audio": {
+        "src": "/audio/sentences/exchanging-damaged-item/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d6787014a6e7d05be37875ec420ef6ce5fa3ed2aeb8cd7d1aad09a3fb8c46944",
+        "sha256": "9c241ebd7a76a95f29e7b9dcb92962b3222ff29567c3a56587abe55b4c866d07"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Let me "
+        },
+        {
+          "text": "replace",
+          "wordIds": [
+            "replace"
+          ]
+        },
+        {
+          "text": " the unit and "
+        },
+        {
+          "text": "test it right here",
+          "phraseIds": [
+            "test-it-right-here"
+          ]
+        },
+        {
+          "text": " to be sure."
+        }
+      ],
+      "translation": "讓我幫您更換新品並當場進行測試，確保一切正常。",
+      "audio": {
+        "src": "/audio/sentences/exchanging-damaged-item/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a523c4993f4f4831af44ca7675138da8cae8a100380e723c5169722b6ecc2a0f",
+        "sha256": "c00fff5c9803bcdd2e59777f693c62c4ac4f0b7fbf6d8b9ba2e368006bfda993"
+      }
+    }
+  ]
+}

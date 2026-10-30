@@ -1,0 +1,446 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/using-atm-cash-withdrawal/1.mp3",
+      "text": "I need to stop by the bank ATM to withdraw cash before going to the market.",
+      "textSha256": "c736d1d5a3e80fc4ee24dc1723fb48e4a8e22acd0828a19cc58aec89af3e51f4"
+    },
+    {
+      "src": "/audio/sentences/using-atm-cash-withdrawal/2.mp3",
+      "text": "Insert your debit card into the slot and choose your language on the screen.",
+      "textSha256": "e730ad6d3f54c11bd892aeba84b53fb416db7d85db463fef35695e3ff062567b"
+    },
+    {
+      "src": "/audio/sentences/using-atm-cash-withdrawal/3.mp3",
+      "text": "Please enter your secret six-digit security code carefully on the keypad.",
+      "textSha256": "1d0c8b192509db288c3b9b70d0e848620aa6cbd42a8c5d2f58001c56fca85259"
+    },
+    {
+      "src": "/audio/sentences/using-atm-cash-withdrawal/4.mp3",
+      "text": "Press the button to withdraw two thousand dollars from your savings account.",
+      "textSha256": "ed4449de2ab91d0e1fe52873d99d444361c7fee3923f1f9c9c6246bf42c0616c"
+    },
+    {
+      "src": "/audio/sentences/using-atm-cash-withdrawal/5.mp3",
+      "text": "Do not forget to take your bank card before the machine dispenses the paper money.",
+      "textSha256": "3396ca8e4fb86360ad3e420d4b5d8c12315171de1835ba83cd1f59b02db709dd"
+    },
+    {
+      "src": "/audio/sentences/using-atm-cash-withdrawal/6.mp3",
+      "text": "The printed transaction receipt shows your remaining account balance accurately.",
+      "textSha256": "99f376824307e3398f22a78433ceefcb933e8f6fd228177d6bc6ca7fa59866a8"
+    },
+    {
+      "src": "/audio/phrases/using-atm-cash-withdrawal-withdraw-cash.mp3",
+      "text": "withdraw cash",
+      "textSha256": "2de0bad9482e06378d928b1673a17d78ac635d3c775dc1e6db52d6e6405917f8"
+    },
+    {
+      "src": "/audio/phrases/using-atm-cash-withdrawal-insert-your-debit-card.mp3",
+      "text": "Insert your debit card",
+      "textSha256": "6d8916dc4b6ef122bdf85f9b30b50c8fa6b08f1bb3ec2534567e0ead16ecbdbe"
+    },
+    {
+      "src": "/audio/phrases/using-atm-cash-withdrawal-security-code.mp3",
+      "text": "security code",
+      "textSha256": "65e4d49ff84acb1ad03719a46627eb72085f7c8360fb3366d9c272690564b8a4"
+    },
+    {
+      "src": "/audio/phrases/using-atm-cash-withdrawal-from-your-savings-account.mp3",
+      "text": "from your savings account",
+      "textSha256": "a260687e56768ce8da4d548591b6a7b6882b4811826bb4f98cfa9e8d55eff9db"
+    },
+    {
+      "src": "/audio/phrases/using-atm-cash-withdrawal-account-balance.mp3",
+      "text": "account balance",
+      "textSha256": "abc64653a6a1df0883b31baba33054aa2c4e146b2d38208d124480c055ef8c81"
+    },
+    {
+      "src": "/audio/words/using-atm-cash-withdrawal-cash.mp3",
+      "text": "cash",
+      "textSha256": "ab0fcec08e18a7bccda1e81df4974e3434fcd36000518f7e776fb85495b5a494"
+    },
+    {
+      "src": "/audio/words/using-atm-cash-withdrawal-account.mp3",
+      "text": "account",
+      "textSha256": "9af211329b2fc82e5efe906062c730082819b23fe8394bc435e0b1bf0458eb54"
+    },
+    {
+      "src": "/audio/words/using-atm-cash-withdrawal-balance.mp3",
+      "text": "balance",
+      "textSha256": "5751e048eb6fee3eb9bb4ea70f107f19c35863766bee5100044e52ab60d9edcf"
+    },
+    {
+      "src": "/audio/words/using-atm-cash-withdrawal-money.mp3",
+      "text": "money",
+      "textSha256": "8d2ac8b58ead9744d77286de9b0bcb7a894f238c3149fc9f3b1e3caff36330fe"
+    },
+    {
+      "src": "/audio/words/using-atm-cash-withdrawal-thousand.mp3",
+      "text": "thousand",
+      "textSha256": "a0af3a48cfad1fc07404057448c003c6ee6b7b0bba6f39d6775752486baf35de"
+    },
+    {
+      "src": "/audio/words/using-atm-cash-withdrawal-enter.mp3",
+      "text": "enter",
+      "textSha256": "e08d706b3e4ce964b632746cf568913cb93f1ed36476fbb0494b80ed17c5975c"
+    },
+    {
+      "src": "/audio/sentences/asking-for-change-at-counter/1.mp3",
+      "text": "Excuse me counter clerk, could you please break this thousand-dollar bill for me?",
+      "textSha256": "293ef1637fc34d91c0afa7224ce65b9452ad42024759704ffe0d83ec53969f62"
+    },
+    {
+      "src": "/audio/sentences/asking-for-change-at-counter/2.mp3",
+      "text": "I need small coins to use the self-service laundry machines down the street.",
+      "textSha256": "ffe750bf3c749145c005714d139045c427599c871d77412fd49af821543f5a7b"
+    },
+    {
+      "src": "/audio/sentences/asking-for-change-at-counter/3.mp3",
+      "text": "Certainly, how would you like your change divided today?",
+      "textSha256": "09657885cf863e989a2fec4df09e66fb0a88d23803415ad8a2571a1f1eb70444"
+    },
+    {
+      "src": "/audio/sentences/asking-for-change-at-counter/4.mp3",
+      "text": "Could I have nine hundred-dollar bills and twenty ten-dollar coins, please?",
+      "textSha256": "4fd190ed70c2edf7fd1103bc21474d8bef67a6dc59ddba31c2267b05565a2062"
+    },
+    {
+      "src": "/audio/sentences/asking-for-change-at-counter/5.mp3",
+      "text": "The friendly clerk counted each coin out loud on the glass counter.",
+      "textSha256": "bc2dddb7c5fa80af402e6db32af697205fed978c26121b36257dbb6870f13c35"
+    },
+    {
+      "src": "/audio/sentences/asking-for-change-at-counter/6.mp3",
+      "text": "Everything is exact and correct, thank you so much for your kind assistance!",
+      "textSha256": "036e648ed8858264a983f81078dd9c7e0dba14235c52d793be2568c2ce963ac3"
+    },
+    {
+      "src": "/audio/phrases/asking-for-change-at-counter-break-this-thousand-dollar-bill.mp3",
+      "text": "break this thousand-dollar bill",
+      "textSha256": "e0272412d7a3d5e9f53142641c60d802740296ff7d87ce77d13d15a396512e1a"
+    },
+    {
+      "src": "/audio/phrases/asking-for-change-at-counter-self-service-laundry.mp3",
+      "text": "self-service laundry",
+      "textSha256": "84b833560376d5686211e74a52d8bbde8721431aeb925a77e4464a2e00bb4bd5"
+    },
+    {
+      "src": "/audio/phrases/asking-for-change-at-counter-how-would-you-like-your-change.mp3",
+      "text": "how would you like your change",
+      "textSha256": "10df07fe8265e981dadde96f3dfbca99c13b7205cd21cc7ee2c0cb75eac62584"
+    },
+    {
+      "src": "/audio/phrases/asking-for-change-at-counter-hundred-dollar-bills.mp3",
+      "text": "hundred-dollar bills",
+      "textSha256": "3a68f16e3c0e3bd044bf0eac20374ffc65df2f7de979d0119758c82cb913d602"
+    },
+    {
+      "src": "/audio/phrases/asking-for-change-at-counter-counted-each-coin-out-loud.mp3",
+      "text": "counted each coin out loud",
+      "textSha256": "924730c4a3e68f6b5237aefa3d23ed402c27df832b8b27ad6c4a4f892db2045b"
+    },
+    {
+      "src": "/audio/words/asking-for-change-at-counter-bill.mp3",
+      "text": "bill",
+      "textSha256": "623210167553939c87ed8c5f2bfe0b3e0684e12c3a3dd2513613c4e67263b5a1"
+    },
+    {
+      "src": "/audio/words/asking-for-change-at-counter-coin.mp3",
+      "text": "coin",
+      "textSha256": "b3a1984ba0b1d8ad7f9dc881dfd9c9dc78c76c647a7692fbbfd6fcdcb9d9a121"
+    },
+    {
+      "src": "/audio/words/asking-for-change-at-counter-hundred.mp3",
+      "text": "hundred",
+      "textSha256": "97fe8a374906993133a2a9f4c9667ce253c107760d79c049cdf95788b0b7a83a"
+    },
+    {
+      "src": "/audio/words/asking-for-change-at-counter-twenty.mp3",
+      "text": "twenty",
+      "textSha256": "7c2c4df740f720b0c861920dc27692c4d4b5daa65d6330a593c931d35f8ac737"
+    },
+    {
+      "src": "/audio/words/asking-for-change-at-counter-counter.mp3",
+      "text": "counter",
+      "textSha256": "efe899c74558f20b08bbc19bf0228c0c25bddb7871d80bd34ac8b33c030b3698"
+    },
+    {
+      "src": "/audio/words/asking-for-change-at-counter-clerk.mp3",
+      "text": "clerk",
+      "textSha256": "c40dc72b0228e5850d8b173ff861a48acfb4a15b37b2849cbb6584bbadbc7907"
+    },
+    {
+      "src": "/audio/sentences/tracking-daily-budget/1.mp3",
+      "text": "Let us sit down together and review our total budget for the weekend camping trip.",
+      "textSha256": "f531a5185e7b38ef43fe813e070c041ce65ac7d670e40792eb1f21bb09515ef8"
+    },
+    {
+      "src": "/audio/sentences/tracking-daily-budget/2.mp3",
+      "text": "We spent money on fresh food and fifty dollars on tent rental equipment.",
+      "textSha256": "b332a4930b4a5b4f5449dbb4f7539f1cf4fc53ba35545f2d33c7cbf5fb52d2f8"
+    },
+    {
+      "src": "/audio/sentences/tracking-daily-budget/3.mp3",
+      "text": "Buying the cooking charcoal in a bundle deal saved us twenty dollars.",
+      "textSha256": "57e7b25d0e15ed53d0f7e463c34a382cad3c3fd2a932f83a4b5d64f1ca54ecfb"
+    },
+    {
+      "src": "/audio/sentences/tracking-daily-budget/4.mp3",
+      "text": "What was the final total cost when we combine all the receipts together?",
+      "textSha256": "0218513c8f2c336fa83a97d795b423d4c3ebb09e5ac11a2242daeeb09cd2b0a4"
+    },
+    {
+      "src": "/audio/sentences/tracking-daily-budget/5.mp3",
+      "text": "The total comes to two hundred dollars, so each person pays fifty dollars.",
+      "textSha256": "b12b1b952e749654fd1bf73a0604a2891b3e4f9e3cdf74beee3518a6de42d13c"
+    },
+    {
+      "src": "/audio/sentences/tracking-daily-budget/6.mp3",
+      "text": "We share the expenses equally and it was worth every single dollar we spent.",
+      "textSha256": "ee30e07f3170ad3bb943c66abaf92379ce24bc653294782c8792034791c08f29"
+    },
+    {
+      "src": "/audio/phrases/tracking-daily-budget-review-our-total-budget.mp3",
+      "text": "review our total budget",
+      "textSha256": "c1384f81363d8829a9348a19ebb5da9fc4116e0aa80ffe8a6e51794a2db25533"
+    },
+    {
+      "src": "/audio/phrases/tracking-daily-budget-spent-money-on.mp3",
+      "text": "spent money on",
+      "textSha256": "90081cd4b49df16e10328955ea80e5049cd42de01425a3923359e5dd617127c2"
+    },
+    {
+      "src": "/audio/phrases/tracking-daily-budget-bundle-deal.mp3",
+      "text": "bundle deal",
+      "textSha256": "05f440049c68adf21771ddb184be88180b20b398124923a6e595da3bb29d1ff4"
+    },
+    {
+      "src": "/audio/phrases/tracking-daily-budget-final-total-cost.mp3",
+      "text": "final total cost",
+      "textSha256": "cf85fb17e5a1545d421c27b8051c2ed42c0ed8bb31a0b9174edc65f12dbabbc8"
+    },
+    {
+      "src": "/audio/phrases/tracking-daily-budget-each-person-pays.mp3",
+      "text": "each person pays",
+      "textSha256": "e1e23b2544566ab0a0720dc0b15828a33fa460b7c97d97a30694c73ef99ca3a1"
+    },
+    {
+      "src": "/audio/words/tracking-daily-budget-budget.mp3",
+      "text": "budget",
+      "textSha256": "0af96a8ed622a394e8b2a239284ee46e9a7a7b0ec38191bbd08571b171118dd6"
+    },
+    {
+      "src": "/audio/words/tracking-daily-budget-spend.mp3",
+      "text": "spend",
+      "textSha256": "f64a33ff88c38111769d86b2679168f7cdabcaa7c9c20cbb51aa0a3a506a8717"
+    },
+    {
+      "src": "/audio/words/tracking-daily-budget-total.mp3",
+      "text": "total",
+      "textSha256": "11239872d178729acc9e5aeaf7fc001a0ffd878c922330be43712b9b3be043a7"
+    },
+    {
+      "src": "/audio/words/tracking-daily-budget-deal.mp3",
+      "text": "deal",
+      "textSha256": "f96c94f287038f69433b5a9a759654085e09564156ec90b1c8c754c8c001dc18"
+    },
+    {
+      "src": "/audio/words/tracking-daily-budget-share.mp3",
+      "text": "share",
+      "textSha256": "c3bc45ac352fe43ff8f0a1cc26d6cc29f71f536dc417906f8513ea44ed4bb161"
+    },
+    {
+      "src": "/audio/words/tracking-daily-budget-worth.mp3",
+      "text": "worth",
+      "textSha256": "c0a6eb55b12b7dfe01d9e55f4563eeefe13bd7ef7d7d576fdd8a9977d7a09f5d"
+    },
+    {
+      "src": "/audio/sentences/mobile-payment-help/1.mp3",
+      "text": "I am trying to pay for my breakfast sandwich using the mobile payment app.",
+      "textSha256": "12ede15f57087c3382e0d4ccf2db86e2422f4be5457939bab0e4450aa34c2b1c"
+    },
+    {
+      "src": "/audio/sentences/mobile-payment-help/2.mp3",
+      "text": "The scanner beeped twice with an error message because the screen brightness was too low.",
+      "textSha256": "783342607f1b0e0e707ce8b5346af2947baaa0e98f2edae5acd1ce9b19837b45"
+    },
+    {
+      "src": "/audio/sentences/mobile-payment-help/3.mp3",
+      "text": "Let me refresh the payment barcode and try scanning it one more time.",
+      "textSha256": "a1d3e8f47ec4d22e7335b234618279080d23d2be13aa619242544fc6ca3cb779"
+    },
+    {
+      "src": "/audio/sentences/mobile-payment-help/4.mp3",
+      "text": "It still shows a connection timeout error on the cash register system.",
+      "textSha256": "f03f54ca8f5fb2655c56bed0cf58b6b0b6cba918d42338f6540ac8d7547a245b"
+    },
+    {
+      "src": "/audio/sentences/mobile-payment-help/5.mp3",
+      "text": "No problem at all, I have exact cash inside my pocket wallet.",
+      "textSha256": "db1875f54549a9b9a0e80fe55302d7dfe7727b644731d5a13908c69e2767618c"
+    },
+    {
+      "src": "/audio/sentences/mobile-payment-help/6.mp3",
+      "text": "Here is seventy dollars in cash, thank you for being patient while I tried.",
+      "textSha256": "3faa3a0207e5c1b418eafc170ae1d41da6013e46af54a87640c10895a82ad8b1"
+    },
+    {
+      "src": "/audio/phrases/mobile-payment-help-mobile-payment-app.mp3",
+      "text": "mobile payment app",
+      "textSha256": "175f1d2bffaec0a30797741ddc46669ca68042847dfb8372c6db75be4ea2cbd5"
+    },
+    {
+      "src": "/audio/phrases/mobile-payment-help-error-message.mp3",
+      "text": "error message",
+      "textSha256": "3e61f0fc7c138fb1f52d506281f92460a351a487148518b310a2f13773215c84"
+    },
+    {
+      "src": "/audio/phrases/mobile-payment-help-screen-brightness.mp3",
+      "text": "screen brightness",
+      "textSha256": "dcb1aa9ca3220342d69d96c2c0845465bfe0407b0795ae58052c46dfc9304880"
+    },
+    {
+      "src": "/audio/phrases/mobile-payment-help-exact-cash.mp3",
+      "text": "exact cash",
+      "textSha256": "108c95c1cf6ee97486b26fde9d3f30ba600bec4e75c0dd36cc67f1582070f5d0"
+    },
+    {
+      "src": "/audio/phrases/mobile-payment-help-thank-you-for-being-patient.mp3",
+      "text": "thank you for being patient",
+      "textSha256": "e1f2abdca7d3af6f45d1afa1366b6593f7f81f0ea383e120e7a8a3e7fe45346b"
+    },
+    {
+      "src": "/audio/words/mobile-payment-help-wallet.mp3",
+      "text": "wallet",
+      "textSha256": "e8d44050873dba865aa7c170ab4cce64d90839a34dcfd6cf71d14e0205443b1b"
+    },
+    {
+      "src": "/audio/words/mobile-payment-help-error.mp3",
+      "text": "error",
+      "textSha256": "ca00fccfb408989eddc401062c4d1219a6aceb6b9b55412357f1790862e8f178"
+    },
+    {
+      "src": "/audio/words/mobile-payment-help-pay.mp3",
+      "text": "pay",
+      "textSha256": "9350872d712a127c494d7dc35e46b0bc9e62e288239708e581dfc3a1400154a4"
+    },
+    {
+      "src": "/audio/words/mobile-payment-help-system.mp3",
+      "text": "system",
+      "textSha256": "bbc5e661e106c6dcd8dc6dd186454c2fcba3c710fb4d8e71a60c93eaf077f073"
+    },
+    {
+      "src": "/audio/words/mobile-payment-help-try.mp3",
+      "text": "try",
+      "textSha256": "1e262cd7d110812f5726055a6e672b92cde43648b76adff51a12441fbdf7e667"
+    },
+    {
+      "src": "/audio/words/mobile-payment-help-cash.mp3",
+      "text": "cash",
+      "textSha256": "ab0fcec08e18a7bccda1e81df4974e3434fcd36000518f7e776fb85495b5a494"
+    },
+    {
+      "src": "/audio/sentences/opening-student-bank-account/1.mp3",
+      "text": "Good morning, I want to open a student savings account to save money today.",
+      "textSha256": "8344d9d2252be06f506b83638e24a36f3c06d9bde2e7e42ce84aba1f3304ce69"
+    },
+    {
+      "src": "/audio/sentences/opening-student-bank-account/2.mp3",
+      "text": "Please provide your photo identification card and a written signature consent form from your parents.",
+      "textSha256": "ff00e8f1df20952f731a66a6c912d6dd07328aa4bb2f8b742a564eab34bfb7af"
+    },
+    {
+      "src": "/audio/sentences/opening-student-bank-account/3.mp3",
+      "text": "Here are all the legal documents and our family household certificate.",
+      "textSha256": "731c0baa1765b7ac5b6eff529cd6ea0ee08fbc496ad05f66a67e1477e08a95e9"
+    },
+    {
+      "src": "/audio/sentences/opening-student-bank-account/4.mp3",
+      "text": "The bank staff helped me fill out the registration form line by line.",
+      "textSha256": "c09f5f4679f6775e7faa0650530c9558cbaa25ee8c7c9532c9ba511c793a27b5"
+    },
+    {
+      "src": "/audio/sentences/opening-student-bank-account/5.mp3",
+      "text": "You can make an initial deposit of five hundred dollars into your new account.",
+      "textSha256": "3feb0f29dfbc3a9ceed054bb16002dbeccc9d38f5b1abf9c9e1b5fd024d63a45"
+    },
+    {
+      "src": "/audio/sentences/opening-student-bank-account/6.mp3",
+      "text": "This savings account earns yearly interest and includes a debit card for payments.",
+      "textSha256": "566f1c8ca27c1edd552742b49dfcc1684a94d353f4895b6e3613c390d6a2b170"
+    },
+    {
+      "src": "/audio/phrases/opening-student-bank-account-student-savings-account.mp3",
+      "text": "student savings account",
+      "textSha256": "4c12ba9bbbf3102ec4e4369fe624ca2d9937d906cbce77b12c81a9d719fc7858"
+    },
+    {
+      "src": "/audio/phrases/opening-student-bank-account-photo-identification-card.mp3",
+      "text": "photo identification card",
+      "textSha256": "b26508ce2471b9aa623e337f34313dfd1d228310762ede59d1f6e179958876a2"
+    },
+    {
+      "src": "/audio/phrases/opening-student-bank-account-written-signature.mp3",
+      "text": "written signature",
+      "textSha256": "a7cae43308037f44e9b3b9b54499416bbcdaefd38045570055d2ad012bef8817"
+    },
+    {
+      "src": "/audio/phrases/opening-student-bank-account-bank-staff.mp3",
+      "text": "bank staff",
+      "textSha256": "27937654f1f87d908eabf73cc90039d59746db29fbe7001987607147bfbff36f"
+    },
+    {
+      "src": "/audio/phrases/opening-student-bank-account-initial-deposit.mp3",
+      "text": "initial deposit",
+      "textSha256": "f98be4f73d890b29364709f488dad46944408f8a734f917dd567ccfd30f954ba"
+    },
+    {
+      "src": "/audio/words/opening-student-bank-account-bank.mp3",
+      "text": "bank",
+      "textSha256": "4381dc2ab14285160c808659aee005d51255add7264b318d07c7417292c7442c"
+    },
+    {
+      "src": "/audio/words/opening-student-bank-account-save.mp3",
+      "text": "save",
+      "textSha256": "157dca92e4250458339d4b835250d44c238f3355e1b7986195188ee434e9baff"
+    },
+    {
+      "src": "/audio/words/opening-student-bank-account-parent.mp3",
+      "text": "parent",
+      "textSha256": "e47125968b3b71049fbc4802d1e40a71ea1359decfabacf70b34588037d4ff0c"
+    },
+    {
+      "src": "/audio/words/opening-student-bank-account-staff.mp3",
+      "text": "staff",
+      "textSha256": "1562206543da764123c21bd524674f0a8aaf49c8a89744c97352fe677f7e4006"
+    },
+    {
+      "src": "/audio/words/opening-student-bank-account-deposit.mp3",
+      "text": "deposit",
+      "textSha256": "c3b9fb78a452ce2fc90cff1608510235503e3b727683b71c7fefee54198bad63"
+    },
+    {
+      "src": "/audio/words/opening-student-bank-account-interest.mp3",
+      "text": "interest",
+      "textSha256": "828408e40d4fe651488b14696b60b613c9683ab9862e03f4e72aec7c1fda7635"
+    }
+  ]
+}

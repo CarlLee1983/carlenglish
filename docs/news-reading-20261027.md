@@ -47,3 +47,14 @@
 - `test:extension` 另行執行，隔離建置後在 Chromium 啟動階段因同一缺檔失敗。未宣稱本機瀏覽器／擴充檢查通過；以 draft PR 精確 head 的既有完整 CI 補驗。
 - 本批桌機／手機實頁人工目視未完成，瀏覽器執行檔安裝受阻；CI 不等同人工目視。來源與雙語文字已逐段核對，翻譯／答案沿既有收合顯示，不增設新互動。
 - 最終遠端 CI 結果記於 draft PR；沒有合併、部署或自動合併。
+
+## 2026-10-30 續作查核
+
+- 先續 PR #21，不另建當日新聞批次。重新讀取 main `67abb4f3376fab3e53b538937cdb6f432b95564f` 的 README、CONTEXT、內容規格、新聞企劃、article schema、CI／Deploy workflow；仍無 AGENTS.md 或 `.agents/skills`。核對遠端分支、唯一 open PR #21 與 main 的 12 篇文章，未發現這兩個 ID／來源／核心題材或當日新批次。
+- 原內容分支整合上述 main，保留原稿日期，不改成 10/30 新聞。相對最新 main 僅兩篇文章及本紀錄；不改 schema、UI、測試、依賴、圖音或部署設定。這兩篇是獨立閱讀練習，並非《小王子》全書閱讀的必修替代。
+- 今日重讀 NHM 主公告、官方 Competition 頁及 Kew 主公告；徵件日期、Positive Action、拍攝倫理／AI 限制，以及花莖、人工授粉與尚待達成的繁殖目標均與稿件一致。Kew 仍以 9/24 公告作歷史快照，沒有據此推論今日開花或結籽結果。
+- UF/IFAS 補充頁今日讀取回傳 redirect loop，未繞過或以摘要填補；上方 10/27 的取用紀錄保留為歷史證據，不稱今日重新核實。正文各項植物事實可直接對應已讀 Kew 主公告，不新增屬級概括。
+- 舊 head `f9cdb353be61e946cc126b1b2340bb6aeb3ea19d` 的 CI `40437264399` 兩次因既有翻面案例逾時失敗。最新 main 已由他人提交 `032b90352226560a21b3c41a463c65ae68cc4cfd` 調整該案例及另一案例期限；本次未自行調高期限、略過案例或修改斷言。新 head 通過與否只代表現行 main 契約下的結果，不能證明舊逾時根因已修復。
+- Node 24.22.1／pnpm 12.0.0 的鎖定安裝成功；沿用既有 JSON 格式，repository 無 format 指令。最後內容版本的型別、內容、單元、建置、完整 browser 與 extension 結果將記錄於 PR #21，未完成檢查不算通過。仍保持 draft，不合併、不設 auto-merge、不部署。
+- 本輪本機 `verify:static`：Astro 108 檔零 errors／warnings／hints，202 項單元／內容測試通過，內容驗證成功、完整建置 212 頁。兩篇實體 HTML、首頁連結、sitemap 與參考答案收合標記均存在；此為產物查核，不是人工目視。
+- 本輪官方 Playwright Chromium v1248 安裝再次因 ZIP 損壞失敗，沒有換版本或繞過下載限制。完整 browser 入口以 `--max-failures=1 --workers=1` 確認啟動缺檔，1 項失敗、2652 項未執行；這是環境停止條件，不是完整驗收。extension 隔離建置完成後亦因 Chromium 缺檔失敗。桌機／手機人工目視仍未完成；完整 CI 補驗不可替代它。

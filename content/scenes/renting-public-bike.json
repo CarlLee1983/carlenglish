@@ -1,0 +1,335 @@
+{
+  "id": "renting-public-bike",
+  "title": "租借公共自行車",
+  "titleEn": "Renting a Public Bike",
+  "category": "出行與交通",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/renting-public-bike.webp",
+    "alt": "在綠意盎然的人行道公共自行車站，顧客拿出交通卡感應車柱租借自行車。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "rent-a-bike",
+      "english": "rent a bike",
+      "translation": "租借腳踏車",
+      "audio": {
+        "src": "/audio/phrases/renting-public-bike-rent-a-bike.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9a72af4141f8f68104879ac05c8f5d25abee8cf9978a6cb3f4924138df378b2d",
+        "sha256": "8808aa4d2432822d84f993c24ba32086aa540d1c40aac4e393e8e943c8415037"
+      }
+    },
+    {
+      "id": "tap-your-card",
+      "english": "tap your card",
+      "translation": "刷卡／感應卡片",
+      "audio": {
+        "src": "/audio/phrases/renting-public-bike-tap-your-card.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "06f4933c160587563d45050799b52322921cf9984f7fc82ff18c5b30fcf46d65",
+        "sha256": "cacc845fa664ee7ea6683333ebc3df2fccf2d9c974dc821a5e597a57ba720461"
+      }
+    },
+    {
+      "id": "adjust-the-seat",
+      "english": "adjust the seat",
+      "translation": "調整座墊",
+      "audio": {
+        "src": "/audio/phrases/renting-public-bike-adjust-the-seat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "58431374abc588e89cdeb66396c8a444b50645d885c9fe4c762c8258bfa02561",
+        "sha256": "152ed6234579ba269009566d054d98ec48e2c22716463923d287bc014f984a57"
+      }
+    },
+    {
+      "id": "check-the-tires",
+      "english": "check the tires",
+      "translation": "檢查輪胎",
+      "audio": {
+        "src": "/audio/phrases/renting-public-bike-check-the-tires.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "898f49fccbbf912c2a58c91c803f25127a9f7a56e157231064d947ba031be482",
+        "sha256": "ad2321826f0d33dd5af91093dee59361b061d89ebf93a2e97bf441722d36cfcb"
+      }
+    },
+    {
+      "id": "completely-free",
+      "english": "completely free",
+      "translation": "完全免費",
+      "audio": {
+        "src": "/audio/phrases/renting-public-bike-completely-free.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b244c0d9f34439a1686ecb8d9e81ec64bfe35d40e2a84413b6d78bb4b9c1463c",
+        "sha256": "6175d16aa8a364a4c2ab634642e56dc1b4929b031ba5b5003a46107360ba46cc"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "rent",
+      "english": "rent",
+      "translation": "租借；租用",
+      "example": "How much does it cost to rent a car here?",
+      "audio": {
+        "src": "/audio/words/renting-public-bike-rent.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0e9fd1596c4b1dfca8ddcd36c567f11da43cf17968a5b912f0e67c5198f643f1",
+        "sha256": "fcda70b22799938c937146708251d7a9869dd69d7cc0bd9be9e4809ea86b917e"
+      }
+    },
+    {
+      "id": "lock",
+      "english": "lock",
+      "translation": "鎖；上鎖",
+      "example": "Always lock your bicycle outside the library.",
+      "audio": {
+        "src": "/audio/words/renting-public-bike-lock.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0c030586945fe504b604ecc2e875c38ede400cd5cd73da9730302162e6b02c6f",
+        "sha256": "389acb9c3561f15f0b72fe72bf87903019064db3e41d2ec904dc73458be830b0"
+      }
+    },
+    {
+      "id": "ride",
+      "english": "ride",
+      "translation": "騎乘；乘坐",
+      "example": "She likes to ride her bike on sunny mornings.",
+      "audio": {
+        "src": "/audio/words/renting-public-bike-ride.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e049bd056f936d1b39b704abcf824eaef39bd8877fcbb82b2a213ceec82bdf26",
+        "sha256": "2eea57d91ea629258b06297c24c953a73cbd0a433ff4efa57cee1160db92740a"
+      }
+    },
+    {
+      "id": "adjust",
+      "english": "adjust",
+      "translation": "調整；校準",
+      "example": "Let me adjust the volume on the speaker.",
+      "audio": {
+        "src": "/audio/words/renting-public-bike-adjust.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2549c096fc692b123129bd12e6536ce3e34017bebcf81bdccd4bce705cc16e6a",
+        "sha256": "5a020da1039cae5fd4c520b7c1517246a3f182f558a5530cc89370ced9d2a25e"
+      }
+    },
+    {
+      "id": "press",
+      "english": "press",
+      "translation": "按、壓",
+      "example": "Press the yellow button to open the train door.",
+      "audio": {
+        "src": "/audio/words/renting-public-bike-press.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "842fcb5e60989a03d08ee07f9bea0a0a4a824d991fe8cc055f3a89e05c5c392e",
+        "sha256": "c0e92ba6ecf74c58131cd2d930c61fd08fadb3eed8432be2fe3d9dbc86e3c008"
+      }
+    },
+    {
+      "id": "free",
+      "english": "free",
+      "translation": "免費的；有空的",
+      "example": "Is the drinking water free in this cafe?",
+      "audio": {
+        "src": "/audio/words/renting-public-bike-free.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ad95d5fa651ba86d8923fe1238d24a4f1988a752acfe426ac72ac7c04471bc17",
+        "sha256": "3af2fe80a3179da620412672f6f836270926f6861ee3db42c7fad01ed14d9215"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "I want to "
+        },
+        {
+          "text": "rent",
+          "phraseIds": [
+            "rent-a-bike"
+          ],
+          "wordIds": [
+            "rent"
+          ]
+        },
+        {
+          "text": " a bike",
+          "phraseIds": [
+            "rent-a-bike"
+          ]
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "ride",
+          "wordIds": [
+            "ride"
+          ]
+        },
+        {
+          "text": " around the lake."
+        }
+      ],
+      "translation": "我想租借一輛腳踏車在湖邊騎一騎。",
+      "audio": {
+        "src": "/audio/sentences/renting-public-bike/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d40d0340f5b39defc7987863bd8beece258ce7d86b870dbb0ac98998e9cf0bd2",
+        "sha256": "de9bb7022d9faab5c4da187577ed756ba9ee55d746919cc8f1ed80c6ba6439b0"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Tap your card",
+          "phraseIds": [
+            "tap-your-card"
+          ]
+        },
+        {
+          "text": " on the sensor right beside the bike."
+        }
+      ],
+      "translation": "請把你的交通卡感應在自行車旁的感應器上。",
+      "audio": {
+        "src": "/audio/sentences/renting-public-bike/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bfabed9558da6da42ee867564eafe615a2d1cb82c58c588ed784025192a15963",
+        "sha256": "4bb2a35fbb4f070cea0227120fee472f3f9dce219f6958e409358eb937987c8c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "When the green light turns on, pull the "
+        },
+        {
+          "text": "lock",
+          "wordIds": [
+            "lock"
+          ]
+        },
+        {
+          "text": " firmly."
+        }
+      ],
+      "translation": "當綠燈亮起時，請把車鎖穩穩地往後拉出。",
+      "audio": {
+        "src": "/audio/sentences/renting-public-bike/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "be6fcdc87c10ea0df27048b47c3db856a0b0b6e505375acfe4e1a0dcc99a133f",
+        "sha256": "4759e6a55d8f68c6c38f2ebe07b474aefa0d335d45181bfe35477b63624484bc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Remember to "
+        },
+        {
+          "text": "check the tires",
+          "phraseIds": [
+            "check-the-tires"
+          ]
+        },
+        {
+          "text": " before you start your "
+        },
+        {
+          "text": "ride",
+          "wordIds": [
+            "ride"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "開始騎乘前，記得先檢查兩邊的輪胎。",
+      "audio": {
+        "src": "/audio/sentences/renting-public-bike/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f9d5b50180ee6fdaff125890ae2c31c06bce1b27a7335309bfe498da3015b59c",
+        "sha256": "b90ba965594ac7a2171571305a20de8f3a2a48cfd4713c36a0509a88bd051d6e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "You can "
+        },
+        {
+          "text": "adjust",
+          "phraseIds": [
+            "adjust-the-seat"
+          ],
+          "wordIds": [
+            "adjust"
+          ]
+        },
+        {
+          "text": " the seat",
+          "phraseIds": [
+            "adjust-the-seat"
+          ]
+        },
+        {
+          "text": " height by "
+        },
+        {
+          "text": "pressing",
+          "wordIds": [
+            "press"
+          ]
+        },
+        {
+          "text": " the metal lever."
+        }
+      ],
+      "translation": "你可以按下金屬扳手來調整坐墊的高度。",
+      "audio": {
+        "src": "/audio/sentences/renting-public-bike/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9da6a1fa28da9b5b32c3362f051af3c911e7788d11f67e2efc6214aed6812c3f",
+        "sha256": "866ea2390bf8bb425f2563348258e72e0a967b8692e6c2e79e4644c1dad7e21b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The first thirty minutes are "
+        },
+        {
+          "text": "completely ",
+          "phraseIds": [
+            "completely-free"
+          ]
+        },
+        {
+          "text": "free",
+          "phraseIds": [
+            "completely-free"
+          ],
+          "wordIds": [
+            "free"
+          ]
+        },
+        {
+          "text": " for registered members."
+        }
+      ],
+      "translation": "註冊會員前三十分鐘完全是免費的。",
+      "audio": {
+        "src": "/audio/sentences/renting-public-bike/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ee21f3aab2657d45be2f7e936cc6d96f4a1b3de7f04a2f038d81d04ce8451ccf",
+        "sha256": "4b1fa088cb88138da02b0008585de8f9c5a92beb1e9269d7de23164d7d4edc97"
+      }
+    }
+  ]
+}

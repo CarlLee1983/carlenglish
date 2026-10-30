@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "clips": 85,
+  "bytes": 1717748,
+  "durationSeconds": 204.15,
+  "checks": {
+    "textSha256": true,
+    "fileSha256": true,
+    "voiceId": true,
+    "completeGraphemes": true,
+    "ffmpegDecode": true
+  },
+  "scope": [
+    "pickup-delivery-parcel",
+    "mailing-registered-letter",
+    "library-overdue-fee",
+    "lost-bag-inquiry",
+    "information-desk-map"
+  ]
+}

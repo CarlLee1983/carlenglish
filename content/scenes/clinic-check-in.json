@@ -1,0 +1,329 @@
+{
+  "id": "clinic-check-in",
+  "title": "診所掛號與候診",
+  "titleEn": "Clinic Registration and Waiting",
+  "category": "健康與生活安全",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/clinic-check-in.webp",
+    "alt": "在基層社區診所明亮的掛號櫃檯，病患出示健保卡填寫初診資料並量測體溫。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "fill-out-this-form",
+      "english": "fill out this form",
+      "translation": "填寫這份表格",
+      "audio": {
+        "src": "/audio/phrases/clinic-check-in-fill-out-this-form.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b598893c601cdc047d0ef200c60ddde588ed2dc6ece90069b908a47f915c7c28",
+        "sha256": "0f0f3d4c5f77b80995986cdbeba79b36d8a992df22351e03d2103d9beb3c0651"
+      }
+    },
+    {
+      "id": "have-a-mild-fever",
+      "english": "have a mild fever",
+      "translation": "有點輕微發燒",
+      "audio": {
+        "src": "/audio/phrases/clinic-check-in-have-a-mild-fever.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "462436c1a45a3c96b8a110fa11a9c2bf0514f418ca136c40797e3f40a2dd28d1",
+        "sha256": "da6d6d7f40bf32668e6a6ba235904cc325f7f06c0570c7f7c0cb7f8599a0abfd"
+      }
+    },
+    {
+      "id": "take-your-temperature",
+      "english": "take your temperature",
+      "translation": "為您量體溫",
+      "audio": {
+        "src": "/audio/phrases/clinic-check-in-take-your-temperature.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a405c39349ac9f81f6ab932aff275907e4fa26b0b8a7601bd4ec1d10e019fcab",
+        "sha256": "72c26b4897c8df1e6848091b82901b1b21bcd1b8013601011a1161b021ab17d3"
+      }
+    },
+    {
+      "id": "waiting-number",
+      "english": "waiting number",
+      "translation": "候診號碼",
+      "audio": {
+        "src": "/audio/phrases/clinic-check-in-waiting-number.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6ccd230be9a5ddd7132ee42a8a1947e16193ef6bc65489cf4c4c6b8108bd317d",
+        "sha256": "5006c972d5a064732a79d98c9ecf9dcacc6a365d49e6c06e59b70eed5300066f"
+      }
+    },
+    {
+      "id": "call-your-name",
+      "english": "call your name",
+      "translation": "叫您的名字",
+      "audio": {
+        "src": "/audio/phrases/clinic-check-in-call-your-name.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ddc8282fc985309c936786a3e2968e75033bbed349cdf038e542a827626e6cb3",
+        "sha256": "d08bb1ebcd559c517861cee432406ee44457512a859d4b90005d84be31c00a0f"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "clinic",
+      "english": "clinic",
+      "translation": "診所",
+      "example": "The dental clinic is just across the street.",
+      "audio": {
+        "src": "/audio/words/clinic-check-in-clinic.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bbfeb74a4b4216dfd0f7b10edf5743e6781e9f8ac7888a3392878a52c821a3b1",
+        "sha256": "e048b042f164e91d8ab01c3e7952aa6b34b688df4f596a43c13b61533dc99e51"
+      }
+    },
+    {
+      "id": "fever",
+      "english": "fever",
+      "translation": "發燒",
+      "example": "The nurse checked the baby for a fever.",
+      "audio": {
+        "src": "/audio/words/clinic-check-in-fever.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1e44a1c45388c81c1a4bba7c14aa8d54cf11d442c99efc62a68d103cfdd308b8",
+        "sha256": "24431b4d96b4d9ca7c46ea91d35fdc91145bbab03df95cfaaa7dddfd4aecb4cf"
+      }
+    },
+    {
+      "id": "form",
+      "english": "form",
+      "translation": "表格",
+      "example": "Please write your address on the top of the form.",
+      "audio": {
+        "src": "/audio/words/clinic-check-in-form.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "07397d633f25a7101990a75864ae03d5a3b9ac07c4ed6accbc52cbfd7d7c13b4",
+        "sha256": "95bedba12613067cbef05aa0301b9bfca07a56a2ee720ba29d30b47e8a345b31"
+      }
+    },
+    {
+      "id": "fill",
+      "english": "fill",
+      "translation": "裝滿；填寫",
+      "example": "Fill in your name and phone number here.",
+      "audio": {
+        "src": "/audio/words/clinic-check-in-fill.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dcd32479a72e55b29a03a586d8a483a05be0ce87cc5c25c7bad23079fc0356b3",
+        "sha256": "b8a22a1eede6839627bf764d20bde59d4d1c67156fa7f89df189e3fd4d734471"
+      }
+    },
+    {
+      "id": "number",
+      "english": "number",
+      "translation": "號碼、數字",
+      "example": "Take a ticket and remember your queue number.",
+      "audio": {
+        "src": "/audio/words/clinic-check-in-number.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "12886f9d00055adf24c40579e22d31b2b45f2023f892954ffd5567beb60825f8",
+        "sha256": "c73cbfd1f1880f9c3ef6394275252a7667d39909f8778bdbd0510d8d2a2695d6"
+      }
+    },
+    {
+      "id": "nurse",
+      "english": "nurse",
+      "translation": "護理師",
+      "example": "The kind nurse cleaned the wound gently.",
+      "audio": {
+        "src": "/audio/words/clinic-check-in-nurse.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "781e5116a1e14a34eada50159d589e690c81ec4c5063115ea1f10b99441d5b94",
+        "sha256": "d673a1d9046a952e9bce8da870f4ef979a8cf6022056b7d26e484659e85b03d9"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Good afternoon, this is my first time visiting this local "
+        },
+        {
+          "text": "clinic",
+          "wordIds": [
+            "clinic"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "午安，這是我第一次來這間社區診所看診。",
+      "audio": {
+        "src": "/audio/sentences/clinic-check-in/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5e7d9865fb0a6ee1e3742e39442ee9f6af8f0aeaa1b18547b0deb3cb9a880372",
+        "sha256": "68bf567d8dd700ec11f1c56dcd2b4cb27d30cb0f7b04f5ba4a40dcaf02d59d3c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Please show your health card and "
+        },
+        {
+          "text": "fill",
+          "phraseIds": [
+            "fill-out-this-form"
+          ],
+          "wordIds": [
+            "fill"
+          ]
+        },
+        {
+          "text": " out this ",
+          "phraseIds": [
+            "fill-out-this-form"
+          ]
+        },
+        {
+          "text": "form",
+          "phraseIds": [
+            "fill-out-this-form"
+          ],
+          "wordIds": [
+            "form"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "請出示您的健保卡，並幫我填寫這張初診表單。",
+      "audio": {
+        "src": "/audio/sentences/clinic-check-in/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ff5cd023f2b5886e69f8534e67b872721803b5591b0f4b536c04ef5c2cd07c59",
+        "sha256": "e541125f2aeb2e0e9c466e7170de4ad001adb3e69360839d980018223688547e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I "
+        },
+        {
+          "text": "have a mild ",
+          "phraseIds": [
+            "have-a-mild-fever"
+          ]
+        },
+        {
+          "text": "fever",
+          "phraseIds": [
+            "have-a-mild-fever"
+          ],
+          "wordIds": [
+            "fever"
+          ]
+        },
+        {
+          "text": " and my body feels very tired."
+        }
+      ],
+      "translation": "我有點微燒，而且全身感覺非常疲倦。",
+      "audio": {
+        "src": "/audio/sentences/clinic-check-in/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "efa62fccd0d0d110cc4b7ee0e014aa26fd19c71c3e8cacd5815b1c474a577d0c",
+        "sha256": "1e4fd48ef5f4cdf8ed64be6a4b9ba04be61ace059249b18ad94e2459ef20a205"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Let me "
+        },
+        {
+          "text": "take your temperature",
+          "phraseIds": [
+            "take-your-temperature"
+          ]
+        },
+        {
+          "text": " with the forehead thermometer first."
+        }
+      ],
+      "translation": "讓我先用額溫槍幫您量一下體溫。",
+      "audio": {
+        "src": "/audio/sentences/clinic-check-in/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c3b26a9a4a294632afee6eb936a8d4405483dcf202c41607543efaa32796c69e",
+        "sha256": "b32f717be459c64fa2652ace828002c64b79135d9473935466a7eae9fb4d3871"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Your "
+        },
+        {
+          "text": "waiting ",
+          "phraseIds": [
+            "waiting-number"
+          ]
+        },
+        {
+          "text": "number",
+          "phraseIds": [
+            "waiting-number"
+          ],
+          "wordIds": [
+            "number"
+          ]
+        },
+        {
+          "text": " is twenty-seven, please sit in the waiting room."
+        }
+      ],
+      "translation": "您的候診號碼是二十七號，請先在候診室坐著稍候。",
+      "audio": {
+        "src": "/audio/sentences/clinic-check-in/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "afaf549848693a81bbd7050c35d57762c82b4050d89ee2f32880d8aefb94f874",
+        "sha256": "66fbd4b47094b1a5ac75f21c43e9d4e8a54d40d124f81f51528d042d15ba713d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "nurse",
+          "wordIds": [
+            "nurse"
+          ]
+        },
+        {
+          "text": " will "
+        },
+        {
+          "text": "call your name",
+          "phraseIds": [
+            "call-your-name"
+          ]
+        },
+        {
+          "text": " when the doctor is ready."
+        }
+      ],
+      "translation": "當醫師準備好時，護理師會叫您的名字。",
+      "audio": {
+        "src": "/audio/sentences/clinic-check-in/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "20bcdbbd9f496c3625fe97f93d772f3ae1719629585933bb2c3bb0f6c40269b4",
+        "sha256": "36aaabdea1ca7fc9a1b0c2f0c546848b722af599a56c18bf3d4ceb1154d9b406"
+      }
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "id": "replacing-burnt-out-bulb",
+  "title": "室內更換燒壞的燈泡",
+  "titleEn": "Buying and Replacing a Burnt-out Light Bulb",
+  "category": "居家日常",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/replacing-burnt-out-bulb.webp",
+    "alt": "在書房天花板下，使用者站在穩固的折疊鋁梯上，在關閉牆壁總電源後，雙手輕輕將新購買的省電 LED 燈泡順時針旋緊就位。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "went-dark",
+      "english": "went dark",
+      "translation": "突然暗掉損壞",
+      "audio": {
+        "src": "/audio/phrases/replacing-burnt-out-bulb-went-dark.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "18d0f1d82282f35f31ab949ace026f4dccd84ac572367b5b82cd62997bcafc80",
+        "sha256": "3a1c5c71a7e5eca5c09b1807fbc02074f9bf0521fa69ce1caaa77325ceafb0a3"
+      }
+    },
+    {
+      "id": "burnt-out-bulb",
+      "english": "burnt-out bulb",
+      "translation": "燒壞的燈泡",
+      "audio": {
+        "src": "/audio/phrases/replacing-burnt-out-bulb-burnt-out-bulb.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f2d6ef5a40e5c0126169cd90dcd2c7fbb90a4cd883fbceb0cca9231818295801",
+        "sha256": "d83fa8c4e84bb19b51d3465cfc7dd451fc065d66fec81f19e9aaebf3a1a13b8e"
+      }
+    },
+    {
+      "id": "find-an-exact-match",
+      "english": "find an exact match",
+      "translation": "尋找完全相符的規格",
+      "audio": {
+        "src": "/audio/phrases/replacing-burnt-out-bulb-find-an-exact-match.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2584ceecc1b46b10d8f8e8d46be2600a5d0693bd16bbe977a227e1200f7d3c0d",
+        "sha256": "8c537cf99089d2ae62640d02848e74d20d370c13bac6d8f863a3c2286f494229"
+      }
+    },
+    {
+      "id": "turn-off-the-wall-power-switch",
+      "english": "turn off the wall power switch",
+      "translation": "關掉牆壁電源開關",
+      "audio": {
+        "src": "/audio/phrases/replacing-burnt-out-bulb-turn-off-the-wall-power-switch.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7cb3ee130955b5ad9a986e4b87897a736033eb1f818da5090c1420843f0ec094",
+        "sha256": "fefd70b783594aaf24745197cadfe8223b6ec1c229e0fa342cea2af5ae48c6d8"
+      }
+    },
+    {
+      "id": "standard-screw-socket",
+      "english": "standard screw socket",
+      "translation": "標準螺紋燈座",
+      "audio": {
+        "src": "/audio/phrases/replacing-burnt-out-bulb-standard-screw-socket.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f3f7fa485fa86a5bbe124ad40d9cd63a96cd4df471cef02c52029bb6f7b7244a",
+        "sha256": "ac34ffd70998f436a24b05c5d154b7d1475cbd77b42ba5f522cbb49476198793"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "light",
+      "english": "light",
+      "translation": "燈；光線",
+      "example": "Turn on the desk light when you read.",
+      "audio": {
+        "src": "/audio/words/replacing-burnt-out-bulb-light.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "99a7026172d42714d0293e5598ec1c8e8260d7d0c4b8582ad002c1883494e216",
+        "sha256": "32ae26483559118fb099761ee580d23a57821bfb2cca85ef58448cf15aacc70b"
+      }
+    },
+    {
+      "id": "bulb",
+      "english": "bulb",
+      "translation": "燈泡",
+      "example": "We replaced the old bulb with a warm LED light.",
+      "audio": {
+        "src": "/audio/words/replacing-burnt-out-bulb-bulb.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b4942fb4e8b58995227b2362409e50d65f3cd8cc197f3bcd1a0fe92e2c2a459c",
+        "sha256": "9f7e258667e6905f55153be7a637818d8038b6d2ac291ee8e19a66009cdb0ed4"
+      }
+    },
+    {
+      "id": "dark",
+      "english": "dark",
+      "translation": "黑暗的；暗的",
+      "example": "The street became dark after the streetlamps went out.",
+      "audio": {
+        "src": "/audio/words/replacing-burnt-out-bulb-dark.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e6bb5689beec52c4672bd4df92c3613d128d30cdc2b704f76953fe43d89c4ae8",
+        "sha256": "5bd5289e613a52452bea8e3aa070f6e62ca5059ec549610eff49656f61f1b419"
+      }
+    },
+    {
+      "id": "ceiling",
+      "english": "ceiling",
+      "translation": "天花板",
+      "example": "The fan is hanging from the living room ceiling.",
+      "audio": {
+        "src": "/audio/words/replacing-burnt-out-bulb-ceiling.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "96f16e929047d5fa07f1a824858e3d7c101ef56562ae7c8e801f924882e41ed8",
+        "sha256": "81a241a1517ccea4b68209108791fa1facd1170f75ec68a15ffc016542891f20"
+      }
+    },
+    {
+      "id": "switch",
+      "english": "switch",
+      "translation": "開關；切換",
+      "example": "Flip the wall switch to turn off the fan.",
+      "audio": {
+        "src": "/audio/words/replacing-burnt-out-bulb-switch.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "78b49fb2cc2d2ed6c1bb8383b3d267b3bc623a8a0fb4aff4aa5d3db74c3b4967",
+        "sha256": "b3e8bb2acb77ed1189ec9c4871b842e77785da2a9f2502d9ed094ab94fd08731"
+      }
+    },
+    {
+      "id": "power",
+      "english": "power",
+      "translation": "力量；電力",
+      "example": "The storm knocked out power across the town.",
+      "audio": {
+        "src": "/audio/words/replacing-burnt-out-bulb-power.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d",
+        "sha256": "0bd65e1a981d8509a8380abe790928bb1491491c31e5ee1978a77582edfac631"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "The main "
+        },
+        {
+          "text": "ceiling",
+          "wordIds": [
+            "ceiling"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "light",
+          "wordIds": [
+            "light"
+          ]
+        },
+        {
+          "text": " in my study room suddenly "
+        },
+        {
+          "text": "went ",
+          "phraseIds": [
+            "went-dark"
+          ]
+        },
+        {
+          "text": "dark",
+          "phraseIds": [
+            "went-dark"
+          ],
+          "wordIds": [
+            "dark"
+          ]
+        },
+        {
+          "text": " last night."
+        }
+      ],
+      "translation": "我書房天花板的主燈昨晚突然暗掉壞了。",
+      "audio": {
+        "src": "/audio/sentences/replacing-burnt-out-bulb/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8d8a993ec9e5b7bae39a3480654020377312335cef59c9d9f882253c27362270",
+        "sha256": "6565aa03ebeeb2b6fe75ced71751ec6918dac135e1274a95b35433b16b617e8e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I brought the old "
+        },
+        {
+          "text": "burnt-out ",
+          "phraseIds": [
+            "burnt-out-bulb"
+          ]
+        },
+        {
+          "text": "bulb",
+          "phraseIds": [
+            "burnt-out-bulb"
+          ],
+          "wordIds": [
+            "bulb"
+          ]
+        },
+        {
+          "text": " to the hardware store to "
+        },
+        {
+          "text": "find an exact match",
+          "phraseIds": [
+            "find-an-exact-match"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我把燒壞的舊燈泡帶到五金行，想找一個完全相符的新規格。",
+      "audio": {
+        "src": "/audio/sentences/replacing-burnt-out-bulb/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "30009499399bb5d224feb86891823a4ab9877d9706010bf5f047ba5335f4120d",
+        "sha256": "fc0135ea55bc85d3dd9a89357b5193a4776a21f6eb7b7708f6498b1984854634"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "This energy-saving LED "
+        },
+        {
+          "text": "bulb",
+          "wordIds": [
+            "bulb"
+          ]
+        },
+        {
+          "text": " fits the "
+        },
+        {
+          "text": "standard screw socket",
+          "phraseIds": [
+            "standard-screw-socket"
+          ]
+        },
+        {
+          "text": " perfectly."
+        }
+      ],
+      "translation": "這款節能 LED 燈泡非常適合標準的螺旋燈座規格。",
+      "audio": {
+        "src": "/audio/sentences/replacing-burnt-out-bulb/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f6e0cd95ce7ea3b08da9a44058006ec4ef8a217ce3f1b63991fd5eca4e7814b1",
+        "sha256": "5a2d405b96c2f0dff80eaf4d2ba91fc7240b570522febbf785c81ef0247aea26"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Before replacing the "
+        },
+        {
+          "text": "bulb",
+          "wordIds": [
+            "bulb"
+          ]
+        },
+        {
+          "text": " on the "
+        },
+        {
+          "text": "ceiling",
+          "wordIds": [
+            "ceiling"
+          ]
+        },
+        {
+          "text": ", always "
+        },
+        {
+          "text": "turn off the wall ",
+          "phraseIds": [
+            "turn-off-the-wall-power-switch"
+          ]
+        },
+        {
+          "text": "power",
+          "phraseIds": [
+            "turn-off-the-wall-power-switch"
+          ],
+          "wordIds": [
+            "power"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "switch",
+          "phraseIds": [
+            "turn-off-the-wall-power-switch"
+          ],
+          "wordIds": [
+            "switch"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "在爬上去天花板更換燈泡之前，請務必先關掉牆壁上的電源開關。",
+      "audio": {
+        "src": "/audio/sentences/replacing-burnt-out-bulb/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a142767778ba86115ee97168dabfb995c2bca024f3a8d73d7bb10e8e390eb727",
+        "sha256": "eec5d09da53a8eb17146c65918678fee8401c8ed8b5b999da257995f6471f2be"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Wait five minutes to make sure the glass fixture is completely cool to the touch."
+        }
+      ],
+      "translation": "等候五分鐘，確認玻璃燈具表面已經完全冷卻不燙手。",
+      "audio": {
+        "src": "/audio/sentences/replacing-burnt-out-bulb/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ea84060bc16d09919766b1b9249632fdd388a817b2f03fe30770b98167f721e9",
+        "sha256": "11a5addb9b221c68f2d0d15eb050d1d4a5c2bd23124a1bd792957c37befcbc20"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Turn the new "
+        },
+        {
+          "text": "bulb",
+          "wordIds": [
+            "bulb"
+          ]
+        },
+        {
+          "text": " clockwise gently until it sits securely in place."
+        }
+      ],
+      "translation": "將新燈泡順時針方向輕輕轉緊，直到它穩固就位為止。",
+      "audio": {
+        "src": "/audio/sentences/replacing-burnt-out-bulb/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b7dfc4e160a096064c28b12666fbb08860d5caf678635be291aae531ee2e2a61",
+        "sha256": "a46cc31af9c0f718643e4c137b33fa85a6ca006ff87cd4b7b423b930867fdb2a"
+      }
+    }
+  ]
+}

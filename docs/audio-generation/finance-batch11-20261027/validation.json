@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "clips": 85,
+  "bytes": 1970900,
+  "durationSeconds": 231.65,
+  "checks": {
+    "textSha256": true,
+    "fileSha256": true,
+    "voiceId": true,
+    "completeGraphemes": true,
+    "ffmpegDecode": true
+  },
+  "scope": [
+    "using-atm-cash-withdrawal",
+    "asking-for-change-at-counter",
+    "tracking-daily-budget",
+    "mobile-payment-help",
+    "opening-student-bank-account"
+  ]
+}

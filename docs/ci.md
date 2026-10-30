@@ -87,12 +87,12 @@ pnpm run verify
 
 使用者決定縮小重複範圍，這是刻意的取捨：
 
-- 與視窗無關的逐篇內容檢查標記 `@content`（場景旅程與翻譯切頁、句子資產、文章 lang／關鍵詞／導覽），`desktop-dark`、`mobile-chromium`、`narrow-chromium` 以 `grepInvert` 排除；`desktop-chromium` 與 `mobile-webkit` 照跑，與既有音檔解碼的引擎組合相同。版面、溢出、點擊尺寸等檢查五個 projects 照舊。代價：只在深色或窄版 Chromium 出現、且不造成溢出的內容錯誤，不再由內容檢查攔截。
+- 與視窗無關的逐篇內容檢查標記 `@content`（場景旅程與翻譯切頁、句子資產、文章 lang／關鍵詞／導覽，以及單字庫的搜尋、發音、列印、來源與翻卡／換卡動態），`desktop-dark`、`mobile-chromium`、`narrow-chromium` 以 `grepInvert` 排除；`desktop-chromium` 與 `mobile-webkit` 照跑，與既有音檔解碼的引擎組合相同。版面、溢出、點擊尺寸等檢查五個 projects 照舊。代價：只在深色或窄版 Chromium 出現、且不造成溢出的內容錯誤，不再由內容檢查攔截。
 - `fullyParallel: true`，CI `workers: 4`（ubuntu-latest 4 vCPU，預設僅 2）。
 - `fullyParallel` 下分片依 project 順序切，WebKit 全落在最後一片；workflow 改為 Chromium、WebKit 各自兩片，Chromium job 不再安裝 WebKit。
 - 首頁級別目錄測試按級別拆成獨立案例，各保留 120 秒期限；整批版本在 4 workers 的 WebKit 分片逾時（[CI 40417658295](https://github.com/CarlLee1983/carlenglish/actions/runs/40417658295)）。初級仍在單一案例檢查全部卡片圖片，場景持續增加時是下一個期限風險。
 
-案例數 2,535 → 1,779。回復方式：移除 `@content` 的 `grepInvert`、`fullyParallel`、`workers` 及 matrix 的引擎拆分。遠端耗時以 [PR #20](https://github.com/CarlLee1983/carlenglish/pull/20) 新 SHA 的 run 為準。
+案例數 2,535 → 1,779。單字庫新增 60 個案例，三個 layout-only projects 各只保留入口溢出、換卡與短螢幕、放大文字、原生捲動四項。`vocabulary.spec.ts` 在 CI 以軟體算繪 WebGL，檔內依序執行；平行時翻頁動態測試取不到中間幀（[CI 40491831522](https://github.com/CarlLee1983/carlenglish/actions/runs/40491831522)）。回復方式：移除 `@content` 的 `grepInvert`、`fullyParallel`、`workers` 及 matrix 的引擎拆分。遠端耗時以 [PR #20](https://github.com/CarlLee1983/carlenglish/pull/20) 新 SHA 的 run 為準。
 
 ## 後續與回復
 

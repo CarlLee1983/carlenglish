@@ -1,0 +1,446 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/fire-alarm-drill-response/1.mp3",
+      "text": "A piercing fire alarm started ringing loudly throughout the school building.",
+      "textSha256": "20b31d2979ef05515f08cc6e4d4373bca9c3331d9f072e9785ec92b2165e9f38"
+    },
+    {
+      "src": "/audio/sentences/fire-alarm-drill-response/2.mp3",
+      "text": "Our teacher told everybody to stay calm and not to panic.",
+      "textSha256": "26b17589ff8acd45f9940d10ec81dd5b7f26205dba44aef4b75f82f7cffd6a75"
+    },
+    {
+      "src": "/audio/sentences/fire-alarm-drill-response/3.mp3",
+      "text": "Cover your mouth and nose with a damp cloth if there is any smoke in the hallway.",
+      "textSha256": "6e73333d0d8dce932405fa793f2e5f5994facb636056eae737a7f9024e88d5d5"
+    },
+    {
+      "src": "/audio/sentences/fire-alarm-drill-response/4.mp3",
+      "text": "Do not take the elevator under any circumstances during an evacuation drill.",
+      "textSha256": "7c4f30e42936f0cf3a287ae0aa8c1a718e6edab0f5e3280a6567306f348aa9f2"
+    },
+    {
+      "src": "/audio/sentences/fire-alarm-drill-response/5.mp3",
+      "text": "Follow the emergency exit signs down the wide concrete stairs.",
+      "textSha256": "a17b89748917e07c43a35bed8b5f94c58b4d44a32d1c234c7664e4ff0d313636"
+    },
+    {
+      "src": "/audio/sentences/fire-alarm-drill-response/6.mp3",
+      "text": "All classes gathered safely outside on the open athletic field within three minutes.",
+      "textSha256": "7c2970c1745bf5dd895034737645996629fa7ad99d179ae0efbd12774808e15d"
+    },
+    {
+      "src": "/audio/phrases/fire-alarm-drill-response-fire-alarm-started-ringing.mp3",
+      "text": "fire alarm started ringing",
+      "textSha256": "fe6533940028914dc62bccff0317c612f4d8787c82d3585739a62cc17ea89697"
+    },
+    {
+      "src": "/audio/phrases/fire-alarm-drill-response-stay-calm.mp3",
+      "text": "stay calm",
+      "textSha256": "7e64a3789f64f6eaea60bd182008afdbb2bafe850eb9d2fb3d9df74ec563849c"
+    },
+    {
+      "src": "/audio/phrases/fire-alarm-drill-response-cover-your-mouth-and-nose.mp3",
+      "text": "Cover your mouth and nose",
+      "textSha256": "9927fed18d37b12a9a44e28f19cfa941ecef78636f030afbd0ca051dc8cf180a"
+    },
+    {
+      "src": "/audio/phrases/fire-alarm-drill-response-emergency-exit-signs.mp3",
+      "text": "emergency exit signs",
+      "textSha256": "f357ff66b6703a76bd86a713e22295b0f4d59fb5a2e7b3bd53cd38b51fe7ef00"
+    },
+    {
+      "src": "/audio/phrases/fire-alarm-drill-response-gathered-safely-outside.mp3",
+      "text": "gathered safely outside",
+      "textSha256": "b33601b97976c5f7a5ca128be121297a59eab3f26f96ffa99f1668c229f20094"
+    },
+    {
+      "src": "/audio/words/fire-alarm-drill-response-fire.mp3",
+      "text": "fire",
+      "textSha256": "dc9f28b12dd1818ee42ffc92ecb940386214598837348d30d3c6c0b7b57e34c9"
+    },
+    {
+      "src": "/audio/words/fire-alarm-drill-response-alarm.mp3",
+      "text": "alarm",
+      "textSha256": "5e94ec139442cfe98f5cdb0ffbb6dd081de42949b11f8950a122c5d797598329"
+    },
+    {
+      "src": "/audio/words/fire-alarm-drill-response-stairs.mp3",
+      "text": "stairs",
+      "textSha256": "0eeea780b063634befb947bc6800a8caddfd18270140d4bdad037f50d72130fb"
+    },
+    {
+      "src": "/audio/words/fire-alarm-drill-response-exit.mp3",
+      "text": "exit",
+      "textSha256": "e596899f114b5162402325dfb31fdaa792fabed718628336cc7a35a24f38eaa9"
+    },
+    {
+      "src": "/audio/words/fire-alarm-drill-response-calm.mp3",
+      "text": "calm",
+      "textSha256": "2b4b2eadf7b2aece598d2f2ad4637361614a738a7cdf1a457d8b46db072184d5"
+    },
+    {
+      "src": "/audio/words/fire-alarm-drill-response-safe.mp3",
+      "text": "safe",
+      "textSha256": "8b3369944dd2a3fab39e32d1aeb1f763946a458ae3e6368a46432adc8f3a0860"
+    },
+    {
+      "src": "/audio/sentences/asking-police-for-help/1.mp3",
+      "text": "Excuse me officer, I got lost and my cell phone battery completely ran out of charge.",
+      "textSha256": "11f7103f1527bb36e510456297670368aa3bbe8266207ae6b02350e587813792"
+    },
+    {
+      "src": "/audio/sentences/asking-police-for-help/2.mp3",
+      "text": "Please step inside our police station and sit down on the comfortable bench.",
+      "textSha256": "48683108779dc44e3692e0e9397b4303cac9b593dffecd37da497b53b372c1aa"
+    },
+    {
+      "src": "/audio/sentences/asking-police-for-help/3.mp3",
+      "text": "The friendly police officer listened carefully as I explained my urgent situation.",
+      "textSha256": "946f9403849bae2c5b2688c0ae9827c9745162e69572ccec4dabb498290173d7"
+    },
+    {
+      "src": "/audio/sentences/asking-police-for-help/4.mp3",
+      "text": "He allowed me to report the issue and use the station landline phone to call my family.",
+      "textSha256": "91b4ab900c9f788cd95586012540bd56926f31406adb676307e4c041ee8ac5b3"
+    },
+    {
+      "src": "/audio/sentences/asking-police-for-help/5.mp3",
+      "text": "He also printed out a simple street map to show me the way back to the station.",
+      "textSha256": "60bcc68b33108f64c5982bcf30a6c860fcd70c7b933b580889494de7b4a389b0"
+    },
+    {
+      "src": "/audio/sentences/asking-police-for-help/6.mp3",
+      "text": "I felt very safe and deeply grateful for the community police officer's help.",
+      "textSha256": "3aa2fd08f076ec6d4975094d6f3cf24c5750734d24e90508db24075aa819af29"
+    },
+    {
+      "src": "/audio/phrases/asking-police-for-help-ran-out-of-charge.mp3",
+      "text": "ran out of charge",
+      "textSha256": "59f39d3e2203dad6bd9dbbbc34975902ca521b880dad11f6be75d42e44e098ba"
+    },
+    {
+      "src": "/audio/phrases/asking-police-for-help-police-station.mp3",
+      "text": "police station",
+      "textSha256": "df9d79f52caf03d49cd1cb2a7b359f1e7e3f720cdba218e07207508dd321df71"
+    },
+    {
+      "src": "/audio/phrases/asking-police-for-help-listened-carefully.mp3",
+      "text": "listened carefully",
+      "textSha256": "6f47770bd69eae68b1fa3c32812f0131c05cf533be143a8845d244b600283d13"
+    },
+    {
+      "src": "/audio/phrases/asking-police-for-help-felt-very-safe.mp3",
+      "text": "felt very safe",
+      "textSha256": "9211878f4096a2c53a80a788066cb80de62f6b303152f513c442fde878c6db0d"
+    },
+    {
+      "src": "/audio/phrases/asking-police-for-help-police-officer.mp3",
+      "text": "police officer",
+      "textSha256": "96eaff298ca28af1cb37c10d921709a1cea86bbc84f07dd2c6e7ed0726d32986"
+    },
+    {
+      "src": "/audio/words/asking-police-for-help-police.mp3",
+      "text": "police",
+      "textSha256": "1366fac71146793a85e98a88ad9bb15adb9aac31da8ac6d73e67059bd5a467a9"
+    },
+    {
+      "src": "/audio/words/asking-police-for-help-officer.mp3",
+      "text": "officer",
+      "textSha256": "d71f0bd623e5e0b40eb4b4355091d057d5e40644e1e6cda16b33213f8ae7541f"
+    },
+    {
+      "src": "/audio/words/asking-police-for-help-station.mp3",
+      "text": "station",
+      "textSha256": "9b4ef3e5b7b4d1759cb8f880e34dbd5ea8c3fcd79ce33b89d7357bf64fcbfc91"
+    },
+    {
+      "src": "/audio/words/asking-police-for-help-report.mp3",
+      "text": "report",
+      "textSha256": "845e91831319e89c4d656bdb80c278ac09a7230d61e5dfd2e1b1fbb436ac8917"
+    },
+    {
+      "src": "/audio/words/asking-police-for-help-listen.mp3",
+      "text": "listen",
+      "textSha256": "6f8860eb5103a16b917146f9cbf21aa00fe7d2291b1aad7f4fe83a6db71688cf"
+    },
+    {
+      "src": "/audio/words/asking-police-for-help-explain.mp3",
+      "text": "explain",
+      "textSha256": "0818ab2593f5cb6c2daa8ffdd20578aae920bb1ed1f3feecf0cdf09a8b1e1213"
+    },
+    {
+      "src": "/audio/sentences/typhoon-weather-notice/1.mp3",
+      "text": "The government weather bureau issued a strong land typhoon warning this morning.",
+      "textSha256": "6cc4dab702f2a66a25d35869cbc8e414b9ef353a066c6723830996431194da1c"
+    },
+    {
+      "src": "/audio/sentences/typhoon-weather-notice/2.mp3",
+      "text": "Heavy rain and winds are expected across the entire city tonight.",
+      "textSha256": "6a68895ef3cb8cd0131eba7f233b5f9d02884b9349d00335d8d886293d8e843f"
+    },
+    {
+      "src": "/audio/sentences/typhoon-weather-notice/3.mp3",
+      "text": "All schools and public offices received an official notice to close tomorrow.",
+      "textSha256": "f278678d9ddc436738c71674c54d5688301c6dd7c681a72e44897138cd9ae9d7"
+    },
+    {
+      "src": "/audio/sentences/typhoon-weather-notice/4.mp3",
+      "text": "We must cancel our outdoor soccer match for safety reasons.",
+      "textSha256": "c59b446dd36842c97415e662a02dc81f0f56dbaae772b2197dee6aec31e54ece"
+    },
+    {
+      "src": "/audio/sentences/typhoon-weather-notice/5.mp3",
+      "text": "Let us change the tournament date to next Saturday when the storm clears.",
+      "textSha256": "999561eefe9cc7279d9750c63f1bd1f7b02ceaa7f44694e8894736e82c693049"
+    },
+    {
+      "src": "/audio/sentences/typhoon-weather-notice/6.mp3",
+      "text": "Remember to stay safely at home and tape the large glass windows securely.",
+      "textSha256": "7b1de742809e2ddbd85ca48dd8456d9506d85abbe4200ba5fbad950721d51886"
+    },
+    {
+      "src": "/audio/phrases/typhoon-weather-notice-typhoon-warning.mp3",
+      "text": "typhoon warning",
+      "textSha256": "f3da22582764ac362fc8d91603d5bd2b2ab1cf4be873a31fb2510b0a4510664c"
+    },
+    {
+      "src": "/audio/phrases/typhoon-weather-notice-heavy-rain-and-winds.mp3",
+      "text": "Heavy rain and winds",
+      "textSha256": "35fe32792acc37f46c9ec663e3bc55a90bdb2619f78d9f7aaf9a6103162dbb2d"
+    },
+    {
+      "src": "/audio/phrases/typhoon-weather-notice-official-notice.mp3",
+      "text": "official notice",
+      "textSha256": "2c6a622b3d0cf7cbb4bc0fa05ccc30869de90052d57c2dbcadbba23adc9ba880"
+    },
+    {
+      "src": "/audio/phrases/typhoon-weather-notice-for-safety-reasons.mp3",
+      "text": "for safety reasons",
+      "textSha256": "c88879eb28f96baa86433cc2a9190e2cc7bc26813b0bd776e13195324a6da206"
+    },
+    {
+      "src": "/audio/phrases/typhoon-weather-notice-stay-safely-at-home.mp3",
+      "text": "stay safely at home",
+      "textSha256": "27c77703e362b5bc9c6726b1b3cae2d077efa203fc62b373f14ca819c788cafd"
+    },
+    {
+      "src": "/audio/words/typhoon-weather-notice-storm.mp3",
+      "text": "storm",
+      "textSha256": "9a105749cfcbac2e07d7640697861f62dfcc7c02bc24519e9c287431bc493f9d"
+    },
+    {
+      "src": "/audio/words/typhoon-weather-notice-wind.mp3",
+      "text": "wind",
+      "textSha256": "9b58e68145a79ca0e19957f3e5c88fd92ff2e28a7bd09ed30ee365fc4f9aafe0"
+    },
+    {
+      "src": "/audio/words/typhoon-weather-notice-rain.mp3",
+      "text": "rain",
+      "textSha256": "319b44c570a417ff3444896cd4aa77f052b6781773fc2f9aa1f1180ac745005c"
+    },
+    {
+      "src": "/audio/words/typhoon-weather-notice-notice.mp3",
+      "text": "notice",
+      "textSha256": "9368a7d21e018f64ae3327d2f25cd4d7693b2d85328e4bb680bcfcbd4c26b90e"
+    },
+    {
+      "src": "/audio/words/typhoon-weather-notice-cancel.mp3",
+      "text": "cancel",
+      "textSha256": "2374d91794b79f4fb4ec9587d2cf00aecc4f9953fab3ed1dd12ab147a0b721f9"
+    },
+    {
+      "src": "/audio/words/typhoon-weather-notice-change.mp3",
+      "text": "change",
+      "textSha256": "12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51"
+    },
+    {
+      "src": "/audio/sentences/first-aid-for-minor-cut/1.mp3",
+      "text": "The sharp edge of the cardboard box gave me a minor paper cut on my finger.",
+      "textSha256": "43f64cb273d6efe3efc7333c8df473c0714c7da71fc34e3d83d3df64b537cc43"
+    },
+    {
+      "src": "/audio/sentences/first-aid-for-minor-cut/2.mp3",
+      "text": "It bleeds a little bit and hurts whenever I bend my index finger.",
+      "textSha256": "b7d002d45873403d5e3b60689fda6082a404fd76f5ef7f8eeafc7f94ee07c337"
+    },
+    {
+      "src": "/audio/sentences/first-aid-for-minor-cut/3.mp3",
+      "text": "First, wash the small cut gently under running clean water and soap.",
+      "textSha256": "217722e354d065bd764e6cefc9483e7743178f0efc07f2b7f0ed66970dd119e8"
+    },
+    {
+      "src": "/audio/sentences/first-aid-for-minor-cut/4.mp3",
+      "text": "Open the green first aid kit box kept in the medicine cabinet.",
+      "textSha256": "c4c0e6cc73c293ddd6e9ba73d78cbfc8ada3985eb57156de3f724e4bd974280f"
+    },
+    {
+      "src": "/audio/sentences/first-aid-for-minor-cut/5.mp3",
+      "text": "Be careful and wrap a breathable adhesive bandage around the wound.",
+      "textSha256": "897ff963ae6a5f00a935eeeedc00616dd659d1c8b832b12b233d0361626fc9bd"
+    },
+    {
+      "src": "/audio/sentences/first-aid-for-minor-cut/6.mp3",
+      "text": "The bleeding stopped immediately, and the finger is well protected now.",
+      "textSha256": "33a852080bea4bf524c7e8991e382195980d3e4c316212b7b4696bca9e8e6ec2"
+    },
+    {
+      "src": "/audio/phrases/first-aid-for-minor-cut-minor-paper-cut.mp3",
+      "text": "minor paper cut",
+      "textSha256": "3e594b4df8c9e643ca3b7e3a456a95897864d6fac5f64f77971552aaa17265fe"
+    },
+    {
+      "src": "/audio/phrases/first-aid-for-minor-cut-running-clean-water.mp3",
+      "text": "running clean water",
+      "textSha256": "81d77113a2df0f2f3c44b7f1bccdd18a1f70185cdea2eea45b556fac42568acc"
+    },
+    {
+      "src": "/audio/phrases/first-aid-for-minor-cut-first-aid-kit.mp3",
+      "text": "first aid kit",
+      "textSha256": "33a9e04fb096470d36dd0b4af519ef7d9205c2009b8af463159a181431f8c521"
+    },
+    {
+      "src": "/audio/phrases/first-aid-for-minor-cut-adhesive-bandage.mp3",
+      "text": "adhesive bandage",
+      "textSha256": "4e82e1c03b1e0387091978bed2d17b5a67ef4c79ee9bc97d37eb2d5d985ac4ae"
+    },
+    {
+      "src": "/audio/phrases/first-aid-for-minor-cut-bleeding-stopped.mp3",
+      "text": "bleeding stopped",
+      "textSha256": "3661248c0a52c085fe75e74d1dc603256c1519a90c49949b0248edf48cf7e883"
+    },
+    {
+      "src": "/audio/words/first-aid-for-minor-cut-cut.mp3",
+      "text": "cut",
+      "textSha256": "378bfce5cda2599a6cda399f1cacef861e4e575ec794744dcf0e55e9c4780633"
+    },
+    {
+      "src": "/audio/words/first-aid-for-minor-cut-finger.mp3",
+      "text": "finger",
+      "textSha256": "400b181c878493867e7293db108d505116fe8e4d35686579769cca43008a272a"
+    },
+    {
+      "src": "/audio/words/first-aid-for-minor-cut-bandage.mp3",
+      "text": "bandage",
+      "textSha256": "fe4190c0bc0ee116b11c2bf751e652e3a1957ebcbad939dbd0dd98bee57ba89e"
+    },
+    {
+      "src": "/audio/words/first-aid-for-minor-cut-wash.mp3",
+      "text": "wash",
+      "textSha256": "476994559e873a621c524b49c195ad4d14876ac168022ae43c0b3fe2868d82ef"
+    },
+    {
+      "src": "/audio/words/first-aid-for-minor-cut-careful.mp3",
+      "text": "careful",
+      "textSha256": "191c415261817259c49f435b1a380bac5cc31c3dfdd3cf0f8bcce446d9992387"
+    },
+    {
+      "src": "/audio/words/first-aid-for-minor-cut-box.mp3",
+      "text": "box",
+      "textSha256": "26f8567f2569182294c3fa5b9f9cb2270b554eef628b4c149cf82a42888ff4ae"
+    },
+    {
+      "src": "/audio/sentences/seeking-lost-pet-notice/1.mp3",
+      "text": "Our beloved family pet cat slipped out of the balcony door and got lost yesterday.",
+      "textSha256": "e5c000101d0335f371b559cfdd8f7712712dd83435746921edba27e471f143a0"
+    },
+    {
+      "src": "/audio/sentences/seeking-lost-pet-notice/2.mp3",
+      "text": "We designed a clear search poster with her color photo and distinguishing physical features.",
+      "textSha256": "6aba2470faafcffc4f184710b4b4d190f8634fc29d796a413a2e403f41f8dcd6"
+    },
+    {
+      "src": "/audio/sentences/seeking-lost-pet-notice/3.mp3",
+      "text": "She is wearing a red collar with a bell around her neck.",
+      "textSha256": "59d6ec7646734e8782b71bea98d87f408fb3edaeb13836b19d2cb55d5bfa71f6"
+    },
+    {
+      "src": "/audio/sentences/seeking-lost-pet-notice/4.mp3",
+      "text": "Please post this notice on the community notice board near the park gate.",
+      "textSha256": "091262dfccf47ff146c699b94ef8d9f535ed8dd4d5396e27b95c6375fb327040"
+    },
+    {
+      "src": "/audio/sentences/seeking-lost-pet-notice/5.mp3",
+      "text": "If you spot her, please contact our family and we will offer a kind reward.",
+      "textSha256": "9e54cea15f5ce8e04b2a4643d5a67db3ac02ad6e485081216deb09e38a5167da"
+    },
+    {
+      "src": "/audio/sentences/seeking-lost-pet-notice/6.mp3",
+      "text": "A kind neighbor recognized the bell sound and safely reunited her with our family.",
+      "textSha256": "9e8c79ad4562df9c7990b1fa9c09ef418592cffead67e2bcff7019215e36d53f"
+    },
+    {
+      "src": "/audio/phrases/seeking-lost-pet-notice-got-lost-yesterday.mp3",
+      "text": "got lost yesterday",
+      "textSha256": "c93b6de93971f18801ce61bf503dc9ed33743d888c08e7a6419be00a3984040c"
+    },
+    {
+      "src": "/audio/phrases/seeking-lost-pet-notice-search-poster.mp3",
+      "text": "search poster",
+      "textSha256": "fd4ff8af6a5f865855f7c1ace51e1d63341bc101b88c25438f69da246e5f458c"
+    },
+    {
+      "src": "/audio/phrases/seeking-lost-pet-notice-red-collar-with-a-bell.mp3",
+      "text": "red collar with a bell",
+      "textSha256": "c7f3b55f9914cdeab234a3c9962d300318c00e5d9b56e1e4aab3f3e172bd00dd"
+    },
+    {
+      "src": "/audio/phrases/seeking-lost-pet-notice-community-notice-board.mp3",
+      "text": "community notice board",
+      "textSha256": "6f52508b322ce971ddb393feef189c430483d399c4cfd7b56fa276a7a384671f"
+    },
+    {
+      "src": "/audio/phrases/seeking-lost-pet-notice-safely-reunited.mp3",
+      "text": "safely reunited",
+      "textSha256": "4e38e49a1088fdb923af19071207a643a652d5995a88acdcbe07576c2e347abd"
+    },
+    {
+      "src": "/audio/words/seeking-lost-pet-notice-pet.mp3",
+      "text": "pet",
+      "textSha256": "bbba57318f71911354fdaab5d67ea8c352bfe113231e968a9ac1f4cf5b38e546"
+    },
+    {
+      "src": "/audio/words/seeking-lost-pet-notice-cat.mp3",
+      "text": "cat",
+      "textSha256": "77af778b51abd4a3c51c5ddd97204a9c3ae614ebccb75a606c3b6865aed6744e"
+    },
+    {
+      "src": "/audio/words/seeking-lost-pet-notice-photo.mp3",
+      "text": "photo",
+      "textSha256": "55c64d0fcd6f9d5f7c828093857e3fdfda68478bb4e9bd24d481ef391c7804e8"
+    },
+    {
+      "src": "/audio/words/seeking-lost-pet-notice-poster.mp3",
+      "text": "poster",
+      "textSha256": "293b9207228b7854bc3ccb2959ebea1583e066d41983124a5b381d6fdf6575f8"
+    },
+    {
+      "src": "/audio/words/seeking-lost-pet-notice-contact.mp3",
+      "text": "contact",
+      "textSha256": "093e7d5fdbaacfa92448861b11075b3fba532a07d945b49a44919252f5e830ad"
+    },
+    {
+      "src": "/audio/words/seeking-lost-pet-notice-reward.mp3",
+      "text": "reward",
+      "textSha256": "7696fff84f26472a9737981c0ef48600731e7b2a20c93e2dbfe06706ca0d31b0"
+    }
+  ]
+}

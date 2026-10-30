@@ -1,0 +1,341 @@
+{
+  "id": "fire-alarm-drill-response",
+  "title": "火災警報響起時的疏散應變",
+  "titleEn": "Responding to a Fire Alarm and Evacuation Drill",
+  "category": "健康與生活安全",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/fire-alarm-drill-response.webp",
+    "alt": "在學校校舍寬敞明亮的走廊上，學生們用毛巾輕掩口鼻，在老師的平靜指引下，有秩序地順著綠色安全出口走下樓梯，疏散至操場。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "fire-alarm-started-ringing",
+      "english": "fire alarm started ringing",
+      "translation": "火災警報開始大聲響起",
+      "audio": {
+        "src": "/audio/phrases/fire-alarm-drill-response-fire-alarm-started-ringing.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fe6533940028914dc62bccff0317c612f4d8787c82d3585739a62cc17ea89697",
+        "sha256": "2bc3b92b73902e561715dcf905d69a5af539e5b28366df29b93400585455487c"
+      }
+    },
+    {
+      "id": "stay-calm",
+      "english": "stay calm",
+      "translation": "保持冷靜",
+      "audio": {
+        "src": "/audio/phrases/fire-alarm-drill-response-stay-calm.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7e64a3789f64f6eaea60bd182008afdbb2bafe850eb9d2fb3d9df74ec563849c",
+        "sha256": "044b5a297188dc3f1093c1621a5c54ef05814b25e5b005d2404303efe848f385"
+      }
+    },
+    {
+      "id": "cover-your-mouth-and-nose",
+      "english": "Cover your mouth and nose",
+      "translation": "掩住口鼻",
+      "audio": {
+        "src": "/audio/phrases/fire-alarm-drill-response-cover-your-mouth-and-nose.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9927fed18d37b12a9a44e28f19cfa941ecef78636f030afbd0ca051dc8cf180a",
+        "sha256": "936b5d61a3fc9f03488cea90289227d945fc71276d02e14435452cdd9a71a94e"
+      }
+    },
+    {
+      "id": "emergency-exit-signs",
+      "english": "emergency exit signs",
+      "translation": "緊急逃生出口指示",
+      "audio": {
+        "src": "/audio/phrases/fire-alarm-drill-response-emergency-exit-signs.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f357ff66b6703a76bd86a713e22295b0f4d59fb5a2e7b3bd53cd38b51fe7ef00",
+        "sha256": "5827b82d36c9699273ddeaa22d1a90ae7581d502bf9e2af6f41074c73e55cfd2"
+      }
+    },
+    {
+      "id": "gathered-safely-outside",
+      "english": "gathered safely outside",
+      "translation": "安全集合在戶外",
+      "audio": {
+        "src": "/audio/phrases/fire-alarm-drill-response-gathered-safely-outside.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b33601b97976c5f7a5ca128be121297a59eab3f26f96ffa99f1668c229f20094",
+        "sha256": "4bdc23e007a1facda9d5a5eaae9d03485945ab032a5d4e549b4a9a60a9056aae"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "fire",
+      "english": "fire",
+      "translation": "火災；火焰",
+      "example": "Call the emergency number immediately if you see fire.",
+      "audio": {
+        "src": "/audio/words/fire-alarm-drill-response-fire.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dc9f28b12dd1818ee42ffc92ecb940386214598837348d30d3c6c0b7b57e34c9",
+        "sha256": "74f162dbf3da581828400e7b7a509d8121d9cbaa30c73d5e00f18d6a8a79a7b7"
+      }
+    },
+    {
+      "id": "alarm",
+      "english": "alarm",
+      "translation": "警報；警鈴",
+      "example": "The morning alarm rang at seven o'clock.",
+      "audio": {
+        "src": "/audio/words/fire-alarm-drill-response-alarm.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5e94ec139442cfe98f5cdb0ffbb6dd081de42949b11f8950a122c5d797598329",
+        "sha256": "107329547dff5f5b01d203b8f4ed5004f812d4286a66f1c20bba5e4b0adf95b3"
+      }
+    },
+    {
+      "id": "stairs",
+      "english": "stairs",
+      "translation": "樓梯；階梯",
+      "example": "Walk down the stairs slowly to avoid slipping.",
+      "audio": {
+        "src": "/audio/words/fire-alarm-drill-response-stairs.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0eeea780b063634befb947bc6800a8caddfd18270140d4bdad037f50d72130fb",
+        "sha256": "9a66c5a8d20381c0c99d99bf558de49f8142b54f58ba948d49cbb74c98e74cf9"
+      }
+    },
+    {
+      "id": "exit",
+      "english": "exit",
+      "translation": "出口；離去",
+      "example": "The emergency exit is at the rear of the airplane.",
+      "audio": {
+        "src": "/audio/words/fire-alarm-drill-response-exit.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e596899f114b5162402325dfb31fdaa792fabed718628336cc7a35a24f38eaa9",
+        "sha256": "707626946284a64efaa8dc8f94e8cb2cbf515365c86fb4de7559fd8f32780467"
+      }
+    },
+    {
+      "id": "calm",
+      "english": "calm",
+      "translation": "平靜的；鎮靜的",
+      "example": "Take three deep breaths to stay calm.",
+      "audio": {
+        "src": "/audio/words/fire-alarm-drill-response-calm.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2b4b2eadf7b2aece598d2f2ad4637361614a738a7cdf1a457d8b46db072184d5",
+        "sha256": "39fbb0035278fe1b9bf97b00af2eaf2ec6aabcbd92c652d44f726850c651ab99"
+      }
+    },
+    {
+      "id": "safe",
+      "english": "safe",
+      "translation": "安全的；平安的",
+      "example": "It is safe to cross the street when the green light shows.",
+      "audio": {
+        "src": "/audio/words/fire-alarm-drill-response-safe.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8b3369944dd2a3fab39e32d1aeb1f763946a458ae3e6368a46432adc8f3a0860",
+        "sha256": "9f1297812700167c116dbbe6e8a8da616197dd605e97b0759229fc0f7ab90797"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "A piercing "
+        },
+        {
+          "text": "fire",
+          "phraseIds": [
+            "fire-alarm-started-ringing"
+          ],
+          "wordIds": [
+            "fire"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "alarm",
+          "phraseIds": [
+            "fire-alarm-started-ringing"
+          ],
+          "wordIds": [
+            "alarm"
+          ]
+        },
+        {
+          "text": " started ringing",
+          "phraseIds": [
+            "fire-alarm-started-ringing"
+          ]
+        },
+        {
+          "text": " loudly throughout the school building."
+        }
+      ],
+      "translation": "一陣刺耳的火警警報聲突然在整棟校舍中大聲響起。",
+      "audio": {
+        "src": "/audio/sentences/fire-alarm-drill-response/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "20b31d2979ef05515f08cc6e4d4373bca9c3331d9f072e9785ec92b2165e9f38",
+        "sha256": "6559c8e8642db247102613c072db0332101574d1520810faabdbb4e2fb7b383d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Our teacher told everybody to "
+        },
+        {
+          "text": "stay ",
+          "phraseIds": [
+            "stay-calm"
+          ]
+        },
+        {
+          "text": "calm",
+          "phraseIds": [
+            "stay-calm"
+          ],
+          "wordIds": [
+            "calm"
+          ]
+        },
+        {
+          "text": " and not to panic."
+        }
+      ],
+      "translation": "老師叫所有人保持冷靜，千萬不要驚慌失措。",
+      "audio": {
+        "src": "/audio/sentences/fire-alarm-drill-response/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "26b17589ff8acd45f9940d10ec81dd5b7f26205dba44aef4b75f82f7cffd6a75",
+        "sha256": "3654c161cd09fcfebfd7bf601ebd6373b4ab0c6cdbc8fbd6e85652824c4cd548"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Cover your mouth and nose",
+          "phraseIds": [
+            "cover-your-mouth-and-nose"
+          ]
+        },
+        {
+          "text": " with a damp cloth if there is any smoke in the hallway."
+        }
+      ],
+      "translation": "如果走廊上有任何煙霧，請用濕布掩住口鼻。",
+      "audio": {
+        "src": "/audio/sentences/fire-alarm-drill-response/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6e73333d0d8dce932405fa793f2e5f5994facb636056eae737a7f9024e88d5d5",
+        "sha256": "69a725bba9931b2a30caf8fca2136db057fc6378debb4e8cf50da6f7b16497af"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do not take the elevator under any circumstances during an evacuation drill."
+        }
+      ],
+      "translation": "在任何疏散逃生演練情況下，絕對不能搭乘電梯。",
+      "audio": {
+        "src": "/audio/sentences/fire-alarm-drill-response/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7c4f30e42936f0cf3a287ae0aa8c1a718e6edab0f5e3280a6567306f348aa9f2",
+        "sha256": "8656f2f431c213eb971bc882f92667c53b31fa2fc514a77a2dc56a0b27d63dc6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Follow the "
+        },
+        {
+          "text": "emergency ",
+          "phraseIds": [
+            "emergency-exit-signs"
+          ]
+        },
+        {
+          "text": "exit",
+          "phraseIds": [
+            "emergency-exit-signs"
+          ],
+          "wordIds": [
+            "exit"
+          ]
+        },
+        {
+          "text": " signs",
+          "phraseIds": [
+            "emergency-exit-signs"
+          ]
+        },
+        {
+          "text": " down the wide concrete "
+        },
+        {
+          "text": "stairs",
+          "wordIds": [
+            "stairs"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "順著綠色的緊急逃生出口指示牌，走寬敞的水泥安全梯下樓。",
+      "audio": {
+        "src": "/audio/sentences/fire-alarm-drill-response/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a17b89748917e07c43a35bed8b5f94c58b4d44a32d1c234c7664e4ff0d313636",
+        "sha256": "b9ba2a1f51344f5a512b847eeef34ae7ce81b9388ebc15da93ff913c7e59b38e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "All classes "
+        },
+        {
+          "text": "gathered ",
+          "phraseIds": [
+            "gathered-safely-outside"
+          ]
+        },
+        {
+          "text": "safely",
+          "phraseIds": [
+            "gathered-safely-outside"
+          ],
+          "wordIds": [
+            "safe"
+          ]
+        },
+        {
+          "text": " outside",
+          "phraseIds": [
+            "gathered-safely-outside"
+          ]
+        },
+        {
+          "text": " on the open athletic field within three minutes."
+        }
+      ],
+      "translation": "所有班級在三分鐘之內，全都安全疏散集合到戶外開闊的操場上了。",
+      "audio": {
+        "src": "/audio/sentences/fire-alarm-drill-response/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7c2970c1745bf5dd895034737645996629fa7ad99d179ae0efbd12774808e15d",
+        "sha256": "1ada321711b06399f8a66cc7276937333dc659d765ce068d98f24e4f14b60773"
+      }
+    }
+  ]
+}

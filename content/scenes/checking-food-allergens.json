@@ -1,0 +1,359 @@
+{
+  "id": "checking-food-allergens",
+  "title": "確認餐點成分與過敏",
+  "titleEn": "Checking Food Allergens",
+  "category": "飲食美味",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/checking-food-allergens.webp",
+    "alt": "在餐廳桌旁，顧客拿著菜單向服務生詢問沙拉醬成分與花生過敏，店員親切確認。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "does-it-contain",
+      "english": "does it contain",
+      "translation": "裡面有包含...嗎？",
+      "audio": {
+        "src": "/audio/phrases/checking-food-allergens-does-it-contain.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9a74694f73a9d5e94f3a46a88694aca413e4feb48ba6abf5b2626c53e5488345",
+        "sha256": "d6d434fb9f501b07adfb187b58dfaa4135d077ae7237b40e898eb5c0d1089f00"
+      }
+    },
+    {
+      "id": "be-sure-about",
+      "english": "be sure about",
+      "translation": "確定...的事實",
+      "audio": {
+        "src": "/audio/phrases/checking-food-allergens-be-sure-about.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dd212843759b3b34c0b9ef4523d712834407ef2ff6b27b3757841499fad72f24",
+        "sha256": "33b59195a4449e65e18f0c2c3c4432fe83a67f7a23ce38bdf236b4770b257b0f"
+      }
+    },
+    {
+      "id": "has-a-bad-allergy",
+      "english": "has a bad allergy",
+      "translation": "有嚴重的過敏",
+      "audio": {
+        "src": "/audio/phrases/checking-food-allergens-has-a-bad-allergy.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4c6d102614b7b02f9e116411a0045573d7802f79a136d157ca69897ebf474f65",
+        "sha256": "6cee09adf0fef5f912f9b914a9a8ae8a24d25e8ead8667bdae8cf8f0c10d12ea"
+      }
+    },
+    {
+      "id": "does-that-mean",
+      "english": "does that mean",
+      "translation": "那是不是代表...",
+      "audio": {
+        "src": "/audio/phrases/checking-food-allergens-does-that-mean.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f6a1c2756e343e858a931aa177215c87c264547b82af47ec5a3d18749823b3c0",
+        "sha256": "74228eecbddd0a3b042501e0aee449326af2d2333f890203226320c8c9008868"
+      }
+    },
+    {
+      "id": "do-not-worry",
+      "english": "do not worry",
+      "translation": "請不用擔心",
+      "audio": {
+        "src": "/audio/phrases/checking-food-allergens-do-not-worry.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "366e1dc2b25cd190487577adaaa2d031118f2d5d3104eb7bd78bba15f228cd10",
+        "sha256": "ff902cb616dcef8d8424d5fe362fe90506c21e57ceedde0a74717aa06406856c"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "contain",
+      "english": "contain",
+      "translation": "包含、含有",
+      "example": "Does this chocolate cake contain milk?",
+      "audio": {
+        "src": "/audio/words/checking-food-allergens-contain.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dd9245cc1ddc69c88a8a530dea2b643123ffcdb0509e7d0566db22654b57cb12",
+        "sha256": "b32cd1ee47373093b9f1f75f4639ef267dbbe15678091f841c32efb78581228e"
+      }
+    },
+    {
+      "id": "sure",
+      "english": "sure",
+      "translation": "當然、確定",
+      "example": "Are you sure the soup is vegetarian?",
+      "audio": {
+        "src": "/audio/words/checking-food-allergens-sure.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c0cafcf0e2d6a236aca78b03f4c33b25ca970788fd6adde4ccc7db6acecb3ee1",
+        "sha256": "cf0ea0a25c6342ac622d18ee0b2a7eaf9358933c807eea55f385a4ec74965e96"
+      }
+    },
+    {
+      "id": "safe",
+      "english": "safe",
+      "translation": "安全的",
+      "example": "This dish is safe for people with nut allergies.",
+      "audio": {
+        "src": "/audio/words/checking-food-allergens-safe.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8b3369944dd2a3fab39e32d1aeb1f763946a458ae3e6368a46432adc8f3a0860",
+        "sha256": "1ba788284668f87ebd8fa25f15e1c75905569a307991694e09ceefab115783c7"
+      }
+    },
+    {
+      "id": "kind",
+      "english": "kind",
+      "translation": "種類",
+      "example": "What kind of dressing would you like?",
+      "audio": {
+        "src": "/audio/words/checking-food-allergens-kind.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0b27c158feb36ab18a10ff687909ec730ece6280581dd407e2672359be7725dd",
+        "sha256": "b5b50220e0919ec5bcef22db819c0671b7d58dffe60966d1c13f7c2ece1e1938"
+      }
+    },
+    {
+      "id": "matter",
+      "english": "matter",
+      "translation": "要緊、有關係",
+      "example": "Fresh ingredients really matter in cooking.",
+      "audio": {
+        "src": "/audio/words/checking-food-allergens-matter.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "57523f642f63eabb2a4f6804ad9efe4131c56c0784de25ef63ed7e6ee2ba10a3",
+        "sha256": "c1350d54032bc5e5bfcd71956fee99d80a589c8468f7cd28593a05b3fc966320"
+      }
+    },
+    {
+      "id": "worry",
+      "english": "worry",
+      "translation": "擔心",
+      "example": "You do not need to worry about the oil.",
+      "audio": {
+        "src": "/audio/words/checking-food-allergens-worry.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6de2f53e03e93dffb34ac0c77302d66128184fc2a8478ef82ca404fe054308a3",
+        "sha256": "76c1d7e867c5e49f42afcef38008be5acb600bb63e3f1a25acddcc3235211e5d"
+      }
+    },
+    {
+      "id": "mean",
+      "english": "mean",
+      "translation": "意思是、意指",
+      "example": "What does this label mean?",
+      "audio": {
+        "src": "/audio/words/checking-food-allergens-mean.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "82523faea1b0f2da676a0561d597000bb6918036c6e541dc1145966141864332",
+        "sha256": "a80dd271581c6daff6d1242dbb1a064f6a9bc87f454aaedc08fe8fedc576dc7f"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Excuse me, "
+        },
+        {
+          "text": "does it ",
+          "phraseIds": [
+            "does-it-contain"
+          ]
+        },
+        {
+          "text": "contain",
+          "phraseIds": [
+            "does-it-contain"
+          ],
+          "wordIds": [
+            "contain"
+          ]
+        },
+        {
+          "text": " any peanuts in this salad dressing?"
+        }
+      ],
+      "translation": "不好意思，這份沙拉醬裡面有含任何花生嗎？",
+      "audio": {
+        "src": "/audio/sentences/checking-food-allergens/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7e0896f1b061f75d2fd0cd5ee6985d3b15ffb2b59f234dddab2878fe4386b205",
+        "sha256": "c373086ce97471741084137ef960b26c50e4b567fe61429ad3881222a57c5ff1"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I need to "
+        },
+        {
+          "text": "be ",
+          "phraseIds": [
+            "be-sure-about"
+          ]
+        },
+        {
+          "text": "sure",
+          "phraseIds": [
+            "be-sure-about"
+          ],
+          "wordIds": [
+            "sure"
+          ]
+        },
+        {
+          "text": " about",
+          "phraseIds": [
+            "be-sure-about"
+          ]
+        },
+        {
+          "text": " this because my sister "
+        },
+        {
+          "text": "has a bad allergy",
+          "phraseIds": [
+            "has-a-bad-allergy"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我必須確定這件事，因為我妹妹有嚴重的過敏。",
+      "audio": {
+        "src": "/audio/sentences/checking-food-allergens/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7bae62cc9ed8a077cb2c036b3ae5a01ebfa5c62b3fb4a52fe4ee333a1344745b",
+        "sha256": "be4a1189802550d0fbf3d3e1d2c15ebb79f5a9b7b556a59ac7710a94cb7155e9"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "If it contains nuts, could you prepare a "
+        },
+        {
+          "text": "safe",
+          "wordIds": [
+            "safe"
+          ]
+        },
+        {
+          "text": " one without dressing?"
+        }
+      ],
+      "translation": "如果裡面有堅果，可以幫忙準備一份不加醬的安全沙拉嗎？",
+      "audio": {
+        "src": "/audio/sentences/checking-food-allergens/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "81e7778ad17111b026c7ecfcd4db363e1de7701e74c7c0aade54d16172442900",
+        "sha256": "57d5952c7052e4a8dd2b44760cb106d5d8f4811be2693d5aad69d35fef1f9287"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Our kitchen uses a special "
+        },
+        {
+          "text": "kind",
+          "wordIds": [
+            "kind"
+          ]
+        },
+        {
+          "text": " of olive oil for that."
+        }
+      ],
+      "translation": "我們廚房是用一種特別的橄欖油來做那個的。",
+      "audio": {
+        "src": "/audio/sentences/checking-food-allergens/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a063d826e2cfdc2aba7d45f7dbdb95ff95baf520681044ec51af8beb06b5c04d",
+        "sha256": "5e910e0db5c4258013f0554241982632612251eb358081a72c35871de794c504"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Does that ",
+          "phraseIds": [
+            "does-that-mean"
+          ]
+        },
+        {
+          "text": "mean",
+          "phraseIds": [
+            "does-that-mean"
+          ],
+          "wordIds": [
+            "mean"
+          ]
+        },
+        {
+          "text": " there is no dairy in this dish?"
+        }
+      ],
+      "translation": "那是不是代表這道菜裡面完全沒有乳製品？",
+      "audio": {
+        "src": "/audio/sentences/checking-food-allergens/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b7d1c151519c369371e5e44bc0abcd3cfe190baea22d2d2752f83e36bc36fe69",
+        "sha256": "4e3707d7ddf10131826019ce1b163bcd10be4e486291f041efedf418a4dbe4fd"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do not ",
+          "phraseIds": [
+            "do-not-worry"
+          ]
+        },
+        {
+          "text": "worry",
+          "phraseIds": [
+            "do-not-worry"
+          ],
+          "wordIds": [
+            "worry"
+          ]
+        },
+        {
+          "text": ", food allergies really "
+        },
+        {
+          "text": "matter",
+          "wordIds": [
+            "matter"
+          ]
+        },
+        {
+          "text": " to us, so it is "
+        },
+        {
+          "text": "safe",
+          "wordIds": [
+            "safe"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "別擔心，食物過敏對我們來說非常要緊，所以這很安全。",
+      "audio": {
+        "src": "/audio/sentences/checking-food-allergens/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7a28dcccd9692245bc68fdcb9bf25606fc1972c56bad21915f273b78c5a99eb8",
+        "sha256": "2df89d586b5d658128f8cdb3951f2f10804bb74558069e1b1dc0eb00a4ab5284"
+      }
+    }
+  ]
+}

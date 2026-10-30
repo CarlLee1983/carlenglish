@@ -1,0 +1,344 @@
+{
+  "id": "travel-itinerary-planning",
+  "title": "規劃假期一日遊行程",
+  "titleEn": "Planning a Holiday Day Trip",
+  "category": "休閒與遊戲",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/travel-itinerary-planning.webp",
+    "alt": "在採光充足的客廳咖啡桌前，兩位朋友攤開地圖與筆記本，熱絡討論搭火車到鄉村步道一日健行的出遊計畫。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "summer-holiday",
+      "english": "summer holiday",
+      "translation": "暑期假期",
+      "audio": {
+        "src": "/audio/phrases/travel-itinerary-planning-summer-holiday.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ff9fe265db45a7461f4c3318d99e660acdc97a23938efb70fb31251d393f484f",
+        "sha256": "4dfdd80149fcb71d61c82553ea162412792096b10dca8f4ebec9a6aafc56ca3c"
+      }
+    },
+    {
+      "id": "travel-somewhere-peaceful",
+      "english": "travel somewhere peaceful",
+      "translation": "到寧靜的地方旅行",
+      "audio": {
+        "src": "/audio/phrases/travel-itinerary-planning-travel-somewhere-peaceful.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "024d806375edd1107aca0d7193424271d31296d85aa5a8038d670b96c30077c1",
+        "sha256": "97fe58e507596ac31d57ed6a3681f57096648a0f56329c9a631a386cb22014e3"
+      }
+    },
+    {
+      "id": "country-hills",
+      "english": "country hills",
+      "translation": "鄉村丘陵",
+      "audio": {
+        "src": "/audio/phrases/travel-itinerary-planning-country-hills.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d5da3bf15878b5f51a6e43c30cd0f5281ffc4c534919d9b26ffa3814b9977ea9",
+        "sha256": "e17219674e746d1b4dd39f06c201dd0c7f8c3db646347579abb1025313f35f9b"
+      }
+    },
+    {
+      "id": "worth-the-trip",
+      "english": "worth the trip",
+      "translation": "值得這趟旅程",
+      "audio": {
+        "src": "/audio/phrases/travel-itinerary-planning-worth-the-trip.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e2404fa2eefbcf1a733c8dfe2cc6ccf68b2bc729b1e7141e0746cbbdfef02da2",
+        "sha256": "d09d6207474301a6f0badb3bd012d4de331ec24db5d75990895a4948b9272a55"
+      }
+    },
+    {
+      "id": "visit-the-local-tea-farm",
+      "english": "visit the local tea farm",
+      "translation": "拜訪當地茶園",
+      "audio": {
+        "src": "/audio/phrases/travel-itinerary-planning-visit-the-local-tea-farm.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bda15659104bee815e13ef991dffdba2058d0e9b1c3d13ff5abccefb74ef5e63",
+        "sha256": "d389a7c68f571db38b9d30d2c0221f1ac44cdc04ecf3ab4b7e3c6fec57904fc7"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "holiday",
+      "english": "holiday",
+      "translation": "假期；節日",
+      "example": "Where did you go during the winter holiday?",
+      "audio": {
+        "src": "/audio/words/travel-itinerary-planning-holiday.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "81c16d337a1b73144ebf20b45661f2b02aa0b22e886a978d6b2ec929cdaaee9e",
+        "sha256": "6acf4d8a15727da1508ef41d6fa3a3a34a4fce2390838bde99af4f1108776562"
+      }
+    },
+    {
+      "id": "summer",
+      "english": "summer",
+      "translation": "夏天；夏季",
+      "example": "Summer in Taiwan is hot and humid.",
+      "audio": {
+        "src": "/audio/words/travel-itinerary-planning-summer.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e83664255c6963e962bb20f9fcfaad1b570ddf5da69f5444ed37e5260f3ef689",
+        "sha256": "00397953616056dc7c95f417eb701917cbf0b638bbea7c16c73807cf1d06cef4"
+      }
+    },
+    {
+      "id": "travel",
+      "english": "travel",
+      "translation": "旅行；出遊",
+      "example": "She loves to travel by train across the island.",
+      "audio": {
+        "src": "/audio/words/travel-itinerary-planning-travel.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0209442e115ad7bc79fd281d91423a86b619e3c711fe574b7cc198d2e3c461c4",
+        "sha256": "aefdea1bd4a9e942e44db6634ff7f9e30f83f6d782423e9c60bc98aad6baf214"
+      }
+    },
+    {
+      "id": "town",
+      "english": "town",
+      "translation": "城鎮；小鎮",
+      "example": "The historic coastal town is famous for seafood.",
+      "audio": {
+        "src": "/audio/words/travel-itinerary-planning-town.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "50ac81f970325a3e011f2437818adde426e1278dee5670dd359edfca43a72d79",
+        "sha256": "6a5268515ae397e96e69fcb0090a08ef461bd261175c72231ddf500c3be30b6d"
+      }
+    },
+    {
+      "id": "country",
+      "english": "country",
+      "translation": "國家；鄉村",
+      "example": "They moved from the crowded city to the country.",
+      "audio": {
+        "src": "/audio/words/travel-itinerary-planning-country.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "aff64e4fd520bd185cb01adab98d2d20060f621c62d5cad5204712cfa2294ef7",
+        "sha256": "aad481e000a15277709d6a4e137b06403ccf97a76a2e251fb5abbc6c03684929"
+      }
+    },
+    {
+      "id": "worth",
+      "english": "worth",
+      "translation": "值得的；有價值的",
+      "example": "This good book is definitely worth reading twice.",
+      "audio": {
+        "src": "/audio/words/travel-itinerary-planning-worth.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c0a6eb55b12b7dfe01d9e55f4563eeefe13bd7ef7d7d576fdd8a9977d7a09f5d",
+        "sha256": "9b86492879d76ff6632aa8253a51431e7bd3b284eba6135da28f787249236e38"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Since "
+        },
+        {
+          "text": "summer",
+          "phraseIds": [
+            "summer-holiday"
+          ],
+          "wordIds": [
+            "summer"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "holiday",
+          "phraseIds": [
+            "summer-holiday"
+          ],
+          "wordIds": [
+            "holiday"
+          ]
+        },
+        {
+          "text": " is beginning soon, let us "
+        },
+        {
+          "text": "travel",
+          "phraseIds": [
+            "travel-somewhere-peaceful"
+          ],
+          "wordIds": [
+            "travel"
+          ]
+        },
+        {
+          "text": " somewhere peaceful",
+          "phraseIds": [
+            "travel-somewhere-peaceful"
+          ]
+        },
+        {
+          "text": " this Saturday."
+        }
+      ],
+      "translation": "既然暑假快開始了，我們這個星期六去一個寧靜的地方走走吧。",
+      "audio": {
+        "src": "/audio/sentences/travel-itinerary-planning/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8a095e7ac9cbff7a19f0449bec4f697c6e317cef642788aef3a33decd7c6dc2c",
+        "sha256": "b253e0f4dc04c94bf9d1bdd4a60500059ed28ae50a86a4f170b73185465098dc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do you want to explore an old historic "
+        },
+        {
+          "text": "town",
+          "wordIds": [
+            "town"
+          ]
+        },
+        {
+          "text": " or walk through the quiet "
+        },
+        {
+          "text": "country",
+          "phraseIds": [
+            "country-hills"
+          ],
+          "wordIds": [
+            "country"
+          ]
+        },
+        {
+          "text": " hills",
+          "phraseIds": [
+            "country-hills"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "你想去探索古色古香的歷史小鎮，還是漫步在寧靜的鄉間丘陵？",
+      "audio": {
+        "src": "/audio/sentences/travel-itinerary-planning/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "92f5e59378a32f0ad425f92bcb53c3d2fc5fc4c75bd5c833c86bf761fda0ae82",
+        "sha256": "618f46ad4627305805fdf375abe9b3662965fdba63d2bfceb3af47ce5738621e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "A walking tour through the mountain "
+        },
+        {
+          "text": "country",
+          "wordIds": [
+            "country"
+          ]
+        },
+        {
+          "text": " would give us a breath of fresh life."
+        }
+      ],
+      "translation": "在山野鄉村徒步漫遊會讓我們呼吸新鮮空氣、感受生活活力。",
+      "audio": {
+        "src": "/audio/sentences/travel-itinerary-planning/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "06693bbf74b225f050161d19edea9d32655125f5e646b497fc46869ad1c2dd06",
+        "sha256": "8aaf2f5727a3dd43780389dc19e39d9bc7e3d4183b8982843630362eae49e961"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Is the scenic waterfall view really "
+        },
+        {
+          "text": "worth",
+          "wordIds": [
+            "worth"
+          ]
+        },
+        {
+          "text": " the two-hour train ride?"
+        }
+      ],
+      "translation": "那個風景優美的瀑布景致，真的值得我們坐兩小時的火車去嗎？",
+      "audio": {
+        "src": "/audio/sentences/travel-itinerary-planning/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f41499c0aa57c2a51225edcea2152b9b2739ac425f4e72217bdd09e9071a7cd5",
+        "sha256": "ce27a559df00fb58506e8bc8ea233dd4651c7e86906e4ee76324c8b9fba1dc03"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "It is definitely "
+        },
+        {
+          "text": "worth",
+          "phraseIds": [
+            "worth-the-trip"
+          ],
+          "wordIds": [
+            "worth"
+          ]
+        },
+        {
+          "text": " the trip",
+          "phraseIds": [
+            "worth-the-trip"
+          ]
+        },
+        {
+          "text": " because the forest nature trails are breathtaking."
+        }
+      ],
+      "translation": "絕對非常值得去，因為森林步道的大自然風景令人嘆為觀止。",
+      "audio": {
+        "src": "/audio/sentences/travel-itinerary-planning/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c388df6163a5627742889b2972876b5fa2b660c1bb11406f0cd4bc40f9fc4784",
+        "sha256": "4beea56745175ace449cb564638f263bc83aef38645b8891905d0b731138ec81"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Let us pack simple sandwiches and "
+        },
+        {
+          "text": "visit the local tea farm",
+          "phraseIds": [
+            "visit-the-local-tea-farm"
+          ]
+        },
+        {
+          "text": " in the afternoon."
+        }
+      ],
+      "translation": "我們準備簡單的三明治，下午再去拜訪當地的茶園吧。",
+      "audio": {
+        "src": "/audio/sentences/travel-itinerary-planning/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c2808982f3b9a99b0251f25ff921634b0c291309c7756df064969ebc4df7a0fd",
+        "sha256": "3031543c9f9b83bb4163d93d999f38d4778ed3f9ded2fc2a214e0dfcce272251"
+      }
+    }
+  ]
+}

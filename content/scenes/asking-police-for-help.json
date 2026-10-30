@@ -1,0 +1,383 @@
+{
+  "id": "asking-police-for-help",
+  "title": "在路上遇到困難向警察局求助",
+  "titleEn": "Asking for Help at the Local Police Station",
+  "category": "健康與生活安全",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/asking-police-for-help.webp",
+    "alt": "在明亮溫馨的派出所服務台前，和藹的值班警察親切地遞上電話，耐心聆聽一位迷路且手機沒電的年輕學生說明求助情況。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "ran-out-of-charge",
+      "english": "ran out of charge",
+      "translation": "電量耗盡",
+      "audio": {
+        "src": "/audio/phrases/asking-police-for-help-ran-out-of-charge.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "59f39d3e2203dad6bd9dbbbc34975902ca521b880dad11f6be75d42e44e098ba",
+        "sha256": "a61ca95f0afa4f2f0f19bd6239ef4817afe6437205af9e74f671d76d1416682c"
+      }
+    },
+    {
+      "id": "police-station",
+      "english": "police station",
+      "translation": "警察局；派出所",
+      "audio": {
+        "src": "/audio/phrases/asking-police-for-help-police-station.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "df9d79f52caf03d49cd1cb2a7b359f1e7e3f720cdba218e07207508dd321df71",
+        "sha256": "170baa9235503edd19fcd256246aa632a8ea696ae9971b977104934189a39899"
+      }
+    },
+    {
+      "id": "listened-carefully",
+      "english": "listened carefully",
+      "translation": "仔細聆聽",
+      "audio": {
+        "src": "/audio/phrases/asking-police-for-help-listened-carefully.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6f47770bd69eae68b1fa3c32812f0131c05cf533be143a8845d244b600283d13",
+        "sha256": "100d346681240eb3a59438dc34028924655f7b76302878f96237bec4cc36da1d"
+      }
+    },
+    {
+      "id": "felt-very-safe",
+      "english": "felt very safe",
+      "translation": "感到非常有安全感",
+      "audio": {
+        "src": "/audio/phrases/asking-police-for-help-felt-very-safe.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9211878f4096a2c53a80a788066cb80de62f6b303152f513c442fde878c6db0d",
+        "sha256": "485c0181fbcae122c9e7f4f0466fced0c86fe161c444ee4f9fade367d4ed7bd8"
+      }
+    },
+    {
+      "id": "police-officer",
+      "english": "police officer",
+      "translation": "警察；警官",
+      "audio": {
+        "src": "/audio/phrases/asking-police-for-help-police-officer.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "96eaff298ca28af1cb37c10d921709a1cea86bbc84f07dd2c6e7ed0726d32986",
+        "sha256": "d58a1f5af1209de341a04238d4d4d610971330b7ef6df92ea581a86dfa017375"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "police",
+      "english": "police",
+      "translation": "警察；警隊",
+      "example": "The police patrol the city streets to keep people safe.",
+      "audio": {
+        "src": "/audio/words/asking-police-for-help-police.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1366fac71146793a85e98a88ad9bb15adb9aac31da8ac6d73e67059bd5a467a9",
+        "sha256": "ed06b00a2731a59a48b9fdf87a23ff70badb97754b59e48c4cd4a284258b6349"
+      }
+    },
+    {
+      "id": "officer",
+      "english": "officer",
+      "translation": "官員；警員",
+      "example": "The duty officer checked the visitor's bag.",
+      "audio": {
+        "src": "/audio/words/asking-police-for-help-officer.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d71f0bd623e5e0b40eb4b4355091d057d5e40644e1e6cda16b33213f8ae7541f",
+        "sha256": "a249aa31627ae79e4fb208d01904b564091956c92d4c142787aecc42f4ff343d"
+      }
+    },
+    {
+      "id": "station",
+      "english": "station",
+      "translation": "局；站所",
+      "example": "The fire station is two blocks away.",
+      "audio": {
+        "src": "/audio/words/asking-police-for-help-station.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9b4ef3e5b7b4d1759cb8f880e34dbd5ea8c3fcd79ce33b89d7357bf64fcbfc91",
+        "sha256": "7d56372c3b810f7236f087a9d3097ae52803bc18906beb114b947dc37c82631b"
+      }
+    },
+    {
+      "id": "report",
+      "english": "report",
+      "translation": "報告；報案",
+      "example": "Report any suspicious activity to the teacher.",
+      "audio": {
+        "src": "/audio/words/asking-police-for-help-report.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "845e91831319e89c4d656bdb80c278ac09a7230d61e5dfd2e1b1fbb436ac8917",
+        "sha256": "a70cb5c6929f35e73d38d2f8ed4de70ea0e7415e635bd314a5808533f5de0bc5"
+      }
+    },
+    {
+      "id": "listen",
+      "english": "listen",
+      "translation": "聽；聆聽",
+      "example": "Listen carefully to the flight attendant's advice.",
+      "audio": {
+        "src": "/audio/words/asking-police-for-help-listen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6f8860eb5103a16b917146f9cbf21aa00fe7d2291b1aad7f4fe83a6db71688cf",
+        "sha256": "796cfee50845e3742a43e80ea114bd6599010dd2f002406832a7cc7f812da4fd"
+      }
+    },
+    {
+      "id": "explain",
+      "english": "explain",
+      "translation": "解釋；說明",
+      "example": "Can you explain how this puzzle works?",
+      "audio": {
+        "src": "/audio/words/asking-police-for-help-explain.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0818ab2593f5cb6c2daa8ffdd20578aae920bb1ed1f3feecf0cdf09a8b1e1213",
+        "sha256": "bae66f624cc1d59653351e71af09eb1243d9be0b5640a2872247ca4cd8be056d"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Excuse me "
+        },
+        {
+          "text": "officer",
+          "wordIds": [
+            "officer"
+          ]
+        },
+        {
+          "text": ", I got lost and my cell phone battery completely "
+        },
+        {
+          "text": "ran out of charge",
+          "phraseIds": [
+            "ran-out-of-charge"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "警察先生不好意思，我迷路了而且我的手機電池電量完全耗盡了。",
+      "audio": {
+        "src": "/audio/sentences/asking-police-for-help/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "11f7103f1527bb36e510456297670368aa3bbe8266207ae6b02350e587813792",
+        "sha256": "1732b8e7d0e26acff5a6540b11bea7d7252171693d38c0ffac32358408026d0a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Please step inside our "
+        },
+        {
+          "text": "police",
+          "phraseIds": [
+            "police-station"
+          ],
+          "wordIds": [
+            "police"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "station",
+          "phraseIds": [
+            "police-station"
+          ],
+          "wordIds": [
+            "station"
+          ]
+        },
+        {
+          "text": " and sit down on the comfortable bench."
+        }
+      ],
+      "translation": "請進來我們派出所室內，先在舒服的長椅上坐一下。",
+      "audio": {
+        "src": "/audio/sentences/asking-police-for-help/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "48683108779dc44e3692e0e9397b4303cac9b593dffecd37da497b53b372c1aa",
+        "sha256": "2fbb1524ea5112f565b2f10bc23c5bce58c270c46b72103010aeefe1eedbe1a9"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The friendly "
+        },
+        {
+          "text": "police",
+          "phraseIds": [
+            "police-officer"
+          ],
+          "wordIds": [
+            "police"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "officer",
+          "phraseIds": [
+            "police-officer"
+          ],
+          "wordIds": [
+            "officer"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "listened",
+          "phraseIds": [
+            "listened-carefully"
+          ],
+          "wordIds": [
+            "listen"
+          ]
+        },
+        {
+          "text": " carefully",
+          "phraseIds": [
+            "listened-carefully"
+          ]
+        },
+        {
+          "text": " as I "
+        },
+        {
+          "text": "explained",
+          "wordIds": [
+            "explain"
+          ]
+        },
+        {
+          "text": " my urgent situation."
+        }
+      ],
+      "translation": "親切的警員在我說明我焦急的狀況時，非常仔細專心地聆聽。",
+      "audio": {
+        "src": "/audio/sentences/asking-police-for-help/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "946f9403849bae2c5b2688c0ae9827c9745162e69572ccec4dabb498290173d7",
+        "sha256": "585c372c9a33cb51b109aa96ff78c51407454b85523e539110bad373ef214da5"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "He allowed me to "
+        },
+        {
+          "text": "report",
+          "wordIds": [
+            "report"
+          ]
+        },
+        {
+          "text": " the issue and use the "
+        },
+        {
+          "text": "station",
+          "wordIds": [
+            "station"
+          ]
+        },
+        {
+          "text": " landline phone to call my family."
+        }
+      ],
+      "translation": "他讓我報告狀況，並使用派出所的室內有線電話打電話給家人。",
+      "audio": {
+        "src": "/audio/sentences/asking-police-for-help/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "91b4ab900c9f788cd95586012540bd56926f31406adb676307e4c041ee8ac5b3",
+        "sha256": "33875450b2ef40be0b2a1613af419ef0787f516f7c0e77f0b855e7948052057e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "He also printed out a simple street map to show me the way back to the "
+        },
+        {
+          "text": "station",
+          "wordIds": [
+            "station"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "他還印了一張簡單的街道地圖，為我指引走回車站的方向。",
+      "audio": {
+        "src": "/audio/sentences/asking-police-for-help/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "60bcc68b33108f64c5982bcf30a6c860fcd70c7b933b580889494de7b4a389b0",
+        "sha256": "5cbf13aaaca4647a8406292920959c976c3781a62d274c7cb476869028230296"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I "
+        },
+        {
+          "text": "felt very safe",
+          "phraseIds": [
+            "felt-very-safe"
+          ]
+        },
+        {
+          "text": " and deeply grateful for the community "
+        },
+        {
+          "text": "police",
+          "phraseIds": [
+            "police-officer"
+          ],
+          "wordIds": [
+            "police"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "officer",
+          "phraseIds": [
+            "police-officer"
+          ],
+          "wordIds": [
+            "officer"
+          ]
+        },
+        {
+          "text": "'s help."
+        }
+      ],
+      "translation": "我感到非常有安全感，並對社區警察先生的熱心幫忙充滿感激。",
+      "audio": {
+        "src": "/audio/sentences/asking-police-for-help/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3aa2fd08f076ec6d4975094d6f3cf24c5750734d24e90508db24075aa819af29",
+        "sha256": "cd6f53920360e06f38e6bb219f5e66e9604a4218bb5ad4d1a825d249dbea4c62"
+      }
+    }
+  ]
+}

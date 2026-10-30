@@ -1,0 +1,456 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/ordering-custom-drink/1.mp3",
+      "text": "I would like a large black tea with milk, please.",
+      "textSha256": "382ef4b444060dcba884c98af3dc4def109a8f24527114b8bdb42ff0f8266a81"
+    },
+    {
+      "src": "/audio/sentences/ordering-custom-drink/2.mp3",
+      "text": "Could you please make it with less ice and half sugar?",
+      "textSha256": "8677a784b384de0c6fab7915971001c95bf63f6717b4a74e9a8a8406cb3ff11d"
+    },
+    {
+      "src": "/audio/sentences/ordering-custom-drink/3.mp3",
+      "text": "Actually, I want it not too sweet, and please do not add more sugar.",
+      "textSha256": "677f449774dfd18f9478f76b8358cbbe43e7ac44bbc4c8d543e2d9e252ed2ded"
+    },
+    {
+      "src": "/audio/sentences/ordering-custom-drink/4.mp3",
+      "text": "We have two types of tea leaves available this season.",
+      "textSha256": "036b883db3b162fb8a25137666762450d963950d2899750dbce70cd38f563f9b"
+    },
+    {
+      "src": "/audio/sentences/ordering-custom-drink/5.mp3",
+      "text": "Instead of pearls, can I add herbal jelly this time?",
+      "textSha256": "dbec21a77bab8408b24576c9e84e50f4ed1f8af1709973442a50d61566a41d99"
+    },
+    {
+      "src": "/audio/sentences/ordering-custom-drink/6.mp3",
+      "text": "That will be fifty-four dollars at the counter.",
+      "textSha256": "a62f25f1919a272a7dbe77ab3038736a1b26804227dfe63f2ad8e4a3c92b539d"
+    },
+    {
+      "src": "/audio/phrases/ordering-custom-drink-with-less-ice.mp3",
+      "text": "with less ice",
+      "textSha256": "24538a92e4f57324cb9a1e3b8656c35a29806718923ad1398db57751b3005d68"
+    },
+    {
+      "src": "/audio/phrases/ordering-custom-drink-half-sugar.mp3",
+      "text": "half sugar",
+      "textSha256": "f96b945f4c5f299402aaae01827c8a9639e356db0cf9cd6478f011cd3ec438ca"
+    },
+    {
+      "src": "/audio/phrases/ordering-custom-drink-not-too-sweet.mp3",
+      "text": "not too sweet",
+      "textSha256": "43859214daf5d79f4f341c5cc2bdb87edb63f43a6c3785d70410cca07227260f"
+    },
+    {
+      "src": "/audio/phrases/ordering-custom-drink-two-types-of-tea.mp3",
+      "text": "two types of tea",
+      "textSha256": "b8ac75d312d61c3499ee78a32e4dcc8d542c709799bf155fc76cee362f4f333f"
+    },
+    {
+      "src": "/audio/phrases/ordering-custom-drink-instead-of-pearls.mp3",
+      "text": "instead of pearls",
+      "textSha256": "76da328d48e4f8823cadc4f72c60bc214b42bd57d668ed7220ea3423706caf90"
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-sweet.mp3",
+      "text": "sweet",
+      "textSha256": "b9043c16af362f30807deaf692025d61c3c803bba1efc43fe2f63dc8b507418d"
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-ice.mp3",
+      "text": "ice",
+      "textSha256": "4cb0b250c6250d528f3e61d07d970892168db68bbff1ea5be4a851eda411adfb"
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-less.mp3",
+      "text": "less",
+      "textSha256": "4fdd3b6201a22c7814d6e67dbb7a17790224ea0fd32ef0a0ccb0a5485eae4c9d"
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-more.mp3",
+      "text": "more",
+      "textSha256": "187897ce0afcf20b50ba2b37dca84a951b7046f29ed5ab94f010619f69d6e189"
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-type.mp3",
+      "text": "type",
+      "textSha256": "1303c06b0b014d0ce7b988ab173a13f31227d417058ff4bbe6f8c222b4ad913c"
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-actually.mp3",
+      "text": "actually",
+      "textSha256": "e4c05c565b8cac5ea25494e0abca7751fae5d5e17457de07f03f247b65666b0e"
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-instead.mp3",
+      "text": "instead",
+      "textSha256": "99262a0284ae7670f20fbfe4f87e8d7befdb5bc3431c5ea08dbd84d7206cf395"
+    },
+    {
+      "src": "/audio/sentences/checking-food-allergens/1.mp3",
+      "text": "Excuse me, does it contain any peanuts in this salad dressing?",
+      "textSha256": "7e0896f1b061f75d2fd0cd5ee6985d3b15ffb2b59f234dddab2878fe4386b205"
+    },
+    {
+      "src": "/audio/sentences/checking-food-allergens/2.mp3",
+      "text": "I need to be sure about this because my sister has a bad allergy.",
+      "textSha256": "7bae62cc9ed8a077cb2c036b3ae5a01ebfa5c62b3fb4a52fe4ee333a1344745b"
+    },
+    {
+      "src": "/audio/sentences/checking-food-allergens/3.mp3",
+      "text": "If it contains nuts, could you prepare a safe one without dressing?",
+      "textSha256": "81e7778ad17111b026c7ecfcd4db363e1de7701e74c7c0aade54d16172442900"
+    },
+    {
+      "src": "/audio/sentences/checking-food-allergens/4.mp3",
+      "text": "Our kitchen uses a special kind of olive oil for that.",
+      "textSha256": "a063d826e2cfdc2aba7d45f7dbdb95ff95baf520681044ec51af8beb06b5c04d"
+    },
+    {
+      "src": "/audio/sentences/checking-food-allergens/5.mp3",
+      "text": "Does that mean there is no dairy in this dish?",
+      "textSha256": "b7d1c151519c369371e5e44bc0abcd3cfe190baea22d2d2752f83e36bc36fe69"
+    },
+    {
+      "src": "/audio/sentences/checking-food-allergens/6.mp3",
+      "text": "Do not worry, food allergies really matter to us, so it is safe.",
+      "textSha256": "7a28dcccd9692245bc68fdcb9bf25606fc1972c56bad21915f273b78c5a99eb8"
+    },
+    {
+      "src": "/audio/phrases/checking-food-allergens-does-it-contain.mp3",
+      "text": "does it contain",
+      "textSha256": "9a74694f73a9d5e94f3a46a88694aca413e4feb48ba6abf5b2626c53e5488345"
+    },
+    {
+      "src": "/audio/phrases/checking-food-allergens-be-sure-about.mp3",
+      "text": "be sure about",
+      "textSha256": "dd212843759b3b34c0b9ef4523d712834407ef2ff6b27b3757841499fad72f24"
+    },
+    {
+      "src": "/audio/phrases/checking-food-allergens-has-a-bad-allergy.mp3",
+      "text": "has a bad allergy",
+      "textSha256": "4c6d102614b7b02f9e116411a0045573d7802f79a136d157ca69897ebf474f65"
+    },
+    {
+      "src": "/audio/phrases/checking-food-allergens-does-that-mean.mp3",
+      "text": "does that mean",
+      "textSha256": "f6a1c2756e343e858a931aa177215c87c264547b82af47ec5a3d18749823b3c0"
+    },
+    {
+      "src": "/audio/phrases/checking-food-allergens-do-not-worry.mp3",
+      "text": "do not worry",
+      "textSha256": "366e1dc2b25cd190487577adaaa2d031118f2d5d3104eb7bd78bba15f228cd10"
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-contain.mp3",
+      "text": "contain",
+      "textSha256": "dd9245cc1ddc69c88a8a530dea2b643123ffcdb0509e7d0566db22654b57cb12"
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-sure.mp3",
+      "text": "sure",
+      "textSha256": "c0cafcf0e2d6a236aca78b03f4c33b25ca970788fd6adde4ccc7db6acecb3ee1"
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-safe.mp3",
+      "text": "safe",
+      "textSha256": "8b3369944dd2a3fab39e32d1aeb1f763946a458ae3e6368a46432adc8f3a0860"
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-kind.mp3",
+      "text": "kind",
+      "textSha256": "0b27c158feb36ab18a10ff687909ec730ece6280581dd407e2672359be7725dd"
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-matter.mp3",
+      "text": "matter",
+      "textSha256": "57523f642f63eabb2a4f6804ad9efe4131c56c0784de25ef63ed7e6ee2ba10a3"
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-worry.mp3",
+      "text": "worry",
+      "textSha256": "6de2f53e03e93dffb34ac0c77302d66128184fc2a8478ef82ca404fe054308a3"
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-mean.mp3",
+      "text": "mean",
+      "textSha256": "82523faea1b0f2da676a0561d597000bb6918036c6e541dc1145966141864332"
+    },
+    {
+      "src": "/audio/sentences/split-bill-takeout/1.mp3",
+      "text": "Could we split the bill, or do we have to pay together?",
+      "textSha256": "616e4ab24fd5da9311f514e641c16ef1a3ec2056bfe6a922d31cb10974b01ee3"
+    },
+    {
+      "src": "/audio/sentences/split-bill-takeout/2.mp3",
+      "text": "You can pay separately with cash or card.",
+      "textSha256": "b983444b749b6ba40ad9651ec6c501d1b55b7244bf13a34bdd6b1c049d6a4e2e"
+    },
+    {
+      "src": "/audio/sentences/split-bill-takeout/3.mp3",
+      "text": "Each person will pay sixteen dollars for lunch.",
+      "textSha256": "83cbfdf13b9871e0e3a296ac2a66b5c2ed4efdda1b25763ac8157bf2a0390e0b"
+    },
+    {
+      "src": "/audio/sentences/split-bill-takeout/4.mp3",
+      "text": "The total cost includes the soup and the side dishes.",
+      "textSha256": "17f7738f104d9b7cd9e9b023db9c7bb89944fd77f7095e04471f56f6be875075"
+    },
+    {
+      "src": "/audio/sentences/split-bill-takeout/5.mp3",
+      "text": "Could we also get a box for the leftover pasta?",
+      "textSha256": "b46f3c8fd3bf356eb47ea22761134b06e3530abd78bbc4f68aae16850b0b6397"
+    },
+    {
+      "src": "/audio/sentences/split-bill-takeout/6.mp3",
+      "text": "Sure, I will bring a clean paper box to your table right away.",
+      "textSha256": "92a1fdccd52e2ab0f27c7be9fd5243da8951b69d70f4c05d02334a768714ed46"
+    },
+    {
+      "src": "/audio/phrases/split-bill-takeout-split-the-bill.mp3",
+      "text": "split the bill",
+      "textSha256": "3c76625529f33d956f103143e0ab51824bea424a2f09f02f073b86b36addbf68"
+    },
+    {
+      "src": "/audio/phrases/split-bill-takeout-pay-together.mp3",
+      "text": "pay together",
+      "textSha256": "c8196d045e9ea740ad306fe85ab58e14c2f36479e57c31c9fd3dfcd5199b565a"
+    },
+    {
+      "src": "/audio/phrases/split-bill-takeout-pay-separately.mp3",
+      "text": "pay separately",
+      "textSha256": "8dd5f634bd618616ab7cec510cb056ff3414c6ceecd9cd414587ca21ca45f524"
+    },
+    {
+      "src": "/audio/phrases/split-bill-takeout-total-cost.mp3",
+      "text": "total cost",
+      "textSha256": "15b876237e8435f0df5183e01d729010b66c640bacd9feffe1d0eebcd8fcae7b"
+    },
+    {
+      "src": "/audio/phrases/split-bill-takeout-leftover-pasta.mp3",
+      "text": "leftover pasta",
+      "textSha256": "f4e350d0b4dfa21313845e857e3c6ea75a62578d3adf6468177705708e23cc42"
+    },
+    {
+      "src": "/audio/words/split-bill-takeout-split.mp3",
+      "text": "split",
+      "textSha256": "ad1a64057f9ab34fecfe3f4ee78660bb0316dbda9370581ffbeb1e8bddf3d598"
+    },
+    {
+      "src": "/audio/words/split-bill-takeout-bill.mp3",
+      "text": "bill",
+      "textSha256": "623210167553939c87ed8c5f2bfe0b3e0684e12c3a3dd2513613c4e67263b5a1"
+    },
+    {
+      "src": "/audio/words/split-bill-takeout-separate.mp3",
+      "text": "separate",
+      "textSha256": "80ed840f94f7d1bdf549226fd21c8d3927f38009f17539a1aa3a239c04afbd2f"
+    },
+    {
+      "src": "/audio/words/split-bill-takeout-together.mp3",
+      "text": "together",
+      "textSha256": "0c24734d7bf5954f08e5bfe4820b0b2f63da8d658df37c9d50080485e034b721"
+    },
+    {
+      "src": "/audio/words/split-bill-takeout-each.mp3",
+      "text": "each",
+      "textSha256": "bec1687971e36be51a298f172aa898ab48a465012ae40e6292825c432d7d82b8"
+    },
+    {
+      "src": "/audio/words/split-bill-takeout-cost.mp3",
+      "text": "cost",
+      "textSha256": "9f82f7b375f4aa1bd7d50abe0f760c4ca5a8f0208aa68555489c39dd7c7aeeaa"
+    },
+    {
+      "src": "/audio/sentences/wrong-order-at-restaurant/1.mp3",
+      "text": "Excuse me, I think there is a small mistake here; this is not what I ordered.",
+      "textSha256": "4bc81d7fdfb33d7fc93efca40c27a9e036b69e39ebd34153c025244489c54064"
+    },
+    {
+      "src": "/audio/sentences/wrong-order-at-restaurant/2.mp3",
+      "text": "This wrong plate is a beef burger, but my order was the chicken sandwich.",
+      "textSha256": "e1d1483c56a5910cc1fff66b4191aea97142afb3769c6347f2d6e1fe9090f974"
+    },
+    {
+      "src": "/audio/sentences/wrong-order-at-restaurant/3.mp3",
+      "text": "Oh, I am really sorry about that confusion.",
+      "textSha256": "68514b65a6f3c006c001697a32caba0807e044ae21b12fb73e1357dd1f25d089"
+    },
+    {
+      "src": "/audio/sentences/wrong-order-at-restaurant/4.mp3",
+      "text": "Let me check your ticket with the kitchen staff right now.",
+      "textSha256": "c01f15ea85c5f5d93d8ec5dcb5f73e6c9f077a61cfe820641c02fadd64a5b006"
+    },
+    {
+      "src": "/audio/sentences/wrong-order-at-restaurant/5.mp3",
+      "text": "We will bring you the correct chicken sandwich in just five minutes.",
+      "textSha256": "d7011b1b076b4fc5f92bca33b124446271fe5ab180be65b7bfd3970c84cc88d4"
+    },
+    {
+      "src": "/audio/sentences/wrong-order-at-restaurant/6.mp3",
+      "text": "Of course, please keep your drink while you wait.",
+      "textSha256": "975e67f0f58c0b19c716bd343cac25f4ab97e67b77544e47c18e973f0661b024"
+    },
+    {
+      "src": "/audio/phrases/wrong-order-at-restaurant-a-small-mistake.mp3",
+      "text": "a small mistake",
+      "textSha256": "59fc33028c0447215620397cda0a72db0e354e022d3ebe3e47263eb571410642"
+    },
+    {
+      "src": "/audio/phrases/wrong-order-at-restaurant-what-i-ordered.mp3",
+      "text": "what I ordered",
+      "textSha256": "e5e136bfe48aaec391c4ea108f4c38244f279aacdb3adbebcbfccb173339d552"
+    },
+    {
+      "src": "/audio/phrases/wrong-order-at-restaurant-sorry-about-that.mp3",
+      "text": "sorry about that",
+      "textSha256": "521666a0268bb99e3675455617f9c8c347f707231a02a79cb0f76499de8f74ed"
+    },
+    {
+      "src": "/audio/phrases/wrong-order-at-restaurant-in-just-five-minutes.mp3",
+      "text": "in just five minutes",
+      "textSha256": "916d636a7b67c068bdaf2e5f25efef9a92827470f673767150aed315522fd921"
+    },
+    {
+      "src": "/audio/phrases/wrong-order-at-restaurant-of-course.mp3",
+      "text": "of course",
+      "textSha256": "19e240f3698d3fd5828bd03a1724baec797c2e3b50855690d8e67cb9bec96c8a"
+    },
+    {
+      "src": "/audio/words/wrong-order-at-restaurant-mistake.mp3",
+      "text": "mistake",
+      "textSha256": "1b34ffb5e8ddb2c95579f505568bc5dfd2298df81097748ac79f0d7e8c563a58"
+    },
+    {
+      "src": "/audio/words/wrong-order-at-restaurant-wrong.mp3",
+      "text": "wrong",
+      "textSha256": "8810ad581e59f2bc3928b261707a71308f7e139eb04820366dc4d5c18d980225"
+    },
+    {
+      "src": "/audio/words/wrong-order-at-restaurant-order.mp3",
+      "text": "order",
+      "textSha256": "3eeb7e96e59ce40f9cb1a089daba079fd699f6867a30f6634af8570967b2375a"
+    },
+    {
+      "src": "/audio/words/wrong-order-at-restaurant-minute.mp3",
+      "text": "minute",
+      "textSha256": "28cdd20eaf134a05f18369414cb2df5e36c6a4e4f551b8c9cff8548029c41d6c"
+    },
+    {
+      "src": "/audio/words/wrong-order-at-restaurant-check.mp3",
+      "text": "check",
+      "textSha256": "20f65c28671b40937c5bf23acc7c6f37e5a5ec0622e347b57685725df5ba9e50"
+    },
+    {
+      "src": "/audio/words/wrong-order-at-restaurant-course.mp3",
+      "text": "course",
+      "textSha256": "a908043ed469f361cd516f3bdd781341912b731a6ea3a5385af8514ec9ec02cc"
+    },
+    {
+      "src": "/audio/sentences/fast-food-combo/1.mp3",
+      "text": "Welcome to Burger Corner, what combo meal would you like?",
+      "textSha256": "034a5e3ecf59eafa497e92d3926e8afc757461c8b1157c539a7cf56524ce2a7a"
+    },
+    {
+      "src": "/audio/sentences/fast-food-combo/2.mp3",
+      "text": "I want number three, but can I change the side dish?",
+      "textSha256": "f3ed6af2ff303a528d9c712c979b609eee1a472eac759139fcece6a1cdb24d6f"
+    },
+    {
+      "src": "/audio/sentences/fast-food-combo/3.mp3",
+      "text": "You can choose hot soup or fresh salad instead of fries.",
+      "textSha256": "112f0bc642a803f271defdd9c0fe3dff32a3b274b65930b7f46d8bd2b21ef30a"
+    },
+    {
+      "src": "/audio/sentences/fast-food-combo/4.mp3",
+      "text": "I will take the salad, and what about the drink size?",
+      "textSha256": "099add9ed7eeb7fd8e46431d2fc0ff1a16bbd3d2869c2639013ad1a73447c4f7"
+    },
+    {
+      "src": "/audio/sentences/fast-food-combo/5.mp3",
+      "text": "You can upgrade to a large cup for an extra dollar.",
+      "textSha256": "e44ef4e40fbf4d015f771e5422651f3287d9f92699899ef55fe5c4d64b5ed8f8"
+    },
+    {
+      "src": "/audio/sentences/fast-food-combo/6.mp3",
+      "text": "That sounds great, I will take the large iced green tea.",
+      "textSha256": "64cbf3a95919ab1e32c01dee5e8acea049e377d83026ad28db1ddef74d0014e7"
+    },
+    {
+      "src": "/audio/phrases/fast-food-combo-what-combo-meal.mp3",
+      "text": "what combo meal",
+      "textSha256": "9fae04ecb6b331926c946283a368682301ec5d6072ff6cf290d5e5f3c94ddf6f"
+    },
+    {
+      "src": "/audio/phrases/fast-food-combo-change-the-side-dish.mp3",
+      "text": "change the side dish",
+      "textSha256": "cc7e54e558b631a739e9696de235be065d5cf01dbaf5a3c65768ea7eb9f2fc8f"
+    },
+    {
+      "src": "/audio/phrases/fast-food-combo-instead-of-fries.mp3",
+      "text": "instead of fries",
+      "textSha256": "b4e65158e7247cf493906df600560533db65588979eefadd6773288375290265"
+    },
+    {
+      "src": "/audio/phrases/fast-food-combo-for-an-extra-dollar.mp3",
+      "text": "for an extra dollar",
+      "textSha256": "2288e492e859799a857d849d0f6af269e80cad47a18736ed1122268b8705cf6d"
+    },
+    {
+      "src": "/audio/phrases/fast-food-combo-sounds-great.mp3",
+      "text": "sounds great",
+      "textSha256": "222b84974a67efb53714be0258102f2260b003179e3de5feb342015e0132be70"
+    },
+    {
+      "src": "/audio/words/fast-food-combo-side.mp3",
+      "text": "side",
+      "textSha256": "ea7bf4bb723041e7d63fe6c74dc46c048c617eb49a454a1cd6edbf34d05a418e"
+    },
+    {
+      "src": "/audio/words/fast-food-combo-size.mp3",
+      "text": "size",
+      "textSha256": "ccdcbe846f3da4eb044fbdf64bf6b57902388ab72fb0c852ba72280f8d478b40"
+    },
+    {
+      "src": "/audio/words/fast-food-combo-large.mp3",
+      "text": "large",
+      "textSha256": "d35c416a85b807e9b5384915d6ebb4a9f7352713efd89857b45a242f473728a9"
+    },
+    {
+      "src": "/audio/words/fast-food-combo-dollar.mp3",
+      "text": "dollar",
+      "textSha256": "588d2c1d1f23963e1647ea4fb720eec44b113b82d057156b970e96df9a1be810"
+    },
+    {
+      "src": "/audio/words/fast-food-combo-extra.mp3",
+      "text": "extra",
+      "textSha256": "c8dee78f8c7b466c881847accc196998bad00e2b96c5ef913dfbe454d3807c96"
+    },
+    {
+      "src": "/audio/words/fast-food-combo-change.mp3",
+      "text": "change",
+      "textSha256": "12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51"
+    }
+  ]
+}

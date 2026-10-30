@@ -1,0 +1,329 @@
+{
+  "id": "amusement-park-entry",
+  "title": "遊樂園購票與遊樂設施搭乘",
+  "titleEn": "Amusement Park Tickets and Rides",
+  "category": "休閒與遊戲",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/amusement-park-entry.webp",
+    "alt": "在陽光明媚的主題樂園入口票亭前，工作人員親切為小朋友測量身高確認符合設施門檻，家長出示一日手環準備入場。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "adult-day-passes",
+      "english": "adult day passes",
+      "translation": "成人一日通行手環",
+      "audio": {
+        "src": "/audio/phrases/amusement-park-entry-adult-day-passes.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4248ba2e44bf2b72a0f4c78c1a75e9254ddb7f86f6f9a0c28f097827a10fc804",
+        "sha256": "d8b508fcf204ff514e6942e12c84a465c15ea984b10b05bed89d1e270bb0f143"
+      }
+    },
+    {
+      "id": "young-kid",
+      "english": "young kid",
+      "translation": "年輕小童",
+      "audio": {
+        "src": "/audio/phrases/amusement-park-entry-young-kid.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c5f2d9cfcc0cb4c2b9e9af6d1849ac48f0e29544623bbe01a856a733a46db62b",
+        "sha256": "03b2320924d3817fcde977c4fd94a14c7bdca80e3e769f287bf6ca0e9bcad34e"
+      }
+    },
+    {
+      "id": "minimum-requirement",
+      "english": "minimum requirement",
+      "translation": "最低要求",
+      "audio": {
+        "src": "/audio/phrases/amusement-park-entry-minimum-requirement.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a85fd8df1a4d49296ddd4a7cca1e84f947afd9df1f2e24e365396e9bec4cbea4",
+        "sha256": "57ae643e0915ffd64a976b054f5579a5b4c3966de803d3a42600c5ac8de90d42"
+      }
+    },
+    {
+      "id": "waiting-line",
+      "english": "waiting line",
+      "translation": "排隊隊伍",
+      "audio": {
+        "src": "/audio/phrases/amusement-park-entry-waiting-line.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "85387e13b44741de484cc4a2b20094e5c5c582149ee2f30a1e681e5fd7b4bb28",
+        "sha256": "67356d186eac2022a2ed946aadb3c4c86794cde474c11a6f6e48f09ff6c53838"
+      }
+    },
+    {
+      "id": "have-lots-of-fun",
+      "english": "have lots of fun",
+      "translation": "玩得非常開心",
+      "audio": {
+        "src": "/audio/phrases/amusement-park-entry-have-lots-of-fun.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "643e5e069998a0767ceaf7db1e7fdf5a07c3649abde87e22d6aa71428b68b1cb",
+        "sha256": "2956d1ce1938a4cc86059029716186139993ae5c7afa77419112ce12f4a0e8e8"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "kid",
+      "english": "kid",
+      "translation": "小孩；兒童",
+      "example": "The kids were laughing and playing in the sandbox.",
+      "audio": {
+        "src": "/audio/words/amusement-park-entry-kid.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5c77d7fd8f51ed0c2a913e46326ff6d2ea2e95c8ecf1667c72eb72ccc3fc2b46",
+        "sha256": "ae3fa5537a8e57ffc6cf0099ebf39ab15396653fd48d5a9032e08d0403f36d73"
+      }
+    },
+    {
+      "id": "child",
+      "english": "child",
+      "translation": "孩子、兒童",
+      "example": "Every child received a free balloon at the gate.",
+      "audio": {
+        "src": "/audio/words/amusement-park-entry-child.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ddc9e669194254cef019a29d3619a2c16592e5d52e1a81e98b01bd52319149a3",
+        "sha256": "82dde9ee962d5de3aadb8dc9a6424483d4d12ba7a050d47c3effa02c66114b33"
+      }
+    },
+    {
+      "id": "ride",
+      "english": "ride",
+      "translation": "遊樂設施；騎乘",
+      "example": "The Ferris wheel is my favorite ride in the park.",
+      "audio": {
+        "src": "/audio/words/amusement-park-entry-ride.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e049bd056f936d1b39b704abcf824eaef39bd8877fcbb82b2a213ceec82bdf26",
+        "sha256": "e0dcee5fe3463b9382e444e824950f92564f2c7227eff71ffc39ced472555894"
+      }
+    },
+    {
+      "id": "pass",
+      "english": "pass",
+      "translation": "通行證；通過",
+      "example": "Show your gate pass to enter the building.",
+      "audio": {
+        "src": "/audio/words/amusement-park-entry-pass.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d74ff0ee8da3b9806b18c877dbf29bbde50b5bd8e4dad7a3a725000feb82e8f1",
+        "sha256": "8ea6a991023005bd4a3d817f8578f41fd2f9b206ce8960dfb931b6c2787f6828"
+      }
+    },
+    {
+      "id": "fair",
+      "english": "fair",
+      "translation": "遊樂園；集市；公平的",
+      "example": "The annual county fair had colorful game stalls.",
+      "audio": {
+        "src": "/audio/words/amusement-park-entry-fair.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1869c9d2a11e8ecde889aa06a811403308c819ea0a4289c50b90eb1d812c1338",
+        "sha256": "c9b8e8ca7a53919c3c3ac8721f0ce546151302385e34ac2d52b9f6c125d81b94"
+      }
+    },
+    {
+      "id": "fun",
+      "english": "fun",
+      "translation": "樂趣；好玩的",
+      "example": "Learning English through stories is great fun.",
+      "audio": {
+        "src": "/audio/words/amusement-park-entry-fun.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "00c4285274fcc5d6fba2ee58daf0d8c2b9b825b68d35d65d0e90a9bb333a51b5",
+        "sha256": "61b55c10d0e1361b5e85664e314a46794f8ac0e25834bb1f08a7ef0c8d4384cf"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Welcome to Ocean World, how many adult and "
+        },
+        {
+          "text": "child",
+          "wordIds": [
+            "child"
+          ]
+        },
+        {
+          "text": " tickets do you need?"
+        }
+      ],
+      "translation": "歡迎來到海洋世界，請問需要幾張成人票和幾張兒童票？",
+      "audio": {
+        "src": "/audio/sentences/amusement-park-entry/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ddfef13591806e5da574452ed381c0e15f536e8df789fd468e5ad238e79fcea6",
+        "sha256": "2369a20e5054fa6d93e81e70371d911f52ecf39072b22200779136dbd42d4d21"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We need two "
+        },
+        {
+          "text": "adult day ",
+          "phraseIds": [
+            "adult-day-passes"
+          ]
+        },
+        {
+          "text": "passes",
+          "phraseIds": [
+            "adult-day-passes"
+          ],
+          "wordIds": [
+            "pass"
+          ]
+        },
+        {
+          "text": " and one ticket for our "
+        },
+        {
+          "text": "young ",
+          "phraseIds": [
+            "young-kid"
+          ]
+        },
+        {
+          "text": "kid",
+          "phraseIds": [
+            "young-kid"
+          ],
+          "wordIds": [
+            "kid"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我們需要兩張成人一日通行手環，以及一張給我們家小孩的門票。",
+      "audio": {
+        "src": "/audio/sentences/amusement-park-entry/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6735a97ff24309219dedd6c00b29275de7d57128d63e398bd7f8625b8f953871",
+        "sha256": "167c1ab728887a7a8c0f0797bbc1da48e1a9a9a9b9ec6c74c30bf1081d331608"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Children must be over one hundred and twenty centimeters in height for the big roller coaster."
+        }
+      ],
+      "translation": "大型雲霄飛車規定兒童的身高必須超過一百二十公分。",
+      "audio": {
+        "src": "/audio/sentences/amusement-park-entry/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d2dd8087dbb5e3c381988645da1ade0a04c899d59d8421b0b58a4c3cf92ef4f2",
+        "sha256": "8cbd1908b4a4f8745c7fffa8570d8a71643e60c046bf3504f93a6ecc798e0532"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "fair",
+          "wordIds": [
+            "fair"
+          ]
+        },
+        {
+          "text": " attendant measured him gently, and he passed the "
+        },
+        {
+          "text": "minimum requirement",
+          "phraseIds": [
+            "minimum-requirement"
+          ]
+        },
+        {
+          "text": " easily."
+        }
+      ],
+      "translation": "遊樂園工作人員親切地幫他量了身高，他很輕鬆地通過了最低身高要求。",
+      "audio": {
+        "src": "/audio/sentences/amusement-park-entry/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a5b69fddf903c7f62446790520f7ae0c9c80af79e25c55c7bf8c3061557f2cc2",
+        "sha256": "99302cd599537cb5e3dd3cab4f1c62d46d5420e9a846bca2ccf46e6c01039ec3"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "How long is the "
+        },
+        {
+          "text": "waiting line",
+          "phraseIds": [
+            "waiting-line"
+          ]
+        },
+        {
+          "text": " for the fast water splash "
+        },
+        {
+          "text": "ride",
+          "wordIds": [
+            "ride"
+          ]
+        },
+        {
+          "text": " right now?"
+        }
+      ],
+      "translation": "請問現在那個刺激的快速急流泛舟設施排隊要等多久？",
+      "audio": {
+        "src": "/audio/sentences/amusement-park-entry/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4b4ec2077ba376b296b6802f8085bd986800c072d3cbfd97ba9b9829efd4c0e4",
+        "sha256": "7881f31589f559258196b54c4ce2b7a995f45884562a5ed11ebb7b8ef0457aa1"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The wait is only twenty minutes, so go ahead and "
+        },
+        {
+          "text": "have lots of ",
+          "phraseIds": [
+            "have-lots-of-fun"
+          ]
+        },
+        {
+          "text": "fun",
+          "phraseIds": [
+            "have-lots-of-fun"
+          ],
+          "wordIds": [
+            "fun"
+          ]
+        },
+        {
+          "text": "!"
+        }
+      ],
+      "translation": "只要等大概二十分鐘而已，快進去好好享受歡樂吧！",
+      "audio": {
+        "src": "/audio/sentences/amusement-park-entry/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9a8c753f2e22e77417b7b6debb560151d8e18d59dd9b5dabe682a5afeaf2aefe",
+        "sha256": "5d48cfe58279a351b56f2be4b75f27fa4a747fdfdd8494144b55564a3ff6ea2e"
+      }
+    }
+  ]
+}

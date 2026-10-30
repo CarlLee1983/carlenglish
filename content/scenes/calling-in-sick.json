@@ -1,0 +1,344 @@
+{
+  "id": "calling-in-sick",
+  "title": "身體不適向學校請假",
+  "titleEn": "Calling in Sick Due to Illness",
+  "category": "健康與生活安全",
+  "level": "初級至初中級",
+  "image": {
+    "src": "/images/scenes/calling-in-sick.webp",
+    "alt": "早晨在臥室床邊，學生戴著口罩打電話給導師說明身體發燒胃痛並請假一天。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "calling-from-home",
+      "english": "calling from home",
+      "translation": "從家裡打電話來",
+      "audio": {
+        "src": "/audio/phrases/calling-in-sick-calling-from-home.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "015f6085043bd3ed3a8b16b78ce91263fd4dc00aefbddcbdb8d07fdafd0e326b",
+        "sha256": "77c3d43af2e20c6ef7b6a0e32546253ebb7c5ba2991abe91d01b69575afd3898"
+      }
+    },
+    {
+      "id": "feel-very-sick",
+      "english": "feel very sick",
+      "translation": "感到很不舒服",
+      "audio": {
+        "src": "/audio/phrases/calling-in-sick-feel-very-sick.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f5024957970072a71332d916a421f9416f01319ee74e7c36d8c5aae47deeb4a",
+        "sha256": "d738b3c96e1b855fbef6d03e2e4a9453dba74f487aa215c54f7ada163460fb14"
+      }
+    },
+    {
+      "id": "short-notice",
+      "english": "short notice",
+      "translation": "臨時通知",
+      "audio": {
+        "src": "/audio/phrases/calling-in-sick-short-notice.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b0f3ca3c244bf809dc69aac4595c1dfc6b4f5e2108a393a4ae56e4918d31857a",
+        "sha256": "ed335fd8522aa1c929b5741d5f972d323d48f4aaa580c62eecf2c5c159cb7ab4"
+      }
+    },
+    {
+      "id": "stay-home-and-rest",
+      "english": "stay home and rest",
+      "translation": "待在家裡休息",
+      "audio": {
+        "src": "/audio/phrases/calling-in-sick-stay-home-and-rest.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a6fc5cf8938f87400b84bc9d0a04b31df409337f5a4878e416fa1c70ec0bf362",
+        "sha256": "39abdf0bd6ec941a39edf7157bc35af80d124428f650733a031844a2328e668f"
+      }
+    },
+    {
+      "id": "be-able-to-return",
+      "english": "be able to return",
+      "translation": "能夠回來",
+      "audio": {
+        "src": "/audio/phrases/calling-in-sick-be-able-to-return.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "92896ce5a17b4f54edd50a3abb882b275ebe9e51381040c47041d87b07c6b6aa",
+        "sha256": "a825b253dbb82bbdb45a44c3bd30e55b38f02c68b049cf16ab72dc2ad6b2551b"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "sick",
+      "english": "sick",
+      "translation": "生病的；不舒服的",
+      "example": "He stayed in bed all day because he was sick.",
+      "audio": {
+        "src": "/audio/words/calling-in-sick-sick.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3b04837881bb07b621ae7dc7abae37f3b6981584bdf3e22ece731a5b91eaf395",
+        "sha256": "8719c0b8585ae4152c2cf4287da6333337d0e43f47bce8443faf50515e67e0b5"
+      }
+    },
+    {
+      "id": "rest",
+      "english": "rest",
+      "translation": "休息",
+      "example": "You need plenty of rest to recover from a cold.",
+      "audio": {
+        "src": "/audio/words/calling-in-sick-rest.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2e09d5210db8417757b0f875c276d0cb877b22514e9a3583d2d8d7445368a027",
+        "sha256": "3bfbac30e4b6a5d1ab3e928def924fa7b8236e7d5c412c55880b29aa04de3272"
+      }
+    },
+    {
+      "id": "stay",
+      "english": "stay",
+      "translation": "停留、待",
+      "example": "She decided to stay indoors during the typhoon.",
+      "audio": {
+        "src": "/audio/words/calling-in-sick-stay.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "39be15289c7942a8e7765d75584b0bce0a4a39c29a356fbaee44f63848ba6cb0",
+        "sha256": "daa41d00f30d6df548eb706229f3f0ec805811bc30bc82048121742f8b270c58"
+      }
+    },
+    {
+      "id": "able",
+      "english": "able",
+      "translation": "能夠的（be able to）",
+      "example": "Will you be able to attend the morning meeting?",
+      "audio": {
+        "src": "/audio/words/calling-in-sick-able.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b0ad6bc1931197750fa85336ba8eb6ced10ca7b57eff09ecacf9f915a3b11365",
+        "sha256": "d32ce84c778be3fbfcbfe19e1c563800468c6d2c1903a55a5c41dbfe126447bb"
+      }
+    },
+    {
+      "id": "reason",
+      "english": "reason",
+      "translation": "原因、理由",
+      "example": "What was the reason for his sudden absence?",
+      "audio": {
+        "src": "/audio/words/calling-in-sick-reason.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8fcfccf675b1f0bfd39dcbb13015052fe82bc51c003c165a410945c913dbb2be",
+        "sha256": "428c7a288ea17bf738bd6ea0d7242085ab05994785fa8bcb1c23730de9405354"
+      }
+    },
+    {
+      "id": "hope",
+      "english": "hope",
+      "translation": "希望",
+      "example": "We all hope the weather will be sunny tomorrow.",
+      "audio": {
+        "src": "/audio/words/calling-in-sick-hope.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c29277f55fb31aeb8d4026132e53513a1fb755e5d9c13bf21405b72b9570373f",
+        "sha256": "6162b16432a361b58c88e8a6826403cd1e0c78ed71fcb2e0d0545dfb264b9ba4"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Hello Mr. Davis, this is Leo "
+        },
+        {
+          "text": "calling from home",
+          "phraseIds": [
+            "calling-from-home"
+          ]
+        },
+        {
+          "text": " this morning."
+        }
+      ],
+      "translation": "戴維斯老師您好，我是 Leo，今天早上在家裡打電話過來。",
+      "audio": {
+        "src": "/audio/sentences/calling-in-sick/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "55f5a6c8c19f7bd5121b37df5317d72270a0fb7f85491b49505be7f2dbb70703",
+        "sha256": "f43dc2ba9cc76d34ed88f58789f12e5fadf76e780fdefc4a6a976d637139b037"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I "
+        },
+        {
+          "text": "feel very ",
+          "phraseIds": [
+            "feel-very-sick"
+          ]
+        },
+        {
+          "text": "sick",
+          "phraseIds": [
+            "feel-very-sick"
+          ],
+          "wordIds": [
+            "sick"
+          ]
+        },
+        {
+          "text": " with stomach pain and cannot come to class today."
+        }
+      ],
+      "translation": "我感到非常不舒服而且胃痛，今天沒辦法去學校上課。",
+      "audio": {
+        "src": "/audio/sentences/calling-in-sick/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2ec8dade9cfefd04d6bed8e81e5325710b1288685d9285fbe6b28f8c69ffd7af",
+        "sha256": "d8a3e66d9c347a22b4b286afcaefb335158ae474c9db614ce929b56053df95af"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I am sorry for the "
+        },
+        {
+          "text": "short notice",
+          "phraseIds": [
+            "short-notice"
+          ]
+        },
+        {
+          "text": ", but I need to "
+        },
+        {
+          "text": "stay",
+          "phraseIds": [
+            "stay-home-and-rest"
+          ],
+          "wordIds": [
+            "stay"
+          ]
+        },
+        {
+          "text": " home and ",
+          "phraseIds": [
+            "stay-home-and-rest"
+          ]
+        },
+        {
+          "text": "rest",
+          "phraseIds": [
+            "stay-home-and-rest"
+          ],
+          "wordIds": [
+            "rest"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "很抱歉臨時通知您，但我必須待在家裡好好休息。",
+      "audio": {
+        "src": "/audio/sentences/calling-in-sick/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "24714de8f12e40eae398636404f26e0d59aff3a96f65f6587ed86db1758790cd",
+        "sha256": "2cfe2049d73e0d22a9f2b07711ed3b942ebb5c76f7c438cb0a992498d7cce033"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Have you seen a doctor yet to check the main "
+        },
+        {
+          "text": "reason",
+          "wordIds": [
+            "reason"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "你去看過醫生檢查主要原因了嗎？",
+      "audio": {
+        "src": "/audio/sentences/calling-in-sick/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a2d1e07950c1b7b2be96210f40c2772fe141ad66192e2aff49b588b53b95576b",
+        "sha256": "be885d0a0deffbd5fc39f4016f5ced797bcb68ef9c549ef335d21c6ff72e91a4"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "My mother is taking me to the hospital clinic later this morning."
+        }
+      ],
+      "translation": "我媽媽今天早上晚點會帶我去醫院診所檢查。",
+      "audio": {
+        "src": "/audio/sentences/calling-in-sick/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "98bdfff362634f72a0d1fa7796e7615e1ba69aec382f60043b6181e6b5fc8ca1",
+        "sha256": "7ff1423a5d1ac5e2ffd82f6d3bc4dd76126d6cfdfdac60cc989c74753aef3129"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I "
+        },
+        {
+          "text": "hope",
+          "wordIds": [
+            "hope"
+          ]
+        },
+        {
+          "text": " to get plenty of "
+        },
+        {
+          "text": "rest",
+          "wordIds": [
+            "rest"
+          ]
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "be ",
+          "phraseIds": [
+            "be-able-to-return"
+          ]
+        },
+        {
+          "text": "able",
+          "phraseIds": [
+            "be-able-to-return"
+          ],
+          "wordIds": [
+            "able"
+          ]
+        },
+        {
+          "text": " to return",
+          "phraseIds": [
+            "be-able-to-return"
+          ]
+        },
+        {
+          "text": " tomorrow."
+        }
+      ],
+      "translation": "我希望多休息之後，明天能夠順利回學校上課。",
+      "audio": {
+        "src": "/audio/sentences/calling-in-sick/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "59e949f644bd90c43162e77f72da4d02f522244bf0a5cf34d78c1255e5f9fdff",
+        "sha256": "52524a7f4cf7c923a132f6cbb82751a94e5c1e63290bd93358182816d349c235"
+      }
+    }
+  ]
+}

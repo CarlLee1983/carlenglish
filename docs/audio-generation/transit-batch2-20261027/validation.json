@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "clips": 85,
+  "bytes": 1552508,
+  "durationSeconds": 187.55,
+  "checks": {
+    "textSha256": true,
+    "fileSha256": true,
+    "voiceId": true,
+    "completeGraphemes": true,
+    "ffmpegDecode": true
+  },
+  "scope": [
+    "bakery-fresh-batch",
+    "mrt-transfer-help",
+    "taking-a-taxi",
+    "bus-delay-inquiry",
+    "renting-public-bike"
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "id": "checkout-carrier-bag",
+  "title": "結帳時載具與自備袋",
+  "titleEn": "Bringing a Reusable Bag and Saving Receipts",
+  "category": "購物消費",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/checkout-carrier-bag.webp",
+    "alt": "在超市收銀台前，顧客自備環保帆布購物袋，並出示手機條碼載具讓店員掃描儲存發票。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "purchase-a-plastic-bag",
+      "english": "purchase a plastic bag",
+      "translation": "購買塑膠袋",
+      "audio": {
+        "src": "/audio/phrases/checkout-carrier-bag-purchase-a-plastic-bag.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5f91f118b0a2e8a73502a835b6a77b130a816c3862de97c6c9e6bed0862fd22a",
+        "sha256": "98d913e392dbd86d89677ebb58f44826268ef2740b45fd4687b8475c6ed88755"
+      }
+    },
+    {
+      "id": "brought-my-own-bag",
+      "english": "brought my own bag",
+      "translation": "自己帶了袋子",
+      "audio": {
+        "src": "/audio/phrases/checkout-carrier-bag-brought-my-own-bag.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fc86389a9365654378abe73bc87fde166c9a277880bc4cb9305291bd3933b87a",
+        "sha256": "6e6fd17300239a89ea7802adfeb0ab5821875770b154c47e380752ed3ce991bd"
+      }
+    },
+    {
+      "id": "print-out-the-receipt",
+      "english": "print out the receipt",
+      "translation": "印出收據",
+      "audio": {
+        "src": "/audio/phrases/checkout-carrier-bag-print-out-the-receipt.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c9004f1e76fadc90c8024bbd166e0c8f3d3f7d192c6afb34d56ef148f9ee7ee7",
+        "sha256": "511607ac76bb5d9279a7f31f5b3c7e82e1e9c0fdab080efda20fd88933d6a4a6"
+      }
+    },
+    {
+      "id": "scan-the-barcode",
+      "english": "scan the barcode",
+      "translation": "掃描條碼",
+      "audio": {
+        "src": "/audio/phrases/checkout-carrier-bag-scan-the-barcode.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "968a8e48fa1b94052d4e2ec454e63efd5569f8f71c23599efdbf455b74d940be",
+        "sha256": "cebeba83e472178f312ee422589a336875e7d83ad25c1a681a7e1d86f8b2802a"
+      }
+    },
+    {
+      "id": "saving-paper",
+      "english": "saving paper",
+      "translation": "節省紙張",
+      "audio": {
+        "src": "/audio/phrases/checkout-carrier-bag-saving-paper.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "100764a832e5f3bb2b91c86d6070a870cff8c0226bd56af61d02419782da2ed2",
+        "sha256": "e335fa01ad239b013f56b432a31dd10a7546be3cbe53b6e57eb8731dcab0affa"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "own",
+      "english": "own",
+      "translation": "自己的",
+      "example": "She cooks dinner in her own kitchen.",
+      "audio": {
+        "src": "/audio/words/checkout-carrier-bag-own.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5b3975651c3cab92d044c096dc30a1c2d9525497457472de48c51ecb363d1f4a",
+        "sha256": "529e6f78b94396ac308bdf8ea3bb4d548ee6e0a662bba8208576906080f5e234"
+      }
+    },
+    {
+      "id": "plastic",
+      "english": "plastic",
+      "translation": "塑膠的",
+      "example": "Try to reduce using single-use plastic cups.",
+      "audio": {
+        "src": "/audio/words/checkout-carrier-bag-plastic.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "72f7c894ad6c4ce2ef5483c768bb24bb83cc671b013d896e036ae64a8cbc35c1",
+        "sha256": "8e0d5d218af66fe0f111367edbf632e55383effd88a01e788e73a75a073bc7e4"
+      }
+    },
+    {
+      "id": "keep",
+      "english": "keep",
+      "translation": "保持、繼續",
+      "example": "Please keep the change from your purchase.",
+      "audio": {
+        "src": "/audio/words/checkout-carrier-bag-keep.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6ca7ea2feefc88ecb5ed6356ed963f47dc9137f82526fdd25d618ea626d0803f",
+        "sha256": "4943d290e451b4f446db187f78d893862b249c590967548eb3c795bcfac5ae43"
+      }
+    },
+    {
+      "id": "save",
+      "english": "save",
+      "translation": "存（錢）；節省",
+      "example": "Turn off the lights to save electricity.",
+      "audio": {
+        "src": "/audio/words/checkout-carrier-bag-save.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "157dca92e4250458339d4b835250d44c238f3355e1b7986195188ee434e9baff",
+        "sha256": "d258276915bb6cea4118002d90d1590551cd13423ff959eff2a24ab499f3386e"
+      }
+    },
+    {
+      "id": "screen",
+      "english": "screen",
+      "translation": "螢幕",
+      "example": "Do not look at the computer screen for too long.",
+      "audio": {
+        "src": "/audio/words/checkout-carrier-bag-screen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4cd6c2914887dd4a68e4c9ffbed8b077f048cf795d6cfa0b801d43e0ea5a1560",
+        "sha256": "fe51ddd3b7f6025ee8019302681e04bca9a59dac81773b76dabb515272cddab0"
+      }
+    },
+    {
+      "id": "wonderful",
+      "english": "wonderful",
+      "translation": "很棒的",
+      "example": "We had a wonderful picnic by the river.",
+      "audio": {
+        "src": "/audio/words/checkout-carrier-bag-wonderful.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ee04228c5c6d8b083f6ce93fb7d7dbe487e04a96b29d13f627b01f9ad53dd3a4",
+        "sha256": "a703e3fc83632c76424d3bda0d55a2c301cdd5c095d74b28d69e24fd98f4fb37"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Would you like to "
+        },
+        {
+          "text": "purchase a ",
+          "phraseIds": [
+            "purchase-a-plastic-bag"
+          ]
+        },
+        {
+          "text": "plastic",
+          "phraseIds": [
+            "purchase-a-plastic-bag"
+          ],
+          "wordIds": [
+            "plastic"
+          ]
+        },
+        {
+          "text": " bag",
+          "phraseIds": [
+            "purchase-a-plastic-bag"
+          ]
+        },
+        {
+          "text": " for two dollars?"
+        }
+      ],
+      "translation": "需要花兩元購買一個塑膠提袋嗎？",
+      "audio": {
+        "src": "/audio/sentences/checkout-carrier-bag/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1e35305bb1943e2d0caa2fec018909c277c50b2de5268b519f6c7d481ba8899f",
+        "sha256": "ab17f41b19b08f1128b6b834bc06a488a0b028acf122816b387d806b3c2d09d1"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "No thank you, I "
+        },
+        {
+          "text": "brought my ",
+          "phraseIds": [
+            "brought-my-own-bag"
+          ]
+        },
+        {
+          "text": "own",
+          "phraseIds": [
+            "brought-my-own-bag"
+          ],
+          "wordIds": [
+            "own"
+          ]
+        },
+        {
+          "text": " bag",
+          "phraseIds": [
+            "brought-my-own-bag"
+          ]
+        },
+        {
+          "text": " today."
+        }
+      ],
+      "translation": "不用謝謝，我今天有自己帶袋子。",
+      "audio": {
+        "src": "/audio/sentences/checkout-carrier-bag/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d53be61321d6d8a4609d1c88516d7f553b98d982ff614a965af85ee96a24ff1f",
+        "sha256": "656047560e7ca8049673f550df8e6d2cbc04bbc7945064dfc7678c663582efea"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do you want to "
+        },
+        {
+          "text": "print out the receipt",
+          "phraseIds": [
+            "print-out-the-receipt"
+          ]
+        },
+        {
+          "text": " with your purchase?"
+        }
+      ],
+      "translation": "這次購買您需要印出發票收據嗎？",
+      "audio": {
+        "src": "/audio/sentences/checkout-carrier-bag/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1f5698d64182d4b1b2cf72e8b3cb1e4d4c9297fb06c2c0832369b81dd388f8f2",
+        "sha256": "eace9bcc09dff12dce84aac880507ed3519d548d668d1347574dd5656ad95cce"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "scan the barcode",
+          "phraseIds": [
+            "scan-the-barcode"
+          ]
+        },
+        {
+          "text": " on my phone "
+        },
+        {
+          "text": "screen",
+          "wordIds": [
+            "screen"
+          ]
+        },
+        {
+          "text": " instead."
+        }
+      ],
+      "translation": "請改刷我手機螢幕上的條碼載具就好。",
+      "audio": {
+        "src": "/audio/sentences/checkout-carrier-bag/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "846f09269c71d1569b0ffc46f4d7ac5f7e2b880aa23f0a77b8ae8b6502b27bf7",
+        "sha256": "5ebd430d9678d90585ebe879eab5473091f93e55a30efe0a08acf999cb1e6c42"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "That is great because "
+        },
+        {
+          "text": "saving",
+          "phraseIds": [
+            "saving-paper"
+          ],
+          "wordIds": [
+            "save"
+          ]
+        },
+        {
+          "text": " paper",
+          "phraseIds": [
+            "saving-paper"
+          ]
+        },
+        {
+          "text": " is much better for nature."
+        }
+      ],
+      "translation": "那樣太好了，因為節省紙張對大自然好很多。",
+      "audio": {
+        "src": "/audio/sentences/checkout-carrier-bag/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "399372714278fcf1f2117fa24adbf785061b32692a48556173ac94b726a22d7f",
+        "sha256": "ea2433285c1e16dc21d695421ba12d662e493d93d98c50fccce552483f0da820"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Keep",
+          "wordIds": [
+            "keep"
+          ]
+        },
+        {
+          "text": " your receipt card, and have a "
+        },
+        {
+          "text": "wonderful",
+          "wordIds": [
+            "wonderful"
+          ]
+        },
+        {
+          "text": " sunny day!"
+        }
+      ],
+      "translation": "請收好您的明細卡，祝您有美好的一天！",
+      "audio": {
+        "src": "/audio/sentences/checkout-carrier-bag/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e4164a9f51fc4d53abfe876fbd5e344c8b6122c24312201590fef7f40dbc2685",
+        "sha256": "7603ecf9380f13b1153f3dea3cf13e4af989d617e5e13228f745ab5bd636710e"
+      }
+    }
+  ]
+}

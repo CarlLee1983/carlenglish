@@ -1,0 +1,356 @@
+{
+  "id": "borrowing-power-bank",
+  "title": "手機電量不足借行動電源",
+  "titleEn": "Borrowing a Power Bank for a Low Battery",
+  "category": "城市與公共服務",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/borrowing-power-bank.webp",
+    "alt": "在明亮的圖書館長桌旁，一位同學拿出小巧隨身行動電源與白色充電線，遞給手機電量即將耗盡的朋友應急。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "down-to-three-percent",
+      "english": "down to three percent",
+      "translation": "掉到只剩百分之三",
+      "audio": {
+        "src": "/audio/phrases/borrowing-power-bank-down-to-three-percent.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ce7b6af1ea0b6d1dcb12f62630be904a04795378314886d524a25b38a6d1f85c",
+        "sha256": "2bcf0d3562b16e433ad4957bae190533ce666f035df72000fb8a0b58aaa2205d"
+      }
+    },
+    {
+      "id": "phone-dies",
+      "english": "phone dies",
+      "translation": "手機沒電關機",
+      "audio": {
+        "src": "/audio/phrases/borrowing-power-bank-phone-dies.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f40d687e82679727f9bbeaf8386aae6c894da5b1b633a8a6445a687d979d7b2",
+        "sha256": "8c39c560d3bb7a6cbb119b0b4026aa003733ea9fc8b18ee0945d49788d12ed8b"
+      }
+    },
+    {
+      "id": "portable-power-bank",
+      "english": "portable power bank",
+      "translation": "隨身行動電源",
+      "audio": {
+        "src": "/audio/phrases/borrowing-power-bank-portable-power-bank.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "99dc5bf772f61072f51b8d1ba3a90a336b90c397bb75cfeac09dbc40413fee68",
+        "sha256": "0142914187e7729e04b0d8d425707684d7035200bcede4074c0329ee73ac5aa6"
+      }
+    },
+    {
+      "id": "charging-cable",
+      "english": "charging cable",
+      "translation": "充電線",
+      "audio": {
+        "src": "/audio/phrases/borrowing-power-bank-charging-cable.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c3e40e60dc40c2f2738b0593a995a6ae3197460d0f43864f8778f84e7bb9b801",
+        "sha256": "2805e63d19cec27ce3b6a9a8979010e73627577bf34bf476ba9e471db182976e"
+      }
+    },
+    {
+      "id": "plug-this-white-cable-into",
+      "english": "plug this white cable into",
+      "translation": "把這條白色充電線插進",
+      "audio": {
+        "src": "/audio/phrases/borrowing-power-bank-plug-this-white-cable-into.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "56318df116389e76434ef05289a251a5ec3b6b16815fc7be82570cda99749ca4",
+        "sha256": "b98065af5f8734b3b095d8fec64b36416ecca74ef39f976601b40d5d59509cb6"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "battery",
+      "english": "battery",
+      "translation": "電池；電量",
+      "example": "My camera battery lasts for around five hundred shots.",
+      "audio": {
+        "src": "/audio/words/borrowing-power-bank-battery.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f3d1701e1d575e1294786989517866986bc97343e07af63e201f46ba0be5806a",
+        "sha256": "a1c6b4c89e654e8abb00fb0421e30737e14a95987966d18524f9792af4e96341"
+      }
+    },
+    {
+      "id": "power",
+      "english": "power",
+      "translation": "力量；電力",
+      "example": "Turn off the machine to save battery power.",
+      "audio": {
+        "src": "/audio/words/borrowing-power-bank-power.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "07d715edb696fb5f628f7298e5d7217ed4d2bdfc5347a1c55fee30832267f21d",
+        "sha256": "595ffc263d6599edbbba5110aea36e94d1d8957ddffd13ca841cab984bbc48f1"
+      }
+    },
+    {
+      "id": "cable",
+      "english": "cable",
+      "translation": "纜線；充電線",
+      "example": "Keep your laptop cable neatly wrapped.",
+      "audio": {
+        "src": "/audio/words/borrowing-power-bank-cable.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7d6e18d0ff4bed3b1d1f3afc82ffa124f83ff2b43c83bf14a69562c8e22f0b2c",
+        "sha256": "4221faabcf75ce73c9d91e65451f5a1aa3ec7b2185470f76769f5767aabc401a"
+      }
+    },
+    {
+      "id": "plug",
+      "english": "plug",
+      "translation": "插頭；插入",
+      "example": "Plug the toaster into the kitchen wall outlet.",
+      "audio": {
+        "src": "/audio/words/borrowing-power-bank-plug.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0daf0c9ca37fec6e1d5a340073fb43a19c89c50c02827c9991295f89987c7c90",
+        "sha256": "c3c572427804139e44d5b0bbabc92dbe352d659fe3d2a90ee82e9fda81a7ea83"
+      }
+    },
+    {
+      "id": "charge",
+      "english": "charge",
+      "translation": "充電；收費",
+      "example": "It takes two hours to fully charge this speaker.",
+      "audio": {
+        "src": "/audio/words/borrowing-power-bank-charge.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "97488fbab3282166738a47c2f619037228568494475d4ac107c46c02678cb728",
+        "sha256": "0dff22c901b0addbb18ff6df5348b834c1d166e6e483afda00f7e9bec2d3cc79"
+      }
+    },
+    {
+      "id": "low",
+      "english": "low",
+      "translation": "低的",
+      "example": "The lake water is very low after the dry winter.",
+      "audio": {
+        "src": "/audio/words/borrowing-power-bank-low.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6c1ff09db3a73dc4a854f695d20d174a848d55f2d743bab2ee1f8fc75be454f3",
+        "sha256": "a62d7a835047db1eb0be2d6a856a8491c16f2335e15eb73be5ebd31b036574e5"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "My phone "
+        },
+        {
+          "text": "battery",
+          "wordIds": [
+            "battery"
+          ]
+        },
+        {
+          "text": " is extremely "
+        },
+        {
+          "text": "low",
+          "wordIds": [
+            "low"
+          ]
+        },
+        {
+          "text": " and "
+        },
+        {
+          "text": "down to three percent",
+          "phraseIds": [
+            "down-to-three-percent"
+          ]
+        },
+        {
+          "text": " right now."
+        }
+      ],
+      "translation": "我的手機電量極低，現在掉到只剩下百分之三了。",
+      "audio": {
+        "src": "/audio/sentences/borrowing-power-bank/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6c6fa305871d21816fab20fdc5d7bd9c2e6436464f0aa3c30ed4540f830e1767",
+        "sha256": "52c5fd0699eaa5bec1bf1b9dff17495143c18a6f488231d17dd16d7126c53e99"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "If my "
+        },
+        {
+          "text": "phone dies",
+          "phraseIds": [
+            "phone-dies"
+          ]
+        },
+        {
+          "text": ", I will not be able to contact my parents."
+        }
+      ],
+      "translation": "如果我手機沒電關機的話，我就沒辦法聯絡我的父母了。",
+      "audio": {
+        "src": "/audio/sentences/borrowing-power-bank/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a1f334829b5562e71ad12fbbc3d7d81aee3e02d2cdd5fdab9eb6ebd526ce663d",
+        "sha256": "63a2e6faa65e78de4374bb5fb4bd109999ad011656d0faffff2a48538aaeb402"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do not panic, I have a fully charged "
+        },
+        {
+          "text": "portable ",
+          "phraseIds": [
+            "portable-power-bank"
+          ]
+        },
+        {
+          "text": "power",
+          "phraseIds": [
+            "portable-power-bank"
+          ],
+          "wordIds": [
+            "power"
+          ]
+        },
+        {
+          "text": " bank",
+          "phraseIds": [
+            "portable-power-bank"
+          ]
+        },
+        {
+          "text": " with me."
+        }
+      ],
+      "translation": "別慌張，我身上剛好帶著一顆充飽電的行動電源。",
+      "audio": {
+        "src": "/audio/sentences/borrowing-power-bank/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ce6a1c9bb0f3fe5b76adbcbd89a5fe4a5749210a22aa8f3de88dfd6b9ddb9260",
+        "sha256": "3f807e5514545c8788729018fb7b2be34b5585b370fc0d8c976eba95c551f717"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do you have a "
+        },
+        {
+          "text": "charging",
+          "phraseIds": [
+            "charging-cable"
+          ],
+          "wordIds": [
+            "charge"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "cable",
+          "phraseIds": [
+            "charging-cable"
+          ],
+          "wordIds": [
+            "cable"
+          ]
+        },
+        {
+          "text": " that matches my phone socket?"
+        }
+      ],
+      "translation": "你有符合我手機插孔規格的充電連接線嗎？",
+      "audio": {
+        "src": "/audio/sentences/borrowing-power-bank/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3622b20b3a462f5bbcce7067429a967a5b5c76631a6f290329645c80377b7c65",
+        "sha256": "d7595e9083fae3dd9d739b658d1730bf7f0f5344ddde00543d3006e22fce7e1b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yes, "
+        },
+        {
+          "text": "plug",
+          "phraseIds": [
+            "plug-this-white-cable-into"
+          ],
+          "wordIds": [
+            "plug"
+          ]
+        },
+        {
+          "text": " this white ",
+          "phraseIds": [
+            "plug-this-white-cable-into"
+          ]
+        },
+        {
+          "text": "cable",
+          "phraseIds": [
+            "plug-this-white-cable-into"
+          ],
+          "wordIds": [
+            "cable"
+          ]
+        },
+        {
+          "text": " into",
+          "phraseIds": [
+            "plug-this-white-cable-into"
+          ]
+        },
+        {
+          "text": " the bottom port of your phone."
+        }
+      ],
+      "translation": "有的，把這條白色充電線插進你手機底部的充電孔就行了。",
+      "audio": {
+        "src": "/audio/sentences/borrowing-power-bank/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fe550df1e95b11e3c503c09097adaa276be975cd460eabc3d45af32df312da8c",
+        "sha256": "fcb7fb2841c4dedbdb4b69cb50eaa0c36e6ca65747fcf62aa05133402bd8aedc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "charging",
+          "wordIds": [
+            "charge"
+          ]
+        },
+        {
+          "text": " lightning icon appeared, thank you for saving my day!"
+        }
+      ],
+      "translation": "充電的閃電圖示跳出來了，太感謝你及時救了我一命！",
+      "audio": {
+        "src": "/audio/sentences/borrowing-power-bank/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "768ba9c7acc4837a3e4b70c912e7b47026af9c448437eff2cfa2ab50659aa4a6",
+        "sha256": "de99da30c5009dbb615201f79b9bd660f7d913d525ad081df19d4ee919529ccf"
+      }
+    }
+  ]
+}

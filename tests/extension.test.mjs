@@ -9,6 +9,8 @@ import { setTimeout as delay } from 'node:timers/promises';
 import test from 'node:test';
 import { chromium } from '@playwright/test';
 import sharp from 'sharp';
+import { grammarPaths } from '../src/data/grammar.ts';
+import { princeGoalPaths } from '../src/data/little-prince-path.ts';
 import { getLearningLevel, getRelatedScenes } from '../src/lib/catalog.ts';
 
 const projectRoot = process.cwd();
@@ -204,7 +206,10 @@ test('a large mixed-level catalog builds and serves complete routes without chan
     const sitemap = await sitemapResponse.text();
     const locs = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
     const expectedUrls = [
+      ...grammarPaths.map((path) => `${site}${path}`),
+      ...princeGoalPaths.map((path) => `${site}${path}`),
       `${site}/`, ...['beginner', 'intermediate', 'advanced'].map((id) => `${site}/levels/${id}/`),
+      ...['beginner', 'intermediate', 'advanced'].map((id) => `${site}/vocabulary/${id}/`),
       ...allScenes.map((scene) => `${site}/scenes/${scene.id}/`),
       ...readdirSync(join(tempRoot, 'content/articles')).filter((name) => name.endsWith('.json')).sort()
         .map((name) => `${site}/articles/${JSON.parse(readFileSync(join(tempRoot, 'content/articles', name), 'utf8')).id}/`),

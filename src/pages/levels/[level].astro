@@ -1,7 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import { loadScenes } from '../../lib/scenes';
-import { createCatalog } from '../../lib/catalog';
+import { createCatalog, sceneCategories } from '../../lib/catalog';
 import { breadcrumbData, canonicalUrl } from '../../lib/seo';
 
 export function getStaticPaths() {
@@ -9,6 +9,14 @@ export function getStaticPaths() {
 }
 interface Props { group: ReturnType<typeof createCatalog>[number] }
 const { group: { level, scenes, categories } } = Astro.props;
+const sortedCategories = [...categories].sort((a, b) => {
+  const ia = sceneCategories.indexOf(a as (typeof sceneCategories)[number]);
+  const ib = sceneCategories.indexOf(b as (typeof sceneCategories)[number]);
+  if (ia !== -1 && ib !== -1) return ia - ib;
+  if (ia !== -1) return -1;
+  if (ib !== -1) return 1;
+  return a.localeCompare(b, 'zh-Hant');
+});
 const pageUrl = canonicalUrl(`/levels/${level.id}/`, Astro.site);
 const homeUrl = canonicalUrl('/', Astro.site);
 const description = scenes.length
@@ -29,11 +37,12 @@ const structuredData = [
       <div><p class="eyebrow" lang="en">{level.english}</p><h1>{level.name}讀本</h1><p>{level.summary}</p></div>
       <p class="catalog-total"><strong>{scenes.length.toString().padStart(2, '0')}</strong> 篇讀本</p>
     </header>
+    <p class="catalog-vocabulary-link"><a class="vocabulary-entry-link" href={`/vocabulary/${level.id}/`}>{level.name}單字庫・列印與字卡</a></p>
     {scenes.length > 0 ? (
       <section aria-labelledby="scenes-title" data-catalog>
         <form class="catalog-filters" role="search" aria-label="搜尋與篩選讀本" data-catalog-form hidden>
           <label class="search-field"><span>搜尋讀本</span><input type="search" name="q" placeholder="輸入主題、中文或英文" autocomplete="off" /></label>
-          <label class="category-field"><span>生活主題</span><select name="category"><option value="">全部主題</option>{categories.map((category) => <option value={category}>{category}</option>)}</select></label>
+          <label class="category-field"><span>生活主題</span><select name="category"><option value="">全部主題</option>{sortedCategories.map((category) => <option value={category}>{category}</option>)}</select></label>
           <button class="clear-filters" type="button" data-clear-filters hidden>清除篩選</button>
         </form>
         <noscript><p class="section-hint">以下列出全部{level.name}讀本。啟用 JavaScript 後可搜尋與篩選。</p></noscript>

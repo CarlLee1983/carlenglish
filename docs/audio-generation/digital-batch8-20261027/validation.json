@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-27",
+  "clips": 85,
+  "bytes": 1854452,
+  "durationSeconds": 219.025,
+  "checks": {
+    "textSha256": true,
+    "fileSha256": true,
+    "voiceId": true,
+    "completeGraphemes": true,
+    "ffmpegDecode": true
+  },
+  "scope": [
+    "cafe-wifi-password",
+    "borrowing-power-bank",
+    "resending-verification-code",
+    "device-connection-trouble",
+    "confirming-online-booking"
+  ]
+}

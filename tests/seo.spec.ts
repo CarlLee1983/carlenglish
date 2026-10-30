@@ -1,3 +1,5 @@
+import { grammarPaths } from '../src/data/grammar';
+import { princeGoalPaths } from '../src/data/little-prince-path';
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { expect, test, type Page } from '@playwright/test';
@@ -5,6 +7,7 @@ import type { Scene } from '../src/lib/scenes';
 import { getLearningLevel, learningLevels } from '../src/lib/catalog';
 import { trackLabels, type Article } from '../src/lib/articles';
 import { sceneSocialImage } from '../src/lib/seo';
+import { loadVocabularyCatalog } from '../src/lib/vocabulary';
 
 const site = 'https://carlenglish.gravito.dev';
 const scenes = readdirSync(join(process.cwd(), 'content/scenes')).filter((name) => name.endsWith('.json')).sort()
@@ -15,9 +18,9 @@ const classics = readdirSync(join(process.cwd(), 'content/classics')).filter((na
   .map((name) => JSON.parse(readFileSync(join(process.cwd(), 'content/classics', name), 'utf8')) as { id: string; parts: unknown[] });
 const pathFor = (scene: Scene) => `/scenes/${scene.id}/`;
 const articlePathFor = (article: Article) => `/articles/${article.id}/`;
-const paths = ['/', ...learningLevels.map((level) => `/levels/${level.id}/`), ...scenes.map(pathFor), ...articles.map(articlePathFor)];
+const paths = ['/', ...learningLevels.flatMap((level) => [`/levels/${level.id}/`, `/vocabulary/${level.id}/`]), ...scenes.map(pathFor), ...articles.map(articlePathFor)];
 const populated = learningLevels.filter((level) => scenes.some((scene) => getLearningLevel(scene).id === level.id));
-const indexed = ['/', ...populated.map((level) => `/levels/${level.id}/`), ...scenes.map(pathFor), ...articles.map(articlePathFor), ...classics.flatMap((classic) => [`/classics/${classic.id}/`, ...classic.parts.map((_, index) => `/classics/${classic.id}/${index + 1}/`)])];
+const indexed = ['/', ...populated.map((level) => `/levels/${level.id}/`), ...loadVocabularyCatalog().map(({ level }) => `/vocabulary/${level.id}/`), ...scenes.map(pathFor), ...articles.map(articlePathFor), ...classics.flatMap((classic) => [`/classics/${classic.id}/`, ...classic.parts.map((_, index) => `/classics/${classic.id}/${index + 1}/`)])];
 const meta = (page: Page, key: string, value: string) => page.locator(`head meta[${key}="${value}"]`);
 const jsonLd = async (page: Page) => (await page.locator('head script[type="application/ld+json"]').allTextContents())
   .flatMap((text) => {
@@ -76,7 +79,7 @@ test('home and level pages publish matching metadata and data grounded in the vi
 });
 
 test('every reader has its own canonical, share image, and content-grounded LearningResource', async ({ page, request }) => {
-  test.setTimeout(120_000);
+  test.setTimeout(240_000);
   const descriptions = new Set<string>();
   for (const scene of scenes) {
     await page.goto(pathFor(scene));
@@ -176,7 +179,7 @@ test('crawler endpoints reflect only indexable pages and real available media', 
   expect(sitemapResponse.ok()).toBe(true);
   const sitemap = await sitemapResponse.text();
   const locs = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
-  expect(locs).toEqual(indexed.map((path) => `${site}${path}`));
+  expect(locs).toEqual([...grammarPaths, ...princeGoalPaths, ...indexed].map((path) => `${site}${path}`));
   expect(sitemap).not.toMatch(/lastmod|\/404/);
   for (const loc of locs) expect(new URL(loc).search).toBe('');
   for (const level of learningLevels.filter((candidate) => !populated.includes(candidate))) {

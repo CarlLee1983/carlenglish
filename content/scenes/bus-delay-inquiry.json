@@ -1,0 +1,350 @@
+{
+  "id": "bus-delay-inquiry",
+  "title": "公車誤點向站務詢問",
+  "titleEn": "Inquiring About Bus Delays",
+  "category": "出行與交通",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/bus-delay-inquiry.webp",
+    "alt": "在公車轉運站服務窗口前，乘客拿著公車時刻表向站務員禮貌詢問班次延遲原因。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "scheduled-to-arrive",
+      "english": "scheduled to arrive",
+      "translation": "表定抵達",
+      "audio": {
+        "src": "/audio/phrases/bus-delay-inquiry-scheduled-to-arrive.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "10329888ae26cdf2c26654d1a52c1d1bb70e1667ddd4fe16a0f54c18d9650397",
+        "sha256": "2d80c1ffdb9db13adb43d14532ade7a1359774830bf8ecc52ed4b4a9564a5fb6"
+      }
+    },
+    {
+      "id": "twenty-minutes-late",
+      "english": "twenty minutes late",
+      "translation": "遲到了二十分鐘",
+      "audio": {
+        "src": "/audio/phrases/bus-delay-inquiry-twenty-minutes-late.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "747cd84b8deef940e7b652dccfd545b01d88c207d1f57c782fa086146e44bf14",
+        "sha256": "ff1a2a828e6a46c2f02e0aa87fed933a7344c55a324540f60dd08ce30c8a7025"
+      }
+    },
+    {
+      "id": "what-happened",
+      "english": "what happened",
+      "translation": "發生了什麼事",
+      "audio": {
+        "src": "/audio/phrases/bus-delay-inquiry-what-happened.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bc3f7f7fd709c9072c5253f143df0964e4e7c7f8cb7bc80e39858ea9b3d0e2f0",
+        "sha256": "1800e40e82460a5a6ea4a12fcab5a4c4affedf37be71846b8a6860a38f77bdaa"
+      }
+    },
+    {
+      "id": "caused-a-long-delay",
+      "english": "caused a long delay",
+      "translation": "造成長久的延遲",
+      "audio": {
+        "src": "/audio/phrases/bus-delay-inquiry-caused-a-long-delay.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4f3ca412e054bf0399db78ac9cf6d5adf1cdc238ef62e342e8a3d2685a12f00c",
+        "sha256": "90103e84ad61e5725b36df3b7810dfec2a0353f8267651ba4f0af68c8d53994e"
+      }
+    },
+    {
+      "id": "probably-arrive-in",
+      "english": "probably arrive in",
+      "translation": "大概在...之內抵達",
+      "audio": {
+        "src": "/audio/phrases/bus-delay-inquiry-probably-arrive-in.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7f8af094251451ac528e185efaf331d29313d8f8bc66a29d57d24eb83aa81dcc",
+        "sha256": "225d81455a57a39e63541325998688b1c52e4cd6b1c547afbbfea72ff564de27"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "schedule",
+      "english": "schedule",
+      "translation": "時間表；安排",
+      "example": "The train runs on a strict schedule.",
+      "audio": {
+        "src": "/audio/words/bus-delay-inquiry-schedule.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5f72005e81c4ecbd5aa3588e80e3daf0df068ce0cf5638944508a0165fea609a",
+        "sha256": "47d9d1f1b4f00834be6146f9a8051a519d63b547c2c26a74dbf09698c234a6dd"
+      }
+    },
+    {
+      "id": "delay",
+      "english": "delay",
+      "translation": "延遲；耽擱",
+      "example": "We apologize for the unexpected flight delay.",
+      "audio": {
+        "src": "/audio/words/bus-delay-inquiry-delay.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6e16db102267e6e7de7f08f9c28836861561b6ac5a9aec0d26e263c37267f54e",
+        "sha256": "d7e332d0d11ec8562bafc279c647287ce815f8461593230a893bbddc0ad4d050"
+      }
+    },
+    {
+      "id": "arrive",
+      "english": "arrive",
+      "translation": "抵達；到達",
+      "example": "What time will our tour bus arrive?",
+      "audio": {
+        "src": "/audio/words/bus-delay-inquiry-arrive.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6dc09a300747b82d8bfe9d509ede4fb228e3c27204185e8c5e6188340904d9e0",
+        "sha256": "1b0adf963ee3439fd26ee1c24c7ce66eee3f1ca7b508a3b4af2c8c5caa33fe94"
+      }
+    },
+    {
+      "id": "happen",
+      "english": "happen",
+      "translation": "發生",
+      "example": "Strange things happen in old movies.",
+      "audio": {
+        "src": "/audio/words/bus-delay-inquiry-happen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9ecfb3a042a271f4389ef89922337bc9488f865d394eafa445d55db0be4e828d",
+        "sha256": "da299d42e95a08207aa7ec236292791152e99817a0f81b736584ca473e4fd905"
+      }
+    },
+    {
+      "id": "cause",
+      "english": "cause",
+      "translation": "造成、導致",
+      "example": "Heavy rain caused water on the tracks.",
+      "audio": {
+        "src": "/audio/words/bus-delay-inquiry-cause.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6a7ef1ed9f15c2f59ab7bfaf50f5b51f695d736a7f2e5ada6470e695190b8f83",
+        "sha256": "57bdb8955f47509cb964e2adc82bbef9668a6a74a712f439515cf21cdd14b559"
+      }
+    },
+    {
+      "id": "probably",
+      "english": "probably",
+      "translation": "很可能、大概",
+      "example": "He will probably be home before dinner.",
+      "audio": {
+        "src": "/audio/words/bus-delay-inquiry-probably.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a8ef01283d653e4638daca3fae06abf52711122b2701dddb349310a574c263b9",
+        "sha256": "6724d37604fde166e1df103957cceb10df7b56ce1e88490a7e283fafa167aa50"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Excuse me, bus number 302 was "
+        },
+        {
+          "text": "scheduled",
+          "phraseIds": [
+            "scheduled-to-arrive"
+          ],
+          "wordIds": [
+            "schedule"
+          ]
+        },
+        {
+          "text": " to ",
+          "phraseIds": [
+            "scheduled-to-arrive"
+          ]
+        },
+        {
+          "text": "arrive",
+          "phraseIds": [
+            "scheduled-to-arrive"
+          ],
+          "wordIds": [
+            "arrive"
+          ]
+        },
+        {
+          "text": " at nine."
+        }
+      ],
+      "translation": "不好意思，302 路公車表定應該在九點抵達。",
+      "audio": {
+        "src": "/audio/sentences/bus-delay-inquiry/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bbe386ed37d355fa4f7e852d6d70e379d84de1a15a76135553ee9b07230a607f",
+        "sha256": "22ded7f426fecf40280184e4d76a00c395c3f707e2434f866d3aa64b386f74b6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "It is already "
+        },
+        {
+          "text": "twenty minutes late",
+          "phraseIds": [
+            "twenty-minutes-late"
+          ]
+        },
+        {
+          "text": ", do you know "
+        },
+        {
+          "text": "what ",
+          "phraseIds": [
+            "what-happened"
+          ]
+        },
+        {
+          "text": "happened",
+          "phraseIds": [
+            "what-happened"
+          ],
+          "wordIds": [
+            "happen"
+          ]
+        },
+        {
+          "text": " on the road?"
+        }
+      ],
+      "translation": "現在已經晚了二十分鐘，路上是有發生什麼事嗎？",
+      "audio": {
+        "src": "/audio/sentences/bus-delay-inquiry/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "954fdf37bcd64cb00e45afbc2c0c67edf4e552e1fe5aa22ddc40b758487319d8",
+        "sha256": "13ed75c6685d3bb754cd6e0b40a8b3d06839ee43401d880dd7984daa821c7da4"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "There was a small car accident that "
+        },
+        {
+          "text": "caused",
+          "phraseIds": [
+            "caused-a-long-delay"
+          ],
+          "wordIds": [
+            "cause"
+          ]
+        },
+        {
+          "text": " a long ",
+          "phraseIds": [
+            "caused-a-long-delay"
+          ]
+        },
+        {
+          "text": "delay",
+          "phraseIds": [
+            "caused-a-long-delay"
+          ],
+          "wordIds": [
+            "delay"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "前面路上發生了一起小車禍，導致了嚴重的誤點延遲。",
+      "audio": {
+        "src": "/audio/sentences/bus-delay-inquiry/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c52f297a3fbf9064e656a95c7f62157c37d41e4f9b15e0ee059de38c1ebbb5b3",
+        "sha256": "55a852512757576c148b0366f81bb0c543245412b45f248c561ee68b8f51ba4d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Is the bus still coming, or will we miss our transfer?"
+        }
+      ],
+      "translation": "公車還會來嗎？還是我們會錯過後面的轉乘班次？",
+      "audio": {
+        "src": "/audio/sentences/bus-delay-inquiry/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "328497f0b3202312b6b760240894b587e90e94853e90e0a78310b725850472b0",
+        "sha256": "7a48b4fdc1de0ad2f7ba3b0ef09914758e32c95db0239fe07b74818ac452607b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The GPS system shows it will "
+        },
+        {
+          "text": "probably",
+          "phraseIds": [
+            "probably-arrive-in"
+          ],
+          "wordIds": [
+            "probably"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "arrive",
+          "phraseIds": [
+            "probably-arrive-in"
+          ],
+          "wordIds": [
+            "arrive"
+          ]
+        },
+        {
+          "text": " in",
+          "phraseIds": [
+            "probably-arrive-in"
+          ]
+        },
+        {
+          "text": " six minutes."
+        }
+      ],
+      "translation": "公車動態定位系統顯示，它大概六分鐘後就會抵達。",
+      "audio": {
+        "src": "/audio/sentences/bus-delay-inquiry/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c1e2ac0f79313810c30d84e950d9ea58d3c3307ff431a553551bf61521620b38",
+        "sha256": "748193b605c3626f96ca7b3d90f378f22119b5c5a983b8d24c97b19ee875c7fa"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "It seems the "
+        },
+        {
+          "text": "delay",
+          "wordIds": [
+            "delay"
+          ]
+        },
+        {
+          "text": " will not be much longer, thank you."
+        }
+      ],
+      "translation": "看起來不會再耽擱太久了，非常感謝您。",
+      "audio": {
+        "src": "/audio/sentences/bus-delay-inquiry/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a5500265ac9971e4d5d0cf064d78933eea57f1842fef03558661b777f6e23896",
+        "sha256": "acebc82e18c9145d331c1a8b32a879726c80fa87c01ed46a7ed7d9c8dfc201e2"
+      }
+    }
+  ]
+}

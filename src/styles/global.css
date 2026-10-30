@@ -241,6 +241,8 @@ ul { padding: 0; margin: 0; list-style: none; }
 .level-help { color: var(--muted); font-size: 13px; padding-block: 20px 4px; }
 
 .catalog-page { padding-top: 18px; }
+.vocabulary-entry-link { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); font-weight: 500; }
+.catalog-vocabulary-link { margin-bottom: 16px; }
 .catalog-intro { display: flex; justify-content: space-between; align-items: end; gap: 24px; padding-block: 20px 32px; }
 .catalog-intro h1 { font-size: clamp(36px, 4vw, 48px); margin-top: 8px; }
 .catalog-intro > div > p:last-child { color: var(--muted); font-size: 16px; max-width: 38em; margin-top: 14px; }

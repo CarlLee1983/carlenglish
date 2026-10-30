@@ -1,0 +1,344 @@
+{
+  "id": "lost-bag-inquiry",
+  "title": "公共場所遺失隨身包",
+  "titleEn": "Inquiring About a Lost Bag",
+  "category": "城市與公共服務",
+  "level": "初級至初中級",
+  "image": {
+    "src": "/images/scenes/lost-bag-inquiry.webp",
+    "alt": "在演藝文化中心的失物招領服務台前，民眾向櫃檯人員描述遺失在音樂廳座位的黑色皮革小側背包，並在尋獲表單上簽名認領。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "left-my-bag-inside",
+      "english": "left my bag inside",
+      "translation": "把隨身包忘在裡面",
+      "audio": {
+        "src": "/audio/phrases/lost-bag-inquiry-left-my-bag-inside.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b041c4ae70849ec771b8455473529e1e4961eecc3b0d474dfaa4cf430b59adba",
+        "sha256": "9ce899bd66d9b70af3e962a41c99c7a6ec3bc164cf52c425facbad72074d409f"
+      }
+    },
+    {
+      "id": "black-leather-bag",
+      "english": "black leather bag",
+      "translation": "黑色皮質包包",
+      "audio": {
+        "src": "/audio/phrases/lost-bag-inquiry-black-leather-bag.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e6d2f6d3ef0bd765c36e02a92c9069ca33b4a4da1a12f85d9d89fb5891cd6b76",
+        "sha256": "56144657efacb60a553cdf31be54fdce523368755c0b48bda9a99508e63bf0a0"
+      }
+    },
+    {
+      "id": "what-was-inside",
+      "english": "what was inside",
+      "translation": "裡面裝了什麼",
+      "audio": {
+        "src": "/audio/phrases/lost-bag-inquiry-what-was-inside.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1c5c45b1122c9013eb069c9776b1e7e3e692778f6eed63a6fd1aa429b86f35a6",
+        "sha256": "10a4a4ca8235e58b08b6bdc2586217b115e3bc87264df7800bf5a4f13a63b9aa"
+      }
+    },
+    {
+      "id": "house-keys",
+      "english": "house keys",
+      "translation": "家門鑰匙",
+      "audio": {
+        "src": "/audio/phrases/lost-bag-inquiry-house-keys.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dfb706eeb53324076ad23742f62f50db28260c627f023442f8e9190e9969b508",
+        "sha256": "4c55f3123a2d107a7a0926b71e7ea8c792be92fb53ebf81abc89066ea3d51b36"
+      }
+    },
+    {
+      "id": "sign-the-contact-form",
+      "english": "sign the contact form",
+      "translation": "在聯絡表單上簽名",
+      "audio": {
+        "src": "/audio/phrases/lost-bag-inquiry-sign-the-contact-form.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "275991587e398155cf5a35a53db37c6fc8ad1fcebaa815f8ec5cad26f4c04e1e",
+        "sha256": "477ae50a50e19ebc760f4ba8814a345b1cefbc88b0b3c1a1f8fa082ad971c044"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "leave",
+      "english": "leave",
+      "translation": "落下；離開",
+      "example": "Do not leave your wallet on the table.",
+      "audio": {
+        "src": "/audio/words/lost-bag-inquiry-leave.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "af193190b8d3cd14103e20e900378a2b76414ff6428065f3f8539b3577b22fdf",
+        "sha256": "2a1f02d3eb352257e84774f462224dfbbaa19221f69ff1eca038a63fb0911915"
+      }
+    },
+    {
+      "id": "remember",
+      "english": "remember",
+      "translation": "記得；回想起",
+      "example": "I remember seeing that poster on the bulletin board.",
+      "audio": {
+        "src": "/audio/words/lost-bag-inquiry-remember.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "35379d9c009e290d702b72abf3f5f9bdbaa7e00a63fc37b5174fc3825c8095e3",
+        "sha256": "bd9f746a6311a2ecd520c0dcf10bdf72bdd76d8f72ccae32e5d4c3badd87e627"
+      }
+    },
+    {
+      "id": "black",
+      "english": "black",
+      "translation": "黑色的",
+      "example": "The kitten has soft black fur.",
+      "audio": {
+        "src": "/audio/words/lost-bag-inquiry-black.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c006c7e3ab14d686f63524136f1ec7c5e553d839bc01c851e4dc9de2bdbfc589",
+        "sha256": "61624855d02565829ec22738909a39863edeea6683f16fe029a551795cb452a7"
+      }
+    },
+    {
+      "id": "inside",
+      "english": "inside",
+      "translation": "在...內部；裡面",
+      "example": "Keep the puppy inside when it is freezing.",
+      "audio": {
+        "src": "/audio/words/lost-bag-inquiry-inside.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "106b086224a4d945eae25f7be3805a931a873270326dd868b0e41f71ee9fff72",
+        "sha256": "8ef0a680361b0c049a29a6426f84474245a98d3aae981b9cbe145fa2aa430c19"
+      }
+    },
+    {
+      "id": "contact",
+      "english": "contact",
+      "translation": "聯絡；聯繫",
+      "example": "Please leave your contact phone number here.",
+      "audio": {
+        "src": "/audio/words/lost-bag-inquiry-contact.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "093e7d5fdbaacfa92448861b11075b3fba532a07d945b49a44919252f5e830ad",
+        "sha256": "16ae5de03b877c42e247d60600fc46a71b10296f746d5468801efa3191d6228d"
+      }
+    },
+    {
+      "id": "key",
+      "english": "key",
+      "translation": "鑰匙；關鍵",
+      "example": "He turned the key in the front door lock.",
+      "audio": {
+        "src": "/audio/words/lost-bag-inquiry-key.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2c70e12b7a0646f92279f427c7b38e7334d8e5389cff167a1dc30e73f826b683",
+        "sha256": "eb7ca5cd56a5a0f480983c84135b95de8f0a2046fd9d97c94f61427870ddfc00"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Hello, I think I "
+        },
+        {
+          "text": "left",
+          "phraseIds": [
+            "left-my-bag-inside"
+          ],
+          "wordIds": [
+            "leave"
+          ]
+        },
+        {
+          "text": " my bag ",
+          "phraseIds": [
+            "left-my-bag-inside"
+          ]
+        },
+        {
+          "text": "inside",
+          "phraseIds": [
+            "left-my-bag-inside"
+          ],
+          "wordIds": [
+            "inside"
+          ]
+        },
+        {
+          "text": " the concert hall."
+        }
+      ],
+      "translation": "你好，我想我剛才把隨身包忘在音樂廳裡面了。",
+      "audio": {
+        "src": "/audio/sentences/lost-bag-inquiry/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e4e7ae40711a5a2dcbfb0971a5e9b5747547b11459090c71b45740ee9189f28d",
+        "sha256": "fef5c361883bf2a1e1998e8ead1cef0393cbc3249c9fcfea5cbfffea5020a0ce"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Can you "
+        },
+        {
+          "text": "remember",
+          "wordIds": [
+            "remember"
+          ]
+        },
+        {
+          "text": " the color and what material it was made of?"
+        }
+      ],
+      "translation": "你能記得包包的顏色以及它是什麼材質做的嗎？",
+      "audio": {
+        "src": "/audio/sentences/lost-bag-inquiry/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "194f26feae55cbc3fa53e929b55a4eae6347994d60bc5cd201cc7e861afeb430",
+        "sha256": "2c5af5a0ebd15a67a22c657ccf4ec56804fe11f0c0175e0b07b94692087fc44d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "It is a small "
+        },
+        {
+          "text": "black",
+          "phraseIds": [
+            "black-leather-bag"
+          ],
+          "wordIds": [
+            "black"
+          ]
+        },
+        {
+          "text": " leather bag",
+          "phraseIds": [
+            "black-leather-bag"
+          ]
+        },
+        {
+          "text": " with a metal zipper."
+        }
+      ],
+      "translation": "它是一個黑色的小皮包，上面附有金屬拉鍊。",
+      "audio": {
+        "src": "/audio/sentences/lost-bag-inquiry/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e1a8dc539d2b9c9e387f2efee5ad8a5e58a52f18674c6fc515abf80daafc2288",
+        "sha256": "7a8617cc2623140ba69921ea4d53b95257c1531f8a4f3fb5c8cb295e6f68bcad"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Can you tell me "
+        },
+        {
+          "text": "what was ",
+          "phraseIds": [
+            "what-was-inside"
+          ]
+        },
+        {
+          "text": "inside",
+          "phraseIds": [
+            "what-was-inside"
+          ],
+          "wordIds": [
+            "inside"
+          ]
+        },
+        {
+          "text": " the main pocket?"
+        }
+      ],
+      "translation": "你能告訴我主要口袋裡面裝了什麼嗎？",
+      "audio": {
+        "src": "/audio/sentences/lost-bag-inquiry/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "927afeb2cb8204f50e7f1281f2129eb170661ef3e6dcde33e7a3879ab22034dd",
+        "sha256": "8f81f84b6b3ad67f8a7a548712bd4c0fafaa2c6f4c6e9c9600d6281e0403d5e5"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "There are "
+        },
+        {
+          "text": "house ",
+          "phraseIds": [
+            "house-keys"
+          ]
+        },
+        {
+          "text": "keys",
+          "phraseIds": [
+            "house-keys"
+          ],
+          "wordIds": [
+            "key"
+          ]
+        },
+        {
+          "text": ", an umbrella, and a blue student notebook."
+        }
+      ],
+      "translation": "裡面有一串家裡的鑰匙、一把雨傘和一本藍色學生筆記本。",
+      "audio": {
+        "src": "/audio/sentences/lost-bag-inquiry/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6ec2f0ed10392ffb09bde4e96a7db4af4dcb731834168c1a9c2d8c68b4ade7d6",
+        "sha256": "499ed6ff923761b9fee145bd6a7692ee14e5f67c03c3d14f329045be58d2112a"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "A cleaner just found that exact bag, please "
+        },
+        {
+          "text": "sign the ",
+          "phraseIds": [
+            "sign-the-contact-form"
+          ]
+        },
+        {
+          "text": "contact",
+          "phraseIds": [
+            "sign-the-contact-form"
+          ],
+          "wordIds": [
+            "contact"
+          ]
+        },
+        {
+          "text": " form",
+          "phraseIds": [
+            "sign-the-contact-form"
+          ]
+        },
+        {
+          "text": " to claim it."
+        }
+      ],
+      "translation": "一位清潔人員剛好撿到了完全相符的包包，請在聯絡單上簽名認領。",
+      "audio": {
+        "src": "/audio/sentences/lost-bag-inquiry/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2c0eb682a8592d8b8406996ce835c68807131dd9f961c11ace8fc9c4b2af2362",
+        "sha256": "0157f8721f2d6952fb0ae1b8529f6ebe4493d3f6b7d522546cfd47c32c819998"
+      }
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "id": "using-atm-cash-withdrawal",
+  "title": "使用 ATM 提款卡領現與查詢餘額",
+  "titleEn": "Withdrawing Cash and Checking Balance at the ATM",
+  "category": "城市與公共服務",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/using-atm-cash-withdrawal.webp",
+    "alt": "在明亮的銀行自動櫃員機前，一位年輕人將晶片金融卡插入插槽，螢幕上顯示清晰的多國語言選單與密碼輸入提示。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "withdraw-cash",
+      "english": "withdraw cash",
+      "translation": "提領現金",
+      "audio": {
+        "src": "/audio/phrases/using-atm-cash-withdrawal-withdraw-cash.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2de0bad9482e06378d928b1673a17d78ac635d3c775dc1e6db52d6e6405917f8",
+        "sha256": "41563a7fd3bfed97b935b5cfd7f6d3756b5f0c1067677a58eddab95b0ec5d915"
+      }
+    },
+    {
+      "id": "insert-your-debit-card",
+      "english": "Insert your debit card",
+      "translation": "插入金融卡",
+      "audio": {
+        "src": "/audio/phrases/using-atm-cash-withdrawal-insert-your-debit-card.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6d8916dc4b6ef122bdf85f9b30b50c8fa6b08f1bb3ec2534567e0ead16ecbdbe",
+        "sha256": "296d2a705bb0b890dd0937ea177ec58cd1ba1abd1d02412757ac562fdb782c0e"
+      }
+    },
+    {
+      "id": "security-code",
+      "english": "security code",
+      "translation": "安全密碼",
+      "audio": {
+        "src": "/audio/phrases/using-atm-cash-withdrawal-security-code.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "65e4d49ff84acb1ad03719a46627eb72085f7c8360fb3366d9c272690564b8a4",
+        "sha256": "4ccdc2f8f07fc3b4d06e03baa39db93f8b6922f8a94695e136985f76627032a7"
+      }
+    },
+    {
+      "id": "from-your-savings-account",
+      "english": "from your savings account",
+      "translation": "從儲蓄帳戶",
+      "audio": {
+        "src": "/audio/phrases/using-atm-cash-withdrawal-from-your-savings-account.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a260687e56768ce8da4d548591b6a7b6882b4811826bb4f98cfa9e8d55eff9db",
+        "sha256": "dcc7784f5c8a15c63fb88378222bab0784c206834991e553256c1a77a6a2fe30"
+      }
+    },
+    {
+      "id": "account-balance",
+      "english": "account balance",
+      "translation": "帳戶餘額",
+      "audio": {
+        "src": "/audio/phrases/using-atm-cash-withdrawal-account-balance.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "abc64653a6a1df0883b31baba33054aa2c4e146b2d38208d124480c055ef8c81",
+        "sha256": "20570d801cdf59018cedfecf567b02c03f5f90383fa65960a956707a50995794"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "cash",
+      "english": "cash",
+      "translation": "現金；現款",
+      "example": "Do you prefer to pay with cash or credit card?",
+      "audio": {
+        "src": "/audio/words/using-atm-cash-withdrawal-cash.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ab0fcec08e18a7bccda1e81df4974e3434fcd36000518f7e776fb85495b5a494",
+        "sha256": "0451b9d57a783e6642b16e516ff3f5245a927479dde5c4814e710735ea4b61ac"
+      }
+    },
+    {
+      "id": "account",
+      "english": "account",
+      "translation": "帳戶；帳號",
+      "example": "He checked his savings account online.",
+      "audio": {
+        "src": "/audio/words/using-atm-cash-withdrawal-account.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9af211329b2fc82e5efe906062c730082819b23fe8394bc435e0b1bf0458eb54",
+        "sha256": "2747d9d5e928f1c361f0669c89492233f7e7160dc09c3ae9d1726ea25396b652"
+      }
+    },
+    {
+      "id": "balance",
+      "english": "balance",
+      "translation": "餘額；平衡",
+      "example": "She keeps a healthy bank balance for emergencies.",
+      "audio": {
+        "src": "/audio/words/using-atm-cash-withdrawal-balance.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5751e048eb6fee3eb9bb4ea70f107f19c35863766bee5100044e52ab60d9edcf",
+        "sha256": "0fbd5b5c49d6448dbbd18547cfc4d0dda11ae1b057163c16fc344e164f2120a7"
+      }
+    },
+    {
+      "id": "money",
+      "english": "money",
+      "translation": "金錢；錢幣",
+      "example": "Saving money for college is a smart goal.",
+      "audio": {
+        "src": "/audio/words/using-atm-cash-withdrawal-money.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8d2ac8b58ead9744d77286de9b0bcb7a894f238c3149fc9f3b1e3caff36330fe",
+        "sha256": "4c36209350eb0b105d84ad326e1eeb61be458939f402c1dd1e70974b66334fab"
+      }
+    },
+    {
+      "id": "thousand",
+      "english": "thousand",
+      "translation": "千；一千",
+      "example": "There were over three thousand spectators in the stadium.",
+      "audio": {
+        "src": "/audio/words/using-atm-cash-withdrawal-thousand.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a0af3a48cfad1fc07404057448c003c6ee6b7b0bba6f39d6775752486baf35de",
+        "sha256": "e4ea19b1492c21a41754c4f5bc4697eab09ea300beada3cfa78a6aac977d7e96"
+      }
+    },
+    {
+      "id": "enter",
+      "english": "enter",
+      "translation": "輸入；進入",
+      "example": "Enter your password to unlock the computer.",
+      "audio": {
+        "src": "/audio/words/using-atm-cash-withdrawal-enter.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e08d706b3e4ce964b632746cf568913cb93f1ed36476fbb0494b80ed17c5975c",
+        "sha256": "d4caf7c20d26c45dfb3e37c885636db2b2403d9165968831bdfc189269b0c25f"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "I need to stop by the bank ATM to "
+        },
+        {
+          "text": "withdraw ",
+          "phraseIds": [
+            "withdraw-cash"
+          ]
+        },
+        {
+          "text": "cash",
+          "phraseIds": [
+            "withdraw-cash"
+          ],
+          "wordIds": [
+            "cash"
+          ]
+        },
+        {
+          "text": " before going to the market."
+        }
+      ],
+      "translation": "去市場之前，我需要先去一下銀行 ATM 提領現金。",
+      "audio": {
+        "src": "/audio/sentences/using-atm-cash-withdrawal/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c736d1d5a3e80fc4ee24dc1723fb48e4a8e22acd0828a19cc58aec89af3e51f4",
+        "sha256": "b4f5d2ad3d7a6774096d0a72100096c90beb35353740836f4412bcad62cb9a95"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Insert your debit card",
+          "phraseIds": [
+            "insert-your-debit-card"
+          ]
+        },
+        {
+          "text": " into the slot and choose your language on the screen."
+        }
+      ],
+      "translation": "把你的金融卡插入插槽中，並在螢幕上選擇你的語言。",
+      "audio": {
+        "src": "/audio/sentences/using-atm-cash-withdrawal/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e730ad6d3f54c11bd892aeba84b53fb416db7d85db463fef35695e3ff062567b",
+        "sha256": "a9c1acb25f0daabbb0817a1e359f26a89903c3ff492f0fb027600bae34b7ec3c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Please "
+        },
+        {
+          "text": "enter",
+          "wordIds": [
+            "enter"
+          ]
+        },
+        {
+          "text": " your secret six-digit "
+        },
+        {
+          "text": "security code",
+          "phraseIds": [
+            "security-code"
+          ]
+        },
+        {
+          "text": " carefully on the keypad."
+        }
+      ],
+      "translation": "請在數字鍵盤上小心輸入你的六位數個人安全密碼。",
+      "audio": {
+        "src": "/audio/sentences/using-atm-cash-withdrawal/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1d0c8b192509db288c3b9b70d0e848620aa6cbd42a8c5d2f58001c56fca85259",
+        "sha256": "1b6b7f4f83299db6ed9e5726363e36b2e450d2833b3b7117ded352710fc314d1"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Press the button to withdraw two "
+        },
+        {
+          "text": "thousand",
+          "wordIds": [
+            "thousand"
+          ]
+        },
+        {
+          "text": " dollars "
+        },
+        {
+          "text": "from your savings ",
+          "phraseIds": [
+            "from-your-savings-account"
+          ]
+        },
+        {
+          "text": "account",
+          "phraseIds": [
+            "from-your-savings-account"
+          ],
+          "wordIds": [
+            "account"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "按下按鈕從你的儲蓄帳戶中提領兩千元現金。",
+      "audio": {
+        "src": "/audio/sentences/using-atm-cash-withdrawal/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ed4449de2ab91d0e1fe52873d99d444361c7fee3923f1f9c9c6246bf42c0616c",
+        "sha256": "b5abeedaaab98cd5c9fcbac021d762a0744cedeacfd1a934c9f96d183b79d985"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do not forget to take your bank card before the machine dispenses the paper "
+        },
+        {
+          "text": "money",
+          "wordIds": [
+            "money"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "在機器吐出紙鈔之前，千萬不要忘記先把你的銀行卡抽走。",
+      "audio": {
+        "src": "/audio/sentences/using-atm-cash-withdrawal/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3396ca8e4fb86360ad3e420d4b5d8c12315171de1835ba83cd1f59b02db709dd",
+        "sha256": "2e32742dc979d9fa0f2719687d10b5d1f12b50c6f8b8561d4e74efb25b37ab5d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The printed transaction receipt shows your remaining "
+        },
+        {
+          "text": "account",
+          "phraseIds": [
+            "account-balance"
+          ],
+          "wordIds": [
+            "account"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "balance",
+          "phraseIds": [
+            "account-balance"
+          ],
+          "wordIds": [
+            "balance"
+          ]
+        },
+        {
+          "text": " accurately."
+        }
+      ],
+      "translation": "印出來的交易明細收據清楚準確地顯示了你帳戶目前的剩餘餘額。",
+      "audio": {
+        "src": "/audio/sentences/using-atm-cash-withdrawal/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "99f376824307e3398f22a78433ceefcb933e8f6fd228177d6bc6ca7fa59866a8",
+        "sha256": "0c2df489aea399bacd711bf56e15b4089b99f48e407207316dd7408fd287d205"
+      }
+    }
+  ]
+}

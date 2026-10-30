@@ -1,0 +1,356 @@
+{
+  "id": "mobile-payment-help",
+  "title": "行動支付感應失敗改用現金",
+  "titleEn": "Switching to Cash When Mobile Payment Fails",
+  "category": "城市與公共服務",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/mobile-payment-help.webp",
+    "alt": "在熱鬧的早餐店櫃檯前，顧客的手機支付條碼因螢幕反光無法讀取，顧客微笑從皮夾拿出剛好的零錢現金順利完成結帳。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "mobile-payment-app",
+      "english": "mobile payment app",
+      "translation": "行動支付 App",
+      "audio": {
+        "src": "/audio/phrases/mobile-payment-help-mobile-payment-app.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "175f1d2bffaec0a30797741ddc46669ca68042847dfb8372c6db75be4ea2cbd5",
+        "sha256": "a2e78d24fd6e83d82b03db906d3a331c3fd18f1e04b2f40144e1679f6773f1d6"
+      }
+    },
+    {
+      "id": "error-message",
+      "english": "error message",
+      "translation": "錯誤訊息",
+      "audio": {
+        "src": "/audio/phrases/mobile-payment-help-error-message.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3e61f0fc7c138fb1f52d506281f92460a351a487148518b310a2f13773215c84",
+        "sha256": "bb0c16c6636a9f53f7171e2d3f0b465a95aaf0ff2f2467228acaf2f198a4e826"
+      }
+    },
+    {
+      "id": "screen-brightness",
+      "english": "screen brightness",
+      "translation": "螢幕亮度",
+      "audio": {
+        "src": "/audio/phrases/mobile-payment-help-screen-brightness.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dcb1aa9ca3220342d69d96c2c0845465bfe0407b0795ae58052c46dfc9304880",
+        "sha256": "7b0eb8d94176008b5691bd33edad196f18bd7f0fbfc549df60bfa751c90d785c"
+      }
+    },
+    {
+      "id": "exact-cash",
+      "english": "exact cash",
+      "translation": "剛剛好的現金",
+      "audio": {
+        "src": "/audio/phrases/mobile-payment-help-exact-cash.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "108c95c1cf6ee97486b26fde9d3f30ba600bec4e75c0dd36cc67f1582070f5d0",
+        "sha256": "7274d8ebc33e93f190e3846501a45f7030b3616767a1adff368a11c36589172f"
+      }
+    },
+    {
+      "id": "thank-you-for-being-patient",
+      "english": "thank you for being patient",
+      "translation": "謝謝您的耐心等候",
+      "audio": {
+        "src": "/audio/phrases/mobile-payment-help-thank-you-for-being-patient.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e1f2abdca7d3af6f45d1afa1366b6593f7f81f0ea383e120e7a8a3e7fe45346b",
+        "sha256": "eac60654b55ef4701fa47718e7b1ce0005e3ddd8d6f63b9eaad04601574933cb"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "wallet",
+      "english": "wallet",
+      "translation": "皮夾；錢包",
+      "example": "He checked his leather wallet for his student card.",
+      "audio": {
+        "src": "/audio/words/mobile-payment-help-wallet.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e8d44050873dba865aa7c170ab4cce64d90839a34dcfd6cf71d14e0205443b1b",
+        "sha256": "fa42012abe9688a6a3825c3496d3ae602c06b743f7052de9f28db0900679055b"
+      }
+    },
+    {
+      "id": "error",
+      "english": "error",
+      "translation": "錯誤；失誤",
+      "example": "There was an unexpected typing error in the report.",
+      "audio": {
+        "src": "/audio/words/mobile-payment-help-error.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ca00fccfb408989eddc401062c4d1219a6aceb6b9b55412357f1790862e8f178",
+        "sha256": "2e463951029e3ac99bee18bd1ef1559bbfc2f4d58e9ae70a81a44c2d849f6d2c"
+      }
+    },
+    {
+      "id": "pay",
+      "english": "pay",
+      "translation": "付錢；支付",
+      "example": "She paid for her coffee with clean change.",
+      "audio": {
+        "src": "/audio/words/mobile-payment-help-pay.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9350872d712a127c494d7dc35e46b0bc9e62e288239708e581dfc3a1400154a4",
+        "sha256": "17f1a6fc8b02a525cf1ecc9a96cf5dbe3e4c75aa32b661dd2d1d8158e1dd311d"
+      }
+    },
+    {
+      "id": "system",
+      "english": "system",
+      "translation": "系統；體制",
+      "example": "The computer payment system runs fast and safely.",
+      "audio": {
+        "src": "/audio/words/mobile-payment-help-system.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bbc5e661e106c6dcd8dc6dd186454c2fcba3c710fb4d8e71a60c93eaf077f073",
+        "sha256": "0d35ba0f38c45488ffa5a9d002a46f9c953b1779d306c414fa7a5bbf8409dc9e"
+      }
+    },
+    {
+      "id": "try",
+      "english": "try",
+      "translation": "嘗試；試驗",
+      "example": "Always try your best even when math is challenging.",
+      "audio": {
+        "src": "/audio/words/mobile-payment-help-try.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1e262cd7d110812f5726055a6e672b92cde43648b76adff51a12441fbdf7e667",
+        "sha256": "9c110b3e87d4ac616f0b4cbc33120971794bca256b31cb24dffddb1e2bdf9f79"
+      }
+    },
+    {
+      "id": "cash",
+      "english": "cash",
+      "translation": "現金",
+      "example": "Small food stands in the night market only take cash.",
+      "audio": {
+        "src": "/audio/words/mobile-payment-help-cash.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ab0fcec08e18a7bccda1e81df4974e3434fcd36000518f7e776fb85495b5a494",
+        "sha256": "6141e2aca8ffcc2f668bb2ab79e4931eac6bb5de4d08baa059f249f11472e667"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "I am "
+        },
+        {
+          "text": "trying",
+          "wordIds": [
+            "try"
+          ]
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "pay",
+          "wordIds": [
+            "pay"
+          ]
+        },
+        {
+          "text": " for my breakfast sandwich using the "
+        },
+        {
+          "text": "mobile payment app",
+          "phraseIds": [
+            "mobile-payment-app"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我正嘗試用手機行動支付 App 來付我早餐三明治的錢。",
+      "audio": {
+        "src": "/audio/sentences/mobile-payment-help/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "12ede15f57087c3382e0d4ccf2db86e2422f4be5457939bab0e4450aa34c2b1c",
+        "sha256": "1fdcccd91025433add6baad2d6d150e1d6e2de4b4eea8233993070eca063faaa"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The scanner beeped twice with an "
+        },
+        {
+          "text": "error",
+          "phraseIds": [
+            "error-message"
+          ],
+          "wordIds": [
+            "error"
+          ]
+        },
+        {
+          "text": " message",
+          "phraseIds": [
+            "error-message"
+          ]
+        },
+        {
+          "text": " because the "
+        },
+        {
+          "text": "screen brightness",
+          "phraseIds": [
+            "screen-brightness"
+          ]
+        },
+        {
+          "text": " was too low."
+        }
+      ],
+      "translation": "因為螢幕亮度調太低了，掃描機發出了兩聲嗶嗶的錯誤提示音。",
+      "audio": {
+        "src": "/audio/sentences/mobile-payment-help/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "783342607f1b0e0e707ce8b5346af2947baaa0e98f2edae5acd1ce9b19837b45",
+        "sha256": "dde8177277a38e0623508e2bb68e209defd20a4a17a329429dc71e6f20b79b4e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Let me refresh the payment barcode and try scanning it one more time."
+        }
+      ],
+      "translation": "讓我把付款條碼重新整理一次，然後再嘗試掃描一次看看。",
+      "audio": {
+        "src": "/audio/sentences/mobile-payment-help/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a1d3e8f47ec4d22e7335b234618279080d23d2be13aa619242544fc6ca3cb779",
+        "sha256": "9601d007b0afedb7991746606071e649b9b0c8d8874cdf0eda51c789d09961d3"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "It still shows a connection timeout "
+        },
+        {
+          "text": "error",
+          "wordIds": [
+            "error"
+          ]
+        },
+        {
+          "text": " on the "
+        },
+        {
+          "text": "cash",
+          "wordIds": [
+            "cash"
+          ]
+        },
+        {
+          "text": " register "
+        },
+        {
+          "text": "system",
+          "wordIds": [
+            "system"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "收銀機系統上還是持續顯示網路連線逾時的錯誤。",
+      "audio": {
+        "src": "/audio/sentences/mobile-payment-help/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f03f54ca8f5fb2655c56bed0cf58b6b0b6cba918d42338f6540ac8d7547a245b",
+        "sha256": "4cd496b0fe62e8ecf42fc32aed06aa30b3a2a314ed416634733893bd47c9ad59"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "No problem at all, I have "
+        },
+        {
+          "text": "exact ",
+          "phraseIds": [
+            "exact-cash"
+          ]
+        },
+        {
+          "text": "cash",
+          "phraseIds": [
+            "exact-cash"
+          ],
+          "wordIds": [
+            "cash"
+          ]
+        },
+        {
+          "text": " inside my pocket "
+        },
+        {
+          "text": "wallet",
+          "wordIds": [
+            "wallet"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "完全沒關係，我口袋皮夾裡剛好帶著剛剛好的現金。",
+      "audio": {
+        "src": "/audio/sentences/mobile-payment-help/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "db1875f54549a9b9a0e80fe55302d7dfe7727b644731d5a13908c69e2767618c",
+        "sha256": "f5cc5a0e5e2685f66b73bb9a288193b7d7b595fd0a1e4e2a4ed581ebb8ccfcb1"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Here is seventy dollars in "
+        },
+        {
+          "text": "cash",
+          "wordIds": [
+            "cash"
+          ]
+        },
+        {
+          "text": ", "
+        },
+        {
+          "text": "thank you for being patient",
+          "phraseIds": [
+            "thank-you-for-being-patient"
+          ]
+        },
+        {
+          "text": " while I tried."
+        }
+      ],
+      "translation": "這裡剛好是七十元現金，非常謝謝您在我嘗試付款時耐心等候。",
+      "audio": {
+        "src": "/audio/sentences/mobile-payment-help/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3faa3a0207e5c1b418eafc170ae1d41da6013e46af54a87640c10895a82ad8b1",
+        "sha256": "fbdd79e460c1ab6571a1011b04becf1d7e759730fa4010cf79defd2e0e3dc5c6"
+      }
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "id": "apologizing-for-being-late",
+  "title": "因塞車遲到電話道歉",
+  "titleEn": "Apologizing on the Phone for Being Late",
+  "category": "社交人際",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/apologizing-for-being-late.webp",
+    "alt": "在車潮擁擠的市區公車上，乘客手持電話向等候的朋友真誠道歉並說明前方事故塞車與預計抵達時間。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "stuck-in-heavy-traffic",
+      "english": "stuck in heavy traffic",
+      "translation": "卡在嚴重塞車中",
+      "audio": {
+        "src": "/audio/phrases/apologizing-for-being-late-stuck-in-heavy-traffic.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6873f0a6544684ca49300a348c59b883439ee5a9e5b95d77f214e8c1445acb1f",
+        "sha256": "a14194b5553e04fc813357311694d45660f0610474375b0a30989931fe914331"
+      }
+    },
+    {
+      "id": "so-sorry-about-that",
+      "english": "so sorry about that",
+      "translation": "對那樣感到很抱歉",
+      "audio": {
+        "src": "/audio/phrases/apologizing-for-being-late-so-sorry-about-that.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a3c4da9e92ed38f90cd2269a270ac5a026d55a551416414672efb869f26deac5",
+        "sha256": "825aa63b3728f0b68abcc1182c2177ccd3248479b6be4ef6d316df35b49c1c6c"
+      }
+    },
+    {
+      "id": "fifteen-minutes-late",
+      "english": "fifteen minutes late",
+      "translation": "遲到了十五分鐘",
+      "audio": {
+        "src": "/audio/phrases/apologizing-for-being-late-fifteen-minutes-late.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "64bb190a97e8b6188c46dc198d95c198fe2648f74b23827a37fe552ebc7e4f37",
+        "sha256": "2f8f941300905f1d938416f57d27a6ef4993dd6e6050d281a666d8254ba2169a"
+      }
+    },
+    {
+      "id": "arrive-very-soon",
+      "english": "arrive very soon",
+      "translation": "很快就會到達",
+      "audio": {
+        "src": "/audio/phrases/apologizing-for-being-late-arrive-very-soon.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e91a66f4d7f6f26fdb9ba6ee7f5253366c5c2527549f73256b645607f0902fa8",
+        "sha256": "5702344244c5f16cb57f99da1c7e4625a9df2f8262122d9fea7c1c7b40ab62d8"
+      }
+    },
+    {
+      "id": "take-your-time",
+      "english": "take your time",
+      "translation": "慢慢來不著急",
+      "audio": {
+        "src": "/audio/phrases/apologizing-for-being-late-take-your-time.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0ca7da55239636e9f5dc6d5951dd0f413dd499d6c21edf3b0a8abaf7f9d654ee",
+        "sha256": "a33b898540cc904761a3a761d951ca198f08250f161dd1f105ef7c30c7736410"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "sorry",
+      "english": "sorry",
+      "translation": "感到抱歉的",
+      "example": "I am sorry for breaking the glass cup.",
+      "audio": {
+        "src": "/audio/words/apologizing-for-being-late-sorry.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "484aab2f2cd0f77b3c30f91521ba9a76c8c501112a53e100154a098c274f03d3",
+        "sha256": "5f6d824857d8e232643f300307d76734366eea88379608f346f976998d8e1761"
+      }
+    },
+    {
+      "id": "late",
+      "english": "late",
+      "translation": "遲到的、晚的",
+      "example": "He was never late for school all semester.",
+      "audio": {
+        "src": "/audio/words/apologizing-for-being-late-late.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "089001a35679a33ef3db0ca350db9b9a2f0136e0e327577b04b3b98127470961",
+        "sha256": "dcd9bdc74e43dc7bd1275abfcb7a8e4144c5d47055b7762d8da3ded75990b5a3"
+      }
+    },
+    {
+      "id": "stuck",
+      "english": "stuck",
+      "translation": "卡住的；無法動彈的",
+      "example": "The old car got stuck in the thick mud.",
+      "audio": {
+        "src": "/audio/words/apologizing-for-being-late-stuck.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9c05ce79d0bfe037953b11f168069e5af4ea2605b8534a188f64dee6c0b643fe",
+        "sha256": "f8bbabf602351291b78e4128b9634c2d8d8b9ced5e7dec2c349a9d6c611be0ea"
+      }
+    },
+    {
+      "id": "soon",
+      "english": "soon",
+      "translation": "很快、不久",
+      "example": "The rain will stop very soon.",
+      "audio": {
+        "src": "/audio/words/apologizing-for-being-late-soon.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4a754148b88a68e18df1a02489950666d187e904cd88d2dc0aa16c103b94045f",
+        "sha256": "d1588d356f4205c7f78198396594dec50b42944b3eae329eeed7226e5e248897"
+      }
+    },
+    {
+      "id": "arrive",
+      "english": "arrive",
+      "translation": "抵達；到達",
+      "example": "They arrived at the airport before sunrise.",
+      "audio": {
+        "src": "/audio/words/apologizing-for-being-late-arrive.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6dc09a300747b82d8bfe9d509ede4fb228e3c27204185e8c5e6188340904d9e0",
+        "sha256": "a9e1a598a273c01cb22f1c24e054a0c6b838a673167ecc68d49ae75e855dac87"
+      }
+    },
+    {
+      "id": "wait",
+      "english": "wait",
+      "translation": "等待",
+      "example": "Please wait in line for your turn.",
+      "audio": {
+        "src": "/audio/words/apologizing-for-being-late-wait.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "716ecabb45ac6a88a049398fde2d3d5225c6dd3121ae9bbc5af457eb4baf056a",
+        "sha256": "231490057829fe19e0991fc4002e5564b28611a86ef9ed59446e055b13981cc6"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Hi Kevin, I am calling because my bus is completely "
+        },
+        {
+          "text": "stuck",
+          "phraseIds": [
+            "stuck-in-heavy-traffic"
+          ],
+          "wordIds": [
+            "stuck"
+          ]
+        },
+        {
+          "text": " in heavy traffic",
+          "phraseIds": [
+            "stuck-in-heavy-traffic"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "嗨 Kevin，我打電話來是因為我的公車完全被卡在嚴重的塞車車陣中了。",
+      "audio": {
+        "src": "/audio/sentences/apologizing-for-being-late/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f1f5e8cfc71d14602b7018bb2cbca66171916902a47cd80947f2ab1ffc865948",
+        "sha256": "9924879be32f7ad0045b52138eb43e795b84f3fb6e17004abe4e9d6a43a4273c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I am "
+        },
+        {
+          "text": "so ",
+          "phraseIds": [
+            "so-sorry-about-that"
+          ]
+        },
+        {
+          "text": "sorry",
+          "phraseIds": [
+            "so-sorry-about-that"
+          ],
+          "wordIds": [
+            "sorry"
+          ]
+        },
+        {
+          "text": " about that",
+          "phraseIds": [
+            "so-sorry-about-that"
+          ]
+        },
+        {
+          "text": ", but I will be "
+        },
+        {
+          "text": "fifteen minutes ",
+          "phraseIds": [
+            "fifteen-minutes-late"
+          ]
+        },
+        {
+          "text": "late",
+          "phraseIds": [
+            "fifteen-minutes-late"
+          ],
+          "wordIds": [
+            "late"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我對此感到非常抱歉，但我大概會遲到十五分鐘。",
+      "audio": {
+        "src": "/audio/sentences/apologizing-for-being-late/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ac65a293adb37ac371a87374d44cbf2d51a0c1cb649e248485b3c162da031e70",
+        "sha256": "071d21a70b9e6b76ef06e6ab4809f852f41e8cb6f0afba9ae0cf81ab1154af66"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do not worry at all Leo, thank you for calling to let me know."
+        }
+      ],
+      "translation": "Leo 完全不用擔心，謝謝你特地打電話告訴我。",
+      "audio": {
+        "src": "/audio/sentences/apologizing-for-being-late/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ce92ce62ddd3be353fb380689d8bc167255663cf5db47ba434413b23ae881062",
+        "sha256": "1e7f1cc2267005a1538fb69ecf42a4e41665614cac06e33fff254459449fe06b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "There was a broken delivery truck blocking two lanes on the bridge."
+        }
+      ],
+      "translation": "橋上有輛故障的貨車擋住了兩條車道。",
+      "audio": {
+        "src": "/audio/sentences/apologizing-for-being-late/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "24e0803f9fe07712a1b4daedd512b3dffaf3e0461c5fcb5845d5845d3d0cbcda",
+        "sha256": "00789a398d7ffce939e65657cc98a2996fa4484e870db68942676be40932d474"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The traffic is starting to move again, so I should "
+        },
+        {
+          "text": "arrive",
+          "phraseIds": [
+            "arrive-very-soon"
+          ],
+          "wordIds": [
+            "arrive"
+          ]
+        },
+        {
+          "text": " very ",
+          "phraseIds": [
+            "arrive-very-soon"
+          ]
+        },
+        {
+          "text": "soon",
+          "phraseIds": [
+            "arrive-very-soon"
+          ],
+          "wordIds": [
+            "soon"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "車流現在已經開始動了，所以我應該很快就會到達。",
+      "audio": {
+        "src": "/audio/sentences/apologizing-for-being-late/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "10297fc164180d2b46b6306bbfe40ca870dc36a66ffa51fa23214cfe9a892f9f",
+        "sha256": "e72ce90ff5e19d900e519cb8b88a31bc51e41ec76dec13efa1d6c3f370f35f8d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Take your time",
+          "phraseIds": [
+            "take-your-time"
+          ]
+        },
+        {
+          "text": " and stay safe, I will "
+        },
+        {
+          "text": "wait",
+          "wordIds": [
+            "wait"
+          ]
+        },
+        {
+          "text": " for you inside the bookstore."
+        }
+      ],
+      "translation": "你慢慢來注意安全，我會在書店裡面等你。",
+      "audio": {
+        "src": "/audio/sentences/apologizing-for-being-late/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1e5e39dd764d20d6c9daeff5b1b7eb6a44c6363fefee3b223f2206724df2b65b",
+        "sha256": "fe2734f6d06a3e2a9cfa59804f86913a164a11c78898f4b9605755b0d533b35c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "id": "fast-food-combo",
+  "title": "點速食套餐選配餐",
+  "titleEn": "Ordering a Fast Food Combo",
+  "category": "飲食美味",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/fast-food-combo.webp",
+    "alt": "在速食店點餐櫃檯，顧客看著上方套餐菜單，手指著餐點向櫃檯店員選購配餐與加大飲料。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "what-combo-meal",
+      "english": "what combo meal",
+      "translation": "想要哪種套餐組合",
+      "audio": {
+        "src": "/audio/phrases/fast-food-combo-what-combo-meal.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9fae04ecb6b331926c946283a368682301ec5d6072ff6cf290d5e5f3c94ddf6f",
+        "sha256": "204f8d9e7e850513a8a737af766ea3a35a5aae37b6b3335db7b926a5e8c245e8"
+      }
+    },
+    {
+      "id": "change-the-side-dish",
+      "english": "change the side dish",
+      "translation": "更換附餐",
+      "audio": {
+        "src": "/audio/phrases/fast-food-combo-change-the-side-dish.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cc7e54e558b631a739e9696de235be065d5cf01dbaf5a3c65768ea7eb9f2fc8f",
+        "sha256": "2f056a4e2fc3fcf00683593193ac35b5beff4bbafb22337b95ca3138103c3438"
+      }
+    },
+    {
+      "id": "instead-of-fries",
+      "english": "instead of fries",
+      "translation": "代替薯條",
+      "audio": {
+        "src": "/audio/phrases/fast-food-combo-instead-of-fries.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b4e65158e7247cf493906df600560533db65588979eefadd6773288375290265",
+        "sha256": "05cbf361d4655723dd3f872d80c02f5487178c3a9b816d74d5f105d80e01143e"
+      }
+    },
+    {
+      "id": "for-an-extra-dollar",
+      "english": "for an extra dollar",
+      "translation": "多加一元",
+      "audio": {
+        "src": "/audio/phrases/fast-food-combo-for-an-extra-dollar.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "2288e492e859799a857d849d0f6af269e80cad47a18736ed1122268b8705cf6d",
+        "sha256": "b086c258a174a16f4d84437b7c531db517ecec3f8505a0dc5b28d9430b931fa9"
+      }
+    },
+    {
+      "id": "sounds-great",
+      "english": "sounds great",
+      "translation": "聽起來很不錯",
+      "audio": {
+        "src": "/audio/phrases/fast-food-combo-sounds-great.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "222b84974a67efb53714be0258102f2260b003179e3de5feb342015e0132be70",
+        "sha256": "60d76eb7acd8a85c13ffc3845ec5c9f8d82a0492ee20ce532fc2c13ba6ccd49b"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "side",
+      "english": "side",
+      "translation": "邊、側",
+      "example": "He ordered a side of steamed vegetables.",
+      "audio": {
+        "src": "/audio/words/fast-food-combo-side.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ea7bf4bb723041e7d63fe6c74dc46c048c617eb49a454a1cd6edbf34d05a418e",
+        "sha256": "821d0f5515aedba249d3ac6e7082c55441eac35423c4abf3dbe62be29ee06b86"
+      }
+    },
+    {
+      "id": "size",
+      "english": "size",
+      "translation": "尺寸",
+      "example": "What cup size would you prefer for your soda?",
+      "audio": {
+        "src": "/audio/words/fast-food-combo-size.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ccdcbe846f3da4eb044fbdf64bf6b57902388ab72fb0c852ba72280f8d478b40",
+        "sha256": "53c6d22cfb5e03940e3ff5050e301d6d8417ae3991b74dfcd367fc513e0e9216"
+      }
+    },
+    {
+      "id": "large",
+      "english": "large",
+      "translation": "大的",
+      "example": "A large soup is enough for two people.",
+      "audio": {
+        "src": "/audio/words/fast-food-combo-large.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d35c416a85b807e9b5384915d6ebb4a9f7352713efd89857b45a242f473728a9",
+        "sha256": "65e7a177f7ec931f735d7ad85b8138cada59ba59112791ba90fdbae326e6e512"
+      }
+    },
+    {
+      "id": "dollar",
+      "english": "dollar",
+      "translation": "元；美元",
+      "example": "The extra sauce costs fifty cents, not a dollar.",
+      "audio": {
+        "src": "/audio/words/fast-food-combo-dollar.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "588d2c1d1f23963e1647ea4fb720eec44b113b82d057156b970e96df9a1be810",
+        "sha256": "e7714d6a1266544a2dc9f16f806c03e5c616accb48c4a14538c3f1d680e18e83"
+      }
+    },
+    {
+      "id": "extra",
+      "english": "extra",
+      "translation": "額外的",
+      "example": "Do you charge extra for hot milk?",
+      "audio": {
+        "src": "/audio/words/fast-food-combo-extra.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c8dee78f8c7b466c881847accc196998bad00e2b96c5ef913dfbe454d3807c96",
+        "sha256": "923160abc7ad8341cb05b8f57f9a3d7588421838bead148a812fe9fa35ec11a3"
+      }
+    },
+    {
+      "id": "change",
+      "english": "change",
+      "translation": "改變、更換",
+      "example": "Can I change my seat to the window side?",
+      "audio": {
+        "src": "/audio/words/fast-food-combo-change.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51",
+        "sha256": "cd5f116284d3b5bf20a3cfefc7b6894bbd6b331126376652f9157ac34fbb9efb"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Welcome to Burger Corner, "
+        },
+        {
+          "text": "what combo meal",
+          "phraseIds": [
+            "what-combo-meal"
+          ]
+        },
+        {
+          "text": " would you like?"
+        }
+      ],
+      "translation": "歡迎光臨漢堡小館，今天想點幾號套餐呢？",
+      "audio": {
+        "src": "/audio/sentences/fast-food-combo/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "034a5e3ecf59eafa497e92d3926e8afc757461c8b1157c539a7cf56524ce2a7a",
+        "sha256": "8d7cf23694fcb0682e6959598e11b07cbdbc9765bcfe400b6010207da53f8849"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I want number three, but can I "
+        },
+        {
+          "text": "change",
+          "phraseIds": [
+            "change-the-side-dish"
+          ],
+          "wordIds": [
+            "change"
+          ]
+        },
+        {
+          "text": " the ",
+          "phraseIds": [
+            "change-the-side-dish"
+          ]
+        },
+        {
+          "text": "side",
+          "phraseIds": [
+            "change-the-side-dish"
+          ],
+          "wordIds": [
+            "side"
+          ]
+        },
+        {
+          "text": " dish",
+          "phraseIds": [
+            "change-the-side-dish"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "我想點三號餐，但我可以更換附餐嗎？",
+      "audio": {
+        "src": "/audio/sentences/fast-food-combo/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f3ed6af2ff303a528d9c712c979b609eee1a472eac759139fcece6a1cdb24d6f",
+        "sha256": "d11d7e65b68bfe6c19891efd184e4c42080ed14b8976e869690e899066efb71b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "You can choose hot soup or fresh salad "
+        },
+        {
+          "text": "instead of fries",
+          "phraseIds": [
+            "instead-of-fries"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "您可以選擇熱湯或生菜沙拉來代替薯條。",
+      "audio": {
+        "src": "/audio/sentences/fast-food-combo/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "112f0bc642a803f271defdd9c0fe3dff32a3b274b65930b7f46d8bd2b21ef30a",
+        "sha256": "a95eb390f0404d30d6f10010217706ad2eb2e570c68bf5321d845210be0ff27f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I will take the salad, and what about the drink "
+        },
+        {
+          "text": "size",
+          "wordIds": [
+            "size"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "那我要沙拉，請問飲料有分大小嗎？",
+      "audio": {
+        "src": "/audio/sentences/fast-food-combo/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "099add9ed7eeb7fd8e46431d2fc0ff1a16bbd3d2869c2639013ad1a73447c4f7",
+        "sha256": "8811bd790961ab0bab6aafc9e3cb535a1ccb6021fe86c0d218c3968ada06231c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "You can upgrade to a "
+        },
+        {
+          "text": "large",
+          "wordIds": [
+            "large"
+          ]
+        },
+        {
+          "text": " cup "
+        },
+        {
+          "text": "for an ",
+          "phraseIds": [
+            "for-an-extra-dollar"
+          ]
+        },
+        {
+          "text": "extra",
+          "phraseIds": [
+            "for-an-extra-dollar"
+          ],
+          "wordIds": [
+            "extra"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "dollar",
+          "phraseIds": [
+            "for-an-extra-dollar"
+          ],
+          "wordIds": [
+            "dollar"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "只要多加一元，就可以升級成大杯飲料。",
+      "audio": {
+        "src": "/audio/sentences/fast-food-combo/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e44ef4e40fbf4d015f771e5422651f3287d9f92699899ef55fe5c4d64b5ed8f8",
+        "sha256": "e0df575e244427b641f02b1944d05be8c25218896f945645ec142fa8d0bff1d4"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "That "
+        },
+        {
+          "text": "sounds great",
+          "phraseIds": [
+            "sounds-great"
+          ]
+        },
+        {
+          "text": ", I will take the "
+        },
+        {
+          "text": "large",
+          "wordIds": [
+            "large"
+          ]
+        },
+        {
+          "text": " iced green tea."
+        }
+      ],
+      "translation": "聽起來很棒，那我要大杯冰綠茶。",
+      "audio": {
+        "src": "/audio/sentences/fast-food-combo/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "64cbf3a95919ab1e32c01dee5e8acea049e377d83026ad28db1ddef74d0014e7",
+        "sha256": "1612918850f84514cb77c66aab58b1ee4bd7ae9566fbea41e2f9107a2eb1e389"
+      }
+    }
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "id": "asking-store-discount",
+  "title": "詢問特價與會員折扣",
+  "titleEn": "Inquiring About Discounts and Memberships",
+  "category": "購物消費",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/asking-store-discount.webp",
+    "alt": "在百貨商店專櫃前，顧客手持紅標特價商品，向親切的店員確認會員額外折扣與總價。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "on-sale-this-week",
+      "english": "on sale this week",
+      "translation": "本週特價中",
+      "audio": {
+        "src": "/audio/phrases/asking-store-discount-on-sale-this-week.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "259b0cf442b69c3e84842b92f2f1a107a1e08ff65da32f73befd833a5e66b431",
+        "sha256": "8dc8bb6df2b14ff6c0d5b6b7e9273c6a6a2870faa48e9d9d31ee90e359272c54"
+      }
+    },
+    {
+      "id": "twenty-percent-discount",
+      "english": "twenty percent discount",
+      "translation": "八折優惠",
+      "audio": {
+        "src": "/audio/phrases/asking-store-discount-twenty-percent-discount.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8d96d427a8ea7bf020c808e2f636538ca42ccb1b8d3bff103d76c36b0b761c24",
+        "sha256": "8709958f5631187c6c2f962a59f5d913531ba05504a83256075d3553241bb240"
+      }
+    },
+    {
+      "id": "save-more-money",
+      "english": "save more money",
+      "translation": "省更多錢",
+      "audio": {
+        "src": "/audio/phrases/asking-store-discount-save-more-money.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6f3a864ae1edd25ea5e404e52b36001f115e4ccb7ffcf6add82aeb49635f3178",
+        "sha256": "3ea2707d697180abad99ebee76d70862ee6a58578c2ce8f47294f06dcd4376b0"
+      }
+    },
+    {
+      "id": "total-price",
+      "english": "total price",
+      "translation": "總價",
+      "audio": {
+        "src": "/audio/phrases/asking-store-discount-total-price.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "92fed3c4a4322e023fc10d286279e2305d89869ee6df41ea0484c0f41752975d",
+        "sha256": "9f039a5a1414506f2771018a1f451632f6079278fb39c0e2961e06e51fa67f17"
+      }
+    },
+    {
+      "id": "scan-the-barcode",
+      "english": "scan the barcode",
+      "translation": "掃描條碼",
+      "audio": {
+        "src": "/audio/phrases/asking-store-discount-scan-the-barcode.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "968a8e48fa1b94052d4e2ec454e63efd5569f8f71c23599efdbf455b74d940be",
+        "sha256": "56cd08cccf380133ebcd021c8cfc2e99c75a0271b7d22481153dea8436bf6065"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "sale",
+      "english": "sale",
+      "translation": "特價；銷售",
+      "example": "The sports store is having a big summer sale.",
+      "audio": {
+        "src": "/audio/words/asking-store-discount-sale.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1f7101fe71011ba0872a2e069e8f26c98d6af9ebf8e67bb0c1a559fa9569aa6b",
+        "sha256": "7ac14dde716f21214140c108710819bd41f75c9695bdb9c3f214a0a8853bfd97"
+      }
+    },
+    {
+      "id": "price",
+      "english": "price",
+      "translation": "價格",
+      "example": "The price of fruit went down this week.",
+      "audio": {
+        "src": "/audio/words/asking-store-discount-price.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "683b531f41ec88a2f345b727afe59757b73162a340a65c86bba62866f8fe556c",
+        "sha256": "c84fed4796172b15e2b31bac1a2baa026a38e47196cb6fd8464b1beb853c7d8d"
+      }
+    },
+    {
+      "id": "member",
+      "english": "member",
+      "translation": "社員；成員",
+      "example": "Store members receive free parking on weekends.",
+      "audio": {
+        "src": "/audio/words/asking-store-discount-member.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e31ab643c44f7a0ec824b59d1194d60dac334200d845e61d2d289daa0f087ea4",
+        "sha256": "aac11531a39a319b7f1dc88e3a8a3ab2843cb874f8c932be4f3bd99016fe6112"
+      }
+    },
+    {
+      "id": "special",
+      "english": "special",
+      "translation": "特別的",
+      "example": "Today we have a special lunch menu.",
+      "audio": {
+        "src": "/audio/words/asking-store-discount-special.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7d4c5c8894e016e772e9b7acab04d2b775ad4e7861d162ca5a48de7a7151a6a2",
+        "sha256": "7b44e8dce66bd74a93176c5d2ae49e6e39affd30de090af385213cd2d4eb4a49"
+      }
+    },
+    {
+      "id": "cheap",
+      "english": "cheap",
+      "translation": "便宜的",
+      "example": "Vegetables are always cheaper at the morning market.",
+      "audio": {
+        "src": "/audio/words/asking-store-discount-cheap.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c6f556046e0c00469fe2824aa5fb9fd02c66d154aafc80fdc0f365841c271e12",
+        "sha256": "3d02f86fc6c7eafa3d277641b3539c35fd9a355ce1d7e6cca2755bb999dd44f2"
+      }
+    },
+    {
+      "id": "save",
+      "english": "save",
+      "translation": "存（錢）；節省",
+      "example": "Buying in bulk helps us save money.",
+      "audio": {
+        "src": "/audio/words/asking-store-discount-save.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "157dca92e4250458339d4b835250d44c238f3355e1b7986195188ee434e9baff",
+        "sha256": "c9205a2efa15191e563adce4ac963920a618e977b8a212c0dd138c985bcebcf9"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Is this winter backpack currently "
+        },
+        {
+          "text": "on ",
+          "phraseIds": [
+            "on-sale-this-week"
+          ]
+        },
+        {
+          "text": "sale",
+          "phraseIds": [
+            "on-sale-this-week"
+          ],
+          "wordIds": [
+            "sale"
+          ]
+        },
+        {
+          "text": " this week",
+          "phraseIds": [
+            "on-sale-this-week"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "請問這款冬用後背包這週目前有在特價嗎？",
+      "audio": {
+        "src": "/audio/sentences/asking-store-discount/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e3f5f5b75d50c40b5c2bfce186039b133d6c1ba898f257de38e1dcd4e04ab69a",
+        "sha256": "f7cdd4ebd3f7103a44ef7cf2a580932b9c87a4b4c6823b6397cfdb670f8ae9a6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yes, all items with red stickers have a "
+        },
+        {
+          "text": "special",
+          "wordIds": [
+            "special"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "twenty percent discount",
+          "phraseIds": [
+            "twenty-percent-discount"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "有的，所有貼紅標籤的商品都有額外八折特價。",
+      "audio": {
+        "src": "/audio/sentences/asking-store-discount/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a2509a1ffc298e009dd754c724e0079660d52e17adc0c810b9c9473dd8e2147d",
+        "sha256": "f5296d914a374413cb8709383ff8ee4437928f893861767cf0c584ec6c56e646"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "If I am a store "
+        },
+        {
+          "text": "member",
+          "wordIds": [
+            "member"
+          ]
+        },
+        {
+          "text": ", can I "
+        },
+        {
+          "text": "save",
+          "phraseIds": [
+            "save-more-money"
+          ],
+          "wordIds": [
+            "save"
+          ]
+        },
+        {
+          "text": " more money",
+          "phraseIds": [
+            "save-more-money"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "如果我是本店會員的話，還可以省更多錢嗎？",
+      "audio": {
+        "src": "/audio/sentences/asking-store-discount/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fda83ad38abc83a1792c1ffcd8d62eacfa4b233cb25bd3c58cce4e334d93bbd4",
+        "sha256": "5c50dd9663429b2ddc25308549f987d7ec5ded7e347ea895e075017d2820540b"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Members get an extra five percent off the regular "
+        },
+        {
+          "text": "price",
+          "wordIds": [
+            "price"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "會員可以在原價基礎上再享受額外九五折優惠。",
+      "audio": {
+        "src": "/audio/sentences/asking-store-discount/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6dd9a0b89f330c04767f9dda8369538aef975bc80d8cf3d1c8570ae861817744",
+        "sha256": "2b013a5aa0d74486b7d6cd74f7f5d55839296614ddd39de3d9c4f89bf46fc9d4"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "That makes the "
+        },
+        {
+          "text": "total ",
+          "phraseIds": [
+            "total-price"
+          ]
+        },
+        {
+          "text": "price",
+          "phraseIds": [
+            "total-price"
+          ],
+          "wordIds": [
+            "price"
+          ]
+        },
+        {
+          "text": " very "
+        },
+        {
+          "text": "cheap",
+          "wordIds": [
+            "cheap"
+          ]
+        },
+        {
+          "text": " for such good quality."
+        }
+      ],
+      "translation": "這樣算下來，這麼好的品質總價真的很便宜。",
+      "audio": {
+        "src": "/audio/sentences/asking-store-discount/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "eb2e25f5f9ae58d9ca12925c07381f76cd5d8caf0d6bc886ae3819ac4c402973",
+        "sha256": "1159384bee11fe6884ba05926020eba7b3f6f84ac8f8ec7a7bcb4df147ecf87f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Just "
+        },
+        {
+          "text": "scan the barcode",
+          "phraseIds": [
+            "scan-the-barcode"
+          ]
+        },
+        {
+          "text": " on your phone app before you pay the bill."
+        }
+      ],
+      "translation": "在您結帳付款之前，只要刷一下手機 App 條碼就可以了。",
+      "audio": {
+        "src": "/audio/sentences/asking-store-discount/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9f974eb28b3fdd0ffa8482dfd63f4847517ed66429209d84b2f8a049912b8b12",
+        "sha256": "b0a8399d4f6667b9f1a9ccfc5655fda7527a2750f6385c40c0d3916b3dfdd549"
+      }
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "id": "convenience-store-items",
+  "title": "超商尋找生活日用品",
+  "titleEn": "Finding Household Items at a Convenience Store",
+  "category": "購物消費",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/convenience-store-items.webp",
+    "alt": "在乾淨明亮的便利商店走道間，店員熱心為顧客指引中間貨架上的日常電池與文具用品。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "looking-for",
+      "english": "looking for",
+      "translation": "尋找...",
+      "audio": {
+        "src": "/audio/phrases/convenience-store-items-looking-for.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b506f09dbc28a11fdcf8a84956b615bac5ba25da226073fabe827d8f5a3001bc",
+        "sha256": "cb8111d727b2186f9f685f9950abd443ddaf96b1698d6f9644921448abf1624b"
+      }
+    },
+    {
+      "id": "behind-the-counter",
+      "english": "behind the counter",
+      "translation": "在櫃檯後方",
+      "audio": {
+        "src": "/audio/phrases/convenience-store-items-behind-the-counter.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f88a0c6a00c0ba1ea8dec97a3f6e9d7ec2870068eb682d5bf26bf3b4d069d92",
+        "sha256": "375af3f8f4c76354b52d5fed79298a6dee2d5c20467752430c1059d373855143"
+      }
+    },
+    {
+      "id": "on-the-top-shelf",
+      "english": "on the top shelf",
+      "translation": "在頂層架上",
+      "audio": {
+        "src": "/audio/phrases/convenience-store-items-on-the-top-shelf.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f194b6d29c7d49332680b57f8b8d6b6ebf6eea05a1e88253382f6e9ef5896262",
+        "sha256": "fa919172d2468606e90148c61d1213950ddf098e989d70a270dcaf0c0fd42afd"
+      }
+    },
+    {
+      "id": "at-the-bottom",
+      "english": "at the bottom",
+      "translation": "在最底層",
+      "audio": {
+        "src": "/audio/phrases/convenience-store-items-at-the-bottom.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "69d5a75e68a2a7c188e72ce1f0b3775f6f23d4988aa362fec7986e065474ff78",
+        "sha256": "b719f7d170950ee1bd51615d958165d9fe6f7d10fe4da12b250f62442a72ac11"
+      }
+    },
+    {
+      "id": "at-eye-level",
+      "english": "at eye level",
+      "translation": "與視線齊平",
+      "audio": {
+        "src": "/audio/phrases/convenience-store-items-at-eye-level.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "88b36e8251dc93b48f39af84d09a884105cbd0bdb15dcfcebb4ac389304fc389",
+        "sha256": "99cbb9be3d61c21d35a9d9ee05e24367ca89da9fb6b4ccb1ad5a74748b027771"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "item",
+      "english": "item",
+      "translation": "物品、項目",
+      "example": "All items on this table are half price today.",
+      "audio": {
+        "src": "/audio/words/convenience-store-items-item.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4a33eacd5fa65f2b2e2871cd131286b53c415b131666d71173bb6e3fe59361b3",
+        "sha256": "d7f449c0cfcacdabbc346c2db78df81a7ade81560ad82242f186a196b28db404"
+      }
+    },
+    {
+      "id": "shelf",
+      "english": "shelf",
+      "translation": "架子；貨架",
+      "example": "Put the storybooks back on the shelf.",
+      "audio": {
+        "src": "/audio/words/convenience-store-items-shelf.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3eefa42d52064c480030a45d5813c250a9d15aeb1e6296eae68ca401e6bb1e6f",
+        "sha256": "76290c2b89571475c6b79df2e9b57a991c1e2b18ae843c983fa223728222dc1c"
+      }
+    },
+    {
+      "id": "behind",
+      "english": "behind",
+      "translation": "在……後面",
+      "example": "The playground is behind the main school building.",
+      "audio": {
+        "src": "/audio/words/convenience-store-items-behind.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b1b886ce5f5750a00ae3dd003702a16e4916e6830987e03094cbbf699cb0fae1",
+        "sha256": "bed35700a83c36f0eb7a15e2886f29e87dfc3aa5fadc2493e2904476e3191317"
+      }
+    },
+    {
+      "id": "bottom",
+      "english": "bottom",
+      "translation": "底部",
+      "example": "Sign your signature at the bottom of the page.",
+      "audio": {
+        "src": "/audio/words/convenience-store-items-bottom.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "be9b7607e070383c083b082c9c32d5509931bf9b297caf90bfdb7a692424c158",
+        "sha256": "40cbb85bf7869ef6b35b2561aa55072178967a2a58bd1742e3fd85a5619e9b48"
+      }
+    },
+    {
+      "id": "middle",
+      "english": "middle",
+      "translation": "中間",
+      "example": "He sat right in the middle of the classroom.",
+      "audio": {
+        "src": "/audio/words/convenience-store-items-middle.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a4888af4e46c129c695ee32775a8c233f113c82e7cd4e6fd3cbb1fda5659f36a",
+        "sha256": "5cb08d70ec59601d7806ea0b6a1a64ad1190ab1a0ba363318d71d7614cf8fec1"
+      }
+    },
+    {
+      "id": "find",
+      "english": "find",
+      "translation": "找到",
+      "example": "Did you find your missing water bottle?",
+      "audio": {
+        "src": "/audio/words/convenience-store-items-find.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e6640de835ad09fb0a7367ee2e0ba99d0142c139db0272146e35538bd07479fc",
+        "sha256": "d00203b1b37322b66d7ad6b798d969bfc27bbe061546e0f2d0368a2e889383e3"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Excuse me, I am "
+        },
+        {
+          "text": "looking for",
+          "phraseIds": [
+            "looking-for"
+          ]
+        },
+        {
+          "text": " batteries for my remote control."
+        }
+      ],
+      "translation": "不好意思，我正在找遙控器用的電池。",
+      "audio": {
+        "src": "/audio/sentences/convenience-store-items/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cf4883ea500916c3ea1afd650875515357ba2189b46879c4329b6d65527533cb",
+        "sha256": "b64c2e5c9bbe1a75cbf5071c4aba9e7703eb6447697d4b4e5b2dc61baae9796f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Batteries are placed in aisle three, right "
+        },
+        {
+          "text": "behind",
+          "phraseIds": [
+            "behind-the-counter"
+          ],
+          "wordIds": [
+            "behind"
+          ]
+        },
+        {
+          "text": " the counter",
+          "phraseIds": [
+            "behind-the-counter"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "電池放在第三走道，就在櫃檯的正後方。",
+      "audio": {
+        "src": "/audio/sentences/convenience-store-items/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ec27ff9d651c3dd1389fb6919fca9b41a4e500464aada812e245b472754d1aa6",
+        "sha256": "044cb24b756cb4968b14db2ccfa493d7cdc3851b26c924a9d2ab46c0b6f7a0c2"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Are they "
+        },
+        {
+          "text": "on the top ",
+          "phraseIds": [
+            "on-the-top-shelf"
+          ]
+        },
+        {
+          "text": "shelf",
+          "phraseIds": [
+            "on-the-top-shelf"
+          ],
+          "wordIds": [
+            "shelf"
+          ]
+        },
+        {
+          "text": " or down "
+        },
+        {
+          "text": "at the ",
+          "phraseIds": [
+            "at-the-bottom"
+          ]
+        },
+        {
+          "text": "bottom",
+          "phraseIds": [
+            "at-the-bottom"
+          ],
+          "wordIds": [
+            "bottom"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "請問是在最上層的貨架，還是靠近最底層呢？",
+      "audio": {
+        "src": "/audio/sentences/convenience-store-items/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1f352b4de513b1568c7f62ce80e473402a5e87f10ce4b04820985cef721f2d50",
+        "sha256": "a246697fa76d7a1c104ffcf4bb61988d55a1c44571d6c46c9fca3c12bb47a4c0"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "They are located right in the "
+        },
+        {
+          "text": "middle",
+          "wordIds": [
+            "middle"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "shelf",
+          "wordIds": [
+            "shelf"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "at eye level",
+          "phraseIds": [
+            "at-eye-level"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "它們就在中間那層貨架，剛好跟眼睛視線一樣高。",
+      "audio": {
+        "src": "/audio/sentences/convenience-store-items/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "57c30c96986d3576be930330e5ad2dfdaa4d772ff8ac22a6ae810f89e4d0b673",
+        "sha256": "01b8c6bbe23e0441260c199e9d17bb40adcd4490e7f993f58aac345dd6b7756f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Do you also need to "
+        },
+        {
+          "text": "find",
+          "wordIds": [
+            "find"
+          ]
+        },
+        {
+          "text": " any small household "
+        },
+        {
+          "text": "items",
+          "wordIds": [
+            "item"
+          ]
+        },
+        {
+          "text": " today?"
+        }
+      ],
+      "translation": "您今天還需要尋找其他小型日常用品嗎？",
+      "audio": {
+        "src": "/audio/sentences/convenience-store-items/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "29d24e4721475d7efb97e306d6a2e424c0de01f2796236e0aaceec8032b7244a",
+        "sha256": "f7bf3cd2828e8fc850d51eaeecd9f1b11956abc70fbb0d60881a1db327cfdaec"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "No thanks, I found exactly what I needed right here."
+        }
+      ],
+      "translation": "不需要了謝謝，我在這裡剛好找到我所需要的東西。",
+      "audio": {
+        "src": "/audio/sentences/convenience-store-items/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "53f7970462634619bc7e7dda33735fa76bc881b28242ae723b4e596c034b1bf9",
+        "sha256": "a4aea4eb2728dc469d8e40945b0327a5af1ff672413948ac014a36b3916f0988"
+      }
+    }
+  ]
+}

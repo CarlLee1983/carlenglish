@@ -1,0 +1,341 @@
+{
+  "id": "returning-borrowed-tool",
+  "title": "借生活用具用畢歸還",
+  "titleEn": "Returning a Borrowed Tool to a Friend",
+  "category": "社交人際",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/returning-borrowed-tool.webp",
+    "alt": "在家門口玄關前，青年將借用的金屬工具箱整齊擦拭乾淨物歸原主，並送上一袋自製手工餅乾向親切的鄰居由衷致謝。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "came-by-to-return",
+      "english": "came by to return",
+      "translation": "順道過來歸還",
+      "audio": {
+        "src": "/audio/phrases/returning-borrowed-tool-came-by-to-return.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5c89aca3ae23ab30a0b89097f4d848d5a6991a3af8094605259be37299b03a4a",
+        "sha256": "c649ee701a2c2482a76351aa8f97c011e5e490895033d48ee65d52a5811104ba"
+      }
+    },
+    {
+      "id": "having-the-proper-tools",
+      "english": "having the proper tools",
+      "translation": "有了合適的工具",
+      "audio": {
+        "src": "/audio/phrases/returning-borrowed-tool-having-the-proper-tools.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0d109d164868b7ae0c0472ae246aa04a73f5b609169b13a655ce555b06be7a3e",
+        "sha256": "2d591847b30bc2a3b12bd266ad403144781cc87ecefc0dbb7106b91e5ed3ff5e"
+      }
+    },
+    {
+      "id": "wiped-every-tool-clean",
+      "english": "wiped every tool clean",
+      "translation": "把每件工具都擦乾淨",
+      "audio": {
+        "src": "/audio/phrases/returning-borrowed-tool-wiped-every-tool-clean.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ecccf35232f676df062e1d1545b1f2faaffe19dbeee5d67f009bb7b2c326205b",
+        "sha256": "75d1b78be945af694e268964d1431a60adc9c51a84a742cf1358d64bbbae05d6"
+      }
+    },
+    {
+      "id": "back-in-the-box",
+      "english": "back in the box",
+      "translation": "放回盒子裡",
+      "audio": {
+        "src": "/audio/phrases/returning-borrowed-tool-back-in-the-box.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e2b41066790792ac1430ec06410ca6e3a96e67af33156798124e735b8a5499ef",
+        "sha256": "9a73c3086d2513e9d3a44c2e89ad3c73a637396949a53d180ffc58d822a0206a"
+      }
+    },
+    {
+      "id": "thank-you-very-much-for-your-kindness",
+      "english": "thank you very much for your kindness",
+      "translation": "非常感謝您的好心善良",
+      "audio": {
+        "src": "/audio/phrases/returning-borrowed-tool-thank-you-very-much-for-your-kindness.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c9e5f4453b2980f4d4819a587d709ea4c47b47c6e3b69dfe385822d2f8bd38df",
+        "sha256": "6314ea9cb2ff901e410cd9df4128cc6d78f08784389c8715d48e80c6164b877a"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "tool",
+      "english": "tool",
+      "translation": "工具；用具",
+      "example": "Keep sharp tools out of reach of small children.",
+      "audio": {
+        "src": "/audio/words/returning-borrowed-tool-tool.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7c9bbe5ec9b3fb774e8fa0f54247e93c34ddf8e5d16fe3073420de0ae81a262d",
+        "sha256": "de65a645bb3e04c836e14f82093ab49e671bc92b3b853bafe00c2419b64a0047"
+      }
+    },
+    {
+      "id": "neighbor",
+      "english": "neighbor",
+      "translation": "鄰居",
+      "example": "Our neighbor shared fresh vegetables from his farm.",
+      "audio": {
+        "src": "/audio/words/returning-borrowed-tool-neighbor.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c65f1ed1c4f4bf1bc265e62b6cff6963111633a18b8fd798ee2a467150171750",
+        "sha256": "e96d9c15a19bfadc28bac2db974a9828adeb5b9812270fce8a024cb65b7c17b5"
+      }
+    },
+    {
+      "id": "thank",
+      "english": "thank",
+      "translation": "感謝",
+      "example": "Remember to thank your teacher after the lesson.",
+      "audio": {
+        "src": "/audio/words/returning-borrowed-tool-thank.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e67fd73a84918e64c84f082cdc04e34435eb98acc712c8e8384268a7e7c5e208",
+        "sha256": "e3995bf3e72735bbde8269a94c14e02edbe8d783125151d0b7d5b617d5aefa6b"
+      }
+    },
+    {
+      "id": "done",
+      "english": "done",
+      "translation": "完成的；結束的",
+      "example": "I will join you as soon as my work is done.",
+      "audio": {
+        "src": "/audio/words/returning-borrowed-tool-done.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a4c3ed04a95a3da14a9d235c83d868bed7c0f45cf7f3faa751ee8f50598d2211",
+        "sha256": "977be13999a13b610286e57659dd8f187616421bead90912d3cc0a168242350e"
+      }
+    },
+    {
+      "id": "much",
+      "english": "much",
+      "translation": "許多（用於不可數）",
+      "example": "Thank you very much for your kind advice.",
+      "audio": {
+        "src": "/audio/words/returning-borrowed-tool-much.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "543b1c4bd4f6b184ca2aef09ca8e5aeadb04907efa0ac7b81b00f8b9ea8133cd",
+        "sha256": "f7824d840cd36cfd8b06a7937872de45b0e46348b5cfccace6d4ee9fba5a763a"
+      }
+    },
+    {
+      "id": "use",
+      "english": "use",
+      "translation": "使用",
+      "example": "Can I use your scissors to cut this ribbon?",
+      "audio": {
+        "src": "/audio/words/returning-borrowed-tool-use.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a3b142af6e97cfc3bb23e409ab83467af7d16ded7dc0632be6a6a9023e49ce8b",
+        "sha256": "8236a1f971be28d5bf6a50f374c7cc7d1a3f7eb458d008133c14001f6f65e132"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Hello Mr. Wang, I "
+        },
+        {
+          "text": "came by to return",
+          "phraseIds": [
+            "came-by-to-return"
+          ]
+        },
+        {
+          "text": " the metal toolbox you lent me."
+        }
+      ],
+      "translation": "王先生你好，我順道過來歸還您昨天借給我的金屬工具箱。",
+      "audio": {
+        "src": "/audio/sentences/returning-borrowed-tool/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c5d51c2071498b0834b1803ea311c83eb43b5375fbd03bed53382261fe01d0c8",
+        "sha256": "5b929f25d8f1ab8b02363b3feccb0fd111e6039838c2e4a627720e8c373a211f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Did the tools you "
+        },
+        {
+          "text": "used",
+          "wordIds": [
+            "use"
+          ]
+        },
+        {
+          "text": " help you fix your bedroom bookshelf?"
+        }
+      ],
+      "translation": "你使用的那套工具有幫你把臥室的書架組裝修理好嗎？",
+      "audio": {
+        "src": "/audio/sentences/returning-borrowed-tool/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1f6a2473be7f93f9f03ebc34852a7bfcdcecb7aa502aedfa959ca6b37c903db5",
+        "sha256": "c69ad6d17bb60c31ec8afea0efb1863546a31567e73c6431bfcd0dd3253a6045"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yes, "
+        },
+        {
+          "text": "having the proper tools",
+          "phraseIds": [
+            "having-the-proper-tools"
+          ]
+        },
+        {
+          "text": " made the work easy and my bookshelf is now "
+        },
+        {
+          "text": "done",
+          "wordIds": [
+            "done"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "有的，有了合適的工具讓工作很輕鬆，而且我的書架現在組裝完成了。",
+      "audio": {
+        "src": "/audio/sentences/returning-borrowed-tool/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0f51d3014fa4b015c46170aa97a89eddbb7ed94239744a930618602fab72871b",
+        "sha256": "3fed24b361f17c7c7b8bd91b1e1a9ec41261b404114ef960d79b0b12b3c6a1ad"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I "
+        },
+        {
+          "text": "wiped every ",
+          "phraseIds": [
+            "wiped-every-tool-clean"
+          ]
+        },
+        {
+          "text": "tool",
+          "phraseIds": [
+            "wiped-every-tool-clean"
+          ],
+          "wordIds": [
+            "tool"
+          ]
+        },
+        {
+          "text": " clean",
+          "phraseIds": [
+            "wiped-every-tool-clean"
+          ]
+        },
+        {
+          "text": " and made sure each piece is "
+        },
+        {
+          "text": "back in the box",
+          "phraseIds": [
+            "back-in-the-box"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我把每件工具都擦拭乾淨，並且確認每樣配件都已經放回箱子裡了。",
+      "audio": {
+        "src": "/audio/sentences/returning-borrowed-tool/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3cae055c60afc69a90aaac5eabce871ed768d51d9bda2fb9991aaad32cc85e23",
+        "sha256": "8f245a8e03ed911287631e3281eae906f2c267b6f638214b045b2026dff36cd3"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Here is a small bag of homemade cookies to "
+        },
+        {
+          "text": "thank",
+          "phraseIds": [
+            "thank-you-very-much-for-your-kindness"
+          ],
+          "wordIds": [
+            "thank"
+          ]
+        },
+        {
+          "text": " you very ",
+          "phraseIds": [
+            "thank-you-very-much-for-your-kindness"
+          ]
+        },
+        {
+          "text": "much",
+          "phraseIds": [
+            "thank-you-very-much-for-your-kindness"
+          ],
+          "wordIds": [
+            "much"
+          ]
+        },
+        {
+          "text": " for your kindness",
+          "phraseIds": [
+            "thank-you-very-much-for-your-kindness"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "這裡有一小袋我自己做的手工餅乾，非常感謝您的熱心幫忙。",
+      "audio": {
+        "src": "/audio/sentences/returning-borrowed-tool/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dbad878663e477ada57ae676e24dc45890b9fcedec7ff90bcf6df703a1e9945c",
+        "sha256": "61ca2a8667af56f34e0ea853a1a8178b4ef958e7616c98f3b95b6a912689aed3"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "That is so sweet of you Leo, you are always a thoughtful "
+        },
+        {
+          "text": "neighbor",
+          "wordIds": [
+            "neighbor"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "Leo 你真是太客氣貼心了，你一直都是個非常細心體貼的好鄰居。",
+      "audio": {
+        "src": "/audio/sentences/returning-borrowed-tool/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "54c324faeb540424d8221db30940f15f185ea73dcf071978d2b315dae556cb1f",
+        "sha256": "971aeee6992a2e7a3009f8c5bf13e085771db2bf6c244d0fe99beb9aead41371"
+      }
+    }
+  ]
+}

@@ -9,6 +9,20 @@ export const learningLevels = [
 export type LearningLevel = typeof learningLevels[number];
 type LevelId = LearningLevel['id'];
 
+export const sceneCategories = [
+  '居家日常',
+  '飲食美味',
+  '購物消費',
+  '出行與交通',
+  '校園與學習',
+  '休閒與遊戲',
+  '社交人際',
+  '城市與公共服務',
+  '健康與生活安全',
+] as const;
+
+export type SceneCategory = typeof sceneCategories[number];
+
 // Keep the original editorial label while giving every scene one unambiguous home.
 const levelGroups = new Map<string, LevelId>([
   ['入門', 'beginner'], ['初級', 'beginner'], ['初級至初中級', 'beginner'],

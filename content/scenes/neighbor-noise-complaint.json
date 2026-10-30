@@ -1,0 +1,338 @@
+{
+  "id": "neighbor-noise-complaint",
+  "title": "深夜噪音鄰里委婉溝通",
+  "titleEn": "Talking About Late-night Noise with a Neighbor",
+  "category": "居家日常",
+  "level": "初級至初中級",
+  "image": {
+    "src": "/images/scenes/neighbor-noise-complaint.webp",
+    "alt": "在公寓大樓明亮通風的走廊上，兩位鄰居帶著親切友善的微笑交談，委婉溝通深夜走動與搬運家具的聲響。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "have-a-brief-word",
+      "english": "have a brief word",
+      "translation": "簡短說兩句話",
+      "audio": {
+        "src": "/audio/phrases/neighbor-noise-complaint-have-a-brief-word.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fc566340e96657a7caa238384ac99bece65e0b3f76fe17adcec295cc3d17f664",
+        "sha256": "b162df94144de7c710876be4250866dc81895ec535213fb2360ee862aacab6d8"
+      }
+    },
+    {
+      "id": "around-midnight",
+      "english": "around midnight",
+      "translation": "在午夜時分左右",
+      "audio": {
+        "src": "/audio/phrases/neighbor-noise-complaint-around-midnight.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1420ce1a8fd1b8223b9bd6e810e4097e24b87931ee24f1ad1678751ef1bc236b",
+        "sha256": "f5814b5a741703fd53b69ce3a8009d7c7f4db3459f8336eb26ce84ebab99defb"
+      }
+    },
+    {
+      "id": "difficult-to-fall-asleep",
+      "english": "difficult to fall asleep",
+      "translation": "難以入睡",
+      "audio": {
+        "src": "/audio/phrases/neighbor-noise-complaint-difficult-to-fall-asleep.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8f2cb46a6d1b89ccafb2009a15f8f027419707c9ebe526606857b5ab2cec346a",
+        "sha256": "a46dc0f9052ec5626e97dc6b8a526a45ce11be2f91929d96a3b1cedc943b4809"
+      }
+    },
+    {
+      "id": "so-sorry-about-that",
+      "english": "so sorry about that",
+      "translation": "對此感到非常抱歉",
+      "audio": {
+        "src": "/audio/phrases/neighbor-noise-complaint-so-sorry-about-that.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a3c4da9e92ed38f90cd2269a270ac5a026d55a551416414672efb869f26deac5",
+        "sha256": "c9be582551bcff6b2ed4e33e200251b3d164eefab77cadbd251a009838ac99a9"
+      }
+    },
+    {
+      "id": "keep-things-completely-quiet",
+      "english": "keep things completely quiet",
+      "translation": "保持完全安靜",
+      "audio": {
+        "src": "/audio/phrases/neighbor-noise-complaint-keep-things-completely-quiet.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c6f4bc90de6882fe62fa3b77a74a940abee42ffda2abb98235cbb2ed034786f9",
+        "sha256": "3940c76b9162e32276626df307f450e1ae0f69592fd07f6c1231694b1bf16fd2"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "noise",
+      "english": "noise",
+      "translation": "噪音；聲音",
+      "example": "The loud traffic noise kept everyone awake.",
+      "audio": {
+        "src": "/audio/words/neighbor-noise-complaint-noise.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "efe2a5c09e6d49d7eb735c9875f77404be5b887bb3f56378038968d4e3ff8198",
+        "sha256": "d13cb9f53415515ff662e553480b8769ba141df527f06e6d220e1658330613f1"
+      }
+    },
+    {
+      "id": "loud",
+      "english": "loud",
+      "translation": "大聲的；喧鬧的",
+      "example": "Do not play loud music late at night.",
+      "audio": {
+        "src": "/audio/words/neighbor-noise-complaint-loud.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "db1a60bbff220d0910f017477df18cb7cd90892722985ac91dbfdaa1c955220f",
+        "sha256": "f4735b8c6a9d68c40ccc992f8aee0ba1f77994d1975aef4b37ee37bd6ecb70b5"
+      }
+    },
+    {
+      "id": "sleep",
+      "english": "sleep",
+      "translation": "睡覺；睡眠",
+      "example": "He needs at least eight hours of sleep.",
+      "audio": {
+        "src": "/audio/words/neighbor-noise-complaint-sleep.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0afa5bb5d5f1787945e555e91474675beb6f34dd9a490423c4d0460e4d454885",
+        "sha256": "0c4ed0a11842845c9cf49e5c9b5272af6af6188603602703812e3e725a6615b6"
+      }
+    },
+    {
+      "id": "quiet",
+      "english": "quiet",
+      "translation": "安靜的；平靜的",
+      "example": "The public study room was completely quiet.",
+      "audio": {
+        "src": "/audio/words/neighbor-noise-complaint-quiet.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "008f0747f4e27c8462baa991a538025bcc2dd143e78422f1afbdfcd9e757a20f",
+        "sha256": "210cb236aa890c1b9657d8d7896e9ba17a440b4e9b7f63b689031218d3312725"
+      }
+    },
+    {
+      "id": "peace",
+      "english": "peace",
+      "translation": "平靜；安寧",
+      "example": "She sat in the quiet garden enjoying the morning peace.",
+      "audio": {
+        "src": "/audio/words/neighbor-noise-complaint-peace.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c2e10c20bf46daf0ba03f725218b012544a3d0d3b37334eeb1d4d81e5406e478",
+        "sha256": "46d6a7cd5891053026f19e8f3cfc9ea7b992c905d37e36fb22b452e99b84ac8a"
+      }
+    },
+    {
+      "id": "night",
+      "english": "night",
+      "translation": "夜晚；晚上",
+      "example": "The stars shine brightly in the dark night sky.",
+      "audio": {
+        "src": "/audio/words/neighbor-noise-complaint-night.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "176473d7313395b6e209bc6b1d57aa160b628706860aa0554d7af60a1d40ab87",
+        "sha256": "bca9e7d6d6bceb88bf3ef39e141ca199e22e04ea53ac6b54e83036d1546fe38f"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Good evening neighbor, could I "
+        },
+        {
+          "text": "have a brief word",
+          "phraseIds": [
+            "have-a-brief-word"
+          ]
+        },
+        {
+          "text": " with you about last "
+        },
+        {
+          "text": "night",
+          "wordIds": [
+            "night"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "鄰居晚安，我可以跟您簡短聊一下昨天晚上的事情嗎？",
+      "audio": {
+        "src": "/audio/sentences/neighbor-noise-complaint/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ce05f76e516de0123465851ee2e72d2332495b023dddbbcf74e2f614c18f2d7d",
+        "sha256": "63ffbb332f05953fb08310420cc213bb66f11c01f05c4269bcee63d3aef06cef"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Of course, did something unusual happen that disturbed your evening?"
+        }
+      ],
+      "translation": "當然可以，是有發生什麼不尋常的事情打擾到您的夜晚了嗎？",
+      "audio": {
+        "src": "/audio/sentences/neighbor-noise-complaint/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3926bddacddf78c5a37b5284440213cbec98603a24228e3dd8968519ace9ae3d",
+        "sha256": "46aa10756ce9f329806ef28444d2aeea5198fe5a56801d0d1baa27f67d902476"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "There was "
+        },
+        {
+          "text": "loud",
+          "wordIds": [
+            "loud"
+          ]
+        },
+        {
+          "text": " footsteps and heavy furniture dragging downstairs "
+        },
+        {
+          "text": "around midnight",
+          "phraseIds": [
+            "around-midnight"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "大概在半夜十二點左右，樓下傳來了很大聲的腳步聲和沉重的拖拉家具聲。",
+      "audio": {
+        "src": "/audio/sentences/neighbor-noise-complaint/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c39b17aa014d04757e7b238d65fdb8ca8e3121c1163aec6a355ef7ca1fc0c9a8",
+        "sha256": "ad45f4bfa1df9672da81309527b73296f8d271f632b0b15b873015aa54e600d7"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "noise",
+          "wordIds": [
+            "noise"
+          ]
+        },
+        {
+          "text": " made it "
+        },
+        {
+          "text": "difficult to fall asleep",
+          "phraseIds": [
+            "difficult-to-fall-asleep"
+          ]
+        },
+        {
+          "text": " and get good "
+        },
+        {
+          "text": "sleep",
+          "wordIds": [
+            "sleep"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "那個噪音讓人難以入睡，也很難好好睡覺。",
+      "audio": {
+        "src": "/audio/sentences/neighbor-noise-complaint/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5f2f54cf8665d9c4d519bae9d03f29129d042e25518d743377e5ca7493123140",
+        "sha256": "97013c8782d94ebf649e7557abd5287cf3103d4fd425c055bbf31587009e5c22"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I am "
+        },
+        {
+          "text": "so sorry about that",
+          "phraseIds": [
+            "so-sorry-about-that"
+          ]
+        },
+        {
+          "text": ", my friends helped me rearrange heavy bookshelves late at "
+        },
+        {
+          "text": "night",
+          "wordIds": [
+            "night"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我對此感到非常抱歉，昨晚我朋友很晚才來幫忙我搬動笨重的書架。",
+      "audio": {
+        "src": "/audio/sentences/neighbor-noise-complaint/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "14ef799bb77453695702a4cfa91268ab512cb3a1f1771495ae6e5b5f8a248564",
+        "sha256": "810cb6302919d0ce98f74bb987c33ad1581b89d7801695e77363aff4e5777607"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We promise to "
+        },
+        {
+          "text": "keep things completely ",
+          "phraseIds": [
+            "keep-things-completely-quiet"
+          ]
+        },
+        {
+          "text": "quiet",
+          "phraseIds": [
+            "keep-things-completely-quiet"
+          ],
+          "wordIds": [
+            "quiet"
+          ]
+        },
+        {
+          "text": " and in "
+        },
+        {
+          "text": "peace",
+          "wordIds": [
+            "peace"
+          ]
+        },
+        {
+          "text": " after ten o'clock from now on."
+        }
+      ],
+      "translation": "我們保證從今以後晚上十點過後一定會保持完全的安靜與平靜。",
+      "audio": {
+        "src": "/audio/sentences/neighbor-noise-complaint/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e3760d8d47112be7e7efb1b75bd11379d9e0113082969e1137375f84cd3c5698",
+        "sha256": "29362297712299ccd7bc8c668756658989282307801a0bc2c389db80ae3c4961"
+      }
+    }
+  ]
+}

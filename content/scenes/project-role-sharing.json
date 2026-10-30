@@ -1,0 +1,332 @@
+{
+  "id": "project-role-sharing",
+  "title": "分組專案討論分工",
+  "titleEn": "Dividing Roles in a Group Project",
+  "category": "校園與學習",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/project-role-sharing.webp",
+    "alt": "在明亮溫馨的教室課桌前，四位同學圍坐在一起討論歷史專案分工，各自認領簡報製作與資料搜尋角色。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "divide-the-roles",
+      "english": "divide the roles",
+      "translation": "分配角色／分工",
+      "audio": {
+        "src": "/audio/phrases/project-role-sharing-divide-the-roles.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a953950b61af7b99ece935fb8b7ce19151bbdb1d7c2052ef11f0481c72ca1ee6",
+        "sha256": "67e6ebf15ed297c89c1514316014ff84975133ead2d6ae8468c4693e156e7d6f"
+      }
+    },
+    {
+      "id": "take-the-part-of",
+      "english": "take the part of",
+      "translation": "承擔...的部分",
+      "audio": {
+        "src": "/audio/phrases/project-role-sharing-take-the-part-of.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5e0feaad0f88f3ab1cc7874da5b0b94e26a80c8a36135f96f778bd847ceaa6a1",
+        "sha256": "5af167daf4291fda0340e1f9349e92dc32d8b82ca1d005d83f1bfd5dc3e0dbba"
+      }
+    },
+    {
+      "id": "make-the-presentation-slides",
+      "english": "make the presentation slides",
+      "translation": "製作簡報投影片",
+      "audio": {
+        "src": "/audio/phrases/project-role-sharing-make-the-presentation-slides.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "713060cd546c0f25f2158c4f881b1631ea65cad26ef8a0fbbce21af3ca079886",
+        "sha256": "7f5b1824a3fdfeeb643c8d49af57cdd555a9d5933395bcfe0c5a57efec34f505"
+      }
+    },
+    {
+      "id": "we-all-agree",
+      "english": "we all agree",
+      "translation": "我們大家都同意",
+      "audio": {
+        "src": "/audio/phrases/project-role-sharing-we-all-agree.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a09d7f61c7d71dc60fd28de7267cc680aa4a1435e2c9468629e87f8e3de13f4a",
+        "sha256": "48e1df25e86009249e525d409fbd60dc0af1b5ed10299534389fccc73e0719ad"
+      }
+    },
+    {
+      "id": "share-the-workload",
+      "english": "share the workload",
+      "translation": "分擔工作量",
+      "audio": {
+        "src": "/audio/phrases/project-role-sharing-share-the-workload.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3a554752cf9517c5981d947c935350ee2be26fc6894b108b6b144ec76fe6a91d",
+        "sha256": "b8dd8523ca7af4b81353b07ae3e3ee6c2d509237f015062f6820c32213cd17fb"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "team",
+      "english": "team",
+      "translation": "球隊；隊伍",
+      "example": "Our soccer team won first place in the tournament.",
+      "audio": {
+        "src": "/audio/words/project-role-sharing-team.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ca8b22d0db83a22db163b560b3e4e51527e533d31d067b614a0c33c4d2df8432",
+        "sha256": "21dd141083cab6f25594ebe8c2179c1bbf690ddab6606fb0a2649bd9c5a062ca"
+      }
+    },
+    {
+      "id": "part",
+      "english": "part",
+      "translation": "部分",
+      "example": "Everyone played an important part in the concert.",
+      "audio": {
+        "src": "/audio/words/project-role-sharing-part.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "37a680133bd09342f934afb8dd2c7d9e1b624da5f35e3a38adb103e37c055ed1",
+        "sha256": "5ebf9633670267e95c6699f2458a0acd6311d243b5004ae8163838cd959b0c40"
+      }
+    },
+    {
+      "id": "share",
+      "english": "share",
+      "translation": "分享",
+      "example": "They share the same computer during laboratory hours.",
+      "audio": {
+        "src": "/audio/words/project-role-sharing-share.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c3bc45ac352fe43ff8f0a1cc26d6cc29f71f536dc417906f8513ea44ed4bb161",
+        "sha256": "cfb18e7f6dee4080b18749ce60184c42ce962e9b5cd2bfaf86b89d884d31455c"
+      }
+    },
+    {
+      "id": "choose",
+      "english": "choose",
+      "translation": "選擇",
+      "example": "You can choose either apple or orange juice.",
+      "audio": {
+        "src": "/audio/words/project-role-sharing-choose.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "725fed9d1ae909982052ec4fe91a5a140158b4349498c7ef020ed32d6f8a370d",
+        "sha256": "e26ae4844335c04e8e008a6713beeb858562e9482b471beb97ab3965018ad728"
+      }
+    },
+    {
+      "id": "agree",
+      "english": "agree",
+      "translation": "同意",
+      "example": "My parents agree that reading is the best habit.",
+      "audio": {
+        "src": "/audio/words/project-role-sharing-agree.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "94d5c9d96025716090f176f76e07c45b1296250fe9bfe1823f77f53881548690",
+        "sha256": "0b43c6f1b0aca032bc3eec05beeb4fb30b01bd49efa849121adaf6a7c31fca83"
+      }
+    },
+    {
+      "id": "start",
+      "english": "start",
+      "translation": "開始",
+      "example": "The morning bell starts ringing at eight o'clock.",
+      "audio": {
+        "src": "/audio/words/project-role-sharing-start.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "cced28c6dc3f99c2396a5eaad732bf6b28142335892b1cd0e6af6cdb53f5ccfa",
+        "sha256": "534d2fb9a574559692881a7ae6ba3e13142deec020b45304797454223741ff76"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Our history presentation is next week, so we need to "
+        },
+        {
+          "text": "divide the roles",
+          "phraseIds": [
+            "divide-the-roles"
+          ]
+        },
+        {
+          "text": " today."
+        }
+      ],
+      "translation": "我們的歷史簡報就在下週，所以我們今天必須把角色分工好。",
+      "audio": {
+        "src": "/audio/sentences/project-role-sharing/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "79afce65aa3f709f0bd3d12b757ede0ea74556557111d31d0a0fce67a14374b0",
+        "sha256": "16978dca2ba2f6f8de270c92bceb297a916bcb62abbe24924c2ec63434a4e1fc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I can "
+        },
+        {
+          "text": "take the ",
+          "phraseIds": [
+            "take-the-part-of"
+          ]
+        },
+        {
+          "text": "part",
+          "phraseIds": [
+            "take-the-part-of"
+          ],
+          "wordIds": [
+            "part"
+          ]
+        },
+        {
+          "text": " of",
+          "phraseIds": [
+            "take-the-part-of"
+          ]
+        },
+        {
+          "text": " searching for old photos and facts online."
+        }
+      ],
+      "translation": "我可以負責在網路上搜尋歷史老照片和相關史實的部分。",
+      "audio": {
+        "src": "/audio/sentences/project-role-sharing/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fe14ac09b5a9cbc703ded34b94b14d104978134cf8ebc067dab7ac86857b7806",
+        "sha256": "c9999c4576902a131a74fcada0e547569f031cd3a2a53e53653ee9c1ce272ee8"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Who wants to "
+        },
+        {
+          "text": "choose",
+          "wordIds": [
+            "choose"
+          ]
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "make the presentation slides",
+          "phraseIds": [
+            "make-the-presentation-slides"
+          ]
+        },
+        {
+          "text": " and design the layout?"
+        }
+      ],
+      "translation": "有誰想選擇製作簡報投影片和設計版面編排嗎？",
+      "audio": {
+        "src": "/audio/sentences/project-role-sharing/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "45086b8692477810562af1d322237079bba2ca080efa6a25b3384114c7069d8e",
+        "sha256": "edf2161263f15b4c3f589f8607904fa0532df2311e5700a8373fa7181a723756"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I am good at drawing charts, so I will prepare the visual slides."
+        }
+      ],
+      "translation": "我滿擅長畫圖表繪圖的，所以我來準備視覺投影片。",
+      "audio": {
+        "src": "/audio/sentences/project-role-sharing/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9eb039681a421ad6274b21749db68ec19e59d4d368dab5ba250b6b371e7e79a1",
+        "sha256": "2d1c3a86d05048917ff0ee71f6cffc801075bc8d1aaa288a3e59a19391abf48d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We all ",
+          "phraseIds": [
+            "we-all-agree"
+          ]
+        },
+        {
+          "text": "agree",
+          "phraseIds": [
+            "we-all-agree"
+          ],
+          "wordIds": [
+            "agree"
+          ]
+        },
+        {
+          "text": " that to "
+        },
+        {
+          "text": "share",
+          "phraseIds": [
+            "share-the-workload"
+          ],
+          "wordIds": [
+            "share"
+          ]
+        },
+        {
+          "text": " the workload",
+          "phraseIds": [
+            "share-the-workload"
+          ]
+        },
+        {
+          "text": " equally makes our "
+        },
+        {
+          "text": "team",
+          "wordIds": [
+            "team"
+          ]
+        },
+        {
+          "text": " stronger."
+        }
+      ],
+      "translation": "我們大家都同意，公平分擔工作量能讓我們的團隊表現更好。",
+      "audio": {
+        "src": "/audio/sentences/project-role-sharing/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b09bb8da498af3cc714c1777c1a30e960023a8f2595ff17c2fe91da19529038c",
+        "sha256": "543a941e00082c2f38c788fc775b7c02c3b7d960c9340c093ac6914acd6192fe"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Let us "
+        },
+        {
+          "text": "start",
+          "wordIds": [
+            "start"
+          ]
+        },
+        {
+          "text": " writing our outline together before leaving school."
+        }
+      ],
+      "translation": "我們在放學離開學校之前，先一起著手寫出大綱架構吧。",
+      "audio": {
+        "src": "/audio/sentences/project-role-sharing/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3f147dc131e97d4e117dbde1838a3ca96d725d24c1c6ae59408abbf62c70250d",
+        "sha256": "5c8af0de0e7097806f6b66ef932076b934128d8565125ba9292e25fc4d142698"
+      }
+    }
+  ]
+}

@@ -1,0 +1,626 @@
+{
+  "version": 1,
+  "banks": [
+    {
+      "level": "beginner",
+      "description": "從熟悉的人、物品與日常動作開始，練習基本生活溝通。",
+      "criteria": "本站編選的學習分組：以具體生活概念、基本需求與簡單描述為主，逐筆參考來源詞義和例句，不依詞頻排名切分。",
+      "entries": [
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "name"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "family"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "friend"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "home"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "school"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "teacher"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "student"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "book"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "bag"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "phone"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "water"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "food"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "tea"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "eat"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "drink"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "buy"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "pay"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "money"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "help"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "want"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "need"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "go"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "come"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "walk"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "sit"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "open"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "close"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "read"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "write"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "speak"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "listen"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "today"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "tomorrow"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "morning"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "night"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "happy"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "cold"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "hot"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "small"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "big"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "good"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "door"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "apple"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "umbrella"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "hungry"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "sandwich"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "birthday"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "juice"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "bathroom"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "wallet"
+        }
+      ]
+    },
+    {
+      "level": "intermediate",
+      "description": "拓展日常、工作與學習中安排事情、交換資訊和處理服務需求的表達。",
+      "criteria": "本站編選的學習分組：以工作、學習與較廣泛的生活任務為主，包含安排時間、申請、通知和服務往來；逐筆參考來源詞義和例句，不依詞頻排名切分。",
+      "entries": [
+        {
+          "wordListId": "tsl",
+          "entryId": "vacation"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "client"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "memo"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "reservation"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "supervisor"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "refund"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "workshop"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "deadline"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "invoice"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "brochure"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "accountant"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "resume-cv"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "applicant"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "seminar"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "technician"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "receipt"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "traveler"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "luggage"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "shipment"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "warranty"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "reception"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "lease"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "notify"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "subscription"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "convenient"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "manual"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "destination"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "occupation"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "postpone"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "identification"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "reschedule"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "coworker"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "instructor"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "assignment"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "attendee"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "renew"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "calendar"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "feedback"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "itinerary"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "overtime"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "experience"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "available"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "budget"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "benefit"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "project"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "suggest"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "explain"
+        },
+        {
+          "wordListId": "ngsl-spoken",
+          "entryId": "discuss"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "certificate"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "confirmation"
+        }
+      ]
+    },
+    {
+      "level": "advanced",
+      "description": "練習抽象判斷、細緻描述，以及商務、法規與技術等專門概念。",
+      "criteria": "本站編選的學習分組：以抽象推理、評價、變化與專門領域表達為主，逐筆參考來源詞義和例句；此分組不是官方難度分類，也不代表 CEFR 或檢定等級。",
+      "entries": [
+        {
+          "wordListId": "tsl",
+          "entryId": "discrepancy"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "drawback"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "fiscal"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "compliance"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "bankruptcy"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "assurance"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "fluctuate"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "integral"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "interfere"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "merit"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "penalize"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "subsidize"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "accuracy"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "beneficial"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "consignment"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "copyright"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "diagnostic"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "irrelevant"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "obligate"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "occurrence"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "operational"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "reconsider"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "stimulus"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "trademark"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "apprehensive"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "complication"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "drastically"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "factual"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "hereby"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "hesitation"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "inspiration"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "restatement"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "ethics"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "recession"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "acclaim"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "chronic"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "deteriorate"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "unauthorized"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "violate"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "tactic"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "authorize"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "productivity"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "expertise"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "prediction"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "strategic"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "projection"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "appraisal"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "compensate"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "cumulative"
+        },
+        {
+          "wordListId": "tsl",
+          "entryId": "contradict"
+        }
+      ]
+    }
+  ]
+}

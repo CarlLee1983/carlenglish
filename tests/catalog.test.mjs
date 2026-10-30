@@ -3,7 +3,7 @@ import test from 'node:test';
 import { readFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { ContentError } from '../src/lib/scenes.ts';
-import { learningLevels, getLearningLevel, createCatalog, getRelatedScenes } from '../src/lib/catalog.ts';
+import { learningLevels, getLearningLevel, createCatalog, getRelatedScenes, sceneCategories } from '../src/lib/catalog.ts';
 
 const scene = (id, level, category) => ({ id, level, category });
 
@@ -58,5 +58,17 @@ test('the latest production scene inventory is assigned to exactly one level eac
   for (const scene of scenes) {
     const owner = getLearningLevel(scene);
     assert.equal(catalog.filter((group) => group.level.id === owner.id && group.scenes.some(({ id }) => id === scene.id)).length, 1, scene.id);
+  }
+});
+
+test('all production scenes use canonical life categories', () => {
+  const contentDir = join(process.cwd(), 'content/scenes');
+  const scenes = readdirSync(contentDir).filter((name) => name.endsWith('.json')).sort()
+    .map((name) => JSON.parse(readFileSync(join(contentDir, name), 'utf8')));
+  for (const scene of scenes) {
+    assert.ok(
+      sceneCategories.includes(scene.category),
+      `Scene "${scene.id}" has non-canonical category "${scene.category}"; expected one of: ${sceneCategories.join(', ')}`,
+    );
   }
 });

@@ -1,0 +1,329 @@
+{
+  "id": "seeking-lost-pet-notice",
+  "title": "張貼社區尋找走失貓咪啟事",
+  "titleEn": "Posting a Notice to Find a Lost Cat in the Neighborhood",
+  "category": "健康與生活安全",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/seeking-lost-pet-notice.webp",
+    "alt": "在陽光穿透的社區公園木質公告欄前，一位女孩將畫有心愛橘貓彩色照片與紅色鈴鐺特徵的尋寵啟事海報，用圖釘端正固定在公告板上。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "got-lost-yesterday",
+      "english": "got lost yesterday",
+      "translation": "昨天走失了",
+      "audio": {
+        "src": "/audio/phrases/seeking-lost-pet-notice-got-lost-yesterday.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c93b6de93971f18801ce61bf503dc9ed33743d888c08e7a6419be00a3984040c",
+        "sha256": "fc368f19a1d41473516c62ddcb0ca34b6a969312d193a93eb44fb3fd93ea379d"
+      }
+    },
+    {
+      "id": "search-poster",
+      "english": "search poster",
+      "translation": "尋寵海報",
+      "audio": {
+        "src": "/audio/phrases/seeking-lost-pet-notice-search-poster.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "fd4ff8af6a5f865855f7c1ace51e1d63341bc101b88c25438f69da246e5f458c",
+        "sha256": "3d8c01e58872ab4755b9640c35b3c79962bad7f55dade936e20d2c9d03769303"
+      }
+    },
+    {
+      "id": "red-collar-with-a-bell",
+      "english": "red collar with a bell",
+      "translation": "附有鈴鐺的紅色項圈",
+      "audio": {
+        "src": "/audio/phrases/seeking-lost-pet-notice-red-collar-with-a-bell.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c7f3b55f9914cdeab234a3c9962d300318c00e5d9b56e1e4aab3f3e172bd00dd",
+        "sha256": "992017988661128450d766d0839b27f50017559b728933a31e6322539d92ccde"
+      }
+    },
+    {
+      "id": "community-notice-board",
+      "english": "community notice board",
+      "translation": "社區公告欄",
+      "audio": {
+        "src": "/audio/phrases/seeking-lost-pet-notice-community-notice-board.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6f52508b322ce971ddb393feef189c430483d399c4cfd7b56fa276a7a384671f",
+        "sha256": "0719fa86131c5f68366da09e65a9c2d73c321fb39ffcb89b5a1a01fbfc01102a"
+      }
+    },
+    {
+      "id": "safely-reunited",
+      "english": "safely reunited",
+      "translation": "平安重聚",
+      "audio": {
+        "src": "/audio/phrases/seeking-lost-pet-notice-safely-reunited.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4e38e49a1088fdb923af19071207a643a652d5995a88acdcbe07576c2e347abd",
+        "sha256": "975f8d77a13e64dab2cd84dca0342d133d86bd49cf07cf85aadd31dd45b3b3b1"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "pet",
+      "english": "pet",
+      "translation": "寵物",
+      "example": "Taking care of a pet teaches responsibility.",
+      "audio": {
+        "src": "/audio/words/seeking-lost-pet-notice-pet.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "bbba57318f71911354fdaab5d67ea8c352bfe113231e968a9ac1f4cf5b38e546",
+        "sha256": "c61bb386139c30dcbcda827696b396b121c47de9bf68bd52810a2f88a1329293"
+      }
+    },
+    {
+      "id": "cat",
+      "english": "cat",
+      "translation": "貓；貓咪",
+      "example": "The orange cat curled up asleep in the sun.",
+      "audio": {
+        "src": "/audio/words/seeking-lost-pet-notice-cat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "77af778b51abd4a3c51c5ddd97204a9c3ae614ebccb75a606c3b6865aed6744e",
+        "sha256": "24b545693217c153c32c3d31e70d9225c21757dfaca283fffb2d1793799303c7"
+      }
+    },
+    {
+      "id": "photo",
+      "english": "photo",
+      "translation": "照片；相片",
+      "example": "Show me the photo you took on your trip.",
+      "audio": {
+        "src": "/audio/words/seeking-lost-pet-notice-photo.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "55c64d0fcd6f9d5f7c828093857e3fdfda68478bb4e9bd24d481ef391c7804e8",
+        "sha256": "e4946da464d2f4362b8d12169d47ab0ab8d7c836552e2b0e152352ad71103495"
+      }
+    },
+    {
+      "id": "poster",
+      "english": "poster",
+      "translation": "海報；公告啟事",
+      "example": "They hung an art exhibition poster on the wall.",
+      "audio": {
+        "src": "/audio/words/seeking-lost-pet-notice-poster.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "293b9207228b7854bc3ccb2959ebea1583e066d41983124a5b381d6fdf6575f8",
+        "sha256": "9e652fad5ab60b6e17ef65e4ea5c883841f83501aa884759cea34f94631feff6"
+      }
+    },
+    {
+      "id": "contact",
+      "english": "contact",
+      "translation": "聯絡；聯繫",
+      "example": "Please write down your contact email address.",
+      "audio": {
+        "src": "/audio/words/seeking-lost-pet-notice-contact.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "093e7d5fdbaacfa92448861b11075b3fba532a07d945b49a44919252f5e830ad",
+        "sha256": "03f6c56fc3e6713361338958f3bf582daa476282a7b59c298e5fa6f3dfb86566"
+      }
+    },
+    {
+      "id": "reward",
+      "english": "reward",
+      "translation": "回報；報酬",
+      "example": "Hard work brings its own satisfying reward.",
+      "audio": {
+        "src": "/audio/words/seeking-lost-pet-notice-reward.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7696fff84f26472a9737981c0ef48600731e7b2a20c93e2dbfe06706ca0d31b0",
+        "sha256": "38e85c385d882903fa9e3635869aef94593cd5c2c828cdc5e21e36c4e3b9d35c"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Our beloved family "
+        },
+        {
+          "text": "pet",
+          "wordIds": [
+            "pet"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "cat",
+          "wordIds": [
+            "cat"
+          ]
+        },
+        {
+          "text": " slipped out of the balcony door and "
+        },
+        {
+          "text": "got lost yesterday",
+          "phraseIds": [
+            "got-lost-yesterday"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "我們全家心愛的寵物橘貓昨天從陽台門溜了出去走失了。",
+      "audio": {
+        "src": "/audio/sentences/seeking-lost-pet-notice/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e5c000101d0335f371b559cfdd8f7712712dd83435746921edba27e471f143a0",
+        "sha256": "7ededb1ace0db3d56822e69413e3538b1f4c6839d8978b48eec467eb5e4cb5c4"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We designed a clear "
+        },
+        {
+          "text": "search ",
+          "phraseIds": [
+            "search-poster"
+          ]
+        },
+        {
+          "text": "poster",
+          "phraseIds": [
+            "search-poster"
+          ],
+          "wordIds": [
+            "poster"
+          ]
+        },
+        {
+          "text": " with her color "
+        },
+        {
+          "text": "photo",
+          "wordIds": [
+            "photo"
+          ]
+        },
+        {
+          "text": " and distinguishing physical features."
+        }
+      ],
+      "translation": "我們設計了一張印有她彩色照片與明顯外觀特徵的清晰尋貓海報。",
+      "audio": {
+        "src": "/audio/sentences/seeking-lost-pet-notice/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6aba2470faafcffc4f184710b4b4d190f8634fc29d796a413a2e403f41f8dcd6",
+        "sha256": "21e7a89c9749e262093962dcf8dd8ac203da9439263a9f31d0716ddb1c1bc946"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "She is wearing a "
+        },
+        {
+          "text": "red collar with a bell",
+          "phraseIds": [
+            "red-collar-with-a-bell"
+          ]
+        },
+        {
+          "text": " around her neck."
+        }
+      ],
+      "translation": "她毛茸茸的脖子上戴著一條附有小銀鈴鐺的紅色小項圈。",
+      "audio": {
+        "src": "/audio/sentences/seeking-lost-pet-notice/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "59d6ec7646734e8782b71bea98d87f408fb3edaeb13836b19d2cb55d5bfa71f6",
+        "sha256": "9a81750e4ef5bb20961b66298764a3f9be2a9585ec5e47d1d29ab71231a6c5f9"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Please post this notice on the "
+        },
+        {
+          "text": "community notice board",
+          "phraseIds": [
+            "community-notice-board"
+          ]
+        },
+        {
+          "text": " near the park gate."
+        }
+      ],
+      "translation": "請把這份尋貓啟事張貼在公園大門旁邊的社區公告欄上。",
+      "audio": {
+        "src": "/audio/sentences/seeking-lost-pet-notice/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "091262dfccf47ff146c699b94ef8d9f535ed8dd4d5396e27b95c6375fb327040",
+        "sha256": "265f45372dd9e6d2aba0aa6b748e5bfd6dd0b8cfaaf971603e3afc78323b11a9"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "If you spot her, please "
+        },
+        {
+          "text": "contact",
+          "wordIds": [
+            "contact"
+          ]
+        },
+        {
+          "text": " our family and we will offer a kind "
+        },
+        {
+          "text": "reward",
+          "wordIds": [
+            "reward"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "如果有人看見她，請立即聯繫我們家人，我們會提供一份心意酬金。",
+      "audio": {
+        "src": "/audio/sentences/seeking-lost-pet-notice/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9e54cea15f5ce8e04b2a4643d5a67db3ac02ad6e485081216deb09e38a5167da",
+        "sha256": "d3b9785cad2376e9df41238c72a1a3370a182e5c5e3e64ec484389c3388b88c6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "A kind neighbor recognized the bell sound and "
+        },
+        {
+          "text": "safely reunited",
+          "phraseIds": [
+            "safely-reunited"
+          ]
+        },
+        {
+          "text": " her with our family."
+        }
+      ],
+      "translation": "一位好心的鄰居認出了鈴鐺的聲音，讓她平安順利地回到了我們全家人的身邊。",
+      "audio": {
+        "src": "/audio/sentences/seeking-lost-pet-notice/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9e8c79ad4562df9c7990b1fa9c09ef418592cffead67e2bcff7019215e36d53f",
+        "sha256": "3400bb724006da936e91cb4b37675a60cc802b4dbcead4a888b45308262bfd41"
+      }
+    }
+  ]
+}

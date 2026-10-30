@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "tool": "codex exec built-in imagegen",
+  "conversion": "1536x1024 landscape WebP, sharp quality 86; fit cover.",
+  "images": [
+    {
+      "id": "cafe-wifi-password",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/cafe-wifi-password.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2866f4eddfbaed316a561fbdde6163251858112ca88df4a7870fe37a538ca24e"
+    },
+    {
+      "id": "borrowing-power-bank",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/borrowing-power-bank.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b1cd5f587446c02f0bfbeb9b3e0cf81f8b4bc5942d6a12f3480ad086268a50f6"
+    },
+    {
+      "id": "resending-verification-code",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/resending-verification-code.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "306784dc0505a66777715a368b0f6818a499ea3e8dfa11c0e9b8b1b8c0e028aa"
+    },
+    {
+      "id": "device-connection-trouble",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/device-connection-trouble.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "4cfbce3d14acf5591218c73f1f81099c8ca3895493ac775fc94aa3cc9135af88"
+    },
+    {
+      "id": "confirming-online-booking",
+      "generatedTool": "codex exec built-in imagegen (gpt-image-2)",
+      "src": "/images/scenes/confirming-online-booking.webp",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "52663ec781df479c90419c5d77a227e69e665ed73a8d551f0ffb483f228cedee"
+    }
+  ]
+}

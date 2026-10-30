@@ -1,0 +1,332 @@
+{
+  "id": "asking-teacher-clarification",
+  "title": "課堂上請老師再講一次",
+  "titleEn": "Asking the Teacher for Clarification",
+  "category": "校園與學習",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/asking-teacher-clarification.webp",
+    "alt": "在科學實驗教室裡，學生禮貌舉手請老師放慢速度重新解釋混合液體的實驗步驟，老師親切微笑示範。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "pardon-me",
+      "english": "pardon me",
+      "translation": "不好意思；請原諒",
+      "audio": {
+        "src": "/audio/phrases/asking-teacher-clarification-pardon-me.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7ac8c1dd8209109f8020d302128eb7c889290f076152cc395d9800c2c0cf3f8d",
+        "sha256": "91b539b3f6046d837ad50a3bc780619de7371f0b1a1f621bd1cc2ebbdfb54387"
+      }
+    },
+    {
+      "id": "repeat-once-more",
+      "english": "repeat once more",
+      "translation": "再重複一次",
+      "audio": {
+        "src": "/audio/phrases/asking-teacher-clarification-repeat-once-more.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "72c2c29fdcf0ce744663a18d7ac044bd7b51ab8382b90da64ea5875ef09f77bc",
+        "sha256": "ce5d3f5b5e5f6a351e4bfc06987d0cbd0c8c235c4cac07c0c50e3603fec10a51"
+      }
+    },
+    {
+      "id": "raise-your-hand",
+      "english": "raise your hand",
+      "translation": "舉手",
+      "audio": {
+        "src": "/audio/phrases/asking-teacher-clarification-raise-your-hand.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7788843c635ef185ad725c45f84111da9b09ed183b07e52221c23029012b8305",
+        "sha256": "1da922a2f6903a25ce9b1f18edefceb3d9501b2e82851adff1813bd5b8ff6c9d"
+      }
+    },
+    {
+      "id": "for-example",
+      "english": "for example",
+      "translation": "舉例來說",
+      "audio": {
+        "src": "/audio/phrases/asking-teacher-clarification-for-example.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e67a8d131efbc2aeafb3dc338b7c48a3841cd0a424e3a7558932c9ae9d27d7b7",
+        "sha256": "0c323f9243159e5abb4080f4f397aa9955a6e57995db2c37c8773ac590d9e9f6"
+      }
+    },
+    {
+      "id": "what-you-mean",
+      "english": "what you mean",
+      "translation": "你的意思",
+      "audio": {
+        "src": "/audio/phrases/asking-teacher-clarification-what-you-mean.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9cc06988fd1f3e2ca49f72b5976a2d8a1f66d5136664ef0833680badf2c2d9c7",
+        "sha256": "285d6d905f34be9628adc96cefd50f17cb5916b20b692d4e5d13af9dccf7d806"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "repeat",
+      "english": "repeat",
+      "translation": "重複；重做",
+      "example": "Please repeat the new vocabulary after the audio.",
+      "audio": {
+        "src": "/audio/words/asking-teacher-clarification-repeat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "25e2b6b106523880e27763084ffa6a0756335be0d7106022535365b9ad39b4b1",
+        "sha256": "be13f532628b3df5b59abc3c08a052b5defee11c3264ff8e1261453def030368"
+      }
+    },
+    {
+      "id": "hear",
+      "english": "hear",
+      "translation": "聽到",
+      "example": "Can you hear the birds singing in the trees?",
+      "audio": {
+        "src": "/audio/words/asking-teacher-clarification-hear.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "49000c4444d51233fa10ad2015daccdef4ca48f3e5d1c99b98b295ea22071532",
+        "sha256": "52b8362f7f4d36c5d2b81a17c6c47ed0df7a1565147834e43c29dcf7edb479c8"
+      }
+    },
+    {
+      "id": "example",
+      "english": "example",
+      "translation": "例子",
+      "example": "Can you give me an example of a healthy snack?",
+      "audio": {
+        "src": "/audio/words/asking-teacher-clarification-example.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "50d858e0985ecc7f60418aaf0cc5ab587f42c2570a884095a9e8ccacd0f6545c",
+        "sha256": "274089bf04c25f2001514595630f6caa08601a6c49dd3ab0b2b8633ecdfc8ca2"
+      }
+    },
+    {
+      "id": "slowly",
+      "english": "slowly",
+      "translation": "慢慢地",
+      "example": "Speak slowly so the younger children can follow.",
+      "audio": {
+        "src": "/audio/words/asking-teacher-clarification-slowly.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "793080bb3a187fcaeac15b1797045cda6103b8fbc8836642def618ccc41cf96a",
+        "sha256": "06e752729ad2c0c9f9fe2dd98bca505482e0d70f75cbe39286702c30cf7bc317"
+      }
+    },
+    {
+      "id": "understand",
+      "english": "understand",
+      "translation": "了解、聽懂",
+      "example": "I understand the math formula after your explanation.",
+      "audio": {
+        "src": "/audio/words/asking-teacher-clarification-understand.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f9dc689e6d50ad6f35cc97059375b37b8149225f4fb7a192f4ea40051da5416a",
+        "sha256": "bb896df0d55d75ce4ad09b0bea1d03e5a944fdf2858490528f9aed9792158eec"
+      }
+    },
+    {
+      "id": "clear",
+      "english": "clear",
+      "translation": "清楚的",
+      "example": "The instructions on the whiteboard were very clear.",
+      "audio": {
+        "src": "/audio/words/asking-teacher-clarification-clear.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "913a4cb91be20332f3559f8070255d7ac3e6228bb423f4441551d3f783e7d4f4",
+        "sha256": "3f728d9dc75f4126a270f99d2dfd2d9e4e010e661aa48ae01370dfa22d55719c"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Pardon me",
+          "phraseIds": [
+            "pardon-me"
+          ]
+        },
+        {
+          "text": " teacher, could you please "
+        },
+        {
+          "text": "repeat",
+          "phraseIds": [
+            "repeat-once-more"
+          ],
+          "wordIds": [
+            "repeat"
+          ]
+        },
+        {
+          "text": " once more",
+          "phraseIds": [
+            "repeat-once-more"
+          ]
+        },
+        {
+          "text": " for our class?"
+        }
+      ],
+      "translation": "不好意思老師，您可以為全班再重複說一次嗎？",
+      "audio": {
+        "src": "/audio/sentences/asking-teacher-clarification/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "387cf9f0a54f0e62866ceb977dfdbe89c69025fecc1ae9ebd4d3f7936fc69bda",
+        "sha256": "ac670118c48ce73c17e0bd71380f8ae9c634b9fca159855aa358aa0b230b775c"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I did not "
+        },
+        {
+          "text": "hear",
+          "wordIds": [
+            "hear"
+          ]
+        },
+        {
+          "text": " clearly because there was some outside street noise."
+        }
+      ],
+      "translation": "我剛才沒有聽得很清楚，因為外面馬路上有些雜音干擾。",
+      "audio": {
+        "src": "/audio/sentences/asking-teacher-clarification/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "dc77711339de6ccc4a3db0c771811873b1c02c3cc729b1e7506437f16f9436cc",
+        "sha256": "720c8073fe5831cfc77be1f612e9fc28234c159fa9a12ed29b6c84c441701650"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Of course Leo, it is good to "
+        },
+        {
+          "text": "raise your hand",
+          "phraseIds": [
+            "raise-your-hand"
+          ]
+        },
+        {
+          "text": " to ask questions."
+        }
+      ],
+      "translation": "當然可以 Leo，主動舉手發問是很好的習慣。",
+      "audio": {
+        "src": "/audio/sentences/asking-teacher-clarification/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "303f8b917732d3a8757a2204538c9f61435a5e2ddb420a2f8455d9dfdd2ce140",
+        "sha256": "54acf2d4ebaac000f32962f23e4bc9dc29fdaad0ad61bf538331acfd901d510d"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Could you explain step three a bit more "
+        },
+        {
+          "text": "slowly",
+          "wordIds": [
+            "slowly"
+          ]
+        },
+        {
+          "text": " with a "
+        },
+        {
+          "text": "clear",
+          "wordIds": [
+            "clear"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "example",
+          "wordIds": [
+            "example"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "可以請您放慢一點速度，用一個清晰的例子解釋第三個步驟嗎？",
+      "audio": {
+        "src": "/audio/sentences/asking-teacher-clarification/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f2c7f3066f1470b26d0a447bc104c049f838067f9f28adb544472263b0af200a",
+        "sha256": "3affb2ae8cea6ea6c9092ff56b03a306ad8ac001234e40e0a381f649a971fe84"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "For ",
+          "phraseIds": [
+            "for-example"
+          ]
+        },
+        {
+          "text": "example",
+          "phraseIds": [
+            "for-example"
+          ],
+          "wordIds": [
+            "example"
+          ]
+        },
+        {
+          "text": ", when mixing the two liquids, stir them gently for one minute."
+        }
+      ],
+      "translation": "舉例來說，當把兩種液體混合時，用攪拌棒輕輕攪拌一分鐘。",
+      "audio": {
+        "src": "/audio/sentences/asking-teacher-clarification/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9ed8ab8e5579febab52573354e7ee861760e63138381c6bebcf89abf20cab55b",
+        "sha256": "8950f0b4189b9f3c6ca2b9bc2b9a06128abb7d9fd8c1889a16ee1a62bbb370f9"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Now I completely "
+        },
+        {
+          "text": "understand",
+          "wordIds": [
+            "understand"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "what you mean",
+          "phraseIds": [
+            "what-you-mean"
+          ]
+        },
+        {
+          "text": ", thank you very much."
+        }
+      ],
+      "translation": "我現在完全明白老師您的意思了，非常謝謝您。",
+      "audio": {
+        "src": "/audio/sentences/asking-teacher-clarification/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27beacc1c6ba8bf1d93e7846d3b710dc3a4ba77b9502ad8bd846932a6cbf8ffd",
+        "sha256": "f007053d4af7457d44f03933bf349e03e6ac479a67acced89538eb5cf2caf706"
+      }
+    }
+  ]
+}

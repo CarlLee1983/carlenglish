@@ -1,0 +1,1239 @@
+{
+  "profile": {
+    "id": "kokoro-af-heart-v1",
+    "label": "固定美式女聲",
+    "kind": "synthetic",
+    "accent": "美式英文",
+    "provider": "Kokoro",
+    "voice": "af_heart",
+    "libraryVersion": "0.9.4",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "voiceSha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff",
+    "sourceUrl": "https://huggingface.co/hexgrad/Kokoro-82M",
+    "modelLicenseName": "Apache-2.0",
+    "modelLicenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "sampleRate": 24000,
+    "speed": 1
+  },
+  "clips": [
+    {
+      "src": "/audio/sentences/ordering-custom-drink/1.mp3",
+      "text": "I would like a large black tea with milk, please.",
+      "textSha256": "382ef4b444060dcba884c98af3dc4def109a8f24527114b8bdb42ff0f8266a81",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6230028297034aa99b2313c2147cf7f3f446e6536157591ada1bedbeb177e025",
+      "duration": 3.175,
+      "graphemes": [
+        "I would like a large black tea with milk, please."
+      ],
+      "phonemes": [
+        "ˌI wʊd lˈIk ɐ lˈɑɹʤ blˈæk tˈi wɪð mˈɪlk, plˈiz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/ordering-custom-drink/2.mp3",
+      "text": "Could you please make it with less ice and half sugar?",
+      "textSha256": "8677a784b384de0c6fab7915971001c95bf63f6717b4a74e9a8a8406cb3ff11d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a46b319631492d2c4597bce6d082b842aa2981a60f1f6bd88c301c6e97c34cf4",
+      "duration": 3.25,
+      "graphemes": [
+        "Could you please make it with less ice and half sugar?"
+      ],
+      "phonemes": [
+        "kˌʊd ju plˈiz mˌAk ɪt wɪð lˈɛs ˈIs ænd hˈæf ʃˈʊɡəɹ?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/ordering-custom-drink/3.mp3",
+      "text": "Actually, I want it not too sweet, and please do not add more sugar.",
+      "textSha256": "677f449774dfd18f9478f76b8358cbbe43e7ac44bbc4c8d543e2d9e252ed2ded",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a39a4018349fae47c7077675b57a68ff3ed99b28fdda2058f10b39aea62e1eeb",
+      "duration": 4.425,
+      "graphemes": [
+        "Actually, I want it not too sweet, and please do not add more sugar."
+      ],
+      "phonemes": [
+        "ˈækʧəwəli, ˌI wˈɑnt ɪt nˌɑt tˈu swˈit, ænd plˈiz dˈu nˌɑt ˈæd mˈɔɹ ʃˈʊɡəɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/ordering-custom-drink/4.mp3",
+      "text": "We have two types of tea leaves available this season.",
+      "textSha256": "036b883db3b162fb8a25137666762450d963950d2899750dbce70cd38f563f9b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4ce5ce5653c0856440009279a7a86b75a71608a77c9e3ed72fa6d850e60fb8c0",
+      "duration": 3.3,
+      "graphemes": [
+        "We have two types of tea leaves available this season."
+      ],
+      "phonemes": [
+        "wˌi hæv tˈu tˈIps ʌv tˈi lˈivz əvˈAləbᵊl ðɪs sˈizᵊn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/ordering-custom-drink/5.mp3",
+      "text": "Instead of pearls, can I add herbal jelly this time?",
+      "textSha256": "dbec21a77bab8408b24576c9e84e50f4ed1f8af1709973442a50d61566a41d99",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "48fd119da4fb2f2fe2d7189d86e74505569838cb9bb1776217772dd0f165b6b4",
+      "duration": 3.6,
+      "graphemes": [
+        "Instead of pearls, can I add herbal jelly this time?"
+      ],
+      "phonemes": [
+        "ɪnstˈɛd ʌv pˈɜɹlz, kæn ˌI ˈæd hˈɜɹbᵊl ʤˈɛli ðɪs tˈIm?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/ordering-custom-drink/6.mp3",
+      "text": "That will be fifty-four dollars at the counter.",
+      "textSha256": "a62f25f1919a272a7dbe77ab3038736a1b26804227dfe63f2ad8e4a3c92b539d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e995a434e47f6be375541c07f91b041d6180457bc07f9eb56eff639f56fe4369",
+      "duration": 2.85,
+      "graphemes": [
+        "That will be fifty-four dollars at the counter."
+      ],
+      "phonemes": [
+        "ðˈæt wɪl bi fˈɪftifˌɔɹ dˈɑləɹz æt ðə kˈWntəɹ."
+      ]
+    },
+    {
+      "src": "/audio/phrases/ordering-custom-drink-with-less-ice.mp3",
+      "text": "with less ice",
+      "textSha256": "24538a92e4f57324cb9a1e3b8656c35a29806718923ad1398db57751b3005d68",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "382c95299cbac00b23490cece022188723dcc34bdf1bc9ebd11e5bdc692b4def",
+      "duration": 1.575,
+      "graphemes": [
+        "with less ice"
+      ],
+      "phonemes": [
+        "wɪð lˈɛs ˈIs"
+      ]
+    },
+    {
+      "src": "/audio/phrases/ordering-custom-drink-half-sugar.mp3",
+      "text": "half sugar",
+      "textSha256": "f96b945f4c5f299402aaae01827c8a9639e356db0cf9cd6478f011cd3ec438ca",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f41dafa305071b1d976af5c6d5795201a511eda314ee7bd3228c39a6ae2f1468",
+      "duration": 1.525,
+      "graphemes": [
+        "half sugar"
+      ],
+      "phonemes": [
+        "hˈæf ʃˈʊɡəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/ordering-custom-drink-not-too-sweet.mp3",
+      "text": "not too sweet",
+      "textSha256": "43859214daf5d79f4f341c5cc2bdb87edb63f43a6c3785d70410cca07227260f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5e095ebfd8a3b10e4844da242819294233ef6db2f944e92af8866901b5fd32e1",
+      "duration": 1.675,
+      "graphemes": [
+        "not too sweet"
+      ],
+      "phonemes": [
+        "nˌɑt tˈu swˈit"
+      ]
+    },
+    {
+      "src": "/audio/phrases/ordering-custom-drink-two-types-of-tea.mp3",
+      "text": "two types of tea",
+      "textSha256": "b8ac75d312d61c3499ee78a32e4dcc8d542c709799bf155fc76cee362f4f333f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c9d7b05465c49730cc950ead2daf429fd83f5cf812889c271e0fcd789925c1dd",
+      "duration": 1.8,
+      "graphemes": [
+        "two types of tea"
+      ],
+      "phonemes": [
+        "tˈu tˈIps ʌv tˈi"
+      ]
+    },
+    {
+      "src": "/audio/phrases/ordering-custom-drink-instead-of-pearls.mp3",
+      "text": "instead of pearls",
+      "textSha256": "76da328d48e4f8823cadc4f72c60bc214b42bd57d668ed7220ea3423706caf90",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "126d9b6b51975dbbe6c3e4cdfce523545ab73af183607e403cc3a0291063a02f",
+      "duration": 1.75,
+      "graphemes": [
+        "instead of pearls"
+      ],
+      "phonemes": [
+        "ɪnstˈɛd ʌv pˈɜɹlz"
+      ]
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-sweet.mp3",
+      "text": "sweet",
+      "textSha256": "b9043c16af362f30807deaf692025d61c3c803bba1efc43fe2f63dc8b507418d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "57ebbbaf1aa10eff9205f753e8ef9618e7152b9ca11d7d7fd36ae04a4a735e04",
+      "duration": 1.3,
+      "graphemes": [
+        "sweet"
+      ],
+      "phonemes": [
+        "swˈit"
+      ]
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-ice.mp3",
+      "text": "ice",
+      "textSha256": "4cb0b250c6250d528f3e61d07d970892168db68bbff1ea5be4a851eda411adfb",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "86efb273304f702c53e6ff5426b7c63de5100c5053add8c826f4afbb296c83a3",
+      "duration": 1.275,
+      "graphemes": [
+        "ice"
+      ],
+      "phonemes": [
+        "ˈIs"
+      ]
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-less.mp3",
+      "text": "less",
+      "textSha256": "4fdd3b6201a22c7814d6e67dbb7a17790224ea0fd32ef0a0ccb0a5485eae4c9d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "699b2b2736c9f9500bb5742bb928724186d1546f878391305543ce643cad804b",
+      "duration": 1.3,
+      "graphemes": [
+        "less"
+      ],
+      "phonemes": [
+        "lˈɛs"
+      ]
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-more.mp3",
+      "text": "more",
+      "textSha256": "187897ce0afcf20b50ba2b37dca84a951b7046f29ed5ab94f010619f69d6e189",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a6b2e0f2f1b55ebeb734ecfe9212f999ce172df770e499d6e1efc37ecaffc4da",
+      "duration": 1.25,
+      "graphemes": [
+        "more"
+      ],
+      "phonemes": [
+        "mˈɔɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-type.mp3",
+      "text": "type",
+      "textSha256": "1303c06b0b014d0ce7b988ab173a13f31227d417058ff4bbe6f8c222b4ad913c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "285b9ccdc6dbdf3118ffc958757be942f1838b62d10d39f97ae78bf15eca34f7",
+      "duration": 1.275,
+      "graphemes": [
+        "type"
+      ],
+      "phonemes": [
+        "tˈIp"
+      ]
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-actually.mp3",
+      "text": "actually",
+      "textSha256": "e4c05c565b8cac5ea25494e0abca7751fae5d5e17457de07f03f247b65666b0e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5b6d64b9c60868a7f474d717a20e3694bbe6c124b17b87d9a78dee0a6001568a",
+      "duration": 1.5,
+      "graphemes": [
+        "actually"
+      ],
+      "phonemes": [
+        "ˈækʧəwəli"
+      ]
+    },
+    {
+      "src": "/audio/words/ordering-custom-drink-instead.mp3",
+      "text": "instead",
+      "textSha256": "99262a0284ae7670f20fbfe4f87e8d7befdb5bc3431c5ea08dbd84d7206cf395",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "56fcdde1576aec5576f968e338900a9111b451e8d066a1948849a8115112faca",
+      "duration": 1.45,
+      "graphemes": [
+        "instead"
+      ],
+      "phonemes": [
+        "ɪnstˈɛd"
+      ]
+    },
+    {
+      "src": "/audio/sentences/checking-food-allergens/1.mp3",
+      "text": "Excuse me, does it contain any peanuts in this salad dressing?",
+      "textSha256": "7e0896f1b061f75d2fd0cd5ee6985d3b15ffb2b59f234dddab2878fe4386b205",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c373086ce97471741084137ef960b26c50e4b567fe61429ad3881222a57c5ff1",
+      "duration": 4.1,
+      "graphemes": [
+        "Excuse me, does it contain any peanuts in this salad dressing?"
+      ],
+      "phonemes": [
+        "ɪkskjˈuz mˌi, dˈʌz ɪt kəntˈAn ˈɛni pˈinˌʌts ɪn ðɪs sˈæləd dɹˈɛsɪŋ?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/checking-food-allergens/2.mp3",
+      "text": "I need to be sure about this because my sister has a bad allergy.",
+      "textSha256": "7bae62cc9ed8a077cb2c036b3ae5a01ebfa5c62b3fb4a52fe4ee333a1344745b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "be4a1189802550d0fbf3d3e1d2c15ebb79f5a9b7b556a59ac7710a94cb7155e9",
+      "duration": 4.3,
+      "graphemes": [
+        "I need to be sure about this because my sister has a bad allergy."
+      ],
+      "phonemes": [
+        "ˌI nˈid tə bi ʃˈʊɹ əbˈWt ðɪs bəkˈʌz mI sˈɪstəɹ hæz ɐ bˈæd ˈæləɹʤi."
+      ]
+    },
+    {
+      "src": "/audio/sentences/checking-food-allergens/3.mp3",
+      "text": "If it contains nuts, could you prepare a safe one without dressing?",
+      "textSha256": "81e7778ad17111b026c7ecfcd4db363e1de7701e74c7c0aade54d16172442900",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "57d5952c7052e4a8dd2b44760cb106d5d8f4811be2693d5aad69d35fef1f9287",
+      "duration": 4.2,
+      "graphemes": [
+        "If it contains nuts, could you prepare a safe one without dressing?"
+      ],
+      "phonemes": [
+        "ˌɪf ɪt kəntˈAnz nˈʌts, kʊd ju pɹipˈɛɹ ɐ sˈAf wˈʌn wɪðˈWt dɹˈɛsɪŋ?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/checking-food-allergens/4.mp3",
+      "text": "Our kitchen uses a special kind of olive oil for that.",
+      "textSha256": "a063d826e2cfdc2aba7d45f7dbdb95ff95baf520681044ec51af8beb06b5c04d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "5e910e0db5c4258013f0554241982632612251eb358081a72c35871de794c504",
+      "duration": 3.725,
+      "graphemes": [
+        "Our kitchen uses a special kind of olive oil for that."
+      ],
+      "phonemes": [
+        "ˌWəɹ kˈɪʧᵊn jˈuzᵻz ɐ spˈɛʃᵊl kˈInd ʌv ˈɑləv ˈYl fɔɹ ðˈæt."
+      ]
+    },
+    {
+      "src": "/audio/sentences/checking-food-allergens/5.mp3",
+      "text": "Does that mean there is no dairy in this dish?",
+      "textSha256": "b7d1c151519c369371e5e44bc0abcd3cfe190baea22d2d2752f83e36bc36fe69",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "4e3707d7ddf10131826019ce1b163bcd10be4e486291f041efedf418a4dbe4fd",
+      "duration": 2.875,
+      "graphemes": [
+        "Does that mean there is no dairy in this dish?"
+      ],
+      "phonemes": [
+        "dˈʌz ðˈæt mˈin ðɛɹ ɪz nˈO dˈɛɹi ɪn ðɪs dˈɪʃ?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/checking-food-allergens/6.mp3",
+      "text": "Do not worry, food allergies really matter to us, so it is safe.",
+      "textSha256": "7a28dcccd9692245bc68fdcb9bf25606fc1972c56bad21915f273b78c5a99eb8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2df89d586b5d658128f8cdb3951f2f10804bb74558069e1b1dc0eb00a4ab5284",
+      "duration": 4.2,
+      "graphemes": [
+        "Do not worry, food allergies really matter to us, so it is safe."
+      ],
+      "phonemes": [
+        "dˈu nˌɑt wˈɜɹi, fˈud ˈæləɹʤiz ɹˈiᵊli mˈæTəɹ tʊ ˌʌs, sˌO ɪt ɪz sˈAf."
+      ]
+    },
+    {
+      "src": "/audio/phrases/checking-food-allergens-does-it-contain.mp3",
+      "text": "does it contain",
+      "textSha256": "9a74694f73a9d5e94f3a46a88694aca413e4feb48ba6abf5b2626c53e5488345",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d6d434fb9f501b07adfb187b58dfaa4135d077ae7237b40e898eb5c0d1089f00",
+      "duration": 1.675,
+      "graphemes": [
+        "does it contain"
+      ],
+      "phonemes": [
+        "dˈʌz ɪt kəntˈAn"
+      ]
+    },
+    {
+      "src": "/audio/phrases/checking-food-allergens-be-sure-about.mp3",
+      "text": "be sure about",
+      "textSha256": "dd212843759b3b34c0b9ef4523d712834407ef2ff6b27b3757841499fad72f24",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "33b59195a4449e65e18f0c2c3c4432fe83a67f7a23ce38bdf236b4770b257b0f",
+      "duration": 1.55,
+      "graphemes": [
+        "be sure about"
+      ],
+      "phonemes": [
+        "bi ʃˈʊɹ əbˈWt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/checking-food-allergens-has-a-bad-allergy.mp3",
+      "text": "has a bad allergy",
+      "textSha256": "4c6d102614b7b02f9e116411a0045573d7802f79a136d157ca69897ebf474f65",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6cee09adf0fef5f912f9b914a9a8ae8a24d25e8ead8667bdae8cf8f0c10d12ea",
+      "duration": 1.825,
+      "graphemes": [
+        "has a bad allergy"
+      ],
+      "phonemes": [
+        "hæz ɐ bˈæd ˈæləɹʤi"
+      ]
+    },
+    {
+      "src": "/audio/phrases/checking-food-allergens-does-that-mean.mp3",
+      "text": "does that mean",
+      "textSha256": "f6a1c2756e343e858a931aa177215c87c264547b82af47ec5a3d18749823b3c0",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "74228eecbddd0a3b042501e0aee449326af2d2333f890203226320c8c9008868",
+      "duration": 1.55,
+      "graphemes": [
+        "does that mean"
+      ],
+      "phonemes": [
+        "dˈʌz ðˈæt mˈin"
+      ]
+    },
+    {
+      "src": "/audio/phrases/checking-food-allergens-do-not-worry.mp3",
+      "text": "do not worry",
+      "textSha256": "366e1dc2b25cd190487577adaaa2d031118f2d5d3104eb7bd78bba15f228cd10",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ff902cb616dcef8d8424d5fe362fe90506c21e57ceedde0a74717aa06406856c",
+      "duration": 1.525,
+      "graphemes": [
+        "do not worry"
+      ],
+      "phonemes": [
+        "dˈu nˌɑt wˈɜɹi"
+      ]
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-contain.mp3",
+      "text": "contain",
+      "textSha256": "dd9245cc1ddc69c88a8a530dea2b643123ffcdb0509e7d0566db22654b57cb12",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b32cd1ee47373093b9f1f75f4639ef267dbbe15678091f841c32efb78581228e",
+      "duration": 1.525,
+      "graphemes": [
+        "contain"
+      ],
+      "phonemes": [
+        "kəntˈAn"
+      ]
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-sure.mp3",
+      "text": "sure",
+      "textSha256": "c0cafcf0e2d6a236aca78b03f4c33b25ca970788fd6adde4ccc7db6acecb3ee1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cf0ea0a25c6342ac622d18ee0b2a7eaf9358933c807eea55f385a4ec74965e96",
+      "duration": 1.275,
+      "graphemes": [
+        "sure"
+      ],
+      "phonemes": [
+        "ʃˈʊɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-safe.mp3",
+      "text": "safe",
+      "textSha256": "8b3369944dd2a3fab39e32d1aeb1f763946a458ae3e6368a46432adc8f3a0860",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1ba788284668f87ebd8fa25f15e1c75905569a307991694e09ceefab115783c7",
+      "duration": 1.275,
+      "graphemes": [
+        "safe"
+      ],
+      "phonemes": [
+        "sˈAf"
+      ]
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-kind.mp3",
+      "text": "kind",
+      "textSha256": "0b27c158feb36ab18a10ff687909ec730ece6280581dd407e2672359be7725dd",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b5b50220e0919ec5bcef22db819c0671b7d58dffe60966d1c13f7c2ece1e1938",
+      "duration": 1.35,
+      "graphemes": [
+        "kind"
+      ],
+      "phonemes": [
+        "kˈInd"
+      ]
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-matter.mp3",
+      "text": "matter",
+      "textSha256": "57523f642f63eabb2a4f6804ad9efe4131c56c0784de25ef63ed7e6ee2ba10a3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "c1350d54032bc5e5bfcd71956fee99d80a589c8468f7cd28593a05b3fc966320",
+      "duration": 1.35,
+      "graphemes": [
+        "matter"
+      ],
+      "phonemes": [
+        "mˈæTəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-worry.mp3",
+      "text": "worry",
+      "textSha256": "6de2f53e03e93dffb34ac0c77302d66128184fc2a8478ef82ca404fe054308a3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "76c1d7e867c5e49f42afcef38008be5acb600bb63e3f1a25acddcc3235211e5d",
+      "duration": 1.375,
+      "graphemes": [
+        "worry"
+      ],
+      "phonemes": [
+        "wˈɜɹi"
+      ]
+    },
+    {
+      "src": "/audio/words/checking-food-allergens-mean.mp3",
+      "text": "mean",
+      "textSha256": "82523faea1b0f2da676a0561d597000bb6918036c6e541dc1145966141864332",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a80dd271581c6daff6d1242dbb1a064f6a9bc87f454aaedc08fe8fedc576dc7f",
+      "duration": 1.35,
+      "graphemes": [
+        "mean"
+      ],
+      "phonemes": [
+        "mˈin"
+      ]
+    },
+    {
+      "src": "/audio/sentences/split-bill-takeout/1.mp3",
+      "text": "Could we split the bill, or do we have to pay together?",
+      "textSha256": "616e4ab24fd5da9311f514e641c16ef1a3ec2056bfe6a922d31cb10974b01ee3",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "56f91cd7573d726a1dd24c987c459a6a1331d4d6806a6cb7dfaa53a0fd043e09",
+      "duration": 3.325,
+      "graphemes": [
+        "Could we split the bill, or do we have to pay together?"
+      ],
+      "phonemes": [
+        "kˌʊd wi splˈɪt ðə bˈɪl, ɔɹ dˈu wi hæv tə pˈA təɡˈɛðəɹ?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/split-bill-takeout/2.mp3",
+      "text": "You can pay separately with cash or card.",
+      "textSha256": "b983444b749b6ba40ad9651ec6c501d1b55b7244bf13a34bdd6b1c049d6a4e2e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d645105b861819a2a4e6bf518c931f05f8bd708bce3c0f44ce4c8b1e4dd93190",
+      "duration": 2.75,
+      "graphemes": [
+        "You can pay separately with cash or card."
+      ],
+      "phonemes": [
+        "jˌu kæn pˈA sˈɛpəɹətli wɪð kˈæʃ ɔɹ kˈɑɹd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/split-bill-takeout/3.mp3",
+      "text": "Each person will pay sixteen dollars for lunch.",
+      "textSha256": "83cbfdf13b9871e0e3a296ac2a66b5c2ed4efdda1b25763ac8157bf2a0390e0b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a83c4bba859fee7f888b263616efeb0797c02f615b2b0e8e179b7d0b726664bb",
+      "duration": 3.05,
+      "graphemes": [
+        "Each person will pay sixteen dollars for lunch."
+      ],
+      "phonemes": [
+        "ˈiʧ pˈɜɹsᵊn wɪl pˈA sˌɪkstˈin dˈɑləɹz fɔɹ lˈʌnʧ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/split-bill-takeout/4.mp3",
+      "text": "The total cost includes the soup and the side dishes.",
+      "textSha256": "17f7738f104d9b7cd9e9b023db9c7bb89944fd77f7095e04471f56f6be875075",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "688d83bf7bc5db939f0f3c9b2c0db1622125a720aa617a8f770f9f813e973eec",
+      "duration": 3.625,
+      "graphemes": [
+        "The total cost includes the soup and the side dishes."
+      ],
+      "phonemes": [
+        "ðə tˈOTᵊl kˈɔst ɪnklˈudz ðə sˈup ænd ðə sˈId dˈɪʃᵻz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/split-bill-takeout/5.mp3",
+      "text": "Could we also get a box for the leftover pasta?",
+      "textSha256": "b46f3c8fd3bf356eb47ea22761134b06e3530abd78bbc4f68aae16850b0b6397",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a6ca15dd323e43a7ca1a4b0810cef19dbfbc71e85586e169252d49cbc4179034",
+      "duration": 3.1,
+      "graphemes": [
+        "Could we also get a box for the leftover pasta?"
+      ],
+      "phonemes": [
+        "kˌʊd wi ˈɔlsO ɡɛt ɐ bˈɑks fɔɹ ðə lˈɛftˌOvəɹ pˈɑstə?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/split-bill-takeout/6.mp3",
+      "text": "Sure, I will bring a clean paper box to your table right away.",
+      "textSha256": "92a1fdccd52e2ab0f27c7be9fd5243da8951b69d70f4c05d02334a768714ed46",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "33dea0959a363b239fc3ab03e4a83aedbee5850518361c70ef848a5a612f5945",
+      "duration": 3.875,
+      "graphemes": [
+        "Sure, I will bring a clean paper box to your table right away."
+      ],
+      "phonemes": [
+        "ʃˈʊɹ, ˌI wɪl bɹˈɪŋ ɐ klˈin pˈApəɹ bˈɑks tə jʊɹ tˈAbᵊl ɹˈIt əwˈA."
+      ]
+    },
+    {
+      "src": "/audio/phrases/split-bill-takeout-split-the-bill.mp3",
+      "text": "split the bill",
+      "textSha256": "3c76625529f33d956f103143e0ab51824bea424a2f09f02f073b86b36addbf68",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b504533135ab31fdf7fb02958b01cdd20f8bdb3c67607d5e2622daae81054b67",
+      "duration": 1.65,
+      "graphemes": [
+        "split the bill"
+      ],
+      "phonemes": [
+        "splˈɪt ðə bˈɪl"
+      ]
+    },
+    {
+      "src": "/audio/phrases/split-bill-takeout-pay-together.mp3",
+      "text": "pay together",
+      "textSha256": "c8196d045e9ea740ad306fe85ab58e14c2f36479e57c31c9fd3dfcd5199b565a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8ab2f93f54dbe57383da3d11749fe4751422edfe4db3c9e4b0714adceed51a6d",
+      "duration": 1.5,
+      "graphemes": [
+        "pay together"
+      ],
+      "phonemes": [
+        "pˈA təɡˈɛðəɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/split-bill-takeout-pay-separately.mp3",
+      "text": "pay separately",
+      "textSha256": "8dd5f634bd618616ab7cec510cb056ff3414c6ceecd9cd414587ca21ca45f524",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2998ac2250579c351aafec7aae1a024a07de202c2be12864626b1603cdbd7f42",
+      "duration": 1.625,
+      "graphemes": [
+        "pay separately"
+      ],
+      "phonemes": [
+        "pˈA sˈɛpəɹətli"
+      ]
+    },
+    {
+      "src": "/audio/phrases/split-bill-takeout-total-cost.mp3",
+      "text": "total cost",
+      "textSha256": "15b876237e8435f0df5183e01d729010b66c640bacd9feffe1d0eebcd8fcae7b",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bddb1c158bf492a271641d32cc0b48c09ea98aa4e84db0764a41e2979a39c6da",
+      "duration": 1.675,
+      "graphemes": [
+        "total cost"
+      ],
+      "phonemes": [
+        "tˈOTᵊl kˈɔst"
+      ]
+    },
+    {
+      "src": "/audio/phrases/split-bill-takeout-leftover-pasta.mp3",
+      "text": "leftover pasta",
+      "textSha256": "f4e350d0b4dfa21313845e857e3c6ea75a62578d3adf6468177705708e23cc42",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1bafcd79298dbcc8a3f44b7307357ffa8d669e354fba2917133ff78d35e2ffe9",
+      "duration": 1.925,
+      "graphemes": [
+        "leftover pasta"
+      ],
+      "phonemes": [
+        "lˈɛftˌOvəɹ pˈɑstə"
+      ]
+    },
+    {
+      "src": "/audio/words/split-bill-takeout-split.mp3",
+      "text": "split",
+      "textSha256": "ad1a64057f9ab34fecfe3f4ee78660bb0316dbda9370581ffbeb1e8bddf3d598",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "14342b88a364ab1ea3f2f954aee1a3d08206486b41e0bcd21882847c1c9dccac",
+      "duration": 1.325,
+      "graphemes": [
+        "split"
+      ],
+      "phonemes": [
+        "splˈɪt"
+      ]
+    },
+    {
+      "src": "/audio/words/split-bill-takeout-bill.mp3",
+      "text": "bill",
+      "textSha256": "623210167553939c87ed8c5f2bfe0b3e0684e12c3a3dd2513613c4e67263b5a1",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "fdcfc5bd5e28bd697fb7648156a08fca397bd5573e127116fcba8361c3d5866e",
+      "duration": 1.3,
+      "graphemes": [
+        "bill"
+      ],
+      "phonemes": [
+        "bˈɪl"
+      ]
+    },
+    {
+      "src": "/audio/words/split-bill-takeout-separate.mp3",
+      "text": "separate",
+      "textSha256": "80ed840f94f7d1bdf549226fd21c8d3927f38009f17539a1aa3a239c04afbd2f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "af0dc8bd65652f0de89fc040b73829db3057f00083f8c55998d91486d33e1b0b",
+      "duration": 1.4,
+      "graphemes": [
+        "separate"
+      ],
+      "phonemes": [
+        "sˈɛpəɹət"
+      ]
+    },
+    {
+      "src": "/audio/words/split-bill-takeout-together.mp3",
+      "text": "together",
+      "textSha256": "0c24734d7bf5954f08e5bfe4820b0b2f63da8d658df37c9d50080485e034b721",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "63cf9cff647591c756903aa9033b28f82c88fc25886622a9e4e8767aebf0a8da",
+      "duration": 1.4,
+      "graphemes": [
+        "together"
+      ],
+      "phonemes": [
+        "təɡˈɛðəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/split-bill-takeout-each.mp3",
+      "text": "each",
+      "textSha256": "bec1687971e36be51a298f172aa898ab48a465012ae40e6292825c432d7d82b8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "93107def751b7825adf56ee48aa7fa2c96f425c526b08c8fc4fd853387e02e9f",
+      "duration": 1.275,
+      "graphemes": [
+        "each"
+      ],
+      "phonemes": [
+        "ˈiʧ"
+      ]
+    },
+    {
+      "src": "/audio/words/split-bill-takeout-cost.mp3",
+      "text": "cost",
+      "textSha256": "9f82f7b375f4aa1bd7d50abe0f760c4ca5a8f0208aa68555489c39dd7c7aeeaa",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "680d626b8bf190aeb829a3e83c16788bcdbc7c37d054ee1824cf7e88619f77bf",
+      "duration": 1.375,
+      "graphemes": [
+        "cost"
+      ],
+      "phonemes": [
+        "kˈɔst"
+      ]
+    },
+    {
+      "src": "/audio/sentences/wrong-order-at-restaurant/1.mp3",
+      "text": "Excuse me, I think there is a small mistake here; this is not what I ordered.",
+      "textSha256": "4bc81d7fdfb33d7fc93efca40c27a9e036b69e39ebd34153c025244489c54064",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "aa13dcae7c5e46c24acb59bb12bf541e999cbdec8ef020cf625ebf30074d5cf2",
+      "duration": 4.875,
+      "graphemes": [
+        "Excuse me, I think there is a small mistake here; this is not what I ordered."
+      ],
+      "phonemes": [
+        "ɪkskjˈuz mˌi, ˌI θˈɪŋk ðɛɹ ɪz ɐ smˈɔl məstˈAk hˈɪɹ; ðɪs ɪz nˌɑt wˌʌt ˌI ˈɔɹdəɹd."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wrong-order-at-restaurant/2.mp3",
+      "text": "This wrong plate is a beef burger, but my order was the chicken sandwich.",
+      "textSha256": "e1d1483c56a5910cc1fff66b4191aea97142afb3769c6347f2d6e1fe9090f974",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "7d40e9b584a972d2367a1270d384574f2966a10995de2ee14789fe5750fb787f",
+      "duration": 4.575,
+      "graphemes": [
+        "This wrong plate is a beef burger, but my order was the chicken sandwich."
+      ],
+      "phonemes": [
+        "ðˌɪs ɹˈɔŋ plˈAt ɪz ɐ bˈif bˈɜɹɡəɹ, bˌʌt mI ˈɔɹdəɹ wʌz ðə ʧˈɪkən sˈændwˌɪʧ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wrong-order-at-restaurant/3.mp3",
+      "text": "Oh, I am really sorry about that confusion.",
+      "textSha256": "68514b65a6f3c006c001697a32caba0807e044ae21b12fb73e1357dd1f25d089",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "71f2bcd13c7fc182351f6853252c1d8b530188fc3de18dff64ae0bc6f9f4f965",
+      "duration": 3.15,
+      "graphemes": [
+        "Oh, I am really sorry about that confusion."
+      ],
+      "phonemes": [
+        "ˈO, ˌI ɐm ɹˈiᵊli sˈɔɹi əbˈWt ðˈæt kənfjˈuʒᵊn."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wrong-order-at-restaurant/4.mp3",
+      "text": "Let me check your ticket with the kitchen staff right now.",
+      "textSha256": "c01f15ea85c5f5d93d8ec5dcb5f73e6c9f077a61cfe820641c02fadd64a5b006",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f669f1da0981f75c3d6a466df7b271dbb02b1f15ca98f5f4c1e085dc011d40ab",
+      "duration": 3.325,
+      "graphemes": [
+        "Let me check your ticket with the kitchen staff right now."
+      ],
+      "phonemes": [
+        "lˈɛt mˌi ʧˈɛk jʊɹ tˈɪkət wɪð ðə kˈɪʧᵊn stˈæf ɹˈIt nˈW."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wrong-order-at-restaurant/5.mp3",
+      "text": "We will bring you the correct chicken sandwich in just five minutes.",
+      "textSha256": "d7011b1b076b4fc5f92bca33b124446271fe5ab180be65b7bfd3970c84cc88d4",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ce53f840ace0305fd7e1f005c7d22da8d22df89003d25314d697fc52436b607c",
+      "duration": 3.95,
+      "graphemes": [
+        "We will bring you the correct chicken sandwich in just five minutes."
+      ],
+      "phonemes": [
+        "wˌi wɪl bɹˈɪŋ ju ðə kəɹˈɛkt ʧˈɪkən sˈændwˌɪʧ ɪn ʤˈʌst fˈIv mˈɪnəts."
+      ]
+    },
+    {
+      "src": "/audio/sentences/wrong-order-at-restaurant/6.mp3",
+      "text": "Of course, please keep your drink while you wait.",
+      "textSha256": "975e67f0f58c0b19c716bd343cac25f4ab97e67b77544e47c18e973f0661b024",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e68dadb601c8959ab4810f334161538ee4187683c5d18e9345a296d2efd30a6f",
+      "duration": 2.925,
+      "graphemes": [
+        "Of course, please keep your drink while you wait."
+      ],
+      "phonemes": [
+        "ˌʌv kˈɔɹs, plˈiz kˈip jʊɹ dɹˈɪŋk wˌIl ju wˈAt."
+      ]
+    },
+    {
+      "src": "/audio/phrases/wrong-order-at-restaurant-a-small-mistake.mp3",
+      "text": "a small mistake",
+      "textSha256": "59fc33028c0447215620397cda0a72db0e354e022d3ebe3e47263eb571410642",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "dc04be0377f0ea63d642253005093e05ac3c27309995b0df574402ad42f26271",
+      "duration": 1.65,
+      "graphemes": [
+        "a small mistake"
+      ],
+      "phonemes": [
+        "ɐ smˈɔl məstˈAk"
+      ]
+    },
+    {
+      "src": "/audio/phrases/wrong-order-at-restaurant-what-i-ordered.mp3",
+      "text": "what I ordered",
+      "textSha256": "e5e136bfe48aaec391c4ea108f4c38244f279aacdb3adbebcbfccb173339d552",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "ee8a7b43c128455e1ee1c738f6d1b9538d164f1daca0b0659e7db95e16915a8e",
+      "duration": 1.55,
+      "graphemes": [
+        "what I ordered"
+      ],
+      "phonemes": [
+        "wˌʌt ˌI ˈɔɹdəɹd"
+      ]
+    },
+    {
+      "src": "/audio/phrases/wrong-order-at-restaurant-sorry-about-that.mp3",
+      "text": "sorry about that",
+      "textSha256": "521666a0268bb99e3675455617f9c8c347f707231a02a79cb0f76499de8f74ed",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "6668169bb23d4a8e1b0bf4c393329f6c708d4fab1a6a3dd1530c0f279bc0f0dc",
+      "duration": 1.675,
+      "graphemes": [
+        "sorry about that"
+      ],
+      "phonemes": [
+        "sˈɔɹi əbˈWt ðˈæt"
+      ]
+    },
+    {
+      "src": "/audio/phrases/wrong-order-at-restaurant-in-just-five-minutes.mp3",
+      "text": "in just five minutes",
+      "textSha256": "916d636a7b67c068bdaf2e5f25efef9a92827470f673767150aed315522fd921",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "f676624a3d54c668d49e75a99185dcc5e2a36746438d3a641543e3916f313aeb",
+      "duration": 1.775,
+      "graphemes": [
+        "in just five minutes"
+      ],
+      "phonemes": [
+        "ɪn ʤˈʌst fˈIv mˈɪnəts"
+      ]
+    },
+    {
+      "src": "/audio/phrases/wrong-order-at-restaurant-of-course.mp3",
+      "text": "of course",
+      "textSha256": "19e240f3698d3fd5828bd03a1724baec797c2e3b50855690d8e67cb9bec96c8a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b73fd52187ba1b46452828adb043269b9ca66463e9865de79cf95ff05ebe20fc",
+      "duration": 1.5,
+      "graphemes": [
+        "of course"
+      ],
+      "phonemes": [
+        "ʌv kˈɔɹs"
+      ]
+    },
+    {
+      "src": "/audio/words/wrong-order-at-restaurant-mistake.mp3",
+      "text": "mistake",
+      "textSha256": "1b34ffb5e8ddb2c95579f505568bc5dfd2298df81097748ac79f0d7e8c563a58",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "69bdd22b4ff9d7099c2acc063b82b74b8ca48e402842d53393a2c00fe99c4337",
+      "duration": 1.425,
+      "graphemes": [
+        "mistake"
+      ],
+      "phonemes": [
+        "məstˈAk"
+      ]
+    },
+    {
+      "src": "/audio/words/wrong-order-at-restaurant-wrong.mp3",
+      "text": "wrong",
+      "textSha256": "8810ad581e59f2bc3928b261707a71308f7e139eb04820366dc4d5c18d980225",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "72dfb6e8cc72939cfa143737ddba1008d039cf72ce18d096bd62c8b6c3c12025",
+      "duration": 1.35,
+      "graphemes": [
+        "wrong"
+      ],
+      "phonemes": [
+        "ɹˈɔŋ"
+      ]
+    },
+    {
+      "src": "/audio/words/wrong-order-at-restaurant-order.mp3",
+      "text": "order",
+      "textSha256": "3eeb7e96e59ce40f9cb1a089daba079fd699f6867a30f6634af8570967b2375a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bef9525be50467578ad1e80648379e55806b3ab76db41c550e391804a3300643",
+      "duration": 1.375,
+      "graphemes": [
+        "order"
+      ],
+      "phonemes": [
+        "ˈɔɹdəɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/wrong-order-at-restaurant-minute.mp3",
+      "text": "minute",
+      "textSha256": "28cdd20eaf134a05f18369414cb2df5e36c6a4e4f551b8c9cff8548029c41d6c",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "9d3468cbdb88761c67f9bf321d2c85dfd6a708a34322b60e442c83add4f3aefb",
+      "duration": 1.375,
+      "graphemes": [
+        "minute"
+      ],
+      "phonemes": [
+        "mˈɪnət"
+      ]
+    },
+    {
+      "src": "/audio/words/wrong-order-at-restaurant-check.mp3",
+      "text": "check",
+      "textSha256": "20f65c28671b40937c5bf23acc7c6f37e5a5ec0622e347b57685725df5ba9e50",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "bed46aaa72be7e72891e31b7ccaa8d19e31ee82dd1b0e1f6e0648aea23dad406",
+      "duration": 1.175,
+      "graphemes": [
+        "check"
+      ],
+      "phonemes": [
+        "ʧˈɛk"
+      ]
+    },
+    {
+      "src": "/audio/words/wrong-order-at-restaurant-course.mp3",
+      "text": "course",
+      "textSha256": "a908043ed469f361cd516f3bdd781341912b731a6ea3a5385af8514ec9ec02cc",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8ef49db2b92377a41893445a1b5a9f5ee7438714bb1d332db98a75da861427a2",
+      "duration": 1.35,
+      "graphemes": [
+        "course"
+      ],
+      "phonemes": [
+        "kˈɔɹs"
+      ]
+    },
+    {
+      "src": "/audio/sentences/fast-food-combo/1.mp3",
+      "text": "Welcome to Burger Corner, what combo meal would you like?",
+      "textSha256": "034a5e3ecf59eafa497e92d3926e8afc757461c8b1157c539a7cf56524ce2a7a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8d7cf23694fcb0682e6959598e11b07cbdbc9765bcfe400b6010207da53f8849",
+      "duration": 3.8,
+      "graphemes": [
+        "Welcome to Burger Corner, what combo meal would you like?"
+      ],
+      "phonemes": [
+        "wˈɛlkəm tə bˈɜɹɡəɹ kˈɔɹnəɹ, wˌʌt kˈɑmbO mˈil wʊd ju lˈIk?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/fast-food-combo/2.mp3",
+      "text": "I want number three, but can I change the side dish?",
+      "textSha256": "f3ed6af2ff303a528d9c712c979b609eee1a472eac759139fcece6a1cdb24d6f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "d11d7e65b68bfe6c19891efd184e4c42080ed14b8976e869690e899066efb71b",
+      "duration": 3.35,
+      "graphemes": [
+        "I want number three, but can I change the side dish?"
+      ],
+      "phonemes": [
+        "ˌI wˈɑnt nˈʌmbəɹ θɹˈi, bˌʌt kæn ˌI ʧˈAnʤ ðə sˈId dˈɪʃ?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/fast-food-combo/3.mp3",
+      "text": "You can choose hot soup or fresh salad instead of fries.",
+      "textSha256": "112f0bc642a803f271defdd9c0fe3dff32a3b274b65930b7f46d8bd2b21ef30a",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "a95eb390f0404d30d6f10010217706ad2eb2e570c68bf5321d845210be0ff27f",
+      "duration": 3.625,
+      "graphemes": [
+        "You can choose hot soup or fresh salad instead of fries."
+      ],
+      "phonemes": [
+        "jˌu kæn ʧˈuz hˈɑt sˈup ɔɹ fɹˈɛʃ sˈæləd ɪnstˈɛd ʌv fɹˈIz."
+      ]
+    },
+    {
+      "src": "/audio/sentences/fast-food-combo/4.mp3",
+      "text": "I will take the salad, and what about the drink size?",
+      "textSha256": "099add9ed7eeb7fd8e46431d2fc0ff1a16bbd3d2869c2639013ad1a73447c4f7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "8811bd790961ab0bab6aafc9e3cb535a1ccb6021fe86c0d218c3968ada06231c",
+      "duration": 3.35,
+      "graphemes": [
+        "I will take the salad, and what about the drink size?"
+      ],
+      "phonemes": [
+        "ˌI wɪl tˈAk ðə sˈæləd, ænd wˌʌt əbˈWt ðə dɹˈɪŋk sˈIz?"
+      ]
+    },
+    {
+      "src": "/audio/sentences/fast-food-combo/5.mp3",
+      "text": "You can upgrade to a large cup for an extra dollar.",
+      "textSha256": "e44ef4e40fbf4d015f771e5422651f3287d9f92699899ef55fe5c4d64b5ed8f8",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e0df575e244427b641f02b1944d05be8c25218896f945645ec142fa8d0bff1d4",
+      "duration": 3.275,
+      "graphemes": [
+        "You can upgrade to a large cup for an extra dollar."
+      ],
+      "phonemes": [
+        "jˌu kæn ˈʌpɡɹˌAd tə ɐ lˈɑɹʤ kˈʌp fɔɹ ɐn ˈɛkstɹə dˈɑləɹ."
+      ]
+    },
+    {
+      "src": "/audio/sentences/fast-food-combo/6.mp3",
+      "text": "That sounds great, I will take the large iced green tea.",
+      "textSha256": "64cbf3a95919ab1e32c01dee5e8acea049e377d83026ad28db1ddef74d0014e7",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "1612918850f84514cb77c66aab58b1ee4bd7ae9566fbea41e2f9107a2eb1e389",
+      "duration": 3.875,
+      "graphemes": [
+        "That sounds great, I will take the large iced green tea."
+      ],
+      "phonemes": [
+        "ðˈæt sˈWndz ɡɹˈAt, ˌI wɪl tˈAk ðə lˈɑɹʤ ˈIst ɡɹˈin tˈi."
+      ]
+    },
+    {
+      "src": "/audio/phrases/fast-food-combo-what-combo-meal.mp3",
+      "text": "what combo meal",
+      "textSha256": "9fae04ecb6b331926c946283a368682301ec5d6072ff6cf290d5e5f3c94ddf6f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "204f8d9e7e850513a8a737af766ea3a35a5aae37b6b3335db7b926a5e8c245e8",
+      "duration": 1.675,
+      "graphemes": [
+        "what combo meal"
+      ],
+      "phonemes": [
+        "wˌʌt kˈɑmbO mˈil"
+      ]
+    },
+    {
+      "src": "/audio/phrases/fast-food-combo-change-the-side-dish.mp3",
+      "text": "change the side dish",
+      "textSha256": "cc7e54e558b631a739e9696de235be065d5cf01dbaf5a3c65768ea7eb9f2fc8f",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "2f056a4e2fc3fcf00683593193ac35b5beff4bbafb22337b95ca3138103c3438",
+      "duration": 1.825,
+      "graphemes": [
+        "change the side dish"
+      ],
+      "phonemes": [
+        "ʧˈAnʤ ðə sˈId dˈɪʃ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/fast-food-combo-instead-of-fries.mp3",
+      "text": "instead of fries",
+      "textSha256": "b4e65158e7247cf493906df600560533db65588979eefadd6773288375290265",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "05cbf361d4655723dd3f872d80c02f5487178c3a9b816d74d5f105d80e01143e",
+      "duration": 1.75,
+      "graphemes": [
+        "instead of fries"
+      ],
+      "phonemes": [
+        "ɪnstˈɛd ʌv fɹˈIz"
+      ]
+    },
+    {
+      "src": "/audio/phrases/fast-food-combo-for-an-extra-dollar.mp3",
+      "text": "for an extra dollar",
+      "textSha256": "2288e492e859799a857d849d0f6af269e80cad47a18736ed1122268b8705cf6d",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "b086c258a174a16f4d84437b7c531db517ecec3f8505a0dc5b28d9430b931fa9",
+      "duration": 1.825,
+      "graphemes": [
+        "for an extra dollar"
+      ],
+      "phonemes": [
+        "fɔɹ ɐn ˈɛkstɹə dˈɑləɹ"
+      ]
+    },
+    {
+      "src": "/audio/phrases/fast-food-combo-sounds-great.mp3",
+      "text": "sounds great",
+      "textSha256": "222b84974a67efb53714be0258102f2260b003179e3de5feb342015e0132be70",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "60d76eb7acd8a85c13ffc3845ec5c9f8d82a0492ee20ce532fc2c13ba6ccd49b",
+      "duration": 1.575,
+      "graphemes": [
+        "sounds great"
+      ],
+      "phonemes": [
+        "sˈWndz ɡɹˈAt"
+      ]
+    },
+    {
+      "src": "/audio/words/fast-food-combo-side.mp3",
+      "text": "side",
+      "textSha256": "ea7bf4bb723041e7d63fe6c74dc46c048c617eb49a454a1cd6edbf34d05a418e",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "821d0f5515aedba249d3ac6e7082c55441eac35423c4abf3dbe62be29ee06b86",
+      "duration": 1.325,
+      "graphemes": [
+        "side"
+      ],
+      "phonemes": [
+        "sˈId"
+      ]
+    },
+    {
+      "src": "/audio/words/fast-food-combo-size.mp3",
+      "text": "size",
+      "textSha256": "ccdcbe846f3da4eb044fbdf64bf6b57902388ab72fb0c852ba72280f8d478b40",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "53c6d22cfb5e03940e3ff5050e301d6d8417ae3991b74dfcd367fc513e0e9216",
+      "duration": 1.4,
+      "graphemes": [
+        "size"
+      ],
+      "phonemes": [
+        "sˈIz"
+      ]
+    },
+    {
+      "src": "/audio/words/fast-food-combo-large.mp3",
+      "text": "large",
+      "textSha256": "d35c416a85b807e9b5384915d6ebb4a9f7352713efd89857b45a242f473728a9",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "65e7a177f7ec931f735d7ad85b8138cada59ba59112791ba90fdbae326e6e512",
+      "duration": 1.325,
+      "graphemes": [
+        "large"
+      ],
+      "phonemes": [
+        "lˈɑɹʤ"
+      ]
+    },
+    {
+      "src": "/audio/words/fast-food-combo-dollar.mp3",
+      "text": "dollar",
+      "textSha256": "588d2c1d1f23963e1647ea4fb720eec44b113b82d057156b970e96df9a1be810",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "e7714d6a1266544a2dc9f16f806c03e5c616accb48c4a14538c3f1d680e18e83",
+      "duration": 1.3,
+      "graphemes": [
+        "dollar"
+      ],
+      "phonemes": [
+        "dˈɑləɹ"
+      ]
+    },
+    {
+      "src": "/audio/words/fast-food-combo-extra.mp3",
+      "text": "extra",
+      "textSha256": "c8dee78f8c7b466c881847accc196998bad00e2b96c5ef913dfbe454d3807c96",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "923160abc7ad8341cb05b8f57f9a3d7588421838bead148a812fe9fa35ec11a3",
+      "duration": 1.5,
+      "graphemes": [
+        "extra"
+      ],
+      "phonemes": [
+        "ˈɛkstɹə"
+      ]
+    },
+    {
+      "src": "/audio/words/fast-food-combo-change.mp3",
+      "text": "change",
+      "textSha256": "12ea12eace7d655f471ce55e34f89b1b77a3d9d05a445ca82877dd2235beaa51",
+      "voiceId": "kokoro-af-heart-v1",
+      "sha256": "cd5f116284d3b5bf20a3cfefc7b6894bbd6b331126376652f9157ac34fbb9efb",
+      "duration": 1.35,
+      "graphemes": [
+        "change"
+      ],
+      "phonemes": [
+        "ʧˈAnʤ"
+      ]
+    }
+  ]
+}

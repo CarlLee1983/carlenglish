@@ -1,0 +1,335 @@
+{
+  "id": "reporting-water-leak",
+  "title": "向房東反映水管漏水",
+  "titleEn": "Reporting a Water Leak to the Landlord",
+  "category": "居家日常",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/reporting-water-leak.webp",
+    "alt": "在整潔的浴室洗手台前，一位住戶蹲下看著金屬水管下方的接縫處，將一個紅色塑膠水桶放在滴水處下方應急。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "calling-about-a-plumbing-issue",
+      "english": "calling about a plumbing issue",
+      "translation": "打電話反映水電問題",
+      "audio": {
+        "src": "/audio/phrases/reporting-water-leak-calling-about-a-plumbing-issue.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "6c24a96bc0b105b9cb2ac0830c8940cf4316fcfd0e8c547e42264296fd629229",
+        "sha256": "38ac0f30f628a0fdda5476e3acd2c036dca699019a7f591e7ae70a7aaa516a90"
+      }
+    },
+    {
+      "id": "beneath-the-bathroom-sink",
+      "english": "beneath the bathroom sink",
+      "translation": "在浴室洗手台下方",
+      "audio": {
+        "src": "/audio/phrases/reporting-water-leak-beneath-the-bathroom-sink.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f7058e325ed6c476c32d68ce684f5227b11c01c732a94288ef445f06756aebcf",
+        "sha256": "ed8e5d3320aab6ad08d8107dacf4b5fe3240a80415616d885bc3ee1f059860aa"
+      }
+    },
+    {
+      "id": "started-to-leak-clean-water",
+      "english": "started to leak clean water",
+      "translation": "開始滲漏乾淨的水",
+      "audio": {
+        "src": "/audio/phrases/reporting-water-leak-started-to-leak-clean-water.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c5d0679215b57e0c7d04a1275cddf86e4e7898741f8a306d492b6620effc0530",
+        "sha256": "88e70f6ec27bfb18d2f4b059376ddf2c9efd07b21220008e01b9f81daa895cbf"
+      }
+    },
+    {
+      "id": "placed-a-plastic-bucket",
+      "english": "placed a plastic bucket",
+      "translation": "放了一個塑膠水桶",
+      "audio": {
+        "src": "/audio/phrases/reporting-water-leak-placed-a-plastic-bucket.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "df26903070acbb863078e34800f49075580be49cefd704a3acf5a14305b3e289",
+        "sha256": "bc9536c465e02c333d6a5bbe165cf88eefdf7da541dac9daf845cfc142d394f8"
+      }
+    },
+    {
+      "id": "fix-it-this-afternoon",
+      "english": "fix it this afternoon",
+      "translation": "今天下午修理它",
+      "audio": {
+        "src": "/audio/phrases/reporting-water-leak-fix-it-this-afternoon.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8e74c979e37b7c61c5d5c8c4d04ebb736a6b242bcbc6e53928fe7000e995b957",
+        "sha256": "4ccb92be4a17c9938a85efb511bc852b00b9a5ab5a27c14e670082ef955263f9"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "live",
+      "english": "live",
+      "translation": "居住；生活",
+      "example": "Many international students live in this neighborhood.",
+      "audio": {
+        "src": "/audio/words/reporting-water-leak-live.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "247610f4dedd4ab7247d07dbda19c81ca9817f85820742cad49d407ffae9e4ed",
+        "sha256": "df535ccb859330ef2216841399045412a7ce05b115a7eb33a3e28e66b7e59058"
+      }
+    },
+    {
+      "id": "pipe",
+      "english": "pipe",
+      "translation": "水管；管道",
+      "example": "Cold water flows through the copper pipe.",
+      "audio": {
+        "src": "/audio/words/reporting-water-leak-pipe.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4008294739162e8f0119134dd262e35165d4a3bda08f59f97b6fdb9c5b4e655d",
+        "sha256": "6a9efffffba0642a8e8faef36b72eec1277bb381e9e85e9cbc1a6a3ce2c5b904"
+      }
+    },
+    {
+      "id": "leak",
+      "english": "leak",
+      "translation": "漏水；滲漏",
+      "example": "The ceiling began to leak during the typhoon.",
+      "audio": {
+        "src": "/audio/words/reporting-water-leak-leak.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5f537b80f1f2b7d1cc179dba8d36aa88463eda6ac11cb8e60a4583e1bd16aa3c",
+        "sha256": "f637d0a05c33681df5db6f9dae4812f29aeca0b818f1e743fdd01362177af383"
+      }
+    },
+    {
+      "id": "sink",
+      "english": "sink",
+      "translation": "洗手台；水槽",
+      "example": "Wash the greasy frying pan in the kitchen sink.",
+      "audio": {
+        "src": "/audio/words/reporting-water-leak-sink.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1978baf2c153fd3bf3633f3a4b12fa6782507dc6056bbaf16909a6597f4a2548",
+        "sha256": "faecf6a5d0c8ac13511e4619ac91ab23ce0568fac1cdbeb1c6db2881e4860cff"
+      }
+    },
+    {
+      "id": "fix",
+      "english": "fix",
+      "translation": "修理；解決",
+      "example": "Can you help me fix this broken cabinet drawer?",
+      "audio": {
+        "src": "/audio/words/reporting-water-leak-fix.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1c6e6c4c02e55178e85890fc9bbed4ce046415ec8122bf38f711b779184ae2a0",
+        "sha256": "efe87ade93412471cac3673a8c29b2891c23c4ed04148c57bfcfcb8e85b29138"
+      }
+    },
+    {
+      "id": "bother",
+      "english": "bother",
+      "translation": "打擾；煩擾",
+      "example": "Pardon me, I did not mean to bother your reading.",
+      "audio": {
+        "src": "/audio/words/reporting-water-leak-bother.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "56568d25931009bd526de599fa8be63eb2f3b9df624ac7f3c48ccf1d57f9e0b2",
+        "sha256": "bb000c737ed1e66481b24686f3b987643e336427eaa0c875a823f3b6bf186c68"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Hello Mr. Chang, I "
+        },
+        {
+          "text": "live",
+          "wordIds": [
+            "live"
+          ]
+        },
+        {
+          "text": " in apartment 4B and I am "
+        },
+        {
+          "text": "calling about a plumbing issue",
+          "phraseIds": [
+            "calling-about-a-plumbing-issue"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "張先生您好，我住在 4B 公寓，我打電話來是要反映水電管線的問題。",
+      "audio": {
+        "src": "/audio/sentences/reporting-water-leak/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "1eefc1167824c0a65037b919cc09a8f6d75a24f288ae253b365d096c67f69b68",
+        "sha256": "1c6ca635484e712aa5303e33bbc012abfd12cbacb0e9430577c073acd8ac9542"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The metal "
+        },
+        {
+          "text": "pipe",
+          "wordIds": [
+            "pipe"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "beneath the bathroom ",
+          "phraseIds": [
+            "beneath-the-bathroom-sink"
+          ]
+        },
+        {
+          "text": "sink",
+          "phraseIds": [
+            "beneath-the-bathroom-sink"
+          ],
+          "wordIds": [
+            "sink"
+          ]
+        },
+        {
+          "text": " has "
+        },
+        {
+          "text": "started to ",
+          "phraseIds": [
+            "started-to-leak-clean-water"
+          ]
+        },
+        {
+          "text": "leak",
+          "phraseIds": [
+            "started-to-leak-clean-water"
+          ],
+          "wordIds": [
+            "leak"
+          ]
+        },
+        {
+          "text": " clean water",
+          "phraseIds": [
+            "started-to-leak-clean-water"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "浴室洗手台下方的金屬水管開始在滴漏乾淨的水了。",
+      "audio": {
+        "src": "/audio/sentences/reporting-water-leak/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5abbee64e268861d09ac6ecde1835e16325d1ac139ecbfe13d452c7a506eb5a0",
+        "sha256": "87bd8c4c4c37644e650c8a344b92dcd2d3706350a029af16e61e01b5d2afe61e"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Is the dripping water "
+        },
+        {
+          "text": "bothering",
+          "wordIds": [
+            "bother"
+          ]
+        },
+        {
+          "text": " the floor or causing puddles in the room?"
+        }
+      ],
+      "translation": "滴水會不會影響到地板，或者在室內造成積水呢？",
+      "audio": {
+        "src": "/audio/sentences/reporting-water-leak/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "471e333326fc13c95176f66d22cecf501595b356248f57dfb82b9cb52495e86e",
+        "sha256": "d76d625e498ede93e4c8282aa19626ea1716b0b8e145e63882aba294a17dcffc"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Yes, I "
+        },
+        {
+          "text": "placed a plastic bucket",
+          "phraseIds": [
+            "placed-a-plastic-bucket"
+          ]
+        },
+        {
+          "text": " underneath, but it fills up every four hours."
+        }
+      ],
+      "translation": "是的，我在下面放了一個塑膠水桶，但每四個小時水就會裝滿。",
+      "audio": {
+        "src": "/audio/sentences/reporting-water-leak/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "27a42df6a2a4b430e2b380b77529ff94392c190085614156f48c168320b8bad2",
+        "sha256": "e7fb36fcd7dcae4ad0263dfaa0429e222ae60519fe479faec00a212c89492576"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I am sorry for the trouble, I will call a plumber to "
+        },
+        {
+          "text": "fix",
+          "phraseIds": [
+            "fix-it-this-afternoon"
+          ],
+          "wordIds": [
+            "fix"
+          ]
+        },
+        {
+          "text": " it this afternoon",
+          "phraseIds": [
+            "fix-it-this-afternoon"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "很抱歉造成你的困擾，我今天下午會請水電師傅去修理它。",
+      "audio": {
+        "src": "/audio/sentences/reporting-water-leak/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "05f5bfe0173d452d98fe00fc6d116b89b46f3058dea07c2abebdc85546f7cf60",
+        "sha256": "48fb209f6eaf2ca234583a90825ad824647158f6e599b73a321a57931d69bed7"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Thank you very much, I will stay inside to let the repair technician in."
+        }
+      ],
+      "translation": "非常謝謝您，我會待在屋內替維修技術人員開門。",
+      "audio": {
+        "src": "/audio/sentences/reporting-water-leak/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9596d7c86f549178f20fd5ddf0c86404c1b4d35a600c955606d973b2e3553a7b",
+        "sha256": "54892298ee0c06192f2ca7b7a196e28bca02e87d0f470d9f51aa89c9359b3155"
+      }
+    }
+  ]
+}

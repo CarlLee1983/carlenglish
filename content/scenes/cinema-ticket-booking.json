@@ -1,0 +1,329 @@
+{
+  "id": "cinema-ticket-booking",
+  "title": "電影院現場劃位買票",
+  "titleEn": "Buying Movie Tickets at the Cinema",
+  "category": "休閒與遊戲",
+  "level": "初級",
+  "image": {
+    "src": "/images/scenes/cinema-ticket-booking.webp",
+    "alt": "在裝潢新穎的電影院大廳售票櫃檯前，兩位顧客向穿著制服的售票員確認放映時間，挑選中間排數座位並加購爆米花。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "buy-student-tickets",
+      "english": "buy student tickets",
+      "translation": "購買學生票",
+      "audio": {
+        "src": "/audio/phrases/cinema-ticket-booking-buy-student-tickets.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "c69a68fbba18c3f24561757c3a15e8d918310c3bd70da4ed9f7abf4b6a8cabae",
+        "sha256": "6ffc30257c254f1f8c936a37c3cc8a0b3fcd6539bf39906d4f0b7ef00a27839a"
+      }
+    },
+    {
+      "id": "in-the-middle-row",
+      "english": "in the middle row",
+      "translation": "在中間排",
+      "audio": {
+        "src": "/audio/phrases/cinema-ticket-booking-in-the-middle-row.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7a0724ab5fa3f4cb2dfb4bd5808c7dcc27c5ed8adfe26f809723460a9dd11c0c",
+        "sha256": "bfc77870bbaf71b02a6cb3ee0839b5ba24dd6d31ed4f926f1390ab4b1dc74e66"
+      }
+    },
+    {
+      "id": "a-fairly-clear-view",
+      "english": "a fairly clear view",
+      "translation": "相當清楚的視野",
+      "audio": {
+        "src": "/audio/phrases/cinema-ticket-booking-a-fairly-clear-view.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d08b29dcbdd031bb6913ddc58bc66dfa5edff8926a0c79a00cf689c47f778be6",
+        "sha256": "82d6bed139eda67aeeee53e6bdb6413def460bb5684cad1e5c0969c0d4ac0055"
+      }
+    },
+    {
+      "id": "too-close-to-the-front",
+      "english": "too close to the front",
+      "translation": "太靠近前面",
+      "audio": {
+        "src": "/audio/phrases/cinema-ticket-booking-too-close-to-the-front.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "df64ea84cd6ae61240e7fc5982320006b008d79fc4c10c69bf57a63d286c3e8d",
+        "sha256": "7585cb4c4b0ff6a41357f9482c0dffa5a7912b2486eb4f2088fa89134a658e1b"
+      }
+    },
+    {
+      "id": "wonderful-to-enjoy",
+      "english": "wonderful to enjoy",
+      "translation": "非常值得享受",
+      "audio": {
+        "src": "/audio/phrases/cinema-ticket-booking-wonderful-to-enjoy.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "837d277d9991b8ce8c5f0ef0180d5e1926362dd3cca4f1a2ebc61780b8cfa4f0",
+        "sha256": "226d5ccf5236ab246d92f43e9caa475cfb1b7d5d220897b0e60533cd38bfcf2d"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "movie",
+      "english": "movie",
+      "translation": "電影；影片",
+      "example": "We watched an exciting action movie last night.",
+      "audio": {
+        "src": "/audio/words/cinema-ticket-booking-movie.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8a6ba32c9bed6ce703f999f9af6ec23686d44e144e4da572d94c8daca4a9cbab",
+        "sha256": "5b96c4c8becd48d6bdfbbc6a3952b8b7faadfb7cd23efaa3ae0371ffedc0d2ce"
+      }
+    },
+    {
+      "id": "ticket",
+      "english": "ticket",
+      "translation": "票券；入場券",
+      "example": "Keep your movie ticket to enter the theater.",
+      "audio": {
+        "src": "/audio/words/cinema-ticket-booking-ticket.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "14069429150abcbf244c4c2fb2c4c46a49c93ca9457263ecd9ebb176de3a58bb",
+        "sha256": "a3e28c2a01b561a45e0b3200aa5664978d225582c89bce3d90de67e88f258b14"
+      }
+    },
+    {
+      "id": "seat",
+      "english": "seat",
+      "translation": "座位；席位",
+      "example": "Please find your assigned seat number.",
+      "audio": {
+        "src": "/audio/words/cinema-ticket-booking-seat.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "5d2c13d6f9fa421125a9f55e56fd0e4df9319ef30087f8f4675cd6f05135f397",
+        "sha256": "634197eb38b7b40f6f000b3173cda96619e0185a7707f445068d1bb287c773b8"
+      }
+    },
+    {
+      "id": "screen",
+      "english": "screen",
+      "translation": "銀幕；螢幕",
+      "example": "The movie began when the screen lit up.",
+      "audio": {
+        "src": "/audio/words/cinema-ticket-booking-screen.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4cd6c2914887dd4a68e4c9ffbed8b077f048cf795d6cfa0b801d43e0ea5a1560",
+        "sha256": "fd3b2c2ae3266136af8e79e01d2b9f2bf6329c5d9503047f7104fecdce6bdd44"
+      }
+    },
+    {
+      "id": "hate",
+      "english": "hate",
+      "translation": "討厭；不喜歡",
+      "example": "I hate waiting in long lines in the rain.",
+      "audio": {
+        "src": "/audio/words/cinema-ticket-booking-hate.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f2e9a23ac36c4b227b16387b4e0d37793e9459f3912942069981886d5bffe90e",
+        "sha256": "d3cb6e4c327c2a6db3f2ff13b36ac4cf3606880f359c05466a2a7261f847ef1c"
+      }
+    },
+    {
+      "id": "enjoy",
+      "english": "enjoy",
+      "translation": "享受；喜歡",
+      "example": "They enjoy listening to classical music on weekends.",
+      "audio": {
+        "src": "/audio/words/cinema-ticket-booking-enjoy.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "75fba329cb6ee8907a1f009b69353d8c0e9a8228b25a1095c7976efc1eaa259d",
+        "sha256": "6b1deefa41312e15080b24acc204bf09ab5ad1878872fe459d9d100b505a9d67"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Good afternoon, we want to "
+        },
+        {
+          "text": "buy student ",
+          "phraseIds": [
+            "buy-student-tickets"
+          ]
+        },
+        {
+          "text": "tickets",
+          "phraseIds": [
+            "buy-student-tickets"
+          ],
+          "wordIds": [
+            "ticket"
+          ]
+        },
+        {
+          "text": " for the afternoon animated "
+        },
+        {
+          "text": "movie",
+          "wordIds": [
+            "movie"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "午安，我們想買下午場動畫電影的學生票。",
+      "audio": {
+        "src": "/audio/sentences/cinema-ticket-booking/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "42f87cd936c008451317bf197fecb0ad25e3084a21b4c0d5d5cc79652a491fcb",
+        "sha256": "028c65bd1df0fec423488aa11b413472c0638b00d7241b0246be1d6cc47b1f48"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Which screening time would you prefer, the two o'clock or the four thirty show?"
+        }
+      ],
+      "translation": "你們比較想要哪個放映時間呢？兩點還是四點半的場次？",
+      "audio": {
+        "src": "/audio/sentences/cinema-ticket-booking/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "888eeef9639ffc8f807074b38951f7c046eff8a07a4f4bfd0022a5fb8a19b456",
+        "sha256": "76772f35ae6911e27fa36a067e3bd3e446a7bf1afff60d859b73cfc30fc75a92"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The four thirty show fits our schedule, and are there good "
+        },
+        {
+          "text": "seats",
+          "wordIds": [
+            "seat"
+          ]
+        },
+        {
+          "text": " available "
+        },
+        {
+          "text": "in the middle row",
+          "phraseIds": [
+            "in-the-middle-row"
+          ]
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "translation": "四點半的場次符合我們的時間，請問中間排數還有好座位嗎？",
+      "audio": {
+        "src": "/audio/sentences/cinema-ticket-booking/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "9594da32d2072dba74832776a25a144c1d1a1b7c73f9678faefd3acbf75a6e6d",
+        "sha256": "915132c241e96d82b8b8c2b8ad57feae6f84df565210a979cf8ec5d722e15442"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Row F and row G in the center have "
+        },
+        {
+          "text": "a fairly clear view",
+          "phraseIds": [
+            "a-fairly-clear-view"
+          ]
+        },
+        {
+          "text": " of the big "
+        },
+        {
+          "text": "screen",
+          "wordIds": [
+            "screen"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "中間區的 F 排和 G 排看大螢幕的視野相當清楚。",
+      "audio": {
+        "src": "/audio/sentences/cinema-ticket-booking/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "8051507ba7d23c9ba748d9c2ad105ccaf20d95c2f56f9dab73334a3b4a52f3bb",
+        "sha256": "69d9ecd9b1fe5cc1db618dcf4f2914dab83181d58beb55fe2288263533362528"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I really "
+        },
+        {
+          "text": "hate",
+          "wordIds": [
+            "hate"
+          ]
+        },
+        {
+          "text": " sitting "
+        },
+        {
+          "text": "too close to the front",
+          "phraseIds": [
+            "too-close-to-the-front"
+          ]
+        },
+        {
+          "text": " because the sound is too loud."
+        }
+      ],
+      "translation": "我真的很不喜歡坐得離銀幕太近，因為聲音實在太大聲了。",
+      "audio": {
+        "src": "/audio/sentences/cinema-ticket-booking/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "584ef4d24ec754f49331bbebef34e21b5e2ddd817e085fb19a9e8dc82dd5718b",
+        "sha256": "a4eb9bc2ca6e2b81cf72044c5e301eefd906f095f6d349fd9b8e9fd2f3fd42aa"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "The background score and musical soundtrack in this film are "
+        },
+        {
+          "text": "wonderful to ",
+          "phraseIds": [
+            "wonderful-to-enjoy"
+          ]
+        },
+        {
+          "text": "enjoy",
+          "phraseIds": [
+            "wonderful-to-enjoy"
+          ],
+          "wordIds": [
+            "enjoy"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "這部電影的背景配樂和原聲帶非常動聽，很值得享受。",
+      "audio": {
+        "src": "/audio/sentences/cinema-ticket-booking/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "adbef5148e6fcd886436e95969c76a772625de7920557f749fdeeec3867c43ec",
+        "sha256": "2438237265ec482ce691789a044ba20ff299c59c9905efd7de82cb0232b540d8"
+      }
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "id": "sharing-alternative-idea",
+  "title": "表達不同想法並尋求共識",
+  "titleEn": "Sharing an Alternative View to Reach Consensus",
+  "category": "校園與學習",
+  "level": "初級至初中級",
+  "image": {
+    "src": "/images/scenes/sharing-alternative-idea.webp",
+    "alt": "在熱絡討論的班會課堂上，學生禮貌舉手向全班同學提出園遊會攤位的環保替代構想與預算理由。",
+    "width": 1536,
+    "height": 1024
+  },
+  "phrases": [
+    {
+      "id": "sounds-fun",
+      "english": "sounds fun",
+      "translation": "聽起來很有趣",
+      "audio": {
+        "src": "/audio/phrases/sharing-alternative-idea-sounds-fun.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "edd67a2ef151c92e7155440a0a12f1839d1b91e5b639800a4d0a7bd67ad3635b",
+        "sha256": "582007dcbbb81994641a310104a41c4bd01c07f0ac7cc15a8c30a42e11ceab35"
+      }
+    },
+    {
+      "id": "a-better-option",
+      "english": "a better option",
+      "translation": "更好的選擇方案",
+      "audio": {
+        "src": "/audio/phrases/sharing-alternative-idea-a-better-option.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "e69e353955a8202fc4d43b95e839348b56ca80fbfb6313371a2b16d84b698738",
+        "sha256": "756326084a81b9b494bc257255403cf601d04a6786a711bc827d9d4c55ad3c6f"
+      }
+    },
+    {
+      "id": "main-point",
+      "english": "main point",
+      "translation": "主要論點",
+      "audio": {
+        "src": "/audio/phrases/sharing-alternative-idea-main-point.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "06fdcb3ddf5018755b0f5c83bcb03776806fbc885f1a8812337b43d76d76bede",
+        "sha256": "cc4764364c5437f5c4e69a193a71e7893e19366761b0e4aac5c214d607e20422"
+      }
+    },
+    {
+      "id": "even-though",
+      "english": "even though",
+      "translation": "雖然；即使",
+      "audio": {
+        "src": "/audio/phrases/sharing-alternative-idea-even-though.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "4d462926fa665796f2992a75f4009ff833b8711a6097ecbe0a771b0d6acc64f8",
+        "sha256": "513fd974964cefcdb34d256ee7e88a4a917d1ce7ab8ff33f1dca61ef7a804697"
+      }
+    },
+    {
+      "id": "makes-great-sense",
+      "english": "makes great sense",
+      "translation": "非常有道理",
+      "audio": {
+        "src": "/audio/phrases/sharing-alternative-idea-makes-great-sense.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "b794f7af64f93c653b6e5f177003dfcf4dafcec4c797359fa426c09889212a31",
+        "sha256": "e1dcb56904e73402c513f8b6b541187714644dc18227678eebcd715de2b5de2a"
+      }
+    }
+  ],
+  "words": [
+    {
+      "id": "idea",
+      "english": "idea",
+      "translation": "想法；點子",
+      "example": "Sharing good ideas helps everyone learn faster.",
+      "audio": {
+        "src": "/audio/words/sharing-alternative-idea-idea.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "ae0a9ad3227c5420c07dd79abe119876db3d234a066344bd4c90b8f189cd2606",
+        "sha256": "eef94b07b344e06139842779a98905ec8abc93bee59aa60cd182d3c9b8bd539f"
+      }
+    },
+    {
+      "id": "better",
+      "english": "better",
+      "translation": "更好的；更佳的",
+      "example": "Walking is better for your health than driving.",
+      "audio": {
+        "src": "/audio/words/sharing-alternative-idea-better.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d7d5dcc369426e2e5f8dcb89af4308b0daed6e55910d53395ce38bd6dd1a9456",
+        "sha256": "b52fe80ca539f6f835a0f74c416503861abf425c537335e4d19034be7b8fc754"
+      }
+    },
+    {
+      "id": "point",
+      "english": "point",
+      "translation": "重點、論點",
+      "example": "She made an excellent point during the class debate.",
+      "audio": {
+        "src": "/audio/words/sharing-alternative-idea-point.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "251fecd592e56e6c4a95121752f4a73bb802dffc1cc4bce6100206ee2b7cb650",
+        "sha256": "ee9eaff328d69121db71f4d3b40536802fde111ccde099f7c0d9aff2525a6eb5"
+      }
+    },
+    {
+      "id": "believe",
+      "english": "believe",
+      "translation": "相信",
+      "example": "I truly believe we can finish the puzzle today.",
+      "audio": {
+        "src": "/audio/words/sharing-alternative-idea-believe.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "f078209dfece953500ee03333012e3c8ada6c36df35a053f00031becab3cf620",
+        "sha256": "bbe84235cf15927534734024e50077eff125a13b5c2d929f13486d60dd51dfc9"
+      }
+    },
+    {
+      "id": "though",
+      "english": "though",
+      "translation": "雖然；儘管",
+      "example": "Though it was raining, the boys played outside.",
+      "audio": {
+        "src": "/audio/words/sharing-alternative-idea-though.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "a9bbc0222075becade1088ce1e976ae12e2411c4e7e9ebb2a0e82a0d1d73178f",
+        "sha256": "69c7d55bb6277d06e74de3da003f70f5408dae58f0e5240156a828ba3f0271cb"
+      }
+    },
+    {
+      "id": "waste",
+      "english": "waste",
+      "translation": "浪費；廢棄物",
+      "example": "Do not waste clean drinking water.",
+      "audio": {
+        "src": "/audio/words/sharing-alternative-idea-waste.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "0bb5e9329f190a4fa67fbd493b61a9257f35585e460a8be13a50a9cdf1823636",
+        "sha256": "ed86be5fe4ec8e57d782c837ca6552a17d1d378ea2fea9c27015e7395ba5b755"
+      }
+    }
+  ],
+  "sentences": [
+    {
+      "segments": [
+        {
+          "text": "Selling fried food "
+        },
+        {
+          "text": "sounds fun",
+          "phraseIds": [
+            "sounds-fun"
+          ]
+        },
+        {
+          "text": ", but maybe there is "
+        },
+        {
+          "text": "a ",
+          "phraseIds": [
+            "a-better-option"
+          ]
+        },
+        {
+          "text": "better",
+          "phraseIds": [
+            "a-better-option"
+          ],
+          "wordIds": [
+            "better"
+          ]
+        },
+        {
+          "text": " option",
+          "phraseIds": [
+            "a-better-option"
+          ]
+        },
+        {
+          "text": "."
+        }
+      ],
+      "translation": "賣炸物聽起來很有趣，但也許我們有更好的選擇方案。",
+      "audio": {
+        "src": "/audio/sentences/sharing-alternative-idea/1.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7c9235eaf692c5cf98517935624b2976d6d40a3f8042d0ac05aef341a4aa2705",
+        "sha256": "52285d52ce83904a157754b5fdcbf83f105be287a961726250b04c11722c7b8f"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "What is your "
+        },
+        {
+          "text": "main ",
+          "phraseIds": [
+            "main-point"
+          ]
+        },
+        {
+          "text": "point",
+          "phraseIds": [
+            "main-point"
+          ],
+          "wordIds": [
+            "point"
+          ]
+        },
+        {
+          "text": " and reason against that plan?"
+        }
+      ],
+      "translation": "你反對那個方案的主要論點和理由是什麼呢？",
+      "audio": {
+        "src": "/audio/sentences/sharing-alternative-idea/2.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "20eb9495312108705d03d8edf923b85bb0331de8b28c9621c6b1f9171393cecf",
+        "sha256": "5eed1219da719d475653dca9b34e674701d974d16051c80daa6cbec2dd89a447"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "I think buying oil and heavy cooking pots costs too much money."
+        }
+      ],
+      "translation": "我認為購買油品和笨重的烹飪鍋具會花費太多預算。",
+      "audio": {
+        "src": "/audio/sentences/sharing-alternative-idea/3.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "d606c9e0f088c2995d3817d3f42ff25d49f1d8a6a892b84d44293df6502b760a",
+        "sha256": "5afbe134b5728071775983894ef6d5ea264272085b696e22d497f0b0159bc497"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "Even ",
+          "phraseIds": [
+            "even-though"
+          ]
+        },
+        {
+          "text": "though",
+          "phraseIds": [
+            "even-though"
+          ],
+          "wordIds": [
+            "though"
+          ]
+        },
+        {
+          "text": " hot food is popular, creating less "
+        },
+        {
+          "text": "waste",
+          "wordIds": [
+            "waste"
+          ]
+        },
+        {
+          "text": " is also important."
+        }
+      ],
+      "translation": "雖然熱食很受歡迎，但減少垃圾浪費同樣非常重要。",
+      "audio": {
+        "src": "/audio/sentences/sharing-alternative-idea/4.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "7a491d31748eb198ec2cfba7c8f234685e988fd8cb371ef4dba13fe9f91e02ed",
+        "sha256": "a0c83de07aad3cef928d332833d9312ca5ec80189bb838a273e418524f21a3b3"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "My alternative "
+        },
+        {
+          "text": "idea",
+          "wordIds": [
+            "idea"
+          ]
+        },
+        {
+          "text": " is setting up an interactive ring toss game booth."
+        }
+      ],
+      "translation": "我提出的替代構想是設立一個互動套圈圈的遊戲攤位。",
+      "audio": {
+        "src": "/audio/sentences/sharing-alternative-idea/5.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "3b98baffa8dede6d9612ee5a01da4f9eb62ae08657f5f89be31407cef30d799e",
+        "sha256": "ad33a729a94de7afc913348177649ff5bab7aef3e3e7e1f340c134f2965b4bf6"
+      }
+    },
+    {
+      "segments": [
+        {
+          "text": "We all "
+        },
+        {
+          "text": "believe",
+          "wordIds": [
+            "believe"
+          ]
+        },
+        {
+          "text": " your "
+        },
+        {
+          "text": "point",
+          "wordIds": [
+            "point"
+          ]
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "makes great sense",
+          "phraseIds": [
+            "makes-great-sense"
+          ]
+        },
+        {
+          "text": " for our budget."
+        }
+      ],
+      "translation": "我們大家都相信你的觀點對我們的班級預算來說非常有道理。",
+      "audio": {
+        "src": "/audio/sentences/sharing-alternative-idea/6.mp3",
+        "voiceId": "kokoro-af-heart-v1",
+        "textSha256": "97a2fddc13039673dd6b0808366e8ff72f41f121e52dd7b4651a45ee5a00dfef",
+        "sha256": "42e4ee4d72129e4ec506e6bdd9a3e64f9468c24645c3cfc4ceafa877a51f12db"
+      }
+    }
+  ]
+}
