@@ -1,0 +1,72 @@
+{
+  "id": "zoo-checkup-practice-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "動物健檢前，為什麼先用假機器練習？",
+  "titleEn": "Practice before an animal checkup",
+  "source": {
+    "outlet": "Smithsonian's National Zoo and Conservation Biology Institute",
+    "title": "Here’s How Veterinary Technicians Help Care For More Than 1,700 Animals at the Smithsonian",
+    "url": "https://nationalzoo.si.edu/news/news/heres-how-veterinary-technicians-help-care-more-1700-animals-smithsonian",
+    "publishedAt": "2026-10-23",
+    "accessedAt": "2026-11-03",
+    "eventDate": "2026-10-23",
+    "rewrittenAt": "2026-11-03"
+  },
+  "background": "本批建議先讀這篇，再讀「舊青蛙標本能解開什麼謎團？」；兩篇也可獨立閱讀。閱讀目標：辨認「問題、方法、限制」的段落關係，從上下文判斷 replicas 的意思。N2 是教材設計級別，不代表讀者已通過能力測驗。10 月 23 日是照護工作介紹的報導日，不是這些訓練開始的日期；本文只整理當時介紹的方法，並非自行操作動物醫療的指南。",
+  "paragraphs": [
+    {
+      "english": "A strange machine can make a zoo animal nervous. In an October 23 report, the Smithsonian described how its animal care teams prepare animals for medical checks. Keepers and veterinary technicians work together. They help animals become comfortable with equipment before a real checkup, so the experience can be less stressful.",
+      "translation": "陌生的機器可能讓動物園裡的動物緊張。史密森尼在 10 月 23 日的報導中，介紹照護團隊如何幫助動物為健康檢查做準備。保育員與獸醫技術人員合作，讓動物在正式健檢前先熟悉設備，減少過程中的壓力。"
+    },
+    {
+      "english": "One team member, Jo Fujito, makes replicas of medical devices. These objects look like the real equipment, but they do not do its medical work. Animals can practise with them while the team protects expensive machines from damage. The copies are useful because their appearance matters more than their ability to perform a test.",
+      "translation": "團隊成員 Jo Fujito 製作醫療器材的仿製品。這些物品看起來像真的設備，卻不會執行真正的醫療功能。動物可以用它們練習，同時團隊也能保護昂貴的機器不受損壞。這些仿製品有用，是因為它們的外觀比檢查功能更重要。"
+    },
+    {
+      "english": "However, a convincing copy is only part of the solution. Keepers introduce new routines slowly and build trust with the animals. Preparation can take weeks or months. The aim is voluntary participation, not a quick trick. The report describes ways to reduce stress; it does not promise that every animal can complete every procedure while awake.",
+      "translation": "不過，外觀逼真的仿製品只是解決方法的一部分。保育員慢慢引入新的流程，並與動物建立信任。準備可能需要數週或數月，目標是讓動物自願配合，而不是迅速學會一個把戲。報導介紹減少壓力的方法，沒有保證每隻動物都能在清醒時完成所有處置。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "equipment",
+      "translation": "設備"
+    },
+    {
+      "english": "replicas",
+      "translation": "仿製品"
+    },
+    {
+      "english": "damage",
+      "translation": "損壞"
+    },
+    {
+      "english": "trust",
+      "translation": "信任"
+    },
+    {
+      "english": "voluntary",
+      "translation": "自願的"
+    }
+  ],
+  "questions": [
+    {
+      "question": "這篇文章主要解釋什麼？",
+      "answer": "解釋照護團隊如何透過仿製器材與逐步訓練，讓動物為健檢做準備並減少壓力。"
+    },
+    {
+      "question": "第一、二、三段各扮演什麼角色？",
+      "answer": "第一段提出陌生設備造成緊張的問題；第二段介紹仿製器材這項方法；第三段補充時間、信任與方法的限制。"
+    },
+    {
+      "question": "不查字典，第二段的 replicas 可能是什麼？哪兩個線索支持你的判斷？",
+      "answer": "是仿製品。look like the real equipment 表示外觀像真設備，but they do not do its medical work 表示沒有真正的醫療功能。"
+    },
+    {
+      "question": "有了仿製器材，就能保證所有動物不必麻醉嗎？",
+      "answer": "不能。最後一段明說沒有保證所有動物能清醒完成每一種處置，而且訓練可能需要數週或數月。"
+    }
+  ]
+}

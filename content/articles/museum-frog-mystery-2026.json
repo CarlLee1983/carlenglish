@@ -1,0 +1,72 @@
+{
+  "id": "museum-frog-mystery-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "舊青蛙標本能解開什麼謎團？",
+  "titleEn": "Old frogs offer clues to a mystery",
+  "source": {
+    "outlet": "Smithsonian's National Zoo and Conservation Biology Institute",
+    "title": "Museum Specimens Reveal Pathogen Behind Decades-Old Mystery Of Disappearing Frogs",
+    "url": "https://nationalzoo.si.edu/news/museum-specimens-reveal-pathogen-behind-decades-old-mystery-disappearing-frogs",
+    "publishedAt": "2026-10-14",
+    "accessedAt": "2026-11-03",
+    "eventDate": "2026-10-14",
+    "rewrittenAt": "2026-11-03"
+  },
+  "background": "可接著「動物健檢前，為什麼先用假機器練習？」閱讀，也可獨立閱讀。閱讀目標：比較不同年代的證據，分清「沒有找到」與「已證明不存在」。維持 N2，不假定已完成前篇。10 月 14 日是研究與新聞發布日；青蛙大量減少發生於 1979–1982 年，後續現地調查在 2022–2024 年。本文依研究機構的公開說明改寫，並以公開論文交叉核對，研究僅針對巴西一處站點，不能推廣為整片森林的結論。",
+  "paragraphs": [
+    {
+      "english": "Between 1979 and 1982, frogs disappeared from a research site in Brazil. Decades later, scientists looked for clues in a museum. Preserved animals, called specimens, let them examine the past. An October 14 report described how the team used these collections to investigate a disease that may explain the losses.",
+      "translation": "1979 到 1982 年間，巴西一處研究站點的青蛙大量消失。數十年後，科學家到博物館尋找線索。被保存下來的動物稱為標本，讓他們能檢視過去。10 月 14 日的報導介紹團隊如何利用這些收藏，調查一種可能解釋這些損失的疾病。"
+    },
+    {
+      "english": "The researchers tested hundreds of specimens from 17 species. Samples from before 1979 showed no evidence of infection by a particular fungus. More than half of the specimens from the 1980s tested positive. This comparison points to the fungus as a likely cause of the decline, but it does not rule out other influences.",
+      "translation": "研究人員檢驗數百件標本，涵蓋 17 個物種。1979 年以前的樣本未檢出特定真菌的感染；1980 年代的標本則有超過一半驗出感染。這項比較指出，該真菌可能是數量減少的原因，但沒有排除其他因素的影響。"
+    },
+    {
+      "english": "During visits from 2022 to 2024, the team found 12 of those species at the site. The other five were not found, but their fate remains uncertain. Absence from a survey is not proof of extinction. Old collections and new fieldwork can answer different parts of the same question, while leaving some questions open.",
+      "translation": "團隊在 2022 到 2024 年的訪查中，在該站點找到其中 12 個物種。另外五個沒有被找到，但牠們的命運仍不確定。調查中沒有發現，不等於證明已經滅絕。舊收藏與新的現地調查能回答同一問題的不同部分，也可能留下尚未解答的疑問。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "specimens",
+      "translation": "標本"
+    },
+    {
+      "english": "infection",
+      "translation": "感染"
+    },
+    {
+      "english": "comparison",
+      "translation": "比較"
+    },
+    {
+      "english": "uncertain",
+      "translation": "不確定的"
+    },
+    {
+      "english": "extinction",
+      "translation": "滅絕"
+    }
+  ],
+  "questions": [
+    {
+      "question": "為什麼團隊要研究博物館收藏，而不只看今天的青蛙？",
+      "answer": "保存的標本能提供過去的證據，讓團隊比較大量減少前後的感染情況；只看今天的青蛙無法直接做這種歷史比較。"
+    },
+    {
+      "question": "第二段和第三段比較的是同一組時間嗎？",
+      "answer": "不是。第二段比較 1979 年以前與 1980 年代標本的檢驗結果；第三段補充 2022–2024 年現地調查找到哪些物種。"
+    },
+    {
+      "question": "不看關鍵詞，uncertain 在第三段可能是什麼意思？哪句話提供線索？",
+      "answer": "指不確定、尚無定論。下一句說調查中沒有發現不等於證明滅絕，表示那五個物種的情況還不能確定。"
+    },
+    {
+      "question": "能否推論真菌是唯一原因，且沒有找到的五種青蛙都已滅絕？",
+      "answer": "不能。第二段只說 likely cause，並未排除其他因素；第三段也明說沒有找到不等於滅絕的證明。"
+    }
+  ]
+}
