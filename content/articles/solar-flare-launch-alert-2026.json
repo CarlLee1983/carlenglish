@@ -1,0 +1,72 @@
+{
+  "id": "solar-flare-launch-alert-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "火箭如何趕上短暫的太陽閃焰？",
+  "titleEn": "New alerts help rockets catch solar flares",
+  "source": {
+    "outlet": "NASA",
+    "title": "Solar Flare Alert System Helps NASA Rocket Team Decide When to Launch",
+    "url": "https://science.nasa.gov/blogs/science-news/2026/11/04/solar-flare-alert-system-helps-nasa-rocket-team-decide-when-to-launch/",
+    "publishedAt": "2026-11-04",
+    "accessedAt": "2026-11-06",
+    "eventDate": "2026-11-04",
+    "rewrittenAt": "2026-11-06"
+  },
+  "background": "本批可先讀這篇，再讀「一塊小化石，為什麼不能當作年代標記？」。閱讀目標：找出問題與解法，區分已完成的觀測和未來可能的用途。N2 是教材設計級別，不是能力認證。NASA 是美國國家航空暨太空總署；探空火箭短暫升空觀測後會返回。11 月 4 日是這次研究介紹的發布日，不是火箭發射日。",
+  "paragraphs": [
+    {
+      "english": "A rocket team needs more than a clear sky. It also needs good timing. Solar flares are bursts of energy from the Sun. Some fade quickly. Small research rockets have only about five minutes to observe them before returning to Earth. A flare may disappear before a rocket reaches space.",
+      "translation": "火箭團隊需要的不只是晴朗的天空，還需要掌握時機。太陽閃焰是太陽釋放能量的爆發現象，有些很快就會減弱。小型研究火箭返回地球前，只有大約五分鐘能觀測閃焰。火箭抵達太空之前，閃焰可能就消失了。"
+    },
+    {
+      "english": "In a November 4 report, NASA described an alert system that helps teams choose when to launch. It uses observations to locate a flare and estimate how long it will last. In April 2024, the system helped two rockets launched from Alaska observe a solar flare. An improved version supported another flight in May 2026.",
+      "translation": "NASA 在 11 月 4 日的報導中介紹一套警示系統，協助團隊選擇發射時機。系統利用觀測資料，找出閃焰位置並估計它會持續多久。2024 年 4 月，這套系統曾協助兩枚在阿拉斯加上空飛行的火箭觀測閃焰。改良版則支援了 2026 年 5 月的另一次飛行。"
+    },
+    {
+      "english": "Scientists are still improving the system. It could help future studies and space weather forecasts. That is a possible use, not a promise that every prediction will be correct.",
+      "translation": "科學家仍在改良這套系統。它可能有助於未來的研究及太空天氣預報。這是可能的用途，不是保證每次預測都會正確。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "timing",
+      "translation": "時機"
+    },
+    {
+      "english": "fade",
+      "translation": "逐漸減弱"
+    },
+    {
+      "english": "alert",
+      "translation": "警示"
+    },
+    {
+      "english": "estimate",
+      "translation": "估計"
+    },
+    {
+      "english": "forecasts",
+      "translation": "預報"
+    }
+  ],
+  "questions": [
+    {
+      "question": "研究火箭觀測閃焰時，面臨哪兩個時間限制？",
+      "answer": "火箭大約只有五分鐘的觀測時間；有些閃焰很快減弱，可能在火箭抵達前消失。"
+    },
+    {
+      "question": "警示系統提供哪兩項資訊來協助選擇發射時機？",
+      "answer": "它找出閃焰的位置，並估計閃焰還會持續多久。"
+    },
+    {
+      "question": "11 月 4 日、2024 年 4 月與 2026 年 5 月，分別指什麼？",
+      "answer": "11 月 4 日是 NASA 報導發布日；2024 年 4 月是兩枚火箭觀測閃焰的時間；2026 年 5 月是改良版系統支援另一次飛行的時間。"
+    },
+    {
+      "question": "最後一段的 could 表示已保證成功，還是未來可能的用途？",
+      "answer": "表示未來可能的用途。正文只說系統可能有助於研究與預報，沒有保證每次預測正確。"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "fossil-insect-timeline-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "一塊小化石，為什麼不能當作年代標記？",
+  "titleEn": "Tiny fossil challenges insect timeline",
+  "source": {
+    "outlet": "Natural History Museum",
+    "title": "Flying insects are 80 million years younger than first thought, reveals Natural History Museum fossil",
+    "url": "https://www.nhm.ac.uk/press-office/press-releases/flying-insects-are-80-million-years-younger-than-first-thought.html",
+    "publishedAt": "2026-10-29",
+    "accessedAt": "2026-11-06",
+    "eventDate": "2026-09-18",
+    "rewrittenAt": "2026-11-06"
+  },
+  "background": "閱讀目標：追蹤原有看法如何被新證據修正，辨認「不能確定」與「已證明」的差別。可獨立閱讀，不假定已讀過前批文章。Rhyniognatha 是化石的學名，不必背誦。博物館於 10 月 29 日介紹這項研究，論文實際於 9 月 18 日公開；這裡的事件日期記錄論文日期，不是化石發現日。N2 是教材設計級別。",
+  "paragraphs": [
+    {
+      "english": "How old are flying insects? A tiny fossil once helped scientists answer that question. The fossil, called Rhyniognatha, comes from Scotland. Researchers had treated it as evidence of a very early flying insect. They used it as a time marker when studying insect evolution.",
+      "translation": "會飛的昆蟲有多古老？一塊小化石曾幫助科學家回答這個問題。這塊名為 Rhyniognatha 的化石來自蘇格蘭。研究人員過去將它視為非常早期的有翅昆蟲證據，研究昆蟲演化時，也用它作為年代標記。"
+    },
+    {
+      "english": "But a new examination raised doubts. Scientists used a laser microscope to study the fossil in greater detail. Its jaw features did not clearly match flying insects or centipedes. The team could not confidently place the animal in either group. Better images did not produce a simple answer.",
+      "translation": "不過，重新檢查帶來了疑問。科學家使用雷射顯微鏡，更仔細地研究化石。它的顎部特徵無法明確對應有翅昆蟲或蜈蚣。團隊無法有把握地將這隻動物歸入其中任何一類。更清楚的影像，並沒有帶來簡單明確的答案。"
+    },
+    {
+      "english": "The researchers therefore recommend removing this fossil as a time marker for insect evolution. That changes the evidence available for dating flying insects. It does not identify the exact moment when the first insect flew. The study shows why an old museum specimen can still change scientific ideas.",
+      "translation": "因此，研究人員建議不再用這塊化石作為昆蟲演化的年代標記。這改變了可用來判定有翅昆蟲年代的證據，卻沒有找出第一隻昆蟲飛行的確切時刻。這項研究說明，博物館裡的舊標本仍然能改變科學觀點。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "evidence",
+      "translation": "證據"
+    },
+    {
+      "english": "time marker",
+      "translation": "年代標記"
+    },
+    {
+      "english": "doubts",
+      "translation": "疑問"
+    },
+    {
+      "english": "jaw",
+      "translation": "顎部"
+    },
+    {
+      "english": "specimen",
+      "translation": "標本"
+    }
+  ],
+  "questions": [
+    {
+      "question": "研究人員過去如何使用這塊化石？",
+      "answer": "將它視為早期有翅昆蟲的證據，並用作研究昆蟲演化的年代標記。"
+    },
+    {
+      "question": "哪一類新資料讓團隊重新考慮原本的分類？",
+      "answer": "雷射顯微鏡呈現的細節，尤其是無法明確對應有翅昆蟲或蜈蚣的顎部特徵。"
+    },
+    {
+      "question": "團隊是否已證明它就是蜈蚣？請用本文說明。",
+      "answer": "沒有。本文說團隊無法有把握地把它歸入有翅昆蟲或蜈蚣這兩類中的任何一類。"
+    },
+    {
+      "question": "為什麼不用這塊化石當年代標記，不等於知道昆蟲開始飛行的確切日期？",
+      "answer": "移除不可靠的標記，只改變可用的定年證據；並沒有找到或記錄第一隻昆蟲開始飛行的時刻。"
+    }
+  ]
+}
