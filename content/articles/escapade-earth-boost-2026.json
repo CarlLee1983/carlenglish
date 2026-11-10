@@ -1,0 +1,72 @@
+{
+  "id": "escapade-earth-boost-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "前往火星，為什麼先繞回地球？",
+  "titleEn": "Twin spacecraft get a boost from Earth",
+  "source": {
+    "outlet": "NASA",
+    "title": "NASA’s ESCAPADE Completes Powered Earth Flybys, Now En Route to Mars",
+    "url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-completes-powered-earth-flybys-now-en-route-to-mars/",
+    "publishedAt": "2026-11-09",
+    "accessedAt": "2026-11-10",
+    "eventDate": "2026-11-09",
+    "rewrittenAt": "2026-11-10"
+  },
+  "background": "本批建議先讀這篇，再讀「臭氧洞很大，就代表修復失敗了嗎？」；也可各自閱讀。閱讀目標：分辨已完成的動作與未來計畫，找出 NASA 的消息歸屬。N2 是教材設計級別，不代表讀者通過能力測驗。ESCAPADE 是兩艘研究火星環境的太空船。事件日期記錄第二艘於 11 月 9 日完成近地飛掠；第一艘於 11 月 7 日完成，兩艘都是 2025 年 11 月發射，並非本週才升空。",
+  "paragraphs": [
+    {
+      "english": "Two small spacecraft have passed close to Earth on their way to Mars. NASA reported that the ESCAPADE pair completed these moves on November 7 and 9. Each used Earth's gravity and an engine burn lasting about nine minutes. Together, these helped send the spacecraft toward their destination.",
+      "translation": "兩艘小型太空船在前往火星的途中，從地球附近飛過。NASA 報導，ESCAPADE 的兩艘太空船分別於 11 月 7 日和 9 日完成這些動作。每艘都利用地球引力，並讓引擎持續運轉約九分鐘。兩者共同幫助太空船朝目的地前進。"
+    },
+    {
+      "english": "The journey began in November 2025, but it was not a direct trip to Mars. The spacecraft followed a long loop before returning near Earth. This route let them wait for the planets to reach better positions. NASA says the approach offers more choice about when to launch.",
+      "translation": "旅程在 2025 年 11 月開始，但並不是直接飛往火星。太空船先沿著一條長長的環繞路線飛行，再回到地球附近。這條路線讓它們等待行星到達更合適的位置。NASA 表示，這種方法能讓發射時間有更多選擇。"
+    },
+    {
+      "english": "Arrival at Mars is planned for September 2027. Researchers aim to study how particles from the Sun help strip away the planet's atmosphere. The spacecraft still need to travel there and enter orbit. The recent flybys are completed steps; the arrival date and research goals describe work ahead.",
+      "translation": "太空船計畫於 2027 年 9 月抵達火星。研究人員希望了解來自太陽的粒子如何促使火星大氣流失。太空船仍須飛到火星並進入軌道。最近的近地飛掠是已完成的步驟；抵達日期與研究目標則描述接下來的工作。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "gravity",
+      "translation": "引力"
+    },
+    {
+      "english": "destination",
+      "translation": "目的地"
+    },
+    {
+      "english": "route",
+      "translation": "路線"
+    },
+    {
+      "english": "atmosphere",
+      "translation": "大氣"
+    },
+    {
+      "english": "orbit",
+      "translation": "軌道"
+    }
+  ],
+  "questions": [
+    {
+      "question": "這則新聞的最新進展是什麼？消息來自哪個機構？",
+      "answer": "兩艘 ESCAPADE 太空船於 11 月 7 日和 9 日完成近地飛掠，利用地球引力和引擎推力朝火星前進。本文將這項消息歸屬於 NASA。"
+    },
+    {
+      "question": "太空船為什麼先繞一段路，再回到地球附近？",
+      "answer": "這條路線讓它們等待行星到達較合適的位置，再利用地球引力前往火星。第二段也說，NASA 認為這能增加發射時間的選擇。"
+    },
+    {
+      "question": "找出兩個表示未來計畫或目標的英文用語。它們是在說已完成的事嗎？",
+      "answer": "is planned for 表示計畫在某時發生，aim to 表示希望達成的目標。兩者都不是宣稱已抵達火星或已完成研究。"
+    },
+    {
+      "question": "把「發射、近地飛掠、抵達火星」排成時間順序，並指出哪一步尚未完成。",
+      "answer": "2025 年 11 月發射，2026 年 11 月 7 日和 9 日近地飛掠，計畫於 2027 年 9 月抵達火星。依這篇報導，抵達火星尚未完成。"
+    }
+  ]
+}
