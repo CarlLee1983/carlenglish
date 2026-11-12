@@ -1,0 +1,72 @@
+{
+  "id": "ozone-hole-weather-recovery-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "臭氧洞很大，就代表修復失敗了嗎？",
+  "titleEn": "Large ozone hole does not rule out recovery",
+  "source": {
+    "outlet": "NASA Earth Observatory",
+    "title": "Ozone Hole Reaches Its 2026 Maximum",
+    "url": "https://science.nasa.gov/earth/earth-observatory/ozone-hole-reaches-its-2026-maximum/",
+    "publishedAt": "2026-11-09",
+    "accessedAt": "2026-11-10",
+    "eventDate": "2026-09-18",
+    "rewrittenAt": "2026-11-10"
+  },
+  "background": "本批建議在「前往火星，為什麼先繞回地球？」之後閱讀，也可獨立使用。閱讀目標：用 However 理解轉折，分清單年觀測與長期趨勢。N2 是設計級別，不是能力認證。南極臭氧洞是高空中臭氧含量偏低的區域，不是真正空無一物的洞。11 月 9 日是 NASA 專文發布日；9 月 18 日是當年面積最大的一天。正文的第七大排名比較的是 9 月 7 日至 10 月 13 日的平均面積，不是單日最大值。",
+  "paragraphs": [
+    {
+      "english": "A November 9 NASA report described a large ozone hole above Antarctica. Its average area during the main season ranked seventh largest in 48 years of monitoring. The hole reached its widest point on September 18. Here, a hole means an area with very little ozone, not a completely empty space.",
+      "translation": "NASA 在 11 月 9 日的報導中，介紹南極上空一個面積很大的臭氧洞。它在主要季節期間的平均面積，在 48 年的監測紀錄中排名第七大。臭氧洞於 9 月 18 日達到當年最大面積。這裡的「洞」指臭氧含量很低的區域，並不是完全空無一物的空間。"
+    },
+    {
+      "english": "Scientists linked this year's size to a strong ring of winds around Antarctica. These winds kept cold air together. The cold conditions helped chemicals destroy ozone over a wide area. Ozone high in the atmosphere matters because it protects life from harmful light from the Sun.",
+      "translation": "科學家將今年的面積與環繞南極的一圈強風聯繫起來。這些風將冷空氣聚集在一起。寒冷的條件使化學物質更容易在廣大區域內破壞臭氧。高空中的臭氧很重要，因為它能保護生命，減少太陽有害光線的影響。"
+    },
+    {
+      "english": "However, scientists at NASA and NOAA say recovery remains on track over the long term. International rules have reduced ozone-damaging chemicals. This year's hole was large, but its ozone loss was less severe than in some earlier years. One unusual season does not show the whole trend, and full recovery is still a forecast.",
+      "translation": "不過，NASA 與 NOAA 的科學家表示，長期修復仍朝預期方向前進。國際規範已減少破壞臭氧的化學物質。今年的臭氧洞面積雖大，臭氧流失程度卻沒有某些早年紀錄那麼嚴重。單一異常季節不能顯示完整趨勢，而完全恢復仍是未來預測。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "average",
+      "translation": "平均的"
+    },
+    {
+      "english": "monitoring",
+      "translation": "持續監測"
+    },
+    {
+      "english": "recovery",
+      "translation": "修復；恢復"
+    },
+    {
+      "english": "trend",
+      "translation": "趨勢"
+    },
+    {
+      "english": "forecast",
+      "translation": "預測"
+    }
+  ],
+  "questions": [
+    {
+      "question": "臭氧洞的「洞」表示那裡完全沒有任何東西嗎？",
+      "answer": "不是。第一段說它是臭氧含量很低的區域，不是完全空無一物的空間。"
+    },
+    {
+      "question": "第二段如何解釋今年臭氧洞面積很大？請依順序說出原因。",
+      "answer": "環繞南極的強風將冷空氣聚集在一起；寒冷條件幫助化學物質在廣大區域內破壞臭氧。這是本文歸屬於科學家的解釋。"
+    },
+    {
+      "question": "第三段的 However 在轉折哪兩個看似衝突的訊息？",
+      "answer": "前面說今年臭氧洞面積很大，後面則說科學家仍認為長期修復朝預期方向前進。年度天氣造成的變化與長期修復可以同時存在。"
+    },
+    {
+      "question": "「11 月 9 日的報導證明臭氧層已完全恢復」有哪兩處讀錯？",
+      "answer": "11 月 9 日是報導日，不是修復完成日；第三段說完全恢復仍是 forecast，也就是未來預測，沒有宣稱臭氧層已完全恢復。"
+    }
+  ]
+}
