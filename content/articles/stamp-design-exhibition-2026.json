@@ -1,0 +1,72 @@
+{
+  "id": "stamp-design-exhibition-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "一張郵票是怎麼設計出來的？",
+  "titleEn": "Museum to reveal the work behind stamps",
+  "source": {
+    "outlet": "Smithsonian Institution",
+    "title": "National Postal Museum To Open Exhibition Exploring American Stories Through Stamp Art",
+    "url": "https://www.si.edu/newsdesk/releases/national-postal-museum-open-exhibition-exploring-american-stories-through-stamp",
+    "publishedAt": "2026-10-26",
+    "accessedAt": "2026-11-13",
+    "eventDate": "2026-11-20",
+    "rewrittenAt": "2026-11-13"
+  },
+  "background": "本批建議先讀這篇，再讀「線上影展，什麼時候能看？」；兩篇皆可獨立閱讀。目標：從導言找主旨，再用第二段的例子理解設計流程。N2 是教材設計級別，不代表已完成能力評量。郵票展位於美國華盛頓特區的國家郵政博物館。10 月 26 日是公告日，11 月 20 日是預定開展日；本文寫於開展前，不宣稱已參觀或展覽已開幕。",
+  "paragraphs": [
+    {
+      "english": "A new museum exhibition will show how postage stamps are designed. The National Postal Museum plans to open it on November 20, 2026. According to the museum, visitors will see early drawings as well as finished stamps. The exhibition connects these small pictures with stories about American life.",
+      "translation": "一場新的博物館展覽將介紹郵票的設計過程。國家郵政博物館預定於 2026 年 11 月 20 日開展。館方表示，參觀者除了完成的郵票，也能看到早期草圖。展覽將這些小圖像與美國生活的故事連結起來。"
+    },
+    {
+      "english": "Artists must decide which details can fit into a very small space. Some ideas are approved, while others are rejected. Visitors can compare these designs and consider the choices behind them. For example, a stamp about an eclipse uses special ink. Its picture changes when someone touches it.",
+      "translation": "藝術家必須決定哪些細節能放進很小的空間。有些構想獲得採用，有些則未被採用。參觀者可以比較這些設計，思考背後的選擇。例如，一款以日食為主題的郵票使用特殊油墨，圖像會在有人觸碰時改變。"
+    },
+    {
+      "english": "The exhibition has twelve themes, including science, nature, and sports. It is presented in English and Spanish. The museum says some objects will change during the exhibition, which runs through 2029. A later visit may therefore offer different examples of the same themes.",
+      "translation": "展覽有十二個主題，包括科學、自然與運動，並以英文及西班牙文呈現。館方表示，展覽將持續至 2029 年，期間會更換部分展品。因此，之後再次參觀時，可能會看到相同主題下的不同例子。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "exhibition",
+      "translation": "展覽"
+    },
+    {
+      "english": "approved",
+      "translation": "獲得採用的"
+    },
+    {
+      "english": "rejected",
+      "translation": "未被採用的"
+    },
+    {
+      "english": "compare",
+      "translation": "比較"
+    },
+    {
+      "english": "themes",
+      "translation": "主題"
+    }
+  ],
+  "questions": [
+    {
+      "question": "第一段的主旨是展出郵票售價，還是介紹設計過程？哪一個細節支持你的判斷？",
+      "answer": "主旨是介紹設計過程。除了完成的郵票，參觀者還能看到 early drawings（早期草圖），可用來理解作品如何形成。"
+    },
+    {
+      "question": "第二段的日食郵票例子，和前面的設計選擇有什麼關係？",
+      "answer": "它具體示範藝術家可透過特殊油墨與觸碰變化，在小小的郵票上呈現日食。它是設計方法的例子，不是另一場展覽。"
+    },
+    {
+      "question": "從 approved 和 rejected 的對比，可以推測 rejected 是什麼意思？",
+      "answer": "前面說有些構想獲得採用，while others 表示相反情況，因此 rejected 指未被採用或被否決。"
+    },
+    {
+      "question": "朋友說「我已看過一次，之後所有展品都會一樣」，第三段支持這個說法嗎？",
+      "answer": "不支持。館方說部分展品會更換，因此之後可能看到相同主題下的不同例子。may 表示可能，不保證每次都會不同。"
+    }
+  ]
+}
