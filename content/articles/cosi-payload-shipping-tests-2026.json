@@ -1,0 +1,72 @@
+{
+  "id": "cosi-payload-shipping-tests-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "太空儀器出貨了，為什麼還不能升空？",
+  "titleEn": "COSI instruments move closer to launch",
+  "source": {
+    "outlet": "NASA",
+    "title": "NASA Payload to Study Gamma Rays Arrives at Northrop Grumman",
+    "url": "https://science.nasa.gov/blogs/cosi/2026/11/16/nasa-payload-to-study-gamma-rays-arrives-at-northrop-grumman/",
+    "publishedAt": "2026-11-16",
+    "accessedAt": "2026-11-17",
+    "eventDate": "2026-11-02",
+    "rewrittenAt": "2026-11-17"
+  },
+  "background": "本批建議在「一光日，是一天還是一段距離？」之後閱讀，也可獨立使用。目標：追蹤儀器的運送、安裝與測試順序，區分已發生的事與任務目標。COSI 是 NASA 的伽瑪射線望遠鏡任務；payload 在此指科學儀器酬載。事件日期採照片及柏克萊任務頁確認的 11 月 2 日裝車出貨；11 月 16 日是 NASA 報導日。報導僅說本月稍早抵達維吉尼亞州，沒有確切抵達日，不把出貨日當成抵達日。發射月份是取用時的計畫，可能變更。",
+  "paragraphs": [
+    {
+      "english": "A space mission needs more than a finished set of scientific instruments. On November 16, NASA reported that the instruments for COSI had reached a satellite factory in Virginia. A team at the University of California, Berkeley, had prepared them for shipping. Photos show the team loading the truck on November 2.",
+      "translation": "太空任務需要的不只是完成的一套科學儀器。11 月 16 日，NASA 報導 COSI 的儀器已抵達維吉尼亞州的一座衛星工廠。加州大學柏克萊分校的團隊先前已準備好出貨；照片顯示團隊在 11 月 2 日裝車。"
+    },
+    {
+      "english": "Next, engineers will attach the instruments to the spacecraft. They will test how the system handles shaking and changes in temperature. These tests come before launch. NASA says the launch is planned for August 2027. Arrival at the factory is therefore one step in a longer process.",
+      "translation": "接下來，工程師將把儀器安裝到太空船上。他們會測試系統如何承受振動及溫度變化。這些測試在發射前進行。NASA 表示，計畫於 2027 年 8 月發射。因此，抵達工廠只是較長流程中的一步。"
+    },
+    {
+      "english": "COSI is designed to study gamma rays, a form of light with extremely high energy. Scientists hope to learn about powerful events in our galaxy and beyond. These are goals for the mission. The delivery report describes preparations, rather than new discoveries made by a telescope already in space.",
+      "translation": "COSI 的設計用途是研究伽瑪射線，也就是能量極高的一種光。科學家希望了解我們所在星系及更遠處的劇烈事件。這些是任務目標。這篇運送報導描述的是準備工作，而不是已在太空中的望遠鏡所做出的新發現。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "instruments",
+      "translation": "儀器"
+    },
+    {
+      "english": "attach",
+      "translation": "安裝；固定到"
+    },
+    {
+      "english": "shaking",
+      "translation": "振動"
+    },
+    {
+      "english": "process",
+      "translation": "流程"
+    },
+    {
+      "english": "goals",
+      "translation": "目標"
+    }
+  ],
+  "questions": [
+    {
+      "question": "這則消息的主旨是宣布新發現，還是報告準備工作的進展？請舉一個細節。",
+      "answer": "是準備工作的進展：儀器已抵達工廠，後續還要安裝及測試。第三段也明說研究成果仍是任務目標。"
+    },
+    {
+      "question": "11 月 2 日、11 月 16 日與 2027 年 8 月分別代表什麼？",
+      "answer": "11 月 2 日是照片記錄的裝車日；11 月 16 日是 NASA 報導日；2027 年 8 月是計畫發射月份。抵達日只知道在 11 月稍早，不能用前兩個日期代替。"
+    },
+    {
+      "question": "第二段的 These tests 指什麼？從前一句推測 shaking 是什麼意思。",
+      "answer": "指系統承受振動與溫度變化的測試。shaking 和 changes in temperature 並列，都是系統需要承受的物理條件，可推測為搖晃或振動。"
+    },
+    {
+      "question": "最後一段與前兩段有什麼關係？能說科學家已利用 COSI 得到太空觀測成果嗎？",
+      "answer": "前兩段說實際準備進度，最後一段補充為什麼要執行任務。is designed to、hope 和 goals 表示用途與期待，不證明已取得太空觀測成果。"
+    }
+  ]
+}

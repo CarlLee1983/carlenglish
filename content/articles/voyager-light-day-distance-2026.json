@@ -1,0 +1,72 @@
+{
+  "id": "voyager-light-day-distance-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "一光日，是一天還是一段距離？",
+  "titleEn": "Voyager 1 to reach one light-day from Earth",
+  "source": {
+    "outlet": "NASA",
+    "title": "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities",
+    "url": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
+    "publishedAt": "2026-11-10",
+    "accessedAt": "2026-11-17",
+    "eventDate": "2026-11-18",
+    "rewrittenAt": "2026-11-17"
+  },
+  "background": "本批建議先讀這篇，再讀「太空儀器出貨了，為什麼還不能升空？」；兩篇也可獨立閱讀。目標：從定義理解 light-day，再把單程與來回訊號時間連起來。N2 是教材設計級別，不代表已完成能力評量。航海家一號於 1977 年發射；本文寫於預定里程碑之前。NASA 公告於 11 月 10 日發布、11 月 13 日更新名單；預定達標為美西標準時間 11 月 18 日 02:16，亦即台北 11 月 18 日 18:16。閃燈活動是象徵性慶祝，不是向太空船發送操作指令。",
+  "paragraphs": [
+    {
+      "english": "NASA expects Voyager 1 to reach a new distance milestone on November 18, 2026. The spacecraft will be one light-day from Earth. This means the distance that light travels in twenty-four hours. It does not mean that Voyager has been traveling for only one day. The mission began in 1977.",
+      "translation": "NASA 預期航海家一號會在 2026 年 11 月 18 日達到新的距離里程碑。屆時，太空船距離地球將有一光日，也就是光在二十四小時內行進的距離。這不表示航海家只飛行了一天；這項任務始於 1977 年。"
+    },
+    {
+      "english": "At that distance, a radio signal from Earth will need about a day to arrive. A reply will need about another day to return. Even an immediate reply therefore cannot reach Earth immediately. The long wait comes from the distance, rather than from a slow conversation between people.",
+      "translation": "在那樣的距離下，從地球發出的無線電訊號大約需要一天才能抵達。回覆大約還需要另一天才能傳回。因此，即使立刻回覆，地球也無法立刻收到。漫長等待來自距離，而不是人們交談速度緩慢。"
+    },
+    {
+      "english": "NASA is inviting people to celebrate with lights after sunset on November 17. Phones and flashlights can flash Voyager’s call sign in Morse code. This is a symbolic celebration on Earth. The public light display is separate from the radio system that communicates with the spacecraft.",
+      "translation": "NASA 邀請大家在 11 月 17 日日落後以燈光慶祝。手機和手電筒可以用摩斯電碼閃出航海家的呼號。這是在地球上舉行的象徵性慶祝活動。民眾的燈光展示與聯絡太空船的無線電系統是分開的。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "milestone",
+      "translation": "里程碑"
+    },
+    {
+      "english": "distance",
+      "translation": "距離"
+    },
+    {
+      "english": "signal",
+      "translation": "信號；訊號"
+    },
+    {
+      "english": "reply",
+      "translation": "回覆"
+    },
+    {
+      "english": "symbolic",
+      "translation": "象徵性的"
+    }
+  ],
+  "questions": [
+    {
+      "question": "第一段主要說明哪個里程碑？它是已發生的事，還是 NASA 的預期？",
+      "answer": "預期於 11 月 18 日達到距離地球一光日的位置。expects 和 will 表示本文撰寫時仍是未來的預期，不是已完成的觀測。"
+    },
+    {
+      "question": "不查字典，第一段哪個說明能幫你理解 light-day？",
+      "answer": "This means 後面說它是光在二十四小時內行進的距離。後一句再排除「太空船只飛了一天」的誤解；這裡衡量的是距離。"
+    },
+    {
+      "question": "假設太空船收到訊號就立即回覆，地球為什麼仍要等約兩天？",
+      "answer": "單程訊號約一天，回程另約一天。第二段把第一段的距離定義，延伸成通訊等待時間；不是聲稱每次操作都恰好四十八小時。"
+    },
+    {
+      "question": "第三段的閃燈活動能直接控制太空船嗎？哪個線索支持你的判斷？",
+      "answer": "不能這樣推論。symbolic celebration 表明它是象徵性活動，最後一句又說燈光展示與實際通訊的無線電系統分開。"
+    }
+  ]
+}
