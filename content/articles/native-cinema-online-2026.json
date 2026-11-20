@@ -1,0 +1,72 @@
+{
+  "id": "native-cinema-online-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "線上影展，什麼時候能看？",
+  "titleEn": "Museum to stream Indigenous films for two weeks",
+  "source": {
+    "outlet": "Smithsonian Institution",
+    "title": "National Museum of the American Indian Presents the 2026 Native Cinema Showcase",
+    "url": "https://www.si.edu/newsdesk/releases/national-museum-american-indian-presents-2026-native-cinema-showcase",
+    "publishedAt": "2026-11-09",
+    "accessedAt": "2026-11-13",
+    "eventDate": "2026-11-13",
+    "rewrittenAt": "2026-11-13"
+  },
+  "background": "本批建議在「一張郵票是怎麼設計出來的？」之後閱讀，也可獨立使用。目標：從上下文理解 on demand，並用 except 找出適用範圍的例外。N2 是教材設計級別，不代表讀者已升級。影展由史密森尼國家美洲印第安人博物館主辦；Indigenous filmmakers 在這裡指原住民族電影工作者。公告日為 11 月 9 日，開展日採主辦方當地的 11 月 13 日。美東 11 月 13 日下午 5 點相當於台北 11 月 14 日上午 6 點，結束時間為台北 11 月 28 日上午 6 點。本文依活動公告撰寫，未觀看影片，也未驗證台灣串流播放；部分影片有暴力或狩獵等內容提示，不把整個影展推薦為兒童教材。",
+  "paragraphs": [
+    {
+      "english": "The National Museum of the American Indian has announced an online film showcase. Its program includes four feature films and ten short films by Indigenous filmmakers. According to the museum, viewers can watch them on demand for two weeks. They can choose a viewing time during that period instead of joining one live screening.",
+      "translation": "國家美洲印第安人博物館宣布舉辦線上影展。節目包含原住民族電影工作者製作的四部長片與十部短片。館方表示，觀眾可以在兩週內隨選觀看。他們能在這段期間選擇觀看時間，不必參加單一場次的直播放映。"
+    },
+    {
+      "english": "The viewing period begins on November 13, 2026, at 5 p.m. Eastern Time. It ends at the same time on November 27. Viewers in other places need to check their local time. The announcement says every film except Remaining Native will be available worldwide. That exception matters when someone chooses a film.",
+      "translation": "觀看期間從美東時間 2026 年 11 月 13 日下午 5 點開始，到 11 月 27 日同一時間結束。其他地區的觀眾需要確認自己的當地時間。公告表示，除了 Remaining Native，其他影片都將開放全球觀看。選片時，這項例外很重要。"
+    },
+    {
+      "english": "The films come from several countries and tell different stories. Some focus on sport, while others explore language or family life. Several use English subtitles, which put translated words on the screen. The program offers different voices rather than one story about all Indigenous communities.",
+      "translation": "影片來自數個國家，講述不同故事。有些聚焦運動，有些探索語言或家庭生活。數部影片提供英文字幕，將翻譯後的文字顯示在畫面上。節目呈現不同的聲音，而不是以單一故事代表所有原住民族社群。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "on demand",
+      "translation": "隨選觀看"
+    },
+    {
+      "english": "period",
+      "translation": "期間"
+    },
+    {
+      "english": "except",
+      "translation": "除了……之外"
+    },
+    {
+      "english": "subtitles",
+      "translation": "字幕"
+    },
+    {
+      "english": "communities",
+      "translation": "社群"
+    }
+  ],
+  "questions": [
+    {
+      "question": "第一段如何解釋 on demand？它等於必須準時參加一場直播嗎？",
+      "answer": "不等於。下一句說可以在開放期間自行選擇觀看時間，不必參加單一場次的直播。這個解釋可用來推測 on demand 的意思。"
+    },
+    {
+      "question": "11 月 9 日、11 月 13 日和 11 月 27 日各代表什麼？",
+      "answer": "11 月 9 日是來源公告日；11 月 13 日是美東時間的開放日；11 月 27 日是美東時間的結束日。公告發布不代表影片當時已開放。"
+    },
+    {
+      "question": "「每一部影片在全球任何地方都能看」有沒有漏讀哪個詞？",
+      "answer": "漏讀 except。Remaining Native 是全球觀看說明的例外；本文沒有提供它的完整地區清單，不能自行猜測台灣能否觀看。"
+    },
+    {
+      "question": "第三段為什麼列出運動、語言與家庭生活？",
+      "answer": "這些例子支持影片題材多樣的重點，也幫助理解最後一句：不同社群有不同故事，不能以一部影片概括所有社群。"
+    }
+  ]
+}
