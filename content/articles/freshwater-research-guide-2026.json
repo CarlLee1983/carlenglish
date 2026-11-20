@@ -1,0 +1,72 @@
+{
+  "id": "freshwater-research-guide-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "關心水資源，可以從住家附近開始嗎？",
+  "titleEn": "Free guide connects local water questions to global concerns",
+  "source": {
+    "outlet": "Smithsonian Institution",
+    "title": "New Smithsonian Science Education Guide Helps Youth Explore Earth’s Freshwater",
+    "url": "https://www.si.edu/newsdesk/releases/new-smithsonian-science-education-guide-helps-youth-explore-earths-freshwater",
+    "publishedAt": "2026-11-17",
+    "accessedAt": "2026-11-20",
+    "eventDate": "2026-11-17",
+    "rewrittenAt": "2026-11-20"
+  },
+  "background": "本批建議先讀這篇，再讀「星星的聲音，真的是錄音嗎？」；也可獨立閱讀。目標：找出導言主旨，分辨教材目標與試用證據。N2 是教材設計級別，不代表能力評量結果。史密森尼科學教育中心於 2026 年 11 月 17 日公告指南已推出；精確首次上架日期未載明，事件日期欄採公告日。本文不是參與活動的親歷紀錄。下載頁取用受限，本文僅依公開公告，不聲稱已讀 PDF。",
+  "paragraphs": [
+    {
+      "english": "A new free guide asks young people to explore freshwater in their communities. The Smithsonian Science Education Center announced it on November 17, 2026. It is designed for readers aged eleven to eighteen. Its aim is to connect nearby water questions with concerns shared around the world.",
+      "translation": "一份新的免費指南邀請年輕人探索社區裡的淡水。史密森尼科學教育中心於 2026 年 11 月 17 日發布這項公告。指南是為十一至十八歲的讀者設計的，目標是把身邊的水資源問題與世界各地共同關心的議題連結起來。"
+    },
+    {
+      "english": "According to the center, teachers and students tried the guide in more than thirty educational settings. These included places in Panama, Uganda, and France. They used donated kits to test water quality. This gives readers information about how the guide was tried, rather than a promise about every future classroom.",
+      "translation": "根據該中心的說明，教師與學生曾在三十多個教育場域試用這份指南，包括巴拿馬、烏干達和法國的場域。他們使用捐贈的工具組檢測水質。這讓讀者知道指南如何經過試用，而不是對未來每一間教室作出保證。"
+    },
+    {
+      "english": "The activities bring together natural and social sciences. Readers are encouraged to investigate water issues and develop possible solutions. The guide therefore moves from understanding a problem toward taking action. Its learning goal is broader than simply remembering facts about water.",
+      "translation": "活動結合自然科學與社會科學，鼓勵讀者探究水資源議題，並提出可能的解決方式。因此，指南從理解問題進一步走向採取行動；它的學習目標比單純記住水的相關事實更廣。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "freshwater",
+      "translation": "淡水"
+    },
+    {
+      "english": "communities",
+      "translation": "社區"
+    },
+    {
+      "english": "donated",
+      "translation": "捐贈的"
+    },
+    {
+      "english": "investigate",
+      "translation": "探究；調查"
+    },
+    {
+      "english": "solutions",
+      "translation": "解決方式"
+    }
+  ],
+  "questions": [
+    {
+      "question": "第一段的主要消息是什麼？指南適合誰？",
+      "answer": "史密森尼科學教育中心公告一份免費淡水研究指南，為十一至十八歲讀者設計，連結地方與全球的水資源問題。"
+    },
+    {
+      "question": "第二段與第一段有什麼關係？哪個詞組標示消息來自誰？",
+      "answer": "第一段介紹指南與目標；第二段補充試用情況。According to the center 把試用資訊歸屬於中心，不是作者親自驗證每個場域。"
+    },
+    {
+      "question": "從第二段的 used ... to test water quality，如何猜 kits 的意思？",
+      "answer": "它們被用來檢測水質，所以 kits 在這裡是檢測用的工具組，不是一般書籍。"
+    },
+    {
+      "question": "可以推論這份指南只要求背誦知識嗎？請用第三段支持判斷。",
+      "answer": "不可以。investigate、develop possible solutions 與 taking action 說明它還鼓勵探究、提出解方與行動；這是設計目標，並非保證所有讀者都有相同成果。"
+    }
+  ]
+}

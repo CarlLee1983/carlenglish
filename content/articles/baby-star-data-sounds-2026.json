@@ -1,0 +1,72 @@
+{
+  "id": "baby-star-data-sounds-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "星星的聲音，真的是錄音嗎？",
+  "titleEn": "Telescope data becomes sound in new star album",
+  "source": {
+    "outlet": "NASA",
+    "title": "New Album of Baby Star Sounds Shared by NASA’s Chandra",
+    "url": "https://science.nasa.gov/missions/chandra/new-album-of-baby-star-sounds-shared-by-nasas-chandra/",
+    "publishedAt": "2026-11-17",
+    "accessedAt": "2026-11-20",
+    "eventDate": "2026-11-17",
+    "rewrittenAt": "2026-11-20"
+  },
+  "background": "建議接在「關心水資源，可以從住家附近開始嗎？」之後，也可獨立閱讀。目標：藉上下文理解資料轉換，分辨觀測與呈現方式。NASA 於 2026 年 11 月 17 日介紹四個新聲音化作品，頁面於 11 月 18 日更新；事件日期採發表日，不是恆星誕生或望遠鏡觀測日。Chandra（錢卓拉）是 X 射線太空望遠鏡。本文只做閱讀練習，沒有附音檔，也不聲稱已實聽。",
+  "paragraphs": [
+    {
+      "english": "NASA has shared four new pieces that turn observations of young stars into sound. The agency introduced the collection on November 17, 2026. It uses data from the Chandra X-ray Observatory and other telescopes. The project gives people another way to explore places where stars are forming.",
+      "translation": "NASA 分享了四個把年輕恆星觀測資料轉成聲音的新作品。該機構於 2026 年 11 月 17 日介紹這組作品，使用錢卓拉 X 射線天文台及其他望遠鏡的資料。這項計畫讓人們多一種方式探索恆星正在形成的區域。"
+    },
+    {
+      "english": "This process is called sonification: information is translated into sounds we can hear. In one piece, a scan moves across a view of the galaxy M82. Brighter sources become louder sounds. Different kinds of light also receive different sounds. For example, the X-ray data uses the highest range of sound frequencies.",
+      "translation": "這個過程稱為聲音化：把資訊轉換成人耳可聽見的聲音。在其中一個作品裡，掃描會移過 M82 星系的影像。較明亮的來源會轉成較大的音量，不同種類的光也會配上不同聲音。例如，X 射線資料使用最高的聲音頻率範圍。"
+    },
+    {
+      "english": "These choices connect features in the observations with features in the audio. The result is a sound version of telescope data. Listeners should therefore distinguish this process from recording a star with a microphone. Understanding how the sounds were made helps explain what the collection represents.",
+      "translation": "這些安排把觀測資料的特徵與音訊的特徵連結起來，產生望遠鏡資料的聲音版本。因此，聽眾應區分這個過程與用麥克風替恆星錄音的差異。了解聲音如何製作，有助於解釋這組作品所呈現的內容。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "observations",
+      "translation": "觀測資料；觀測"
+    },
+    {
+      "english": "collection",
+      "translation": "一組作品"
+    },
+    {
+      "english": "sonification",
+      "translation": "聲音化；將資料轉成聲音"
+    },
+    {
+      "english": "sources",
+      "translation": "來源"
+    },
+    {
+      "english": "represents",
+      "translation": "呈現；代表"
+    }
+  ],
+  "questions": [
+    {
+      "question": "第一段的主要消息是發現四顆新恆星，還是分享四個新作品？",
+      "answer": "分享四個把恆星觀測資料轉成聲音的新作品；four new pieces 指作品數，不能當作新發現恆星的數量。"
+    },
+    {
+      "question": "第二段與第一段有什麼關係？",
+      "answer": "第一段交代新作品及資料來源；第二段解釋製作過程，再用 M82 的明亮程度、音量及光的種類作具體例子。"
+    },
+    {
+      "question": "哪個上下文線索可以幫你猜 sonification？",
+      "answer": "冒號後的 information is translated into sounds we can hear 直接解釋它是把資訊轉為可聽聲音的過程。"
+    },
+    {
+      "question": "在 M82 作品聽到較大音量，能推論望遠鏡放了麥克風嗎？較大音量表示什麼？",
+      "answer": "不能。第二段說較明亮的來源被轉為較大音量，第三段指出這是資料的聲音版本；音量對應亮度，不是恆星原本發出的聲音錄音。"
+    }
+  ]
+}
