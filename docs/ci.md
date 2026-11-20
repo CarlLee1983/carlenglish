@@ -101,3 +101,11 @@ pnpm run verify
 若回復本次 CI 改動，還原 workflow、驗證 scripts、測試選擇器及文件，即回到單 job 完整 `verify`；內容及讀者資料不需要回復。任一 artifact／SHA／gate 不符就停止發布，保留現行線上版本，不以跳過檢查來恢復。
 
 依據：[Playwright sharding](https://playwright.dev/docs/test-sharding)、[GitHub reusable workflows](https://docs.github.com/en/actions/how-tos/reuse-automations/reuse-workflows)、[同 workflow 傳遞 artifacts](https://docs.github.com/en/actions/tutorials/store-and-share-data)。
+
+## AWS runner 的 Ubuntu 區域鏡像（2026-11-20）
+
+[PR #32 的 CI 44670651329，WebKit 第 2 分片](https://github.com/CarlLee1983/carlenglish/actions/runs/44670651329/job/136070915295)再次在安裝步驟逾時。這次透過 GitHub connector 成功取得該新 job 的完整日誌：runner 為 AWS us-east-1，Ubuntu 24.04.5、image 20261111.127.1；`Use official Ubuntu archive` 已成功，但實際 APT 仍採 `http://us-east-2.ec2.archive.ubuntu.com/ubuntu`。下載 126 MB 的 181 個新套件時持續出現數十秒至約兩分鐘的間隔，最後五分鐘期限到達，尚未開始 WebKit 下載或測試。這是新 job 的取證，沒有重試先前回 Forbidden 的舊 job 日誌。
+
+原因是既有轉換只識別 Azure archive；AWS runner 的區域 EC2 archive 保留了較高優先權，印出的「official archive configured」不能證明實際下載已選到它。`useUbuntuArchive` 現在也精確辨識 AWS 區域 EC2 archive 的完整 HTTP／HTTPS URL token，轉至既有 `https://archive.ubuntu.com/ubuntu`。保留 security 與其他來源、priority、尾端斜線、縮排、CRLF、APT suites、components、keyring 及簽章驗證；不接受相似網域或路徑前綴。這是同一 Ubuntu 套件來源的下載鏡像調整，不改套件版本、安裝範圍或應用程式。
+
+七項轉換測試涵蓋 Azure、AWS region、HTTPS、混合優先序、安全更新來源、可重入、註解及相似 URL 的拒絕。工作流、Playwright 指令、五分鐘安裝期限、瀏覽器 projects／分片、測試斷言及總閘門全部不變。完整遠端驗證結果綁定 PR 的新 head，不能由轉換單元測試推定已修復下載服務。

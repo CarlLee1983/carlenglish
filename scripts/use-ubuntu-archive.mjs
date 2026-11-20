@@ -4,10 +4,10 @@ import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 export function useUbuntuArchive(contents) {
-  const azure = /^([ \t]*)http:\/\/azure\.archive\.ubuntu\.com\/ubuntu(\/?)(?=[ \t\r\n]|$)/gm;
-  const updated = contents.replace(azure, '$1https://archive.ubuntu.com/ubuntu$2');
+  const cloudArchive = /^([ \t]*)https?:\/\/(?:azure|[a-z]{2}(?:-[a-z]+){1,2}-[0-9]+\.ec2)\.archive\.ubuntu\.com\/ubuntu(\/?)(?=[ \t\r\n]|$)/gm;
+  const updated = contents.replace(cloudArchive, '$1https://archive.ubuntu.com/ubuntu$2');
   assert.match(updated, /^[ \t]*https:\/\/archive\.ubuntu\.com\/ubuntu\/?(?=[ \t\r\n]|$)/m,
-    'Expected an Azure Ubuntu archive or the configured official archive in the runner mirror list');
+    'Expected a supported Ubuntu cloud archive or the configured official archive in the runner mirror list');
   return updated;
 }
 
