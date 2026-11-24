@@ -1,0 +1,72 @@
+{
+  "id": "romanche-sunken-coral-atoll-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "大西洋深處的古老珊瑚環礁",
+  "titleEn": "Ocean team finds an ancient coral atoll deep in the Atlantic",
+  "source": {
+    "outlet": "Schmidt Ocean Institute",
+    "title": "Scientists Discover Sunken Prehistoric Coral Island Rich with Sea Life on Mid-Atlantic Ridge",
+    "url": "https://schmidtocean.org/scientists-discover-sunken-prehistoric-coral-island-rich-with-sea-life-on-mid-atlantic-ridge/",
+    "publishedAt": "2026-11-23",
+    "accessedAt": "2026-11-24",
+    "eventDate": "2026-10-29",
+    "rewrittenAt": "2026-11-24"
+  },
+  "background": "建議第二篇閱讀，也可獨立讀。目標是用前後線索還原調查順序，分辨觀察證據與保護推論。計畫頁列 10 月 29 日為航次結束日，個別發現日沒有載明，事件日期欄採航次結束日。成果公告於 11 月 23 日發布。約五百萬年是研究團隊公布的地質年代。",
+  "paragraphs": [
+    {
+      "english": "A research team has found an ancient coral atoll in the middle of the Atlantic Ocean. An atoll is a reef shaped like a ring. The Schmidt Ocean Institute announced the finding on November 23, 2026. The top of the old reef is now about 900 meters below the sea surface.",
+      "translation": "一支研究團隊在大西洋中部發現一座古老的珊瑚環礁。環礁是呈環狀的礁體。施密特海洋研究所於 2026 年 11 月 23 日公布這項發現。這座古老礁體的頂部如今位於海面下約 900 公尺。"
+    },
+    {
+      "english": "The scientists first used maps to locate the site. They then sent down a robot with cameras to examine the seafloor. The team found fossils of coral that had lived in shallow water. That evidence helps explain why scientists describe the structure as an old reef, even though it lies in deep water today.",
+      "translation": "科學家先用地圖找出位置，接著讓裝有攝影機的機器人下潛查看海床。團隊找到曾生活在淺水中的珊瑚化石。這項證據說明了為什麼科學家認為這是一座古老礁體，儘管它如今位在深水中。"
+    },
+    {
+      "english": "Living deep-sea corals now grow on top of the older structure. The team says its observations can help make a case for protecting the area. The finding shows what lives at the site. It does not by itself give the area protected status.",
+      "translation": "現在有活的深海珊瑚生長在較古老的礁體上。團隊表示，觀測結果可以用來支持保護該區域的提議。這項發現顯示了當地有哪些生物，但不會單憑這項發現就讓當地成為保護區。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "atoll",
+      "translation": "環礁"
+    },
+    {
+      "english": "locate",
+      "translation": "找出位置"
+    },
+    {
+      "english": "shallow water",
+      "translation": "淺水區"
+    },
+    {
+      "english": "observations",
+      "translation": "觀測結果"
+    },
+    {
+      "english": "protected status",
+      "translation": "受保護的地位"
+    }
+  ],
+  "questions": [
+    {
+      "question": "第一段最重要的消息是什麼？哪個數字說明它現在的位置？",
+      "answer": "研究團隊在大西洋中部找到一座古老珊瑚環礁。礁體頂部目前在海面下約 900 公尺。"
+    },
+    {
+      "question": "第一段和第二段各在回答什麼問題？first 和 then 提供什麼線索？",
+      "answer": "第一段說發現了什麼、在哪裡。第二段說怎麼找到、看見哪些證據。first 和 then 把先用地圖定位、再讓機器人下潛的順序標出來。"
+    },
+    {
+      "question": "如果不認識 atoll，哪一段哪一句可以讓你推測它的意思？",
+      "answer": "第一段第二句用 reef shaped like a ring 說明它是呈環狀的礁體。"
+    },
+    {
+      "question": "能從第三段判斷研究區已被列為保護區嗎？",
+      "answer": "不能。can help make a case 只說資料有助於支持保護提案，最後一句明示研究發現本身不等於取得保護地位。"
+    }
+  ]
+}

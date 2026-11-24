@@ -1,0 +1,72 @@
+{
+  "id": "jurassic-oceans-exhibition-extension-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "倫敦自然史博物館延長史前海洋展",
+  "titleEn": "London museum extends its prehistoric ocean exhibition",
+  "source": {
+    "outlet": "Natural History Museum, London",
+    "title": "Fearsome creatures are monster hit",
+    "url": "https://www.nhm.ac.uk/press-office/press-releases/fearsome-creatures-are-monster-hit.html",
+    "publishedAt": "2026-11-19",
+    "accessedAt": "2026-11-24",
+    "eventDate": "2026-11-19",
+    "rewrittenAt": "2026-11-24"
+  },
+  "background": "建議先讀這篇，再讀「大西洋深處的古老珊瑚環礁」。目標是看懂標題動詞與導言中的日期，區分公告日和展覽新結束日。11 月 19 日是延展公告日，不是開展日；展覽延長至 2027 年 2 月 21 日。N2 是本站教材編選級別，並非程度評量。",
+  "paragraphs": [
+    {
+      "english": "London’s Natural History Museum is keeping its Jurassic Oceans exhibition open longer. The museum announced the extension on November 19, 2026. The exhibition will now run until February 21, 2027. That later closing date gives families another chance to visit during a school break.",
+      "translation": "倫敦自然史博物館將延長「侏羅紀海洋」特展的展期。館方於 2026 年 11 月 19 日宣布延展。展覽將持續到 2027 年 2 月 21 日。延後閉展，讓家庭多了在學校假期參觀的機會。"
+    },
+    {
+      "english": "The exhibition looks at reptiles that lived in ancient seas. Visitors can examine fossils and feel what a shark’s skin is like. The museum also describes objects that people are allowed to touch. Those activities give visitors ways to explore the topic beyond looking through a glass case.",
+      "translation": "這個展覽介紹生活在古代海洋的爬行動物。參觀者可以觀察化石，也能感受鯊魚皮的觸感。館方還介紹了開放觸摸的物件。這些活動讓參觀者不必只隔著玻璃看展品，也能用其他方式認識主題。"
+    },
+    {
+      "english": "The museum says demand was the reason for keeping the show open. The temporary show has its own tickets. A separate gallery about fossil marine reptiles is free and permanent. Someone reading the announcement should therefore check which of the two displays it is talking about.",
+      "translation": "館方表示，因參觀需求而延長展期。這場特展需要另外購票。另一個介紹海生爬行動物化石的展廳則免費且常設。因此，讀到館方消息時，要看清楚它指的是哪一個展覽。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "exhibition",
+      "translation": "展覽"
+    },
+    {
+      "english": "extension",
+      "translation": "延展；延長"
+    },
+    {
+      "english": "run until",
+      "translation": "持續到"
+    },
+    {
+      "english": "temporary",
+      "translation": "臨時的；有展期的"
+    },
+    {
+      "english": "permanent",
+      "translation": "常設的"
+    }
+  ],
+  "questions": [
+    {
+      "question": "導言在報導哪一項變化？11 月 19 日和 2 月 21 日各代表什麼？",
+      "answer": "倫敦自然史博物館延長侏羅紀海洋特展。November 19, 2026 是宣布日期；February 21, 2027 是新的結束日期。"
+    },
+    {
+      "question": "第二段與第一段的關係是什麼？",
+      "answer": "第一段說展期延長；第二段補充展覽內容，讓讀者知道去看展可以做什麼。"
+    },
+    {
+      "question": "如果不熟悉 temporary，第三段哪個詞和它形成對照？第一段還有哪個時間線索？",
+      "answer": "第三段把 temporary 和 permanent 對照，第一段也給了 closing date，因此 temporary 指有期限、會結束的特展。"
+    },
+    {
+      "question": "一位只打算看免費陳列的讀者，能從文中推論應該找哪裡？",
+      "answer": "找免費且常設的 fossil marine reptiles gallery。延展公告談的是需要另外購票的特展，不能把兩者當成同一個展覽。"
+    }
+  ]
+}
