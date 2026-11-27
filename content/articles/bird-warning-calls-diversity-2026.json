@@ -1,0 +1,72 @@
+{
+  "id": "bird-warning-calls-diversity-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "聽見更多鳥種叫聲時，鳥群怎麼反應",
+  "titleEn": "Birds respond to warning calls from different species",
+  "source": {
+    "outlet": "Xi’an Jiaotong-Liverpool University",
+    "title": "Birds respond quicker to predators in habitats with greater species diversity",
+    "url": "https://www.xjtlu.edu.cn/en/news/2026/11/species-diversity-bird",
+    "publishedAt": "2026-11-25",
+    "accessedAt": "2026-11-27",
+    "eventDate": "2026-11-24",
+    "rewrittenAt": "2026-11-27"
+  },
+  "background": "建議讀完科博館篇再讀本篇，也可獨立閱讀。本篇 N2 練習區分野外觀察和播放實驗，再判斷結果能支持什麼。11 月 24 日是論文發表日，11 月 25 日是大學報導日；野外資料早在 2023–2025 的兩個年度週期收集。",
+  "paragraphs": [
+    {
+      "english": "Birds can learn about danger from the calls of other birds. In a study published on November 24, 2026, scientists looked at how those signals move through bird communities. They asked whether the number of species involved might change the strength of the response.",
+      "translation": "鳥可以從其他鳥的叫聲得知有危險。在 2026 年 11 月 24 日發表的研究中，科學家探討這些訊號如何在鳥群中傳遞。他們想知道參與的鳥種數是否會改變反應的強度。"
+    },
+    {
+      "english": "The team worked in ten nature reserves in China. They used models of predators and recorded the birds that called in response. In a separate experiment, they played recorded calls through speakers. Some recordings used calls from only one species. Others used calls from several species. This let the team change the mix that listening birds heard.",
+      "translation": "研究團隊在中國十處自然保護區進行研究。他們以掠食者模型觀察反應，錄下鳥兒的叫聲。在另一項實驗中，他們用喇叭播放錄音。有些錄音只有一種鳥的叫聲，有些則混合幾種鳥的叫聲。這樣團隊就能改變鳥兒聽到的聲音組合。"
+    },
+    {
+      "english": "On average, recordings with calls from more species drew larger groups of birds. The birds also called back sooner in those tests. That result helps explain how a mix of voices can spread news of danger. It does not show that birds in every habitat react in exactly the same way.",
+      "translation": "平均來說，含有較多鳥種叫聲的錄音會吸引更大的鳥群。鳥兒在這些測試中也比較早開始回應。這個結果有助於解釋多種鳥的叫聲如何傳遞危險訊息，但不能據此說所有棲地的鳥都會用完全相同的方式反應。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "danger",
+      "translation": "危險"
+    },
+    {
+      "english": "species",
+      "translation": "物種；此處指鳥種"
+    },
+    {
+      "english": "nature reserves",
+      "translation": "自然保護區"
+    },
+    {
+      "english": "predators",
+      "translation": "掠食者"
+    },
+    {
+      "english": "drew",
+      "translation": "吸引；draw 的過去式"
+    }
+  ],
+  "questions": [
+    {
+      "question": "研究者想回答的主要問題是什麼？",
+      "answer": "鳥群聽到的叫聲來自幾種鳥，是否會影響牠們對危險訊號的反應。"
+    },
+    {
+      "question": "哪些句子在說研究方法？第三段又扮演什麼角色？",
+      "answer": "第二段說明用掠食者模型觀察，以及另做錄音播放實驗。第三段說明播放結果和能推論的範圍。"
+    },
+    {
+      "question": "在 recordings ... drew larger groups 中，drew 是「畫出」還是「吸引」？為什麼？",
+      "answer": "是「吸引」。研究在播放叫聲後觀察鳥聚集和回應，句子沒有談畫圖。"
+    },
+    {
+      "question": "能用這篇文章斷言所有棲地的鳥都同樣反應嗎？",
+      "answer": "不能。第三段的 On average 限定是測試中的平均情況，最後一句也明確說範圍不包括每個棲地。"
+    }
+  ]
+}

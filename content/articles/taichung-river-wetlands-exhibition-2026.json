@@ -1,0 +1,72 @@
+{
+  "id": "taichung-river-wetlands-exhibition-2026",
+  "track": "news",
+  "stage": "N2",
+  "origin": "rewrite",
+  "title": "台中科博館從濁水溪談到臺灣濕地",
+  "titleEn": "Taichung museum starts with a river and looks beyond it",
+  "source": {
+    "outlet": "國立自然科學博物館",
+    "title": "臺灣科學節登場，科博館推出流働的埊特展等活動",
+    "url": "https://www.nmns.edu.tw/ch/information/news/News-002780/",
+    "publishedAt": "2026-11-04",
+    "accessedAt": "2026-11-27",
+    "eventDate": "2026-11-06",
+    "rewrittenAt": "2026-11-27"
+  },
+  "background": "兩篇皆為 N2；建議先讀本篇。目標是用日期和轉折詞讀懂「先聚焦一條河，再擴展到全臺」的段落安排。11 月 4 日是館方新聞日期，11 月 6 日是第一波開展日；依取用時館方資料，第二波預定於 12 月 2 日開展。",
+  "paragraphs": [
+    {
+      "english": "A science museum in Taichung is using one river to introduce a much larger subject. The first part of its exhibition opened on November 6, 2026. It focuses on the Zhuoshui River in central Taiwan. A second part, about wetlands across Taiwan, is due to open on December 2.",
+      "translation": "台中一座科學博物館以一條河帶出更廣的主題。特展的第一部分於 2026 年 11 月 6 日開展，聚焦臺灣中部的濁水溪。介紹臺灣各地濕地的第二部分預定於 12 月 2 日開展。"
+    },
+    {
+      "english": "The river section begins with photographs by Hsu Chen-tang. The museum uses his pictures alongside material about the land and the people who live there. Visitors can look at the river as a place that changes over time, rather than just a line on a map.",
+      "translation": "介紹濁水溪的展區以許震唐的攝影作品為起點。館方搭配土地及當地居民生活的資料呈現這些照片。參觀者可以把河流看成一個會隨時間變化的地方，而不只是一條地圖上的線。"
+    },
+    {
+      "english": "The second part widens that view. It asks visitors to explore different kinds of wet places and consider how people use them. In a wetland, water may cover the ground all year or only for part of it. The two parts share a theme, but each has its own opening date.",
+      "translation": "第二部分把視角放大，邀請參觀者探索不同類型的濕地，思考人們如何使用它們。在濕地，地面可能全年有水，也可能只有一年中的一段時間有水。兩部分主題相通，但各有不同的開展日期。"
+    }
+  ],
+  "glossary": [
+    {
+      "english": "exhibition",
+      "translation": "展覽"
+    },
+    {
+      "english": "focuses on",
+      "translation": "聚焦於"
+    },
+    {
+      "english": "due to open",
+      "translation": "預定開展"
+    },
+    {
+      "english": "widens",
+      "translation": "擴大"
+    },
+    {
+      "english": "wetland",
+      "translation": "濕地"
+    }
+  ],
+  "questions": [
+    {
+      "question": "這篇文章主要在介紹哪一件事？",
+      "answer": "台中科博館以濁水溪為起點，分兩部分讓讀者認識河流及臺灣濕地。"
+    },
+    {
+      "question": "第二段和第三段怎麼接在一起？",
+      "answer": "第二段先用一條河的照片和人的生活說明第一部分。第三段擴大範圍，介紹臺灣不同類型的濕地。"
+    },
+    {
+      "question": "不查字典，如何從前後文推測 widens 的意思？",
+      "answer": "前文只談一條河，後文談各種濕地，所以 widens 在這裡是「讓範圍變廣」。"
+    },
+    {
+      "question": "如果有人 11 月底去，能推論他已看得到兩部分嗎？請指出線索。",
+      "answer": "不能。第一部分 11 月 6 日已開展，第二部分用 is due to open on December 2，表示預定 12 月 2 日才開。"
+    }
+  ]
+}
